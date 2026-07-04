@@ -183,13 +183,33 @@
       "words": 5930,
       "paragraphs": 52,
       "stages": {
-        "extract": "pending",
+        "extract": "done",
         "verify": "pending",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 132,
+          "needs_verification": 107,
+          "by_type": {
+            "event": 68,
+            "interpretive": 15,
+            "biographical": 13,
+            "attributed_quote": 12,
+            "theological": 10,
+            "causal": 9,
+            "statistic": 4,
+            "date": 1
+          },
+          "zero_claim_paras": [
+            37,
+            38,
+            39
+          ]
+        }
+      },
+      "updated_at": "2026-07-04T15:48:36Z"
     },
     "06": {
       "title": "Huss and Jerome",

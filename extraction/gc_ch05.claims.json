@@ -1,0 +1,1225 @@
+{
+  "chapter": 5,
+  "chapter_title": "John Wycliffe",
+  "stage": "extraction",
+  "generated_at": "2026-07-04",
+  "claims": [
+    {
+      "id": "GC-05-001",
+      "paragraph": 1,
+      "quote": "Before the Reformation, there were at times but very few copies of the Bible in existence; but God had not suffered His word to be wholly destroyed.",
+      "claim_text": "Before the Reformation there were at times only very few copies of the Bible in existence.",
+      "claim_type": "statistic",
+      "entities": ["Bible", "Reformation"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-002",
+      "paragraph": 1,
+      "quote": "In the different countries of Europe men were moved by the Spirit of God to search for the truth as for hid treasures.",
+      "claim_text": "Men in different countries of Europe were moved by the Spirit of God to search the Scriptures for truth before the Reformation.",
+      "claim_type": "theological",
+      "entities": ["Europe", "Spirit of God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-05-003",
+      "paragraph": 2,
+      "quote": "Except among the Waldenses, the word of God had for ages been locked up in languages known only to the learned; but the time had come for the Scriptures to be translated, and given to the people of different lands in their native tongue.",
+      "claim_text": "Before the fourteenth century, the Waldenses were the only group among whom the Scriptures were not locked up in languages known only to the learned.",
+      "claim_type": "event",
+      "entities": ["Waldenses", "Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-004",
+      "paragraph": 3,
+      "quote": "In the fourteenth century arose in England the “morning star of the Reformation.” John Wycliffe was the herald of reform, not for England alone, but for all Christendom.",
+      "claim_text": "John Wycliffe arose in England in the fourteenth century as a herald of religious reform.",
+      "claim_type": "date",
+      "entities": ["John Wycliffe", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-005",
+      "paragraph": 3,
+      "quote": "In the fourteenth century arose in England the “morning star of the Reformation.”",
+      "claim_text": "John Wycliffe is known by the epithet \"morning star of the Reformation\".",
+      "claim_type": "biographical",
+      "entities": ["John Wycliffe"],
+      "needs_verification": true,
+      "extractor_note": "Epithet given in quotation marks in the source; checkable as an established historiographical designation."
+    },
+    {
+      "id": "GC-05-006",
+      "paragraph": 3,
+      "quote": "That protest opened the struggle which was to result in the emancipation of individuals, of churches, and of nations.",
+      "claim_text": "Wycliffe's protest against Rome opened the struggle that resulted in the emancipation of individuals, churches, and nations.",
+      "claim_type": "interpretive",
+      "entities": ["John Wycliffe", "Rome"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-05-007",
+      "paragraph": 4,
+      "quote": "Wycliffe received a liberal education, and with him the fear of the Lord was the beginning of wisdom. He was noted at college for his fervent piety as well as for his remarkable talents and sound scholarship.",
+      "claim_text": "Wycliffe received a liberal education and was noted at college for piety, talents, and scholarship.",
+      "claim_type": "biographical",
+      "entities": ["John Wycliffe"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-008",
+      "paragraph": 4,
+      "quote": "He was educated in the scholastic philosophy, in the canons of the church, and in the civil law, especially that of his own country.",
+      "claim_text": "Wycliffe was educated in scholastic philosophy, church canon law, and civil law, especially English civil law.",
+      "claim_type": "biographical",
+      "entities": ["John Wycliffe"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-009",
+      "paragraph": 4,
+      "quote": "The power of his genius and the extent and thoroughness of his knowledge commanded the respect of both friends and foes.",
+      "claim_text": "Wycliffe's genius and knowledge commanded the respect of both friends and foes, and he stood foremost among the leading minds of England.",
+      "claim_type": "interpretive",
+      "entities": ["John Wycliffe"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-05-010",
+      "paragraph": 5,
+      "quote": "While Wycliffe was still at college, he entered upon the study of the Scriptures.",
+      "claim_text": "Wycliffe entered upon the study of the Scriptures while still at college.",
+      "claim_type": "biographical",
+      "entities": ["John Wycliffe"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-011",
+      "paragraph": 5,
+      "quote": "In those early times, when the Bible existed only in the ancient languages, scholars were enabled to find their way to the fountain of truth, which was closed to the uneducated classes.",
+      "claim_text": "In Wycliffe's student days the Bible existed only in the ancient languages, accessible to scholars but closed to the uneducated classes.",
+      "claim_type": "event",
+      "entities": ["Bible", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-012",
+      "paragraph": 6,
+      "quote": "Men of learning had studied the word of God, and had found the great truth of His free grace there revealed. In their teachings they had spread a knowledge of this truth, and had led others to turn to the Living Oracles.",
+      "claim_text": "Before Wycliffe, learned men had studied the Bible, found the doctrine of free grace, and spread knowledge of it.",
+      "claim_type": "interpretive",
+      "entities": ["Bible"],
+      "needs_verification": false,
+      "extractor_note": "Borderline historical assertion, but no named actors or dates; kept as interpretive."
+    },
+    {
+      "id": "GC-05-013",
+      "paragraph": 7,
+      "quote": "In the word of God he found that which he had before sought in vain. Here he saw the plan of salvation revealed, and Christ set forth as the only advocate for man. He gave himself to the service of Christ, and determined to proclaim the truths he had discovered.",
+      "claim_text": "Through study of the Bible Wycliffe experienced a personal conversion, gave himself to the service of Christ, and determined to proclaim what he had found.",
+      "claim_type": "interpretive",
+      "entities": ["John Wycliffe"],
+      "needs_verification": false,
+      "extractor_note": "Inner-life narrative; not externally checkable as framed."
+    },
+    {
+      "id": "GC-05-014",
+      "paragraph": 8,
+      "quote": "He did not set himself deliberately in opposition to Rome.",
+      "claim_text": "At the opening of his work Wycliffe did not deliberately set himself in opposition to Rome and did not foresee where his work would lead.",
+      "claim_type": "interpretive",
+      "entities": ["John Wycliffe", "Rome"],
+      "needs_verification": false,
+      "extractor_note": "Borderline biographical-psychological claim."
+    },
+    {
+      "id": "GC-05-015",
+      "paragraph": 8,
+      "quote": "He saw that Rome had forsaken the word of God for human tradition; he fearlessly accused the priesthood of having banished the Scriptures, and demanded that the Bible be restored to the people, and that its authority be again established in the church.",
+      "claim_text": "Wycliffe publicly accused the priesthood of having banished the Scriptures and demanded that the Bible be restored to the people and its authority re-established in the church.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "Rome", "Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-016",
+      "paragraph": 8,
+      "quote": "Many of the people had become dissatisfied with their former faith, as they saw the iniquity that prevailed in the Roman Church, and they hailed with unconcealed joy the truths brought to view by Wycliffe; but the papal leaders were filled with rage when they perceived that this Reformer was gaining an influence greater than their own.",
+      "claim_text": "Many English people welcomed Wycliffe's teachings, while papal leaders were enraged that his influence was exceeding their own.",
+      "claim_type": "interpretive",
+      "entities": ["John Wycliffe", "England", "Roman Church"],
+      "needs_verification": false,
+      "extractor_note": "Borderline: popular reception of Wycliffe is checkable in general terms, but the sentence is framed as sweeping characterization."
+    },
+    {
+      "id": "GC-05-017",
+      "paragraph": 9,
+      "quote": "While acting as chaplain for the king, he took a bold stand against the payment of tribute claimed by the pope from the English monarch, and showed that the papal assumption of authority over secular rulers was contrary to both reason and revelation.",
+      "claim_text": "Wycliffe acted as chaplain for the English king.",
+      "claim_type": "biographical",
+      "entities": ["John Wycliffe", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-018",
+      "paragraph": 9,
+      "quote": "While acting as chaplain for the king, he took a bold stand against the payment of tribute claimed by the pope from the English monarch, and showed that the papal assumption of authority over secular rulers was contrary to both reason and revelation.",
+      "claim_text": "Wycliffe took a public stand against the payment of the tribute claimed by the pope from the English monarch, arguing that papal authority over secular rulers was contrary to reason and revelation.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "pope", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-019",
+      "paragraph": 9,
+      "quote": "The king and the nobles united in denying the pontiff’s claim to temporal authority, and in refusing the payment of the tribute.",
+      "claim_text": "The English king and nobles united in denying the pope's claim to temporal authority and refused payment of the papal tribute.",
+      "claim_type": "event",
+      "entities": ["England", "pope"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-020",
+      "paragraph": 9,
+      "quote": "The demands of the pope had excited great indignation, and Wycliffe’s teachings exerted an influence upon the leading minds of the nation. The king and the nobles united in denying the pontiff’s claim to temporal authority, and in refusing the payment of the tribute. Thus an effectual blow was struck against the papal supremacy in England.",
+      "claim_text": "Wycliffe's teachings influenced the leading minds of England toward the refusal of the papal tribute, and that refusal struck an effectual blow against papal supremacy in England.",
+      "claim_type": "causal",
+      "entities": ["John Wycliffe", "England", "papacy"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-021",
+      "paragraph": 10,
+      "quote": "Another evil against which the Reformer waged long and resolute battle, was the institution of the orders of mendicant friars.",
+      "claim_text": "Wycliffe waged a long and resolute battle against the institution of the orders of mendicant friars.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "mendicant friars"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-022",
+      "paragraph": 10,
+      "quote": "These friars swarmed in England, casting a blight upon the greatness and prosperity of the nation. Industry, education, morals, all felt the withering influence.",
+      "claim_text": "Mendicant friars were present in England in very large numbers in Wycliffe's time and harmed the nation's industry, education, and morals.",
+      "claim_type": "event",
+      "entities": ["mendicant friars", "England"],
+      "needs_verification": true,
+      "extractor_note": "Combines a checkable presence/scale assertion with evaluative characterization of harm."
+    },
+    {
+      "id": "GC-05-023",
+      "paragraph": 10,
+      "quote": "By the influence of the friars many were induced to enter a cloister and devote themselves to a monastic life, and this not only without the consent of their parents, but even without their knowledge, and contrary to their commands.",
+      "claim_text": "Through the friars' influence many young people in England entered cloisters without their parents' consent or knowledge, and contrary to parental commands.",
+      "claim_type": "event",
+      "entities": ["mendicant friars", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-024",
+      "paragraph": 10,
+      "quote": "One of the early Fathers of the Roman Church, urging the claims of monasticism above the obligations of filial love and duty, had declared: “Though thy father should lie before thy door, weeping and lamenting, and thy mother should show the body that bore thee and the breasts that nursed thee, see that thou trample them under foot, and go onward straightway to Christ.”",
+      "claim_text": "One of the early Fathers of the Roman Church declared: \"Though thy father should lie before thy door, weeping and lamenting, and thy mother should show the body that bore thee and the breasts that nursed thee, see that thou trample them under foot, and go onward straightway to Christ.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Church Fathers", "monasticism"],
+      "needs_verification": true,
+      "extractor_note": "Speaker unnamed in the text; the passage is footnoted via source-ref (111) attached to the following sentence."
+    },
+    {
+      "id": "GC-05-025",
+      "paragraph": 10,
+      "quote": "By this “monstrous inhumanity,” as Luther afterward styled it, “savoring more of the wolf and the tyrant than of the Christian and the man,” were the hearts of children steeled against their parents.(111)",
+      "claim_text": "Luther described the church father's saying on trampling parents as \"monstrous inhumanity\" \"savoring more of the wolf and the tyrant than of the Christian and the man\".",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther"],
+      "needs_verification": true,
+      "extractor_note": "Carries source-ref (111)."
+    },
+    {
+      "id": "GC-05-026",
+      "paragraph": 11,
+      "quote": "Even the students in the universities were deceived by the false representations of the monks, and induced to join their orders. Many afterward repented this step, seeing that they had blighted their own lives, and had brought sorrow upon their parents; but once fast in the snare, it was impossible for them to obtain their freedom.",
+      "claim_text": "University students in England were induced by the monks' representations to join mendicant orders and afterward could not obtain release from them.",
+      "claim_type": "event",
+      "entities": ["mendicant friars", "England", "universities"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-027",
+      "paragraph": 11,
+      "quote": "Many parents, fearing the influence of the monks, refused to send their sons to the universities. There was a marked falling off in the number of students in attendance at the great centers of learning. The schools languished, and ignorance prevailed.",
+      "claim_text": "Fear of the friars' influence led many English parents to keep their sons from the universities, producing a marked decline in student attendance at the great centers of learning.",
+      "claim_type": "causal",
+      "entities": ["mendicant friars", "England", "universities"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-028",
+      "paragraph": 12,
+      "quote": "The pope had bestowed on these monks the power to hear confessions and to grant pardon.",
+      "claim_text": "The pope had granted the mendicant friars the power to hear confessions and to grant pardon.",
+      "claim_type": "event",
+      "entities": ["pope", "mendicant friars"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-029",
+      "paragraph": 12,
+      "quote": "Bent on enhancing their gains, the friars were so ready to grant absolution that criminals of all descriptions resorted to them, and as a result, the worst vices rapidly increased.",
+      "claim_text": "The friars' readiness to grant absolution for gain attracted criminals of all descriptions and caused a rapid increase of vice.",
+      "claim_type": "causal",
+      "entities": ["mendicant friars"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-030",
+      "paragraph": 12,
+      "quote": "Notwithstanding their profession of poverty, the wealth of the friars was constantly increasing, and their magnificent edifices and luxurious tables made more apparent the growing poverty of the nation.",
+      "claim_text": "Despite their profession of poverty, the friars' wealth constantly increased, and they possessed magnificent edifices and luxurious tables.",
+      "claim_type": "event",
+      "entities": ["mendicant friars", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-031",
+      "paragraph": 12,
+      "quote": "And while spending their time in luxury and pleasure, they sent out in their stead ignorant men, who could only recount marvelous tales, legends, and jests to amuse the people, and make them still more completely the dupes of the monks.",
+      "claim_text": "The friars sent out in their stead ignorant men who entertained the people with marvelous tales, legends, and jests.",
+      "claim_type": "event",
+      "entities": ["mendicant friars"],
+      "needs_verification": true,
+      "extractor_note": "Borderline: sweeping characterization but describes a checkable preaching practice."
+    },
+    {
+      "id": "GC-05-032",
+      "paragraph": 12,
+      "quote": "Yet the friars continued to maintain their hold on the superstitious multitudes, and led them to believe that all religious duty was comprised in acknowledging the supremacy of the pope, adoring the saints, and making gifts to the monks, and that this was sufficient to secure them a place in heaven.",
+      "claim_text": "The friars taught the people that all religious duty consisted in acknowledging papal supremacy, adoring the saints, and making gifts to the monks, and that this sufficed to secure a place in heaven.",
+      "claim_type": "interpretive",
+      "entities": ["mendicant friars", "pope"],
+      "needs_verification": false,
+      "extractor_note": "Borderline: a sweeping attribution of teaching content; kept interpretive."
+    },
+    {
+      "id": "GC-05-033",
+      "paragraph": 13,
+      "quote": "Men of learning and piety had labored in vain to bring about a reform in these monastic orders; but Wycliffe, with clearer insight, struck at the root of the evil, declaring that the system itself was false, and that it should be abolished.",
+      "claim_text": "Wycliffe declared that the mendicant-friar system itself was false and should be abolished, going beyond earlier attempts merely to reform the orders.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "mendicant friars"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-034",
+      "paragraph": 13,
+      "quote": "As the monks traversed the country, vending the pope’s pardons, many were led to doubt the possibility of purchasing forgiveness with money, and they questioned whether they should not seek pardon from God rather than from the pontiff of Rome.(112)",
+      "claim_text": "Monks traversed England selling the pope's pardons, and many people came to doubt that forgiveness could be purchased with money.",
+      "claim_type": "event",
+      "entities": ["mendicant friars", "pope", "England"],
+      "needs_verification": true,
+      "extractor_note": "Carries source-ref (112)."
+    },
+    {
+      "id": "GC-05-035",
+      "paragraph": 13,
+      "quote": "“The monks and priests of Rome,” said they, “are eating us away like a cancer. God must deliver us, or the people will perish.”(113)",
+      "claim_text": "English contemporaries of Wycliffe said: \"The monks and priests of Rome are eating us away like a cancer. God must deliver us, or the people will perish.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["England", "mendicant friars"],
+      "needs_verification": true,
+      "extractor_note": "Attributed to unnamed contemporaries (\"said they\"); carries source-ref (113)."
+    },
+    {
+      "id": "GC-05-036",
+      "paragraph": 13,
+      "quote": "To cover their avarice, these begging monks claimed that they were following the Saviour’s example, declaring that Jesus and His disciples had been supported by the charities of the people.",
+      "claim_text": "The mendicant friars justified their begging by claiming to follow the example of Jesus and His disciples, whom they said the charities of the people had supported.",
+      "claim_type": "event",
+      "entities": ["mendicant friars"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-037",
+      "paragraph": 13,
+      "quote": "This claim resulted in injury to their cause, for it led many to the Bible to learn the truth for themselves,—a result which of all others was least desired by Rome.",
+      "claim_text": "The friars' appeal to the example of Jesus led many people to the Bible to examine the claim for themselves, injuring the friars' cause.",
+      "claim_type": "causal",
+      "entities": ["mendicant friars", "Bible", "Rome"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-038",
+      "paragraph": 14,
+      "quote": "Wycliffe began to write and publish tracts against the friars, not, however, seeking so much to enter into dispute with them as to call the minds of the people to the teachings of the Bible and its Author.",
+      "claim_text": "Wycliffe wrote and published tracts against the friars.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "mendicant friars"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-039",
+      "paragraph": 14,
+      "quote": "He declared that the power of pardon or of excommunication is possessed by the pope in no greater degree than by common priests, and that no man can be truly excommunicated unless he has first brought upon himself the condemnation of God.",
+      "claim_text": "Wycliffe taught that the pope possesses the power of pardon or excommunication in no greater degree than common priests, and that no man can be truly excommunicated unless he has first brought God's condemnation on himself.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "pope"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-040",
+      "paragraph": 15,
+      "quote": "Again Wycliffe was called to defend the rights of the English crown against the encroachments of Rome; and being appointed a royal ambassador, he spent two years in the Netherlands, in conference with the commissioners of the pope.",
+      "claim_text": "Wycliffe was appointed a royal ambassador and spent two years in the Netherlands in conference with the commissioners of the pope.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "Netherlands", "pope", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-041",
+      "paragraph": 15,
+      "quote": "Here he was brought into communication with ecclesiastics from France, Italy, and Spain, and he had an opportunity to look behind the scenes, and gain a knowledge of many things which would have remained hidden from him in England.",
+      "claim_text": "During his embassy in the Netherlands Wycliffe was brought into communication with ecclesiastics from France, Italy, and Spain.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "Netherlands", "France", "Italy", "Spain"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-042",
+      "paragraph": 15,
+      "quote": "He returned to England to repeat his former teachings more openly and with greater zeal, declaring that covetousness, pride, and deception were the gods of Rome.",
+      "claim_text": "After returning to England from his embassy, Wycliffe declared that covetousness, pride, and deception were the gods of Rome.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "England", "Rome"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-043",
+      "paragraph": 16,
+      "quote": "In one of his tracts he said, speaking of the pope and his collectors: “They draw out of our land poor men’s livelihood, and many thousand marks, by the year, of the king’s money, for sacraments and spiritual things, that is cursed heresy of simony, and maketh all Christendom assent and maintain this heresy. And certes though our realm had a huge hill of gold, and never other man took thereof but only this proud worldly priest’s collector, by process of time this hill must be spended; for he taketh ever money out of our land, and sendeth naught again but God’s curse for his simony.”(114)",
+      "claim_text": "In one of his tracts Wycliffe wrote of the pope and his collectors: \"They draw out of our land poor men's livelihood, and many thousand marks, by the year, of the king's money, for sacraments and spiritual things ... for he taketh ever money out of our land, and sendeth naught again but God's curse for his simony.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["John Wycliffe", "pope", "England"],
+      "needs_verification": true,
+      "extractor_note": "Carries source-ref (114). Quote itself contains the quantitative assertion 'many thousand marks by the year'."
+    },
+    {
+      "id": "GC-05-044",
+      "paragraph": 17,
+      "quote": "Soon after his return to England, Wycliffe received from the king the appointment to the rectory of Lutterworth.",
+      "claim_text": "Soon after returning to England from his embassy, Wycliffe received from the king the appointment to the rectory of Lutterworth.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "Lutterworth", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-045",
+      "paragraph": 17,
+      "quote": "Wycliffe’s influence was felt in shaping the action of the court, as well as in moulding the belief of the nation.",
+      "claim_text": "Wycliffe's influence shaped the action of the English royal court and moulded the belief of the nation.",
+      "claim_type": "causal",
+      "entities": ["John Wycliffe", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-046",
+      "paragraph": 18,
+      "quote": "Three bulls were dispatched to England,—to the university, to the king, and to the prelates,—all commanding immediate and decisive measures to silence the teacher of heresy.(115)",
+      "claim_text": "Three papal bulls were dispatched to England — to the university, to the king, and to the prelates — commanding immediate and decisive measures to silence Wycliffe as a teacher of heresy.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "England", "papacy"],
+      "needs_verification": true,
+      "extractor_note": "Carries source-ref (115)."
+    },
+    {
+      "id": "GC-05-047",
+      "paragraph": 18,
+      "quote": "Before the arrival of the bulls, however, the bishops, in their zeal, had summoned Wycliffe before them for trial.",
+      "claim_text": "Before the papal bulls arrived, English bishops summoned Wycliffe before them for trial.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-048",
+      "paragraph": 18,
+      "quote": "But two of the most powerful princes in the kingdom accompanied him to the tribunal; and the people, surrounding the building and rushing in, so intimidated the judges that the proceedings were for the time suspended, and he was allowed to go his way in peace.",
+      "claim_text": "Two of the most powerful princes in the English kingdom accompanied Wycliffe to his trial before the bishops.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-049",
+      "paragraph": 18,
+      "quote": "But two of the most powerful princes in the kingdom accompanied him to the tribunal; and the people, surrounding the building and rushing in, so intimidated the judges that the proceedings were for the time suspended, and he was allowed to go his way in peace.",
+      "claim_text": "At Wycliffe's first trial the people surrounded the building and rushed in, intimidating the judges so that the proceedings were suspended and Wycliffe was allowed to leave in peace.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-050",
+      "paragraph": 18,
+      "quote": "A little later, Edward III., whom in his old age the prelates were seeking to influence against the Reformer, died, and Wycliffe’s former protector became regent of the kingdom.",
+      "claim_text": "Edward III of England, whom the prelates in his old age were seeking to influence against Wycliffe, died shortly after Wycliffe's first trial.",
+      "claim_type": "event",
+      "entities": ["Edward III", "England", "John Wycliffe"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-051",
+      "paragraph": 18,
+      "quote": "A little later, Edward III., whom in his old age the prelates were seeking to influence against the Reformer, died, and Wycliffe’s former protector became regent of the kingdom.",
+      "claim_text": "After the death of Edward III, Wycliffe's former protector became regent of the English kingdom.",
+      "claim_type": "event",
+      "entities": ["Edward III", "England", "John Wycliffe"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-052",
+      "paragraph": 19,
+      "quote": "But the arrival of the papal bulls laid upon all England a peremptory command for the arrest and imprisonment of the heretic.",
+      "claim_text": "The papal bulls, on arrival, laid upon all England a peremptory command for the arrest and imprisonment of Wycliffe.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "England", "papacy"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-053",
+      "paragraph": 19,
+      "quote": "But He who declared to one of old, “Fear not: I am thy shield,”(116) again stretched out His hand to protect His servant.",
+      "claim_text": "God stretched out His hand to protect Wycliffe from arrest.",
+      "claim_type": "theological",
+      "entities": ["God", "John Wycliffe"],
+      "needs_verification": false,
+      "extractor_note": "Carries source-ref (116), a biblical citation."
+    },
+    {
+      "id": "GC-05-054",
+      "paragraph": 19,
+      "quote": "Gregory XI. died, and the ecclesiastics who had assembled for Wycliffe’s trial, dispersed.",
+      "claim_text": "Pope Gregory XI, who had decreed measures against Wycliffe, died before Wycliffe could be tried, and the ecclesiastics assembled for the trial dispersed.",
+      "claim_type": "event",
+      "entities": ["Gregory XI", "John Wycliffe"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-055",
+      "paragraph": 20,
+      "quote": "God’s providence still further overruled events to give opportunity for the growth of the Reformation.",
+      "claim_text": "God's providence overruled events after Gregory XI's death to give opportunity for the growth of the Reformation.",
+      "claim_type": "theological",
+      "entities": ["God", "Reformation"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-05-056",
+      "paragraph": 20,
+      "quote": "The death of Gregory was followed by the election of two rival popes. Two conflicting powers, each professedly infallible, now claimed obedience.(117)",
+      "claim_text": "The death of Gregory XI was followed by the election of two rival popes, each claiming obedience.",
+      "claim_type": "event",
+      "entities": ["Gregory XI", "papacy", "Great Schism"],
+      "needs_verification": true,
+      "extractor_note": "Carries source-ref (117)."
+    },
+    {
+      "id": "GC-05-057",
+      "paragraph": 20,
+      "quote": "Each called upon the faithful to assist him in making war upon the other, enforcing his demands by terrible anathemas against his adversaries, and promises of rewards in heaven to his supporters.",
+      "claim_text": "Each of the two rival popes called on the faithful to make war on the other, issuing anathemas against adversaries and promising heavenly rewards to supporters.",
+      "claim_type": "event",
+      "entities": ["papacy", "Great Schism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-058",
+      "paragraph": 20,
+      "quote": "This occurrence greatly weakened the power of the papacy.",
+      "claim_text": "The election of two rival popes greatly weakened the power of the papacy.",
+      "claim_type": "causal",
+      "entities": ["papacy", "Great Schism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-059",
+      "paragraph": 20,
+      "quote": "Anathemas and recriminations were flying from pope to pope, and torrents of blood were poured out to support their conflicting claims.",
+      "claim_text": "Torrents of blood were shed in support of the conflicting claims of the two rival popes.",
+      "claim_type": "statistic",
+      "entities": ["papacy", "Great Schism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-060",
+      "paragraph": 20,
+      "quote": "Meanwhile the Reformer, in the quiet retirement of his parish of Lutterworth, was laboring diligently to point men from the contending popes to Jesus, the Prince of Peace.",
+      "claim_text": "During the papal schism Wycliffe labored in his parish of Lutterworth, and the rival factions left him for a time in peace.",
+      "claim_type": "biographical",
+      "entities": ["John Wycliffe", "Lutterworth", "Great Schism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-061",
+      "paragraph": 21,
+      "quote": "The schism, with all the strife and corruption which it caused, prepared the way for the Reformation, by enabling the people to see what the papacy really was.",
+      "claim_text": "The papal schism prepared the way for the Reformation by enabling the people to see the nature of the papacy.",
+      "claim_type": "causal",
+      "entities": ["Great Schism", "papacy", "Reformation"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-062",
+      "paragraph": 21,
+      "quote": "In a tract which he published, “On the Schism of the Popes,” Wycliffe called upon the people to consider whether these two priests were not speaking the truth in condemning each other as the antichrist.",
+      "claim_text": "Wycliffe published a tract titled \"On the Schism of the Popes\" in which he called on the people to consider whether the two rival popes spoke the truth in condemning each other as antichrist.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "Great Schism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-063",
+      "paragraph": 21,
+      "quote": "“God,” said he, “would no longer suffer the fiend to reign in only one such priest, but ... made division among two, so that men, in Christ’s name, may the more easily overcome them both.”(118)",
+      "claim_text": "Wycliffe wrote: \"God would no longer suffer the fiend to reign in only one such priest, but ... made division among two, so that men, in Christ's name, may the more easily overcome them both.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["John Wycliffe"],
+      "needs_verification": true,
+      "extractor_note": "Carries source-ref (118)."
+    },
+    {
+      "id": "GC-05-064",
+      "paragraph": 22,
+      "quote": "Wycliffe, like his Master, preached the gospel to the poor.",
+      "claim_text": "Wycliffe preached the gospel to the poor in his parish of Lutterworth.",
+      "claim_type": "biographical",
+      "entities": ["John Wycliffe", "Lutterworth"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-065",
+      "paragraph": 22,
+      "quote": "To accomplish this he organized a body of preachers, simple, devout men, who loved the truth and desired nothing so much as to extend it. These men went everywhere, teaching in the market-places, in the streets of the great cities, and in the country lanes.",
+      "claim_text": "Wycliffe organized a body of simple, devout preachers who traveled throughout England teaching in market-places, city streets, and country lanes, seeking out the aged, sick, and poor.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "England", "Lollards"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-066",
+      "paragraph": 23,
+      "quote": "As a professor of theology at Oxford, Wycliffe preached the word of God in the halls of the university.",
+      "claim_text": "Wycliffe was a professor of theology at Oxford and preached the word of God in the halls of the university.",
+      "claim_type": "biographical",
+      "entities": ["John Wycliffe", "Oxford"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-067",
+      "paragraph": 23,
+      "quote": "So faithfully did he present the truth to the students under his instruction, that he received the title of “The Gospel Doctor.”",
+      "claim_text": "Wycliffe received the title \"The Gospel Doctor\" for his presentation of the truth to his students.",
+      "claim_type": "biographical",
+      "entities": ["John Wycliffe", "Oxford"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-068",
+      "paragraph": 23,
+      "quote": "In a work, “On the Truth and Meaning of Scripture,” he expressed his intention to translate the Bible, so that every man in England might read, in the language in which he was born, the wonderful works of God.",
+      "claim_text": "In a work titled \"On the Truth and Meaning of Scripture\" Wycliffe expressed his intention to translate the Bible so that every man in England could read it in his native language.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "Bible", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-069",
+      "paragraph": 24,
+      "quote": "Though not yet sixty years of age, unceasing toil, study, and the assaults of his enemies, had told upon his strength, and made him prematurely old. He was attacked by a dangerous illness.",
+      "claim_text": "While not yet sixty years of age, Wycliffe was attacked by a dangerous illness, his strength having been worn down prematurely.",
+      "claim_type": "biographical",
+      "entities": ["John Wycliffe"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-070",
+      "paragraph": 24,
+      "quote": "Representatives from the four religious orders, with four civil officers, gathered about the supposed dying man.",
+      "claim_text": "During Wycliffe's dangerous illness, representatives from the four mendicant religious orders, together with four civil officers, gathered at his sickbed expecting his recantation.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "mendicant friars"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-071",
+      "paragraph": 24,
+      "quote": "“You have death on your lips,” they said; “be touched by your faults, and retract in our presence all that you have said to our injury.”",
+      "claim_text": "The friars at Wycliffe's sickbed said to him: \"You have death on your lips; be touched by your faults, and retract in our presence all that you have said to our injury.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["mendicant friars", "John Wycliffe"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-072",
+      "paragraph": 24,
+      "quote": "The Reformer listened in silence; then he bade his attendant raise him in his bed, and gazing steadily upon them as they stood waiting for his recantation, he said, in the firm, strong voice which had so often caused them to tremble, “I shall not die, but live, and again declare the evil deeds of the friars.”(119)",
+      "claim_text": "From his sickbed Wycliffe replied to the friars: \"I shall not die, but live, and again declare the evil deeds of the friars.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["John Wycliffe", "mendicant friars"],
+      "needs_verification": true,
+      "extractor_note": "Carries source-ref (119)."
+    },
+    {
+      "id": "GC-05-073",
+      "paragraph": 25,
+      "quote": "Wycliffe’s words were fulfilled. He lived to place in the hands of his countrymen the most powerful of all weapons against Rome,—to give them the Bible, the Heaven-appointed agent to liberate, enlighten, and evangelize the people.",
+      "claim_text": "Wycliffe recovered from his dangerous illness and lived to give the Bible to the English people.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "Bible", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-074",
+      "paragraph": 25,
+      "quote": "In the full vigor of his intellectual powers, rich in experience, he had been preserved and prepared by God’s special providence for this, the greatest of his labors.",
+      "claim_text": "God's special providence preserved and prepared Wycliffe for the work of translating the Bible.",
+      "claim_type": "theological",
+      "entities": ["God", "John Wycliffe"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-05-075",
+      "paragraph": 26,
+      "quote": "At last the work was completed,—the first English translation of the Bible ever made.",
+      "claim_text": "Wycliffe completed the first English translation of the Bible ever made.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "Bible", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-076",
+      "paragraph": 26,
+      "quote": "In giving the Bible to his countrymen, he had done more to break the fetters of ignorance and vice, more to liberate and elevate his country, than was ever achieved by the most brilliant victories on fields of battle.",
+      "claim_text": "By giving the Bible to the English people Wycliffe did more to liberate and elevate England than any military victories achieved.",
+      "claim_type": "interpretive",
+      "entities": ["John Wycliffe", "England", "Bible"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-05-077",
+      "paragraph": 27,
+      "quote": "The art of printing being still unknown, it was only by slow and wearisome labor that copies of the Bible could be multiplied.",
+      "claim_text": "At the time Wycliffe's Bible was completed the art of printing was still unknown, so copies could be multiplied only by hand transcription.",
+      "claim_type": "event",
+      "entities": ["Bible", "printing"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-078",
+      "paragraph": 27,
+      "quote": "So great was the interest to obtain the book, that many willingly engaged in the work of transcribing it, but it was with difficulty that the copyists could supply the demand. Some of the more wealthy purchasers desired the whole Bible. Others bought only a portion.",
+      "claim_text": "Interest in Wycliffe's Bible was so great that copyists could hardly supply the demand; wealthier purchasers bought whole Bibles while others bought portions.",
+      "claim_type": "event",
+      "entities": ["Bible", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-079",
+      "paragraph": 27,
+      "quote": "In many cases, several families united to purchase a copy. Thus Wycliffe’s Bible soon found its way to the homes of the people.",
+      "claim_text": "In many cases several English families united to purchase a single copy of Wycliffe's Bible, and it soon found its way into the homes of the people.",
+      "claim_type": "event",
+      "entities": ["Bible", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-080",
+      "paragraph": 28,
+      "quote": "Wycliffe now taught the distinctive doctrines of Protestantism,—salvation through faith in Christ, and the sole infallibility of the Scriptures.",
+      "claim_text": "Wycliffe taught salvation through faith in Christ and the sole infallibility of the Scriptures, doctrines here identified as the distinctive doctrines of Protestantism.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "Protestantism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-081",
+      "paragraph": 28,
+      "quote": "The preachers whom he had sent out circulated the Bible, together with the Reformer’s writings, and with such success that the new faith was accepted by nearly one half of the people of England.",
+      "claim_text": "The preachers Wycliffe sent out circulated the Bible together with his writings throughout England.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "Lollards", "England", "Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-082",
+      "paragraph": 28,
+      "quote": "The preachers whom he had sent out circulated the Bible, together with the Reformer’s writings, and with such success that the new faith was accepted by nearly one half of the people of England.",
+      "claim_text": "The new faith taught by Wycliffe was accepted by nearly one half of the people of England.",
+      "claim_type": "statistic",
+      "entities": ["John Wycliffe", "England", "Lollards"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-083",
+      "paragraph": 29,
+      "quote": "The appearance of the Scriptures brought dismay to the authorities of the church.",
+      "claim_text": "The appearance of the English Scriptures dismayed the church authorities in England.",
+      "claim_type": "interpretive",
+      "entities": ["Bible", "England", "church authorities"],
+      "needs_verification": false,
+      "extractor_note": "Borderline: describes the reaction of church authorities, checkable in general terms, but framed as characterization."
+    },
+    {
+      "id": "GC-05-084",
+      "paragraph": 29,
+      "quote": "There was at this time no law in England prohibiting the Bible, for it had never before been published in the language of the people.",
+      "claim_text": "When Wycliffe's Bible appeared there was no law in England prohibiting the Bible, because it had never before been published in the language of the people.",
+      "claim_type": "event",
+      "entities": ["England", "Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-085",
+      "paragraph": 29,
+      "quote": "Such laws were afterward enacted and rigorously enforced.",
+      "claim_text": "Laws prohibiting the vernacular Bible were afterward enacted in England and rigorously enforced.",
+      "claim_type": "event",
+      "entities": ["England", "Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-086",
+      "paragraph": 30,
+      "quote": "Before three tribunals he was successively summoned for trial, but without avail.",
+      "claim_text": "Wycliffe was successively summoned for trial before three tribunals, without his opponents prevailing.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-087",
+      "paragraph": 30,
+      "quote": "First a synod of bishops declared his writings heretical, and winning the young king, Richard II., to their side, they obtained a royal decree consigning to prison all who should hold the condemned doctrines.",
+      "claim_text": "A synod of English bishops declared Wycliffe's writings heretical.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-088",
+      "paragraph": 30,
+      "quote": "First a synod of bishops declared his writings heretical, and winning the young king, Richard II., to their side, they obtained a royal decree consigning to prison all who should hold the condemned doctrines.",
+      "claim_text": "The bishops won the young king Richard II to their side and obtained a royal decree consigning to prison all who held Wycliffe's condemned doctrines.",
+      "claim_type": "event",
+      "entities": ["Richard II", "England", "John Wycliffe"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-089",
+      "paragraph": 31,
+      "quote": "Wycliffe appealed from the synod to Parliament; he fearlessly arraigned the hierarchy before the national council, and demanded a reform of the enormous abuses sanctioned by the church.",
+      "claim_text": "Wycliffe appealed from the synod of bishops to the English Parliament, arraigned the church hierarchy before it, and demanded reform of church abuses.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "Parliament", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-090",
+      "paragraph": 31,
+      "quote": "Parliament, roused by the stirring appeals of Wycliffe, repealed the persecuting edict, and the Reformer was again at liberty.",
+      "claim_text": "The English Parliament, roused by Wycliffe's appeals, repealed the persecuting royal edict, leaving Wycliffe at liberty.",
+      "claim_type": "event",
+      "entities": ["Parliament", "England", "John Wycliffe"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-091",
+      "paragraph": 32,
+      "quote": "A third time he was brought to trial, and now before the highest ecclesiastical tribunal in the kingdom.",
+      "claim_text": "Wycliffe was brought to trial a third time, before the highest ecclesiastical tribunal in the English kingdom.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-092",
+      "paragraph": 33,
+      "quote": "But Wycliffe did not retract; he would not dissemble. He fearlessly maintained his teachings, and repelled the accusations of his persecutors.",
+      "claim_text": "At his third trial Wycliffe did not retract but maintained his teachings and turned the charge of heresy back upon his accusers.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-093",
+      "paragraph": 33,
+      "quote": "The power of the Holy Spirit was felt in the council-room. A spell from God was upon the hearers.",
+      "claim_text": "The power of the Holy Spirit was felt in the council-room during Wycliffe's third trial, and a spell from God was upon the hearers.",
+      "claim_type": "theological",
+      "entities": ["Holy Spirit", "John Wycliffe"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-05-094",
+      "paragraph": 34,
+      "quote": "“With whom, think you,” he finally said, “are ye contending? with an old man on the brink of the grave? No! with Truth,—Truth which is stronger than you, and will overcome you.”(120)",
+      "claim_text": "At his third trial Wycliffe said: \"With whom, think you, are ye contending? with an old man on the brink of the grave? No! with Truth,—Truth which is stronger than you, and will overcome you.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["John Wycliffe"],
+      "needs_verification": true,
+      "extractor_note": "Carries source-ref (120)."
+    },
+    {
+      "id": "GC-05-095",
+      "paragraph": 34,
+      "quote": "So saying, he withdrew from the assembly, and not one of his adversaries attempted to prevent him.",
+      "claim_text": "After his closing words at the third trial Wycliffe withdrew from the assembly, and none of his adversaries attempted to prevent him.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-096",
+      "paragraph": 35,
+      "quote": "Wycliffe was summoned for trial before the papal tribunal at Rome, which had so often shed the blood of the saints.",
+      "claim_text": "Wycliffe was summoned for trial before the papal tribunal at Rome.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "Rome", "papacy"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-097",
+      "paragraph": 35,
+      "quote": "He was not blind to the danger that threatened him, yet he would have obeyed the summons had not a shock of palsy made it impossible for him to perform the journey.",
+      "claim_text": "A shock of palsy made it impossible for Wycliffe to travel to Rome in response to the papal summons.",
+      "claim_type": "biographical",
+      "entities": ["John Wycliffe", "Rome"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-098",
+      "paragraph": 35,
+      "quote": "From his rectory the Reformer wrote to the pope a letter, which, while respectful in tone and Christian in spirit, was a keen rebuke to the pomp and pride of the papal see.",
+      "claim_text": "Instead of traveling to Rome, Wycliffe wrote a letter to the pope from his rectory rebuking the pomp and pride of the papal see.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "pope", "Lutterworth"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-099",
+      "paragraph": 36,
+      "quote": "“Verily I do rejoice,” he said, “to open and declare unto every man the faith which I do hold, and especially unto the bishop of Rome: which, forasmuch as I do suppose to be sound and true, he will most willingly confirm my said faith, or if it be erroneous, amend the same.",
+      "claim_text": "Wycliffe's letter to the pope opened: \"Verily I do rejoice to open and declare unto every man the faith which I do hold, and especially unto the bishop of Rome...\", and went on to argue that the pope is most bound to the law of the gospel, that Christ was a poor man rejecting worldly rule, and that the pope ought to leave temporal dominion to the secular power.",
+      "claim_type": "attributed_quote",
+      "entities": ["John Wycliffe", "pope"],
+      "needs_verification": true,
+      "extractor_note": "The quoted letter continues through ¶36–¶40; source-ref (121) is attached at the end of the quotation in ¶40."
+    },
+    {
+      "id": "GC-05-100",
+      "paragraph": 40,
+      "quote": "In closing he said: “Let us pray unto our God, that He will so stir up our pope Urban VI., as he began, that he with his clergy may follow the Lord Jesus Christ in life and manners; and that they may teach the people effectually, and that they, likewise, may faithfully follow them in the same.”(121)",
+      "claim_text": "The pope to whom Wycliffe addressed his letter in response to the Roman summons was Urban VI.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "Urban VI"],
+      "needs_verification": true,
+      "extractor_note": "Carries source-ref (121)."
+    },
+    {
+      "id": "GC-05-101",
+      "paragraph": 41,
+      "quote": "Thus Wycliffe presented to the pope and his cardinals the meekness and humility of Christ, exhibiting not only to themselves but to all Christendom the contrast between them and the Master whose representatives they professed to be.",
+      "claim_text": "By his letter Wycliffe exhibited to all Christendom the contrast between the papal court and Christ.",
+      "claim_type": "interpretive",
+      "entities": ["John Wycliffe", "pope"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-05-102",
+      "paragraph": 42,
+      "quote": "The king, the pope, and the bishops were united to accomplish his ruin, and it seemed certain that a few months at most would bring him to the stake.",
+      "claim_text": "In Wycliffe's final period the king, the pope, and the bishops were united in seeking his ruin, and it appeared certain that he would soon be burned at the stake.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "pope", "England"],
+      "needs_verification": true,
+      "extractor_note": "Borderline: contains interpretive framing ('it seemed certain'), but the alleged united opposition of king, pope, and bishops is checkable."
+    },
+    {
+      "id": "GC-05-103",
+      "paragraph": 42,
+      "quote": "“Why do you talk of seeking the crown of martyrdom afar?” he said. “Preach the gospel of Christ to haughty prelates, and martyrdom will not fail you. What! I should live and be silent?... Never! Let the blow fall, I await its coming.”(122)",
+      "claim_text": "Wycliffe said: \"Why do you talk of seeking the crown of martyrdom afar? Preach the gospel of Christ to haughty prelates, and martyrdom will not fail you. What! I should live and be silent?... Never! Let the blow fall, I await its coming.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["John Wycliffe"],
+      "needs_verification": true,
+      "extractor_note": "Carries source-ref (122)."
+    },
+    {
+      "id": "GC-05-104",
+      "paragraph": 43,
+      "quote": "In his church at Lutterworth, as he was about to dispense the communion, he fell, stricken with palsy, and in a short time yielded up his life.",
+      "claim_text": "Wycliffe was stricken with palsy in his church at Lutterworth as he was about to dispense the communion, and died a short time afterward.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "Lutterworth"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-105",
+      "paragraph": 43,
+      "quote": "But God’s providence still shielded His servant.",
+      "claim_text": "God's providence shielded Wycliffe so that he died a natural death rather than falling victim to his enemies.",
+      "claim_type": "theological",
+      "entities": ["God", "John Wycliffe"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-05-106",
+      "paragraph": 44,
+      "quote": "God had appointed to Wycliffe his work. He had put the word of truth in his mouth, and He set a guard about him that this word might come to the people. His life was protected, and his labors were prolonged, until a foundation was laid for the great work of the Reformation.",
+      "claim_text": "God appointed Wycliffe's work and protected his life until a foundation was laid for the Reformation.",
+      "claim_type": "theological",
+      "entities": ["God", "John Wycliffe", "Reformation"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-05-107",
+      "paragraph": 45,
+      "quote": "There were none who went before him from whose work he could shape his system of reform.",
+      "claim_text": "Wycliffe had no predecessors from whose work he could shape his system of reform.",
+      "claim_type": "biographical",
+      "entities": ["John Wycliffe"],
+      "needs_verification": true,
+      "extractor_note": "Borderline sweeping claim about absence of forerunners, but checkable against the history of pre-Wycliffe reform currents."
+    },
+    {
+      "id": "GC-05-108",
+      "paragraph": 45,
+      "quote": "Raised up like John the Baptist to accomplish a special mission, he was the herald of a new era.",
+      "claim_text": "Wycliffe was raised up by God, like John the Baptist, to accomplish a special mission as herald of a new era.",
+      "claim_type": "theological",
+      "entities": ["John Wycliffe", "John the Baptist"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-05-109",
+      "paragraph": 45,
+      "quote": "Yet in the system of truth which he presented there was a unity and completeness which Reformers who followed him did not exceed, and which some did not reach, even a hundred years later.",
+      "claim_text": "Wycliffe's system of doctrine possessed a unity and completeness which later Reformers did not exceed and which some did not reach even a hundred years later.",
+      "claim_type": "interpretive",
+      "entities": ["John Wycliffe", "Reformation"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-05-110",
+      "paragraph": 46,
+      "quote": "The great movement that Wycliffe inaugurated, which was to liberate the conscience and the intellect, and set free the nations so long bound to the triumphal car of Rome, had its spring in the Bible.",
+      "claim_text": "The movement Wycliffe inaugurated, which liberated conscience, intellect, and nations from Rome, had its spring in the Bible.",
+      "claim_type": "interpretive",
+      "entities": ["John Wycliffe", "Bible", "Rome"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-05-111",
+      "paragraph": 46,
+      "quote": "Wycliffe accepted the Holy Scriptures with implicit faith as the inspired revelation of God’s will, a sufficient rule of faith and practice.",
+      "claim_text": "Wycliffe held the Holy Scriptures to be the inspired revelation of God's will and a sufficient rule of faith and practice.",
+      "claim_type": "biographical",
+      "entities": ["John Wycliffe", "Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-112",
+      "paragraph": 46,
+      "quote": "He had been educated to regard the Church of Rome as the divine, infallible authority, and to accept with unquestioning reverence the established teachings and customs of a thousand years; but he turned away from all these to listen to God’s holy word.",
+      "claim_text": "Wycliffe had been educated to regard the Church of Rome as divine and infallible authority but turned away from that authority to the Scriptures.",
+      "claim_type": "interpretive",
+      "entities": ["John Wycliffe", "Church of Rome"],
+      "needs_verification": false,
+      "extractor_note": "Borderline biographical framing of his intellectual trajectory."
+    },
+    {
+      "id": "GC-05-113",
+      "paragraph": 46,
+      "quote": "And he taught not only that the Bible is a perfect revelation of God’s will, but that the Holy Spirit is its only interpreter, and that every man is, by the study of its teachings, to learn his duty for himself.",
+      "claim_text": "Wycliffe taught that the Bible is a perfect revelation of God's will, that the Holy Spirit is its only interpreter, and that every man is to learn his duty for himself by studying it.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-114",
+      "paragraph": 47,
+      "quote": "Wycliffe was one of the greatest of the Reformers. In breadth of intellect, in clearness of thought, in firmness to maintain the truth, and boldness to defend it, he was equaled by few who came after him.",
+      "claim_text": "Wycliffe was one of the greatest of the Reformers, equaled by few who came after him.",
+      "claim_type": "interpretive",
+      "entities": ["John Wycliffe", "Reformation"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-05-115",
+      "paragraph": 47,
+      "quote": "Purity of life, unwearying diligence in study and in labor, incorruptible integrity, and Christlike love and faithfulness in his ministry, characterized the first of the Reformers.",
+      "claim_text": "Wycliffe was the first of the Reformers.",
+      "claim_type": "interpretive",
+      "entities": ["John Wycliffe", "Reformation"],
+      "needs_verification": false,
+      "extractor_note": "Borderline: the designation 'first of the Reformers' is a checkable historiographical characterization embedded in an evaluative sentence."
+    },
+    {
+      "id": "GC-05-116",
+      "paragraph": 48,
+      "quote": "The character of Wycliffe is a testimony to the educating, transforming power of the Holy Scriptures. It was the Bible that made him what he was.",
+      "claim_text": "The Bible's educating, transforming power made Wycliffe's character what it was.",
+      "claim_type": "theological",
+      "entities": ["John Wycliffe", "Bible"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-05-117",
+      "paragraph": 48,
+      "quote": "“The entrance of Thy words,” says the psalmist, “giveth light; it giveth understanding.”(123)",
+      "claim_text": "The psalmist says: \"The entrance of Thy words giveth light; it giveth understanding.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["psalmist", "Bible"],
+      "needs_verification": true,
+      "extractor_note": "Biblical quotation (Psalms); carries source-ref (123). Checkable only as accuracy of citation."
+    },
+    {
+      "id": "GC-05-118",
+      "paragraph": 49,
+      "quote": "The doctrines which had been taught by Wycliffe continued for a time to spread; his followers, known as Wycliffites and Lollards, not only traversed England, but scattered to other lands, carrying the knowledge of the gospel.",
+      "claim_text": "Wycliffe's followers, known as Wycliffites and Lollards, traversed England and scattered to other lands after his death.",
+      "claim_type": "event",
+      "entities": ["Lollards", "Wycliffites", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-119",
+      "paragraph": 49,
+      "quote": "Now that their leader was removed, the preachers labored with even greater zeal than before, and multitudes flocked to listen to their teachings.",
+      "claim_text": "After Wycliffe's death his preachers labored with even greater zeal, and multitudes flocked to hear them.",
+      "claim_type": "event",
+      "entities": ["Lollards", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-120",
+      "paragraph": 49,
+      "quote": "Some of the nobility, and even the wife of the king, were among the converts.",
+      "claim_text": "Some of the English nobility, and even the wife of the king, were among the converts to Wycliffe's doctrines.",
+      "claim_type": "event",
+      "entities": ["England", "Lollards"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-121",
+      "paragraph": 49,
+      "quote": "In many places there was a marked reform in the manners of the people, and the idolatrous symbols of Romanism were removed from the churches.",
+      "claim_text": "In many places in England the spread of Wycliffe's doctrines produced a marked reform in manners, and idolatrous symbols of Romanism were removed from the churches.",
+      "claim_type": "event",
+      "entities": ["England", "Lollards"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-122",
+      "paragraph": 49,
+      "quote": "For the first time in the history of England, the stake was decreed against the disciples of the gospel.",
+      "claim_text": "The persecution of the Lollards marked the first time in the history of England that burning at the stake was decreed against adherents of the gospel.",
+      "claim_type": "event",
+      "entities": ["England", "Lollards"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-123",
+      "paragraph": 49,
+      "quote": "The English monarchs, eager to strengthen their power by securing the support of Rome, did not hesitate to sacrifice the Reformers.",
+      "claim_text": "English monarchs sacrificed the Lollard reformers in order to strengthen their power by securing the support of Rome.",
+      "claim_type": "causal",
+      "entities": ["England", "Rome", "Lollards"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-124",
+      "paragraph": 49,
+      "quote": "Martyrdom succeeded martyrdom. The advocates of truth, proscribed and tortured, could only pour their cries into the ear of the Lord of Sabaoth. Hunted as foes of the church and traitors to the realm, they continued to preach in secret places, finding shelter as best they could in the humble homes of the poor, and often hiding away even in dens and caves.",
+      "claim_text": "Lollards were repeatedly martyred, proscribed, and tortured in England, and continued to preach in secret, sheltering in poor homes and hiding in dens and caves.",
+      "claim_type": "event",
+      "entities": ["Lollards", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-125",
+      "paragraph": 50,
+      "quote": "Notwithstanding the rage of persecution, a calm, devout, earnest, patient protest against the prevailing corruption of religious faith continued for centuries to be uttered.",
+      "claim_text": "Despite persecution, the Lollard protest against the prevailing corruption of religious faith continued in England for centuries.",
+      "claim_type": "event",
+      "entities": ["Lollards", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-126",
+      "paragraph": 50,
+      "quote": "Thousands, it is true, terrified by the fury of their persecutors, purchased their freedom at the sacrifice of their faith, and went out of their prisons, clothed in penitents’ robes, to publish their recantation.",
+      "claim_text": "Thousands of Lollards, terrified by persecution, recanted their faith and left prison clothed in penitents' robes to publish their recantation.",
+      "claim_type": "statistic",
+      "entities": ["Lollards", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-127",
+      "paragraph": 50,
+      "quote": "But the number was not small—and among them were men of noble birth as well as the humble and lowly—who bore fearless testimony to the truth in dungeon cells, in “Lollard towers,” and in the midst of torture and flame, rejoicing that they were counted worthy to know “the fellowship of His sufferings.”",
+      "claim_text": "A considerable number of Lollards, including men of noble birth, bore testimony to their faith in dungeon cells, in \"Lollard towers\", and under torture and burning.",
+      "claim_type": "event",
+      "entities": ["Lollards", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-128",
+      "paragraph": 51,
+      "quote": "By the decree of the Council of Constance, more than forty years after his death his bones were exhumed and publicly burned, and the ashes were thrown into a neighboring brook.",
+      "claim_text": "By decree of the Council of Constance, Wycliffe's bones were exhumed and publicly burned more than forty years after his death, and the ashes were thrown into a neighboring brook.",
+      "claim_type": "event",
+      "entities": ["Council of Constance", "John Wycliffe"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-129",
+      "paragraph": 51,
+      "quote": "“This brook,” says an old writer, “hath conveyed his ashes into Avon, Avon into Severn, Severn into the narrow seas, they into the main ocean. And thus the ashes of Wycliffe are the emblem of his doctrine, which now is dispersed all the world over.”(124)",
+      "claim_text": "An old writer said of the brook that received Wycliffe's ashes: \"This brook hath conveyed his ashes into Avon, Avon into Severn, Severn into the narrow seas, they into the main ocean. And thus the ashes of Wycliffe are the emblem of his doctrine, which now is dispersed all the world over.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["John Wycliffe", "Avon", "Severn"],
+      "needs_verification": true,
+      "extractor_note": "Attributed to an unnamed 'old writer'; carries source-ref (124)."
+    },
+    {
+      "id": "GC-05-130",
+      "paragraph": 52,
+      "quote": "It was through the writings of Wycliffe that John Huss, of Bohemia, was led to renounce many of the errors of Romanism, and to enter upon the work of reform.",
+      "claim_text": "The writings of Wycliffe led John Huss of Bohemia to renounce many errors of Romanism and enter upon the work of reform.",
+      "claim_type": "causal",
+      "entities": ["John Wycliffe", "John Huss", "Bohemia"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-131",
+      "paragraph": 52,
+      "quote": "Thus in these two countries, so widely separated, the seed of truth was sown. From Bohemia the work extended to other lands.",
+      "claim_text": "From Bohemia the reform work begun under Huss extended to other lands.",
+      "claim_type": "event",
+      "entities": ["Bohemia", "John Huss"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-05-132",
+      "paragraph": 52,
+      "quote": "A divine hand was preparing the way for the Great Reformation.",
+      "claim_text": "A divine hand was preparing the way for the Great Reformation through the work of Wycliffe and Huss.",
+      "claim_type": "theological",
+      "entities": ["God", "Reformation"],
+      "needs_verification": false
+    }
+  ]
+}
