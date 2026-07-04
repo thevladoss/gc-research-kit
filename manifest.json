@@ -1,0 +1,624 @@
+{
+  "project": "GCHAR",
+  "edition": "1911",
+  "created_at": "2026-07-04",
+  "source": {
+    "acquired": true,
+    "frozen": true,
+    "full_text": "source/gc_full_1911.txt",
+    "provenance": "Project Gutenberg eBook #25833 - The Great Controversy Between Christ and Satan; 'The Conflict of the Ages in the Christian Dispensation'; copyright 1888, 1907, 1911 - confirmed 1911 revised edition (has Appendix + source refs)",
+    "appendix": "source/gc_appendix_1911.txt",
+    "footnotes": "source/gc_footnotes_1911.txt",
+    "total_words": 225650,
+    "total_paragraphs": 1823,
+    "chapter_files": 43,
+    "structure": "Introduction (ch00) + 42 chapters + Appendix + Footnotes",
+    "appendix_present": true,
+    "note": "source/ is READ-ONLY (chmod a-w). Never edit. Chapter files carry [par]N prefixes and preserve inline (N) source-reference markers."
+  },
+  "scholarship_baselines": {
+    "mcadams_huss": {
+      "present": false,
+      "note": "study of GC Reformation chapters (Huss benchmark)"
+    },
+    "rea_white_lie": {
+      "present": false,
+      "note": "Walter Rea, The White Lie"
+    },
+    "numbers_prophetess": {
+      "present": false,
+      "note": "Ronald Numbers, Prophetess of Health"
+    },
+    "revision_1888_1911": {
+      "present": false,
+      "note": "1888<->1911 revision comparison"
+    }
+  },
+  "calibration": {
+    "chapters": [
+      4,
+      5,
+      6
+    ],
+    "rationale": "history-dense chapters; ch06 (Huss) is the McAdams benchmark",
+    "approved": false,
+    "note": "STOP after 04/05/06 all-4-stages; await user approval before batch."
+  },
+  "stages": [
+    "extract",
+    "verify",
+    "defend",
+    "impact"
+  ],
+  "stage_agents": {
+    "extract": "claim-extractor",
+    "verify": "claim-verifier",
+    "defend": "defender",
+    "impact": "impact-assessor"
+  },
+  "global_stages": {
+    "synthesis": "pending",
+    "report": "pending"
+  },
+  "chapters": {
+    "00": {
+      "title": "Introduction",
+      "words": 2822,
+      "paragraphs": 26,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "01": {
+      "title": "The Destruction Of Jerusalem",
+      "words": 7322,
+      "paragraphs": 50,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "02": {
+      "title": "Persecution In The First Centuries",
+      "words": 3193,
+      "paragraphs": 26,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "03": {
+      "title": "The Apostasy",
+      "words": 3946,
+      "paragraphs": 34,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "04": {
+      "title": "The Waldenses",
+      "words": 5882,
+      "paragraphs": 46,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "05": {
+      "title": "John Wycliffe",
+      "words": 5930,
+      "paragraphs": 52,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "06": {
+      "title": "Huss and Jerome",
+      "words": 8027,
+      "paragraphs": 68,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "07": {
+      "title": "Luther’s Separation From Rome",
+      "words": 8507,
+      "paragraphs": 73,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "08": {
+      "title": "Luther Before The Diet",
+      "words": 8755,
+      "paragraphs": 76,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "09": {
+      "title": "The Swiss Reformer",
+      "words": 4496,
+      "paragraphs": 39,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "10": {
+      "title": "Progress Of Reform In Germany",
+      "words": 3962,
+      "paragraphs": 42,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "11": {
+      "title": "Protest Of The Princes",
+      "words": 4760,
+      "paragraphs": 42,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "12": {
+      "title": "The French Reformation",
+      "words": 8999,
+      "paragraphs": 71,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "13": {
+      "title": "The Netherlands And Scandinavia",
+      "words": 2621,
+      "paragraphs": 21,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "14": {
+      "title": "Later English Reformers",
+      "words": 6958,
+      "paragraphs": 59,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "15": {
+      "title": "The Bible And The French Revolution",
+      "words": 7994,
+      "paragraphs": 64,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "16": {
+      "title": "The Pilgrim Fathers",
+      "words": 3320,
+      "paragraphs": 27,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "17": {
+      "title": "Heralds Of The Morning",
+      "words": 6038,
+      "paragraphs": 53,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "18": {
+      "title": "An American Reformer",
+      "words": 8799,
+      "paragraphs": 68,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "19": {
+      "title": "Light Through Darkness",
+      "words": 4067,
+      "paragraphs": 30,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "20": {
+      "title": "A Great Religious Awakening",
+      "words": 6844,
+      "paragraphs": 49,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "21": {
+      "title": "A Warning Rejected",
+      "words": 5334,
+      "paragraphs": 42,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "22": {
+      "title": "Prophecies Fulfilled",
+      "words": 6239,
+      "paragraphs": 45,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "23": {
+      "title": "What Is The Sanctuary?",
+      "words": 4772,
+      "paragraphs": 40,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "24": {
+      "title": "In The Holy Of Holies",
+      "words": 3272,
+      "paragraphs": 23,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "25": {
+      "title": "God’s Law Immutable",
+      "words": 5983,
+      "paragraphs": 46,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "26": {
+      "title": "A Work Of Reform",
+      "words": 3387,
+      "paragraphs": 27,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "27": {
+      "title": "Modern Revivals",
+      "words": 6204,
+      "paragraphs": 50,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "28": {
+      "title": "The Investigative Judgment",
+      "words": 4415,
+      "paragraphs": 36,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "29": {
+      "title": "The Origin Of Evil",
+      "words": 4370,
+      "paragraphs": 33,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "30": {
+      "title": "Enmity Between Man And Satan",
+      "words": 1977,
+      "paragraphs": 17,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "31": {
+      "title": "Agency Of Evil Spirits",
+      "words": 2221,
+      "paragraphs": 18,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "32": {
+      "title": "Snares Of Satan",
+      "words": 4331,
+      "paragraphs": 39,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "33": {
+      "title": "The First Great Deception",
+      "words": 6748,
+      "paragraphs": 55,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "34": {
+      "title": "Spiritualism",
+      "words": 3857,
+      "paragraphs": 26,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "35": {
+      "title": "Aims Of The Papacy",
+      "words": 6335,
+      "paragraphs": 55,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "36": {
+      "title": "The Impending Conflict",
+      "words": 3697,
+      "paragraphs": 25,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "37": {
+      "title": "The Scriptures A Safeguard",
+      "words": 3290,
+      "paragraphs": 27,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "38": {
+      "title": "The Final Warning",
+      "words": 3254,
+      "paragraphs": 24,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "39": {
+      "title": "“The Time Of Trouble.”",
+      "words": 7719,
+      "paragraphs": 58,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "40": {
+      "title": "God’s People Delivered",
+      "words": 6114,
+      "paragraphs": 44,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "41": {
+      "title": "Desolation Of The Earth",
+      "words": 3050,
+      "paragraphs": 28,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    },
+    "42": {
+      "title": "The Controversy Ended",
+      "words": 5839,
+      "paragraphs": 49,
+      "stages": {
+        "extract": "pending",
+        "verify": "pending",
+        "defend": "pending",
+        "impact": "pending"
+      },
+      "counts": {},
+      "updated_at": null
+    }
+  }
+}

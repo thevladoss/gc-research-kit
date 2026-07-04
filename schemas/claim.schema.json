@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GCHAR chapter claims file",
+  "type": "object",
+  "required": ["chapter", "chapter_title", "stage", "claims"],
+  "properties": {
+    "chapter": { "type": "integer", "minimum": 0, "maximum": 42 },
+    "chapter_title": { "type": "string" },
+    "stage": { "enum": ["extraction", "verification", "adversarial", "impact"] },
+    "generated_at": { "type": "string" },
+    "notes": { "type": "string" },
+    "claims": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/claim" }
+    }
+  },
+  "$defs": {
+    "claim": {
+      "type": "object",
+      "required": ["id", "paragraph", "quote", "claim_text", "claim_type", "needs_verification"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^GC-\\d{2}-\\d{3}$" },
+        "paragraph": { "type": "integer" },
+        "quote": { "type": "string", "description": "Exact text from GC 1911 containing the claim" },
+        "claim_text": { "type": "string", "description": "The claim restated as a single checkable proposition" },
+        "claim_type": {
+          "enum": ["date", "event", "attributed_quote", "statistic", "causal", "biographical", "geographical", "interpretive", "theological"]
+        },
+        "entities": { "type": "array", "items": { "type": "string" } },
+        "needs_verification": { "type": "boolean" },
+        "extractor_note": { "type": "string" },
+
+        "verification": {
+          "type": "object",
+          "required": ["verdict", "confidence", "rationale", "sources"],
+          "properties": {
+            "verdict": { "enum": ["supported", "contradicted", "disputed", "anachronistic", "misquotation", "unverifiable"] },
+            "confidence": { "enum": ["high", "medium", "low"] },
+            "rationale": { "type": "string" },
+            "modern_consensus": { "type": "string" },
+            "period_historiography": { "type": "string", "description": "What 19th-century sources (Wylie, D'Aubigné etc.) said; fill for anachronistic verdicts" },
+            "sources": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["title", "url", "supports_verdict"],
+                "properties": {
+                  "title": { "type": "string" },
+                  "url": { "type": "string" },
+                  "source_class": { "enum": ["academic", "primary", "scholarly_encyclopedia", "encyclopedia", "apologetic", "counter_apologetic", "other"] },
+                  "supports_verdict": { "type": "boolean" },
+                  "note": { "type": "string" }
+                }
+              }
+            }
+          }
+        },
+
+        "defense": {
+          "type": "object",
+          "required": ["result", "argument"],
+          "properties": {
+            "result": { "enum": ["defense_succeeded", "verdict_downgraded", "defense_failed"] },
+            "argument": { "type": "string", "description": "Best steelman found" },
+            "revised_verdict": { "enum": ["supported", "contradicted", "disputed", "anachronistic", "misquotation", "unverifiable"] },
+            "new_sources": { "type": "array", "items": { "type": "object" } }
+          }
+        },
+
+        "impact": {
+          "type": "object",
+          "required": ["severity", "centrality", "load_bearing", "impact_score", "narrative_arc", "reasoning"],
+          "properties": {
+            "severity": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "centrality": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "load_bearing": { "type": "boolean" },
+            "impact_score": { "type": "integer", "minimum": 1, "maximum": 25 },
+            "narrative_arc": { "enum": ["reformation", "pre-reformation", "millerite", "doctrinal", "eschatological", "frame"] },
+            "reasoning": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}
