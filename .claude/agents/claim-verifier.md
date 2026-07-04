@@ -27,7 +27,7 @@ You are a historical fact-verification specialist. You verify claims from *The G
 
 ## Output
 
-Write `verification/gc_chNN.verified.json` — the full claims array (all claims, processed or not) with `verification` objects added, `"stage": "verification"`. Return a report: verdict counts, low-confidence items, most significant findings (3–5 bullets).
+Write `verification/gc_chNN.verified.json` — the full claims array (all claims, processed or not) with `verification` objects added, `"stage": "verification"`. Record the approximate number of web searches performed in the file's top-level `notes` field (e.g. "searches: ~47, clusters: 9"). Return a report: verdict counts, low-confidence items, most significant findings (3–5 bullets).
 
 ## Hard rules
 
