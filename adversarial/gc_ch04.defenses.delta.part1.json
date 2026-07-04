@@ -1,0 +1,61 @@
+{
+  "chapter": 4,
+  "chapter_title": "The Waldenses",
+  "stage": "adversarial",
+  "items": {
+    "GC-04-001": {
+      "result": "defense_failed",
+      "argument": "Steelman: the sentence is a composite, and two of its three marks (Christ as sole mediator, Bible as rule of life) can be instantiated by real dissent movements in most centuries; only the Sabbath component fails. But the claim's force is the conjunction 'in every age', and no continuous chain of seventh-day-keeping dissenters exists in modern scholarship; the verifier correctly traced the whole schema to Andrews' History of the Sabbath ch. 21. Anachronistic stands."
+    },
+    "GC-04-004": {
+      "result": "defense_succeeded",
+      "revised_verdict": "supported",
+      "argument": "The verifier over-literalized 'were enough to forfeit the life' into a claim about typical sentencing outcomes. In 19th-century idiom the phrase asserts capital liability, and that liability is documented: the Decretals of Gregory IX carry the maxim 'dubius in fide infidelis est' (doubt of dogma = infidelity/heresy), heresy was a capital crime relaxed to the secular arm under the 13th-century legislation, and rank did not immunize. Gui's statistics (most sentences penances, ~4.5% executions) describe outcome frequency for those who recanted, not the sufficiency of the ground; people who maintained their expressed doubt did forfeit their lives. Honest caveat: as a description of the whole papal era (including pre-1200 centuries with little enforcement) the sentence is rhetorically sweeping.",
+      "new_sources": [
+        {"title": "Dubius in fide fidelis est? Doubt and Assurance in Late Medieval Catholicism — Studies in Church History (Cambridge)", "url": "https://www.cambridge.org/core/journals/studies-in-church-history/article/abs/dubius-in-fide-fidelis-est-doubt-and-assurance-in-late-medieval-catholicism/EC0F06A0883CE75BA595416136893FF8", "source_class": "academic", "supports_verdict": true, "note": "Confirms the Decretals maxim 'dubius in fide infidelis est', retained in canon law into the 20th century"},
+        {"title": "'The Lord does not wish the death of a sinner': Ordinary Glosses to Gregory IX's Decretales on Heretics — Church History (Cambridge)", "url": "https://www.cambridge.org/core/journals/church-history/article/abs/lord-does-not-wish-the-death-of-a-sinner-investigating-selected-ordinary-glosses-to-pope-gregory-ixs-decretales-1234-on-heretics/4DCFC19A064904844B2B97A00E2CD069", "source_class": "academic", "supports_verdict": true, "note": "Canonical machinery of relaxation to the secular arm for heresy"}
+      ]
+    },
+    "GC-04-005": {
+      "result": "defense_failed",
+      "argument": "Best steelman: a subsumption reading — councils demonstrably decreed the burning of heretical books wholesale (Constance, Toulouse 1229), and dissident literature that recorded persecutions fell under those decrees, so 'books containing such records were decreed to the flames' is technically true. This fails because White's sentence plainly asserts targeted suppression ('Rome endeavored also to destroy every record of her cruelty'), and no decree aimed at cruelty-records is known; the motive attribution is her gloss. Disputed (low confidence) stands as the honest resting place."
+    },
+    "GC-04-009": {
+      "result": "defense_succeeded",
+      "revised_verdict": "unverifiable",
+      "argument": "The extractor over-read the sentence: 'was THEN uncorrupted by Romish apostasy' is a temporal-evaluative statement (in the first centuries, the corruptions White ascribes to the later papacy had not yet developed anywhere), not an assertion that British Christianity was 'independent of and unshaped by the Roman church' — the D'Aubigne independence thesis appears in neighboring sentences that were extracted separately (GC-04-010, -011). 'Apostasy/corruption' is a theological category, so the sentence as written is an evaluative claim internal to White's schema; its checkable residue (1st-3rd-century British Christianity predates the developed medieval papal system) is trivially true. The verifier's evidence correctly refutes the extractor's claim_text, but that claim_text exceeds what this sentence says."
+    },
+    "GC-04-011": {
+      "result": "defense_failed",
+      "argument": "Steelman: Christianity really did pass from Britain to Ireland (Patrick was a Briton, and one traditional birthplace-candidate is Old Kilpatrick near Dumbarton, i.e., 'Scotland', the tradition D'Aubigne used), so the direction Britain-to-Ireland has a genuine core. But the specific chain asserted — persecution refugees from England founding the Scottish church, whence Ireland was evangelized — reverses the scholarly picture (Ireland from Britain/Gaul in the 5th c., Scotland from Ireland in the 6th) and follows D'Aubigne b.17 ch.1. Anachronistic stands."
+    },
+    "GC-04-016": {
+      "result": "defense_failed",
+      "argument": "The strongest case available: Adomnan's Vita Columbae III.23 has Columba himself calling Saturday 'sabbatum... and this day is truly a sabbath to me', Skene (a serious historian) built Celtic Saturday-rest on it and on Turgot's Life of Margaret, and Leslie Hardinge's University-of-London dissertation (SPCK, 1972, Church Historical Society no. 91) restated the thesis in a mainstream series. It still fails: Hardinge was an Adventist scholar and his Sabbath chapter never won mainstream adoption; the 11th-ed. Britannica dropped Skene's inference as unevidenced; Adomnan's passage is read by modern editors as deathbed scriptural wordplay, not liturgical practice; and White's specific claim (a Sabbath-keeper among the Iona evangelists who 'introduced this truth among the people') has no primary attestation at all. Anachronistic — traceable to Andrews/Skene — is exactly right.",
+      "new_sources": [
+        {"title": "Hardinge, Leslie Gilbert (1912-2002) — Encyclopedia of Seventh-day Adventists", "url": "https://encyclopedia.adventist.org/article?id=CDYE", "source_class": "apologetic", "supports_verdict": false, "note": "Confirms Hardinge's SPCK-published Celtic-Sabbath thesis exists but is Adventist-authored; recorded as position"}
+      ]
+    },
+    "GC-04-017": {
+      "result": "defense_failed",
+      "argument": "Steelman: read 'Iona' as synecdoche for the whole Celtic-monastic missionary movement, whose continental geography is exactly right — Columbanus in Gaul, Gallus in Switzerland (St. Gallen), Bobbio in Italy; 19th-century usage routinely made Iona the emblem of that movement. The defense fails because White's sentence makes a specific institutional assertion ('a school was established at Iona, FROM WHICH missionaries went out... to Germany, Switzerland, and even Italy'), and the continental missionaries proceeded from Irish houses (Bangor), not Iona, whose documented fields were Pictland and Northumbria. The compression follows D'Aubigne; anachronistic stands."
+    },
+    "GC-04-021": {
+      "result": "defense_failed",
+      "argument": "Steelman: the substance — British bishops' refusal to accept Augustine's/Rome's authority — is solidly attested in Bede (HE ii.2), so the claim errs only in relaying the 'Answer of Dinoth' wording as historical. But the extracted claim reproduces precisely the Dinoth formula ('only that submission due to every follower of Christ'), a late Welsh composition of doubtful authenticity per Haddan & Stubbs, which reached White via D'Aubigne. Anachronistic is the correct classification; the attested Bedan core should temper severity at impact stage."
+    },
+    "GC-04-023": {
+      "result": "defense_failed",
+      "argument": "Steelman: White's passive ('war, intrigue, and deception were employed') never names Rome as the agent of the Chester massacre; Bede himself frames the massacre as fulfillment of Augustine's prophecy; and the later absorption of the Celtic churches did involve royal-political coercion (Whitby's royal verdict, West-Saxon pressure on Cornwall). The defense fails because the paragraph's logic ('these were no idle threats... until the churches of Britain were destroyed, or forced to submit to the authority of the pope') plainly implies papal agency and a destruction-by-Rome narrative that modern scholarship rejects — the instigation charge is Reformation-era polemic relayed by D'Aubigne, and conformity came gradually by synodal decision. Anachronistic stands."
+    },
+    "GC-04-027": {
+      "result": "verdict_downgraded",
+      "revised_verdict": "anachronistic",
+      "argument": "The verifier left this 'disputed (inconclusive)'; the anachronism chain can now be closed. The claim descends from Claudius Buchanan's Christian Researches (1811) on the Armenians of India ('worship... on the seventh day'), literalized by J.N. Andrews (History of the Sabbath ch. 21) and generalized by White to 'the Armenians of Asia'. Adventist scholarship itself (Cairus, Journal of Asia Adventist Seminary 10.1, 2007) concludes Buchanan's 'seventh day' in context meant Sunday and that the Armenian Church gives Saturday no honor beyond ordinary Oriental usage. Wrong by modern standards, faithfully copied from period historiography: textbook anachronistic, not genuinely disputed.",
+      "new_sources": [
+        {"title": "Cairus, 'Sabbathkeeping among Christians in India: A Brief Note' — Journal of Asia Adventist Seminary 10.1 (2007) 81-85", "url": "https://journals.aiias.edu/jaas/article/download/538/484", "source_class": "apologetic", "supports_verdict": true, "note": "Adventist journal conceding Buchanan's 'seventh day' = Sunday; against interest, hence strong"},
+        {"title": "Buchanan, Christian Researches in Asia (1811) — Internet Archive", "url": "https://archive.org/details/christianresear01horngoog", "source_class": "primary", "supports_verdict": true, "note": "The period source of the claim"}
+      ]
+    }
+  }
+}

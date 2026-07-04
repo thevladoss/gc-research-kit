@@ -1,0 +1,53 @@
+{
+  "chapter": 4,
+  "chapter_title": "The Waldenses",
+  "stage": "adversarial",
+  "notes": "Adversarial pass over 29 claims: all 12 with verdicts in {contradicted, disputed, misquotation} plus all 17 anachronistic (audited). Results: 7 defense_succeeded, 4 verdict_downgraded, 18 defense_failed. Successes are all over-literalization/genre catches (idiom, temporal reading, loose superlative, literary dramatization, unfalsifiable narrative color); every substantive historical error — Waldensian antiquity cluster (030/031/032/034/049), Waldensian and Celtic Sabbath-keeping (046/016), Celtic-church narrative (011/017/021/023), barbe 'home church' (072) — survives defense and stands as anachronistic. GC-04-036 downgraded contradicted->anachronistic on referent-consistency grounds (see its argument; counter-position flagged for synthesis). GC-04-087 (misquotation) reversed to unverifiable: same typical-speech literary device the verifier itself treated as authorial composition at GC-04-089. Own research: Cairus (JAAS 2007) closing the Armenian/Buchanan chain; Decretals maxim 'dubius in fide infidelis est'; Gheisa d'la Tana cave tradition; Bohemian-Reformation 'First Reformation' historiography and Friedrich Reiser for 113. Delta files part1-3 carry disjoint items; merge into verified.json to produce gc_ch04.defended.json (full-array write exceeded output limits twice).",
+  "items": {
+    "GC-04-069": {
+      "result": "defense_failed",
+      "argument": "Steelman: Wylie's claim descends from the older Vaudois historians (Perrin, Gilles) rather than being his invention, and some barbes demonstrably commanded Latin and letters (Morel's 1530 correspondence with Oecolampadius), so education beyond the valleys was not unthinkable. It fails as history: Audisio and Cameron describe a deliberately internal, artisan-level, clandestine formation with no university route, and no modern scholarship corroborates Waldensian youth at the Sorbonne or Lombard seminaries. Disputed (low) stands."
+    },
+    "GC-04-070": {
+      "result": "defense_failed",
+      "argument": "Steelman: the surviving barbe corpus (Dublin, Cambridge, Geneva) consists of small portable vernacular volumes suited to concealment, and clandestine book-carrying by itinerant preachers is the documented core of barbe practice — so 'manuscripts concealed on the person' is plausible. But my search could not independently confirm the specific 'garments so prepared' (sewn-in concealment) detail in modern scholarship, and it depends on the unverified student-mission scenario of GC-04-069; it remains a Wylie/Muston-tradition embellishment. Disputed (low) stands."
+    },
+    "GC-04-071": {
+      "result": "defense_failed",
+      "argument": "Steelman: clandestine Waldensian proselytism that authorities struggled to trace is well documented in general (Audisio's 'preachers by night'; inquisitorial complaints about the sect's invisibility), so the scene is not implausible in kind. But this specific school-evangelism claim is wholly derivative of the unverified university-attendance premise (GC-04-069) and has no attestation outside the Wylie narrative tradition. Disputed (low) stands."
+    },
+    "GC-04-072": {
+      "result": "defense_failed",
+      "argument": "Steelman: the documented junior-senior itinerant apprenticeship (Morel 1530; Audisio) is structurally close to White's picture of supervised evangelistic service before responsibility, and Wylie's 'old law' may genuinely describe post-Reformation Vaudois pastorate practice retrojected onto the barbes. It fails on the anachronism the verifier identified: pre-Reformation barbes held no settled home charges at all, so 'three years in a mission field before taking charge of a church at home' cannot describe the medieval movement. Anachronistic stands."
+    },
+    "GC-04-081": {
+      "result": "defense_failed",
+      "argument": "Steelman: White describes lived piety, not conciliar doctrine, and for lived piety her picture has real scholarly support — indulgence preaching, penitential tariffs, and the anxiety-driven religiosity documented in Ozment's work (Luther's Anfechtungen as exhibit A); 'taught to trust to their good works' is a fair gloss on how the penitential system was popularly experienced. The defense does not overturn the verdict because Duffy-school revisionism genuinely contests the gloom-and-burden picture, and formal soteriology was grace-through-sacraments; 'disputed' is precisely the right verdict for a live Ozment-vs-Duffy disagreement, so it stands."
+    },
+    "GC-04-082": {
+      "result": "verdict_downgraded",
+      "revised_verdict": "disputed",
+      "argument": "The extracted sentence can bear a narrower reading than the sola-fide portrait the verifier refuted: Waldenses demonstrably rejected the machinery by which works atone — purgatory, indulgences, masses and alms for the dead — which is literally 'the doctrine that good works can atone for transgression' held false (attested in the verifier's own sources, Catholic Encyclopedia and Britannica). Against this stands Cameron's evidence that barbes heard confession and assigned penances (works of satisfaction), leaving the movement's soteriology genuinely mixed and the scholarly characterization genuinely contested. Mixed and contested evidence is 'disputed', not 'anachronistic': the narrow reading is partially true by modern standards, so the claim is not simply a period-inherited error — though White's paragraph context (proto-Protestant grace theology) leans on the Wylie portrait, which is why full defense to 'supported' would overreach."
+    },
+    "GC-04-087": {
+      "result": "defense_succeeded",
+      "revised_verdict": "unverifiable",
+      "argument": "The 'misquotation' verdict misapplies the category: the sentence is not a sourced attributed quote but White's typical-speech dramatization — unnamed plural converts, no source-ref, introduced by the same convention ('they exclaimed with rejoicing') as ¶35's 'the glad response was heard', which the verifier itself treated as 'White's typical-speech composition' and did not grade misquotation (GC-04-089). My own search likewise found the sentence only in GC-derivative material, confirming it is authorial rhetoric, not a mangled citation of a historical utterance; a composed exemplary exclamation cannot be 'inaccurately quoted'. As an empirical claim about what unnamed medieval converts said, it is unverifiable by definition; consistency with the verifier's own treatment of ¶35 requires the same verdict here."
+    },
+    "GC-04-113": {
+      "result": "verdict_downgraded",
+      "revised_verdict": "disputed",
+      "argument": "The verifier's 'reversed causality' rationale states the Cameron position as if it were unanimous, but a substantial scholarly tradition affirms a real Waldensian contribution to the pre-Lutheran reform stream: Czech historiography's 'First Reformation' (Molnar) groups Waldensians with Wycliffites and Hussites as precursors of Protestantism; German Waldensians migrated into Hussite Bohemia after 1420; Friedrich Reiser's documented network fused Waldensian and Taborite structures; and the early Unitas Fratrum had direct Waldensian contacts (Schaff, HCC VI) — while Luther himself avowed the Hussite debt ('we are all Hussites'). So 'scattered over many lands, they planted the seeds of the Reformation' is a genuine live dispute between the absorption thesis (Chanforan 1532, Cameron) and the continuity thesis (Molnar, Gonnet), not a settled error; the claim's weakest link (Wycliffe owed nothing to Waldenses) is softened by the sentence's figurative 'seeds' framing. Downgrade anachronistic -> disputed.",
+      "new_sources": [
+        {"title": "Bohemian Reformation — Wikipedia ('First Reformation' historiography; Waldensians among precursors)", "url": "https://en.wikipedia.org/wiki/Bohemian_Reformation", "source_class": "encyclopedia", "supports_verdict": true},
+        {"title": "Schaff, History of the Christian Church, vol. VI (early Unity of Brethren in touch with Waldensians)", "url": "https://ccel.org/ccel/schaff/hcc6/hcc6.iii.vi.x.html", "source_class": "academic", "supports_verdict": true},
+        {"title": "'The Case of the Other Hussites' (Waldensian-Hussite networks; Friedrich Reiser)", "url": "https://www.muni.cz/inet-doc/1044801", "source_class": "academic", "supports_verdict": true}
+      ]
+    },
+    "GC-04-114": {
+      "result": "defense_succeeded",
+      "revised_verdict": "unverifiable",
+      "argument": "The extractor turned an authorial periodization into a date claim: White's sentence defines her own arc — a 'Reformation' that begins with Wycliffe, grows under Luther, and 'is to be carried forward to the close of time' — an explicitly theological construct whose starting point is stipulated, not asserted as a checkable fact; a definition cannot be false. Even were it read empirically, the verifier's own sources show a recognized historiographical tradition (Hudson's 'Premature Reformation', the 'Reformers before the Reformation' genre, Czech 'First Reformation' scholarship) that dates reform from Wycliffe, so at worst this is a periodization convention with scholarly standing. Either way it does not belong among factual discrepancies; unverifiable (definitional/theological frame) is the cleanest resolution."
+    }
+  }
+}

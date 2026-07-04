@@ -118,13 +118,47 @@
       "words": 5882,
       "paragraphs": 46,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 114,
+          "needs_verification": 93,
+          "by_type": {
+            "event": 66,
+            "theological": 12,
+            "interpretive": 9,
+            "causal": 7,
+            "date": 6,
+            "attributed_quote": 6,
+            "geographical": 5,
+            "statistic": 2,
+            "biographical": 1
+          },
+          "zero_claim_paras": [
+            33
+          ]
+        },
+        "verify": {
+          "supported": 65,
+          "anachronistic": 17,
+          "disputed": 10,
+          "contradicted": 1,
+          "misquotation": 1,
+          "unverifiable": 20,
+          "low_confidence": 13
+        },
+        "defend": {
+          "examined": 29,
+          "defense_succeeded": 7,
+          "verdict_downgraded": 4,
+          "defense_failed": 18
+        }
+      },
+      "updated_at": "2026-07-04T15:24:58Z"
     },
     "05": {
       "title": "John Wycliffe",

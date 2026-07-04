@@ -1,0 +1,57 @@
+{
+  "chapter": 4,
+  "chapter_title": "The Waldenses",
+  "stage": "adversarial",
+  "items": {
+    "GC-04-030": {
+      "result": "defense_failed",
+      "argument": "Steelman: north-Italian ecclesiastical particularism gave 19th-century historians real raw material — the Aquileian schism of the Three Chapters (a genuine ~150-year separation from Rome, 553-698), Milan's Ambrosian autonomy into the 11th century, and Claudius of Turin's 9th-century iconoclasm in the very diocese overlooking the valleys. But no scholarship connects any of this by continuity to the Waldenses, whose movement begins with Waldo of Lyon c. 1173; the 'independent churches of Piedmont' narrative is the Wylie/Muston antiquity thesis, already called fable by 1912. Anachronistic stands."
+    },
+    "GC-04-031": {
+      "result": "defense_failed",
+      "argument": "Steelman: if any referent exists, it is the gradual Gregorian-era subjection of previously autonomous north-Italian sees (Milan, Aquileia) to papal centralization — real events a 19th-century Protestant historian could read as 'reluctant acknowledgment of supremacy'. The defense fails because the claim as framed presupposes an ancient independent Piedmontese-Waldensian church body that never existed; it inherits the rejected antiquity thesis (see GC-04-030) and is correctly classed anachronistic."
+    },
+    "GC-04-032": {
+      "result": "defense_failed",
+      "argument": "Steelman: the sentence gets the sociology of dissent half-right in mirror image — there WAS a movement that, refusing Rome's demands, was driven into Alpine glens and foreign lands (Waldensian diffusion into Piedmont, Provence, Germany, Calabria under persecution). But White states the reverse direction: natives preserving an ancient faith withdrawing when Rome encroached, which is the Wylie/Muston construction; modern scholarship has the Lyon-born movement arriving in the valleys in the 13th century as refugees. Anachronistic stands."
+    },
+    "GC-04-034": {
+      "result": "defense_failed",
+      "argument": "This is the load-bearing antiquity claim and no honest defense reverses it: every modern authority (including the Waldensian church's own historians since Comba) dates the movement to Waldo c. 1173, and the apostolic-descent thesis rests on documents (Nobla Leyczon etc.) redated by Gieseler-era criticism decades before 1888. The only mitigation is exactly what the verifier already granted: White reproduced in good faith the dominant Protestant historiography of her named sources (Wylie, Muston tradition), so anachronistic rather than fabricated. Best steelman recorded: 'not a faith newly received... inheritance from their fathers' was true in the modest sense that by the 15th century Waldensian families had transmitted the faith for three centuries — but the sentence's explicit apostolic claim exceeds that."
+    },
+    "GC-04-036": {
+      "result": "verdict_downgraded",
+      "revised_verdict": "anachronistic",
+      "argument": "The verifier graded this against the wrong referent. In ¶10 'the separation of the true church from Rome' points back to ¶8's separation narrative — the legendary withdrawal of the ancient Piedmontese churches — which the verifier itself classified anachronistic (GC-04-030/031/032); a causal elaboration of an event that exists only in the Wylie/Muston reconstruction should inherit that classification, exactly as GC-04-031 did, rather than be scored 'contradicted' against the documented causes of the real 1179-84 Waldo breach, which White is not narrating here. The Sabbath leg also has period scaffolding: Andrews ch. 21 supplied both Waldensian Sabbath-keeping (Sabbatati/Insabbatati etymology via Goldastus and Ussher) and Rome's anti-Sabbath animus (Laodicea 29, Gregory I — premises the verifier itself marked supported at GC-04-038/040). Honest limit of the defense: no period source, Andrews included, states the causal thesis itself; that synthesis is White's own, layered on period materials — so the claim remains wrong, and only its error-type changes. Flag for synthesis: if the referent is read as the Waldenses' actual origin, the verifier's 'contradicted' would be defensible; this downgrade rests on narrative-internal consistency.",
+      "new_sources": [
+        {"title": "Andrews, History of the Sabbath, ch. 21 'Traces of the Sabbath During the Dark Ages' (Sabbatati/Insabbatati via Goldastus, Ussher)", "url": "https://www.sabbath.org/index.cfm/fuseaction/library.sr/CT/BOOK/k/963/traces-of-sabbath-during-dark-ages.htm", "source_class": "primary", "supports_verdict": true, "note": "Period historiography supplying both premises White combined"}
+      ]
+    },
+    "GC-04-041": {
+      "result": "defense_succeeded",
+      "revised_verdict": "supported",
+      "argument": "'Among the first of the peoples of Europe' is an inherently loose superlative that the verifier's own evidence satisfies: Waldo's Franco-Provencal New Testament (c. 1175-1185) precedes every completed medieval vernacular version in English, French, German, Spanish and Italian, and the surviving Occitan manuscript corpus is real. The counterexamples (Gothic 4th c., Old Church Slavonic 9th c., Old English portions) show the Waldenses were not THE first, which the sentence does not claim; being roughly fourth among all the peoples of Europe over a millennium is 'among the first' on any natural reading. The 1911 Appendix (p. 65 note) grounds the claim in Townley and Petavel, and its restrained wording ('translations of portions of the Bible') matches the manuscript evidence."
+    },
+    "GC-04-046": {
+      "result": "defense_failed",
+      "argument": "The strongest available case: the Sabbath-etymology of Sabbatati/Insabbatati was asserted by real early-modern scholars (Goldastus; Ussher acknowledged the reading), Andrews built on them, and scattered inquisitorial records mention judaizing sabbath-keepers in medieval Europe. It fails: Waldensian specialists (Comba onward, Audisio, Cameron) derive the name from sabots or from rejection of feast days, inquisitorial descriptions of actual Waldensian practice never include seventh-day observance, and even Adventist scholarly venues concede the evidence is lacking. The verifier's anachronistic call — wrong claim, faithfully inherited from Andrews — is precise; no reversal is honest here."
+    },
+    "GC-04-049": {
+      "result": "defense_failed",
+      "argument": "Steelman: read 'witnesses for the truth' generically (Alpine Christians as such, not Waldenses), and a thousand years of mountain Christianity is trivial; or read 'a thousand years' as round rhetorical hyperbole for 'very long'. Neither reading survives context: the paragraph is about the Waldenses' hiding-place, and the figure operationalizes the Wylie/Muston antiquity thesis (Nobla Leyczon misdated to 1100, apostolic pedigree), giving ~350 real years, not a millennium. Anachronistic stands; this is one of the chapter's clearest period-inherited errors."
+    },
+    "GC-04-064": {
+      "result": "defense_succeeded",
+      "revised_verdict": "unverifiable",
+      "argument": "The composite's checkable core — hand-copying of Scripture by Waldensian trainees — is independently attested and already graded supported at GC-04-063; the only contested element is the decorative 'sometimes in caves by torchlight'. 'Sometimes' makes that detail unfalsifiable at source granularity, and it is anchored in a genuine local tradition of clandestine cave use (the Gheisa d'la Tana at Angrogna, a documented Waldensian memory site, even if scholars doubt regular use). No historiographical dispute exists about this sentence; the honest verdict for romantic narrative color that can be neither confirmed nor denied is unverifiable, not disputed.",
+      "new_sources": [
+        {"title": "La Valle Angrogna e la grotta dei valdesi — Piemonte Parchi", "url": "https://www.piemonteparchi.it/cms/index.php/itinerari/item/1370-la-valle-angrogna-e-la-grotta-dei-valdesi", "source_class": "other", "supports_verdict": true, "note": "Documents the Gheisa d'la Tana cave tradition of clandestine Waldensian worship"}
+      ]
+    },
+    "GC-04-067": {
+      "result": "defense_succeeded",
+      "revised_verdict": "supported",
+      "argument": "The verifier's own rationale concedes the claim is 'substantially true in the loose sense' and false only under a variant-counting reading that the text will not bear: in 19th-century providentialist idiom 'preserved uncorrupted' means the Word survived with its content intact, not that scribes made no errors. The Paris correctoria the verifier cites are evidence of successful preservation (the church detecting and correcting drift), and textual criticism agrees no doctrinally material corruption entered the medieval biblical text. The strict-variant reading over-literalizes a sentence whose explicit frame is providential ('in a most wonderful manner')."
+    }
+  }
+}
