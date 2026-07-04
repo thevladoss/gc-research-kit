@@ -184,9 +184,9 @@
       "paragraphs": 52,
       "stages": {
         "extract": "done",
-        "verify": "pending",
-        "defend": "pending",
-        "impact": "pending"
+        "verify": "done",
+        "defend": "done",
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -207,9 +207,45 @@
             38,
             39
           ]
+        },
+        "verify": {
+          "supported": 103,
+          "anachronistic": 7,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 22,
+          "low_confidence": 24,
+          "searches": 14,
+          "clusters": 12
+        },
+        "defend": {
+          "examined": 7,
+          "defense_succeeded": 1,
+          "verdict_downgraded": 1,
+          "defense_failed": 5,
+          "searches": 0
+        },
+        "impact": {
+          "scored": 5,
+          "load_bearing": 0,
+          "top_impact": [
+            {
+              "id": "GC-05-003",
+              "score": 12
+            },
+            {
+              "id": "GC-05-082",
+              "score": 12
+            },
+            {
+              "id": "GC-05-051",
+              "score": 9
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-04T15:48:36Z"
+      "updated_at": "2026-07-04T23:01:45Z"
     },
     "06": {
       "title": "Huss and Jerome",
