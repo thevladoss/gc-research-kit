@@ -121,7 +121,7 @@
         "extract": "done",
         "verify": "done",
         "defend": "done",
-        "impact": "pending"
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -156,9 +156,27 @@
           "defense_succeeded": 7,
           "verdict_downgraded": 4,
           "defense_failed": 18
+        },
+        "impact": {
+          "scored": 17,
+          "load_bearing": 3,
+          "top_impact": [
+            {
+              "id": "GC-04-034",
+              "score": 25
+            },
+            {
+              "id": "GC-04-046",
+              "score": 20
+            },
+            {
+              "id": "GC-04-036",
+              "score": 20
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-04T15:24:58Z"
+      "updated_at": "2026-07-04T15:36:43Z"
     },
     "05": {
       "title": "John Wycliffe",

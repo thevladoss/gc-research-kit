@@ -1,0 +1,145 @@
+{
+  "chapter": 4,
+  "chapter_title": "The Waldenses",
+  "stage": "impact",
+  "generated_at": "2026-07-04",
+  "notes": "Chapter argument reconstruction. The chapter argues that through the Dark Ages God preserved a remnant church outside and against Rome: first the Celtic churches of Britain, then Sabbath-keeping communities beyond papal jurisdiction, and above all the Waldenses. Its identity case rests on two pillars: (a) antiquity — the Waldensian faith was no 12th-century novelty but the apostolic faith of anciently independent Piedmontese churches, held 'for a thousand years' (¶8-9, ¶12); and (b) the Sabbath — the remnant hallowed the seventh day, and Rome's hatred of the Sabbath was a leading cause of the separation (¶1, ¶5, ¶7, ¶10-11). On that identity it builds a largely well-attested middle section (Scripture preservation and memorization, disguised barbe missionaries, papal crusades, the 1487 bull) and closes by handing the baton to the Reformation (¶46). The persecution and Bible-preservation material survives verification almost intact; the antiquity and Sabbath pillars — the claims that make the Waldenses the 'church in the wilderness' link of the book's central chain — are exactly where the anachronistic cluster sits. Scoring scope: all 15 final-effective anachronistic claims, plus two high-stakes disputed items (GC-04-082, GC-04-113); no contradicted or misquotation verdicts survived the defense pass.",
+  "items": {
+    "GC-04-001": {
+      "severity": 4,
+      "centrality": 5,
+      "load_bearing": true,
+      "impact_score": 20,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "The chapter's thesis sentence: an unbroken chain of sola-scriptura, seventh-day-keeping witnesses 'in every age.' Delete it and the chapter loses the very proposition its Celtic and Waldensian exhibits exist to instantiate — and since the specific Sabbath supports (GC-04-016, -027, -046) also fail, the Sabbath leg of the frame retains no surviving support beyond the dual-observance Ethiopian case (GC-04-026). Severity reflects a schema-level misrepresentation of medieval dissent, but the schema is inherited wholesale from Andrews' History of the Sabbath ch. 21 — period method, not authorial invention."
+    },
+    "GC-04-011": {
+      "severity": 3,
+      "centrality": 2,
+      "load_bearing": false,
+      "impact_score": 6,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "Reverses the scholarly transmission picture (Ireland was evangelized from Britain/Gaul; Scotland from Ireland), following D'Aubigne's refugee narrative. Delete it and nothing in the argument moves: it is background color in the Celtic prologue, whose argumentative work — a non-Roman British Christianity — is done by other sentences. Period-inherited error, not invention."
+    },
+    "GC-04-016": {
+      "severity": 4,
+      "centrality": 4,
+      "load_bearing": false,
+      "impact_score": 16,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "Asserts a specific, wholly unattested fact — a Sabbath-keeper among Columba's Iona evangelists introducing seventh-day observance to Scotland — hence high severity, though it descends from Skene's and Andrews' period inferences rather than White's invention. Delete it and the Celtic Sabbath link vanishes, thinning the 'in every age' Sabbath chain that ties this chapter to the book's Sabbath arc; the chapter's core Waldensian argument survives, so not individually load-bearing."
+    },
+    "GC-04-017": {
+      "severity": 2,
+      "centrality": 2,
+      "load_bearing": false,
+      "impact_score": 4,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "Misassigns the real continental Celtic missions (Columbanus, Gallus, Bobbio — from Irish houses like Bangor) to a school at Iona, compressing D'Aubigne. The substance (far-reaching non-Roman missionary vigor) is true; only the institution is wrong. Delete it and the Celtic portrait loses one flourish. Period compression, not invention."
+    },
+    "GC-04-021": {
+      "severity": 2,
+      "centrality": 2,
+      "load_bearing": false,
+      "impact_score": 4,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "The British refusal of papal supremacy is solid in Bede; the error is relaying the late, doubtful 'Answer of Dinoth' wording as the Britons' historical reply, via D'Aubigne. Delete the claim and the attested Bedan refusal still carries the scene, so the argument loses nothing but a phrase of doubtful provenance. Low severity: bad provenance for a real position, inherited from period historiography."
+    },
+    "GC-04-023": {
+      "severity": 3,
+      "centrality": 3,
+      "load_bearing": false,
+      "impact_score": 9,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "Implies Rome fulfilled Augustine's threat by war and intrigue until the British churches were destroyed — but the Bangor massacre at Chester was the work of a pagan king, and conformity came gradually by synod; the instigation charge is Reformation-era polemic relayed by D'Aubigne, so period-inherited rather than invented. Delete it and the Celtic section loses its 'true spirit of the papacy' proof, weakening the chapter's opening exhibit of Rome's method — though the well-attested Waldensian persecutions later carry that theme on their own."
+    },
+    "GC-04-027": {
+      "severity": 3,
+      "centrality": 3,
+      "load_bearing": false,
+      "impact_score": 9,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "Attributes seventh-day observance to the Armenians on a chain running Buchanan (1811) → Andrews → White, in which Buchanan's 'seventh day' in context meant Sunday. Delete it and the 'Sabbath beyond Rome's reach' paragraph still keeps its supported Ethiopian example, so the argument narrows but stands. A faithfully copied period error — textbook anachronism, per the defense."
+    },
+    "GC-04-030": {
+      "severity": 4,
+      "centrality": 4,
+      "load_bearing": false,
+      "impact_score": 16,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "Asserts centuries of pre-Waldo Piedmontese ecclesiastical independence — the institutional half of the antiquity thesis that scholarship since Gieseler rejects and the 1912 Catholic Encyclopedia already called fable; inherited from Wylie/Muston, not invented. High severity: the asserted independent church body never existed. Delete it and ¶8's separation drama (GC-04-031, -032) loses its premise, though the apostolic-identity claim itself is restated at GC-04-034, which carries the load."
+    },
+    "GC-04-031": {
+      "severity": 3,
+      "centrality": 3,
+      "load_bearing": false,
+      "impact_score": 9,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "Narrates the reluctant submission of an ancient Piedmontese church that never existed — pure elaboration of GC-04-030's rejected premise, from the same Wylie/Muston reconstruction White reproduced in good faith. Delete it and nothing else in the argument moves; the separation story would simply lack one beat."
+    },
+    "GC-04-032": {
+      "severity": 3,
+      "centrality": 4,
+      "load_bearing": false,
+      "impact_score": 12,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "Reverses the direction of history: natives withdrawing to preserve an ancient faith, where scholarship has a Lyon-born movement diffusing into the valleys under persecution in the 13th century. This 'separation' is the referent of ¶10's causal Sabbath claim (GC-04-036), so it scaffolds the chapter's Sabbath-separation link — hence elevated centrality. Delete it and the remnant-withdrawal image goes, but the identity claim (GC-04-034) still stands as asserted. Wylie/Muston construction, faithfully reproduced."
+    },
+    "GC-04-034": {
+      "severity": 5,
+      "centrality": 5,
+      "load_bearing": true,
+      "impact_score": 25,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "The load-bearing antiquity claim: Waldensian faith as unbroken apostolic inheritance predating Waldo. Every modern authority, including the Waldensian church's own historians, dates the movement to c. 1173, making this a fundamental misrepresentation of the movement's identity (severity 5) — though one White took in good faith from Wylie/Muston/Perrin, whose misdated documents (Nobla Leyczon) carried the era's Protestant consensus: period method, not invention. Delete it and ¶9's conclusion — the Waldenses as 'the church in the wilderness... the true church of Christ' — has no stated basis, and the chapter's link in the book's apostolic-purity-to-persecuted-remnant chain fails."
+    },
+    "GC-04-036": {
+      "severity": 4,
+      "centrality": 5,
+      "load_bearing": false,
+      "impact_score": 20,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "Welds the Sabbath to the true church's separation from Rome — the single strongest connector between this chapter and the book's Sabbath-vs-Sunday arc, hence centrality 5. Anachronism caveat is only partial here and must reach synthesis: the premises are period (Andrews' Sabbatati etymology, Laodicea, Gregory I), but no period source states the causal thesis itself — that synthesis is White's own layering on period materials, closer to authorial construction than inherited error. Delete it and the chapter still asserts Waldensian Sabbath-keeping (GC-04-046) and a separation; only the causal weld disappears, so the chapter's argument survives in weakened form."
+    },
+    "GC-04-046": {
+      "severity": 4,
+      "centrality": 5,
+      "load_bearing": true,
+      "impact_score": 20,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "The chapter's only direct assertion that the Waldenses kept the seventh-day Sabbath — the property that makes them the book's Sabbath-keeping remnant. Waldensian specialists reject it (sabots/feast-day etymology; no seventh-day observance in inquisitorial descriptions), and even Adventist venues concede the evidence is lacking; the claim descends from Andrews' reading of Goldastus — period method, not invention. Delete it and the chapter remains a story of persecuted Bible-lovers, but its distinctive argument — the true church hallowing the true Sabbath through the Dark Ages — loses all direct support, since GC-04-016 and -027 fail too: load-bearing for the chapter as the book's thesis chain uses it."
+    },
+    "GC-04-049": {
+      "severity": 3,
+      "centrality": 4,
+      "load_bearing": false,
+      "impact_score": 12,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "'A thousand years' roughly triples the real ~350-year span, operationalizing the misdated Nobla Leyczon chronology from Wylie/Muston — a duration inflation embodying the antiquity myth, not a fabricated event, and squarely period-inherited. The number is the chapter's most quotable statement of continuity, bridging the apostolic era toward the Reformation. Delete it and the continuity rhetoric weakens, but the antiquity thesis (GC-04-034) still does the argumentative work."
+    },
+    "GC-04-072": {
+      "severity": 2,
+      "centrality": 2,
+      "load_bearing": false,
+      "impact_score": 4,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "Retrojects a likely post-Reformation Vaudois rule (three years' mission service, then a settled home charge) onto medieval barbes, who held no settled pastorates — taken verbatim from Wylie, so period-inherited. Decorative detail in a missionary-training portrait whose core (paired itinerancy, trades as cover, clandestinity) is independently well attested. Delete it and the portrait loses one specification; the argument loses nothing."
+    },
+    "GC-04-082": {
+      "severity": 2,
+      "centrality": 3,
+      "load_bearing": false,
+      "impact_score": 6,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "High-stakes disputed item (downgraded from anachronistic), scored for synthesis, not a confirmed discrepancy. The evidence is genuinely mixed: the Waldenses demonstrably rejected the works-atonement machinery (purgatory, indulgences, masses for the dead), yet barbes heard confession and assigned penances, so the proto-sola-fide portrait — which follows Wylie's period framing — overstates. The claim feeds ¶29-35's conversion drama, the chapter's emotional core, but that drama needs only the attested rejection of merit-machinery, which survives on the narrow reading; delete the claim and the portrait dims without collapsing."
+    },
+    "GC-04-113": {
+      "severity": 2,
+      "centrality": 4,
+      "load_bearing": false,
+      "impact_score": 8,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "High-stakes disputed item, scored for synthesis, not a confirmed discrepancy. This is the chapter's closing bridge to the Reformation arc of the central chain: the strong genealogy (Waldenses seeding Wycliffe and Luther) is rejected, but a real scholarly tradition (Molnar's 'First Reformation', Reiser's Waldensian-Hussite networks, early Unitas Fratrum contacts) defends a contributory role, and the figurative 'seeds' wording tolerates that weak reading. Delete it and the chapter's internal argument about the Waldenses is untouched; only the hand-off to the next link of the book's chain would need restating."
+    }
+  }
+}
