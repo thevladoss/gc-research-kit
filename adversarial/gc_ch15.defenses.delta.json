@@ -1,0 +1,85 @@
+{
+  "chapter": 15,
+  "stage": "adversarial",
+  "notes": "searches: ~3 web + local greps of Wylie vol.2/vol.3; full defenses: 2 (GC-15-152 Voltaire, GC-15-155 Beza anvil), cheap audits: 3 (GC-15-011, GC-15-043, GC-15-061). Local Wylie vol.3 grep recovered White's actual source for the anvil proverb ('Beza's metaphor... anvil of the Church'). Disputed (5) and supported claims carried forward unchanged.",
+  "items": {
+    "GC-15-011": {
+      "result": "defense_failed",
+      "argument": "Steelman: the 538-1798 / 1260-year scheme was not White's idiosyncrasy but the universal chronology of 19th-century Protestant historicism (Uriah Smith and predecessors), so 'anachronistic' — matching White's era's sources — is the correct and already non-accusatory category, not a fabrication charge. Both dated anchors correspond to real events: 538 marks Belisarius's recovery of Rome and the lifting of the Ostrogothic siege, with the Roman see operating under Justinian's newly asserted imperial-ecclesiastical framework (the 533/545 legislation elevating the bishop of Rome); 1798 is the solidly attested capture of Pius VI by Berthier's army. Only the connective 'a discrete 1260-year papal supremacy running between them' is the confessional construct with no secular-historiographical support. One could also argue for a lateral move to 'unverifiable', since the verifier itself marked the parallel prophetic-chronology claims (GC-15-010, GC-15-025) unverifiable and this is the same construct stated as dates. Why it fails: no modern historian dates a 1260-year papal supremacy from 538, so the claim cannot reach 'supported', and the extractor legitimately isolated the dated proposition ('papal supremacy began in 538') as an empirically checkable and rejected historical assertion distinct from its prophetic use. The anachronistic verdict is accurate and maximally fair; it stands. source_quality: encyclopedic-only (contested element is a prophetic construct, not a historians' dispute)."
+    },
+    "GC-15-043": {
+      "result": "verdict_downgraded",
+      "revised_verdict": "disputed",
+      "argument": "The verifier's rationale rests on a confident 'modern consensus' that the Cathars/Albigenses 'were dualists, doctrinally distinct... not proto-Protestant'. Current academic scholarship has substantially destabilized exactly that premise. A 2013 London conference and the resulting volume (Antonio Sennis, ed., 'Cathars in Question', York Medieval Press / Boydell, 2016) debated whether Catharism 'really existed as an organized, self-conscious sect professing theological dualism, or was the invention of a persecuting church.' Mark Gregory Pegg argues Catharism 'never existed, except as an enduring invention of late nineteenth-century scholars,' and R. I. Moore ('The War on Heresy', 2012) folds this skeptical reading into a general revision of the medieval church's pursuit of dissent, holding that inquisitorial questioning shaped the dualist testimonies later ascribed to the accused. Consequence for this claim: the flat proposition that the Albigenses were doctrinally dualist (and therefore unlike the Waldenses) is itself now genuinely contested, so the ground for a confident anachronistic/error call is weaker than the verifier presents. This does NOT vindicate White's positive assertion — revisionists do not make the Albigenses proto-Protestant Bible Christians; they argue we cannot securely reconstruct their beliefs at all. But because the counter-claim the verdict leans on is under active scholarly dispute, 'disputed' is the more accurate and better-sourced verdict than 'anachronistic'. Note also White's wording is looser than the verifier reads it: she says the Albigenses bore 'similar witness to the truth' by laying down their lives as persecuted anti-Roman dissenters, which is compatible with a shared-persecution reading rather than a strict doctrinal-identity claim. source_quality: academic-partial (peer-reviewed reviews of Sennis ed. in The Medieval Review and Project MUSE; Pegg and Moore monographs via reviews).",
+      "new_sources": [
+        {
+          "title": "Antonio Sennis (ed.), Cathars in Question (York Medieval Press, 2016) — review, The Medieval Review 17.01.27",
+          "url": "https://scholarworks.iu.edu/journals/index.php/tmr/article/view/23314/29115",
+          "source_class": "academic",
+          "supports_verdict": true,
+          "note": "documents the live scholarly debate over whether Catharism existed as an organized dualist sect; Pegg's skeptical position"
+        },
+        {
+          "title": "Cathars in Question, ed. by Antonio Sennis (review) — Project MUSE",
+          "url": "https://muse.jhu.edu/pub/16/article/745477",
+          "source_class": "academic",
+          "supports_verdict": true,
+          "note": "academic review confirming revisionist deconstruction of the dualist-sect model"
+        },
+        {
+          "title": "R. I. Moore, The War on Heresy (2012) — as summarized in review literature",
+          "url": "https://reviews.history.ac.uk/review/231/",
+          "source_class": "academic",
+          "supports_verdict": true,
+          "note": "inquisitorial-construction argument; dualist testimonies shaped by interrogation"
+        }
+      ]
+    },
+    "GC-15-061": {
+      "result": "defense_failed",
+      "argument": "Steelman: the 70,000 figure is not a White invention. Local Wylie vol.2 (p.606) lays out the full period range — Mezeray 25,000; De Thou 30,000; Sully 70,000; Perefixe 100,000; Davila 10,000 — and reports Sully as 'commonly reckoned the highest authority,' Sully being a near-contemporary Huguenot statesman. White selected the estimate her principal source endorsed as authoritative, so the number reflects faithful transmission of 19th-century scholarship, precisely what the 'anachronistic' category is for. It also sits inside a genuine spread of contemporary and near-contemporary estimates rather than being fabricated. Why it fails: modern scholarship (Benedict; Britannica; Musée protestant) puts the nationwide toll far lower, roughly 5,000-30,000, and treats 70,000-100,000 as inflated, so the figure is wrong by modern standards and cannot be upgraded. The anachronistic verdict, which credits Wylie/Sully and does not accuse White of invention, is accurate and appropriately non-accusatory; it stands unchanged. No downgrade is warranted because the number is empirically too high regardless of provenance."
+    },
+    "GC-15-152": {
+      "result": "verdict_downgraded",
+      "revised_verdict": "anachronistic",
+      "argument": "Source-audit catch first: the verifier's lead source, the Cato Institute piece 'The Origins of a Warning from Voltaire,' is about a DIFFERENT Voltaire legend — the 'within a hundred years the Bible will be a forgotten book' prediction plus the 'Bible Society occupies his former house' story — not this 'twelve men established... one man may overthrow it' boast. It supports only the general misattribution pattern, not this specific quotation, so it is weaker on-point than the rationale implies. On the substance I concede the core: my own search confirms the boast is unlocatable in Voltaire's authenticated corpus and is absent from Wikiquote's vetted collection, so it cannot be called authentic ('supported' is off the table). But the misquotation verdict overstates White's culpability. White frames it not as a citation of Voltaire's writings but as something he 'once boastingly said' — an oral boast, whose absence from the written works is expected rather than disproving. And the boast was a stock, ambient attribution in 19th-century Christian-historical and apologetic literature before and around GC's 1888 first edition (it appears in works such as Msgr. G. E. Dillon's 'War of Anti-Christ with the Church,' and later Sidney Collett's 'Scripture of Truth,' 1905), circulating in exactly the form and framing White uses. The underlying sentiment also aligns with Voltaire's documented anti-Christian program ('ecrasez l'infame'). Because White transmitted a period-standard attribution current in her era's sources rather than fabricating a quotation, this fits CLAUDE.md rule 4's anachronism principle (wrong by modern standards but consistent with the attributions standard in White's milieu) better than a bare misquotation charge. Downgrade to anachronistic, medium confidence; the residual problem — the words remain unlocatable in Voltaire — is acknowledged and prevents a full success verdict. source_quality: encyclopedic-only (topic not on the doctrinal-escalation list; Voltaire attribution).",
+      "new_sources": [
+        {
+          "title": "Voltaire — Wikiquote (misattributed / unsourced sections)",
+          "url": "https://en.wikiquote.org/wiki/Voltaire",
+          "source_class": "encyclopedia",
+          "supports_verdict": true,
+          "note": "the 'twelve men / one man' boast is absent from the vetted-quotation list, confirming unlocatability in the authentic corpus"
+        },
+        {
+          "title": "Rev. G. E. Dillon, War of Anti-Christ with the Church (repr. Heritage History)",
+          "url": "https://www.heritage-history.com/index.php?c=read&author=dillon&book=freemasonry&story=voltaire",
+          "source_class": "apologetic",
+          "supports_verdict": true,
+          "note": "position/period-circulation evidence: 19th-c apologetic work carrying the same Voltaire boast in the same framing, showing it was an ambient period attribution rather than a White coinage"
+        }
+      ]
+    },
+    "GC-15-155": {
+      "result": "verdict_downgraded",
+      "revised_verdict": "anachronistic",
+      "argument": "The decisive new evidence is local: White's documented source for this chapter, Wylie's 'History of Protestantism' vol.3 (p.128 in the local text), explicitly writes 'Another hammer, to use Beza's metaphor, had been worn out on the anvil of the Church.' So White read the metaphor as Beza's and as originally about the Church — and she faithfully signals exactly that in her framing: 'In the words of an early Reformer concerning the Christian church.' The attribution ('an early Reformer' = Beza) and the original referent ('the Christian church') are both correct. What the verifier flags as the misquotation is real at the letter level — the quoted words read 'The Bible is an anvil' where Beza said 'the Church.' But three factors make this a period-idiomatic adaptation of a floating proverb rather than a meaning-altering misquotation: (1) the anvil-and-hammers saying was a widely-circulated 19th-century commonplace attested in BOTH a 'Church' form (Beza's original) and a standard 'Bible / Word of God is an anvil that has worn out many hammers' form — the Bible-form is not a White coinage but a current variant; (2) White transparently discloses the original referent, so she is not passing off 'the Bible' as Beza's verbatim word; (3) the meaning — indestructibility under repeated assault — is identical in both forms, and the Bible-form fits her paragraph's actual subject (Scripture surviving infidel attack) perfectly. Because the substitution follows a genuine proverbial variant current in White's era while her named source carried the Church-form, this is best classed as anachronistic (period usage) rather than a bare misquotation. I stop short of 'supported' because the letter-level substitution against her own source (Wylie/Beza: 'Church') is genuine. source_quality: encyclopedic-only (topic not on the doctrinal-escalation list; proverb attribution; anchored by the local Wylie primary text).",
+      "new_sources": [
+        {
+          "title": "J. A. Wylie, History of Protestantism vol.3, p.128 (local) — 'Beza's metaphor... anvil of the Church'",
+          "url": "scholarship/wylie-history-of-protestantism-vol3.txt",
+          "source_class": "primary",
+          "supports_verdict": true,
+          "note": "White's actual chapter source: attributes the anvil metaphor to Beza and gives the original referent as the Church, which White faithfully signals as 'concerning the Christian church'"
+        },
+        {
+          "title": "The anvil-and-hammers proverb — Church and Bible forms (proverb references)",
+          "url": "https://proverbs_new.en-academic.com/400/the_Church_is_an_anvil_which_has_worn_out_many_hammers",
+          "source_class": "scholarly_encyclopedia",
+          "supports_verdict": true,
+          "note": "Beza origin (reply to King of Navarre after Vassy, 1562) about the Church; standard reference notes the saying 'also applied to the Bible specifically' as a current variant"
+        }
+      ]
+    }
+  }
+}

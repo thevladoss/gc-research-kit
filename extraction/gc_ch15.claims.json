@@ -1,0 +1,1439 @@
+{
+  "chapter": 15,
+  "chapter_title": "The Bible And The French Revolution",
+  "stage": "extraction",
+  "generated_at": "2026-07-05",
+  "notes": "Processed in two halves (paragraphs 1-33 and 34-64) and merged; IDs sequential. Recurring Revelation 11 quotations are logged once per paragraph occurrence since each carries distinct surrounding context, per completeness rule. Biblical quotations (from Scripture, attributed to prophets/psalmist/Paul/the Lord) are logged as attributed_quote with needs_verification true (checkable against the KJV text actually used), even though the doctrinal use made of them is theological and logged separately.",
+  "claims": [
+    {
+      "id": "GC-15-001",
+      "paragraph": 1,
+      "quote": "In the sixteenth century the Reformation, presenting an open Bible to the people, had sought admission to all the countries of Europe.",
+      "claim_text": "In the sixteenth century the Protestant Reformation, presenting an open Bible to the people, sought admission to all the countries of Europe.",
+      "claim_type": "event",
+      "entities": ["Reformation", "Europe"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-002",
+      "paragraph": 1,
+      "quote": "In other lands, the papacy succeeded to a great extent in preventing its entrance; and the light of Bible knowledge, with its elevating influences, was almost wholly excluded.",
+      "claim_text": "In some European lands the papacy succeeded to a great extent in preventing the Reformation's entrance, so that Bible knowledge was almost wholly excluded.",
+      "claim_type": "causal",
+      "entities": ["Papacy", "Reformation"],
+      "needs_verification": true,
+      "extractor_note": "Broad generalized causal claim about papal suppression across multiple unnamed lands."
+    },
+    {
+      "id": "GC-15-003",
+      "paragraph": 1,
+      "quote": "In one country, though the light found entrance, it was not comprehended by the darkness. For centuries, truth and error struggled for the mastery. At last the evil triumphed, and the truth of Heaven was thrust out.",
+      "claim_text": "In one country (contextually France), though the Reformation's light entered, it was not accepted; for centuries truth and error contended there until error triumphed and the Reformation was suppressed.",
+      "claim_type": "causal",
+      "entities": ["France"],
+      "needs_verification": true,
+      "extractor_note": "Country not named explicitly in this sentence but identified as France by the following paragraph."
+    },
+    {
+      "id": "GC-15-004",
+      "paragraph": 1,
+      "quote": "“This is the condemnation, that light is come into the world, and men loved darkness rather than light.”(383)",
+      "claim_text": "The Gospel of John (3:19) is quoted as: \"This is the condemnation, that light is come into the world, and men loved darkness rather than light.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Gospel of John"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-005",
+      "paragraph": 1,
+      "quote": "The restraint of God’s Spirit was removed from a people that had despised the gift of His grace. Evil was permitted to come to maturity.",
+      "claim_text": "God removed the restraint of His Spirit from the French nation because it had despised the gift of His grace, permitting evil to come to maturity.",
+      "claim_type": "theological",
+      "entities": ["France"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-006",
+      "paragraph": 2,
+      "quote": "The war against the Bible, carried forward for so many centuries in France, culminated in the scenes of the Revolution.",
+      "claim_text": "A centuries-long campaign against the Bible in France culminated in the events of the French Revolution.",
+      "claim_type": "causal",
+      "entities": ["France", "French Revolution"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-007",
+      "paragraph": 2,
+      "quote": "That terrible outbreaking was but the legitimate result of Rome’s suppression of the Scriptures.(384)",
+      "claim_text": "The French Revolution was the legitimate historical result of the Roman Catholic Church's suppression of the Scriptures.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church", "French Revolution"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-008",
+      "paragraph": 3,
+      "quote": "The suppression of the Scriptures during the period of papal supremacy was foretold by the prophets; and the Revelator points also to the terrible results that were to accrue especially to France from the domination of “the man of sin.”",
+      "claim_text": "The book of Revelation foretold both the suppression of Scripture under papal supremacy and terrible results to accrue especially to France from the domination of \"the man of sin.\"",
+      "claim_type": "theological",
+      "entities": ["Book of Revelation", "France", "Papacy"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-009",
+      "paragraph": 4,
+      "quote": "Said the angel of the Lord: “The holy city shall they tread under foot forty and two months. And I will give power unto My two witnesses, and they shall prophesy a thousand two hundred and threescore days, clothed in sackcloth.... And when they shall have finished their testimony, the beast that ascendeth out of the bottomless pit shall make war against them, and shall overcome them, and kill them. And their dead bodies shall lie in the street of the great city, which spiritually is called Sodom and Egypt, where also our Lord was crucified.... And they that dwell upon the earth shall rejoice over them, and make merry, and shall send gifts one to another; because these two prophets tormented them that dwelt on the earth. And after three days and a half the Spirit of life from God entered into them, and they stood upon their feet; and great fear fell upon them which saw them.”(385)",
+      "claim_text": "Revelation 11 is quoted describing the treading of the holy city for 42 months, the two witnesses prophesying 1260 days in sackcloth, their being overcome and killed by the beast from the bottomless pit in the \"great city\" (spiritually Sodom and Egypt, where the Lord was crucified), and their resurrection after three and a half days.",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Revelation"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-010",
+      "paragraph": 5,
+      "quote": "The periods here mentioned—“forty and two months,” and “a thousand two hundred and threescore days”—are the same, alike representing the time in which the church of Christ was to suffer oppression from Rome.",
+      "claim_text": "The Revelation 11 periods of \"forty and two months\" and \"a thousand two hundred and threescore days\" are identical and represent the time the church of Christ was to suffer oppression from Rome.",
+      "claim_type": "theological",
+      "entities": ["Book of Revelation", "Roman Catholic Church"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-011",
+      "paragraph": 5,
+      "quote": "The 1260 years of papal supremacy began in A.D. 538, and would therefore terminate in 1798.(386)",
+      "claim_text": "The 1260-year period of papal supremacy began in A.D. 538 and terminated in 1798.",
+      "claim_type": "date",
+      "entities": ["Papacy"],
+      "needs_verification": true,
+      "extractor_note": "Historicist prophetic-chronological framework; the specific start/end dates are presented as historical facts and are checkable."
+    },
+    {
+      "id": "GC-15-012",
+      "paragraph": 5,
+      "quote": "At that time a French army entered Rome, and made the pope a prisoner, and he died in exile.",
+      "claim_text": "In 1798 a French army entered Rome, took the pope prisoner, and the pope died in exile.",
+      "claim_type": "event",
+      "entities": ["France", "Rome", "Pope Pius VI"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-013",
+      "paragraph": 5,
+      "quote": "Though a new pope was soon afterward elected, the papal hierarchy has never since been able to wield the power which it before possessed.",
+      "claim_text": "A new pope was elected soon after 1798, but the papal hierarchy has never since been able to wield the power it possessed before 1798.",
+      "claim_type": "event",
+      "entities": ["Papacy"],
+      "needs_verification": true,
+      "extractor_note": "First clause (new pope elected) is a checkable event; the sweeping second clause is also logged here as it is presented as historical fact rather than pure interpretation."
+    },
+    {
+      "id": "GC-15-014",
+      "paragraph": 6,
+      "quote": "The persecution of the church did not continue throughout the entire period of the 1260 years. God in mercy to His people cut short the time of their fiery trial.",
+      "claim_text": "God, in mercy, cut short the persecution of the church so that it did not continue throughout the entire 1260-year period.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-015",
+      "paragraph": 6,
+      "quote": "Except those days should be shortened, there should no flesh be saved: but for the elect’s sake those days shall be shortened.”(387)",
+      "claim_text": "Matthew 24:22 is quoted, attributed to the Saviour: \"Except those days should be shortened, there should no flesh be saved: but for the elect's sake those days shall be shortened.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Gospel of Matthew"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-016",
+      "paragraph": 6,
+      "quote": "Through the influence of the Reformation, the persecution was brought to an end prior to 1798.",
+      "claim_text": "The influence of the Protestant Reformation brought the persecution of the church to an end prior to 1798.",
+      "claim_type": "causal",
+      "entities": ["Reformation"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-017",
+      "paragraph": 7,
+      "quote": "“These are the two olive-trees, and the two candle-sticks standing before the God of the earth.”",
+      "claim_text": "Revelation is quoted describing the two witnesses as \"the two olive-trees, and the two candle-sticks standing before the God of the earth.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Revelation"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-018",
+      "paragraph": 7,
+      "quote": "“Thy word,” said the psalmist, “is a lamp unto my feet, and a light unto my path.”(388)",
+      "claim_text": "Psalm 119:105 is quoted, attributed to the psalmist: \"Thy word is a lamp unto my feet, and a light unto my path.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Psalms"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-019",
+      "paragraph": 7,
+      "quote": "The two witnesses represent the Scriptures of the Old and the New Testament.",
+      "claim_text": "The two witnesses of Revelation 11 represent the Scriptures of the Old and New Testament.",
+      "claim_type": "theological",
+      "entities": ["Book of Revelation", "Bible"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-020",
+      "paragraph": 8,
+      "quote": "During the greater part of this period, God’s witnesses remained in a state of obscurity. The papal power sought to hide from the people the Word of truth, and set before them false witnesses to contradict its testimony.(389)",
+      "claim_text": "During most of the 1260-year period the papal power sought to hide the Bible from the people and set before them false witnesses to contradict its testimony, keeping God's witnesses in obscurity.",
+      "claim_type": "causal",
+      "entities": ["Papacy"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-021",
+      "paragraph": 8,
+      "quote": "When the Bible was proscribed by religious and secular authority; when its testimony was perverted, and every effort made that men and demons could invent to turn the minds of the people from it; when those who dared proclaim its sacred truths were hunted, betrayed, tortured, buried in dungeon cells, martyred for their faith, or compelled to flee to mountain fastnesses, and to dens and caves of the earth,—then the faithful witnesses prophesied in sackcloth.",
+      "claim_text": "During the 1260-year period, the Bible was proscribed by religious and secular authority and those who proclaimed its truths were hunted, betrayed, tortured, imprisoned, martyred, or driven to flee to remote hiding places.",
+      "claim_type": "causal",
+      "entities": ["Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-022",
+      "paragraph": 9,
+      "quote": "“And if any man will hurt them, fire proceedeth out of their mouth, and devoureth their enemies: and if any man will hurt them, he must in this manner be killed.”(390)",
+      "claim_text": "Revelation 11:5 is quoted: \"And if any man will hurt them, fire proceedeth out of their mouth, and devoureth their enemies: and if any man will hurt them, he must in this manner be killed.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Revelation"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-023",
+      "paragraph": 9,
+      "quote": "“I testify unto every man that heareth the words of the prophecy of this book, If any man shall add unto these things, God shall add unto him the plagues that are written in this book: and if any man shall take away from the words of the book of this prophecy, God shall take away his part out of the book of life, and out of the holy city, and from the things which are written in this book.”(391)",
+      "claim_text": "Revelation 22:18-19 is quoted concerning the penalties for adding to or taking away from the words of the prophecy of the book of Revelation.",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Revelation"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-024",
+      "paragraph": 10,
+      "quote": "The written word, the law of God, will measure the character of every man, and condemn all whom this unerring test shall declare wanting.",
+      "claim_text": "The written word and law of God will measure the character of every person and condemn all found wanting by that test.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-025",
+      "paragraph": 11,
+      "quote": "The period when the two witnesses were to prophesy clothed in sackcloth, ended in 1798.",
+      "claim_text": "The prophetic period during which the two witnesses (the Scriptures) were to prophesy \"clothed in sackcloth\" ended in 1798.",
+      "claim_type": "date",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-026",
+      "paragraph": 11,
+      "quote": "As they were approaching the termination of their work in obscurity, war was to be made upon them by the power represented as “the beast that ascendeth out of the bottomless pit.”",
+      "claim_text": "As the two witnesses approached the end of their prophesied period of obscurity, a power represented as \"the beast that ascendeth out of the bottomless pit\" was to make war upon them.",
+      "claim_type": "theological",
+      "entities": ["Book of Revelation"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-027",
+      "paragraph": 11,
+      "quote": "In many of the nations of Europe the powers that ruled in church and state had for centuries been controlled by Satan, through the medium of the papacy.",
+      "claim_text": "For centuries, the powers ruling church and state in many European nations had been controlled by Satan through the medium of the papacy.",
+      "claim_type": "theological",
+      "entities": ["Papacy", "Europe"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-028",
+      "paragraph": 12,
+      "quote": "It had been Rome’s policy, under a profession of reverence for the Bible, to keep it locked up in an unknown tongue, and hidden away from the people.",
+      "claim_text": "It was the Roman Catholic Church's policy, while professing reverence for the Bible, to keep it locked up in an unknown tongue and hidden from the people.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-029",
+      "paragraph": 12,
+      "quote": "But another power—the beast from the bottomless pit—was to arise to make open, avowed war upon the word of God.",
+      "claim_text": "A new power, \"the beast from the bottomless pit,\" was to arise and make open, avowed war upon the Bible, distinct from Rome's earlier policy of concealment.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-030",
+      "paragraph": 13,
+      "quote": "The “great city” in whose streets the witnesses are slain, and where their dead bodies lie, “is spiritually Egypt.”",
+      "claim_text": "The prophecy's \"great city\" where the two witnesses are slain is identified, spiritually, as Egypt.",
+      "claim_type": "theological",
+      "entities": ["Book of Revelation", "Egypt"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-031",
+      "paragraph": 13,
+      "quote": "When the message was brought him by Moses, in the name of the Lord, Pharaoh proudly answered, “Who is Jehovah, that I should obey His voice to let Israel go? I know not Jehovah, neither will I let Israel go.”(392)",
+      "claim_text": "Exodus 5:2 is quoted, attributed to Pharaoh in response to Moses: \"Who is Jehovah, that I should obey His voice to let Israel go? I know not Jehovah, neither will I let Israel go.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Pharaoh", "Moses", "Book of Exodus"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-032",
+      "paragraph": 13,
+      "quote": "Of all nations presented in Bible history, Egypt most boldly denied the existence of the living God, and resisted His commands. No monarch ever ventured upon more open and high-handed rebellion against the authority of Heaven than did the king of Egypt.",
+      "claim_text": "Of all nations in Bible history, Egypt is presented as having most boldly denied the existence of God, with no monarch more openly rebelling against Heaven's authority than the king of Egypt.",
+      "claim_type": "theological",
+      "entities": ["Egypt", "Pharaoh"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-033",
+      "paragraph": 13,
+      "quote": "The “great city” is also compared, “spiritually,” to Sodom. The corruption of Sodom in breaking the law of God was especially manifested in licentiousness.",
+      "claim_text": "The prophecy's \"great city\" is also compared, spiritually, to Sodom, whose corruption was especially manifested in licentiousness.",
+      "claim_type": "theological",
+      "entities": ["Sodom"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-034",
+      "paragraph": 14,
+      "quote": "According to the words of the prophet, then, a little before the year 1798 some power of satanic origin and character would rise to make war upon the Bible. And in the land where the testimony of God’s two witnesses should thus be silenced, there would be manifest the atheism of the Pharaoh and the licentiousness of Sodom.",
+      "claim_text": "The prophecy is interpreted as predicting that a little before 1798 a power of satanic origin would make war upon the Bible, and in the land where this occurred there would be manifest both Pharaoh-like atheism and Sodom-like licentiousness.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-035",
+      "paragraph": 15,
+      "quote": "This prophecy has received a most exact and striking fulfilment in the history of France.",
+      "claim_text": "The Revelation 11 prophecy of the two witnesses is claimed to have received an exact and striking fulfilment in the history of France.",
+      "claim_type": "theological",
+      "entities": ["France"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-036",
+      "paragraph": 15,
+      "quote": "During the Revolution, in 1793, “the world for the first time heard an assembly of men, born and educated in civilization, and assuming the right to govern one of the finest of the European nations, uplift their united voice to deny the most solemn truth which man’s soul receives, and renounce unanimously the belief and worship of a Deity.”(393)",
+      "claim_text": "In 1793, during the French Revolution, an assembly of men governing France uplifted their united voice to deny the existence of God and unanimously renounce the belief and worship of a Deity, according to the quoted historian.",
+      "claim_type": "attributed_quote",
+      "entities": ["France", "French Revolution"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-037",
+      "paragraph": 15,
+      "quote": "“France is the only nation in the world concerning which the authentic record survives, that as a nation she lifted her hand in open rebellion against the Author of the universe. Plenty of blasphemers, plenty of infidels, there have been, and still continue to be, in England, Germany, Spain, and elsewhere; but France stands apart in the world’s history as the single state which, by the decree of her Legislative Assembly, pronounced that there was no God, and of which the entire population of the capital, and a vast majority elsewhere, women as well as men, danced and sang with joy in accepting the announcement.”(394)",
+      "claim_text": "France is asserted, by the quoted historian, to be the only nation whose Legislative Assembly officially decreed that there was no God, an announcement that the population of the capital and a vast majority elsewhere reportedly received with dancing and singing.",
+      "claim_type": "attributed_quote",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-038",
+      "paragraph": 16,
+      "quote": "France presented also the characteristic which especially distinguished Sodom. During the Revolution there was manifest a state of moral debasement and corruption similar to that which brought destruction upon the cities of the plain.",
+      "claim_text": "During the French Revolution there was manifest a state of moral debasement and corruption said to be similar to that which brought destruction upon Sodom and Gomorrah.",
+      "claim_type": "interpretive",
+      "entities": ["France", "Sodom"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-039",
+      "paragraph": 16,
+      "quote": "Intimately connected with these laws affecting religion, was that which reduced the union of marriage—the most sacred engagement which human beings can form, and the permanence of which leads most strongly to the consolidation of society—to the state of a mere civil contract of a transitory character, which any two persons might engage in and cast loose at pleasure.",
+      "claim_text": "French revolutionary law reduced marriage to a mere civil contract of a transitory character which any two persons could enter and dissolve at pleasure, according to the quoted historian.",
+      "claim_type": "attributed_quote",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-040",
+      "paragraph": 16,
+      "quote": "Sophie Arnoult, an actress famous for the witty things she said, described the republican marriage as ‘the sacrament of adultery.’ ”(395)",
+      "claim_text": "Sophie Arnoult, described as an actress famous for witty remarks, described republican marriage as \"the sacrament of adultery.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Sophie Arnoult"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-041",
+      "paragraph": 17,
+      "quote": "“Where also our Lord was crucified.” This specification of the prophecy was also fulfilled by France.",
+      "claim_text": "The prophecy's specification that the great city is \"where also our Lord was crucified\" is claimed to have been fulfilled by France.",
+      "claim_type": "theological",
+      "entities": ["France"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-042",
+      "paragraph": 17,
+      "quote": "In the persecution which France had visited upon the confessors of the gospel, she had crucified Christ in the person of His disciples.",
+      "claim_text": "France's persecution of Protestant confessors of the gospel is characterized as crucifying Christ in the person of His disciples.",
+      "claim_type": "interpretive",
+      "entities": ["France"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-043",
+      "paragraph": 18,
+      "quote": "While the Waldenses laid down their lives upon the mountains of Piedmont “for the word of God, and for the testimony of Jesus Christ,” similar witness to the truth had been borne by their brethren, the Albigenses of France.",
+      "claim_text": "The Waldenses died for their faith in the mountains of Piedmont, and the Albigenses of France bore similar witness to the truth.",
+      "claim_type": "biographical",
+      "entities": ["Waldenses", "Albigenses", "Piedmont", "France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-044",
+      "paragraph": 18,
+      "quote": "In the days of the Reformation, its disciples had been put to death with horrible tortures.",
+      "claim_text": "During the era of the Reformation, French Protestant disciples were put to death with horrible tortures.",
+      "claim_type": "event",
+      "entities": ["France", "Reformation"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-045",
+      "paragraph": 18,
+      "quote": "King and nobles, high-born women and delicate maidens, the pride and chivalry of the nation, had feasted their eyes upon the agonies of the martyrs of Jesus.",
+      "claim_text": "The French king, nobles, high-born women, and maidens are described as having watched with satisfaction the agonies of Protestant martyrs.",
+      "claim_type": "event",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-046",
+      "paragraph": 18,
+      "quote": "The brave Huguenots, battling for those rights which the human heart holds most sacred, had poured out their blood on many a hard-fought field.",
+      "claim_text": "The Huguenots fought and shed their blood in many battles for their religious rights in France.",
+      "claim_type": "event",
+      "entities": ["Huguenots", "France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-047",
+      "paragraph": 18,
+      "quote": "The Protestants were counted as outlaws, a price was set upon their heads, and they were hunted down like wild beasts.",
+      "claim_text": "French Protestants were counted as outlaws, had a price set on their heads, and were hunted like wild beasts.",
+      "claim_type": "event",
+      "entities": ["Huguenots", "France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-048",
+      "paragraph": 19,
+      "quote": "The “Church in the Desert,” the few descendants of the ancient Christians that still lingered in France in the eighteenth century, hiding away in the mountains of the south, still cherished the faith of their fathers.",
+      "claim_text": "The \"Church in the Desert,\" descendants of the ancient Christians who lingered in France in the eighteenth century, hid in the mountains of the south while cherishing the faith of their fathers.",
+      "claim_type": "biographical",
+      "entities": ["Church in the Desert", "France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-049",
+      "paragraph": 19,
+      "quote": "As they ventured to meet by night on mountainside or lonely moor, they were chased by dragoons, and dragged away to life-long slavery in the galleys.",
+      "claim_text": "French Protestants (the Church in the Desert) who met by night on mountainsides or moors were chased by dragoons and condemned to life-long slavery in the galleys.",
+      "claim_type": "event",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-050",
+      "paragraph": 19,
+      "quote": "The purest, the most refined, and the most intelligent of the French, were chained, in horrible torture, amidst robbers and assassins.(396)",
+      "claim_text": "Some of the purest, most refined, and most intelligent French Protestants were chained in the galleys amidst robbers and assassins.",
+      "claim_type": "event",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-051",
+      "paragraph": 19,
+      "quote": "Others, more mercifully dealt with, were shot down in cold blood, as, unarmed and helpless, they fell upon their knees in prayer. Hundreds of aged men, defenseless women, and innocent children were left dead upon the earth at their place of meeting.",
+      "claim_text": "Hundreds of aged men, defenseless women, and innocent children among the French Protestants of the \"Church in the Desert\" were shot dead at their places of meeting.",
+      "claim_type": "statistic",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-052",
+      "paragraph": 19,
+      "quote": "it was not unusual to find “at every four paces, dead bodies dotting the sward, and corpses hanging suspended from the trees.” Their country, laid waste with the sword, the axe, the fagot, “was converted into one vast, gloomy wilderness.”",
+      "claim_text": "A quoted source describes finding dead bodies at every four paces and corpses hanging from trees in southern France, the country having been laid waste and converted into a vast, gloomy wilderness.",
+      "claim_type": "attributed_quote",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-053",
+      "paragraph": 19,
+      "quote": "“These atrocities were enacted ... in no dark age, but in the brilliant era of Louis XIV. Science was then cultivated, letters flourished, the divines of the court and of the capital were learned and eloquent men, and greatly affected the graces of meekness and charity.”(397)",
+      "claim_text": "The quoted historian states that the atrocities against French Protestants were enacted during the era of Louis XIV, a time when science and letters flourished and court divines were learned and eloquent men.",
+      "claim_type": "attributed_quote",
+      "entities": ["Louis XIV", "France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-054",
+      "paragraph": 20,
+      "quote": "But blackest in the black catalogue of crime, most horrible among the fiendish deeds of all the dreadful centuries, was the St. Bartholomew Massacre.",
+      "claim_text": "The St. Bartholomew Massacre is characterized as the blackest and most horrible crime among the deeds of the dreadful centuries described.",
+      "claim_type": "interpretive",
+      "entities": ["St. Bartholomew Massacre"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-055",
+      "paragraph": 20,
+      "quote": "The king of France, urged on by Romish priests and prelates, lent his sanction to the dreadful work. A bell, tolling at dead of night, was a signal for the slaughter.",
+      "claim_text": "The King of France, urged on by Roman Catholic priests and prelates, sanctioned the St. Bartholomew Massacre, which was signaled by a bell tolling at night.",
+      "claim_type": "event",
+      "entities": ["France", "St. Bartholomew Massacre"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-056",
+      "paragraph": 20,
+      "quote": "Protestants by thousands, sleeping quietly in their homes, trusting to the plighted honor of their king, were dragged forth without a warning, and murdered in cold blood.",
+      "claim_text": "During the St. Bartholomew Massacre, thousands of Protestants sleeping in their homes and trusting the king's pledge of honor were dragged forth without warning and murdered.",
+      "claim_type": "statistic",
+      "entities": ["St. Bartholomew Massacre", "France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-057",
+      "paragraph": 21,
+      "quote": "For seven days the massacre was continued in Paris, the first three with inconceivable fury.",
+      "claim_text": "The St. Bartholomew Massacre continued in Paris for seven days, with the first three days marked by especially inconceivable fury.",
+      "claim_type": "date",
+      "entities": ["St. Bartholomew Massacre", "Paris"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-058",
+      "paragraph": 21,
+      "quote": "And it was not confined to the city itself, but by special order of the king, was extended to all the provinces and towns where Protestants were found.",
+      "claim_text": "By special order of the king, the St. Bartholomew Massacre was extended beyond Paris to all provinces and towns where Protestants were found.",
+      "claim_type": "event",
+      "entities": ["St. Bartholomew Massacre", "France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-059",
+      "paragraph": 21,
+      "quote": "Neither age nor sex was respected. Neither the innocent babe nor the man of gray hairs was spared. Noble and peasant, old and young, mother and child, were cut down together.",
+      "claim_text": "In the St. Bartholomew Massacre, victims of every age, sex, and social class, including infants and the elderly, were killed.",
+      "claim_type": "event",
+      "entities": ["St. Bartholomew Massacre"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-060",
+      "paragraph": 21,
+      "quote": "Throughout France the butchery continued for two months.",
+      "claim_text": "The St. Bartholomew Massacre's butchery continued throughout France for two months.",
+      "claim_type": "date",
+      "entities": ["St. Bartholomew Massacre", "France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-061",
+      "paragraph": 21,
+      "quote": "Seventy thousand of the very flower of the nation perished.",
+      "claim_text": "Seventy thousand people, described as the flower of the French nation, perished in the St. Bartholomew Massacre.",
+      "claim_type": "statistic",
+      "entities": ["St. Bartholomew Massacre", "France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-062",
+      "paragraph": 22,
+      "quote": "When the news of the massacre reached Rome, the exultation among the clergy knew no bounds.",
+      "claim_text": "When news of the St. Bartholomew Massacre reached Rome, the exultation among the clergy there knew no bounds, according to the quoted source.",
+      "claim_type": "attributed_quote",
+      "entities": ["Rome", "St. Bartholomew Massacre"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-063",
+      "paragraph": 22,
+      "quote": "The cardinal of Lorraine rewarded the messenger with a thousand crowns; the cannon of St. Angelo thundered forth a joyous salute; the bells rang out from every steeple; bonfires turned night into day;",
+      "claim_text": "The cardinal of Lorraine rewarded the messenger who brought news of the St. Bartholomew Massacre to Rome with a thousand crowns, and Rome celebrated with cannon fire from Castel Sant'Angelo, ringing bells, and bonfires.",
+      "claim_type": "attributed_quote",
+      "entities": ["Cardinal of Lorraine", "Rome", "St. Bartholomew Massacre"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-064",
+      "paragraph": 22,
+      "quote": "and Gregory XIII., attended by the cardinals and other ecclesiastical dignitaries, went in long procession to the church of St. Louis, where the cardinal of Lorraine chanted a _Te Deum_....",
+      "claim_text": "Pope Gregory XIII, attended by cardinals and other dignitaries, went in procession to the church of St. Louis in Rome, where the cardinal of Lorraine chanted a Te Deum, in celebration of the St. Bartholomew Massacre.",
+      "claim_type": "attributed_quote",
+      "entities": ["Pope Gregory XIII", "Cardinal of Lorraine", "Rome"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-065",
+      "paragraph": 22,
+      "quote": "A medal was struck to commemorate the massacre, and in the Vatican may still be seen three frescoes of Vasari, describing the attack upon the admiral, the king in council plotting the massacre, and the massacre itself.",
+      "claim_text": "A medal was struck by Rome to commemorate the St. Bartholomew Massacre, and three frescoes by Vasari depicting the massacre are said to remain visible in the Vatican.",
+      "claim_type": "attributed_quote",
+      "entities": ["Vatican", "Vasari", "St. Bartholomew Massacre"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-066",
+      "paragraph": 22,
+      "quote": "Gregory sent Charles the Golden Rose; and four months after the massacre, ... he listened complacently to the sermon of a French priest",
+      "claim_text": "Pope Gregory XIII sent King Charles (IX of France) the Golden Rose, and four months after the massacre listened to a sermon by a French priest praising the event.",
+      "claim_type": "attributed_quote",
+      "entities": ["Pope Gregory XIII", "Charles IX"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-067",
+      "paragraph": 22,
+      "quote": "who spoke of ‘that day so full of happiness and joy, when the most holy father received the news, and went in solemn state to render thanks to God and St. Louis.’ ”(398)",
+      "claim_text": "A French priest's sermon, quoted by the source, described the day the pope received news of the St. Bartholomew Massacre as \"full of happiness and joy.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Pope Gregory XIII"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-068",
+      "paragraph": 23,
+      "quote": "The same master-spirit that urged on the St. Bartholomew Massacre led also in the scenes of the Revolution.",
+      "claim_text": "The same (satanic) master-spirit that urged on the St. Bartholomew Massacre is claimed to have led also in the scenes of the French Revolution.",
+      "claim_type": "theological",
+      "entities": ["St. Bartholomew Massacre", "French Revolution"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-069",
+      "paragraph": 23,
+      "quote": "Jesus Christ was declared to be an impostor, and the rallying cry of the French infidels was, “Crush the Wretch,” meaning Christ.",
+      "claim_text": "During the French Revolution, French infidels declared Jesus Christ an impostor and adopted the rallying cry \"Crush the Wretch,\" referring to Christ.",
+      "claim_type": "attributed_quote",
+      "entities": ["France", "French Revolution"],
+      "needs_verification": true,
+      "extractor_note": "Likely references Voltaire's phrase 'Écrasez l'infâme'; verify attribution and revolutionary usage."
+    },
+    {
+      "id": "GC-15-070",
+      "paragraph": 24,
+      "quote": "The atheistical power that ruled in France during the Revolution and the Reign of Terror, did wage such a war against God and His holy word as the world had never witnessed.",
+      "claim_text": "The atheistical power ruling France during the Revolution and the Reign of Terror is claimed to have waged an unprecedented war against God and the Bible.",
+      "claim_type": "interpretive",
+      "entities": ["France", "Reign of Terror"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-071",
+      "paragraph": 24,
+      "quote": "The worship of the Deity was abolished by the National Assembly. Bibles were collected and publicly burned with every possible manifestation of scorn.",
+      "claim_text": "The National Assembly of France abolished the worship of the Deity, and Bibles were collected and publicly burned with manifestations of scorn.",
+      "claim_type": "event",
+      "entities": ["France", "National Assembly"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-072",
+      "paragraph": 25,
+      "quote": "The weekly rest-day was set aside, and in its stead every tenth day was devoted to reveling and blasphemy.",
+      "claim_text": "During the French Revolution the weekly Sabbath rest-day was set aside and replaced by a ten-day cycle (decadi) devoted to reveling and blasphemy.",
+      "claim_type": "event",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-073",
+      "paragraph": 25,
+      "quote": "Baptism and the communion were prohibited. And announcements posted conspicuously over the burial-places declared death to be an eternal sleep.",
+      "claim_text": "During the French Revolution, baptism and communion were prohibited, and announcements posted over burial places declared death to be an eternal sleep.",
+      "claim_type": "event",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-074",
+      "paragraph": 26,
+      "quote": "All religious worship was prohibited, except that of liberty and the country.",
+      "claim_text": "During the French Revolution all religious worship was prohibited except the worship of liberty and the country.",
+      "claim_type": "event",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-075",
+      "paragraph": 26,
+      "quote": "the “constitutional bishop of Paris was brought forward to play the principal part in the most impudent and scandalous farce ever acted in the face of a national representation.... He was brought forward in full procession, to declare to the Convention that the religion which he had taught so many years was, in every respect, a piece of priestcraft, which had no foundation either in history or sacred truth. He disowned, in solemn and explicit terms, the existence of the Deity to whose worship he had been consecrated, and devoted himself in future to the homage of liberty, equality, virtue, and morality. He then laid on the table his episcopal decorations, and received a fraternal embrace from the president of the Convention. Several apostate priests followed the example of this prelate.”(399)",
+      "claim_text": "The constitutional bishop of Paris publicly renounced Christianity before the National Convention, disowned the existence of God, laid down his episcopal decorations, and received the Convention president's embrace; several other priests followed his example, according to the quoted historian.",
+      "claim_type": "attributed_quote",
+      "entities": ["Paris", "France", "National Convention"],
+      "needs_verification": true,
+      "extractor_note": "Likely refers to Jean-Baptiste Gobel, constitutional bishop of Paris."
+    },
+    {
+      "id": "GC-15-076",
+      "paragraph": 27,
+      "quote": "Infidel France had silenced the reproving voice of God’s two witnesses.",
+      "claim_text": "Infidel France, during the Revolution, is claimed to have silenced the reproving voice of God's two witnesses (the Scriptures).",
+      "claim_type": "theological",
+      "entities": ["France"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-077",
+      "paragraph": 27,
+      "quote": "How doth God know? and is there knowledge in the Most High?”(400)",
+      "claim_text": "Psalm 73:11 is quoted: \"How doth God know? and is there knowledge in the Most High?\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Psalms"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-078",
+      "paragraph": 28,
+      "quote": "one of the priests of the new order said: “God, if You exist, avenge Your injured name. I bid You defiance! You remain silent; You dare not launch Your thunders. Who after this will believe in Your existence?”(401)",
+      "claim_text": "A priest of the new revolutionary order is quoted as saying: \"God, if You exist, avenge Your injured name. I bid You defiance! You remain silent; You dare not launch Your thunders. Who after this will believe in Your existence?\"",
+      "claim_type": "attributed_quote",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-079",
+      "paragraph": 29,
+      "quote": "“The fool hath said in his heart, There is no God.”(402)",
+      "claim_text": "Psalm 14:1 is quoted: \"The fool hath said in his heart, There is no God.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Psalms"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-080",
+      "paragraph": 29,
+      "quote": "After France had renounced the worship of the living God, “the high and lofty One that inhabiteth eternity,” it was only a little time till she descended to degrading idolatry, by the worship of the Goddess of Reason, in the person of a profligate woman.",
+      "claim_text": "Shortly after France renounced the worship of God, the Revolution instituted the worship of the Goddess of Reason, embodied by a woman described as profligate.",
+      "claim_type": "event",
+      "entities": ["France", "Cult of Reason"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-081",
+      "paragraph": 29,
+      "quote": "The doors of the Convention were thrown open to a band of musicians, preceded by whom, the members of the municipal body entered in solemn procession, singing a hymn in praise of liberty, and escorting, as the object of their future worship, a veiled female, whom they termed the Goddess of Reason. Being brought within the bar, she was unveiled with great form, and placed on the right of the president, when she was generally recognized as a dancing girl of the opera.... To this person, as the fittest representative of that reason whom they worshiped, the National Convention of France rendered public homage.",
+      "claim_text": "According to the quoted historian, the National Convention of France staged a ceremony in which a veiled woman, generally recognized as a dancing girl of the opera, was presented and worshiped as the Goddess of Reason and received public homage from the Convention.",
+      "claim_type": "attributed_quote",
+      "entities": ["France", "National Convention", "Cult of Reason"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-082",
+      "paragraph": 30,
+      "quote": "This impious and ridiculous mummery had a certain fashion; and the installation of the Goddess of Reason was renewed and imitated throughout the nation, in such places where the inhabitants desired to show themselves equal to all the heights of the Revolution.”(404)",
+      "claim_text": "The installation ceremony of the Goddess of Reason was, according to the quoted historian, renewed and imitated in various locations throughout France.",
+      "claim_type": "attributed_quote",
+      "entities": ["France", "Cult of Reason"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-083",
+      "paragraph": 31,
+      "quote": "Said the orator who introduced the worship of Reason: “Legislators! Fanaticism has given way to reason. Its bleared eyes could not endure the brilliancy of the light. This day an immense concourse has assembled beneath those gothic vaults, which, for the first time, re-echoed the truth. There the French have celebrated the only true worship,—that of Liberty, that of Reason. There we have formed wishes for the prosperity of the arms of the Republic. There we have abandoned inanimate idols for Reason, for that animated image, the masterpiece of nature.”(405)",
+      "claim_text": "An orator who introduced the worship of Reason during the French Revolution is quoted declaring that fanaticism had given way to reason and that the French had celebrated the worship of Liberty and Reason beneath Gothic vaults (Notre Dame).",
+      "claim_type": "attributed_quote",
+      "entities": ["France", "Cult of Reason"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-084",
+      "paragraph": 32,
+      "quote": "“Mortals, cease to tremble before the powerless thunders of a God whom your fears have created. Henceforth acknowledge no divinity but Reason. I offer you its noblest and purest image; if you must have idols, sacrifice only to such as this.... Fall before the august Senate of Freedom, oh! Veil of Reason!...",
+      "claim_text": "The orator introducing the Goddess of Reason to the Convention is quoted urging attendees to acknowledge no divinity but Reason and to fall before the \"Veil of Reason.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["France", "Cult of Reason"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-085",
+      "paragraph": 33,
+      "quote": "“The goddess, after being embraced by the president, was mounted on a magnificent car, and conducted, amid an immense crowd, to the cathedral of Notre Dame, to take the place of the Deity. There she was elevated on the high altar, and received the adoration of all present.”(406)",
+      "claim_text": "The Goddess of Reason was conducted, after being embraced by the Convention's president, to the cathedral of Notre Dame in Paris, where she was elevated on the high altar and received adoration in place of God.",
+      "claim_type": "attributed_quote",
+      "entities": ["Notre Dame", "France", "Cult of Reason"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-086",
+      "paragraph": 34,
+      "quote": "This was followed, not long afterward, by the public burning of the Bible.",
+      "claim_text": "Not long after the installation of the Goddess of Reason, the Bible was publicly burned in revolutionary France.",
+      "claim_type": "event",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-087",
+      "paragraph": 34,
+      "quote": "“the Popular Society of the Museum” entered the hall of the municipality, exclaiming, “_Vive la Raison!_” and carrying on the top of a pole the half-burned remains of several books, among others breviaries, missals, and the Old and New Testaments, which “expiated in a great fire,”",
+      "claim_text": "A group called \"the Popular Society of the Museum\" entered a French municipal hall exclaiming \"Vive la Raison!\" carrying half-burned remains of religious books, including breviaries, missals, and the Old and New Testaments, which had been burned in a fire.",
+      "claim_type": "attributed_quote",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-088",
+      "paragraph": 34,
+      "quote": "said the president, “all the fooleries which they have made the human race commit.”(407)",
+      "claim_text": "The presiding official is quoted describing the burned religious books as responsible for \"all the fooleries which they have made the human race commit.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-089",
+      "paragraph": 35,
+      "quote": "It was popery that had begun the work which atheism was completing.",
+      "claim_text": "The Roman Catholic Church is claimed to have begun the work that the atheism of the French Revolution completed.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church", "France"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-090",
+      "paragraph": 35,
+      "quote": "The policy of Rome had wrought out those conditions, social, political, and religious, that were hurrying France on to ruin.",
+      "claim_text": "The policy of Rome is claimed to have produced the social, political, and religious conditions that hurried France toward ruin.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church", "France"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-091",
+      "paragraph": 35,
+      "quote": "Writers, in referring to the horrors of the Revolution, say that these excesses are to be charged upon the throne and the church.(408) In strict justice they are to be charged upon the church.",
+      "claim_text": "Some historians attribute the excesses of the French Revolution jointly to the throne and the church, but the text asserts that in strict justice they should be charged upon the church alone.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church", "France"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-092",
+      "paragraph": 35,
+      "quote": "Popery had poisoned the minds of kings against the Reformation, as an enemy to the crown, an element of discord that would be fatal to the peace and harmony of the nation. It was the genius of Rome that by this means inspired the direst cruelty and the most galling oppression which proceeded from the throne.",
+      "claim_text": "Rome is claimed to have poisoned the minds of kings against the Reformation as an enemy of the crown, thereby inspiring the cruelty and oppression that proceeded from the French throne.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church", "France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-093",
+      "paragraph": 36,
+      "quote": "The spirit of liberty went with the Bible. Wherever the gospel was received, the minds of the people were awakened. They began to cast off the shackles that had held them bond-slaves of ignorance, vice, and superstition. They began to think and act as men. Monarchs saw it, and trembled for their despotism.",
+      "claim_text": "It is claimed that wherever the gospel was received in Europe, the minds of the people were awakened and they began casting off the shackles of ignorance, vice, and superstition, alarming monarchs who feared for their despotic rule.",
+      "claim_type": "interpretive",
+      "entities": ["Reformation", "Europe"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-094",
+      "paragraph": 37,
+      "quote": "Rome was not slow to inflame their jealous fears.",
+      "claim_text": "Rome is claimed to have quickly inflamed the jealous fears of European monarchs regarding the spread of the Reformation.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-095",
+      "paragraph": 37,
+      "quote": "Said the pope to the regent of France in 1525: “This mania [Protestantism] will not only confound and destroy religion, but all principalities, nobility, laws, orders, and ranks besides.”(409)",
+      "claim_text": "In 1525 the pope is quoted telling the regent of France that Protestantism would confound and destroy religion as well as all principalities, nobility, laws, orders, and ranks.",
+      "claim_type": "attributed_quote",
+      "entities": ["Papacy", "France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-096",
+      "paragraph": 37,
+      "quote": "A few years later a papal nuncio warned the king: “Sire, be not deceived. The Protestants will upset all civil as well as religious order.... The throne is in as much danger as the altar.... The introduction of a new religion must necessarily introduce a new government.”(410)",
+      "claim_text": "A papal nuncio is quoted warning the French king that Protestants would upset both civil and religious order and that the throne was as endangered as the altar.",
+      "claim_type": "attributed_quote",
+      "entities": ["Papacy", "France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-097",
+      "paragraph": 37,
+      "quote": "theologians appealed to the prejudices of the people by declaring that the Protestant doctrine “entices men away to novelties and folly; it robs the king of the devoted affection of his subjects, and devastates both church and state.”",
+      "claim_text": "Theologians are quoted appealing to popular prejudice by declaring that Protestant doctrine enticed men to novelties and folly, robbed the king of subjects' affection, and devastated church and state.",
+      "claim_type": "attributed_quote",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-098",
+      "paragraph": 37,
+      "quote": "“It was to uphold the throne, preserve the nobles, and maintain the laws, that the sword of persecution was first unsheathed in France.”(411)",
+      "claim_text": "The quoted historian states that the sword of persecution was first unsheathed in France in order to uphold the throne, preserve the nobles, and maintain the laws.",
+      "claim_type": "attributed_quote",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-099",
+      "paragraph": 38,
+      "quote": "“Righteousness exalteth a nation.” Thereby “the throne is established.”(412) “The work of righteousness shall be peace;” and the effect “quietness and assurance forever.”(413)",
+      "claim_text": "Proverbs and Isaiah are quoted: \"Righteousness exalteth a nation,\" \"the throne is established,\" \"the work of righteousness shall be peace,\" and its effect \"quietness and assurance forever.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Proverbs", "Book of Isaiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-100",
+      "paragraph": 38,
+      "quote": "But unhappy France prohibited the Bible, and banned its disciples.",
+      "claim_text": "France prohibited the Bible and banned its (Protestant) disciples over an extended historical period.",
+      "claim_type": "causal",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-101",
+      "paragraph": 38,
+      "quote": "for centuries these men toiled as slaves in the galleys, perished at the stake, or rotted in dungeon cells.",
+      "claim_text": "For centuries, French Protestants of principle and conviction toiled as galley slaves, perished at the stake, or died in dungeon cells.",
+      "claim_type": "event",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-102",
+      "paragraph": 38,
+      "quote": "Thousands upon thousands found safety in flight; and this continued for two hundred and fifty years after the opening of the Reformation.",
+      "claim_text": "Thousands upon thousands of French Protestants fled the country for safety, a pattern that continued for two hundred and fifty years after the opening of the Reformation.",
+      "claim_type": "statistic",
+      "entities": ["France", "Reformation"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-103",
+      "paragraph": 39,
+      "quote": "Scarcely was there a generation of Frenchmen during that long period that did not witness the disciples of the gospel fleeing before the insane fury of the persecutor, and carrying with them the intelligence, the arts, the industry, the order, in which, as a rule, they pre-eminently excelled, to enrich the lands in which they found an asylum.",
+      "claim_text": "The quoted historian claims that nearly every generation of Frenchmen for centuries witnessed Protestant gospel disciples fleeing persecution and carrying their skills, arts, and industry to enrich the lands where they found asylum.",
+      "claim_type": "attributed_quote",
+      "entities": ["France", "Huguenots"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-104",
+      "paragraph": 40,
+      "quote": "But a blind and inexorable bigotry chased from her soil every teacher of virtue, every champion of order, every honest defender of the throne; it said to the men who would have made their country a ‘renown and glory’ in the earth, Choose which you will have, a stake or exile.",
+      "claim_text": "The quoted historian claims that French religious bigotry chased away every teacher of virtue and champion of order by forcing them to choose between a stake or exile.",
+      "claim_type": "attributed_quote",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-105",
+      "paragraph": 40,
+      "quote": "At last the ruin of the state was complete; there remained no more conscience to be proscribed; no more religion to be dragged to the stake; no more patriotism to be chased into banishment.”(414) And the Revolution, with all its horrors, was the dire result.",
+      "claim_text": "The text asserts that the French Revolution, with all its horrors, was the direct result of the earlier state persecution that had already eliminated conscience, dissenting religion, and patriotism from France.",
+      "claim_type": "causal",
+      "entities": ["France", "French Revolution"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-106",
+      "paragraph": 41,
+      "quote": "“With the flight of the Huguenots a general decline settled upon France. Flourishing manufacturing cities fell into decay; fertile districts returned to their native wildness; intellectual dulness and moral declension succeeded a period of unwonted progress.",
+      "claim_text": "The quoted historian claims that after the flight of the Huguenots, France experienced a general decline: manufacturing cities decayed, fertile districts reverted to wildness, and intellectual and moral decline followed a period of progress.",
+      "claim_type": "attributed_quote",
+      "entities": ["France", "Huguenots"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-107",
+      "paragraph": 41,
+      "quote": "Paris became one vast almshouse, and it is estimated that, at the breaking out of the Revolution, two hundred thousand paupers claimed charity from the hands of the king. The Jesuits alone flourished in the decaying nation, and ruled with dreadful tyranny over churches and schools, the prisons and the galleys.”",
+      "claim_text": "The quoted historian estimates that at the outbreak of the French Revolution, two hundred thousand paupers in Paris claimed charity from the king, while the Jesuits alone flourished and ruled churches, schools, prisons, and galleys.",
+      "claim_type": "statistic",
+      "entities": ["Paris", "Jesuits", "France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-108",
+      "paragraph": 42,
+      "quote": "The rich wronged the poor, and the poor hated the rich.",
+      "claim_text": "In pre-Revolutionary France, the rich wronged the poor and the poor came to hate the rich.",
+      "claim_type": "causal",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-109",
+      "paragraph": 43,
+      "quote": "The pleasure of the nobles was considered the supreme law; the farmers and the peasants might starve, for aught their oppressors cared.... The courts of justice would always listen to a noble as against a peasant; bribes were notoriously accepted by the judges; and the merest caprice of the aristocracy had the force of law, by virtue of this system of universal corruption.",
+      "claim_text": "The quoted historian claims that in pre-Revolutionary France, courts of justice favored nobles over peasants, judges notoriously accepted bribes, and the caprice of the aristocracy had the force of law.",
+      "claim_type": "attributed_quote",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-110",
+      "paragraph": 43,
+      "quote": "The privileged classes numbered a hundred and fifty thousand, and for their gratification millions were condemned to hopeless and degrading lives.”(415)",
+      "claim_text": "The quoted historian states that the privileged classes in pre-Revolutionary France numbered one hundred fifty thousand, for whose gratification millions were condemned to hopeless, degrading lives.",
+      "claim_type": "statistic",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-111",
+      "paragraph": 44,
+      "quote": "For more than half a century before the time of the Revolution, the throne was occupied by Louis XV., who, even in those evil times, was distinguished as an indolent, frivolous, and sensual monarch.",
+      "claim_text": "Louis XV occupied the French throne for more than half a century before the Revolution and was distinguished, even in his own evil times, as an indolent, frivolous, and sensual monarch.",
+      "claim_type": "biographical",
+      "entities": ["Louis XV", "France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-112",
+      "paragraph": 44,
+      "quote": "To the warnings of his counselors the king was accustomed to reply, “Try to make things go on as long as I am likely to live; after my death it may be as it will.”",
+      "claim_text": "Louis XV is quoted responding to his counselors' warnings with: \"Try to make things go on as long as I am likely to live; after my death it may be as it will.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Louis XV"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-113",
+      "paragraph": 44,
+      "quote": "The doom awaiting France was but too truly pictured in his indolent and selfish answer,—“After me, the deluge!”",
+      "claim_text": "Louis XV is quoted (or attributed) as saying \"After me, the deluge!\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Louis XV"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-114",
+      "paragraph": 45,
+      "quote": "By working upon the jealousy of the kings and the ruling classes, Rome had influenced them to keep the people in bondage, well knowing that the state would thus be weakened, and purposing by this means to fasten both rulers and people in her thrall.",
+      "claim_text": "Rome is claimed to have worked on the jealousy of kings and ruling classes to keep the French people in bondage, intending to fasten both rulers and people in her thrall.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church", "France"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-115",
+      "paragraph": 46,
+      "quote": "But the outworking of all this was widely different from what Rome had purposed. Instead of holding the masses in a blind submission to her dogmas, her work resulted in making them infidels and revolutionists.",
+      "claim_text": "Rome's policy toward France is claimed to have produced an outcome opposite to its purpose, turning the masses into infidels and revolutionists rather than submissive believers.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church", "France"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-116",
+      "paragraph": 47,
+      "quote": "Rome had misrepresented the character of God, and perverted His requirements, and now men rejected both the Bible and its Author.",
+      "claim_text": "Rome is claimed to have misrepresented God's character and perverted His requirements, leading the French people to reject both the Bible and God.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church", "France"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-117",
+      "paragraph": 47,
+      "quote": "In the reaction, Voltaire and his associates cast aside God’s word altogether, and spread everywhere the poison of infidelity.",
+      "claim_text": "Voltaire and his associates, in reaction to Rome's teaching, cast aside the Bible altogether and spread the influence of infidelity throughout France.",
+      "claim_type": "biographical",
+      "entities": ["Voltaire", "France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-118",
+      "paragraph": 48,
+      "quote": "At the opening of the Revolution, by a concession of the king, the people were granted a representation exceeding that of the nobles and the clergy combined.",
+      "claim_text": "At the opening of the French Revolution, the king conceded a representation to the people (Third Estate) exceeding that of the nobles and clergy combined.",
+      "claim_type": "event",
+      "entities": ["France", "Louis XVI"],
+      "needs_verification": true,
+      "extractor_note": "Refers to the 1788-89 doubling of the Third Estate's representation in the Estates-General."
+    },
+    {
+      "id": "GC-15-119",
+      "paragraph": 49,
+      "quote": "Where France, under the influence of Romanism, had set up the first stake at the opening of the Reformation, there the Revolution set up its first guillotine. On the very spot where the first martyrs to the Protestant faith were burned in the sixteenth century, the first victims were guillotined in the eighteenth.",
+      "claim_text": "The text claims that the first guillotine of the French Revolution was set up on the very spot in France where the first Protestant martyrs had been burned at the stake in the sixteenth century.",
+      "claim_type": "geographical",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-120",
+      "paragraph": 49,
+      "quote": "The war against the Bible inaugurated an era which stands in the world’s history as “The Reign of Terror.”",
+      "claim_text": "The era resulting from the war against the Bible in revolutionary France is known in world history as \"The Reign of Terror.\"",
+      "claim_type": "event",
+      "entities": ["Reign of Terror", "France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-121",
+      "paragraph": 50,
+      "quote": "Their thirst for vengeance was only stimulated by the execution of the king; and those who had decreed his death, soon followed him to the scaffold.",
+      "claim_text": "After the execution of King Louis XVI, the revolutionaries' thirst for vengeance increased, and those who had decreed his death were themselves soon executed.",
+      "claim_type": "event",
+      "entities": ["Louis XVI", "France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-122",
+      "paragraph": 50,
+      "quote": "The prisons were crowded, at one time containing more than two hundred thousand captives.",
+      "claim_text": "During the Reign of Terror, French prisons at one time held more than two hundred thousand captives.",
+      "claim_type": "statistic",
+      "entities": ["France", "Reign of Terror"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-123",
+      "paragraph": 50,
+      "quote": "“In Paris one tumult succeeded another, and the citizens were divided into a medley of factions, that seemed intent on nothing but mutual extermination.”",
+      "claim_text": "A quoted historian states that in Paris during the Revolution one tumult succeeded another and citizens were divided into factions intent on mutual extermination.",
+      "claim_type": "attributed_quote",
+      "entities": ["Paris", "France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-124",
+      "paragraph": 50,
+      "quote": "the nation became involved in a prolonged and devastating war with the great powers of Europe.",
+      "claim_text": "During the Revolution, France became involved in a prolonged and devastating war with the great powers of Europe.",
+      "claim_type": "event",
+      "entities": ["France", "Europe"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-125",
+      "paragraph": 50,
+      "quote": "“The country was nearly bankrupt, the armies were clamoring for arrears of pay, the Parisians were starving, the provinces were laid waste by brigands, and civilization was almost extinguished in anarchy and license.”",
+      "claim_text": "A quoted historian describes revolutionary France as nearly bankrupt, with unpaid armies, starving Parisians, provinces devastated by brigands, and civilization nearly extinguished by anarchy.",
+      "claim_type": "attributed_quote",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-126",
+      "paragraph": 51,
+      "quote": "“The example of persecution which the clergy of France had exhibited for so many ages, was now retorted upon them with signal vigor. The scaffolds ran red with the blood of the priests. The galleys and the prisons, once crowded with Huguenots, were now filled with their persecutors.",
+      "claim_text": "The quoted historian states that during the Reign of Terror the persecution the French clergy had inflicted for ages was retorted upon them, with scaffolds running red with priests' blood and galleys once crowded with Huguenots now filled with their former persecutors.",
+      "claim_type": "attributed_quote",
+      "entities": ["France", "Reign of Terror"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-127",
+      "paragraph": 51,
+      "quote": "Chained to the bench and toiling at the oar, the Roman Catholic clergy experienced all those woes which their church had so freely inflicted on the gentle heretics.”(416)",
+      "claim_text": "According to the quoted source, Roman Catholic clergy were, during the Reign of Terror, chained to galley benches and made to toil at the oar, experiencing the same sufferings their church had inflicted on Protestant heretics.",
+      "claim_type": "attributed_quote",
+      "entities": ["France", "Reign of Terror"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-128",
+      "paragraph": 52,
+      "quote": "when the guillotine was long and hard at work every morning; when the jails were filled as close as the holds of a slave-ship;",
+      "claim_text": "A quoted historian describes the guillotine as being in constant use every morning during the Reign of Terror, with jails filled as densely as slave-ship holds.",
+      "claim_type": "attributed_quote",
+      "entities": ["Reign of Terror", "France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-129",
+      "paragraph": 52,
+      "quote": "Long rows of captives were mowed down with grape-shot. Holes were made in the bottom of crowded barges. Lyons was turned into a desert.",
+      "claim_text": "A quoted historian describes long rows of captives mowed down with grapeshot, holes made in crowded barges to drown prisoners, and the city of Lyons turned into a desert during the Reign of Terror.",
+      "claim_type": "attributed_quote",
+      "entities": ["Lyons", "France", "Reign of Terror"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-130",
+      "paragraph": 52,
+      "quote": "At Arras even the cruel mercy of a speedy death was denied to the prisoners. All down the Loire, from Saumur to the sea, great flocks of crows and kites feasted on naked corpses, twined together in hideous embraces.",
+      "claim_text": "A quoted historian claims that at Arras prisoners were denied even a speedy death, and that along the Loire River from Saumur to the sea, crows and kites fed on naked corpses during the Reign of Terror.",
+      "claim_type": "attributed_quote",
+      "entities": ["Arras", "Loire", "France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-131",
+      "paragraph": 52,
+      "quote": "The number of young lads and of girls of seventeen who were murdered by that execrable government, is to be reckoned by hundreds.",
+      "claim_text": "A quoted historian states that hundreds of young lads and girls of seventeen were murdered by the revolutionary government during the Reign of Terror.",
+      "claim_type": "statistic",
+      "entities": ["France", "Reign of Terror"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-132",
+      "paragraph": 52,
+      "quote": "Babies torn from the breast were tossed from pike to pike along the Jacobin ranks.”(417)",
+      "claim_text": "A quoted historian states that babies torn from their mothers' breasts were tossed from pike to pike along Jacobin ranks during the Reign of Terror.",
+      "claim_type": "attributed_quote",
+      "entities": ["France", "Jacobins"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-133",
+      "paragraph": 52,
+      "quote": "In the short space of ten years, multitudes of human beings perished.",
+      "claim_text": "During the ten years of the French Revolutionary period, multitudes of human beings perished.",
+      "claim_type": "statistic",
+      "entities": ["France", "French Revolution"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-134",
+      "paragraph": 53,
+      "quote": "His policy is deception from first to last, and his steadfast purpose is to bring woe and wretchedness upon men, to deface and defile the workmanship of God, to mar the divine purposes of benevolence and love, and thus cause grief in heaven.",
+      "claim_text": "Satan's policy is characterized as deception whose steadfast purpose is to bring woe upon men and mar God's purposes of benevolence and love.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-135",
+      "paragraph": 54,
+      "quote": "When error in one garb has been detected, Satan only masks it in a different disguise, and multitudes receive it as eagerly as at the first.",
+      "claim_text": "When one of Satan's errors is detected, he is said to mask it in a different disguise which multitudes then receive as eagerly as the first.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-136",
+      "paragraph": 55,
+      "quote": "The fatal error which wrought such woe for the inhabitants of France was the ignoring of this one great truth: that true freedom lies within the proscriptions of the law of God.",
+      "claim_text": "The fatal error that brought woe upon the inhabitants of France is identified as ignoring the truth that true freedom lies within the proscriptions of the law of God.",
+      "claim_type": "interpretive",
+      "entities": ["France"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-137",
+      "paragraph": 55,
+      "quote": "“O that thou hadst hearkened to My commandments! then had thy peace been as a river, and thy righteousness as the waves of the sea.” “There is no peace, saith the Lord, unto the wicked.” “But whoso hearkeneth unto Me shall dwell safely, and shall be quiet from fear of evil.”(418)",
+      "claim_text": "Isaiah 48:18, Isaiah 57:21, and Proverbs 1:33 are quoted regarding the peace that comes from obeying God's commandments and the absence of peace for the wicked.",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Isaiah", "Book of Proverbs"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-138",
+      "paragraph": 57,
+      "quote": "But in the Revolution, the law of God was openly set aside by the National Council. And in the Reign of Terror which followed, the working of cause and effect could be seen by all.",
+      "claim_text": "During the French Revolution, the law of God was openly set aside by the National Council (National Convention), and the working of cause and effect was, according to the text, visible to all in the ensuing Reign of Terror.",
+      "claim_type": "causal",
+      "entities": ["France", "National Convention", "Reign of Terror"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-139",
+      "paragraph": 58,
+      "quote": "France was shaken as if by an earthquake. Religion, law, social order, the family, the state, and the church,—all were smitten down by the impious hand that had been lifted against the law of God.",
+      "claim_text": "France's religion, law, social order, family, state, and church were all, according to the text, smitten down by the revolution's impious rejection of the law of God.",
+      "claim_type": "interpretive",
+      "entities": ["France"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-140",
+      "paragraph": 58,
+      "quote": "“The wicked shall fall by his own wickedness.” “Though a sinner do evil a hundred times, and his days be prolonged, yet surely I know that it shall be well with them that fear God, which fear before Him: but it shall not be well with the wicked.”(420) “They hated knowledge, and did not choose the fear of the Lord;” “therefore shall they eat of the fruit of their own way, and be filled with their own devices.”(421)",
+      "claim_text": "Proverbs and Ecclesiastes are quoted regarding the wicked falling by their own wickedness and eating the fruit of their own way for hating knowledge and not choosing the fear of the Lord.",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Proverbs", "Book of Ecclesiastes"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-141",
+      "paragraph": 59,
+      "quote": "It was in 1793 that the decrees which abolished the Christian religion and set aside the Bible, passed the French Assembly.",
+      "claim_text": "In 1793 the French Assembly passed decrees abolishing the Christian religion and setting aside the Bible.",
+      "claim_type": "date",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-142",
+      "paragraph": 59,
+      "quote": "Three years and a half later a resolution rescinding these decrees, thus granting toleration to the Scriptures, was adopted by the same body.",
+      "claim_text": "Three and a half years after the 1793 decrees, the same French assembly adopted a resolution rescinding them and granting toleration to the Scriptures (i.e., in 1797).",
+      "claim_type": "date",
+      "entities": ["France"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-143",
+      "paragraph": 59,
+      "quote": "“Whom hast thou reproached and blasphemed? and against whom hast thou exalted thy voice, and lifted up thine eyes on high? even against the Holy One of Israel.”(423) “Therefore, behold, I will this once cause them to know, I will cause them to know Mine hand and My might; and they shall know that My name is Jehovah.”(424)",
+      "claim_text": "Isaiah is quoted (Isaiah 37:23 and Jeremiah 16:21) concerning reproaching and blaspheming the Holy One of Israel and God causing men to know His hand and might.",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Isaiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-144",
+      "paragraph": 60,
+      "quote": "Since France made war upon God’s two witnesses, they have been honored as never before.",
+      "claim_text": "Since revolutionary France made war upon God's two witnesses (the Scriptures), they have, according to the text, been honored as never before.",
+      "claim_type": "theological",
+      "entities": ["France", "Bible"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-15-145",
+      "paragraph": 60,
+      "quote": "In 1804 the British and Foreign Bible Society was organized. This was followed by similar organizations, with numerous branches, upon the continent of Europe.",
+      "claim_text": "The British and Foreign Bible Society was organized in 1804, followed by similar organizations with numerous branches on the European continent.",
+      "claim_type": "date",
+      "entities": ["British and Foreign Bible Society", "Europe"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-146",
+      "paragraph": 60,
+      "quote": "In 1816 the American Bible Society was founded.",
+      "claim_text": "The American Bible Society was founded in 1816.",
+      "claim_type": "date",
+      "entities": ["American Bible Society"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-147",
+      "paragraph": 60,
+      "quote": "When the British Society was formed, the Bible had been printed and circulated in fifty tongues. It has since been translated into more than four hundred languages and dialects.(426)",
+      "claim_text": "When the British and Foreign Bible Society was formed in 1804, the Bible had been printed and circulated in fifty languages; by the time of the chapter's writing it had been translated into more than four hundred languages and dialects.",
+      "claim_type": "statistic",
+      "entities": ["Bible", "British and Foreign Bible Society"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-148",
+      "paragraph": 61,
+      "quote": "For the fifty years preceding 1792, little attention was given to the work of foreign missions. No new societies were formed, and there were but few churches that made any effort for the spread of Christianity in heathen lands.",
+      "claim_text": "For the fifty years preceding 1792, little attention was given to foreign missions, with no new societies formed and few churches making efforts to spread Christianity in non-Christian lands.",
+      "claim_type": "statistic",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-149",
+      "paragraph": 61,
+      "quote": "But toward the close of the eighteenth century a great change took place. Men became dissatisfied with the results of rationalism, and realized the necessity of divine revelation and experimental religion. From this time the work of foreign missions attained an unprecedented growth.(427)",
+      "claim_text": "Toward the close of the eighteenth century, dissatisfaction with rationalism's results led to a renewed sense of the necessity of divine revelation, after which the work of foreign missions attained unprecedented growth.",
+      "claim_type": "causal",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-150",
+      "paragraph": 62,
+      "quote": "The improvements in printing have given an impetus to the work of circulating the Bible.",
+      "claim_text": "Improvements in printing technology gave an impetus to the work of circulating the Bible.",
+      "claim_type": "causal",
+      "entities": ["Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-151",
+      "paragraph": 62,
+      "quote": "For some years the Bible has been sold without restraint in the streets of Rome, and it has now been carried to every part of the habitable globe.",
+      "claim_text": "By the time of writing, the Bible had for some years been sold without restraint in the streets of Rome and had been carried to every part of the habitable globe.",
+      "claim_type": "event",
+      "entities": ["Bible", "Rome"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-152",
+      "paragraph": 63,
+      "quote": "The infidel Voltaire once boastingly said: “I am weary of hearing people repeat that twelve men established the Christian religion. I will prove that one man may suffice to overthrow it.”",
+      "claim_text": "Voltaire is quoted as having boastingly said: \"I am weary of hearing people repeat that twelve men established the Christian religion. I will prove that one man may suffice to overthrow it.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Voltaire"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-153",
+      "paragraph": 63,
+      "quote": "A century has passed since his death.",
+      "claim_text": "A century had passed since Voltaire's death by the time of the chapter's writing.",
+      "claim_type": "date",
+      "entities": ["Voltaire"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-154",
+      "paragraph": 63,
+      "quote": "But it is so far from being destroyed, that where there were a hundred in Voltaire’s time, there are now ten thousand, yes, a hundred thousand copies of the Book of God.",
+      "claim_text": "The text claims that for every hundred Bible copies that existed in Voltaire's time, there are now ten thousand to a hundred thousand copies.",
+      "claim_type": "statistic",
+      "entities": ["Bible", "Voltaire"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-155",
+      "paragraph": 63,
+      "quote": "In the words of an early Reformer concerning the Christian church, “The Bible is an anvil that has worn out many hammers.”",
+      "claim_text": "An early Reformer is quoted as having said, concerning the Christian church, \"The Bible is an anvil that has worn out many hammers.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Reformation"],
+      "needs_verification": true,
+      "extractor_note": "Reformer not named; attribution and exact wording/origin of this proverb are checkable/disputable."
+    },
+    {
+      "id": "GC-15-156",
+      "paragraph": 63,
+      "quote": "“No weapon that is formed against thee shall prosper; and every tongue that shall rise against thee in judgment thou shalt condemn.”(428)",
+      "claim_text": "Isaiah 54:17 is quoted: \"No weapon that is formed against thee shall prosper; and every tongue that shall rise against thee in judgment thou shalt condemn.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Isaiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-157",
+      "paragraph": 64,
+      "quote": "“The word of our God shall stand forever.” “All His commandments are sure. They stand fast forever and ever, and are done in truth and uprightness.”(429)",
+      "claim_text": "Isaiah 40:8 and Psalm 111:7-8 are quoted: \"The word of our God shall stand forever\" and \"All His commandments are sure. They stand fast forever and ever, and are done in truth and uprightness.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Isaiah", "Book of Psalms"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-15-158",
+      "paragraph": 64,
+      "quote": "Whatever is built upon the authority of man will be overthrown; but that which is founded upon the rock of God’s immutable word shall stand forever.",
+      "claim_text": "Whatever is built upon human authority will be overthrown, while what is founded upon God's immutable word will stand forever.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "chapter": 15,
+  "stage": "impact",
+  "notes": "Chapter argument reconstruction: Ch.15 argues the French Revolution's horrors were the 'legitimate result' of Rome's centuries-long suppression of Scripture in France, cast through a historicist reading of Revelation 11's two witnesses (OT+NT) prophesying 'in sackcloth' for 1260 years (538-1798) before being 'slain' by an atheistic power and 'resurrected' after a symbolic three-and-a-half period. The chapter builds this case in layers: (1) an exact prophetic chronology terminating in 1798 (capture of Pius VI), offered as proof of fulfilled prophecy; (2) a documented history of Huguenot persecution (St. Bartholomew, dragonnades, galleys, Church in the Desert) establishing Rome/crown culpability; (3) the 1793 dechristianization campaign and Cult of Reason as the literal 'war on the Bible'; (4) the post-1798 explosion of Bible societies and missions as vindication. The claims that actually carry this argument's weight are not the atrocity-color details (massacre death tolls, Voltaire anecdotes, court gossip) but the two numerological-precision claims (538-1798 and the 'three and a half years' toleration-restoration) that convert the chapter from a moral narrative about persecution into a claim of literal, exact prophetic fulfillment -- these are the load-bearing items. Scoring approach: scored the 2 defense_failed anachronistic items (011, 061), the 2 misquotation-downgraded-to-anachronistic items (152, 155), the one disputed-downgraded item flagged by the orchestrator (043), and 5 of the 5 carried-through disputed items (028, 058, 069, 113, 142) as high-stakes because several sit directly on the chapter's core causal/prophetic claims. Did not score the many 'supported'/faithfully-quoted atrocity and Bible-society details, nor the large unverifiable/theological block (providential causation, prophetic symbolism), consistent with CLAUDE.md scope. 10 items scored.",
+  "items": {
+    "GC-15-011": {
+      "severity": 3,
+      "centrality": 5,
+      "load_bearing": true,
+      "impact_score": 15,
+      "narrative_arc": "eschatological",
+      "reasoning": "The specific '538-1798, 1260 years' dating is a 19th-century Protestant/Adventist historicist construct (traceable to Uriah Smith and predecessors), not a historians' periodization; only the 1798 terminus is independently anchored (capture of Pius VI). Severity is moderated by anachronism -- this reflects White's era's confessional chronology rather than invention, but the claim is still presented as brute historical fact establishing exactness. Centrality is maximal: this chronology is the engine that lets the chapter claim the Revolution is 'exact and striking fulfilment' of prophecy, and the same 538-anchored scheme feeds the book's larger historicist/Millerite dating apparatus used elsewhere for 1844. Counterfactual: delete the specific 538 start date and the chapter's persecution narrative survives on its own historical merits, but its signature claim -- that history matches prophecy to the year -- loses its chronological anchor, so it is load-bearing for the chapter's distinctive argumentative move (not merely its narrative content)."
+    },
+    "GC-15-061": {
+      "severity": 3,
+      "centrality": 2,
+      "load_bearing": false,
+      "impact_score": 6,
+      "narrative_arc": "reformation",
+      "reasoning": "The '70,000' figure is Sully's high period estimate transmitted faithfully via Wylie; modern scholarship puts the toll at roughly 2,000-3,000 in Paris and 5,000-25,000 nationwide, so the number is inflated 3-10x. Severity reflects a real statistical overstatement of a genuine atrocity, softened because it traces to a named, defensible period source rather than fabrication. Centrality is low: the massacre's horror and Rome's culpability (both well supported independently) do the chapter's argumentative work regardless of the precise body count. Counterfactual: substituting the modern low-end estimate leaves the chapter's condemnation of the massacre, and its argument about Rome's persecution, fully intact."
+    },
+    "GC-15-043": {
+      "severity": 2,
+      "centrality": 3,
+      "load_bearing": false,
+      "impact_score": 6,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "Grouping the Albigenses with the Waldenses as fellow 'witnesses to the truth' reflects Wylie's 19th-century historiography; the defender's steelman shows the modern scholarly ground has shifted from a confident dualist-sect consensus to genuine live debate (Pegg, Moore, Sennis ed.) over whether Catharism is even reconstructable as a doctrine, so 'disputed' rather than a clean error is fair. Severity is modest because the underlying counter-claim is itself contested. Centrality is moderate: this pairing touches the book's broader 'faithful persecuted minorities' lineage (explicitly part of the central thesis chain), but within this chapter it functions as one clause of scene-setting for French persecution, not as a structural pillar. Counterfactual: removing the Albigenses clause costs the chapter nothing -- the France-specific persecution narrative (Huguenots, Church in the Desert) stands entirely without it."
+    },
+    "GC-15-058": {
+      "severity": 2,
+      "centrality": 2,
+      "load_bearing": false,
+      "impact_score": 4,
+      "narrative_arc": "reformation",
+      "reasoning": "Whether the provincial extension of the St. Bartholomew massacre followed 'special order of the king' is genuinely disputed -- Charles IX in fact issued orders to halt the killing on 25-27 Aug, while provincial officials pressed on regardless, so White's single-cause royal-order framing (following period Protestant sources) overstates central coordination. Severity is low: the underlying fact that the massacre did spread to the provinces and killed many is undisputed. Centrality is low: this is one supporting detail within the massacre narrative, itself illustrative color for the broader persecution argument, not a claim the chapter's thesis depends on. Counterfactual: reframing this as decentralized provincial violence rather than a royal decree changes nothing about the chapter's condemnation of Rome-aligned persecution."
+    },
+    "GC-15-069": {
+      "severity": 3,
+      "centrality": 4,
+      "load_bearing": false,
+      "impact_score": 12,
+      "narrative_arc": "frame",
+      "reasoning": "Glossing Voltaire's 'l'infame' (generally read by scholars as institutionalized fanaticism/the persecuting Church, not the person of Christ) as meaning Christ personally is an interpretive narrowing that materially changes what is being claimed about revolutionary infidelity's target -- from anti-clericalism to literal anti-Christ. Severity reflects a real semantic distortion of a well-documented slogan. Centrality is fairly high because this reinterpretation directly feeds the chapter's 'same master-spirit' framing linking Voltairean infidelity to a personal war against Christ, which is part of the chapter's rhetorical bridge from Enlightenment anti-clericalism to the cosmic-conflict frame. Counterfactual: if 'the Wretch' is read as institutional religion rather than Christ, the chapter's broader claim (French infidelity attacked Christianity and its Scriptures) still stands on the independently well-documented dechristianization campaign, so this single equation is not load-bearing, only rhetorically vivid."
+    },
+    "GC-15-113": {
+      "severity": 2,
+      "centrality": 1,
+      "load_bearing": false,
+      "impact_score": 2,
+      "narrative_arc": "frame",
+      "reasoning": "'After me, the deluge' is popularly attributed to Louis XV but the earliest sourced version (Mme du Hausset's memoirs) gives 'Apres nous' to Madame de Pompadour; the king-attribution is a traditional but doubtful ascription White inherited from period historians. Severity is low -- a disputed bon mot, not a substantive historical claim. Centrality is minimal: it is purely decorative color illustrating Louis XV's fatalism, a point already established by the adjacent (independently attested) quotation in GC-15-112. Counterfactual: deleting this line changes nothing in the chapter's portrait of pre-Revolutionary decay."
+    },
+    "GC-15-028": {
+      "severity": 3,
+      "centrality": 4,
+      "load_bearing": false,
+      "impact_score": 12,
+      "narrative_arc": "doctrinal",
+      "reasoning": "The claim that it was 'Rome's policy... to keep [the Bible] locked up in an unknown tongue, and hidden away from the people' is a doctrinally central topic under CLAUDE.md's escalation rule; Deanesly and modern medievalist scholarship show restrictions were regional/reactive (tied to heresy, e.g. the 1408 Oxford Constitutions) alongside genuine, sometimes abundant, vernacular Scripture circulation -- a categorical universal-ban claim is overstated. Severity reflects a real overgeneralization of a partly-true premise. Centrality is high because this sentence functions as the chapter's summary statement of Rome's antecedent guilt, immediately preceding the turn to 'a new power... the beast from the bottomless pit' -- it is the hinge between the book's standing Rome-suppression thesis and this chapter's France-specific case. Counterfactual: even without this categorical claim, the chapter's actual evidentiary base (well-documented Huguenot persecution, 1685 Revocation, dragonnades) carries the France-specific argument on its own, so it is not load-bearing, but it does supply the rhetorical premise tying this chapter back to the book's broader anti-papal thesis."
+    },
+    "GC-15-142": {
+      "severity": 3,
+      "centrality": 5,
+      "load_bearing": true,
+      "impact_score": 15,
+      "narrative_arc": "eschatological",
+      "reasoning": "The claim that toleration of Scripture was restored 'three years and a half' after the 1793 decrees is engineered to match Revelation 11's 'three days and a half' resurrection of the witnesses; modern historiography dates the substantive restoration of worship to the law of 3 Ventose Year III (21 Feb 1795), roughly fifteen months after the dechristianization decrees, not 3.5 years. Severity reflects a specific, checkable date claim that conflicts with the documented legislative record. Centrality is maximal: this is the chapter's climactic 'proof point' -- the literal numeric match between prophecy and history that GC-15-035 calls an 'exact and striking fulfilment.' Counterfactual: if the real interval is about 15 months rather than 42, the chapter's single strongest claim to precise, verifiable prophetic fulfillment collapses; the broader providential narrative (Rome's suppression, Revolution as consequence, eventual toleration) can survive on looser terms, but the specific 'exactness' argument this claim exists to serve cannot, making it load-bearing for that argument even though it is not needed for the chapter's more general moral-historical narrative."
+    },
+    "GC-15-152": {
+      "severity": 3,
+      "centrality": 2,
+      "load_bearing": false,
+      "impact_score": 6,
+      "narrative_arc": "frame",
+      "reasoning": "The Voltaire 'twelve men... one man may suffice to overthrow it' boast cannot be located in Voltaire's authenticated corpus or vetted quotation collections; it is a stock 19th-century apologetic attribution (found in period works like Dillon's) that White transmitted as ambient period usage rather than inventing. Severity remains meaningful because the sentence is presented in quotation marks as verbatim speech that is unlocatable, even though the anachronism framing (period-typical, not fabricated by White) softens culpability. Centrality is low: it is a rhetorical flourish setting up the chapter's closing irony (Bible multiplication since Voltaire's death), not a claim any part of the causal argument rests on. Counterfactual: removing the anecdote costs the chapter only a vivid illustration; the century-later-Bible-multiplication point (GC-15-154, independently supported) still lands."
+    },
+    "GC-15-155": {
+      "severity": 2,
+      "centrality": 2,
+      "load_bearing": false,
+      "impact_score": 4,
+      "narrative_arc": "frame",
+      "reasoning": "White's own cited source (Wylie vol.3) gives the anvil proverb as 'the Church... an anvil that has worn out many hammers' (Beza's metaphor), but the chapter quotes it as 'The Bible is an anvil...' while explicitly disclosing the original referent ('concerning the Christian church') -- a real but transparent, meaning-preserving substitution rather than a concealed alteration. Severity is mild given the disclosed referent and the proverb's known circulation in both Church- and Bible-forms in the period. Centrality is low: it is a closing rhetorical flourish about Scripture's indestructibility, not part of the chapter's causal or chronological argument. Counterfactual: correcting 'Bible' to 'Church' (or citing the proverb in its original form) would not alter any substantive claim in the chapter; the immediately following point about scriptural durability stands independently on other evidence in the paragraph."
+    }
+  }
+}

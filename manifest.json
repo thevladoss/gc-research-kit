@@ -988,7 +988,7 @@
         "extract": "done",
         "verify": "done",
         "defend": "done",
-        "impact": "pending"
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -1026,9 +1026,27 @@
           "verdict_downgraded": 3,
           "defense_failed": 2,
           "searches": 3
+        },
+        "impact": {
+          "scored": 10,
+          "load_bearing": 2,
+          "top_impact": [
+            {
+              "id": "GC-15-011",
+              "score": 15
+            },
+            {
+              "id": "GC-15-142",
+              "score": 15
+            },
+            {
+              "id": "GC-15-028",
+              "score": 12
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-05T10:38:51Z"
+      "updated_at": "2026-07-05T10:42:27Z"
     },
     "16": {
       "title": "The Pilgrim Fathers",
