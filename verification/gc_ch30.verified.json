@@ -1,0 +1,1142 @@
+{
+  "chapter": 30,
+  "chapter_title": "Enmity Between Man And Satan",
+  "stage": "verification",
+  "generated_at": "2026-07-05",
+  "notes": "searches: ~2, clusters: 3 (scripture quote-fidelity; OT/Gospel narrative kernels; 19th-c. sociological/causal). Short homiletic chapter: 58 of 73 claims are pure theological/interpretive assertions logged unverifiable per epistemic rule 5. Verified all 15 needs_verification:true claims plus a control sample of 3 needs_verification:false claims (GC-30-016, GC-30-047, GC-30-063 — all confirmed genuinely non-factual, no smuggled assertions). Scripture quotes verified against KJV via common-knowledge fast-path except Eph 6:12 (GC-30-060), which required web verification and shows a minor meaning-preserving wording variant from KJV. Biblical-narrative kernels (040, 050, 057, 058, 068) checked as faithful reporting of the OT/Gospel text (not adjudicating historicity of the events).",
+  "claims": [
+    {
+      "id": "GC-30-001",
+      "paragraph": 1,
+      "quote": "“I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel.”(891)",
+      "claim_text": "Genesis 3:15 states: 'I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Genesis 3:15", "Satan", "God"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reproduction of Genesis 3:15 KJV, which reads 'And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel.' GC quotes from mid-verse, omitting only the leading conjunction 'And'; wording otherwise verbatim. KJV text is textbook-level and reproducible identically from any reference edition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-002",
+      "paragraph": 1,
+      "quote": "The divine sentence pronounced against Satan after the fall of man, was also a prophecy, embracing all the ages to the close of time, and foreshadowing the great conflict to engage all the races of men who should live upon the earth.",
+      "claim_text": "The divine sentence in Genesis 3:15, pronounced against Satan after the fall of man, was also a prophecy embracing all ages to the close of time and foreshadowing a great conflict engaging all the races of men who would live on earth.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/prophetic interpretation of Genesis 3:15 as a prophecy of cosmic conflict. Not empirically checkable; logged for centrality analysis per epistemic rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-003",
+      "paragraph": 2,
+      "quote": "This enmity is not naturally entertained. When man transgressed the divine law, his nature became evil, and he was in harmony, and not at variance, with Satan. There exists naturally no enmity between sinful man and the originator of sin. Both became evil through apostasy.",
+      "claim_text": "After humanity's transgression of the divine law, human nature became evil and was naturally in harmony rather than at variance with Satan, so that no natural enmity existed between sinful man and the originator of sin.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the effect of the Fall on human nature and its relation to Satan. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-004",
+      "paragraph": 2,
+      "quote": "The apostate is never at rest, except as he obtains sympathy and support by inducing others to follow his example. For this reason, fallen angels and wicked men unite in desperate companionship.",
+      "claim_text": "Fallen angels and wicked men unite in desperate companionship because the apostate seeks rest only by obtaining sympathy and support through inducing others to follow his example.",
+      "claim_type": "theological",
+      "entities": ["Satan", "fallen angels"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/psychological claim about apostates, fallen angels, and wicked men. Supernatural subject matter; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-005",
+      "paragraph": 2,
+      "quote": "Had not God specially interposed, Satan and man would have entered into an alliance against Heaven; and instead of cherishing enmity against Satan, the whole human family would have been united in opposition to God.",
+      "claim_text": "Had God not specially intervened, Satan and mankind would have formed an alliance against Heaven, with the whole human family united in opposition to God instead of cherishing enmity against Satan.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Counterfactual theological claim about divine intervention. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-006",
+      "paragraph": 3,
+      "quote": "Satan tempted man to sin, as he had caused angels to rebel, that he might thus secure co-operation in his warfare against Heaven.",
+      "claim_text": "Satan tempted man to sin, as he had earlier caused angels to rebel, in order to secure their cooperation in his warfare against Heaven.",
+      "claim_type": "theological",
+      "entities": ["Satan", "fallen angels"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan's motives and the angelic rebellion. Supernatural; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-007",
+      "paragraph": 3,
+      "quote": "There was no dissension between himself and the fallen angels as regards their hatred of Christ; while on all other points there was discord, they were firmly united in opposing the authority of the Ruler of the universe.",
+      "claim_text": "Satan and the fallen angels had no dissension regarding their hatred of Christ, remaining firmly united in opposing the authority of the Ruler of the universe even though they were discordant on all other points.",
+      "claim_type": "theological",
+      "entities": ["Satan", "fallen angels", "Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about relations among fallen angels. Supernatural; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-008",
+      "paragraph": 3,
+      "quote": "But when Satan heard the declaration that enmity should exist between himself and the woman, and between his seed and her seed, he knew that his efforts to deprave human nature would be interrupted; that by some means man was to be enabled to resist his power.",
+      "claim_text": "When Satan heard the declaration of enmity between himself and the woman and between his seed and her seed, he knew his efforts to deprave human nature would be interrupted and that man would be enabled to resist his power.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological narrative attributing knowledge and reaction to Satan. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-009",
+      "paragraph": 4,
+      "quote": "Satan’s enmity against the human race is kindled, because, through Christ, they are the objects of God’s love and mercy.",
+      "claim_text": "Satan's enmity against the human race is kindled because, through Christ, humans are the objects of God's love and mercy.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Jesus Christ", "God"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the cause of Satan's enmity. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-010",
+      "paragraph": 4,
+      "quote": "He desires to thwart the divine plan for man’s redemption, to cast dishonor upon God, by defacing and defiling His handiwork; he would cause grief in heaven, and fill the earth with woe and desolation.",
+      "claim_text": "Satan desires to thwart the divine plan for man's redemption, to cast dishonor upon God by defacing and defiling His handiwork, to cause grief in heaven, and to fill the earth with woe and desolation.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan's desires and aims. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-011",
+      "paragraph": 4,
+      "quote": "And he points to all this evil as the result of God’s work in creating man.",
+      "claim_text": "Satan points to all the evil in the world as the result of God's work in creating man.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan's accusation against God. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-012",
+      "paragraph": 5,
+      "quote": "It is the grace that Christ implants in the soul which creates in man enmity against Satan.",
+      "claim_text": "The grace that Christ implants in the soul is what creates enmity against Satan in man.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about grace and the origin of enmity against Satan. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-013",
+      "paragraph": 5,
+      "quote": "Without this converting grace and renewing power, man would continue the captive of Satan, a servant ever ready to do his bidding.",
+      "claim_text": "Without Christ's converting grace and renewing power, man would remain a captive of Satan, a servant ever ready to do his bidding.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about converting grace. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-014",
+      "paragraph": 5,
+      "quote": "The power which Christ imparts, enables man to resist the tyrant and usurper.",
+      "claim_text": "The power that Christ imparts enables man to resist Satan, described as the tyrant and usurper.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Christ-imparted power. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-015",
+      "paragraph": 5,
+      "quote": "Whoever is seen to abhor sin instead of loving it, whoever resists and conquers those passions that have held sway within, displays the operation of a principle wholly from above.",
+      "claim_text": "Whoever abhors sin instead of loving it, and resists and conquers formerly ruling passions, displays the operation of a principle wholly from above.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the divine origin of moral transformation. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-016",
+      "paragraph": 6,
+      "quote": "The antagonism that exists between the spirit of Christ and the spirit of Satan was most strikingly displayed in the world’s reception of Jesus.",
+      "claim_text": "The antagonism between the spirit of Christ and the spirit of Satan was most strikingly displayed in the world's reception of Jesus.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample check: confirmed genuinely theological/interpretive. Frames the historical reception of Jesus as a display of spiritual antagonism; the operative assertion (a Christ-vs-Satan spiritual conflict) is supernatural and not empirically checkable. No smuggled factual claim. Extractor's needs_verification:false flag is correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-017",
+      "paragraph": 6,
+      "quote": "It was not so much because He appeared without worldly wealth, pomp, or grandeur, that the Jews were led to reject Him. They saw that He possessed power which would more than compensate for the lack of these outward advantages. But the purity and holiness of Christ called forth against Him the hatred of the ungodly. His life of self-denial and sinless devotion was a perpetual reproof to a proud, sensual people. It was this that evoked enmity against the Son of God.",
+      "claim_text": "The Jews of Jesus's time rejected him not primarily because he appeared without worldly wealth, pomp, or grandeur, but because his purity, holiness, and life of self-denial reproved a proud, sensual people and evoked their hatred.",
+      "claim_type": "causal",
+      "entities": ["Jesus Christ", "Jews"],
+      "needs_verification": true,
+      "extractor_note": "Theologically framed, but asserts a historical claim about the cause of Jewish rejection of Jesus, checkable against New Testament scholarship/historiography.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "This is a homiletic attribution of collective motive: that Jesus was rejected because his holiness reproved a 'proud, sensual people.' As a causal-historical thesis it is not resolvable by historiography — modern New Testament scholarship attributes opposition to Jesus to a range of concrete factors (perceived challenges to the Temple and religious authorities, disputes over Sabbath and purity law, blasphemy charges, and Roman political anxieties), not to a single interior motive, and would not endorse the value-laden 'proud, sensual people' characterization. The claim mirrors the Gospels' own theological framing (e.g. John 7:7, 15:22-24) rather than an independently verifiable fact, so it is logged as an interpretive/motive attribution rather than adjudicated true or false. Non-accusatory.",
+        "modern_consensus": "Scholarship identifies multiple concrete grounds for opposition to Jesus (authority, Temple, law, blasphemy accusation, political fear); it does not frame rejection as caused by a single moral-psychological motive.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-018",
+      "paragraph": 6,
+      "quote": "Satan and evil angels joined with evil men. All the energies of apostasy conspired against the Champion of truth.",
+      "claim_text": "Satan and evil angels joined with evil men, so that all the energies of apostasy conspired against Christ.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about a satanic-human conspiracy against Christ. Supernatural; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-019",
+      "paragraph": 7,
+      "quote": "The same enmity is manifested toward Christ’s followers as was manifested toward their Master.",
+      "claim_text": "The same enmity manifested toward Christ is manifested toward Christ's followers.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/interpretive claim about persecution of Christians. Not empirically checkable as stated.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-020",
+      "paragraph": 7,
+      "quote": "Whoever sees the repulsive character of sin, and in strength from above resists temptation, will assuredly arouse the wrath of Satan and his subjects.",
+      "claim_text": "Whoever recognizes the repulsive character of sin and resists temptation with strength from above will arouse the wrath of Satan and his subjects.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about arousing Satan's wrath. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-021",
+      "paragraph": 7,
+      "quote": "Hatred of the pure principles of truth, and reproach and persecution of its advocates, will exist as long as sin and sinners remain.",
+      "claim_text": "Hatred of pure principles of truth, and reproach and persecution of its advocates, will exist as long as sin and sinners remain.",
+      "claim_type": "interpretive",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/predictive theological generalization. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-022",
+      "paragraph": 7,
+      "quote": "The followers of Christ and the servants of Satan cannot harmonize. The offense of the cross has not ceased.",
+      "claim_text": "The followers of Christ and the servants of Satan cannot harmonize, and the offense of the cross has not ceased.",
+      "claim_type": "interpretive",
+      "entities": ["Jesus Christ", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive theological claim. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-023",
+      "paragraph": 7,
+      "quote": "“All that will live godly in Christ Jesus shall suffer persecution.”(892)",
+      "claim_text": "2 Timothy 3:12 states: 'All that will live godly in Christ Jesus shall suffer persecution.'",
+      "claim_type": "attributed_quote",
+      "entities": ["2 Timothy 3:12", "Paul"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reproduction of 2 Timothy 3:12 KJV, which reads 'Yea, and all that will live godly in Christ Jesus shall suffer persecution.' GC quotes from mid-verse, omitting only the introductory 'Yea, and'; remaining wording verbatim. KJV text is textbook-level.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-024",
+      "paragraph": 8,
+      "quote": "Satan’s agents are constantly working under his direction to establish his authority and build up his kingdom in opposition to the government of God.",
+      "claim_text": "Satan's agents are constantly working under his direction to establish his authority and build up his kingdom in opposition to the government of God.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan's agents. Supernatural; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-025",
+      "paragraph": 8,
+      "quote": "To this end they seek to deceive Christ’s followers, and allure them from their allegiance.",
+      "claim_text": "Satan's agents seek to deceive Christ's followers and allure them from their allegiance to Christ.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan's agents deceiving believers. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-026",
+      "paragraph": 8,
+      "quote": "Like their leader, they misconstrue and pervert the Scriptures to accomplish their object.",
+      "claim_text": "Satan's agents misconstrue and pervert the Scriptures, like their leader Satan, to accomplish their object.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan's agents perverting Scripture. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-027",
+      "paragraph": 8,
+      "quote": "As Satan endeavored to cast reproach upon God, so do his agents seek to malign God’s people.",
+      "claim_text": "As Satan endeavored to cast reproach upon God, so his agents seek to malign God's people.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan's agents maligning believers. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-028",
+      "paragraph": 8,
+      "quote": "The spirit which put Christ to death moves the wicked to destroy His followers.",
+      "claim_text": "The same spirit that put Christ to death moves the wicked to destroy his followers.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim identifying a single spirit behind Christ's death and persecution of Christians. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-029",
+      "paragraph": 8,
+      "quote": "All this is foreshadowed in that first prophecy, “I will put enmity between thee and the woman, and between thy seed and her seed.” And this will continue to the close of time.",
+      "claim_text": "Genesis 3:15 ('I will put enmity between thee and the woman, and between thy seed and her seed') foreshadows the ongoing enmity between Satan's agents and God's people, continuing to the close of time.",
+      "claim_type": "attributed_quote",
+      "entities": ["Genesis 3:15", "Satan"],
+      "needs_verification": true,
+      "extractor_note": "Same source verse as GC-30-001, quoted again in this paragraph; logged separately for paragraph-level completeness.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The embedded quotation reproduces the first clause of Genesis 3:15 KJV verbatim ('I will put enmity between thee and the woman, and between thy seed and her seed'). The surrounding prophetic application ('foreshadowed... continue to the close of time') is theological interpretation, not part of the quote-fidelity check. Quote itself is accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-030",
+      "paragraph": 9,
+      "quote": "Satan summons all his forces, and throws his whole power into the combat.",
+      "claim_text": "Satan summons all his forces and throws his whole power into the combat against Christians.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan's combat against Christians. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-031",
+      "paragraph": 9,
+      "quote": "Because they have so little real connection with Christ; because they are so destitute of His Spirit.",
+      "claim_text": "Christ's soldiers offer Satan little resistance because they have so little real connection with Christ and are so destitute of His Spirit.",
+      "claim_type": "interpretive",
+      "entities": ["Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive theological claim about the spiritual state of professed Christians. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-032",
+      "paragraph": 9,
+      "quote": "Sin is not to them repulsive and abhorrent, as it was to their Master. They do not meet it, as did Christ, with decisive and determined resistance.",
+      "claim_text": "Sin is not repulsive and abhorrent to Christ's professed followers as it was to Christ, and they do not meet it with the decisive and determined resistance that Christ showed.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/interpretive claim contrasting professed Christians with Christ. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-033",
+      "paragraph": 9,
+      "quote": "There is little enmity against Satan and his works, because there is so great ignorance concerning his power and malice, and the vast extent of his warfare against Christ and His church.",
+      "claim_text": "There is little enmity against Satan and his works because there is so great ignorance concerning his power and malice, and the vast extent of his warfare against Christ and his church.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about ignorance of Satan's warfare. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-034",
+      "paragraph": 9,
+      "quote": "Multitudes are deluded here. They do not know that their enemy is a mighty general, who controls the minds of evil angels, and that with well-matured plans and skilful movements he is warring against Christ to prevent the salvation of souls.",
+      "claim_text": "Multitudes are deluded and do not know that Satan is a mighty general who controls the minds of evil angels and, with well-matured plans and skilful movements, wars against Christ to prevent the salvation of souls.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan as a commander of evil angels. Supernatural; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-035",
+      "paragraph": 9,
+      "quote": "Among professed Christians, and even among ministers of the gospel, there is heard scarcely a reference to Satan, except perhaps an incidental mention in the pulpit.",
+      "claim_text": "At the time of writing (late 19th century), among professed Christians and even ministers of the gospel, there was scarcely any reference to Satan, except perhaps an incidental mention in the pulpit.",
+      "claim_type": "event",
+      "entities": ["Satan"],
+      "needs_verification": true,
+      "extractor_note": "Sweeping empirical/sociological generalization about contemporaneous religious discourse and preaching practice; difficult but in-principle checkable against period religious historiography.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The phrasing is hyperbolic, but the underlying trend it reports is documented. Scholarship on 19th-century religion describes a marked de-emphasis and 'decline' of the devil (and of hell) in Victorian preaching and popular theology, driven by discomfort with eternal punishment and by evolutionary theory eroding the Fall/primal-devil narrative (see D. Bartels, 'The Devil and the Victorians', Routledge, and the broader 'decline of hell' historiography). A softening of pulpit emphasis on a personal Satan is thus consistent with the period; White's claim aligns with an observable trend rather than contradicting it. Confidence kept low because 'scarcely a reference' is a sweeping generalization not precisely quantifiable and the trend was uneven across denominations (revivalist and Adventist milieus retained strong devil-language). Non-accusatory; not among the doctrinally central escalation clusters.",
+        "modern_consensus": "Historians document a real 19th-century decline in emphasis on a personal devil and hell in mainstream Protestant preaching, alongside continued vigor in evangelical/revivalist circles.",
+        "sources": [
+          {
+            "title": "The Devil and the Victorians: Supernatural Evil in Nineteenth-Century English Culture (D. Bartels, Routledge)",
+            "url": "https://www.routledge.com/The-Devil-and-the-Victorians-Supernatural-Evil-in-Nineteenth-Century-English/Bartels/p/book/9780367444204",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Monograph documenting contested/declining status of the devil in 19th-century culture and preaching."
+          },
+          {
+            "title": "Victorian Sermonic Discourse: The Sermon in Nineteenth-Century British Literature and Society (UC Riverside, eScholarship)",
+            "url": "https://escholarship.org/uc/item/2hx8g400",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Scholarly treatment of Victorian preaching; devil/hell increasingly contested among clergy and laity."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-30-036",
+      "paragraph": 10,
+      "quote": "While men are ignorant of his devices, this vigilant foe is upon their track every moment.",
+      "claim_text": "While men are ignorant of his devices, Satan as a vigilant foe is upon their track every moment.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan's vigilance. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-037",
+      "paragraph": 10,
+      "quote": "He is intruding his presence in every department of the household, in every street of our cities, in the churches, in the national councils, in the courts of justice, perplexing, deceiving, seducing, everywhere ruining the souls and bodies of men, women, and children, breaking up families, sowing hatred, emulation, strife, sedition, murder.",
+      "claim_text": "Satan intrudes his presence in every department of the household, in city streets, in churches, in national councils, and in courts of justice, ruining souls and bodies, breaking up families, and sowing hatred, emulation, strife, sedition, and murder.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan's pervasive activity. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-038",
+      "paragraph": 10,
+      "quote": "And the Christian world seem to regard these things as though God had appointed them, and they must exist.",
+      "claim_text": "The Christian world seems to regard the evils caused by Satan as though God had appointed them and they must exist.",
+      "claim_type": "interpretive",
+      "entities": ["Satan", "God"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive generalization about attitudes in the Christian world. Not precisely checkable as stated.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-039",
+      "paragraph": 11,
+      "quote": "Satan is continually seeking to overcome the people of God by breaking down the barriers which separate them from the world.",
+      "claim_text": "Satan continually seeks to overcome the people of God by breaking down the barriers which separate them from the world.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan's strategy. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-040",
+      "paragraph": 11,
+      "quote": "Ancient Israel were enticed into sin when they ventured into forbidden association with the heathen.",
+      "claim_text": "Ancient Israel was enticed into sin when they ventured into forbidden association with the heathen nations.",
+      "claim_type": "event",
+      "entities": ["Israel"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful summary of a recurring Old Testament theme: Israel's sin through forbidden association with surrounding nations, e.g. the apostasy at Baal-Peor with Moabite/Midianite women (Numbers 25), the warnings against intermarriage and idolatry (Exodus 34:12-16; Deuteronomy 7:1-4), and Solomon's foreign wives turning his heart to other gods (1 Kings 11). The claim reports the biblical narrative accurately; it does not require adjudicating the historicity of the events themselves. Any standard reference to the Hebrew Bible states this identically.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-041",
+      "paragraph": 11,
+      "quote": "In a similar manner are modern Israel led astray.",
+      "claim_text": "In a manner similar to ancient Israel's enticement into sin, modern Israel (the church) is led astray through forbidden association with the world.",
+      "claim_type": "interpretive",
+      "entities": ["Israel", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive typological application ('modern Israel'). Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-042",
+      "paragraph": 11,
+      "quote": "“The god of this world hath blinded the minds of them which believe not, lest the light of the glorious gospel of Christ, who is the image of God, should shine unto them.”(893)",
+      "claim_text": "2 Corinthians 4:4 states: 'The god of this world hath blinded the minds of them which believe not, lest the light of the glorious gospel of Christ, who is the image of God, should shine unto them.'",
+      "claim_type": "attributed_quote",
+      "entities": ["2 Corinthians 4:4", "Satan"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reproduction of 2 Corinthians 4:4 KJV, which reads 'In whom the god of this world hath blinded the minds of them which believe not, lest the light of the glorious gospel of Christ, who is the image of God, should shine unto them.' GC quotes from mid-verse, omitting only the introductory 'In whom'; remaining wording verbatim. KJV text is textbook-level.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-043",
+      "paragraph": 11,
+      "quote": "All who are not decided followers of Christ are servants of Satan.",
+      "claim_text": "All who are not decided followers of Christ are servants of Satan.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological dichotomy claim. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-044",
+      "paragraph": 11,
+      "quote": "In the unregenerate heart there is love of sin, and a disposition to cherish and excuse it. In the renewed heart there is hatred of sin, and determined resistance against it.",
+      "claim_text": "In the unregenerate heart there is love of sin and a disposition to cherish and excuse it, while in the renewed heart there is hatred of sin and determined resistance against it.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim contrasting the unregenerate and renewed heart. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-045",
+      "paragraph": 11,
+      "quote": "When Christians choose the society of the ungodly and unbelieving, they expose themselves to temptation.",
+      "claim_text": "When Christians choose the society of the ungodly and unbelieving, they expose themselves to temptation.",
+      "claim_type": "interpretive",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive moral generalization. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-046",
+      "paragraph": 11,
+      "quote": "Satan conceals himself from view, and stealthily draws his deceptive covering over their eyes.",
+      "claim_text": "Satan conceals himself from view and stealthily draws his deceptive covering over the eyes of Christians who associate with the ungodly.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan's concealment. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-047",
+      "paragraph": 12,
+      "quote": "Conformity to worldly customs converts the church to the world; it never converts the world to Christ.",
+      "claim_text": "Conformity to worldly customs converts the church to the world; it never converts the world to Christ.",
+      "claim_type": "interpretive",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample check: confirmed genuinely interpretive. A homiletic maxim about worldliness and the church; a value judgment, not a factual proposition. No smuggled empirical claim. Extractor's needs_verification:false flag is correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-048",
+      "paragraph": 12,
+      "quote": "Familiarity with sin will inevitably cause it to appear less repulsive.",
+      "claim_text": "Familiarity with sin inevitably causes sin to appear less repulsive.",
+      "claim_type": "interpretive",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive moral-psychological generalization. Not empirically checkable as framed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-049",
+      "paragraph": 12,
+      "quote": "He who chooses to associate with the servants of Satan, will soon cease to fear their master.",
+      "claim_text": "He who chooses to associate with the servants of Satan will soon cease to fear Satan.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/moral generalization. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-050",
+      "paragraph": 12,
+      "quote": "as was Daniel in the king’s court",
+      "claim_text": "Daniel was brought into trial while remaining in the way of duty in the king's court.",
+      "claim_type": "biographical",
+      "entities": ["Daniel"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reference to the biblical Book of Daniel, in which Daniel serves in the royal court of Babylon (and later Persia) and is brought into trial while doing his duty — notably the ordeal of the lions' den under Darius (Daniel 6). The claim reports the narrative accurately; it does not require adjudicating the book's historicity or dating. Any standard reference states this identically.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-051",
+      "paragraph": 12,
+      "quote": "When in the way of duty we are brought into trial, as was Daniel in the king’s court, we may be sure that God will protect us; but if we place ourselves under temptation, we shall fall sooner or later.",
+      "claim_text": "God protects those who are brought into trial while remaining in the way of duty, as with Daniel in the king's court, but those who place themselves under temptation will fall sooner or later.",
+      "claim_type": "theological",
+      "entities": ["Daniel", "God"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about divine protection, drawing a moral lesson from Daniel. The doctrinal proposition (God protects the dutiful) is not empirically checkable; the embedded Daniel reference is covered under GC-30-050.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-052",
+      "paragraph": 13,
+      "quote": "The tempter often works most successfully through those who are least suspected of being under his control.",
+      "claim_text": "Satan the tempter often works most successfully through those who are least suspected of being under his control.",
+      "claim_type": "interpretive",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive theological generalization about Satan's methods. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-053",
+      "paragraph": 13,
+      "quote": "The possessors of talent and education are admired and honored, as if these qualities could atone for the absence of the fear of God, or entitle men to His favor.",
+      "claim_text": "Possessors of talent and education are admired and honored as if these qualities could atone for the absence of the fear of God or entitle men to His favor.",
+      "claim_type": "interpretive",
+      "entities": ["God"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive social-moral generalization. Not empirically checkable as framed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-054",
+      "paragraph": 13,
+      "quote": "Talent and culture, considered in themselves, are gifts of God; but when these are made to supply the place of piety, when, instead of bringing the soul nearer to God, they lead away from Him, then they become a curse and a snare.",
+      "claim_text": "Talent and culture are gifts of God in themselves, but become a curse and a snare when they supply the place of piety and lead the soul away from God rather than nearer to Him.",
+      "claim_type": "theological",
+      "entities": ["God", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about talent, culture, and piety. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-055",
+      "paragraph": 13,
+      "quote": "Many a man of cultured intellect and pleasant manners, who would not stoop to what is commonly regarded as an immoral act, is but a polished instrument in the hands of Satan.",
+      "claim_text": "Many a man of cultured intellect and pleasant manners, who would not stoop to what is commonly regarded as an immoral act, is a polished instrument in the hands of Satan.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about cultured men as instruments of Satan. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-056",
+      "paragraph": 13,
+      "quote": "The insidious, deceptive character of his influence and example renders him a more dangerous enemy to the cause of Christ than are those who are ignorant and uncultured.",
+      "claim_text": "The insidious, deceptive character of a cultured man's influence and example renders him a more dangerous enemy to the cause of Christ than those who are ignorant and uncultured.",
+      "claim_type": "interpretive",
+      "entities": ["Jesus Christ", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive comparative claim about spiritual danger. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-057",
+      "paragraph": 14,
+      "quote": "By earnest prayer and dependence upon God, Solomon obtained the wisdom which excited the wonder and admiration of the world.",
+      "claim_text": "By earnest prayer and dependence upon God, Solomon obtained wisdom that excited the wonder and admiration of the world.",
+      "claim_type": "biographical",
+      "entities": ["Solomon", "God"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reporting of the biblical narrative: at Gibeon Solomon prayed and asked God for an understanding heart, and God granted him unparalleled wisdom (1 Kings 3:5-14); his wisdom drew admiration from surrounding peoples and the Queen of Sheba (1 Kings 4:29-34; 10:1-9). The claim summarizes the text accurately; it does not require adjudicating historicity.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-058",
+      "paragraph": 14,
+      "quote": "But when he turned from the Source of his strength, and went forward relying upon himself, he fell a prey to temptation.",
+      "claim_text": "Solomon turned from the Source of his strength, relied upon himself, and fell a prey to temptation.",
+      "claim_type": "biographical",
+      "entities": ["Solomon", "Satan"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reporting of 1 Kings 11:1-11, in which Solomon in his later years turned from wholehearted devotion to God, took many foreign wives, and was led into idolatry — the biblical account of his fall. The claim accurately summarizes the narrative; historicity is not at issue.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-059",
+      "paragraph": 14,
+      "quote": "Then the marvelous powers bestowed on this wisest of kings, only rendered him a more effective agent of the adversary of souls.",
+      "claim_text": "After his fall, Solomon's marvelous bestowed powers rendered him a more effective agent of Satan, the adversary of souls.",
+      "claim_type": "interpretive",
+      "entities": ["Solomon", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive theological claim casting the fallen Solomon as an agent of Satan. This reading of motive/agency is not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-060",
+      "paragraph": 15,
+      "quote": "“wrestle not against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this world, against wicked spirits in high places.”(894)",
+      "claim_text": "Ephesians 6:12 states that Christians 'wrestle not against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this world, against wicked spirits in high places.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Ephesians 6:12"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Substantially faithful to Ephesians 6:12, with one minor meaning-preserving wording variant. The KJV reads '...against spiritual wickedness in high places'; GC renders the final clause 'against wicked spirits in high places.' The transposition of noun/adjective ('spiritual wickedness' -> 'wicked spirits') does not alter the sense (evil spiritual powers operating in high/heavenly places) and in fact tracks other translation traditions — Wesley's 1755 New Testament reads 'wicked spirits in heavenly places' and Darby 'spirits of wickedness in the high places.' The rest of the clause matches KJV verbatim (GC also quotes from mid-verse, omitting the opening 'For we'). Verdict 'supported' rather than 'misquotation' because meaning is preserved and the verse is correctly identified; confidence lowered to medium to flag the departure from strict KJV wording.",
+        "modern_consensus": "KJV Ephesians 6:12 ends 'against spiritual wickedness in high places'; GC's 'wicked spirits in high places' is a meaning-equivalent variant found in other translation traditions.",
+        "sources": [
+          {
+            "title": "Ephesians 6:12 KJV (StudyLight)",
+            "url": "https://www.studylight.org/bible/eng/kjv/ephesians/6-12.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Confirms KJV wording 'against spiritual wickedness in high places'."
+          },
+          {
+            "title": "Ephesians 6:12 KJV (King James Bible Online)",
+            "url": "https://www.kingjamesbibleonline.org/Ephesians-6-12/",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "KJV text and cross-version comparison (Wesley 1755 'wicked spirits in heavenly places'; Darby 'spirits of wickedness')."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-30-061",
+      "paragraph": 15,
+      "quote": "“Be sober, be vigilant; because your adversary the devil, as a roaring lion, walketh about, seeking whom he may devour.”(895)",
+      "claim_text": "1 Peter 5:8 states: 'Be sober, be vigilant; because your adversary the devil, as a roaring lion, walketh about, seeking whom he may devour.'",
+      "claim_type": "attributed_quote",
+      "entities": ["1 Peter 5:8", "Satan"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim reproduction of 1 Peter 5:8 KJV: 'Be sober, be vigilant; because your adversary the devil, as a roaring lion, walketh about, seeking whom he may devour.' KJV text is textbook-level and reproducible identically.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-062",
+      "paragraph": 15,
+      "quote": "“Put on the whole armor of God, that ye may be able to stand against the wiles of the devil.”(896)",
+      "claim_text": "Ephesians 6:11 states: 'Put on the whole armor of God, that ye may be able to stand against the wiles of the devil.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Ephesians 6:11", "Satan"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reproduction of Ephesians 6:11 KJV: 'Put on the whole armour of God, that ye may be able to stand against the wiles of the devil.' The only difference is the American spelling 'armor' for KJV 'armour' — an orthographic normalization, not a substantive alteration. Wording otherwise verbatim.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-063",
+      "paragraph": 16,
+      "quote": "From the days of Adam to our own time, our great enemy has been exercising his power to oppress and destroy.",
+      "claim_text": "From the days of Adam to the time of writing, Satan has been exercising his power to oppress and destroy mankind.",
+      "claim_type": "theological",
+      "entities": ["Adam", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample check: confirmed genuinely theological. The proposition (Satan exercising power from Adam's day onward) presupposes the historicity of Adam and the ongoing activity of a supernatural adversary — not empirically checkable. No smuggled datable/geographical fact. Extractor's needs_verification:false flag is correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-064",
+      "paragraph": 16,
+      "quote": "He is now preparing for his last campaign against the church.",
+      "claim_text": "Satan is now preparing for his last campaign against the church.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological theological claim about Satan's final campaign. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-065",
+      "paragraph": 16,
+      "quote": "All who seek to follow Jesus will be brought into conflict with this relentless foe.",
+      "claim_text": "All who seek to follow Jesus will be brought into conflict with Satan, the relentless foe.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about spiritual conflict for all Christ's followers. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-066",
+      "paragraph": 16,
+      "quote": "The more nearly the Christian imitates the divine Pattern, the more surely will he make himself a mark for the attacks of Satan.",
+      "claim_text": "The more nearly a Christian imitates the divine Pattern (Christ), the more surely he makes himself a mark for the attacks of Satan.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about spiritual attack proportional to Christlikeness. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-067",
+      "paragraph": 16,
+      "quote": "will be able to join in the testimony of Paul, in which he speaks of serving the Lord with all humility of mind, with many tears and temptations",
+      "claim_text": "The apostle Paul spoke of serving the Lord with all humility of mind, with many tears and temptations (cf. Acts 20:19).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul", "Acts 20:19"],
+      "needs_verification": true,
+      "extractor_note": "Paraphrased attribution rather than direct quotation marks in the source text, but attributes specific testimony content to Paul; checkable against Acts 20:19.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful paraphrase of Acts 20:19 KJV, part of Paul's farewell address to the Ephesian elders: 'Serving the Lord with all humility of mind, and with many tears, and temptations, which befell me by the lying in wait of the Jews.' GC's rendering ('serving the Lord with all humility of mind, with many tears and temptations') accurately captures the attributed content; presented as paraphrase, not as a verbatim quotation. Correctly attributed to Paul.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-068",
+      "paragraph": 17,
+      "quote": "Satan assailed Christ with his fiercest and most subtle temptations; but he was repulsed in every conflict.",
+      "claim_text": "Satan assailed Christ with his fiercest and most subtle temptations, and was repulsed by Christ in every conflict.",
+      "claim_type": "event",
+      "entities": ["Jesus Christ", "Satan"],
+      "needs_verification": true,
+      "extractor_note": "Refers to Gospel accounts of Christ's temptation (e.g., the wilderness temptation, Matthew 4/Luke 4); checkable against the biblical narrative.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reporting of the Gospel narrative: Satan tempts Jesus in the wilderness and Jesus resists each temptation (Matthew 4:1-11; Luke 4:1-13), and the New Testament presents Christ as tempted yet without sin (Hebrews 4:15). The claim accurately summarizes this narrative; it does not require adjudicating historicity. The supernatural framing of Satan as tempter is part of the text being reported.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-069",
+      "paragraph": 17,
+      "quote": "Those battles were fought in our behalf; those victories make it possible for us to conquer.",
+      "claim_text": "Christ's battles against Satan's temptations were fought on behalf of humanity, and his victories make it possible for people to conquer temptation.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Soteriological theological claim about the vicarious value of Christ's victories. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-070",
+      "paragraph": 17,
+      "quote": "Christ will give strength to all who seek it.",
+      "claim_text": "Christ will give strength to all who seek it.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological promise concerning divine aid. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-071",
+      "paragraph": 17,
+      "quote": "No man without his own consent can be overcome by Satan. The tempter has no power to control the will or to force the soul to sin.",
+      "claim_text": "No man can be overcome by Satan without his own consent; the tempter has no power to control the will or force the soul to sin.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the limits of Satan's power over the will. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-072",
+      "paragraph": 17,
+      "quote": "He may distress, but he cannot contaminate. He can cause agony, but not defilement.",
+      "claim_text": "Satan may cause distress and agony, but he cannot contaminate or defile a person against their will.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the limits of Satan's power to defile. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-30-073",
+      "paragraph": 17,
+      "quote": "The fact that Christ has conquered should inspire His followers with courage to fight manfully the battle against sin and Satan.",
+      "claim_text": "The fact that Christ conquered Satan's temptations should inspire his followers with courage to fight the battle against sin and Satan.",
+      "claim_type": "interpretive",
+      "entities": ["Jesus Christ", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/hortatory theological claim. Not empirically checkable.",
+        "sources": []
+      }
+    }
+  ]
+}
