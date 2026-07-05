@@ -66,52 +66,154 @@
       "words": 2822,
       "paragraphs": 26,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
-        "impact": "pending"
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
+        "impact": "done"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 66,
+          "needs_verification": 30,
+          "by_type": {
+            "theological": 33,
+            "attributed_quote": 19,
+            "interpretive": 6,
+            "event": 4,
+            "biographical": 4,
+            "date": 2,
+            "geographical": 1
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 25,
+          "anachronistic": 0,
+          "disputed": 3,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 38,
+          "low_confidence": 0,
+          "searches": 4,
+          "clusters": 4
+        },
+        "defend": {
+          "examined": 0,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 0,
+          "searches": 0
+        },
+        "impact": {
+          "scored": 3,
+          "load_bearing": 0,
+          "top_impact": [
+            {
+              "id": "GC-00-005",
+              "score": 4
+            },
+            {
+              "id": "GC-00-007",
+              "score": 4
+            },
+            {
+              "id": "GC-00-008",
+              "score": 4
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-07-05T02:00:33Z"
     },
     "01": {
       "title": "The Destruction Of Jerusalem",
       "words": 7322,
       "paragraphs": 50,
       "stages": {
-        "extract": "pending",
+        "extract": "done",
         "verify": "pending",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 127,
+          "needs_verification": 111,
+          "by_type": {
+            "attributed_quote": 43,
+            "event": 37,
+            "theological": 11,
+            "biographical": 9,
+            "geographical": 6,
+            "date": 7,
+            "statistic": 7,
+            "interpretive": 5,
+            "causal": 2
+          },
+          "zero_claim_paras": []
+        }
+      },
+      "updated_at": "2026-07-05T01:51:35Z"
     },
     "02": {
       "title": "Persecution In The First Centuries",
       "words": 3193,
       "paragraphs": 26,
       "stages": {
-        "extract": "pending",
+        "extract": "done",
         "verify": "pending",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 65,
+          "needs_verification": 51,
+          "by_type": {
+            "event": 18,
+            "causal": 15,
+            "attributed_quote": 15,
+            "theological": 8,
+            "statistic": 5,
+            "interpretive": 5,
+            "biographical": 3,
+            "geographical": 2,
+            "date": 1
+          },
+          "zero_claim_paras": [
+            26
+          ]
+        }
+      },
+      "updated_at": "2026-07-05T01:39:25Z"
     },
     "03": {
       "title": "The Apostasy",
       "words": 3946,
       "paragraphs": 34,
       "stages": {
-        "extract": "pending",
+        "extract": "done",
         "verify": "pending",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 108,
+          "needs_verification": 90,
+          "by_type": {
+            "event": 35,
+            "causal": 30,
+            "attributed_quote": 18,
+            "theological": 17,
+            "date": 6,
+            "interpretive": 1,
+            "statistic": 1
+          },
+          "zero_claim_paras": []
+        }
+      },
+      "updated_at": "2026-07-05T01:42:22Z"
     },
     "04": {
       "title": "The Waldenses",
@@ -318,13 +420,49 @@
       "words": 8507,
       "paragraphs": 73,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 130,
+          "needs_verification": 118,
+          "by_type": {
+            "event": 57,
+            "attributed_quote": 32,
+            "biographical": 21,
+            "theological": 6,
+            "interpretive": 6,
+            "causal": 4,
+            "date": 2,
+            "statistic": 2
+          },
+          "zero_claim_paras": [
+            6
+          ]
+        },
+        "verify": {
+          "supported": 114,
+          "anachronistic": 5,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 11,
+          "low_confidence": 3,
+          "searches": 11,
+          "clusters": 8
+        },
+        "defend": {
+          "examined": 5,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 1,
+          "defense_failed": 4,
+          "searches": 1
+        }
+      },
+      "updated_at": "2026-07-05T02:00:03Z"
     },
     "08": {
       "title": "Luther Before The Diet",
