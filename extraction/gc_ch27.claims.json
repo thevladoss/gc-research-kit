@@ -1,0 +1,785 @@
+{
+  "chapter": 27,
+  "chapter_title": "Modern Revivals",
+  "stage": "extraction",
+  "generated_at": "2026-07-05",
+  "notes": "Chapter is almost entirely doctrinal/devotional argument about the nature of true vs. false revival and sanctification, densely interwoven with Scripture quotations. Extraction policy applied: (1) explicit named attributions (e.g. 'Says Paul', 'Said David', 'the apostle James... declares', 'Jesus says') are captured as attributed_quote claims (needs_verification true), since the attribution itself is checkable against the biblical text; (2) directly quoted scripture phrases embedded without an explicit named-speaker attribution phrase in the surrounding prose (e.g. bare footnoted quotations introduced only by 'says' with no subject, or formulaic 'saith the Lord' within the quoted text itself) are folded into the surrounding theological claim rather than separately extracted, to avoid manufacturing dozens of near-duplicate low-value claims; (3) sweeping interpretive/theological judgments about revivalism, sanctification doctrine, and church condition are logged as interpretive/theological (needs_verification false) per pipeline rules; (4) the one clearly checkable 19th-century named source (Prof. Edwards A. Park) is extracted in full as attributed_quote + biographical. Several claims about unnamed contemporary religious movements (antinomian teaching, 'faith only' doctrine, 'entire sanctification'/holiness teaching, generalized revivalism of 'the last half century') are flagged event/statistic with needs_verification true but carry extractor_notes on their vagueness (no named denomination, individual, or statistic given in the source text).",
+  "claims": [
+    {
+      "id": "GC-27-001",
+      "paragraph": 1,
+      "quote": "Wherever the word of God has been faithfully preached, results have followed that attested its divine origin.",
+      "claim_text": "Faithful preaching of the word of God has always produced results that attested to its divine origin.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-002",
+      "paragraph": 1,
+      "quote": "The Spirit of God accompanied the message of His servants, and the word was with power.",
+      "claim_text": "The Spirit of God accompanied the preaching of God's servants, giving the preached word power.",
+      "claim_type": "theological",
+      "entities": ["Holy Spirit"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-003",
+      "paragraph": 2,
+      "quote": "These souls brought forth fruit meet for repentance.",
+      "claim_text": "Genuine converts of past revivals produced fruits demonstrating true repentance.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-004",
+      "paragraph": 2,
+      "quote": "The proud and self-assertive became meek and lowly of heart. The vain and supercilious became serious and unobtrusive. The profane became reverent, the drunken sober, and the profligate pure.",
+      "claim_text": "Genuine revival converts in past centuries underwent moral transformation: the proud became humble, the profane became reverent, drunkards became sober, and the immoral became pure.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-005",
+      "paragraph": 3,
+      "quote": "Revivals brought deep heart-searching and humility.",
+      "claim_text": "Historical revivals (of earlier eras) produced deep heart-searching and humility among participants.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-006",
+      "paragraph": 4,
+      "quote": "It could be said of them: “Ye sorrowed to repentance.”",
+      "claim_text": "Genuine converts of past revivals experienced godly sorrow leading to repentance, as described in the Pauline epistle language quoted here.",
+      "claim_type": "theological",
+      "entities": ["Bible (2 Corinthians)"],
+      "needs_verification": false,
+      "extractor_note": "Direct scripture quotation (2 Corinthians 7:9-11) embedded without an explicit named-speaker attribution phrase in the surrounding prose; treated as theological rather than attributed_quote."
+    },
+    {
+      "id": "GC-27-007",
+      "paragraph": 5,
+      "quote": "There is no evidence of genuine repentance unless it works reformation.",
+      "claim_text": "Genuine repentance is evidenced only when it produces reformation of life.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-008",
+      "paragraph": 5,
+      "quote": "Such were the effects that in former years followed seasons of religious awakening. Judged by their fruits, they were known to be blessed of God in the salvation of men and the uplifting of humanity.",
+      "claim_text": "Past religious awakenings ('former years') were, by their good fruits, genuinely blessed of God in saving and uplifting people.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-009",
+      "paragraph": 6,
+      "quote": "But many of the revivals of modern times have presented a marked contrast to those manifestations of divine grace which in earlier days followed the labors of God’s servants.",
+      "claim_text": "Many modern-era (late 19th century) revivals differ markedly from the revivals of earlier centuries in the quality of spiritual results they produce.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-010",
+      "paragraph": 6,
+      "quote": "the results are not such as to warrant the belief that there has been a corresponding increase of real spiritual life. The light which flames up for a time soon dies out, leaving the darkness more dense than before.",
+      "claim_text": "Modern revivals produce widespread interest, professed conversions, and church accessions without a corresponding lasting increase in genuine spiritual life.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-011",
+      "paragraph": 7,
+      "quote": "Popular revivals are too often carried by appeals to the imagination, by exciting the emotions, by gratifying the love for what is new and startling.",
+      "claim_text": "Contemporary popular revivals rely primarily on emotional and sensational appeal rather than reasoned biblical instruction.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-012",
+      "paragraph": 8,
+      "quote": "Religion has become the sport of infidels and skeptics because so many who bear its name are ignorant of its principles.",
+      "claim_text": "The superficial religious knowledge of many professed Christians has made religion an object of mockery among skeptics and infidels.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-013",
+      "paragraph": 8,
+      "quote": "Picnics, church theatricals, church fairs, fine houses, personal display, have banished thoughts of God.",
+      "claim_text": "Contemporary churches' emphasis on social entertainments (picnics, theatricals, fairs) and material display had displaced spiritual focus.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-014",
+      "paragraph": 9,
+      "quote": "Before the final visitation of God’s judgments upon the earth, there will be, among the people of the Lord, such a revival of primitive godliness as has not been witnessed since apostolic times.",
+      "claim_text": "Before the final divine judgments on earth, there will be a revival of primitive godliness among God's people unmatched since apostolic times.",
+      "claim_type": "theological",
+      "entities": ["God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-015",
+      "paragraph": 9,
+      "quote": "The enemy of souls desires to hinder this work; and before the time for such a movement shall come, he will endeavor to prevent it, by introducing a counterfeit.",
+      "claim_text": "Satan seeks to hinder the prophesied end-time revival by introducing a counterfeit revival beforehand.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-016",
+      "paragraph": 9,
+      "quote": "Under a religious guise, Satan will seek to extend his influence over the Christian world.",
+      "claim_text": "Satan will use a religious guise to extend his influence over the Christian world.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-017",
+      "paragraph": 10,
+      "quote": "In many of the revivals which have occurred during the last half century, the same influences have been at work, to a greater or less degree, that will be manifest in the more extensive movements of the future.",
+      "claim_text": "Numerous revivals occurred during roughly the fifty years preceding the writing of this text (mid-to-late 19th century) exhibiting emotional/sensational characteristics comparable to those predicted for future counterfeit movements.",
+      "claim_type": "event",
+      "entities": ["Christian revivalism (19th century)"],
+      "needs_verification": true,
+      "extractor_note": "Vague, unquantified reference to 'many revivals' in 'the last half century' with no specific revivals, preachers, or locations named."
+    },
+    {
+      "id": "GC-27-018",
+      "paragraph": 10,
+      "quote": "by the rule which Christ Himself has given, “Ye shall know them by their fruits,”(778)",
+      "claim_text": "Jesus Christ is recorded as teaching the principle 'Ye shall know them by their fruits' (Matthew 7:16) as a test for discerning genuine spiritual fruit.",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Gospel of Matthew"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-019",
+      "paragraph": 11,
+      "quote": "A wrong conception of the character, the perpetuity, and the obligation of the divine law, has led to errors in relation to conversion and sanctification, and has resulted in lowering the standard of piety in the church.",
+      "claim_text": "A mistaken view of the nature and binding obligation of God's law caused doctrinal errors about conversion and sanctification and lowered the standard of piety in the church.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-020",
+      "paragraph": 11,
+      "quote": "Here is to be found the secret of the lack of the Spirit and power of God in the revivals of our time.",
+      "claim_text": "Neglect of the true nature of God's law explains the absence of the Spirit's power in contemporary revivals.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-021",
+      "paragraph": 12,
+      "quote": "Prof. Edwards A. Park, in setting forth the current religious perils, ably says:",
+      "claim_text": "Edwards A. Park was a professor who wrote about contemporary (19th century) religious perils, quoted in this text as an authority acknowledging neglect of the divine law by preachers of his time.",
+      "claim_type": "biographical",
+      "entities": ["Edwards Amasa Park"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-022",
+      "paragraph": 12,
+      "quote": "“One source of danger is the neglect of the pulpit to enforce the divine law. In former days the pulpit was an echo of the voice of conscience.... Our most illustrious preachers gave a wonderful majesty to their discourses by following the example of the Master, and giving prominence to the law, its precepts, and its threatenings. They repeated the two great maxims, that the law is a transcript of the divine perfections, and that a man who does not love the law does not love the gospel; for the law, as well as the gospel, is a mirror reflecting the true character of God. This peril leads to another, that of underrating the evil of sin, the extent of it, the demerit of it. In proportion to the rightfulness of the commandment is the wrongfulness of disobeying it....",
+      "claim_text": "Edwards A. Park stated that a leading religious danger of his era was the pulpit's neglect to enforce the divine law, contrasting it with earlier illustrious preachers who gave prominence to the law and its precepts.",
+      "claim_type": "attributed_quote",
+      "entities": ["Edwards Amasa Park"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-023",
+      "paragraph": 13,
+      "quote": "“Affiliated to the dangers already named is the danger of underestimating the justice of God. The tendency of the modern pulpit is to strain out the divine justice from the divine benevolence, to sink benevolence into a sentiment rather than exalt it into a principle. The new theological prism puts asunder what God has joined together. Is the divine law a good or an evil? It is a good. Then justice is good; for it is a disposition to execute the law. From the habit of underrating the divine law and justice, the extent and demerit of human disobedience, men easily slide into the habit of underestimating the grace which has provided an atonement for sin.”",
+      "claim_text": "Edwards A. Park further argued that the modern pulpit of his era tended to separate divine justice from divine benevolence, reducing benevolence to sentiment, which leads to underestimating grace and the atonement.",
+      "claim_type": "attributed_quote",
+      "entities": ["Edwards Amasa Park"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-024",
+      "paragraph": 14,
+      "quote": "Many religious teachers assert that Christ by His death abolished the law, and men are henceforth free from its requirements.",
+      "claim_text": "Some 19th-century religious teachers taught that Christ's death abolished the moral law, freeing believers from its requirements.",
+      "claim_type": "event",
+      "entities": ["19th-century religious teachers (unnamed)"],
+      "needs_verification": true,
+      "extractor_note": "No specific teachers, denominations, or publications named; a general characterization of a theological camp."
+    },
+    {
+      "id": "GC-27-025",
+      "paragraph": 15,
+      "quote": "Said David, “I will walk at liberty: for I seek Thy precepts.”(779)",
+      "claim_text": "David is quoted in scripture as saying, 'I will walk at liberty: for I seek Thy precepts' (Psalm 119:45).",
+      "claim_type": "attributed_quote",
+      "entities": ["David", "Book of Psalms"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-026",
+      "paragraph": 15,
+      "quote": "The apostle James, who wrote after the death of Christ, refers to the decalogue as the “royal law,” and the “perfect law of liberty.”(780)",
+      "claim_text": "The apostle James wrote the Epistle of James after the death of Christ and referred to the Ten Commandments as the 'royal law' and the 'perfect law of liberty'.",
+      "claim_type": "biographical",
+      "entities": ["James (apostle)", "Epistle of James"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-027",
+      "paragraph": 15,
+      "quote": "And the Revelator, half a century after the crucifixion, pronounces a blessing upon them “that do His commandments, that they may have right to the tree of life, and may enter in through the gates into the city.”(781)",
+      "claim_text": "The author of the book of Revelation (referred to here as 'the Revelator') wrote approximately fifty years after the crucifixion of Christ, pronouncing a blessing on those who keep His commandments.",
+      "claim_type": "date",
+      "entities": ["John of Patmos (the Revelator)", "Book of Revelation"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-028",
+      "paragraph": 16,
+      "quote": "The Son of God came to “magnify the law, and make it honorable.”(782)",
+      "claim_text": "Jesus Christ ('the Son of God') is described in scripture as coming to 'magnify the law, and make it honorable' (Isaiah 42:21).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Book of Isaiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-029",
+      "paragraph": 16,
+      "quote": "He said, “Think not that I am come to destroy the law;” “till heaven and earth pass, one jot or one tittle shall in no wise pass from the law.”(783)",
+      "claim_text": "Jesus is quoted saying, 'Think not that I am come to destroy the law' and 'till heaven and earth pass, one jot or one tittle shall in no wise pass from the law' (Matthew 5:17-18).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Gospel of Matthew"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-030",
+      "paragraph": 16,
+      "quote": "And concerning Himself He declares, “I delight to do Thy will, O My God: yea, Thy law is within My heart.”(784)",
+      "claim_text": "Jesus Christ is depicted as declaring of himself, 'I delight to do Thy will, O My God: yea, Thy law is within My heart' (Psalm 40:8, read messianically).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Book of Psalms"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-031",
+      "paragraph": 17,
+      "quote": "Says the psalmist, “Thy law is the truth;” “all Thy commandments are righteousness.”(786)",
+      "claim_text": "The psalmist is quoted declaring, 'Thy law is the truth' and 'all Thy commandments are righteousness' (Psalm 119:142, 172).",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Psalms"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-032",
+      "paragraph": 17,
+      "quote": "And the apostle Paul declares, “The law is holy, and the commandment holy, and just, and good.”(787)",
+      "claim_text": "The apostle Paul is quoted declaring, 'The law is holy, and the commandment holy, and just, and good' (Romans 7:12).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul (apostle)", "Epistle to the Romans"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-033",
+      "paragraph": 18,
+      "quote": "But sin alienated him from his Maker. He no longer reflected the divine image. His heart was at war with the principles of God’s law.",
+      "claim_text": "Human sin alienated mankind from God and put the human heart at war with the principles of God's law (theological account of the fall).",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-034",
+      "paragraph": 19,
+      "quote": "The first step in reconciliation to God, is the conviction of sin.",
+      "claim_text": "The first step in reconciliation to God is conviction of sin.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-035",
+      "paragraph": 20,
+      "quote": "The law reveals to man his sins, but it provides no remedy.",
+      "claim_text": "God's law reveals sin to humanity but provides no remedy for it; only the gospel of Christ frees from sin's condemnation.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-036",
+      "paragraph": 21,
+      "quote": "Says Paul: “Do we then make void the law through faith? God forbid: yea, we establish the law.” “How shall we, that are dead to sin, live any longer therein?”",
+      "claim_text": "Paul is quoted asking rhetorically, 'Do we then make void the law through faith? God forbid: yea, we establish the law' and 'How shall we, that are dead to sin, live any longer therein?' (Romans 3:31, 6:2).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul (apostle)", "Epistle to the Romans"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-037",
+      "paragraph": 21,
+      "quote": "And John declares, “This is the love of God, that we keep His commandments: and His commandments are not grievous.”(790)",
+      "claim_text": "The apostle John is quoted declaring, 'This is the love of God, that we keep His commandments: and His commandments are not grievous' (1 John 5:3).",
+      "claim_type": "attributed_quote",
+      "entities": ["John (apostle)", "First Epistle of John"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-038",
+      "paragraph": 22,
+      "quote": "Thus superficial conversions abound, and multitudes are joined to the church who have never been united to Christ.",
+      "claim_text": "Superficial conversions are widespread, resulting in many church members who are not truly united to Christ.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-039",
+      "paragraph": 23,
+      "quote": "Erroneous theories of sanctification, also, springing from neglect or rejection of the divine law, have a prominent place in the religious movements of the day.",
+      "claim_text": "Erroneous theories of sanctification, stemming from neglect of the divine law, held a prominent place in contemporary (late 19th century) religious movements.",
+      "claim_type": "event",
+      "entities": ["19th-century sanctification movements (unnamed)"],
+      "needs_verification": true,
+      "extractor_note": "No specific denomination, movement, or teacher named in the text."
+    },
+    {
+      "id": "GC-27-040",
+      "paragraph": 24,
+      "quote": "The apostle Paul, in his letter to the Thessalonian church, declares, “This is the will of God, even your sanctification.” And he prays, “The very God of peace sanctify you wholly.”(794)",
+      "claim_text": "Paul wrote a letter to the church at Thessalonica declaring 'This is the will of God, even your sanctification' and praying 'The very God of peace sanctify you wholly' (1 Thessalonians 4:3, 5:23).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul (apostle)", "First Epistle to the Thessalonians"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-041",
+      "paragraph": 24,
+      "quote": "The Saviour prayed for His disciples, “Sanctify them through Thy truth: Thy word is truth.”(795)",
+      "claim_text": "Jesus is recorded praying for his disciples, 'Sanctify them through Thy truth: Thy word is truth' (John 17:17).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Gospel of John"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-042",
+      "paragraph": 24,
+      "quote": "And Paul teaches that believers are to be “sanctified by the Holy Ghost.”(796)",
+      "claim_text": "Paul is cited as teaching that believers are to be 'sanctified by the Holy Ghost' (Romans 15:16).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul (apostle)"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-043",
+      "paragraph": 24,
+      "quote": "Jesus told His disciples, “When He, the Spirit of truth, is come, He will guide you into all truth.”(797)",
+      "claim_text": "Jesus is quoted telling his disciples, 'When He, the Spirit of truth, is come, He will guide you into all truth' (John 16:13).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Gospel of John"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-044",
+      "paragraph": 24,
+      "quote": "He says, “I have kept My Father’s commandments.” “I do always those things that please Him.”(798)",
+      "claim_text": "Jesus Christ is quoted saying, 'I have kept My Father's commandments' and 'I do always those things that please Him' (John 15:10, 8:29).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Gospel of John"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-045",
+      "paragraph": 25,
+      "quote": "Paul admonishes believers, “Work out your own salvation with fear and trembling. For it is God which worketh in you both to will and to do of His good pleasure.”(799)",
+      "claim_text": "Paul admonished believers, 'Work out your own salvation with fear and trembling. For it is God which worketh in you both to will and to do of His good pleasure' (Philippians 2:12-13).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul (apostle)", "Epistle to the Philippians"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-046",
+      "paragraph": 26,
+      "quote": "Says the apostle Paul, “This one thing I do, forgetting those things which are behind, and reaching forth unto those things which are before, I press toward the mark for the prize of the high calling of God in Christ Jesus.”(801)",
+      "claim_text": "The apostle Paul is quoted saying, 'This one thing I do, forgetting those things which are behind... I press toward the mark for the prize of the high calling of God in Christ Jesus' (Philippians 3:13-14).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul (apostle)", "Epistle to the Philippians"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-047",
+      "paragraph": 26,
+      "quote": "And Peter sets before us the steps by which Bible sanctification is to be attained: “Giving all diligence, add to your faith virtue; and to virtue knowledge; and to knowledge temperance; and to temperance patience; and to patience godliness; and to godliness brotherly kindness; and to brotherly kindness charity.... If ye do these things, ye shall never fall.”(802)",
+      "claim_text": "The apostle Peter is quoted outlining progressive steps of Christian character development ('add to your faith virtue... charity'), culminating in the promise 'If ye do these things, ye shall never fall' (2 Peter 1:5-10).",
+      "claim_type": "attributed_quote",
+      "entities": ["Peter (apostle)", "Second Epistle of Peter"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-048",
+      "paragraph": 27,
+      "quote": "Like Moses, they have had a view of the awful majesty of holiness, and they see their own unworthiness in contrast with the purity and exalted perfection of the Infinite One.",
+      "claim_text": "The biblical figure Moses had an experience of witnessing the awful majesty of God's holiness, referenced here as a model of humility before God.",
+      "claim_type": "biographical",
+      "entities": ["Moses"],
+      "needs_verification": true,
+      "extractor_note": "General allusion to Moses' biblical experience (cf. Exodus 33-34) without a specific verse cited in the text."
+    },
+    {
+      "id": "GC-27-049",
+      "paragraph": 28,
+      "quote": "The prophet Daniel was an example of true sanctification. His long life was filled up with noble service for his Master.",
+      "claim_text": "The biblical prophet Daniel lived a long life filled with service, presented here as an example of true sanctification.",
+      "claim_type": "biographical",
+      "entities": ["Daniel (prophet)"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-050",
+      "paragraph": 28,
+      "quote": "He was a man “greatly beloved”(803) of Heaven.",
+      "claim_text": "Daniel is described in scripture as 'greatly beloved' (Daniel 9:23; 10:11, 19).",
+      "claim_type": "biographical",
+      "entities": ["Daniel (prophet)"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-051",
+      "paragraph": 28,
+      "quote": "as he pleaded before God in behalf of his people: “We do not present our supplications before Thee for our righteousnesses, but for Thy great mercies.” “We have sinned, we have done wickedly.” He declares, “I was speaking, and praying, and confessing my sin and the sin of my people.”",
+      "claim_text": "Daniel is recorded praying a corporate confession on behalf of Israel, including the words 'We do not present our supplications before Thee for our righteousnesses, but for Thy great mercies' and 'We have sinned, we have done wickedly' (Daniel 9:18, 20, 15).",
+      "claim_type": "attributed_quote",
+      "entities": ["Daniel (prophet)", "Book of Daniel"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-052",
+      "paragraph": 28,
+      "quote": "And when at a later time the Son of God appeared, to give him instruction, Daniel says, “My comeliness was turned in me into corruption, and I retained no strength.”(804)",
+      "claim_text": "Daniel is recorded describing a visionary encounter in which he says 'My comeliness was turned in me into corruption, and I retained no strength' (Daniel 10:8).",
+      "claim_type": "attributed_quote",
+      "entities": ["Daniel (prophet)", "Book of Daniel"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-053",
+      "paragraph": 29,
+      "quote": "When Job heard the voice of the Lord out of the whirlwind, he exclaimed, “I abhor myself, and repent in dust and ashes.”(805)",
+      "claim_text": "The biblical figure Job, upon hearing the voice of the Lord out of a whirlwind, exclaimed 'I abhor myself, and repent in dust and ashes' (Job 42:6).",
+      "claim_type": "event",
+      "entities": ["Job", "Book of Job"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-054",
+      "paragraph": 29,
+      "quote": "It was when Isaiah saw the glory of the Lord, and heard the cherubim crying, “Holy, holy, holy, is the Lord of hosts,” that he cried out, “Woe is me! for I am undone.”(806)",
+      "claim_text": "The prophet Isaiah, upon seeing a vision of the glory of the Lord and hearing cherubim proclaim 'Holy, holy, holy, is the Lord of hosts,' cried out 'Woe is me! for I am undone' (Isaiah 6:1-5).",
+      "claim_type": "event",
+      "entities": ["Isaiah (prophet)", "Book of Isaiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-055",
+      "paragraph": 29,
+      "quote": "Paul, after he was caught up into the third heaven, and heard things which it was not possible for a man to utter, speaks of himself as “less than the least of all saints.”(807)",
+      "claim_text": "The apostle Paul described an experience of being 'caught up into the third heaven' and hearing things not lawful to utter, afterward calling himself 'less than the least of all saints' (2 Corinthians 12:2-4; Ephesians 3:8).",
+      "claim_type": "event",
+      "entities": ["Paul (apostle)", "Second Epistle to the Corinthians"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-056",
+      "paragraph": 29,
+      "quote": "It was the beloved John, who leaned on Jesus’ breast and beheld His glory, that fell as one dead before the feet of the angel.(808)",
+      "claim_text": "The apostle John, who had leaned on Jesus' breast and beheld His glory, later fell as one dead before the feet of an angel (referencing John 13:23 and Revelation 1:17).",
+      "claim_type": "event",
+      "entities": ["John (apostle)", "Book of Revelation"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-057",
+      "paragraph": 30,
+      "quote": "There can be no self-exaltation, no boastful claim to freedom from sin, on the part of those who walk in the shadow of Calvary’s cross.",
+      "claim_text": "True followers of Christ cannot make self-exalting or boastful claims to freedom from sin.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-058",
+      "paragraph": 31,
+      "quote": "The sanctification now gaining prominence in the religious world, carries with it a spirit of self-exaltation, and a disregard for the law of God, that mark it as foreign to the religion of the Bible. Its advocates teach that sanctification is an instantaneous work, by which, through faith alone, they attain to perfect holiness.",
+      "claim_text": "A contemporary (late 19th century) sanctification movement taught that sanctification is an instantaneous work attained through faith alone, without further effort, and denied the ongoing authority of God's law.",
+      "claim_type": "event",
+      "entities": ["19th-century holiness/sanctification movement"],
+      "needs_verification": true,
+      "extractor_note": "No specific denomination or named movement is identified in the text; likely alludes to Holiness Movement / 'entire sanctification' teachings current in the period."
+    },
+    {
+      "id": "GC-27-059",
+      "paragraph": 32,
+      "quote": "Says the apostle James: “What doth it profit, my brethren, though a man say he hath faith, and have not works? can faith save him?... Wilt thou know, O vain man, that faith without works is dead? Was not Abraham our father justified by works, when he had offered Isaac his son upon the altar? Seest thou how faith wrought with his works, and by works was faith made perfect?... Ye see then how that by works a man is justified, and not by faith only.”(809)",
+      "claim_text": "The apostle James is quoted arguing that faith without works is dead, citing Abraham's offering of Isaac as an example of faith being made perfect by works (James 2:14-24).",
+      "claim_type": "attributed_quote",
+      "entities": ["James (apostle)", "Abraham", "Isaac"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-060",
+      "paragraph": 33,
+      "quote": "The desire for an easy religion, that requires no striving, no self-denial, no divorce from the follies of the world, has made the doctrine of faith, and faith only, a popular doctrine",
+      "claim_text": "A doctrine of 'faith only' (without corresponding works) had become popular in contemporary religious teaching, driven by a desire for an undemanding religion.",
+      "claim_type": "event",
+      "entities": ["faith-only doctrine (19th century)"],
+      "needs_verification": true,
+      "extractor_note": "Vague, unnamed proponents; no specific individuals or denominations cited."
+    },
+    {
+      "id": "GC-27-061",
+      "paragraph": 34,
+      "quote": "Though John in his epistles dwells so fully upon love, yet he does not hesitate to reveal the true character of that class who claim to be sanctified while living in transgression of the law of God. “He that saith, I know Him, and keepeth not His commandments, is a liar, and the truth is not in him. But whoso keepeth His word, in him verily is the love of God perfected.”(811)",
+      "claim_text": "The apostle John, in his epistles, is quoted stating 'He that saith, I know Him, and keepeth not His commandments, is a liar, and the truth is not in him' (1 John 2:4-5).",
+      "claim_type": "attributed_quote",
+      "entities": ["John (apostle)", "First Epistle of John"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-062",
+      "paragraph": 35,
+      "quote": "And the claim to be without sin is, in itself, evidence that he who makes this claim is far from holy.",
+      "claim_text": "A claim to be entirely without sin is itself evidence that the person making the claim is far from holy.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-063",
+      "paragraph": 36,
+      "quote": "Paul prayed for the Thessalonians, that their “whole spirit and soul and body be preserved blameless unto the coming of our Lord Jesus Christ.”(812)",
+      "claim_text": "Paul prayed for the Thessalonians that their 'whole spirit and soul and body be preserved blameless unto the coming of our Lord Jesus Christ' (1 Thessalonians 5:23).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul (apostle)", "First Epistle to the Thessalonians"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-064",
+      "paragraph": 36,
+      "quote": "Again he writes to believers, “I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God.”(813)",
+      "claim_text": "Paul wrote to believers urging them to 'present your bodies a living sacrifice, holy, acceptable unto God' (Romans 12:1).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul (apostle)", "Epistle to the Romans"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-065",
+      "paragraph": 37,
+      "quote": "Peter says, “Abstain from fleshly lusts, which war against the soul.”(814)",
+      "claim_text": "Peter is quoted saying, 'Abstain from fleshly lusts, which war against the soul' (1 Peter 2:11).",
+      "claim_type": "attributed_quote",
+      "entities": ["Peter (apostle)", "First Epistle of Peter"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-066",
+      "paragraph": 37,
+      "quote": "Paul writes to the Corinthians, “Let us cleanse ourselves from all filthiness of the flesh and spirit, perfecting holiness in the fear of God.”(815)",
+      "claim_text": "Paul wrote to the Corinthians, 'Let us cleanse ourselves from all filthiness of the flesh and spirit, perfecting holiness in the fear of God' (2 Corinthians 7:1).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul (apostle)", "Second Epistle to the Corinthians"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-067",
+      "paragraph": 38,
+      "quote": "how many professed Christians are enfeebling their powers in the pursuit of gain or the worship of fashion; how many are debasing their godlike manhood by gluttony, by wine-drinking, by forbidden pleasure.",
+      "claim_text": "Many professed Christians of the time were, in the author's assessment, weakening themselves through pursuit of wealth, fashion, gluttony, wine-drinking, and forbidden pleasures.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-068",
+      "paragraph": 38,
+      "quote": "And the church, instead of rebuking, too often encourages the evil by appealing to appetite, to desire for gain or love of pleasure, to replenish her treasury, which love for Christ is too feeble to supply.",
+      "claim_text": "Contemporary churches often raised funds by appealing to appetite and love of pleasure rather than rebuking such indulgence.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-069",
+      "paragraph": 38,
+      "quote": "Were Jesus to enter the churches of to-day, and behold the feasting and unholy traffic there conducted in the name of religion, would He not drive out those desecrators, as He banished the money-changers from the temple?",
+      "claim_text": "Jesus Christ, according to the Gospels, banished money-changers from the Jerusalem temple.",
+      "claim_type": "event",
+      "entities": ["Jesus Christ", "Second Temple, Jerusalem"],
+      "needs_verification": true,
+      "extractor_note": "Framed as a rhetorical hypothetical ('Were Jesus to enter...'), but the reference to Jesus banishing the money-changers from the temple (e.g. Matthew 21:12) is presented as a real historical/biblical event."
+    },
+    {
+      "id": "GC-27-070",
+      "paragraph": 39,
+      "quote": "The apostle James declares that the wisdom from above is “first pure.”",
+      "claim_text": "The apostle James is quoted describing the wisdom that comes from above as 'first pure' (James 3:17).",
+      "claim_type": "attributed_quote",
+      "entities": ["James (apostle)", "Epistle of James"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-071",
+      "paragraph": 39,
+      "quote": "Slaves of tobacco, claiming the blessing of entire sanctification, talk of their hope of heaven",
+      "claim_text": "Some individuals who used tobacco simultaneously claimed to have received the experience of 'entire sanctification.'",
+      "claim_type": "event",
+      "entities": ["entire sanctification movement", "tobacco use (19th century)"],
+      "needs_verification": true,
+      "extractor_note": "Anecdotal/generalized claim; no specific individuals, denomination, or statistics named in the text."
+    },
+    {
+      "id": "GC-27-072",
+      "paragraph": 40,
+      "quote": "Professed Christians yearly expend an immense sum upon useless and pernicious indulgences, while souls are perishing for the word of life.",
+      "claim_text": "Professed Christians collectively spent a large, unspecified sum annually on 'useless and pernicious indulgences.'",
+      "claim_type": "statistic",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "'Immense sum' is unquantified; no statistical source or figures are given in the text."
+    },
+    {
+      "id": "GC-27-073",
+      "paragraph": 40,
+      "quote": "God is robbed in tithes and offerings, while they consume upon the altar of destroying lust more than they give to relieve the poor or for the support of the gospel.",
+      "claim_text": "Church members of the period spent more on personal indulgence than they gave in tithes, charity to the poor, or gospel support.",
+      "claim_type": "statistic",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Comparative claim about spending priorities; no data, figures, or sources are provided in the text."
+    },
+    {
+      "id": "GC-27-074",
+      "paragraph": 41,
+      "quote": "In the light of God’s word we are justified in declaring that sanctification cannot be genuine which does not work this utter renunciation of the sinful pursuits and gratifications of the world.",
+      "claim_text": "Genuine sanctification necessarily produces utter renunciation of the sinful pursuits and gratifications of the world.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-075",
+      "paragraph": 42,
+      "quote": "“I am the light of the world,” said Jesus. “He that followeth Me shall not walk in darkness, but shall have the light of life.”(820)",
+      "claim_text": "Jesus is quoted saying, 'I am the light of the world. He that followeth Me shall not walk in darkness, but shall have the light of life' (John 8:12).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Gospel of John"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-076",
+      "paragraph": 43,
+      "quote": "Paul, in his letter to the Colossians, sets forth the rich blessings granted to the children of God. He says: We “do not cease to pray for you, and to desire that ye might be filled with the knowledge of His will in all wisdom and spiritual understanding; that ye might walk worthy of the Lord unto all pleasing, being fruitful in every good work, and increasing in the knowledge of God; strengthened with all might, according to His glorious power, unto all patience and long-suffering with joyfulness.”(822)",
+      "claim_text": "Paul wrote a letter to the Colossian church expressing continual prayer that they be 'filled with the knowledge of His will in all wisdom and spiritual understanding' and increase in every good work (Colossians 1:9-11).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul (apostle)", "Epistle to the Colossians"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-077",
+      "paragraph": 44,
+      "quote": "Again he writes of his desire that the brethren at Ephesus might come to understand the height of the Christian’s privilege. He opens before them, in the most comprehensive language, the marvelous power and knowledge that they might possess as sons and daughters of the Most High. It was theirs “to be strengthened with might by His Spirit in the inner man,” to be “rooted and grounded in love,” to “comprehend with all saints what is the breadth, and length, and depth, and height; and to know the love of Christ, which passeth knowledge.” But the prayer of the apostle reaches the climax of privilege when he prays that “ye might be filled with all the fulness of God.”(823)",
+      "claim_text": "Paul wrote to the church at Ephesus praying that believers be 'strengthened with might by His Spirit in the inner man,' 'rooted and grounded in love,' and 'filled with all the fulness of God' (Ephesians 3:16-19).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul (apostle)", "Epistle to the Ephesians"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-078",
+      "paragraph": 45,
+      "quote": "Jesus says: “If ye then, being evil, know how to give good gifts unto your children: how much more shall your heavenly Father give the Holy Spirit to them that ask Him?”(825)",
+      "claim_text": "Jesus is quoted saying, 'If ye then, being evil, know how to give good gifts unto your children: how much more shall your heavenly Father give the Holy Spirit to them that ask Him?' (Luke 11:13).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Gospel of Luke"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-079",
+      "paragraph": 46,
+      "quote": "While the Christian’s life will be characterized by humility, it should not be marked with sadness and self-depreciation.",
+      "claim_text": "A genuinely humble Christian life should not be marked by sadness and self-depreciation.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-080",
+      "paragraph": 47,
+      "quote": "Truly spake God’s servant Nehemiah, “The _joy_ of the Lord is your strength.”(830)",
+      "claim_text": "The biblical figure Nehemiah, described here as 'God's servant,' is quoted as saying 'The joy of the Lord is your strength' (Nehemiah 8:10).",
+      "claim_type": "attributed_quote",
+      "entities": ["Nehemiah", "Book of Nehemiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-081",
+      "paragraph": 47,
+      "quote": "And Paul says: “Rejoice in the Lord alway: and again I say, Rejoice.” “Rejoice evermore. Pray without ceasing. In everything give thanks: for this is the will of God in Christ Jesus concerning you.”(831)",
+      "claim_text": "Paul is quoted writing 'Rejoice in the Lord alway... Pray without ceasing. In everything give thanks: for this is the will of God in Christ Jesus concerning you' (Philippians 4:4; 1 Thessalonians 5:16-18).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul (apostle)", "Epistle to the Philippians", "First Epistle to the Thessalonians"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-27-082",
+      "paragraph": 48,
+      "quote": "Such are the fruits of Bible conversion and sanctification; and it is because the great principles of righteousness set forth in the law of God are so indifferently regarded by the Christian world, that these fruits are so rarely witnessed.",
+      "claim_text": "The rarity of genuine fruits of Bible conversion and sanctification is due to indifference toward the principles of righteousness set forth in God's law.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-083",
+      "paragraph": 49,
+      "quote": "It is by beholding that we become changed.",
+      "claim_text": "Believers are spiritually transformed by beholding (contemplating) the character of God.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-084",
+      "paragraph": 49,
+      "quote": "what marvel that there has followed a decline of living piety in the church.",
+      "claim_text": "There has been a decline of living piety in the contemporary church, attributed to neglect of God's revealed precepts.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-27-085",
+      "paragraph": 50,
+      "quote": "It is only as the law of God is restored to its rightful position that there can be a revival of primitive faith and godliness among His professed people.",
+      "claim_text": "A revival of primitive faith and godliness among God's professed people can occur only when God's law is restored to its rightful position.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    }
+  ]
+}
