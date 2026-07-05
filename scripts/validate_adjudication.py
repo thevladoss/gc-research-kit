@@ -1,20 +1,22 @@
 #!/usr/bin/env python3
-"""Schema gate for GCHAR Phase 2a adjudication ruling files (charter v1.0-frozen, §11).
+"""Schema gate for GCHAR Phase 2a adjudication ruling files (charter v1.1-frozen, §11).
 
 Usage:
     python3 scripts/validate_adjudication.py adjudication/DNN_<slug>.ruling.json
 
 Checks, in order:
-  1. JSON parse; mandatory top-level fields; charter_version == 1.0-frozen;
-     "evidence_review" precedes "rulings" in the RAW file (§10.2/§11 write-order rule).
+  1. JSON parse; mandatory top-level fields; charter_version in {1.0-frozen (D01 only),
+     1.1-frozen}; "evidence_review" precedes "rulings" in the RAW file (§10.2/§11).
   2. Claim set == the dossier's claim list in ADJUDICATION_DOSSIERS.md, each id exactly once.
   3. Per-record structure: scale values; framing_gap arithmetic (§2); ruling_as_written ==
      weakest in-scope component + failing_component_kind consistency (§3 as amended);
+     tie-break priority fact > frame > motive and optional tied_kinds (§3, 1.1 amendment);
      hermeneutic components out of scope and unruled (§9); gap_note records exempt (§1).
   4. Evidence floors: >=2 sources behind accusatory rulings + minority_engagement (§5);
      academic floor on flagged dossiers (§4.6); symmetric floor on well-supported with the
      [common_knowledge] exemption (§7.3).
-  5. narrative_ru present, Russian, 3-6 sentences (§11 amendment; sentence count warns only).
+  5. narrative_ru present, Russian, 3-6 sentences — HARD limit per the 1.1 amendment
+     (failure outside the range); D01 is grandfathered (warns only).
 
 Substantive quality (were the sources actually independent, is the steelman honest) is the
 orchestrator's and the user's to judge — this gate is structural.
@@ -29,11 +31,13 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOSSIERS_MD = os.path.join(ROOT, "ADJUDICATION_DOSSIERS.md")
 
-CHARTER_VERSION = "1.0-frozen"
+CHARTER_VERSIONS = {"1.1-frozen"}
+GRANDFATHERED = {"D01": "1.0-frozen"}  # issued and approved before the 1.1 amendments
 SCALE = {"discredited": 1, "improbable": 2, "genuinely-open": 3, "probable": 4, "well-supported": 5}
 ACCUSATORY = {"discredited", "improbable"}
 KINDS = {"fact", "frame", "motive", "hermeneutic"}
 FAILING_KINDS = {"fact", "frame", "motive"}
+KIND_PRIORITY = ["fact", "frame", "motive"]  # §3 tie-break (1.1 amendment)
 SOURCE_QUALITY = {"academic-full", "academic-partial", "encyclopedic-only"}
 CONFIDENCE = {"high", "medium", "low"}
 ID_RE = re.compile(r"^GC-\d{2}-\d{3}$")
@@ -88,8 +92,10 @@ def check_top_level(data, raw, rep):
             rep.err(f"top-level field '{field}' missing")
     if data.get("stage") != "adjudication":
         rep.err(f"stage must be 'adjudication', got {data.get('stage')!r}")
-    if data.get("charter_version") != CHARTER_VERSION:
-        rep.err(f"charter_version must be '{CHARTER_VERSION}', got {data.get('charter_version')!r}")
+    dossier_id = data.get("dossier") or ""
+    allowed = CHARTER_VERSIONS | ({GRANDFATHERED[dossier_id]} if dossier_id in GRANDFATHERED else set())
+    if data.get("charter_version") not in allowed:
+        rep.err(f"charter_version must be one of {sorted(allowed)}, got {data.get('charter_version')!r}")
     if not (data.get("evidence_review") or "").strip():
         rep.err("evidence_review is empty")
     if "search" not in (data.get("notes") or "").lower():
@@ -108,7 +114,10 @@ def check_top_level(data, raw, rep):
             rep.err("narrative_ru contains no Cyrillic — must be Russian")
         n_sent = len(re.findall(r"[.!?…](?:\s|$|»|\")", nru))
         if not 3 <= n_sent <= 6:
-            rep.warn(f"narrative_ru has ~{n_sent} sentences (charter asks 3-6)")
+            if dossier_id in GRANDFATHERED:
+                rep.warn(f"narrative_ru has ~{n_sent} sentences (3-6; grandfathered dossier)")
+            else:
+                rep.err(f"narrative_ru has ~{n_sent} sentences — hard limit 3-6 (§11, 1.1 amendment)")
 
 
 def check_claim_set(data, registry, rep):
@@ -196,6 +205,21 @@ def check_record(rec, dossier_id, floor, rep):
         elif fck not in kinds_at_min:
             rep.err(f"{cid}: failing_component_kind {fck!r} is not the kind of a weakest "
                     f"in-scope component ({sorted(kinds_at_min)})")
+        elif len(kinds_at_min) > 1:
+            expected = next(k for k in KIND_PRIORITY if k in kinds_at_min)
+            if fck != expected:
+                rep.err(f"{cid}: tie at the minimum ({sorted(kinds_at_min)}) — "
+                        f"failing_component_kind must be {expected!r} (fact > frame > motive, §3)")
+        tk = rec.get("tied_kinds")
+        if tk is not None:
+            if (not isinstance(tk, list)) or not set(tk) <= FAILING_KINDS:
+                rep.err(f"{cid}: tied_kinds must be a list drawn from {sorted(FAILING_KINDS)}")
+            elif set(tk) != kinds_at_min:
+                rep.warn(f"{cid}: tied_kinds {sorted(set(tk))} != kinds at the minimum "
+                         f"({sorted(kinds_at_min)})")
+        elif len(kinds_at_min) > 1:
+            rep.warn(f"{cid}: kinds tie at the minimum ({sorted(kinds_at_min)}) but optional "
+                     f"tied_kinds is absent (§3, 1.1 amendment)")
     else:
         rep.err(f"{cid}: ruled as written but no in-scope scale-ruled components (§3)")
 

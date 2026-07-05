@@ -1,7 +1,7 @@
 # ADJUDICATION CHARTER — GCHAR Phase 2
 
-**Version:** 1.0-frozen (approved by the user 2026-07-05 with four pre-freeze amendments; see §12)
-**Status:** Frozen. Amendments only via §12. The D01 calibration gate (§10.5) stands: the first dossier is adjudicated alone and presented for user approval before any further dossier opens.
+**Version:** 1.1-frozen (1.0-frozen + four post-calibration amendments approved by the user 2026-07-05; see §12)
+**Status:** Frozen. Amendments only via §12. The D01 calibration gate (§10.5) is passed: D01 approved by the user 2026-07-05, batch processing of D02–D23 unlocked. D01's ruling file stands as issued under 1.0-frozen (grandfathered; none of the 1.1 amendments invalidates it).
 **Scope of application:** the 97 claims carrying final (defense-adjusted) verdict `disputed`, enumerated and grouped in `ADJUDICATION_DOSSIERS.md`. That enumeration is frozen together with this charter.
 
 ---
@@ -58,7 +58,7 @@ Bundled claims are split before ruling. A bundle is any claim that welds togethe
 - **motive** — an attribution of intent to historical actors ("in order to promote nominal acceptance", "perceiving that a shared festival would advance the church's power");
 - **hermeneutic** — a prophetic-interpretive premise (year-day principle, identification of a prophetic symbol), which is out of scope (§9).
 
-Each component receives its own component-level ruling. The claim-level `ruling_as_written` for a conjunction is the **minimum** (weakest link) across its in-scope components, because the sentence as printed asserts the conjunction. The kind of the weakest in-scope component that set this minimum is recorded per claim as `failing_component_kind` (`fact` / `frame` / `motive`); downstream reporting segments accusatory results by this field (§11).
+Each component receives its own component-level ruling. The claim-level `ruling_as_written` for a conjunction is the **minimum** (weakest link) across its in-scope components, because the sentence as printed asserts the conjunction. The kind of the weakest in-scope component that set this minimum is recorded per claim as `failing_component_kind` (`fact` / `frame` / `motive`); downstream reporting segments accusatory results by this field (§11). When several in-scope components of different kinds tie at the claim-level minimum, `failing_component_kind` takes the fixed priority **fact > frame > motive**, and the tied kinds are additionally recorded in an optional per-claim array `tied_kinds` (amendment 2026-07-05).
 
 Motive components require direct documentary evidence of intent (letters, decrees, minutes, contemporary testimony); scholarly inference about likely motives supports at most `probable`. Absence of any documentary basis caps the motive component at `improbable` **only when the competing mainstream account of the motive itself has documentary support**. Where the competing account is likewise scholarly inference without documents, the motive component caps at `genuinely-open` instead — the burden rule must not apply to the book's motive claims while exempting rival motive claims (consistent with §5.3).
 
@@ -158,6 +158,7 @@ Per dossier: `adjudication/DNN_<slug>.ruling.json` with two mandatory top-level 
   ],
   "ruling_as_written": "improbable",
   "failing_component_kind": "fact|frame|motive",
+  "tied_kinds": ["fact", "frame"],
   "weakened_version": "one-sentence steelman rewrite",
   "ruling_weakened": "genuinely-open",
   "framing_gap": 1,
@@ -171,13 +172,17 @@ Per dossier: `adjudication/DNN_<slug>.ruling.json` with two mandatory top-level 
 }
 ```
 
-**`narrative_ru`** (mandatory, top-level): 3–6 sentences in Russian for a lay reader — the dossier's question, how the claims fared as written and in their weakened versions, and what evidence would change the picture. It follows the tone rules of the synthesis documents: no prosecutorial and no apologetic drift. The report site renders it directly.
+**`narrative_ru`** (mandatory, top-level): 3–6 sentences in Russian for a lay reader — the dossier's question, how the claims fared as written and in their weakened versions, and what evidence would change the picture. It follows the tone rules of the synthesis documents: no prosecutorial and no apologetic drift. The report site renders it directly. The 3–6 sentence range is a hard limit: the validator fails the file outside it (amendment 2026-07-05; D01, issued earlier at ~8 sentences, is grandfathered).
+
+Schema clarifications (amendment 2026-07-05): the per-claim array key is `rulings`; `tied_kinds` is optional and present only when several component kinds tie at the claim minimum (§3).
 
 Downstream mapping (pre-registered so the report cannot be gerrymandered later):
 
 - `discredited` and `improbable` (as written) → enter the discrepancy analysis; each gets an impact re-score by the impact-assessor before inclusion. The impact re-score, the synthesis stage, and the final report MUST segment these results by `failing_component_kind`: a claim failing on an undocumented motive attribution is a distinct reported class from a claim failing on fact, and the classes are never aggregated into one headline number. The website renders the classes differently.
 - `well-supported` and `probable` → leave the disputed bucket; reported as vindicated under adjudication.
 - `genuinely-open` → remains the honest residue; reported as such, with the framing-gap distribution alongside.
+- `out-of-scope` (fully hermeneutic after decomposition, §9) → reported as a **conditional premise** («условная посылка»), a fourth category: neither vindicated, nor discrepancy, nor open residue. The synthesis and the report present such claims — load-bearing ones included — as resting entirely on hermeneutic premises that historiography does not evaluate (amendment 2026-07-05).
+- Synthesis notes (amendment 2026-07-05): where accusatory rulings share a common evidential anchor, the synthesis distinguishes **chain-inherited failures** from **independent evidential failure points** and reports both numbers (for D01: 12 accusatory rulings, 4 independent failure points); the inherited count is never headlined alone. `improbable` rulings whose claim matched the period-standard scholarship of 1844/1911 receive a `period_standard: true` tag in synthesis aggregation, bridging the Phase-1 `anachronistic` vocabulary.
 - All Phase-1 files remain untouched; the report reads Phase-2 rulings as the final word on these 97 claims and says so explicitly.
 
 ---
@@ -194,3 +199,7 @@ Amendments to this charter require explicit user approval and are logged here wi
 | 2026-07-05 | 1.0 | §10.3: dossiers with ≥8 load-bearing claims (at minimum D01) run 18–20 searches plus the standard stragglers allowance. Rationale: pre-freeze user amendments. | user |
 | 2026-07-05 | 1.0 | §11: mandatory top-level `narrative_ru` (3–6 Russian sentences for a lay reader, synthesis-document tone rules) in every ruling file. Rationale: pre-freeze user amendments. | user |
 | 2026-07-05 | 1.0-frozen | Charter approved and frozen with the four amendments above | user |
+| 2026-07-05 | 1.1-frozen | §11: fourth downstream category — `out-of-scope` rulings reported as «условная посылка / conditional premise», neither vindicated nor discrepancy nor open residue; synthesis and report present them as claims resting entirely on hermeneutic premises historiography does not evaluate. Rationale: post-calibration user decisions; does not invalidate D01. | user |
+| 2026-07-05 | 1.1-frozen | §3: tie-break at the claim minimum — `failing_component_kind` takes fixed priority fact > frame > motive; ties additionally recorded in optional `tied_kinds`. D01's recorded choices already conform. Rationale: post-calibration user decisions. | user |
+| 2026-07-05 | 1.1-frozen | §11 synthesis notes: chain-inherited failures distinguished from independent evidential failure points, both numbers reported (D01: 12 rulings / 4 independent points), inherited count never headlined alone; period-standard `improbable` claims tagged `period_standard: true` in synthesis aggregation. Rationale: post-calibration user decisions. | user |
+| 2026-07-05 | 1.1-frozen | §11 schema: per-claim array key fixed as `rulings`; `narrative_ru` 3–6 sentences becomes a hard validator limit (failure, not warning), D01 grandfathered. Rationale: post-calibration user decisions. | user |
