@@ -1,0 +1,949 @@
+{
+  "chapter": 33,
+  "chapter_title": "The First Great Deception",
+  "stage": "extraction",
+  "notes": "Chapter is dominated by theological/doctrinal argument (conditionalism vs. natural immortality) built on dense stacking of Bible quotations. Extraction captures: (1) the Eden narrative claims as theological/supernatural (needs_verification false), (2) every distinct Scripture quotation as attributed_quote (needs_verification true, checkable against the cited primary text), (3) a handful of genuine historical-kernel claims: the Universalist funeral anecdote (¶18), Hezekiah's 15-year life extension (¶44), Peter's Pentecost sermon (¶45), Tyndale's and Adam Clarke's quoted statements (¶¶47-48), and the causal-historical claim that the immortal-soul doctrine and eternal-torment doctrine were transmitted to Christendom via Rome/paganism (¶¶16, 54). Two anonymous quotations (¶12 \"a learned doctor of divinity\" / \"another\", ¶49 \"a leading religious writer\") are flagged with extractor_note for weak attribution. Paragraph 27 is a one-sentence transition with no new checkable content.",
+  "claims": [
+    {
+      "id": "GC-33-001",
+      "paragraph": 1,
+      "quote": "With the earliest history of man, Satan began his efforts to deceive our race.",
+      "claim_text": "Satan began his efforts to deceive the human race from the earliest history of man.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-002",
+      "paragraph": 1,
+      "quote": "He who had incited rebellion in heaven, desired to bring the inhabitants of the earth to unite with him in his warfare against the government of God.",
+      "claim_text": "Satan, having incited rebellion in heaven, desired to bring the inhabitants of the earth to unite with him in his warfare against the government of God.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-003",
+      "paragraph": 1,
+      "quote": "Adam and Eve had been perfectly happy in obedience to the law of God, and this fact was a constant testimony against the claim which Satan had urged in heaven, that God’s law was oppressive, and opposed to the good of His creatures.",
+      "claim_text": "Adam and Eve were perfectly happy while obedient to the law of God in Eden, refuting Satan's claim in heaven that God's law was oppressive.",
+      "claim_type": "theological",
+      "entities": ["Adam", "Eve", "Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-004",
+      "paragraph": 1,
+      "quote": "He determined to cause their fall, that, having separated them from God and brought them under his own power, he might gain possession of the earth, and here establish his kingdom, in opposition to the Most High.",
+      "claim_text": "Satan determined to cause the fall of Adam and Eve so as to separate them from God, gain possession of the earth, and establish his own kingdom there.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Adam", "Eve"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-005",
+      "paragraph": 2,
+      "quote": "Had Satan revealed himself in his real character, he would have been repulsed at once, for Adam and Eve had been warned against this dangerous foe; but he worked in the dark, concealing his purpose, that he might more effectually accomplish his object.",
+      "claim_text": "Adam and Eve had been warned in advance against Satan as a dangerous foe, so Satan concealed his purpose and worked in the dark rather than revealing himself.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Adam", "Eve"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-006",
+      "paragraph": 2,
+      "quote": "Employing as his medium the serpent, then a creature of fascinating appearance, he addressed himself to Eve",
+      "claim_text": "Satan employed the serpent, at that time a creature of fascinating appearance, as his medium to address Eve.",
+      "claim_type": "theological",
+      "entities": ["Satan", "serpent", "Eve"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-007",
+      "paragraph": 2,
+      "quote": "“Hath God said, Ye shall not eat of every tree of the garden?”",
+      "claim_text": "The serpent said to Eve, \"Hath God said, Ye shall not eat of every tree of the garden?\" (Genesis 3:1).",
+      "claim_type": "attributed_quote",
+      "entities": ["serpent", "Eve", "Genesis 3:1"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-008",
+      "paragraph": 2,
+      "quote": "Had Eve refrained from entering into argument with the tempter, she would have been safe; but she ventured to parley with him, and fell a victim to his wiles.",
+      "claim_text": "Eve entered into argument with the serpent instead of refraining, and thereby fell victim to his wiles.",
+      "claim_type": "theological",
+      "entities": ["Eve", "serpent"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-009",
+      "paragraph": 3,
+      "quote": "“The woman said unto the serpent, We may eat of the fruit of the trees of the garden: but of the fruit of the tree which is in the midst of the garden, God hath said, Ye shall not eat of it, neither shall ye touch it, lest ye die. And the serpent said unto the woman, Ye shall not surely die: for God doth know that in the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil.”",
+      "claim_text": "According to Genesis 3:2-5, the woman told the serpent that God said not to eat or touch the fruit of the tree in the midst of the garden lest they die, and the serpent replied that they would not surely die, and that their eyes would be opened and they would be as gods, knowing good and evil.",
+      "claim_type": "attributed_quote",
+      "entities": ["Eve", "serpent", "Genesis 3:2-5"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-010",
+      "paragraph": 3,
+      "quote": "He declared that they would become like God, possessing greater wisdom than before, and being capable of a higher state of existence.",
+      "claim_text": "The serpent declared to Eve that she and Adam would become like God, possessing greater wisdom and a higher state of existence.",
+      "claim_type": "theological",
+      "entities": ["serpent", "Eve", "Adam"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-011",
+      "paragraph": 3,
+      "quote": "Eve yielded to temptation; and through her influence, Adam was led into sin.",
+      "claim_text": "Eve yielded to the serpent's temptation, and through her influence Adam was led into sin.",
+      "claim_type": "theological",
+      "entities": ["Eve", "Adam"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-012",
+      "paragraph": 4,
+      "quote": "“In the day that thou eatest thereof thou shalt surely die”",
+      "claim_text": "God told Adam, \"In the day that thou eatest thereof thou shalt surely die\" (Genesis 2:17).",
+      "claim_type": "attributed_quote",
+      "entities": ["God", "Adam", "Genesis 2:17"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-013",
+      "paragraph": 4,
+      "quote": "“Dust thou art, and unto dust shalt thou return.”",
+      "claim_text": "God declared to Adam, as the penalty for his sin, \"Dust thou art, and unto dust shalt thou return\" (Genesis 3:19).",
+      "claim_type": "attributed_quote",
+      "entities": ["God", "Adam", "Genesis 3:19"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-014",
+      "paragraph": 4,
+      "quote": "After Adam and Eve had disobeyed God, their eyes were opened to discern their folly; they did know evil, and they tasted the bitter fruit of transgression.",
+      "claim_text": "After Adam and Eve disobeyed God, their eyes were opened to discern their folly, and they experienced the bitter results of transgression.",
+      "claim_type": "theological",
+      "entities": ["Adam", "Eve"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-015",
+      "paragraph": 5,
+      "quote": "In the midst of Eden grew the tree of life, whose fruit had the power of perpetuating life.",
+      "claim_text": "The tree of life grew in the midst of Eden, and its fruit had the power of perpetuating life.",
+      "claim_type": "theological",
+      "entities": ["Eden", "tree of life"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-016",
+      "paragraph": 5,
+      "quote": "But when he sinned, he was cut off from partaking of the tree of life, and he became subject to death.",
+      "claim_text": "When Adam sinned, he was cut off from partaking of the tree of life and became subject to death.",
+      "claim_type": "theological",
+      "entities": ["Adam", "tree of life"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-017",
+      "paragraph": 6,
+      "quote": "“death passed upon all men, for that all have sinned,”",
+      "claim_text": "Death passed upon all men because all have sinned (Romans 5:12).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul", "Romans 5:12"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-018",
+      "paragraph": 6,
+      "quote": "Christ “hath brought life and immortality to light through the gospel.”",
+      "claim_text": "Christ \"hath brought life and immortality to light through the gospel\" (2 Timothy 1:10).",
+      "claim_type": "attributed_quote",
+      "entities": ["Christ", "2 Timothy 1:10"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-019",
+      "paragraph": 6,
+      "quote": "Said Jesus, “He that believeth on the Son hath everlasting life: and he that believeth not the Son shall not see life.”",
+      "claim_text": "Jesus said, \"He that believeth on the Son hath everlasting life: and he that believeth not the Son shall not see life\" (John 3:36).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus", "John 3:36"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-020",
+      "paragraph": 6,
+      "quote": "All “who by patient continuance in well doing seek for glory and honor and immortality,” will receive “eternal life.”",
+      "claim_text": "Scripture states that all \"who by patient continuance in well doing seek for glory and honor and immortality\" will receive \"eternal life\" (Romans 2:7).",
+      "claim_type": "attributed_quote",
+      "entities": ["Romans 2:7"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-021",
+      "paragraph": 7,
+      "quote": "And the declaration of the serpent to Eve in Eden,—“Ye shall not surely die,”—was the first sermon ever preached upon the immortality of the soul.",
+      "claim_text": "The serpent's declaration to Eve, \"Ye shall not surely die,\" is characterized as the first sermon ever preached upon the immortality of the soul.",
+      "claim_type": "interpretive",
+      "entities": ["serpent", "Eve"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-022",
+      "paragraph": 7,
+      "quote": "The divine sentence, “The soul that sinneth, it shall die,”",
+      "claim_text": "The divine sentence states, \"The soul that sinneth, it shall die\" (Ezekiel 18:20).",
+      "claim_type": "attributed_quote",
+      "entities": ["Ezekiel 18:20"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-023",
+      "paragraph": 8,
+      "quote": "But cherubim and a flaming sword kept “the way of the tree of life,”",
+      "claim_text": "Cherubim and a flaming sword kept \"the way of the tree of life\" after the fall (Genesis 3:24).",
+      "claim_type": "attributed_quote",
+      "entities": ["cherubim", "Genesis 3:24"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-024",
+      "paragraph": 8,
+      "quote": "not one of the family of Adam has been permitted to pass that barrier and partake of the life-giving fruit. Therefore there is not an immortal sinner.",
+      "claim_text": "No member of Adam's family has been permitted to pass the cherubim's barrier and partake of the tree of life; therefore there is no immortal sinner.",
+      "claim_type": "theological",
+      "entities": ["Adam"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-025",
+      "paragraph": 9,
+      "quote": "But after the fall, Satan bade his angels make a special effort to inculcate the belief in man’s natural immortality; and having induced the people to receive this error, they were to lead them on to conclude that the sinner would live in eternal misery.",
+      "claim_text": "After the fall, Satan directed his angels to inculcate belief in man's natural immortality and then lead people to conclude that sinners would live in eternal misery.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-026",
+      "paragraph": 10,
+      "quote": "Thus the arch-fiend clothes with his own attributes the Creator and Benefactor of mankind. Cruelty is satanic. God is love; and all that He created was pure, holy, and lovely, until sin was brought in by the first great rebel.",
+      "claim_text": "Satan clothes God with his own attributes of cruelty, whereas God is love and everything He created was pure, holy, and lovely until sin was introduced by Satan.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-027",
+      "paragraph": 11,
+      "quote": "Satan is seeking to overcome men to-day, as he overcame our first parents, by shaking their confidence in their Creator, and leading them to doubt the wisdom of His government and the justice of His laws.",
+      "claim_text": "Satan seeks to overcome people today, as he overcame Adam and Eve, by shaking their confidence in God and leading them to doubt the wisdom of His government and the justice of His laws.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Adam", "Eve"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-028",
+      "paragraph": 12,
+      "quote": "Said a learned doctor of divinity: “The sight of hell-torments will exalt the happiness of the saints forever. When they see others who are of the same nature and born under the same circumstances, plunged in such misery, and they so distinguished, it will make them sensible of how happy they are.”",
+      "claim_text": "An unnamed \"learned doctor of divinity\" is quoted as saying that the sight of hell-torments will exalt the happiness of the saints forever, making them sensible of how happy they are by contrast with others of the same nature plunged in misery.",
+      "claim_type": "attributed_quote",
+      "entities": ["unnamed doctor of divinity"],
+      "needs_verification": true,
+      "extractor_note": "Attribution is anonymous (\"a learned doctor of divinity\"), not a named individual; verification would need to trace the original sermon/text this is drawn from."
+    },
+    {
+      "id": "GC-33-029",
+      "paragraph": 12,
+      "quote": "Another used these words: “While the decree of reprobation is eternally executing on the vessels of wrath, the smoke of their torment will be eternally ascending in view of the vessels of mercy, who, instead of taking the part of these miserable objects, will say, Amen, Alleluia! praise ye the Lord!”",
+      "claim_text": "An unnamed second author/preacher is quoted as saying that while the decree of reprobation is eternally executing on the vessels of wrath, the smoke of their torment will eternally ascend in view of the vessels of mercy, who will respond \"Amen, Alleluia! praise ye the Lord!\"",
+      "claim_type": "attributed_quote",
+      "entities": ["unnamed author"],
+      "needs_verification": true,
+      "extractor_note": "Attribution is anonymous (\"another\"); verification would need to trace the original source."
+    },
+    {
+      "id": "GC-33-030",
+      "paragraph": 12,
+      "quote": "Yet this doctrine has been widely taught, and is still embodied in many of the creeds of Christendom.",
+      "claim_text": "The doctrine that the wicked dead are tormented eternally with fire and brimstone has been widely taught and is embodied in many creeds of Christendom.",
+      "claim_type": "causal",
+      "entities": ["Christendom"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-031",
+      "paragraph": 13,
+      "quote": "“As I live, saith the Lord God, I have no pleasure in the death of the wicked; but that the wicked turn from his way and live: turn ye, turn ye from your evil ways; for why will ye die?”",
+      "claim_text": "Scripture attributes to the Lord God the statement, \"As I live, saith the Lord God, I have no pleasure in the death of the wicked; but that the wicked turn from his way and live: turn ye, turn ye from your evil ways; for why will ye die?\" (Ezekiel 33:11).",
+      "claim_type": "attributed_quote",
+      "entities": ["Ezekiel 33:11"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-032",
+      "paragraph": 14,
+      "quote": "It is urged that the infliction of endless misery upon the wicked would show God’s hatred of sin as an evil which is ruinous to the peace and order of the universe.",
+      "claim_text": "Some argue that the infliction of endless misery upon the wicked would demonstrate God's hatred of sin as ruinous to the peace and order of the universe.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-033",
+      "paragraph": 15,
+      "quote": "The appalling views of God which have spread over the world from the teachings of the pulpit have made thousands, yes, millions, of skeptics and infidels.",
+      "claim_text": "The teachings of the pulpit regarding eternal torment have made thousands, even millions, of people skeptics and infidels.",
+      "claim_type": "statistic",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-034",
+      "paragraph": 16,
+      "quote": "They received it from Rome, as they received the false sabbath.",
+      "claim_text": "Christian ministers received the doctrine of eternal torment from Rome, in the same way they received the observance of Sunday (\"the false sabbath\").",
+      "claim_type": "causal",
+      "entities": ["Rome"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-035",
+      "paragraph": 17,
+      "quote": "But holding that the soul is naturally immortal, they see no alternative but to conclude that all mankind will finally be saved.",
+      "claim_text": "Those who reject the doctrine of eternal torment but hold that the soul is naturally immortal conclude that all mankind will finally be saved.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-036",
+      "paragraph": 18,
+      "quote": "At the funeral of an irreligious young man, who had been killed instantly by an accident, a Universalist minister selected as his text the Scripture statement concerning David, “He was comforted concerning Amnon, seeing he was dead.”",
+      "claim_text": "At the funeral of an irreligious young man who had been killed instantly by an accident, a Universalist minister selected as his sermon text the scriptural statement concerning David, \"He was comforted concerning Amnon, seeing he was dead\" (2 Samuel 13:39).",
+      "claim_type": "event",
+      "entities": ["Universalist minister", "David", "Amnon", "2 Samuel 13:39"],
+      "needs_verification": true,
+      "extractor_note": "The minister and the deceased young man are unnamed and the anecdote is undated; historical verifiability is limited to confirming whether such a sermon/account was published and attributable."
+    },
+    {
+      "id": "GC-33-037",
+      "paragraph": 19,
+      "quote": "“I am frequently asked,” said the speaker, “what will be the fate of those who leave the world in sin, die, perhaps, in a state of inebriation, die with the scarlet stains of crime unwashed from their robes, or die as this young man died, having never made a profession or enjoyed an experience of religion. We are content with the Scriptures; their answer shall solve the awful problem. Amnon was exceedingly sinful; he was unrepentant, he was made drunk, and while drunk was killed. David was a prophet of God; he must have known whether it would be ill or well for Amnon in the world to come. What were the expressions of his heart? ‘The soul of King David longed to go forth unto Absalom: for he was comforted concerning Amnon, seeing he was dead.’",
+      "claim_text": "The Universalist minister is quoted arguing from David's reaction to Amnon's death (2 Samuel 13:39) that this shows David, as a prophet of God, believed it would be well with Amnon in the world to come.",
+      "claim_type": "attributed_quote",
+      "entities": ["Universalist minister", "David", "Amnon", "Absalom"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-038",
+      "paragraph": 20,
+      "quote": "“And what is the inference to be deduced from this language? Is it not that endless suffering formed no part of his religious belief? So we conceive; and here we discover a triumphant argument in support of the more pleasing, more enlightened, more benevolent hypothesis of ultimate universal purity and peace. He was comforted, seeing his son was dead. And why so? Because by the eye of prophecy he could look forward into the glorious future, and see that son far removed from all temptations, released from the bondage and purified from the corruptions of sin, and after being made sufficiently holy and enlightened, admitted to the assembly of ascended and rejoicing spirits. His only comfort was, that in being removed from the present state of sin and suffering, his beloved son had gone where the loftiest breathings of the Holy Spirit would be shed upon his darkened soul; where his mind would be unfolded to the wisdom of heaven and the sweet raptures of immortal love, and thus prepared with a sanctified nature to enjoy the rest and society of the heavenly inheritance.",
+      "claim_text": "The Universalist minister is quoted concluding that David's comfort over Amnon's death shows Amnon was purified after death and admitted to the assembly of ascended and rejoicing spirits, in support of the doctrine of ultimate universal salvation.",
+      "claim_type": "attributed_quote",
+      "entities": ["Universalist minister", "David", "Amnon"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-039",
+      "paragraph": 21,
+      "quote": "“In these thoughts we would be understood to believe that the salvation of heaven depends upon nothing which we can do in this life; neither upon a present change of heart, nor upon present belief, or a present profession of religion.”",
+      "claim_text": "The Universalist minister is quoted stating that the salvation of heaven depends on nothing done in this life, neither a present change of heart, present belief, nor a present profession of religion.",
+      "claim_type": "attributed_quote",
+      "entities": ["Universalist minister"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-040",
+      "paragraph": 22,
+      "quote": "He declares that the vilest of sinners,—the murderer, the thief, and the adulterer,—will after death be prepared to enter into immortal bliss.",
+      "claim_text": "The Universalist minister's teaching is characterized as declaring that the vilest of sinners, including murderers, thieves, and adulterers, will after death be prepared to enter into immortal bliss.",
+      "claim_type": "interpretive",
+      "entities": ["Universalist minister"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-041",
+      "paragraph": 23,
+      "quote": "The poignancy of his grief having been softened by time, his thoughts turned from the dead to the living son, self-banished through fear of the just punishment of his crime.",
+      "claim_text": "According to the biblical narrative, David's grief over Amnon's death softened over time and his thoughts turned to his living son Absalom, who had banished himself out of fear of just punishment for killing Amnon.",
+      "claim_type": "event",
+      "entities": ["David", "Absalom", "Amnon"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-042",
+      "paragraph": 24,
+      "quote": "The testimony cited as evidence that the drunken Amnon is in heaven, is a mere inference, directly contradicted by the plain and positive statement of the Scriptures, that no drunkard shall inherit the kingdom of God.",
+      "claim_text": "The claim that the drunken Amnon is in heaven, inferred from David's words about being comforted, is contradicted by the scriptural statement that no drunkard shall inherit the kingdom of God (referencing 1 Corinthians 6:10).",
+      "claim_type": "attributed_quote",
+      "entities": ["Amnon", "1 Corinthians 6:10"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-043",
+      "paragraph": 25,
+      "quote": "Many have been led by this belief to put an end to their existence.",
+      "claim_text": "The belief that souls of all men pass directly to heaven at death has led many people to end their own lives.",
+      "claim_type": "causal",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-044",
+      "paragraph": 26,
+      "quote": "The death of the spotless Son of God testifies that “the wages of sin is death,” that every violation of God’s law must receive its just retribution.",
+      "claim_text": "Scripture states \"the wages of sin is death\" (Romans 6:23), and the death of Christ testifies that every violation of God's law must receive its just retribution.",
+      "claim_type": "attributed_quote",
+      "entities": ["Romans 6:23", "Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-045",
+      "paragraph": 26,
+      "quote": "Christ the sinless became sin for man. He bore the guilt of transgression, and the hiding of His Father’s face, until His heart was broken and His life crushed out.",
+      "claim_text": "Christ, being sinless, became sin for humanity, bearing the guilt of transgression and the hiding of His Father's face until His heart was broken and His life crushed out.",
+      "claim_type": "theological",
+      "entities": ["Christ"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-046",
+      "paragraph": 28,
+      "quote": "“I will give unto him that is athirst of the fountain of the water of life freely.”",
+      "claim_text": "Scripture states, \"I will give unto him that is athirst of the fountain of the water of life freely\" (Revelation 21:6).",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation 21:6"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-047",
+      "paragraph": 28,
+      "quote": "“He that overcometh shall inherit all things; and I will be his God, and he shall be My son.”",
+      "claim_text": "Scripture states, \"He that overcometh shall inherit all things; and I will be his God, and he shall be My son\" (Revelation 21:7).",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation 21:7"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-048",
+      "paragraph": 29,
+      "quote": "“Say ye to the righteous, that it shall be well with him.”",
+      "claim_text": "The prophet Isaiah declares, \"Say ye to the righteous, that it shall be well with him\" (Isaiah 3:10).",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah", "Isaiah 3:10"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-049",
+      "paragraph": 29,
+      "quote": "“Woe unto the wicked! it shall be ill with him: for the reward of his hands shall be given him.”",
+      "claim_text": "The prophet Isaiah declares, \"Woe unto the wicked! it shall be ill with him: for the reward of his hands shall be given him\" (Isaiah 3:11).",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah", "Isaiah 3:11"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-050",
+      "paragraph": 29,
+      "quote": "“Though a sinner do evil a hundred times,” says the wise man, “and his days be prolonged, yet surely I know that it shall be well with them that fear God, which fear before Him: but it shall not be well with the wicked.”",
+      "claim_text": "\"The wise man\" [Solomon] states, \"Though a sinner do evil a hundred times, and his days be prolonged, yet surely I know that it shall be well with them that fear God, which fear before Him: but it shall not be well with the wicked\" (Ecclesiastes 8:12-13).",
+      "claim_type": "attributed_quote",
+      "entities": ["Solomon", "Ecclesiastes 8:12-13"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-051",
+      "paragraph": 29,
+      "quote": "And Paul testifies that the sinner is treasuring up unto himself “wrath against the day of wrath and revelation of the righteous judgment of God, who will render to every man according to his deeds;” “tribulation and anguish upon every soul of man that doeth evil.”",
+      "claim_text": "Paul states that the sinner treasures up unto himself \"wrath against the day of wrath and revelation of the righteous judgment of God, who will render to every man according to his deeds\" and \"tribulation and anguish upon every soul of man that doeth evil\" (Romans 2:5-9).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul", "Romans 2:5-9"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-052",
+      "paragraph": 30,
+      "quote": "“No fornicator, nor unclean person, nor covetous man, who is an idolater, hath any inheritance in the kingdom of Christ and God.”",
+      "claim_text": "Scripture states, \"No fornicator, nor unclean person, nor covetous man, who is an idolater, hath any inheritance in the kingdom of Christ and God\" (Ephesians 5:5).",
+      "claim_type": "attributed_quote",
+      "entities": ["Ephesians 5:5"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-053",
+      "paragraph": 30,
+      "quote": "“Follow peace with all men, and holiness, without which no man shall see the Lord.”",
+      "claim_text": "Scripture states, \"Follow peace with all men, and holiness, without which no man shall see the Lord\" (Hebrews 12:14).",
+      "claim_type": "attributed_quote",
+      "entities": ["Hebrews 12:14"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-054",
+      "paragraph": 30,
+      "quote": "“Blessed are they that do His commandments, that they may have right to the tree of life, and may enter in through the gates into the city. For without are dogs, and sorcerers, and whoremongers, and murderers, and idolaters, and whosoever loveth and maketh a lie.”",
+      "claim_text": "Scripture states, \"Blessed are they that do His commandments, that they may have right to the tree of life, and may enter in through the gates into the city. For without are dogs, and sorcerers, and whoremongers, and murderers, and idolaters, and whosoever loveth and maketh a lie\" (Revelation 22:14-15).",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation 22:14-15"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-055",
+      "paragraph": 31,
+      "quote": "“The Lord God, merciful and gracious, long-suffering, and abundant in goodness and truth, keeping mercy for thousands, forgiving iniquity and transgression and sin, and that will by no means clear the guilty.”",
+      "claim_text": "Scripture describes God's character: \"The Lord God, merciful and gracious, long-suffering, and abundant in goodness and truth, keeping mercy for thousands, forgiving iniquity and transgression and sin, and that will by no means clear the guilty\" (Exodus 34:6-7).",
+      "claim_type": "attributed_quote",
+      "entities": ["Exodus 34:6-7"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-056",
+      "paragraph": 31,
+      "quote": "“All the wicked will He destroy.” “The transgressors shall be destroyed together: the end of the wicked shall be cut off.”",
+      "claim_text": "Scripture states, \"All the wicked will He destroy\" (Psalm 145:20) and \"The transgressors shall be destroyed together: the end of the wicked shall be cut off\" (Psalm 37:38).",
+      "claim_type": "attributed_quote",
+      "entities": ["Psalm 145:20", "Psalm 37:38"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-057",
+      "paragraph": 32,
+      "quote": "God does not force the will or judgment of any. He takes no pleasure in a slavish obedience.",
+      "claim_text": "God does not force the will or judgment of anyone and takes no pleasure in slavish obedience, desiring instead that His creatures love and obey Him from intelligent appreciation of His wisdom, justice, and benevolence.",
+      "claim_type": "theological",
+      "entities": ["God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-058",
+      "paragraph": 33,
+      "quote": "Christ declared that He taught nothing except that which He had received from His Father.",
+      "claim_text": "Christ declared that He taught nothing except what He had received from His Father.",
+      "claim_type": "attributed_quote",
+      "entities": ["Christ", "God"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-059",
+      "paragraph": 33,
+      "quote": "the Saviour’s precept, “Love your enemies.”",
+      "claim_text": "Jesus taught the precept, \"Love your enemies\" (Matthew 5:44).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus", "Matthew 5:44"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-060",
+      "paragraph": 34,
+      "quote": "Those who have chosen Satan as their leader, and have been controlled by his power, are not prepared to enter the presence of God. Pride, deception, licentiousness, cruelty, have become fixed in their characters.",
+      "claim_text": "Those who have chosen Satan as their leader and have been controlled by his power are not prepared to enter the presence of God, since pride, deception, licentiousness, and cruelty have become fixed in their characters.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-061",
+      "paragraph": 35,
+      "quote": "The destiny of the wicked is fixed by their own choice. Their exclusion from heaven is voluntary with themselves, and just and merciful on the part of God.",
+      "claim_text": "The destiny of the wicked is fixed by their own choice, and their exclusion from heaven is voluntary on their part, yet just and merciful on the part of God.",
+      "claim_type": "theological",
+      "entities": ["God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-062",
+      "paragraph": 36,
+      "quote": "Like the waters of the flood, the fires of the great day declare God’s verdict that the wicked are incurable.",
+      "claim_text": "Like the waters of the flood, the fires of the final judgment day will declare God's verdict that the wicked are incurable.",
+      "claim_type": "theological",
+      "entities": ["God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-063",
+      "paragraph": 37,
+      "quote": "In sparing the life of Cain the murderer, God gave the world an example of what would be the result of permitting the sinner to live, to continue a course of unbridled iniquity. Through the influence of Cain’s teaching and example, multitudes of his descendants were led into sin, until “the wickedness of man was great in the earth,” and “every imagination of the thoughts of his heart was only evil continually.”",
+      "claim_text": "By sparing the life of Cain the murderer, God provided an example of the result of permitting a sinner to continue in unbridled iniquity, and through Cain's teaching and example multitudes of his descendants were led into sin, until \"the wickedness of man was great in the earth\" and \"every imagination of the thoughts of his heart was only evil continually\" (Genesis 6:5).",
+      "claim_type": "theological",
+      "entities": ["Cain", "Genesis 6:5"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-064",
+      "paragraph": 37,
+      "quote": "“the wickedness of man was great in the earth,” and “every imagination of the thoughts of his heart was only evil continually.”",
+      "claim_text": "Scripture states, \"the wickedness of man was great in the earth,\" and \"every imagination of the thoughts of his heart was only evil continually\" (Genesis 6:5).",
+      "claim_type": "attributed_quote",
+      "entities": ["Genesis 6:5"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-065",
+      "paragraph": 37,
+      "quote": "“The earth also was corrupt before God, and the earth was filled with violence.”",
+      "claim_text": "Scripture states, \"The earth also was corrupt before God, and the earth was filled with violence\" (Genesis 6:11).",
+      "claim_type": "attributed_quote",
+      "entities": ["Genesis 6:11"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-066",
+      "paragraph": 38,
+      "quote": "In mercy to the world, God blotted out its wicked inhabitants in Noah’s time. In mercy, He destroyed the corrupt dwellers in Sodom.",
+      "claim_text": "In mercy to the world, God destroyed its wicked inhabitants in the time of Noah, and in mercy He destroyed the corrupt inhabitants of Sodom.",
+      "claim_type": "theological",
+      "entities": ["Noah", "Sodom"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-067",
+      "paragraph": 39,
+      "quote": "“The wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord.”",
+      "claim_text": "Scripture states, \"The wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord\" (Romans 6:23).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul", "Romans 6:23"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-068",
+      "paragraph": 39,
+      "quote": "Moses declared to Israel, “I have set before thee this day life and good, and death and evil.”",
+      "claim_text": "Moses declared to Israel, \"I have set before thee this day life and good, and death and evil\" (Deuteronomy 30:15).",
+      "claim_type": "attributed_quote",
+      "entities": ["Moses", "Israel", "Deuteronomy 30:15"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-069",
+      "paragraph": 40,
+      "quote": "“There shall be a resurrection of the dead, both of the just and unjust;”",
+      "claim_text": "Scripture states, \"There shall be a resurrection of the dead, both of the just and unjust\" (Acts 24:15).",
+      "claim_type": "attributed_quote",
+      "entities": ["Acts 24:15"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-070",
+      "paragraph": 40,
+      "quote": "“for as in Adam all die, even so in Christ shall all be made alive.”",
+      "claim_text": "Scripture states, \"for as in Adam all die, even so in Christ shall all be made alive\" (1 Corinthians 15:22).",
+      "claim_type": "attributed_quote",
+      "entities": ["Adam", "Christ", "1 Corinthians 15:22"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-071",
+      "paragraph": 40,
+      "quote": "“All that are in the graves shall hear His voice, and shall come forth; they that have done good, unto the resurrection of life; and they that have done evil, unto the resurrection of damnation.”",
+      "claim_text": "Jesus is quoted as saying, \"All that are in the graves shall hear His voice, and shall come forth; they that have done good, unto the resurrection of life; and they that have done evil, unto the resurrection of damnation\" (John 5:28-29).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus", "John 5:28-29"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-072",
+      "paragraph": 40,
+      "quote": "They who have been “accounted worthy” of the resurrection of life, are “blessed and holy.” “On such the second death hath no power.”",
+      "claim_text": "Scripture states that those \"accounted worthy\" of the resurrection of life are \"blessed and holy\" (Luke 20:35) and that \"on such the second death hath no power\" (Revelation 20:6).",
+      "claim_type": "attributed_quote",
+      "entities": ["Luke 20:35", "Revelation 20:6"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-073",
+      "paragraph": 40,
+      "quote": "Says an inspired writer, “Yet a little while, and the wicked shall not be: yea, thou shalt diligently consider his place, and it shall not be.”",
+      "claim_text": "An inspired writer states, \"Yet a little while, and the wicked shall not be: yea, thou shalt diligently consider his place, and it shall not be\" (Psalm 37:10).",
+      "claim_type": "attributed_quote",
+      "entities": ["Psalm 37:10"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-074",
+      "paragraph": 40,
+      "quote": "And another declares, “They shall be as though they had not been.”",
+      "claim_text": "Scripture states, \"They shall be as though they had not been\" (Obadiah 1:16).",
+      "claim_type": "attributed_quote",
+      "entities": ["Obadiah 1:16"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-075",
+      "paragraph": 41,
+      "quote": "Says the psalmist: “Thou hast destroyed the wicked, Thou hast put out their name forever and ever. O thou enemy, destructions are come to a perpetual end.”",
+      "claim_text": "The psalmist states, \"Thou hast destroyed the wicked, Thou hast put out their name forever and ever. O thou enemy, destructions are come to a perpetual end\" (Psalm 9:5-6).",
+      "claim_type": "attributed_quote",
+      "entities": ["Psalm 9:5-6"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-076",
+      "paragraph": 41,
+      "quote": "John, in the Revelation, looking forward to the eternal state, hears a universal anthem of praise, undisturbed by one note of discord. Every creature in heaven and earth was heard ascribing glory to God.",
+      "claim_text": "John, in the book of Revelation, describes hearing a universal anthem of praise in the eternal state, undisturbed by discord, with every creature in heaven and earth ascribing glory to God (Revelation 5:13).",
+      "claim_type": "attributed_quote",
+      "entities": ["John", "Revelation 5:13"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-077",
+      "paragraph": 42,
+      "quote": "Upon the fundamental error of natural immortality rests the doctrine of consciousness in death,—a doctrine, like eternal torment, opposed to the teachings of the Scriptures, to the dictates of reason, and to our feelings of humanity.",
+      "claim_text": "The doctrine of consciousness in death rests upon the fundamental error of natural immortality and, like eternal torment, is opposed to the teachings of Scripture, reason, and human feeling.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-078",
+      "paragraph": 43,
+      "quote": "David declares that man is not conscious in death. “His breath goeth forth, he returneth to his earth; in that very day his thoughts perish.”",
+      "claim_text": "David declares that man is not conscious in death: \"His breath goeth forth, he returneth to his earth; in that very day his thoughts perish\" (Psalm 146:4).",
+      "claim_type": "attributed_quote",
+      "entities": ["David", "Psalm 146:4"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-079",
+      "paragraph": 43,
+      "quote": "Solomon bears the same testimony: “The living know that they shall die: but the dead know not anything.” “Their love, and their hatred, and their envy, is now perished; neither have they any more a portion forever in anything that is done under the sun.” “There is no work, nor device, nor knowledge, nor wisdom, in the grave, whither thou goest.”",
+      "claim_text": "Solomon states, \"The living know that they shall die: but the dead know not anything,\" \"Their love, and their hatred, and their envy, is now perished; neither have they any more a portion forever in anything that is done under the sun,\" and \"There is no work, nor device, nor knowledge, nor wisdom, in the grave, whither thou goest\" (Ecclesiastes 9:5-6,10).",
+      "claim_type": "attributed_quote",
+      "entities": ["Solomon", "Ecclesiastes 9:5-6", "Ecclesiastes 9:10"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-080",
+      "paragraph": 44,
+      "quote": "When, in answer to his prayer, Hezekiah’s life was prolonged fifteen years, the grateful king rendered to God a tribute of praise for His great mercy.",
+      "claim_text": "In answer to his prayer, King Hezekiah's life was prolonged fifteen years, after which he rendered a tribute of praise to God.",
+      "claim_type": "event",
+      "entities": ["Hezekiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-081",
+      "paragraph": 44,
+      "quote": "“The grave cannot praise Thee, death cannot celebrate Thee: they that go down into the pit cannot hope for Thy truth. The living, the living, he shall praise Thee, as I do this day.”",
+      "claim_text": "Hezekiah's song of praise states, \"The grave cannot praise Thee, death cannot celebrate Thee: they that go down into the pit cannot hope for Thy truth. The living, the living, he shall praise Thee, as I do this day\" (Isaiah 38:18-19).",
+      "claim_type": "attributed_quote",
+      "entities": ["Hezekiah", "Isaiah 38:18-19"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-082",
+      "paragraph": 44,
+      "quote": "the testimony of the psalmist: “In death there is no remembrance of Thee: in the grave who shall give Thee thanks?”",
+      "claim_text": "The psalmist states, \"In death there is no remembrance of Thee: in the grave who shall give Thee thanks?\" (Psalm 6:5).",
+      "claim_type": "attributed_quote",
+      "entities": ["Psalm 6:5"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-083",
+      "paragraph": 44,
+      "quote": "“The dead praise not the Lord, neither any that go down into silence.”",
+      "claim_text": "Scripture states, \"The dead praise not the Lord, neither any that go down into silence\" (Psalm 115:17).",
+      "claim_type": "attributed_quote",
+      "entities": ["Psalm 115:17"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-084",
+      "paragraph": 45,
+      "quote": "Peter, on the day of Pentecost, declared that the patriarch David “is both dead and buried, and his sepulcher is with us unto this day.”",
+      "claim_text": "Peter, on the day of Pentecost, declared that the patriarch David \"is both dead and buried, and his sepulcher is with us unto this day\" (Acts 2:29).",
+      "claim_type": "attributed_quote",
+      "entities": ["Peter", "David", "Pentecost", "Acts 2:29"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-085",
+      "paragraph": 45,
+      "quote": "“For David is not ascended into the heavens.”",
+      "claim_text": "Peter is quoted as saying, \"For David is not ascended into the heavens\" (Acts 2:34).",
+      "claim_type": "attributed_quote",
+      "entities": ["Peter", "David", "Acts 2:34"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-086",
+      "paragraph": 45,
+      "quote": "The fact that David remains in the grave until the resurrection, proves that the righteous do not go to heaven at death. It is only through the resurrection, and by virtue of the fact that Christ has risen, that David can at last sit at the right hand of God.",
+      "claim_text": "The fact that David remains in the grave until the resurrection proves that the righteous do not go to heaven at death, and only through the resurrection, made possible by Christ's own resurrection, can David eventually sit at the right hand of God.",
+      "claim_type": "theological",
+      "entities": ["David", "Christ"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-087",
+      "paragraph": 46,
+      "quote": "“If the dead rise not, then is not Christ raised: and if Christ be not raised, your faith is vain; ye are yet in your sins. Then they also which are fallen asleep in Christ are perished.”",
+      "claim_text": "Paul states, \"If the dead rise not, then is not Christ raised: and if Christ be not raised, your faith is vain; ye are yet in your sins. Then they also which are fallen asleep in Christ are perished\" (1 Corinthians 15:16-18).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul", "1 Corinthians 15:16-18"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-088",
+      "paragraph": 47,
+      "quote": "The martyr Tyndale, referring to the state of the dead, declared: “I confess openly, that I am not persuaded that they be already in the full glory that Christ is in, or the elect angels of God are in. Neither is it any article of my faith; for if it were so, I see not but then the preaching of the resurrection of the flesh were a thing in vain.”",
+      "claim_text": "William Tyndale, identified as a martyr, wrote regarding the state of the dead: \"I confess openly, that I am not persuaded that they be already in the full glory that Christ is in, or the elect angels of God are in. Neither is it any article of my faith; for if it were so, I see not but then the preaching of the resurrection of the flesh were a thing in vain.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["William Tyndale"],
+      "needs_verification": true,
+      "extractor_note": "The text identifies Tyndale as \"the martyr,\" which is itself a checkable biographical claim about his death, bundled here with the quotation."
+    },
+    {
+      "id": "GC-33-089",
+      "paragraph": 48,
+      "quote": "This tendency was remarked by Dr. Adam Clarke, who said: “The doctrine of the resurrection appears to have been thought of much more consequence among the primitive Christians than it is _now!_ How is this? The apostles were continually insisting on it, and exciting the followers of God to diligence, obedience, and cheerfulness through it. And their successors in the present day seldom mention it! So apostles preached, and so primitive Christians believed; so we preach, and so our hearers believe. There is not a doctrine in the gospel on which more stress is laid; and there is not a doctrine in the present system of preaching which is treated with more neglect!”",
+      "claim_text": "Dr. Adam Clarke is quoted stating that the doctrine of the resurrection was thought of much more consequence among primitive Christians than in his own day, and that no gospel doctrine received more emphasis from the apostles yet was more neglected in contemporary preaching.",
+      "claim_type": "attributed_quote",
+      "entities": ["Adam Clarke"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-090",
+      "paragraph": 49,
+      "quote": "Thus a leading religious writer, commenting on the words of Paul in 1 Thess. 4:13-18, says: “For all practical purposes of comfort the doctrine of the blessed immortality of the righteous takes the place for us of any doubtful doctrine of the Lord’s second coming. At our death the Lord comes for us. That is what we are to wait and watch for. The dead are already passed into glory. They do not wait for the trump for their judgment and blessedness.”",
+      "claim_text": "An unnamed \"leading religious writer,\" commenting on Paul's words in 1 Thessalonians 4:13-18, wrote that for practical purposes the doctrine of the immortality of the righteous replaces the doctrine of the Lord's second coming, since the dead have already passed into glory and do not wait for the trumpet for judgment.",
+      "claim_type": "attributed_quote",
+      "entities": ["unnamed religious writer"],
+      "needs_verification": true,
+      "extractor_note": "Attribution is vague (\"a leading religious writer\"), not a named individual."
+    },
+    {
+      "id": "GC-33-091",
+      "paragraph": 50,
+      "quote": "“I go to prepare a place for you,” He said. “And if I go and prepare a place for you, I will come again, and receive you unto Myself.”",
+      "claim_text": "Jesus told His disciples, \"I go to prepare a place for you...And if I go and prepare a place for you, I will come again, and receive you unto Myself\" (John 14:2-3).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus", "John 14:2-3"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-092",
+      "paragraph": 50,
+      "quote": "the Lord Himself shall descend from heaven with a shout, with the voice of the Archangel, and with the trump of God: and the dead in Christ shall rise first: then we which are alive and remain shall be caught up together with them in the clouds, to meet the Lord in the air: and so shall we ever be with the Lord.” And he adds, “Comfort one another with these words.”",
+      "claim_text": "Paul states that the Lord will descend from heaven with a shout, the voice of the Archangel, and the trump of God, that the dead in Christ will rise first, and that the living will be caught up together with them to meet the Lord in the air, adding \"Comfort one another with these words\" (1 Thessalonians 4:16-18).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul", "1 Thessalonians 4:16-18"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-093",
+      "paragraph": 51,
+      "quote": "Mark the words of Paul: “He hath appointed a day, in the which He will judge the world in righteousness by that Man whom He hath ordained; whereof He hath given assurance unto all men, in that He hath raised Him from the dead.”",
+      "claim_text": "Paul states, \"He hath appointed a day, in the which He will judge the world in righteousness by that Man whom He hath ordained; whereof He hath given assurance unto all men, in that He hath raised Him from the dead\" (Acts 17:31).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul", "Acts 17:31"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-094",
+      "paragraph": 52,
+      "quote": "Jude refers to the same period: “The angels which kept not their first estate, but left their own habitation, He hath reserved in everlasting chains under darkness unto the judgment of the great day.”",
+      "claim_text": "Jude states, \"The angels which kept not their first estate, but left their own habitation, He hath reserved in everlasting chains under darkness unto the judgment of the great day\" (Jude 1:6).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jude", "Jude 1:6"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-095",
+      "paragraph": 52,
+      "quote": "he quotes the words of Enoch: “Behold, the Lord cometh with ten thousands of His saints, to execute judgment upon all.”",
+      "claim_text": "Jude quotes Enoch as saying, \"Behold, the Lord cometh with ten thousands of His saints, to execute judgment upon all\" (Jude 1:14-15).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jude", "Enoch", "Jude 1:14-15"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-096",
+      "paragraph": 52,
+      "quote": "John declares that he “saw the dead, small and great, stand before God; and the books were opened; ... and the dead were judged out of those things which were written in the books.”",
+      "claim_text": "John declares that he \"saw the dead, small and great, stand before God; and the books were opened; ... and the dead were judged out of those things which were written in the books\" (Revelation 20:12).",
+      "claim_type": "attributed_quote",
+      "entities": ["John", "Revelation 20:12"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-097",
+      "paragraph": 53,
+      "quote": "“Well done, thou good and faithful servant, ... _enter thou_ into the joy of thy Lord,”",
+      "claim_text": "Scripture attributes to Jesus the words, \"Well done, thou good and faithful servant, ... enter thou into the joy of thy Lord\" (Matthew 25:21).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus", "Matthew 25:21"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-098",
+      "paragraph": 53,
+      "quote": "“Depart from Me, ye cursed, into everlasting fire”",
+      "claim_text": "Scripture attributes to Jesus the words, \"Depart from Me, ye cursed, into everlasting fire\" (Matthew 25:41).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus", "Matthew 25:41"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-099",
+      "paragraph": 54,
+      "quote": "The theory of the immortality of the soul was one of those false doctrines that Rome, borrowing from paganism, incorporated into the religion of Christendom.",
+      "claim_text": "The doctrine of the natural immortality of the soul was borrowed by Rome from paganism and incorporated into the religion of Christendom.",
+      "claim_type": "causal",
+      "entities": ["Rome", "Christendom"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-100",
+      "paragraph": 54,
+      "quote": "Martin Luther classed it with the “monstrous fables that form part of the Roman dunghill of decretals.”",
+      "claim_text": "Martin Luther classed the doctrine of the soul's immortality with the \"monstrous fables that form part of the Roman dunghill of decretals.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-101",
+      "paragraph": 54,
+      "quote": "Commenting on the words of Solomon in Ecclesiastes, that the dead know not anything, the Reformer says: “Another place proving that the dead have no ... feeling. There is, saith he, no duty, no science, no knowledge, no wisdom there. Solomon judgeth that the dead are asleep, and feel nothing at all. For the dead lie there, accounting neither days nor years, but when they are awaked, they shall seem to have slept scarce one minute.”",
+      "claim_text": "Martin Luther, commenting on Solomon's words in Ecclesiastes that the dead know not anything, wrote: \"Another place proving that the dead have no ... feeling. There is, saith he, no duty, no science, no knowledge, no wisdom there. Solomon judgeth that the dead are asleep, and feel nothing at all. For the dead lie there, accounting neither days nor years, but when they are awaked, they shall seem to have slept scarce one minute.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther", "Solomon", "Ecclesiastes"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-102",
+      "paragraph": 55,
+      "quote": "Nowhere in the Sacred Scriptures is found the statement that the righteous go to their reward or the wicked to their punishment at death. The patriarchs and prophets have left no such assurance. Christ and His apostles have given no hint of it. The Bible clearly teaches that the dead do not go immediately to heaven. They are represented as sleeping until the resurrection.",
+      "claim_text": "The Bible nowhere states that the righteous go to their reward or the wicked to their punishment at death, and instead represents the dead as sleeping until the resurrection.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-33-103",
+      "paragraph": 55,
+      "quote": "“For the trumpet shall sound, and the dead shall be raised incorruptible.... So when this corruptible shall have put on incorruption, and this mortal shall have put on immortality, then shall be brought to pass the saying that is written, Death is swallowed up in victory.”",
+      "claim_text": "Scripture states, \"For the trumpet shall sound, and the dead shall be raised incorruptible.... So when this corruptible shall have put on incorruption, and this mortal shall have put on immortality, then shall be brought to pass the saying that is written, Death is swallowed up in victory\" (1 Corinthians 15:52-54).",
+      "claim_type": "attributed_quote",
+      "entities": ["1 Corinthians 15:52-54"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-33-104",
+      "paragraph": 55,
+      "quote": "the triumphal shout, “O death, where is thy sting? O grave, where is thy victory?”",
+      "claim_text": "Scripture states the triumphal shout, \"O death, where is thy sting? O grave, where is thy victory?\" (1 Corinthians 15:55).",
+      "claim_type": "attributed_quote",
+      "entities": ["1 Corinthians 15:55"],
+      "needs_verification": true
+    }
+  ]
+}
