@@ -1,0 +1,904 @@
+{
+  "chapter": 36,
+  "chapter_title": "The Impending Conflict",
+  "stage": "extraction",
+  "generated_at": "2026-07-05",
+  "notes": "Chapter is predominantly theological/eschatological (Satan's end-time strategy, Spiritualism, predicted persecution of Sabbath-keepers). Checkable content clusters around: (1) attributed biblical quotations (footnotes 1023-1027), (2) circa-1911 sociological/religious characterizations (spread of 'infidelity', decline of biblical authority in seminaries/pulpits, press sensationalizing crime, court corruption, temperance-Sunday-law alliance in the US), (3) a historical causal claim about the French Revolution/atheism, (4) a causal/historical claim about the papal doctrine of natural immortality and Spiritualism, (5) historical claims about Roman Church treatment of dissenters, (6) embedded biblical-narrative claims (Job, Elijah/Ahab) treated as attributed/biographical claims checkable against the cited biblical text. Eschatological predictions about the future (Sunday law enforcement, Spiritualist-Catholic-Protestant union, persecution of Sabbath-keepers) are logged as theological/unverifiable per pipeline rule 5, since they describe events not yet historically settled at time of writing and are supernatural-causal in nature.",
+  "claims": [
+    {
+      "id": "GC-36-001",
+      "paragraph": 1,
+      "quote": "From the very beginning of the great controversy in heaven, it has been Satan’s purpose to overthrow the law of God. It was to accomplish this that he entered upon his rebellion against the Creator;",
+      "claim_text": "From the beginning of the cosmic conflict in heaven, Satan's purpose has been to overthrow the law of God, and this was his motive for rebelling against the Creator.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-002",
+      "paragraph": 1,
+      "quote": "and though he was cast out of heaven, he has continued the same warfare upon the earth.",
+      "claim_text": "After being cast out of heaven, Satan continued the same warfare against God's law on earth.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-003",
+      "paragraph": 1,
+      "quote": "To deceive men, and thus lead them to transgress God’s law, is the object which he has steadfastly pursued.",
+      "claim_text": "Deceiving people so as to lead them to transgress God's law has been Satan's steadfastly pursued objective.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-004",
+      "paragraph": 1,
+      "quote": "He that offends “in one point,” manifests contempt for the whole law; his influence and example are on the side of transgression; he becomes “guilty of all.”(1023)",
+      "claim_text": "The chapter cites a biblical teaching (footnote 1023) that a person who offends in one point of the law manifests contempt for the whole law and becomes guilty of breaking all of it.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "James (epistle)"],
+      "needs_verification": true,
+      "extractor_note": "Paraphrase/citation of James 2:10 KJV; footnote marker (1023) refers to the 1911 edition's Appendix source note."
+    },
+    {
+      "id": "GC-36-005",
+      "paragraph": 2,
+      "quote": "In seeking to cast contempt upon the divine statutes, Satan has perverted the doctrines of the Bible, and errors have thus become incorporated into the faith of thousands who profess to believe the Scriptures.",
+      "claim_text": "Satan has perverted biblical doctrines, causing errors to become incorporated into the faith of thousands of professing Christians.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-006",
+      "paragraph": 2,
+      "quote": "The last great conflict between truth and error is but the final struggle of the long-standing controversy concerning the law of God.",
+      "claim_text": "The final end-time conflict between truth and error is the last stage of a long-standing controversy concerning the law of God.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-007",
+      "paragraph": 2,
+      "quote": "Upon this battle we are now entering,—a battle between the laws of men and the precepts of Jehovah, between the religion of the Bible and the religion of fable and tradition.",
+      "claim_text": "At the time of writing, the world was entering a final battle between human laws and God's precepts, and between biblical religion and religion based on fable and tradition.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-008",
+      "paragraph": 3,
+      "quote": "The Bible is within the reach of all, but there are few who really accept it as the guide of life.",
+      "claim_text": "By the early 20th century, the Bible was accessible to virtually everyone.",
+      "claim_type": "event",
+      "entities": ["Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-009",
+      "paragraph": 3,
+      "quote": "The Bible is within the reach of all, but there are few who really accept it as the guide of life.",
+      "claim_text": "Despite widespread access to the Bible in the early 20th century, few people actually treated it as the guide for their lives.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-010",
+      "paragraph": 3,
+      "quote": "Infidelity prevails to an alarming extent, not in the world merely, but in the church.",
+      "claim_text": "In the early 20th century, religious skepticism ('infidelity') was spreading to an alarming extent both in secular society and within the Christian church.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-011",
+      "paragraph": 3,
+      "quote": "Many have come to deny doctrines which are the very pillars of the Christian faith. The great facts of creation as presented by the inspired writers, the fall of man, the atonement, and the perpetuity of the law of God, are practically rejected, either wholly or in part, by a large share of the professedly Christian world.",
+      "claim_text": "By the early 20th century, a large share of the professedly Christian world rejected, wholly or in part, foundational Christian doctrines: the biblical account of creation, the fall of man, the atonement, and the perpetuity of God's law.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-012",
+      "paragraph": 3,
+      "quote": "Many ministers are teaching their people, and many professors and teachers are instructing their students, that the law of God has been changed or abrogated; and those who regard its requirements as still valid, to be literally obeyed, are thought to be deserving only of ridicule or contempt.",
+      "claim_text": "In the early 20th century, many Christian ministers and academic teachers taught that the law of God had been changed or abrogated, and those who held the law still literally binding were widely regarded with ridicule or contempt.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-013",
+      "paragraph": 4,
+      "quote": "In rejecting the truth, men reject its Author. In trampling upon the law of God, they deny the authority of the Lawgiver.",
+      "claim_text": "Rejecting religious truth and God's law amounts to rejecting God as its Author and Lawgiver.",
+      "claim_type": "theological",
+      "entities": ["God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-014",
+      "paragraph": 4,
+      "quote": "By misrepresenting the attributes of God, Satan leads men to conceive of Him in a false character.",
+      "claim_text": "Satan misrepresents God's attributes to lead people to a false conception of God's character.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-015",
+      "paragraph": 4,
+      "quote": "With many, a philosophical idol is enthroned in the place of Jehovah; while the living God, as He is revealed in His word, in Christ, and in the works of creation, is worshiped by but few. Thousands deify nature, while they deny the God of nature.",
+      "claim_text": "Many people in the professedly Christian world worshiped a philosophical construct or deified nature itself rather than the biblical God.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-016",
+      "paragraph": 4,
+      "quote": "idolatry exists in the Christian world to-day as verily as it existed among ancient Israel in the days of Elijah.",
+      "claim_text": "Idolatry existed among the ancient Israelites during the era of the prophet Elijah.",
+      "claim_type": "biographical",
+      "entities": ["Elijah", "Israel (ancient)"],
+      "needs_verification": true,
+      "extractor_note": "Sentence also makes an interpretive comparison to 'the Christian world to-day,' logged separately as GC-36-017."
+    },
+    {
+      "id": "GC-36-017",
+      "paragraph": 4,
+      "quote": "idolatry exists in the Christian world to-day as verily as it existed among ancient Israel in the days of Elijah.",
+      "claim_text": "Idolatry existed in the Christian world of the early 20th century to the same degree it existed among ancient Israel in Elijah's time, though in a different form.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-018",
+      "paragraph": 4,
+      "quote": "The god of many professedly wise men, of philosophers, poets, politicians, journalists,—the god of polished fashionable circles, of many colleges and universities, even of some theological institutions,—is little better than Baal, the sun-god of Phenicia.",
+      "claim_text": "Baal was worshiped as a sun-god in ancient Phoenicia.",
+      "claim_type": "geographical",
+      "entities": ["Baal", "Phoenicia"],
+      "needs_verification": true,
+      "extractor_note": "Extraction isolates the checkable factual component (Baal as Phoenician sun-god); the comparison of contemporary intellectuals/institutions to Baal-worship is an interpretive judgment, not separately logged as checkable."
+    },
+    {
+      "id": "GC-36-019",
+      "paragraph": 5,
+      "quote": "No error accepted by the Christian world strikes more boldly against the authority of Heaven, none is more directly opposed to the dictates of reason, none is more pernicious in its results, than the modern doctrine, so rapidly gaining ground, that God’s law is no longer binding upon men.",
+      "claim_text": "In the early 20th century, the doctrine that God's law is no longer binding upon men was a modern doctrine rapidly gaining ground within the Christian world.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-020",
+      "paragraph": 5,
+      "quote": "Every nation has its laws, which command respect and obedience; no government could exist without them",
+      "claim_text": "Every nation has laws commanding respect and obedience, and no government could exist without them.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-021",
+      "paragraph": 6,
+      "quote": "Terrible were the scenes enacted in France when atheism became the controlling power.",
+      "claim_text": "During a period of France's history (the French Revolution era), atheism became the controlling power and terrible scenes of violence resulted.",
+      "claim_type": "event",
+      "entities": ["France", "French Revolution"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-022",
+      "paragraph": 6,
+      "quote": "It was then demonstrated to the world that to throw off the restraints which God has imposed is to accept the rule of the cruelest of tyrants.",
+      "claim_text": "The atheistic period of the French Revolution demonstrated that throwing off God's moral restraints leads to the rule of the cruelest tyrants.",
+      "claim_type": "causal",
+      "entities": ["France", "French Revolution"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-023",
+      "paragraph": 6,
+      "quote": "When the standard of righteousness is set aside, the way is open for the prince of evil to establish his power in the earth.",
+      "claim_text": "When moral/religious standards are set aside, the way opens for Satan to establish his power on earth.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-024",
+      "paragraph": 7,
+      "quote": "Wherever the divine precepts are rejected, sin ceases to appear sinful, or righteousness desirable.",
+      "claim_text": "Wherever divine moral precepts are rejected, sin ceases to appear sinful and righteousness ceases to appear desirable.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-025",
+      "paragraph": 7,
+      "quote": "Those who refuse to submit to the government of God are wholly unfitted to govern themselves.",
+      "claim_text": "Those who refuse to submit to God's government are wholly unfit to govern themselves.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-026",
+      "paragraph": 7,
+      "quote": "Through their pernicious teachings, the spirit of insubordination is implanted in the hearts of children and youth, who are naturally impatient of control; and a lawless, licentious state of society results.",
+      "claim_text": "Teachings that God's law is not binding implant a spirit of insubordination in children and youth, producing a lawless and licentious society.",
+      "claim_type": "causal",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-027",
+      "paragraph": 8,
+      "quote": "Those who teach the people to regard lightly the commandments of God, sow disobedience, to reap disobedience.",
+      "claim_text": "Teaching people to regard God's commandments lightly sows disobedience that is later reaped as disobedience in society.",
+      "claim_type": "causal",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-028",
+      "paragraph": 8,
+      "quote": "The civilized world would become a horde of robbers and assassins; and peace, rest, and happiness would be banished from the earth.",
+      "claim_text": "If God's law (including prohibitions on theft, murder, and marital fidelity) were entirely set aside, civilized society would descend into a horde of robbers and assassins.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "extractor_note": "Hypothetical/speculative argument ('would' construction), not an assertion of an actual historical event."
+    },
+    {
+      "id": "GC-36-029",
+      "paragraph": 9,
+      "quote": "Already the doctrine that men are released from obedience to God’s requirements has weakened the force of moral obligation, and opened the flood-gates of iniquity upon the world.",
+      "claim_text": "By the time of writing, the doctrine that people are released from obedience to God's requirements had already weakened moral obligation and opened the way to widespread iniquity.",
+      "claim_type": "causal",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-030",
+      "paragraph": 9,
+      "quote": "Lawlessness, dissipation, and corruption are sweeping in upon us like an overwhelming tide.",
+      "claim_text": "In the early 20th century, lawlessness, dissipation, and corruption were rapidly increasing in society.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-031",
+      "paragraph": 9,
+      "quote": "The vilest of criminals, when thrown into prison for their offenses, are often made the recipients of gifts and attentions, as if they had attained an enviable distinction. Great publicity is given to their character and crimes.",
+      "claim_text": "In the early 20th century, notorious criminals imprisoned for their crimes were often given gifts and public attention as if they had attained distinction, and their characters and crimes received great publicity.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-032",
+      "paragraph": 9,
+      "quote": "The press publishes the revolting details of vice, thus initiating others into the practice of fraud, robbery, and murder",
+      "claim_text": "In the early 20th century, newspapers publishing detailed accounts of vice and crime initiated other people into practicing fraud, robbery, and murder.",
+      "claim_type": "causal",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-033",
+      "paragraph": 9,
+      "quote": "the terrible increase of intemperance and iniquity of every order and degree, should arouse all who fear God, to inquire what can be done to stay the tide of evil.",
+      "claim_text": "In the early 20th century, intemperance (alcohol abuse) and iniquity of every kind were terribly increasing.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-034",
+      "paragraph": 10,
+      "quote": "Courts of justice are corrupt.",
+      "claim_text": "In the early 20th century, courts of justice were corrupt.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-035",
+      "paragraph": 10,
+      "quote": "Rulers are actuated by desire for gain, and love of sensual pleasure.",
+      "claim_text": "In the early 20th century, government rulers were commonly motivated by desire for financial gain and love of sensual pleasure.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-036",
+      "paragraph": 10,
+      "quote": "Intemperance has beclouded the faculties of many, so that Satan has almost complete control of them.",
+      "claim_text": "In the early 20th century, intemperance (alcohol abuse) had clouded the mental faculties of many people, including those in positions of authority.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "The clause attributing the resulting condition to Satan's control is logged separately as GC-36-037 (theological)."
+    },
+    {
+      "id": "GC-36-037",
+      "paragraph": 10,
+      "quote": "Intemperance has beclouded the faculties of many, so that Satan has almost complete control of them.",
+      "claim_text": "Satan has almost complete control over people whose faculties have been beclouded by intemperance.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-038",
+      "paragraph": 10,
+      "quote": "Jurists are perverted, bribed, deluded.",
+      "claim_text": "In the early 20th century, jurists (judges and legal professionals) were commonly perverted, bribed, or deluded.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-039",
+      "paragraph": 10,
+      "quote": "“Justice standeth afar off: for truth is fallen in the street, and equity cannot enter.”(1024)",
+      "claim_text": "The chapter quotes a biblical passage (footnote 1024) stating that justice stands afar off, truth has fallen in the street, and equity cannot enter.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Isaiah"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Isaiah 59:14 KJV."
+    },
+    {
+      "id": "GC-36-040",
+      "paragraph": 11,
+      "quote": "The iniquity and spiritual darkness that prevailed under the supremacy of Rome were the inevitable result of her suppression of the Scriptures;",
+      "claim_text": "The iniquity and spiritual darkness that prevailed under the historical supremacy of the Roman Catholic Church were the inevitable result of the Church's suppression of the Scriptures.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-041",
+      "paragraph": 11,
+      "quote": "he resorts to other means to accomplish the same object. To destroy faith in the Bible serves his purpose as well as to destroy the Bible itself.",
+      "claim_text": "Satan resorts to destroying faith in the Bible when he cannot withhold the Bible itself, since undermining belief in Scripture serves his purposes equally well.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-042",
+      "paragraph": 11,
+      "quote": "By introducing the belief that God’s law is not binding, he as effectually leads men to transgress as if they were wholly ignorant of its precepts.",
+      "claim_text": "Introducing the belief that God's law is not binding leads people to transgress as effectively as if they were wholly ignorant of the law's precepts.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-043",
+      "paragraph": 11,
+      "quote": "The religious organizations of the day have refused to listen to unpopular truths plainly brought to view in the Scriptures, and in combating them they have adopted interpretations and taken positions which have sown broadcast the seeds of skepticism.",
+      "claim_text": "In the early 20th century, religious organizations refused to accept unpopular biblical truths and, in opposing them, adopted interpretations that spread widespread religious skepticism.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-044",
+      "paragraph": 11,
+      "quote": "Clinging to the papal error of natural immortality and man’s consciousness in death, they have rejected the only defense against the delusions of Spiritualism.",
+      "claim_text": "The doctrine of the natural immortality of the soul and consciousness after death, characterized here as a 'papal error,' left Protestant churches without a defense against the claims of Spiritualism.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church", "Spiritualism", "Protestantism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-045",
+      "paragraph": 11,
+      "quote": "The doctrine of eternal torment has led many to disbelieve the Bible.",
+      "claim_text": "The doctrine of eternal torment (hell) has led many people to disbelieve the Bible.",
+      "claim_type": "causal",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-046",
+      "paragraph": 11,
+      "quote": "as the claims of the fourth commandment are urged upon the people, it is found that the observance of the seventh-day Sabbath is enjoined; and as the only way to free themselves from a duty which they are unwilling to perform, many popular teachers declare that the law of God is no longer binding. Thus they cast away the law and the Sabbath together.",
+      "claim_text": "By the early 20th century, when the fourth commandment (Sabbath observance) was urged upon the public, many popular religious teachers responded by declaring God's law no longer binding rather than adopting seventh-day Sabbath observance.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-047",
+      "paragraph": 11,
+      "quote": "As the work of Sabbath reform extends, this rejection of the divine law to avoid the claims of the fourth commandment will become well-nigh universal.",
+      "claim_text": "As Sabbath reform (advocacy of seventh-day Sabbath observance) extends, rejection of the divine law to avoid the fourth commandment's claims will become nearly universal.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "extractor_note": "Predictive/eschatological claim about the future."
+    },
+    {
+      "id": "GC-36-048",
+      "paragraph": 11,
+      "quote": "The teachings of religious leaders have opened the door to infidelity, to Spiritualism, and to contempt for God’s holy law; and upon these leaders rests a fearful responsibility for the iniquity that exists in the Christian world.",
+      "claim_text": "The teachings of religious leaders opened the door to infidelity, Spiritualism, and contempt for God's law, and these leaders bear responsibility for the iniquity in the Christian world.",
+      "claim_type": "interpretive",
+      "entities": ["Spiritualism"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-049",
+      "paragraph": 12,
+      "quote": "this very class put forth the claim that the fast-spreading corruption is largely attributable to the desecration of the so-called “Christian sabbath,” and that the enforcement of Sunday observance would greatly improve the morals of society.",
+      "claim_text": "Sunday-law advocates in the early 20th century claimed that widespread social corruption was largely attributable to the desecration of Sunday and that enforcing Sunday observance would greatly improve public morals.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-050",
+      "paragraph": 12,
+      "quote": "This claim is especially urged in America, where the doctrine of the true Sabbath has been most widely preached.",
+      "claim_text": "The claim linking social corruption to Sunday desecration was especially urged in the United States in the early 20th century, where seventh-day Sabbath doctrine had been most widely preached.",
+      "claim_type": "geographical",
+      "entities": ["United States"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-051",
+      "paragraph": 12,
+      "quote": "Here the temperance work, one of the most prominent and important of moral reforms, is often combined with the Sunday movement, and the advocates of the latter represent themselves as laboring to promote the highest interest of society;",
+      "claim_text": "In the early 20th-century United States, the temperance movement was often combined with the Sunday-observance movement, whose advocates represented themselves as promoting society's highest interests.",
+      "claim_type": "event",
+      "entities": ["United States", "Temperance movement"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-052",
+      "paragraph": 12,
+      "quote": "those who refuse to unite with them are denounced as the enemies of temperance and reform.",
+      "claim_text": "Those who refused to join the combined temperance/Sunday movement in the early 20th-century United States were denounced as enemies of temperance and reform.",
+      "claim_type": "event",
+      "entities": ["United States"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-053",
+      "paragraph": 13,
+      "quote": "Through the two great errors, the immortality of the soul and Sunday sacredness, Satan will bring the people under his deceptions.",
+      "claim_text": "Satan will use two doctrines, the immortality of the soul and Sunday sacredness, to bring people under his deceptions.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-054",
+      "paragraph": 13,
+      "quote": "While the former lays the foundation of Spiritualism, the latter creates a bond of sympathy with Rome.",
+      "claim_text": "The doctrine of the soul's immortality lays the foundation for Spiritualism, while Sunday sacredness creates a bond of sympathy with the Roman Catholic Church.",
+      "claim_type": "theological",
+      "entities": ["Spiritualism", "Roman Catholic Church"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-055",
+      "paragraph": 13,
+      "quote": "The Protestants of the United States will be foremost in stretching their hands across the gulf to grasp the hand of Spiritualism; they will reach over the abyss to clasp hands with the Roman power; and under the influence of this threefold union, this country will follow in the steps of Rome in trampling on the rights of conscience.",
+      "claim_text": "United States Protestants will be foremost in uniting with both Spiritualism and the Roman Catholic Church, and under this threefold union the United States will follow Rome's example in trampling on the rights of conscience.",
+      "claim_type": "theological",
+      "entities": ["United States", "Spiritualism", "Roman Catholic Church", "Protestantism"],
+      "needs_verification": false,
+      "extractor_note": "Central eschatological prediction of the chapter."
+    },
+    {
+      "id": "GC-36-056",
+      "paragraph": 14,
+      "quote": "Satan himself is converted, after the modern order of things. He will appear in the character of an angel of light.",
+      "claim_text": "Satan will appear as an angel of light, converted according to the modern order of things.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-057",
+      "paragraph": 14,
+      "quote": "Through the agency of Spiritualism, miracles will be wrought, the sick will be healed, and many undeniable wonders will be performed.",
+      "claim_text": "Through Spiritualism, miracles will be performed, the sick will be healed, and undeniable wonders will occur.",
+      "claim_type": "theological",
+      "entities": ["Spiritualism"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-058",
+      "paragraph": 14,
+      "quote": "As Spiritualism more closely imitates the nominal Christianity of the day, it has greater power to deceive and ensnare.",
+      "claim_text": "In the early 20th century, Spiritualism was increasingly imitating nominal Christianity, which increased its power to deceive.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-059",
+      "paragraph": 15,
+      "quote": "The line of distinction between professed Christians and the ungodly is now hardly distinguishable.",
+      "claim_text": "By the early 20th century, the line of distinction between professed Christians and the ungodly had become hardly distinguishable.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-060",
+      "paragraph": 15,
+      "quote": "Church-members love what the world loves, and are ready to join with them; and Satan determines to unite them in one body, and thus strengthen his cause by sweeping all into the ranks of Spiritualism.",
+      "claim_text": "Satan intends to unite church members and worldly people into one body through shared worldly affections, sweeping them into the ranks of Spiritualism.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Spiritualism"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-061",
+      "paragraph": 15,
+      "quote": "Papists, who boast of miracles as a certain sign of the true church, will be readily deceived by this wonder-working power; and Protestants, having cast away the shield of truth, will also be deluded.",
+      "claim_text": "Catholics, who regard miracles as a sign of the true church, will be readily deceived by Spiritualism's wonder-working power, and Protestants who have abandoned the shield of truth will also be deluded.",
+      "claim_type": "theological",
+      "entities": ["Roman Catholic Church", "Protestantism", "Spiritualism"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-062",
+      "paragraph": 15,
+      "quote": "Papists, Protestants, and worldlings will alike accept the form of godliness without the power, and they will see in this union a grand movement for the conversion of the world, and the ushering in of the long-expected millennium.",
+      "claim_text": "Catholics, Protestants, and worldly people will alike accept a form of godliness without its power, viewing their union as a movement for world conversion and the ushering in of the millennium.",
+      "claim_type": "theological",
+      "entities": ["Roman Catholic Church", "Protestantism"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-063",
+      "paragraph": 16,
+      "quote": "Through Spiritualism, Satan appears as a benefactor of the race, healing the diseases of the people, and professing to present a new and more exalted system of religious faith; but at the same time he works as a destroyer.",
+      "claim_text": "Through Spiritualism, Satan appears as a benefactor healing diseases and presenting an exalted religious system, while actually working as a destroyer.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Spiritualism"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-064",
+      "paragraph": 16,
+      "quote": "Intemperance dethrones reason; sensual indulgence, strife, and bloodshed follow.",
+      "claim_text": "Intemperance dethrones reason, leading to sensual indulgence, strife, and bloodshed.",
+      "claim_type": "causal",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-065",
+      "paragraph": 16,
+      "quote": "Satan delights in war; for it excites the worst passions of the soul, and then sweeps into eternity its victims steeped in vice and blood.",
+      "claim_text": "Satan delights in war because it excites people's worst passions and sends its victims into eternity steeped in vice and blood.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-066",
+      "paragraph": 16,
+      "quote": "It is his object to incite the nations to war against one another; for he can thus divert the minds of the people from the work of preparation to stand in the day of God.",
+      "claim_text": "Satan's objective is to incite nations to war against each other in order to divert people's minds from spiritual preparation.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-067",
+      "paragraph": 17,
+      "quote": "Satan works through the elements also to garner his harvest of unprepared souls. He has studied the secrets of the laboratories of nature, and he uses all his power to control the elements as far as God allows.",
+      "claim_text": "Satan works through natural elements, having studied nature's secrets, using his power to control the elements to the extent God allows.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-068",
+      "paragraph": 17,
+      "quote": "When he was suffered to afflict Job, how quickly flocks and herds, servants, houses, children, were swept away, one trouble succeeding another as in a moment.",
+      "claim_text": "According to the biblical narrative, when Satan was permitted to afflict Job, Job's flocks, herds, servants, house, and children were swept away in rapid succession.",
+      "claim_type": "event",
+      "entities": ["Job", "Satan"],
+      "needs_verification": true,
+      "extractor_note": "Reference to the Book of Job narrative (Job 1)."
+    },
+    {
+      "id": "GC-36-069",
+      "paragraph": 17,
+      "quote": "It is God that shields His creatures, and hedges them in from the power of the destroyer. But the Christian world have shown contempt for the law of Jehovah; and the Lord will do just what He has declared that He would,—He will withdraw His blessings from the earth, and remove His protecting care from those who are rebelling against His law, and teaching and forcing others to do the same.",
+      "claim_text": "Because the Christian world has shown contempt for God's law, God will withdraw His protective blessings from those who rebel against His law and cause others to do likewise.",
+      "claim_type": "theological",
+      "entities": ["God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-070",
+      "paragraph": 17,
+      "quote": "Satan has control of all whom God does not especially guard. He will favor and prosper some, in order to further his own designs; and he will bring trouble upon others, and lead men to believe that it is God who is afflicting them.",
+      "claim_text": "Satan controls all whom God does not specially guard, favoring some to further his designs and afflicting others while making people believe God is the source of their affliction.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-071",
+      "paragraph": 18,
+      "quote": "While appearing to the children of men as a great physician who can heal all their maladies, he will bring disease and disaster, until populous cities are reduced to ruin and desolation.",
+      "claim_text": "While appearing as a great healer, Satan will bring disease and disaster until populous cities are reduced to ruin.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-072",
+      "paragraph": 18,
+      "quote": "Even now he is at work. In accidents and calamities by sea and by land, in great conflagrations, in fierce tornadoes and terrific hail-storms, in tempests, floods, cyclones, tidal waves, and earthquakes, in every place and in a thousand forms, Satan is exercising his power.",
+      "claim_text": "Satan is already exercising his power in accidents, calamities, fires, tornadoes, hailstorms, tempests, floods, cyclones, tidal waves, and earthquakes occurring worldwide.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-073",
+      "paragraph": 18,
+      "quote": "These visitations are to become more and more frequent and disastrous.",
+      "claim_text": "Natural disasters and calamities are predicted to become increasingly frequent and disastrous over time.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "extractor_note": "Predictive/eschatological claim."
+    },
+    {
+      "id": "GC-36-074",
+      "paragraph": 18,
+      "quote": "“The earth mourneth and fadeth away,” “the haughty people ... do languish. The earth also is defiled under the inhabitants thereof; because they have transgressed the laws, changed the ordinance, broken the everlasting covenant.”(1025)",
+      "claim_text": "The chapter quotes a biblical passage (footnote 1025) stating the earth mourns and fades, the haughty people languish, and the earth is defiled because its inhabitants transgressed laws, changed the ordinance, and broke the everlasting covenant.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Isaiah"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Isaiah 24:4-5 KJV."
+    },
+    {
+      "id": "GC-36-075",
+      "paragraph": 19,
+      "quote": "It will be declared that men are offending God by the violation of the Sunday-sabbath; that this sin has brought calamities which will not cease until Sunday observance shall be strictly enforced; and that those who present the claims of the fourth commandment, thus destroying reverence for Sunday, are troublers of the people, preventing their restoration to divine favor and temporal prosperity.",
+      "claim_text": "It is predicted that Sunday-law advocates will declare that violating Sunday observance offends God and causes calamities that will cease only when Sunday observance is strictly enforced, and will blame seventh-day Sabbath advocates as troublers of the people.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "extractor_note": "Predictive/eschatological claim central to the chapter's Sunday-law thesis."
+    },
+    {
+      "id": "GC-36-076",
+      "paragraph": 19,
+      "quote": "“And it came to pass, when Ahab saw Elijah, that Ahab said unto him, Art thou he that troubleth Israel? And he answered, I have not troubled Israel; but thou, and thy father’s house, in that ye have forsaken the commandments of the Lord, and thou hast followed Baalim.”(1026)",
+      "claim_text": "The chapter quotes the biblical account (footnote 1026, corresponding to 1 Kings 18) in which King Ahab accused Elijah of troubling Israel, and Elijah responded that Ahab's household, not he, had troubled Israel by forsaking God's commandments and following the Baals.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ahab", "Elijah", "Baal", "Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-077",
+      "paragraph": 19,
+      "quote": "As the wrath of the people shall be excited by false charges, they will pursue a course toward God’s ambassadors very similar to that which apostate Israel pursued toward Elijah.",
+      "claim_text": "It is predicted that people whose wrath is excited by false charges will treat God's future messengers similarly to how apostate Israel treated the prophet Elijah.",
+      "claim_type": "theological",
+      "entities": ["Elijah"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-078",
+      "paragraph": 19,
+      "quote": "Thus the accusation urged of old against the servant of God will be repeated, and upon grounds equally well established",
+      "claim_text": "The ancient accusation made against Elijah as a 'troubler of Israel' will be repeated against God's people in the predicted final conflict, on similarly unfounded grounds.",
+      "claim_type": "theological",
+      "entities": ["Elijah"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-079",
+      "paragraph": 20,
+      "quote": "The miracle-working power manifested through Spiritualism will exert its influence against those who choose to obey God rather than men.",
+      "claim_text": "The miracle-working power manifested through Spiritualism will be used against those who choose to obey God rather than human authorities.",
+      "claim_type": "theological",
+      "entities": ["Spiritualism"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-080",
+      "paragraph": 20,
+      "quote": "Communications from the spirits will declare that God has sent them to convince the rejecters of Sunday of their error, affirming that the laws of the land should be obeyed as the law of God.",
+      "claim_text": "Spiritualist communications will claim to be sent by God to convince Sunday-law objectors of their error and to affirm that civil Sunday laws should be obeyed as God's law.",
+      "claim_type": "theological",
+      "entities": ["Spiritualism"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-081",
+      "paragraph": 20,
+      "quote": "They will lament the great wickedness in the world, and second the testimony of religious teachers, that the degraded state of morals is caused by the desecration of Sunday.",
+      "claim_text": "Spiritualist communications will affirm religious teachers' claims that society's moral decline is caused by Sunday desecration.",
+      "claim_type": "theological",
+      "entities": ["Spiritualism"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-082",
+      "paragraph": 21,
+      "quote": "Satan’s policy in this final conflict with God’s people is the same that he employed in the opening of the great controversy in heaven. He professed to be seeking to promote the stability of the divine government, while secretly bending every effort to secure its overthrow. And the very work which he was thus endeavoring to accomplish, he charged upon the loyal angels.",
+      "claim_text": "Satan's policy in the predicted final conflict mirrors his original strategy in the heavenly conflict: professing to support divine government while secretly working to overthrow it, and blaming his own actions on the loyal angels.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-083",
+      "paragraph": 21,
+      "quote": "The same policy of deception has marked the history of the Roman Church. It has professed to act as the vicegerent of Heaven, while seeking to exalt itself above God, and to change His law.",
+      "claim_text": "Throughout its history, the Roman Catholic Church professed to act as Heaven's representative while, according to the author, seeking to exalt itself above God and change His law.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-084",
+      "paragraph": 21,
+      "quote": "Under the rule of Rome, those who suffered death for their fidelity to the gospel were denounced as evil-doers; they were declared to be in league with Satan; and every possible means was employed to cover them with reproach, to cause them to appear, in the eyes of the people, and even to themselves, as the vilest of criminals.",
+      "claim_text": "Under the historical rule of the Roman Catholic Church, people executed for their fidelity to the gospel were denounced as evil-doers and accused of being in league with Satan, and efforts were made to make them appear as the vilest criminals.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-085",
+      "paragraph": 21,
+      "quote": "So it will be now. While Satan seeks to destroy those who honor God’s law, he will cause them to be accused as lawbreakers, as men who are dishonoring God, and bringing judgments upon the world.",
+      "claim_text": "It is predicted that Satan will cause those who honor God's law to be accused of being lawbreakers who dishonor God and bring judgments on the world.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-086",
+      "paragraph": 22,
+      "quote": "God never forces the will or the conscience; but Satan’s constant resort—to gain control of those whom he cannot otherwise seduce—is compulsion by cruelty.",
+      "claim_text": "God never forces the human will or conscience, whereas Satan's constant method for controlling those he cannot otherwise seduce is compulsion through cruelty.",
+      "claim_type": "theological",
+      "entities": ["God", "Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-087",
+      "paragraph": 22,
+      "quote": "Through fear or force he endeavors to rule the conscience, and to secure homage to himself. To accomplish this, he works through both religious and secular authorities, moving them to the enforcement of human laws in defiance of the law of God.",
+      "claim_text": "Satan works through both religious and secular authorities to enforce human laws in defiance of God's law, ruling the conscience through fear or force.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-088",
+      "paragraph": 23,
+      "quote": "Those who honor the Bible Sabbath will be denounced as enemies of law and order, as breaking down the moral restraints of society, causing anarchy and corruption, and calling down the judgments of God upon the earth.",
+      "claim_text": "It is predicted that those who honor the biblical (seventh-day) Sabbath will be denounced as enemies of law and order and blamed for anarchy, corruption, and divine judgments.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-089",
+      "paragraph": 23,
+      "quote": "Ministers who deny the obligation of the divine law will present from the pulpit the duty of yielding obedience to the civil authorities as ordained of God.",
+      "claim_text": "It is predicted that ministers who deny the binding obligation of God's law will preach from the pulpit that obedience to civil authorities is a divinely ordained duty.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-090",
+      "paragraph": 23,
+      "quote": "In legislative halls and courts of justice, commandment-keepers will be misrepresented and condemned. A false coloring will be given to their words; the worst construction will be put upon their motives.",
+      "claim_text": "It is predicted that in legislative bodies and courts, commandment-keepers (Sabbath-keepers) will be misrepresented, have their words distorted, and have the worst possible construction placed on their motives.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-091",
+      "paragraph": 24,
+      "quote": "As the Protestant churches reject the clear, scriptural arguments in defense of God’s law, they will long to silence those whose faith they cannot overthrow by the Bible.",
+      "claim_text": "It is predicted that Protestant churches, having rejected clear scriptural arguments defending God's law, will seek to silence those whose faith they cannot refute using the Bible.",
+      "claim_type": "theological",
+      "entities": ["Protestantism"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-092",
+      "paragraph": 24,
+      "quote": "they are now adopting a course which will lead to the persecution of those who conscientiously refuse to do what the rest of the Christian world are doing, and acknowledge the claims of the papal sabbath.",
+      "claim_text": "It is claimed that Protestant churches, as of the time of writing, were adopting a course that would lead to the persecution of those who conscientiously refused to observe Sunday (termed here 'the papal sabbath').",
+      "claim_type": "theological",
+      "entities": ["Protestantism"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-093",
+      "paragraph": 25,
+      "quote": "The dignitaries of church and state will unite to bribe, persuade, or compel all classes to honor the Sunday. The lack of divine authority will be supplied by oppressive enactments.",
+      "claim_text": "It is predicted that church and state leaders will unite to bribe, persuade, or compel all classes of people to observe Sunday, supplying the lack of divine authority with oppressive legal enactments.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-094",
+      "paragraph": 25,
+      "quote": "Political corruption is destroying love of justice and regard for truth;",
+      "claim_text": "In the early 20th century, political corruption was destroying the love of justice and regard for truth in society.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-095",
+      "paragraph": 25,
+      "quote": "even in free America, rulers and legislators, in order to secure public favor, will yield to the popular demand for a law enforcing Sunday observance.",
+      "claim_text": "It is predicted that in the United States, rulers and legislators will yield to popular demand and enact a law enforcing Sunday observance.",
+      "claim_type": "theological",
+      "entities": ["United States"],
+      "needs_verification": false,
+      "extractor_note": "Also implies a present-tense (circa 1911) claim that there was popular demand in the US for a Sunday-enforcement law; logged separately as GC-36-096 (event)."
+    },
+    {
+      "id": "GC-36-096",
+      "paragraph": 25,
+      "quote": "in order to secure public favor, will yield to the popular demand for a law enforcing Sunday observance.",
+      "claim_text": "In the early 20th-century United States, there was a popular movement/demand advocating a law to enforce Sunday observance.",
+      "claim_type": "event",
+      "entities": ["United States"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-36-097",
+      "paragraph": 25,
+      "quote": "Liberty of conscience, which has cost so great a sacrifice, will no longer be respected.",
+      "claim_text": "It is predicted that liberty of conscience, which historically cost great sacrifice to secure, will no longer be respected.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-36-098",
+      "paragraph": 25,
+      "quote": "In the soon-coming conflict we shall see exemplified the prophet’s words, “The dragon was wroth with the woman, and went to make war with the remnant of her seed, which keep the commandments of God, and have the testimony of Jesus Christ.”(1027)",
+      "claim_text": "The chapter quotes Revelation (footnote 1027) describing the dragon's wrath against the woman and war against the remnant of her seed who keep God's commandments and have the testimony of Jesus Christ, applying it to a predicted soon-coming conflict.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Revelation"],
+      "needs_verification": true
+    }
+  ]
+}
