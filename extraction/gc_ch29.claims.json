@@ -1,0 +1,732 @@
+{
+  "chapter": 29,
+  "chapter_title": "The Origin Of Evil",
+  "stage": "extraction",
+  "generated_at": "2026-07-05",
+  "notes": "Chapter is almost entirely theological/supernatural narrative (Lucifer's fall, the great controversy in heaven, the cross as cosmic vindication). Narrative claims about Lucifer/Satan/Christ/angels are logged as claim_type theological with needs_verification:false per instructions, since they concern supernatural agents and motives not checkable against historiography. Scripture citations (numbered footnotes (879)-(890) in the 1911 edition, plus a few unnumbered scriptural allusions/quotations such as 'magnify the law', 'Crucify Him!', 'It is finished') are logged as claim_type attributed_quote with needs_verification:true, since quote fidelity against the KJV/Bible text is independently checkable. Tentative modern chapter-and-verse identifications are given in extractor_note for the verifier's convenience; these identifications are NOT asserted as certain and must be confirmed at verification. No paragraph produced zero claims.",
+  "claims": [
+    {
+      "id": "GC-29-001",
+      "paragraph": 1,
+      "quote": "Others, however, fail of a satisfactory understanding of the great problem of evil, from the fact that tradition and misinterpretation have obscured the teaching of the Bible concerning the character of God, the nature of His government, and the principles of His dealing with sin.",
+      "claim_text": "The text asserts that tradition and misinterpretation have obscured the Bible's teaching on the character of God, the nature of His government, and His dealing with sin.",
+      "claim_type": "interpretive",
+      "entities": ["God", "Bible"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-002",
+      "paragraph": 2,
+      "quote": "Nothing is more plainly taught in Scripture than that God was in no wise responsible for the entrance of sin;",
+      "claim_text": "The text asserts that Scripture plainly teaches God was in no way responsible for the entrance of sin into the universe.",
+      "claim_type": "theological",
+      "entities": ["God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-003",
+      "paragraph": 2,
+      "quote": "that there was no arbitrary withdrawal of divine grace, no deficiency in the divine government, that gave occasion for the uprising of rebellion.",
+      "claim_text": "The text asserts that there was no arbitrary withdrawal of divine grace and no deficiency in the divine government that gave occasion for Lucifer's rebellion.",
+      "claim_type": "theological",
+      "entities": ["God", "Lucifer"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-004",
+      "paragraph": 2,
+      "quote": "it is “the transgression of the law,”",
+      "claim_text": "The text quotes the Bible's definition of sin as 'the transgression of the law.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "extractor_note": "Unnumbered scriptural quotation; tentatively 1 John 3:4 (KJV: 'sin is the transgression of the law'). Verify exact wording/attribution."
+    },
+    {
+      "id": "GC-29-005",
+      "paragraph": 3,
+      "quote": "Before the entrance of evil, there was peace and joy throughout the universe.",
+      "claim_text": "The text asserts that before the entrance of evil there was peace and joy throughout the universe.",
+      "claim_type": "theological",
+      "entities": ["universe"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-006",
+      "paragraph": 3,
+      "quote": "Christ the Word, the only begotten of God, was one with the eternal Father,—one in nature, in character, and in purpose,—the only being in all the universe that could enter into all the counsels and purposes of God.",
+      "claim_text": "The text asserts that Christ the Word was one with the eternal Father in nature, character, and purpose, and was the only being able to enter into all of God's counsels and purposes.",
+      "claim_type": "theological",
+      "entities": ["Christ", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-007",
+      "paragraph": 3,
+      "quote": "By Christ, the Father wrought in the creation of all heavenly beings.",
+      "claim_text": "The text asserts that God the Father created all heavenly beings through Christ.",
+      "claim_type": "theological",
+      "entities": ["Christ", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-008",
+      "paragraph": 3,
+      "quote": "“By Him were all things created, that are in heaven, ... whether they be thrones, or dominions, or principalities, or powers;”(879)",
+      "claim_text": "The text quotes Scripture (footnote 879) stating that by Him (Christ) all things in heaven were created, whether thrones, dominions, principalities, or powers.",
+      "claim_type": "attributed_quote",
+      "entities": ["Christ", "Bible"],
+      "needs_verification": true,
+      "extractor_note": "Footnote 879 in the 1911 edition; tentatively Colossians 1:16 (KJV). Verify exact wording."
+    },
+    {
+      "id": "GC-29-009",
+      "paragraph": 4,
+      "quote": "The law of love being the foundation of the government of God, the happiness of all created beings depended upon their perfect accord with its great principles of righteousness.",
+      "claim_text": "The text asserts that the law of love is the foundation of God's government and that the happiness of all created beings depended on accord with its principles of righteousness.",
+      "claim_type": "theological",
+      "entities": ["God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-010",
+      "paragraph": 4,
+      "quote": "He takes no pleasure in a forced allegiance, and to all He grants freedom of will, that they may render Him voluntary service.",
+      "claim_text": "The text asserts that God takes no pleasure in forced allegiance and grants all created beings freedom of will so they may render voluntary service.",
+      "claim_type": "theological",
+      "entities": ["God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-011",
+      "paragraph": 5,
+      "quote": "Sin originated with him who, next to Christ, had been most honored of God, and who stood highest in power and glory among the inhabitants of heaven.",
+      "claim_text": "The text asserts that sin originated with Lucifer, who, next to Christ, had been most honored of God and stood highest in power and glory among the inhabitants of heaven.",
+      "claim_type": "theological",
+      "entities": ["Lucifer", "Christ", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-012",
+      "paragraph": 5,
+      "quote": "Before his fall, Lucifer was first of the covering cherubs, holy and undefiled.",
+      "claim_text": "The text asserts that before his fall Lucifer was first of the covering cherubs, holy and undefiled.",
+      "claim_type": "theological",
+      "entities": ["Lucifer"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-013",
+      "paragraph": 5,
+      "quote": "“Thus saith the Lord God: Thou sealest up the sum, full of wisdom, and perfect in beauty. Thou hast been in Eden the garden of God; every precious stone was thy covering.”",
+      "claim_text": "The text quotes 'the Lord God' (via the prophet) describing a figure identified as Lucifer as full of wisdom, perfect in beauty, having been in Eden the garden of God, covered with every precious stone.",
+      "claim_type": "attributed_quote",
+      "entities": ["Lucifer", "Bible"],
+      "needs_verification": true,
+      "extractor_note": "Under footnote 880 in the 1911 edition; tentatively Ezekiel 28:12-13 (KJV). Verify exact wording."
+    },
+    {
+      "id": "GC-29-014",
+      "paragraph": 5,
+      "quote": "“Thou art the anointed cherub that covereth; and I have set thee so: thou wast upon the holy mountain of God; thou hast walked up and down in the midst of the stones of fire. Thou wast perfect in thy ways from the day that thou wast created, till iniquity was found in thee.”(880)",
+      "claim_text": "The text quotes Scripture (footnote 880) describing Lucifer as the anointed cherub that covereth, set upon the holy mountain of God, walking amid the stones of fire, perfect in his ways from creation until iniquity was found in him.",
+      "claim_type": "attributed_quote",
+      "entities": ["Lucifer", "Bible"],
+      "needs_verification": true,
+      "extractor_note": "Footnote 880 in the 1911 edition; tentatively Ezekiel 28:14-15 (KJV). Verify exact wording."
+    },
+    {
+      "id": "GC-29-015",
+      "paragraph": 6,
+      "quote": "Lucifer might have remained in favor with God, beloved and honored by all the angelic host, exercising his noble powers to bless others and to glorify his Maker.",
+      "claim_text": "The text asserts that Lucifer might have remained in favor with God and honored by the angelic host had he continued to use his powers to bless others and glorify his Maker.",
+      "claim_type": "theological",
+      "entities": ["Lucifer", "God", "angels"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-016",
+      "paragraph": 6,
+      "quote": "“Thine heart was lifted up because of thy beauty, thou hast corrupted thy wisdom by reason of thy brightness.”(881)",
+      "claim_text": "The text quotes Scripture (footnote 881, attributed to 'the prophet') stating that Lucifer's heart was lifted up because of his beauty and that he corrupted his wisdom by reason of his brightness.",
+      "claim_type": "attributed_quote",
+      "entities": ["Lucifer", "Bible"],
+      "needs_verification": true,
+      "extractor_note": "Footnote 881; tentatively Ezekiel 28:17 (KJV). Verify exact wording."
+    },
+    {
+      "id": "GC-29-017",
+      "paragraph": 6,
+      "quote": "“Thou hast set thine heart as the heart of God.”",
+      "claim_text": "The text quotes Scripture stating that Lucifer set his heart as the heart of God.",
+      "claim_type": "attributed_quote",
+      "entities": ["Lucifer", "Bible"],
+      "needs_verification": true,
+      "extractor_note": "Under footnote 882 in the 1911 edition; tentatively Ezekiel 28:6 (KJV). Verify exact wording."
+    },
+    {
+      "id": "GC-29-018",
+      "paragraph": 6,
+      "quote": "“Thou hast said, ... I will exalt my throne above the stars of God: I will sit also upon the mount of the congregation.... I will ascend above the heights of the clouds; I will be like the Most High.”(882)",
+      "claim_text": "The text quotes Scripture (footnote 882) attributing to Lucifer the declaration that he would exalt his throne above the stars of God, sit on the mount of the congregation, ascend above the heights of the clouds, and be like the Most High.",
+      "claim_type": "attributed_quote",
+      "entities": ["Lucifer", "Bible"],
+      "needs_verification": true,
+      "extractor_note": "Footnote 882; tentatively Isaiah 14:13-14 (KJV). Verify exact wording."
+    },
+    {
+      "id": "GC-29-019",
+      "paragraph": 6,
+      "quote": "And coveting the honor which the infinite Father had bestowed upon His Son, this prince of angels aspired to power which it was the prerogative of Christ alone to wield.",
+      "claim_text": "The text asserts that Lucifer, coveting the honor the Father had bestowed on Christ, aspired to power that was Christ's prerogative alone.",
+      "claim_type": "theological",
+      "entities": ["Lucifer", "Christ", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-020",
+      "paragraph": 7,
+      "quote": "The heavenly councils pleaded with Lucifer.",
+      "claim_text": "The text asserts that the heavenly councils pleaded with Lucifer before his fall.",
+      "claim_type": "theological",
+      "entities": ["Lucifer", "angels"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-021",
+      "paragraph": 7,
+      "quote": "The Son of God presented before him the greatness, the goodness, and the justice of the Creator, and the sacred, unchanging nature of His law.",
+      "claim_text": "The text asserts that the Son of God personally presented to Lucifer the greatness, goodness, and justice of the Creator, and the unchanging nature of His law.",
+      "claim_type": "theological",
+      "entities": ["Christ", "Lucifer", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-022",
+      "paragraph": 7,
+      "quote": "Lucifer allowed jealousy of Christ to prevail, and he became the more determined.",
+      "claim_text": "The text asserts that Lucifer allowed jealousy of Christ to prevail in him, becoming more determined in his course.",
+      "claim_type": "theological",
+      "entities": ["Lucifer", "Christ"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-023",
+      "paragraph": 8,
+      "quote": "Angels delighted to execute his commands, and he was clothed with wisdom and glory above them all.",
+      "claim_text": "The text asserts that angels delighted to execute Lucifer's commands, and that he was clothed with wisdom and glory above them all.",
+      "claim_type": "theological",
+      "entities": ["Lucifer", "angels"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-024",
+      "paragraph": 8,
+      "quote": "Yet the Son of God was the acknowledged Sovereign of heaven, one in power and authority with the Father. In all the counsels of God, Christ was a participant, while Lucifer was not permitted thus to enter into the divine purposes.",
+      "claim_text": "The text asserts that Christ, not Lucifer, was the acknowledged Sovereign of heaven and a participant in all the counsels of God, while Lucifer was not permitted to enter into the divine purposes.",
+      "claim_type": "theological",
+      "entities": ["Christ", "Lucifer", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-025",
+      "paragraph": 8,
+      "quote": "“Why,” questioned this mighty angel, “should Christ have the supremacy? Why is He thus honored above Lucifer?”",
+      "claim_text": "The text presents, as Lucifer's own reasoning, the question of why Christ should have supremacy and be honored above Lucifer.",
+      "claim_type": "theological",
+      "entities": ["Lucifer", "Christ"],
+      "needs_verification": false,
+      "extractor_note": "Presented in quotation marks but is authorial dramatization of Lucifer's inner reasoning, not a footnoted or otherwise externally sourced quotation; not checkable as an attributed historical quote."
+    },
+    {
+      "id": "GC-29-026",
+      "paragraph": 9,
+      "quote": "Leaving his place in the immediate presence of God, Lucifer went forth to diffuse the spirit of discontent among the angels.",
+      "claim_text": "The text asserts that Lucifer left his place in the immediate presence of God and went forth to diffuse discontent among the angels.",
+      "claim_type": "theological",
+      "entities": ["Lucifer", "God", "angels"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-027",
+      "paragraph": 9,
+      "quote": "Working with mysterious secrecy, and for a time concealing his real purpose under an appearance of reverence for God, he endeavored to excite dissatisfaction concerning the laws that governed heavenly beings, intimating that they imposed an unnecessary restraint.",
+      "claim_text": "The text asserts that Lucifer worked secretly, concealing his purpose under an appearance of reverence for God, to excite dissatisfaction concerning the laws governing heavenly beings.",
+      "claim_type": "theological",
+      "entities": ["Lucifer", "God", "angels"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-028",
+      "paragraph": 9,
+      "quote": "He sought to create sympathy for himself, by representing that God had dealt unjustly with him in bestowing supreme honor upon Christ.",
+      "claim_text": "The text asserts that Lucifer sought sympathy by representing that God had dealt unjustly with him in bestowing supreme honor upon Christ.",
+      "claim_type": "theological",
+      "entities": ["Lucifer", "God", "Christ"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-029",
+      "paragraph": 10,
+      "quote": "God, in His great mercy, bore long with Lucifer.",
+      "claim_text": "The text asserts that God, in mercy, bore long with Lucifer before expelling him.",
+      "claim_type": "theological",
+      "entities": ["God", "Lucifer"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-030",
+      "paragraph": 10,
+      "quote": "Again and again he was offered pardon, on condition of repentance and submission.",
+      "claim_text": "The text asserts that Lucifer was repeatedly offered pardon on condition of repentance and submission.",
+      "claim_type": "theological",
+      "entities": ["Lucifer", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-031",
+      "paragraph": 10,
+      "quote": "But pride forbade him to submit. He persistently defended his own course, maintained that he had no need of repentance, and fully committed himself, in the great controversy, against his Maker.",
+      "claim_text": "The text asserts that pride prevented Lucifer from submitting, that he persistently defended his own course, denied any need of repentance, and fully committed himself against his Maker.",
+      "claim_type": "theological",
+      "entities": ["Lucifer", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-032",
+      "paragraph": 11,
+      "quote": "Satan had represented that he was wrongly judged, that his position was not respected, and that his liberty was to be abridged.",
+      "claim_text": "The text asserts that Satan represented to sympathetic angels that he was wrongly judged, disrespected, and about to have his liberty abridged.",
+      "claim_type": "theological",
+      "entities": ["Satan", "angels"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-033",
+      "paragraph": 11,
+      "quote": "From misrepresentation of the words of Christ, he passed to prevarication and direct falsehood, accusing the Son of God of a design to humiliate him before the inhabitants of heaven.",
+      "claim_text": "The text asserts that Satan progressed from misrepresenting Christ's words to direct falsehood, accusing Christ of intending to humiliate him before the inhabitants of heaven.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Christ"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-034",
+      "paragraph": 11,
+      "quote": "His high position, in such close connection with the divine administration, gave greater force to his representations, and many were induced to unite with him in rebellion against Heaven’s authority.",
+      "claim_text": "The text asserts that Satan's high position gave force to his representations, inducing many angels to join his rebellion against Heaven's authority.",
+      "claim_type": "theological",
+      "entities": ["Satan", "angels"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-035",
+      "paragraph": 12,
+      "quote": "God in His wisdom permitted Satan to carry forward his work, until the spirit of disaffection ripened into active revolt.",
+      "claim_text": "The text asserts that God in wisdom permitted Satan to carry forward his work until disaffection ripened into active revolt.",
+      "claim_type": "theological",
+      "entities": ["God", "Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-036",
+      "paragraph": 12,
+      "quote": "Satan thought that if he could carry the angels of heaven with him in rebellion, he could carry also the other worlds.",
+      "claim_text": "The text asserts that Satan believed that if he could bring the angels of heaven into rebellion with him, he could also bring other inhabited worlds into rebellion.",
+      "claim_type": "theological",
+      "entities": ["Satan", "angels"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-037",
+      "paragraph": 13,
+      "quote": "Satan had, at first, concealed his work under a specious profession of loyalty to God.",
+      "claim_text": "The text asserts that Satan initially concealed his rebellious work under a specious profession of loyalty to God.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-038",
+      "paragraph": 14,
+      "quote": "Satan could use what God could not—flattery and deceit.",
+      "claim_text": "The text asserts that Satan could use flattery and deceit, means God could not use.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-039",
+      "paragraph": 14,
+      "quote": "He had sought to falsify the word of God, and had misrepresented His plan of government before the angels, claiming that God was not just in laying laws and rules upon the inhabitants of heaven; that in requiring submission and obedience from His creatures, He was seeking merely the exaltation of Himself.",
+      "claim_text": "The text asserts that Satan falsified the word of God and misrepresented His plan of government before the angels, claiming God was unjust and sought only self-exaltation in requiring submission and obedience.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God", "angels"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-040",
+      "paragraph": 15,
+      "quote": "The discord which his own course had caused in heaven, Satan charged upon the law and government of God.",
+      "claim_text": "The text asserts that Satan charged upon God's law and government the discord that his own course had caused in heaven.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-041",
+      "paragraph": 16,
+      "quote": "Even when it was decided that he could no longer remain in heaven, Infinite Wisdom did not destroy Satan.",
+      "claim_text": "The text asserts that even after it was decided Satan could no longer remain in heaven, God did not immediately destroy him.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-042",
+      "paragraph": 16,
+      "quote": "Evil must be permitted to come to maturity.",
+      "claim_text": "The text asserts that evil had to be permitted to come to maturity before it could be justly and safely eradicated.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-043",
+      "paragraph": 17,
+      "quote": "Satan’s rebellion was to be a lesson to the universe through all coming ages, a perpetual testimony to the nature and terrible results of sin.",
+      "claim_text": "The text asserts that Satan's rebellion was intended to be a lesson to the universe through all coming ages and a perpetual testimony to the nature and results of sin.",
+      "claim_type": "theological",
+      "entities": ["Satan", "universe"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-044",
+      "paragraph": 18,
+      "quote": "When it was announced that with all his sympathizers he must be expelled from the abodes of bliss, then the rebel leader boldly avowed his contempt for the Creator’s law.",
+      "claim_text": "The text asserts that when Satan's expulsion from heaven with his sympathizers was announced, he openly avowed contempt for the Creator's law.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-045",
+      "paragraph": 19,
+      "quote": "With one accord, Satan and his host threw the blame of their rebellion wholly upon Christ, declaring that if they had not been reproved, they would never have rebelled.",
+      "claim_text": "The text asserts that Satan and his followers blamed their rebellion wholly on Christ, claiming they would never have rebelled had they not been reproved.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Christ", "angels"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-046",
+      "paragraph": 19,
+      "quote": "the arch-rebel and all his sympathizers were at last banished from heaven.",
+      "claim_text": "The text asserts that Satan and all his sympathizers were ultimately banished from heaven.",
+      "claim_type": "theological",
+      "entities": ["Satan", "angels"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-047",
+      "paragraph": 20,
+      "quote": "The same spirit that prompted rebellion in heaven, still inspires rebellion on earth.",
+      "claim_text": "The text asserts that the same spirit that prompted Satan's rebellion in heaven still inspires rebellion on earth.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-048",
+      "paragraph": 20,
+      "quote": "From the days of righteous Abel to our own time, such is the spirit which has been displayed toward those who dare to condemn sin.",
+      "claim_text": "The text asserts that from the time of the biblical figure Abel to the present, this same hostile spirit has been displayed toward those who condemn sin.",
+      "claim_type": "interpretive",
+      "entities": ["Abel", "Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-049",
+      "paragraph": 21,
+      "quote": "By the same misrepresentation of the character of God as he had practised in heaven, causing Him to be regarded as severe and tyrannical, Satan induced man to sin.",
+      "claim_text": "The text asserts that Satan induced man to sin using the same misrepresentation of God's character (as severe and tyrannical) that he had used in heaven.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-050",
+      "paragraph": 21,
+      "quote": "And having succeeded thus far, he declared that God’s unjust restrictions had led to man’s fall, as they had led to his own rebellion.",
+      "claim_text": "The text asserts that Satan, having induced man's fall, declared that God's unjust restrictions had caused both man's fall and his own rebellion.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-051",
+      "paragraph": 22,
+      "quote": "“The Lord God, merciful and gracious, long-suffering, and abundant in goodness and truth, keeping mercy for thousands, forgiving iniquity and transgression and sin, and that will by no means clear the guilty.”(883)",
+      "claim_text": "The text quotes Scripture (footnote 883) describing the Lord God as merciful, gracious, long-suffering, abundant in goodness and truth, keeping mercy for thousands, forgiving iniquity, transgression and sin, and one who will by no means clear the guilty.",
+      "claim_type": "attributed_quote",
+      "entities": ["God", "Bible"],
+      "needs_verification": true,
+      "extractor_note": "Footnote 883 in the 1911 edition; tentatively Exodus 34:6-7 (KJV). Verify exact wording."
+    },
+    {
+      "id": "GC-29-052",
+      "paragraph": 23,
+      "quote": "In the banishment of Satan from heaven, God declared His justice, and maintained the honor of His throne.",
+      "claim_text": "The text asserts that in banishing Satan from heaven God declared His justice and maintained the honor of His throne.",
+      "claim_type": "theological",
+      "entities": ["God", "Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-053",
+      "paragraph": 23,
+      "quote": "But when man had sinned through yielding to the deceptions of this apostate spirit, God gave an evidence of His love by yielding up His only begotten Son to die for the fallen race.",
+      "claim_text": "The text asserts that after man sinned by yielding to Satan's deceptions, God gave evidence of His love by giving up His only begotten Son to die for the fallen human race.",
+      "claim_type": "theological",
+      "entities": ["God", "Christ", "Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-054",
+      "paragraph": 23,
+      "quote": "The mighty argument of the cross demonstrates to the whole universe that the course of sin which Lucifer had chosen was in no wise chargeable upon the government of God.",
+      "claim_text": "The text asserts that the cross demonstrates to the whole universe that Lucifer's chosen course of sin was in no way chargeable to God's government.",
+      "claim_type": "theological",
+      "entities": ["Christ", "Lucifer", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-055",
+      "paragraph": 24,
+      "quote": "In the contest between Christ and Satan, during the Saviour’s earthly ministry, the character of the great deceiver was unmasked.",
+      "claim_text": "The text asserts that during Christ's earthly ministry, in the contest between Christ and Satan, Satan's true character was unmasked.",
+      "claim_type": "theological",
+      "entities": ["Christ", "Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-056",
+      "paragraph": 24,
+      "quote": "his presumptuous boldness in bearing Him to the mountain summit and the pinnacle of the temple",
+      "claim_text": "The text refers to the Gospel account of Satan bearing Christ to a mountain summit and the pinnacle of the temple during the temptation narrative.",
+      "claim_type": "theological",
+      "entities": ["Christ", "Satan"],
+      "needs_verification": false,
+      "extractor_note": "Refers to the Gospel temptation narrative (cf. Matthew 4 / Luke 4); logged as theological given the supernatural framing, though the underlying Gospel text itself is checkable for quote fidelity if the verifier wishes."
+    },
+    {
+      "id": "GC-29-057",
+      "paragraph": 24,
+      "quote": "at the last to cry, “Crucify Him! crucify Him!”",
+      "claim_text": "The text quotes the crowd's cry 'Crucify Him! crucify Him!' regarding Jesus, attributed to priests and people incited against Christ.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Christ"],
+      "needs_verification": true,
+      "extractor_note": "Unnumbered scriptural allusion; tentatively Luke 23:21 / John 19:6 (KJV). Verify exact wording."
+    },
+    {
+      "id": "GC-29-058",
+      "paragraph": 25,
+      "quote": "It was Satan that prompted the world’s rejection of Christ.",
+      "claim_text": "The text asserts that Satan prompted the world's rejection of Christ.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Christ"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-059",
+      "paragraph": 25,
+      "quote": "Satan contested every claim put forth by the Son of God, and employed men as his agents to fill the Saviour’s life with suffering and sorrow.",
+      "claim_text": "The text asserts that Satan contested every claim of Christ and used human agents to fill Christ's life with suffering and sorrow.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Christ"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-060",
+      "paragraph": 26,
+      "quote": "“I will that they also, whom Thou hast given Me, be with Me where I am.”(884)",
+      "claim_text": "The text quotes Christ (footnote 884), before ascending, requesting that those given to Him also be with Him where He is.",
+      "claim_type": "attributed_quote",
+      "entities": ["Christ", "Bible"],
+      "needs_verification": true,
+      "extractor_note": "Footnote 884; tentatively John 17:24 (KJV). Verify exact wording."
+    },
+    {
+      "id": "GC-29-061",
+      "paragraph": 26,
+      "quote": "“Let all the angels of God worship Him.”(885)",
+      "claim_text": "The text quotes Scripture (footnote 885) as the Father's answer commanding all the angels of God to worship Christ.",
+      "claim_type": "attributed_quote",
+      "entities": ["God", "Christ", "angels", "Bible"],
+      "needs_verification": true,
+      "extractor_note": "Footnote 885; tentatively Hebrews 1:6 (KJV). Verify exact wording."
+    },
+    {
+      "id": "GC-29-062",
+      "paragraph": 27,
+      "quote": "He had revealed his true character as a liar and a murderer.",
+      "claim_text": "The text asserts that Satan revealed his true character as a liar and a murderer.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-063",
+      "paragraph": 27,
+      "quote": "He had claimed that the transgression of God’s law would bring liberty and exaltation; but it was seen to result in bondage and degradation.",
+      "claim_text": "The text asserts that Satan's claim that transgressing God's law would bring liberty and exaltation was shown to instead result in bondage and degradation.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-064",
+      "paragraph": 28,
+      "quote": "He had accused God of seeking merely the exaltation of Himself in requiring submission and obedience from His creatures, and had declared that while the Creator exacted self-denial from all others, He Himself practised no self-denial and made no sacrifice.",
+      "claim_text": "The text asserts that Satan accused God of seeking self-exaltation in requiring obedience, and claimed God exacted self-denial from others while practicing none Himself.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-065",
+      "paragraph": 28,
+      "quote": "“God was in Christ, reconciling the world unto Himself.”(886)",
+      "claim_text": "The text quotes Scripture (footnote 886) stating that God was in Christ, reconciling the world unto Himself.",
+      "claim_type": "attributed_quote",
+      "entities": ["God", "Christ", "Bible"],
+      "needs_verification": true,
+      "extractor_note": "Footnote 886; tentatively 2 Corinthians 5:19 (KJV). Verify exact wording."
+    },
+    {
+      "id": "GC-29-066",
+      "paragraph": 28,
+      "quote": "It was seen, also, that while Lucifer had opened the door for the entrance of sin, by his desire for honor and supremacy, Christ had, in order to destroy sin, humbled Himself, and become obedient unto death.",
+      "claim_text": "The text asserts that Lucifer opened the door to sin through desire for honor and supremacy, while Christ, to destroy sin, humbled Himself and became obedient unto death.",
+      "claim_type": "theological",
+      "entities": ["Lucifer", "Christ"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-067",
+      "paragraph": 29,
+      "quote": "Lucifer had declared that if the law of God was changeless, and its penalty could not be remitted, every transgressor must be forever debarred from the Creator’s favor.",
+      "claim_text": "The text asserts that Lucifer had declared that if God's law was changeless and its penalty could not be remitted, every transgressor would be forever debarred from the Creator's favor.",
+      "claim_type": "theological",
+      "entities": ["Lucifer", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-068",
+      "paragraph": 29,
+      "quote": "The penalty of the law fell upon Him who was equal with God, and man was free to accept the righteousness of Christ, and by a life of penitence and humiliation to triumph, as the Son of God had triumphed, over the power of Satan.",
+      "claim_text": "The text asserts that the law's penalty fell upon Christ, who was equal with God, freeing man to accept Christ's righteousness and triumph over Satan's power as Christ had triumphed.",
+      "claim_type": "theological",
+      "entities": ["Christ", "God", "Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-069",
+      "paragraph": 30,
+      "quote": "He came to “magnify the law” and to “make it honorable.”",
+      "claim_text": "The text quotes Scripture describing Christ's purpose as being to 'magnify the law' and 'make it honorable.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Christ", "Bible"],
+      "needs_verification": true,
+      "extractor_note": "Unnumbered scriptural allusion; tentatively Isaiah 42:21 (KJV). Verify exact wording."
+    },
+    {
+      "id": "GC-29-070",
+      "paragraph": 30,
+      "quote": "The death of Christ proves it immutable.",
+      "claim_text": "The text asserts that Christ's death proves God's law immutable.",
+      "claim_type": "theological",
+      "entities": ["Christ", "God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-071",
+      "paragraph": 31,
+      "quote": "When the Judge of all the earth shall demand of Satan, “Why hast thou rebelled against Me, and robbed Me of the subjects of My kingdom?” the originator of evil can render no excuse.",
+      "claim_text": "The text asserts that in the final judgment God will demand of Satan why he rebelled and robbed Him of the subjects of His kingdom, and that Satan will be able to render no excuse.",
+      "claim_type": "theological",
+      "entities": ["God", "Satan"],
+      "needs_verification": false,
+      "extractor_note": "Presented in quotation marks but is an authorial dramatization of a future eschatological scene, not a footnoted or otherwise externally sourced quotation."
+    },
+    {
+      "id": "GC-29-072",
+      "paragraph": 32,
+      "quote": "In the Saviour’s expiring cry, “It is finished,” the death-knell of Satan was rung.",
+      "claim_text": "The text quotes Christ's dying words 'It is finished' and asserts that in this cry the death-knell of Satan was rung.",
+      "claim_type": "attributed_quote",
+      "entities": ["Christ", "Satan", "Bible"],
+      "needs_verification": true,
+      "extractor_note": "Unnumbered scriptural quotation of Christ's last words; tentatively John 19:30 (KJV). Verify exact wording; the interpretive claim about Satan's death-knell being 'rung' is theological and unverifiable, but the quotation itself is checkable."
+    },
+    {
+      "id": "GC-29-073",
+      "paragraph": 32,
+      "quote": "that “through death He might destroy him that had the power of death, that is, the devil.”(887)",
+      "claim_text": "The text quotes Scripture (footnote 887) stating that Christ, through death, might destroy him that had the power of death, that is, the devil.",
+      "claim_type": "attributed_quote",
+      "entities": ["Christ", "Satan", "Bible"],
+      "needs_verification": true,
+      "extractor_note": "Footnote 887; tentatively Hebrews 2:14 (KJV). Verify exact wording."
+    },
+    {
+      "id": "GC-29-074",
+      "paragraph": 32,
+      "quote": "God declares, “I will bring thee to ashes upon the earth, ... and never shalt thou be any more.”(888)",
+      "claim_text": "The text quotes God (footnote 888) declaring that Lucifer/Satan will be brought to ashes upon the earth and never be any more.",
+      "claim_type": "attributed_quote",
+      "entities": ["God", "Lucifer", "Bible"],
+      "needs_verification": true,
+      "extractor_note": "Footnote 888; tentatively Ezekiel 28:18-19 (KJV). Verify exact wording."
+    },
+    {
+      "id": "GC-29-075",
+      "paragraph": 32,
+      "quote": "When “the day cometh, that shall burn as an oven, ... all the proud, yea, and all that do wickedly, shall be stubble: and the day that cometh shall burn them up, saith the Lord of hosts, that it shall leave them neither root nor branch.”(889)",
+      "claim_text": "The text quotes Scripture (footnote 889), attributed to 'the Lord of hosts,' declaring a coming day that shall burn as an oven, in which the proud and wicked shall be as stubble, burned up, leaving neither root nor branch.",
+      "claim_type": "attributed_quote",
+      "entities": ["God", "Bible"],
+      "needs_verification": true,
+      "extractor_note": "Footnote 889; tentatively Malachi 4:1 (KJV). Verify exact wording."
+    },
+    {
+      "id": "GC-29-076",
+      "paragraph": 33,
+      "quote": "Says the word of God, “Affliction shall not rise up the second time.”(890)",
+      "claim_text": "The text quotes Scripture (footnote 890) declaring that affliction shall not rise up the second time.",
+      "claim_type": "attributed_quote",
+      "entities": ["God", "Bible"],
+      "needs_verification": true,
+      "extractor_note": "Footnote 890; tentatively Nahum 1:9 (KJV). Verify exact wording."
+    },
+    {
+      "id": "GC-29-077",
+      "paragraph": 33,
+      "quote": "Never will evil again be manifest.",
+      "claim_text": "The text asserts that evil will never again be manifest after its final eradication.",
+      "claim_type": "theological",
+      "entities": ["God", "Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-29-078",
+      "paragraph": 33,
+      "quote": "The law of God, which Satan has reproached as the yoke of bondage, will be honored as the law of liberty.",
+      "claim_text": "The text asserts that God's law, which Satan reproached as a yoke of bondage, will ultimately be honored as the law of liberty.",
+      "claim_type": "theological",
+      "entities": ["God", "Satan"],
+      "needs_verification": false
+    }
+  ]
+}
