@@ -1,0 +1,1802 @@
+{
+  "chapter": 16,
+  "chapter_title": "The Pilgrim Fathers",
+  "stage": "verification",
+  "generated_at": "2026-07-05",
+  "notes": "Verification pass. searches: ~10, clusters: 7 (A: Church of England retained forms; B: Separatist flight to Holland / Scrooby congregation; C: John Robinson & the Pilgrims' farewell; D: Massachusetts Bay church-state; E: Roger Williams; F: US founding documents; G: colonial growth). Not a doctrinally-central chapter per the escalation list (no Sabbath/Sunday, papal authority, Inquisition, medieval Bible access, or Millerite content), so encyclopedic + primary sources suffice; no source_quality note required. Control sample of 3 needs_verification:false claims: GC-16-046, GC-16-086, GC-16-089 (each smuggles a factual anchor into an interpretive statement). Interpretive/theological claims not in scope processed as unverifiable per pipeline rule.",
+  "claims": [
+    {
+      "id": "GC-16-001",
+      "paragraph": 1,
+      "quote": "The English Reformers, while renouncing the doctrines of Romanism, had retained many of its forms.",
+      "claim_text": "The English Reformers renounced the doctrines of Romanism but retained many of its forms.",
+      "claim_type": "event",
+      "entities": ["English Reformers", "Church of England", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Elizabethan Settlement / via media is standard historiography: the Church of England rejected Roman doctrine and papal authority while retaining episcopacy, vestments, set liturgy and ceremonial forms. This was the substance of the Puritan complaint.",
+        "modern_consensus": "The English Reformation preserved much Catholic ceremonial and structure, which Puritans sought to purge.",
+        "sources": [
+          {"title": "Puritan migration to New England (1620–1640) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Puritan_migration_to_New_England_(1620%E2%80%931640)", "source_class": "encyclopedia", "supports_verdict": true, "note": "Puritans objected to retained Catholic forms in the Church of England."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-002",
+      "paragraph": 1,
+      "quote": "Thus though the authority and the creed of Rome were rejected, not a few of her customs and ceremonies were incorporated into the worship of the Church of England.",
+      "claim_text": "The Church of England rejected the authority and creed of the Roman Catholic Church but incorporated many of its customs and ceremonies into its worship.",
+      "claim_type": "event",
+      "entities": ["Church of England", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Restates GC-16-001; the retention of Roman ceremonies (surplice, sign of the cross, kneeling, set feasts) within the reformed English liturgy is uncontested textbook history.",
+        "modern_consensus": "The Church of England's worship retained Catholic ceremonial elements after rejecting papal authority and doctrine.",
+        "sources": [
+          {"title": "Puritan migration to New England (1620–1640) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Puritan_migration_to_New_England_(1620%E2%80%931640)", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-003",
+      "paragraph": 1,
+      "quote": "It was claimed that these things were not matters of conscience; that though they were not commanded in Scripture, and hence were non-essential, yet not being forbidden, they were not intrinsically evil.",
+      "claim_text": "Defenders of the Church of England's retained Roman Catholic customs argued that these customs were not matters of conscience and, being neither commanded nor forbidden in Scripture, were not intrinsically evil.",
+      "claim_type": "event",
+      "entities": ["Church of England"],
+      "needs_verification": true,
+      "extractor_note": "Describes a historical argument attributed to unnamed defenders of retained customs; checkable against period apologetic/controversial literature.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "This is an accurate summary of the conformist 'adiaphora' (things indifferent) argument used by Whitgift and Hooker against Puritan objectors: ceremonies neither commanded nor forbidden in Scripture are indifferent and lawfully ordered by the church. The characterization matches documented Elizabethan controversial literature.",
+        "modern_consensus": "The defense of retained ceremonies rested on the doctrine of adiaphora / things indifferent.",
+        "sources": [
+          {"title": "Puritan migration to New England (1620–1640) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Puritan_migration_to_New_England_(1620%E2%80%931640)", "source_class": "encyclopedia", "supports_verdict": true, "note": "Vestments/ceremonies controversy framed as things indifferent by conformists."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-004",
+      "paragraph": 1,
+      "quote": "Their observance tended to narrow the gulf which separated the reformed churches from Rome, and it was urged that they would promote the acceptance of the Protestant faith by Romanists.",
+      "claim_text": "Defenders of retaining Roman Catholic customs in the Church of England argued that doing so would narrow the gulf between the reformed churches and Rome and promote acceptance of the Protestant faith among Roman Catholics.",
+      "claim_type": "causal",
+      "entities": ["Church of England"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Consistent with the conformist rationale for a broadly Catholic-in-form national church as a comprehending, unifying settlement. A reasonable summary of documented arguments; the specific causal claim is a characterization of period apologetics rather than a discrete verifiable event.",
+        "modern_consensus": "Conformists defended retained ceremonies partly as aids to comprehension of a wide populace.",
+        "sources": [
+          {"title": "Puritan migration to New England (1620–1640) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Puritan_migration_to_New_England_(1620%E2%80%931640)", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-005",
+      "paragraph": 2,
+      "quote": "The fact that these customs “tended to bridge over the chasm between Rome and the Reformation,”(430) was in their view a conclusive argument against retaining them.",
+      "claim_text": "A source cited in footnote 430 describes the retained Roman Catholic customs in the Church of England as tending 'to bridge over the chasm between Rome and the Reformation.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Church of England"],
+      "needs_verification": true,
+      "extractor_note": "Source of footnote 430 is not identified in the chapter body; verifier should consult the 1911 Appendix reference list.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The phrase traces to one of White's standard 19th-century Pilgrim/Puritan sources (in the 1911 Appendix apparatus, chapter 16 quotations of this kind derive from Martyn's 'Life and Times of John Robinson' and Neal's 'History of the Puritans'). Not independently located within budget, but consistent with those works; no evidence the quotation is inaccurate, so no accusatory verdict.",
+        "sources": [
+          {"title": "John Robinson (pastor) — Wikipedia", "url": "https://en.wikipedia.org/wiki/John_Robinson_(pastor)", "source_class": "encyclopedia", "supports_verdict": true, "note": "Confirms the Separatist/Robinson literature White drew upon; exact fn430 phrase not independently located."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-006",
+      "paragraph": 2,
+      "quote": "They looked upon them as badges of the slavery from which they had been delivered, and to which they had no disposition to return.",
+      "claim_text": "Puritans who opposed the retained Roman Catholic customs regarded them as badges of a slavery from which they had been delivered.",
+      "claim_type": "interpretive",
+      "entities": ["Puritans"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive characterization of Puritan attitudes framed in the author's rhetoric; not an independently checkable factual proposition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-007",
+      "paragraph": 2,
+      "quote": "They reasoned that God has in His word established the regulations governing His worship, and that men are not at liberty to add to these or to detract from them.",
+      "claim_text": "Puritan objectors reasoned that God had established in Scripture the regulations governing His worship, and that men were not free to add to or detract from them.",
+      "claim_type": "event",
+      "entities": ["Puritans"],
+      "needs_verification": true,
+      "extractor_note": "A historical claim about the documented theological reasoning of a group; borderline between event and theological, logged as event since it concerns what the Puritans are recorded as having argued.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "This accurately states the Puritan 'regulative principle of worship': that only what Scripture commands may be included in worship. It is a well-documented and defining Puritan tenet.",
+        "modern_consensus": "The regulative principle of worship is a standard and documented feature of Puritan theology.",
+        "sources": [
+          {"title": "Puritan migration to New England (1620–1640) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Puritan_migration_to_New_England_(1620%E2%80%931640)", "source_class": "encyclopedia", "supports_verdict": true, "note": "Puritan insistence that worship follow only scriptural warrant."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-008",
+      "paragraph": 2,
+      "quote": "The very beginning of the great apostasy was in seeking to supplement the authority of God by that of the church.",
+      "claim_text": "The beginning of the 'great apostasy' consisted in seeking to supplement the authority of God with that of the church.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological interpretation of the 'great apostasy'; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-009",
+      "paragraph": 2,
+      "quote": "Rome began by enjoining what God had not forbidden, and she ended by forbidding what He had explicitly enjoined.",
+      "claim_text": "The Roman Catholic Church began by enjoining practices God had not forbidden and ended by forbidding practices God had explicitly commanded.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Polemical-theological generalization about Rome's development; not a discrete empirical claim.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-010",
+      "paragraph": 3,
+      "quote": "Many earnestly desired to return to the purity and simplicity which characterized the primitive church.",
+      "claim_text": "Many English dissenters desired to return to the purity and simplicity that characterized the primitive Christian church.",
+      "claim_type": "interpretive",
+      "entities": ["Puritans"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive characterization of dissenters' aspirations; not independently checkable as stated.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-011",
+      "paragraph": 3,
+      "quote": "They regarded many of the established customs of the English Church as monuments of idolatry, and they could not in conscience unite in her worship.",
+      "claim_text": "Puritan dissenters regarded many established customs of the Church of England as monuments of idolatry and could not in conscience unite in its worship.",
+      "claim_type": "interpretive",
+      "entities": ["Puritans", "Church of England"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive characterization of Puritan/Separatist conscience; framed in the author's rhetoric rather than as a checkable fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-012",
+      "paragraph": 3,
+      "quote": "But the church, being supported by the civil authority, would permit no dissent from her forms.",
+      "claim_text": "The Church of England, supported by civil authority, permitted no dissent from its established forms of worship.",
+      "claim_type": "event",
+      "entities": ["Church of England", "England"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The established church was enforced by statute (Acts of Uniformity, High Commission), and nonconformity/separatism was prosecuted by civil and ecclesiastical courts. Standard history.",
+        "modern_consensus": "The Elizabethan/Jacobean established church suppressed dissent through civil enforcement.",
+        "sources": [
+          {"title": "Scrooby Congregation — Wikipedia", "url": "https://en.wikipedia.org/wiki/Scrooby_Congregation", "source_class": "encyclopedia", "supports_verdict": true, "note": "Separatists persecuted for refusing conformity to the established church."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-013",
+      "paragraph": 3,
+      "quote": "Attendance upon her service was required by law, and unauthorized assemblies for religious worship were prohibited, under penalty of imprisonment, exile, and death.",
+      "claim_text": "English law required attendance at Church of England services and prohibited unauthorized religious assemblies under penalty of imprisonment, exile, or death.",
+      "claim_type": "event",
+      "entities": ["England", "Church of England"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The Act of Uniformity (1559) required church attendance under fine; the 1593 Act against Seditious Sectaries prescribed imprisonment and abjuration of the realm (exile) for obstinate Separatists, and Separatist leaders Henry Barrow and John Greenwood were executed in 1593. Thus imprisonment, exile, and death were all real penalties, though death applied to the most obstinate leaders rather than to ordinary attendance offenders.",
+        "modern_consensus": "Recusancy/nonconformity carried fines and imprisonment; obstinate Separatism could bring banishment or, for leaders, execution (Barrow, Greenwood, 1593).",
+        "sources": [
+          {"title": "Scrooby Congregation — Wikipedia", "url": "https://en.wikipedia.org/wiki/Scrooby_Congregation", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Pilgrims (Plymouth Colony) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Pilgrims_(Plymouth_Colony)", "source_class": "encyclopedia", "supports_verdict": true, "note": "Persecution of Separatists under Elizabethan/Jacobean law."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-014",
+      "paragraph": 4,
+      "quote": "At the opening of the seventeenth century the monarch who had just ascended the throne of England declared his determination to make the Puritans “conform, or ... harry them out of the land, or else worse.”(431)",
+      "claim_text": "King James I of England, upon ascending the throne at the opening of the seventeenth century (1603), declared his determination to make the Puritans 'conform, or ... harry them out of the land, or else worse.'",
+      "claim_type": "attributed_quote",
+      "entities": ["James I", "England", "Puritans"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "At the Hampton Court Conference (January 1604), James I said of the Puritans: 'I will make them conform themselves, or else I will harry them out of the land, or else do worse.' The GC rendering matches the well-attested quotation; James acceded in 1603, 'at the opening of the seventeenth century.'",
+        "modern_consensus": "The 'harry them out of the land' declaration at Hampton Court (1604) is a standard, documented James I quotation.",
+        "sources": [
+          {"title": "James I of England — libquotes (Hampton Court, 1604)", "url": "https://libquotes.com/james-i/quote/lbt8d4n", "source_class": "other", "supports_verdict": true},
+          {"title": "King James I, Colonial America — American History Central", "url": "https://www.americanhistorycentral.com/entries/king-james-i-colonial-america/", "source_class": "encyclopedia", "supports_verdict": true, "note": "Hampton Court 'harry them out of the land' declaration."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-015",
+      "paragraph": 4,
+      "quote": "Hunted, persecuted, and imprisoned, they could discern in the future no promise of better days, and many yielded to the conviction that for such as would serve God according to the dictates of their conscience, “England was ceasing forever to be a habitable place.”(432)",
+      "claim_text": "A source cited in footnote 432 records that persecuted Puritans came to believe that 'England was ceasing forever to be a habitable place' for those who would serve God according to conscience.",
+      "claim_type": "attributed_quote",
+      "entities": ["Puritans", "England"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Traces to White's standard 19th-century source apparatus for this chapter (Martyn's 'Life and Times of John Robinson'). Not independently located within budget; the underlying situation (Separatists concluding England was untenable and resolving to emigrate) is well documented, and no evidence the quotation is inaccurate.",
+        "sources": [
+          {"title": "Scrooby Congregation — Wikipedia", "url": "https://en.wikipedia.org/wiki/Scrooby_Congregation", "source_class": "encyclopedia", "supports_verdict": true, "note": "Separatists resolved to leave England for Holland due to persecution; exact fn432 phrase not independently located."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-016",
+      "paragraph": 4,
+      "quote": "They were at last determined to seek refuge in Holland.",
+      "claim_text": "Persecuted English Puritans determined to seek refuge in Holland.",
+      "claim_type": "event",
+      "entities": ["Puritans", "Holland"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Scrooby Separatist congregation resolved to emigrate to the tolerant Dutch Republic in 1607–1608. Standard Pilgrim history.",
+        "modern_consensus": "The Scrooby congregation determined to flee to Holland to escape persecution.",
+        "sources": [
+          {"title": "Scrooby Congregation — Wikipedia", "url": "https://en.wikipedia.org/wiki/Scrooby_Congregation", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-017",
+      "paragraph": 4,
+      "quote": "Difficulties, losses, and imprisonment were encountered. Their purposes were thwarted, and they were betrayed into the hands of their enemies.",
+      "claim_text": "The Puritans attempting to emigrate to Holland encountered difficulties, losses, and imprisonment, and were betrayed into the hands of their enemies.",
+      "claim_type": "event",
+      "entities": ["Puritans"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The first emigration attempt (winter 1607–08) at Boston, Lincolnshire, failed when the ship's master betrayed the group to the authorities; several were imprisoned. Documented history.",
+        "modern_consensus": "The 1607 Boston attempt was betrayed by the ship's captain and members were imprisoned.",
+        "sources": [
+          {"title": "Scrooby Congregation — Wikipedia", "url": "https://en.wikipedia.org/wiki/Scrooby_Congregation", "source_class": "encyclopedia", "supports_verdict": true, "note": "Betrayal by the ship's master at Boston, 1607; imprisonment."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-018",
+      "paragraph": 4,
+      "quote": "But steadfast perseverance finally conquered, and they found shelter on the friendly shores of the Dutch Republic.",
+      "claim_text": "The Puritans eventually succeeded in finding shelter in the Dutch Republic (Holland).",
+      "claim_type": "event",
+      "entities": ["Puritans", "Dutch Republic"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The second attempt (1608) succeeded; by late 1608 the congregation reached Amsterdam, then moved to Leiden in 1609. Standard history.",
+        "modern_consensus": "The Scrooby congregation reached the Dutch Republic (Amsterdam then Leiden) in 1608–1609.",
+        "sources": [
+          {"title": "Scrooby Congregation — Wikipedia", "url": "https://en.wikipedia.org/wiki/Scrooby_Congregation", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-019",
+      "paragraph": 5,
+      "quote": "In their flight they had left their houses, their goods, and their means of livelihood. They were strangers in a strange land, among a people of different language and customs.",
+      "claim_text": "The Puritan exiles who fled to Holland left behind their houses, goods, and livelihoods and lived as strangers among a people of different language and customs.",
+      "claim_type": "event",
+      "entities": ["Puritans", "Holland"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The exiles abandoned property in England and settled among Dutch-speakers in Amsterdam and Leiden, a hardship Bradford records. Standard history.",
+        "modern_consensus": "The English Separatists lived as poor foreigners in Dutch cities, in a different language and culture.",
+        "sources": [
+          {"title": "Pilgrims (Plymouth Colony) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Pilgrims_(Plymouth_Colony)", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-020",
+      "paragraph": 5,
+      "quote": "Middle-aged men, who had spent their lives in tilling the soil, had now to learn mechanical trades.",
+      "claim_text": "Middle-aged Puritan exiles in Holland, who had previously worked in agriculture, had to learn mechanical trades to earn a living.",
+      "claim_type": "event",
+      "entities": ["Puritans", "Holland"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "In Leiden the formerly rural congregation entered urban artisan/textile trades to survive, as Bradford records. Standard history.",
+        "modern_consensus": "The Leiden Separatists, previously agricultural, took up urban trades (notably textiles).",
+        "sources": [
+          {"title": "Scrooby Congregation — Wikipedia", "url": "https://en.wikipedia.org/wiki/Scrooby_Congregation", "source_class": "encyclopedia", "supports_verdict": true, "note": "Members entered various artisan trades in Leiden."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-021",
+      "paragraph": 5,
+      "quote": "“They knew they were pilgrims, and looked not much on those things, but lifted up their eyes to heaven, their dearest country, and quieted their spirits.”(433)",
+      "claim_text": "A source cited in footnote 433 states of the Puritan exiles that 'they knew they were pilgrims, and looked not much on those things, but lifted up their eyes to heaven, their dearest country, and quieted their spirits.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Puritans"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "This is William Bradford's celebrated passage in 'Of Plymouth Plantation' (1651): 'they knew they were pilgrims, and looked not much on those things, but lifted up their eyes to the heavens, their dearest country, and quieted their spirits.' GC's wording matches (minor 'heaven'/'the heavens' variance).",
+        "modern_consensus": "The passage is Bradford's, the earliest use of 'pilgrims' for the Mayflower company.",
+        "sources": [
+          {"title": "Pilgrims (Plymouth Colony) — Wikipedia (Bradford, Of Plymouth Plantation)", "url": "https://en.wikipedia.org/wiki/Pilgrims_(Plymouth_Colony)", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "The Life of William Bradford — Pilgrim Hall Museum", "url": "https://www.pilgrimhall.org/william-bradford-kelso/", "source_class": "scholarly_encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-022",
+      "paragraph": 6,
+      "quote": "In the midst of exile and hardship, their love and faith waxed strong.",
+      "claim_text": "The Puritan exiles' love and faith grew stronger amid exile and hardship.",
+      "claim_type": "interpretive",
+      "entities": ["Puritans"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/devotional characterization of the exiles' inner state; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-023",
+      "paragraph": 6,
+      "quote": "His angels were by their side, to encourage and support them.",
+      "claim_text": "God's angels were present with the Puritan exiles to encourage and support them.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural/theological claim (angelic presence); unverifiable by definition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-024",
+      "paragraph": 6,
+      "quote": "And when God’s hand seemed pointing them across the sea, to a land where they might found for themselves a state, and leave to their children the precious heritage of religious liberty, they went forward, without shrinking, in the path of providence.",
+      "claim_text": "God's providence directed the Puritan exiles across the sea to found a state and secure religious liberty for their descendants, and they went forward accordingly.",
+      "claim_type": "theological",
+      "entities": ["Puritans"],
+      "needs_verification": false,
+      "extractor_note": "Embeds the historical claim that the Pilgrims sailed to the New World intending to found a state and secure religious liberty for their descendants; the providential framing is theological, while the underlying voyage/settlement is covered by separate event claims elsewhere in this chapter.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "The providential framing ('God's hand pointing them') is theological and unverifiable. The embedded voyage/settlement fact is covered by separate event claims (GC-16-032, GC-16-037) which are supported.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-025",
+      "paragraph": 7,
+      "quote": "God had permitted trials to come upon His people to prepare them for the accomplishment of His gracious purpose toward them.",
+      "claim_text": "God permitted trials upon the Puritans/Pilgrims to prepare them for the accomplishment of His purpose toward them.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about divine purpose; unverifiable by definition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-026",
+      "paragraph": 7,
+      "quote": "The church had been brought low, that she might be exalted.",
+      "claim_text": "The church was brought low so that it might be exalted.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological interpretation; unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-027",
+      "paragraph": 7,
+      "quote": "God was about to display His power in her behalf, to give to the world another evidence that He will not forsake those who trust in Him.",
+      "claim_text": "God was about to display His power on the church's behalf as evidence that He does not forsake those who trust in Him.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about divine action; unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-028",
+      "paragraph": 7,
+      "quote": "He had overruled events to cause the wrath of Satan and the plots of evil men to advance His glory, and to bring His people to a place of security.",
+      "claim_text": "God overruled events so that Satan's wrath and the plots of evil men advanced His glory and brought His people to a place of security.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about divine overruling and Satanic agency; unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-029",
+      "paragraph": 7,
+      "quote": "Persecution and exile were opening the way to freedom.",
+      "claim_text": "The persecution and exile experienced by the Puritans opened the way to freedom.",
+      "claim_type": "interpretive",
+      "entities": ["Puritans"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive summary tying persecution to eventual liberty; framed as the author's providential reading rather than a discrete checkable fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-030",
+      "paragraph": 8,
+      "quote": "When first constrained to separate from the English Church, the Puritans had joined themselves together by a solemn covenant, as the Lord’s free people, “to walk together in all His ways made known or to be made known to them.”(434)",
+      "claim_text": "When the Puritans first separated from the Church of England, they bound themselves by a solemn covenant, as the Lord's free people, 'to walk together in all His ways made known or to be made known to them.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Puritans", "Church of England"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The Scrooby/Separatist church covenant, as recorded by Bradford, bound members to 'walk in all his ways, made known or to be made known unto them, according to their best endeavours.' GC's rendering matches this well-known covenant formula.",
+        "modern_consensus": "The Separatist covenant to walk in all God's ways 'made known or to be made known' is documented in Bradford.",
+        "sources": [
+          {"title": "Scrooby Congregation — Wikipedia", "url": "https://en.wikipedia.org/wiki/Scrooby_Congregation", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "John Robinson (pastor) — Wikipedia", "url": "https://en.wikipedia.org/wiki/John_Robinson_(pastor)", "source_class": "encyclopedia", "supports_verdict": true, "note": "Robinson's Separatist covenant and progressive-truth teaching."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-031",
+      "paragraph": 8,
+      "quote": "Here was the true spirit of reform, the vital principle of Protestantism.",
+      "claim_text": "The Puritans' covenant to accept ongoing revealed truth represented the true spirit of reform and the vital principle of Protestantism.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Evaluative theological judgment about the 'vital principle of Protestantism'; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-032",
+      "paragraph": 8,
+      "quote": "It was with this purpose that the Pilgrims departed from Holland to find a home in the New World.",
+      "claim_text": "The Pilgrims departed from Holland to find a home in the New World.",
+      "claim_type": "event",
+      "entities": ["Pilgrims", "Holland"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "A portion of the Leiden congregation sailed for North America in 1620 (via the Mayflower), founding Plymouth Colony. Standard, uncontested history.",
+        "modern_consensus": "The Pilgrims left Leiden in 1620 to settle in the New World.",
+        "sources": [
+          {"title": "Pilgrims (Plymouth Colony) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Pilgrims_(Plymouth_Colony)", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-033",
+      "paragraph": 8,
+      "quote": "John Robinson, their pastor, who was providentially prevented from accompanying them, in his farewell address to the exiles said:",
+      "claim_text": "John Robinson, pastor of the Pilgrims, did not accompany them on their voyage to the New World and delivered a farewell address to the departing exiles.",
+      "claim_type": "biographical",
+      "entities": ["John Robinson", "Pilgrims"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "John Robinson, pastor of the Leiden congregation, remained in Leiden with the larger part of the church while a minority sailed in 1620; he gave a farewell address/sermon and died in Leiden in 1625 without ever emigrating. ('Providentially prevented' is White's framing; the underlying fact he did not accompany them is correct.)",
+        "modern_consensus": "Robinson stayed in Leiden and never reached America; he delivered a documented farewell.",
+        "sources": [
+          {"title": "John Robinson (pastor) — Wikipedia", "url": "https://en.wikipedia.org/wiki/John_Robinson_(pastor)", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "John Robinson's Farewell Sermon, July 1620 — Pilgrim Hall Museum", "url": "https://www.pilgrimhall.org/robinsons-farewell-sermon-1620/", "source_class": "scholarly_encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-034",
+      "paragraph": 9,
+      "quote": "“Brethren, we are now erelong to part asunder, and the Lord knoweth whether I shall live ever to see your faces more. But whether the Lord hath appointed it or not, I charge you before God and His blessed angels to follow me no farther than I have followed Christ. If God should reveal anything to you by any other instrument of His, be as ready to receive it as ever you were to receive any truth of my ministry; for I am very confident the Lord hath more truth and light yet to break forth out of His holy word.”(435)",
+      "claim_text": "John Robinson, in his farewell address to the departing Pilgrims, said: 'I charge you before God and His blessed angels to follow me no farther than I have followed Christ... for I am very confident the Lord hath more truth and light yet to break forth out of His holy word.'",
+      "claim_type": "attributed_quote",
+      "entities": ["John Robinson"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Robinson's farewell counsel, as recorded by Edward Winslow ('Hypocrisie Unmasked,' 1646) and reprinted in Young's 'Chronicles of the Pilgrim Fathers' (1841): the charge to 'follow me no farther than I have followed Christ' and the conviction 'the Lord hath more truth and light yet to break forth out of His holy word' are the standard, documented text.",
+        "modern_consensus": "This is the widely reproduced Winslow account of Robinson's farewell.",
+        "sources": [
+          {"title": "Words of John Robinson: Farewell Address — Online Library of Liberty", "url": "https://oll.libertyfund.org/titles/robinson-words-of-john-robinson-robinsons-farewell-address-to-the-pilgrims", "source_class": "primary", "supports_verdict": true, "note": "From Winslow, Hypocrisie Unmasked (1646)."},
+          {"title": "John Robinson's Farewell Sermon, July 1620 — Pilgrim Hall Museum", "url": "https://www.pilgrimhall.org/robinsons-farewell-sermon-1620/", "source_class": "scholarly_encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-035",
+      "paragraph": 10,
+      "quote": "“For my part, I cannot sufficiently bewail the condition of the reformed churches, who are come to a period in religion, and will go at present no farther than the instruments of their reformation. The Lutherans cannot be drawn to go beyond what Luther saw; ... and the Calvinists, you see, stick fast where they were left by that great man of God, who yet saw not all things. This is a misery much to be lamented; for though they were burning and shining lights in their time, yet they penetrated not into the whole counsel of God, but were they now living, would be as willing to embrace further light as that which they first received.”(436)",
+      "claim_text": "John Robinson, in his farewell address, said that Lutherans would not go beyond what Luther saw and that Calvinists remained where 'that great man of God' (Calvin) left them, since neither had penetrated the whole counsel of God.",
+      "claim_type": "attributed_quote",
+      "entities": ["John Robinson", "Martin Luther", "John Calvin"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "This passage is part of the same Winslow-recorded farewell counsel of Robinson, contrasting Lutherans (who 'cannot be drawn to go beyond what Luther saw') and Calvinists (who 'stick fast where they were left by that great man of God'). The text matches the standard reproductions of Winslow's account.",
+        "modern_consensus": "The Lutheran/Calvinist passage is part of the documented Winslow account of Robinson's farewell.",
+        "sources": [
+          {"title": "Words of John Robinson: Farewell Address — Online Library of Liberty", "url": "https://oll.libertyfund.org/titles/robinson-words-of-john-robinson-robinsons-farewell-address-to-the-pilgrims", "source_class": "primary", "supports_verdict": true},
+          {"title": "John Robinson's Farewell Address on JSTOR", "url": "https://www.jstor.org/stable/1507747", "source_class": "academic", "supports_verdict": true, "note": "Scholarly edition of the farewell address text."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-036",
+      "paragraph": 11,
+      "quote": "“Remember your church covenant, in which you have agreed to walk in all the ways of the Lord, made or to be made known unto you. Remember your promise and covenant with God and with one another, to receive whatever light and truth shall be made known to you from His written word; but withal, take heed, I beseech you, what you receive for truth, and compare it and weigh it with other scriptures of truth before you accept it; for it is not possible the Christian world should come so lately out of such thick antichristian darkness, and that full perfection of knowledge should break forth at once.”(437)",
+      "claim_text": "John Robinson, in his farewell address, urged the Pilgrims to compare and weigh any new professed truth against other scriptures before accepting it.",
+      "claim_type": "attributed_quote",
+      "entities": ["John Robinson"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The exhortation to remember the church covenant, receive further light from the written word, yet weigh professed truth against other scriptures, is part of the standard Winslow-recorded farewell counsel of Robinson.",
+        "modern_consensus": "This caution-with-openness passage belongs to the documented Robinson farewell.",
+        "sources": [
+          {"title": "Words of John Robinson: Farewell Address — Online Library of Liberty", "url": "https://oll.libertyfund.org/titles/robinson-words-of-john-robinson-robinsons-farewell-address-to-the-pilgrims", "source_class": "primary", "supports_verdict": true},
+          {"title": "John Robinson's Farewell Sermon — Pilgrim Hall Museum", "url": "https://www.pilgrimhall.org/robinsons-farewell-sermon-1620/", "source_class": "scholarly_encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-037",
+      "paragraph": 12,
+      "quote": "It was the desire for liberty of conscience that inspired the Pilgrims to brave the perils of the long journey across the sea, to endure the hardships and dangers of the wilderness, and with God’s blessing to lay, on the shores of America, the foundation of a mighty nation.",
+      "claim_text": "The Pilgrims' desire for liberty of conscience motivated them to cross the sea, endure the wilderness, and lay the foundation of a new nation in America.",
+      "claim_type": "causal",
+      "entities": ["Pilgrims"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The religious motive (freedom to worship as a covenanted Separatist church) is the standard explanation for the Pilgrims' migration; their Plymouth settlement is broadly regarded as foundational to later American development. Historians note economic and community-preservation motives as well, so the 'liberty of conscience' framing is partial but not inaccurate; 'foundation of a mighty nation' is a retrospective interpretive flourish.",
+        "modern_consensus": "Religious liberty was a central (though not sole) motive for the Pilgrim migration.",
+        "sources": [
+          {"title": "Pilgrims (Plymouth Colony) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Pilgrims_(Plymouth_Colony)", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-038",
+      "paragraph": 12,
+      "quote": "Yet honest and God-fearing as they were, the Pilgrims did not yet comprehend the great principle of religious liberty.",
+      "claim_text": "The Pilgrims, though honest and God-fearing, did not yet comprehend the principle of religious liberty.",
+      "claim_type": "interpretive",
+      "entities": ["Pilgrims"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive judgment about the Pilgrims' understanding; the underlying factual point (that Pilgrims/Puritans did not practice general religious toleration) is supported by other claims in this cluster, but the framing here is evaluative, not a discrete checkable fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-039",
+      "paragraph": 12,
+      "quote": "The freedom which they sacrificed so much to secure for themselves, they were not equally ready to grant to others.",
+      "claim_text": "The Pilgrims were not equally willing to grant to others the religious freedom they had sacrificed so much to secure for themselves.",
+      "claim_type": "interpretive",
+      "entities": ["Pilgrims"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive generalization; though historically defensible (colonial intolerance is well documented), it is framed as evaluative commentary rather than a discrete testable proposition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-040",
+      "paragraph": 12,
+      "quote": "“Very few, even of the foremost thinkers and moralists of the seventeenth century, had any just conception of that grand principle, the outgrowth of the New Testament, which acknowledges God as the sole judge of human faith.”(438)",
+      "claim_text": "A source cited in footnote 438 states that very few, even among the foremost thinkers and moralists of the seventeenth century, had any just conception of the principle that God alone is the judge of human faith.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Quotation traces to White's 19th-century source apparatus (Martyn, 'Life and Times of John Robinson'). Not independently located within budget; the substantive point (that thoroughgoing liberty of conscience was rare in the 17th century) is historically standard, and no evidence the quotation is inaccurate.",
+        "sources": [
+          {"title": "Roger Williams — Britannica", "url": "https://www.britannica.com/biography/Roger-Williams-American-religious-leader", "source_class": "encyclopedia", "supports_verdict": true, "note": "Confirms full liberty of conscience was exceptional in the 17th century; exact fn438 phrase not independently located."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-041",
+      "paragraph": 12,
+      "quote": "The doctrine that God has committed to the church the right to control the conscience, and to define and punish heresy, is one of the most deeply rooted of papal errors.",
+      "claim_text": "The doctrine that God has committed to the church the right to control conscience and to define and punish heresy is one of the most deeply rooted papal errors.",
+      "claim_type": "theological",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/polemical evaluation ('papal errors'); not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-042",
+      "paragraph": 12,
+      "quote": "While the Reformers rejected the creed of Rome, they were not entirely free from her spirit of intolerance.",
+      "claim_text": "The Protestant Reformers, while rejecting the creed of Rome, were not entirely free from Rome's spirit of intolerance.",
+      "claim_type": "interpretive",
+      "entities": ["Protestant Reformers", "Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive generalization about the Reformers; the underlying factual point (Protestant intolerance existed) is historically defensible but this statement is framed as evaluative commentary.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-043",
+      "paragraph": 12,
+      "quote": "Said one of the leading ministers in the colony of Massachusetts Bay: “It was toleration that made the world antichristian; and the church never took harm by the punishment of heretics.”(439)",
+      "claim_text": "A leading minister in the Massachusetts Bay Colony is quoted as having said, 'It was toleration that made the world antichristian; and the church never took harm by the punishment of heretics.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Massachusetts Bay Colony"],
+      "needs_verification": true,
+      "extractor_note": "The minister is not named in the chapter text; commonly identified in GC's own source apparatus as Nathaniel Ward. Verifier should check the Appendix for footnote 439's attribution.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The sentiment and wording are attributed to Nathaniel Ward of Ipswich (Aggawam), Massachusetts, whose anti-toleration tract 'The Simple Cobler of Aggawam in America' (1647) vigorously opposed religious toleration; the quotation is reproduced in 19th-century histories (Bancroft) that White used. Ward's authorship of such anti-toleration statements is well documented; the exact aphorism is the standard rendering of his position.",
+        "modern_consensus": "Nathaniel Ward is the documented Massachusetts minister who opposed toleration in The Simple Cobler of Aggawam (1647).",
+        "sources": [
+          {"title": "Nathaniel Ward, The Simple Cobler of Aggawam in America (1647) — Project Gutenberg", "url": "https://www.gutenberg.org/ebooks/34974", "source_class": "primary", "supports_verdict": true},
+          {"title": "Nathaniel Ward — Britannica", "url": "https://www.britannica.com/biography/Nathaniel-Ward", "source_class": "encyclopedia", "supports_verdict": true, "note": "Ward's satirical rebuke of toleration."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-044",
+      "paragraph": 12,
+      "quote": "The regulation was adopted by the colonists, that only church-members should have a voice in the civil government.",
+      "claim_text": "The Massachusetts Bay Colony adopted a regulation that only church members could have a voice in civil government.",
+      "claim_type": "event",
+      "entities": ["Massachusetts Bay Colony"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "In May 1631 the Massachusetts Bay General Court restricted freemanship (the right to vote and hold office) to members of the colony's churches. This is well documented.",
+        "modern_consensus": "The 1631 Massachusetts law limited the franchise to church members.",
+        "sources": [
+          {"title": "Massachusetts Bay Colony — Wikipedia (1631 freeman law)", "url": "https://en.wikipedia.org/wiki/Massachusetts_Bay_Colony", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Freeman (Thirteen Colonies) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Freeman_(Thirteen_Colonies)", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-045",
+      "paragraph": 12,
+      "quote": "A kind of state church was formed, all the people being required to contribute to the support of the clergy, and the magistrates being authorized to suppress heresy.",
+      "claim_text": "In the Massachusetts Bay Colony, a state church was formed in which all people were required to support the clergy and magistrates were authorized to suppress heresy.",
+      "claim_type": "event",
+      "entities": ["Massachusetts Bay Colony"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Massachusetts Bay established a Congregational church supported by compulsory town rates (taxation for ministerial support), and magistrates enforced religious orthodoxy (banishments of Williams and Hutchinson; later execution of Quakers). Standard history.",
+        "modern_consensus": "Massachusetts Bay was a tax-supported established Congregational order with magisterial enforcement of orthodoxy.",
+        "sources": [
+          {"title": "Massachusetts Bay Colony — Wikipedia", "url": "https://en.wikipedia.org/wiki/Massachusetts_Bay_Colony", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Puritans — The First Amendment Encyclopedia (MTSU)", "url": "https://firstamendment.mtsu.edu/article/puritans/", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Tax-supported Congregational establishment and magisterial enforcement."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-046",
+      "paragraph": 12,
+      "quote": "Thus the secular power was in the hands of the church.",
+      "claim_text": "In the Massachusetts Bay Colony, secular power was effectively held by the church.",
+      "claim_type": "interpretive",
+      "entities": ["Massachusetts Bay Colony"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "CONTROL-SAMPLE check (extractor flagged needs_verification:false as interpretive). The statement smuggles a factual anchor: that in Massachusetts Bay civil power was effectively held by the church. Because the franchise was restricted to church members and magistrates enforced orthodoxy, the colony functioned as a de facto theocracy — the factual core is supported by standard historiography. The extractor's 'interpretive' flag is reasonable (the phrasing is a rhetorical summary), but the smuggled factual assertion checks out.",
+        "modern_consensus": "Massachusetts Bay is standardly described as a theocratic order in which church membership gated civil power.",
+        "sources": [
+          {"title": "Massachusetts Bay Colony — Wikipedia", "url": "https://en.wikipedia.org/wiki/Massachusetts_Bay_Colony", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Puritans — The First Amendment Encyclopedia (MTSU)", "url": "https://firstamendment.mtsu.edu/article/puritans/", "source_class": "scholarly_encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-047",
+      "paragraph": 12,
+      "quote": "It was not long before these measures led to the inevitable result—persecution.",
+      "claim_text": "The church-state measures adopted in the Massachusetts Bay Colony led before long to religious persecution.",
+      "claim_type": "causal",
+      "entities": ["Massachusetts Bay Colony"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The colony's establishment produced documented persecution: banishment of Roger Williams (1635) and Anne Hutchinson (1638), and later the hanging of four Quakers on Boston Common (1659–1661). The causal link between the church-state order and this persecution is standard historiography.",
+        "modern_consensus": "Massachusetts Bay's establishment led to well-documented religious persecution of dissenters.",
+        "sources": [
+          {"title": "Roger Williams Banished — Mass Moments", "url": "https://www.massmoments.org/moment-details/roger-williams-banished.html", "source_class": "scholarly_encyclopedia", "supports_verdict": true},
+          {"title": "Massachusetts Bay Colony — Wikipedia", "url": "https://en.wikipedia.org/wiki/Massachusetts_Bay_Colony", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-048",
+      "paragraph": 13,
+      "quote": "Eleven years after the planting of the first colony, Roger Williams came to the New World.",
+      "claim_text": "Roger Williams arrived in the New World eleven years after the founding of the first Plymouth colony.",
+      "claim_type": "date",
+      "entities": ["Roger Williams", "Plymouth Colony"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Plymouth was founded in 1620; Roger Williams arrived at Boston in February 1631. 1620 + 11 = 1631, so the interval is correct.",
+        "modern_consensus": "Roger Williams reached New England in 1631, eleven years after Plymouth's 1620 founding.",
+        "sources": [
+          {"title": "Roger Williams — Britannica", "url": "https://www.britannica.com/biography/Roger-Williams-American-religious-leader", "source_class": "encyclopedia", "supports_verdict": true, "note": "Arrival 1631."},
+          {"title": "Roger Williams — Wikipedia", "url": "https://en.wikipedia.org/wiki/Roger_Williams", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-049",
+      "paragraph": 13,
+      "quote": "Like the early Pilgrims, he came to enjoy religious freedom; but unlike them, he saw—what so few in his time had yet seen—that this freedom was the inalienable right of all, whatever might be their creed.",
+      "claim_text": "Roger Williams held that religious freedom was the inalienable right of all people regardless of creed.",
+      "claim_type": "biographical",
+      "entities": ["Roger Williams"],
+      "needs_verification": true,
+      "extractor_note": "The comparative judgment 'what so few in his time had yet seen' is a sweeping interpretive claim bundled with the biographical claim about Williams's views.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Williams's advocacy of 'soul liberty' — full liberty of conscience for all, including Jews, Catholics, and non-Christians — is the defining and well-documented feature of his thought. The bundled comparative ('what so few in his time had yet seen') is broadly accurate: comprehensive religious liberty was exceptional in the 1630s.",
+        "modern_consensus": "Roger Williams championed liberty of conscience for all regardless of creed.",
+        "sources": [
+          {"title": "Roger Williams — Wikipedia", "url": "https://en.wikipedia.org/wiki/Roger_Williams", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Roger Williams — Britannica", "url": "https://www.britannica.com/biography/Roger-Williams-American-religious-leader", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-050",
+      "paragraph": 13,
+      "quote": "He was an earnest seeker for truth, with Robinson holding it impossible that all the light from God’s word had yet been received.",
+      "claim_text": "Roger Williams shared with John Robinson the view that not all the light from God's word had yet been received.",
+      "claim_type": "interpretive",
+      "entities": ["Roger Williams", "John Robinson"],
+      "needs_verification": false,
+      "extractor_note": "Ambiguous sentence construction linking Williams to Robinson's progressive-truth doctrine; logged as interpretive characterization rather than a discrete verifiable fact.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive characterization linking Williams to Robinson's progressive-truth doctrine; framed as authorial commentary rather than a discrete checkable proposition. (Both men's openness to further light is separately attested, but this sentence is an interpretive linkage.)",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-051",
+      "paragraph": 13,
+      "quote": "Williams “was the first person in modern Christendom to establish civil government on the doctrine of the liberty of conscience, the equality of opinions before the law.”(440)",
+      "claim_text": "A source cited in footnote 440 states that Roger Williams was the first person in modern Christendom to establish civil government on the doctrine of liberty of conscience and equality of opinions before the law.",
+      "claim_type": "attributed_quote",
+      "entities": ["Roger Williams"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "This is George Bancroft's well-known encomium in his 'History of the United States': Williams 'was the first person in modern Christendom to assert in its plenitude the doctrine of the liberty of conscience, the equality of opinions before the law.' GC's wording closely matches Bancroft, White's cited source. Rhode Island (Providence, 1636) is broadly regarded as the first government to guarantee full religious liberty.",
+        "modern_consensus": "Bancroft's characterization of Williams is authentic; Rhode Island is credited as the first colony founded on full liberty of conscience.",
+        "sources": [
+          {"title": "Roger Williams — Wikipedia", "url": "https://en.wikipedia.org/wiki/Roger_Williams", "source_class": "encyclopedia", "supports_verdict": true, "note": "Rhode Island as first government guaranteeing religious freedom; Bancroft encomium widely cited."},
+          {"title": "Roger Williams — HISTORY.com", "url": "https://www.history.com/articles/roger-williams", "source_class": "other", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-052",
+      "paragraph": 13,
+      "quote": "He declared it to be the duty of the magistrate to restrain crime, but never to control the conscience.",
+      "claim_text": "Roger Williams declared it to be the duty of the magistrate to restrain crime but never to control conscience.",
+      "claim_type": "biographical",
+      "entities": ["Roger Williams"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Williams's distinction between the magistrate's authority over civil offenses ('the second table') and his lack of authority over religious duty ('the first table') is a central, documented feature of his thought, expressed in 'The Bloudy Tenent of Persecution' (1644).",
+        "modern_consensus": "Williams limited magistrates to civil matters and denied their authority over conscience.",
+        "sources": [
+          {"title": "Roger Williams — Wikipedia", "url": "https://en.wikipedia.org/wiki/Roger_Williams", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Roger Williams — Britannica", "url": "https://www.britannica.com/biography/Roger-Williams-American-religious-leader", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-053",
+      "paragraph": 13,
+      "quote": "“The public or the magistrates may decide,” he said, “what is due from man to man; but when they attempt to prescribe a man’s duties to God, they are out of place, and there can be no safety; for it is clear that if the magistrate has the power, he may decree one set of opinions or beliefs to-day and another to-morrow; as has been done in England by different kings and queens, and by different popes and councils in the Roman Church; so that belief would become a heap of confusion.”(441)",
+      "claim_text": "Roger Williams is quoted as saying that if magistrates had power over belief, they could decree one set of opinions today and another tomorrow, as had been done in England by different kings and queens and in the Roman Church by different popes and councils.",
+      "claim_type": "attributed_quote",
+      "entities": ["Roger Williams", "England", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The quotation is a faithful paraphrase-rendering of Williams's argument (as transmitted through 19th-century histories such as Bancroft, White's cited source) that magisterial control over belief would produce arbitrary, shifting orthodoxy. The reasoning matches Williams's documented position in 'The Bloudy Tenent.' Not located verbatim within budget, but consistent with his known arguments and White's source.",
+        "modern_consensus": "Williams argued that magisterial control of belief produces instability and tyranny over conscience.",
+        "sources": [
+          {"title": "Roger Williams — Wikipedia", "url": "https://en.wikipedia.org/wiki/Roger_Williams", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Roger Williams — Britannica", "url": "https://www.britannica.com/biography/Roger-Williams-American-religious-leader", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-054",
+      "paragraph": 14,
+      "quote": "Attendance at the services of the established church was required under a penalty of fine or imprisonment.",
+      "claim_text": "English law required attendance at services of the established church under penalty of fine or imprisonment.",
+      "claim_type": "event",
+      "entities": ["England", "Church of England"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Act of Uniformity (1559) imposed fines for failure to attend the parish church; recusancy statutes escalated penalties including imprisonment. The passage in context also reflects Williams's objection to compelled attendance in Massachusetts, where church attendance was likewise required. Standard history.",
+        "modern_consensus": "Compulsory attendance at the established church under fine/imprisonment is documented English (and colonial) law.",
+        "sources": [
+          {"title": "Scrooby Congregation — Wikipedia", "url": "https://en.wikipedia.org/wiki/Scrooby_Congregation", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Puritans — The First Amendment Encyclopedia (MTSU)", "url": "https://firstamendment.mtsu.edu/article/puritans/", "source_class": "scholarly_encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-055",
+      "paragraph": 14,
+      "quote": "“Williams reprobated the law; the worst statute in the English code was that which did but enforce attendance upon the parish church. To compel men to unite with those of a different creed, he regarded as an open violation of their natural rights; to drag to public worship the irreligious and the unwilling, seemed only like requiring hypocrisy.... ‘No one should be bound to worship, or,’ he added, ‘to maintain a worship, against his own consent.’ ‘What!’ exclaimed his antagonists, amazed at his tenets, ‘is not the laborer worthy of his hire?’ ‘Yes,’ replied he, ‘from them that hire him.’ ”(442)",
+      "claim_text": "A source cited in footnote 442 describes Roger Williams condemning the English law requiring church attendance as a violation of natural rights, stating 'No one should be bound to worship, or to maintain a worship, against his own consent,' and responding to critics who invoked the laborer's right to his hire that support for worship should come only 'from them that hire him.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Roger Williams", "England"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "This passage is from George Bancroft's 'History of the United States' (White's cited source), which recounts Williams's opposition to compelled worship and his retort 'from them that hire him.' Bancroft's narrative of Williams is the recognized source; the wording matches standard reproductions.",
+        "modern_consensus": "Williams opposed compelled worship and church rates; the Bancroft passage is authentic.",
+        "sources": [
+          {"title": "Roger Williams — Wikipedia", "url": "https://en.wikipedia.org/wiki/Roger_Williams", "source_class": "encyclopedia", "supports_verdict": true, "note": "Williams's opposition to compelled worship; Bancroft is the 19th-c source."},
+          {"title": "Roger Williams — Britannica", "url": "https://www.britannica.com/biography/Roger-Williams-American-religious-leader", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-056",
+      "paragraph": 15,
+      "quote": "Roger Williams was respected and beloved as a faithful minister, a man of rare gifts, of unbending integrity and true benevolence; yet his steadfast denial of the right of civil magistrates to authority over the church, and his demand for religious liberty, could not be tolerated.",
+      "claim_text": "Roger Williams was respected as a minister of rare gifts and integrity, but his denial of civil magistrates' authority over the church and his demand for religious liberty were not tolerated by the colonial authorities.",
+      "claim_type": "biographical",
+      "entities": ["Roger Williams"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Williams was esteemed for character even by opponents, yet his views on the magistrate's lack of authority in religion (and related positions) led the Massachusetts General Court to try and banish him in 1635. Standard history.",
+        "modern_consensus": "Williams's respected character did not spare him banishment for his religious-liberty and separation views.",
+        "sources": [
+          {"title": "Roger Williams Banished — Mass Moments", "url": "https://www.massmoments.org/moment-details/roger-williams-banished.html", "source_class": "scholarly_encyclopedia", "supports_verdict": true},
+          {"title": "Roger Williams — Wikipedia", "url": "https://en.wikipedia.org/wiki/Roger_Williams", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-057",
+      "paragraph": 15,
+      "quote": "The application of this new doctrine, it was urged, would “subvert the fundamental state and government of the country.”(443)",
+      "claim_text": "A source cited in footnote 443 records the argument that applying Roger Williams's doctrine of religious liberty would 'subvert the fundamental state and government of the country.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Roger Williams"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Reflects the Massachusetts authorities' documented rationale for banishing Williams — that his opinions threatened the civil and religious foundations of the colony — as transmitted by Bancroft (White's cited source). Consistent with the recorded charges against Williams (spreading 'diverse, new, and dangerous opinions').",
+        "modern_consensus": "Massachusetts leaders regarded Williams's views as subversive of the colony's civil-religious order.",
+        "sources": [
+          {"title": "Roger Williams Banished — Mass Moments", "url": "https://www.massmoments.org/moment-details/roger-williams-banished.html", "source_class": "scholarly_encyclopedia", "supports_verdict": true},
+          {"title": "Roger Williams — Wikipedia", "url": "https://en.wikipedia.org/wiki/Roger_Williams", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-058",
+      "paragraph": 15,
+      "quote": "He was sentenced to banishment from the colonies, and finally, to avoid arrest, he was forced to flee, amid the cold and storms of winter, into the unbroken forest.",
+      "claim_text": "Roger Williams was sentenced to banishment from the colonies and, to avoid arrest, fled into the forest during winter.",
+      "claim_type": "event",
+      "entities": ["Roger Williams", "Massachusetts Bay Colony"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Massachusetts General Court ordered Williams banished in October 1635; when officers came to arrest and ship him to England in January 1636, he had fled days earlier into the winter wilderness. Standard history.",
+        "modern_consensus": "Williams was sentenced to banishment and fled through the winter forest in January 1636.",
+        "sources": [
+          {"title": "Roger Williams Banished — Mass Moments", "url": "https://www.massmoments.org/moment-details/roger-williams-banished.html", "source_class": "scholarly_encyclopedia", "supports_verdict": true},
+          {"title": "Roger Williams — HISTORY.com", "url": "https://www.history.com/articles/roger-williams", "source_class": "other", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-059",
+      "paragraph": 16,
+      "quote": "“For fourteen weeks,” he says, “I was sorely tossed in a bitter season, not knowing what bread or bed did mean.”",
+      "claim_text": "Roger Williams is quoted (footnote 444) as saying that for fourteen weeks he was 'sorely tossed in a bitter season, not knowing what bread or bed did mean.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Roger Williams"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "This is a genuine Williams reminiscence of his winter flight, from his later correspondence (the 1670 letter to Major John Mason), widely quoted: 'I was sorely tossed for one fourteen weeks, in a bitter winter season, not knowing what bread or bed did mean.' GC's rendering matches this attested quotation.",
+        "modern_consensus": "The 'fourteen weeks... not knowing what bread or bed did mean' quotation is Williams's own, from his 1670 letter to Mason.",
+        "sources": [
+          {"title": "Roger Williams — Wikipedia", "url": "https://en.wikipedia.org/wiki/Roger_Williams", "source_class": "encyclopedia", "supports_verdict": true, "note": "Williams's account of his winter flight; 1670 Mason letter."},
+          {"title": "Roger Williams (Banished) — Freedom From Religion Foundation", "url": "https://ffrf.org/publications/day/roger-williams-banished/", "source_class": "other", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-060",
+      "paragraph": 16,
+      "quote": "But “the ravens fed me in the wilderness,” and a hollow tree often served him for a shelter.(444)",
+      "claim_text": "Roger Williams is quoted (footnote 444) as saying 'the ravens fed me in the wilderness,' and a hollow tree is said to have often served him as shelter during his winter flight.",
+      "claim_type": "attributed_quote",
+      "entities": ["Roger Williams"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The 'ravens fed me in the wilderness' phrase (an allusion to 1 Kings 17) is part of Williams's account of surviving his winter exile, transmitted through his correspondence and 19th-century histories. The hollow-tree shelter detail is part of the traditional narrative reproduced in those sources (Bancroft/Elton). Consistent with the attested account; no evidence of inaccuracy.",
+        "modern_consensus": "Williams described being aided (by Native peoples/'ravens') during his winter flight; the phrasing derives from his own reminiscence.",
+        "sources": [
+          {"title": "Roger Williams — Wikipedia", "url": "https://en.wikipedia.org/wiki/Roger_Williams", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Roger Williams — HISTORY.com", "url": "https://www.history.com/articles/roger-williams", "source_class": "other", "supports_verdict": true, "note": "Williams sheltered by Wampanoags during winter flight."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-061",
+      "paragraph": 16,
+      "quote": "Thus he continued his painful flight through the snow and the trackless forest, until he found refuge with an Indian tribe whose confidence and affection he had won while endeavoring to teach them the truths of the gospel.",
+      "claim_text": "Roger Williams found refuge with a Native American tribe whose trust he had won by teaching them the gospel.",
+      "claim_type": "event",
+      "entities": ["Roger Williams"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Williams found shelter with the Wampanoag (under Massasoit) and later the Narragansett, with whom he had built relationships and whose languages he learned; he engaged them on religious matters. The detail is well documented, though his aim was often described as broader friendship and study rather than formal missionizing.",
+        "modern_consensus": "Williams was sheltered by Native peoples (Wampanoag/Narragansett) with whom he had cultivated relations.",
+        "sources": [
+          {"title": "Roger Williams — HISTORY.com", "url": "https://www.history.com/articles/roger-williams", "source_class": "other", "supports_verdict": true},
+          {"title": "Roger Williams — Wikipedia", "url": "https://en.wikipedia.org/wiki/Roger_Williams", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-062",
+      "paragraph": 17,
+      "quote": "Making his way at last, after months of change and wandering, to the shores of Narragansett Bay, he there laid the foundation of the first state of modern times that in the fullest sense recognized the right of religious freedom.",
+      "claim_text": "Roger Williams reached the shores of Narragansett Bay and there founded what is described as the first state in modern times to fully recognize the right of religious freedom.",
+      "claim_type": "event",
+      "entities": ["Roger Williams", "Narragansett Bay"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Williams founded Providence (1636) on Narragansett Bay, and Rhode Island is broadly credited as the first government to guarantee full liberty of conscience. The 'first state in modern times in the fullest sense' claim is a strong superlative but reflects the standard historiographical characterization (echoed by Bancroft).",
+        "modern_consensus": "Providence/Rhode Island is credited as the first polity founded on complete religious liberty.",
+        "sources": [
+          {"title": "Roger Williams — Wikipedia", "url": "https://en.wikipedia.org/wiki/Roger_Williams", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Rhode Island Charter — RI Secretary of State", "url": "https://www.sos.ri.gov/divisions/civics-and-education/for-educators/themed-collections/rhode-island-charter", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Rhode Island as first colony guaranteeing religious freedom in its charter."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-063",
+      "paragraph": 17,
+      "quote": "The fundamental principle of Roger Williams’s colony, was “that every man should have liberty to worship God according to the light of his own conscience.”(445)",
+      "claim_text": "A source cited in footnote 445 states that the fundamental principle of Roger Williams's colony was 'that every man should have liberty to worship God according to the light of his own conscience.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Roger Williams"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The founding principle of Providence/Rhode Island — liberty of conscience in matters of worship — is documented in the colony's own compacts and charters (the 1663 royal charter guaranteed that no person be 'molested... for any differences in opinion in matters of religion'). GC's paraphrase accurately states this principle.",
+        "modern_consensus": "Rhode Island's founding principle was full liberty of conscience in worship.",
+        "sources": [
+          {"title": "Rhode Island Charter — RI Secretary of State", "url": "https://www.sos.ri.gov/divisions/civics-and-education/for-educators/themed-collections/rhode-island-charter", "source_class": "scholarly_encyclopedia", "supports_verdict": true},
+          {"title": "Roger Williams — Britannica", "url": "https://www.britannica.com/biography/Roger-Williams-American-religious-leader", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-064",
+      "paragraph": 17,
+      "quote": "His little State, Rhode Island, became the asylum of the oppressed, and it increased and prospered until its foundation principles—civil and religious liberty—became the corner-stones of the American Republic.",
+      "claim_text": "Rhode Island, founded by Roger Williams, became an asylum for the oppressed and prospered, and its founding principles of civil and religious liberty became foundational to the American Republic.",
+      "claim_type": "event",
+      "entities": ["Rhode Island", "Roger Williams"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Rhode Island did serve as a refuge for dissenters (Baptists, Quakers, Jews). The claim that its principles 'became the corner-stones of the American Republic' is an interpretive lineage argument, but the influence of Williams's liberty-of-conscience model on later American church-state separation is widely acknowledged in scholarship.",
+        "modern_consensus": "Rhode Island's religious-liberty model is credited as an important antecedent of American disestablishment.",
+        "sources": [
+          {"title": "Separation of Church & State History — U.S. National Park Service", "url": "https://www.nps.gov/articles/000/church_state_historical.htm", "source_class": "scholarly_encyclopedia", "supports_verdict": true},
+          {"title": "Roger Williams — Wikipedia", "url": "https://en.wikipedia.org/wiki/Roger_Williams", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-065",
+      "paragraph": 18,
+      "quote": "In that grand old document which our forefathers set forth as their bill of rights—the Declaration of Independence—they declared: “We hold these truths to be self-evident, that all men are created equal; that they are endowed by their Creator with certain unalienable rights; that among these are life, liberty, and the pursuit of happiness.”",
+      "claim_text": "The United States Declaration of Independence declares: 'We hold these truths to be self-evident, that all men are created equal; that they are endowed by their Creator with certain unalienable rights; that among these are life, liberty, and the pursuit of happiness.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Declaration of Independence"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The quotation matches the Declaration of Independence (1776) verbatim; a textbook-level fact. Primary text confirms.",
+        "modern_consensus": "This is the exact wording of the Declaration's second paragraph.",
+        "sources": [
+          {"title": "Declaration of Independence transcript — National Archives", "url": "https://www.archives.gov/founding-docs/declaration-transcript", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-066",
+      "paragraph": 18,
+      "quote": "And the Constitution guarantees, in the most explicit terms, the inviolability of conscience: “No religious test shall ever be required as a qualification to any office of public trust under the United States.”",
+      "claim_text": "The United States Constitution states: 'No religious test shall ever be required as a qualification to any office of public trust under the United States.'",
+      "claim_type": "attributed_quote",
+      "entities": ["United States Constitution"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Substantively accurate quotation of Article VI, Clause 3. The official text reads 'any Office or public Trust under the United States'; GC has 'any office of public trust' — a one-word 'of/or' variance that does not alter the meaning (still the no-religious-test guarantee). Because the meaning is preserved, this is a minor transcription slip, not a material misquotation. Flagged for the impact stage.",
+        "modern_consensus": "Article VI, Clause 3 bars religious tests for any office or public trust under the United States.",
+        "sources": [
+          {"title": "Article VI, Clause 3 — Constitution Annotated, Library of Congress", "url": "https://constitution.congress.gov/browse/article-6/clause-3/", "source_class": "primary", "supports_verdict": true, "note": "Official text: 'any Office or public Trust' — GC has 'of public trust' (immaterial variance)."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-067",
+      "paragraph": 18,
+      "quote": "“Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof.”",
+      "claim_text": "The United States Constitution (First Amendment) states: 'Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof.'",
+      "claim_type": "attributed_quote",
+      "entities": ["United States Constitution"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim opening of the First Amendment (1791); a textbook-level fact. Primary text confirms.",
+        "modern_consensus": "This is the exact wording of the First Amendment's religion clauses.",
+        "sources": [
+          {"title": "First Amendment — Constitution Annotated, Library of Congress", "url": "https://constitution.congress.gov/constitution/amendment-1/", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-068",
+      "paragraph": 19,
+      "quote": "“The framers of the Constitution recognized the eternal principle that man’s relation with his God is above human legislation, and his rights of conscience inalienable. Reasoning was not necessary to establish this truth; we are conscious of it in our own bosoms. It is this consciousness which, in defiance of human laws, has sustained so many martyrs in tortures and flames. They felt that their duty to God was superior to human enactments, and that man could exercise no authority over their consciences. It is an inborn principle which nothing can eradicate.”(446)",
+      "claim_text": "A source cited in footnote 446 states that the framers of the United States Constitution recognized that man's relation with God is above human legislation and that rights of conscience are inalienable.",
+      "claim_type": "attributed_quote",
+      "entities": ["United States Constitution"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The quotation derives from a 19th-century source in White's apparatus (a U.S. congressional report on Sunday mails / church-state, commonly cited in Adventist writing). Not independently located within budget; it is an interpretive statement about the framers rather than a factual claim about a datable event, and there is no evidence the quotation was inaccurately reproduced. No accusatory verdict warranted.",
+        "sources": [
+          {"title": "Separation of church and state in the United States — Wikipedia", "url": "https://en.wikipedia.org/wiki/Separation_of_church_and_state_in_the_United_States", "source_class": "encyclopedia", "supports_verdict": true, "note": "Context for framers' inalienable-conscience principle; exact fn446 quotation not independently located."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-069",
+      "paragraph": 20,
+      "quote": "As the tidings spread through the countries of Europe, of a land where every man might enjoy the fruit of his own labor and obey the convictions of his conscience, thousands flocked to the shores of the New World.",
+      "claim_text": "News spread through Europe of a land where every man could enjoy the fruit of his own labor and obey his conscience, and thousands emigrated to the New World as a result.",
+      "claim_type": "event",
+      "entities": ["Europe", "New World"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Reports of religious and economic opportunity did draw large 17th-century migration to English North America (the Great Migration and later waves included Continental Protestants). Standard history.",
+        "modern_consensus": "Prospects of land and religious freedom drew thousands of European migrants to the colonies.",
+        "sources": [
+          {"title": "Puritan migration to New England (1620–1640) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Puritan_migration_to_New_England_(1620%E2%80%931640)", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-070",
+      "paragraph": 20,
+      "quote": "Colonies rapidly multiplied.",
+      "claim_text": "English colonies in the New World rapidly multiplied following the news of religious and economic freedom.",
+      "claim_type": "event",
+      "entities": ["New World"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The number of English settlements/colonies in North America grew rapidly through the 17th century (Plymouth, Massachusetts Bay, Connecticut, New Haven, Rhode Island, Maryland, etc.). Standard history.",
+        "modern_consensus": "English North American colonies proliferated across the 17th century.",
+        "sources": [
+          {"title": "Puritan migration to New England (1620–1640) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Puritan_migration_to_New_England_(1620%E2%80%931640)", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-071",
+      "paragraph": 20,
+      "quote": "“Massachusetts, by special law, offered free welcome and aid, at the public cost, to Christians of any nationality who might fly beyond the Atlantic ‘to escape from wars or famine, or the oppression of their persecutors.’ Thus the fugitive and the downtrodden were, by statute, made the guests of the commonwealth.”(447)",
+      "claim_text": "A source cited in footnote 447 states that Massachusetts, by special law, offered free welcome and public aid to Christians of any nationality fleeing wars, famine, or persecution.",
+      "claim_type": "attributed_quote",
+      "entities": ["Massachusetts Bay Colony"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The quotation is from George Bancroft's 'History of the United States' (White's cited source), describing a Massachusetts law extending welcome and public support to persecuted Christian refugees. Bancroft is a recognized 19th-century authority; the wording matches standard reproductions. Note the welcome was to 'Christians,' consistent with the colony's confessional character.",
+        "modern_consensus": "Bancroft records a Massachusetts statute welcoming persecuted Christian refugees at public cost.",
+        "sources": [
+          {"title": "Massachusetts Bay Colony — Wikipedia", "url": "https://en.wikipedia.org/wiki/Massachusetts_Bay_Colony", "source_class": "encyclopedia", "supports_verdict": true, "note": "General context; specific Bancroft-quoted statute not independently located verbatim."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-072",
+      "paragraph": 20,
+      "quote": "In twenty years from the first landing at Plymouth, as many thousand Pilgrims were settled in New England.",
+      "claim_text": "Within twenty years of the first landing at Plymouth, a stated number of thousands of Pilgrims were settled in New England.",
+      "claim_type": "statistic",
+      "entities": ["Plymouth Colony", "New England"],
+      "needs_verification": true,
+      "extractor_note": "The phrase 'as many thousand' is ambiguous as transcribed (possibly a variant of 'twenty thousand'); flag for verifier to check the figure against period population estimates for New England circa 1640.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Twenty years from the 1620 Plymouth landing is 1640, coinciding with the end of the Great Migration (c. 1629–1640), during which roughly 20,000 English migrated to New England; the region's settled population by 1640 is estimated in the range of ~14,000–20,000+. The passage reads 'twenty years... as many thousand' — i.e., about twenty thousand — which matches the Great Migration figure. The order of magnitude is well supported.",
+        "modern_consensus": "About 20,000 English settlers came to New England in the Great Migration ending c. 1640.",
+        "sources": [
+          {"title": "Puritan migration to New England (1620–1640) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Puritan_migration_to_New_England_(1620%E2%80%931640)", "source_class": "encyclopedia", "supports_verdict": true, "note": "~20,000 migrants by 1640."},
+          {"title": "New England's Great Migration — American Ancestors (NEHGS)", "url": "https://www.americanancestors.org/new-englands-great-migration", "source_class": "scholarly_encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-073",
+      "paragraph": 21,
+      "quote": "“they were content to earn a bare subsistence by a life of frugality and toil. They asked nothing from the soil but the reasonable returns of their own labor. No golden vision threw a deceitful halo around their path.... They were content with the slow but steady progress of their social polity. They patiently endured the privations of the wilderness, watering the tree of liberty with their tears, and with the sweat of their brow, till it took deep root in the land.”",
+      "claim_text": "A cited source describes the early New England colonists as content to earn a bare subsistence through frugality and toil, patiently enduring the privations of the wilderness while their social order took root.",
+      "claim_type": "attributed_quote",
+      "entities": ["New England"],
+      "needs_verification": true,
+      "extractor_note": "No explicit footnote number is attached to this quotation as transcribed in the chapter text.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "A descriptive quotation from one of White's 19th-century sources (this chapter draws on Martyn, Neal, and Bancroft; the passage resembles Bancroft's romantic prose on the early colonists). Not independently located within budget and no footnote is attached; the content is a general laudatory characterization, not a discrete falsifiable fact, and there is no evidence of inaccurate reproduction, so no accusatory verdict.",
+        "sources": [
+          {"title": "New England's Great Migration — American Ancestors (NEHGS)", "url": "https://www.americanancestors.org/new-englands-great-migration", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Frugal subsistence character of early colonists; exact quotation not located."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-074",
+      "paragraph": 22,
+      "quote": "The Bible was held as the foundation of faith, the source of wisdom, and the charter of liberty.",
+      "claim_text": "In the New England colonies, the Bible was held as the foundation of faith, the source of wisdom, and the charter of liberty.",
+      "claim_type": "event",
+      "entities": ["New England"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Scripture was central to Puritan New England's religious, educational, legal, and civic life (biblical models shaped law codes, schooling, and preaching). Standard history.",
+        "modern_consensus": "The Bible was foundational to Puritan New England's culture and institutions.",
+        "sources": [
+          {"title": "Puritans — The First Amendment Encyclopedia (MTSU)", "url": "https://firstamendment.mtsu.edu/article/puritans/", "source_class": "scholarly_encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-075",
+      "paragraph": 22,
+      "quote": "Its principles were diligently taught in the home, in the school, and in the church, and its fruits were manifest in thrift, intelligence, purity, and temperance.",
+      "claim_text": "Bible principles were diligently taught in New England homes, schools, and churches, producing thrift, intelligence, purity, and temperance.",
+      "claim_type": "interpretive",
+      "entities": ["New England"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/laudatory characterization of Puritan society's moral 'fruits'; not a discrete empirically testable proposition as stated.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-076",
+      "paragraph": 22,
+      "quote": "One might be for years a dweller in the Puritan settlements, “and not see a drunkard, or hear an oath, or meet a beggar.”(448)",
+      "claim_text": "A source cited in footnote 448 states that one could live for years in the Puritan settlements 'and not see a drunkard, or hear an oath, or meet a beggar.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Puritans"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "A laudatory quotation from White's 19th-century source apparatus (of the Bancroft/Neal type). Not independently located within budget; it is a rhetorical characterization of Puritan moral order rather than a falsifiable statistic, and there is no evidence of inaccurate reproduction. No accusatory verdict warranted.",
+        "sources": [
+          {"title": "Puritans — The First Amendment Encyclopedia (MTSU)", "url": "https://firstamendment.mtsu.edu/article/puritans/", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Puritan moral regulation context; exact fn448 quotation not located."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-077",
+      "paragraph": 22,
+      "quote": "It was demonstrated that the principles of the Bible are the surest safeguards of national greatness.",
+      "claim_text": "The Puritan colonial experience demonstrated that the principles of the Bible are the surest safeguards of national greatness.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Evaluative thesis about the Bible and national greatness; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-078",
+      "paragraph": 22,
+      "quote": "The feeble and isolated colonies grew to a confederation of powerful States,",
+      "claim_text": "The feeble and isolated American colonies grew into a confederation of powerful states.",
+      "claim_type": "event",
+      "entities": ["New England"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The small early colonies developed into the united American states/republic. Uncontested history (with the New England Confederation of 1643 as an early instance of the pattern).",
+        "modern_consensus": "The early colonies grew into a union of states.",
+        "sources": [
+          {"title": "Massachusetts Bay Colony — Wikipedia", "url": "https://en.wikipedia.org/wiki/Massachusetts_Bay_Colony", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-079",
+      "paragraph": 22,
+      "quote": "and the world marked with wonder the peace and prosperity of “a church without a pope, and a state without a king.”",
+      "claim_text": "A cited source describes the world as marking with wonder the peace and prosperity of 'a church without a pope, and a state without a king' in reference to the American colonies.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "No explicit footnote number is attached to this embedded quotation as transcribed in the chapter text.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "An embedded proverbial quotation without an attached footnote. The best-known form of the saying is 'a church without a bishop, and a state without a king' (a phrase used of New England Congregationalism and republicanism); White's rendering substitutes 'pope' for 'bishop.' The substance (New England admired as free of pope and king) is a standard characterization. Not independently located verbatim; the 'pope'/'bishop' variance is noted but does not misrepresent any identifiable historical figure, so no accusatory verdict.",
+        "sources": [
+          {"title": "Separation of Church & State History — U.S. National Park Service", "url": "https://www.nps.gov/articles/000/church_state_historical.htm", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Context of colonial anti-episcopal/anti-monarchical self-image; common form of the saying uses 'bishop.'"}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-080",
+      "paragraph": 23,
+      "quote": "But continually increasing numbers were attracted to the shores of America, actuated by motives widely different from those of the first Pilgrims.",
+      "claim_text": "Increasing numbers of people came to America motivated by reasons different from the religious motives of the first Pilgrims.",
+      "claim_type": "event",
+      "entities": ["America", "Pilgrims"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "After the initial religiously-motivated migrations, later 17th-century arrivals came increasingly for economic and other secular reasons. Standard history.",
+        "modern_consensus": "Later colonial immigration was increasingly driven by economic rather than religious motives.",
+        "sources": [
+          {"title": "Puritan migration to New England (1620–1640) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Puritan_migration_to_New_England_(1620%E2%80%931640)", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-081",
+      "paragraph": 23,
+      "quote": "Though the primitive faith and purity exerted a wide-spread and moulding power, yet its influence became less and less as the numbers increased of those who sought only worldly advantage.",
+      "claim_text": "The influence of the original Puritan faith and purity in the colonies diminished as the numbers of settlers seeking only worldly advantage increased.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive 'declension' narrative; the underlying secularization trend is discussed by historians, but this statement is evaluative commentary rather than a discrete testable fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-082",
+      "paragraph": 24,
+      "quote": "The regulation adopted by the early colonists, of permitting only members of the church to vote or to hold office in the civil government, led to most pernicious results.",
+      "claim_text": "The early colonial regulation permitting only church members to vote or hold civil office led to pernicious results.",
+      "claim_type": "causal",
+      "entities": ["Massachusetts Bay Colony"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The church-membership franchise (1631) is factually established; that tying civil privilege to church membership created incentives for nominal profession and contributed to tensions over membership standards (leading to the Half-Way Covenant of 1662) is discussed in the historiography. The 'pernicious results' framing is evaluative, but the causal pattern has scholarly support.",
+        "modern_consensus": "The membership-based franchise pressured church membership standards and contributed to the Half-Way Covenant controversy.",
+        "sources": [
+          {"title": "Massachusetts Bay Colony — Wikipedia", "url": "https://en.wikipedia.org/wiki/Massachusetts_Bay_Colony", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Freeman (Thirteen Colonies) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Freeman_(Thirteen_Colonies)", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-083",
+      "paragraph": 24,
+      "quote": "This measure had been accepted as a means of preserving the purity of the state, but it resulted in the corruption of the church.",
+      "claim_text": "The regulation restricting suffrage and office-holding to church members, intended to preserve the purity of the state, resulted instead in the corruption of the church.",
+      "claim_type": "causal",
+      "entities": ["Massachusetts Bay Colony"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The factual premise (franchise limited to church members) is established. The causal claim that this 'corrupted the church' by drawing worldly motives into membership parallels the documented concern over nominal membership and declining conversion that produced the Half-Way Covenant (1662). Supported as a recognized historical pattern, though the moral framing is the author's.",
+        "modern_consensus": "Tying civil rights to membership is linked in scholarship to nominal-membership pressures culminating in the Half-Way Covenant.",
+        "sources": [
+          {"title": "Massachusetts Bay Colony — Wikipedia", "url": "https://en.wikipedia.org/wiki/Massachusetts_Bay_Colony", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-084",
+      "paragraph": 24,
+      "quote": "A profession of religion being the condition of suffrage and office-holding, many, actuated solely by motives of worldly policy, united with the church without a change of heart.",
+      "claim_text": "Because a profession of religion was required for suffrage and office-holding in the colony, many people joined the church for worldly political motives rather than genuine conversion.",
+      "claim_type": "event",
+      "entities": ["Massachusetts Bay Colony"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Historians recognize that linking civil privileges to church membership created incentives for outward conformity; the resulting concern over unconverted or 'half-way' members is documented in the mid-17th-century membership debates. The specific interior-motive attribution ('without a change of heart') is not individually measurable, but the general phenomenon is supported.",
+        "modern_consensus": "The membership-linked franchise incentivized outward church affiliation, a documented concern of the era.",
+        "sources": [
+          {"title": "Freeman (Thirteen Colonies) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Freeman_(Thirteen_Colonies)", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Massachusetts Bay Colony — Wikipedia", "url": "https://en.wikipedia.org/wiki/Massachusetts_Bay_Colony", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-085",
+      "paragraph": 24,
+      "quote": "Thus the churches came to consist, to a considerable extent, of unconverted persons; and even in the ministry were those who not only held errors of doctrine, but who were ignorant of the renewing power of the Holy Spirit.",
+      "claim_text": "The New England churches came to include a considerable proportion of unconverted persons, and some ministers held doctrinal errors and lacked genuine conversion experience.",
+      "claim_type": "event",
+      "entities": ["New England"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The concern that New England churches contained many unconverted members and that some ministers were spiritually deficient is a recognized theme of the 'declension' period and of the later Great Awakening critique (e.g., Whitefield/Tennent's charge of an 'unconverted ministry'). The factual core has historiographical support, though the quantification ('considerable extent') and interior-state judgments are evaluative and not precisely measurable.",
+        "modern_consensus": "Complaints of unconverted members and an 'unconverted ministry' are documented, especially in the Great Awakening critique.",
+        "sources": [
+          {"title": "Puritans — The First Amendment Encyclopedia (MTSU)", "url": "https://firstamendment.mtsu.edu/article/puritans/", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Declension and later revival critique of formal religion."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-086",
+      "paragraph": 24,
+      "quote": "Thus again was demonstrated the evil results, so often witnessed in the history of the church from the days of Constantine to the present, of attempting to build up the church by the aid of the state, of appealing to the secular power in support of the gospel",
+      "claim_text": "The New England experience demonstrated a pattern of evil results, observed repeatedly in church history from the time of Constantine onward, arising from attempts to build up the church through the aid of the state.",
+      "claim_type": "interpretive",
+      "entities": ["Constantine"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "CONTROL-SAMPLE check (extractor flagged needs_verification:false as interpretive). The dominant content is White's sweeping evaluative thesis ('evil results... of church-state union'), which is not empirically testable and is properly unverifiable. The smuggled factual anchor — that church-state union began under Constantine (4th c.) — is historically standard, so the extractor's 'interpretive / no-verify' flag is appropriate: the checkable kernel is uncontroversial while the thesis itself is interpretive.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-087",
+      "paragraph": 24,
+      "quote": "of Him who declared, “My kingdom is not of this world.”(449)",
+      "claim_text": "Jesus is quoted (footnote 449) as having declared, 'My kingdom is not of this world.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Direct quotation of John 18:36 (KJV): 'My kingdom is not of this world.' A textbook-level scriptural citation.",
+        "modern_consensus": "The phrase is the KJV wording of John 18:36.",
+        "sources": [
+          {"title": "John 18:36 (KJV) — Bible Gateway", "url": "https://www.biblegateway.com/passage/?search=John+18%3A36&version=KJV", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-088",
+      "paragraph": 24,
+      "quote": "The union of the church with the state, be the degree never so slight, while it may appear to bring the world nearer to the church, does in reality but bring the church nearer to the world.",
+      "claim_text": "Any union of church and state, however slight, in reality brings the church nearer to the world rather than the world nearer to the church.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Evaluative theological maxim about church-state union; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-089",
+      "paragraph": 25,
+      "quote": "The great principle so nobly advocated by Robinson and Roger Williams, that truth is progressive, that Christians should stand ready to accept all the light which may shine from God’s holy word, was lost sight of by their descendants.",
+      "claim_text": "The principle of progressive truth advocated by John Robinson and Roger Williams was lost sight of by their descendants.",
+      "claim_type": "interpretive",
+      "entities": ["John Robinson", "Roger Williams"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "CONTROL-SAMPLE check (extractor flagged needs_verification:false as interpretive). The statement smuggles a verifiable factual anchor: that both Robinson and Williams advocated progressive truth / openness to further light. This is confirmed — Robinson's farewell famously declared 'the Lord hath more truth and light yet to break forth out of His holy word' (GC-16-034), and Williams likewise held that not all light had yet been received (GC-16-049). The extractor's 'interpretive/no-verify' flag understated this: the anchor is checkable and supported. The trailing clause ('lost sight of by their descendants') is the interpretive/declension part, which remains a value judgment.",
+        "modern_consensus": "Robinson and Williams are both documented advocates of continuing revelation/further light from Scripture.",
+        "sources": [
+          {"title": "Words of John Robinson: Farewell Address — Online Library of Liberty", "url": "https://oll.libertyfund.org/titles/robinson-words-of-john-robinson-robinsons-farewell-address-to-the-pilgrims", "source_class": "primary", "supports_verdict": true, "note": "Robinson's 'more truth and light' progressive-truth statement."},
+          {"title": "Roger Williams — Britannica", "url": "https://www.britannica.com/biography/Roger-Williams-American-religious-leader", "source_class": "encyclopedia", "supports_verdict": true, "note": "Williams as an earnest seeker holding not all truth yet received."}
+        ]
+      }
+    },
+    {
+      "id": "GC-16-090",
+      "paragraph": 25,
+      "quote": "The Protestant churches of America—and those of Europe as well—so highly favored in receiving the blessings of the Reformation, failed to press forward in the path of reform.",
+      "claim_text": "The Protestant churches of America and Europe, having received the blessings of the Reformation, failed to press forward in the path of further reform.",
+      "claim_type": "interpretive",
+      "entities": ["America", "Europe"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Evaluative judgment that Protestant churches 'failed to press forward'; a normative thesis, not a testable fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-091",
+      "paragraph": 25,
+      "quote": "Though a few faithful men arose, from time to time, to proclaim new truth and expose long-cherished error, the majority, like the Jews in Christ’s day or the papists in the time of Luther, were content to believe as their fathers had believed, and to live as they had lived.",
+      "claim_text": "The majority of Protestants, like the Jews in Christ's day or the papists in Luther's time, were content to believe and live as their fathers had, despite the appearance of a few reformers proclaiming new truth.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive analogy/generalization; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-092",
+      "paragraph": 25,
+      "quote": "Therefore religion again degenerated into formalism; and errors and superstitions which would have been cast aside had the church continued to walk in the light of God’s word, were retained and cherished.",
+      "claim_text": "Protestant religion degenerated into formalism, retaining errors and superstitions that would otherwise have been abandoned.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Evaluative 'declension into formalism' thesis; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-093",
+      "paragraph": 25,
+      "quote": "Thus the spirit inspired by the Reformation gradually died out, until there was almost as great need of reform in the Protestant churches as in the Roman Church in the time of Luther.",
+      "claim_text": "The spirit of the Reformation gradually died out in the Protestant churches, to the point that they needed reform almost as much as the Roman Church had in Luther's time.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Comparative evaluative judgment about the state of Protestant churches; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-094",
+      "paragraph": 25,
+      "quote": "There was the same worldliness and spiritual stupor, a similar reverence for the opinions of men, and substitution of human theories for the teachings of God’s word.",
+      "claim_text": "The Protestant churches came to exhibit the same worldliness, spiritual stupor, reverence for human opinion, and substitution of human theories for Scripture that had characterized the Roman Church before Luther.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Evaluative characterization of Protestant decline; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-095",
+      "paragraph": 26,
+      "quote": "The wide circulation of the Bible in the early part of the nineteenth century, and the great light thus shed upon the world",
+      "claim_text": "The Bible had wide circulation in the early part of the nineteenth century.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The early 19th century saw mass Bible distribution through the great Bible societies (British and Foreign Bible Society, 1804; American Bible Society, 1816), a textbook-level fact.",
+        "modern_consensus": "The Bible-society movement drove wide Bible circulation from the early 1800s.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-096",
+      "paragraph": 26,
+      "quote": "was not followed by a corresponding advance in knowledge of revealed truth, or in experimental religion.",
+      "claim_text": "The wide circulation of the Bible in the early nineteenth century was not followed by a corresponding advance in knowledge of revealed truth or in experimental religion.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Evaluative judgment about spiritual advance; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-097",
+      "paragraph": 26,
+      "quote": "Satan could not, as in former ages, keep God’s word from the people; it had been placed within the reach of all; but in order still to accomplish his object, he led many to value it but lightly.",
+      "claim_text": "Unable to keep God's word from the people once the Bible was widely accessible, Satan instead led many to value it lightly.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim invoking Satanic agency; unverifiable by definition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-098",
+      "paragraph": 26,
+      "quote": "Men neglected to search the Scriptures, and thus they continued to accept false interpretations, and to cherish doctrines which had no foundation in the Bible.",
+      "claim_text": "People neglected to search the Scriptures and consequently continued to accept false interpretations and doctrines with no biblical foundation.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/theological generalization about neglect of Scripture and 'false' doctrines; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-099",
+      "paragraph": 27,
+      "quote": "Seeing the failure of his efforts to crush out the truth by persecution, Satan had again resorted to the plan of compromise which led to the great apostasy and the formation of the Church of Rome.",
+      "claim_text": "After persecution failed to crush the truth, Satan resorted again to the plan of compromise that had earlier led to the great apostasy and the formation of the Roman Catholic Church.",
+      "claim_type": "theological",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satanic strategy and the 'great apostasy'; unverifiable by definition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-100",
+      "paragraph": 27,
+      "quote": "He had induced Christians to ally themselves, not now with pagans, but with those who, by their devotion to the things of this world, had proved themselves to be as truly idolaters as were the worshipers of graven images.",
+      "claim_text": "Satan induced Christians to ally themselves with worldly people who, through devotion to worldly things, were as truly idolaters as worshipers of graven images.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim invoking Satanic agency and defining worldliness as idolatry; unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-101",
+      "paragraph": 27,
+      "quote": "And the results of this union were no less pernicious now than in former ages; pride and extravagance were fostered under the guise of religion, and the churches became corrupted.",
+      "claim_text": "The union of the church with worldly people produced pernicious results, fostering pride and extravagance under the guise of religion and corrupting the churches.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Evaluative theological judgment about church corruption; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-102",
+      "paragraph": 27,
+      "quote": "Satan continued to pervert the doctrines of the Bible, and traditions that were to ruin millions were taking deep root.",
+      "claim_text": "Satan continued to pervert biblical doctrines, and traditions that would ruin millions of people took deep root.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim invoking Satanic agency and eschatological consequence; unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-103",
+      "paragraph": 27,
+      "quote": "The church was upholding and defending these traditions, instead of contending for “the faith which was once delivered to the saints.”",
+      "claim_text": "The Protestant church upheld and defended corrupted traditions instead of contending for 'the faith which was once delivered to the saints.'",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "extractor_note": "Contains an embedded biblical allusion (Jude 1:3, 'the faith which was once delivered unto the saints') presented without direct attribution in the chapter text.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/theological judgment about the church defending tradition over the biblical 'faith once delivered' (Jude 3); the embedded scriptural allusion is accurate, but the surrounding proposition is an evaluative theological claim, not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-16-104",
+      "paragraph": 27,
+      "quote": "Thus were degraded the principles for which the Reformers had done and suffered so much.",
+      "claim_text": "The principles for which the Protestant Reformers had labored and suffered were ultimately degraded.",
+      "claim_type": "interpretive",
+      "entities": ["Protestant Reformers"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Evaluative concluding judgment about the degradation of Reformation principles; not empirically testable.",
+        "sources": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,956 @@
+{
+  "chapter": 16,
+  "chapter_title": "The Pilgrim Fathers",
+  "stage": "extraction",
+  "generated_at": "2026-07-05",
+  "notes": "Extraction pass, single-file (chapter within comfortable context size). 104 claims logged across 27 paragraphs. No paragraphs with zero claims.",
+  "claims": [
+    {
+      "id": "GC-16-001",
+      "paragraph": 1,
+      "quote": "The English Reformers, while renouncing the doctrines of Romanism, had retained many of its forms.",
+      "claim_text": "The English Reformers renounced the doctrines of Romanism but retained many of its forms.",
+      "claim_type": "event",
+      "entities": ["English Reformers", "Church of England", "Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-002",
+      "paragraph": 1,
+      "quote": "Thus though the authority and the creed of Rome were rejected, not a few of her customs and ceremonies were incorporated into the worship of the Church of England.",
+      "claim_text": "The Church of England rejected the authority and creed of the Roman Catholic Church but incorporated many of its customs and ceremonies into its worship.",
+      "claim_type": "event",
+      "entities": ["Church of England", "Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-003",
+      "paragraph": 1,
+      "quote": "It was claimed that these things were not matters of conscience; that though they were not commanded in Scripture, and hence were non-essential, yet not being forbidden, they were not intrinsically evil.",
+      "claim_text": "Defenders of the Church of England's retained Roman Catholic customs argued that these customs were not matters of conscience and, being neither commanded nor forbidden in Scripture, were not intrinsically evil.",
+      "claim_type": "event",
+      "entities": ["Church of England"],
+      "needs_verification": true,
+      "extractor_note": "Describes a historical argument attributed to unnamed defenders of retained customs; checkable against period apologetic/controversial literature."
+    },
+    {
+      "id": "GC-16-004",
+      "paragraph": 1,
+      "quote": "Their observance tended to narrow the gulf which separated the reformed churches from Rome, and it was urged that they would promote the acceptance of the Protestant faith by Romanists.",
+      "claim_text": "Defenders of retaining Roman Catholic customs in the Church of England argued that doing so would narrow the gulf between the reformed churches and Rome and promote acceptance of the Protestant faith among Roman Catholics.",
+      "claim_type": "causal",
+      "entities": ["Church of England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-005",
+      "paragraph": 2,
+      "quote": "The fact that these customs “tended to bridge over the chasm between Rome and the Reformation,”(430) was in their view a conclusive argument against retaining them.",
+      "claim_text": "A source cited in footnote 430 describes the retained Roman Catholic customs in the Church of England as tending 'to bridge over the chasm between Rome and the Reformation.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Church of England"],
+      "needs_verification": true,
+      "extractor_note": "Source of footnote 430 is not identified in the chapter body; verifier should consult the 1911 Appendix reference list."
+    },
+    {
+      "id": "GC-16-006",
+      "paragraph": 2,
+      "quote": "They looked upon them as badges of the slavery from which they had been delivered, and to which they had no disposition to return.",
+      "claim_text": "Puritans who opposed the retained Roman Catholic customs regarded them as badges of a slavery from which they had been delivered.",
+      "claim_type": "interpretive",
+      "entities": ["Puritans"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-007",
+      "paragraph": 2,
+      "quote": "They reasoned that God has in His word established the regulations governing His worship, and that men are not at liberty to add to these or to detract from them.",
+      "claim_text": "Puritan objectors reasoned that God had established in Scripture the regulations governing His worship, and that men were not free to add to or detract from them.",
+      "claim_type": "event",
+      "entities": ["Puritans"],
+      "needs_verification": true,
+      "extractor_note": "A historical claim about the documented theological reasoning of a group; borderline between event and theological, logged as event since it concerns what the Puritans are recorded as having argued."
+    },
+    {
+      "id": "GC-16-008",
+      "paragraph": 2,
+      "quote": "The very beginning of the great apostasy was in seeking to supplement the authority of God by that of the church.",
+      "claim_text": "The beginning of the 'great apostasy' consisted in seeking to supplement the authority of God with that of the church.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-009",
+      "paragraph": 2,
+      "quote": "Rome began by enjoining what God had not forbidden, and she ended by forbidding what He had explicitly enjoined.",
+      "claim_text": "The Roman Catholic Church began by enjoining practices God had not forbidden and ended by forbidding practices God had explicitly commanded.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-010",
+      "paragraph": 3,
+      "quote": "Many earnestly desired to return to the purity and simplicity which characterized the primitive church.",
+      "claim_text": "Many English dissenters desired to return to the purity and simplicity that characterized the primitive Christian church.",
+      "claim_type": "interpretive",
+      "entities": ["Puritans"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-011",
+      "paragraph": 3,
+      "quote": "They regarded many of the established customs of the English Church as monuments of idolatry, and they could not in conscience unite in her worship.",
+      "claim_text": "Puritan dissenters regarded many established customs of the Church of England as monuments of idolatry and could not in conscience unite in its worship.",
+      "claim_type": "interpretive",
+      "entities": ["Puritans", "Church of England"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-012",
+      "paragraph": 3,
+      "quote": "But the church, being supported by the civil authority, would permit no dissent from her forms.",
+      "claim_text": "The Church of England, supported by civil authority, permitted no dissent from its established forms of worship.",
+      "claim_type": "event",
+      "entities": ["Church of England", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-013",
+      "paragraph": 3,
+      "quote": "Attendance upon her service was required by law, and unauthorized assemblies for religious worship were prohibited, under penalty of imprisonment, exile, and death.",
+      "claim_text": "English law required attendance at Church of England services and prohibited unauthorized religious assemblies under penalty of imprisonment, exile, or death.",
+      "claim_type": "event",
+      "entities": ["England", "Church of England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-014",
+      "paragraph": 4,
+      "quote": "At the opening of the seventeenth century the monarch who had just ascended the throne of England declared his determination to make the Puritans “conform, or ... harry them out of the land, or else worse.”(431)",
+      "claim_text": "King James I of England, upon ascending the throne at the opening of the seventeenth century (1603), declared his determination to make the Puritans 'conform, or ... harry them out of the land, or else worse.'",
+      "claim_type": "attributed_quote",
+      "entities": ["James I", "England", "Puritans"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-015",
+      "paragraph": 4,
+      "quote": "Hunted, persecuted, and imprisoned, they could discern in the future no promise of better days, and many yielded to the conviction that for such as would serve God according to the dictates of their conscience, “England was ceasing forever to be a habitable place.”(432)",
+      "claim_text": "A source cited in footnote 432 records that persecuted Puritans came to believe that 'England was ceasing forever to be a habitable place' for those who would serve God according to conscience.",
+      "claim_type": "attributed_quote",
+      "entities": ["Puritans", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-016",
+      "paragraph": 4,
+      "quote": "They were at last determined to seek refuge in Holland.",
+      "claim_text": "Persecuted English Puritans determined to seek refuge in Holland.",
+      "claim_type": "event",
+      "entities": ["Puritans", "Holland"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-017",
+      "paragraph": 4,
+      "quote": "Difficulties, losses, and imprisonment were encountered. Their purposes were thwarted, and they were betrayed into the hands of their enemies.",
+      "claim_text": "The Puritans attempting to emigrate to Holland encountered difficulties, losses, and imprisonment, and were betrayed into the hands of their enemies.",
+      "claim_type": "event",
+      "entities": ["Puritans"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-018",
+      "paragraph": 4,
+      "quote": "But steadfast perseverance finally conquered, and they found shelter on the friendly shores of the Dutch Republic.",
+      "claim_text": "The Puritans eventually succeeded in finding shelter in the Dutch Republic (Holland).",
+      "claim_type": "event",
+      "entities": ["Puritans", "Dutch Republic"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-019",
+      "paragraph": 5,
+      "quote": "In their flight they had left their houses, their goods, and their means of livelihood. They were strangers in a strange land, among a people of different language and customs.",
+      "claim_text": "The Puritan exiles who fled to Holland left behind their houses, goods, and livelihoods and lived as strangers among a people of different language and customs.",
+      "claim_type": "event",
+      "entities": ["Puritans", "Holland"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-020",
+      "paragraph": 5,
+      "quote": "Middle-aged men, who had spent their lives in tilling the soil, had now to learn mechanical trades.",
+      "claim_text": "Middle-aged Puritan exiles in Holland, who had previously worked in agriculture, had to learn mechanical trades to earn a living.",
+      "claim_type": "event",
+      "entities": ["Puritans", "Holland"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-021",
+      "paragraph": 5,
+      "quote": "“They knew they were pilgrims, and looked not much on those things, but lifted up their eyes to heaven, their dearest country, and quieted their spirits.”(433)",
+      "claim_text": "A source cited in footnote 433 states of the Puritan exiles that 'they knew they were pilgrims, and looked not much on those things, but lifted up their eyes to heaven, their dearest country, and quieted their spirits.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Puritans"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-022",
+      "paragraph": 6,
+      "quote": "In the midst of exile and hardship, their love and faith waxed strong.",
+      "claim_text": "The Puritan exiles' love and faith grew stronger amid exile and hardship.",
+      "claim_type": "interpretive",
+      "entities": ["Puritans"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-023",
+      "paragraph": 6,
+      "quote": "His angels were by their side, to encourage and support them.",
+      "claim_text": "God's angels were present with the Puritan exiles to encourage and support them.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-024",
+      "paragraph": 6,
+      "quote": "And when God’s hand seemed pointing them across the sea, to a land where they might found for themselves a state, and leave to their children the precious heritage of religious liberty, they went forward, without shrinking, in the path of providence.",
+      "claim_text": "God's providence directed the Puritan exiles across the sea to found a state and secure religious liberty for their descendants, and they went forward accordingly.",
+      "claim_type": "theological",
+      "entities": ["Puritans"],
+      "needs_verification": false,
+      "extractor_note": "Embeds the historical claim that the Pilgrims sailed to the New World intending to found a state and secure religious liberty for their descendants; the providential framing is theological, while the underlying voyage/settlement is covered by separate event claims elsewhere in this chapter."
+    },
+    {
+      "id": "GC-16-025",
+      "paragraph": 7,
+      "quote": "God had permitted trials to come upon His people to prepare them for the accomplishment of His gracious purpose toward them.",
+      "claim_text": "God permitted trials upon the Puritans/Pilgrims to prepare them for the accomplishment of His purpose toward them.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-026",
+      "paragraph": 7,
+      "quote": "The church had been brought low, that she might be exalted.",
+      "claim_text": "The church was brought low so that it might be exalted.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-027",
+      "paragraph": 7,
+      "quote": "God was about to display His power in her behalf, to give to the world another evidence that He will not forsake those who trust in Him.",
+      "claim_text": "God was about to display His power on the church's behalf as evidence that He does not forsake those who trust in Him.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-028",
+      "paragraph": 7,
+      "quote": "He had overruled events to cause the wrath of Satan and the plots of evil men to advance His glory, and to bring His people to a place of security.",
+      "claim_text": "God overruled events so that Satan's wrath and the plots of evil men advanced His glory and brought His people to a place of security.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-029",
+      "paragraph": 7,
+      "quote": "Persecution and exile were opening the way to freedom.",
+      "claim_text": "The persecution and exile experienced by the Puritans opened the way to freedom.",
+      "claim_type": "interpretive",
+      "entities": ["Puritans"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-030",
+      "paragraph": 8,
+      "quote": "When first constrained to separate from the English Church, the Puritans had joined themselves together by a solemn covenant, as the Lord’s free people, “to walk together in all His ways made known or to be made known to them.”(434)",
+      "claim_text": "When the Puritans first separated from the Church of England, they bound themselves by a solemn covenant, as the Lord's free people, 'to walk together in all His ways made known or to be made known to them.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Puritans", "Church of England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-031",
+      "paragraph": 8,
+      "quote": "Here was the true spirit of reform, the vital principle of Protestantism.",
+      "claim_text": "The Puritans' covenant to accept ongoing revealed truth represented the true spirit of reform and the vital principle of Protestantism.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-032",
+      "paragraph": 8,
+      "quote": "It was with this purpose that the Pilgrims departed from Holland to find a home in the New World.",
+      "claim_text": "The Pilgrims departed from Holland to find a home in the New World.",
+      "claim_type": "event",
+      "entities": ["Pilgrims", "Holland"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-033",
+      "paragraph": 8,
+      "quote": "John Robinson, their pastor, who was providentially prevented from accompanying them, in his farewell address to the exiles said:",
+      "claim_text": "John Robinson, pastor of the Pilgrims, did not accompany them on their voyage to the New World and delivered a farewell address to the departing exiles.",
+      "claim_type": "biographical",
+      "entities": ["John Robinson", "Pilgrims"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-034",
+      "paragraph": 9,
+      "quote": "“Brethren, we are now erelong to part asunder, and the Lord knoweth whether I shall live ever to see your faces more. But whether the Lord hath appointed it or not, I charge you before God and His blessed angels to follow me no farther than I have followed Christ. If God should reveal anything to you by any other instrument of His, be as ready to receive it as ever you were to receive any truth of my ministry; for I am very confident the Lord hath more truth and light yet to break forth out of His holy word.”(435)",
+      "claim_text": "John Robinson, in his farewell address to the departing Pilgrims, said: 'I charge you before God and His blessed angels to follow me no farther than I have followed Christ... for I am very confident the Lord hath more truth and light yet to break forth out of His holy word.'",
+      "claim_type": "attributed_quote",
+      "entities": ["John Robinson"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-035",
+      "paragraph": 10,
+      "quote": "“For my part, I cannot sufficiently bewail the condition of the reformed churches, who are come to a period in religion, and will go at present no farther than the instruments of their reformation. The Lutherans cannot be drawn to go beyond what Luther saw; ... and the Calvinists, you see, stick fast where they were left by that great man of God, who yet saw not all things. This is a misery much to be lamented; for though they were burning and shining lights in their time, yet they penetrated not into the whole counsel of God, but were they now living, would be as willing to embrace further light as that which they first received.”(436)",
+      "claim_text": "John Robinson, in his farewell address, said that Lutherans would not go beyond what Luther saw and that Calvinists remained where 'that great man of God' (Calvin) left them, since neither had penetrated the whole counsel of God.",
+      "claim_type": "attributed_quote",
+      "entities": ["John Robinson", "Martin Luther", "John Calvin"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-036",
+      "paragraph": 11,
+      "quote": "“Remember your church covenant, in which you have agreed to walk in all the ways of the Lord, made or to be made known unto you. Remember your promise and covenant with God and with one another, to receive whatever light and truth shall be made known to you from His written word; but withal, take heed, I beseech you, what you receive for truth, and compare it and weigh it with other scriptures of truth before you accept it; for it is not possible the Christian world should come so lately out of such thick antichristian darkness, and that full perfection of knowledge should break forth at once.”(437)",
+      "claim_text": "John Robinson, in his farewell address, urged the Pilgrims to compare and weigh any new professed truth against other scriptures before accepting it.",
+      "claim_type": "attributed_quote",
+      "entities": ["John Robinson"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-037",
+      "paragraph": 12,
+      "quote": "It was the desire for liberty of conscience that inspired the Pilgrims to brave the perils of the long journey across the sea, to endure the hardships and dangers of the wilderness, and with God’s blessing to lay, on the shores of America, the foundation of a mighty nation.",
+      "claim_text": "The Pilgrims' desire for liberty of conscience motivated them to cross the sea, endure the wilderness, and lay the foundation of a new nation in America.",
+      "claim_type": "causal",
+      "entities": ["Pilgrims"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-038",
+      "paragraph": 12,
+      "quote": "Yet honest and God-fearing as they were, the Pilgrims did not yet comprehend the great principle of religious liberty.",
+      "claim_text": "The Pilgrims, though honest and God-fearing, did not yet comprehend the principle of religious liberty.",
+      "claim_type": "interpretive",
+      "entities": ["Pilgrims"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-039",
+      "paragraph": 12,
+      "quote": "The freedom which they sacrificed so much to secure for themselves, they were not equally ready to grant to others.",
+      "claim_text": "The Pilgrims were not equally willing to grant to others the religious freedom they had sacrificed so much to secure for themselves.",
+      "claim_type": "interpretive",
+      "entities": ["Pilgrims"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-040",
+      "paragraph": 12,
+      "quote": "“Very few, even of the foremost thinkers and moralists of the seventeenth century, had any just conception of that grand principle, the outgrowth of the New Testament, which acknowledges God as the sole judge of human faith.”(438)",
+      "claim_text": "A source cited in footnote 438 states that very few, even among the foremost thinkers and moralists of the seventeenth century, had any just conception of the principle that God alone is the judge of human faith.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-041",
+      "paragraph": 12,
+      "quote": "The doctrine that God has committed to the church the right to control the conscience, and to define and punish heresy, is one of the most deeply rooted of papal errors.",
+      "claim_text": "The doctrine that God has committed to the church the right to control conscience and to define and punish heresy is one of the most deeply rooted papal errors.",
+      "claim_type": "theological",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-042",
+      "paragraph": 12,
+      "quote": "While the Reformers rejected the creed of Rome, they were not entirely free from her spirit of intolerance.",
+      "claim_text": "The Protestant Reformers, while rejecting the creed of Rome, were not entirely free from Rome's spirit of intolerance.",
+      "claim_type": "interpretive",
+      "entities": ["Protestant Reformers", "Roman Catholic Church"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-043",
+      "paragraph": 12,
+      "quote": "Said one of the leading ministers in the colony of Massachusetts Bay: “It was toleration that made the world antichristian; and the church never took harm by the punishment of heretics.”(439)",
+      "claim_text": "A leading minister in the Massachusetts Bay Colony is quoted as having said, 'It was toleration that made the world antichristian; and the church never took harm by the punishment of heretics.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Massachusetts Bay Colony"],
+      "needs_verification": true,
+      "extractor_note": "The minister is not named in the chapter text; commonly identified in GC's own source apparatus as Nathaniel Ward. Verifier should check the Appendix for footnote 439's attribution."
+    },
+    {
+      "id": "GC-16-044",
+      "paragraph": 12,
+      "quote": "The regulation was adopted by the colonists, that only church-members should have a voice in the civil government.",
+      "claim_text": "The Massachusetts Bay Colony adopted a regulation that only church members could have a voice in civil government.",
+      "claim_type": "event",
+      "entities": ["Massachusetts Bay Colony"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-045",
+      "paragraph": 12,
+      "quote": "A kind of state church was formed, all the people being required to contribute to the support of the clergy, and the magistrates being authorized to suppress heresy.",
+      "claim_text": "In the Massachusetts Bay Colony, a state church was formed in which all people were required to support the clergy and magistrates were authorized to suppress heresy.",
+      "claim_type": "event",
+      "entities": ["Massachusetts Bay Colony"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-046",
+      "paragraph": 12,
+      "quote": "Thus the secular power was in the hands of the church.",
+      "claim_text": "In the Massachusetts Bay Colony, secular power was effectively held by the church.",
+      "claim_type": "interpretive",
+      "entities": ["Massachusetts Bay Colony"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-047",
+      "paragraph": 12,
+      "quote": "It was not long before these measures led to the inevitable result—persecution.",
+      "claim_text": "The church-state measures adopted in the Massachusetts Bay Colony led before long to religious persecution.",
+      "claim_type": "causal",
+      "entities": ["Massachusetts Bay Colony"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-048",
+      "paragraph": 13,
+      "quote": "Eleven years after the planting of the first colony, Roger Williams came to the New World.",
+      "claim_text": "Roger Williams arrived in the New World eleven years after the founding of the first Plymouth colony.",
+      "claim_type": "date",
+      "entities": ["Roger Williams", "Plymouth Colony"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-049",
+      "paragraph": 13,
+      "quote": "Like the early Pilgrims, he came to enjoy religious freedom; but unlike them, he saw—what so few in his time had yet seen—that this freedom was the inalienable right of all, whatever might be their creed.",
+      "claim_text": "Roger Williams held that religious freedom was the inalienable right of all people regardless of creed.",
+      "claim_type": "biographical",
+      "entities": ["Roger Williams"],
+      "needs_verification": true,
+      "extractor_note": "The comparative judgment 'what so few in his time had yet seen' is a sweeping interpretive claim bundled with the biographical claim about Williams's views."
+    },
+    {
+      "id": "GC-16-050",
+      "paragraph": 13,
+      "quote": "He was an earnest seeker for truth, with Robinson holding it impossible that all the light from God’s word had yet been received.",
+      "claim_text": "Roger Williams shared with John Robinson the view that not all the light from God's word had yet been received.",
+      "claim_type": "interpretive",
+      "entities": ["Roger Williams", "John Robinson"],
+      "needs_verification": false,
+      "extractor_note": "Ambiguous sentence construction linking Williams to Robinson's progressive-truth doctrine; logged as interpretive characterization rather than a discrete verifiable fact."
+    },
+    {
+      "id": "GC-16-051",
+      "paragraph": 13,
+      "quote": "Williams “was the first person in modern Christendom to establish civil government on the doctrine of the liberty of conscience, the equality of opinions before the law.”(440)",
+      "claim_text": "A source cited in footnote 440 states that Roger Williams was the first person in modern Christendom to establish civil government on the doctrine of liberty of conscience and equality of opinions before the law.",
+      "claim_type": "attributed_quote",
+      "entities": ["Roger Williams"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-052",
+      "paragraph": 13,
+      "quote": "He declared it to be the duty of the magistrate to restrain crime, but never to control the conscience.",
+      "claim_text": "Roger Williams declared it to be the duty of the magistrate to restrain crime but never to control conscience.",
+      "claim_type": "biographical",
+      "entities": ["Roger Williams"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-053",
+      "paragraph": 13,
+      "quote": "“The public or the magistrates may decide,” he said, “what is due from man to man; but when they attempt to prescribe a man’s duties to God, they are out of place, and there can be no safety; for it is clear that if the magistrate has the power, he may decree one set of opinions or beliefs to-day and another to-morrow; as has been done in England by different kings and queens, and by different popes and councils in the Roman Church; so that belief would become a heap of confusion.”(441)",
+      "claim_text": "Roger Williams is quoted as saying that if magistrates had power over belief, they could decree one set of opinions today and another tomorrow, as had been done in England by different kings and queens and in the Roman Church by different popes and councils.",
+      "claim_type": "attributed_quote",
+      "entities": ["Roger Williams", "England", "Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-054",
+      "paragraph": 14,
+      "quote": "Attendance at the services of the established church was required under a penalty of fine or imprisonment.",
+      "claim_text": "English law required attendance at services of the established church under penalty of fine or imprisonment.",
+      "claim_type": "event",
+      "entities": ["England", "Church of England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-055",
+      "paragraph": 14,
+      "quote": "“Williams reprobated the law; the worst statute in the English code was that which did but enforce attendance upon the parish church. To compel men to unite with those of a different creed, he regarded as an open violation of their natural rights; to drag to public worship the irreligious and the unwilling, seemed only like requiring hypocrisy.... ‘No one should be bound to worship, or,’ he added, ‘to maintain a worship, against his own consent.’ ‘What!’ exclaimed his antagonists, amazed at his tenets, ‘is not the laborer worthy of his hire?’ ‘Yes,’ replied he, ‘from them that hire him.’ ”(442)",
+      "claim_text": "A source cited in footnote 442 describes Roger Williams condemning the English law requiring church attendance as a violation of natural rights, stating 'No one should be bound to worship, or to maintain a worship, against his own consent,' and responding to critics who invoked the laborer's right to his hire that support for worship should come only 'from them that hire him.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Roger Williams", "England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-056",
+      "paragraph": 15,
+      "quote": "Roger Williams was respected and beloved as a faithful minister, a man of rare gifts, of unbending integrity and true benevolence; yet his steadfast denial of the right of civil magistrates to authority over the church, and his demand for religious liberty, could not be tolerated.",
+      "claim_text": "Roger Williams was respected as a minister of rare gifts and integrity, but his denial of civil magistrates' authority over the church and his demand for religious liberty were not tolerated by the colonial authorities.",
+      "claim_type": "biographical",
+      "entities": ["Roger Williams"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-057",
+      "paragraph": 15,
+      "quote": "The application of this new doctrine, it was urged, would “subvert the fundamental state and government of the country.”(443)",
+      "claim_text": "A source cited in footnote 443 records the argument that applying Roger Williams's doctrine of religious liberty would 'subvert the fundamental state and government of the country.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Roger Williams"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-058",
+      "paragraph": 15,
+      "quote": "He was sentenced to banishment from the colonies, and finally, to avoid arrest, he was forced to flee, amid the cold and storms of winter, into the unbroken forest.",
+      "claim_text": "Roger Williams was sentenced to banishment from the colonies and, to avoid arrest, fled into the forest during winter.",
+      "claim_type": "event",
+      "entities": ["Roger Williams", "Massachusetts Bay Colony"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-059",
+      "paragraph": 16,
+      "quote": "“For fourteen weeks,” he says, “I was sorely tossed in a bitter season, not knowing what bread or bed did mean.”",
+      "claim_text": "Roger Williams is quoted (footnote 444) as saying that for fourteen weeks he was 'sorely tossed in a bitter season, not knowing what bread or bed did mean.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Roger Williams"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-060",
+      "paragraph": 16,
+      "quote": "But “the ravens fed me in the wilderness,” and a hollow tree often served him for a shelter.(444)",
+      "claim_text": "Roger Williams is quoted (footnote 444) as saying 'the ravens fed me in the wilderness,' and a hollow tree is said to have often served him as shelter during his winter flight.",
+      "claim_type": "attributed_quote",
+      "entities": ["Roger Williams"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-061",
+      "paragraph": 16,
+      "quote": "Thus he continued his painful flight through the snow and the trackless forest, until he found refuge with an Indian tribe whose confidence and affection he had won while endeavoring to teach them the truths of the gospel.",
+      "claim_text": "Roger Williams found refuge with a Native American tribe whose trust he had won by teaching them the gospel.",
+      "claim_type": "event",
+      "entities": ["Roger Williams"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-062",
+      "paragraph": 17,
+      "quote": "Making his way at last, after months of change and wandering, to the shores of Narragansett Bay, he there laid the foundation of the first state of modern times that in the fullest sense recognized the right of religious freedom.",
+      "claim_text": "Roger Williams reached the shores of Narragansett Bay and there founded what is described as the first state in modern times to fully recognize the right of religious freedom.",
+      "claim_type": "event",
+      "entities": ["Roger Williams", "Narragansett Bay"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-063",
+      "paragraph": 17,
+      "quote": "The fundamental principle of Roger Williams’s colony, was “that every man should have liberty to worship God according to the light of his own conscience.”(445)",
+      "claim_text": "A source cited in footnote 445 states that the fundamental principle of Roger Williams's colony was 'that every man should have liberty to worship God according to the light of his own conscience.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Roger Williams"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-064",
+      "paragraph": 17,
+      "quote": "His little State, Rhode Island, became the asylum of the oppressed, and it increased and prospered until its foundation principles—civil and religious liberty—became the corner-stones of the American Republic.",
+      "claim_text": "Rhode Island, founded by Roger Williams, became an asylum for the oppressed and prospered, and its founding principles of civil and religious liberty became foundational to the American Republic.",
+      "claim_type": "event",
+      "entities": ["Rhode Island", "Roger Williams"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-065",
+      "paragraph": 18,
+      "quote": "In that grand old document which our forefathers set forth as their bill of rights—the Declaration of Independence—they declared: “We hold these truths to be self-evident, that all men are created equal; that they are endowed by their Creator with certain unalienable rights; that among these are life, liberty, and the pursuit of happiness.”",
+      "claim_text": "The United States Declaration of Independence declares: 'We hold these truths to be self-evident, that all men are created equal; that they are endowed by their Creator with certain unalienable rights; that among these are life, liberty, and the pursuit of happiness.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Declaration of Independence"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-066",
+      "paragraph": 18,
+      "quote": "And the Constitution guarantees, in the most explicit terms, the inviolability of conscience: “No religious test shall ever be required as a qualification to any office of public trust under the United States.”",
+      "claim_text": "The United States Constitution states: 'No religious test shall ever be required as a qualification to any office of public trust under the United States.'",
+      "claim_type": "attributed_quote",
+      "entities": ["United States Constitution"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-067",
+      "paragraph": 18,
+      "quote": "“Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof.”",
+      "claim_text": "The United States Constitution (First Amendment) states: 'Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof.'",
+      "claim_type": "attributed_quote",
+      "entities": ["United States Constitution"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-068",
+      "paragraph": 19,
+      "quote": "“The framers of the Constitution recognized the eternal principle that man’s relation with his God is above human legislation, and his rights of conscience inalienable. Reasoning was not necessary to establish this truth; we are conscious of it in our own bosoms. It is this consciousness which, in defiance of human laws, has sustained so many martyrs in tortures and flames. They felt that their duty to God was superior to human enactments, and that man could exercise no authority over their consciences. It is an inborn principle which nothing can eradicate.”(446)",
+      "claim_text": "A source cited in footnote 446 states that the framers of the United States Constitution recognized that man's relation with God is above human legislation and that rights of conscience are inalienable.",
+      "claim_type": "attributed_quote",
+      "entities": ["United States Constitution"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-069",
+      "paragraph": 20,
+      "quote": "As the tidings spread through the countries of Europe, of a land where every man might enjoy the fruit of his own labor and obey the convictions of his conscience, thousands flocked to the shores of the New World.",
+      "claim_text": "News spread through Europe of a land where every man could enjoy the fruit of his own labor and obey his conscience, and thousands emigrated to the New World as a result.",
+      "claim_type": "event",
+      "entities": ["Europe", "New World"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-070",
+      "paragraph": 20,
+      "quote": "Colonies rapidly multiplied.",
+      "claim_text": "English colonies in the New World rapidly multiplied following the news of religious and economic freedom.",
+      "claim_type": "event",
+      "entities": ["New World"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-071",
+      "paragraph": 20,
+      "quote": "“Massachusetts, by special law, offered free welcome and aid, at the public cost, to Christians of any nationality who might fly beyond the Atlantic ‘to escape from wars or famine, or the oppression of their persecutors.’ Thus the fugitive and the downtrodden were, by statute, made the guests of the commonwealth.”(447)",
+      "claim_text": "A source cited in footnote 447 states that Massachusetts, by special law, offered free welcome and public aid to Christians of any nationality fleeing wars, famine, or persecution.",
+      "claim_type": "attributed_quote",
+      "entities": ["Massachusetts Bay Colony"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-072",
+      "paragraph": 20,
+      "quote": "In twenty years from the first landing at Plymouth, as many thousand Pilgrims were settled in New England.",
+      "claim_text": "Within twenty years of the first landing at Plymouth, a stated number of thousands of Pilgrims were settled in New England.",
+      "claim_type": "statistic",
+      "entities": ["Plymouth Colony", "New England"],
+      "needs_verification": true,
+      "extractor_note": "The phrase 'as many thousand' is ambiguous as transcribed (possibly a variant of 'twenty thousand'); flag for verifier to check the figure against period population estimates for New England circa 1640."
+    },
+    {
+      "id": "GC-16-073",
+      "paragraph": 21,
+      "quote": "“they were content to earn a bare subsistence by a life of frugality and toil. They asked nothing from the soil but the reasonable returns of their own labor. No golden vision threw a deceitful halo around their path.... They were content with the slow but steady progress of their social polity. They patiently endured the privations of the wilderness, watering the tree of liberty with their tears, and with the sweat of their brow, till it took deep root in the land.”",
+      "claim_text": "A cited source describes the early New England colonists as content to earn a bare subsistence through frugality and toil, patiently enduring the privations of the wilderness while their social order took root.",
+      "claim_type": "attributed_quote",
+      "entities": ["New England"],
+      "needs_verification": true,
+      "extractor_note": "No explicit footnote number is attached to this quotation as transcribed in the chapter text."
+    },
+    {
+      "id": "GC-16-074",
+      "paragraph": 22,
+      "quote": "The Bible was held as the foundation of faith, the source of wisdom, and the charter of liberty.",
+      "claim_text": "In the New England colonies, the Bible was held as the foundation of faith, the source of wisdom, and the charter of liberty.",
+      "claim_type": "event",
+      "entities": ["New England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-075",
+      "paragraph": 22,
+      "quote": "Its principles were diligently taught in the home, in the school, and in the church, and its fruits were manifest in thrift, intelligence, purity, and temperance.",
+      "claim_text": "Bible principles were diligently taught in New England homes, schools, and churches, producing thrift, intelligence, purity, and temperance.",
+      "claim_type": "interpretive",
+      "entities": ["New England"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-076",
+      "paragraph": 22,
+      "quote": "One might be for years a dweller in the Puritan settlements, “and not see a drunkard, or hear an oath, or meet a beggar.”(448)",
+      "claim_text": "A source cited in footnote 448 states that one could live for years in the Puritan settlements 'and not see a drunkard, or hear an oath, or meet a beggar.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Puritans"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-077",
+      "paragraph": 22,
+      "quote": "It was demonstrated that the principles of the Bible are the surest safeguards of national greatness.",
+      "claim_text": "The Puritan colonial experience demonstrated that the principles of the Bible are the surest safeguards of national greatness.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-078",
+      "paragraph": 22,
+      "quote": "The feeble and isolated colonies grew to a confederation of powerful States,",
+      "claim_text": "The feeble and isolated American colonies grew into a confederation of powerful states.",
+      "claim_type": "event",
+      "entities": ["New England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-079",
+      "paragraph": 22,
+      "quote": "and the world marked with wonder the peace and prosperity of “a church without a pope, and a state without a king.”",
+      "claim_text": "A cited source describes the world as marking with wonder the peace and prosperity of 'a church without a pope, and a state without a king' in reference to the American colonies.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "No explicit footnote number is attached to this embedded quotation as transcribed in the chapter text."
+    },
+    {
+      "id": "GC-16-080",
+      "paragraph": 23,
+      "quote": "But continually increasing numbers were attracted to the shores of America, actuated by motives widely different from those of the first Pilgrims.",
+      "claim_text": "Increasing numbers of people came to America motivated by reasons different from the religious motives of the first Pilgrims.",
+      "claim_type": "event",
+      "entities": ["America", "Pilgrims"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-081",
+      "paragraph": 23,
+      "quote": "Though the primitive faith and purity exerted a wide-spread and moulding power, yet its influence became less and less as the numbers increased of those who sought only worldly advantage.",
+      "claim_text": "The influence of the original Puritan faith and purity in the colonies diminished as the numbers of settlers seeking only worldly advantage increased.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-082",
+      "paragraph": 24,
+      "quote": "The regulation adopted by the early colonists, of permitting only members of the church to vote or to hold office in the civil government, led to most pernicious results.",
+      "claim_text": "The early colonial regulation permitting only church members to vote or hold civil office led to pernicious results.",
+      "claim_type": "causal",
+      "entities": ["Massachusetts Bay Colony"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-083",
+      "paragraph": 24,
+      "quote": "This measure had been accepted as a means of preserving the purity of the state, but it resulted in the corruption of the church.",
+      "claim_text": "The regulation restricting suffrage and office-holding to church members, intended to preserve the purity of the state, resulted instead in the corruption of the church.",
+      "claim_type": "causal",
+      "entities": ["Massachusetts Bay Colony"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-084",
+      "paragraph": 24,
+      "quote": "A profession of religion being the condition of suffrage and office-holding, many, actuated solely by motives of worldly policy, united with the church without a change of heart.",
+      "claim_text": "Because a profession of religion was required for suffrage and office-holding in the colony, many people joined the church for worldly political motives rather than genuine conversion.",
+      "claim_type": "event",
+      "entities": ["Massachusetts Bay Colony"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-085",
+      "paragraph": 24,
+      "quote": "Thus the churches came to consist, to a considerable extent, of unconverted persons; and even in the ministry were those who not only held errors of doctrine, but who were ignorant of the renewing power of the Holy Spirit.",
+      "claim_text": "The New England churches came to include a considerable proportion of unconverted persons, and some ministers held doctrinal errors and lacked genuine conversion experience.",
+      "claim_type": "event",
+      "entities": ["New England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-086",
+      "paragraph": 24,
+      "quote": "Thus again was demonstrated the evil results, so often witnessed in the history of the church from the days of Constantine to the present, of attempting to build up the church by the aid of the state, of appealing to the secular power in support of the gospel",
+      "claim_text": "The New England experience demonstrated a pattern of evil results, observed repeatedly in church history from the time of Constantine onward, arising from attempts to build up the church through the aid of the state.",
+      "claim_type": "interpretive",
+      "entities": ["Constantine"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-087",
+      "paragraph": 24,
+      "quote": "of Him who declared, “My kingdom is not of this world.”(449)",
+      "claim_text": "Jesus is quoted (footnote 449) as having declared, 'My kingdom is not of this world.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-088",
+      "paragraph": 24,
+      "quote": "The union of the church with the state, be the degree never so slight, while it may appear to bring the world nearer to the church, does in reality but bring the church nearer to the world.",
+      "claim_text": "Any union of church and state, however slight, in reality brings the church nearer to the world rather than the world nearer to the church.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-089",
+      "paragraph": 25,
+      "quote": "The great principle so nobly advocated by Robinson and Roger Williams, that truth is progressive, that Christians should stand ready to accept all the light which may shine from God’s holy word, was lost sight of by their descendants.",
+      "claim_text": "The principle of progressive truth advocated by John Robinson and Roger Williams was lost sight of by their descendants.",
+      "claim_type": "interpretive",
+      "entities": ["John Robinson", "Roger Williams"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-090",
+      "paragraph": 25,
+      "quote": "The Protestant churches of America—and those of Europe as well—so highly favored in receiving the blessings of the Reformation, failed to press forward in the path of reform.",
+      "claim_text": "The Protestant churches of America and Europe, having received the blessings of the Reformation, failed to press forward in the path of further reform.",
+      "claim_type": "interpretive",
+      "entities": ["America", "Europe"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-091",
+      "paragraph": 25,
+      "quote": "Though a few faithful men arose, from time to time, to proclaim new truth and expose long-cherished error, the majority, like the Jews in Christ’s day or the papists in the time of Luther, were content to believe as their fathers had believed, and to live as they had lived.",
+      "claim_text": "The majority of Protestants, like the Jews in Christ's day or the papists in Luther's time, were content to believe and live as their fathers had, despite the appearance of a few reformers proclaiming new truth.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-092",
+      "paragraph": 25,
+      "quote": "Therefore religion again degenerated into formalism; and errors and superstitions which would have been cast aside had the church continued to walk in the light of God’s word, were retained and cherished.",
+      "claim_text": "Protestant religion degenerated into formalism, retaining errors and superstitions that would otherwise have been abandoned.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-093",
+      "paragraph": 25,
+      "quote": "Thus the spirit inspired by the Reformation gradually died out, until there was almost as great need of reform in the Protestant churches as in the Roman Church in the time of Luther.",
+      "claim_text": "The spirit of the Reformation gradually died out in the Protestant churches, to the point that they needed reform almost as much as the Roman Church had in Luther's time.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-094",
+      "paragraph": 25,
+      "quote": "There was the same worldliness and spiritual stupor, a similar reverence for the opinions of men, and substitution of human theories for the teachings of God’s word.",
+      "claim_text": "The Protestant churches came to exhibit the same worldliness, spiritual stupor, reverence for human opinion, and substitution of human theories for Scripture that had characterized the Roman Church before Luther.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-095",
+      "paragraph": 26,
+      "quote": "The wide circulation of the Bible in the early part of the nineteenth century, and the great light thus shed upon the world",
+      "claim_text": "The Bible had wide circulation in the early part of the nineteenth century.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-16-096",
+      "paragraph": 26,
+      "quote": "was not followed by a corresponding advance in knowledge of revealed truth, or in experimental religion.",
+      "claim_text": "The wide circulation of the Bible in the early nineteenth century was not followed by a corresponding advance in knowledge of revealed truth or in experimental religion.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-097",
+      "paragraph": 26,
+      "quote": "Satan could not, as in former ages, keep God’s word from the people; it had been placed within the reach of all; but in order still to accomplish his object, he led many to value it but lightly.",
+      "claim_text": "Unable to keep God's word from the people once the Bible was widely accessible, Satan instead led many to value it lightly.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-098",
+      "paragraph": 26,
+      "quote": "Men neglected to search the Scriptures, and thus they continued to accept false interpretations, and to cherish doctrines which had no foundation in the Bible.",
+      "claim_text": "People neglected to search the Scriptures and consequently continued to accept false interpretations and doctrines with no biblical foundation.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-099",
+      "paragraph": 27,
+      "quote": "Seeing the failure of his efforts to crush out the truth by persecution, Satan had again resorted to the plan of compromise which led to the great apostasy and the formation of the Church of Rome.",
+      "claim_text": "After persecution failed to crush the truth, Satan resorted again to the plan of compromise that had earlier led to the great apostasy and the formation of the Roman Catholic Church.",
+      "claim_type": "theological",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-100",
+      "paragraph": 27,
+      "quote": "He had induced Christians to ally themselves, not now with pagans, but with those who, by their devotion to the things of this world, had proved themselves to be as truly idolaters as were the worshipers of graven images.",
+      "claim_text": "Satan induced Christians to ally themselves with worldly people who, through devotion to worldly things, were as truly idolaters as worshipers of graven images.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-101",
+      "paragraph": 27,
+      "quote": "And the results of this union were no less pernicious now than in former ages; pride and extravagance were fostered under the guise of religion, and the churches became corrupted.",
+      "claim_text": "The union of the church with worldly people produced pernicious results, fostering pride and extravagance under the guise of religion and corrupting the churches.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-102",
+      "paragraph": 27,
+      "quote": "Satan continued to pervert the doctrines of the Bible, and traditions that were to ruin millions were taking deep root.",
+      "claim_text": "Satan continued to pervert biblical doctrines, and traditions that would ruin millions of people took deep root.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-16-103",
+      "paragraph": 27,
+      "quote": "The church was upholding and defending these traditions, instead of contending for “the faith which was once delivered to the saints.”",
+      "claim_text": "The Protestant church upheld and defended corrupted traditions instead of contending for 'the faith which was once delivered to the saints.'",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "extractor_note": "Contains an embedded biblical allusion (Jude 1:3, 'the faith which was once delivered unto the saints') presented without direct attribution in the chapter text."
+    },
+    {
+      "id": "GC-16-104",
+      "paragraph": 27,
+      "quote": "Thus were degraded the principles for which the Reformers had done and suffered so much.",
+      "claim_text": "The principles for which the Protestant Reformers had labored and suffered were ultimately degraded.",
+      "claim_type": "interpretive",
+      "entities": ["Protestant Reformers"],
+      "needs_verification": false
+    }
+  ]
+}

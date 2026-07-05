@@ -898,65 +898,232 @@
       "words": 2621,
       "paragraphs": 21,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 76,
+          "needs_verification": 73,
+          "by_type": {
+            "event": 37,
+            "causal": 11,
+            "biographical": 11,
+            "attributed_quote": 11,
+            "interpretive": 2,
+            "geographical": 2,
+            "theological": 1,
+            "statistic": 1
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 67,
+          "anachronistic": 8,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 1,
+          "low_confidence": 10,
+          "searches": 8,
+          "clusters": 6
+        },
+        "defend": {
+          "examined": 8,
+          "defense_succeeded": 1,
+          "verdict_downgraded": 0,
+          "defense_failed": 7,
+          "searches": 1
+        }
+      },
+      "updated_at": "2026-07-05T10:37:40Z"
     },
     "14": {
       "title": "Later English Reformers",
       "words": 6958,
       "paragraphs": 59,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
+        "extract": "done",
+        "verify": "done",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 157,
+          "needs_verification": 134,
+          "by_type": {
+            "event": 48,
+            "attributed_quote": 32,
+            "biographical": 30,
+            "causal": 16,
+            "interpretive": 15,
+            "theological": 8,
+            "date": 4,
+            "statistic": 4
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 130,
+          "anachronistic": 2,
+          "disputed": 1,
+          "contradicted": 1,
+          "misquotation": 0,
+          "unverifiable": 23,
+          "low_confidence": 0,
+          "searches": 10,
+          "clusters": 7
+        }
+      },
+      "updated_at": "2026-07-05T10:37:15Z"
     },
     "15": {
       "title": "The Bible And The French Revolution",
       "words": 7994,
       "paragraphs": 64,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
+        "extract": "done",
+        "verify": "done",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 158,
+          "needs_verification": 123,
+          "by_type": {
+            "attributed_quote": 58,
+            "event": 24,
+            "theological": 21,
+            "causal": 15,
+            "interpretive": 14,
+            "statistic": 12,
+            "date": 9,
+            "biographical": 4,
+            "geographical": 1
+          },
+          "zero_claim_paras": [
+            56
+          ]
+        },
+        "verify": {
+          "supported": 109,
+          "anachronistic": 3,
+          "disputed": 5,
+          "contradicted": 0,
+          "misquotation": 2,
+          "unverifiable": 39,
+          "low_confidence": 16,
+          "searches": 14,
+          "clusters": 11
+        }
+      },
+      "updated_at": "2026-07-05T10:31:09Z"
     },
     "16": {
       "title": "The Pilgrim Fathers",
       "words": 3320,
       "paragraphs": 27,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
-        "impact": "pending"
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
+        "impact": "done"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 104,
+          "needs_verification": 64,
+          "by_type": {
+            "event": 27,
+            "interpretive": 28,
+            "attributed_quote": 26,
+            "theological": 12,
+            "causal": 5,
+            "biographical": 4,
+            "date": 1,
+            "statistic": 1
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 66,
+          "anachronistic": 0,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 38,
+          "low_confidence": 8,
+          "searches": 10,
+          "clusters": 7
+        },
+        "defend": {
+          "examined": 0,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 0,
+          "searches": 0
+        },
+        "impact": {
+          "scored": 0,
+          "load_bearing": 0,
+          "top_impact": []
+        }
+      },
+      "updated_at": "2026-07-05T10:38:07Z"
     },
     "17": {
       "title": "Heralds Of The Morning",
       "words": 6038,
       "paragraphs": 53,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 92,
+          "needs_verification": 70,
+          "by_type": {
+            "attributed_quote": 30,
+            "event": 16,
+            "theological": 15,
+            "statistic": 8,
+            "date": 6,
+            "biographical": 6,
+            "geographical": 3,
+            "interpretive": 7,
+            "causal": 1
+          },
+          "zero_claim_paras": [
+            23
+          ]
+        },
+        "verify": {
+          "supported": 70,
+          "anachronistic": 2,
+          "disputed": 4,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 16,
+          "low_confidence": 11,
+          "searches": 8,
+          "clusters": 6
+        },
+        "defend": {
+          "examined": 2,
+          "defense_succeeded": 2,
+          "verdict_downgraded": 0,
+          "defense_failed": 0,
+          "searches": 2
+        }
+      },
+      "updated_at": "2026-07-05T10:34:26Z"
     },
     "18": {
       "title": "An American Reformer",
