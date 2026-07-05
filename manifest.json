@@ -1387,8 +1387,8 @@
       "stages": {
         "extract": "done",
         "verify": "done",
-        "defend": "pending",
-        "impact": "pending"
+        "defend": "done",
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -1416,9 +1416,26 @@
           "low_confidence": 6,
           "searches": 5,
           "clusters": 6
+        },
+        "defend": {
+          "examined": 0,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 0,
+          "searches": 0
+        },
+        "impact": {
+          "scored": 1,
+          "load_bearing": 1,
+          "top_impact": [
+            {
+              "id": "GC-22-039",
+              "score": 15
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-05T11:13:00Z"
+      "updated_at": "2026-07-05T11:26:09Z"
     },
     "23": {
       "title": "What Is The Sanctuary?",
