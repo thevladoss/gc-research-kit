@@ -2994,7 +2994,25 @@
         "claims": 4,
         "load_bearing": 0,
         "academic_floor": false,
-        "status": "pending"
+        "status": "done",
+        "ruling_file": "adjudication/D16_titus-and-the-temple.ruling.json",
+        "rulings_as_written": {
+          "improbable": 1,
+          "genuinely-open": 3
+        },
+        "rulings_weakened": {
+          "genuinely-open": 4
+        },
+        "framing_gaps": {
+          "1": 1,
+          "0": 3
+        },
+        "failing_component_kind_accusatory": {
+          "fact": 1
+        },
+        "gap_notes": [],
+        "searches": "searches: ~9 (7 shared incl",
+        "updated_at": "2026-07-05T19:33:53Z"
       },
       "D17": {
         "slug": "early-persecution-scale",

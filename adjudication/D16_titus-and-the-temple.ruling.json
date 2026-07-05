@@ -1,0 +1,201 @@
+{
+  "dossier": "D16",
+  "slug": "titus-and-the-temple",
+  "stage": "adjudication",
+  "charter_version": "1.1-frozen",
+  "generated_at": "2026-07-05",
+  "notes": "searches: ~9 (7 shared incl. the Milman-conduit question, 2 stragglers for GC-01-101 'not one stone' provenance); WebFetch: Josephus BJ 6 full text (penelope.uchicago.edu) succeeded; Milman 'Burning of the Temple' page bot-blocked both live and via archive, so Milman's exact wording for paragraphs 39-40 could not be checked verbatim (the 1911 GC appendix credits Milman, History of the Jews, book 16, for this section; the block quote in paragraphs 41-43 was already verified as Milman verbatim in Phase 1). None of the four claims received a Phase-1 defense object (disputed skips the defense stage), so §7.4 engagement targets the verifier rationales and the strongest published defenses of the Josephan account.",
+  "evidence_review": "STATE OF THE QUESTION. All four claims are slices of one narrative: Josephus, Bellum Judaicum 6.236-266. Josephus (an eyewitness of the siege, though not of the war council; a Flavian client whose War was endorsed by Titus himself) reports: (a) a council of war at which some commanders urged destroying the temple under the laws of war, others conditional sparing, and Titus declared that 'we ought not to revenge ourselves on things that are inanimate' and decided to preserve it as an ornament of Roman rule (BJ 6.236-243, confirmed verbatim in the fetched Whiston text); (b) a soldier who 'without staying for any orders... hurried on by a certain divine fury' threw fire into a golden window (6.252); (c) Titus rushing from his tent, signalling with his right hand and shouting to quench the fire, unheard or ignored amid the din, soldiers hurling more brands, heaps of bodies around the altar and blood running down its steps (6.254-259); (d) Titus entering the holy place with his commanders, finding it 'far superior to what the relations of foreigners contained', making a renewed attempt and ordering the centurion Liberalius to beat refractory soldiers with staves, in vain (6.260-266). Crucially, the same Josephan book also has Titus ordering the temple GATES set on fire when sparing efforts cost him soldiers (BJ 6.228), and after the fall he razed city and temple; so even the friendliest source contains no absolute preservation order. THE COUNTER-TRADITION: Sulpicius Severus, Chronica 2.30.6-7 (c. 400 CE) reports the opposite council outcome: 'others, and Titus himself, judged that the temple should above all be destroyed', to abolish the religion of Jews and Christians. Since Jacob Bernays (1861) this passage has been widely held to derive from the lost book of Tacitus's Histories; the derivation is accepted by editors of the critical editions, though H. Montefiore (Historia 11, 1962) challenged Bernays's stylistic case and proposed a non-Tacitean classical source (Antonius Julianus), to which Momigliano replied that this substitutes Tacitus's probable source for Tacitus, 'no gain and greater obscurity'. MODERN BALANCE: Leoni's own peer-reviewed survey (JJS 58.1, 2007) concedes that 'the vast majority of scholars have followed Bernays in giving more credence to the account of... Sulpicius Severus', i.e. deliberate destruction with Josephus whitewashing his patron; named exemplars of that line include T. D. Barnes ('The Sack of the Temple in Josephus and Tacitus') and J. Rives ('Flavian Religious Policy and the Destruction of the Jerusalem Temple'), both in Edmondson/Mason/Rives (eds.), Flavius Josephus and Flavian Rome (OUP 2005); the older literature includes Weiler, Yavetz and Alon. Contemporary Flavian imagery (Valerius Flaccus's proem picturing Titus 'scattering firebrands' at Jerusalem, cited in Mason's discussion) shows the regime celebrated rather than regretted the destruction. ON THE OTHER SIDE: T. Leoni (JJS 2007) defends Josephus's narrative as 'unequivocally clear, consistent and substantially trustworthy'; T. Rajak (Josephus: The Historian and His Society, 2nd ed. 2002) deems either council outcome plausible but gives greater weight to Josephus as the eyewitness; M. Goodman considers the accidental-fire account plausible given the difficulty of controlling fire; S. Mason (A History of the Jewish War, CUP 2016) is deflationary toward both retrospective framings ('no reason to imagine that Titus had a policy concerning the city or temple'). This is a documented disagreement among qualified specialists arguing from the same primary evidence with comparable methods, not reducible to confessional alignment: eyewitness proximity and internal coherence (Leoni, Rajak) versus patronage bias, the internal gates-order tension, Flavian celebration imagery, and the probable Tacitean counter-tradition (Barnes, Rives). Under §5.4 this is weighing, not head-counting: the majority lean is real, but the minority holds the best-placed witness. VERDICT STRUCTURE FOR THE DOSSIER: components asserting WHAT JOSEPHUS'S SCENE CONTAINS and what is common to all traditions (the assault, the fire spread by soldiers, the massacre of those sheltering in the temple, Titus's entry into the sanctuary) are well-attested; components asserting TITUS'S PRESERVATIVE INTENT AND ORDERS as unqualified fact sit exactly on the open Josephus-vs-Tacitus crux and are genuinely open; the one component asserting an absolute order 'that not one stone be touched' given from Olivet is attested in no ancient source in that form, is contradicted within Josephus's own account (gates fired at Titus's order, BJ 6.228), and is a 19th-century dramatized inversion of Matthew 24:2 in the Milman layer that White used. NINETEENTH-CENTURY CONDUIT: the 1911 appendix credits Milman's History of the Jews, book 16; paragraphs 41-43 are Milman verbatim (Phase-1 finding), and paragraphs 39-40 are a paraphrase of the same layer; Milman follows Josephus's dramatization, so the pro-Titus framing was period-standard historiography, predating the post-Bernays turn's penetration into popular histories.",
+  "narrative_ru": "Досье разбирает сцену гибели Иерусалимского храма в 70 году: хотел ли Тит спасти святилище, как пишет очевидец Иосиф Флавий, или сам приказал его сжечь, как утверждает традиция Сульпиция Севера, восходящая, вероятно, к утраченной книге Тацита. Учёные спорят об этом с 1861 года: большинство после Бернайса не доверяет проимператорской версии Иосифа, однако её защищают и серьёзные специалисты, включая Раджак и Леони. Поэтому три из четырёх утверждений получили вердикт «действительно открыто»: наука сегодня не может решить, пытался ли Тит остановить пожар, хотя резня укрывшихся в храме и сам штурм сомнению не подлежат. Четвёртое утверждение, будто Тит с Елеонской горы приказал «не трогать ни одного камня» храма, в буквальном виде маловероятно: такого приказа нет даже у Иосифа, у которого Тит сам велел поджечь храмовые ворота. В ослабленной формулировке и это утверждение возвращается в разряд открытых, поскольку опирается на свидетельство очевидца. Картину изменила бы находка утраченной части «Историй» Тацита или новое независимое свидетельство о военном совете Тита.",
+  "rulings": [
+    {
+      "id": "GC-01-101",
+      "dossier": "D16",
+      "quantifier_audit": ["not one stone of it be touched"],
+      "components": [
+        {
+          "component": "Titus was filled with horror at the heaps of corpses in the valleys (and, per the printed quote, would willingly have ended the scene and spared Jerusalem the full measure of her doom)",
+          "kind": "frame",
+          "in_scope": true,
+          "ruling": "genuinely-open",
+          "rationale": "Josephus reports the scene as an eyewitness (BJ 5.519: Titus groaned on his rounds and called God to witness the carnage was not his doing). No rival report exists, but the scene belongs precisely to the exculpatory Titus-portrait that the Bernays line (Barnes, Rives) treats as Flavian whitewash and that Leoni and Rajak defend. It stands or falls with the contested portrait; qualified specialists divide on comparable evidence (see evidence_review)."
+        },
+        {
+          "component": "Titus wished to spare Jerusalem and the temple (intent attribution)",
+          "kind": "motive",
+          "in_scope": true,
+          "ruling": "genuinely-open",
+          "rationale": "Both rival motive accounts have contested documentary bases of comparable kind: Josephus's contemporary eyewitness testimony (endorsed by the interested party) for preservation, versus the probably-Tacitean Sulpicius tradition plus Flavian celebration imagery (Valerius Flaccus) for deliberate destruction. Per §3 the motive component is not capped below genuinely-open, since neither side's motive account rests on undisputed documents; per §5.4 the split among qualified specialists (Barnes/Rives vs Leoni/Rajak/Goodman/Mason) is genuine."
+        },
+        {
+          "component": "From the crest of Olivet Titus gave command that not one stone of the temple be touched",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "No ancient source reports such an order in this form or setting. Josephus's actual content is weaker and later: a war-council decision not to burn the holy house (BJ 6.236-243) and orders to quench fires; and the same book contains a well-provenanced counterexample to the absolute, Titus's own order to set the temple gates on fire (BJ 6.228), plus the post-fall razing. The 'not one stone' phrasing is a dramatized inversion of Matthew 24:2 in the Milman layer White paraphrased, engineered for the chapter's providential irony ('One greater than he had declared that not one stone was to be left upon another'). One well-provenanced counterexample within the friendliest source caps the as-written absolute at improbable (§6.3)."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "Titus was appalled by the carnage of the siege and initially resolved that the temple should, if possible, be spared.",
+      "ruling_weakened": "genuinely-open",
+      "framing_gap": 1,
+      "confidence": "medium",
+      "minority_engagement": "Strongest defenses of the claim: (1) T. Leoni (JJS 58.1, 2007) argues Josephus's whole burning narrative is 'unequivocally clear, consistent and substantially trustworthy', and T. Rajak (2002) gives greater weight to Josephus as the eyewitness; if they are right, Titus did decide to spare the temple. Answer: even granting Leoni in full, Josephus contains no Olivet command 'that not one stone be touched' and does contain Titus's order to burn the temple gates (BJ 6.228), so the claim as written overstates the maximally friendly source; the Leoni/Rajak defense therefore rescues only the weakened version, which is ruled genuinely-open. (2) The dramatization defense: the sentence merely condenses Milman's period-standard retelling. Conceded as provenance (see notes), but under §2 the as-written ruling addresses the sentence's factual assertion, and no ancient evidence attests the absolute order. No Phase-1 defense object exists for this claim (disputed skipped the defense stage).",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "Josephus, Bellum Judaicum 6.228, 6.236-243 (Whiston trans., penelope.uchicago.edu, full text fetched; gates order also in the Loyola Wars VI text)", "tier": "primary-in-context", "independence_note": "The claim's own underlying source, read in scholarly context; independent of the modern debate literature."},
+        {"ref": "T. D. Barnes, 'The Sack of the Temple in Josephus and Tacitus', in Edmondson/Mason/Rives (eds.), Flavius Josephus and Flavian Rome (OUP 2005)", "tier": "academic", "independence_note": "Bernays-line case against the Josephan exculpation; same OUP volume as Rives but an independent argument."},
+        {"ref": "T. Leoni, \"'Against Caesar's wishes': Flavius Josephus as a Source for the Burning of the Temple\", Journal of Jewish Studies 58.1 (2007) 39-51", "tier": "academic", "independence_note": "Peer-reviewed defense of Josephus; also documents the majority lean ('vast majority... followed Bernays'); genealogically independent of Barnes."},
+        {"ref": "H. H. Milman, History of the Jews, book 16 (credited in the GC 1911 appendix for this section)", "tier": "position", "independence_note": "White's 19th-century conduit; follows Josephus's dramatization, not an independent witness."}
+      ],
+      "would_change_this": "Recovery of the lost portion of Tacitus's Histories book 5, or any ancient text attesting an early absolute preservation order by Titus, would reopen the as-written ruling; a verifiable ancient source for the Olivet command specifically would move it toward genuinely-open.",
+      "gap_note": null,
+      "notes": "Period-standard layer: the dramatization follows Milman (1911 appendix credit); Milman's exact wording could not be checked (page bot-blocked live and via archive), so whether the Olivet 'not one stone' staging is Milman's or White's heightening remains unverified. This affects only the period_standard attribution, not the ruling. Candidate for period_standard: true in synthesis if Milman's text is confirmed to carry the same dramatization."
+    },
+    {
+      "id": "GC-01-104",
+      "dossier": "D16",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "Titus at last decided to take the temple by storm",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "The Roman assault on the temple complex in August 70 CE is undisputed across all traditions (Josephus BJ 6; the counter-tradition disputes intent toward the building, not the assault)."
+        },
+        {
+          "component": "He determined that, if possible, the temple should be saved from destruction",
+          "kind": "motive",
+          "in_scope": true,
+          "ruling": "genuinely-open",
+          "rationale": "The exact crux of the Josephus-vs-Sulpicius/Tacitus debate: Josephus's council narrative (BJ 6.236-243) asserts it; Sulpicius Severus, Chronica 2.30.6-7 (probably from Tacitus per Bernays, contra Montefiore) asserts the opposite council outcome. Leoni's survey concedes the post-Bernays majority favors deliberate destruction, but Rajak, Leoni, Goodman and (deflationarily) Mason keep the eyewitness account live on comparable evidential grounds. Per §3, neither motive account rests on undisputed documents, so no cap below genuinely-open applies; per §5.4 this is a weighed standoff, not head-counting."
+        },
+        {
+          "component": "His preservation commands were disregarded by the soldiers",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "genuinely-open",
+          "rationale": "Conditional on such commands having been given, which is the same contested nexus: Josephus reports orders to quench and their disregard (BJ 6.254-266); on the Bernays reading these orders are the invention, on Leoni's reading they are the history."
+        }
+      ],
+      "ruling_as_written": "genuinely-open",
+      "failing_component_kind": "fact",
+      "tied_kinds": ["fact", "motive"],
+      "weakened_version": "Titus decided to storm the temple while preferring, if possible, to preserve the building, and the fire escaped anyone's full control.",
+      "ruling_weakened": "genuinely-open",
+      "framing_gap": 0,
+      "confidence": "high",
+      "minority_engagement": "Not required for genuinely-open; both sides are documented in evidence_review (Barnes/Rives/Bernays majority vs Leoni/Rajak/Goodman/Mason). The Phase-1 verifier's rationale (unresolved Josephus-vs-Tacitus dispute) is confirmed by independent research, not inherited as authority. No Phase-1 defense object exists.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "Josephus, Bellum Judaicum 6.236-266 (Whiston trans., penelope.uchicago.edu, fetched)", "tier": "primary-in-context", "independence_note": "Eyewitness primary source; pro-Flavian bias documented in the scholarship."},
+        {"ref": "Sulpicius Severus, Chronica 2.30.6-7, with Bernays's Tacitean derivation; Montefiore, 'Sulpicius Severus and Titus' Council of War', Historia 11 (1962); Momigliano's rejoinder", "tier": "primary-in-context", "independence_note": "The rival ancient tradition; genealogically independent of Josephus."},
+        {"ref": "T. D. Barnes (OUP 2005) and J. Rives (OUP 2005), in Flavius Josephus and Flavian Rome", "tier": "academic", "independence_note": "Named carriers of the post-Bernays majority; same volume, independent arguments."},
+        {"ref": "T. Leoni (JJS 2007); T. Rajak, Josephus: The Historian and His Society (2nd ed. 2002); S. Mason, A History of the Jewish War (CUP 2016)", "tier": "academic", "independence_note": "The qualified defense/deflationary side; three independent authors and venues."}
+      ],
+      "would_change_this": "A new fragment securing (or breaking) the Tacitean derivation of Sulpicius's council report, or any independent contemporary evidence of the war council's decision, would collapse the standoff in one direction.",
+      "gap_note": null,
+      "notes": "Tie at the claim minimum between the motive component (intent to preserve) and the fact component (orders disregarded); §3 priority fact > motive sets failing_component_kind."
+    },
+    {
+      "id": "GC-01-106",
+      "dossier": "D16",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "Titus rushed to the burning temple and commanded the soldiers to quench the flames, but was unheeded",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "genuinely-open",
+          "rationale": "The heart of the contested exculpatory scene (BJ 6.254-259: Titus shouting and signalling with his right hand, unheard amid the din). The Bernays line treats precisely this tableau as Josephus's whitewash of his patron; Leoni defends it as consistent eyewitness reporting, and Rajak weighs Josephus's proximity heavily. Qualified specialists divide on comparable evidence (see evidence_review)."
+        },
+        {
+          "component": "Soldiers hurled more blazing brands into the chambers adjoining the temple",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Common ground of both traditions: Josephus reports soldiers spreading the fire against orders; the Sulpicius/Tacitus tradition has them burning it under orders. That Roman soldiers spread the fire is not in dispute; only the authorization is."
+        },
+        {
+          "component": "Soldiers slaughtered in great numbers those who had found shelter there",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Undisputed across the traditions and the modern literature: Josephus describes heaps of bodies around the altar and blood running down its steps (BJ 6.259ff), and no ancient or modern account disputes the mass killing at the temple's fall. The Phase-1 verifier already noted the massacre as undisputed."
+        }
+      ],
+      "ruling_as_written": "genuinely-open",
+      "failing_component_kind": "fact",
+      "weakened_version": "When the fire broke out, Titus made some effort to check it, but the soldiers' violence prevailed and great numbers of those sheltering in the temple were slaughtered.",
+      "ruling_weakened": "genuinely-open",
+      "framing_gap": 0,
+      "confidence": "medium",
+      "minority_engagement": "Not required for genuinely-open; both sides documented in evidence_review. Note the asymmetry inside the claim: the massacre and fire-spreading components are well-supported, and only the quench-order component holds the claim at genuinely-open; the weakened version cannot rise above it because the order either was or was not given, and no quantifier relaxation touches that. No Phase-1 defense object exists.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "Josephus, Bellum Judaicum 6.249-266 (Whiston trans., penelope.uchicago.edu, fetched)", "tier": "primary-in-context", "independence_note": "Eyewitness source of the scene; bias documented."},
+        {"ref": "T. D. Barnes, 'The Sack of the Temple in Josephus and Tacitus' (OUP 2005)", "tier": "academic", "independence_note": "Case that the quench-order tableau is Flavian exculpation; independent of Leoni."},
+        {"ref": "T. Leoni (JJS 2007); T. Rajak (2002)", "tier": "academic", "independence_note": "Peer-reviewed defense of the scene's substance; independent venues."},
+        {"ref": "Wikipedia, 'Siege of Jerusalem (70 CE)'", "tier": "encyclopedic", "independence_note": "Downstream digest of the same literature; used only to map the consensus split, carries no independent weight."}
+      ],
+      "would_change_this": "Same evidence class as GC-01-104: a secured Tacitus fragment or independent contemporary testimony on Titus's conduct at the fire. For the massacre components, only a wholesale archaeological-demographic revision of the siege's end could move them, which nothing currently suggests.",
+      "gap_note": null,
+      "notes": "All three components are of kind fact, so no cross-kind tie arises; the minimum is set by the quench-order component."
+    },
+    {
+      "id": "GC-01-108",
+      "dossier": "D16",
+      "quantifier_audit": ["impossible (found it impossible to check the rage of the soldiery)"],
+      "components": [
+        {
+          "component": "Titus entered the temple with his officers and surveyed the interior of the sacred edifice",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "probable",
+          "rationale": "Josephus states it plainly (BJ 6.260: he saw the holy place, 'far superior to what the relations of foreigners contained'), and a conqueror inspecting the sanctuary is plausible on either tradition; the late rabbinic tradition (Gittin 56b), hostile to Titus, likewise has him entering the sanctuary, though in legendary form. Single primary witness plus a converging hostile legend supports probable rather than well-supported."
+        },
+        {
+          "component": "The splendor filled them with wonder",
+          "kind": "frame",
+          "in_scope": true,
+          "ruling": "probable",
+          "rationale": "Josephus's own dramatized register ('far superior to what the relations of foreigners contained'); as a characterization of the visit it is consistent with the attested magnificence of the Herodian temple and carries no counter-report, but rests on the one witness."
+        },
+        {
+          "component": "Titus found it impossible to check the rage of the soldiery",
+          "kind": "frame",
+          "in_scope": true,
+          "ruling": "genuinely-open",
+          "rationale": "Presupposes that he was trying to check them, which is the contested exculpatory crux; on the Sulpicius/Tacitus reading there was nothing to check because the destruction was ordered. Same standoff as the dossier's core question."
+        },
+        {
+          "component": "He made a last effort to save the holy place, exhorting the soldiers to stay the conflagration",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "genuinely-open",
+          "rationale": "The climax of Josephus's exculpatory scene (BJ 6.262-266, including the order to the centurion Liberalius to beat refractory soldiers): defended as substantially trustworthy by Leoni and weighed favorably by Rajak, treated as Flavian fiction by the Bernays line (Barnes, Rives). Comparable evidential quality on both sides (see evidence_review)."
+        }
+      ],
+      "ruling_as_written": "genuinely-open",
+      "failing_component_kind": "fact",
+      "tied_kinds": ["fact", "frame"],
+      "weakened_version": "Titus entered and surveyed the temple's splendid interior shortly before its destruction and made an effort to check the fire before the sanctuary burned.",
+      "ruling_weakened": "genuinely-open",
+      "framing_gap": 0,
+      "confidence": "medium",
+      "minority_engagement": "Not required for genuinely-open; both sides documented in evidence_review. The sentence is verbatim Milman (Phase-1 finding, 1911 appendix credit), and Milman transmits Josephus's dramatization wholesale; the entry-and-splendor layer is the best-attested part (probable), the rescue-attempt layer the contested part. No Phase-1 defense object exists.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "Josephus, Bellum Judaicum 6.260-266 incl. the Liberalius episode (Whiston trans., penelope.uchicago.edu, fetched)", "tier": "primary-in-context", "independence_note": "Sole ancient witness for the scene's detail; bias documented."},
+        {"ref": "T. Leoni (JJS 2007); T. Rajak (2002)", "tier": "academic", "independence_note": "Defense side; independent venues."},
+        {"ref": "T. D. Barnes (OUP 2005); J. Rives (OUP 2005)", "tier": "academic", "independence_note": "Bernays-line side; same volume, independent arguments."},
+        {"ref": "H. H. Milman, History of the Jews, book 16", "tier": "position", "independence_note": "White's verbatim source for this sentence; follows Josephus, adds no independent evidence."}
+      ],
+      "would_change_this": "Same class as the dossier core: recovery of Tacitus's account or new contemporary testimony on Titus at the fire. For the entry component alone, a peer-reviewed study discrediting Josephus's sanctuary-entry report (or corroborating it independently) would move that component.",
+      "gap_note": null,
+      "notes": "Tie at the claim minimum between the last-effort component (fact) and the impossible-to-check frame; §3 priority fact > frame sets failing_component_kind."
+    }
+  ]
+}
