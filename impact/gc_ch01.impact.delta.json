@@ -1,0 +1,63 @@
+{
+  "chapter": 1,
+  "stage": "impact",
+  "notes": "Chapter argument: Chapter 1 does not argue a Reformation-era point; it builds the book's interpretive template. Using Christ's Olivet prophecy and the AD 70 destruction of Jerusalem, it establishes (a) a double-fulfillment hermeneutic — a historical judgment that also types the end-time judgment — and (b) the theology that runs through the whole book: God's restraining protection is withdrawn only when a people's own rejection of light exhausts probation, at which point Satan is permitted to work unchecked ('the horrible cruelties... are a demonstration of Satan's vindictive power'). The argumentative weight is carried by the unverifiable theological/typological claims (covenant rejection, withdrawal of restraint, the twofold prophecy) and by the general shape of the historical record (siege, famine, temple's burning, city razed) matching the Olivet Discourse — not by any single statistic, architectural detail, or disputed anecdote. The empirically checkable claims about troop movements, famine horrors, portents, and casualty/population figures function as period-color 'proof' that the prophecy was 'fulfilled to the letter,' reinforcing the chapter's credibility but not individually load-bearing for its theological thesis. Because this chapter is the book's methodological frame (it teaches the reader how to read type/antitype and how to trust predictive prophecy before Reformation material even begins), all items below are tagged narrative_arc='frame'. Scope note: scored the 3 mandatory anachronistic items (048, 088, 115), the optional downgraded-to-disputed item (097), and, per orchestrator instruction, a representative sample of high-stakes disputed items from the Pella-flight cluster (079, 084) and the Titus-tried-to-save-the-temple cluster (101). Disputed siblings 082, 083 (Pella mechanism) and 104, 106, 108, 109, 110 (Titus-intent narrative) rest on the same two historiographical disputes as 079/084 and 101 respectively and were not separately scored — their impact profile does not differ materially from the representative item in each cluster.",
+  "items": {
+    "GC-01-048": {
+      "severity": 2,
+      "centrality": 1,
+      "load_bearing": false,
+      "impact_score": 2,
+      "narrative_arc": "frame",
+      "reasoning": "The claim fuses two things: real, fabulously large structural stones (true) and marble shipped from Rome (true only of decorative veneer, not the load-bearing ashlars, which were local meleke limestone). This is a decorative flourish meant to convey Herodian grandeur before the 'not one stone' prophecy lands; it names no misdeed and misrepresents no person. It follows Josephus's own 'snow-white' description of the temple and the 19th-century historiography (Milman-era) White used, so this is authorial method inherited from period sources, not invention. Counterfactual: delete the sentence entirely and the paragraph's claim ('wealth, labor, and skill... for more than forty years,' Herod's and the emperor's gifts) still fully supports the disciples' 'what manner of stones' exclamation and Christ's reply — nothing in the chapter's argument depends on the marble's origin."
+    },
+    "GC-01-088": {
+      "severity": 3,
+      "centrality": 2,
+      "load_bearing": false,
+      "impact_score": 6,
+      "narrative_arc": "frame",
+      "reasoning": "'Millions of Jews... within its walls' reproduces Josephus's own inflated wartime census (2.7 million, Wars 6.9.3); modern demography puts festival-swollen Jerusalem in the low hundreds of thousands at most, so the figure is an order of magnitude off — a materially inaccurate portrayal of the siege's scale, not a trivial slip. It is nonetheless era-standard: Josephus supplied the number and 19th-century historians (Milman, whom White followed) repeated it uncritically, so this reflects inherited scholarship rather than authorial fabrication. Counterfactual: swap 'millions' for an accurate 'hundreds of thousands crowded for Passover' and the sentence still does its job — establishing that Titus trapped a catastrophically overcrowded city — so the chapter's argument about famine and judgment is unaffected, only its rhetorical magnitude shrinks."
+    },
+    "GC-01-097": {
+      "severity": 1,
+      "centrality": 2,
+      "load_bearing": false,
+      "impact_score": 2,
+      "narrative_arc": "frame",
+      "reasoning": "The claim that Deuteronomy 28's siege-cannibalism warning was uttered 'fourteen centuries before' AD 70 assumes Mosaic authorship/dating (~1400 BC); mainstream critical scholarship favors a 7th-century BC Josianic composition, which would roughly halve the interval. The defender rightly downgraded this to disputed: Deuteronomy's date and authorship remain a genuinely contested question in biblical scholarship, and the verifier's own chapter treats parallel traditional attributions (Davidic Psalms) as unproblematic, so singling out this one as a hard error was inconsistent. Severity is low precisely because this is a live scholarly debate, not a settled modern correction, and it is a chronological aside embedded in an already-verified cannibalism-fulfillment passage. Counterfactual: whether the interval is fourteen or seven centuries, the chapter's point — an ancient prophetic warning literally fulfilled during the siege — stands unchanged; the exact number of intervening centuries carries no argumentative weight."
+    },
+    "GC-01-115": {
+      "severity": 3,
+      "centrality": 3,
+      "load_bearing": false,
+      "impact_score": 9,
+      "narrative_arc": "frame",
+      "reasoning": "'More than a million... perished' transmits Josephus's tally of 1.1 million dead (Wars 6.9.3) via Milman's history, which White quotes at length just before this line; modern historians reject the figure as physically impossible for the city's actual size and regard tens of thousands to a few hundred thousand as more plausible — a materially inaccurate portrayal of the catastrophe's scale, though squarely traceable to the sources White relied on rather than to invention. It carries above-average centrality because it is the chapter's capstone statistic, immediately preceding the pivot to the eschatological register in paragraph 47 ('a scene yet darker'), so it does real rhetorical work in establishing AD 70 as the worst national catastrophe on record. Counterfactual: even at realistic modern estimates the siege remains a well-documented atrocity with famine, crucifixion, and total urban destruction; the chapter's claims of prophecy-fulfillment and typological connection to a 'yet darker' future judgment do not require the specific figure of a million — the argument survives, just less viscerally."
+    },
+    "GC-01-079": {
+      "severity": 3,
+      "centrality": 3,
+      "load_bearing": true,
+      "impact_score": 9,
+      "narrative_arc": "frame",
+      "reasoning": "'Not one Christian perished' is an absolute historical claim resting entirely on a single strand of patristic tradition (Eusebius, Epiphanius) whose historicity has been actively disputed in scholarship since Brandon (1951); presenting it as flatly established fact overstates a genuinely contested tradition rather than the more modest 'some Christians reportedly withdrew to Pella' that the sources actually support. This claim is load-bearing for a specific sub-argument the chapter needs: paragraphs 48-50 explicitly generalize the Jerusalem episode into the book's end-time promise that those who watch for prophetic signs will be delivered while the careless perish ('as He warned His disciples of Jerusalem's destruction... so He has warned the world of the day of final destruction'). Counterfactual: without a total, zero-casualty deliverance of the obedient minority, the chapter loses its only historical anchor for the 'watch-the-sign-and-escape-unharmed' pattern that the book reuses as a template for the final generation — the broader chapter argument about judgment on apostate Jerusalem survives, but this specific and often-quoted sub-argument does not."
+    },
+    "GC-01-084": {
+      "severity": 2,
+      "centrality": 2,
+      "load_bearing": false,
+      "impact_score": 4,
+      "narrative_arc": "frame",
+      "reasoning": "The claim that fleeing Christians specifically went to Pella beyond the Jordan is geographically plausible (Pella did lie in that direction) but its substance depends on the same contested Eusebius/Epiphanius tradition underlying GC-01-079; the destination detail is subordinate color within that larger disputed narrative rather than an independent claim. Counterfactual: even if the specific destination were wrong or unverifiable, the chapter's point (a warned minority escaped before the city fell) does not hinge on which town they reached — only GC-01-079's stronger 'not one perished' claim carries load-bearing weight."
+    },
+    "GC-01-101": {
+      "severity": 3,
+      "centrality": 3,
+      "load_bearing": false,
+      "impact_score": 9,
+      "narrative_arc": "frame",
+      "reasoning": "The claim that Titus was horrified, wanted to spare the temple, and 'gave command that not one stone of it be touched' follows Josephus's pro-Flavian account (his own patron's whitewash), which the Tacitus/Sulpicius Severus tradition directly contradicts by having Titus order the temple's destruction; modern scholars remain genuinely split on which ancient source to trust. The vignette does real argumentative work: it stages a human authority actively trying to prevent an outcome that a divine prophetic decree still enforces ('In vain were the efforts of Titus... One greater than he had declared'), the chapter's most vivid illustration that predicted events unfold regardless of human intention or resistance — a mechanism the book leans on again wherever it argues that specific dates or events (1844, the final crisis) proceed on a divine timetable no human plan can alter. Counterfactual: delete the 'Titus tried to save it' framing and the temple still burns and the city still falls exactly as Christ predicted, so the chapter's core claim of literal fulfillment survives intact; only the specific dramatic proof that prophecy overrides even a sympathetic conqueror's will is lost, which matters for later thesis-chain arguments but not for this chapter's stated case."
+    }
+  }
+}

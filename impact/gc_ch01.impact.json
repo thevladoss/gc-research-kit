@@ -1,0 +1,2913 @@
+{
+  "chapter": 1,
+  "chapter_title": "The Destruction Of Jerusalem",
+  "stage": "impact",
+  "generated_at": "2026-07-05",
+  "notes": "searches: ~15, clusters: 9 (Josephus portents; Jesus ben Ananias; Mary of Bethezuba cannibalism; Cestius retreat + Pella flight; famine details; Titus/temple-burning dispute; casualty statistics; Herodian temple construction; Deuteronomy dating). 42 biblical KJV attributed-quotes and gospel-narrative/geography items resolved via [common_knowledge] fast-path (accurate KJV, textbook facts). Control sample of 3 needs_verification:false claims (GC-01-014, GC-01-038, GC-01-070) re-checked: all correctly flagged theological/interpretive, no smuggled empirical error. The unnamed block quote in paragraphs 41-43 (footnote 46) identified as H.H. Milman, 'The Burning of the Temple' (History of the Jews). Anachronistic verdicts: 048, 088, 097, 115 (all trace to Josephus/traditional historiography White relied on). Disputed verdicts: 079, 082, 084 (Pella flight), 101, 104, 106, 108 (Titus-tried-to-save-temple, Josephus vs Tacitus).\n\nsearches: ~2; full defenses: 0, cheap audits: 4. Scope per orchestrator: 4 anachronistic claims (048, 088, 097, 115), Read-only cheap audit each. Searches spent only on concrete leads: 048 (provenance of 'from Rome' marble) and 097 (Deuteronomy dating dispute + verifier internal-consistency check). 088 and 115 track Josephus directly and were audited without a search.\n\nChapter argument: Chapter 1 does not argue a Reformation-era point; it builds the book's interpretive template. Using Christ's Olivet prophecy and the AD 70 destruction of Jerusalem, it establishes (a) a double-fulfillment hermeneutic — a historical judgment that also types the end-time judgment — and (b) the theology that runs through the whole book: God's restraining protection is withdrawn only when a people's own rejection of light exhausts probation, at which point Satan is permitted to work unchecked ('the horrible cruelties... are a demonstration of Satan's vindictive power'). The argumentative weight is carried by the unverifiable theological/typological claims (covenant rejection, withdrawal of restraint, the twofold prophecy) and by the general shape of the historical record (siege, famine, temple's burning, city razed) matching the Olivet Discourse — not by any single statistic, architectural detail, or disputed anecdote. The empirically checkable claims about troop movements, famine horrors, portents, and casualty/population figures function as period-color 'proof' that the prophecy was 'fulfilled to the letter,' reinforcing the chapter's credibility but not individually load-bearing for its theological thesis. Because this chapter is the book's methodological frame (it teaches the reader how to read type/antitype and how to trust predictive prophecy before Reformation material even begins), all items below are tagged narrative_arc='frame'. Scope note: scored the 3 mandatory anachronistic items (048, 088, 115), the optional downgraded-to-disputed item (097), and, per orchestrator instruction, a representative sample of high-stakes disputed items from the Pella-flight cluster (079, 084) and the Titus-tried-to-save-the-temple cluster (101). Disputed siblings 082, 083 (Pella mechanism) and 104, 106, 108, 109, 110 (Titus-intent narrative) rest on the same two historiographical disputes as 079/084 and 101 respectively and were not separately scored — their impact profile does not differ materially from the representative item in each cluster.",
+  "claims": [
+    {
+      "id": "GC-01-001",
+      "paragraph": 1,
+      "quote": "“If thou hadst known, even thou, at least in this thy day, the things which belong unto thy peace! but now they are hid from thine eyes. For the days shall come upon thee, that thine enemies shall cast a trench about thee, and compass thee round, and keep thee in on every side, and shall lay thee even with the ground, and thy children within thee; and they shall not leave in thee one stone upon another; because thou knewest not the time of thy visitation.”",
+      "claim_text": "According to the Gospel of Luke, Jesus prophesied over Jerusalem that enemies would surround it, hem it in on every side, level it and its children (inhabitants) to the ground, and leave not one stone upon another, because it did not recognize the time of its visitation.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus",
+        "Jerusalem",
+        "Gospel of Luke"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Luke 19:42-44; the passage appears in the cited Gospel as rendered.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-002",
+      "paragraph": 2,
+      "quote": "From the crest of Olivet, Jesus looked upon Jerusalem. Fair and peaceful was the scene spread out before Him. It was the season of the Passover, and from all lands the children of Jacob had gathered there to celebrate the great national festival.",
+      "claim_text": "Jesus looked upon Jerusalem from the Mount of Olives during the season of Passover, when Jews from many lands had gathered in the city to celebrate the festival.",
+      "claim_type": "event",
+      "entities": [
+        "Jesus",
+        "Jerusalem",
+        "Mount of Olives",
+        "Passover"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Gospel narrative of Jesus viewing Jerusalem from Olivet; Passover pilgrimage of diaspora Jews to Jerusalem is a textbook fact of Second Temple Judaism.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-003",
+      "paragraph": 2,
+      "quote": "The daughter of Zion seemed in her pride to say, “I sit a queen, and shall see no sorrow;”",
+      "claim_text": "The text attributes to personified Jerusalem ('the daughter of Zion') the boast 'I sit a queen, and shall see no sorrow,' language paralleling scriptural phrases used elsewhere (e.g., Revelation 18:7, Isaiah 47:8).",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jerusalem"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Applied typologically to Jerusalem rather than a direct scriptural statement about Jerusalem; worth checking source attribution.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The phrase condenses Revelation 18:7 ('I sit a queen... and shall see no sorrow') / Isaiah 47:8, applied typologically to Jerusalem as the text itself signals. Attribution accurate as a scriptural allusion, not a direct quotation about Jerusalem.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-004",
+      "paragraph": 2,
+      "quote": "as when, ages before, the royal minstrel sung, “Beautiful for situation, the joy of the whole earth, is Mount Zion, ... the city of the great King.”",
+      "claim_text": "The text attributes to 'the royal minstrel' (the psalmist, traditionally David) the words 'Beautiful for situation, the joy of the whole earth, is Mount Zion ... the city of the great King' (cf. Psalm 48:2).",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Mount Zion",
+        "Psalm 48"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Psalm 48:2.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-005",
+      "paragraph": 2,
+      "quote": "“The perfection of beauty” it stood, the pride of the Jewish nation.",
+      "claim_text": "The text applies to the Jerusalem temple the biblical phrase 'the perfection of beauty,' language used in Lamentations 2:15 of Jerusalem.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jerusalem temple",
+        "Lamentations 2"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] 'The perfection of beauty' is KJV language of Lamentations 2:15 (also Psalm 50:2), applied to Jerusalem/temple as the text indicates.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-006",
+      "paragraph": 2,
+      "quote": "“When He was come near, He beheld the city, and wept over it.”",
+      "claim_text": "According to the Gospel account, when Jesus approached Jerusalem he saw the city and wept over it.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus",
+        "Jerusalem",
+        "Gospel of Luke"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Luke 19:41.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-007",
+      "paragraph": 2,
+      "quote": "Amid the universal rejoicing of the triumphal entry, while palm branches waved, while glad hosannas awoke the echoes of the hills, and thousands of voices declared Him king, the world’s Redeemer was overwhelmed with a sudden and mysterious sorrow.",
+      "claim_text": "During Jesus' triumphal entry into Jerusalem, crowds waved palm branches and thousands of voices declared him king, while Jesus himself was overcome with sudden sorrow.",
+      "claim_type": "event",
+      "entities": [
+        "Jesus",
+        "Jerusalem",
+        "Triumphal Entry"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The Triumphal Entry with palm branches and hosannas is the shared Gospel narrative (Matt 21, John 12). Jesus' sorrow/weeping is narrated in Luke 19:41.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-008",
+      "paragraph": 3,
+      "quote": "Before Him lay Gethsemane, the scene of His approaching agony.",
+      "claim_text": "Gethsemane, the site of Jesus' coming agony, was visible from the vantage point on the Mount of Olives where he wept over Jerusalem.",
+      "claim_type": "geographical",
+      "entities": [
+        "Gethsemane",
+        "Mount of Olives",
+        "Jesus"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Gethsemane lies at the foot of the Mount of Olives (traditional site), so it is topographically within view from Olivet; consistent with the Gospel geography.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-009",
+      "paragraph": 3,
+      "quote": "The sheep gate also was in sight, through which for centuries the victims for sacrifice had been led, and which was to open for Him when He should be “brought as a lamb to the slaughter.”",
+      "claim_text": "The Sheep Gate of Jerusalem, through which sacrificial animals had been led for centuries, was visible from the same vantage point.",
+      "claim_type": "geographical",
+      "entities": [
+        "Sheep Gate",
+        "Jerusalem"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[common_knowledge] The Sheep Gate is attested in Scripture (Nehemiah 3:1; John 5:2) near the temple; the traditional association with driving sacrificial animals and its visibility from Olivet is a reasonable topographical inference. Low-stakes decorative detail.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-010",
+      "paragraph": 3,
+      "quote": "“brought as a lamb to the slaughter.”",
+      "claim_text": "The text applies to Jesus' coming crucifixion the prophetic phrase 'brought as a lamb to the slaughter' (Isaiah 53:7).",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus",
+        "Isaiah 53"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV phrase from Isaiah 53:7.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-011",
+      "paragraph": 3,
+      "quote": "Not far distant was Calvary, the place of crucifixion.",
+      "claim_text": "Calvary, the site of the crucifixion, lay not far from the vantage point on the Mount of Olives.",
+      "claim_type": "geographical",
+      "entities": [
+        "Calvary",
+        "Mount of Olives"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Golgotha/Calvary lay just outside Jerusalem's walls; from Olivet it is across the city, 'not far distant' in the general topographical sense.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-012",
+      "paragraph": 3,
+      "quote": "He wept for the doomed thousands of Jerusalem—because of the blindness and impenitence of those whom He came to bless and to save.",
+      "claim_text": "Jesus wept specifically over the future doom of Jerusalem's inhabitants because of their spiritual blindness and impenitence.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus",
+        "Jerusalem"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological interpretation of Jesus' inner motive; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-013",
+      "paragraph": 4,
+      "quote": "There was Mount Moriah, where the son of promise, an unresisting victim, had been bound to the altar,—emblem of the offering of the Son of God.",
+      "claim_text": "Mount Moriah was the site where Isaac, 'the son of promise,' was bound to the altar as a sacrifice (Genesis 22).",
+      "claim_type": "event",
+      "entities": [
+        "Mount Moriah",
+        "Isaac",
+        "Abraham"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Genesis 22 places the binding of Isaac in 'the land of Moriah'; 2 Chronicles 3:1 identifies the temple mount as Moriah. Consistent with the biblical text as reported.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-014",
+      "paragraph": 4,
+      "quote": "There, the flames of the sacrifice ascending to heaven from the threshing-floor of Ornan had turned aside the sword of the destroying angel—fitting symbol of the Saviour’s sacrifice and mediation for guilty men.",
+      "claim_text": "At the threshing floor of Ornan, the ascending flames of sacrifice turned aside the sword of the destroying angel (referencing 1 Chronicles 21 / 2 Samuel 24).",
+      "claim_type": "theological",
+      "entities": [
+        "Ornan",
+        "David",
+        "destroying angel"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about a destroying angel staying its sword. Control-sample re-check: the underlying biblical-historical reference (David, the threshing floor of Ornan/Araunah, plague halted by sacrifice — 1 Chron 21 / 2 Sam 24, and the site as the later temple mount, 2 Chron 3:1) is scripturally accurate; no smuggled empirical error. Extractor's needs_verification:false flag is sound.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-015",
+      "paragraph": 4,
+      "quote": "The Lord had “chosen Zion,” He had “desired it for His habitation.”",
+      "claim_text": "The text attributes to the Lord, via Scripture, the statements that he 'chose Zion' and 'desired it for His habitation' (cf. Psalm 132:13-14).",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Zion",
+        "Psalm 132"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV allusion to Psalm 132:13-14 ('the Lord hath chosen Zion; he hath desired it for his habitation').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-016",
+      "paragraph": 4,
+      "quote": "Had Israel as a nation preserved her allegiance to Heaven, Jerusalem would have stood forever, the elect of God.",
+      "claim_text": "Had Israel preserved its allegiance to Heaven, Jerusalem would have stood forever as God's elect city.",
+      "claim_type": "theological",
+      "entities": [
+        "Israel",
+        "Jerusalem"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Counterfactual theological claim; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-017",
+      "paragraph": 5,
+      "quote": "Although Israel had “mocked the messengers of God, and despised His words, and misused His prophets,”",
+      "claim_text": "The text attributes to Scripture (2 Chronicles 36:16) the statement that Israel mocked God's messengers, despised his words, and misused his prophets.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Israel",
+        "2 Chronicles 36"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of 2 Chronicles 36:16.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-018",
+      "paragraph": 5,
+      "quote": "He had still manifested Himself to them, as “the Lord God, merciful and gracious, long-suffering, and abundant in goodness and truth;”",
+      "claim_text": "The text attributes to Scripture (Exodus 34:6) the description of God as 'the Lord God, merciful and gracious, long-suffering, and abundant in goodness and truth.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Exodus 34"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Exodus 34:6.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-019",
+      "paragraph": 5,
+      "quote": "God had “sent to them by His messengers, rising up betimes, and sending; because He had compassion on His people, and on His dwelling-place.”",
+      "claim_text": "The text attributes to Scripture (2 Chronicles 36:15) the statement that God repeatedly sent messengers to his people out of compassion.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "2 Chronicles 36"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of 2 Chronicles 36:15.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-020",
+      "paragraph": 6,
+      "quote": "It was Christ that had brought Israel as a goodly vine out of Egypt.(13) His own hand had cast out the heathen before it. He had planted it “in a very fruitful hill.”",
+      "claim_text": "The text asserts that Christ brought Israel out of Egypt as a 'goodly vine' and planted it 'in a very fruitful hill,' referencing Psalm 80:8 and Isaiah 5:1.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Israel",
+        "Egypt",
+        "Psalm 80",
+        "Isaiah 5"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV allusions: 'brought a vine out of Egypt' (Psalm 80:8) and 'in a very fruitful hill' (Isaiah 5:1). The identification of the agent as 'Christ' is a theological gloss, not a factual error about the source wording.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-021",
+      "paragraph": 6,
+      "quote": "“What could have been done more to My vineyard,” He exclaims, “that I have not done in it?”",
+      "claim_text": "The text attributes to God, via Isaiah 5:4, the rhetorical question 'What could have been done more to My vineyard, that I have not done in it?'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Isaiah 5"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Isaiah 5:4.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-022",
+      "paragraph": 6,
+      "quote": "Though when He “looked that it should bring forth grapes, it brought forth wild grapes,”",
+      "claim_text": "The text attributes to Isaiah 5:2/4 the statement that when God looked for the vineyard (Israel) to bring forth grapes, it brought forth wild grapes instead.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Israel",
+        "Isaiah 5"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV allusion to Isaiah 5:2,4.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-023",
+      "paragraph": 7,
+      "quote": "For three years the Lord of light and glory had gone in and out among His people.",
+      "claim_text": "Jesus' public ministry among his people lasted three years.",
+      "claim_type": "date",
+      "entities": [
+        "Jesus"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[common_knowledge] 'Three years' is the traditional reckoning of Jesus' public ministry, based on the three Passovers in John's Gospel. Some scholars argue for a shorter (Synoptic) or ~3.5-year span, but the ~3-year figure is the standard traditional statement and not an error introduced by the author.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-024",
+      "paragraph": 7,
+      "quote": "He “went about doing good, and healing all that were oppressed of the devil,”",
+      "claim_text": "The text attributes to Scripture (Acts 10:38) the statement that Jesus 'went about doing good, and healing all that were oppressed of the devil.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus",
+        "Acts 10"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Acts 10:38.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-025",
+      "paragraph": 7,
+      "quote": "To all classes alike was addressed the gracious call, “Come unto Me, all ye that labor and are heavy laden, and I will give you rest.”",
+      "claim_text": "The text attributes to Jesus, via Matthew 11:28, the invitation 'Come unto Me, all ye that labor and are heavy laden, and I will give you rest.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus",
+        "Matthew 11"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Matthew 11:28.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-026",
+      "paragraph": 8,
+      "quote": "But Israel had turned from her best Friend and only Helper. The pleadings of His love had been despised, His counsels spurned, His warnings ridiculed.",
+      "claim_text": "Israel is characterized as having turned from Christ, despising his pleadings, spurning his counsels, and ridiculing his warnings.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Israel",
+        "Jesus"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Value-laden theological characterization of national response to Christ; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-027",
+      "paragraph": 9,
+      "quote": "When Christ should hang upon the cross of Calvary, Israel’s day as a nation favored and blessed of God would be ended.",
+      "claim_text": "The crucifixion of Christ marked the end of Israel's status as a nation specially favored and blessed by God.",
+      "claim_type": "theological",
+      "entities": [
+        "Israel",
+        "Jesus",
+        "Calvary"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about divine favor and covenant status; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-028",
+      "paragraph": 10,
+      "quote": "Jeremiah wished that his eyes were a fountain of tears, that he might weep day and night for the slain of the daughter of his people, for the Lord’s flock that was carried away captive.",
+      "claim_text": "The prophet Jeremiah wished his eyes were a fountain of tears so he could weep for the slain of his people and for the Lord's flock carried into captivity (referencing Jeremiah 9:1, 13:17).",
+      "claim_type": "biographical",
+      "entities": [
+        "Jeremiah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate paraphrase of Jeremiah 9:1 ('Oh that... mine eyes a fountain of tears') and 13:17 (weeping for the Lord's flock carried captive).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-029",
+      "paragraph": 10,
+      "quote": "From the ridge of Olivet, the very spot afterward occupied by Titus and his army, He looked across the valley upon the sacred courts and porticoes,",
+      "claim_text": "The Roman general Titus and his army later occupied the ridge of the Mount of Olives, the same spot from which Jesus had earlier looked upon Jerusalem, during the siege of the city.",
+      "claim_type": "geographical",
+      "entities": [
+        "Titus",
+        "Mount of Olives",
+        "Jerusalem siege"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Josephus (Wars 5.2.3) records that during the AD 70 siege Titus encamped his forces on Mount Scopus and the tenth legion on the Mount of Olives, so the ridge of Olivet was indeed occupied by Titus's army.",
+        "sources": [
+          {
+            "title": "Siege of Jerusalem (70 CE) — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(70_CE)",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Roman encampment on Scopus/Mount of Olives, drawing on Josephus Wars 5."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-030",
+      "paragraph": 11,
+      "quote": "‘O Jerusalem, Jerusalem, thou that killest the prophets, and stonest them which are sent unto thee, how often would I have gathered thy children together, even as a hen gathereth her chickens under her wings, and ye would not!’",
+      "claim_text": "The text attributes to Jesus, via Matthew 23:37, the lament 'O Jerusalem, Jerusalem, thou that killest the prophets, and stonest them which are sent unto thee, how often would I have gathered thy children together, even as a hen gathereth her chickens under her wings, and ye would not!'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus",
+        "Jerusalem",
+        "Matthew 23"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Matthew 23:37 (cf. Luke 13:34).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-031",
+      "paragraph": 11,
+      "quote": "‘Ye will not come to Me, that ye might have life.’",
+      "claim_text": "The text attributes to Jesus, via John 5:40, the statement 'Ye will not come to Me, that ye might have life.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus",
+        "John 5"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of John 5:40.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-032",
+      "paragraph": 12,
+      "quote": "Christ saw in Jerusalem a symbol of the world hardened in unbelief and rebellion, and hastening on to meet the retributive judgments of God.",
+      "claim_text": "Christ regarded Jerusalem as a symbol of a world hardened in unbelief and rebellion, hastening toward God's retributive judgments.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus",
+        "Jerusalem"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological interpretation of Christ's inner view of Jerusalem; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-033",
+      "paragraph": 13,
+      "quote": "The great sin of the Jews was their rejection of Christ; the great sin of the Christian world would be their rejection of the law of God, the foundation of His government in heaven and earth.",
+      "claim_text": "The great sin of the Jews was their rejection of Christ, paralleled by the future great sin of the Christian world being rejection of the law of God.",
+      "claim_type": "theological",
+      "entities": [
+        "Jews",
+        "Christian world"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological typology central to the book's thesis; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-034",
+      "paragraph": 14,
+      "quote": "Two days before the Passover, when Christ had for the last time departed from the temple, after denouncing the hypocrisy of the Jewish rulers, He again went out with His disciples to the Mount of Olives, and seated Himself with them upon the grassy slope overlooking the city.",
+      "claim_text": "Two days before Passover, after denouncing the Jewish rulers' hypocrisy and departing the temple for the last time, Jesus went with his disciples to the Mount of Olives and sat overlooking Jerusalem.",
+      "claim_type": "event",
+      "entities": [
+        "Jesus",
+        "disciples",
+        "Mount of Olives",
+        "Passover",
+        "Jerusalem temple"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Follows the Gospel narrative: after the woes on the Pharisees (Matthew 23) and leaving the temple, Jesus sat on the Mount of Olives for the Olivet Discourse (Matthew 24:1-3; Mark 13); 'after two days is the Passover' (Matthew 26:2).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-035",
+      "paragraph": 15,
+      "quote": "A thousand years before, the psalmist had magnified God’s favor to Israel in making her holy house His dwelling-place: “In Salem also is His tabernacle, and His dwelling-place in Zion.”",
+      "claim_text": "About a thousand years before the events of this chapter, the psalmist wrote of God's favor to Israel in making the temple his dwelling place, in the words 'In Salem also is His tabernacle, and His dwelling-place in Zion' (Psalm 76:2).",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Psalm 76",
+        "Zion",
+        "Salem"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Psalm 76:2. The '~1000 years before' is a conventional rounding consistent with traditional Davidic-era psalm dating.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-036",
+      "paragraph": 15,
+      "quote": "He “chose the tribe of Judah, the Mount Zion which He loved. And He built His sanctuary like high palaces.”",
+      "claim_text": "The text attributes to Scripture (Psalm 78:68-69) the statement that God 'chose the tribe of Judah, the Mount Zion which He loved,' and built his sanctuary 'like high palaces.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Psalm 78",
+        "Mount Zion",
+        "tribe of Judah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Psalm 78:68-69.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-037",
+      "paragraph": 15,
+      "quote": "The first temple had been erected during the most prosperous period of Israel’s history. Vast stores of treasure for this purpose had been collected by King David, and the plans for its construction were made by divine inspiration.(25) Solomon, the wisest of Israel’s monarchs, had completed the work.",
+      "claim_text": "The first Jerusalem temple was built during Israel's most prosperous historical period; King David collected vast treasure for its construction and its plans, and King Solomon completed the building.",
+      "claim_type": "biographical",
+      "entities": [
+        "King David",
+        "Solomon",
+        "First Temple",
+        "Jerusalem"
+      ],
+      "needs_verification": true,
+      "extractor_note": "The claim that the plans were made 'by divine inspiration' is a theological assertion bundled with the historical claim about David/Solomon's roles; flagged together but the historical portion (David's collection of treasure, Solomon completing construction) is independently checkable.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Historical/biblical core supported: David gathered vast materials and treasure for the temple (1 Chronicles 22, 29) and Solomon built it (1 Kings 6). The 'divine inspiration' of the plans is a theological gloss (1 Chron 28:19) outside empirical verification; only the David/Solomon roles are checked here.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-038",
+      "paragraph": 15,
+      "quote": "This temple was the most magnificent building which the world ever saw.",
+      "claim_text": "Solomon's temple was the most magnificent building the world had ever seen.",
+      "claim_type": "interpretive",
+      "entities": [
+        "First Temple",
+        "Solomon"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Superlative value judgment ('most magnificent building the world ever saw'); not empirically checkable. Control-sample re-check: no smuggled datable/measurable assertion — it is rhetorical hyperbole. Extractor's needs_verification:false flag is sound.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-039",
+      "paragraph": 15,
+      "quote": "Yet the Lord had declared by the prophet Haggai, concerning the second temple, “The glory of this latter house shall be greater than of the former.” “I will shake all nations, and the Desire of all nations shall come: and I will fill this house with glory, saith the Lord of hosts.”",
+      "claim_text": "The text attributes to the prophet Haggai (Haggai 2:7,9) the prophecy that the glory of the second temple would be greater than that of the first, and that God would 'shake all nations' and fill the house with glory.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Haggai",
+        "Second Temple"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Haggai 2:7 and 2:9 (order rearranged, wording faithful).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-040",
+      "paragraph": 16,
+      "quote": "After the destruction of the temple by Nebuchadnezzar, it was rebuilt about five hundred years before the birth of Christ, by a people who from a life-long captivity had returned to a wasted and almost deserted country.",
+      "claim_text": "After Nebuchadnezzar destroyed the first Jerusalem temple, it was rebuilt about 500 years before the birth of Christ by Jews returning from captivity.",
+      "claim_type": "date",
+      "entities": [
+        "Nebuchadnezzar",
+        "Second Temple",
+        "Jerusalem"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Nebuchadnezzar destroyed the First Temple in 587/586 BC; the Second Temple was completed c. 516 BC by returning exiles (Ezra). 'About five hundred years before the birth of Christ' is an accurate rounding.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-041",
+      "paragraph": 16,
+      "quote": "There were then among them aged men who had seen the glory of Solomon’s temple, and who wept at the foundation of the new building, that it must be so inferior to the former.",
+      "claim_text": "When the second temple's foundation was laid, elderly men present who remembered Solomon's original temple wept because the new building appeared inferior (referencing Ezra 3:12).",
+      "claim_type": "event",
+      "entities": [
+        "Second Temple",
+        "Solomon"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Ezra 3:12 records that ancient men who had seen the first house wept when the foundation of the second temple was laid.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-042",
+      "paragraph": 16,
+      "quote": "“Who is left among you that saw this house in her first glory? and how do ye see it now? is it not in your eyes in comparison of it as nothing?”",
+      "claim_text": "The text attributes to the prophet Haggai (Haggai 2:3) the rhetorical question about those who remembered the first temple's glory viewing the second temple as inferior.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Haggai"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Haggai 2:3.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-043",
+      "paragraph": 17,
+      "quote": "There was no manifestation of supernatural power to mark its dedication. No cloud of glory was seen to fill the newly erected sanctuary. No fire from heaven descended to consume the sacrifice upon its altar. The shekinah no longer abode between the cherubim in the most holy place; the ark, the mercy-seat, and the tables of the testimony were not to be found therein.",
+      "claim_text": "Unlike the first temple, the dedication of the second temple was not marked by a cloud of glory or fire from heaven, and the ark of the covenant, mercy seat, and tables of the testimony were absent from it.",
+      "claim_type": "biographical",
+      "entities": [
+        "Second Temple",
+        "Ark of the Covenant"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Combines a historically checkable claim (absence of the Ark from the Second Temple) with theological framing (absence of supernatural manifestations); kept together as the paragraph presents them as one description.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The historically checkable core is well attested: the Ark, mercy seat and tables were lost with the First Temple and absent from the Second Temple, whose Holy of Holies Josephus (Wars 5.5.5) and rabbinic sources describe as empty. The absence of a visible 'cloud of glory'/shekinah is a theological framing not empirically testable but consistent with the tradition of the missing Ark.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-044",
+      "paragraph": 18,
+      "quote": "The second temple was not honored with the cloud of Jehovah’s glory, but with the living presence of One in whom dwelt the fulness of the Godhead bodily—who was God Himself manifest in the flesh.",
+      "claim_text": "The second temple's true glory, exceeding that of the first, was the incarnate presence of Christ rather than any visible manifestation.",
+      "claim_type": "theological",
+      "entities": [
+        "Second Temple",
+        "Jesus"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Christological/theological interpretation of Haggai's prophecy; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-045",
+      "paragraph": 18,
+      "quote": "Already were the Saviour’s words fulfilled, “Your house is left unto you desolate.”",
+      "claim_text": "The text attributes to Jesus, via Matthew 23:38, the pronouncement 'Your house is left unto you desolate.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus",
+        "Matthew 23"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Matthew 23:38.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-046",
+      "paragraph": 19,
+      "quote": "Wealth, labor, and architectural skill had for more than forty years been freely expended to enhance its splendors.",
+      "claim_text": "By the time of Jesus, the Herodian embellishment of the Jerusalem temple had involved more than forty years of continuous expenditure of wealth, labor, and architectural skill.",
+      "claim_type": "date",
+      "entities": [
+        "Jerusalem temple",
+        "Herod the Great"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Herod began rebuilding the temple c. 20/19 BC; John 2:20 has 'Forty and six years was this temple in building' at the time of Jesus' ministry. 'More than forty years' is accurate; construction in fact continued until c. AD 63.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-047",
+      "paragraph": 19,
+      "quote": "Herod the Great had lavished upon it both Roman wealth and Jewish treasure, and even the emperor of the world had enriched it with his gifts.",
+      "claim_text": "Herod the Great lavished both Roman and Jewish wealth upon the Jerusalem temple, and the Roman emperor also contributed gifts to it.",
+      "claim_type": "biographical",
+      "entities": [
+        "Herod the Great",
+        "Roman emperor",
+        "Jerusalem temple"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Herod, a wealthy Roman client-king, expended vast resources on the temple. Josephus and later sources record foreign/imperial donations and offerings to the temple; Augustus and the Romans made gifts/sacrifices there. Consistent with the historiographical record.",
+        "sources": [
+          {
+            "title": "Herodian architecture — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Herodian_architecture",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Herod's lavish resourcing and Roman ties in temple construction."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-048",
+      "paragraph": 19,
+      "quote": "Massive blocks of white marble, of almost fabulous size, forwarded from Rome for this purpose, formed a part of its structure;",
+      "claim_text": "Massive blocks of white marble sent from Rome formed part of the structure of the Jerusalem temple.",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem temple",
+        "Rome"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "Modern archaeology shows the temple's massive structural ashlars were local meleke limestone quarried near Jerusalem, not marble, and not shipped from Rome. Marble was imported (from Italy, Greece, Asia Minor) only as decorative tiling/veneer. The 'massive blocks of white marble forwarded from Rome' follows Josephus's description of the temple's dazzling white appearance (Wars 5.5.6, 'like a mountain covered with snow') and the 19th-century image of a marble temple that White inherited.",
+        "modern_consensus": "The temple's great load-bearing blocks were local limestone (meleke); imported marble was used only decoratively, and not brought specifically from Rome as structural blocks.",
+        "period_historiography": "Josephus described the temple as white marble in appearance; 19th-century popular histories repeated the 'white marble temple' image, which White reproduces.",
+        "sources": [
+          {
+            "title": "The Stones of Herod's Temple — Biblical Archaeology Society",
+            "url": "https://www.biblicalarchaeology.org/daily/biblical-sites-places/temple-at-jerusalem/the-stones-of-herods-temple-reveal-temple-mount-history/",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Structural megaliths are local limestone."
+          },
+          {
+            "title": "Herodian architecture — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Herodian_architecture",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Local limestone structure; imported marble used decoratively."
+          }
+        ]
+      },
+      "defense": {
+        "result": "defense_failed",
+        "argument": "Two-part steelman. (1) Over-literalization: the sentence lists attributes that are each independently defensible even though their fusion is not. 'Massive blocks... of almost fabulous size' matches the real Herodian ashlars (the Western/retaining-wall megaliths, some >10 m, verifiably enormous). 'White marble' matches Josephus's own description (Wars 5.5.6: the temple faced with white stone, 'like a mountain covered with snow'), the primary and 19th-century-standard authority White inherited. 'Forwarded from Rome... formed a part of its structure' is not a pure fabrication: modern excavation (opus sectile floor tiles, colored/white stone) confirms decorative stone WAS imported from Rome, Italy, Asia Minor, Tunisia and Egypt and formed part of the temple complex's fabric. So the verifier's rationale ('imported marble used ONLY decoratively, and not brought from Rome as structural blocks') slightly overstates the negative: Roman marble genuinely was part of the structure, just not as the load-bearing megaliths. (2) Why it still fails: the natural unified reading — that the fabulous-size structural blocks were themselves white marble shipped from Rome — is false. The massive structural ashlars were local meleke limestone quarried near Jerusalem, not Roman marble. The claim conflates the limestone megaliths with the imported decorative marble. This is exactly a period-typical image (Josephus's white-marble temple, repeated by 19th-c. popular histories), so 'anachronistic' is the correct and appropriately generous verdict; it should not be upgraded to supported (the 'massive blocks = white marble from Rome' fusion is wrong) nor hardened to contradicted (each component has real support).",
+        "new_sources": [
+          {
+            "title": "Archeologists Restore Flooring That Adorned the Second Temple of Jerusalem",
+            "url": "https://www.scientificamerican.com/article/archeologists-restore-flooring-that-adorned-the-second-temple-of-jerusalem/",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Temple Mount opus sectile floor tiles were imported from Rome, Italy, Asia Minor, Tunisia, Egypt — imported stone (incl. from Rome) did form part of the temple's fabric, though the structural megaliths were local limestone."
+          }
+        ]
+      },
+      "impact": {
+        "severity": 2,
+        "centrality": 1,
+        "load_bearing": false,
+        "impact_score": 2,
+        "narrative_arc": "frame",
+        "reasoning": "The claim fuses two things: real, fabulously large structural stones (true) and marble shipped from Rome (true only of decorative veneer, not the load-bearing ashlars, which were local meleke limestone). This is a decorative flourish meant to convey Herodian grandeur before the 'not one stone' prophecy lands; it names no misdeed and misrepresents no person. It follows Josephus's own 'snow-white' description of the temple and the 19th-century historiography (Milman-era) White used, so this is authorial method inherited from period sources, not invention. Counterfactual: delete the sentence entirely and the paragraph's claim ('wealth, labor, and skill... for more than forty years,' Herod's and the emperor's gifts) still fully supports the disciples' 'what manner of stones' exclamation and Christ's reply — nothing in the chapter's argument depends on the marble's origin."
+      }
+    },
+    {
+      "id": "GC-01-049",
+      "paragraph": 19,
+      "quote": "to these the disciples had called the attention of their Master, saying, “See what manner of stones and what buildings are here!”",
+      "claim_text": "The text attributes to the disciples, via Mark 13:1, the exclamation to Jesus, 'See what manner of stones and what buildings are here!'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "disciples",
+        "Jesus",
+        "Mark 13"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Mark 13:1.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-050",
+      "paragraph": 20,
+      "quote": "To these words, Jesus made the solemn and startling reply, “Verily I say unto you, There shall not be left here one stone upon another, that shall not be thrown down.”",
+      "claim_text": "The text attributes to Jesus, via Matthew 24:2, the reply 'Verily I say unto you, There shall not be left here one stone upon another, that shall not be thrown down.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus",
+        "Matthew 24",
+        "Jerusalem temple"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Matthew 24:2 (cf. Mark 13:2).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-051",
+      "paragraph": 21,
+      "quote": "With the overthrow of Jerusalem the disciples associated the events of Christ’s personal coming in temporal glory to take the throne of universal empire, to punish the impenitent Jews, and to break from off the nation the Roman yoke.",
+      "claim_text": "Jesus' disciples believed that the overthrow of Jerusalem would coincide with Christ's coming in temporal glory to take a universal throne, punish impenitent Jews, and free the nation from Roman rule.",
+      "claim_type": "biographical",
+      "entities": [
+        "disciples",
+        "Jerusalem",
+        "Rome"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[common_knowledge] Consistent with the Gospel portrayal of disciples' expectations (Matthew 24:3 links temple's fall, Christ's coming and 'the end of the world'; cf. Acts 1:6 'restore the kingdom to Israel'). A standard reading of first-century messianic/political expectation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-052",
+      "paragraph": 21,
+      "quote": "they asked, “When shall these things be? and what shall be the sign of Thy coming, and of the end of the world?”",
+      "claim_text": "The text attributes to the disciples, via Matthew 24:3, the question 'When shall these things be? and what shall be the sign of Thy coming, and of the end of the world?'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "disciples",
+        "Jesus",
+        "Matthew 24"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Matthew 24:3.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-053",
+      "paragraph": 22,
+      "quote": "The prophecy which He uttered was twofold in its meaning: while foreshadowing the destruction of Jerusalem, it prefigured also the terrors of the last great day.",
+      "claim_text": "Christ's prophecy on the Mount of Olives had a twofold meaning, foreshadowing both the destruction of Jerusalem and the terrors of the last day.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Jesus",
+        "Jerusalem"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/hermeneutical claim (double fulfillment of the Olivet Discourse); a theological reading, not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-054",
+      "paragraph": 23,
+      "quote": "the Saviour warned His followers: “When ye therefore shall see the abomination of desolation, spoken of by Daniel the prophet, stand in the holy place, (whoso readeth, let him understand:) then let them which be in Judea flee into the mountains.”",
+      "claim_text": "The text attributes to Jesus, via Matthew 24:15-16, the warning that when the 'abomination of desolation' spoken of by Daniel is seen standing in the holy place, those in Judea should flee to the mountains.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus",
+        "Daniel",
+        "Matthew 24",
+        "Judea"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Matthew 24:15-16.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-055",
+      "paragraph": 23,
+      "quote": "When the idolatrous standards of the Romans should be set up in the holy ground, which extended some furlongs outside the city walls, then the followers of Christ were to find safety in flight.",
+      "claim_text": "Jerusalem's 'holy ground' extended some furlongs beyond the city walls, and the sign for Christians to flee was the setting up of Roman military standards on that ground.",
+      "claim_type": "geographical",
+      "entities": [
+        "Jerusalem",
+        "Rome"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "medium",
+        "rationale": "This is White's exegetical identification of Matthew 24's 'abomination of desolation' with idolatrous Roman standards on 'holy ground.' The historically attested fact (Roman soldiers set up standards in the temple court and sacrificed to them, Josephus Wars 6.6.1) occurred after the temple fell, not as a pre-siege flight sign. The specific claim that 'holy ground' extended some furlongs beyond the walls is an interpretive gloss for which no clean historical source exists either way.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-056",
+      "paragraph": 24,
+      "quote": "In the reign of Herod, Jerusalem had not only been greatly beautified, but by the erection of towers, walls, and fortresses, adding to the natural strength of its situation, it had been rendered apparently impregnable.",
+      "claim_text": "During Herod's reign, Jerusalem was greatly beautified and fortified with towers, walls, and fortresses, making it appear impregnable.",
+      "claim_type": "event",
+      "entities": [
+        "Herod",
+        "Jerusalem"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Herod's extensive fortification of Jerusalem — towers (Phasael, Hippicus, Mariamne), walls, the Antonia fortress — is well documented by Josephus (Wars 5.4) and standard reference works.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-057",
+      "paragraph": 24,
+      "quote": "But Christ had said, “Heaven and earth shall pass away, but My words shall not pass away.”",
+      "claim_text": "The text attributes to Christ, via Matthew 24:35, the statement 'Heaven and earth shall pass away, but My words shall not pass away.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus",
+        "Matthew 24"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Matthew 24:35.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-058",
+      "paragraph": 25,
+      "quote": "The Lord had declared by the prophet Micah: “Hear this, I pray you, ye heads of the house of Jacob, and princes of the house of Israel, that abhor judgment, and pervert all equity. They build up Zion with blood, and Jerusalem with iniquity. The heads thereof judge for reward, and the priests thereof teach for hire, and the prophets thereof divine for money: yet will they lean upon the Lord, and say, Is not the Lord among us? none evil can come upon us.”",
+      "claim_text": "The text attributes to the prophet Micah (Micah 3:9-11) a denunciation of Israel's and Jerusalem's leaders, priests, and prophets for corruption while presuming God's protection.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Micah",
+        "Jerusalem",
+        "Zion"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Micah 3:9-11.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-059",
+      "paragraph": 26,
+      "quote": "“If we let Him thus alone,” said the Jewish leaders, “all men will believe on Him: and the Romans shall come and take away both our place and nation.”",
+      "claim_text": "The text attributes to the Jewish leaders, via John 11:48, the statement 'If we let Him thus alone, all men will believe on Him: and the Romans shall come and take away both our place and nation.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jewish leaders",
+        "John 11",
+        "Jesus"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of John 11:48.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-060",
+      "paragraph": 26,
+      "quote": "Thus they reasoned, and they concurred in the decision of their high priest, that it would be better for one man to die than for the whole nation to perish.",
+      "claim_text": "The Jewish leaders concurred with their high priest's decision that it would be better for Jesus to die than for the whole nation to perish (referencing Caiaphas in John 11:49-50).",
+      "claim_type": "event",
+      "entities": [
+        "Caiaphas",
+        "Jewish leaders",
+        "Jesus"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate paraphrase of John 11:49-50 (Caiaphas: 'it is expedient... that one man should die for the people').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-061",
+      "paragraph": 27,
+      "quote": "“Therefore,” continued the prophet, “shall Zion for your sake be plowed as a field, and Jerusalem shall become heaps, and the mountain of the house as the high places of the forest.”",
+      "claim_text": "The text attributes to the prophet Micah (Micah 3:12) the prediction that Zion would be plowed as a field, Jerusalem would become heaps, and the temple mount would become like forest high places.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Micah",
+        "Zion",
+        "Jerusalem"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Micah 3:12.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-062",
+      "paragraph": 28,
+      "quote": "For nearly forty years after the doom of Jerusalem had been pronounced by Christ Himself, the Lord delayed His judgments upon the city and the nation.",
+      "claim_text": "Approximately forty years passed between Christ's pronouncement of Jerusalem's doom and the city's eventual destruction.",
+      "claim_type": "date",
+      "entities": [
+        "Jesus",
+        "Jerusalem"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Christ's Olivet Discourse dates to c. AD 30/31; Jerusalem fell in AD 70. 'Nearly forty years' is an accurate interval.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-063",
+      "paragraph": 28,
+      "quote": "The command had gone forth, “Cut it down; why cumbereth it the ground?”",
+      "claim_text": "The text applies to the Jewish nation the parabolic command from Luke 13:7, 'Cut it down; why cumbereth it the ground?'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Luke 13"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Luke 13:7.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-064",
+      "paragraph": 29,
+      "quote": "By their actions they had long been saying, “Cause the Holy One of Israel to cease from before us.”",
+      "claim_text": "The text applies to the Jews, via Isaiah 30:11, the sentiment 'Cause the Holy One of Israel to cease from before us.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Isaiah 30",
+        "Jews"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Isaiah 30:11.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-065",
+      "paragraph": 29,
+      "quote": "Then God withdrew His protection from them, and removed His restraining power from Satan and his angels, and the nation was left to the control of the leader she had chosen.",
+      "claim_text": "God withdrew his protection from the Jewish nation and removed his restraining power over Satan, leaving the nation under Satan's control.",
+      "claim_type": "theological",
+      "entities": [
+        "Satan",
+        "Jewish nation"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural/theological claim about God withdrawing protection and Satan's control; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-066",
+      "paragraph": 29,
+      "quote": "In the family and in the nation, among the highest and the lowest classes alike, there was suspicion, envy, hatred, strife, rebellion, murder. There was no safety anywhere. Friends and kindred betrayed one another. Parents slew their children and children their parents.",
+      "claim_text": "In the period before Jerusalem's fall, Jewish society at all levels was marked by suspicion, betrayal, and violence, including instances of parents and children killing one another.",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem",
+        "Jews"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Josephus (Wars 4-6) portrays extreme internal breakdown during the revolt and siege — factional murder, betrayal within families, and pervasive insecurity. White's summary is rhetorically heightened but consistent with Josephus's account.",
+        "sources": [
+          {
+            "title": "Josephus, Wars of the Jews, Book 5 (Perseus/UChicago)",
+            "url": "https://penelope.uchicago.edu/josephus/war-5.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Internal factional violence and terror in besieged Jerusalem."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-067",
+      "paragraph": 30,
+      "quote": "The leaders of the opposing factions at times united to plunder and torture their wretched victims, and again they fell upon each other’s forces, and slaughtered without mercy.",
+      "claim_text": "Leaders of rival Jewish factions within besieged Jerusalem sometimes united to plunder and torture victims, and at other times fought and slaughtered one another.",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem siege",
+        "Jewish factions"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus describes the three factions of John of Gischala, Simon bar Giora and Eleazar ben Simon alternately fighting each other and preying on the populace within besieged Jerusalem (Wars 5.1).",
+        "sources": [
+          {
+            "title": "Josephus, Wars of the Jews, Book 5 (Perseus/UChicago)",
+            "url": "https://penelope.uchicago.edu/josephus/war-5.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Three-faction internecine warfare in the city."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-068",
+      "paragraph": 30,
+      "quote": "The worshipers were stricken down before the altar, and the sanctuary was polluted with the bodies of the slain.",
+      "claim_text": "During the internal Jewish factional violence, worshipers were killed before the temple altar and the sanctuary was polluted with corpses.",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem temple",
+        "Jewish factions"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus (Wars 5.1.3) records that the zealots' fighting filled the temple courts with dead bodies, worshippers and priests being slain at the altar, polluting the sanctuary.",
+        "sources": [
+          {
+            "title": "Josephus, Wars of the Jews, Book 5 (Perseus/UChicago)",
+            "url": "https://penelope.uchicago.edu/josephus/war-5.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Slaughter of worshippers within the temple courts."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-069",
+      "paragraph": 30,
+      "quote": "To establish their power more firmly, they bribed false prophets to proclaim, even while Roman legions were besieging the temple, that the people were to wait for deliverance from God.",
+      "claim_text": "Jewish faction leaders bribed false prophets to proclaim, even during the Roman siege of the temple, that the people should wait for divine deliverance.",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem siege",
+        "Rome"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Josephus (Wars 6.5.2-3) states the tyrants employed false prophets who told the people to await deliverance from God, even as the temple burned; a great multitude perished heeding a false prophet's promise of divine rescue.",
+        "sources": [
+          {
+            "title": "Josephus, Wars of the Jews, Book 6 (Perseus/UChicago)",
+            "url": "https://penelope.uchicago.edu/josephus/war-6.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "False prophets suborned to promise deliverance during the siege."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-070",
+      "paragraph": 31,
+      "quote": "All the predictions given by Christ concerning the destruction of Jerusalem were fulfilled to the letter.",
+      "claim_text": "All of Christ's predictions concerning the destruction of Jerusalem were fulfilled exactly.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Jesus",
+        "Jerusalem"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/theological summary claim about prophecy fulfillment. Control-sample re-check: the individual underlying events (siege, temple destruction, stones thrown down) are checked separately in this chapter; the global assertion 'fulfilled to the letter' is a value judgment, not independently checkable. Extractor's needs_verification:false flag is sound.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-071",
+      "paragraph": 31,
+      "quote": "The Jews experienced the truth of His words of warning, “With what measure ye mete, it shall be measured to you again.”",
+      "claim_text": "The text attributes to Jesus, via Matthew 7:2, the warning 'With what measure ye mete, it shall be measured to you again,' applied to the Jews' experience.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus",
+        "Jews",
+        "Matthew 7"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Matthew 7:2 (cf. Luke 6:38).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-072",
+      "paragraph": 32,
+      "quote": "In the midst of the night an unnatural light shone over the temple and the altar.",
+      "claim_text": "An unnatural light was reported shining over the Jerusalem temple and altar at night before the city's destruction.",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem temple"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus (Wars 6.5.3) reports a great light shone round the altar and the sanctuary at the ninth hour of the night, among the portents before the fall. White accurately reports the portent as recorded.",
+        "sources": [
+          {
+            "title": "Flavius Josephus, Wars 6.271-6.315 (Lexundria)",
+            "url": "https://www.lexundria.com/j_bj/6.271-6.315/wst",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Great light around the altar among the portents."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-073",
+      "paragraph": 32,
+      "quote": "Upon the clouds at sunset were pictured chariots and men of war gathering for battle.",
+      "claim_text": "Images of chariots and armed men gathering for battle were reportedly seen in the clouds at sunset before Jerusalem's destruction.",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus (Wars 6.5.3) reports chariots and armed troops seen in the air coursing round Jerusalem before sunset (also echoed by Tacitus, Histories 5.13). White accurately reports the portent as recorded.",
+        "sources": [
+          {
+            "title": "Flavius Josephus, Wars 6.271-6.315 (Lexundria)",
+            "url": "https://www.lexundria.com/j_bj/6.271-6.315/wst",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Chariots and armed men seen in the sky."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-074",
+      "paragraph": 32,
+      "quote": "The priests ministering by night in the sanctuary were terrified by mysterious sounds; the earth trembled, and a multitude of voices were heard crying, “Let us depart hence.”",
+      "claim_text": "Priests ministering at night in the Jerusalem temple reported being terrified by mysterious sounds, earth tremors, and voices crying 'Let us depart hence.'",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem temple"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus (Wars 6.5.3) reports the priests at Pentecost felt a quaking and heard a sound as of a great multitude saying 'Let us remove hence.' White's 'Let us depart hence' faithfully renders this portent.",
+        "sources": [
+          {
+            "title": "Flavius Josephus, Wars 6.271-6.315 (Lexundria)",
+            "url": "https://www.lexundria.com/j_bj/6.271-6.315/wst",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Priests hear 'Let us remove hence.'"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-075",
+      "paragraph": 32,
+      "quote": "The great eastern gate, which was so heavy that it could hardly be shut by a score of men, and which was secured by immense bars of iron fastened deep in the pavement of solid stone, opened at midnight, without visible agency.",
+      "claim_text": "The great eastern gate of the Jerusalem temple, normally requiring about twenty men to close and secured by iron bars set in stone, reportedly opened at midnight without visible cause.",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem temple"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus (Wars 6.5.3) reports the heavy brazen eastern gate of the inner court, which twenty men could scarcely shut and which was fastened with iron bars into the stone pavement, was seen to open of its own accord at the sixth hour of the night. White accurately reports the portent.",
+        "sources": [
+          {
+            "title": "Flavius Josephus, Wars 6.271-6.315 (Lexundria)",
+            "url": "https://www.lexundria.com/j_bj/6.271-6.315/wst",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Eastern gate opens of its own accord."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-076",
+      "paragraph": 33,
+      "quote": "For seven years a man continued to go up and down the streets of Jerusalem, declaring the woes that were to come upon the city.",
+      "claim_text": "A man walked the streets of Jerusalem for seven years proclaiming impending woes upon the city before its destruction.",
+      "claim_type": "biographical",
+      "entities": [
+        "Jerusalem"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to the figure of Jesus son of Ananias described by Josephus, Wars of the Jews 6.5.3.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus (Wars 6.5.3) records Jesus son of Ananias, who began crying woes over Jerusalem four years before the war and continued for 'seven years and five months' until killed in the siege. White's 'seven years' matches Josephus's stated duration.",
+        "sources": [
+          {
+            "title": "Jesus ben Ananias — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Jesus_ben_Ananias",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Summarizes Josephus Wars 6.5.3; ~7.5 years of proclamation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-077",
+      "paragraph": 33,
+      "quote": "By day and by night he chanted the wild dirge, “A voice from the east! a voice from the west! a voice from the four winds! a voice against Jerusalem and against the temple! a voice against the bridegrooms and the brides! a voice against the whole people!”",
+      "claim_text": "The man is quoted as chanting day and night the dirge 'A voice from the east! a voice from the west! a voice from the four winds! a voice against Jerusalem and against the temple! a voice against the bridegrooms and the brides! a voice against the whole people!'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jerusalem"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Faithful rendering of the cry recorded by Josephus (Wars 6.5.3): 'A voice from the east, a voice from the west, a voice from the four winds, a voice against Jerusalem and the holy house, a voice against the bridegrooms and the brides, and a voice against this whole people.' White renders 'holy house' as 'the temple'; substance preserved.",
+        "sources": [
+          {
+            "title": "Jesus ben Ananias — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Jesus_ben_Ananias",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Quotes Josephus's wording of the cry."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-078",
+      "paragraph": 33,
+      "quote": "This strange being was imprisoned and scourged, but no complaint escaped his lips. To insult and abuse he answered only, “Woe, woe to Jerusalem!” “woe, woe to the inhabitants thereof!” His warning cry ceased not until he was slain in the siege he had foretold.",
+      "claim_text": "The man proclaiming woes against Jerusalem was imprisoned and scourged, responded only with 'Woe, woe to Jerusalem,' and was killed during the siege he had foretold.",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus (Wars 6.5.3) records Jesus son of Ananias was seized by Jewish magistrates and scourged, then whipped to the bone by the procurator Albinus, giving no answer but 'Woe to Jerusalem'; he was finally killed by a stone from a Roman ballista during the siege. White's account matches.",
+        "sources": [
+          {
+            "title": "Jesus ben Ananias — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Jesus_ben_Ananias",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Scourging and death by catapult stone in the siege."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-079",
+      "paragraph": 34,
+      "quote": "Not one Christian perished in the destruction of Jerusalem.",
+      "claim_text": "No Christian died in the destruction of Jerusalem in AD 70.",
+      "claim_type": "statistic",
+      "entities": [
+        "Jerusalem",
+        "Christians"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "This absolute claim rests on the tradition (Eusebius, Ecclesiastical History 3.5; Epiphanius) that the Jerusalem church fled to Pella before the siege. The historicity of that flight has been contested in modern scholarship since S.G.F. Brandon (1951) and remains debated; even if a flight occurred, 'not one Christian perished' is a stronger, unverifiable generalization. Genuine ongoing historiographical disagreement.",
+        "modern_consensus": "The Pella-flight tradition is debated; there is no independent evidence for the sweeping claim that no Christian died in AD 70.",
+        "sources": [
+          {
+            "title": "Flight to Pella — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Flight_to_Pella",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Historicity 'controversial ever since' Brandon 1951."
+          },
+          {
+            "title": "Fleeing Forward: the Departure of Christians from Jerusalem to Pella (academia.edu)",
+            "url": "https://www.academia.edu/2057245/Fleeing_Forward_the_Departure_of_Christians_from_Jerusalem_to_Pella",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Academic treatment of the disputed tradition."
+          }
+        ]
+      },
+      "impact": {
+        "severity": 3,
+        "centrality": 3,
+        "load_bearing": true,
+        "impact_score": 9,
+        "narrative_arc": "frame",
+        "reasoning": "'Not one Christian perished' is an absolute historical claim resting entirely on a single strand of patristic tradition (Eusebius, Epiphanius) whose historicity has been actively disputed in scholarship since Brandon (1951); presenting it as flatly established fact overstates a genuinely contested tradition rather than the more modest 'some Christians reportedly withdrew to Pella' that the sources actually support. This claim is load-bearing for a specific sub-argument the chapter needs: paragraphs 48-50 explicitly generalize the Jerusalem episode into the book's end-time promise that those who watch for prophetic signs will be delivered while the careless perish ('as He warned His disciples of Jerusalem's destruction... so He has warned the world of the day of final destruction'). Counterfactual: without a total, zero-casualty deliverance of the obedient minority, the chapter loses its only historical anchor for the 'watch-the-sign-and-escape-unharmed' pattern that the book reuses as a template for the final generation — the broader chapter argument about judgment on apostate Jerusalem survives, but this specific and often-quoted sub-argument does not."
+      }
+    },
+    {
+      "id": "GC-01-080",
+      "paragraph": 34,
+      "quote": "“When ye shall see Jerusalem compassed with armies,” said Jesus, “then know that the desolation thereof is nigh. Then let them which are in Judea flee to the mountains; and let them which are in the midst of it depart out.”",
+      "claim_text": "The text attributes to Jesus, via Luke 21:20-21, the instruction that when Jerusalem is seen surrounded by armies, those in Judea and the city should flee to the mountains.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus",
+        "Jerusalem",
+        "Judea",
+        "Luke 21"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Luke 21:20-21.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-081",
+      "paragraph": 34,
+      "quote": "After the Romans under Cestius had surrounded the city, they unexpectedly abandoned the siege when everything seemed favorable for an immediate attack.",
+      "claim_text": "The Roman forces under Cestius Gallus surrounded Jerusalem and then unexpectedly withdrew when conditions favored an immediate attack.",
+      "claim_type": "event",
+      "entities": [
+        "Cestius Gallus",
+        "Jerusalem",
+        "Rome"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus (Wars 2.19) records that in AD 66 Cestius Gallus reached Jerusalem, seized the suburbs and assaulted the temple, then unexpectedly withdrew despite apparently favorable conditions — a decision historians still regard as an unexplained blunder.",
+        "sources": [
+          {
+            "title": "Battle of Beth Horon (66) — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Battle_of_Beth_Horon_(66)",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Cestius's assault and sudden withdrawal from Jerusalem."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-082",
+      "paragraph": 34,
+      "quote": "Upon the retreat of Cestius, the Jews, sallying from Jerusalem, pursued after his retiring army; and while both forces were thus fully engaged, the Christians had an opportunity to leave the city.",
+      "claim_text": "When Cestius retreated, Jewish forces pursued his army from Jerusalem, and the resulting engagement gave Christians in the city an opportunity to flee.",
+      "claim_type": "event",
+      "entities": [
+        "Cestius Gallus",
+        "Jerusalem",
+        "Christians"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "The first half (Jews sallied and pursued Cestius's retreating army) is well attested by Josephus (Wars 2.19). The second half (Christians used this window to flee) is White's harmonization of the Cestius retreat with the disputed Pella-flight tradition; Josephus does not mention Christians, and the flight's historicity is debated in modern scholarship.",
+        "modern_consensus": "The Jewish pursuit of Cestius is historical; linking it to a Christian escape depends on the contested Pella tradition, which is not attested before Eusebius.",
+        "sources": [
+          {
+            "title": "Flight to Pella — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Flight_to_Pella",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Disputed historicity of the Christian flight."
+          },
+          {
+            "title": "Battle of Beth Horon (66) — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Battle_of_Beth_Horon_(66)",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Confirms the Jewish pursuit of Cestius but not a Christian escape."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-083",
+      "paragraph": 34,
+      "quote": "At the time of the siege, the Jews were assembled at Jerusalem to keep the Feast of Tabernacles, and thus the Christians throughout the land were able to make their escape unmolested.",
+      "claim_text": "The Jews were assembled in Jerusalem for the Feast of Tabernacles at the time of Cestius's siege, and this allowed Christians throughout the land to escape unmolested.",
+      "claim_type": "date",
+      "entities": [
+        "Jerusalem",
+        "Feast of Tabernacles",
+        "Christians"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The checkable date-fact is accurate: Cestius Gallus's autumn AD 66 campaign coincided with the Feast of Tabernacles (Tishri), and Josephus (Wars 2.19.1) notes the feast at hand. The clause about Christians escaping relies on the disputed Pella tradition (see GC-01-079/082), but the Feast-of-Tabernacles timing itself is sound.",
+        "sources": [
+          {
+            "title": "Battle of Beth Horon (66) — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Battle_of_Beth_Horon_(66)",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Autumn 66 campaign at the season of Tabernacles."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-084",
+      "paragraph": 34,
+      "quote": "Without delay they fled to a place of safety,—the city of Pella, in the land of Perea, beyond Jordan.",
+      "claim_text": "Christians fleeing Jerusalem went to the city of Pella in the region of Perea, beyond the Jordan River.",
+      "claim_type": "geographical",
+      "entities": [
+        "Pella",
+        "Perea",
+        "Jordan River",
+        "Christians"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "Pella did lie east of the Jordan (in the Decapolis, adjoining/loosely 'Perea beyond Jordan'). But the substantive claim — that the Jerusalem Christians fled there — derives from Eusebius (Eccl. Hist. 3.5) and Epiphanius and has been contested in modern scholarship since Brandon (1951); Lüdemann and others argue the tradition is a later Jewish-Christian construction. Genuine historiographical disagreement.",
+        "modern_consensus": "Pella's trans-Jordanian location is uncontested; the historicity of the Christian flight to Pella is debated, not established.",
+        "sources": [
+          {
+            "title": "Flight to Pella — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Flight_to_Pella",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Sources (Eusebius, Epiphanius) and the modern debate."
+          },
+          {
+            "title": "Fleeing Forward: the Departure of Christians from Jerusalem to Pella (academia.edu)",
+            "url": "https://www.academia.edu/2057245/Fleeing_Forward_the_Departure_of_Christians_from_Jerusalem_to_Pella",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Academic engagement with the disputed tradition."
+          }
+        ]
+      },
+      "impact": {
+        "severity": 2,
+        "centrality": 2,
+        "load_bearing": false,
+        "impact_score": 4,
+        "narrative_arc": "frame",
+        "reasoning": "The claim that fleeing Christians specifically went to Pella beyond the Jordan is geographically plausible (Pella did lie in that direction) but its substance depends on the same contested Eusebius/Epiphanius tradition underlying GC-01-079; the destination detail is subordinate color within that larger disputed narrative rather than an independent claim. Counterfactual: even if the specific destination were wrong or unverifiable, the chapter's point (a warned minority escaped before the city fell) does not hinge on which town they reached — only GC-01-079's stronger 'not one perished' claim carries load-bearing weight."
+      }
+    },
+    {
+      "id": "GC-01-085",
+      "paragraph": 35,
+      "quote": "The Jewish forces, pursuing after Cestius and his army, fell upon their rear with such fierceness as to threaten them with total destruction. It was with great difficulty that the Romans succeeded in making their retreat.",
+      "claim_text": "Jewish forces pursuing Cestius's retreating army attacked its rear so fiercely that the Romans nearly suffered total destruction and retreated only with great difficulty.",
+      "claim_type": "event",
+      "entities": [
+        "Cestius Gallus",
+        "Rome",
+        "Jews"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus (Wars 2.19.7-9) describes the Jewish pursuit turning Cestius's retreat into a rout at the pass of Beth Horon, with heavy Roman losses (c. 5,300 infantry and 480 cavalry, and the loss of siege engines and a legionary eagle).",
+        "sources": [
+          {
+            "title": "Battle of Beth Horon (66) — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Battle_of_Beth_Horon_(66)",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Rout at Beth Horon, ~6,000 Roman dead."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-086",
+      "paragraph": 35,
+      "quote": "The Jews escaped almost without loss, and with their spoils returned in triumph to Jerusalem.",
+      "claim_text": "The Jewish forces suffered almost no losses in the engagement with Cestius's retreating army and returned to Jerusalem in triumph with spoils.",
+      "claim_type": "event",
+      "entities": [
+        "Jews",
+        "Jerusalem",
+        "Cestius Gallus"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus (Wars 2.19.9) records the Jews inflicted a lopsided defeat, captured Roman baggage and siege equipment (including a legionary eagle), and returned to Jerusalem triumphant with the spoils, sustaining comparatively light losses.",
+        "sources": [
+          {
+            "title": "Battle of Beth Horon (66) — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Battle_of_Beth_Horon_(66)",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Jewish victory with captured spoils and legionary aquila."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-087",
+      "paragraph": 35,
+      "quote": "Yet this apparent success brought them only evil. It inspired them with that spirit of stubborn resistance to the Romans which speedily brought unutterable woe upon the doomed city.",
+      "claim_text": "The Jewish victory over Cestius's retreating forces inspired a spirit of stubborn resistance to Rome that hastened Jerusalem's eventual destruction.",
+      "claim_type": "causal",
+      "entities": [
+        "Jerusalem",
+        "Rome",
+        "Jews"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Historians agree the defeat of Cestius emboldened the revolt: moderates joined the rebels, a war government was formed, and the confidence gained set the stage for the full Roman response under Vespasian and Titus. White's causal reading aligns with mainstream accounts.",
+        "sources": [
+          {
+            "title": "Battle of Beth Horon (66) — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Battle_of_Beth_Horon_(66)",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Consequences: emboldened revolt and organized rebel government."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-088",
+      "paragraph": 36,
+      "quote": "Terrible were the calamities that fell upon Jerusalem when the siege was resumed by Titus. The city was invested at the time of the Passover, when millions of Jews were assembled within its walls.",
+      "claim_text": "Titus resumed the siege of Jerusalem at the time of Passover, when millions of Jews were gathered within the city walls.",
+      "claim_type": "date",
+      "entities": [
+        "Titus",
+        "Jerusalem",
+        "Passover"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "The Passover timing is correct: Titus invested Jerusalem in spring AD 70 as Passover pilgrims filled the city. But 'millions of Jews... within its walls' reproduces Josephus's inflated figures (he elsewhere gives 2.7 million and 1.1 million dead). Modern demography puts Jerusalem's normal population around 60,000-80,000, perhaps tripling with pilgrims to a few hundred thousand — not 'millions.' White follows Josephus, as did 19th-century histories.",
+        "modern_consensus": "Hundreds of thousands at most were trapped; 'millions' is a rejected Josephan exaggeration.",
+        "period_historiography": "Josephus's high population/casualty figures were accepted by 19th-century historians (e.g. Milman), whom White followed.",
+        "sources": [
+          {
+            "title": "The Siege of Jerusalem in 70 CE — World History Encyclopedia",
+            "url": "https://www.worldhistory.org/article/1993/the-siege-of-jerusalem-in-70-ce/",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Population estimates and Passover crowding."
+          },
+          {
+            "title": "Siege of Jerusalem (70 CE) — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(70_CE)",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Modern scholars regard Josephus's numbers as greatly exaggerated."
+          }
+        ]
+      },
+      "defense": {
+        "result": "defense_failed",
+        "argument": "Strongest case has two prongs. (a) The sub-claim that the siege resumed 'at the time of the Passover' is independently accurate — Titus invested Jerusalem around Passover of spring AD 70 (Josephus; accepted by modern historians), so that element is 'supported', not anachronistic. (b) 'Millions of Jews were assembled within its walls' faithfully reports Josephus, who explicitly gives 2,700,000 present at that Passover (Wars 6.9.3, from 256,500 paschal victims). White is thus not exaggerating beyond her primary source; a secondary reading takes 'millions' as 19th-c. rhetorical idiom for 'a vast multitude', which would make it a non-quantitative flourish (unverifiable) rather than a demographic error. Why it still fails: the sentence functions as a population statement and tracks Josephus's literal 2.7M, which modern demography rejects as grossly inflated (Jerusalem plus festival pilgrims numbered at most a few hundred thousand). The figure is wrong by modern standards but matched Josephus and the historiography White used — the textbook definition of 'anachronistic'. Verdict stands."
+      },
+      "impact": {
+        "severity": 3,
+        "centrality": 2,
+        "load_bearing": false,
+        "impact_score": 6,
+        "narrative_arc": "frame",
+        "reasoning": "'Millions of Jews... within its walls' reproduces Josephus's own inflated wartime census (2.7 million, Wars 6.9.3); modern demography puts festival-swollen Jerusalem in the low hundreds of thousands at most, so the figure is an order of magnitude off — a materially inaccurate portrayal of the siege's scale, not a trivial slip. It is nonetheless era-standard: Josephus supplied the number and 19th-century historians (Milman, whom White followed) repeated it uncritically, so this reflects inherited scholarship rather than authorial fabrication. Counterfactual: swap 'millions' for an accurate 'hundreds of thousands crowded for Passover' and the sentence still does its job — establishing that Titus trapped a catastrophically overcrowded city — so the chapter's argument about famine and judgment is unaffected, only its rhetorical magnitude shrinks."
+      }
+    },
+    {
+      "id": "GC-01-089",
+      "paragraph": 36,
+      "quote": "Their stores of provision, which if carefully preserved would have supplied the inhabitants for years, had previously been destroyed through the jealousy and revenge of the contending factions, and now all the horrors of starvation were experienced.",
+      "claim_text": "Jerusalem's food stores, which could have supplied the population for years, were destroyed before the siege by rival Jewish factions out of jealousy and revenge, leading to starvation.",
+      "claim_type": "causal",
+      "entities": [
+        "Jerusalem",
+        "Jewish factions"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus (Wars 5.1.4) records that the warring factions burned the storehouses of grain that could have sustained the city for years, so that famine set in — the very cause White cites.",
+        "sources": [
+          {
+            "title": "Josephus, Wars of the Jews, Book 5 (Perseus/UChicago)",
+            "url": "https://penelope.uchicago.edu/josephus/war-5.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Factions burn the grain stores before the siege."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-090",
+      "paragraph": 36,
+      "quote": "A measure of wheat was sold for a talent.",
+      "claim_text": "During the siege of Jerusalem, a measure of wheat was sold for a talent (an extremely high price reflecting severe famine).",
+      "claim_type": "statistic",
+      "entities": [
+        "Jerusalem siege"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Josephus (Wars 5-6) documents extreme famine prices (e.g. tiny quantities of fodder sold for large sums, premium prices for dove dung and gathered fibers). The specific 'a measure of wheat for a talent' is a period rendering of the exorbitant-price theme; the underlying famine-pricing is well attested.",
+        "sources": [
+          {
+            "title": "Josephus, Wars of the Jews, Book 6 (Perseus/UChicago)",
+            "url": "https://penelope.uchicago.edu/josephus/war-6.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Famine drove food prices to extreme levels."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-091",
+      "paragraph": 36,
+      "quote": "So fierce were the pangs of hunger that men would gnaw the leather of their belts and sandals and the covering of their shields.",
+      "claim_text": "During the famine of the siege of Jerusalem, people were so hungry that they gnawed on the leather of belts, sandals, and shield coverings.",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem siege"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus (Wars 6.3.3) explicitly states the starving did not abstain from girdles and shoes and pulled the leather off their shields and gnawed it. White's statement is a direct reflection of this.",
+        "sources": [
+          {
+            "title": "Josephus, Wars of the Jews, Book 6 (Perseus/UChicago)",
+            "url": "https://penelope.uchicago.edu/josephus/war-6.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Starving gnaw leather from girdles, shoes, and shields."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-092",
+      "paragraph": 36,
+      "quote": "Great numbers of the people would steal out at night to gather wild plants growing outside the city walls, though many were seized and put to death with cruel torture, and often those who returned in safety were robbed of what they had gleaned at so great peril.",
+      "claim_text": "During the siege, many Jerusalem residents snuck out at night to gather wild plants outside the walls; many were caught and killed with torture, and survivors were often robbed of their gleanings.",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem siege"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus (Wars 5.10-11) describes the famished creeping out to gather food, many being caught by the Romans, tortured and crucified, while those returning were often robbed by the factions inside. Consistent with White's account.",
+        "sources": [
+          {
+            "title": "Josephus, Wars of the Jews, Book 5 (Perseus/UChicago)",
+            "url": "https://penelope.uchicago.edu/josephus/war-5.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "People slip out to forage; captured and crucified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-093",
+      "paragraph": 36,
+      "quote": "The most inhuman tortures were inflicted by those in power, to force from the want-stricken people the last scanty supplies which they might have concealed.",
+      "claim_text": "Those in power within besieged Jerusalem inflicted severe torture on starving residents to extract any concealed food supplies.",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem siege"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus (Wars 5.10.3) records the seditious tortured the populace, thrusting sharpened stakes and inflicting cruelties to make them reveal hidden food. White's statement matches.",
+        "sources": [
+          {
+            "title": "Josephus, Wars of the Jews, Book 5 (Perseus/UChicago)",
+            "url": "https://penelope.uchicago.edu/josephus/war-5.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Factions torture people for concealed provisions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-094",
+      "paragraph": 37,
+      "quote": "Thousands perished from famine and pestilence.",
+      "claim_text": "Thousands of people died from famine and disease during the siege of Jerusalem.",
+      "claim_type": "statistic",
+      "entities": [
+        "Jerusalem siege"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Mass death from famine and disease during the siege is amply attested by Josephus (Wars 5-6, e.g. bodies cast from the walls in vast numbers) and accepted by modern historians. 'Thousands' is a conservative, uncontroversial statement.",
+        "sources": [
+          {
+            "title": "Josephus, Wars of the Jews, Book 6 (Perseus/UChicago)",
+            "url": "https://penelope.uchicago.edu/josephus/war-6.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Massive mortality from famine and pestilence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-095",
+      "paragraph": 37,
+      "quote": "Children would be seen snatching the food from the mouths of their aged parents.",
+      "claim_text": "During the famine of the siege, children were observed snatching food from their aged parents' mouths.",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem siege"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus (Wars 5.10.3) describes the famine dissolving natural affection, with the strong snatching food from the weak and children pulling the very morsels their fathers were eating out of their mouths. White reflects this.",
+        "sources": [
+          {
+            "title": "Josephus, Wars of the Jews, Book 5 (Perseus/UChicago)",
+            "url": "https://penelope.uchicago.edu/josephus/war-5.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Food snatched from relatives' mouths during famine."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-096",
+      "paragraph": 37,
+      "quote": "The question of the prophet, “Can a woman forget her sucking child?”(42) received the answer within the walls of that doomed city, “The hands of the pitiful women have sodden their own children: they were their meat in the destruction of the daughter of my people.”",
+      "claim_text": "During the siege of Jerusalem, mothers reportedly boiled and ate their own children as food, an event the text presents as fulfilling Lamentations 4:10.",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem siege"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to the account of Mary of Bethezuba in Josephus, Wars of the Jews 6.3.4.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus (Wars 6.3.4 / 6.201-213) records the teknophagia episode: Mary of Bethezuba killed, roasted, and ate her infant son during the famine. White generalizes to plural 'women' to echo Lamentations 4:10 (accurately quoted), but the historical core — an instance of siege cannibalism reported by Josephus — is supported. (The generalization to multiple mothers goes beyond Josephus's single documented case.)",
+        "sources": [
+          {
+            "title": "Mary of Bethezuba — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Mary_of_Bethezuba",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Josephus's account of a mother eating her child in the siege."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-097",
+      "paragraph": 37,
+      "quote": "Again was fulfilled the warning prophecy given fourteen centuries before: “The tender and delicate woman among you, which would not adventure to set the sole of her foot upon the ground for delicateness and tenderness, her eye shall be evil toward the husband of her bosom, and toward her son, and toward her daughter, ... and toward her children which she shall bear: for she shall eat them for want of all things secretly in the siege and straitness, wherewith thine enemy shall distress thee in thy gates.”",
+      "claim_text": "The text dates the Deuteronomy 28:56-57 warning about a mother eating her own children in a siege to roughly fourteen centuries before Jerusalem's AD 70 destruction, implying a composition/utterance date around the 15th-14th century BC.",
+      "claim_type": "date",
+      "entities": [
+        "Deuteronomy 28",
+        "Moses"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "The quotation of Deuteronomy 28:56-57 is accurate. But 'given fourteen centuries before' (c. 1330 BC) assumes Mosaic authorship. Mainstream modern scholarship dates Deuteronomy to the 7th century BC (associated with Josiah's reform, c. 622 BC), making it roughly seven, not fourteen, centuries before AD 70. White follows the traditional/conservative Mosaic-authorship dating that prevailed in her religious milieu.",
+        "modern_consensus": "Deuteronomy is generally dated to the late 7th century BC (Josianic), with most scholars rejecting Mosaic authorship.",
+        "period_historiography": "Conservative Christian tradition (and the sources White relied on) held Mosaic authorship, placing the text ~14 centuries before AD 70; even by the late 19th century critical scholarship had moved to a 7th-century date.",
+        "sources": [
+          {
+            "title": "Book of Deuteronomy — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Book_of_Deuteronomy",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Modern dating 7th-5th century BC; Mosaic authorship rejected."
+          },
+          {
+            "title": "The Date of Deuteronomy (Wenham, Themelios) — The Gospel Coalition",
+            "url": "https://www.thegospelcoalition.org/themelios/article/the-date-of-deuteronomy-linch-pin-of-old-testament-criticism/",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Documents the near-universal 7th-century scholarly consensus vs. the conservative Mosaic view."
+          }
+        ]
+      },
+      "defense": {
+        "result": "verdict_downgraded",
+        "argument": "The verifier's own chapter applies an inconsistent standard, and that inconsistency is the catch. For GC-01-035 the verifier PASSED 'A thousand years before, the psalmist...' as supported with '[common_knowledge]... conventional rounding consistent with traditional Davidic-era psalm dating', and for GC-01-004 it passed Davidic authorship of Psalm 48 as supported — even though critical scholarship dates many psalms post-exilic and disputes Davidic authorship exactly as the documentary hypothesis disputes Mosaic authorship. Yet here it singles out the parallel traditional dating of Deuteronomy 28 ('the warning prophecy given fourteen centuries before') as anachronistic. Both are traditional scriptural attributions contested by the same body of critical scholarship; consistency demands the same non-accusatory treatment. On the merits: 'fourteen centuries before [AD 70]' is the traditional Mosaic dating (~1400 BC), which was universal in White's era and is still actively defended by conservative scholarship; White is dating the prophetic UTTERANCE per the biblical narrative's own internal chronology (Moses on the plains of Moab), not asserting a literary-composition date. The composition date and authorship of Deuteronomy 'remain hotly contested' (documentary hypothesis / de Wette's 7th-c. Josianic dating vs. traditional Mosaic authorship), so labeling her figure flatly 'wrong by modern standards' over-reaches. Finally, the rhetorical function — a prophecy uttered many centuries before its AD 70 fulfilment — holds under ANY of the proposed datings (1400 BC or 621 BC). Downgrading to 'disputed': the dating is a live authorship debate and a traditional attribution, not a settled modern error.",
+        "revised_verdict": "disputed",
+        "new_sources": [
+          {
+            "title": "Composition of the Torah — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Composition_of_the_Torah",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "'The precise process by which the Torah was composed, the number of authors involved, and the date of each author remain hotly contested' — the dating is not settled."
+          },
+          {
+            "title": "Documentary hypothesis — New World Encyclopedia",
+            "url": "https://www.newworldencyclopedia.org/entry/Documentary_hypothesis",
+            "source_class": "general_encyclopedia",
+            "supports_verdict": true,
+            "note": "Sets out the traditional Mosaic-authorship position alongside de Wette's 621 BC dating of Deuteronomy; documents the standing disagreement rather than a unanimous verdict."
+          }
+        ]
+      },
+      "impact": {
+        "severity": 1,
+        "centrality": 2,
+        "load_bearing": false,
+        "impact_score": 2,
+        "narrative_arc": "frame",
+        "reasoning": "The claim that Deuteronomy 28's siege-cannibalism warning was uttered 'fourteen centuries before' AD 70 assumes Mosaic authorship/dating (~1400 BC); mainstream critical scholarship favors a 7th-century BC Josianic composition, which would roughly halve the interval. The defender rightly downgraded this to disputed: Deuteronomy's date and authorship remain a genuinely contested question in biblical scholarship, and the verifier's own chapter treats parallel traditional attributions (Davidic Psalms) as unproblematic, so singling out this one as a hard error was inconsistent. Severity is low precisely because this is a live scholarly debate, not a settled modern correction, and it is a chronological aside embedded in an already-verified cannibalism-fulfillment passage. Counterfactual: whether the interval is fourteen or seven centuries, the chapter's point — an ancient prophetic warning literally fulfilled during the siege — stands unchanged; the exact number of intervening centuries carries no argumentative weight."
+      }
+    },
+    {
+      "id": "GC-01-098",
+      "paragraph": 38,
+      "quote": "Those prisoners who resisted when taken, were scourged, tortured, and crucified before the wall of the city. Hundreds were daily put to death in this manner,",
+      "claim_text": "Roman forces scourged, tortured, and crucified Jewish prisoners who resisted capture before the walls of Jerusalem, with hundreds killed daily in this manner.",
+      "claim_type": "statistic",
+      "entities": [
+        "Jerusalem siege",
+        "Rome"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus (Wars 5.11.1) records that captured Jews were scourged, tortured, and crucified before the walls, as many as five hundred or more a day, until room and crosses ran short. 'Hundreds daily' matches.",
+        "sources": [
+          {
+            "title": "Josephus, Wars of the Jews, Book 5 (Perseus/UChicago)",
+            "url": "https://penelope.uchicago.edu/josephus/war-5.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "~500 crucified per day before the walls."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-099",
+      "paragraph": 38,
+      "quote": "the dreadful work continued until, along the valley of Jehoshaphat and at Calvary, crosses were erected in so great numbers that there was scarcely room to move among them.",
+      "claim_text": "So many crosses were erected in the valley of Jehoshaphat and at Calvary during the siege that there was scarcely room to move among them.",
+      "claim_type": "event",
+      "entities": [
+        "Valley of Jehoshaphat",
+        "Calvary",
+        "Jerusalem siege"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus (Wars 5.11.1) states the multitude of crucified was so great that 'room was wanting for the crosses, and crosses wanting for the bodies.' White localizes them to the valley of Jehoshaphat and Calvary, a detail consistent with the siege topography around the walls.",
+        "sources": [
+          {
+            "title": "Josephus, Wars of the Jews, Book 5 (Perseus/UChicago)",
+            "url": "https://penelope.uchicago.edu/josephus/war-5.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "So many crosses that room was wanting."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-100",
+      "paragraph": 38,
+      "quote": "So terribly was visited that awful imprecation uttered before the judgment-seat of Pilate: “His blood be on us, and on our children.”",
+      "claim_text": "The text attributes to the crowd before Pilate, via Matthew 27:25, the imprecation 'His blood be on us, and on our children,' presented as fulfilled in the siege's crucifixions.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Pontius Pilate",
+        "Matthew 27"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Matthew 27:25. (The interpretive claim that the siege 'fulfilled' it is theological, not part of the quotation-accuracy check.)",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-101",
+      "paragraph": 39,
+      "quote": "Titus would willingly have put an end to the fearful scene, and thus have spared Jerusalem the full measure of her doom. He was filled with horror as he saw the bodies of the dead lying in heaps in the valleys. Like one entranced, he looked from the crest of Olivet upon the magnificent temple, and gave command that not one stone of it be touched.",
+      "claim_text": "Titus was horrified by the piled corpses in the valleys around Jerusalem, and upon viewing the temple from the Mount of Olives, ordered that not one stone of it be touched.",
+      "claim_type": "biographical",
+      "entities": [
+        "Titus",
+        "Jerusalem temple",
+        "Mount of Olives"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "The portrayal of Titus wishing to spare the temple derives from Josephus (Wars 6), a pro-Flavian source. Sulpicius Severus (Chronica 2.30), widely held to depend on the lost portion of Tacitus's Histories, states Titus deliberately ordered the temple's destruction. Modern scholars are genuinely divided on which account is reliable; several argue Josephus invented the exculpatory version to shield his patron Titus.",
+        "modern_consensus": "Whether Titus tried to save the temple (Josephus) or ordered its destruction (Tacitus/Sulpicius Severus) is an unresolved scholarly debate.",
+        "sources": [
+          {
+            "title": "The Sack of the Temple in Josephus and Tacitus — Oxford Academic",
+            "url": "https://academic.oup.com/book/6939/chapter/151201536",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Analyzes the conflicting Josephus vs Tacitus traditions on Titus's intent."
+          },
+          {
+            "title": "Siege of Jerusalem (70 CE) — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(70_CE)",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Notes the debate over whether Titus ordered the temple's destruction."
+          }
+        ]
+      },
+      "impact": {
+        "severity": 3,
+        "centrality": 3,
+        "load_bearing": false,
+        "impact_score": 9,
+        "narrative_arc": "frame",
+        "reasoning": "The claim that Titus was horrified, wanted to spare the temple, and 'gave command that not one stone of it be touched' follows Josephus's pro-Flavian account (his own patron's whitewash), which the Tacitus/Sulpicius Severus tradition directly contradicts by having Titus order the temple's destruction; modern scholars remain genuinely split on which ancient source to trust. The vignette does real argumentative work: it stages a human authority actively trying to prevent an outcome that a divine prophetic decree still enforces ('In vain were the efforts of Titus... One greater than he had declared'), the chapter's most vivid illustration that predicted events unfold regardless of human intention or resistance — a mechanism the book leans on again wherever it argues that specific dates or events (1844, the final crisis) proceed on a divine timetable no human plan can alter. Counterfactual: delete the 'Titus tried to save it' framing and the temple still burns and the city still falls exactly as Christ predicted, so the chapter's core claim of literal fulfillment survives intact; only the specific dramatic proof that prophecy overrides even a sympathetic conqueror's will is lost, which matters for later thesis-chain arguments but not for this chapter's stated case."
+      }
+    },
+    {
+      "id": "GC-01-102",
+      "paragraph": 39,
+      "quote": "Before attempting to gain possession of this stronghold, he made an earnest appeal to the Jewish leaders not to force him to defile the sacred place with blood. If they would come forth and fight in any other place, no Roman should violate the sanctity of the temple.",
+      "claim_text": "Titus appealed to the Jewish leaders to fight elsewhere so that the Romans would not have to defile the temple with bloodshed.",
+      "claim_type": "event",
+      "entities": [
+        "Titus",
+        "Jerusalem temple",
+        "Jewish leaders"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Josephus (Wars 6.2.4) records Titus (through Josephus as intermediary) urging the defenders to come out and fight anywhere else so as not to pollute the holy house. This is directly attested; note the broader pro-Titus framing is contested (see GC-01-101), but the appeal itself is a documented event in Josephus.",
+        "sources": [
+          {
+            "title": "Josephus, Wars of the Jews, Book 6 (Perseus/UChicago)",
+            "url": "https://penelope.uchicago.edu/josephus/war-6.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Titus urges the Jews to fight elsewhere to spare the temple."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-103",
+      "paragraph": 39,
+      "quote": "Josephus himself, in a most eloquent appeal, entreated them to surrender, to save themselves, their city, and their place of worship. But his words were answered with bitter curses. Darts were hurled at him, their last human mediator, as he stood pleading with them.",
+      "claim_text": "Josephus made an eloquent personal appeal urging the besieged Jews to surrender, but they responded with curses and hurled darts at him.",
+      "claim_type": "biographical",
+      "entities": [
+        "Josephus",
+        "Jerusalem siege"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus repeatedly describes his own speeches to the defenders urging surrender (Wars 5.9.2-4; 6.2.1), and that he was reviled and shot at while pleading. White's account matches Josephus's self-report.",
+        "sources": [
+          {
+            "title": "Josephus, Wars of the Jews, Book 5 (Perseus/UChicago)",
+            "url": "https://penelope.uchicago.edu/josephus/war-5.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Josephus's appeals to surrender, met with abuse."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-104",
+      "paragraph": 40,
+      "quote": "The blind obstinacy of the Jewish leaders, and the detestable crimes perpetrated within the besieged city, excited the horror and indignation of the Romans, and Titus at last decided to take the temple by storm. He determined, however, that if possible it should be saved from destruction. But his commands were disregarded.",
+      "claim_text": "Titus decided to take the Jerusalem temple by storm while intending to preserve it, but his preservation orders were disregarded by his soldiers.",
+      "claim_type": "event",
+      "entities": [
+        "Titus",
+        "Jerusalem temple"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "The claim that Titus intended to preserve the temple but his orders were disobeyed is Josephus's pro-Flavian version (Wars 6.4). Tacitus (via Sulpicius Severus) presents Titus as deliberately deciding to destroy it. This is the same unresolved Josephus-vs-Tacitus dispute (see GC-01-101), so the specific 'he willed to save it, commands disregarded' framing cannot be asserted as established fact.",
+        "modern_consensus": "Titus's intent regarding the temple is disputed between the Josephan and Tacitean traditions.",
+        "sources": [
+          {
+            "title": "The Sack of the Temple in Josephus and Tacitus — Oxford Academic",
+            "url": "https://academic.oup.com/book/6939/chapter/151201536",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Conflicting sources on Titus's decision."
+          },
+          {
+            "title": "Who Destroyed the Second Temple? — Bart Ehrman",
+            "url": "https://www.bartehrman.com/who-destroyed-the-second-temple/",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Summarizes the scholarly debate over Titus's responsibility."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-105",
+      "paragraph": 40,
+      "quote": "After he had retired to his tent at night, the Jews, sallying from the temple, attacked the soldiers without. In the struggle, a firebrand was flung by a soldier through an opening in the porch, and immediately the cedar-lined chambers about the holy house were in a blaze.",
+      "claim_text": "After Titus retired for the night, Jewish fighters sallied from the temple and attacked Roman soldiers; during the fighting, a Roman soldier flung a firebrand into the temple porch, igniting the cedar-lined chambers.",
+      "claim_type": "event",
+      "entities": [
+        "Titus",
+        "Jerusalem temple"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Josephus (Wars 6.4.5) recounts a Jewish sally against the Roman guards followed by a soldier flinging a firebrand through the golden window into the chambers round the holy house, setting them ablaze. That the temple caught fire this way is common to the tradition; only whether it was unauthorized (vs. ordered by Titus) is the disputed point (see GC-01-101/104).",
+        "sources": [
+          {
+            "title": "Josephus, Wars of the Jews, Book 6 (Perseus/UChicago)",
+            "url": "https://penelope.uchicago.edu/josephus/war-6.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Soldier flings firebrand; chambers around the holy house catch fire."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-106",
+      "paragraph": 40,
+      "quote": "Titus rushed to the place, followed by his generals and legionaries, and commanded the soldiers to quench the flames. His words were unheeded. In their fury the soldiers hurled blazing brands into the chambers adjoining the temple, and then with their swords they slaughtered in great numbers those who had found shelter there.",
+      "claim_text": "Titus rushed to the burning temple and ordered his soldiers to extinguish the flames, but they ignored him, threw more firebrands into adjoining chambers, and slaughtered large numbers of people sheltering there.",
+      "claim_type": "event",
+      "entities": [
+        "Titus",
+        "Jerusalem temple"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "Titus rushing up and ordering the fire quenched in vain is Josephus's exculpatory account (Wars 6.4.6-7); the competing Tacitean tradition has Titus ordering the destruction. The massacre of those sheltering in the temple is undisputed, but the specific claim that Titus commanded the flames extinguished belongs to the contested pro-Titus narrative.",
+        "modern_consensus": "Titus's attempt to save the temple is asserted only by Josephus and is disputed against the Tacitus/Sulpicius Severus tradition.",
+        "sources": [
+          {
+            "title": "The Sack of the Temple in Josephus and Tacitus — Oxford Academic",
+            "url": "https://academic.oup.com/book/6939/chapter/151201536",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Debate over Titus ordering vs. trying to prevent the fire."
+          },
+          {
+            "title": "Siege of Jerusalem (70 CE) — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(70_CE)",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Notes the conflicting accounts of Titus's role."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-107",
+      "paragraph": 40,
+      "quote": "Blood flowed down the temple steps like water. Thousands upon thousands of Jews perished.",
+      "claim_text": "Blood flowed down the temple steps and thousands upon thousands of Jews died during the temple's destruction.",
+      "claim_type": "statistic",
+      "entities": [
+        "Jerusalem temple"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Josephus (Wars 6.4-5) describes vast slaughter at and around the temple, with dead heaped about the altar and blood running down the steps. The rhetorical 'thousands upon thousands' reflects Josephus's account of the massacre (the precise totals being those flagged as exaggerated elsewhere).",
+        "sources": [
+          {
+            "title": "Josephus, Wars of the Jews, Book 6 (Perseus/UChicago)",
+            "url": "https://penelope.uchicago.edu/josephus/war-6.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Slaughter at the temple, blood about the altar."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-108",
+      "paragraph": 41,
+      "quote": "Titus found it impossible to check the rage of the soldiery; he entered with his officers, and surveyed the interior of the sacred edifice. The splendor filled them with wonder; and as the flames had not yet penetrated to the holy place, he made a last effort to save it, and springing forth, again exhorted the soldiers to stay the progress of the conflagration.",
+      "claim_text": "Titus, unable to control his soldiers, entered the temple with his officers, was struck by its splendor, and made a final attempt to halt the fire before it reached the holy place.",
+      "claim_type": "event",
+      "entities": [
+        "Titus",
+        "Jerusalem temple"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "This sentence is from H.H. Milman's 'The Burning of the Temple' (History of the Jews), which follows Josephus (Wars 6.4.7) in depicting Titus entering the sanctuary and making a last effort to save it. The 'Titus tried to save the temple' motif is precisely the point disputed by the Tacitus/Sulpicius Severus tradition, so it cannot stand as established fact.",
+        "modern_consensus": "Titus's effort to spare the holy place is the Josephan (via Milman) version, contested against Tacitus.",
+        "period_historiography": "Milman's History of the Jews, White's proximate source here, reproduced Josephus's pro-Titus account.",
+        "sources": [
+          {
+            "title": "The Sack of the Temple in Josephus and Tacitus — Oxford Academic",
+            "url": "https://academic.oup.com/book/6939/chapter/151201536",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Contested traditions of Titus's intent."
+          },
+          {
+            "title": "H.H. Milman, 'The Burning of the Temple', History of the Jews",
+            "url": "https://www.ourcivilisation.com/smartboard/shop/milmanhh/temple.htm",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Source of the block quote; follows Josephus's pro-Titus narrative."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-109",
+      "paragraph": 41,
+      "quote": "The centurion Liberalis endeavored to force obedience with his staff of office; but even respect for the emperor gave way to the furious animosity against the Jews, to the fierce excitement of battle, and to the insatiable hope of plunder.",
+      "claim_text": "The centurion Liberalis tried to force the soldiers' obedience with his staff of office, but their hostility toward the Jews, battle excitement, and desire for plunder overrode respect for Titus's authority.",
+      "claim_type": "biographical",
+      "entities": [
+        "Liberalis",
+        "Titus",
+        "Jerusalem temple"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "This detail comes from Milman (History of the Jews), following Josephus (Wars 6.4.7), who names a centurion (Liberalis in Milman's rendering) attempting to restrain the soldiers with his staff. The named figure and episode are attested in the source tradition. (The presupposition that Titus wished the fire stopped is part of the disputed pro-Titus narrative; the existence of the Liberalis episode as reported is not itself in dispute.)",
+        "sources": [
+          {
+            "title": "H.H. Milman, 'The Burning of the Temple', History of the Jews",
+            "url": "https://www.ourcivilisation.com/smartboard/shop/milmanhh/temple.htm",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Names centurion Liberalis trying to force obedience with his staff of office."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-110",
+      "paragraph": 41,
+      "quote": "A soldier, unperceived, thrust a lighted torch between the hinges of the door: the whole building was in flames in an instant.",
+      "claim_text": "An unnoticed Roman soldier thrust a lighted torch between the door hinges of the temple, setting the whole building instantly ablaze.",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem temple"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Verbatim from Milman's 'The Burning of the Temple,' following Josephus. That the temple was set ablaze and consumed is undisputed across the traditions; the specific 'unperceived soldier' framing (accidental/unauthorized origin) is Josephus's version, one side of the disputed intent question (see GC-01-101/104). The event of the burning is well attested.",
+        "sources": [
+          {
+            "title": "H.H. Milman, 'The Burning of the Temple', History of the Jews",
+            "url": "https://www.ourcivilisation.com/smartboard/shop/milmanhh/temple.htm",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Torch thrust between the hinges; building instantly aflame."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-111",
+      "paragraph": 42,
+      "quote": "The whole summit of the hill which commanded the city, blazed like a volcano. One after another the buildings fell in, with a tremendous crash, and were swallowed up in the fiery abyss.",
+      "claim_text": "The temple hilltop overlooking Jerusalem blazed like a volcano as buildings collapsed one after another into the fire.",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem temple"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Verbatim from Milman's 'The Burning of the Temple.' It is a rhetorical description of the well-attested conflagration that consumed the temple complex; the burning and collapse of the temple buildings is undisputed history (Josephus Wars 6.4-5).",
+        "sources": [
+          {
+            "title": "H.H. Milman, 'The Burning of the Temple', History of the Jews",
+            "url": "https://www.ourcivilisation.com/smartboard/shop/milmanhh/temple.htm",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "'Blazed like a volcano' passage; the temple hill in flames."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-112",
+      "paragraph": 43,
+      "quote": "The number of the slain exceeded that of the slayers. The legionaries had to clamber over heaps of dead to carry on the work of extermination.",
+      "claim_text": "During the final destruction of the temple, the number of people killed exceeded the number of Roman soldiers doing the killing, forcing legionaries to climb over heaps of corpses to continue.",
+      "claim_type": "statistic",
+      "entities": [
+        "Jerusalem temple",
+        "Rome"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "From Milman's 'The Burning of the Temple,' following Josephus (Wars 6.5.1), who describes the dead piled about the altar and Romans clambering over heaps of bodies. A rhetorical statement grounded in Josephus's account of the massacre, not a precise numerical claim.",
+        "sources": [
+          {
+            "title": "H.H. Milman, 'The Burning of the Temple', History of the Jews",
+            "url": "https://www.ourcivilisation.com/smartboard/shop/milmanhh/temple.htm",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Slain exceeded slayers; legionaries clamber over the dead."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-113",
+      "paragraph": 44,
+      "quote": "The leaders of the Jews forsook their impregnable towers, and Titus found them solitary. He gazed upon them with amazement, and declared that God had given them into his hands; for no engines, however powerful, could have prevailed against those stupendous battlements.",
+      "claim_text": "The Jewish leaders abandoned Jerusalem's supposedly impregnable towers, and Titus, finding them empty, declared that God must have delivered them into his hands since no siege engines could have taken them.",
+      "claim_type": "event",
+      "entities": [
+        "Titus",
+        "Jerusalem"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus (Wars 6.9.1) records that after the rebels abandoned the great towers (Phasael, Hippicus, Mariamne), Titus marveled at them and said God had been with the Romans in the war, for no human hands or engines could have prevailed against such fortifications. White's account matches closely.",
+        "sources": [
+          {
+            "title": "Josephus, Wars of the Jews, Book 6 (Perseus/UChicago)",
+            "url": "https://penelope.uchicago.edu/josephus/war-6.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Titus wonders at the abandoned towers and credits God."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-114",
+      "paragraph": 44,
+      "quote": "Both the city and the temple were razed to their foundations, and the ground upon which the holy house had stood was “plowed like a field.”",
+      "claim_text": "Both the city of Jerusalem and its temple were razed to their foundations, with the temple site plowed like a field.",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem",
+        "Jerusalem temple"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Josephus (Wars 7.1.1) states the whole city and temple were leveled, save three towers and part of the wall, so thoroughly that nothing suggested it had been inhabited. The 'plowed like a field' phrase is White's echo of Micah 3:12; literal plowing of the temple site is associated more with the later Hadrianic period (per Talmudic tradition/Jerome), so this clause is scriptural allusion rather than a precise AD-70 report. The razing itself is well attested.",
+        "sources": [
+          {
+            "title": "Josephus, Wars of the Jews, Book 6 (Perseus/UChicago)",
+            "url": "https://penelope.uchicago.edu/josephus/war-6.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "City and temple leveled to their foundations."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-115",
+      "paragraph": 44,
+      "quote": "In the siege and the slaughter that followed, more than a million of the people perished;",
+      "claim_text": "More than a million people died in the siege of Jerusalem and its aftermath.",
+      "claim_type": "statistic",
+      "entities": [
+        "Jerusalem siege"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "'More than a million' reproduces Josephus's figure of 1,100,000 dead (Wars 6.9.3). Modern historians regard this as greatly exaggerated: Jerusalem's population was roughly 60,000-80,000 plus refugees, and estimates of the dead run to tens of thousands (e.g. Guy Rogers, c. 20,000-30,000). White follows Josephus, as did the 19th-century histories (Milman) she relied on.",
+        "modern_consensus": "The 1.1 million figure is a rejected Josephan exaggeration; realistic estimates are in the tens of thousands to at most low hundreds of thousands.",
+        "period_historiography": "Josephus's casualty totals were accepted at face value by 19th-century historians such as Milman, whom White followed.",
+        "sources": [
+          {
+            "title": "Siege of Jerusalem (70 CE) — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(70_CE)",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Guy Rogers and others regard Josephus's 1.1M as vastly inflated."
+          },
+          {
+            "title": "The Siege of Jerusalem in 70 CE — World History Encyclopedia",
+            "url": "https://www.worldhistory.org/article/1993/the-siege-of-jerusalem-in-70-ce/",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Population/casualty estimates far below Josephus's figures."
+          }
+        ]
+      },
+      "defense": {
+        "result": "defense_failed",
+        "argument": "'More than a million of the people perished' is a faithful, even conservative, restatement of Josephus (Wars 6.9.3), who gives 1,100,000 dead in the siege — the primary source and the 19th-century standard. White's immediately preceding block quotation at paragraphs 41-43 is H.H. Milman's 'History of the Jews' (Appendix note 46), and Milman likewise transmits the Josephan casualty figures; so this number traces directly and demonstrably to the sources White actually used, not to invention. A charitable reading also notes 'more than a million' is the floor of a range her sources gave, not a precise fabricated statistic. Why it still fails: modern demographic scholarship rejects Josephus's 1.1M as physically impossible for a city of Jerusalem's size plus festival pilgrims; realistic estimates of total war/siege deaths are far lower. The figure is therefore wrong by modern standards but consistent with the historiography White relied on — 'anachronistic', which is the correct verdict. Stands."
+      },
+      "impact": {
+        "severity": 3,
+        "centrality": 3,
+        "load_bearing": false,
+        "impact_score": 9,
+        "narrative_arc": "frame",
+        "reasoning": "'More than a million... perished' transmits Josephus's tally of 1.1 million dead (Wars 6.9.3) via Milman's history, which White quotes at length just before this line; modern historians reject the figure as physically impossible for the city's actual size and regard tens of thousands to a few hundred thousand as more plausible — a materially inaccurate portrayal of the catastrophe's scale, though squarely traceable to the sources White relied on rather than to invention. It carries above-average centrality because it is the chapter's capstone statistic, immediately preceding the pivot to the eschatological register in paragraph 47 ('a scene yet darker'), so it does real rhetorical work in establishing AD 70 as the worst national catastrophe on record. Counterfactual: even at realistic modern estimates the siege remains a well-documented atrocity with famine, crucifixion, and total urban destruction; the chapter's claims of prophecy-fulfillment and typological connection to a 'yet darker' future judgment do not require the specific figure of a million — the argument survives, just less viscerally."
+      }
+    },
+    {
+      "id": "GC-01-116",
+      "paragraph": 44,
+      "quote": "the survivors were carried away as captives, sold as slaves, dragged to Rome to grace the conqueror’s triumph, thrown to wild beasts in the amphitheaters, or scattered as homeless wanderers throughout the earth.",
+      "claim_text": "Survivors of the fall of Jerusalem were taken captive, sold into slavery, brought to Rome for Titus's triumph, thrown to wild beasts in amphitheaters, or scattered as homeless wanderers.",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem",
+        "Rome",
+        "Titus"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Josephus (Wars 6.9.2-3) gives 97,000 captives: the tallest and handsomest reserved for the triumph, many sent to the Egyptian mines or distributed among the provinces to be destroyed in the theaters by sword and wild beasts, and others sold. The triumph of Vespasian and Titus in Rome (with Jewish captives and temple spoils) is well documented (Arch of Titus). White's summary is accurate.",
+        "sources": [
+          {
+            "title": "Josephus, Wars of the Jews, Book 6 (Perseus/UChicago)",
+            "url": "https://penelope.uchicago.edu/josephus/war-6.html",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "97,000 captives; fates including triumph, mines, beasts, slavery."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-01-117",
+      "paragraph": 45,
+      "quote": "Says the prophet, “O Israel, thou hast destroyed thyself;” “for thou hast fallen by thine iniquity.”",
+      "claim_text": "The text attributes to 'the prophet' (Hosea 13:9, 14:1) the statement 'O Israel, thou hast destroyed thyself... for thou hast fallen by thine iniquity.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Hosea",
+        "Israel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotations of Hosea 13:9 ('O Israel, thou hast destroyed thyself') and Hosea 14:1 ('for thou hast fallen by thine iniquity'), both Hosea, correctly attributed to 'the prophet.'",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-118",
+      "paragraph": 45,
+      "quote": "By stubborn rejection of divine love and mercy, the Jews had caused the protection of God to be withdrawn from them, and Satan was permitted to rule them according to his will.",
+      "claim_text": "By stubbornly rejecting divine love and mercy, the Jews caused God's protection to be withdrawn and Satan was permitted to rule them.",
+      "claim_type": "theological",
+      "entities": [
+        "Jews",
+        "Satan"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about divine withdrawal and Satanic rule; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-119",
+      "paragraph": 46,
+      "quote": "It is the restraining power of God that prevents mankind from passing fully under the control of Satan.",
+      "claim_text": "God's restraining power is what prevents mankind from passing fully under Satan's control.",
+      "claim_type": "theological",
+      "entities": [
+        "Satan"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological proposition about God's restraining power; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-120",
+      "paragraph": 47,
+      "quote": "The Saviour’s prophecy concerning the visitation of judgments upon Jerusalem is to have another fulfilment, of which that terrible desolation was but a faint shadow.",
+      "claim_text": "Christ's prophecy about judgment upon Jerusalem is to have a further, greater fulfillment beyond the AD 70 destruction, which was only a faint foreshadowing.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus",
+        "Jerusalem"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Predictive/theological interpretation (double fulfillment pointing to the eschaton); not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-121",
+      "paragraph": 48,
+      "quote": "Christ has declared that He will come the second time, to gather His faithful ones to Himself: “Then shall all the tribes of the earth mourn, and they shall see the Son of man coming in the clouds of heaven with power and great glory. And He shall send His angels with a great sound of a trumpet, and they shall gather together His elect from the four winds, from one end of heaven to the other.”",
+      "claim_text": "The text attributes to Christ, via Matthew 24:30-31, the prophecy that at his second coming all tribes of the earth will mourn, the Son of man will appear in the clouds with power and great glory, and angels will gather his elect from the four winds.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus",
+        "Matthew 24"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Matthew 24:30-31.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-122",
+      "paragraph": 49,
+      "quote": "Jesus declares, “There shall be signs in the sun, and in the moon, and in the stars; and upon the earth distress of nations.”",
+      "claim_text": "The text attributes to Jesus, via Luke 21:25, the declaration 'There shall be signs in the sun, and in the moon, and in the stars; and upon the earth distress of nations.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus",
+        "Luke 21"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Luke 21:25.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-123",
+      "paragraph": 49,
+      "quote": "Those who behold these harbingers of His coming are to “know that it is near, even at the doors.”",
+      "claim_text": "The text attributes to Jesus, via Matthew 24:33, the statement that those who see the signs of his coming should 'know that it is near, even at the doors.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus",
+        "Matthew 24"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Matthew 24:33 (cf. Mark 13:29).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-124",
+      "paragraph": 49,
+      "quote": "“Watch ye therefore,” are His words of admonition.",
+      "claim_text": "The text attributes to Jesus, via Mark 13:35, the admonition 'Watch ye therefore.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus",
+        "Mark 13"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] 'Watch ye therefore' is KJV wording of Mark 13:35 (the admonition also appears at Matthew 24:42 as 'Watch therefore'); accurately attributed to Jesus.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-125",
+      "paragraph": 49,
+      "quote": "But to them that will not watch, “the day of the Lord so cometh as a thief in the night.”",
+      "claim_text": "The text attributes to Paul, via 1 Thessalonians 5:2, the statement that for those who do not watch, 'the day of the Lord so cometh as a thief in the night.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Paul",
+        "1 Thessalonians 5"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of 1 Thessalonians 5:2, a Pauline epistle; attribution to Paul is standard.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-126",
+      "paragraph": 50,
+      "quote": "so shall sudden destruction come upon the careless and ungodly, “and they shall not escape.”",
+      "claim_text": "The text attributes to Paul, via 1 Thessalonians 5:3, the statement that sudden destruction will come upon the careless and ungodly and 'they shall not escape.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Paul",
+        "1 Thessalonians 5"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV allusion to 1 Thessalonians 5:3 ('sudden destruction cometh upon them... and they shall not escape'), a Pauline epistle.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-01-127",
+      "paragraph": 50,
+      "quote": "The world is no more ready to credit the message for this time than were the Jews to receive the Saviour’s warning concerning Jerusalem.",
+      "claim_text": "The modern world is no more willing to accept the end-time message than the Jews were to accept Christ's warning about Jerusalem.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Jesus",
+        "Jerusalem"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive analogy central to the book's apologetic frame; a value judgment, not empirically checkable.",
+        "sources": []
+      }
+    }
+  ]
+}

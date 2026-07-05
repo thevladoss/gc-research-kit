@@ -131,9 +131,9 @@
       "paragraphs": 50,
       "stages": {
         "extract": "done",
-        "verify": "pending",
-        "defend": "pending",
-        "impact": "pending"
+        "verify": "done",
+        "defend": "done",
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -151,9 +151,45 @@
             "causal": 2
           },
           "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 99,
+          "anachronistic": 4,
+          "disputed": 7,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 17,
+          "low_confidence": 0,
+          "searches": 15,
+          "clusters": 9
+        },
+        "defend": {
+          "examined": 4,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 1,
+          "defense_failed": 3,
+          "searches": 2
+        },
+        "impact": {
+          "scored": 7,
+          "load_bearing": 1,
+          "top_impact": [
+            {
+              "id": "GC-01-115",
+              "score": 9
+            },
+            {
+              "id": "GC-01-079",
+              "score": 9
+            },
+            {
+              "id": "GC-01-101",
+              "score": 9
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-05T01:51:35Z"
+      "updated_at": "2026-07-05T08:24:30Z"
     },
     "02": {
       "title": "Persecution In The First Centuries",
@@ -161,8 +197,8 @@
       "paragraphs": 26,
       "stages": {
         "extract": "done",
-        "verify": "pending",
-        "defend": "pending",
+        "verify": "done",
+        "defend": "done",
         "impact": "pending"
       },
       "counts": {
@@ -183,9 +219,27 @@
           "zero_claim_paras": [
             26
           ]
+        },
+        "verify": {
+          "supported": 32,
+          "anachronistic": 2,
+          "disputed": 9,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 22,
+          "low_confidence": 3,
+          "searches": 9,
+          "clusters": 3
+        },
+        "defend": {
+          "examined": 2,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 1,
+          "defense_failed": 1,
+          "searches": 1
         }
       },
-      "updated_at": "2026-07-05T01:39:25Z"
+      "updated_at": "2026-07-05T08:24:15Z"
     },
     "03": {
       "title": "The Apostasy",
@@ -193,7 +247,7 @@
       "paragraphs": 34,
       "stages": {
         "extract": "done",
-        "verify": "pending",
+        "verify": "done",
         "defend": "pending",
         "impact": "pending"
       },
@@ -211,9 +265,20 @@
             "statistic": 1
           },
           "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 79,
+          "anachronistic": 5,
+          "disputed": 6,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 18,
+          "low_confidence": 3,
+          "searches": 15,
+          "clusters": 9
         }
       },
-      "updated_at": "2026-07-05T01:42:22Z"
+      "updated_at": "2026-07-05T08:14:36Z"
     },
     "04": {
       "title": "The Waldenses",
