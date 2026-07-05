@@ -1,0 +1,696 @@
+{
+  "chapter": 13,
+  "chapter_title": "The Netherlands And Scandinavia",
+  "stage": "extraction",
+  "generated_at": "2026-07-05",
+  "notes": "Extraction pass over 21 paragraphs. Long footnoted quotations (bishops' letter to the pope ¶1, martyrology passages ¶9, historian's assessment of the Petri brothers ¶19) each captured as single attributed_quote claims rather than split into fragments, since splitting would fracture the attribution unit. Several sweeping comparative/superlative statements (¶7 'nowhere...more generally received', ¶21 'the only one in Europe', ¶20 'for the first time') retained as event-type claims with needs_verification true and flagged via extractor_note, since they are in-principle checkable against comparative historiography despite their rhetorical framing.",
+  "claims": [
+    {
+      "id": "GC-13-001",
+      "paragraph": 1,
+      "quote": "In the Netherlands the papal tyranny very early called forth resolute protest.",
+      "claim_text": "In the Netherlands, protest against papal authority arose very early (long before the Protestant Reformation).",
+      "claim_type": "interpretive",
+      "entities": ["Netherlands", "Roman papacy"],
+      "needs_verification": false,
+      "extractor_note": "Sweeping framing statement; the specific factual content is captured in GC-13-002."
+    },
+    {
+      "id": "GC-13-002",
+      "paragraph": 1,
+      "quote": "Seven hundred years before Luther’s time, the Roman pontiff was thus fearlessly impeached by two bishops, who, having been sent on an embassy to Rome, had learned the true character of the “holy see:”",
+      "claim_text": "Approximately 700 years before Martin Luther's time (i.e., roughly the 9th century), two bishops who had been sent on an embassy to Rome impeached the Roman pontiff after learning the true character of the papacy.",
+      "claim_type": "event",
+      "entities": ["Netherlands", "Roman papacy"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-003",
+      "paragraph": 1,
+      "quote": "God “has made His queen and spouse, the church, a noble and everlasting provision for her family, with a dowry that is neither fading nor corruptible, and given her an eternal crown and scepter; ... all which benefits you like a thief intercept. You set up yourself in the temple as God; instead of pastor, you are become a wolf to the sheep; ... you would make us believe you are a supreme bishop, but you rather behave like a tyrant.... Whereas you ought to be a servant of servants, as you call yourself, you endeavor to become a lord of lords.... You bring the commands of God into contempt.... The Holy Ghost is the builder of all churches as far as the earth extends.... The city of our God, of which we are the citizens, reaches to all the regions of the heavens; and it is greater than the city, by the holy prophets named Babylon, which pretends to be divine, wins herself to heaven, and brags that her wisdom is immortal; and finally, though without reason, that she never did err, nor ever can.”(351)",
+      "claim_text": "Two unnamed bishops sent on embassy to Rome wrote a letter to the Roman pontiff accusing him of intercepting the church's benefits like a thief, setting himself up as God in the temple, behaving as a tyrant rather than a servant of servants, and comparing Rome to the prophetic Babylon that falsely claims she never erred.",
+      "claim_type": "attributed_quote",
+      "entities": ["Netherlands", "Roman papacy"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-004",
+      "paragraph": 2,
+      "quote": "those early teachers, who, traversing different lands and known by various names, bore the character of the Vaudois missionaries, and spread everywhere the knowledge of the gospel, penetrated to the Netherlands. Their doctrines spread rapidly.",
+      "claim_text": "Early traveling teachers bearing the character of Vaudois (Waldensian) missionaries penetrated to the Netherlands and their doctrines spread rapidly there.",
+      "claim_type": "causal",
+      "entities": ["Netherlands", "Vaudois/Waldensians"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-005",
+      "paragraph": 2,
+      "quote": "The Waldensian Bible they translated in verse into the Dutch language.",
+      "claim_text": "The Waldensian Bible was translated in verse into the Dutch language.",
+      "claim_type": "event",
+      "entities": ["Netherlands", "Vaudois/Waldensians"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-006",
+      "paragraph": 2,
+      "quote": "They declared “that there was great advantage in it; no jests, no fables, no trifles, no deceits, but the words of truth; that indeed there was here and there a hard crust, but that the marrow and sweetness of what was good and holy might be easily discovered in it.”(352) Thus wrote the friends of the ancient faith, in the twelfth century.",
+      "claim_text": "In the twelfth century, the 'friends of the ancient faith' in the Netherlands wrote that the Dutch verse translation of the Waldensian Bible contained 'no jests, no fables, no trifles, no deceits, but the words of truth,' with the marrow and sweetness of what was good and holy easily discoverable despite a hard crust here and there.",
+      "claim_type": "attributed_quote",
+      "entities": ["Netherlands", "Vaudois/Waldensians"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-007",
+      "paragraph": 3,
+      "quote": "Now began the Romish persecutions; but in the midst of fagots and torture the believers continued to multiply,",
+      "claim_text": "Roman Catholic persecutions of these believers began in the Netherlands, and despite fagots and torture the believers continued to multiply.",
+      "claim_type": "event",
+      "entities": ["Netherlands", "Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-008",
+      "paragraph": 3,
+      "quote": "steadfastly declaring that the Bible is the only infallible authority in religion, and that “no man should be coerced to believe, but should be won by preaching.”(353)",
+      "claim_text": "The persecuted believers in the Netherlands declared that the Bible is the only infallible authority in religion and that 'no man should be coerced to believe, but should be won by preaching.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Netherlands"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-009",
+      "paragraph": 4,
+      "quote": "From one of the provinces of Holland came Menno Simons.",
+      "claim_text": "Menno Simons came from one of the provinces of Holland.",
+      "claim_type": "biographical",
+      "entities": ["Menno Simons", "Holland"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-010",
+      "paragraph": 4,
+      "quote": "Educated a Roman Catholic, and ordained to the priesthood, he was wholly ignorant of the Bible, and he would not read it, for fear of being beguiled into heresy.",
+      "claim_text": "Menno Simons was educated as a Roman Catholic and ordained to the priesthood, was wholly ignorant of the Bible, and initially refused to read it for fear of being led into heresy.",
+      "claim_type": "biographical",
+      "entities": ["Menno Simons"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-011",
+      "paragraph": 4,
+      "quote": "When a doubt concerning the doctrine of transubstantiation forced itself upon him, he regarded it as a temptation from Satan, and by prayer and confession sought to free himself from it; but in vain.",
+      "claim_text": "Menno Simons experienced doubts about the doctrine of transubstantiation, initially regarded them as satanic temptation, and tried unsuccessfully to free himself of the doubts through prayer and confession.",
+      "claim_type": "biographical",
+      "entities": ["Menno Simons"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-012",
+      "paragraph": 4,
+      "quote": "He soon after witnessed in a neighboring village the beheading of a man who was put to death for having been rebaptized.",
+      "claim_text": "Menno Simons witnessed in a neighboring village the beheading of a man who was executed for having been rebaptized (as an Anabaptist).",
+      "claim_type": "event",
+      "entities": ["Menno Simons"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-013",
+      "paragraph": 4,
+      "quote": "This led him to study the Bible in regard to infant baptism. He could find no evidence for it in the Scriptures, but saw that repentance and faith are everywhere required as the condition of receiving baptism.",
+      "claim_text": "The execution of a rebaptized man led Menno Simons to study the Bible on infant baptism, concluding he could find no scriptural evidence for it while repentance and faith were everywhere required as the condition of baptism.",
+      "claim_type": "causal",
+      "entities": ["Menno Simons"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-014",
+      "paragraph": 5,
+      "quote": "Menno withdrew from the Roman Church, and devoted his life to teaching the truths which he had received.",
+      "claim_text": "Menno Simons withdrew from the Roman Catholic Church and devoted his life to teaching the reformed truths he had received.",
+      "claim_type": "event",
+      "entities": ["Menno Simons"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-015",
+      "paragraph": 5,
+      "quote": "In both Germany and the Netherlands a class of fanatics had risen, advocating absurd and seditious doctrines, outraging order and decency, and proceeding to violence and insurrection.",
+      "claim_text": "In both Germany and the Netherlands, a class of fanatics arose during the Reformation era advocating absurd and seditious doctrines and proceeding to violence and insurrection.",
+      "claim_type": "event",
+      "entities": ["Germany", "Netherlands"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-016",
+      "paragraph": 5,
+      "quote": "Menno saw the horrible results to which these movements would inevitably lead, and he strenuously opposed the erroneous teachings and wild schemes of the fanatics.",
+      "claim_text": "Menno Simons strenuously opposed the erroneous teachings and schemes of the fanatical movements active in Germany and the Netherlands.",
+      "claim_type": "causal",
+      "entities": ["Menno Simons"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-017",
+      "paragraph": 5,
+      "quote": "there were still remaining many descendants of the ancient Christians, the fruits of the Waldensian teaching. Among these classes Menno labored with great zeal and success.",
+      "claim_text": "Menno Simons labored with zeal and success among descendants of ancient Christians who were the fruits of Waldensian teaching, as well as among former fanatics who had renounced their errors.",
+      "claim_type": "biographical",
+      "entities": ["Menno Simons", "Vaudois/Waldensians"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-018",
+      "paragraph": 6,
+      "quote": "For twenty-five years he traveled, with his wife and children, enduring great hardships and privations, and frequently in peril of his life.",
+      "claim_text": "Menno Simons traveled for twenty-five years with his wife and children, enduring hardships and frequent peril to his life.",
+      "claim_type": "biographical",
+      "entities": ["Menno Simons"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-019",
+      "paragraph": 6,
+      "quote": "He traversed the Netherlands and northern Germany, laboring chiefly among the humbler classes, but exerting a wide-spread influence.",
+      "claim_text": "Menno Simons traversed the Netherlands and northern Germany, laboring chiefly among the humbler classes while exerting wide-spread influence.",
+      "claim_type": "geographical",
+      "entities": ["Menno Simons", "Netherlands", "Germany"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-020",
+      "paragraph": 6,
+      "quote": "Naturally eloquent, though possessing a limited education, he was a man of unwavering integrity, of humble spirit and gentle manners, and of sincere and earnest piety, exemplifying in his own life the precepts which he taught, and he commanded the confidence of the people.",
+      "claim_text": "Menno Simons was naturally eloquent despite a limited education, and was known for integrity, humility, gentle manners, and sincere piety, commanding the confidence of the people.",
+      "claim_type": "biographical",
+      "entities": ["Menno Simons"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-021",
+      "paragraph": 6,
+      "quote": "His followers were scattered and oppressed. They suffered greatly from being confounded with the fanatical Munsterites. Yet great numbers were converted under his labors.",
+      "claim_text": "Menno Simons's followers were scattered and oppressed, suffering from being confused with the fanatical Munsterites, yet great numbers were converted under his labors.",
+      "claim_type": "event",
+      "entities": ["Menno Simons"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-022",
+      "paragraph": 7,
+      "quote": "Nowhere were the reformed doctrines more generally received than in the Netherlands. In few countries did their adherents endure more terrible persecution.",
+      "claim_text": "The reformed (Protestant) doctrines were more generally received in the Netherlands than anywhere else, and in few countries did adherents of the Reformation endure more terrible persecution than in the Netherlands.",
+      "claim_type": "event",
+      "entities": ["Netherlands"],
+      "needs_verification": true,
+      "extractor_note": "Sweeping comparative/superlative claim; included per completeness rule despite rhetorical framing."
+    },
+    {
+      "id": "GC-13-023",
+      "paragraph": 7,
+      "quote": "In Germany Charles V. had banned the Reformation, and he would gladly have brought all its adherents to the stake; but the princes stood up as a barrier against his tyranny.",
+      "claim_text": "In Germany, Emperor Charles V banned the Reformation and would have brought all its adherents to the stake, but the German princes acted as a barrier against his tyranny.",
+      "claim_type": "causal",
+      "entities": ["Charles V", "Germany"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-024",
+      "paragraph": 7,
+      "quote": "In the Netherlands his power was greater, and persecuting edicts followed each other in quick succession.",
+      "claim_text": "In the Netherlands, Charles V's power was greater than in Germany, and persecuting edicts against Protestants followed each other in quick succession there.",
+      "claim_type": "causal",
+      "entities": ["Charles V", "Netherlands"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-025",
+      "paragraph": 7,
+      "quote": "To read the Bible, to hear or preach it, or even to speak concerning it, was to incur the penalty of death by the stake.",
+      "claim_text": "Under the edicts of Charles V in the Netherlands, reading, hearing, preaching, or even speaking about the Bible carried the penalty of death by burning at the stake.",
+      "claim_type": "event",
+      "entities": ["Netherlands", "Charles V"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-026",
+      "paragraph": 7,
+      "quote": "To pray to God in secret, to refrain from bowing to an image, or to sing a psalm, was also punishable with death.",
+      "claim_text": "Under the edicts of Charles V in the Netherlands, praying to God in secret, refraining from bowing to an image, or singing a psalm was also punishable by death.",
+      "claim_type": "event",
+      "entities": ["Netherlands", "Charles V"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-027",
+      "paragraph": 7,
+      "quote": "Even those who should abjure their errors, were condemned, if men, to die by the sword; if women, to be buried alive.",
+      "claim_text": "In the Netherlands, even Protestants who recanted their beliefs were condemned to death: men by the sword, women by being buried alive.",
+      "claim_type": "event",
+      "entities": ["Netherlands"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-028",
+      "paragraph": 7,
+      "quote": "Thousands perished under the reign of Charles and of Philip II.",
+      "claim_text": "Thousands of Protestants perished in the Netherlands under the reigns of Charles V and Philip II.",
+      "claim_type": "statistic",
+      "entities": ["Charles V", "Philip II", "Netherlands"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-029",
+      "paragraph": 8,
+      "quote": "At one time a whole family was brought before the inquisitors, charged with remaining away from mass, and worshiping at home.",
+      "claim_text": "An entire family was brought before the Inquisition in the Netherlands, charged with staying away from mass and worshiping at home.",
+      "claim_type": "event",
+      "entities": ["Netherlands", "Inquisition"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-030",
+      "paragraph": 8,
+      "quote": "On his examination as to their practices in secret, the youngest son answered, “We fall on our knees, and pray that God may enlighten our minds and pardon our sins; we pray for our sovereign, that his reign may be prosperous and his life happy; we pray for our magistrates, that God may preserve them.”(354)",
+      "claim_text": "When examined by inquisitors about the family's secret religious practices, the youngest son answered that they knelt and prayed for God to enlighten their minds and pardon their sins, and prayed for their sovereign and their magistrates.",
+      "claim_type": "attributed_quote",
+      "entities": ["Netherlands", "Inquisition"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-031",
+      "paragraph": 8,
+      "quote": "Some of the judges were deeply moved, yet the father and one of his sons were condemned to the stake.",
+      "claim_text": "Despite some judges being deeply moved by the youngest son's testimony, the father and one of his sons were condemned to death at the stake.",
+      "claim_type": "event",
+      "entities": ["Netherlands", "Inquisition"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-032",
+      "paragraph": 9,
+      "quote": "“Wives would take their stand by their husband’s stake, and while he was enduring the fire they would whisper words of solace, or sing psalms to cheer him.”",
+      "claim_text": "According to a cited source, wives of condemned Protestant men in the Netherlands would stand by their husbands' stakes during execution, whispering solace or singing psalms to cheer them.",
+      "claim_type": "attributed_quote",
+      "entities": ["Netherlands"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-033",
+      "paragraph": 9,
+      "quote": "“Young maidens would lie down in their living grave as if they were entering into their chamber of nightly sleep; or go forth to the scaffold and the fire, dressed in their best apparel, as if they were going to their marriage.”(355)",
+      "claim_text": "According to a cited source, young Protestant maidens in the Netherlands facing execution (including live burial) would go to their deaths as calmly as entering sleep or marriage, dressed in their best apparel.",
+      "claim_type": "attributed_quote",
+      "entities": ["Netherlands"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-034",
+      "paragraph": 10,
+      "quote": "As in the days when paganism sought to destroy the gospel, the blood of the Christians was seed.(356)",
+      "claim_text": "As in the days when Roman paganism sought to destroy the gospel, the blood of the martyred Christians in the Netherlands served as seed for the growth of the faith.",
+      "claim_type": "theological",
+      "entities": ["Netherlands"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-13-035",
+      "paragraph": 10,
+      "quote": "Persecution served to increase the number of witnesses for the truth.",
+      "claim_text": "Persecution of Protestants in the Netherlands served to increase the number of witnesses for the reformed faith.",
+      "claim_type": "causal",
+      "entities": ["Netherlands"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-036",
+      "paragraph": 10,
+      "quote": "Under the noble William of Orange, the Revolution at last brought to Holland freedom to worship God.",
+      "claim_text": "Under the leadership of William of Orange, a revolution eventually brought to Holland freedom of worship.",
+      "claim_type": "event",
+      "entities": ["William of Orange", "Holland"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-037",
+      "paragraph": 11,
+      "quote": "Students at Wittenberg, returning to their homes, carried the reformed faith to Scandinavia.",
+      "claim_text": "Students who had studied at Wittenberg carried the reformed (Lutheran) faith back to Scandinavia upon returning home.",
+      "claim_type": "causal",
+      "entities": ["Wittenberg", "Scandinavia"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-038",
+      "paragraph": 11,
+      "quote": "The publication of Luther’s writings also spread the light.",
+      "claim_text": "The publication of Martin Luther's writings also spread the reformed faith in Scandinavia.",
+      "claim_type": "causal",
+      "entities": ["Martin Luther", "Scandinavia"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-039",
+      "paragraph": 12,
+      "quote": "Tausen, “the Reformer of Denmark,” was a peasant’s son.",
+      "claim_text": "Hans Tausen, known as 'the Reformer of Denmark,' was the son of a peasant.",
+      "claim_type": "biographical",
+      "entities": ["Tausen", "Denmark"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-040",
+      "paragraph": 12,
+      "quote": "but this was denied him by the circumstances of his parents, and he entered a cloister.",
+      "claim_text": "Because of his parents' circumstances, Tausen was denied a desired education and instead entered a cloister (monastery).",
+      "claim_type": "biographical",
+      "entities": ["Tausen"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-041",
+      "paragraph": 12,
+      "quote": "Examination showed him to possess talent that promised at some future day good service to the church. It was determined to give him an education at some one of the universities of Germany or the Netherlands.",
+      "claim_text": "Tausen's monastic superiors, recognizing his talent, decided to give him a university education at a school in Germany or the Netherlands.",
+      "claim_type": "event",
+      "entities": ["Tausen"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-042",
+      "paragraph": 12,
+      "quote": "The young student was granted permission to choose a school for himself, with one proviso, that he must not go to Wittenberg.",
+      "claim_text": "Tausen was granted permission to choose his own university, on condition that he not attend Wittenberg.",
+      "claim_type": "event",
+      "entities": ["Tausen", "Wittenberg"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-043",
+      "paragraph": 13,
+      "quote": "Tausen went to Cologne, which was then, as now, one of the strongholds of Romanism.",
+      "claim_text": "Tausen chose to study at Cologne, which was a stronghold of Roman Catholicism.",
+      "claim_type": "geographical",
+      "entities": ["Tausen", "Cologne"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-044",
+      "paragraph": 13,
+      "quote": "Here he soon became disgusted with the mysticisms of the schoolmen. About the same time he obtained Luther’s writings.",
+      "claim_text": "At Cologne, Tausen became disgusted with the mysticisms of the scholastic theologians and around the same time obtained Martin Luther's writings.",
+      "claim_type": "event",
+      "entities": ["Tausen", "Cologne", "Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-045",
+      "paragraph": 13,
+      "quote": "erelong he was enrolled as a student at Wittenberg.",
+      "claim_text": "Tausen soon enrolled as a student at Wittenberg despite the prohibition from his monastic superiors.",
+      "claim_type": "event",
+      "entities": ["Tausen", "Wittenberg"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-046",
+      "paragraph": 14,
+      "quote": "On returning to Denmark, he again repaired to his cloister. No one as yet suspected him of Lutheranism; he did not reveal his secret, but endeavored, without exciting the prejudices of his companions, to lead them to a purer faith and a holier life.",
+      "claim_text": "After returning to Denmark, Tausen went back to his cloister, kept his Lutheran views secret initially, and worked quietly to lead his fellow monks toward reformed beliefs.",
+      "claim_type": "event",
+      "entities": ["Tausen", "Denmark"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-047",
+      "paragraph": 14,
+      "quote": "He was at once removed from his own monastery to another, and confined to his cell, under strict supervision.",
+      "claim_text": "When his prior discovered his Lutheran preaching, Tausen was removed from his monastery to another and confined to his cell under strict supervision.",
+      "claim_type": "event",
+      "entities": ["Tausen"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-048",
+      "paragraph": 15,
+      "quote": "To the terror of his new guardians, several of the monks soon declared themselves converts to Protestantism. Through the bars of his cell, Tausen had communicated to his companions a knowledge of the truth.",
+      "claim_text": "While confined to his cell, Tausen communicated Protestant teaching through the bars to fellow monks, several of whom then declared themselves converts to Protestantism, to the alarm of his guardians.",
+      "claim_type": "event",
+      "entities": ["Tausen"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-049",
+      "paragraph": 15,
+      "quote": "instead of consigning him to a tomb in some underground dungeon, they expelled him from the monastery.",
+      "claim_text": "Rather than imprisoning Tausen in an underground dungeon, the monastic authorities expelled him from the monastery.",
+      "claim_type": "event",
+      "entities": ["Tausen"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-050",
+      "paragraph": 15,
+      "quote": "A royal edict, just issued, offered protection to the teachers of the new doctrine.",
+      "claim_text": "A royal edict was issued in Denmark offering protection to teachers of the new (Lutheran) doctrine.",
+      "claim_type": "event",
+      "entities": ["Denmark"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-051",
+      "paragraph": 15,
+      "quote": "Tausen began to preach. The churches were opened to him, and the people thronged to listen.",
+      "claim_text": "Following the royal edict of protection, Tausen began to preach openly in Denmark, churches were opened to him, and crowds thronged to hear him.",
+      "claim_type": "event",
+      "entities": ["Tausen", "Denmark"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-052",
+      "paragraph": 15,
+      "quote": "The New Testament, translated into the Danish tongue, was widely circulated.",
+      "claim_text": "The New Testament was translated into the Danish language and widely circulated in Denmark during this period.",
+      "claim_type": "event",
+      "entities": ["Denmark"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-053",
+      "paragraph": 15,
+      "quote": "erelong Denmark declared its acceptance of the reformed faith.",
+      "claim_text": "Denmark subsequently declared its official acceptance of the reformed (Lutheran) faith.",
+      "claim_type": "event",
+      "entities": ["Denmark"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-054",
+      "paragraph": 16,
+      "quote": "Two of the leaders in the Swedish Reformation, Olaf and Laurentius Petri, the sons of a blacksmith of Orebro, studied under Luther and Melanchthon, and the truths which they thus learned they were diligent to teach.",
+      "claim_text": "Olaf Petri and Laurentius Petri, two leaders of the Swedish Reformation, were sons of a blacksmith from Orebro, Sweden.",
+      "claim_type": "biographical",
+      "entities": ["Olaf Petri", "Laurentius Petri", "Orebro", "Sweden"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-055",
+      "paragraph": 16,
+      "quote": "Two of the leaders in the Swedish Reformation, Olaf and Laurentius Petri, the sons of a blacksmith of Orebro, studied under Luther and Melanchthon, and the truths which they thus learned they were diligent to teach.",
+      "claim_text": "Olaf Petri and Laurentius Petri studied under Martin Luther and Philip Melanchthon.",
+      "claim_type": "biographical",
+      "entities": ["Olaf Petri", "Laurentius Petri", "Martin Luther", "Philip Melanchthon"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-056",
+      "paragraph": 16,
+      "quote": "Like the great Reformer, Olaf aroused the people by his zeal and eloquence, while Laurentius, like Melanchthon, was learned, thoughtful, and calm.",
+      "claim_text": "Olaf Petri aroused the Swedish people through zeal and eloquence, resembling Luther in temperament, while his brother Laurentius Petri was learned, thoughtful, and calm, resembling Melanchthon.",
+      "claim_type": "biographical",
+      "entities": ["Olaf Petri", "Laurentius Petri"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-057",
+      "paragraph": 16,
+      "quote": "Olaf Petri was often assailed by the mob, and upon several occasions barely escaped with his life.",
+      "claim_text": "Olaf Petri was often attacked by mobs in Sweden and on several occasions barely escaped with his life.",
+      "claim_type": "event",
+      "entities": ["Olaf Petri", "Sweden"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-058",
+      "paragraph": 16,
+      "quote": "These reformers were, however, favored and protected by the king.",
+      "claim_text": "Olaf Petri and Laurentius Petri were favored and protected by the king of Sweden (Gustavus Vasa).",
+      "claim_type": "event",
+      "entities": ["Olaf Petri", "Laurentius Petri", "Gustavus Vasa"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-059",
+      "paragraph": 17,
+      "quote": "Under the rule of the Roman Church, the people were sunken in poverty, and ground down by oppression. They were destitute of the Scriptures; and having a religion of mere signs and ceremonies, which conveyed no light to the mind, they were returning to the superstitious beliefs and pagan practices of their heathen ancestors.",
+      "claim_text": "Prior to the Reformation, under the rule of the Roman Catholic Church, the people of Sweden were impoverished and oppressed, lacked access to the Scriptures, and were reverting to the superstitious and pagan practices of their pre-Christian ancestors.",
+      "claim_type": "causal",
+      "entities": ["Sweden", "Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-060",
+      "paragraph": 17,
+      "quote": "The nation was divided into contending factions, whose perpetual strife increased the misery of all.",
+      "claim_text": "Sweden prior to the Reformation was divided into contending political factions whose perpetual strife increased the misery of the population.",
+      "claim_type": "event",
+      "entities": ["Sweden"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-061",
+      "paragraph": 17,
+      "quote": "The king determined upon a reformation in the state and the church, and he welcomed these able assistants in the battle against Rome.",
+      "claim_text": "The king of Sweden (Gustavus Vasa) determined upon a reformation in both state and church, and welcomed Olaf and Laurentius Petri as able assistants in the struggle against Rome.",
+      "claim_type": "causal",
+      "entities": ["Gustavus Vasa", "Sweden", "Olaf Petri", "Laurentius Petri"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-062",
+      "paragraph": 18,
+      "quote": "In the presence of the monarch and the leading men of Sweden, Olaf Petri with great ability defended the doctrines of the reformed faith against the Romish champions.",
+      "claim_text": "Olaf Petri publicly defended the doctrines of the reformed faith against Roman Catholic champions in a disputation held in the presence of the king of Sweden and the country's leading men.",
+      "claim_type": "event",
+      "entities": ["Olaf Petri", "Sweden", "Gustavus Vasa"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-063",
+      "paragraph": 18,
+      "quote": "Christ said, “My doctrine is not Mine, but His that sent Me;”(357)",
+      "claim_text": "During the Swedish disputation, Olaf Petri cited Christ's statement, 'My doctrine is not Mine, but His that sent Me.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Olaf Petri", "Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-064",
+      "paragraph": 18,
+      "quote": "and Paul declared that should he preach any other gospel than that which he had received, he would be accursed.(358)",
+      "claim_text": "Olaf Petri cited the apostle Paul's declaration that he would be accursed if he preached any gospel other than what he had received.",
+      "claim_type": "attributed_quote",
+      "entities": ["Olaf Petri", "Apostle Paul"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-065",
+      "paragraph": 18,
+      "quote": "“How, then,” said the Reformer, “shall others presume to enact dogmas at their pleasure, and impose them as things necessary to salvation?”(359)",
+      "claim_text": "Olaf Petri asked during the disputation, 'How, then, shall others presume to enact dogmas at their pleasure, and impose them as things necessary to salvation?'",
+      "claim_type": "attributed_quote",
+      "entities": ["Olaf Petri"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-066",
+      "paragraph": 18,
+      "quote": "and maintained the great Protestant principle, that “the Bible and the Bible only,” is the rule of faith and practice.",
+      "claim_text": "Olaf Petri maintained the principle that 'the Bible and the Bible only' is the rule of faith and practice, and that church decrees have no authority when opposed to God's commands.",
+      "claim_type": "attributed_quote",
+      "entities": ["Olaf Petri"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-067",
+      "paragraph": 19,
+      "quote": "This contest, though conducted upon a stage comparatively obscure, serves to show us “the sort of men that formed the rank and file of the army of the Reformers. They were not illiterate, sectarian, noisy controversialists—far from it; they were men who had studied the word of God, and knew well how to wield the weapons with which the armory of the Bible supplied them. In respect of erudition they were ahead of their age. When we confine our attention to such brilliant centers as Wittenberg and Zurich, and to such illustrious names as those of Luther and Melanchthon, of Zwingle and Œcolampadius, we are apt to be told, these were the leaders of the movement, and we should naturally expect in them prodigious power and vast acquisitions; but the subordinates were not like these. Well, we turn to the obscure theater of Sweden, and the humble names of Olaf and Laurentius Petri—from the masters to the disciples—what do we find?... Scholars and theologians; men who have thoroughly mastered the whole system of gospel truth, and who win an easy victory over the sophists of the schools and the dignitaries of Rome.”(360)",
+      "claim_text": "A cited historian argued that the Swedish disputation, though conducted on an obscure stage, shows that the rank and file of the Reformation's army (exemplified by Olaf and Laurentius Petri, in contrast to leading figures like Luther, Melanchthon, Zwingli, and Oecolampadius at Wittenberg and Zurich) were learned scholars and theologians, not illiterate controversialists, who won easy victories over Rome's scholastics.",
+      "claim_type": "attributed_quote",
+      "entities": ["Olaf Petri", "Laurentius Petri", "Martin Luther", "Philip Melanchthon", "Huldrych Zwingli", "Johannes Oecolampadius", "Wittenberg", "Zurich", "Sweden"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-068",
+      "paragraph": 20,
+      "quote": "As the result of this disputation, the king of Sweden accepted the Protestant faith,",
+      "claim_text": "As a result of the disputation in which Olaf Petri defended the reformed faith, the king of Sweden (Gustavus Vasa) accepted the Protestant faith.",
+      "claim_type": "event",
+      "entities": ["Gustavus Vasa", "Sweden", "Olaf Petri"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-069",
+      "paragraph": 20,
+      "quote": "and not long afterward the national assembly declared in its favor.",
+      "claim_text": "Not long after the king of Sweden accepted the Protestant faith, the Swedish national assembly (Diet) declared in favor of the Protestant faith.",
+      "claim_type": "event",
+      "entities": ["Sweden"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-070",
+      "paragraph": 20,
+      "quote": "The New Testament had been translated by Olaf Petri into the Swedish language,",
+      "claim_text": "Olaf Petri translated the New Testament into the Swedish language.",
+      "claim_type": "event",
+      "entities": ["Olaf Petri", "Sweden"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-071",
+      "paragraph": 20,
+      "quote": "at the desire of the king the two brothers undertook the translation of the whole Bible.",
+      "claim_text": "At the request of the king of Sweden, Olaf Petri and Laurentius Petri undertook the translation of the entire Bible into Swedish.",
+      "claim_type": "event",
+      "entities": ["Olaf Petri", "Laurentius Petri", "Gustavus Vasa"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-072",
+      "paragraph": 20,
+      "quote": "Thus for the first time the people of Sweden received the word of God in their native tongue.",
+      "claim_text": "Through the Petri brothers' translation, the people of Sweden received the word of God (the full Bible) in their native tongue for the first time.",
+      "claim_type": "event",
+      "entities": ["Sweden", "Olaf Petri", "Laurentius Petri"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-073",
+      "paragraph": 20,
+      "quote": "It was ordered by the Diet that throughout the kingdom, ministers should explain the Scriptures, and that the children in the schools should be taught to read the Bible.",
+      "claim_text": "The Swedish Diet ordered that throughout the kingdom ministers should explain the Scriptures and that schoolchildren should be taught to read the Bible.",
+      "claim_type": "event",
+      "entities": ["Sweden"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-13-074",
+      "paragraph": 21,
+      "quote": "Sweden became one of the bulwarks of Protestantism.",
+      "claim_text": "Following the Reformation, Sweden became one of the bulwarks of Protestantism.",
+      "claim_type": "interpretive",
+      "entities": ["Sweden"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-13-075",
+      "paragraph": 21,
+      "quote": "A century later, at a time of sorest peril, this small and hitherto feeble nation—the only one in Europe that dared lend a helping hand—came to the deliverance of Germany in the terrible struggles of the Thirty Years’ War.",
+      "claim_text": "About a century after its Reformation, Sweden, described as the only nation in Europe that dared to help, came to the deliverance of Germany during the Thirty Years' War.",
+      "claim_type": "event",
+      "entities": ["Sweden", "Germany", "Thirty Years' War"],
+      "needs_verification": true,
+      "extractor_note": "Contains a superlative claim ('the only one in Europe that dared lend a helping hand') alongside the core historical event; both checkable."
+    },
+    {
+      "id": "GC-13-076",
+      "paragraph": 21,
+      "quote": "It was the armies of Sweden that enabled Germany to turn the tide of popish success, to win toleration for the Protestants,—Calvinists as well as Lutherans,—and to restore liberty of conscience to those countries that had accepted the Reformation.",
+      "claim_text": "Sweden's armies enabled Germany to turn the tide of Catholic success in the Thirty Years' War, winning toleration for Protestants (both Calvinists and Lutherans) and restoring liberty of conscience to the countries that had accepted the Reformation.",
+      "claim_type": "causal",
+      "entities": ["Sweden", "Germany", "Thirty Years' War"],
+      "needs_verification": true
+    }
+  ]
+}

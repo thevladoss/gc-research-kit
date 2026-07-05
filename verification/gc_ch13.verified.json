@@ -1,0 +1,1369 @@
+{
+  "chapter": 13,
+  "chapter_title": "The Netherlands And Scandinavia",
+  "stage": "verification",
+  "generated_at": "2026-07-05",
+  "notes": "searches: ~7 web + 1 WebFetch, clusters: 6 (A Netherlands early protest/Waldensian [Brandt-sourced]; B Netherlands persecution under Charles V/Philip II; C Menno Simons; D Denmark/Tausen; E Sweden/Petri; F Thirty Years' War). Local scholarship carried heavy load: Wylie vol.2 matches the Denmark (Tausen) and Sweden (Petri) narratives near-verbatim and is White's demonstrable source; the GC-13-067 'rank and file' quotation was verified verbatim against Wylie vol.2 (offset ~2909). Deanesly (Cambridge UP, academic) supplied the modern contradiction on the Dutch verse Bible for the medieval-vernacular-Bible-access cluster. White's Netherlands source identified as Gerard Brandt, History of the Reformation in and About the Low Countries (b.1 pp.6, 14). Control sample = the 3 needs_verification:false claims (GC-13-001, 034, 074); 001 was found to smuggle the anachronistic two-bishops factual claim (extractor blind spot noted).",
+  "claims": [
+    {
+      "id": "GC-13-001",
+      "paragraph": 1,
+      "quote": "In the Netherlands the papal tyranny very early called forth resolute protest.",
+      "claim_text": "In the Netherlands, protest against papal authority arose very early (long before the Protestant Reformation).",
+      "claim_type": "interpretive",
+      "entities": ["Netherlands", "Roman papacy"],
+      "needs_verification": false,
+      "extractor_note": "Sweeping framing statement; the specific factual content is captured in GC-13-002.",
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "CONTROL SAMPLE (extractor flagged needs_verification:false as pure framing). The statement smuggles a checkable factual assertion: that resolute anti-papal protest arose in the Netherlands 'very early.' Its only concrete support in the chapter is the 9th-century two-bishops episode of GC-13-002, which rests on Gerard Brandt's 17th-century Protestant history and is not corroborated by modern scholarship. Extractor blind spot noted: interpretation here carries the same claim graded anachronistic in GC-13-002. source_quality: academic source for the specific 9th-c. episode not located within budget; period source (Brandt) identified.",
+        "period_historiography": "Gerard Brandt, History of the Reformation in and About the Low Countries, b.1, on early Netherlandish dissent against Rome (White's cited source).",
+        "sources": [
+          {"title": "Brandt, History of the Reformation in the Low-Countries (catalog)", "url": "https://catalog.hathitrust.org/Record/008963577", "source_class": "primary", "supports_verdict": true, "note": "White's cited source for the early-protest material (b.1 p.6)."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-002",
+      "paragraph": 1,
+      "quote": "Seven hundred years before Luther’s time, the Roman pontiff was thus fearlessly impeached by two bishops, who, having been sent on an embassy to Rome, had learned the true character of the “holy see:”",
+      "claim_text": "Approximately 700 years before Martin Luther's time (i.e., roughly the 9th century), two bishops who had been sent on an embassy to Rome impeached the Roman pontiff after learning the true character of the papacy.",
+      "claim_type": "event",
+      "entities": ["Netherlands", "Roman papacy"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "White's cited source is Gerard Brandt, History of the Reformation in and About the Low Countries, b.1 p.6 (identified via the annotated GC reference apparatus). Brandt's 17th-century Protestant history frames a ~9th-century letter as an 'impeachment' of the pope by two bishops returning from Rome. Modern scholarship neither corroborates this as a datable historical 'impeachment' nor treats the episode as established; no academic source confirming it was locatable within budget. The claim is period-typical Protestant historiography faithfully transmitted, hence anachronistic rather than fabricated. source_quality: academic source not located within budget; period source (Brandt) confirmed.",
+        "period_historiography": "Gerard Brandt, History of the Reformation in the Low-Countries, b.1 p.6 — dates and frames the two-bishops letter as an early anti-papal protest.",
+        "sources": [
+          {"title": "Brandt, History of the Reformation in the Low-Countries (catalog)", "url": "https://catalog.hathitrust.org/Record/008963577", "source_class": "primary", "supports_verdict": true, "note": "Cited source (b.1 p.6) for the two-bishops episode."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-003",
+      "paragraph": 1,
+      "quote": "God “has made His queen and spouse, the church, a noble and everlasting provision for her family, with a dowry that is neither fading nor corruptible, and given her an eternal crown and scepter; ... all which benefits you like a thief intercept. You set up yourself in the temple as God; instead of pastor, you are become a wolf to the sheep; ... you would make us believe you are a supreme bishop, but you rather behave like a tyrant.... Whereas you ought to be a servant of servants, as you call yourself, you endeavor to become a lord of lords.... You bring the commands of God into contempt.... The Holy Ghost is the builder of all churches as far as the earth extends.... The city of our God, of which we are the citizens, reaches to all the regions of the heavens; and it is greater than the city, by the holy prophets named Babylon, which pretends to be divine, wins herself to heaven, and brags that her wisdom is immortal; and finally, though without reason, that she never did err, nor ever can.”(351)",
+      "claim_text": "Two unnamed bishops sent on embassy to Rome wrote a letter to the Roman pontiff accusing him of intercepting the church's benefits like a thief, setting himself up as God in the temple, behaving as a tyrant rather than a servant of servants, and comparing Rome to the prophetic Babylon that falsely claims she never erred.",
+      "claim_type": "attributed_quote",
+      "entities": ["Netherlands", "Roman papacy"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "The quotation is drawn from White's cited source, Gerard Brandt, History of the Reformation in the Low-Countries, b.1 p.6 (GC footnote 351). Because a located pre-1911 source carries the quotation, this is NOT a misquotation. However, the authenticity and dating of the underlying ~9th-century letter is not established by modern scholarship; the material is period-typical Protestant martyrology faithfully transmitted, hence anachronistic. Verbatim collation against Brandt's own text was not performed within budget. source_quality: academic authentication not located within budget; period source (Brandt) confirmed.",
+        "period_historiography": "Gerard Brandt, History of the Reformation in the Low-Countries, b.1 p.6 — the source of the quoted letter.",
+        "sources": [
+          {"title": "Brandt, History of the Reformation in the Low-Countries (catalog)", "url": "https://catalog.hathitrust.org/Record/008963577", "source_class": "primary", "supports_verdict": true, "note": "Cited source (b.1 p.6) for the quoted letter."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-004",
+      "paragraph": 2,
+      "quote": "those early teachers, who, traversing different lands and known by various names, bore the character of the Vaudois missionaries, and spread everywhere the knowledge of the gospel, penetrated to the Netherlands. Their doctrines spread rapidly.",
+      "claim_text": "Early traveling teachers bearing the character of Vaudois (Waldensian) missionaries penetrated to the Netherlands and their doctrines spread rapidly there.",
+      "claim_type": "causal",
+      "entities": ["Netherlands", "Vaudois/Waldensians"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "This is the Waldensian-continuity thesis (traveling proto-Protestant 'Vaudois' evangelists seeding the Low Countries before the Reformation), standard in 19th-century Protestant historiography and in White's cited source Brandt. Modern scholarship on medieval Dutch vernacular religion (Deanesly, Cambridge UP) attributes early Netherlandish Bible activity to Beguines/Beghards, Lambert le Bègue, and lay poets such as Jacob van Maerlant, not to Waldensian missions; the sweeping Waldensian-continuity model is not accepted. Wrong by modern standards but consistent with White's period sources. source_quality: academic-full (Deanesly).",
+        "period_historiography": "Brandt, History of the Reformation in the Low-Countries, b.1; the broader Waldensian-continuity thesis of Wylie's History of Protestantism.",
+        "sources": [
+          {"title": "M. Deanesly, The Lollard Bible (Cambridge UP, 1920), ch. on the Empire and the Netherlands", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/deanesly-lollard-bible-1920.txt", "source_class": "academic", "supports_verdict": true, "note": "Attributes early Dutch vernacular Bible activity to Beguines/Beghards and Maerlant, not Waldensian missionaries."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-005",
+      "paragraph": 2,
+      "quote": "The Waldensian Bible they translated in verse into the Dutch language.",
+      "claim_text": "The Waldensian Bible was translated in verse into the Dutch language.",
+      "claim_type": "event",
+      "entities": ["Netherlands", "Vaudois/Waldensians"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "The medieval Dutch verse Bible is Jacob van Maerlant's 'Rijmbijbel' (1271), a free rhymed rendering of Peter Comestor's Historia Scholastica by a Dutch Catholic lay poet — 13th century, not a 12th-century Waldensian Bible (Deanesly, Cambridge UP: Maerlant 'a Dutch poet and layman... into Dutch verse... c. 1271'). White (following Brandt, b.1 p.14) reassigns this to Waldensian missionaries, per the period Waldensian-continuity thesis. Wrong by modern standards, consistent with White's cited source. Doctrinally central cluster (medieval vernacular Bible access). source_quality: academic-full (Deanesly).",
+        "period_historiography": "Brandt, History of the Reformation in the Low-Countries, b.1 p.14 (White's cited source).",
+        "sources": [
+          {"title": "M. Deanesly, The Lollard Bible (Cambridge UP, 1920), p.72", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/deanesly-lollard-bible-1920.txt", "source_class": "academic", "supports_verdict": true, "note": "Identifies the Dutch verse Bible as Maerlant's 1271 Catholic rhymed Historia Scholastica."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-006",
+      "paragraph": 2,
+      "quote": "They declared “that there was great advantage in it; no jests, no fables, no trifles, no deceits, but the words of truth; that indeed there was here and there a hard crust, but that the marrow and sweetness of what was good and holy might be easily discovered in it.”(352) Thus wrote the friends of the ancient faith, in the twelfth century.",
+      "claim_text": "In the twelfth century, the 'friends of the ancient faith' in the Netherlands wrote that the Dutch verse translation of the Waldensian Bible contained 'no jests, no fables, no trifles, no deceits, but the words of truth,' with the marrow and sweetness of what was good and holy easily discoverable despite a hard crust here and there.",
+      "claim_type": "attributed_quote",
+      "entities": ["Netherlands", "Vaudois/Waldensians"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "low",
+        "rationale": "Quotation drawn from White's cited source Brandt (b.1 p.14). A located pre-1911 source carries it, so it is not classed a misquotation; but the framing — a 12th-century Netherlandish Waldensian verse Bible praised by 'friends of the ancient faith' — belongs to the period Waldensian-continuity narrative that modern scholarship revises (the actual Dutch verse Bible is Maerlant's 1271 Catholic work per Deanesly). Verbatim collation against Brandt not performed within budget. source_quality: academic-full for the underlying dating (Deanesly).",
+        "period_historiography": "Brandt, History of the Reformation in the Low-Countries, b.1 p.14 — source of the quoted praise of the Dutch verse Bible.",
+        "sources": [
+          {"title": "M. Deanesly, The Lollard Bible (Cambridge UP, 1920), p.72", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/deanesly-lollard-bible-1920.txt", "source_class": "academic", "supports_verdict": true, "note": "Dutch verse Bible is Maerlant 1271, contradicting the 12th-c. Waldensian framing."},
+          {"title": "Brandt, History of the Reformation in the Low-Countries (catalog)", "url": "https://catalog.hathitrust.org/Record/008963577", "source_class": "primary", "supports_verdict": true, "note": "Cited source (b.1 p.14) of the quotation."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-007",
+      "paragraph": 3,
+      "quote": "Now began the Romish persecutions; but in the midst of fagots and torture the believers continued to multiply,",
+      "claim_text": "Roman Catholic persecutions of these believers began in the Netherlands, and despite fagots and torture the believers continued to multiply.",
+      "claim_type": "event",
+      "entities": ["Netherlands", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The general claim that medieval Netherlandish dissenters (Beghards, alleged Lollards/heretics) faced persecution by the hierarchy is documented (Deanesly notes early Dutch vernacular Bible readers were 'received with hostility by the hierarchy,' with burnings). The rhetorical 'continued to multiply' and the framing of the victims as pre-Reformation Waldensian believers is period-typical (Brandt), but persecution of Low-Countries dissent is real. Low confidence because the specific population and 'multiply' claim rest on period framing.",
+        "sources": [
+          {"title": "M. Deanesly, The Lollard Bible (Cambridge UP, 1920)", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/deanesly-lollard-bible-1920.txt", "source_class": "academic", "supports_verdict": true, "note": "Documents hierarchical hostility and burnings against early Dutch vernacular Bible readers."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-008",
+      "paragraph": 3,
+      "quote": "steadfastly declaring that the Bible is the only infallible authority in religion, and that “no man should be coerced to believe, but should be won by preaching.”(353)",
+      "claim_text": "The persecuted believers in the Netherlands declared that the Bible is the only infallible authority in religion and that 'no man should be coerced to believe, but should be won by preaching.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Netherlands"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "low",
+        "rationale": "Quotation and doctrinal attribution derive from White's cited source Brandt (GC footnote 353), part of the pre-Reformation Waldensian-Netherlands narrative. A located period source carries it (not a misquotation), but ascribing an articulate sola-scriptura-plus-religious-liberty creed to 12th-14th-century Netherlandish dissenters is period-typical Protestant retrojection not established by modern scholarship. Verbatim collation against Brandt not performed within budget.",
+        "period_historiography": "Brandt, History of the Reformation in the Low-Countries, b.1 (White's cited source, footnote 353).",
+        "sources": [
+          {"title": "Brandt, History of the Reformation in the Low-Countries (catalog)", "url": "https://catalog.hathitrust.org/Record/008963577", "source_class": "primary", "supports_verdict": true, "note": "Cited source for the attributed declaration."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-009",
+      "paragraph": 4,
+      "quote": "From one of the provinces of Holland came Menno Simons.",
+      "claim_text": "Menno Simons came from one of the provinces of Holland.",
+      "claim_type": "biographical",
+      "entities": ["Menno Simons", "Holland"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Menno Simons was born c.1496 in Witmarsum, Friesland, in the Low Countries. 'Holland' is used loosely (as in 19th-century usage) for the Netherlands; Friesland is a province of the Netherlands, not the historic province of Holland proper, so the substance is correct with a minor geographic imprecision.",
+        "modern_consensus": "Menno Simons born in Witmarsum, Friesland (Low Countries), c.1496.",
+        "sources": [
+          {"title": "Menno Simons — Britannica", "url": "https://www.britannica.com/biography/Menno-Simons", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Menno Simons (1496-1561) — GAMEO", "url": "https://gameo.org/index.php?title=Menno_Simons_%281496-1561%29", "source_class": "scholarly_encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-010",
+      "paragraph": 4,
+      "quote": "Educated a Roman Catholic, and ordained to the priesthood, he was wholly ignorant of the Bible, and he would not read it, for fear of being beguiled into heresy.",
+      "claim_text": "Menno Simons was educated as a Roman Catholic and ordained to the priesthood, was wholly ignorant of the Bible, and initially refused to read it for fear of being led into heresy.",
+      "claim_type": "biographical",
+      "entities": ["Menno Simons"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Menno was consecrated a Catholic priest at Utrecht in 1524; by his own account he had not read the Scriptures and feared being led astray by them until doubts about transubstantiation drove him to study the New Testament. GC follows the standard biography.",
+        "modern_consensus": "Ordained priest 1524; had avoided reading the Bible for fear of heresy until his transubstantiation doubts.",
+        "sources": [
+          {"title": "Menno Simons — Wikipedia", "url": "https://en.wikipedia.org/wiki/Menno_Simons", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Menno Simons (1496-1561) — GAMEO", "url": "https://gameo.org/index.php?title=Menno_Simons_%281496-1561%29", "source_class": "scholarly_encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-011",
+      "paragraph": 4,
+      "quote": "When a doubt concerning the doctrine of transubstantiation forced itself upon him, he regarded it as a temptation from Satan, and by prayer and confession sought to free himself from it; but in vain.",
+      "claim_text": "Menno Simons experienced doubts about the doctrine of transubstantiation, initially regarded them as satanic temptation, and tried unsuccessfully to free himself of the doubts through prayer and confession.",
+      "claim_type": "biographical",
+      "entities": ["Menno Simons"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Menno's own autobiographical account describes recurring doubts about transubstantiation which he first attributed to the devil and tried to suppress by prayer and confession before turning to Scripture. Standard biography.",
+        "modern_consensus": "Menno's doubts about transubstantiation, initially resisted as temptation, led him to study the New Testament.",
+        "sources": [
+          {"title": "Menno Simons — Wikipedia", "url": "https://en.wikipedia.org/wiki/Menno_Simons", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Menno Simons — Britannica", "url": "https://www.britannica.com/biography/Menno-Simons", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-012",
+      "paragraph": 4,
+      "quote": "He soon after witnessed in a neighboring village the beheading of a man who was put to death for having been rebaptized.",
+      "claim_text": "Menno Simons witnessed in a neighboring village the beheading of a man who was executed for having been rebaptized (as an Anabaptist).",
+      "claim_type": "event",
+      "entities": ["Menno Simons"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The execution is that of the tailor Sicke Freerks Snijder, beheaded in 1531 for having been rebaptized as an adult, an event Menno records as pivotal to his study of baptism. Whether Menno personally 'witnessed' the beheading or was moved by news of it is not certain in the sources; GC follows the traditional account. Core event well attested.",
+        "modern_consensus": "Sicke Freerks Snijder beheaded 1531 for adult rebaptism; the event prompted Menno's study of baptism.",
+        "sources": [
+          {"title": "Menno Simons — Wikipedia", "url": "https://en.wikipedia.org/wiki/Menno_Simons", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Menno Simons (1496-1561) — GAMEO", "url": "https://gameo.org/index.php?title=Menno_Simons_%281496-1561%29", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Names the executed man and dates it 1531."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-013",
+      "paragraph": 4,
+      "quote": "This led him to study the Bible in regard to infant baptism. He could find no evidence for it in the Scriptures, but saw that repentance and faith are everywhere required as the condition of receiving baptism.",
+      "claim_text": "The execution of a rebaptized man led Menno Simons to study the Bible on infant baptism, concluding he could find no scriptural evidence for it while repentance and faith were everywhere required as the condition of baptism.",
+      "claim_type": "causal",
+      "entities": ["Menno Simons"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "After the 1531 execution, Menno searched the Scriptures on baptism and concluded infant baptism has no biblical basis, with repentance and faith required as its precondition — the doctrinal turn documented in his own writings and standard biographies.",
+        "modern_consensus": "Menno's scriptural study led him to reject infant baptism as unbiblical.",
+        "sources": [
+          {"title": "Menno Simons — Wikipedia", "url": "https://en.wikipedia.org/wiki/Menno_Simons", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Menno Simons (1496-1561) — GAMEO", "url": "https://gameo.org/index.php?title=Menno_Simons_%281496-1561%29", "source_class": "scholarly_encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-014",
+      "paragraph": 5,
+      "quote": "Menno withdrew from the Roman Church, and devoted his life to teaching the truths which he had received.",
+      "claim_text": "Menno Simons withdrew from the Roman Catholic Church and devoted his life to teaching the reformed truths he had received.",
+      "claim_type": "event",
+      "entities": ["Menno Simons"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Menno renounced the Catholic Church and priesthood on 12 January 1536 and spent the rest of his life as an itinerant Anabaptist teacher and leader.",
+        "modern_consensus": "Menno left the Roman Church in 1536 and became a leading Anabaptist teacher.",
+        "sources": [
+          {"title": "Menno Simons — Wikipedia", "url": "https://en.wikipedia.org/wiki/Menno_Simons", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-015",
+      "paragraph": 5,
+      "quote": "In both Germany and the Netherlands a class of fanatics had risen, advocating absurd and seditious doctrines, outraging order and decency, and proceeding to violence and insurrection.",
+      "claim_text": "In both Germany and the Netherlands, a class of fanatics arose during the Reformation era advocating absurd and seditious doctrines and proceeding to violence and insurrection.",
+      "claim_type": "event",
+      "entities": ["Germany", "Netherlands"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Refers to the revolutionary/apocalyptic Anabaptist radicals of the 1530s, above all the Münster Rebellion (1534-35), and related insurrectionary movements in Germany and the Low Countries. GC's characterization is broadly accurate, though 'fanatics' is polemical framing shared with Menno's own writings.",
+        "modern_consensus": "Revolutionary Anabaptism (esp. Münster 1534-35) produced violent insurrection distinct from peaceful Anabaptism.",
+        "sources": [
+          {"title": "Menno Simons — Britannica", "url": "https://www.britannica.com/biography/Menno-Simons", "source_class": "encyclopedia", "supports_verdict": true, "note": "Contrasts Menno's peaceful movement with the Münsterite radicals."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-016",
+      "paragraph": 5,
+      "quote": "Menno saw the horrible results to which these movements would inevitably lead, and he strenuously opposed the erroneous teachings and wild schemes of the fanatics.",
+      "claim_text": "Menno Simons strenuously opposed the erroneous teachings and schemes of the fanatical movements active in Germany and the Netherlands.",
+      "claim_type": "causal",
+      "entities": ["Menno Simons"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Menno explicitly rejected the violence of the Münsterite movement as unscriptural and worked to draw peaceful Anabaptists away from it; his early tract against Jan van Leiden is well documented.",
+        "modern_consensus": "Menno opposed revolutionary Münsterite Anabaptism and championed a peaceful, biblicist alternative.",
+        "sources": [
+          {"title": "Menno Simons — Wikipedia", "url": "https://en.wikipedia.org/wiki/Menno_Simons", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Menno Simons (1496-1561) — GAMEO", "url": "https://gameo.org/index.php?title=Menno_Simons_%281496-1561%29", "source_class": "scholarly_encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-017",
+      "paragraph": 5,
+      "quote": "there were still remaining many descendants of the ancient Christians, the fruits of the Waldensian teaching. Among these classes Menno labored with great zeal and success.",
+      "claim_text": "Menno Simons labored with zeal and success among descendants of ancient Christians who were the fruits of Waldensian teaching, as well as among former fanatics who had renounced their errors.",
+      "claim_type": "biographical",
+      "entities": ["Menno Simons", "Vaudois/Waldensians"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "That Menno labored with zeal and success among the humbler classes of the Netherlands is well supported. But the specific claim that his converts were 'descendants of the ancient Christians, the fruits of the Waldensian teaching' is the Waldensian-continuity thesis of White's period sources, not supported by modern scholarship, which sees Dutch Anabaptism as an early-16th-century phenomenon without a demonstrated Waldensian pedigree.",
+        "period_historiography": "The Waldensian-continuity thesis (Brandt; Wylie) linking pre-Reformation dissent to the later reformers.",
+        "sources": [
+          {"title": "M. Deanesly, The Lollard Bible (Cambridge UP, 1920)", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/deanesly-lollard-bible-1920.txt", "source_class": "academic", "supports_verdict": true, "note": "Locates medieval Dutch dissent in Beguine/Beghard milieus, not a persisting Waldensian church."},
+          {"title": "Menno Simons (1496-1561) — GAMEO", "url": "https://gameo.org/index.php?title=Menno_Simons_%281496-1561%29", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Situates Menno within 16th-c. Anabaptism."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-018",
+      "paragraph": 6,
+      "quote": "For twenty-five years he traveled, with his wife and children, enduring great hardships and privations, and frequently in peril of his life.",
+      "claim_text": "Menno Simons traveled for twenty-five years with his wife and children, enduring hardships and frequent peril to his life.",
+      "claim_type": "biographical",
+      "entities": ["Menno Simons"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Menno lived as a hunted fugitive from his 1536 break with Rome until his death in 1561 (about 25 years), traveling with his wife Gertrude and children under constant danger; a price was placed on his head and those who sheltered him were executed.",
+        "modern_consensus": "Menno spent ~25 years (1536-1561) as an itinerant fugitive with his family.",
+        "sources": [
+          {"title": "Menno Simons — Wikipedia", "url": "https://en.wikipedia.org/wiki/Menno_Simons", "source_class": "encyclopedia", "supports_verdict": true, "note": "Married to Gertrude, children; fugitive life; died 1561."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-019",
+      "paragraph": 6,
+      "quote": "He traversed the Netherlands and northern Germany, laboring chiefly among the humbler classes, but exerting a wide-spread influence.",
+      "claim_text": "Menno Simons traversed the Netherlands and northern Germany, laboring chiefly among the humbler classes while exerting wide-spread influence.",
+      "claim_type": "geographical",
+      "entities": ["Menno Simons", "Netherlands", "Germany"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Menno's ministry ranged across the northern Netherlands and northern Germany (Holstein, where he died at Wüstenfelde), chiefly among common people, and he became the consolidating leader of peaceful Anabaptism whose followers took his name (Mennonites).",
+        "modern_consensus": "Menno ministered across the Low Countries and northern Germany, dying at Wüstenfelde, Holstein.",
+        "sources": [
+          {"title": "Menno Simons — Wikipedia", "url": "https://en.wikipedia.org/wiki/Menno_Simons", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-020",
+      "paragraph": 6,
+      "quote": "Naturally eloquent, though possessing a limited education, he was a man of unwavering integrity, of humble spirit and gentle manners, and of sincere and earnest piety, exemplifying in his own life the precepts which he taught, and he commanded the confidence of the people.",
+      "claim_text": "Menno Simons was naturally eloquent despite a limited education, and was known for integrity, humility, gentle manners, and sincere piety, commanding the confidence of the people.",
+      "claim_type": "biographical",
+      "entities": ["Menno Simons"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "A characterization consistent with the scholarly portrait of Menno as a calm, pastoral, biblically focused leader who consolidated the movement; the specific virtue-list is laudatory but not contradicted. Menno was a trained priest, so 'limited education' is relative.",
+        "modern_consensus": "Menno is portrayed as a steady, pious, pastoral consolidator of Anabaptism.",
+        "sources": [
+          {"title": "Menno Simons (1496-1561) — GAMEO", "url": "https://gameo.org/index.php?title=Menno_Simons_%281496-1561%29", "source_class": "scholarly_encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-021",
+      "paragraph": 6,
+      "quote": "His followers were scattered and oppressed. They suffered greatly from being confounded with the fanatical Munsterites. Yet great numbers were converted under his labors.",
+      "claim_text": "Menno Simons's followers were scattered and oppressed, suffering from being confused with the fanatical Munsterites, yet great numbers were converted under his labors.",
+      "claim_type": "event",
+      "entities": ["Menno Simons"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Peaceful Mennonites were persecuted partly because authorities conflated all Anabaptists with the violent Münsterites; despite scattering and oppression the movement grew substantially under Menno's leadership.",
+        "modern_consensus": "Mennonites suffered persecution amid conflation with Münsterite radicals, yet the movement expanded under Menno.",
+        "sources": [
+          {"title": "Menno Simons — Wikipedia", "url": "https://en.wikipedia.org/wiki/Menno_Simons", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Menno Simons — Britannica", "url": "https://www.britannica.com/biography/Menno-Simons", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-022",
+      "paragraph": 7,
+      "quote": "Nowhere were the reformed doctrines more generally received than in the Netherlands. In few countries did their adherents endure more terrible persecution.",
+      "claim_text": "The reformed (Protestant) doctrines were more generally received in the Netherlands than anywhere else, and in few countries did adherents of the Reformation endure more terrible persecution than in the Netherlands.",
+      "claim_type": "event",
+      "entities": ["Netherlands"],
+      "needs_verification": true,
+      "extractor_note": "Sweeping comparative/superlative claim; included per completeness rule despite rhetorical framing.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The factual substance holds: the Low Countries were a major center of the Reformation and endured exceptionally severe heresy persecution under Charles V's placards and the Spanish Inquisition/Council of Troubles under Philip II. The superlative 'nowhere...more generally received' is rhetorical and not strictly quantifiable, but the Netherlands is uncontroversially among the most Reformation-receptive and most persecuted regions.",
+        "modern_consensus": "The Netherlands was a leading Reformation center that suffered severe anti-heresy persecution.",
+        "sources": [
+          {"title": "Inquisition in the Netherlands — Wikipedia", "url": "https://en.wikipedia.org/wiki/Inquisition_in_the_Netherlands", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Reformation in the Netherlands & the Eighty Years' War — World History Encyclopedia", "url": "https://www.worldhistory.org/article/2032/reformation-in-the-netherlands--the-eighty-years-w/", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-023",
+      "paragraph": 7,
+      "quote": "In Germany Charles V. had banned the Reformation, and he would gladly have brought all its adherents to the stake; but the princes stood up as a barrier against his tyranny.",
+      "claim_text": "In Germany, Emperor Charles V banned the Reformation and would have brought all its adherents to the stake, but the German princes acted as a barrier against his tyranny.",
+      "claim_type": "causal",
+      "entities": ["Charles V", "Germany"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Charles V outlawed Luther and the Reformation by the Edict of Worms (1521), but the Protestant German princes (Protestation of Speyer 1529, League of Schmalkalden) shielded the movement within the Empire's federal structure. Textbook-level.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-13-024",
+      "paragraph": 7,
+      "quote": "In the Netherlands his power was greater, and persecuting edicts followed each other in quick succession.",
+      "claim_text": "In the Netherlands, Charles V's power was greater than in Germany, and persecuting edicts against Protestants followed each other in quick succession there.",
+      "claim_type": "causal",
+      "entities": ["Charles V", "Netherlands"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Netherlands were Charles V's hereditary domain, where his authority was far more direct than over the German princes. He issued a rapid series of anti-heresy 'placards' from the early 1520s culminating in the 1550 Edict of Blood.",
+        "modern_consensus": "Charles V ruled the Low Countries directly and promulgated successive anti-heresy placards there.",
+        "sources": [
+          {"title": "Inquisition in the Netherlands — Wikipedia", "url": "https://en.wikipedia.org/wiki/Inquisition_in_the_Netherlands", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "G. Edmundson, History of Holland, ch. II (Gutenberg)", "url": "https://www.gutenberg.org/files/14971/14971-h/14971-h.htm", "source_class": "other", "supports_verdict": true, "note": "Describes the succession of placards."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-025",
+      "paragraph": 7,
+      "quote": "To read the Bible, to hear or preach it, or even to speak concerning it, was to incur the penalty of death by the stake.",
+      "claim_text": "Under the edicts of Charles V in the Netherlands, reading, hearing, preaching, or even speaking about the Bible carried the penalty of death by burning at the stake.",
+      "claim_type": "event",
+      "entities": ["Netherlands", "Charles V"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The 1550 Edict of Blood forbade the reading of the Bible, all home meetings for worship, and all discussion of controversial religious matters, with heresy punishable by death (burning for the obstinate). GC's summary is accurate in substance; 'death by the stake' specifically applied to obstinate/relapsed heretics, while penitents were beheaded or buried alive (see GC-13-027).",
+        "modern_consensus": "Charles V's placards (notably the 1550 Edict of Blood) criminalized Bible reading, unauthorized worship, and religious discussion on pain of death.",
+        "sources": [
+          {"title": "G. Edmundson, History of Holland, ch. II (Gutenberg)", "url": "https://www.gutenberg.org/files/14971/14971-h/14971-h.htm", "source_class": "other", "supports_verdict": true, "note": "1550 edict forbade all reading of the Bible and discussion of religion."},
+          {"title": "Inquisition in the Netherlands — Wikipedia", "url": "https://en.wikipedia.org/wiki/Inquisition_in_the_Netherlands", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-026",
+      "paragraph": 7,
+      "quote": "To pray to God in secret, to refrain from bowing to an image, or to sing a psalm, was also punishable with death.",
+      "claim_text": "Under the edicts of Charles V in the Netherlands, praying to God in secret, refraining from bowing to an image, or singing a psalm was also punishable by death.",
+      "claim_type": "event",
+      "entities": ["Netherlands", "Charles V"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The placards banned private conventicles/home worship and treated such acts as evidence of heresy punishable by death; refusal of Catholic observances (e.g., image veneration) and psalm-singing were markers of heresy. GC's list is a period-accurate illustration of how comprehensively the edicts criminalized Protestant devotional practice, though phrased rhetorically.",
+        "modern_consensus": "The Netherlands placards criminalized non-Catholic worship, including private devotion and psalm-singing, on pain of death.",
+        "sources": [
+          {"title": "G. Edmundson, History of Holland, ch. II (Gutenberg)", "url": "https://www.gutenberg.org/files/14971/14971-h/14971-h.htm", "source_class": "other", "supports_verdict": true},
+          {"title": "Reformation in the Netherlands — World History Encyclopedia", "url": "https://www.worldhistory.org/article/2032/reformation-in-the-netherlands--the-eighty-years-w/", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-027",
+      "paragraph": 7,
+      "quote": "Even those who should abjure their errors, were condemned, if men, to die by the sword; if women, to be buried alive.",
+      "claim_text": "In the Netherlands, even Protestants who recanted their beliefs were condemned to death: men by the sword, women by being buried alive.",
+      "claim_type": "event",
+      "entities": ["Netherlands"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Edict of Blood (Bloedplakkaat, 29 April 1550) prescribed death even for penitent heretics — men executed by the sword, women buried alive, and the obstinate of both sexes burnt. GC's statement matches the edict precisely.",
+        "modern_consensus": "The 1550 Edict of Blood decreed death for heresy even for penitents: men by sword, women buried alive, obstinate burnt.",
+        "sources": [
+          {"title": "G. Edmundson, History of Holland, ch. II (Gutenberg)", "url": "https://www.gutenberg.org/files/14971/14971-h/14971-h.htm", "source_class": "other", "supports_verdict": true, "note": "States the sword/buried-alive/burnt penalties of the 1550 edict."},
+          {"title": "Inquisition in the Netherlands — Wikipedia", "url": "https://en.wikipedia.org/wiki/Inquisition_in_the_Netherlands", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-028",
+      "paragraph": 7,
+      "quote": "Thousands perished under the reign of Charles and of Philip II.",
+      "claim_text": "Thousands of Protestants perished in the Netherlands under the reigns of Charles V and Philip II.",
+      "claim_type": "statistic",
+      "entities": ["Charles V", "Philip II", "Netherlands"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Modern estimates put heresy executions under Charles V in the Low Countries in the range of ~1,300-2,000+, with further hundreds to thousands under Philip II (including the Council of Troubles/Blood, ~1,000+ executed) — collectively 'thousands.' GC's cautious 'thousands' is defensible and notably avoids the inflated 50,000-100,000 figures of older Protestant historiography (Grotius, Motley), which modern scholars reject.",
+        "modern_consensus": "Several thousand died for heresy in the Netherlands across the reigns of Charles V and Philip II; older six-figure tallies are rejected.",
+        "sources": [
+          {"title": "Inquisition in the Netherlands — Wikipedia", "url": "https://en.wikipedia.org/wiki/Inquisition_in_the_Netherlands", "source_class": "encyclopedia", "supports_verdict": true, "note": "Execution totals in the low thousands."},
+          {"title": "Reformation in the Netherlands — World History Encyclopedia", "url": "https://www.worldhistory.org/article/2032/reformation-in-the-netherlands--the-eighty-years-w/", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-029",
+      "paragraph": 8,
+      "quote": "At one time a whole family was brought before the inquisitors, charged with remaining away from mass, and worshiping at home.",
+      "claim_text": "An entire family was brought before the Inquisition in the Netherlands, charged with staying away from mass and worshiping at home.",
+      "claim_type": "event",
+      "entities": ["Netherlands", "Inquisition"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "A specific martyr anecdote drawn from White's cited source (Brandt, GC footnote 354). It is consistent with the documented practice of prosecuting families for absence from mass and home worship under the placards, but the individual episode cannot be independently corroborated within budget; it derives from period martyrology.",
+        "sources": [
+          {"title": "Brandt, History of the Reformation in the Low-Countries (catalog)", "url": "https://catalog.hathitrust.org/Record/008963577", "source_class": "primary", "supports_verdict": true, "note": "Source of the family-before-inquisitors anecdote (footnote 354)."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-030",
+      "paragraph": 8,
+      "quote": "On his examination as to their practices in secret, the youngest son answered, “We fall on our knees, and pray that God may enlighten our minds and pardon our sins; we pray for our sovereign, that his reign may be prosperous and his life happy; we pray for our magistrates, that God may preserve them.”(354)",
+      "claim_text": "When examined by inquisitors about the family's secret religious practices, the youngest son answered that they knelt and prayed for God to enlighten their minds and pardon their sins, and prayed for their sovereign and their magistrates.",
+      "claim_type": "attributed_quote",
+      "entities": ["Netherlands", "Inquisition"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The quotation is drawn from White's cited source Brandt (footnote 354); a located pre-1911 source carries it, so it is not a misquotation. Its historicity as a verbatim inquisitorial exchange cannot be independently confirmed within budget; it belongs to period martyrology.",
+        "sources": [
+          {"title": "Brandt, History of the Reformation in the Low-Countries (catalog)", "url": "https://catalog.hathitrust.org/Record/008963577", "source_class": "primary", "supports_verdict": true, "note": "Cited source (footnote 354) of the quoted testimony."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-031",
+      "paragraph": 8,
+      "quote": "Some of the judges were deeply moved, yet the father and one of his sons were condemned to the stake.",
+      "claim_text": "Despite some judges being deeply moved by the youngest son's testimony, the father and one of his sons were condemned to death at the stake.",
+      "claim_type": "event",
+      "entities": ["Netherlands", "Inquisition"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Continuation of the Brandt-sourced martyr anecdote (footnote 354). Consistent with documented executions for heresy but not independently verifiable within budget; period martyrology faithfully transmitted.",
+        "sources": [
+          {"title": "Brandt, History of the Reformation in the Low-Countries (catalog)", "url": "https://catalog.hathitrust.org/Record/008963577", "source_class": "primary", "supports_verdict": true, "note": "Source anecdote (footnote 354)."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-032",
+      "paragraph": 9,
+      "quote": "“Wives would take their stand by their husband’s stake, and while he was enduring the fire they would whisper words of solace, or sing psalms to cheer him.”",
+      "claim_text": "According to a cited source, wives of condemned Protestant men in the Netherlands would stand by their husbands' stakes during execution, whispering solace or singing psalms to cheer them.",
+      "claim_type": "attributed_quote",
+      "entities": ["Netherlands"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "A quotation from White's cited source (GC footnote 355, the Netherlands martyrology of Brandt/Motley tradition). A located pre-1911 source carries it, so not a misquotation; the vivid martyrological scene reflects period sources and cannot be independently verified as a specific event, but the courage of Netherlandish martyrs is broadly documented.",
+        "sources": [
+          {"title": "Brandt, History of the Reformation in the Low-Countries (catalog)", "url": "https://catalog.hathitrust.org/Record/008963577", "source_class": "primary", "supports_verdict": true, "note": "Netherlands martyrology tradition (footnote 355)."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-033",
+      "paragraph": 9,
+      "quote": "“Young maidens would lie down in their living grave as if they were entering into their chamber of nightly sleep; or go forth to the scaffold and the fire, dressed in their best apparel, as if they were going to their marriage.”(355)",
+      "claim_text": "According to a cited source, young Protestant maidens in the Netherlands facing execution (including live burial) would go to their deaths as calmly as entering sleep or marriage, dressed in their best apparel.",
+      "claim_type": "attributed_quote",
+      "entities": ["Netherlands"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Quotation from White's cited martyrological source (footnote 355). The 'living grave' detail aligns with the documented penalty of burying women alive under the 1550 Edict of Blood, lending plausibility, but the passage is period rhetoric not independently verifiable as a specific episode. Located pre-1911 source carries it, so not a misquotation.",
+        "sources": [
+          {"title": "Brandt, History of the Reformation in the Low-Countries (catalog)", "url": "https://catalog.hathitrust.org/Record/008963577", "source_class": "primary", "supports_verdict": true, "note": "Source of the quotation (footnote 355)."},
+          {"title": "G. Edmundson, History of Holland, ch. II (Gutenberg)", "url": "https://www.gutenberg.org/files/14971/14971-h/14971-h.htm", "source_class": "other", "supports_verdict": true, "note": "Confirms women were buried alive under the 1550 edict."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-034",
+      "paragraph": 10,
+      "quote": "As in the days when paganism sought to destroy the gospel, the blood of the Christians was seed.(356)",
+      "claim_text": "As in the days when Roman paganism sought to destroy the gospel, the blood of the martyred Christians in the Netherlands served as seed for the growth of the faith.",
+      "claim_type": "theological",
+      "entities": ["Netherlands"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "CONTROL SAMPLE (extractor flagged needs_verification:false). Correctly non-empirical: this is a theological/rhetorical trope (Tertullian's 'the blood of the martyrs is seed') asserting a providential relationship between persecution and church growth. Not empirically testable; extractor classification confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-13-035",
+      "paragraph": 10,
+      "quote": "Persecution served to increase the number of witnesses for the truth.",
+      "claim_text": "Persecution of Protestants in the Netherlands served to increase the number of witnesses for the reformed faith.",
+      "claim_type": "causal",
+      "entities": ["Netherlands"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Despite severe persecution, Protestantism (especially Calvinism) grew in the Netherlands through the mid-16th century, culminating in the Revolt. The causal 'persecution increased witnesses' is a rhetorical generalization but broadly consistent with the resilient spread of Dutch Protestantism; strict causation is not demonstrable.",
+        "modern_consensus": "Dutch Protestantism expanded despite persecution, feeding into the Revolt.",
+        "sources": [
+          {"title": "Reformation in the Netherlands — World History Encyclopedia", "url": "https://www.worldhistory.org/article/2032/reformation-in-the-netherlands--the-eighty-years-w/", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-036",
+      "paragraph": 10,
+      "quote": "Under the noble William of Orange, the Revolution at last brought to Holland freedom to worship God.",
+      "claim_text": "Under the leadership of William of Orange, a revolution eventually brought to Holland freedom of worship.",
+      "claim_type": "event",
+      "entities": ["William of Orange", "Holland"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] William of Orange (William the Silent) led the Dutch Revolt against Spain; the northern provinces (Union of Utrecht, 1579) established the Dutch Republic with de facto religious liberty. Textbook-level.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-13-037",
+      "paragraph": 11,
+      "quote": "Students at Wittenberg, returning to their homes, carried the reformed faith to Scandinavia.",
+      "claim_text": "Students who had studied at Wittenberg carried the reformed (Lutheran) faith back to Scandinavia upon returning home.",
+      "claim_type": "causal",
+      "entities": ["Wittenberg", "Scandinavia"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Scandinavians who studied at Wittenberg under Luther and Melanchthon (e.g. Olaus and Laurentius Petri in Sweden, Hans Tausen in Denmark) returned home to lead the Lutheran Reformation, as GC and Wylie both relate and modern scholarship confirms.",
+        "modern_consensus": "Wittenberg-trained scholars were the chief conduits of Lutheranism to Sweden and Denmark.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local)", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true, "note": "Petri brothers and Tausen studied at Wittenberg and returned to reform their homelands."},
+          {"title": "Olaus Petri — Wikipedia", "url": "https://en.wikipedia.org/wiki/Olaus_Petri", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-038",
+      "paragraph": 11,
+      "quote": "The publication of Luther’s writings also spread the light.",
+      "claim_text": "The publication of Martin Luther's writings also spread the reformed faith in Scandinavia.",
+      "claim_type": "causal",
+      "entities": ["Martin Luther", "Scandinavia"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The rapid print circulation of Luther's works across northern Europe, including Scandinavia, was a principal vector of Reformation ideas. Textbook-level and corroborated by the Tausen/Petri accounts (each obtained Luther's writings).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-13-039",
+      "paragraph": 12,
+      "quote": "Tausen, “the Reformer of Denmark,” was a peasant’s son.",
+      "claim_text": "Hans Tausen, known as 'the Reformer of Denmark,' was the son of a peasant.",
+      "claim_type": "biographical",
+      "entities": ["Tausen", "Denmark"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Hans Tausen (1494-1561) is the recognized leading reformer of Denmark ('the Danish Luther' / 'Reformer of Denmark') and was of peasant birth. White's source Wylie states verbatim: the man 'who has earned for himself the title of the \"Reformer of Denmark,\" Johannis Taussanus... his parents were peasants.'",
+        "modern_consensus": "Hans Tausen, chief Danish reformer, born of peasant parents c.1494.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), ~line 4115", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true, "note": "'the Reformer of Denmark, Johannis Taussanus... his parents were peasants.'"}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-040",
+      "paragraph": 12,
+      "quote": "but this was denied him by the circumstances of his parents, and he entered a cloister.",
+      "claim_text": "Because of his parents' circumstances, Tausen was denied a desired education and instead entered a cloister (monastery).",
+      "claim_type": "biographical",
+      "entities": ["Tausen"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wylie: 'the poverty of his parents did not permit them to give him a liberal education... he entered the Order of St John (Jerusalem Monks) at the monastery of Antvorskov.' Modern accounts likewise have Tausen enter the Hospitaller monastery of Antvorskov. GC follows this.",
+        "modern_consensus": "Tausen entered the monastery of Antvorskov (Order of St John).",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), ~line 4120", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-041",
+      "paragraph": 12,
+      "quote": "Examination showed him to possess talent that promised at some future day good service to the church. It was determined to give him an education at some one of the universities of Germany or the Netherlands.",
+      "claim_text": "Tausen's monastic superiors, recognizing his talent, decided to give him a university education at a school in Germany or the Netherlands.",
+      "claim_type": "event",
+      "entities": ["Tausen"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wylie: the superior Eskildus, recognizing Tausen's parts, 'adjudged to the young Taussan one of those bursaries... for young men of capacity who wished to prosecute their studies abroad.' GC paraphrases the same source.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), ~line 4130", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-042",
+      "paragraph": 12,
+      "quote": "The young student was granted permission to choose a school for himself, with one proviso, that he must not go to Wittenberg.",
+      "claim_text": "Tausen was granted permission to choose his own university, on condition that he not attend Wittenberg.",
+      "claim_type": "event",
+      "entities": ["Tausen", "Wittenberg"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wylie states verbatim: 'Taussan was told that he might select what school or university he pleased, one only excepted, Wittemberg.' GC follows its source exactly.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), ~line 4136", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-043",
+      "paragraph": 13,
+      "quote": "Tausen went to Cologne, which was then, as now, one of the strongholds of Romanism.",
+      "claim_text": "Tausen chose to study at Cologne, which was a stronghold of Roman Catholicism.",
+      "claim_type": "geographical",
+      "entities": ["Tausen", "Cologne"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wylie: 'His choice fell upon Cologne.' Cologne was indeed a bastion of Catholic orthodoxy (its university a center of anti-Lutheran theology). GC follows Wylie.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), ~line 4164", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-044",
+      "paragraph": 13,
+      "quote": "Here he soon became disgusted with the mysticisms of the schoolmen. About the same time he obtained Luther’s writings.",
+      "claim_text": "At Cologne, Tausen became disgusted with the mysticisms of the scholastic theologians and around the same time obtained Martin Luther's writings.",
+      "claim_type": "event",
+      "entities": ["Tausen", "Cologne", "Martin Luther"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wylie: at Cologne Tausen 'became weary of the futilities and fables' of scholasticism, and 'the writings of Luther were put into his hands.' GC paraphrases its source.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), ~line 4166", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-045",
+      "paragraph": 13,
+      "quote": "erelong he was enrolled as a student at Wittenberg.",
+      "claim_text": "Tausen soon enrolled as a student at Wittenberg despite the prohibition from his monastic superiors.",
+      "claim_type": "event",
+      "entities": ["Tausen", "Wittenberg"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wylie: Tausen 'set out for Wittemberg' despite risking his pension and superiors' wrath. Modern scholarship confirms Tausen studied at Wittenberg under Luther in the early 1520s. GC follows its source (dating of the exact year varies between sources).",
+        "modern_consensus": "Tausen studied at Wittenberg under Luther in the early 1520s.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), ~line 4182", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-046",
+      "paragraph": 14,
+      "quote": "On returning to Denmark, he again repaired to his cloister. No one as yet suspected him of Lutheranism; he did not reveal his secret, but endeavored, without exciting the prejudices of his companions, to lead them to a purer faith and a holier life.",
+      "claim_text": "After returning to Denmark, Tausen went back to his cloister, kept his Lutheran views secret initially, and worked quietly to lead his fellow monks toward reformed beliefs.",
+      "claim_type": "event",
+      "entities": ["Tausen", "Denmark"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wylie: Tausen returned to Denmark, 're-entered' the monastery, 'took care not to put them upon the scent of the secret,' and 'began betimes to correct the disorders and enlighten the ignorance of his fellow-monks.' GC paraphrases its source.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), ~line 4204", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-047",
+      "paragraph": 14,
+      "quote": "He was at once removed from his own monastery to another, and confined to his cell, under strict supervision.",
+      "claim_text": "When his prior discovered his Lutheran preaching, Tausen was removed from his monastery to another and confined to his cell under strict supervision.",
+      "claim_type": "event",
+      "entities": ["Tausen"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wylie: after Tausen's Easter 1524 sermon, prior Eskildus resolved to transfer him to the convent of Viborg 'where a strict watch would be kept upon him,' and there he was 'shut up in his cell.' GC follows its source.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), ~line 4249", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-048",
+      "paragraph": 15,
+      "quote": "To the terror of his new guardians, several of the monks soon declared themselves converts to Protestantism. Through the bars of his cell, Tausen had communicated to his companions a knowledge of the truth.",
+      "claim_text": "While confined to his cell, Tausen communicated Protestant teaching through the bars to fellow monks, several of whom then declared themselves converts to Protestantism, to the alarm of his guardians.",
+      "claim_type": "event",
+      "entities": ["Tausen"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wylie: 'Shut up in his cell, Taussan communicated with the inmates of the convent through the bars of his window... the result was that two of the monks, named Erasmus and Theocarius, were converted to the truth.' GC paraphrases ('several'); the cell-bars detail matches its source.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), ~line 4259", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-049",
+      "paragraph": 15,
+      "quote": "instead of consigning him to a tomb in some underground dungeon, they expelled him from the monastery.",
+      "claim_text": "Rather than imprisoning Tausen in an underground dungeon, the monastic authorities expelled him from the monastery.",
+      "claim_type": "event",
+      "entities": ["Tausen"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wylie: 'The horror-struck prior... again drove Taussan forth' from the monastery. GC follows its source.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), ~line 4267", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-050",
+      "paragraph": 15,
+      "quote": "A royal edict, just issued, offered protection to the teachers of the new doctrine.",
+      "claim_text": "A royal edict was issued in Denmark offering protection to teachers of the new (Lutheran) doctrine.",
+      "claim_type": "event",
+      "entities": ["Denmark"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "King Frederick I of Denmark extended royal protection to evangelical preachers (letters of protection to Tausen; the Diet of Odense, 1526/1527, granted toleration to Lutherans). Wylie notes the king gave 'letters of protection' enabling the reformers to work. GC's 'royal edict' matches this.",
+        "modern_consensus": "Frederick I protected Lutheran preachers; the 1527 Diet of Odense granted them toleration.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), ~line 4107", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true, "note": "King gave letters of protection to the reformers."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-051",
+      "paragraph": 15,
+      "quote": "Tausen began to preach. The churches were opened to him, and the people thronged to listen.",
+      "claim_text": "Following the royal edict of protection, Tausen began to preach openly in Denmark, churches were opened to him, and crowds thronged to hear him.",
+      "claim_type": "event",
+      "entities": ["Tausen", "Denmark"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Under royal protection Tausen preached openly at Viborg (and later Copenhagen) to large crowds, becoming a royal chaplain; his popular preaching is central to the Danish Reformation narrative in both Wylie and modern accounts.",
+        "modern_consensus": "Tausen preached openly at Viborg to large audiences under royal protection.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local)", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-052",
+      "paragraph": 15,
+      "quote": "The New Testament, translated into the Danish tongue, was widely circulated.",
+      "claim_text": "The New Testament was translated into the Danish language and widely circulated in Denmark during this period.",
+      "claim_type": "event",
+      "entities": ["Denmark"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The first Danish New Testament appeared in 1524 (sponsored by the exiled Christian II, translated by Hans Mikkelsen/'Johannis Michaelis'), followed by Christiern Pedersen's improved Danish NT (1529); these circulated in Denmark and advanced the Reformation. Wylie describes the 1524 Danish NT at length.",
+        "modern_consensus": "Danish New Testament translations (1524; Pedersen 1529) circulated during the Danish Reformation.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), ~line 4046", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true, "note": "1524 Danish NT translated in Flanders, printed at Leipzig."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-053",
+      "paragraph": 15,
+      "quote": "erelong Denmark declared its acceptance of the reformed faith.",
+      "claim_text": "Denmark subsequently declared its official acceptance of the reformed (Lutheran) faith.",
+      "claim_type": "event",
+      "entities": ["Denmark"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Denmark officially adopted Lutheranism under Christian III following the 1536 coup, with the 1537 Church Ordinance establishing the Lutheran state church. Textbook-level.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-13-054",
+      "paragraph": 16,
+      "quote": "Two of the leaders in the Swedish Reformation, Olaf and Laurentius Petri, the sons of a blacksmith of Orebro, studied under Luther and Melanchthon, and the truths which they thus learned they were diligent to teach.",
+      "claim_text": "Olaf Petri and Laurentius Petri, two leaders of the Swedish Reformation, were sons of a blacksmith from Orebro, Sweden.",
+      "claim_type": "biographical",
+      "entities": ["Olaf Petri", "Laurentius Petri", "Orebro", "Sweden"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Olaus Petri (b.1493) and his brother Laurentius Petri (b.1499), leaders of the Swedish Reformation, were sons of a smith of Örebro. Wylie states verbatim: 'Their father was a smith in Oerebro.' Modern reference works concur.",
+        "modern_consensus": "The Petri brothers, sons of an Örebro smith, led the Swedish Reformation.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), ~line 2128", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true},
+          {"title": "Olaus Petri — Wikipedia", "url": "https://en.wikipedia.org/wiki/Olaus_Petri", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-055",
+      "paragraph": 16,
+      "quote": "Two of the leaders in the Swedish Reformation, Olaf and Laurentius Petri, the sons of a blacksmith of Orebro, studied under Luther and Melanchthon, and the truths which they thus learned they were diligent to teach.",
+      "claim_text": "Olaf Petri and Laurentius Petri studied under Martin Luther and Philip Melanchthon.",
+      "claim_type": "biographical",
+      "entities": ["Olaf Petri", "Laurentius Petri", "Martin Luther", "Philip Melanchthon"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Both brothers studied at Wittenberg under Luther and Melanchthon (Olaus 1516-1518; Laurentius later). Wylie: 'two youths who had studied at Wittemberg under Luther and Melancthon, Olaf Patersen and his brother Lawrence.' Modern sources agree.",
+        "modern_consensus": "The Petri brothers were Wittenberg students of Luther and Melanchthon.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), ~line 2126", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true},
+          {"title": "Olaus Petri — Wikipedia", "url": "https://en.wikipedia.org/wiki/Olaus_Petri", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-056",
+      "paragraph": 16,
+      "quote": "Like the great Reformer, Olaf aroused the people by his zeal and eloquence, while Laurentius, like Melanchthon, was learned, thoughtful, and calm.",
+      "claim_text": "Olaf Petri aroused the Swedish people through zeal and eloquence, resembling Luther in temperament, while his brother Laurentius Petri was learned, thoughtful, and calm, resembling Melanchthon.",
+      "claim_type": "biographical",
+      "entities": ["Olaf Petri", "Laurentius Petri"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "A standard characterization (the fiery preacher Olaus vs. the calm scholar-archbishop Laurentius), paralleling Luther/Melanchthon. Consistent with the historical roles (Olaus the popular preacher/polemicist; Laurentius the learned first Protestant Archbishop of Uppsala). The Luther/Melanchthon analogy is interpretive but not contradicted.",
+        "modern_consensus": "Olaus was the dynamic preacher-polemicist; Laurentius the learned, moderate archbishop.",
+        "sources": [
+          {"title": "Olaus Petri — Wikipedia", "url": "https://en.wikipedia.org/wiki/Olaus_Petri", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-057",
+      "paragraph": 16,
+      "quote": "Olaf Petri was often assailed by the mob, and upon several occasions barely escaped with his life.",
+      "claim_text": "Olaf Petri was often attacked by mobs in Sweden and on several occasions barely escaped with his life.",
+      "claim_type": "event",
+      "entities": ["Olaf Petri", "Sweden"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Olaus Petri faced strong popular and clerical hostility as he preached the Reformation in Stockholm and elsewhere; Wylie recounts the opposition (Bishop Brask's ban and public disputations). The 'barely escaped with his life' detail reflects the documented dangers he faced, though specific incidents are not individually enumerated in modern reference works.",
+        "modern_consensus": "Olaus Petri met fierce opposition while preaching the Reformation.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), ~line 2168", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true},
+          {"title": "Olaus Petri — Wikipedia", "url": "https://en.wikipedia.org/wiki/Olaus_Petri", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-058",
+      "paragraph": 16,
+      "quote": "These reformers were, however, favored and protected by the king.",
+      "claim_text": "Olaf Petri and Laurentius Petri were favored and protected by the king of Sweden (Gustavus Vasa).",
+      "claim_type": "event",
+      "entities": ["Olaf Petri", "Laurentius Petri", "Gustavus Vasa"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "King Gustav Vasa patronized and protected the Petri brothers, appointing Olaus preacher at Stockholm's cathedral and Laurentius to the chair of theology at Uppsala, and using them to advance the Reformation. Wylie and modern sources agree.",
+        "modern_consensus": "Gustav Vasa protected and promoted the Petri brothers.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), ~line 2147", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true},
+          {"title": "Gustav Vasa and the Reformation — Historiska museet", "url": "https://historiska.se/en/explore-history/history-hub/gustav-vasa-and-the-reformation/", "source_class": "other", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-059",
+      "paragraph": 17,
+      "quote": "Under the rule of the Roman Church, the people were sunken in poverty, and ground down by oppression. They were destitute of the Scriptures; and having a religion of mere signs and ceremonies, which conveyed no light to the mind, they were returning to the superstitious beliefs and pagan practices of their heathen ancestors.",
+      "claim_text": "Prior to the Reformation, under the rule of the Roman Catholic Church, the people of Sweden were impoverished and oppressed, lacked access to the Scriptures, and were reverting to the superstitious and pagan practices of their pre-Christian ancestors.",
+      "claim_type": "causal",
+      "entities": ["Sweden", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Pre-Reformation Sweden did lack a vernacular Bible (no Swedish Scriptures until Olaus Petri's 1526 NT), and the country was poor and strife-torn. But the causal framing — that Catholicism kept the people ignorant and drove them 'back to paganism' — is polemical Protestant characterization (period-typical), not a neutral modern finding. Substance partly true (Scripture destitution, poverty), interpretation tendentious.",
+        "modern_consensus": "Sweden had no vernacular Bible before 1526 and was economically strained; the 'return to paganism' framing is Protestant polemic.",
+        "sources": [
+          {"title": "Bible translations into Swedish — Wikipedia", "url": "https://en.wikipedia.org/wiki/Gustav_Vasa_Bible", "source_class": "encyclopedia", "supports_verdict": true, "note": "No complete Swedish Scripture before 1526/1541."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-060",
+      "paragraph": 17,
+      "quote": "The nation was divided into contending factions, whose perpetual strife increased the misery of all.",
+      "claim_text": "Sweden prior to the Reformation was divided into contending political factions whose perpetual strife increased the misery of the population.",
+      "claim_type": "event",
+      "entities": ["Sweden"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Early-16th-century Sweden was riven by the Kalmar Union conflicts, the struggles of the Sture regents against Danish overlordship, Christian II's invasion and the Stockholm Bloodbath (1520), and Gustav Vasa's war of liberation — a period of severe factional strife. GC's statement is accurate.",
+        "modern_consensus": "Pre-Reformation Sweden was torn by Kalmar Union and independence conflicts culminating in 1520-23.",
+        "sources": [
+          {"title": "Gustav Vasa and the Reformation — Historiska museet", "url": "https://historiska.se/en/explore-history/history-hub/gustav-vasa-and-the-reformation/", "source_class": "other", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-061",
+      "paragraph": 17,
+      "quote": "The king determined upon a reformation in the state and the church, and he welcomed these able assistants in the battle against Rome.",
+      "claim_text": "The king of Sweden (Gustavus Vasa) determined upon a reformation in both state and church, and welcomed Olaf and Laurentius Petri as able assistants in the struggle against Rome.",
+      "claim_type": "causal",
+      "entities": ["Gustavus Vasa", "Sweden", "Olaf Petri", "Laurentius Petri"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Gustav Vasa drove a combined political-ecclesiastical reformation (breaking with Rome, subordinating the church to the crown, seizing church wealth) and employed the Petri brothers to instruct the people in Protestant doctrine. Well documented.",
+        "modern_consensus": "Gustav Vasa led a state-directed Reformation and used the Petris as its theological agents.",
+        "sources": [
+          {"title": "Gustav Vasa and the Reformation — Historiska museet", "url": "https://historiska.se/en/explore-history/history-hub/gustav-vasa-and-the-reformation/", "source_class": "other", "supports_verdict": true},
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), ~line 2147", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-062",
+      "paragraph": 18,
+      "quote": "In the presence of the monarch and the leading men of Sweden, Olaf Petri with great ability defended the doctrines of the reformed faith against the Romish champions.",
+      "claim_text": "Olaf Petri publicly defended the doctrines of the reformed faith against Roman Catholic champions in a disputation held in the presence of the king of Sweden and the country's leading men.",
+      "claim_type": "event",
+      "entities": ["Olaf Petri", "Sweden", "Gustavus Vasa"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "A public disputation between Olaus Petri and the Catholic champion Peder Galle took place (the Colloquy of Uppsala, 1526, as Wylie details, drawing on the Acta Colloquii Upsaliensis). Gustav Vasa promoted such disputations to sway opinion. GC's framing 'in presence of the monarch and leading men' compresses the setting but reflects the historical event.",
+        "modern_consensus": "Olaus Petri disputed against Peder Galle in royally sponsored debates c.1526-27.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), ~line 2354", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true, "note": "The Uppsala colloquy of 1526."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-063",
+      "paragraph": 18,
+      "quote": "Christ said, “My doctrine is not Mine, but His that sent Me;”(357)",
+      "claim_text": "During the Swedish disputation, Olaf Petri cited Christ's statement, 'My doctrine is not Mine, but His that sent Me.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Olaf Petri", "Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The scriptural citation (John 7:16) is quoted accurately, and its use by Olaus Petri in the disputation derives from White's source (the Acta Colloquii Upsaliensis as transmitted by Wylie). The argument-from-Scripture matches Olaus's documented sola-scriptura stance.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), Uppsala colloquy", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-064",
+      "paragraph": 18,
+      "quote": "and Paul declared that should he preach any other gospel than that which he had received, he would be accursed.(358)",
+      "claim_text": "Olaf Petri cited the apostle Paul's declaration that he would be accursed if he preached any gospel other than what he had received.",
+      "claim_type": "attributed_quote",
+      "entities": ["Olaf Petri", "Apostle Paul"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "An accurate paraphrase of Galatians 1:8, attributed to Olaus Petri's disputation argument via White's source (Wylie's rendering of the Uppsala colloquy). Consistent with his scriptural method.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), Uppsala colloquy", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-065",
+      "paragraph": 18,
+      "quote": "“How, then,” said the Reformer, “shall others presume to enact dogmas at their pleasure, and impose them as things necessary to salvation?”(359)",
+      "claim_text": "Olaf Petri asked during the disputation, 'How, then, shall others presume to enact dogmas at their pleasure, and impose them as things necessary to salvation?'",
+      "claim_type": "attributed_quote",
+      "entities": ["Olaf Petri"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The rhetorical question is attributed to Olaus Petri via White's source (Wylie's account of the Uppsala colloquy, drawing on the Acta Colloquii Upsaliensis). It expresses his documented sola-scriptura argument against human traditions imposed as necessary to salvation. A located period source carries it; not a misquotation.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), Uppsala colloquy", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-066",
+      "paragraph": 18,
+      "quote": "and maintained the great Protestant principle, that “the Bible and the Bible only,” is the rule of faith and practice.",
+      "claim_text": "Olaf Petri maintained the principle that 'the Bible and the Bible only' is the rule of faith and practice, and that church decrees have no authority when opposed to God's commands.",
+      "claim_type": "attributed_quote",
+      "entities": ["Olaf Petri"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Olaus Petri was a thoroughgoing exponent of sola scriptura, and the 1527 Diet of Västerås decreed that God's word alone should be preached. GC's summary of his position is accurate; 'the Bible and the Bible only' is the standard Protestant formula and matches his stance.",
+        "modern_consensus": "Olaus Petri championed Scripture as the sole rule of faith.",
+        "sources": [
+          {"title": "Olaus Petri — Wikipedia", "url": "https://en.wikipedia.org/wiki/Olaus_Petri", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-067",
+      "paragraph": 19,
+      "quote": "This contest, though conducted upon a stage comparatively obscure, serves to show us “the sort of men that formed the rank and file of the army of the Reformers. They were not illiterate, sectarian, noisy controversialists—far from it; they were men who had studied the word of God, and knew well how to wield the weapons with which the armory of the Bible supplied them. In respect of erudition they were ahead of their age. When we confine our attention to such brilliant centers as Wittenberg and Zurich, and to such illustrious names as those of Luther and Melanchthon, of Zwingle and Œcolampadius, we are apt to be told, these were the leaders of the movement, and we should naturally expect in them prodigious power and vast acquisitions; but the subordinates were not like these. Well, we turn to the obscure theater of Sweden, and the humble names of Olaf and Laurentius Petri—from the masters to the disciples—what do we find?... Scholars and theologians; men who have thoroughly mastered the whole system of gospel truth, and who win an easy victory over the sophists of the schools and the dignitaries of Rome.”(360)",
+      "claim_text": "A cited historian argued that the Swedish disputation, though conducted on an obscure stage, shows that the rank and file of the Reformation's army (exemplified by Olaf and Laurentius Petri, in contrast to leading figures like Luther, Melanchthon, Zwingli, and Oecolampadius at Wittenberg and Zurich) were learned scholars and theologians, not illiterate controversialists, who won easy victories over Rome's scholastics.",
+      "claim_type": "attributed_quote",
+      "entities": ["Olaf Petri", "Laurentius Petri", "Martin Luther", "Philip Melanchthon", "Huldrych Zwingli", "Johannes Oecolampadius", "Wittenberg", "Zurich", "Sweden"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The quotation is verified verbatim against White's source, J. A. Wylie, History of Protestantism (local vol.2, ~lines 2909-2941): 'It shows us the sort of men that formed the rank and file of the army of the Reformers. They were not illiterate, sectarian, noisy controversialists—far from it...' through '...win an easy victory over the sophists of the schools, and the dignitaries of Rome.' White reproduces Wylie accurately, modernizing only spelling ('centres'->'centers', 'theatre'->'theater'). The claim reports Wylie's assessment, which the quotation faithfully conveys.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 2 (local), ~lines 2909-2941", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol2.txt", "source_class": "primary", "supports_verdict": true, "note": "Verbatim match of the quoted passage (GC footnote 360)."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-068",
+      "paragraph": 20,
+      "quote": "As the result of this disputation, the king of Sweden accepted the Protestant faith,",
+      "claim_text": "As a result of the disputation in which Olaf Petri defended the reformed faith, the king of Sweden (Gustavus Vasa) accepted the Protestant faith.",
+      "claim_type": "event",
+      "entities": ["Gustavus Vasa", "Sweden", "Olaf Petri"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Gustav Vasa moved Sweden toward Lutheranism, formalized at the Diet of Västerås (1527). GC's 'as the result of this disputation' is a simplified causal link — the king's motives were also political and financial (church wealth) — but his adoption of the Protestant cause, aided by the reformers' disputations, is well established.",
+        "modern_consensus": "Gustav Vasa embraced the Reformation (Diet of Västerås 1527), driven by mixed religious and political-fiscal motives.",
+        "sources": [
+          {"title": "Gustav Vasa and the Reformation — Historiska museet", "url": "https://historiska.se/en/explore-history/history-hub/gustav-vasa-and-the-reformation/", "source_class": "other", "supports_verdict": true},
+          {"title": "Diet of Västerås 1527 (academia.edu / Rowley & van der Tol chapter)", "url": "https://www.academia.edu/36663993/The_Diet_of_V%C3%A4steras_in_Swedish_Church_Historiography_Some_Remarks", "source_class": "academic", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-069",
+      "paragraph": 20,
+      "quote": "and not long afterward the national assembly declared in its favor.",
+      "claim_text": "Not long after the king of Sweden accepted the Protestant faith, the Swedish national assembly (Diet) declared in favor of the Protestant faith.",
+      "claim_type": "event",
+      "entities": ["Sweden"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Diet (Riksdag) of Västerås in 1527 endorsed the crown's reformation measures — subordinating the church to the king, redirecting church property, and requiring preaching of 'God's pure Word' — the decisive assembly turning Sweden toward Lutheranism.",
+        "modern_consensus": "The Diet of Västerås (1527) endorsed the Reformation in Sweden.",
+        "sources": [
+          {"title": "Diet of Västerås 1527 (academia.edu)", "url": "https://www.academia.edu/36663993/The_Diet_of_V%C3%A4steras_in_Swedish_Church_Historiography_Some_Remarks", "source_class": "academic", "supports_verdict": true},
+          {"title": "Gustav Vasa Bible — Wikipedia", "url": "https://en.wikipedia.org/wiki/Gustav_Vasa_Bible", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-070",
+      "paragraph": 20,
+      "quote": "The New Testament had been translated by Olaf Petri into the Swedish language,",
+      "claim_text": "Olaf Petri translated the New Testament into the Swedish language.",
+      "claim_type": "event",
+      "entities": ["Olaf Petri", "Sweden"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The first complete Swedish New Testament (1526) is traditionally attributed to Olaus Petri (with Laurentius Andreae). Modern reference works credit Olaus Petri as the principal translator. GC is accurate.",
+        "modern_consensus": "The 1526 Swedish New Testament is chiefly Olaus Petri's work.",
+        "sources": [
+          {"title": "Olaus Petri — Wikipedia", "url": "https://en.wikipedia.org/wiki/Olaus_Petri", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Gustav Vasa Bible — Wikipedia", "url": "https://en.wikipedia.org/wiki/Gustav_Vasa_Bible", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-071",
+      "paragraph": 20,
+      "quote": "at the desire of the king the two brothers undertook the translation of the whole Bible.",
+      "claim_text": "At the request of the king of Sweden, Olaf Petri and Laurentius Petri undertook the translation of the entire Bible into Swedish.",
+      "claim_type": "event",
+      "entities": ["Olaf Petri", "Laurentius Petri", "Gustavus Vasa"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The complete Swedish Bible (Gustav Vasa Bible, 1541) was produced under royal commission by a team including the Petri brothers and Laurentius Andreae, with Laurentius Petri (Archbishop of Uppsala) leading the work. GC attributes it to 'the two brothers,' a slight simplification (Andreae also central), but the brothers' role and the royal commission are correct.",
+        "modern_consensus": "The 1541 Gustav Vasa Bible was a royally commissioned team effort led by Laurentius Petri, with Olaus Petri and Laurentius Andreae.",
+        "sources": [
+          {"title": "Gustav Vasa Bible — Wikipedia", "url": "https://en.wikipedia.org/wiki/Gustav_Vasa_Bible", "source_class": "encyclopedia", "supports_verdict": true, "note": "Translators: Laurentius Andreae and the Petri brothers."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-072",
+      "paragraph": 20,
+      "quote": "Thus for the first time the people of Sweden received the word of God in their native tongue.",
+      "claim_text": "Through the Petri brothers' translation, the people of Sweden received the word of God (the full Bible) in their native tongue for the first time.",
+      "claim_type": "event",
+      "entities": ["Sweden", "Olaf Petri", "Laurentius Petri"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The 1526 New Testament and 1541 complete Bible were the first Scriptures in the Swedish language (no earlier complete Swedish Bible existed). GC's 'for the first time' is accurate.",
+        "modern_consensus": "The Gustav Vasa Bible (1541) was the first complete Bible in Swedish; the 1526 NT the first Swedish New Testament.",
+        "sources": [
+          {"title": "Gustav Vasa Bible — Wikipedia", "url": "https://en.wikipedia.org/wiki/Gustav_Vasa_Bible", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-073",
+      "paragraph": 20,
+      "quote": "It was ordered by the Diet that throughout the kingdom, ministers should explain the Scriptures, and that the children in the schools should be taught to read the Bible.",
+      "claim_text": "The Swedish Diet ordered that throughout the kingdom ministers should explain the Scriptures and that schoolchildren should be taught to read the Bible.",
+      "claim_type": "event",
+      "entities": ["Sweden"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The Västerås ordinances (1527) required preaching of the pure Word of God, and the Swedish Reformation (formalized in Laurentius Petri's 1571 Church Ordinance) mandated vernacular Scripture teaching and instruction of the young. GC's summary of Diet-mandated Scripture teaching is broadly accurate, conflating measures across the Reformation decades.",
+        "modern_consensus": "Swedish Reformation legislation required vernacular preaching and Scripture instruction.",
+        "sources": [
+          {"title": "Diet of Västerås 1527 (academia.edu)", "url": "https://www.academia.edu/36663993/The_Diet_of_V%C3%A4steras_in_Swedish_Church_Historiography_Some_Remarks", "source_class": "academic", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-074",
+      "paragraph": 21,
+      "quote": "Sweden became one of the bulwarks of Protestantism.",
+      "claim_text": "Following the Reformation, Sweden became one of the bulwarks of Protestantism.",
+      "claim_type": "interpretive",
+      "entities": ["Sweden"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] CONTROL SAMPLE (extractor flagged needs_verification:false as interpretive). It carries a checkable, textbook-level factual claim: Lutheran Sweden became a leading Protestant power, decisively so in the Thirty Years' War under Gustavus Adolphus. Extractor treated a defensible factual assertion as pure interpretation — minor blind spot, but the claim is uncontroversially supported.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-13-075",
+      "paragraph": 21,
+      "quote": "A century later, at a time of sorest peril, this small and hitherto feeble nation—the only one in Europe that dared lend a helping hand—came to the deliverance of Germany in the terrible struggles of the Thirty Years’ War.",
+      "claim_text": "About a century after its Reformation, Sweden, described as the only nation in Europe that dared to help, came to the deliverance of Germany during the Thirty Years' War.",
+      "claim_type": "event",
+      "entities": ["Sweden", "Germany", "Thirty Years' War"],
+      "needs_verification": true,
+      "extractor_note": "Contains a superlative claim ('the only one in Europe that dared lend a helping hand') alongside the core historical event; both checkable.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Core event supported: Sweden under Gustavus Adolphus intervened in the Thirty Years' War in 1630, rescuing the German Protestant cause (victory at Breitenfeld, 1631). The superlative 'the only one in Europe that dared lend a helping hand' overstates: Denmark had intervened earlier (1625-29), and France subsidized and later directly entered the war on the anti-Habsburg side. The rhetorical exclusivity is period Protestant framing, but the substantive claim (Sweden's decisive intervention ~a century after its Reformation) is textbook-accurate.",
+        "modern_consensus": "Gustavus Adolphus's Sweden intervened decisively for German Protestants in 1630; other powers (Denmark earlier, France later) also opposed the Habsburgs.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 3 (local): Gustavus Adolphus", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol3.txt", "source_class": "primary", "supports_verdict": true, "note": "Gustavus Adolphus as champion of Protestantism in Germany (period source)."}
+        ]
+      }
+    },
+    {
+      "id": "GC-13-076",
+      "paragraph": 21,
+      "quote": "It was the armies of Sweden that enabled Germany to turn the tide of popish success, to win toleration for the Protestants,—Calvinists as well as Lutherans,—and to restore liberty of conscience to those countries that had accepted the Reformation.",
+      "claim_text": "Sweden's armies enabled Germany to turn the tide of Catholic success in the Thirty Years' War, winning toleration for Protestants (both Calvinists and Lutherans) and restoring liberty of conscience to the countries that had accepted the Reformation.",
+      "claim_type": "causal",
+      "entities": ["Sweden", "Germany", "Thirty Years' War"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Swedish military intervention (1630 onward) reversed the Catholic/Imperial ascendancy of the late 1620s and helped secure the settlement of the Peace of Westphalia (1648), which extended legal recognition to Calvinists alongside Lutherans and restored the confessional balance. GC overstates Sweden's sole agency — France's subsidies and later entry, and the broader anti-Habsburg coalition, were also decisive — but the causal substance (Swedish arms turned the tide and helped win Protestant toleration) is sound.",
+        "modern_consensus": "Swedish intervention was a major factor in reversing Imperial gains and in the Westphalian settlement that recognized Calvinism; France and allies were also essential.",
+        "sources": [
+          {"title": "J. A. Wylie, History of Protestantism, vol. 3 (local): Gustavus Adolphus and the Thirty Years' War", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/wylie-history-of-protestantism-vol3.txt", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    }
+  ]
+}

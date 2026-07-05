@@ -901,7 +901,7 @@
         "extract": "done",
         "verify": "done",
         "defend": "done",
-        "impact": "pending"
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -936,9 +936,27 @@
           "verdict_downgraded": 0,
           "defense_failed": 7,
           "searches": 1
+        },
+        "impact": {
+          "scored": 7,
+          "load_bearing": 0,
+          "top_impact": [
+            {
+              "id": "GC-13-005",
+              "score": 12
+            },
+            {
+              "id": "GC-13-006",
+              "score": 12
+            },
+            {
+              "id": "GC-13-017",
+              "score": 12
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-05T10:37:40Z"
+      "updated_at": "2026-07-05T10:45:44Z"
     },
     "14": {
       "title": "Later English Reformers",
@@ -947,8 +965,8 @@
       "stages": {
         "extract": "done",
         "verify": "done",
-        "defend": "pending",
-        "impact": "pending"
+        "defend": "done",
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -976,9 +994,34 @@
           "low_confidence": 0,
           "searches": 10,
           "clusters": 7
+        },
+        "defend": {
+          "examined": 3,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 1,
+          "defense_failed": 2,
+          "searches": 1
+        },
+        "impact": {
+          "scored": 3,
+          "load_bearing": 0,
+          "top_impact": [
+            {
+              "id": "GC-14-050",
+              "score": 9
+            },
+            {
+              "id": "GC-14-051",
+              "score": 9
+            },
+            {
+              "id": "GC-14-156",
+              "score": 4
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-05T10:37:15Z"
+      "updated_at": "2026-07-05T10:45:31Z"
     },
     "15": {
       "title": "The Bible And The French Revolution",
