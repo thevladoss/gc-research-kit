@@ -1,0 +1,1415 @@
+{
+  "chapter": 23,
+  "chapter_title": "What Is The Sanctuary?",
+  "stage": "verification",
+  "generated_at": "2026-07-05",
+  "notes": "searches: ~6, clusters: 4 (A Millerite/1844 sanctuary belief + Great Disappointment; B chronology anchors 457 BC / AD 27 / AD 31 / AD 34; C KJV quote-fidelity ~33 attributed_quote; D Hebrew tabernacle/temple descriptions). Doctrinally-central escalation applied to clusters A and B (1844/sanctuary doctrine): academic anchors used — Parker & Dubberstein, Babylonian Chronology (Persian regnal dating); Riesner/Fotheringham + BYU Studies (crucifixion date); Cambridge Church History (Millerism) + Damsteegt (Andrews); local primary Bliss 1853 and Wellcome 1874 (insider Millerite chronology). Chronology-anchor verdicts kept consistent with chapters 18 and 22: internal Adventist arithmetic supported, historical anchors disputed (457 vs 458 BC; AD 31 crucifixion vs modern 30/33). Pauline authorship of Hebrews kept consistent with chapter 19 (anachronistic: KJV running-head attribution, period-standard). Control sample of 3 needs_verification:false claims re-checked: GC-23-011, GC-23-032, GC-23-048 — all confirmed legitimately theological/interpretive; embedded arithmetic in 011 (70x7=490) checks out. Numerous verbatim KJV quotations verified against KJV via common-knowledge fast-path (supported, empty sources). Tabernacle/Day-of-Atonement descriptions checked against Exodus 25-27 and Leviticus 16.",
+  "claims": [
+    {
+      "id": "GC-23-001",
+      "paragraph": 1,
+      "quote": "The scripture which above all others had been both the foundation and the central pillar of the advent faith, was the declaration, “Unto two thousand and three hundred days; then shall the sanctuary be cleansed.”",
+      "claim_text": "Daniel 8:14, 'Unto two thousand and three hundred days; then shall the sanctuary be cleansed,' was the central scriptural pillar of the Millerite/Adventist advent faith.",
+      "claim_type": "attributed_quote",
+      "entities": ["Daniel 8:14", "Millerites", "Adventists"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The quotation is verbatim KJV Daniel 8:14. The historical claim that this verse was the foundational text of Millerite/Adventist advent expectation is well documented: Miller's whole 1843/1844 calculation rested on Daniel 8:14 read via the year-day principle. source_quality: academic-partial (Millerism studied in Cambridge Church History; direct insider confirmation in Bliss/Wellcome).",
+        "modern_consensus": "Historians of Millerism agree the 2300-day text of Daniel 8:14 was the interpretive core of the movement.",
+        "sources": [
+          {"title": "Great Disappointment", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "S. Bliss, Memoirs of William Miller (1853)", "url": "https://archive.org/details/memoirsofwilliam00blis", "source_class": "primary", "supports_verdict": true, "note": "local: bliss-memoirs-of-william-miller-1853.txt; 2300 days / cleansing of the sanctuary central to Miller's scheme"},
+          {"title": "“The Year of Jubilee is Come”: Black Millerites, Church History (Cambridge Core)", "url": "https://www.cambridge.org/core/journals/church-history/article/year-of-jubilee-is-come-black-millerites-and-the-politics-of-christian-apocalypticism/F654158C8F277412AD0B6B19F55B6688", "source_class": "academic", "supports_verdict": true, "note": "academic study of Millerism"}
+        ]
+      }
+    },
+    {
+      "id": "GC-23-002",
+      "paragraph": 1,
+      "quote": "These prophetic days had been shown to terminate in the autumn of 1844.",
+      "claim_text": "Millerite/Adventist interpreters calculated that the 2300 prophetic days of Daniel 8:14 would terminate in the autumn of 1844.",
+      "claim_type": "date",
+      "entities": ["Millerites", "1844", "Daniel 8:14"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Accurate description of the Millerite calculation. After the 'seventh-month movement' the terminus was fixed at 22 October 1844 (autumn). source_quality: academic-partial (Damsteegt/Andrews scholarship; primary Wellcome).",
+        "modern_consensus": "The Millerite 2300-day terminus was set to autumn 1844 (22 Oct).",
+        "sources": [
+          {"title": "Great Disappointment", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "I. C. Wellcome, History of the Second Advent Message (1874)", "url": "https://archive.org/details/historyofseconda00well", "source_class": "primary", "supports_verdict": true, "note": "local: wellcome-history-second-advent-message-1874.txt; 2300 days and 70 weeks from B.C. 457"}
+        ]
+      }
+    },
+    {
+      "id": "GC-23-003",
+      "paragraph": 1,
+      "quote": "In common with the rest of the Christian world, Adventists then held that the earth, or some portion of it, was the sanctuary.",
+      "claim_text": "Before October 1844, Millerite Adventists, in common with much of the rest of the Christian world, held that the earth (or some portion of it) was the sanctuary referred to in Daniel 8:14.",
+      "claim_type": "biographical",
+      "entities": ["Millerites", "Adventists"],
+      "needs_verification": true,
+      "extractor_note": "Historical claim about the prevailing pre-1844 belief among Millerites/Adventists and 'the rest of the Christian world.'",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Scholarship confirms Millerites interpreted the sanctuary of Daniel 8 as the earth (and/or the church) to be cleansed by fire at the advent; Wellcome's insider account explicitly reasons that 'the old city of Jerusalem must be the sanctuary' / the whole earth. The sweeping 'in common with the rest of the Christian world' is a period generalization (most Christians did not focus on Daniel 8:14 at all), hence medium confidence. source_quality: academic-partial.",
+        "modern_consensus": "Millerites (pre-Oct 1844) identified the sanctuary of Dan 8:14 with the earth/church to be purified by fire at the Second Coming.",
+        "sources": [
+          {"title": "Miller, sanctuary as earth/church — Great Disappointment / Millerism", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true, "note": "'the eyes of the Millerites were fixed on the earth, which they believed would be cleansed by fire'"},
+          {"title": "I. C. Wellcome, History of the Second Advent Message (1874)", "url": "https://archive.org/details/historyofseconda00well", "source_class": "primary", "supports_verdict": true, "note": "local; 'old city of Jerusalem must be the sanctuary, and the whole earth'"},
+          {"title": "P. G. Damsteegt, Sanctuary and Advent Experience (Andrews University)", "url": "https://www.andrews.edu/~damsteeg/sanc.html", "source_class": "academic", "supports_verdict": true, "note": "denominational-academic; documents pre-1844 earth-as-sanctuary view"}
+        ]
+      }
+    },
+    {
+      "id": "GC-23-004",
+      "paragraph": 1,
+      "quote": "They understood that the cleansing of the sanctuary was the purification of the earth by the fires of the last great day, and that this would take place at the second advent.",
+      "claim_text": "Pre-1844 Millerite Adventists understood the 'cleansing of the sanctuary' to mean the purification of the earth by fire at the second advent.",
+      "claim_type": "event",
+      "entities": ["Millerites"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Directly confirmed: Miller assumed the 'cleansing of the sanctuary' represented purification of the earth by fire at Christ's Second Coming. source_quality: academic-partial.",
+        "modern_consensus": "Millerites equated the cleansing of the sanctuary with the fiery purification of the earth at the advent.",
+        "sources": [
+          {"title": "Millerism / Great Disappointment", "url": "https://en.wikipedia.org/wiki/Millerism", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "P. G. Damsteegt, Sanctuary and Advent Experience (Andrews University)", "url": "https://www.andrews.edu/~damsteeg/sanc.html", "source_class": "academic", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-23-005",
+      "paragraph": 1,
+      "quote": "Hence the conclusion that Christ would return to the earth in 1844.",
+      "claim_text": "Based on their sanctuary interpretation, Millerite Adventists concluded that Christ would return to the earth in 1844.",
+      "claim_type": "event",
+      "entities": ["Millerites", "1844"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Textbook fact of Millerite history: the sanctuary-cleansing interpretation yielded the expectation of Christ's return in 1844 (22 October). source_quality: academic-partial.",
+        "modern_consensus": "Millerites expected Christ's visible return in 1844.",
+        "sources": [
+          {"title": "Great Disappointment", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "S. Bliss, Memoirs of William Miller (1853)", "url": "https://archive.org/details/memoirsofwilliam00blis", "source_class": "primary", "supports_verdict": true, "note": "local"}
+        ]
+      }
+    },
+    {
+      "id": "GC-23-006",
+      "paragraph": 2,
+      "quote": "But the appointed time had passed, and the Lord had not appeared.",
+      "claim_text": "The date Millerite Adventists expected for Christ's second coming (1844) passed without a visible return of Christ.",
+      "claim_type": "event",
+      "entities": ["Millerites", "1844", "Great Disappointment"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Great Disappointment: Christ did not visibly appear on 22 October 1844. source_quality: academic-partial (Cambridge Church History treats Millerism; encyclopedic corroboration).",
+        "modern_consensus": "October 22, 1844 passed without the expected advent — the Great Disappointment.",
+        "sources": [
+          {"title": "Great Disappointment", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "“The Year of Jubilee is Come”, Church History (Cambridge Core)", "url": "https://www.cambridge.org/core/journals/church-history/article/year-of-jubilee-is-come-black-millerites-and-the-politics-of-christian-apocalypticism/F654158C8F277412AD0B6B19F55B6688", "source_class": "academic", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-23-007",
+      "paragraph": 2,
+      "quote": "Many rashly cut the knot of difficulty by denying that the 2300 days ended in 1844.",
+      "claim_text": "After the Great Disappointment of 1844, many former Millerite believers responded by denying that the 2300 prophetic days had ended in 1844.",
+      "claim_type": "event",
+      "entities": ["Millerites", "1844"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "After the disappointment the movement fragmented; one major response abandoned the 1844 terminus (recalculating or spiritualizing the dates), while a minority (the future Sabbatarian Adventists) retained 1844 and reinterpreted the sanctuary. GC's characterization matches the historiography of post-1844 splintering. source_quality: academic-partial.",
+        "modern_consensus": "Post-1844 Adventism split; many rejected the 1844 terminus rather than reinterpret the sanctuary.",
+        "sources": [
+          {"title": "Great Disappointment (aftermath / factions)", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "I. C. Wellcome, History of the Second Advent Message (1874)", "url": "https://archive.org/details/historyofseconda00well", "source_class": "primary", "supports_verdict": true, "note": "local; documents post-1844 debates over the 2300 days"}
+        ]
+      }
+    },
+    {
+      "id": "GC-23-008",
+      "paragraph": 3,
+      "quote": "The 2300 days had been found to begin when the commandment of Artaxerxes for the restoration and building of Jerusalem, went into effect, in the autumn of B.C. 457.",
+      "claim_text": "Millerite/Adventist chronology dated the start of the 2300-day prophetic period to the going into effect of Artaxerxes' commandment to restore and rebuild Jerusalem, in the autumn of 457 BC.",
+      "claim_type": "date",
+      "entities": ["Artaxerxes", "Jerusalem", "457 BC"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "That the Millerites SO dated it is accurate (Bliss/Wellcome). The underlying anchor is genuinely disputed: Parker & Dubberstein's authoritative Babylonian chronology places the 7th year of Artaxerxes I at 458 BC on the Persian spring-to-spring (Nisan) reckoning; 457 BC follows only on a Hebrew fall-to-fall reckoning of the regnal year. Standard reference works tend to 458; 457 has real but contested support. Consistent with the ch.18/22 pattern (historical anchor disputed). source_quality: academic-full (Parker & Dubberstein).",
+        "modern_consensus": "7th year of Artaxerxes I = 458 BC (spring reckoning); 457 BC depends on a fall-to-fall regnal reckoning — the calendar question is unresolved.",
+        "sources": [
+          {"title": "R. A. Parker & W. H. Dubberstein, Babylonian Chronology 626 B.C.–A.D. 75", "url": "https://archive.org/details/babylonianchrono0000park", "source_class": "academic", "supports_verdict": true, "note": "7th year of Artaxerxes I begins Nisan 1, 458 BC"},
+          {"title": "Artaxerxes I", "url": "https://en.wikipedia.org/wiki/Artaxerxes_I", "source_class": "encyclopedia", "supports_verdict": true, "note": "regnal chronology; 458/457 depending on calendar"},
+          {"title": "Ministry Magazine, ‘Establishing the date 457 B.C.’ (1988)", "url": "https://www.ministrymagazine.org/archive/1988/04/establishing-the-date-457-b.c", "source_class": "apologetic", "supports_verdict": true, "note": "denominational position defending 457 fall-to-fall"}
+        ]
+      }
+    },
+    {
+      "id": "GC-23-009",
+      "paragraph": 3,
+      "quote": "Sixty-nine weeks, the first 483 of the 2300 years, were to reach to the Messiah, the Anointed One; and Christ’s baptism and anointing by the Holy Spirit, A.D. 27, exactly fulfilled the specification.",
+      "claim_text": "Adventist chronology held that the first 483 years (sixty-nine prophetic weeks) of the 2300-year period, counted from 457 BC, terminated at Christ's baptism and anointing by the Holy Spirit in AD 27.",
+      "claim_type": "date",
+      "entities": ["Jesus Christ", "AD 27", "Daniel 9:25-27"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "The internal arithmetic is valid (457 BC + 483 years, with no year 0, = AD 27). The historical anchor — Jesus' baptism/anointing precisely in AD 27 — is disputed: modern scholarship places the start of Jesus' ministry c. AD 28–29 (from Luke 3:1, Tiberius' 15th year) and does not fix AD 27 as a datum. The value AD 27 is a byproduct of the disputed 457 BC anchor. Consistent with ch.18/22. source_quality: academic-full.",
+        "modern_consensus": "Jesus' baptism/ministry-start is usually placed c. AD 28–29; AD 27 is not an independently established date.",
+        "sources": [
+          {"title": "Crucifixion of Jesus (chronology of ministry)", "url": "https://en.wikipedia.org/wiki/Crucifixion_of_Jesus", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "‘Dating the Death of Jesus Christ’, BYU Studies", "url": "https://byustudies.byu.edu/article/dating-the-death-of-jesus-christ", "source_class": "academic", "supports_verdict": true, "note": "reviews ministry/crucifixion chronology"}
+        ]
+      }
+    },
+    {
+      "id": "GC-23-010",
+      "paragraph": 3,
+      "quote": "Three and a half years after His baptism, Christ was crucified, in the spring of A.D. 31.",
+      "claim_text": "According to this Adventist chronology, Christ was crucified in the spring of AD 31, three and a half years after His baptism.",
+      "claim_type": "date",
+      "entities": ["Jesus Christ", "AD 31", "Crucifixion"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "AD 31 is the Adventist crucifixion date derived from the 457 BC + 486.5-year chain; it is not a mainstream scholarly contender. Modern debate runs between AD 30 (majority; Riesner, Fotheringham) and AD 33, both anchored to Nisan-14-on-a-Friday astronomy under Pilate. AD 31 does not satisfy the Friday-Passover criterion in the leading reconstructions. Marked disputed for consistency with the ch.18/22 pattern (historical anchor disputed). source_quality: academic-full.",
+        "modern_consensus": "Crucifixion is dated AD 30 (majority) or AD 33; AD 31 is not held by mainstream scholarship.",
+        "sources": [
+          {"title": "Crucifixion of Jesus", "url": "https://en.wikipedia.org/wiki/Crucifixion_of_Jesus", "source_class": "encyclopedia", "supports_verdict": true, "note": "range AD 30–33; Riesner favors AD 30"},
+          {"title": "C. Palmer, ‘J. K. Fotheringham and the AD 30 Date of the Crucifixion’", "url": "https://www.academia.edu/44668013/J_K_Fotheringham_and_the_AD_30_Date_of_the_Crucifixion", "source_class": "academic", "supports_verdict": true},
+          {"title": "‘Dating the Death of Jesus Christ’, BYU Studies", "url": "https://byustudies.byu.edu/article/dating-the-death-of-jesus-christ", "source_class": "academic", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-23-011",
+      "paragraph": 3,
+      "quote": "The seventy weeks, or 490 years, were to pertain especially to the Jews.",
+      "claim_text": "The seventy prophetic weeks (490 years) of Daniel 9 were understood to pertain especially to the Jewish nation.",
+      "claim_type": "theological",
+      "entities": ["Daniel 9", "Jews"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample re-check of a needs_verification:false claim. This is a prophetic-interpretation claim (the year-day application of the 70 weeks and their reference to Israel), which is theological/hermeneutical and not empirically checkable. Note: it embeds an arithmetic assertion (70 weeks x 7 = 490 years) that is arithmetically correct, so the extractor's false-flag is defensible; the interpretive framing remains unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-012",
+      "paragraph": 3,
+      "quote": "At the expiration of this period, the nation sealed its rejection of Christ by the persecution of His disciples, and the apostles turned to the Gentiles, A.D. 34.",
+      "claim_text": "Adventist chronology held that in AD 34, at the expiration of the 490-year period, the Jewish nation sealed its rejection of Christ through persecution of His disciples, and the apostles turned to the Gentiles.",
+      "claim_type": "date",
+      "entities": ["AD 34", "Apostles", "Jews", "Gentiles"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "AD 34 is the Adventist terminus of the 490 years (457 BC + 490, no year 0), tied to the stoning of Stephen and the turn to the Gentiles. Modern scholarship does not fix AD 34 as the date of a national 'sealing' or of the mission to the Gentiles — the outreach to Gentiles was gradual (Acts 10–15) and undated with precision; Stephen's death is variously placed c. AD 31–36. The date is a byproduct of the disputed 457 BC anchor. Consistent with ch.18/22. source_quality: academic-full.",
+        "modern_consensus": "No firm scholarly date of AD 34 for Israel's 'rejection' or the Gentile mission; these events are undated/gradual in Acts.",
+        "sources": [
+          {"title": "Crucifixion of Jesus / early apostolic chronology", "url": "https://en.wikipedia.org/wiki/Crucifixion_of_Jesus", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "‘Dating the Death of Jesus Christ’, BYU Studies", "url": "https://byustudies.byu.edu/article/dating-the-death-of-jesus-christ", "source_class": "academic", "supports_verdict": true, "note": "reviews the disputed 70-weeks/Ezra-7 chronology on which AD 34 depends"}
+        ]
+      }
+    },
+    {
+      "id": "GC-23-013",
+      "paragraph": 3,
+      "quote": "From A.D. 34, 1810 years extend to 1844.",
+      "claim_text": "Adding 1810 years to AD 34 yields the year 1844.",
+      "claim_type": "date",
+      "entities": ["AD 34", "1844"],
+      "needs_verification": true,
+      "extractor_note": "A checkable arithmetic/calendrical claim underlying the chapter's chronology.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Pure arithmetic: 34 + 1810 = 1844. The addition is correct (the internal validity of the sum is independent of whether the AD 34 anchor is historically correct, which is addressed at GC-23-012).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-014",
+      "paragraph": 3,
+      "quote": "“Then,” said the angel, “shall the sanctuary be cleansed.”",
+      "claim_text": "In the book of Daniel, an angel is depicted declaring 'then shall the sanctuary be cleansed' regarding the conclusion of the 2300 days.",
+      "claim_type": "attributed_quote",
+      "entities": ["Daniel 8:14", "angel"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV fragment of Daniel 8:14 ('...then shall the sanctuary be cleansed'). In the narrative context of Daniel 8, the answer is spoken to Daniel in the vision (v.13-14 dialogue), consistent with GC's framing.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-015",
+      "paragraph": 4,
+      "quote": "With this reckoning, all was clear and harmonious, except that it was not seen that any event answering to the cleansing of the sanctuary had taken place in 1844.",
+      "claim_text": "No event corresponding to the expected 'cleansing of the sanctuary' (purification of the earth by fire) was observed to take place in 1844.",
+      "claim_type": "event",
+      "entities": ["1844", "Millerites"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Restates the Great Disappointment: no observable advent/earth-cleansing occurred in 1844. source_quality: academic-partial.",
+        "modern_consensus": "Nothing visible answered the expected cleansing/advent in 1844.",
+        "sources": [
+          {"title": "Great Disappointment", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-23-016",
+      "paragraph": 5,
+      "quote": "But God had led His people in the great Advent Movement; His power and glory had attended the work, and He would not permit it to end in darkness and disappointment, to be reproached as a false and fanatical excitement.",
+      "claim_text": "God led His people in the Advent Movement and would not permit it to end in disappointment and reproach.",
+      "claim_type": "theological",
+      "entities": ["Millerites", "Advent Movement", "God"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim of divine providential guidance of the Advent Movement; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-017",
+      "paragraph": 5,
+      "quote": "As they could see no error in their reckoning of the prophetic periods, they were led to examine more closely the subject of the sanctuary.",
+      "claim_text": "After the Great Disappointment, Millerite Adventists who retained their prophetic chronology were led to study the biblical subject of the sanctuary more closely.",
+      "claim_type": "event",
+      "entities": ["Millerites", "Adventists"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Historically accurate: the group that kept the 1844 terminus (Edson, Crosier, Hahn and later Sabbatarian Adventists) re-examined the sanctuary and reinterpreted it as heavenly rather than the earth. source_quality: academic-partial.",
+        "modern_consensus": "Post-1844 Sabbatarian Adventists retained the chronology and reinterpreted the sanctuary as heavenly.",
+        "sources": [
+          {"title": "Great Disappointment (heavenly-sanctuary reinterpretation)", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "P. G. Damsteegt, Sanctuary and Advent Experience (Andrews)", "url": "https://www.andrews.edu/~damsteeg/sanc.html", "source_class": "academic", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-23-018",
+      "paragraph": 6,
+      "quote": "The apostle Paul, in the Epistle to the Hebrews, says: “Then verily the first covenant had also ordinances of divine service, and a worldly sanctuary.",
+      "claim_text": "The Epistle to the Hebrews in the New Testament was written by the apostle Paul.",
+      "claim_type": "biographical",
+      "entities": ["Apostle Paul", "Epistle to the Hebrews"],
+      "needs_verification": true,
+      "extractor_note": "Pauline authorship of Hebrews is the traditional attribution followed by GC 1911; it is disputed among modern biblical scholars, who generally regard the author as anonymous.",
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "high",
+        "rationale": "Modern scholarly consensus holds that Hebrews is internally anonymous and was not written by Paul (differences in Greek style, structure, and self-presentation; the Pauline ascription arose in antiquity to secure apostolic authority). But White simply follows the KJV, whose running head reads 'The Epistle of Paul the Apostle to the Hebrews' — the standard, universal attribution in the devotional and scholarly culture of 1888/1911. This is period-typical usage, not an idiosyncratic error. Consistent with the chapter-19 verdict.",
+        "modern_consensus": "The author of Hebrews is unknown; most scholars deny Pauline authorship.",
+        "period_historiography": "The KJV (and virtually all 18th–19th-century English Bibles) titled the book 'The Epistle of Paul the Apostle to the Hebrews'; Pauline authorship was the default assumption in White's milieu.",
+        "sources": [
+          {"title": "Authorship of the Epistle to the Hebrews", "url": "https://en.wikipedia.org/wiki/Authorship_of_the_Epistle_to_the_Hebrews", "source_class": "encyclopedia", "supports_verdict": true, "note": "modern consensus: author unknown, not Paul"},
+          {"title": "‘Authorship of the Epistle to the Hebrews’, BYU Religious Studies Center", "url": "https://rsc.byu.edu/how-new-testament-came-be/authorship-epistle-hebrews", "source_class": "academic", "supports_verdict": true},
+          {"title": "KJV running-head attribution 'The Epistle of Paul the Apostle to the Hebrews'", "url": "https://en.wikipedia.org/wiki/Epistle_to_the_Hebrews", "source_class": "primary", "supports_verdict": true, "note": "documents the traditional/period attribution White followed"}
+        ]
+      }
+    },
+    {
+      "id": "GC-23-019",
+      "paragraph": 6,
+      "quote": "“Then verily the first covenant had also ordinances of divine service, and a worldly sanctuary. For there was a tabernacle made; the first, wherein was the candlestick, and the table, and the showbread; which is called the sanctuary. And after the second veil, the tabernacle which is called the holiest of all; which had the golden censer, and the ark of the covenant overlaid round about with gold, wherein was the golden pot that had manna, and Aaron’s rod that budded, and the tables of the covenant; and over it the cherubim of glory shadowing the mercy-seat.”",
+      "claim_text": "Hebrews 9:1-5 (KJV) describes the first covenant's worldly sanctuary, containing the candlestick, table, and showbread in the first apartment, and behind the second veil, the holiest of all, containing the golden censer, the ark of the covenant overlaid with gold, the golden pot of manna, Aaron's rod that budded, the tables of the covenant, and the cherubim of glory over the mercy-seat.",
+      "claim_type": "attributed_quote",
+      "entities": ["Epistle to the Hebrews", "Apostle Paul", "Tabernacle"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Substantially verbatim KJV Hebrews 9:1-5; only trivial modernizations ('showbread' for 'shewbread', 'cherubim' for KJV 'cherubims', 'holiest of all' lowercased). Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-020",
+      "paragraph": 6,
+      "quote": "In their investigation they learned that there is no Scripture evidence sustaining the popular view that the earth is the sanctuary; but they found in the Bible a full explanation of the subject of the sanctuary, its nature, location, and services",
+      "claim_text": "There is no scriptural evidence sustaining the view that the earth is the sanctuary referred to in Daniel 8:14; the Bible instead gives a full explanation of the sanctuary's nature, location, and services.",
+      "claim_type": "theological",
+      "entities": ["Adventists", "sanctuary doctrine"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "A claim of biblical interpretation (that Scripture does not support earth-as-sanctuary and does explain a literal/heavenly sanctuary). Hermeneutical, not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-021",
+      "paragraph": 7,
+      "quote": "The sanctuary to which Paul here refers was the tabernacle built by Moses at the command of God, as the earthly dwelling-place of the Most High.",
+      "claim_text": "The tabernacle referenced in Hebrews 9 was built by Moses, at the command of God, as the earthly dwelling place of God.",
+      "claim_type": "biographical",
+      "entities": ["Moses", "Tabernacle"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurately restates the biblical account: the wilderness tabernacle (Exodus 25-40) was built under Moses at God's command as God's dwelling among Israel ('let them make me a sanctuary; that I may dwell among them', Ex 25:8). Hebrews 9 refers to this tabernacle.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-022",
+      "paragraph": 7,
+      "quote": "“Let them make Me a sanctuary; that I may dwell among them,”(669) was the direction given to Moses while in the mount with God.",
+      "claim_text": "According to Exodus, God gave Moses the direction 'Let them make Me a sanctuary; that I may dwell among them' while Moses was on the mount with God.",
+      "claim_type": "attributed_quote",
+      "entities": ["Moses", "Exodus 25:8"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV Exodus 25:8 ('And let them make me a sanctuary; that I may dwell among them'), given during Moses' stay on Sinai (Ex 24-31). Only capitalization/pronoun styling differs.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-023",
+      "paragraph": 7,
+      "quote": "The Israelites were journeying through the wilderness, and the tabernacle was so constructed that it could be removed from place to place; yet it was a structure of great magnificence.",
+      "claim_text": "The tabernacle built by Moses was constructed to be portable so it could be moved from place to place as the Israelites journeyed through the wilderness, and was a structure of great magnificence.",
+      "claim_type": "event",
+      "entities": ["Israelites", "Tabernacle"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Matches the biblical description: the tabernacle was a portable, dismountable tent-sanctuary carried by the Levites during the wilderness journey (Numbers 4; Exodus 26), richly appointed with gold, silver, and fine fabrics.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-024",
+      "paragraph": 7,
+      "quote": "Its walls consisted of upright boards heavily plated with gold, and set in sockets of silver, while the roof was formed of a series of curtains, or coverings, the outer of skins, the innermost of fine linen beautifully wrought with figures of cherubim.",
+      "claim_text": "The tabernacle's walls consisted of upright boards plated with gold set in sockets of silver, and its roof was formed of curtains/coverings, the outer of skins and the innermost of fine linen wrought with figures of cherubim.",
+      "claim_type": "event",
+      "entities": ["Tabernacle"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate to Exodus 26: upright boards overlaid with gold set in silver sockets (Ex 26:15-25, 19); innermost linen curtains wrought with cherubim (26:1), with coverings of skins outside (26:14).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-025",
+      "paragraph": 7,
+      "quote": "Besides the outer court, which contained the altar of burnt-offering, the tabernacle itself consisted of two apartments called the holy and the most holy place, separated by a rich and beautiful curtain, or veil; a similar veil closed the entrance to the first apartment.",
+      "claim_text": "Besides the outer court containing the altar of burnt-offering, the tabernacle consisted of two apartments, the holy place and the most holy place, separated by a veil, with a similar veil closing the entrance to the first apartment.",
+      "claim_type": "event",
+      "entities": ["Tabernacle"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate to Exodus 26-27: outer court with the brazen altar of burnt offering (Ex 27:1-9); two apartments (holy / most holy) divided by the veil (26:31-33); a screen/hanging at the tent door (26:36).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-026",
+      "paragraph": 8,
+      "quote": "In the holy place was the candlestick, on the south, with its seven lamps giving light to the sanctuary both by day and by night; on the north stood the table of showbread; and before the veil separating the holy from the most holy was the golden altar of incense, from which the cloud of fragrance, with the prayers of Israel, was daily ascending before God.",
+      "claim_text": "In the tabernacle's holy place, the seven-lamp candlestick stood on the south side, the table of showbread stood on the north side, and the golden altar of incense stood before the veil separating the holy place from the most holy place.",
+      "claim_type": "event",
+      "entities": ["Tabernacle", "Israel"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Matches Exodus: candlestick (menorah) on the south side and table on the north (Ex 26:35), seven lamps (25:37), golden altar of incense before the veil (30:1-6) with daily incense (30:7-8).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-027",
+      "paragraph": 9,
+      "quote": "In the most holy place stood the ark, a chest of precious wood overlaid with gold, the depository of the two tables of stone upon which God had inscribed the law of ten commandments.",
+      "claim_text": "In the tabernacle's most holy place stood the ark, a chest of precious wood overlaid with gold, which held the two stone tables inscribed with the ten commandments.",
+      "claim_type": "event",
+      "entities": ["Ark of the Covenant", "Tabernacle", "Ten Commandments"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate: the ark of acacia (shittim) wood overlaid with gold (Ex 25:10-11) in the most holy place held the two stone tables of the Decalogue (Ex 25:16, 21; Deut 10:1-5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-028",
+      "paragraph": 9,
+      "quote": "Above the ark, and forming the cover to the sacred chest, was the mercy-seat, a magnificent piece of workmanship, surmounted by two cherubim, one at each end, and all wrought of solid gold.",
+      "claim_text": "The mercy-seat, which formed the cover of the ark, was surmounted by two cherubim (one at each end) and was wrought entirely of solid gold.",
+      "claim_type": "event",
+      "entities": ["Ark of the Covenant", "mercy-seat"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate to Exodus 25:17-19: the mercy seat of pure gold as the ark's cover, with two cherubim of gold, one at each end, of beaten work.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-029",
+      "paragraph": 9,
+      "quote": "In this apartment the divine presence was manifested in the cloud of glory between the cherubim.",
+      "claim_text": "The divine presence was manifested in a cloud of glory between the cherubim in the most holy place.",
+      "claim_type": "theological",
+      "entities": ["Tabernacle", "cherubim"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim of a supernatural manifestation of God's presence (the shekinah) between the cherubim; describes the biblical motif (Ex 25:22; Lev 16:2) but the reality asserted is not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-030",
+      "paragraph": 10,
+      "quote": "After the settlement of the Hebrews in Canaan, the tabernacle was replaced by the temple of Solomon, which, though a permanent structure and upon a larger scale, observed the same proportions, and was similarly furnished.",
+      "claim_text": "After the Hebrews settled in Canaan, the tabernacle was replaced by Solomon's Temple, a permanent structure on a larger scale that observed the same proportions and was similarly furnished.",
+      "claim_type": "event",
+      "entities": ["Solomon's Temple", "Canaan", "Hebrews"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate: Solomon's Temple (1 Kings 6) succeeded the tabernacle as a permanent structure at double the linear dimensions (60x20 cubits vs 30x10) — hence 'the same proportions' (3:1) on a larger scale — with corresponding furnishings (two apartments, ark, cherubim, lampstands, showbread, altar of incense).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-031",
+      "paragraph": 10,
+      "quote": "In this form the sanctuary existed—except while it lay in ruins in Daniel’s time—until its destruction by the Romans, in A.D. 70.",
+      "claim_text": "The Jerusalem sanctuary (Solomon's Temple and its successor) existed, except during a period of ruin in Daniel's time, until the Romans destroyed it in AD 70.",
+      "claim_type": "date",
+      "entities": ["Jerusalem Temple", "Romans", "AD 70", "Daniel"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The Jerusalem temple was destroyed by the Romans (Titus) in AD 70 — a textbook fact. GC's phrase 'in this form... except while it lay in ruins in Daniel's time' compresses the sequence (Solomon's temple destroyed 586 BC, Second/Herodian temple rebuilt) but correctly notes the Babylonian-era ruin and the AD 70 Roman destruction; the continuity of the temple institution is a fair summary.",
+        "modern_consensus": "The Second (Herodian) Temple was destroyed by Rome in AD 70.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-032",
+      "paragraph": 11,
+      "quote": "This is the only sanctuary that ever existed on the earth, of which the Bible gives any information.",
+      "claim_text": "The tabernacle/temple sanctuary described is the only earthly sanctuary about which the Bible gives information.",
+      "claim_type": "theological",
+      "entities": ["sanctuary doctrine"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample re-check of a needs_verification:false claim. It is an interpretive/doctrinal generalization treating the tabernacle-and-successor-temple as a single institution ('the only sanctuary'). It embeds an arguable factual edge (the Bible also describes other sanctuaries/high places and Ezekiel's visionary temple), but GC's meaning is the divinely-authorized central sanctuary; the assertion is a theological framing, not an empirically decidable proposition. Extractor's false-flag is defensible.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-033",
+      "paragraph": 12,
+      "quote": "And the use of the word “also” intimates that Paul has before made mention of this sanctuary.",
+      "claim_text": "The word 'also' in Hebrews 9:1 is interpreted as intimating that Paul had previously made mention of a different sanctuary earlier in the epistle.",
+      "claim_type": "interpretive",
+      "entities": ["Epistle to the Hebrews", "Apostle Paul"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "An exegetical inference from the word 'also' in Hebrews 9:1; a matter of textual interpretation, not an empirically checkable fact. (The Pauline authorship it presupposes is handled at GC-23-018.)",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-034",
+      "paragraph": 12,
+      "quote": "“Now of the things which we have spoken this is the sum: We have such an high priest, who is set on the right hand of the throne of the Majesty in the heavens; a minister of the sanctuary, and of the true tabernacle, which the Lord pitched, and not man.”",
+      "claim_text": "Hebrews 8:1-2 (KJV) states that believers have a high priest set at the right hand of the throne of the Majesty in the heavens, a minister of the sanctuary and of the true tabernacle which the Lord pitched, not man.",
+      "claim_type": "attributed_quote",
+      "entities": ["Epistle to the Hebrews", "Apostle Paul"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Hebrews 8:1-2. Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-035",
+      "paragraph": 13,
+      "quote": "One sanctuary was on earth, the other is in heaven.",
+      "claim_text": "There are two sanctuaries in the biblical scheme: one on earth (built by Moses) and one in heaven (where Christ ministers).",
+      "claim_type": "theological",
+      "entities": ["sanctuary doctrine"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/interpretive claim distinguishing an earthly and a heavenly sanctuary; a doctrinal reading of Hebrews, not an empirically verifiable fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-036",
+      "paragraph": 14,
+      "quote": "The Lord directed him, “According to all that I show thee, after the pattern of the tabernacle, and the pattern of all the instruments thereof, even so shall ye make it.”",
+      "claim_text": "According to Exodus 25:9, the Lord directed Moses to make the tabernacle and its instruments according to the pattern shown to him.",
+      "claim_type": "attributed_quote",
+      "entities": ["Moses", "Exodus 25:9"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV Exodus 25:9 ('According to all that I shew thee...'); only the archaic 'shew' is modernized to 'show'. Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-037",
+      "paragraph": 14,
+      "quote": "And again the charge was given, “Look that thou make them after their pattern, which was showed thee in the mount.”",
+      "claim_text": "According to Exodus 25:40, Moses was charged to make the tabernacle furnishings after the pattern shown to him in the mount.",
+      "claim_type": "attributed_quote",
+      "entities": ["Moses", "Exodus 25:40"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV Exodus 25:40 ('And look that thou make them after their pattern, which was shewed thee in the mount'); only 'shewed' modernized to 'showed'. Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-038",
+      "paragraph": 14,
+      "quote": "And Paul says that the first tabernacle “was a figure for the time then present, in which were offered both gifts and sacrifices;” that its holy places were “patterns of things in the heavens;” that the priests who offered gifts according to the law, served “unto the example and shadow of heavenly things,” and that “Christ is not entered into the holy places made with hands, which are the figures of the true, but into heaven itself, now to appear in the presence of God for us.”",
+      "claim_text": "Paul, in Hebrews, states that the first (earthly) tabernacle was a figure for the time then present, that its holy places were patterns of things in the heavens, that its priests served unto the example and shadow of heavenly things, and that Christ entered not the holy places made with hands but into heaven itself, to appear in the presence of God for believers.",
+      "claim_type": "attributed_quote",
+      "entities": ["Epistle to the Hebrews", "Apostle Paul", "Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurately stitches KJV fragments: 'figure for the time then present...gifts and sacrifices' (Heb 9:9), 'patterns of things in the heavens' (9:23), 'example and shadow of heavenly things' (8:5), and Heb 9:24. All faithful to KJV. (Pauline authorship handled at GC-23-018.)",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-039",
+      "paragraph": 15,
+      "quote": "The walls had the appearance of massive gold, reflecting in every direction the light of the seven lamps of the golden candlestick.",
+      "claim_text": "The tabernacle's gold-plated walls reflected the light of the seven lamps of the golden candlestick in every direction.",
+      "claim_type": "event",
+      "entities": ["Tabernacle"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[common_knowledge] A descriptive elaboration consistent with the biblical data — gold-overlaid boards (Ex 26:29) and the seven-lamp golden candlestick (Ex 25:31-37). The visual detail ('reflecting in every direction') is homiletic embellishment but not contrary to the text.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-040",
+      "paragraph": 15,
+      "quote": "The table of showbread and the altar of incense glittered like burnished gold.",
+      "claim_text": "The table of showbread and the altar of incense in the tabernacle glittered like burnished gold.",
+      "claim_type": "event",
+      "entities": ["Tabernacle"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Consistent with Exodus: the table of showbread overlaid with pure gold (Ex 25:23-24) and the golden altar of incense (Ex 30:1-3).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-041",
+      "paragraph": 15,
+      "quote": "The gorgeous curtain which formed the ceiling, inwrought with figures of angels in blue and purple and scarlet, added to the beauty of the scene.",
+      "claim_text": "The tabernacle's ceiling curtain was inwrought with figures of angels in blue, purple, and scarlet.",
+      "claim_type": "event",
+      "entities": ["Tabernacle"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate to Exodus 26:1: the innermost curtains of fine twined linen, blue, purple, and scarlet, with cherubim (angels) of cunning work.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-042",
+      "paragraph": 15,
+      "quote": "And beyond the second veil was the holy shekinah, the visible manifestation of God’s glory, before which none but the high priest could enter and live.",
+      "claim_text": "Beyond the second veil of the tabernacle was the shekinah, the visible manifestation of God's glory, which none but the high priest could enter [the most holy place] and live.",
+      "claim_type": "event",
+      "entities": ["Tabernacle", "shekinah", "high priest"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Matches the biblical description: only the high priest entered the most holy place, once a year on the Day of Atonement (Lev 16:2, 34; Heb 9:7), where the glory-cloud appeared over the mercy seat. 'Shekinah' is the traditional rabbinic term for that manifested glory. The physical/ritual claim is accurate; the reality of a supernatural glory is theological.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-043",
+      "paragraph": 16,
+      "quote": "The abiding-place of the King of kings, where thousand thousands minister unto Him, and ten thousand times ten thousand stand before Him;(673)",
+      "claim_text": "The heavenly sanctuary is depicted (citing Daniel 7:10) as the abiding place of the King of kings, where 'thousand thousands' minister to Him and 'ten thousand times ten thousand' stand before Him.",
+      "claim_type": "attributed_quote",
+      "entities": ["Daniel 7:10", "heavenly sanctuary"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully echoes KJV Daniel 7:10 ('thousand thousands ministered unto him, and ten thousand times ten thousand stood before him'), adapted to present tense in prose. Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-044",
+      "paragraph": 17,
+      "quote": "As in vision the apostle John was granted a view of the temple of God in heaven, he beheld there “seven lamps of fire burning before the throne.”",
+      "claim_text": "According to Revelation 4:5, the apostle John, in vision, saw 'seven lamps of fire burning before the throne' in the temple of God in heaven.",
+      "claim_type": "attributed_quote",
+      "entities": ["Apostle John", "Revelation 4:5"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Revelation 4:5 fragment ('seven lamps of fire burning before the throne'). Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-045",
+      "paragraph": 17,
+      "quote": "He saw an angel “having a golden censer; and there was given unto him much incense, that he should offer it with the prayers of all saints upon the golden altar which was before the throne.”",
+      "claim_text": "According to Revelation 8:3, John saw an angel having a golden censer, given much incense to offer with the prayers of all saints upon the golden altar before the throne.",
+      "claim_type": "attributed_quote",
+      "entities": ["Apostle John", "Revelation 8:3"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Revelation 8:3 fragment. Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-046",
+      "paragraph": 17,
+      "quote": "Again, “the temple of God was opened,”(676) and he looked within the inner veil, upon the holy of holies.",
+      "claim_text": "According to Revelation 11:19, John saw that 'the temple of God was opened' and he looked upon the holy of holies within the inner veil.",
+      "claim_type": "attributed_quote",
+      "entities": ["Apostle John", "Revelation 11:19"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Revelation 11:19 fragment ('the temple of God was opened'). The gloss 'within the inner veil, upon the holy of holies' is GC's interpretive framing of the same verse (which continues 'and there was seen in his temple the ark of his testament'). Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-047",
+      "paragraph": 17,
+      "quote": "Here he beheld “the ark of His testament,” represented by the sacred chest constructed by Moses to contain the law of God.",
+      "claim_text": "According to Revelation 11:19, John beheld 'the ark of His testament' in the heavenly temple.",
+      "claim_type": "attributed_quote",
+      "entities": ["Apostle John", "Revelation 11:19", "Ark of the Covenant"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Revelation 11:19 fragment ('the ark of his testament'). Quote fidelity confirmed; the parallel to Moses' ark is GC's interpretation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-048",
+      "paragraph": 18,
+      "quote": "Moses made the earthly sanctuary after a pattern which was shown him. Paul teaches that that pattern was the true sanctuary which is in heaven. And John testifies that he saw it in heaven.",
+      "claim_text": "Moses made the earthly sanctuary after a heavenly pattern shown to him; Paul teaches that pattern was the true heavenly sanctuary; and John testified he saw it in heaven.",
+      "claim_type": "theological",
+      "entities": ["Moses", "Apostle Paul", "Apostle John", "sanctuary doctrine"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample re-check of a needs_verification:false claim. It chains an exegetical/doctrinal argument (Moses' pattern = a literal heavenly sanctuary that John saw). The scriptural sub-facts (Moses built after a pattern; Hebrews and Revelation language) are handled in adjacent quote claims; the synthetic doctrinal conclusion is theological and not empirically testable. Extractor's false-flag is correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-049",
+      "paragraph": 19,
+      "quote": "This is the mystery of mercy into which angels desire to look,—that God can be just while He justifies the repenting sinner, and renews His intercourse with the fallen race; that Christ could stoop to raise unnumbered multitudes from the abyss of ruin, and clothe them with the spotless garments of His own righteousness, to unite with angels who have never fallen, and to dwell forever in the presence of God.",
+      "claim_text": "It is a mystery of mercy, desired to be looked into by angels, that God can be just while justifying the repentant sinner, and that Christ can raise multitudes from ruin to dwell forever with unfallen angels in God's presence.",
+      "claim_type": "theological",
+      "entities": ["angels", "Jesus Christ", "redemption"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological reflection on justification, angels, and redemption; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-050",
+      "paragraph": 20,
+      "quote": "The work of Christ as man’s intercessor is presented in that beautiful prophecy of Zechariah concerning Him “whose name is The Branch.” Says the prophet: “He shall build the temple of the Lord; and He shall bear the glory, and shall sit and rule upon His [the Father’s] throne; and He shall be a priest upon His throne: and the counsel of peace shall be between Them both.”",
+      "claim_text": "The prophet Zechariah prophesied concerning one 'whose name is The Branch,' saying He shall build the temple of the Lord, bear the glory, sit and rule upon the Father's throne, be a priest upon His throne, and that 'the counsel of peace shall be between Them both.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Zechariah", "Zechariah 6:12-13"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV Zechariah 6:12-13; the bracketed '[the Father's]' is an explicit editorial gloss, not a textual alteration. Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-051",
+      "paragraph": 21,
+      "quote": "The apostle Paul points to Him as “the chief corner-stone; in whom all the building fitly framed together groweth unto a holy temple in the Lord: in whom ye also,” he says, “are builded together for a habitation of God through the Spirit.”",
+      "claim_text": "The apostle Paul, in Ephesians, describes Christ as the chief corner-stone in whom all the building fitly framed together grows into a holy temple, and in whom believers are builded together for a habitation of God through the Spirit.",
+      "claim_type": "attributed_quote",
+      "entities": ["Apostle Paul", "Ephesians 2:20-22", "Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV Ephesians 2:20-22 (Pauline authorship of Ephesians is traditional and not at issue here). Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-052",
+      "paragraph": 22,
+      "quote": "Through the eternal ages, the song of the ransomed ones will be, “Unto Him that loved us, and washed us from our sins in His own blood, ... to Him be glory and dominion forever and ever.”",
+      "claim_text": "Revelation 1:5-6 records the doxology 'Unto Him that loved us, and washed us from our sins in His own blood... to Him be glory and dominion forever and ever,' described here as the future song of the redeemed.",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation 1:5-6"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV Revelation 1:5-6 (with an ellipsis for the omitted clause). Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-053",
+      "paragraph": 23,
+      "quote": "Not until His work as a mediator shall be ended, will God “give unto Him the throne of His father David,” a kingdom of which “there shall be no end.”",
+      "claim_text": "Luke 1:32-33 records that God will give Christ 'the throne of His father David,' a kingdom of which 'there shall be no end.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Luke 1:32-33", "Jesus Christ", "David"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV Luke 1:32-33 fragments ('give unto him the throne of his father David'; 'of his kingdom there shall be no end'). Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-054",
+      "paragraph": 23,
+      "quote": "Upon the throne with the eternal, self-existent One, is He who “hath borne our griefs, and carried our sorrows,” who “was in all points tempted like as we are, yet without sin,” that He might be “able to succor them that are tempted.”",
+      "claim_text": "Scripture (Isaiah 53:4; Hebrews 4:15; Hebrews 2:18) describes Christ as one who 'hath borne our griefs, and carried our sorrows,' who 'was in all points tempted like as we are, yet without sin,' so that He might be 'able to succor them that are tempted.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah 53:4", "Hebrews 4:15", "Hebrews 2:18", "Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurately stitches KJV fragments: Isaiah 53:4 ('borne our griefs, and carried our sorrows'), Hebrews 4:15 ('in all points tempted like as we are, yet without sin'), and Hebrews 2:18 ('able to succour them that are tempted'). Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-055",
+      "paragraph": 23,
+      "quote": "“If any man sin, we have an Advocate with the Father.”",
+      "claim_text": "1 John 2:1 (KJV) states 'If any man sin, we have an Advocate with the Father.'",
+      "claim_type": "attributed_quote",
+      "entities": ["1 John 2:1"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV 1 John 2:1 fragment. Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-056",
+      "paragraph": 24,
+      "quote": "Said Jesus to His disciples, before He went away, “I say not unto you, that I will pray the Father for you: for the Father Himself loveth you.”",
+      "claim_text": "According to John 16:26-27, Jesus told His disciples before His departure, 'I say not unto you, that I will pray the Father for you: for the Father Himself loveth you.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "John 16:26-27"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV John 16:26-27 fragment. Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-057",
+      "paragraph": 24,
+      "quote": "God was “in Christ, reconciling the world unto Himself.”",
+      "claim_text": "2 Corinthians 5:19 (KJV) states God was 'in Christ, reconciling the world unto Himself.'",
+      "claim_type": "attributed_quote",
+      "entities": ["2 Corinthians 5:19", "Apostle Paul"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV 2 Corinthians 5:19 fragment ('God was in Christ, reconciling the world unto himself'). Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-058",
+      "paragraph": 24,
+      "quote": "“God so loved the world, that He gave His only begotten Son, that whosoever believeth in Him should not perish, but have everlasting life.”",
+      "claim_text": "John 3:16 (KJV) states 'God so loved the world, that He gave His only begotten Son, that whosoever believeth in Him should not perish, but have everlasting life.'",
+      "claim_type": "attributed_quote",
+      "entities": ["John 3:16"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV John 3:16. Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-059",
+      "paragraph": 25,
+      "quote": "At the death of Christ the typical service ended.",
+      "claim_text": "The typical (sacrificial) service of the earthly sanctuary ended, in doctrinal/theological significance, at the death of Christ.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "sanctuary doctrine"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Typological/theological claim (the sacrificial system found its antitype and ceased in significance at the crucifixion). As a historical matter the temple sacrifices continued until AD 70, but GC's claim is doctrinal (the 'typical service' ending in meaning), which is not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-060",
+      "paragraph": 25,
+      "quote": "At the termination of the 2300 days, in 1844, there had been no sanctuary on earth for many centuries.",
+      "claim_text": "By 1844 (the calculated termination of the 2300 days), there had been no functioning earthly sanctuary/temple for many centuries, since its destruction in AD 70.",
+      "claim_type": "event",
+      "entities": ["1844", "Jerusalem Temple", "AD 70"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Jerusalem temple was destroyed in AD 70 and never rebuilt; by 1844 there had been no functioning earthly sanctuary for ~18 centuries. The '2300 days terminate in 1844' framing is the Adventist calculation (its anchors handled at GC-23-008..013), but the factual core — no earthly sanctuary since AD 70 — is textbook. source_quality: encyclopedic-only for the framing; the AD 70 fact is common knowledge.",
+        "modern_consensus": "No Jerusalem temple has existed since AD 70.",
+        "sources": [
+          {"title": "Second Temple / Siege of Jerusalem AD 70", "url": "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(70_CE)", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-23-061",
+      "paragraph": 26,
+      "quote": "“Almost all things are by the law purged with blood; and without shedding of blood is no remission. It was therefore necessary that the patterns of things in the heavens should be purified with these [the blood of animals]; but the heavenly things themselves with better sacrifices than these,”",
+      "claim_text": "Hebrews 9:22-23 (KJV, paraphrased with bracketed gloss) states that almost all things are purged with blood under the law, that without shedding of blood there is no remission, and that the patterns of heavenly things were purified with animal blood while the heavenly things themselves needed better sacrifices.",
+      "claim_type": "attributed_quote",
+      "entities": ["Epistle to the Hebrews", "Apostle Paul"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV Hebrews 9:22-23; the bracketed '[the blood of animals]' is an explicit editorial gloss on 'these', not an alteration of the text. Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-062",
+      "paragraph": 27,
+      "quote": "Paul states, as the reason why this cleansing must be performed with blood, that without shedding of blood is no remission.",
+      "claim_text": "Paul states, in Hebrews, that the reason cleansing must be performed with blood is that without shedding of blood there is no remission of sin.",
+      "claim_type": "attributed_quote",
+      "entities": ["Apostle Paul", "Epistle to the Hebrews"],
+      "needs_verification": true,
+      "extractor_note": "Restates the causal claim already quoted more fully in paragraph 26 (Hebrews 9:22).",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurately restates KJV Hebrews 9:22 ('without shedding of blood is no remission'). Faithful paraphrase. (Pauline authorship handled at GC-23-018.)",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-063",
+      "paragraph": 28,
+      "quote": "The ministration of the earthly sanctuary consisted of two divisions; the priests ministered daily in the holy place, while once a year the high priest performed a special work of atonement in the most holy, for the cleansing of the sanctuary.",
+      "claim_text": "The earthly sanctuary's ministration had two divisions: daily priestly ministration in the holy place, and an annual special work of atonement performed by the high priest in the most holy place for the cleansing of the sanctuary.",
+      "claim_type": "event",
+      "entities": ["Tabernacle", "high priest", "Day of Atonement"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate to the Torah cultic system: daily/continual priestly service in the holy place (Ex 30:7-8; Num 28) and the once-a-year entry of the high priest into the most holy on the Day of Atonement (Lev 16:29-34; Heb 9:6-7).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-064",
+      "paragraph": 28,
+      "quote": "Day by day the repentant sinner brought his offering to the door of the tabernacle, and placing his hand upon the victim’s head, confessed his sins, thus in figure transferring them from himself to the innocent sacrifice.",
+      "claim_text": "Under the Mosaic sacrificial system, a repentant sinner brought a daily offering to the door of the tabernacle, placed his hand on the victim's head, and confessed his sins over it.",
+      "claim_type": "event",
+      "entities": ["Tabernacle", "Israel"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate to Leviticus: the sin/trespass offering brought to the tent of meeting, the offerer laying his hand on the victim's head (Lev 1:4; 4:27-29), understood as transferring guilt to the sacrifice.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-065",
+      "paragraph": 28,
+      "quote": "“The life of the flesh is in the blood.”",
+      "claim_text": "Leviticus 17:11 (KJV) states 'The life of the flesh is in the blood.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Leviticus 17:11"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Leviticus 17:11 fragment ('For the life of the flesh is in the blood'). Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-066",
+      "paragraph": 28,
+      "quote": "The blood, representing the forfeited life of the sinner, whose guilt the victim bore, was carried by the priest into the holy place and sprinkled before the veil, behind which was the ark containing the law that the sinner had transgressed.",
+      "claim_text": "Under the Mosaic sacrificial system, the priest carried the sacrificial blood into the holy place and sprinkled it before the veil, behind which stood the ark containing the law.",
+      "claim_type": "event",
+      "entities": ["Tabernacle", "Ark of the Covenant"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[common_knowledge] Consistent with Leviticus 4:5-7, 16-18: for certain sin offerings the priest brought blood into the tent and sprinkled it seven times before the veil. Behind that veil stood the ark holding the tables of the law (Ex 25:16, 21). The interpretation (blood = forfeited life of the sinner) is theological but the ritual description is accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-067",
+      "paragraph": 28,
+      "quote": "as Moses directed the sons of Aaron, saying, “God hath given it you to bear the iniquity of the congregation.”",
+      "claim_text": "According to Leviticus 10:17, Moses directed the sons of Aaron that God had given them the sin offering to bear the iniquity of the congregation.",
+      "claim_type": "attributed_quote",
+      "entities": ["Moses", "Aaron", "Leviticus 10:17"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV Leviticus 10:17 fragment ('God hath given it you to bear the iniquity of the congregation'), spoken by Moses to Aaron's sons. Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-068",
+      "paragraph": 29,
+      "quote": "“He shall make an atonement for the holy place, because of the uncleanness of the children of Israel, and because of their transgressions in all their sins: and so shall he do for the tabernacle of the congregation, that remaineth among them in the midst of their uncleanness.”",
+      "claim_text": "Leviticus 16:16 (KJV) commands that atonement be made for the holy place and the tabernacle because of the uncleanness and transgressions of the children of Israel.",
+      "claim_type": "attributed_quote",
+      "entities": ["Leviticus 16:16", "Israel"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Leviticus 16:16. Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-069",
+      "paragraph": 29,
+      "quote": "An atonement was also to be made for the altar, to “cleanse it, and hallow it from the uncleanness of the children of Israel.”",
+      "claim_text": "Leviticus 16:19 (KJV) commands that atonement also be made for the altar, to cleanse and hallow it from the uncleanness of the children of Israel.",
+      "claim_type": "attributed_quote",
+      "entities": ["Leviticus 16:19", "Israel"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Leviticus 16:19 fragment ('cleanse it, and hallow it from the uncleanness of the children of Israel'). Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-070",
+      "paragraph": 30,
+      "quote": "Once a year, on the great day of atonement, the priest entered the most holy place for the cleansing of the sanctuary.",
+      "claim_text": "Once a year, on the Day of Atonement, the high priest entered the most holy place for the cleansing of the sanctuary.",
+      "claim_type": "event",
+      "entities": ["Day of Atonement", "high priest", "Tabernacle"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate to Leviticus 16: the high priest entered the most holy place once a year on Yom Kippur to make atonement/cleanse the sanctuary (Lev 16:29-34; Heb 9:7).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-071",
+      "paragraph": 30,
+      "quote": "On the day of atonement, two kids of the goats were brought to the door of the tabernacle, and lots were cast upon them, “one lot for the Lord, and the other lot for the scapegoat.”",
+      "claim_text": "According to Leviticus 16:8, on the Day of Atonement two goats were brought to the door of the tabernacle and lots were cast on them, one lot for the Lord and the other for the scapegoat.",
+      "claim_type": "attributed_quote",
+      "entities": ["Leviticus 16:8", "Day of Atonement", "scapegoat"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV Leviticus 16:7-8 ('one lot for the LORD, and the other lot for the scapegoat'). Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-072",
+      "paragraph": 30,
+      "quote": "The goat upon which fell the lot for the Lord was to be slain as a sin-offering for the people. And the priest was to bring his blood within the veil, and sprinkle it upon the mercy-seat, and before the mercy-seat. The blood was also to be sprinkled upon the altar of incense, that was before the veil.",
+      "claim_text": "Under the Day of Atonement ritual, the goat chosen by lot for the Lord was slain as a sin offering, and the priest brought its blood within the veil to sprinkle on and before the mercy-seat, and also on the altar of incense before the veil.",
+      "claim_type": "event",
+      "entities": ["Day of Atonement", "mercy-seat", "Tabernacle"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate to Leviticus 16:9, 15-18: the Lord's goat slain as a sin offering, its blood brought within the veil and sprinkled upon and before the mercy seat, and applied to the altar to cleanse it.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-073",
+      "paragraph": 31,
+      "quote": "“And Aaron shall lay both his hands upon the head of the live goat, and confess over him all the iniquities of the children of Israel, and all their transgressions in all their sins, putting them upon the head of the goat, and shall send him away by the hand of a fit man into the wilderness: and the goat shall bear upon him all their iniquities unto a land not inhabited.”",
+      "claim_text": "According to Leviticus 16:21-22, Aaron was to lay both hands on the live goat, confess over it the iniquities of Israel, and send it away by a fit man into the wilderness to bear the iniquities to an uninhabited land.",
+      "claim_type": "attributed_quote",
+      "entities": ["Aaron", "Leviticus 16:21-22", "scapegoat"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Leviticus 16:21-22. Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-074",
+      "paragraph": 31,
+      "quote": "The scapegoat came no more into the camp of Israel, and the man who led him away was required to wash himself and his clothing with water before returning to the camp.",
+      "claim_text": "The scapegoat, once led into the wilderness, never returned to the camp of Israel, and the man who led it away was required to wash himself and his clothing before returning to camp.",
+      "claim_type": "event",
+      "entities": ["scapegoat", "Israel"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate to Leviticus 16:22, 26: the goat is sent to a land not inhabited, and the man who leads it away washes his clothes and bathes before returning to the camp.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-075",
+      "paragraph": 32,
+      "quote": "Every man was required to afflict his soul while this work of atonement was going forward. All business was to be laid aside, and the whole congregation of Israel were to spend the day in solemn humiliation before God, with prayer, fasting, and deep searching of heart.",
+      "claim_text": "On the Day of Atonement, every Israelite was required to afflict his soul, lay aside all business, and spend the day in solemn humiliation before God with prayer, fasting, and self-examination.",
+      "claim_type": "event",
+      "entities": ["Day of Atonement", "Israel"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate to Leviticus 16:29-31 and 23:27-32: on the Day of Atonement Israel is to 'afflict your souls' and do no work — a sabbath of solemn rest. 'Afflicting the soul' was traditionally understood as fasting/humiliation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-076",
+      "paragraph": 33,
+      "quote": "On the day of atonement the high priest, having taken an offering from the congregation, went into the most holy place with the blood of this offering, and sprinkled it upon the mercy-seat, directly over the law, to make satisfaction for its claims.",
+      "claim_text": "On the Day of Atonement, the high priest took an offering from the congregation, went into the most holy place, and sprinkled its blood upon the mercy-seat, directly over the law.",
+      "claim_type": "event",
+      "entities": ["Day of Atonement", "high priest", "mercy-seat"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate to Leviticus 16:15-16: the high priest took the goat of the sin offering for the people and sprinkled its blood on and before the mercy seat, which lay directly over the tables of the law inside the ark. 'To make satisfaction for its claims' is GC's theological gloss.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-077",
+      "paragraph": 33,
+      "quote": "Then, in his character of mediator, he took the sins upon himself and bore them from the sanctuary. Placing his hands upon the head of the scapegoat, he confessed over him all these sins, thus in figure transferring them from himself to the goat.",
+      "claim_text": "As mediator, the high priest ritually took the sins upon himself, bore them from the sanctuary, and by placing his hands on the scapegoat's head and confessing over it, transferred them in figure to the goat.",
+      "claim_type": "event",
+      "entities": ["high priest", "scapegoat", "Day of Atonement"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate to Leviticus 16:20-22: after cleansing the sanctuary the high priest laid both hands on the live goat, confessed Israel's iniquities over it, and sent it away — the scapegoat bearing the sins from the sanctuary. The 'mediator' framing is GC's typological reading.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-078",
+      "paragraph": 34,
+      "quote": "After His ascension, our Saviour began His work as our high priest.",
+      "claim_text": "Jesus Christ ascended to heaven.",
+      "claim_type": "event",
+      "entities": ["Jesus Christ", "Ascension"],
+      "needs_verification": true,
+      "extractor_note": "Split from the same source sentence: the ascension itself is treated as a historical/biblical event claim, distinct from the theological claim that follows (GC-23-079).",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "The bodily ascension of Christ into heaven is a supernatural/theological claim reported in the New Testament (Luke 24; Acts 1); it is not empirically verifiable either way and falls under the pipeline's unverifiable rule for supernatural events.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-079",
+      "paragraph": 34,
+      "quote": "After His ascension, our Saviour began His work as our high priest.",
+      "claim_text": "After His ascension, Christ began His work as high priest in the heavenly sanctuary.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "heavenly sanctuary"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Christ's heavenly high-priestly ministry (a reading of Hebrews); not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-080",
+      "paragraph": 34,
+      "quote": "Says Paul, “Christ is not entered into the holy places made with hands, which are the figures of the true; but into heaven itself, now to appear in the presence of God for us.”",
+      "claim_text": "Paul states, in Hebrews 9:24, that Christ entered not the holy places made with hands but into heaven itself, to appear in the presence of God for believers.",
+      "claim_type": "attributed_quote",
+      "entities": ["Apostle Paul", "Hebrews 9:24", "Jesus Christ"],
+      "needs_verification": true,
+      "extractor_note": "This quotation repeats, in a new context, the same Hebrews passage already quoted in paragraph 14.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Hebrews 9:24 (omitting only the opening 'For'). Quote fidelity confirmed. (Pauline authorship handled at GC-23-018.)",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-081",
+      "paragraph": 35,
+      "quote": "So did Christ plead His blood before the Father in behalf of sinners, and present before Him also, with the precious fragrance of His own righteousness, the prayers of penitent believers.",
+      "claim_text": "Christ pleads His blood before the Father on behalf of sinners and presents the prayers of penitent believers with the fragrance of His own righteousness.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "heavenly sanctuary"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Christ's heavenly intercession; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-082",
+      "paragraph": 36,
+      "quote": "“which hope we have,” said Paul, “as an anchor of the soul, both sure and steadfast, and which entereth into that within the veil; whither the forerunner is for us entered, even Jesus, made an high priest forever.”",
+      "claim_text": "According to Hebrews 6:19-20, Paul describes the Christian hope as an anchor of the soul entering within the veil, where Jesus has entered as forerunner, made a high priest forever.",
+      "claim_type": "attributed_quote",
+      "entities": ["Apostle Paul", "Hebrews 6:19-20", "Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV Hebrews 6:19-20 ('stedfast' modernized to 'steadfast'; the tail 'after the order of Melchisedec' is elided). Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-083",
+      "paragraph": 36,
+      "quote": "“Neither by the blood of goats and calves, but by His own blood He entered in once into the holy place, having obtained eternal redemption for us.”",
+      "claim_text": "Hebrews 9:12 (KJV) states that Christ entered the holy place once, not by the blood of goats and calves but by His own blood, having obtained eternal redemption.",
+      "claim_type": "attributed_quote",
+      "entities": ["Hebrews 9:12", "Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Hebrews 9:12. Quote fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-084",
+      "paragraph": 37,
+      "quote": "For eighteen centuries this work of ministration continued in the first apartment of the sanctuary.",
+      "claim_text": "The doctrinal scheme holds that the ministration in the first apartment of the heavenly sanctuary continued for approximately eighteen centuries, from Christ's ascension until 1844.",
+      "claim_type": "date",
+      "entities": ["heavenly sanctuary", "1844", "Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The checkable element is the ~18-century span from Christ's ascension (c. AD 31 in the Adventist scheme; c. AD 30/33 in modern reckoning) to 1844: 1844 minus ~31 = ~1813 years, i.e. eighteen centuries. The arithmetic timespan is sound. The claim's substance — a literal ministration in a heavenly-sanctuary 'first apartment' — is theological (see GC-23-079, 085) and not itself verifiable; only the timespan is affirmed here.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-085",
+      "paragraph": 37,
+      "quote": "This is the service which began when the 2300 days ended.",
+      "claim_text": "The work of investigative judgment / cleansing of the heavenly sanctuary is the service that, per Adventist doctrine, began when the 2300 days ended (1844).",
+      "claim_type": "theological",
+      "entities": ["1844", "heavenly sanctuary", "investigative judgment"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Doctrinal claim (the heavenly-sanctuary service / investigative judgment beginning in 1844); a matter of Adventist theology, not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-086",
+      "paragraph": 38,
+      "quote": "The cleansing of the sanctuary therefore involves a work of investigation,—a work of judgment.",
+      "claim_text": "The cleansing of the heavenly sanctuary involves a work of investigation, a work of judgment (the investigative judgment doctrine).",
+      "claim_type": "theological",
+      "entities": ["investigative judgment", "heavenly sanctuary"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Statement of the investigative-judgment doctrine; theological and not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-087",
+      "paragraph": 39,
+      "quote": "Christ then entered the most holy place of the heavenly sanctuary, to perform the closing work of atonement, preparatory to His coming.",
+      "claim_text": "At the termination of the 2300 days in 1844, Christ entered the most holy place of the heavenly sanctuary to perform the closing work of atonement, preparatory to His second coming.",
+      "claim_type": "theological",
+      "entities": ["1844", "Jesus Christ", "heavenly sanctuary"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Core doctrinal claim of the sanctuary/investigative-judgment teaching; theological and not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-088",
+      "paragraph": 40,
+      "quote": "It was seen, also, that while the sin-offering pointed to Christ as a sacrifice, and the high priest represented Christ as a mediator, the scapegoat typified Satan, the author of sin, upon whom the sins of the truly penitent will finally be placed.",
+      "claim_text": "The sin-offering typified Christ as sacrifice, the high priest typified Christ as mediator, and the scapegoat typified Satan, upon whom the sins of the truly penitent will finally be placed.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Jesus Christ", "scapegoat"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Typological/theological interpretation (scapegoat = Satan); a doctrinal reading, not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-23-089",
+      "paragraph": 40,
+      "quote": "So will Satan be forever banished from the presence of God and His people, and he will be blotted from existence in the final destruction of sin and sinners.",
+      "claim_text": "Satan will be forever banished from the presence of God and His people, and will be blotted from existence in the final destruction of sin and sinners.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological theological claim about Satan's final destruction; not empirically testable.",
+        "sources": []
+      }
+    }
+  ]
+}
