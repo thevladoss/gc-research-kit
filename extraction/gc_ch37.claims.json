@@ -1,0 +1,517 @@
+{
+  "chapter": 37,
+  "chapter_title": "The Scriptures A Safeguard",
+  "stage": "extraction",
+  "generated_at": "2026-07-05",
+  "notes": "Devotional/homiletic chapter, low historical density. Most propositions are theological/interpretive exhortation and are logged with needs_verification:false per pipeline rules. Checkable material clusters around: (1) fidelity of ~16 attributed biblical quotations (KJV wording vs. quoted text), (2) a handful of biographical/event claims about Jesus, the disciples, and the Sanhedrin drawn from the Gospels, (3) claims about Roman Catholic doctrine on scriptural interpretation and the Reformation's effect on lay Bible access, (4) two vague 'thousands' statistic claims. No paragraph produced zero claims.",
+  "claims": [
+    {
+      "id": "GC-37-001",
+      "paragraph": 1,
+      "quote": "“To the law and to the testimony: if they speak not according to this word, it is because there is no light in them.”",
+      "claim_text": "The scripture (footnoted to Isaiah 8:20) reads: 'To the law and to the testimony: if they speak not according to this word, it is because there is no light in them.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah", "Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-002",
+      "paragraph": 1,
+      "quote": "Satan employs every possible device to prevent men from obtaining a knowledge of the Bible; for its plain utterances reveal his deceptions.",
+      "claim_text": "Satan employs every possible device to prevent people from gaining knowledge of the Bible because its plain statements reveal his deceptions.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-003",
+      "paragraph": 1,
+      "quote": "At every revival of God’s work, the prince of evil is aroused to more intense activity; he is now putting forth his utmost efforts for a final struggle against Christ and His followers.",
+      "claim_text": "At every revival of God's work Satan is aroused to more intense activity, and he is presently exerting his utmost efforts for a final struggle against Christ and His followers.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Jesus Christ"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-004",
+      "paragraph": 1,
+      "quote": "The last great delusion is soon to open before us. Antichrist is to perform his marvelous works in our sight.",
+      "claim_text": "A final great delusion is soon to appear, in which Antichrist will perform marvelous (miraculous) works.",
+      "claim_type": "theological",
+      "entities": ["Antichrist"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-005",
+      "paragraph": 1,
+      "quote": "So closely will the counterfeit resemble the true, that it will be impossible to distinguish between them except by the Holy Scriptures.",
+      "claim_text": "The end-time counterfeit will resemble the true so closely that only the Holy Scriptures will allow the two to be distinguished.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-006",
+      "paragraph": 2,
+      "quote": "None but those who have fortified the mind with the truths of the Bible will stand through the last great conflict.",
+      "claim_text": "Only those who have fortified their minds with the truths of the Bible will stand through the last great conflict.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-007",
+      "paragraph": 2,
+      "quote": "The decisive hour is even now at hand.",
+      "claim_text": "The decisive hour of final testing is at hand at the time of writing.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "extractor_note": "Eschatological/interpretive claim about imminence, not empirically checkable."
+    },
+    {
+      "id": "GC-37-008",
+      "paragraph": 3,
+      "quote": "Before His crucifixion, the Saviour explained to His disciples that He was to be put to death, and to rise again from the tomb; and angels were present to impress His words on minds and hearts.",
+      "claim_text": "Before His crucifixion, Jesus explained to His disciples that He would be put to death and would rise again from the tomb.",
+      "claim_type": "biographical",
+      "entities": ["Jesus Christ", "the disciples"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-009",
+      "paragraph": 3,
+      "quote": "Before His crucifixion, the Saviour explained to His disciples that He was to be put to death, and to rise again from the tomb; and angels were present to impress His words on minds and hearts.",
+      "claim_text": "Angels were present when Jesus explained His coming death and resurrection to His disciples, to impress His words on their minds and hearts.",
+      "claim_type": "theological",
+      "entities": ["angels", "Jesus Christ", "the disciples"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-010",
+      "paragraph": 3,
+      "quote": "But the disciples were looking for temporal deliverance from the Roman yoke, and they could not tolerate the thought that He in whom all their hopes centered should suffer an ignominious death.",
+      "claim_text": "Jesus' disciples expected temporal (political) deliverance from Roman rule and could not accept that Jesus, in whom their hopes centered, would suffer an ignominious death.",
+      "claim_type": "biographical",
+      "entities": ["the disciples", "Jesus Christ", "Roman Empire"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-011",
+      "paragraph": 3,
+      "quote": "The death of Jesus as fully destroyed their hopes as if He had not forewarned them.",
+      "claim_text": "Jesus' death destroyed the disciples' hopes as completely as if He had never forewarned them of it.",
+      "claim_type": "interpretive",
+      "entities": ["the disciples", "Jesus Christ"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-012",
+      "paragraph": 3,
+      "quote": "Satan watches to catch away every impression that would make them wise unto salvation, and the time of trouble will find them unready.",
+      "claim_text": "Satan watches to remove every impression of prophetic truth that would make people wise unto salvation, so that the coming time of trouble will find them unready.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-013",
+      "paragraph": 4,
+      "quote": "When God sends to men warnings so important that they are represented as proclaimed by holy angels flying in the midst of heaven, He requires every person endowed with reasoning powers to heed the message.",
+      "claim_text": "God requires every person endowed with reasoning powers to heed warnings so important that they are represented in Scripture as proclaimed by holy angels flying in the midst of heaven.",
+      "claim_type": "theological",
+      "entities": ["God", "angels"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-014",
+      "paragraph": 4,
+      "quote": "The fearful judgments denounced against the worship of the beast and his image, should lead all to a diligent study of the prophecies to learn what the mark of the beast is, and how they are to avoid receiving it.",
+      "claim_text": "The judgments pronounced in Revelation against worship of the beast and its image should lead all people to diligently study the prophecies to learn what the mark of the beast is and how to avoid receiving it.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-015",
+      "paragraph": 4,
+      "quote": "The apostle Paul declared, looking down to the last days, “The time will come when they will not endure sound doctrine.”",
+      "claim_text": "The apostle Paul, referring to the last days, stated (footnoted, cf. 2 Timothy 4:3): 'The time will come when they will not endure sound doctrine.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul the Apostle"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-016",
+      "paragraph": 4,
+      "quote": "That time has fully come.",
+      "claim_text": "The time Paul foretold, when people would not endure sound doctrine, has fully come at the time of writing.",
+      "claim_type": "interpretive",
+      "entities": ["Paul the Apostle"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-017",
+      "paragraph": 5,
+      "quote": "But God will have a people upon the earth to maintain the Bible, and the Bible only, as the standard of all doctrines, and the basis of all reforms.",
+      "claim_text": "God will have a people on earth who maintain the Bible, and the Bible only, as the standard of all doctrines and the basis of all reforms.",
+      "claim_type": "theological",
+      "entities": ["God"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-018",
+      "paragraph": 6,
+      "quote": "Satan is constantly endeavoring to attract attention to man in the place of God.",
+      "claim_text": "Satan constantly endeavors to attract human attention to man in the place of God.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-019",
+      "paragraph": 7,
+      "quote": "When Christ came to speak the words of life, the common people heard Him gladly; and many, even of the priests and rulers, believed on Him.",
+      "claim_text": "When Jesus preached, the common people heard Him gladly, and many people, including some priests and rulers, believed on Him.",
+      "claim_type": "biographical",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-020",
+      "paragraph": 7,
+      "quote": "But the chief of the priesthood and the leading men of the nation were determined to condemn and repudiate His teachings.",
+      "claim_text": "The chief priests and leading men of the Jewish nation were determined to condemn and repudiate Jesus' teachings.",
+      "claim_type": "event",
+      "entities": ["Jesus Christ", "Sanhedrin"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-021",
+      "paragraph": 7,
+      "quote": "Though they were baffled in all their efforts to find accusations against Him, though they could not but feel the influence of the divine power and wisdom attending His words, yet they encased themselves in prejudice; they rejected the clearest evidence of His Messiahship, lest they should be forced to become His disciples.",
+      "claim_text": "The Jewish religious leaders were unable to find valid accusations against Jesus and felt the influence of divine power and wisdom in His words, yet they rejected the clearest evidence of His Messiahship out of prejudice, to avoid being forced to become His disciples.",
+      "claim_type": "interpretive",
+      "entities": ["Sanhedrin", "Jesus Christ"],
+      "needs_verification": false,
+      "extractor_note": "Contains an embedded historical claim (leaders' inability to find accusations against Jesus, cf. Gospel trial narratives) wrapped in an interpretive judgment about their motives; logged as interpretive because the motive-attribution dominates the sentence."
+    },
+    {
+      "id": "GC-37-022",
+      "paragraph": 7,
+      "quote": "“How is it,” they asked, “that our rulers and learned scribes do not believe on Jesus? Would not these pious men receive Him if He were the Christ?”",
+      "claim_text": "The common people reportedly reasoned: 'How is it that our rulers and learned scribes do not believe on Jesus? Would not these pious men receive Him if He were the Christ?'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Quote is attributed generically to 'the people' rather than a named individual or specific document; unclear whether it is a scriptural paraphrase or the author's illustrative composition. Flagged for verification of source/basis."
+    },
+    {
+      "id": "GC-37-023",
+      "paragraph": 7,
+      "quote": "It was the influence of such teachers that led the Jewish nation to reject their Redeemer.",
+      "claim_text": "The influence of the Jewish religious teachers/leaders caused the Jewish nation to reject Jesus as their Redeemer.",
+      "claim_type": "causal",
+      "entities": ["Sanhedrin", "Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-024",
+      "paragraph": 8,
+      "quote": "The spirit which actuated those priests and rulers is still manifested by many who make a high profession of piety.",
+      "claim_text": "The spirit that motivated the priests and rulers who opposed Jesus is still manifested by many who make a high profession of piety.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-025",
+      "paragraph": 9,
+      "quote": "Christ foresaw that the undue assumption of authority indulged by the scribes and Pharisees would not cease with the dispersion of the Jews.",
+      "claim_text": "Jesus foresaw that the undue assumption of authority practiced by the scribes and Pharisees would not cease with the dispersion of the Jews.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Pharisees", "scribes"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-026",
+      "paragraph": 9,
+      "quote": "Christ foresaw that the undue assumption of authority indulged by the scribes and Pharisees would not cease with the dispersion of the Jews.",
+      "claim_text": "The Jewish people underwent a historical dispersion.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Historical premise embedded within a theological claim about Christ's foresight (GC-37-025); logged separately as a borderline checkable event."
+    },
+    {
+      "id": "GC-37-027",
+      "paragraph": 9,
+      "quote": "And His fearful denunciations of the scribes and Pharisees, and His warnings to the people not to follow these blind leaders, were placed on record as an admonition to future generations.",
+      "claim_text": "Jesus' denunciations of the scribes and Pharisees and His warnings against following them were recorded (in the Gospels) as an admonition to future generations.",
+      "claim_type": "event",
+      "entities": ["Jesus Christ", "Pharisees", "scribes"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-028",
+      "paragraph": 10,
+      "quote": "The Roman Church reserves to the clergy the right to interpret the Scriptures.",
+      "claim_text": "The Roman Catholic Church reserves to the clergy the exclusive right to interpret Scripture.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-029",
+      "paragraph": 10,
+      "quote": "On the ground that ecclesiastics alone are competent to explain God’s word, it is withheld from the common people.",
+      "claim_text": "The Roman Catholic Church withholds the Bible from the common people on the ground that only ecclesiastics are competent to explain God's word.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-030",
+      "paragraph": 10,
+      "quote": "Though the Reformation gave the Scriptures to all, yet the selfsame principle which was maintained by Rome prevents multitudes in Protestant churches from searching the Bible for themselves.",
+      "claim_text": "The Reformation gave the Scriptures to all people, yet the same principle maintained by the Roman Catholic Church (of deferring interpretation to church authority) prevents multitudes in Protestant churches from searching the Bible for themselves.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church", "Protestant churches", "Reformation"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-031",
+      "paragraph": 10,
+      "quote": "there are thousands who dare receive nothing, however plainly revealed in Scripture, that is contrary to their creed, or the established teaching of their church.",
+      "claim_text": "Thousands of Protestant church members refuse to accept anything, however plainly revealed in Scripture, that is contrary to their creed or their church's established teaching.",
+      "claim_type": "statistic",
+      "entities": ["Protestant churches"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-032",
+      "paragraph": 11,
+      "quote": "There are to-day thousands of professors of religion who can give no other reason for points of faith which they hold than that they were so instructed by their religious leaders.",
+      "claim_text": "As of the time of writing, thousands of professing religious believers can give no reason for the points of faith they hold other than that their religious leaders so instructed them.",
+      "claim_type": "statistic",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-033",
+      "paragraph": 12,
+      "quote": "Many are the ways by which Satan works through human influence to bind his captives.",
+      "claim_text": "Satan works through human influence in many ways to bind his captives.",
+      "claim_type": "interpretive",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-034",
+      "paragraph": 13,
+      "quote": "The truth and the glory of God are inseparable; it is impossible for us, with the Bible within our reach, to honor God by erroneous opinions.",
+      "claim_text": "It is impossible to honor God through erroneous opinions when the Bible is within one's reach, because the truth and the glory of God are inseparable.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-035",
+      "paragraph": 14,
+      "quote": "“There is a way that seemeth right unto a man, but the end thereof are the ways of death.”",
+      "claim_text": "The scripture (footnoted, cf. Proverbs 14:12) reads: 'There is a way that seemeth right unto a man, but the end thereof are the ways of death.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-036",
+      "paragraph": 15,
+      "quote": "When the lawyer came to Jesus with the inquiry, “What shall I do to inherit eternal life?” the Saviour referred him to the Scriptures, saying, “What is written in the law? how readest thou?”",
+      "claim_text": "A lawyer came to Jesus asking, 'What shall I do to inherit eternal life?' and Jesus referred him to the Scriptures, saying, 'What is written in the law? how readest thou?' (cf. Luke 10:25-26).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-037",
+      "paragraph": 16,
+      "quote": "It is the first and highest duty of every rational being to learn from the Scriptures what is truth, and then to walk in the light, and encourage others to follow his example.",
+      "claim_text": "It is the first and highest duty of every rational being to learn from the Scriptures what is truth, to walk in that light, and to encourage others to follow.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-038",
+      "paragraph": 17,
+      "quote": "The truths most plainly revealed in the Bible have been involved in doubt and darkness by learned men, who, with a pretense of great wisdom, teach that the Scriptures have a mystical, a secret, spiritual meaning not apparent in the language employed. These men are false teachers.",
+      "claim_text": "Learned men have obscured the truths most plainly revealed in the Bible by teaching, with a pretense of great wisdom, that Scripture has a mystical or secret spiritual meaning not apparent in its language; such men are false teachers.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-039",
+      "paragraph": 17,
+      "quote": "“Ye know not the Scriptures, neither the power of God.”",
+      "claim_text": "Jesus declared to false teachers (footnoted, cf. Matthew 22:29): 'Ye know not the Scriptures, neither the power of God.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-040",
+      "paragraph": 17,
+      "quote": "“If any man will do His will, he shall know of the doctrine.”",
+      "claim_text": "Christ gave the promise (footnoted, cf. John 7:17): 'If any man will do His will, he shall know of the doctrine.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-041",
+      "paragraph": 18,
+      "quote": "yet we must not forget that the docility and submission of a child is the true spirit of the learner.",
+      "claim_text": "The docility and submission of a child represent the true spirit in which Scripture should be studied.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-042",
+      "paragraph": 19,
+      "quote": "One reason why many theologians have no clearer understanding of God’s word is, they close their eyes to truths which they do not wish to practise.",
+      "claim_text": "Many theologians lack a clearer understanding of God's word because they close their eyes to truths they do not wish to practice.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-043",
+      "paragraph": 20,
+      "quote": "“Open Thou mine eyes, that I may behold wondrous things out of Thy law.”",
+      "claim_text": "The psalmist's petition (footnoted, cf. Psalm 119:18) reads: 'Open Thou mine eyes, that I may behold wondrous things out of Thy law.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-044",
+      "paragraph": 20,
+      "quote": "It is the office of heavenly angels to prepare the heart so to comprehend God’s word that we shall be charmed with its beauty, admonished by its warnings, or animated and strengthened by its promises.",
+      "claim_text": "It is the office of heavenly angels to prepare the human heart to comprehend God's word so as to be charmed by its beauty, admonished by its warnings, and animated and strengthened by its promises.",
+      "claim_type": "theological",
+      "entities": ["angels"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-045",
+      "paragraph": 20,
+      "quote": "when the enemy shall come in like a flood, the Spirit of the Lord shall lift up a standard against him.",
+      "claim_text": "The scripture (footnoted, cf. Isaiah 59:19) states that when the enemy shall come in like a flood, the Spirit of the Lord shall lift up a standard against him.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-046",
+      "paragraph": 21,
+      "quote": "“The Comforter, which is the Holy Ghost, whom the Father will send in My name, He shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you.”",
+      "claim_text": "Jesus promised His disciples (footnoted, cf. John 14:26): 'The Comforter, which is the Holy Ghost, whom the Father will send in My name, He shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "the disciples"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-047",
+      "paragraph": 21,
+      "quote": "“Thy word have I hid in mine heart,” said David, “that I might not sin against Thee.”",
+      "claim_text": "David said (footnoted, cf. Psalm 119:11): 'Thy word have I hid in mine heart, that I might not sin against Thee.'",
+      "claim_type": "attributed_quote",
+      "entities": ["David"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-048",
+      "paragraph": 22,
+      "quote": "Satan adapts his temptations to all classes. He assails the illiterate with a jest or sneer, while he meets the educated with scientific objections and philosophical reasoning, alike calculated to excite distrust or contempt of the Scriptures.",
+      "claim_text": "Satan adapts his temptations to all classes of people, assailing the illiterate with jest or sneer and the educated with scientific objections and philosophical reasoning, both calculated to excite distrust or contempt of the Scriptures.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-049",
+      "paragraph": 23,
+      "quote": "We are living in the most solemn period of this world’s history. The destiny of earth’s teeming multitudes is about to be decided.",
+      "claim_text": "The time of writing represents the most solemn period of world history, in which the destiny of earth's multitudes is about to be decided.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-050",
+      "paragraph": 23,
+      "quote": "we are on Satan’s enchanted ground.",
+      "claim_text": "Humanity is currently on 'Satan's enchanted ground,' at risk of spiritual laxity.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-051",
+      "paragraph": 24,
+      "quote": "“Wherefore He saith, Awake, thou that sleepest, and arise from the dead, and Christ shall give thee light. See then that ye walk circumspectly, ... redeeming the time, because the days are evil.”",
+      "claim_text": "The scripture (footnoted, cf. Ephesians 5:14-16) reads: 'Wherefore He saith, Awake, thou that sleepest, and arise from the dead, and Christ shall give thee light. See then that ye walk circumspectly, ... redeeming the time, because the days are evil.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-052",
+      "paragraph": 25,
+      "quote": "When the testing time shall come, those who have made God’s word their rule of life will be revealed.",
+      "claim_text": "When a coming testing time arrives, those who have made God's word their rule of life will be revealed as distinct from false-hearted professors.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-37-053",
+      "paragraph": 26,
+      "quote": "“Thy testimonies are my meditation.”",
+      "claim_text": "The psalmist stated (footnoted, cf. Psalm 119:99): 'Thy testimonies are my meditation.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-054",
+      "paragraph": 26,
+      "quote": "“Through Thy precepts I get understanding: therefore I hate every false way.”",
+      "claim_text": "The psalmist stated (footnoted, cf. Psalm 119:104): 'Through Thy precepts I get understanding: therefore I hate every false way.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-055",
+      "paragraph": 27,
+      "quote": "“Happy is the man that findeth wisdom.”",
+      "claim_text": "The scripture (footnoted, cf. Proverbs 3:13) reads: 'Happy is the man that findeth wisdom.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-37-056",
+      "paragraph": 27,
+      "quote": "“He shall be as a tree planted by the waters, and that spreadeth out her roots by the river, and shall not see when heat cometh, but her leaf shall be green; and shall not be careful in the year of drought, neither shall cease from yielding fruit.”",
+      "claim_text": "The scripture (footnoted, cf. Jeremiah 17:8) reads: 'He shall be as a tree planted by the waters, and that spreadeth out her roots by the river, and shall not see when heat cometh, but her leaf shall be green; and shall not be careful in the year of drought, neither shall cease from yielding fruit.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true
+    }
+  ]
+}

@@ -2056,65 +2056,208 @@
       "words": 6748,
       "paragraphs": 55,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
+        "extract": "done",
+        "verify": "done",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 104,
+          "needs_verification": 74,
+          "by_type": {
+            "attributed_quote": 65,
+            "theological": 26,
+            "causal": 5,
+            "interpretive": 4,
+            "event": 3,
+            "statistic": 1
+          },
+          "zero_claim_paras": [
+            27
+          ]
+        },
+        "verify": {
+          "supported": 63,
+          "anachronistic": 0,
+          "disputed": 2,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 39,
+          "low_confidence": 2,
+          "searches": 7,
+          "clusters": 6
+        }
+      },
+      "updated_at": "2026-07-05T13:13:35Z"
     },
     "34": {
       "title": "Spiritualism",
       "words": 3857,
       "paragraphs": 26,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
+        "extract": "done",
+        "verify": "done",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 63,
+          "needs_verification": 51,
+          "by_type": {
+            "attributed_quote": 24,
+            "event": 22,
+            "theological": 8,
+            "interpretive": 4,
+            "causal": 2,
+            "date": 1,
+            "biographical": 1,
+            "statistic": 1
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 45,
+          "anachronistic": 1,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 16,
+          "low_confidence": 6,
+          "searches": 7,
+          "clusters": 5
+        }
+      },
+      "updated_at": "2026-07-05T13:15:26Z"
     },
     "35": {
       "title": "Aims Of The Papacy",
       "words": 6335,
       "paragraphs": 55,
       "stages": {
-        "extract": "pending",
+        "extract": "done",
         "verify": "pending",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 112,
+          "needs_verification": 76,
+          "by_type": {
+            "event": 27,
+            "attributed_quote": 23,
+            "interpretive": 23,
+            "theological": 13,
+            "causal": 9,
+            "date": 6,
+            "statistic": 5,
+            "biographical": 3,
+            "geographical": 3
+          },
+          "zero_claim_paras": [
+            5,
+            14
+          ]
+        }
+      },
+      "updated_at": "2026-07-05T12:59:28Z"
     },
     "36": {
       "title": "The Impending Conflict",
       "words": 3697,
       "paragraphs": 25,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
+        "extract": "done",
+        "verify": "done",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 98,
+          "needs_verification": 42,
+          "by_type": {
+            "theological": 47,
+            "event": 24,
+            "causal": 10,
+            "interpretive": 9,
+            "attributed_quote": 5,
+            "geographical": 2,
+            "biographical": 1
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 23,
+          "anachronistic": 2,
+          "disputed": 1,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 72,
+          "low_confidence": 3,
+          "searches": 7,
+          "clusters": 9
+        }
+      },
+      "updated_at": "2026-07-05T13:13:46Z"
     },
     "37": {
       "title": "The Scriptures A Safeguard",
       "words": 3290,
       "paragraphs": 27,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
-        "impact": "pending"
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
+        "impact": "done"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 56,
+          "needs_verification": 28,
+          "by_type": {
+            "theological": 17,
+            "attributed_quote": 16,
+            "interpretive": 11,
+            "event": 5,
+            "causal": 3,
+            "biographical": 2,
+            "statistic": 2
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 24,
+          "anachronistic": 0,
+          "disputed": 1,
+          "contradicted": 0,
+          "misquotation": 1,
+          "unverifiable": 30,
+          "low_confidence": 0,
+          "searches": 4,
+          "clusters": 2
+        },
+        "defend": {
+          "examined": 1,
+          "defense_succeeded": 1,
+          "verdict_downgraded": 0,
+          "defense_failed": 0,
+          "searches": 1
+        },
+        "impact": {
+          "scored": 1,
+          "load_bearing": 0,
+          "top_impact": [
+            {
+              "id": "GC-37-029",
+              "score": 12
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-07-05T13:16:02Z"
     },
     "38": {
       "title": "The Final Warning",

@@ -1,0 +1,918 @@
+{
+  "chapter": 37,
+  "chapter_title": "The Scriptures A Safeguard",
+  "stage": "adversarial",
+  "generated_at": "2026-07-05",
+  "notes": "Defender stage. searches: ~1; full defenses: 1 (GC-37-022), cheap audits: 0. Scope: 1 misquotation (GC-37-022) got a full defense and succeeded (downgraded to unverifiable). GC-37-029 is disputed and was skipped per procedure. All other claims are supported/unverifiable, out of defender scope, carried forward unchanged. Local grep of scholarship/ for the disputed dialogue phrase returned no matches (it is White's own composition).",
+  "claims": [
+    {
+      "id": "GC-37-001",
+      "paragraph": 1,
+      "quote": "“To the law and to the testimony: if they speak not according to this word, it is because there is no light in them.”",
+      "claim_text": "The scripture (footnoted to Isaiah 8:20) reads: 'To the law and to the testimony: if they speak not according to this word, it is because there is no light in them.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah", "Bible"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Isaiah 8:20. Wording matches the standard KJV text identically.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-002",
+      "paragraph": 1,
+      "quote": "Satan employs every possible device to prevent men from obtaining a knowledge of the Bible; for its plain utterances reveal his deceptions.",
+      "claim_text": "Satan employs every possible device to prevent people from gaining knowledge of the Bible because its plain statements reveal his deceptions.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about Satan's activity; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-003",
+      "paragraph": 1,
+      "quote": "At every revival of God’s work, the prince of evil is aroused to more intense activity; he is now putting forth his utmost efforts for a final struggle against Christ and His followers.",
+      "claim_text": "At every revival of God's work Satan is aroused to more intense activity, and he is presently exerting his utmost efforts for a final struggle against Christ and His followers.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological assertion about supernatural agency; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-004",
+      "paragraph": 1,
+      "quote": "The last great delusion is soon to open before us. Antichrist is to perform his marvelous works in our sight.",
+      "claim_text": "A final great delusion is soon to appear, in which Antichrist will perform marvelous (miraculous) works.",
+      "claim_type": "theological",
+      "entities": ["Antichrist"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological prediction; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-005",
+      "paragraph": 1,
+      "quote": "So closely will the counterfeit resemble the true, that it will be impossible to distinguish between them except by the Holy Scriptures.",
+      "claim_text": "The end-time counterfeit will resemble the true so closely that only the Holy Scriptures will allow the two to be distinguished.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological/theological assertion; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-006",
+      "paragraph": 2,
+      "quote": "None but those who have fortified the mind with the truths of the Bible will stand through the last great conflict.",
+      "claim_text": "Only those who have fortified their minds with the truths of the Bible will stand through the last great conflict.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological exhortation; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-007",
+      "paragraph": 2,
+      "quote": "The decisive hour is even now at hand.",
+      "claim_text": "The decisive hour of final testing is at hand at the time of writing.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological claim about imminence; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-008",
+      "paragraph": 3,
+      "quote": "Before His crucifixion, the Saviour explained to His disciples that He was to be put to death, and to rise again from the tomb; and angels were present to impress His words on minds and hearts.",
+      "claim_text": "Before His crucifixion, Jesus explained to His disciples that He would be put to death and would rise again from the tomb.",
+      "claim_type": "biographical",
+      "entities": ["Jesus Christ", "the disciples"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The Gospel passion predictions (e.g. Matt 16:21, Mark 8:31, Mark 9:31, Luke 18:31-33) record Jesus foretelling His death and resurrection to the disciples before the crucifixion. Faithful summary of the Gospel narrative.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-009",
+      "paragraph": 3,
+      "quote": "Before His crucifixion, the Saviour explained to His disciples that He was to be put to death, and to rise again from the tomb; and angels were present to impress His words on minds and hearts.",
+      "claim_text": "Angels were present when Jesus explained His coming death and resurrection to His disciples, to impress His words on their minds and hearts.",
+      "claim_type": "theological",
+      "entities": ["angels", "Jesus Christ", "the disciples"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample check (extractor flagged needs_verification:false): the sentence contains one Gospel-checkable kernel (handled at GC-37-008) plus this supernatural claim of angelic presence, which no Gospel records and which is not empirically checkable. Extractor split correctly; no smuggled factual assertion here.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-010",
+      "paragraph": 3,
+      "quote": "But the disciples were looking for temporal deliverance from the Roman yoke, and they could not tolerate the thought that He in whom all their hopes centered should suffer an ignominious death.",
+      "claim_text": "Jesus' disciples expected temporal (political) deliverance from Roman rule and could not accept that Jesus, in whom their hopes centered, would suffer an ignominious death.",
+      "claim_type": "biographical",
+      "entities": ["the disciples", "Jesus Christ", "Roman Empire"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Standard reading of first-century Jewish messianic expectation, attested within the Gospels/Acts (e.g. Luke 24:21 'we trusted that it had been he which should have redeemed Israel'; Acts 1:6 'wilt thou at this time restore again the kingdom to Israel?'). Consistent with mainstream New Testament scholarship on the disciples' political-messianic hopes.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-011",
+      "paragraph": 3,
+      "quote": "The death of Jesus as fully destroyed their hopes as if He had not forewarned them.",
+      "claim_text": "Jesus' death destroyed the disciples' hopes as completely as if He had never forewarned them of it.",
+      "claim_type": "interpretive",
+      "entities": ["the disciples", "Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive characterization of the disciples' inner state; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-012",
+      "paragraph": 3,
+      "quote": "Satan watches to catch away every impression that would make them wise unto salvation, and the time of trouble will find them unready.",
+      "claim_text": "Satan watches to remove every impression of prophetic truth that would make people wise unto salvation, so that the coming time of trouble will find them unready.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about Satan's activity; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-013",
+      "paragraph": 4,
+      "quote": "When God sends to men warnings so important that they are represented as proclaimed by holy angels flying in the midst of heaven, He requires every person endowed with reasoning powers to heed the message.",
+      "claim_text": "God requires every person endowed with reasoning powers to heed warnings so important that they are represented in Scripture as proclaimed by holy angels flying in the midst of heaven.",
+      "claim_type": "theological",
+      "entities": ["God", "angels"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological exhortation; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-014",
+      "paragraph": 4,
+      "quote": "The fearful judgments denounced against the worship of the beast and his image, should lead all to a diligent study of the prophecies to learn what the mark of the beast is, and how they are to avoid receiving it.",
+      "claim_text": "The judgments pronounced in Revelation against worship of the beast and its image should lead all people to diligently study the prophecies to learn what the mark of the beast is and how to avoid receiving it.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/prophetic exhortation; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-015",
+      "paragraph": 4,
+      "quote": "The apostle Paul declared, looking down to the last days, “The time will come when they will not endure sound doctrine.”",
+      "claim_text": "The apostle Paul, referring to the last days, stated (footnoted, cf. 2 Timothy 4:3): 'The time will come when they will not endure sound doctrine.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul the Apostle"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of 2 Timothy 4:3 ('For the time will come when they will not endure sound doctrine'); GC drops the connective 'For' at the start of the partial quotation, which does not alter the sense.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-016",
+      "paragraph": 4,
+      "quote": "That time has fully come.",
+      "claim_text": "The time Paul foretold, when people would not endure sound doctrine, has fully come at the time of writing.",
+      "claim_type": "interpretive",
+      "entities": ["Paul the Apostle"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive application of prophecy to the present; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-017",
+      "paragraph": 5,
+      "quote": "But God will have a people upon the earth to maintain the Bible, and the Bible only, as the standard of all doctrines, and the basis of all reforms.",
+      "claim_text": "God will have a people on earth who maintain the Bible, and the Bible only, as the standard of all doctrines and the basis of all reforms.",
+      "claim_type": "theological",
+      "entities": ["God"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-018",
+      "paragraph": 6,
+      "quote": "Satan is constantly endeavoring to attract attention to man in the place of God.",
+      "claim_text": "Satan constantly endeavors to attract human attention to man in the place of God.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about Satan's activity; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-019",
+      "paragraph": 7,
+      "quote": "When Christ came to speak the words of life, the common people heard Him gladly; and many, even of the priests and rulers, believed on Him.",
+      "claim_text": "When Jesus preached, the common people heard Him gladly, and many people, including some priests and rulers, believed on Him.",
+      "claim_type": "biographical",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Both halves are Gospel-attested: 'the common people heard him gladly' (Mark 12:37); 'among the chief rulers also many believed on him' (John 12:42), and later 'a great company of the priests were obedient to the faith' (Acts 6:7). Faithful summary of the Gospel narrative.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-020",
+      "paragraph": 7,
+      "quote": "But the chief of the priesthood and the leading men of the nation were determined to condemn and repudiate His teachings.",
+      "claim_text": "The chief priests and leading men of the Jewish nation were determined to condemn and repudiate Jesus' teachings.",
+      "claim_type": "event",
+      "entities": ["Jesus Christ", "Sanhedrin"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The chief priests' and leaders' determination to destroy Jesus is a central and repeated element of all four Gospel passion narratives (e.g. Mark 14:1; Matt 26:3-4; John 11:47-53). Faithful summary of the Gospel narrative.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-021",
+      "paragraph": 7,
+      "quote": "Though they were baffled in all their efforts to find accusations against Him, though they could not but feel the influence of the divine power and wisdom attending His words, yet they encased themselves in prejudice; they rejected the clearest evidence of His Messiahship, lest they should be forced to become His disciples.",
+      "claim_text": "The Jewish religious leaders were unable to find valid accusations against Jesus and felt the influence of divine power and wisdom in His words, yet they rejected the clearest evidence of His Messiahship out of prejudice, to avoid being forced to become His disciples.",
+      "claim_type": "interpretive",
+      "entities": ["Sanhedrin", "Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample check (extractor flagged needs_verification:false). The sentence is dominated by an unverifiable motive-attribution (prejudice, fear of becoming disciples), so the claim as filed is unverifiable. Note the smuggled factual kernel: 'they were baffled in all their efforts to find accusations against Him' IS Gospel-checkable and is supported (Mark 14:55-56 / Matt 26:59-60: the council 'sought false witness... but found none'). The interpretive frame, not the kernel, sets the verdict; kernel accuracy noted for the impact stage.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-022",
+      "paragraph": 7,
+      "quote": "“How is it,” they asked, “that our rulers and learned scribes do not believe on Jesus? Would not these pious men receive Him if He were the Christ?”",
+      "claim_text": "The common people reportedly reasoned: 'How is it that our rulers and learned scribes do not believe on Jesus? Would not these pious men receive Him if He were the Christ?'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "misquotation",
+        "confidence": "medium",
+        "rationale": "Presented in quotation marks as something 'they' (the common people) 'asked', but these words are not found in any Gospel or locatable pre-1911 source. They are the author's homiletical dramatization. The nearest scriptural anchor, John 7:48, runs the opposite direction: it is the Pharisees/rulers who dismissively ask 'Have any of the rulers or of the Pharisees believed on him?' to shame the crowd — the leaders questioning the people, not the people questioning the leaders. White inverts the speaker and turns the leaders' put-down into the crowd's reasoning. As an unlocatable attributed quotation that alters the sense of its scriptural source, this meets the misquotation criterion. Confidence medium because it is clearly an illustrative composition (a documented feature of White's method) rather than a claimed transcript, and it does echo the divided-crowd dynamic of John 7:31,40-43.",
+        "modern_consensus": "John 7:48 is a dismissive rhetorical question spoken by the Pharisees/temple officers against the crowd; commentators read it as the leaders' arrogant claim to decide truth. No source records the crowd asking why the rulers do not believe.",
+        "sources": [
+          {
+            "title": "John 7:48 (KJV) with cross-commentary, Bible Hub",
+            "url": "https://biblehub.com/john/7-48.htm",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Actual text: 'Have any of the rulers or of the Pharisees believed on him?' — spoken by the leaders against the crowd, the inverse of GC's dramatized dialogue."
+          },
+          {
+            "title": "What does John 7:48 mean? BibleRef.com",
+            "url": "https://www.bibleref.com/John/7/John-7-48.html",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Independent confirmation that the verse is the leaders' dismissive question shaming the believing crowd, not the crowd's reasoning about the leaders."
+          }
+        ]
+      },
+      "defense": {
+        "result": "defense_succeeded",
+        "argument": "The misquotation verdict over-reaches by treating a homiletical dramatization as a documentary quotation. Three textual facts from the chapter file undercut the charge. (1) NO CITATION. Every genuine scripture quotation in this chapter carries a footnote number — (1028) Isa 8:20, (1030) 2 Tim 4:3, (1031) Prov 14:12, (1032) Matt 22:29/Mark 12:24, (1033) John 7:17, and so on. The 'How is it... do not believe on Jesus?' dialogue in para 7 carries NO footnote. White does not present it as a Bible quotation, and she does not attribute it to any named person. It is therefore not a quote 'attributed to a historical figure' or to Scripture at all. (2) UNNAMED COLLECTIVE, FREE INDIRECT SPEECH. The antecedent of 'they' is the preceding sentence's 'the people [who] had been taught from infancy to reverence [their leaders], to whose authority they had been accustomed implicitly to bow.' The quotation marks voice the represented collective reasoning of an anonymous crowd — a standard 19th-century devotional/homiletical convention (dramatized interior monologue / free indirect discourse), not a claimed transcript. Since White composed the line herself, there is no external source she can be 'misquoting'; the misquotation category (inaccurate/unlocatable/altered quote attributed to a person or text) has no purchase on an author's own acknowledged rhetorical composition. (3) THE ALLEGED INVERSION DISSOLVES. The verifier supplies John 7:48 as 'the nearest scriptural anchor' and then convicts White of inverting it — but the anchor is the verifier's own inference, not White's citation. And even granting the echo, there is no meaning-alteration: John 7:47-49 shows the Pharisees deploying exactly the argument 'Have any of the rulers or of the Pharisees believed on him?' precisely to shame the deferential crowd. White dramatizes the crowd INTERNALIZING that leaders'-authority argument — 'if our revered rulers reject Him, how can He be the Christ?' That is the direct sociological consequence the Johannine scene itself depicts (a crowd 'taught from infancy to reverence' its leaders), not a reversal of it. The dynamic of a divided crowd swayed by its leaders is also explicit in John 7:31,40-43. So the line neither quotes nor distorts any source; it is White's interpretive characterization of the crowd's psychology. Such a characterization of an unnamed group's inner reasoning is not empirically checkable — it is unverifiable, the same class the verifier already assigned to the neighboring motive-attributions in GC-37-021 and GC-37-011. Net: strip the imported anchor and the accusatory 'misquotation' label collapses into an unverifiable homiletical device. A local grep of scholarship/ for the phrase found nothing, consistent with it being White's own composition rather than a mis-transcribed source.",
+        "revised_verdict": "unverifiable"
+      }
+    },
+    {
+      "id": "GC-37-023",
+      "paragraph": 7,
+      "quote": "It was the influence of such teachers that led the Jewish nation to reject their Redeemer.",
+      "claim_text": "The influence of the Jewish religious teachers/leaders caused the Jewish nation to reject Jesus as their Redeemer.",
+      "claim_type": "causal",
+      "entities": ["Sanhedrin", "Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[common_knowledge] Restates the Gospel narrative's own causal claim: 'the chief priests and elders persuaded the multitude that they should ask Barabbas, and destroy Jesus' (Matt 27:20; cf. Mark 15:11). As a summary of the internal Gospel account it is faithful; medium confidence because 'the Jewish nation' is a homiletical generalization of a narrative that also shows large popular support for Jesus.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-024",
+      "paragraph": 8,
+      "quote": "The spirit which actuated those priests and rulers is still manifested by many who make a high profession of piety.",
+      "claim_text": "The spirit that motivated the priests and rulers who opposed Jesus is still manifested by many who make a high profession of piety.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive moral analogy; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-025",
+      "paragraph": 9,
+      "quote": "Christ foresaw that the undue assumption of authority indulged by the scribes and Pharisees would not cease with the dispersion of the Jews.",
+      "claim_text": "Jesus foresaw that the undue assumption of authority practiced by the scribes and Pharisees would not cease with the dispersion of the Jews.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Pharisees", "scribes"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Christ's foresight; not empirically checkable. The embedded historical premise (the dispersion of the Jews) is handled at GC-37-026.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-026",
+      "paragraph": 9,
+      "quote": "Christ foresaw that the undue assumption of authority indulged by the scribes and Pharisees would not cease with the dispersion of the Jews.",
+      "claim_text": "The Jewish people underwent a historical dispersion.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The Jewish Diaspora is a textbook historical fact; large-scale dispersion followed the destruction of Jerusalem (70 CE) and the Bar Kokhba revolt (132-135 CE), with earlier Hellenistic-era diaspora communities already established.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-027",
+      "paragraph": 9,
+      "quote": "And His fearful denunciations of the scribes and Pharisees, and His warnings to the people not to follow these blind leaders, were placed on record as an admonition to future generations.",
+      "claim_text": "Jesus' denunciations of the scribes and Pharisees and His warnings against following them were recorded (in the Gospels) as an admonition to future generations.",
+      "claim_type": "event",
+      "entities": ["Jesus Christ", "Pharisees", "scribes"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The Gospels record extended denunciations of the scribes and Pharisees, including the 'blind leaders'/'blind guides' language (Matt 23; Matt 15:14). Faithful summary of the Gospel text.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-028",
+      "paragraph": 10,
+      "quote": "The Roman Church reserves to the clergy the right to interpret the Scriptures.",
+      "claim_text": "The Roman Catholic Church reserves to the clergy the exclusive right to interpret Scripture.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "source_quality: academic-partial. Escalation topic (development of papal/ecclesiastical authority). The Council of Trent, Session IV (1546), decreed that no one may interpret Scripture 'contrary to the sense which holy mother Church hath held and holdeth... whose it is to judge of the true sense and interpretation of the holy Scriptures.' Authoritative interpretation belonging to the Church's teaching office (the Magisterium) is settled Catholic doctrine, so GC's summary is substantially accurate. Medium confidence because the strict locus is the Magisterium/Church, not 'the clergy' as a whole, and the decree restrains interpretation contrary to Church teaching rather than forbidding all lay reading of the text.",
+        "modern_consensus": "Catholic teaching vests authoritative (authentic) interpretation of Scripture in the Magisterium; Trent Session IV is the classic conciliar statement.",
+        "sources": [
+          {
+            "title": "Canons and Decrees of the Council of Trent, Session IV (1546), on the interpretation of Scripture",
+            "url": "https://en.wikisource.org/wiki/Canons_and_Decrees_of_the_Council_of_Trent/Session_IV/Sacred_Books",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "'...whose it is to judge of the true sense and interpretation of the holy Scriptures'; forbids interpretation contrary to the sense held by the Church or the unanimous consent of the Fathers."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-37-029",
+      "paragraph": 10,
+      "quote": "On the ground that ecclesiastics alone are competent to explain God’s word, it is withheld from the common people.",
+      "claim_text": "The Roman Catholic Church withholds the Bible from the common people on the ground that only ecclesiastics are competent to explain God's word.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "source_quality: academic-partial. Escalation topic (medieval/early-modern vernacular Bible access). This is the recurring 'Rome and the Bible' pattern seen in GC chs. 15/21/32: a real but limited kernel stated as a universal. Real kernel: at specific times and places the Church restricted unauthorized vernacular Scripture — the Oxford Constitutions of 1408 in England (Deanesly), and the Tridentine Index of 1564 (Rule IV) which required written permission from a bishop or inquisitor to read approved Catholic vernacular Bibles. Contradicting the universal framing: modern scholarship (Wim François; Beth Allison Barr) finds no central Roman policy universally withholding the Bible; vernacular biblical books circulated across late-medieval Europe, and restrictions were regional and reactive to heresy scares. By 1911 the Church expressly permitted approved annotated vernacular Bibles. The categorical present-tense 'it is withheld from the common people' overstates a genuinely contested historiographical picture, hence disputed rather than a clean contradiction or a clean support.",
+        "modern_consensus": "No blanket, universal prohibition; restrictions on lay vernacular Bible reading were localized, time-bound, and often permission-based, not a standing policy of withholding Scripture from all laity.",
+        "sources": [
+          {
+            "title": "M. Deanesly, The Lollard Bible and Other Medieval Biblical Versions (Cambridge UP, 1920), local scholarship copy",
+            "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/deanesly-lollard-bible-1920.txt",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Documents that restriction of vernacular Scripture was regional (e.g. the 1408 Oxford Constitutions in England; other regions differed) rather than a universal Roman ban."
+          },
+          {
+            "title": "Wim François, on late-medieval Catholic vernacular Bible policy (summarized, 'Vernacular Scripture in the Reformation Era', Regensburg Forum)",
+            "url": "https://regensburgforum.com/2017/06/05/vernacular-scripture-in-the-reformation-era-re-examining-the-narrative/",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "François: the late-medieval Church did not forbid vernacular Bible reading; no central Roman policy; biblical books circulated in most linguistic regions."
+          },
+          {
+            "title": "Beth Allison Barr (medievalist, Baylor), 'Banning the Bible: Did It Really Happen in the Medieval World?'",
+            "url": "https://www.patheos.com/blogs/anxiousbench/2016/05/banning-the-bible-did-it-happen-in-pre-reformation-europe/",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "No blanket prohibition; localized reactionary prohibitions during specific heresy crises only."
+          },
+          {
+            "title": "Censorship of the Bible — Tridentine Index (1564) Rule IV permission system",
+            "url": "https://en.wikipedia.org/wiki/Censorship_of_the_Bible",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Rule IV allowed bishops/inquisitors to grant written permission to read approved Catholic vernacular Bibles — a permission regime, not a universal withholding."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-37-030",
+      "paragraph": 10,
+      "quote": "Though the Reformation gave the Scriptures to all, yet the selfsame principle which was maintained by Rome prevents multitudes in Protestant churches from searching the Bible for themselves.",
+      "claim_text": "The Reformation gave the Scriptures to all people, yet the same principle maintained by the Roman Catholic Church (of deferring interpretation to church authority) prevents multitudes in Protestant churches from searching the Bible for themselves.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church", "Protestant churches", "Reformation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "source_quality: academic-partial. Escalation topic. The checkable kernel — that the Reformation promoted broad lay access to vernacular Scripture (Luther's German Bible, Tyndale, the English versions, the principle of sola scriptura) — is well established. The second clause ('the selfsame principle... prevents multitudes in Protestant churches from searching the Bible for themselves') is a homiletical/sociological generalization about deference to church authority and is interpretive rather than a discrete historical fact. Verdict reflects the supported historical kernel; the rhetorical clause is not independently verifiable and is not accusatory of a datable event.",
+        "modern_consensus": "The Reformation drove mass vernacular Bible production and lay reading; this is standard Reformation historiography.",
+        "sources": [
+          {
+            "title": "Wim François / Beth Allison Barr discussions of vernacular Scripture across the Reformation era",
+            "url": "https://regensburgforum.com/2017/06/05/vernacular-scripture-in-the-reformation-era-re-examining-the-narrative/",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Confirms the Reformation's expansion of vernacular Bible access to the laity as the central shift GC describes."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-37-031",
+      "paragraph": 10,
+      "quote": "there are thousands who dare receive nothing, however plainly revealed in Scripture, that is contrary to their creed, or the established teaching of their church.",
+      "claim_text": "Thousands of Protestant church members refuse to accept anything, however plainly revealed in Scripture, that is contrary to their creed or their church's established teaching.",
+      "claim_type": "statistic",
+      "entities": ["Protestant churches"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Vague rhetorical 'thousands' with an interpretive characterization of believers' motives ('dare receive nothing... contrary to their creed'). No defined population, period, or measurement; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-032",
+      "paragraph": 11,
+      "quote": "There are to-day thousands of professors of religion who can give no other reason for points of faith which they hold than that they were so instructed by their religious leaders.",
+      "claim_text": "As of the time of writing, thousands of professing religious believers can give no reason for the points of faith they hold other than that their religious leaders so instructed them.",
+      "claim_type": "statistic",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Vague rhetorical 'thousands' claim about believers' reasoning; no defined population or measurement. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-033",
+      "paragraph": 12,
+      "quote": "Many are the ways by which Satan works through human influence to bind his captives.",
+      "claim_text": "Satan works through human influence in many ways to bind his captives.",
+      "claim_type": "interpretive",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about Satan's activity; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-034",
+      "paragraph": 13,
+      "quote": "The truth and the glory of God are inseparable; it is impossible for us, with the Bible within our reach, to honor God by erroneous opinions.",
+      "claim_text": "It is impossible to honor God through erroneous opinions when the Bible is within one's reach, because the truth and the glory of God are inseparable.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/interpretive assertion; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-035",
+      "paragraph": 14,
+      "quote": "“There is a way that seemeth right unto a man, but the end thereof are the ways of death.”",
+      "claim_text": "The scripture (footnoted, cf. Proverbs 14:12) reads: 'There is a way that seemeth right unto a man, but the end thereof are the ways of death.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Proverbs 14:12.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-036",
+      "paragraph": 15,
+      "quote": "When the lawyer came to Jesus with the inquiry, “What shall I do to inherit eternal life?” the Saviour referred him to the Scriptures, saying, “What is written in the law? how readest thou?”",
+      "claim_text": "A lawyer came to Jesus asking, 'What shall I do to inherit eternal life?' and Jesus referred him to the Scriptures, saying, 'What is written in the law? how readest thou?' (cf. Luke 10:25-26).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Both quoted phrases are verbatim KJV Luke 10:25 ('what shall I do to inherit eternal life?') and Luke 10:26 ('What is written in the law? how readest thou?'), and the narrative that a lawyer posed the question is accurate to Luke 10:25.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-037",
+      "paragraph": 16,
+      "quote": "It is the first and highest duty of every rational being to learn from the Scriptures what is truth, and then to walk in the light, and encourage others to follow his example.",
+      "claim_text": "It is the first and highest duty of every rational being to learn from the Scriptures what is truth, to walk in that light, and to encourage others to follow.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/moral exhortation; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-038",
+      "paragraph": 17,
+      "quote": "The truths most plainly revealed in the Bible have been involved in doubt and darkness by learned men, who, with a pretense of great wisdom, teach that the Scriptures have a mystical, a secret, spiritual meaning not apparent in the language employed. These men are false teachers.",
+      "claim_text": "Learned men have obscured the truths most plainly revealed in the Bible by teaching, with a pretense of great wisdom, that Scripture has a mystical or secret spiritual meaning not apparent in its language; such men are false teachers.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive polemic against allegorical/mystical exegesis and value judgment ('false teachers'); not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-039",
+      "paragraph": 17,
+      "quote": "“Ye know not the Scriptures, neither the power of God.”",
+      "claim_text": "Jesus declared to false teachers (footnoted, cf. Matthew 22:29): 'Ye know not the Scriptures, neither the power of God.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The quoted words are authentic KJV wording of Jesus, matching Mark 12:24 verbatim ('ye know not the scriptures, neither the power of God'). The parallel the extractor cited, Matt 22:29, carries the same saying in slightly different words ('Ye do err, not knowing the scriptures, nor the power of God'). Since GC quotes the saying accurately from the Synoptic parallel, this is an accurate scriptural quotation, not a misquotation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-040",
+      "paragraph": 17,
+      "quote": "“If any man will do His will, he shall know of the doctrine.”",
+      "claim_text": "Christ gave the promise (footnoted, cf. John 7:17): 'If any man will do His will, he shall know of the doctrine.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate partial KJV quotation of John 7:17 ('If any man will do his will, he shall know of the doctrine, whether it be of God, or whether I speak of myself'). The capitalized 'His' reflects GC's editorial reverential capitalization; wording is faithful.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-041",
+      "paragraph": 18,
+      "quote": "yet we must not forget that the docility and submission of a child is the true spirit of the learner.",
+      "claim_text": "The docility and submission of a child represent the true spirit in which Scripture should be studied.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Devotional/interpretive assertion; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-042",
+      "paragraph": 19,
+      "quote": "One reason why many theologians have no clearer understanding of God’s word is, they close their eyes to truths which they do not wish to practise.",
+      "claim_text": "Many theologians lack a clearer understanding of God's word because they close their eyes to truths they do not wish to practice.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive claim about theologians' motives; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-043",
+      "paragraph": 20,
+      "quote": "“Open Thou mine eyes, that I may behold wondrous things out of Thy law.”",
+      "claim_text": "The psalmist's petition (footnoted, cf. Psalm 119:18) reads: 'Open Thou mine eyes, that I may behold wondrous things out of Thy law.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Psalm 119:18 (reverential capitalization of 'Thou'/'Thy' aside).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-044",
+      "paragraph": 20,
+      "quote": "It is the office of heavenly angels to prepare the heart so to comprehend God’s word that we shall be charmed with its beauty, admonished by its warnings, or animated and strengthened by its promises.",
+      "claim_text": "It is the office of heavenly angels to prepare the human heart to comprehend God's word so as to be charmed by its beauty, admonished by its warnings, and animated and strengthened by its promises.",
+      "claim_type": "theological",
+      "entities": ["angels"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about angelic activity; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-045",
+      "paragraph": 20,
+      "quote": "when the enemy shall come in like a flood, the Spirit of the Lord shall lift up a standard against him.",
+      "claim_text": "The scripture (footnoted, cf. Isaiah 59:19) states that when the enemy shall come in like a flood, the Spirit of the Lord shall lift up a standard against him.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Isaiah 59:19b ('When the enemy shall come in like a flood, the Spirit of the LORD shall lift up a standard against him').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-046",
+      "paragraph": 21,
+      "quote": "“The Comforter, which is the Holy Ghost, whom the Father will send in My name, He shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you.”",
+      "claim_text": "Jesus promised His disciples (footnoted, cf. John 14:26): 'The Comforter, which is the Holy Ghost, whom the Father will send in My name, He shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "the disciples"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV John 14:26 (reverential capitalization of 'My'/'He' aside).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-047",
+      "paragraph": 21,
+      "quote": "“Thy word have I hid in mine heart,” said David, “that I might not sin against Thee.”",
+      "claim_text": "David said (footnoted, cf. Psalm 119:11): 'Thy word have I hid in mine heart, that I might not sin against Thee.'",
+      "claim_type": "attributed_quote",
+      "entities": ["David"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Psalm 119:11. Attribution to David reflects the traditional ascription of Psalm 119; the wording is exact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-048",
+      "paragraph": 22,
+      "quote": "Satan adapts his temptations to all classes. He assails the illiterate with a jest or sneer, while he meets the educated with scientific objections and philosophical reasoning, alike calculated to excite distrust or contempt of the Scriptures.",
+      "claim_text": "Satan adapts his temptations to all classes of people, assailing the illiterate with jest or sneer and the educated with scientific objections and philosophical reasoning, both calculated to excite distrust or contempt of the Scriptures.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample check (extractor flagged needs_verification:false). Confirmed correct classification: this is a theological assertion about Satan's methods, with no smuggled datable/checkable historical fact. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-049",
+      "paragraph": 23,
+      "quote": "We are living in the most solemn period of this world’s history. The destiny of earth’s teeming multitudes is about to be decided.",
+      "claim_text": "The time of writing represents the most solemn period of world history, in which the destiny of earth's multitudes is about to be decided.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological assertion; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-050",
+      "paragraph": 23,
+      "quote": "we are on Satan’s enchanted ground.",
+      "claim_text": "Humanity is currently on 'Satan's enchanted ground,' at risk of spiritual laxity.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Metaphorical/theological assertion; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-051",
+      "paragraph": 24,
+      "quote": "“Wherefore He saith, Awake, thou that sleepest, and arise from the dead, and Christ shall give thee light. See then that ye walk circumspectly, ... redeeming the time, because the days are evil.”",
+      "claim_text": "The scripture (footnoted, cf. Ephesians 5:14-16) reads: 'Wherefore He saith, Awake, thou that sleepest, and arise from the dead, and Christ shall give thee light. See then that ye walk circumspectly, ... redeeming the time, because the days are evil.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Ephesians 5:14-16; the ellipsis marks the omitted phrase 'not as fools, but as wise' (v.15b), and the quoted portions match KJV verbatim.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-052",
+      "paragraph": 25,
+      "quote": "When the testing time shall come, those who have made God’s word their rule of life will be revealed.",
+      "claim_text": "When a coming testing time arrives, those who have made God's word their rule of life will be revealed as distinct from false-hearted professors.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological/interpretive assertion; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-053",
+      "paragraph": 26,
+      "quote": "“Thy testimonies are my meditation.”",
+      "claim_text": "The psalmist stated (footnoted, cf. Psalm 119:99): 'Thy testimonies are my meditation.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate partial KJV quotation of Psalm 119:99 ('...for thy testimonies are my meditation').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-054",
+      "paragraph": 26,
+      "quote": "“Through Thy precepts I get understanding: therefore I hate every false way.”",
+      "claim_text": "The psalmist stated (footnoted, cf. Psalm 119:104): 'Through Thy precepts I get understanding: therefore I hate every false way.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Psalm 119:104.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-055",
+      "paragraph": 27,
+      "quote": "“Happy is the man that findeth wisdom.”",
+      "claim_text": "The scripture (footnoted, cf. Proverbs 3:13) reads: 'Happy is the man that findeth wisdom.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate partial KJV quotation of Proverbs 3:13 ('Happy is the man that findeth wisdom, and the man that getteth understanding').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-37-056",
+      "paragraph": 27,
+      "quote": "“He shall be as a tree planted by the waters, and that spreadeth out her roots by the river, and shall not see when heat cometh, but her leaf shall be green; and shall not be careful in the year of drought, neither shall cease from yielding fruit.”",
+      "claim_text": "The scripture (footnoted, cf. Jeremiah 17:8) reads: 'He shall be as a tree planted by the waters, and that spreadeth out her roots by the river, and shall not see when heat cometh, but her leaf shall be green; and shall not be careful in the year of drought, neither shall cease from yielding fruit.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Jeremiah 17:8; GC drops the opening connective 'For', which does not alter the sense, and the remainder matches KJV verbatim.",
+        "sources": []
+      }
+    }
+  ]
+}
