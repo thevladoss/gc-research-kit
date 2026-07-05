@@ -2674,7 +2674,27 @@
         "claims": 3,
         "load_bearing": 1,
         "academic_floor": true,
-        "status": "pending"
+        "status": "done",
+        "ruling_file": "adjudication/D03_millerite-independence-and-1840.ruling.json",
+        "rulings_as_written": {
+          "improbable": 2,
+          "well-supported": 1
+        },
+        "rulings_weakened": {
+          "probable": 1,
+          "well-supported": 2
+        },
+        "framing_gaps": {
+          "2": 1,
+          "0": 1,
+          "3": 1
+        },
+        "failing_component_kind_accusatory": {
+          "fact": 2
+        },
+        "gap_notes": [],
+        "searches": "searches: ~11 (10 shared, 1 straggler for GC-20-016 Wolff/Albury)",
+        "updated_at": "2026-07-05T17:24:59Z"
       },
       "D04": {
         "slug": "french-revolution-rev11",
