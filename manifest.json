@@ -1513,8 +1513,8 @@
       "paragraphs": 40,
       "stages": {
         "extract": "done",
-        "verify": "pending",
-        "defend": "pending",
+        "verify": "done",
+        "defend": "done",
         "impact": "pending"
       },
       "counts": {
@@ -1530,35 +1530,125 @@
             "interpretive": 1
           },
           "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 66,
+          "anachronistic": 1,
+          "disputed": 4,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 18,
+          "low_confidence": 0,
+          "searches": 6,
+          "clusters": 4
+        },
+        "defend": {
+          "examined": 1,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 1,
+          "searches": 0
         }
       },
-      "updated_at": "2026-07-05T11:50:34Z"
+      "updated_at": "2026-07-05T12:10:58Z"
     },
     "24": {
       "title": "In The Holy Of Holies",
       "words": 3272,
       "paragraphs": 23,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
-        "impact": "pending"
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
+        "impact": "done"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 80,
+          "needs_verification": 52,
+          "by_type": {
+            "attributed_quote": 29,
+            "theological": 28,
+            "event": 15,
+            "causal": 4,
+            "biographical": 2,
+            "statistic": 1,
+            "date": 1
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 52,
+          "anachronistic": 0,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 28,
+          "low_confidence": 0,
+          "searches": 4,
+          "clusters": 5
+        },
+        "defend": {
+          "examined": 0,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 0,
+          "searches": 0
+        },
+        "impact": {
+          "scored": 0,
+          "load_bearing": 0,
+          "top_impact": []
+        }
+      },
+      "updated_at": "2026-07-05T12:15:54Z"
     },
     "25": {
       "title": "God’s Law Immutable",
       "words": 5983,
       "paragraphs": 46,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 160,
+          "needs_verification": 99,
+          "by_type": {
+            "attributed_quote": 67,
+            "theological": 42,
+            "interpretive": 19,
+            "event": 17,
+            "causal": 7,
+            "biographical": 4,
+            "statistic": 2,
+            "date": 2
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 97,
+          "anachronistic": 3,
+          "disputed": 1,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 59,
+          "low_confidence": 1,
+          "searches": 14,
+          "clusters": 11
+        },
+        "defend": {
+          "examined": 3,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 3,
+          "searches": 0
+        }
+      },
+      "updated_at": "2026-07-05T12:14:06Z"
     },
     "26": {
       "title": "A Work Of Reform",
@@ -1566,8 +1656,8 @@
       "paragraphs": 27,
       "stages": {
         "extract": "done",
-        "verify": "pending",
-        "defend": "pending",
+        "verify": "done",
+        "defend": "done",
         "impact": "pending"
       },
       "counts": {
@@ -1584,22 +1674,73 @@
             "date": 3
           },
           "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 52,
+          "anachronistic": 1,
+          "disputed": 3,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 46,
+          "low_confidence": 4,
+          "searches": 7,
+          "clusters": 5
+        },
+        "defend": {
+          "examined": 1,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 1,
+          "searches": 0
         }
       },
-      "updated_at": "2026-07-05T11:50:59Z"
+      "updated_at": "2026-07-05T12:15:21Z"
     },
     "27": {
       "title": "Modern Revivals",
       "words": 6204,
       "paragraphs": 50,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 85,
+          "needs_verification": 53,
+          "by_type": {
+            "attributed_quote": 34,
+            "theological": 20,
+            "interpretive": 12,
+            "event": 11,
+            "biographical": 5,
+            "statistic": 2,
+            "date": 1
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 49,
+          "anachronistic": 0,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 36,
+          "low_confidence": 7,
+          "searches": 6,
+          "clusters": 2
+        },
+        "defend": {
+          "examined": 0,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 0,
+          "searches": 0
+        }
+      },
+      "updated_at": "2026-07-05T12:09:10Z"
     },
     "28": {
       "title": "The Investigative Judgment",

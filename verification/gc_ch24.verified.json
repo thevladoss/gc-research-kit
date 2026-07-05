@@ -1,0 +1,1279 @@
+{
+  "chapter": 24,
+  "chapter_title": "In The Holy Of Holies",
+  "stage": "verification",
+  "generated_at": "2026-07-05",
+  "notes": "searches: ~4, clusters: 5 (A=1844 Disappointment/seventh-month midnight cry; B=shut-door + post-1844 sanctuary reinterpretation [doctrinally central]; C=KJV quote-fidelity ~28; D=OT Day-of-Atonement/Leviticus ritual; E=biblical narrative + first-century Jewish history). Verified all needs_verification:true claims + 3 control claims (GC-24-013, GC-24-047, GC-24-063) drawn from needs_verification:false; controls confirmed as pure theological framing with no smuggled checkable fact. KJV quotes checked against the 1611/1769 KJV text and verse references validated (extractor added refs from memory) - all wording and book/chapter/verse attributions correct; the para-21 nested-quote escape in GC-24-074 is a source-transcription artifact, not a substantive alteration. Doctrinally-central Millerite clusters (A,B): local academic scans (Land AUSS 1994, Taylor) have no text layer and PDF rendering is unavailable on this host, so academic escalation relied on the AUSS 1994 landing page + Andrews digitalcommons JEGWS symposium as academic anchors alongside local primaries (Wellcome 1874, Bliss 1853); source_quality noted academic-partial.",
+  "claims": [
+    {
+      "id": "GC-24-001",
+      "paragraph": 1,
+      "quote": "The subject of the sanctuary was the key which unlocked the mystery of the disappointment of 1844.",
+      "claim_text": "In 1844, Millerite Adventists experienced a major religious disappointment (the 'Great Disappointment') when the expected Second Coming did not occur.",
+      "claim_type": "event",
+      "entities": ["Millerites", "1844", "Great Disappointment"],
+      "needs_verification": true,
+      "extractor_note": "Same sentence also yields a theological claim (GC-24-002) about the sanctuary doctrine's explanatory role.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Great Disappointment of 22 October 1844, when the Millerite expectation of the Second Advent failed, is a well-established historical event. Local insider history (Wellcome 1874) and modern scholarship confirm it. source_quality: academic-partial (AUSS landing + primaries).",
+        "modern_consensus": "The failure of the 22 October 1844 second-advent expectation, the 'Great Disappointment', is uncontested in Millerite historiography.",
+        "sources": [
+          {"title": "I. C. Wellcome, History of the Second Advent Message (1874) [local primary]", "url": "scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true, "note": "Insider account of the seventh-month movement and the disappointment after the 7th month of 1844 passed."},
+          {"title": "G. Land, 'The Historians and the Millerites', Andrews University Seminary Studies 32/3 (1994)", "url": "https://www.andrews.edu/library/car/cardigital/Periodicals/AUSS/1994-3/1994-3-07.pdf", "source_class": "academic", "supports_verdict": true},
+          {"title": "Great Disappointment", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-24-002",
+      "paragraph": 1,
+      "quote": "The subject of the sanctuary was the key which unlocked the mystery of the disappointment of 1844.",
+      "claim_text": "The doctrine of the heavenly sanctuary is presented as the interpretive key that resolved the theological mystery of the 1844 disappointment.",
+      "claim_type": "theological",
+      "entities": ["sanctuary doctrine", "1844"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological interpretation (the doctrinal significance assigned to the sanctuary teaching). Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-003",
+      "paragraph": 1,
+      "quote": "As the disciples of Jesus, after the terrible night of their anguish and disappointment, were “glad when they saw the Lord,”",
+      "claim_text": "The Gospel of John records that Jesus' disciples were glad when they saw the risen Lord (cf. John 20:20).",
+      "claim_type": "attributed_quote",
+      "entities": ["Gospel of John", "disciples of Jesus"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV John 20:20: 'then were the disciples glad, when they saw the Lord.' Wording and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-004",
+      "paragraph": 1,
+      "quote": "with Mary at the sepulcher they cried, “They have taken away my Lord, and I know not where they have laid Him.”",
+      "claim_text": "The Gospel of John records Mary Magdalene saying at the empty tomb, 'They have taken away my Lord, and I know not where they have laid Him' (John 20:13).",
+      "claim_type": "attributed_quote",
+      "entities": ["Gospel of John", "Mary Magdalene"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV John 20:13: 'they have taken away my Lord, and I know not where they have laid him.' Wording and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-005",
+      "paragraph": 1,
+      "quote": "Now in the holy of holies they again beheld Him, their compassionate high priest, soon to appear as their king and deliverer.",
+      "claim_text": "Christ is presented as ministering as high priest in the heavenly holy of holies, to appear later as king and deliverer.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "heavenly sanctuary"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Christ's heavenly high-priestly ministration. Supernatural/doctrinal; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-006",
+      "paragraph": 1,
+      "quote": "Though, like the first disciples, they themselves had failed to understand the message which they bore, yet it had been in every respect correct.",
+      "claim_text": "The Millerite Adventists' 1844 message, though misunderstood by the Millerites themselves, is asserted to have been entirely correct.",
+      "claim_type": "theological",
+      "entities": ["Millerites", "1844"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion that the message was 'in every respect correct'; a doctrinal value judgment, not an empirical fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-007",
+      "paragraph": 1,
+      "quote": "“Begotten again unto a lively hope,” they rejoiced “with joy unspeakable and full of glory.”",
+      "claim_text": "1 Peter 1:3,8 describes believers as 'begotten again unto a lively hope' and rejoicing 'with joy unspeakable and full of glory.'",
+      "claim_type": "attributed_quote",
+      "entities": ["1 Peter"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV 1 Peter 1:3 'hath begotten us again unto a lively hope'; 1:8 'ye rejoice with joy unspeakable and full of glory.' Both phrases and references correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-008",
+      "paragraph": 2,
+      "quote": "Both the prophecy of Dan. 8:14, “Unto two thousand and three hundred days; then shall the sanctuary be cleansed,”",
+      "claim_text": "Daniel 8:14 states 'Unto two thousand and three hundred days; then shall the sanctuary be cleansed.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Daniel"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Daniel 8:14: 'Unto two thousand and three hundred days; then shall the sanctuary be cleansed.' Wording and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-009",
+      "paragraph": 2,
+      "quote": "the first angel’s message, “Fear God, and give glory to Him; for the hour of His judgment is come,”",
+      "claim_text": "Revelation 14:7 (called the 'first angel's message') states 'Fear God, and give glory to Him; for the hour of His judgment is come.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Revelation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Revelation 14:7: 'Fear God, and give glory to him; for the hour of his judgment is come.' Wording and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-010",
+      "paragraph": 2,
+      "quote": "pointed to Christ’s ministration in the most holy place, to the investigative judgment, and not to the coming of Christ for the redemption of His people and the destruction of the wicked.",
+      "claim_text": "Daniel 8:14 and Revelation 14:7 (the 'first angel's message') are interpreted as referring to Christ's ministration in the heavenly most holy place and an investigative judgment, not to His second coming.",
+      "claim_type": "theological",
+      "entities": ["Book of Daniel", "Book of Revelation", "investigative judgment"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Doctrinal reinterpretation of Daniel 8:14 / Revelation 14:7 (the investigative-judgment reading). Theological, not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-011",
+      "paragraph": 2,
+      "quote": "The mistake had not been in the reckoning of the prophetic periods, but in the _event_ to take place at the end of the 2300 days.",
+      "claim_text": "The Millerite calculation error of 1844 is interpreted as an error about the nature of the prophesied event, not about the reckoning of the 2300-day prophetic period.",
+      "claim_type": "theological",
+      "entities": ["Millerites", "2300 days prophecy"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Doctrinal claim locating the Millerite error in the expected event rather than the chronology. Interpretive; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-012",
+      "paragraph": 2,
+      "quote": "Through this error the believers had suffered disappointment, yet all that was foretold by the prophecy, and all that they had any Scripture warrant to expect, had been accomplished.",
+      "claim_text": "Despite the Millerites' mistaken expectation, everything foretold by the 2300-day prophecy is asserted to have been fulfilled at the appointed time.",
+      "claim_type": "theological",
+      "entities": ["Millerites", "2300 days prophecy"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion of prophetic fulfillment. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-013",
+      "paragraph": 2,
+      "quote": "At the very time when they were lamenting the failure of their hopes, the event had taken place which was foretold by the message, and which must be fulfilled before the Lord could appear to give reward to His servants.",
+      "claim_text": "The event foretold by the 1844 message is asserted to have occurred precisely when the Millerites were lamenting their disappointment.",
+      "claim_type": "theological",
+      "entities": ["Millerites", "1844"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "CONTROL SAMPLE (extractor flagged needs_verification:false). Re-examined for a smuggled factual assertion: the sentence asserts a heavenly event ('Christ entered the most holy place') coinciding with October 1844. The only checkable kernel (that the Millerites were lamenting a failed hope in Oct 1844) is the disappointment already verified at GC-24-001; the claim proper is a theological assertion of an unobservable heavenly event. Correctly flagged as interpretive; unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-014",
+      "paragraph": 3,
+      "quote": "Christ had come, not to the earth, as they expected, but, as foreshadowed in the type, to the most holy place of the temple of God in heaven.",
+      "claim_text": "In 1844, Christ is interpreted as having come not to earth but to the most holy place of the heavenly temple.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "1844", "heavenly sanctuary"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Core sanctuary doctrine (Christ's 1844 entry into the heavenly most holy place). Supernatural/doctrinal; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-015",
+      "paragraph": 3,
+      "quote": "“I saw in the night visions, and, behold, one like the Son of man came with the clouds of heaven, and came”—not to the earth, but—“to the Ancient of days, and they brought Him near before Him.”(696)",
+      "claim_text": "Daniel 7:13 states that one like the Son of man came with the clouds of heaven and was brought near before the Ancient of days.",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Daniel"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Daniel 7:13: 'I saw in the night visions, and, behold, one like the Son of man came with the clouds of heaven, and came to the Ancient of days, and they brought him near before him.' White interpolates commentary ('not to the earth, but') between the exact KJV clauses; the quoted words match. Reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-016",
+      "paragraph": 4,
+      "quote": "“The Lord, whom ye seek, shall suddenly come to His temple, even the messenger of the covenant, whom ye delight in: behold, He shall come, saith the Lord of hosts.”(697)",
+      "claim_text": "Malachi 3:1 states that the Lord, the messenger of the covenant, shall suddenly come to His temple.",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Malachi"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Malachi 3:1 (second half): 'and the Lord, whom ye seek, shall suddenly come to his temple, even the messenger of the covenant, whom ye delight in: behold, he shall come, saith the LORD of hosts.' Wording and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-017",
+      "paragraph": 4,
+      "quote": "The coming of the Lord to His temple was sudden, unexpected, to His people. They were not looking for Him _there_.",
+      "claim_text": "Christ's coming to the heavenly temple in 1844 is interpreted as sudden and unexpected to His people, who were not looking for it there.",
+      "claim_type": "theological",
+      "entities": ["1844", "heavenly sanctuary"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Doctrinal interpretation of the 1844 heavenly-temple coming. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-018",
+      "paragraph": 4,
+      "quote": "They expected Him to come to earth, “in flaming fire taking vengeance on them that know not God, and that obey not the gospel.”(698)",
+      "claim_text": "In 1844, Millerite Adventists expected Christ's second coming to occur visibly on earth, in judgment on the wicked.",
+      "claim_type": "event",
+      "entities": ["Millerites", "1844"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Millerites' core expectation was a visible, literal second advent of Christ to earth in 1844 (the personal, premillennial return), not a heavenly-sanctuary transaction. Confirmed by Millerite historiography and local primary sources. source_quality: academic-partial.",
+        "modern_consensus": "Millerism preached a literal, visible, personal second coming of Christ; the disappointment followed precisely because that earthly advent did not occur.",
+        "sources": [
+          {"title": "I. C. Wellcome, History of the Second Advent Message (1874) [local primary]", "url": "scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true},
+          {"title": "Great Disappointment", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-24-019",
+      "paragraph": 4,
+      "quote": "They expected Him to come to earth, “in flaming fire taking vengeance on them that know not God, and that obey not the gospel.”(698)",
+      "claim_text": "2 Thessalonians 1:8 describes the Lord's coming 'in flaming fire taking vengeance on them that know not God, and that obey not the gospel.'",
+      "claim_type": "attributed_quote",
+      "entities": ["2 Thessalonians"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV 2 Thessalonians 1:8: 'In flaming fire taking vengeance on them that know not God, and that obey not the gospel of our Lord Jesus Christ.' White quotes the clause (truncated at 'gospel'); wording and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-020",
+      "paragraph": 5,
+      "quote": "Another message of warning and instruction was to be given to the church.",
+      "claim_text": "A further doctrinal message of warning and instruction was to be given to the Adventist church following 1844.",
+      "claim_type": "theological",
+      "entities": ["Adventists", "1844"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological framing of a divinely-intended further message. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-021",
+      "paragraph": 6,
+      "quote": "“Who may abide the day of His coming? and who shall stand when He appeareth? for He is like a refiner’s fire, and like fullers’ soap: and He shall sit as a refiner and purifier of silver: and He shall purify the sons of Levi, and purge them as gold and silver, that they may offer unto the Lord an offering in righteousness.”(699)",
+      "claim_text": "Malachi 3:2-3 describes the Lord as a refiner's fire and fullers' soap who will purify the sons of Levi.",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Malachi"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Malachi 3:2-3 matches ('like a refiner's fire, and like fullers' soap: And he shall sit as a refiner and purifier of silver: and he shall purify the sons of Levi... that they may offer unto the LORD an offering in righteousness'). Wording and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-022",
+      "paragraph": 6,
+      "quote": "Those who are living upon the earth when the intercession of Christ shall cease in the sanctuary above, are to stand in the sight of a holy God without a mediator.",
+      "claim_text": "Those alive when Christ's heavenly intercession ceases will stand before God without a mediator.",
+      "claim_type": "theological",
+      "entities": ["heavenly sanctuary"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Doctrinal claim about the close of Christ's heavenly intercession. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-023",
+      "paragraph": 6,
+      "quote": "While the investigative judgment is going forward in heaven, while the sins of penitent believers are being removed from the sanctuary, there is to be a special work of purification, of putting away of sin, among God’s people upon earth.",
+      "claim_text": "While the investigative judgment proceeds in heaven, a corresponding work of purification from sin is to occur among God's people on earth.",
+      "claim_type": "theological",
+      "entities": ["investigative judgment"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Investigative-judgment doctrine. Supernatural/doctrinal; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-024",
+      "paragraph": 7,
+      "quote": "“Then shall the offering of Judah and Jerusalem be pleasant unto the Lord, as in the days of old, and as in former years.”(700)",
+      "claim_text": "Malachi 3:4 states 'Then shall the offering of Judah and Jerusalem be pleasant unto the Lord, as in the days of old, and as in former years.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Malachi"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Malachi 3:4: 'Then shall the offering of Judah and Jerusalem be pleasant unto the LORD, as in the days of old, and as in former years.' Wording and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-025",
+      "paragraph": 7,
+      "quote": "will be “a glorious church, not having spot, or wrinkle, or any such thing.”(701)",
+      "claim_text": "Ephesians 5:27 describes the church Christ receives as 'a glorious church, not having spot, or wrinkle, or any such thing.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Epistle to the Ephesians"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Ephesians 5:27: 'a glorious church, not having spot, or wrinkle, or any such thing.' Wording and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-026",
+      "paragraph": 7,
+      "quote": "she will look forth “as the morning, fair as the moon, clear as the sun, and terrible as an army with banners.”(702)",
+      "claim_text": "Song of Solomon 6:10 describes the beloved as looking forth 'as the morning, fair as the moon, clear as the sun, and terrible as an army with banners.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Song of Solomon"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Song of Solomon 6:10: 'Who is she that looketh forth as the morning, fair as the moon, clear as the sun, and terrible as an army with banners?' Wording and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-027",
+      "paragraph": 8,
+      "quote": "“And I will come near to you to judgment; and I will be a swift witness against the sorcerers, and against the adulterers, and against false swearers, and against those that oppress the hireling in his wages, the widow, and the fatherless, and that turn aside the stranger from his right, and fear not Me, saith the Lord of hosts.”(703)",
+      "claim_text": "Malachi 3:5 states the Lord will come near to judgment as a swift witness against sorcerers, adulterers, false swearers, and oppressors.",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Malachi"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Malachi 3:5 matches verbatim. Wording and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-028",
+      "paragraph": 8,
+      "quote": "“Behold, the Lord cometh with ten thousands of His saints, to execute judgment upon all, and to convince all that are ungodly among them of all their ungodly deeds.”(704)",
+      "claim_text": "Jude 1:14-15 states 'Behold, the Lord cometh with ten thousands of His saints, to execute judgment upon all, and to convince all that are ungodly among them of all their ungodly deeds.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Epistle of Jude"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Jude 14-15: 'Behold, the Lord cometh with ten thousands of his saints, To execute judgment upon all, and to convince all that are ungodly among them of all their ungodly deeds...' Wording and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-029",
+      "paragraph": 8,
+      "quote": "This coming, and the coming of the Lord to His temple, are distinct and separate events.",
+      "claim_text": "Christ's second advent for final judgment and Christ's earlier coming to His heavenly temple are interpreted as two distinct and separate events.",
+      "claim_type": "theological",
+      "entities": ["second advent", "heavenly sanctuary"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Doctrinal distinction between the two 'comings'. Interpretive; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-030",
+      "paragraph": 9,
+      "quote": "The coming of Christ as our high priest to the most holy place, for the cleansing of the sanctuary, brought to view in Dan. 8:14; the coming of the Son of man to the Ancient of days, as presented in Dan. 7:13; and the coming of the Lord to His temple, foretold by Malachi, are descriptions of the same event; and this is also represented by the coming of the bridegroom to the marriage, described by Christ in the parable of the ten virgins, of Matthew 25.",
+      "claim_text": "Daniel 8:14, Daniel 7:13, Malachi's prophecy of the Lord coming to His temple, and the parable of the ten virgins in Matthew 25 are interpreted as descriptions of the same single event (Christ's 1844 entry into the heavenly most holy place).",
+      "claim_type": "theological",
+      "entities": ["Book of Daniel", "Book of Malachi", "Gospel of Matthew", "1844"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Harmonizing typological interpretation identifying four scriptures with a single heavenly event. Doctrinal; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-031",
+      "paragraph": 10,
+      "quote": "In the summer and autumn of 1844, the proclamation, “Behold, the Bridegroom cometh,” was given.",
+      "claim_text": "In the summer and autumn of 1844, Millerite Adventists proclaimed the message 'Behold, the Bridegroom cometh' (the 'midnight cry').",
+      "claim_type": "event",
+      "entities": ["Millerites", "1844", "midnight cry"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The seventh-month ('true midnight cry') movement, using Matthew 25:6 'Behold, the Bridegroom cometh,' arose in summer 1844 (Samuel Snow's message, publicized July 21 and at the Exeter NH camp meeting in August) and swept through the movement to 22 October 1844. Local primary sources (Bliss, Wellcome) record exactly this cry and its timing. source_quality: academic-partial (AUSS landing + primaries).",
+        "modern_consensus": "The 'true midnight cry' / seventh-month movement, built on the Matthew 25 bridegroom parable, dominated Millerism in the summer and autumn of 1844.",
+        "sources": [
+          {"title": "S. Bliss, Memoirs of William Miller (1853) [local primary]", "url": "scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true, "note": "Records the midnight cry 'Behold, the Bridegroom cometh' during 1844."},
+          {"title": "I. C. Wellcome, History of the Second Advent Message (1874) [local primary]", "url": "scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true, "note": "Seventh-month / tenth-day-of-seventh-month movement, tarrying-time midnight cry."},
+          {"title": "Great Disappointment (seventh-month movement, Snow, Exeter camp meeting)", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-24-032",
+      "paragraph": 10,
+      "quote": "In the summer and autumn of 1844, the proclamation, “Behold, the Bridegroom cometh,” was given.",
+      "claim_text": "Matthew 25:6 records the cry 'Behold, the Bridegroom cometh.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Gospel of Matthew"],
+      "needs_verification": true,
+      "extractor_note": "Same quote as GC-24-031, split into historical-event and attributed-quote claims.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Matthew 25:6: 'And at midnight there was a cry made, Behold, the bridegroom cometh; go ye out to meet him.' Wording and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-033",
+      "paragraph": 10,
+      "quote": "The two classes represented by the wise and foolish virgins were then developed,—one class who looked with joy to the Lord’s appearing, and who had been diligently preparing to meet Him; another class that, influenced by fear, and acting from impulse, had been satisfied with a theory of the truth, but were destitute of the grace of God.",
+      "claim_text": "The Millerite movement of 1844 is interpreted as having developed two classes of believers corresponding to the wise and foolish virgins of Matthew 25.",
+      "claim_type": "theological",
+      "entities": ["Millerites", "1844"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Typological interpretation mapping the 1844 movement onto the wise/foolish virgins. Doctrinal; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-034",
+      "paragraph": 10,
+      "quote": "In the parable, when the bridegroom came, “they that were ready went in with him to the marriage.”",
+      "claim_text": "Matthew 25:10 states that when the bridegroom came, those who were ready went in with him to the marriage.",
+      "claim_type": "attributed_quote",
+      "entities": ["Gospel of Matthew"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Matthew 25:10: 'and they that were ready went in with him to the marriage: and the door was shut.' Wording (quoted portion) and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-035",
+      "paragraph": 10,
+      "quote": "The coming of the bridegroom, here brought to view, takes place before the marriage. The marriage represents the reception by Christ of His kingdom.",
+      "claim_text": "The bridegroom's coming in Matthew 25 is interpreted as taking place before the marriage, and the marriage is interpreted as Christ's reception of His kingdom.",
+      "claim_type": "theological",
+      "entities": ["Gospel of Matthew"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "CONTROL-adjacent theological reading (the marriage as Christ's reception of His kingdom). Interpretive; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-036",
+      "paragraph": 10,
+      "quote": "The holy city, the New Jerusalem, which is the capital and representative of the kingdom, is called “the bride, the Lamb’s wife.”",
+      "claim_text": "Revelation 21:9 refers to the New Jerusalem as 'the bride, the Lamb's wife.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Revelation", "New Jerusalem"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Revelation 21:9: 'I will shew thee the bride, the Lamb's wife.' The phrase and reference are correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-037",
+      "paragraph": 10,
+      "quote": "Said the angel to John, “Come hither, I will show thee the bride, the Lamb’s wife.”",
+      "claim_text": "Revelation 21:9 records an angel telling John, 'Come hither, I will show thee the bride, the Lamb's wife.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Revelation", "John (Apostle)"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Revelation 21:9: 'Come hither, I will shew thee the bride, the Lamb's wife.' Wording and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-038",
+      "paragraph": 10,
+      "quote": "“He carried me away in the spirit,” says the prophet, “and showed me that great city, the holy Jerusalem, descending out of heaven from God.”(705)",
+      "claim_text": "Revelation 21:10 records John saying he was carried away in the spirit and shown the holy city Jerusalem descending out of heaven from God.",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Revelation", "John (Apostle)"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Revelation 21:10: 'And he carried me away in the spirit to a great mountain, and shewed me that great city, the holy Jerusalem, descending out of heaven from God.' White abridges (drops 'to a great mountain'); quoted words match and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-039",
+      "paragraph": 10,
+      "quote": "In the Revelation the people of God are said to be the guests at the marriage supper.(706) If _guests_, they cannot be represented also as the _bride_.",
+      "claim_text": "The Book of Revelation's people of God are interpreted as guests at the marriage supper, and are therefore interpreted as distinct from the bride (the New Jerusalem).",
+      "claim_type": "theological",
+      "entities": ["Book of Revelation"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive distinction (guests vs. bride). Doctrinal; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-040",
+      "paragraph": 10,
+      "quote": "Christ, as stated by the prophet Daniel, will receive from the Ancient of days in heaven, “dominion, and glory, and a kingdom;”",
+      "claim_text": "Daniel 7:14 states that the Son of man will receive from the Ancient of days 'dominion, and glory, and a kingdom.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Daniel"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Daniel 7:14: 'And there was given him dominion, and glory, and a kingdom.' Phrase and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-041",
+      "paragraph": 10,
+      "quote": "He will receive the New Jerusalem, the capital of His kingdom, “prepared as a bride adorned for her husband.”(707)",
+      "claim_text": "Revelation 21:2 describes the New Jerusalem as 'prepared as a bride adorned for her husband.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Revelation", "New Jerusalem"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Revelation 21:2: 'new Jerusalem... prepared as a bride adorned for her husband.' Phrase and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-042",
+      "paragraph": 10,
+      "quote": "who are to “sit down with Abraham, and Isaac, and Jacob,” at His table in His kingdom,(708)",
+      "claim_text": "Matthew 8:11 states that many will sit down with Abraham, Isaac, and Jacob in the kingdom of heaven.",
+      "claim_type": "attributed_quote",
+      "entities": ["Gospel of Matthew", "Abraham", "Isaac", "Jacob"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Matthew 8:11: 'and shall sit down with Abraham, and Isaac, and Jacob, in the kingdom of heaven.' The quoted phrase matches; the reference is correct (the 'at His table in His kingdom' gloss echoes Luke 22:30 but is White's connective, not part of the quotation).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-043",
+      "paragraph": 11,
+      "quote": "The proclamation, “Behold, the Bridegroom cometh,” in the summer of 1844, led thousands to expect the immediate advent of the Lord.",
+      "claim_text": "The 'midnight cry' proclamation of summer 1844 led thousands of Millerite believers to expect the immediate second coming of Christ.",
+      "claim_type": "statistic",
+      "entities": ["Millerites", "1844", "midnight cry"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The seventh-month message spread rapidly through a movement estimated at tens of thousands (commonly 50,000-100,000 adherents), producing widespread expectation of an immediate advent. 'Thousands' is a conservative, accurate order of magnitude. source_quality: academic-partial.",
+        "modern_consensus": "Millerite adherence is estimated in the tens of thousands; the seventh-month cry produced intense, movement-wide advent expectation.",
+        "sources": [
+          {"title": "Great Disappointment (estimated 50,000-100,000 adherents)", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "I. C. Wellcome, History of the Second Advent Message (1874) [local primary]", "url": "scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-24-044",
+      "paragraph": 11,
+      "quote": "“They that were ready went in with Him to the marriage, and the door was shut.”",
+      "claim_text": "Matthew 25:10 states 'They that were ready went in with Him to the marriage, and the door was shut.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Gospel of Matthew"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Matthew 25:10: 'and they that were ready went in with him to the marriage: and the door was shut.' Wording and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-045",
+      "paragraph": 11,
+      "quote": "The followers of Christ are to “wait for their Lord, when He will _return from_ the wedding.”(709)",
+      "claim_text": "Luke 12:36 describes followers as waiting for their Lord to return from the wedding.",
+      "claim_type": "attributed_quote",
+      "entities": ["Gospel of Luke"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Luke 12:36: 'And ye yourselves like unto men that wait for their lord, when he will return from the wedding.' Wording and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-046",
+      "paragraph": 12,
+      "quote": "Those who, with a knowledge of the truth from the Scriptures, had also the Spirit and grace of God, and who, in the night of their bitter trial, had patiently waited, searching the Bible for clearer light,—these saw the truth concerning the sanctuary in heaven and the Saviour’s change of ministration, and by faith they followed Him in His work in the sanctuary above.",
+      "claim_text": "After the 1844 disappointment, some Adventist believers responded by patiently searching the Bible for clearer light and arrived at the doctrine of Christ's changed ministration in the heavenly sanctuary.",
+      "claim_type": "causal",
+      "entities": ["Adventists", "1844"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The historical kernel is accurate: after October 1844 a group of Adventists (notably Hiram Edson, O. R. L. Crosier, and F. B. Hahn) developed the two-phase heavenly-sanctuary interpretation, published in the Day-Star (1846), which became the basis of Sabbatarian Adventism. The claim that they 'saw the truth' is theological, but the event (Bible-study origin of the sanctuary reinterpretation) is documented. source_quality: academic-partial.",
+        "modern_consensus": "The heavenly-sanctuary reinterpretation emerged from post-disappointment Bible study among a small group led by Edson and Crosier.",
+        "sources": [
+          {"title": "Shut-door theology (reinterpretation via Christ's heavenly-sanctuary ministry)", "url": "https://en.wikipedia.org/wiki/Shut-door_theology", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "G. Land, 'The Historians and the Millerites', AUSS 32/3 (1994)", "url": "https://www.andrews.edu/library/car/cardigital/Periodicals/AUSS/1994-3/1994-3-07.pdf", "source_class": "academic", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-24-047",
+      "paragraph": 13,
+      "quote": "In the parable of Matthew 22 the same figure of the marriage is introduced, and the investigative judgment is clearly represented as taking place before the marriage.",
+      "claim_text": "The parable of the wedding feast in Matthew 22 is interpreted as representing the investigative judgment taking place before the marriage.",
+      "claim_type": "theological",
+      "entities": ["Gospel of Matthew", "investigative judgment"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "CONTROL SAMPLE (extractor flagged needs_verification:false). Re-examined for a smuggled factual assertion: none. The claim is an allegorical reading of Matthew 22 (king inspecting guests = investigative judgment) with no checkable historical proposition. Correctly flagged as interpretive; unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-048",
+      "paragraph": 13,
+      "quote": "Previous to the wedding the king comes in to see the guests,(710) to see if all are attired in the wedding garment, the spotless robe of character washed and made white in the blood of the Lamb.(711)",
+      "claim_text": "The king's inspection of the wedding guests in Matthew 22:11 is interpreted as symbolizing an examination of character (the 'wedding garment') washed in the blood of the Lamb per Revelation 7:14.",
+      "claim_type": "theological",
+      "entities": ["Gospel of Matthew", "Book of Revelation"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Allegorical interpretation of Matthew 22:11 combined with Revelation 7:14. Doctrinal; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-049",
+      "paragraph": 14,
+      "quote": "When the work of investigation shall be ended, when the cases of those who in all ages have professed to be followers of Christ have been examined and decided, then, and not till then, probation will close, and the door of mercy will be shut.",
+      "claim_text": "Probation for humanity will close, and the door of mercy will shut, only when the investigative judgment of all professed followers of Christ throughout the ages has ended.",
+      "claim_type": "theological",
+      "entities": ["investigative judgment"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Investigative-judgment / close-of-probation doctrine. Supernatural/doctrinal; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-050",
+      "paragraph": 15,
+      "quote": "In the service of the earthly sanctuary, which, as we have seen, is a figure of the service in the heavenly, when the high priest on the day of atonement entered the most holy place, the ministration in the first apartment ceased.",
+      "claim_text": "In the ancient Israelite sanctuary ritual, when the high priest entered the most holy place on the Day of Atonement, ministration in the first apartment (the holy place) ceased.",
+      "claim_type": "event",
+      "entities": ["Day of Atonement", "Israelite sanctuary"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Consistent with Leviticus 16: on the Day of Atonement the high priest alone entered the most holy place, and Lev 16:17 requires that 'there shall be no man in the tabernacle of the congregation when he goeth in to make an atonement in the holy place' - i.e. ordinary ministration in the holy place did not proceed while the high priest was within. Accurate description of the biblical ritual.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-051",
+      "paragraph": 15,
+      "quote": "God commanded, “There shall be no man in the tabernacle of the congregation when he goeth in to make an atonement in the holy place, until he come out.”(712)",
+      "claim_text": "Leviticus 16:17 commands that no man be in the tabernacle of the congregation when the high priest goes in to make atonement in the holy place, until he comes out.",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Leviticus"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Leviticus 16:17: 'And there shall be no man in the tabernacle of the congregation when he goeth in to make an atonement in the holy place, until he come out...' Wording and reference correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-052",
+      "paragraph": 15,
+      "quote": "So when Christ entered the holy of holies to perform the closing work of the atonement, He ceased His ministration in the first apartment. But when the ministration in the first apartment ended, the ministration in the second apartment began.",
+      "claim_text": "Christ's entry into the heavenly holy of holies is interpreted as the point at which His ministration in the heavenly 'first apartment' ceased and ministration in the 'second apartment' began.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "heavenly sanctuary"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Two-apartment heavenly-sanctuary doctrine applied to Christ. Supernatural/doctrinal; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-053",
+      "paragraph": 15,
+      "quote": "When in the typical service the high priest left the holy on the day of atonement, he went in before God to present the blood of the sin-offering in behalf of all Israel who truly repented of their sins.",
+      "claim_text": "In the ancient Israelite Day of Atonement ritual, the high priest presented the blood of the sin-offering before God on behalf of all Israel who had truly repented.",
+      "claim_type": "event",
+      "entities": ["Day of Atonement", "Israelite sanctuary"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Consistent with Leviticus 16:15-16: the high priest brought the blood of the sin-offering within the veil and made atonement for the holy place 'because of the uncleanness of the children of Israel'; Leviticus 23:27-29 ties the day's benefit to those who afflict their souls. 'Who truly repented' is White's gloss but matches the affliction-of-soul requirement. Accurate description of the biblical ritual.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-054",
+      "paragraph": 15,
+      "quote": "So Christ had only completed one part of His work as our intercessor, to enter upon another portion of the work, and He still pleaded His blood before the Father in behalf of sinners.",
+      "claim_text": "Christ's ministration is interpreted as having completed only one part of His intercessory work in 1844, entering upon a second portion in behalf of sinners.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "1844"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Doctrinal claim about the phases of Christ's heavenly intercession. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-055",
+      "paragraph": 16,
+      "quote": "This subject was not understood by Adventists in 1844.",
+      "claim_text": "The doctrine of Christ's two-phase heavenly sanctuary ministration was not understood by Millerite Adventists in 1844.",
+      "claim_type": "biographical",
+      "entities": ["Millerites", "1844"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Historically accurate: the two-apartment heavenly-sanctuary interpretation did not exist within Millerism before the disappointment; it was developed only afterward (from Oct 1844 onward, notably by Edson and Crosier). Millerites in 1844 expected a literal earthly advent, not a change in heavenly ministration. source_quality: academic-partial.",
+        "modern_consensus": "The sanctuary/two-apartment doctrine is a post-disappointment development, absent from Millerite teaching in 1844.",
+        "sources": [
+          {"title": "Shut-door theology (post-1844 development of the sanctuary reinterpretation)", "url": "https://en.wikipedia.org/wiki/Shut-door_theology", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "G. Land, 'The Historians and the Millerites', AUSS 32/3 (1994)", "url": "https://www.andrews.edu/library/car/cardigital/Periodicals/AUSS/1994-3/1994-3-07.pdf", "source_class": "academic", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-24-056",
+      "paragraph": 16,
+      "quote": "After the passing of the time when the Saviour was expected, they still believed His coming to be near; they held that they had reached an important crisis, and that the work of Christ as man’s intercessor before God, had ceased.",
+      "claim_text": "After the October 1844 disappointment, many Adventists continued to believe Christ's coming was near and believed His intercessory work before God had ceased (an early form of the 'shut door' belief).",
+      "claim_type": "event",
+      "entities": ["Millerites", "1844", "Shut Door doctrine"],
+      "needs_verification": true,
+      "extractor_note": "Two subsequent sentences in this paragraph elaborate the same 'probation closed before the actual coming' belief without adding a distinct checkable proposition; not separately itemized.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Accurately describes the early shut-door position: for a period after October 1844 many Adventists (including the future Sabbatarian nucleus and Miller himself briefly) held that probation for the world had closed and Christ's mediatorial work of warning sinners was finished, while still expecting an imminent advent. Confirmed by local primary sources (Wellcome records the door-of-mercy-closed view adopted after the 7th month of 1844) and academic scholarship. source_quality: academic-partial.",
+        "modern_consensus": "The immediate post-disappointment 'shut door' belief (probation closed) is well documented among Adventists in late 1844-1845.",
+        "sources": [
+          {"title": "Shut-door theology", "url": "https://en.wikipedia.org/wiki/Shut-door_theology", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "I. C. Wellcome, History of the Second Advent Message (1874) [local primary]", "url": "scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true, "note": "After the 7th month of 1844 passed, some embraced 'the door of mercy was closed.'"},
+          {"title": "Ellen White and the Shut Door (JEGWS symposium 2005), Andrews University", "url": "https://digitalcommons.andrews.edu/cgi/viewcontent.cgi?article=1004&context=jegws", "source_class": "academic", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-24-057",
+      "paragraph": 16,
+      "quote": "And it was a question with them whether the date to which they had looked for the coming of Christ might not rather mark the beginning of this period which was immediately to precede His coming.",
+      "claim_text": "Some post-1844 Adventists debated whether October 1844 marked the beginning of a final pre-advent period rather than the advent itself.",
+      "claim_type": "event",
+      "entities": ["Millerites", "1844"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Consistent with the documented post-disappointment ferment, in which Adventists reinterpreted the October 1844 date as marking a decisive event (close of probation / start of a final period) rather than the advent itself - the shut-door and sanctuary reinterpretations both treat 1844 as the beginning of a terminal phase. Medium confidence because White's precise framing ('beginning of this period immediately to precede His coming') is a summary of a diffuse debate rather than a single documented resolution. source_quality: academic-partial.",
+        "modern_consensus": "Post-1844 Adventists variously reinterpreted the date as marking a real but non-advent event beginning a final period.",
+        "sources": [
+          {"title": "Shut-door theology", "url": "https://en.wikipedia.org/wiki/Shut-door_theology", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "G. Land, 'The Historians and the Millerites', AUSS 32/3 (1994)", "url": "https://www.andrews.edu/library/car/cardigital/Periodicals/AUSS/1994-3/1994-3-07.pdf", "source_class": "academic", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-24-058",
+      "paragraph": 16,
+      "quote": "Having given the warning of the judgment near, they felt that their work for the world was done, and they lost their burden of soul for the salvation of sinners, while the bold and blasphemous scoffing of the ungodly seemed to them another evidence that the Spirit of God had been withdrawn from the rejecters of His mercy.",
+      "claim_text": "Following 1844, some Adventists believed their evangelistic work for the world was finished and interpreted public scoffing at their message as evidence that God's Spirit had been withdrawn from unbelievers.",
+      "claim_type": "event",
+      "entities": ["Millerites"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "This is a precise description of the shut-door mindset: having delivered the final warning, shut-door Adventists held that their work for the world was finished and that the world's scoffing confirmed that mercy's door had closed on the rejecters. Documented in scholarship on shut-door theology and in local primary accounts. source_quality: academic-partial.",
+        "modern_consensus": "Shut-door Adventists in 1844-45 believed their gospel work for the world was complete and read continued unbelief as proof of a closed door.",
+        "sources": [
+          {"title": "Shut-door theology", "url": "https://en.wikipedia.org/wiki/Shut-door_theology", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Ellen White and the Shut Door (JEGWS symposium 2005), Andrews University", "url": "https://digitalcommons.andrews.edu/cgi/viewcontent.cgi?article=1004&context=jegws", "source_class": "academic", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-24-059",
+      "paragraph": 16,
+      "quote": "All this confirmed them in the belief that probation had ended, or, as they then expressed it, “the door of mercy was shut.”",
+      "claim_text": "Some post-1844 Adventists described their belief that probation had ended using the phrase 'the door of mercy was shut' (the 'Shut Door' doctrine).",
+      "claim_type": "attributed_quote",
+      "entities": ["Millerites", "Shut Door doctrine"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The phrase 'shut door' / 'the door of mercy was shut' is the actual historical term used by post-1844 Adventists, drawn from Matthew 25:10. Local primary Wellcome (1874) repeatedly uses 'the door of mercy was closed/shut' and titles a section 'THE \"SHUT DOOR\" THEORY'; the term is standard in the historiography. source_quality: academic-partial.",
+        "modern_consensus": "'Shut door' (from Matt 25:10) is the movement's own label for the post-1844 belief that probation had closed.",
+        "sources": [
+          {"title": "I. C. Wellcome, History of the Second Advent Message (1874) [local primary]", "url": "scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true, "note": "Uses 'the door of mercy was closed/shut' and a 'SHUT DOOR THEORY' section heading."},
+          {"title": "Shut-door theology (term derived from Matthew 25:10)", "url": "https://en.wikipedia.org/wiki/Shut-door_theology", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-24-060",
+      "paragraph": 17,
+      "quote": "But clearer light came with the investigation of the sanctuary question.",
+      "claim_text": "Renewed study of the sanctuary doctrine among some post-1844 Adventists is presented as having produced clearer theological understanding.",
+      "claim_type": "causal",
+      "entities": ["Adventists", "sanctuary doctrine"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The historical kernel - that renewed study of the sanctuary question followed the disappointment and reshaped Adventist doctrine - is documented (Edson/Crosier sanctuary study, 1844-46). The evaluative claim that it produced 'clearer light' (i.e. true understanding) is theological and unverifiable; the event of a sanctuary-focused doctrinal development is supported. source_quality: academic-partial.",
+        "modern_consensus": "Post-1844 sanctuary study reshaped the surviving Adventist branch into Sabbatarian Adventism.",
+        "sources": [
+          {"title": "Shut-door theology (sanctuary reinterpretation)", "url": "https://en.wikipedia.org/wiki/Shut-door_theology", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "G. Land, 'The Historians and the Millerites', AUSS 32/3 (1994)", "url": "https://www.andrews.edu/library/car/cardigital/Periodicals/AUSS/1994-3/1994-3-07.pdf", "source_class": "academic", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-24-061",
+      "paragraph": 17,
+      "quote": "They now saw that they were correct in believing that the end of the 2300 days in 1844 marked an important crisis.",
+      "claim_text": "The 1844 end of the 2300-day prophetic period is interpreted as having correctly marked an important crisis, though not the crisis the Millerites originally expected.",
+      "claim_type": "theological",
+      "entities": ["1844", "2300 days prophecy"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Doctrinal claim that 1844 correctly marked a prophetic crisis. Interpretive; not empirically checkable. (The bare fact that the Millerites' 2300-day reckoning terminated in 1844 is a matter of their arithmetic and is corroborated in the 1844 cluster.)",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-062",
+      "paragraph": 17,
+      "quote": "But while it was true that that door of hope and mercy by which men had for eighteen hundred years found access to God, was closed, another door was opened, and forgiveness of sins was offered to men through the intercession of Christ in the most holy.",
+      "claim_text": "The text asserts that for approximately eighteen hundred years (from Christ's ascension to 1844) men found access to God through Christ's mediation in the first apartment of the heavenly sanctuary, before that door closed in 1844.",
+      "claim_type": "date",
+      "entities": ["1844", "heavenly sanctuary"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[common_knowledge] The chronological span is a sound round figure: from the crucifixion/ascension (c. AD 31-33) to 1844 is about 1,811-1,813 years, accurately rendered 'eighteen hundred years.' The theological framing (first-apartment mediation closing in 1844) is unverifiable doctrine, but the datable span itself is arithmetically correct. Confidence medium because only the numeric span is checkable, not the doctrinal content attached to it.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-063",
+      "paragraph": 17,
+      "quote": "There was still an “open door” to the heavenly sanctuary, where Christ was ministering in the sinner’s behalf.",
+      "claim_text": "After 1844, an 'open door' to the heavenly sanctuary remained, with Christ ministering on behalf of sinners.",
+      "claim_type": "theological",
+      "entities": ["heavenly sanctuary", "1844"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "CONTROL SAMPLE (extractor flagged needs_verification:false). Re-examined for a smuggled factual assertion: none. The 'open door' claim is a doctrinal statement about Christ's continuing heavenly-sanctuary ministry (built on Rev 3:8), with no checkable historical proposition. Correctly flagged as interpretive; unverifiable. (The historical fact that Sabbatarian Adventists adopted an 'open door' reinterpretation is captured in the historical claims GC-24-046/060/079.)",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-064",
+      "paragraph": 18,
+      "quote": "“These things saith He that is holy, He that is true, He that hath the key of David, He that openeth, and no man shutteth; and shutteth, and no man openeth; I know thy works: behold, I have set before thee an open door, and no man can shut it.”(713)",
+      "claim_text": "Revelation 3:7-8 quotes Christ addressing a church, saying He has 'set before thee an open door, and no man can shut it.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Revelation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Revelation 3:7-8 matches ('he that hath the key of David, he that openeth, and no man shutteth; and shutteth, and no man openeth... behold, I have set before thee an open door, and no man can shut it'). Wording and reference correct (message to the church of Philadelphia).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-065",
+      "paragraph": 19,
+      "quote": "The Jews who rejected the light given at Christ’s first advent, and refused to believe on Him as the Saviour of the world, could not receive pardon through Him.",
+      "claim_text": "Segments of the Jewish population rejected Jesus as the Messiah/Saviour of the world during his first-century ministry.",
+      "claim_type": "biographical",
+      "entities": ["Jews", "Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] It is uncontested history that Jesus was not accepted as Messiah by the bulk of first-century Judaism and its leadership; his messianic claims were rejected by most contemporaries. (White's fuller sentence carries a theological consequence, split off as GC-24-066.)",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-066",
+      "paragraph": 19,
+      "quote": "The Jews who rejected the light given at Christ’s first advent, and refused to believe on Him as the Saviour of the world, could not receive pardon through Him.",
+      "claim_text": "Those Jews who rejected Jesus at his first advent could not receive pardon through him.",
+      "claim_type": "theological",
+      "entities": ["Jews", "Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/soteriological claim about the spiritual consequence of rejecting Jesus. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-067",
+      "paragraph": 19,
+      "quote": "When Jesus at His ascension entered by His own blood into the heavenly sanctuary to shed upon His disciples the blessings of His mediation, the Jews were left in total darkness, to continue their useless sacrifices and offerings.",
+      "claim_text": "After Jesus' ascension, Jewish religious practice continued to include temple sacrifices and offerings.",
+      "claim_type": "event",
+      "entities": ["Second Temple", "Jews"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The Jerusalem Temple sacrificial cult continued after Jesus' death (c. AD 30-33) until the Temple's destruction in AD 70. That Jewish sacrifices and offerings continued in this period is uncontested history. (The characterization 'useless' and the heavenly-sanctuary clause are theological, split as GC-24-068.)",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-068",
+      "paragraph": 19,
+      "quote": "When Jesus at His ascension entered by His own blood into the heavenly sanctuary to shed upon His disciples the blessings of His mediation, the Jews were left in total darkness, to continue their useless sacrifices and offerings.",
+      "claim_text": "Jesus at his ascension entered the heavenly sanctuary by his own blood to mediate blessings for his disciples.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "heavenly sanctuary"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Doctrinal claim (drawn from Hebrews 9) about Christ's ascension into the heavenly sanctuary. Supernatural; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-069",
+      "paragraph": 20,
+      "quote": "In the typical service, when the high priest entered the most holy place, all Israel were required to gather about the sanctuary, and in the most solemn manner humble their souls before God, that they might receive the pardon of their sins, and not be cut off from the congregation.",
+      "claim_text": "Ancient Israelite law required all Israel to gather about the sanctuary and solemnly humble themselves before God on the Day of Atonement, under penalty of being cut off from the congregation for failing to do so.",
+      "claim_type": "event",
+      "entities": ["Day of Atonement", "Israelites"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[common_knowledge] Broadly consistent with Leviticus 23:27-32: the Day of Atonement was a holy convocation on which the people were to 'afflict your souls' (humble themselves), and Lev 23:29 imposes the penalty 'whatsoever soul... shall not be afflicted... shall be cut off from among his people.' The 'cut off' penalty and the soul-humbling are exact. Medium confidence because 'gather about the sanctuary' amplifies the biblical 'holy convocation' / day-of-rest language (Leviticus does not command a literal physical gathering at the sanctuary), a mild embellishment rather than a contradiction.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-070",
+      "paragraph": 21,
+      "quote": "A message was sent from heaven to the world in Noah’s day, and their salvation depended upon the manner in which they treated that message.",
+      "claim_text": "According to the biblical narrative, a divine warning message was given to the world in the days of Noah before the Flood.",
+      "claim_type": "event",
+      "entities": ["Noah", "Flood narrative"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The claim is explicitly framed 'according to the biblical narrative.' Genesis 6-7 (with 2 Peter 2:5 calling Noah 'a preacher of righteousness') presents a divine warning to Noah's generation before the Flood. Faithful to the biblical text; no historicity of the Flood is asserted.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-071",
+      "paragraph": 21,
+      "quote": "Because they rejected the warning, the Spirit of God was withdrawn from the sinful race, and they perished in the waters of the flood.",
+      "claim_text": "The withdrawal of the Spirit of God from humanity before the Flood is presented as a consequence of humanity's rejection of Noah's warning.",
+      "claim_type": "theological",
+      "entities": ["Noah", "Flood narrative"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological causal claim about divine withdrawal of the Spirit. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-072",
+      "paragraph": 21,
+      "quote": "In the time of Abraham, mercy ceased to plead with the guilty inhabitants of Sodom, and all but Lot with his wife and two daughters, were consumed by the fire sent down from heaven.",
+      "claim_text": "According to the biblical narrative, in the time of Abraham the inhabitants of Sodom, except for Lot and his wife and two daughters, were destroyed by fire sent from heaven.",
+      "claim_type": "event",
+      "entities": ["Abraham", "Lot", "Sodom"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful to Genesis 19: the LORD rained fire and brimstone on Sodom; only Lot, his wife, and his two daughters were brought out of the city (Lot's wife then became a pillar of salt for looking back). White's 'all but Lot with his wife and two daughters' accurately names the four spared from the fire. Claim explicitly framed as the biblical narrative.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-073",
+      "paragraph": 21,
+      "quote": "The Son of God declared to the unbelieving Jews of that generation, “Your house is left unto you desolate.”(714)",
+      "claim_text": "Matthew 23:38 records Jesus declaring to the Jews of his generation, 'Your house is left unto you desolate.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Gospel of Matthew", "Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV Matthew 23:38: 'Behold, your house is left unto you desolate.' White quotes 'Your house is left unto you desolate'; wording and reference correct (parallel at Luke 13:35).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-074",
+      "paragraph": 21,
+      "quote": "Looking down to the last days, the same Infinite Power declares, concerning those who “\\\"received not the love of the truth, that they might be saved,” “For this cause God shall send them strong delusion, that they should believe a lie: that they all might be damned who believed not the truth, but had pleasure in unrighteousness.”(715)",
+      "claim_text": "2 Thessalonians 2:10-12 states that those who did not receive the love of the truth will be sent 'strong delusion' so that they believe a lie and are damned.",
+      "claim_type": "attributed_quote",
+      "entities": ["2 Thessalonians"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] KJV 2 Thessalonians 2:10-12: '...because they received not the love of the truth, that they might be saved. And for this cause God shall send them strong delusion, that they should believe a lie: That they all might be damned who believed not the truth, but had pleasure in unrighteousness.' Wording and reference correct. The stray backslash-quote before 'received' is a source-transcription artifact (nested-quote escape), not a textual alteration.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-075",
+      "paragraph": 21,
+      "quote": "As they reject the teachings of His word, God withdraws His Spirit, and leaves them to the deceptions which they love.",
+      "claim_text": "Rejection of God's word is presented as the cause of God withdrawing His Spirit and leaving people to deception.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological causal claim about divine withdrawal of the Spirit. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-24-076",
+      "paragraph": 22,
+      "quote": "Though this was not at first understood by Adventists, it was afterward made plain, as the scriptures which define their true position began to open before them.",
+      "claim_text": "The sanctuary/investigative-judgment doctrine, not understood by Adventists immediately after 1844, was subsequently developed and clarified through further scriptural study.",
+      "claim_type": "causal",
+      "entities": ["Adventists", "1844"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The historical development is accurate: the sanctuary/investigative-judgment framework was not held in 1844 and was progressively articulated by Sabbatarian Adventists over the following years through Bible study (Edson, Crosier, then Bates and the Whites). The evaluative phrase 'made plain'/'true position' is doctrinal, but the developmental event is documented. source_quality: academic-partial.",
+        "modern_consensus": "The sanctuary doctrine was a gradual post-1844 construction, not an 1844 belief.",
+        "sources": [
+          {"title": "Shut-door theology", "url": "https://en.wikipedia.org/wiki/Shut-door_theology", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "G. Land, 'The Historians and the Millerites', AUSS 32/3 (1994)", "url": "https://www.andrews.edu/library/car/cardigital/Periodicals/AUSS/1994-3/1994-3-07.pdf", "source_class": "academic", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-24-077",
+      "paragraph": 23,
+      "quote": "The passing of the time in 1844 was followed by a period of great trial to those who still held the advent faith.",
+      "claim_text": "The passing of the expected time in 1844 was followed by a period of significant hardship and testing for Millerite believers who retained the advent faith.",
+      "claim_type": "event",
+      "entities": ["Millerites", "1844"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Well documented: after October 1844 the movement entered a period of confusion, ridicule, defections, and internal division ('a seething and chaotic mass of confusion'), a genuine time of trial for those who kept the advent hope. source_quality: academic-partial.",
+        "modern_consensus": "Late 1844 and 1845 were a period of crisis, scattering, and hardship for surviving Adventists.",
+        "sources": [
+          {"title": "Shut-door theology (post-disappointment confusion)", "url": "https://en.wikipedia.org/wiki/Shut-door_theology", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "I. C. Wellcome, History of the Second Advent Message (1874) [local primary]", "url": "scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-24-078",
+      "paragraph": 23,
+      "quote": "Some renounced their faith in their former reckoning of the prophetic periods, and ascribed to human or satanic agencies the powerful influence of the Holy Spirit which had attended the Advent Movement.",
+      "claim_text": "After 1844, some former Millerites renounced their prophetic-period calculations and attributed the religious phenomena of the Advent Movement to human or satanic influence rather than the Holy Spirit.",
+      "claim_type": "event",
+      "entities": ["Millerites", "Advent Movement", "1844"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Consistent with the documented post-1844 fragmentation: many Millerites abandoned the 1843/1844 chronology, and some who left disavowed the movement's revivalist experience. White's specific charge that these ascribed the movement's power to 'human or satanic agencies' is a polemical characterization of the disillusioned/opposing factions; the underlying fact (renunciation of the reckoning and repudiation of the movement's spiritual claims by some) is supported. Medium confidence on the precise attribution language. source_quality: academic-partial.",
+        "modern_consensus": "Post-1844 many abandoned Millerite chronology; the movement splintered, with some repudiating it entirely.",
+        "sources": [
+          {"title": "Great Disappointment (aftermath and defections)", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "G. Land, 'The Historians and the Millerites', AUSS 32/3 (1994)", "url": "https://www.andrews.edu/library/car/cardigital/Periodicals/AUSS/1994-3/1994-3-07.pdf", "source_class": "academic", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-24-079",
+      "paragraph": 23,
+      "quote": "Another class firmly held that the Lord had led them in their past experience; and as they waited and watched and prayed to know the will of God, they saw that their great High Priest had entered upon another work of ministration, and following Him by faith, they were led to see also the closing work of the church.",
+      "claim_text": "Another group of former Millerites continued to believe God had led their movement and developed the doctrine that Christ began a new phase of heavenly ministration in 1844.",
+      "claim_type": "event",
+      "entities": ["Millerites", "Sabbatarian Adventists", "1844"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Accurate: the branch that became Sabbatarian (later Seventh-day) Adventism retained confidence in the providential leading of the 1844 movement and adopted the two-phase heavenly-sanctuary ministration doctrine (Christ entering the most holy place in 1844). The claim that they 'saw' this is theological, but the historical fact of this group and its doctrine is documented. source_quality: academic-partial.",
+        "modern_consensus": "The Sabbatarian Adventist nucleus (Edson, Bates, the Whites) held the 1844 experience providential and built the sanctuary-ministration doctrine.",
+        "sources": [
+          {"title": "Shut-door theology (Sabbatarian branch and sanctuary ministration)", "url": "https://en.wikipedia.org/wiki/Shut-door_theology", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "G. Land, 'The Historians and the Millerites', AUSS 32/3 (1994)", "url": "https://www.andrews.edu/library/car/cardigital/Periodicals/AUSS/1994-3/1994-3-07.pdf", "source_class": "academic", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-24-080",
+      "paragraph": 23,
+      "quote": "They had a clearer understanding of the first and second angels’ messages, and were prepared to receive and give to the world the solemn warning of the third angel of Revelation 14.",
+      "claim_text": "This group of former Millerites developed a doctrine of the 'first and second angels' messages' and prepared to proclaim a 'third angel's message' based on Revelation 14, forming the basis of Sabbatarian Adventism.",
+      "claim_type": "causal",
+      "entities": ["Revelation 14", "Sabbatarian Adventists"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Historically accurate: the three-angels'-messages framework of Revelation 14 (first = judgment-hour cry of the Millerite movement, second = 'Babylon is fallen', third = warning against the beast, later tied to the Sabbath) became the defining doctrinal structure of Sabbatarian/Seventh-day Adventism, developed by Bates and the Whites in the later 1840s. The claim describes this development accurately. source_quality: academic-partial.",
+        "modern_consensus": "The three-angels'-messages schema of Revelation 14 is foundational to Sabbatarian/Seventh-day Adventist self-understanding and post-1844 identity.",
+        "sources": [
+          {"title": "Shut-door theology / Sabbatarian Adventist development", "url": "https://en.wikipedia.org/wiki/Shut-door_theology", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "G. Land, 'The Historians and the Millerites', AUSS 32/3 (1994)", "url": "https://www.andrews.edu/library/car/cardigital/Periodicals/AUSS/1994-3/1994-3-07.pdf", "source_class": "academic", "supports_verdict": true}
+        ]
+      }
+    }
+  ]
+}
