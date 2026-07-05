@@ -2176,8 +2176,8 @@
       "stages": {
         "extract": "done",
         "verify": "done",
-        "defend": "pending",
-        "impact": "pending"
+        "defend": "done",
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -2209,9 +2209,34 @@
           "low_confidence": 4,
           "searches": 13,
           "clusters": 9
+        },
+        "defend": {
+          "examined": 1,
+          "defense_succeeded": 1,
+          "verdict_downgraded": 0,
+          "defense_failed": 0,
+          "searches": 0
+        },
+        "impact": {
+          "scored": 7,
+          "load_bearing": 1,
+          "top_impact": [
+            {
+              "id": "GC-35-057",
+              "score": 15
+            },
+            {
+              "id": "GC-35-017",
+              "score": 12
+            },
+            {
+              "id": "GC-35-086",
+              "score": 12
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-05T13:29:26Z"
+      "updated_at": "2026-07-05T14:31:51Z"
     },
     "36": {
       "title": "The Impending Conflict",
@@ -2338,65 +2363,159 @@
       "words": 3254,
       "paragraphs": 24,
       "stages": {
-        "extract": "pending",
+        "extract": "done",
         "verify": "pending",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 69,
+          "needs_verification": 24,
+          "by_type": {
+            "theological": 45,
+            "attributed_quote": 12,
+            "event": 6,
+            "date": 2,
+            "biographical": 2,
+            "statistic": 1,
+            "causal": 1
+          },
+          "zero_claim_paras": []
+        }
+      },
+      "updated_at": "2026-07-05T13:37:46Z"
     },
     "39": {
       "title": "“The Time Of Trouble.”",
       "words": 7719,
       "paragraphs": 58,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
+        "extract": "done",
+        "verify": "done",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 125,
+          "needs_verification": 75,
+          "by_type": {
+            "attributed_quote": 46,
+            "theological": 45,
+            "event": 24,
+            "interpretive": 5,
+            "biographical": 2,
+            "date": 1,
+            "geographical": 1,
+            "causal": 1
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 75,
+          "anachronistic": 0,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 50,
+          "low_confidence": 0,
+          "searches": 0,
+          "clusters": 0
+        }
+      },
+      "updated_at": "2026-07-05T14:31:51Z"
     },
     "40": {
       "title": "God’s People Delivered",
       "words": 6114,
       "paragraphs": 44,
       "stages": {
-        "extract": "pending",
+        "extract": "done",
         "verify": "pending",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 105,
+          "needs_verification": 73,
+          "by_type": {
+            "attributed_quote": 61,
+            "theological": 30,
+            "event": 8,
+            "biographical": 3,
+            "interpretive": 2,
+            "statistic": 1
+          },
+          "zero_claim_paras": []
+        }
+      },
+      "updated_at": "2026-07-05T13:39:15Z"
     },
     "41": {
       "title": "Desolation Of The Earth",
       "words": 3050,
       "paragraphs": 28,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
+        "extract": "done",
+        "verify": "done",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 59,
+          "needs_verification": 27,
+          "by_type": {
+            "theological": 30,
+            "attributed_quote": 26,
+            "interpretive": 2,
+            "event": 1
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 27,
+          "anachronistic": 0,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 32,
+          "low_confidence": 0,
+          "searches": 2,
+          "clusters": 1
+        }
+      },
+      "updated_at": "2026-07-05T14:31:27Z"
     },
     "42": {
       "title": "The Controversy Ended",
       "words": 5839,
       "paragraphs": 49,
       "stages": {
-        "extract": "pending",
+        "extract": "done",
         "verify": "pending",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 101,
+          "needs_verification": 58,
+          "by_type": {
+            "attributed_quote": 44,
+            "theological": 41,
+            "biographical": 8,
+            "causal": 3,
+            "event": 2,
+            "interpretive": 2,
+            "date": 1
+          },
+          "zero_claim_paras": []
+        }
+      },
+      "updated_at": "2026-07-05T13:39:46Z"
     }
   }
 }

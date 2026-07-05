@@ -1,0 +1,1878 @@
+{
+  "chapter": 35,
+  "chapter_title": "Aims Of The Papacy",
+  "stage": "verification",
+  "generated_at": "2026-07-05",
+  "notes": "Verification pass. searches: ~13, clusters: 9 (papal authority/infallibility; Pius IX + Josiah Strong quotes; Sabbath/Sunday origins Constantine/Eusebius; medieval Sunday-law legends via Andrews; Abyssinia/Ethiopia Sabbath; persecution/Inquisition torture; medieval Bible access; Waldenses; papal-temporal-power/Peter II of Aragon). Local scholarship carried most of the Sabbath/Sunday, medieval-legend, Abyssinia, Bible-access and torture clusters (Bacchiocchi, Ayer, Andrews, Deanesly, Lea). Bible quotations verified against KJV via common-knowledge fast-path. Control sample of 3 false-flagged claims: GC-35-030, GC-35-047, GC-35-100 (100 smuggles a checkable 2 Thess 2:8 paraphrase, which checks out; other two correctly flagged interpretive). Post-review fix: GC-35-020 changed from disputed to unverifiable/low (undocumentable either way, not a genuine dispute).",
+  "claims": [
+    {
+      "id": "GC-35-001",
+      "paragraph": 1,
+      "quote": "Romanism is now regarded by Protestants with far greater favor than in former years.",
+      "claim_text": "By the time of writing (early 20th century), Protestants regarded Roman Catholicism with far greater favor than in former years.",
+      "claim_type": "interpretive",
+      "entities": ["Protestantism", "Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive generalization about shifting Protestant sentiment; not a discrete checkable proposition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-002",
+      "paragraph": 1,
+      "quote": "The time was when Protestants placed a high value upon the liberty of conscience which had been so dearly purchased. They taught their children to abhor popery, and held that to seek harmony with Rome would be disloyalty to God.",
+      "claim_text": "In earlier generations, Protestants placed a high value on liberty of conscience, taught their children to abhor popery, and considered seeking harmony with Rome disloyal to God.",
+      "claim_type": "interpretive",
+      "entities": ["Protestantism"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive characterization of earlier Protestant attitudes; not a single falsifiable claim.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-003",
+      "paragraph": 2,
+      "quote": "Many urge that it is unjust to judge the church of to-day by the abominations and absurdities that marked her reign during the centuries of ignorance and darkness. They excuse her horrible cruelty as the result of the barbarism of the times, and plead that the influence of modern civilization has changed her sentiments.",
+      "claim_text": "Defenders of the Roman Catholic Church in the early 20th century argued it was unjust to judge the contemporary church by the cruelties of earlier centuries, attributing past cruelty to the barbarism of the times and holding that modern civilization had changed the church's sentiments.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Report of an apologetic argument the author is rebutting; interpretive framing, not a checkable fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-004",
+      "paragraph": 3,
+      "quote": "Have these persons forgotten the claim of infallibility put forth for eight hundred years by this haughty power?",
+      "claim_text": "The Roman Catholic Church had put forth a claim of infallibility for eight hundred years by the time of writing (early 20th century).",
+      "claim_type": "date",
+      "entities": ["Roman Catholic Church", "papal infallibility"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Counting ~800 years back from c.1888-1911 reaches the Gregorian reform. White immediately quotes the 'never erred nor will it ever err' formula, which is Dictatus Papae (1075) prop. 22 (with an even earlier antecedent in Hormisdas, 519). The claim of ecclesial inerrancy does trace to that period, so '800 years' is defensible; formal papal infallibility as a defined dogma is later (1870), a distinction the sentence blurs but does not misstate.",
+        "modern_consensus": "Papal/ecclesial inerrancy ('the Roman church has never erred') is asserted in Dictatus Papae (1075); the dogma of papal infallibility was defined only at Vatican I (1870).",
+        "sources": [
+          {"title": "Dictatus papae (prop. 22)", "url": "https://en.wikipedia.org/wiki/Dictatus_papae", "source_class": "primary", "supports_verdict": true, "note": "Roman church has never erred nor will it err to all eternity, 1075."},
+          {"title": "Papal infallibility (history)", "url": "https://en.wikipedia.org/wiki/Papal_infallibility", "source_class": "encyclopedia", "supports_verdict": true, "note": "519 Hormisdas formula and Gregorian antecedents distinguished from 1870 dogma."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-005",
+      "paragraph": 3,
+      "quote": "So far from being relinquished, this claim was affirmed in the nineteenth century with greater positiveness than ever before.",
+      "claim_text": "The Roman Catholic Church's claim to infallibility was affirmed with greater positiveness in the nineteenth century than ever before.",
+      "claim_type": "date",
+      "entities": ["Roman Catholic Church", "papal infallibility"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The First Vatican Council (1870) defined papal infallibility as dogma for the first time, the most positive affirmation in the church's history. source_quality: academic-partial (primary conciliar definition plus reference works).",
+        "modern_consensus": "Vatican I (Pastor Aeternus, 1870) dogmatically defined papal infallibility.",
+        "sources": [
+          {"title": "Papal infallibility", "url": "https://en.wikipedia.org/wiki/Papal_infallibility", "source_class": "encyclopedia", "supports_verdict": true, "note": "Vatican I 1870 definition."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-006",
+      "paragraph": 3,
+      "quote": "As Rome asserts that the church “_never erred_; nor will it, according to the Scriptures, _ever err_,”(1000) how can she renounce the principles which governed her course in past ages?",
+      "claim_text": "Rome asserts that the church 'never erred; nor will it, according to the Scriptures, ever err.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Accurate rendering of Dictatus Papae (1075) proposition 22: 'the Roman church has never erred; nor will it err to all eternity, the Scripture bearing witness.' A genuine primary papal claim. source_quality: academic-partial (primary document).",
+        "modern_consensus": "The formula is authentic to the Gregorian reform (Dictatus Papae 1075).",
+        "sources": [
+          {"title": "Dictatus papae", "url": "https://en.wikipedia.org/wiki/Dictatus_papae", "source_class": "primary", "supports_verdict": true, "note": "Proposition 22 matches the quoted wording."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-007",
+      "paragraph": 4,
+      "quote": "The papal church will never relinquish her claim to infallibility.",
+      "claim_text": "The Roman Catholic Church will never relinquish its claim to infallibility.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Predictive/interpretive assertion about future church behavior; not testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-008",
+      "paragraph": 4,
+      "quote": "Let the restraints now imposed by secular governments be removed, and Rome be re-instated in her former power, and there would speedily be a revival of her tyranny and persecution.",
+      "claim_text": "If restraints imposed by secular governments were removed and Rome were reinstated in her former power, there would speedily be a revival of her tyranny and persecution.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Counterfactual prediction; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-009",
+      "paragraph": 6,
+      "quote": "“There are many who are disposed to attribute any fear of Roman Catholicism in the United States to bigotry or childishness. Such see nothing in the character and attitude of Romanism that is hostile to our free institutions, or find nothing portentous in its growth.",
+      "claim_text": "An unnamed 'well-known writer' quoted in the text stated that many people in the United States dismissed fear of Roman Catholicism as bigotry or childishness and saw nothing hostile to free institutions in Romanism's character and growth.",
+      "claim_type": "attributed_quote",
+      "entities": ["United States", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The 'well-known writer' (footnote 1001) is Josiah Strong, whose 'Our Country: Its Possible Future and Its Present Crisis' (1885), ch. 5 'Romanism', is the source of the block quotation spanning ¶6-9. The passage is faithfully reproduced.",
+        "modern_consensus": "Strong's Our Country (1885) is the identified source.",
+        "sources": [
+          {"title": "Josiah Strong, Our Country (1885)", "url": "https://en.wikipedia.org/wiki/Josiah_Strong", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Anti-Romanist chapter is the quoted source."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-010",
+      "paragraph": 7,
+      "quote": "Pope Pius IX., in his Encyclical Letter of August 15, 1854, said: ‘The absurd and erroneous doctrines or ravings in defense of liberty of conscience, are a most pestilential error—a pest, of all others, most to be dreaded in a State.’",
+      "claim_text": "Pope Pius IX, in an Encyclical Letter dated August 15, 1854, stated that doctrines in defense of liberty of conscience are 'a most pestilential error—a pest, of all others, most to be dreaded in a State.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Pope Pius IX"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The substance is authentic 19th-century papal teaching: liberty of conscience is condemned in the strongest terms (the 'deliramentum'/pestilential-error language originates in Gregory XVI's Mirari Vos, 1832, and is reaffirmed by Pius IX in Quanta Cura, 1864). White quotes it via Josiah Strong. The exact ascription to an 'Encyclical Letter of August 15, 1854' is a secondary-source detail carried through Strong and is not precisely matched to a single verified 1854 encyclical, but the quotation is not a fabrication. source_quality: academic-partial (primary papal texts on the substance).",
+        "modern_consensus": "Condemnation of liberty of conscience as a pestilential error is documented papal teaching (Mirari Vos 1832; Quanta Cura 1864).",
+        "sources": [
+          {"title": "Quanta Cura (Pius IX)", "url": "https://www.papalencyclicals.net/pius09/p9quanta.htm", "source_class": "primary", "supports_verdict": true, "note": "Condemns liberty of conscience/worship."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-011",
+      "paragraph": 7,
+      "quote": "The same pope, in his Encyclical Letter of December 8, 1864, anathematized ‘those who assert the liberty of conscience science and of religious worship,’ also ‘all such as maintain that the church may not employ force.’",
+      "claim_text": "Pope Pius IX, in an Encyclical Letter dated December 8, 1864, anathematized those who assert liberty of conscience and of religious worship, and those who maintain that the church may not employ force.",
+      "claim_type": "attributed_quote",
+      "entities": ["Pope Pius IX"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Quanta Cura and the accompanying Syllabus of Errors (both December 8, 1864) condemn liberty of conscience and worship, and the Syllabus condemns the proposition that the Church may not use force (Syllabus prop. 24). Accurate. source_quality: academic-partial (primary papal documents).",
+        "modern_consensus": "Quanta Cura/Syllabus of Errors (8 Dec 1864) condemn liberty of conscience/worship and the denial of the Church's coercive power.",
+        "sources": [
+          {"title": "Quanta cura and Syllabus of Errors", "url": "https://en.wikipedia.org/wiki/Quanta_cura", "source_class": "encyclopedia", "supports_verdict": true, "note": "Date and content confirmed."},
+          {"title": "Quanta Cura (text)", "url": "https://www.papalencyclicals.net/pius09/p9quanta.htm", "source_class": "primary", "supports_verdict": true, "note": "Primary condemnation."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-012",
+      "paragraph": 8,
+      "quote": "Says Bishop O’Connor: ‘Religious liberty is merely endured until the opposite can be carried into effect without peril to the Catholic world.’",
+      "claim_text": "Bishop O'Connor is quoted as saying that religious liberty is merely endured by the Catholic Church until the opposite can be enforced without peril to the Catholic world.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bishop O'Connor"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Faithfully reproduces the quotation as given by Josiah Strong (Our Country, 1885), the identified source. The deeper question of whether Bishop O'Connor's own words are verbatim rests on Strong's citation, which White reports accurately.",
+        "sources": [
+          {"title": "Josiah Strong, Our Country (1885)", "url": "https://en.wikipedia.org/wiki/Josiah_Strong", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "O'Connor quotation appears in Strong's Romanism chapter."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-013",
+      "paragraph": 8,
+      "quote": "The archbishop of St. Louis once said: ‘Heresy and unbelief are crimes; and in Christian countries, as in Italy and Spain, for instance, where all the people are Catholics, and where the Catholic religion is an essential part of the law of the land, they are punished as other crimes.’",
+      "claim_text": "The Archbishop of St. Louis is quoted as saying that heresy and unbelief are crimes and, in Catholic countries such as Italy and Spain, are punished as other crimes.",
+      "claim_type": "attributed_quote",
+      "entities": ["Archbishop of St. Louis", "Italy", "Spain"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Faithfully reproduces the quotation from Josiah Strong (Our Country, 1885). The attribution to the Archbishop of St. Louis (Peter Richard Kenrick) circulated widely in 19th-century sources; White reports Strong accurately.",
+        "sources": [
+          {"title": "Josiah Strong, Our Country (1885)", "url": "https://en.wikipedia.org/wiki/Josiah_Strong", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Archbishop of St. Louis quotation in Strong's chapter."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-014",
+      "paragraph": 9,
+      "quote": "Every cardinal, archbishop, and bishop in the Catholic Church takes an oath of allegiance to the pope, in which occur the following words:",
+      "claim_text": "Every cardinal, archbishop, and bishop in the Catholic Church takes an oath of allegiance to the pope.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Bishops swore an oath of fidelity/obedience to the pope at consecration (the oath in the Roman Pontifical). White quotes it via Josiah Strong. The oath is genuine, though its precise wording evolved over time.",
+        "sources": [
+          {"title": "Josiah Strong, Our Country (1885)", "url": "https://en.wikipedia.org/wiki/Josiah_Strong", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Episcopal oath quoted from the Pontifical."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-015",
+      "paragraph": 9,
+      "quote": "‘Heretics, schismatics, and rebels to our said lord (the pope), or his aforesaid successors, I will to my utmost persecute and oppose.’(1001)",
+      "claim_text": "The oath of allegiance taken by Catholic cardinals, archbishops, and bishops to the pope includes the words: 'Heretics, schismatics, and rebels to our said lord (the pope), or his aforesaid successors, I will to my utmost persecute and oppose.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Corresponds to the oath of episcopal consecration in the Roman Pontifical ('Haereticos, schismaticos et rebelles ... pro posse persequar et impugnabo'). White reproduces the quotation as given by Josiah Strong. 'Persecute' translates 'persequar' (pursue/prosecute); the oath text is authentic.",
+        "sources": [
+          {"title": "Josiah Strong, Our Country (1885)", "url": "https://en.wikipedia.org/wiki/Josiah_Strong", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Pontifical oath quoted."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-016",
+      "paragraph": 10,
+      "quote": "It is true that there are real Christians in the Roman Catholic communion. Thousands in that church are serving God according to the best light they have.",
+      "claim_text": "There are real Christians within the Roman Catholic communion, with thousands serving God according to the best light available to them.",
+      "claim_type": "theological",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological judgment about the spiritual state of believers; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-017",
+      "paragraph": 10,
+      "quote": "They are not allowed access to His word, and therefore they do not discern the truth.",
+      "claim_text": "Catholic laity, as a body, were not allowed access to the Bible and therefore did not discern the truth it contains.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "The sweeping claim that Catholic laity as a body were denied Scripture is overstated by modern scholarship. Deanesly's Lollard Bible documents that prohibitions of vernacular Bible reading were regional and targeted (Toulouse 1229, Tarragona 1233, imperial bans), not a universal ecclesiastical ban; the Cambridge History of the Bible states no pope or council ever issued a universal prohibition, and Wim François notes vernacular biblical books circulated widely. Yet real restrictions existed and low literacy limited practical access, so the picture is contested rather than simply false. Matches White's 19th-century sources (Wylie, D'Aubigné). source_quality: academic-full (Deanesly monograph + Cambridge History of the Bible / François).",
+        "modern_consensus": "No universal medieval ban on lay/vernacular Bible reading; prohibitions were regional and aimed at unauthorized/heretical translations, though access varied widely.",
+        "sources": [
+          {"title": "M. Deanesly, The Lollard Bible (Cambridge UP, 1920)", "url": "https://archive.org/details/lollardbibleoth00dean", "source_class": "academic", "supports_verdict": true, "note": "Regional prohibitions (Toulouse 1229 etc.), not a blanket ban."},
+          {"title": "Censorship of the Bible (Cambridge History of the Bible; W. François)", "url": "https://en.wikipedia.org/wiki/Censorship_of_the_Bible", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "No universal prohibition; vernacular Bibles circulated."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-018",
+      "paragraph": 11,
+      "quote": "But Romanism as a system is no more in harmony with the gospel of Christ now than at any former period in her history.",
+      "claim_text": "Romanism as a system is no more in harmony with the gospel of Christ in the present (early 20th century) than at any former period in its history.",
+      "claim_type": "theological",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological value judgment about harmony with the gospel; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-019",
+      "paragraph": 11,
+      "quote": "She is employing every device to extend her influence and increase her power in preparation for a fierce and determined conflict to regain control of the world, to re-establish persecution, and to undo all that Protestantism has done.",
+      "claim_text": "As of the early 20th century, the Roman Catholic Church was employing every device to extend her influence and power in preparation for a conflict to regain control of the world, re-establish persecution, and undo the achievements of Protestantism.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church", "Protestantism"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive imputation of intent to an institution; not testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-020",
+      "paragraph": 11,
+      "quote": "Look at the popularity of her colleges and seminaries in America, so widely patronized by Protestants.",
+      "claim_text": "Around 1911, Roman Catholic colleges and seminaries in America were widely patronized by Protestants.",
+      "claim_type": "statistic",
+      "entities": ["Roman Catholic Church", "United States"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "low",
+        "rationale": "A soft period claim drawn from the late-19th-century anti-Catholic literature. Some Catholic colleges did enroll non-Catholic students, but 'widely patronized by Protestants' is a rhetorical characterization; no enrollment statistics either confirming or refuting it were located within budget, and none appear to exist in documentable form. This is not a genuine historiographical dispute, simply undocumentable either way, so it is marked unverifiable/low per corpus convention (cf. ch21/ch34) rather than disputed.",
+        "sources": [
+          {"title": "Josiah Strong, Our Country (1885) milieu", "url": "https://en.wikipedia.org/wiki/Josiah_Strong", "source_class": "scholarly_encyclopedia", "supports_verdict": false, "note": "Genre context; no quantitative confirmation available."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-021",
+      "paragraph": 11,
+      "quote": "Look at the growth of ritualism in England, and the frequent defections to the ranks of the Catholics.",
+      "claim_text": "Around 1911, ritualism was growing within the Church of England, accompanied by frequent conversions to Roman Catholicism.",
+      "claim_type": "event",
+      "entities": ["England", "Church of England", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The Oxford/Tractarian Movement produced a marked growth of Anglo-Catholic ritualism in the Church of England through the 19th century and into the early 20th, with high-profile conversions to Rome (Newman 1845, Manning 1851, and a continuing stream). 'Frequent defections' is a fair characterization of the period.",
+        "modern_consensus": "Anglo-Catholic ritualism and conversions to Rome are well documented features of 19th/early-20th-century English religion.",
+        "sources": [
+          {"title": "Oxford Movement", "url": "https://en.wikipedia.org/wiki/Oxford_Movement", "source_class": "encyclopedia", "supports_verdict": true, "note": "Ritualism and conversions to Rome."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-022",
+      "paragraph": 12,
+      "quote": "Protestants have tampered with and patronized popery; they have made compromises and concessions which papists themselves are surprised to see, and fail to understand.",
+      "claim_text": "By the early 20th century, Protestants had made compromises and concessions toward the Catholic Church that surprised Catholics themselves.",
+      "claim_type": "interpretive",
+      "entities": ["Protestantism", "Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive characterization of Protestant conduct and Catholic reactions; not checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-023",
+      "paragraph": 13,
+      "quote": "Many Protestants suppose that the Catholic religion is unattractive, and that its worship is a dull, meaningless round of ceremony. Here they mistake.",
+      "claim_text": "Many Protestants supposed the Catholic religion to be unattractive and its worship a dull round of ceremony, a supposition the author characterizes as mistaken.",
+      "claim_type": "interpretive",
+      "entities": ["Protestantism", "Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive commentary on perceptions; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-024",
+      "paragraph": 15,
+      "quote": "This outward splendor, pomp, and ceremony, that only mocks the longings of the sin-sick soul, is an evidence of inward corruption.",
+      "claim_text": "The outward splendor, pomp, and ceremony of Catholic worship is evidence of inward corruption.",
+      "claim_type": "theological",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological judgment; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-025",
+      "paragraph": 16,
+      "quote": "Brilliancy of style is not necessarily an index of pure, elevated thought.",
+      "claim_text": "Brilliancy of artistic style is not necessarily an index of pure, elevated thought.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Aesthetic/moral generalization; not a checkable historical fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-026",
+      "paragraph": 16,
+      "quote": "They are often employed by Satan to lead men to forget the necessities of the soul, to lose sight of the future, immortal life, to turn away from their infinite Helper, and to live for this world alone.",
+      "claim_text": "High conceptions of art and refined taste are often employed by Satan to lead people to forget the needs of the soul and turn away from God.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural/theological claim; unverifiable by definition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-027",
+      "paragraph": 17,
+      "quote": "A religion of externals is attractive to the unrenewed heart.",
+      "claim_text": "A religion of externals is attractive to the unrenewed human heart.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/psychological generalization; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-028",
+      "paragraph": 18,
+      "quote": "The church’s claim to the right to pardon, leads the Romanist to feel at liberty to sin; and the ordinance of confession, without which her pardon is not granted, tends also to give license to evil.",
+      "claim_text": "The Roman Catholic Church's claim to the right to pardon sin leads Catholics to feel at liberty to sin, and the ordinance of confession, without which pardon is not granted, tends to give license to evil.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive claim about the moral effect of a doctrine; not testable (the underlying factual element about confession is checked separately at GC-35-029).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-029",
+      "paragraph": 18,
+      "quote": "He who kneels before fallen man, and opens in confession the secret thoughts and imaginations of his heart, is debasing his manhood, and degrading every noble instinct of his soul.",
+      "claim_text": "The Roman Catholic Church requires the sacrament of confession to a priest as a precondition for receiving pardon (absolution) for sin.",
+      "claim_type": "biographical",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Catholic sacramental theology requires auricular confession to a priest for absolution of grave sin (affirmed at the Fourth Lateran Council 1215 and the Council of Trent). Textbook Catholic doctrine.",
+        "modern_consensus": "Sacramental confession/penance with priestly absolution is standard, doctrinally required Catholic practice.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-030",
+      "paragraph": 19,
+      "quote": "There is a striking similarity between the Church of Rome and the Jewish Church at the time of Christ’s first advent.",
+      "claim_text": "There is a striking similarity between the Church of Rome and the Jewish religious establishment at the time of Christ's first advent.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample check: purely analogical/interpretive comparison with no smuggled factual assertion. Extractor's false flag is correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-031",
+      "paragraph": 20,
+      "quote": "The Saviour’s words concerning the bigoted Jews, apply with still greater force to the leaders of the Roman Catholic Church: “They bind heavy burdens and grievous to be borne, and lay them on men’s shoulders; but they themselves will not move them with one of their fingers.”(1002)",
+      "claim_text": "Jesus' recorded words describing religious leaders who 'bind heavy burdens and grievous to be borne, and lay them on men's shoulders; but they themselves will not move them with one of their fingers' are applied in the text to the leaders of the Roman Catholic Church.",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Matthew 23:4.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-032",
+      "paragraph": 21,
+      "quote": "The worship of images and relics, the invocation of saints, and the exaltation of the pope, are devices of Satan to attract the minds of the people from God and from His Son.",
+      "claim_text": "The worship of images and relics, invocation of saints, and exaltation of the pope are devices of Satan to draw people's minds from God.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural/theological claim; unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-033",
+      "paragraph": 21,
+      "quote": "He will direct them to any object that can be substituted for the One who has said, “Come unto Me, all ye that labor and are heavy laden, and I will give you rest.”(1003)",
+      "claim_text": "Jesus is recorded as having said, 'Come unto Me, all ye that labor and are heavy laden, and I will give you rest.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Matthew 11:28.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-034",
+      "paragraph": 22,
+      "quote": "It is Satan’s constant effort to misrepresent the character of God, the nature of sin, and the real issues at stake in the great controversy.",
+      "claim_text": "It is Satan's constant effort to misrepresent the character of God, the nature of sin, and the real issues at stake in the great controversy between good and evil.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural/theological claim; unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-035",
+      "paragraph": 22,
+      "quote": "By perverted conceptions of the divine attributes, heathen nations were led to believe human sacrifices necessary to secure the favor of Deity; and horrible cruelties have been perpetrated under the various forms of idolatry.",
+      "claim_text": "Perverted conceptions of divine attributes historically led heathen nations to believe human sacrifice was necessary to secure the favor of their deities, and horrible cruelties were perpetrated under various forms of idolatry.",
+      "claim_type": "causal",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[common_knowledge] Human sacrifice to secure divine favor is well attested in multiple ancient religions (Aztec, Carthaginian/Phoenician tophet, some Celtic and Near Eastern cults). The factual core is textbook; the causal framing ('perverted conceptions of divine attributes') is interpretive.",
+        "modern_consensus": "Ritual human sacrifice is documented in several ancient religious cultures.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-036",
+      "paragraph": 23,
+      "quote": "In the days of Rome’s supremacy, there were instruments of torture to compel assent to her doctrines.",
+      "claim_text": "During the period of the Roman Catholic Church's political supremacy, instruments of torture were used to compel assent to her doctrines.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The medieval Inquisition employed judicial torture, authorized by Innocent IV's bull Ad extirpanda (1252); Lea documents the torture-chamber in inquisitorial procedure. source_quality: academic-full (Lea, local).",
+        "modern_consensus": "Torture was a sanctioned tool of inquisitorial procedure from 1252 onward.",
+        "sources": [
+          {"title": "H. C. Lea, History of the Inquisition of the Middle Ages, vol. 1 (1888)", "url": "https://www.gutenberg.org/ebooks/39451", "source_class": "academic", "supports_verdict": true, "note": "Torture-chamber and procedure."},
+          {"title": "Medieval Inquisition (Ad extirpanda 1252)", "url": "https://en.wikipedia.org/wiki/Medieval_Inquisition", "source_class": "encyclopedia", "supports_verdict": true, "note": "Papal authorization of torture."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-037",
+      "paragraph": 23,
+      "quote": "There was the stake for those who would not concede to her claims.",
+      "claim_text": "During the period of Rome's supremacy, burning at the stake was used against those who would not concede to the Roman Catholic Church's claims.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Burning at the stake was the standard penalty for relapsed/obstinate heretics handed to the secular arm (e.g., Hus 1415, the Waldenses, Reformation-era martyrs). Textbook.",
+        "modern_consensus": "Death by burning for heresy is uncontested historical fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-038",
+      "paragraph": 23,
+      "quote": "There were massacres on a scale that will never be known until revealed in the judgment.",
+      "claim_text": "The Roman Catholic Church, during its period of supremacy, carried out massacres on a scale not fully known or documented historically.",
+      "claim_type": "statistic",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Large-scale religiously motivated massacres under Catholic auspices are historically attested (Albigensian Crusade including Béziers 1209; St. Bartholomew's Day 1572; suppression of the Waldenses). The rhetorical rider 'a scale that will never be known' is unfalsifiable but the core is supported; no specific inflated death toll is asserted here.",
+        "modern_consensus": "Mass killings in anti-heretical crusades and religious wars are documented; precise totals are debated.",
+        "sources": [
+          {"title": "H. C. Lea, History of the Inquisition of the Middle Ages (1888)", "url": "https://www.gutenberg.org/ebooks/39451", "source_class": "academic", "supports_verdict": true, "note": "Persecution of heretics."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-039",
+      "paragraph": 23,
+      "quote": "Dignitaries of the church studied, under Satan their master, to invent means to cause the greatest possible torture, and not end the life of their victim. In many cases the infernal process was repeated to the utmost limit of human endurance, until nature gave up the struggle, and the sufferer hailed death as a sweet release.",
+      "claim_text": "Dignitaries of the Roman Catholic Church devised methods to inflict maximum torture on victims without ending their lives, sometimes repeating the process until the victim died from exhaustion.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "The image of church officials systematically engineering maximal, indefinitely repeated torture reflects the Protestant martyrological tradition (Foxe, and White's sources Wylie and Dowling). Modern revisionist scholarship (Kamen, Peters) documents that inquisitorial torture was in fact regulated: it could normally be applied only once, for limited duration, was barred from causing bloodshed, mutilation or death, required medical supervision, and a confession had to be freely repeated afterward to be valid. Torture undeniably occurred (Lea), but the systematic-maximization characterization is contradicted by modern historiography while matching 19th-century sources. source_quality: academic-partial (JAAPL, Wikipedia revision; Lea).",
+        "modern_consensus": "Inquisitorial torture was legally constrained (single application, no bloodshed/death, physician present); the black-legend image of engineered maximal suffering is rejected by revisionist scholars.",
+        "period_historiography": "Foxe's Book of Martyrs and Wylie's History of Protestantism describe Rome's officers devising prolonged, life-preserving tortures—the tradition White followed.",
+        "sources": [
+          {"title": "Historical revision of the Inquisition", "url": "https://en.wikipedia.org/wiki/Historical_revision_of_the_Inquisition", "source_class": "encyclopedia", "supports_verdict": true, "note": "Torture regulated and less central than black-legend image."},
+          {"title": "Physicians, the Spanish Inquisition... (JAAPL, 2020)", "url": "https://jaapl.org/content/early/2020/11/27/JAAPL.200052-20", "source_class": "academic", "supports_verdict": true, "note": "Medical supervision and procedural limits on torture."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-040",
+      "paragraph": 24,
+      "quote": "The churchyard contains millions of victims, who spent their lives in vain endeavors to subdue their natural affections, to repress, as offensive to God, every thought and feeling of sympathy with their fellow-creatures.",
+      "claim_text": "Millions of people throughout Roman Catholic history spent their lives, as ascetics/penitents, attempting to suppress natural human affections as a religious discipline.",
+      "claim_type": "statistic",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Refers to monastic/ascetic self-mortification rather than to killings. The ascetic ideal of renouncing natural affections was widespread across many centuries of monasticism, so 'millions' over the medieval period is a defensible hyperbole; the framing is rhetorical/interpretive rather than a precise statistic.",
+        "modern_consensus": "Ascetic renunciation was a pervasive feature of medieval monastic life.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-041",
+      "paragraph": 24,
+      "quote": "Such was the fate of Rome’s opponents. For her adherents she had the discipline of the scourge, of famishing hunger, of bodily austerities in every conceivable, heart-sickening form.",
+      "claim_text": "The Roman Catholic Church historically imposed on its own adherents ascetic disciplines including scourging, hunger-inducing fasting, and severe bodily austerities.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[common_knowledge] Flagellation/self-scourging, rigorous fasting, hair shirts and other bodily austerities are well-documented penitential and monastic practices in medieval Catholicism.",
+        "modern_consensus": "Ascetic mortification (scourging, fasting, austerities) is standard medieval Catholic devotional history.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-042",
+      "paragraph": 25,
+      "quote": "If we desire to understand the determined cruelty of Satan, manifested for hundreds of years, not among those who never heard of God, but in the very heart and throughout the extent of Christendom, we have only to look at the history of Romanism.",
+      "claim_text": "The history of Romanism, spanning hundreds of years within Christendom, is presented as manifesting the determined cruelty of Satan.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological interpretation attributing cruelty to Satan; unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-043",
+      "paragraph": 26,
+      "quote": "The pope claims to be the vicar of Christ; but how does his character bear comparison with that of our Saviour?",
+      "claim_text": "The pope claims the title 'Vicar of Christ.'",
+      "claim_type": "biographical",
+      "entities": ["Pope"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] 'Vicarius Christi' (Vicar of Christ) is a standard papal title, formalized from the 12th-13th centuries. Textbook.",
+        "modern_consensus": "Vicar of Christ is an official papal title.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-044",
+      "paragraph": 26,
+      "quote": "“Lord, wilt Thou that we command fire to come down from heaven, and consume them, even as Elias did?”",
+      "claim_text": "The apostle John is recorded as having asked Jesus, 'Lord, wilt Thou that we command fire to come down from heaven, and consume them, even as Elias did?'",
+      "claim_type": "attributed_quote",
+      "entities": ["Apostle John", "Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Luke 9:54 (spoken by James and John).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-045",
+      "paragraph": 26,
+      "quote": "Jesus looked with pity upon His disciple, and rebuked his harsh spirit, saying, “The Son of man is not come to destroy men’s lives, but to save them.”(1004)",
+      "claim_text": "Jesus is recorded as responding to John's request with, 'The Son of man is not come to destroy men's lives, but to save them.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Luke 9:56.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-046",
+      "paragraph": 27,
+      "quote": "The Roman Church now presents a fair front to the world, covering with apologies her record of horrible cruelties. She has clothed herself in Christlike garments; but she is unchanged.",
+      "claim_text": "As of the early 20th century, the Roman Catholic Church presented a fair front to the world while remaining, in the author's assessment, essentially unchanged from its historical character.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive assessment of the church's essential character; not testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-047",
+      "paragraph": 27,
+      "quote": "The papacy that Protestants are now so ready to honor is the same that ruled the world in the days of the Reformation, when men of God stood up, at the peril of their lives, to expose her iniquity.",
+      "claim_text": "The papacy of the early 20th century is the same institution, unchanged in essential character, that ruled the world during the Reformation era when reformers risked their lives to expose it.",
+      "claim_type": "interpretive",
+      "entities": ["Papacy", "Reformation"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample check: the embedded factual element (institutional continuity of the papacy from the Reformation era to 1911) is trivially accurate, but the load-bearing content ('unchanged in essential character') is an interpretive value judgment. Extractor's false flag is appropriate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-048",
+      "paragraph": 28,
+      "quote": "The papacy is just what prophecy declared that she would be, the apostasy of the latter times.(1005)",
+      "claim_text": "The papacy fulfills biblical prophecy identifying it as the apostasy of the latter times.",
+      "claim_type": "theological",
+      "entities": ["Papacy"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Prophetic interpretation; unverifiable by definition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-049",
+      "paragraph": 28,
+      "quote": "“Faith ought not to be kept with heretics, nor persons suspected of heresy,”(1006) she declares.",
+      "claim_text": "Catholic doctrine, per the cited source, holds that 'Faith ought not to be kept with heretics, nor persons suspected of heresy.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "The maxim is popularly attributed to the Council of Constance (in connection with Hus's broken safe-conduct) and appears in Protestant polemic as Catholic doctrine. Catholic historians (Hefele, Pallavicino, cited in the Catholic Encyclopedia) deny that the council ever decreed that faith need not be kept with heretics; what Constance actually held was that a secular safe-conduct did not bar the Church from trying and punishing a heretic. Genuine historiographical disagreement over attribution and meaning.",
+        "modern_consensus": "The Council of Constance did not formally decree the maxim as doctrine; it ruled that an imperial safe-conduct did not protect Hus from ecclesiastical judgment.",
+        "sources": [
+          {"title": "Council of Constance (Catholic Encyclopedia)", "url": "https://www.newadvent.org/cathen/04288a.htm", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Denies the council decreed no faith with heretics."},
+          {"title": "Council of Constance", "url": "https://en.wikipedia.org/wiki/Council_of_Constance", "source_class": "encyclopedia", "supports_verdict": true, "note": "Safe-conduct vs. heresy trial; disputed maxim."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-050",
+      "paragraph": 29,
+      "quote": "There has been a change; but the change is not in the papacy. Catholicism indeed resembles much of the Protestantism that now exists; because Protestantism has so greatly degenerated since the days of the Reformers.",
+      "claim_text": "Any narrowing of the gap between Catholicism and Protestantism by the early 20th century is attributed, in the text, to Protestantism having degenerated since the Reformers rather than to any change in the papacy.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church", "Protestantism"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive thesis about causes of religious change; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-051",
+      "paragraph": 30,
+      "quote": "As the Protestant churches have been seeking the favor of the world, false charity has blinded their eyes.",
+      "claim_text": "As of the early 20th century, Protestant churches, in seeking the favor of the world, had been blinded by false charity.",
+      "claim_type": "interpretive",
+      "entities": ["Protestantism"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/evaluative claim; not testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-052",
+      "paragraph": 31,
+      "quote": "Many urge that the intellectual and moral darkness prevailing during the Middle Ages favored the spread of her dogmas, superstitions, and oppression, and that the greater intelligence of modern times, the general diffusion of knowledge, and the increasing liberality in matters of religion, forbid a revival of intolerance and tyranny.",
+      "claim_text": "It was commonly argued that the intellectual and moral darkness of the Middle Ages favored the spread of Catholic dogma and oppression, and that modern intelligence and religious liberality preclude a revival of intolerance.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Report of a common argument the author rebuts; interpretive framing, not a checkable fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-053",
+      "paragraph": 32,
+      "quote": "A prayerful study of the Bible would show Protestants the real character of the papacy, and would cause them to abhor and to shun it;",
+      "claim_text": "A prayerful study of the Bible would show Protestants the real character of the papacy and cause them to abhor and shun it.",
+      "claim_type": "theological",
+      "entities": ["Papacy"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological exhortation; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-054",
+      "paragraph": 32,
+      "quote": "It is prepared for two classes of mankind, embracing nearly the whole world,—those who would be saved by their merits, and those who would be saved in their sins.",
+      "claim_text": "The papacy is well adapted to meet the wants of two classes of mankind, embracing nearly the whole world: those who would be saved by their own merits and those who would be saved in their sins.",
+      "claim_type": "interpretive",
+      "entities": ["Papacy"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/rhetorical typology; not testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-055",
+      "paragraph": 33,
+      "quote": "A day of great intellectual darkness has been shown to be favorable to the success of the papacy. It will yet be demonstrated that a day of great intellectual light is equally favorable for its success.",
+      "claim_text": "Both a period of great intellectual darkness and a period of great intellectual light are, in the author's argument, favorable to the success of the papacy.",
+      "claim_type": "interpretive",
+      "entities": ["Papacy"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/predictive thesis; not testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-056",
+      "paragraph": 34,
+      "quote": "In the movements now in progress in the United States to secure for the institutions and usages of the church the support of the state, Protestants are following in the steps of papists.",
+      "claim_text": "Around 1911, movements were in progress in the United States to secure state support for church institutions and usages.",
+      "claim_type": "event",
+      "entities": ["United States", "Protestantism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The National Reform Association (founded 1863) campaigned for a Christian-nation constitutional amendment, and Senator H.W. Blair's national Sunday-Rest Bill (1888) sought federal enforcement of Sunday, drawing organized Christian-lobby support. Such church-state movements were active in the decades surrounding the book. source_quality: academic-partial (Seton Hall Law Journal study).",
+        "modern_consensus": "Late-19th-century US Sabbatarian/National Reform lobbying for state backing of religious observance is well documented.",
+        "sources": [
+          {"title": "The Sunday Rest Bill and the Battle to Keep the Civil Sabbath (Seton Hall Law Journal)", "url": "https://scholarship.shu.edu/cgi/viewcontent.cgi?article=1084&context=shlj", "source_class": "academic", "supports_verdict": true, "note": "Blair Sunday-Rest Bill and National Reform movement."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-057",
+      "paragraph": 34,
+      "quote": "the principal object contemplated is the enforcement of Sunday observance,—a custom which originated with Rome, and which she claims as the sign of her authority.",
+      "claim_text": "Sunday observance as a religious custom originated with the Roman Catholic Church, which claims it as a sign of her authority.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "Two parts. That the Church claims the Sabbath-to-Sunday change as a mark of her authority is well supported (e.g., Archbishop del Fosso at Trent 1562; Catholic catechetical statements). That Sunday observance 'originated with Rome' is genuinely contested: Bacchiocchi (Pontifical Gregorian UP) argues the Church of Rome played a decisive role in institutionalizing Sunday in the 2nd century, but the mainstream (Rordorf; Carson-edited volume; Catholic scholarship) traces Sunday worship to earlier, broader apostolic-era resurrection practice not specifically Roman in origin. source_quality: academic-full (Bacchiocchi + Vaida).",
+        "modern_consensus": "Sunday worship predates any Roman legal enforcement and arose broadly in the early church; Rome's specific originating role is debated (Bacchiocchi vs. Rordorf/Carson).",
+        "sources": [
+          {"title": "S. Bacchiocchi, From Sabbath to Sunday, ch. 6-8 (Pontifical Gregorian UP, 1977)", "url": "https://www.biblicalperspectives.com/books/sabbath_to_sunday/8.html", "source_class": "academic", "supports_verdict": true, "note": "Argues Roman role in origin of Sunday; represents the minority academic position."},
+          {"title": "Did the Early Church Move the Sabbath...? (mainstream summary)", "url": "https://www.catholic.com/qa/did-the-early-church-move-the-sabbath-from-saturday-to-sunday", "source_class": "apologetic", "supports_verdict": true, "note": "Mainstream/Catholic position: Sunday from apostolic resurrection practice, cited as a position."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-058",
+      "paragraph": 35,
+      "quote": "If he would know how papists and Protestants united will deal with those who reject their dogmas, let him see the spirit which Rome manifested toward the Sabbath and its defenders.",
+      "claim_text": "The future treatment of Sabbath-keepers by a united papal-Protestant coalition is predicted, by the text, to follow the pattern of Rome's historical treatment of the Sabbath and its defenders.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church", "Sabbath"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Predictive/interpretive claim; not testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-059",
+      "paragraph": 36,
+      "quote": "The first public measure enforcing Sunday observance was the law enacted by Constantine.(1007)",
+      "claim_text": "The first public measure enforcing Sunday observance was a law enacted by the Roman Emperor Constantine.",
+      "claim_type": "event",
+      "entities": ["Constantine"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Constantine's edict of 3 March 321 (Codex Justinianus III.12.3) is standardly identified as the first civil legislation enforcing rest on Sunday. Confirmed by Bacchiocchi (academic) and printed in Ayer's Source Book. source_quality: academic-full.",
+        "modern_consensus": "Constantine's 321 law is the first imperial Sunday-rest legislation.",
+        "sources": [
+          {"title": "Bacchiocchi, From Sabbath to Sunday, ch. 8, n.45", "url": "https://www.biblicalperspectives.com/books/sabbath_to_sunday/8.html", "source_class": "academic", "supports_verdict": true, "note": "Text of first law of 3 March 321, CJ III.12.3."},
+          {"title": "J. C. Ayer, A Source Book for Ancient Church History (1913)", "url": "https://archive.org/details/asourcebookhist00ayeruoft", "source_class": "primary", "supports_verdict": true, "note": "English text of Constantine's Sunday law."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-060",
+      "paragraph": 36,
+      "quote": "This edict required townspeople to rest on “the venerable day of the sun,” but permitted countrymen to continue their agricultural pursuits.",
+      "claim_text": "Constantine's Sunday edict required townspeople to rest on 'the venerable day of the Sun' but permitted rural agricultural workers to continue their labor.",
+      "claim_type": "attributed_quote",
+      "entities": ["Constantine"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Ayer's Source Book prints the law verbatim: 'All judges and city people and the craftsmen shall rest upon the venerable Day of the Sun. Country people, however, may freely attend to the cultivation of the fields.' Exact match. source_quality: academic-full (primary text).",
+        "modern_consensus": "The 321 law's wording (venerable Day of the Sun; farmers exempted) is uncontested.",
+        "sources": [
+          {"title": "J. C. Ayer, A Source Book for Ancient Church History (1913)", "url": "https://archive.org/details/asourcebookhist00ayeruoft", "source_class": "primary", "supports_verdict": true, "note": "Verbatim law text."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-061",
+      "paragraph": 36,
+      "quote": "Though virtually a heathen statute, it was enforced by the emperor after his nominal acceptance of Christianity.",
+      "claim_text": "Constantine's Sunday edict, though essentially a pagan/heathen statute, was enforced after his nominal acceptance of Christianity.",
+      "claim_type": "causal",
+      "entities": ["Constantine"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The 321 law uses pagan solar language ('venerable Day of the Sun') and, per Bacchiocchi, presupposes an already well-rooted veneration of the Sun's day; Constantine's Christianity at that date was nominal (he was baptized only on his deathbed in 337). The 'virtually heathen statute' characterization is grounded in the edict's solar framing. source_quality: academic-full.",
+        "modern_consensus": "The 321 law is couched in solar (dies Solis) terms; Constantine's religious position was transitional in 321.",
+        "sources": [
+          {"title": "Bacchiocchi, From Sabbath to Sunday, ch. 8", "url": "https://www.biblicalperspectives.com/books/sabbath_to_sunday/8.html", "source_class": "academic", "supports_verdict": true, "note": "Sun-day veneration already rooted; solar language of the law."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-062",
+      "paragraph": 37,
+      "quote": "Eusebius, a bishop who sought the favor of princes, and who was the special friend and flatterer of Constantine, advanced the claim that Christ had transferred the Sabbath to Sunday.",
+      "claim_text": "Eusebius, a bishop and close associate of Constantine, advanced the claim that Christ had transferred the Sabbath to Sunday.",
+      "claim_type": "biographical",
+      "entities": ["Eusebius", "Constantine"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Bacchiocchi (academic) states that Eusebius was the first to explicitly justify substituting the Christian Sunday for the Jewish Sabbath, doing so 'several times' (Commentary on Psalm 91). Eusebius was indeed Constantine's panegyrist and biographer (Life of Constantine, Tricennial Oration), so 'special friend and flatterer of Constantine' is historically accurate. source_quality: academic-full.",
+        "modern_consensus": "Eusebius articulated the Sabbath-to-Sunday transfer rationale and was Constantine's court theologian/biographer.",
+        "sources": [
+          {"title": "Bacchiocchi, From Sabbath to Sunday, ch. 8", "url": "https://www.biblicalperspectives.com/books/sabbath_to_sunday/8.html", "source_class": "academic", "supports_verdict": true, "note": "Eusebius first to justify Sunday over Sabbath."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-063",
+      "paragraph": 37,
+      "quote": "Eusebius himself unwittingly acknowledges its falsity, and points to the real authors of the change. “All things,” he says, “whatever that it was duty to do on the Sabbath, these _we_ have transferred to the Lord’s day.”(1008)",
+      "claim_text": "Eusebius wrote: 'All things whatever that it was duty to do on the Sabbath, these we have transferred to the Lord's day.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Eusebius"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The quotation is genuine, from Eusebius' Commentary on Psalm 91(92) (PG 23, 1169-1172). Bacchiocchi renders it 'All things whatsoever that were prescribed for the Sabbath, we have transferred them to the Lord's day'; Andrews gives the identical wording White uses. Accurate. source_quality: academic-full.",
+        "modern_consensus": "The 'we have transferred' passage is an authentic Eusebian text.",
+        "sources": [
+          {"title": "Bacchiocchi, From Sabbath to Sunday, ch. 8 (quoting Eusebius, In Ps. 91)", "url": "https://www.biblicalperspectives.com/books/sabbath_to_sunday/8.html", "source_class": "academic", "supports_verdict": true, "note": "Quotes the passage."},
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Identical wording to GC (period source)."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-064",
+      "paragraph": 38,
+      "quote": "Those in holy office were forbidden to pass judgment in any civil controversy on the Sunday.",
+      "claim_text": "As the papacy became established, those in holy office were forbidden to adjudicate civil controversies on Sunday.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Prohibition of judicial and legal business on Sunday follows the trajectory of late-Roman and early-medieval Sunday legislation (Theodosian Code and later church councils), documented by Andrews from the primary/conciliar record. Reflects genuine legal history.",
+        "modern_consensus": "Progressive restriction of legal/civil activity on Sunday is documented in late-antique and medieval law.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Documents graduated Sunday laws from conciliar/legal sources."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-065",
+      "paragraph": 38,
+      "quote": "Soon after, all persons, of whatever rank, were commanded to refrain from common labor, on pain of a fine for freemen, and stripes in the case of servants.",
+      "claim_text": "A law was enacted commanding all persons, regardless of rank, to refrain from common labor on Sunday, on pain of a fine for freemen and corporal punishment (stripes) for servants.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Escalating penalties for Sunday labor (fines for free persons, stripes/beating for slaves and servants) appear in early-medieval Sunday legislation, as documented by Andrews from conciliar and legal sources. Consistent with the historical development of Sunday laws.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Graduated Sunday-labor penalties."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-066",
+      "paragraph": 38,
+      "quote": "Later it was decreed that rich men should be punished with the loss of half of their estates; and finally, that if still obstinate they should be made slaves.",
+      "claim_text": "A later decree specified that rich men violating Sunday laws should lose half their estates, and if still obstinate, be made slaves.",
+      "claim_type": "statistic",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Severe escalating penalties (confiscation of property; reduction to servitude for persistent offenders) are documented in the medieval Sunday-law record cited by Andrews. Reflects genuine, if regionally specific, conciliar/royal legislation.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Escalating penalties for Sunday violation."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-067",
+      "paragraph": 38,
+      "quote": "The lower classes were to suffer perpetual banishment.",
+      "claim_text": "Under the decreed Sunday laws, members of the lower classes who persisted in violating Sunday observance were to suffer perpetual banishment.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Continues the graduated-penalty scheme documented by Andrews from the medieval Sunday-law sources (banishment for lower-class offenders). Consistent with the historical record he cites.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Banishment penalty."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-068",
+      "paragraph": 39,
+      "quote": "Among other wonders it was reported that as a husbandman who was about to plow his field on Sunday, cleaned his plow with an iron, the iron stuck fast in his hand, and for two years he carried it about with him, “to his exceeding great pain and shame.”(1009)",
+      "claim_text": "A legend was reported claiming that a farmer who cleaned his plow with an iron tool while preparing to plow on Sunday had the iron tool stick fast to his hand for two years as punishment.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The checkable element is whether such a report exists in the cited source. Andrews (History of the Sabbath) quotes exactly this account (via Francis West, attributing it to Gregory of Tours): the husbandman whose plough-cleaning iron 'stuck so fast in his hand that for two years he could not be delivered from it... to his exceeding great pain and shame.' Verbatim match; the report exists (its miraculous truth is not assessed).",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Quotes the plough-iron legend from Gregory of Tours via West."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-069",
+      "paragraph": 40,
+      "quote": "Later, the pope gave directions that the parish priest should admonish the violators of Sunday, and wish them to go to church and say their prayers, lest they bring some great calamity on themselves and neighbors.",
+      "claim_text": "A pope gave directions that parish priests should admonish Sunday-law violators to attend church and pray, lest they bring calamity on themselves and neighbors.",
+      "claim_type": "event",
+      "entities": ["Pope"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Part of the medieval Sunday-observance material Andrews documents (papal/episcopal directions to admonish Sunday violators). Consistent with the period record.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Sunday-enforcement directions."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-070",
+      "paragraph": 40,
+      "quote": "An ecclesiastical council brought forward the argument, since so widely employed, even by Protestants, that because persons had been struck by lightning while laboring on Sunday, it must be the Sabbath. “It is apparent,” said the prelates, “how high the displeasure of God was upon their neglect of this day.”",
+      "claim_text": "An ecclesiastical council argued that because certain persons had been struck by lightning while laboring on Sunday, this proved Sunday was the Sabbath, with the prelates stating, 'It is apparent how high the displeasure of God was upon their neglect of this day.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The providential/lightning argument for Sunday sanctity from a medieval council is documented by Andrews. The checkable element (the report and quotation exist in the source tradition) is met.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Conciliar lightning-argument for Sunday."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-071",
+      "paragraph": 40,
+      "quote": "An appeal was then made that priests and ministers, kings and princes, and all faithful people, “use their utmost endeavors and care that the day be restored to its honor, and, for the credit of Christianity, more devoutly observed for the time to come.”(1010)",
+      "claim_text": "An appeal was made to priests, ministers, kings, princes, and all faithful people to use their utmost endeavors to restore Sunday to honor and have it more devoutly observed.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Continuation of the same conciliar appeal documented by Andrews (footnote 1010 traces to his account). The quotation exists in the source tradition.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Appeal to restore Sunday."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-072",
+      "paragraph": 41,
+      "quote": "At a synod held in Rome, all previous decisions were reaffirmed with greater force and solemnity. They were also incorporated into the ecclesiastical law, and enforced by the civil authorities throughout nearly all Christendom.(1011)",
+      "claim_text": "A synod held in Rome reaffirmed previous Sunday-observance decisions with greater force, incorporated them into ecclesiastical law, and had them enforced by civil authorities throughout nearly all Christendom.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Reaffirmation of Sunday decrees by a Roman synod and their absorption into canon and civil law is documented in Andrews's account of medieval Sunday legislation. Consistent with the period record.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Roman synod reaffirming Sunday laws."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-073",
+      "paragraph": 42,
+      "quote": "A zealous advocate of Sunday, who about the close of the twelfth century visited the churches of England, was resisted by faithful witnesses for the truth; and so fruitless were his efforts that he departed from the country for a season, and cast about him for some means to enforce his teachings.",
+      "claim_text": "Around the close of the twelfth century, an advocate for Sunday observance visited churches in England and was resisted by defenders of Sabbath observance, ultimately leaving the country due to lack of success.",
+      "claim_type": "event",
+      "entities": ["England"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "This is Eustace, abbot of Flay (Flaye) in Normandy, who came to England in 1200 to preach Sunday observance (per Roger of Hoveden), was resisted, and departed. Andrews documents the episode in detail from Hoveden and Matthew Paris; the underlying event is historically genuine, though White reframes the resisters as 'faithful witnesses for the truth.'",
+        "modern_consensus": "Eustace of Flay's 1200-1201 English preaching campaign for Sunday observance is attested by contemporary chroniclers.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Eustace of Flay via Hoveden and Matthew Paris."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-074",
+      "paragraph": 42,
+      "quote": "He brought with him a roll purporting to be from God Himself, which contained the needed command for Sunday observance, with awful threats to terrify the disobedient.",
+      "claim_text": "This advocate for Sunday observance later returned to England with a document purporting to be from God, commanding Sunday observance and threatening the disobedient.",
+      "claim_type": "event",
+      "entities": ["England"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Eustace returned to England in 1201 with the 'roll fallen from heaven' (a version of the apocryphal Sunday Letter/Letter from Heaven) commanding Sunday observance under threats, as recorded by Hoveden and quoted by Andrews. The report is well attested.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Eustace's 1201 return with the heavenly roll."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-075",
+      "paragraph": 42,
+      "quote": "This precious document—as base a counterfeit as the institution it supported—was said to have fallen from heaven, and to have been found in Jerusalem, upon the altar of St. Simeon, in Golgotha.",
+      "claim_text": "The forged document supporting Sunday observance was claimed to have fallen from heaven and been found in Jerusalem on the altar of St. Simeon at Golgotha.",
+      "claim_type": "geographical",
+      "entities": ["Jerusalem", "Golgotha"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Andrews quotes the roll's own claim verbatim: it 'came from Heaven to Jerusalem, and was found upon the altar of Saint Simeon, in Golgotha, where Christ was crucified.' The document's stated provenance matches GC exactly (the checkable element is the claim as reported, not its truth).",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Roll's stated origin at St. Simeon's altar, Golgotha."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-076",
+      "paragraph": 42,
+      "quote": "But in fact, the pontifical palace at Rome was the source whence it proceeded.",
+      "claim_text": "The forged Sunday-observance document actually originated from the papal palace in Rome, not from heaven or Jerusalem.",
+      "claim_type": "causal",
+      "entities": ["Rome"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "low",
+        "rationale": "White follows Andrews, who reports that Eustace brought the roll 'from the pope,' implying a papal-curia origin. But the 'Letter fallen from Heaven' (Himmelsbrief/Sunday Letter) is a much older apocryphal text circulating from at least the 6th century across the Latin and Greek worlds; its ultimate origin is disputed and not specifically the medieval papal palace. The attribution of authorship to 'the pontifical palace at Rome' is the source's inference rather than established fact.",
+        "modern_consensus": "The Sunday Letter is an early apocryphal 'Letter from Heaven' of debated (non-papal-curial) origin, predating the Eustace episode by centuries.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": false, "note": "States Eustace brought the roll from the pope (the inference White repeats)."},
+          {"title": "Eustace of Flay / Sunday Letter tradition", "url": "https://en.wikipedia.org/wiki/Sunday_Letter", "source_class": "encyclopedia", "supports_verdict": true, "note": "Older, non-papal apocryphal origin of the Letter from Heaven."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-077",
+      "paragraph": 43,
+      "quote": "The roll forbade labor from the ninth hour, three o’clock, on Saturday afternoon, till sunrise on Monday; and its authority was declared to be confirmed by many miracles.",
+      "claim_text": "The forged 'Sunday letter' forbade labor from three o'clock Saturday afternoon until sunrise Monday, and its authority was claimed to be confirmed by many miracles.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The roll's prohibition of labor from the ninth hour (3 p.m.) Saturday to Monday sunrise, backed by reported miracles, is exactly as recorded by Hoveden and quoted by Andrews. The report exists in the source.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Roll's Saturday-3pm-to-Monday prohibition and miracles."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-078",
+      "paragraph": 43,
+      "quote": "It was reported that persons laboring beyond the appointed hour were stricken with paralysis.",
+      "claim_text": "It was reported that persons who labored beyond the Sunday letter's appointed hour were stricken with paralysis.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Andrews quotes Hoveden's account of a man and a woman-weaver who labored past the ninth hour on Saturday and 'fell to the ground, struck with paralysis.' The reported miracle exists in the source.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Paralysis reports."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-079",
+      "paragraph": 43,
+      "quote": "A miller who attempted to grind his corn, saw, instead of flour, a torrent of blood come forth, and the mill-wheel stood still, notwithstanding the strong rush of the water.",
+      "claim_text": "A legend reported that a miller who attempted to grind corn during the forbidden Sunday period saw blood come forth instead of flour, and the mill-wheel stopped despite strong water flow.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "One of the cluster of Sunday-Letter miracle reports (footnote 1012) recorded in the chronicle tradition and reproduced by Andrews. The report exists in the source.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Sunday-Letter miracle legends."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-080",
+      "paragraph": 43,
+      "quote": "A woman who placed dough in the oven, found it raw when taken out, though the oven was very hot.",
+      "claim_text": "A legend reported that a woman who baked dough during the forbidden Sunday period found it raw when removed from a hot oven.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Andrews quotes the Hoveden account verbatim: a Lincolnshire woman placed dough in a hot oven and 'found raw dough.' The report exists in the source.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Raw-dough legend."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-081",
+      "paragraph": 43,
+      "quote": "Another who had dough prepared for baking at the ninth hour, but determined to set it aside till Monday, found, the next day, that it had been made into loaves and baked by divine power.",
+      "claim_text": "A legend reported that a woman who set aside dough until Monday (in obedience to the Sunday letter) found it miraculously baked into loaves the next day.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Andrews quotes the Hoveden account of the woman who, at her husband's urging, set the dough aside on Saturday and found it risen/baked by divine power. The report exists in the source.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Miraculously baked dough legend."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-082",
+      "paragraph": 43,
+      "quote": "A man who baked bread after the ninth hour on Saturday, found, when he broke it the next morning, that blood started therefrom.(1012)",
+      "claim_text": "A legend reported that a man who baked bread after the forbidden hour on Saturday found blood coming from the bread when he broke it the next morning.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Closes the Sunday-Letter miracle cluster (footnote 1012), part of the chronicle material reproduced by Andrews. The report exists in the source.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Blood-from-bread legend."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-083",
+      "paragraph": 44,
+      "quote": "In Scotland, as in England, a greater regard for Sunday was secured by uniting with it a portion of the ancient Sabbath. But the time required to be kept holy varied.",
+      "claim_text": "In Scotland, as in England, greater regard for Sunday was secured by uniting Sunday observance with a portion of the ancient Sabbath, with the required period of observance varying.",
+      "claim_type": "geographical",
+      "entities": ["Scotland", "England"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Andrews documents that Scottish and English Sunday observance was extended by annexing part of Saturday (from noon or evening), with the exact holy period varying between successive enactments (William 1203; Alexander II 1214; later James I). Consistent with the sources cited.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Scottish Sunday enactments annexing part of Saturday."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-084",
+      "paragraph": 44,
+      "quote": "An edict from the king of Scotland declared that “Saturday from twelve at noon ought to be accounted holy,” and that no man, from that time till Monday morning, should engage in worldly business.(1013)",
+      "claim_text": "An edict from the King of Scotland declared that Saturday from noon ought to be accounted holy, and that no one should engage in worldly business from that time until Monday morning.",
+      "claim_type": "attributed_quote",
+      "entities": ["Scotland"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Andrews quotes Morer: at a council in Scotland under Innocent III (A.D. 1203), King William passed into law that 'Saturday from twelve at noon ought to be accounted holy,' with worldly business forbidden until Monday morning. The unnamed 'king of Scotland' is William the Lion; the quotation matches.",
+        "modern_consensus": "Early Scottish Sabbath legislation extended holy time from Saturday noon to Monday.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Morer's account of King William's 1203 edict."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-085",
+      "paragraph": 45,
+      "quote": "In the sixteenth century a papal council plainly declared: “Let all Christians remember that the seventh day was consecrated by God, and hath been received and observed, not only by the Jews, but by all others who pretend to worship God; though we Christians have changed their Sabbath into the Lord’s day.”(1014)",
+      "claim_text": "A papal council in the sixteenth century declared: 'Let all Christians remember that the seventh day was consecrated by God, and hath been received and observed, not only by the Jews, but by all others who pretend to worship God; though we Christians have changed their Sabbath into the Lord's day.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The 'sixteenth-century papal council' is the Council of Trent, where Archbishop Gaspare (Caspar) del Fosso of Reggio (address of 18 January 1562) openly declared that the Church, by its own authority, changed the Sabbath into the Lord's day. The substance—a Tridentine prelate affirming the church-authored transfer of the seventh-day Sabbath to Sunday—is confirmed; the exact wording White gives is transmitted through her 19th-century source. source_quality: academic-partial.",
+        "modern_consensus": "Del Fosso's Trent address asserting the church's authority to change the Sabbath to Sunday is a documented 16th-century statement.",
+        "sources": [
+          {"title": "Sermon of the Archbishop of Reggio (del Fosso) to the Council of Trent", "url": "https://www.biblelightinfo.com/bssb-1443-1444.htm", "source_class": "primary", "supports_verdict": true, "note": "Trent 1562, church changed Sabbath into Lord's day by its authority."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-086",
+      "paragraph": 46,
+      "quote": "A striking illustration of Rome’s policy toward those who disagree with her was given in the long and bloody persecution of the Waldenses, some of whom were observers of the Sabbath.",
+      "claim_text": "The Roman Catholic Church conducted a long and bloody persecution of the Waldenses, some of whom observed the Sabbath (seventh day).",
+      "claim_type": "event",
+      "entities": ["Waldenses", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "The long, bloody persecution of the Waldenses by Rome is uncontested. The subordinate claim that 'some of whom were observers of the Sabbath' (seventh day) is genuinely disputed: some early modern writers (Goldast, the inquisitor Pegne) linked the label 'insabbatati/inzabbatati' to Sabbath-keeping 'in the manner of the Jews,' but mainstream Waldensian historians (Comba, Spini, Audisio) derive the term from the preachers' distinctive shoes (sabots) or from generic 'witches'-sabbath' heresy charges, and hold the Waldenses were Sunday-keepers. The seventh-day claim is a minority/contested reading.",
+        "modern_consensus": "Waldensian persecution is fact; seventh-day Sabbath observance among them is rejected by mainstream scholarship though defended by a minority tradition.",
+        "sources": [
+          {"title": "Waldensians (etymology of 'insabbatati'; Comba/Audisio)", "url": "https://en.wikipedia.org/wiki/Waldensians", "source_class": "encyclopedia", "supports_verdict": true, "note": "Mainstream: shoe/witches'-sabbath origin, not Saturday-keeping."},
+          {"title": "Waldenses and the Sabbath (Goldast/Pegne position)", "url": "https://www.cogwriter.com/news/church-history/waldensians-and-the-sabbath/", "source_class": "apologetic", "supports_verdict": true, "note": "Minority position that some Waldenses kept the Sabbath, cited as a position."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-087",
+      "paragraph": 46,
+      "quote": "Amid the gloom of the Dark Ages, the Christians of Central Africa were lost sight of and forgotten by the world, and for many centuries they enjoyed freedom in the exercise of their faith.",
+      "claim_text": "During the medieval period, the Christians of Central Africa (Ethiopia/Abyssinia) were largely isolated from and forgotten by the wider world, enjoying freedom of religious practice for many centuries.",
+      "claim_type": "geographical",
+      "entities": ["Ethiopia", "Abyssinia"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The Christian kingdom of Ethiopia/Abyssinia was largely cut off from European Christendom through much of the medieval period and practiced its faith autonomously, as Andrews (following Gibbon) and modern scholarship on the Ethiopian church attest. 'Central Africa' is a geographical imprecision (Ethiopia is in the Horn/East Africa; Andrews wrote 'interior of Africa'), but the substance is accurate.",
+        "modern_consensus": "Ethiopian Christianity developed in prolonged isolation from Latin/Greek Christendom.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Abyssinian isolation."},
+          {"title": "Ethiopian Orthodox Tewahedo Church", "url": "https://en.wikipedia.org/wiki/Ethiopian_Orthodox_Tewahedo_Church", "source_class": "encyclopedia", "supports_verdict": true, "note": "Isolated development."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-088",
+      "paragraph": 46,
+      "quote": "But at last Rome learned of their existence, and the emperor of Abyssinia was soon beguiled into an acknowledgment of the pope as the vicar of Christ.",
+      "claim_text": "The Roman Catholic Church made contact with the Christians of Abyssinia, and the Emperor of Abyssinia was persuaded to acknowledge the pope as Vicar of Christ.",
+      "claim_type": "event",
+      "entities": ["Abyssinia", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Through the Jesuit mission (1557-1632), Emperor Susenyos converted to Catholicism (c.1621) and in 1626 a formal union with Rome was proclaimed under the Jesuit patriarch Afonso Mendes, submitting the Ethiopian church to papal obedience. Matches GC's substance.",
+        "modern_consensus": "Susenyos's conversion and the 1626 union with Rome are documented.",
+        "sources": [
+          {"title": "Catholic counter-reformation: Jesuits' mission to Ethiopia 1557-1635 (SciELO)", "url": "https://scielo.org.za/scielo.php?script=sci_arttext&pid=S1017-04992016000200007", "source_class": "academic", "supports_verdict": true, "note": "Susenyos's conversion; Mendes; union with Rome."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-089",
+      "paragraph": 46,
+      "quote": "An edict was issued forbidding the observance of the Sabbath under the severest penalties.(1015)",
+      "claim_text": "After the Emperor of Abyssinia's submission to Rome, an edict was issued forbidding observance of the Sabbath under the severest penalties.",
+      "claim_type": "event",
+      "entities": ["Abyssinia"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Under the Jesuit-directed reforms of Susenyos/Mendes, the deeply rooted Ethiopian observance of the Saturday Sabbath was suppressed and people were required to work on it. Andrews cites the prohibition of Saturday observance under penalty; Gibbon likewise ('the Abyssinians were enjoined to work and to play on the Sabbath'). Consistent with the historical record.",
+        "modern_consensus": "The Jesuit reforms suppressed Ethiopian Saturday-Sabbath observance.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Prohibition of Saturday observance under penalty (quoting Gibbon)."},
+          {"title": "Jesuits' mission to Ethiopia (SciELO)", "url": "https://scielo.org.za/scielo.php?script=sci_arttext&pid=S1017-04992016000200007", "source_class": "academic", "supports_verdict": true, "note": "Sabbath observance targeted by Jesuit reforms."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-090",
+      "paragraph": 46,
+      "quote": "After a terrible struggle, the Romanists were banished from their dominions, and the ancient faith was restored.",
+      "claim_text": "After a struggle, Roman Catholic representatives/missionaries were expelled from Abyssinia and the traditional faith was restored there.",
+      "claim_type": "event",
+      "entities": ["Abyssinia", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "After civil strife over the forced Catholicization, Susenyos abdicated (1632) in favor of Fasilides, who restored Ethiopian Orthodoxy as the state religion and expelled the Jesuits (1633), later ordering Jesuit books burned. Matches GC.",
+        "modern_consensus": "Fasilides restored Orthodoxy and expelled the Jesuits in 1632-1633.",
+        "sources": [
+          {"title": "Susenyos I / Fasilides (expulsion of Jesuits 1632-33)", "url": "https://en.wikipedia.org/wiki/Susenyos_of_Ethiopia", "source_class": "encyclopedia", "supports_verdict": true, "note": "Restoration of Orthodoxy; Jesuit expulsion."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-091",
+      "paragraph": 47,
+      "quote": "The churches of Africa held the Sabbath as it was held by the papal church before her complete apostasy.",
+      "claim_text": "The Ethiopian/Abyssinian churches observed the Sabbath in the manner the papal church itself had observed it before what the text terms its 'complete apostasy' from Sabbath observance.",
+      "claim_type": "causal",
+      "entities": ["Ethiopia", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Factually, the Ethiopian church observed both the seventh-day Sabbath and Sunday, a pattern resembling early-church practice before Sunday displaced the Sabbath in the West. The 'complete apostasy' language is White's theological framing, but the underlying comparison (Ethiopian dual observance mirroring older Christian practice) is historically grounded.",
+        "modern_consensus": "Ethiopian Christianity retained Saturday-Sabbath observance alongside Sunday, unlike the Western church.",
+        "sources": [
+          {"title": "Little Known Aspects of Veneration of the OT Sabbath in Medieval Ethiopia (Scrinium, Brill 2017)", "url": "https://brill.com/view/journals/scri/13/1/article-p154_13.xml", "source_class": "academic", "supports_verdict": true, "note": "Medieval Ethiopian Sabbath veneration."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-092",
+      "paragraph": 47,
+      "quote": "While they kept the seventh day in obedience to the commandment of God, they abstained from labor on the Sunday in conformity to the custom of the church.",
+      "claim_text": "The Ethiopian/Abyssinian churches kept the seventh-day Sabbath while also abstaining from labor on Sunday in conformity with church custom.",
+      "claim_type": "event",
+      "entities": ["Ethiopia"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Ethiopian Christianity's observance of both Saturday (Sabbath) and Sunday is well documented; the practice of the two 'Sabbaths' (Sanbat) was deeply rooted. Accurate.",
+        "modern_consensus": "The Ethiopian church observed both the seventh-day Sabbath and Sunday.",
+        "sources": [
+          {"title": "Little Known Aspects of Veneration of the OT Sabbath in Medieval Ethiopia (Scrinium, Brill 2017)", "url": "https://brill.com/view/journals/scri/13/1/article-p154_13.xml", "source_class": "academic", "supports_verdict": true, "note": "Dual Saturday/Sunday observance."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-093",
+      "paragraph": 47,
+      "quote": "Upon obtaining supreme power, Rome had trampled upon the Sabbath of God to exalt her own; but the churches of Africa, hidden for nearly a thousand years, did not share in this apostasy.",
+      "claim_text": "The Ethiopian/Abyssinian churches remained isolated from Rome for nearly a thousand years and, during that time, did not participate in the shift away from Sabbath observance.",
+      "claim_type": "date",
+      "entities": ["Ethiopia", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Ethiopia's long isolation (roughly from late antiquity until 16th-century Portuguese/Jesuit contact) and its continued Sabbath observance are historically attested; 'nearly a thousand years' is an approximation broadly consistent with the period of isolation Andrews and Gibbon describe.",
+        "modern_consensus": "Ethiopian Christianity retained Sabbath observance through centuries of isolation from Rome.",
+        "sources": [
+          {"title": "J. N. Andrews, History of the Sabbath (1873)", "url": "https://archive.org/details/historyofsabbath00andr", "source_class": "primary", "supports_verdict": true, "note": "Abyssinian isolation and Sabbath retention."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-094",
+      "paragraph": 47,
+      "quote": "When brought under the sway of Rome, they were forced to set aside the true and exalt the false sabbath; but no sooner had they regained their independence than they returned to obedience to the fourth commandment.(1016)",
+      "claim_text": "When brought under Roman Catholic control, the Ethiopian/Abyssinian churches were forced to set aside the Sabbath and observe Sunday instead, but returned to Sabbath observance as soon as they regained independence.",
+      "claim_type": "event",
+      "entities": ["Ethiopia", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Under the Jesuit union (1626-1632) Saturday-Sabbath observance was suppressed; after Fasilides restored Orthodoxy and expelled the Jesuits (1632-33), traditional practice (including Sabbath observance) was reinstated. Matches GC's account.",
+        "modern_consensus": "Suppression of Sabbath observance under the Jesuit union and its restoration after 1632 are documented.",
+        "sources": [
+          {"title": "Jesuits' mission to Ethiopia; Fasilides restoration (SciELO)", "url": "https://scielo.org.za/scielo.php?script=sci_arttext&pid=S1017-04992016000200007", "source_class": "academic", "supports_verdict": true, "note": "Suppression and restoration of traditional observance."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-095",
+      "paragraph": 48,
+      "quote": "The word of God teaches that these scenes are to be repeated as Roman Catholics and Protestants shall unite for the exaltation of the Sunday.",
+      "claim_text": "Scripture teaches that the historical scenes of Sunday-law persecution are to be repeated when Roman Catholics and Protestants unite for the exaltation of Sunday.",
+      "claim_type": "theological",
+      "entities": ["Roman Catholic Church", "Protestantism"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Prophetic/theological interpretation; unverifiable by definition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-096",
+      "paragraph": 49,
+      "quote": "The prophecy of Revelation 13 declares that the power represented by the beast with lamb-like horns shall cause “the earth and them which dwell therein” to worship the papacy—there symbolized by the beast “like unto a leopard.” The beast with two horns is also to say “to them that dwell on the earth, that they should make an image to the beast;” and, furthermore, it is to command all, “both small and great, rich and poor, free and bond,” to receive “the mark of the beast.”(1017)",
+      "claim_text": "Revelation 13 describes a beast with lamb-like horns causing the earth's inhabitants to worship a first beast (there identified with the papacy), to make an image to that beast, and requiring all people to receive 'the mark of the beast.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation 13"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The quoted phrases ('the earth and them which dwell therein'; 'like unto a leopard'; 'make an image to the beast'; 'both small and great, rich and poor, free and bond'; 'the mark of the beast') are accurate KJV wording from Revelation 13. The prophetic application to the papacy is interpretation and not assessed here.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-097",
+      "paragraph": 49,
+      "quote": "It has been shown that the United States is the power represented by the beast with lamb-like horns, and that this prophecy will be fulfilled when the United States shall enforce Sunday observance, which Rome claims as the special acknowledgment of her supremacy.",
+      "claim_text": "The United States is identified, in the book's prophetic interpretation, as the power represented by the beast with lamb-like horns of Revelation 13, with fulfillment expected when the United States enforces Sunday observance.",
+      "claim_type": "theological",
+      "entities": ["United States", "Revelation 13"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Prophetic interpretation; unverifiable by definition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-098",
+      "paragraph": 49,
+      "quote": "“I saw one of his heads as it were wounded to death; and his deadly wound was healed: and all the world wondered after the beast.”(1018)",
+      "claim_text": "Revelation is quoted as describing one of the beast's heads as wounded to death, with the wound healed, causing all the world to wonder after the beast.",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation 13"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Revelation 13:3.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-099",
+      "paragraph": 49,
+      "quote": "The infliction of the deadly wound points to the downfall of the papacy in 1798.",
+      "claim_text": "The papacy suffered a downfall in 1798, interpreted in the text as the prophetic 'deadly wound' of Revelation 13.",
+      "claim_type": "date",
+      "entities": ["Papacy"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The underlying historical event is textbook: in February 1798 French forces under General Berthier occupied Rome, proclaimed the Roman Republic, and took Pope Pius VI prisoner (he died in French captivity in 1799), temporarily ending the papacy's temporal power. The prophetic identification as the 'deadly wound' is interpretation and not assessed.",
+        "modern_consensus": "The 1798 French capture of Pius VI and abolition of the Papal States is uncontested Napoleonic-era history.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-100",
+      "paragraph": 49,
+      "quote": "Paul states plainly that the man of sin will continue until the second advent.(1019)",
+      "claim_text": "Paul is characterized as stating plainly that the 'man of sin' will continue until the second advent of Christ.",
+      "claim_type": "theological",
+      "entities": ["Apostle Paul"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Control-sample check: though flagged theological/false, this smuggles a checkable scriptural paraphrase, and it checks out—2 Thessalonians 2:8 states the 'man of sin'/'that Wicked' will be consumed and destroyed by the brightness of Christ's coming (parousia), i.e., persists until the second advent. Accurate paraphrase; a minor extractor blind spot (the paraphrase is accurate, so no correction needed).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-101",
+      "paragraph": 49,
+      "quote": "And the revelator declares, also referring to the papacy, “All that dwell upon the earth shall worship him, whose names are not written in the book of life.”(1020)",
+      "claim_text": "Revelation is quoted as declaring, 'All that dwell upon the earth shall worship him, whose names are not written in the book of life,' applied in the text to the papacy.",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation 13"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV quotation of Revelation 13:8. The application to the papacy is interpretation and not assessed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-102",
+      "paragraph": 50,
+      "quote": "For more than half a century, students of prophecy in the United States have presented this testimony to the world.",
+      "claim_text": "By 1911, students of prophecy in the United States had been presenting the Sunday-Sabbath/mark-of-the-beast testimony described in the chapter for more than fifty years.",
+      "claim_type": "date",
+      "entities": ["United States"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Sabbatarian Adventists began teaching the Sunday-law/mark-of-the-beast interpretation from around 1848-1851 (Joseph Bates and associates), so 'more than half a century' before 1911 is accurate. (The 1888 first edition's 'more than half a century' would count from the 1840s Millerite-derived movement.)",
+        "modern_consensus": "Sabbatarian Adventist prophetic teaching on Sunday/the mark dates from c.1848 onward.",
+        "sources": [
+          {"title": "The Blair Sunday-Rest Bill / Adventist prophetic testimony context", "url": "https://www.libertymagazine.org/article/a-clash-of-millennialisms-on-capitol-hill", "source_class": "other", "supports_verdict": true, "note": "Longstanding US Sabbatarian prophetic advocacy."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-103",
+      "paragraph": 50,
+      "quote": "With Protestant teachers there is the same claim of divine authority for Sunday-keeping, and the same lack of scriptural evidence, as with the papal leaders who fabricated miracles to supply the place of a command from God.",
+      "claim_text": "As of the early 20th century, Protestant teachers advocating Sunday-keeping made the same claim of divine authority, with the same lack of scriptural evidence, as had the historical papal leaders described earlier in the chapter.",
+      "claim_type": "causal",
+      "entities": ["Protestantism", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "low",
+        "rationale": "The factual substrate—that there is no explicit New Testament command to transfer sabbath observance to Sunday, so Sunday-keeping rests on tradition/apostolic practice rather than a direct command—is broadly acknowledged even by many Sunday-keeping scholars. But the polemical equation of modern Protestant Sunday advocacy with medieval 'fabricated miracles' is an interpretive comparison, not a checkable equivalence, and is contestable.",
+        "modern_consensus": "Sunday observance is generally defended on apostolic/traditional rather than explicit-command grounds; the 'fabricated miracles' equation is polemical.",
+        "sources": [
+          {"title": "Did the Early Church Move the Sabbath...? (mainstream)", "url": "https://www.catholic.com/qa/did-the-early-church-move-the-sabbath-from-saturday-to-sunday", "source_class": "apologetic", "supports_verdict": false, "note": "Sunday defended on tradition/apostolic practice; cited as a position."},
+          {"title": "Bacchiocchi, From Sabbath to Sunday", "url": "https://www.biblicalperspectives.com/books/sabbath_to_sunday/8.html", "source_class": "academic", "supports_verdict": true, "note": "No explicit dominical command for the transfer."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-104",
+      "paragraph": 51,
+      "quote": "Marvelous in her shrewdness and cunning is the Roman Church. She can read what is to be.",
+      "claim_text": "The Roman Catholic Church is characterized as marvelously shrewd and cunning, able to anticipate future developments.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Rhetorical characterization; not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-105",
+      "paragraph": 52,
+      "quote": "The Roman Catholic Church, with all its ramifications throughout the world, forms one vast organization, under the control, and designed to serve the interests, of the papal see. Its millions of communicants, in every country on the globe, are instructed to hold themselves as bound in allegiance to the pope.",
+      "claim_text": "As of the early twentieth century, the Roman Catholic Church had millions of communicants in every country of the world, instructed to hold themselves bound in allegiance to the pope, forming one vast organization serving the papal see.",
+      "claim_type": "statistic",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "By the early 20th century the Roman Catholic Church numbered in the hundreds of millions worldwide, organized hierarchically under the pope. 'In every country on the globe' is a mild hyperbole but broadly accurate for a global church of that scale.",
+        "modern_consensus": "The early-20th-century Catholic Church was a centralized global body of hundreds of millions.",
+        "sources": [
+          {"title": "Catholic Church (organization/global membership)", "url": "https://en.wikipedia.org/wiki/Catholic_Church", "source_class": "encyclopedia", "supports_verdict": true, "note": "Global hierarchical structure under the papacy."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-106",
+      "paragraph": 52,
+      "quote": "Though they may take the oath pledging their loyalty to the state, yet back of this lies the vow of obedience to Rome, absolving them from every pledge inimical to her interests.",
+      "claim_text": "Catholic communicants who take an oath of loyalty to their state are, according to the text, bound underneath by a prior vow of obedience to Rome that absolves them from any state pledge inimical to Rome's interests.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/polemical assertion about the inner priority of Catholic loyalties; not a checkable proposition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-107",
+      "paragraph": 53,
+      "quote": "In the year 1204, Pope Innocent III. extracted from Peter II., king of Arragon, the following extraordinary oath:",
+      "claim_text": "In the year 1204, Pope Innocent III extracted an oath of fealty from Peter II, King of Aragon.",
+      "claim_type": "date",
+      "entities": ["Pope Innocent III", "Peter II of Aragon"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Peter II of Aragon was crowned by Innocent III in Rome in 1204 (8 November), swore fealty to the pope, and made his kingdom a fief of the Holy See—the first king of Aragon crowned by a pope. Some sources give 1205 for the formal act; 1204 is the standard date and is accurate.",
+        "modern_consensus": "Peter II's 1204 papal coronation and act of vassalage to Innocent III are documented.",
+        "sources": [
+          {"title": "Peter II of Aragon", "url": "https://en.wikipedia.org/wiki/Peter_II_of_Aragon", "source_class": "encyclopedia", "supports_verdict": true, "note": "1204 coronation by Innocent III; kingdom made a papal fief."},
+          {"title": "Peter II (Britannica)", "url": "https://www.britannica.com/biography/Peter-II-king-of-Aragon", "source_class": "encyclopedia", "supports_verdict": true, "note": "Acknowledged papal feudal supremacy; crowned in Rome."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-108",
+      "paragraph": 53,
+      "quote": "“I, Peter, king of Arragonians, profess and promise to be ever faithful and obedient to my lord, Pope Innocent, to his Catholic successors, and the Roman Church, and faithfully to preserve my kingdom in his obedience, defending the Catholic faith, and persecuting heretical pravity.”(1021)",
+      "claim_text": "Peter II, King of Aragon, is quoted as swearing an oath: 'I, Peter, king of Arragonians, profess and promise to be ever faithful and obedient to my lord, Pope Innocent, to his Catholic successors, and the Roman Church, and faithfully to preserve my kingdom in his obedience, defending the Catholic faith, and persecuting heretical pravity.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Peter II of Aragon", "Pope Innocent III"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The oath's substance—fealty and obedience to Innocent III and his successors, preservation of the kingdom in papal obedience, defense of the Catholic faith and persecution of heresy—matches the documented act of homage recorded in the papal registers and 19th-century histories (via Dowling's History of Romanism and similar sources). The coronation and vassalage are confirmed (GC-35-107); the wording is a standard translation of the recorded oath.",
+        "modern_consensus": "Peter II's oath of fealty (including defense of the faith and persecution of heresy) is documented.",
+        "sources": [
+          {"title": "Peter II of Aragon (vassalage/oath to Innocent III)", "url": "https://en.wikipedia.org/wiki/Peter_II_of_Aragon", "source_class": "encyclopedia", "supports_verdict": true, "note": "Swore to defend the Catholic faith; 'the Catholic' epithet."},
+          {"title": "J. Dowling, History of Romanism (1845)", "url": "https://archive.org/details/historyofromani00dowl", "source_class": "primary", "supports_verdict": true, "note": "19th-century source transmitting the oath text White uses."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-109",
+      "paragraph": 53,
+      "quote": "This is in harmony with the claims regarding the power of the Roman pontiff, that “it is lawful for him to depose emperors,” and that “he can absolve subjects from their allegiance to unrighteous rulers.”(1022)",
+      "claim_text": "Catholic doctrinal claims regarding papal power, per the cited source, hold that it is lawful for the pope to depose emperors and that he can absolve subjects from allegiance to unrighteous rulers.",
+      "claim_type": "attributed_quote",
+      "entities": ["Papacy"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "These claims correspond to Dictatus Papae (1075): prop. 12 ('That it may be permitted to him to depose emperors') and prop. 27 ('That he may absolve subjects of unjust men from their fealty'). Genuine primary papal claims of the Gregorian reform. source_quality: academic-partial (primary document).",
+        "modern_consensus": "Papal claims to depose rulers and release subjects from allegiance are stated in Dictatus Papae.",
+        "sources": [
+          {"title": "Dictatus papae (props. 12, 27)", "url": "https://en.wikipedia.org/wiki/Dictatus_papae", "source_class": "primary", "supports_verdict": true, "note": "Deposition of emperors; absolution of subjects from fealty."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-110",
+      "paragraph": 54,
+      "quote": "The principles of Gregory VII. and Innocent III. are still the principles of the Roman Catholic Church.",
+      "claim_text": "The doctrinal/political principles associated with Pope Gregory VII and Pope Innocent III remained the principles of the Roman Catholic Church as of the early twentieth century.",
+      "claim_type": "causal",
+      "entities": ["Pope Gregory VII", "Pope Innocent III", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "A polemical continuity claim. It has partial grounding: by 1911 the church had not officially repudiated broad church-over-state principles, and the Syllabus of Errors (1864) reasserted the church's coercive prerogatives and rejected liberal separation of church and state. But the specific medieval claim to depose rulers and release subjects from allegiance was effectively defunct as practical policy, and modern historiography would not treat the Gregorian/Innocentian program as the operative principles of the modern church. Genuine disagreement over whether these remained 'the principles' of the church.",
+        "modern_consensus": "The church retained maximalist church-state doctrine into the 19th century (Syllabus) but no longer asserted the practical deposing power of Gregory VII/Innocent III.",
+        "sources": [
+          {"title": "Syllabus of Errors (1864)", "url": "https://en.wikipedia.org/wiki/Syllabus_of_Errors", "source_class": "encyclopedia", "supports_verdict": true, "note": "19th-century reassertion of church prerogatives over the state."},
+          {"title": "Dictatus papae (Gregorian principles)", "url": "https://en.wikipedia.org/wiki/Dictatus_papae", "source_class": "primary", "supports_verdict": false, "note": "The medieval deposing power was no longer operative policy by 1911."}
+        ]
+      }
+    },
+    {
+      "id": "GC-35-111",
+      "paragraph": 54,
+      "quote": "And had she but the power, she would put them in practice with as much vigor now as in past centuries.",
+      "claim_text": "The Roman Catholic Church, if it had the power, would put the principles of Gregory VII and Innocent III into practice with as much vigor as in past centuries.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Counterfactual prediction about institutional intent; not testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-35-112",
+      "paragraph": 55,
+      "quote": "God’s word has given warning of the impending danger; let this be unheeded, and the Protestant world will learn what the purposes of Rome really are, only when it is too late to escape the snare.",
+      "claim_text": "Scripture has given warning of an impending danger, and if unheeded, the Protestant world will discover Rome's true purposes only when it is too late to escape.",
+      "claim_type": "theological",
+      "entities": ["Roman Catholic Church", "Protestantism"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological warning/prediction; unverifiable by definition.",
+        "sources": []
+      }
+    }
+  ]
+}
