@@ -1,0 +1,841 @@
+{
+  "chapter": 17,
+  "chapter_title": "Heralds Of The Morning",
+  "stage": "extraction",
+  "generated_at": "2026-07-05",
+  "notes": "Extractor observation for orchestrator: the task brief mentioned the 1833 Leonid meteor shower and named prophetic expositors (Wolff, Bengel, Gaussen, Lacunza) as expected topics of this chapter. Neither appears anywhere in source/chapters/gc_ch17.txt as provided (53 paragraphs read in full, no gaps detected in line numbering). The chapter's historical content is limited to the 1755 Lisbon earthquake and the 1780 Dark Day; it ends with the Bethlehem/Magi narrative and does not reach the Millerite/meteor-shower material, which likely belongs to a later chapter (traditionally ch. 18 in the published book). Flagging this mismatch for verification; extraction below covers only what is actually present in the given file.",
+  "claims": [
+    {
+      "id": "GC-17-001",
+      "paragraph": 1,
+      "quote": "Enoch, only the seventh in descent from them that dwelt in Eden, he who for three centuries on earth walked with his God, was permitted to behold from afar the coming of the Deliverer.",
+      "claim_text": "According to the biblical genealogy, Enoch was the seventh generation in descent from Adam and Eve (the first pair who dwelt in Eden), and he walked with God for three hundred years on earth.",
+      "claim_type": "biographical",
+      "entities": ["Enoch"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-002",
+      "paragraph": 1,
+      "quote": "“Behold,” he declared, “the Lord cometh with ten thousands of His saints, to execute judgment upon all.”(450)",
+      "claim_text": "The biblical figure Enoch is quoted as declaring, 'Behold, the Lord cometh with ten thousands of His saints, to execute judgment upon all.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Enoch"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-003",
+      "paragraph": 1,
+      "quote": "The patriarch Job in the night of his affliction exclaimed with unshaken trust: “I know that my Redeemer liveth, and that He shall stand at the latter day upon the earth: ... in my flesh shall I see God: whom I shall see for myself, and mine eyes shall behold, and not another.”(451)",
+      "claim_text": "The patriarch Job is quoted, during a period of affliction, as saying 'I know that my Redeemer liveth, and that He shall stand at the latter day upon the earth ... in my flesh shall I see God.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Job"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-004",
+      "paragraph": 2,
+      "quote": "The psalmist sung of the power and majesty of Israel’s King: “Out of Zion, the perfection of beauty, God hath shined. Our God shall come, and shall not keep silence.... He shall call to the heavens from above, and to the earth, that He may judge His people.”(452) “Let the heavens rejoice, and let the earth be glad ... before the Lord: for He cometh, for He cometh to judge the earth: He shall judge the world with righteousness, and the people with His truth.”(453)",
+      "claim_text": "The biblical Psalms, attributed to the Psalmist, are quoted as describing God coming forth from Zion 'in the perfection of beauty' to judge the earth and its people with righteousness.",
+      "claim_type": "attributed_quote",
+      "entities": ["Psalmist"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-005",
+      "paragraph": 3,
+      "quote": "Said the prophet Isaiah: “Awake and sing, ye that dwell in dust: for thy dew is as the dew of herbs, and the earth shall cast out the dead.” “Thy dead men shall live, together with my dead body shall they arise.” “He will swallow up death in victory; and the Lord God will wipe away tears from off all faces; and the rebuke of His people shall He take away from off all the earth: for the Lord hath spoken it. And it shall be said in that day, Lo, this is our God; we have waited for Him, and He will save us: this is the Lord; we have waited for Him, we will be glad and rejoice in His salvation.”(454)",
+      "claim_text": "The biblical prophet Isaiah is quoted as prophesying a resurrection of the dead and declaring that God 'will swallow up death in victory' and wipe away tears from all faces.",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-006",
+      "paragraph": 4,
+      "quote": "And Habakkuk, rapt in holy vision, beheld His appearing. “God came from Teman, and the Holy One from Mount Paran. His glory covered the heavens, and the earth was full of His praise. And His brightness was as the light.” “He stood, and measured the earth: He beheld, and drove asunder the nations; and the everlasting mountains were scattered, the perpetual hills did bow: His ways are everlasting.” “Thou didst ride upon Thine horses and Thy chariots of salvation.” “The mountains saw Thee, and they trembled: ... the deep uttered his voice, and lifted up his hands on high. The sun and moon stood still in their habitation: at the light of Thine arrows they went, and at the shining of Thy glittering spear.” “Thou wentest forth for the salvation of Thy people, even for salvation with Thine anointed.”(455)",
+      "claim_text": "The biblical prophet Habakkuk is quoted as recording a vision in which God comes from Teman and Mount Paran, scatters the mountains, and causes the sun and moon to stand still.",
+      "claim_type": "attributed_quote",
+      "entities": ["Habakkuk"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-007",
+      "paragraph": 5,
+      "quote": "When the Saviour was about to be separated from His disciples, He comforted them in their sorrow with the assurance that He would come again: “Let not your heart be troubled.... In My Father’s house are many mansions.... I go to prepare a place for you. And if I go and prepare a place for you, I will come again, and receive you unto Myself.”(456)",
+      "claim_text": "Jesus is quoted, before being separated from his disciples, as promising to go and prepare a place for them and to 'come again' and receive them to himself.",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-008",
+      "paragraph": 5,
+      "quote": "“The Son of man shall come in His glory, and all the holy angels with Him. Then shall He sit upon the throne of His glory: and before Him shall be gathered all nations.”(457)",
+      "claim_text": "Jesus is quoted as saying the Son of man will come in glory with all the holy angels and sit on the throne of his glory, with all nations gathered before him.",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-009",
+      "paragraph": 6,
+      "quote": "The angels who lingered upon Olivet after Christ’s ascension, repeated to the disciples the promise of His return: “This _same_ Jesus, which is taken up from you into heaven, shall _so_ come in like manner as ye have seen Him go into heaven.”(458)",
+      "claim_text": "According to the biblical account, after Christ's ascension from the Mount of Olives, angels remaining there told the disciples that the same Jesus would return in the same manner they had seen him ascend.",
+      "claim_type": "event",
+      "entities": ["Jesus Christ", "Mount of Olives"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-010",
+      "paragraph": 6,
+      "quote": "And the apostle Paul, speaking by the Spirit of inspiration, testified: “The Lord _Himself_ shall descend from heaven with a shout, with the voice of the Archangel, and with the trump of God.”(459)",
+      "claim_text": "The apostle Paul is quoted as testifying that the Lord himself will descend from heaven with a shout, the voice of the archangel, and the trumpet of God.",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul the Apostle"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-011",
+      "paragraph": 6,
+      "quote": "Says the prophet of Patmos, “Behold, He cometh with clouds; and every eye shall see Him.”(460)",
+      "claim_text": "John, referred to as 'the prophet of Patmos,' is quoted in the book of Revelation as saying 'Behold, He cometh with clouds; and every eye shall see Him.'",
+      "claim_type": "attributed_quote",
+      "entities": ["John of Patmos", "Patmos"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-012",
+      "paragraph": 7,
+      "quote": "About His coming cluster the glories of that “restitution of all things, which God hath spoken by the mouth of all His holy prophets since the world began.”(461)",
+      "claim_text": "Christ's second coming will bring about the 'restitution of all things' foretold by the biblical prophets.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-17-013",
+      "paragraph": 8,
+      "quote": "It is then that the peaceful and long-desired kingdom of the Messiah shall be established under the whole heaven.",
+      "claim_text": "At Christ's second coming, the peaceful kingdom of the Messiah will be established under the whole heaven.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-17-014",
+      "paragraph": 9,
+      "quote": "When the Thessalonian Christians were filled with grief as they buried their loved ones, who had hoped to live to witness the coming of the Lord, Paul, their teacher, pointed them to the resurrection, to take place at the Saviour’s advent.",
+      "claim_text": "The Christians at Thessalonica grieved over believers who died before witnessing Christ's return, and the apostle Paul, who had taught them, responded by directing them to the future resurrection at Christ's second coming.",
+      "claim_type": "event",
+      "entities": ["Paul the Apostle", "Thessalonica"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-015",
+      "paragraph": 9,
+      "quote": "Then the dead in Christ should rise, and together with the living be caught up to meet the Lord in the air. “And so,” he said, “shall we ever be with the Lord. Wherefore comfort one another with these words.”(465)",
+      "claim_text": "Paul is quoted as teaching the Thessalonians that the dead in Christ will rise and, together with the living, be caught up to meet the Lord in the air, so that believers will 'ever be with the Lord.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul the Apostle"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-016",
+      "paragraph": 10,
+      "quote": "On rocky Patmos the beloved disciple hears the promise, “Surely I come quickly,” and his longing response voices the prayer of the church in all her pilgrimage, “Even so, come, Lord Jesus.”(466)",
+      "claim_text": "John, described as 'the beloved disciple,' while on the island of Patmos, is recorded as hearing the promise 'Surely I come quickly' and responding 'Even so, come, Lord Jesus.'",
+      "claim_type": "attributed_quote",
+      "entities": ["John of Patmos", "Patmos"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-017",
+      "paragraph": 11,
+      "quote": "Being “assured of His personal resurrection, and consequently of their own at His coming, for this cause,” says one of these Christians, “they despised death, and were found to be above it.”(467)",
+      "claim_text": "An early Christian writer is quoted as stating that believers, assured of Christ's personal resurrection and their own resurrection at his coming, 'despised death, and were found to be above it.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Source identified only as 'one of these Christians' in the body text; footnote 467 presumably names the author/work."
+    },
+    {
+      "id": "GC-17-018",
+      "paragraph": 11,
+      "quote": "They were willing to go down to the grave, that they might “rise free.”(468)",
+      "claim_text": "An early Christian source is quoted describing believers as willing to go down to the grave so that they might 'rise free.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-019",
+      "paragraph": 11,
+      "quote": "They looked for the “Lord to come from heaven in the clouds with the glory of His Father,” “bringing to the just the times of the kingdom.”",
+      "claim_text": "Early Christians are described, via a quoted source, as looking for 'the Lord to come from heaven in the clouds with the glory of His Father,' 'bringing to the just the times of the kingdom.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-020",
+      "paragraph": 11,
+      "quote": "The Waldenses cherished the same faith.(469)",
+      "claim_text": "The Waldenses held the same faith in Christ's imminent second coming as the early Christian martyrs described.",
+      "claim_type": "biographical",
+      "entities": ["Waldenses"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-021",
+      "paragraph": 11,
+      "quote": "Wycliffe looked forward to the Redeemer’s appearing as the hope of the church.(470)",
+      "claim_text": "John Wycliffe regarded the appearing of the Redeemer (Christ's second coming) as the hope of the church.",
+      "claim_type": "biographical",
+      "entities": ["John Wycliffe"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-022",
+      "paragraph": 12,
+      "quote": "Luther declared: “I persuade myself verily, that the day of judgment will not be absent full three hundred years. God will not, can not, suffer this wicked world much longer.” “The great day is drawing near in which the kingdom of abominations shall be overthrown.”(471)",
+      "claim_text": "Martin Luther is quoted as declaring that he believed the day of judgment would come within three hundred years, and that 'the great day is drawing near in which the kingdom of abominations shall be overthrown.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-023",
+      "paragraph": 13,
+      "quote": "“This aged world is not far from its end,” said Melanchthon.",
+      "claim_text": "Philipp Melanchthon is quoted as saying 'This aged world is not far from its end.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Philipp Melanchthon"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-024",
+      "paragraph": 13,
+      "quote": "Calvin bids Christians “not to hesitate, ardently desiring the day of Christ’s coming as of all events most auspicious;” and declares that “the whole family of the faithful will keep in view that day.” “We must hunger after Christ, we must seek, contemplate,” he says, “till the dawning of that great day, when our Lord will fully manifest the glory of His kingdom.”(472)",
+      "claim_text": "John Calvin is quoted as urging Christians to ardently desire the day of Christ's coming and stating that 'the whole family of the faithful will keep in view that day.'",
+      "claim_type": "attributed_quote",
+      "entities": ["John Calvin"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-025",
+      "paragraph": 14,
+      "quote": "“Has not our Lord Jesus carried up our flesh into heaven?” said Knox, the Scotch Reformer, “and shall He not return? We know that He shall return, and that with expedition.”(473)",
+      "claim_text": "John Knox, referred to as 'the Scotch Reformer,' is quoted as asking 'Has not our Lord Jesus carried up our flesh into heaven? and shall He not return? We know that He shall return, and that with expedition.'",
+      "claim_type": "attributed_quote",
+      "entities": ["John Knox"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-026",
+      "paragraph": 14,
+      "quote": "Ridley and Latimer, who laid down their lives for the truth, looked in faith for the Lord’s coming.",
+      "claim_text": "Nicholas Ridley and Hugh Latimer, English Protestant Reformers who were executed for their faith, are said to have looked in faith for the Lord's coming.",
+      "claim_type": "biographical",
+      "entities": ["Nicholas Ridley", "Hugh Latimer"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-027",
+      "paragraph": 14,
+      "quote": "Ridley wrote: “The world without doubt—this I do believe, and therefore I say it—draws to an end. Let us with John, the servant of God, cry in our hearts unto our Saviour Christ, Come, Lord Jesus, come.”(473)",
+      "claim_text": "Nicholas Ridley is quoted as writing, 'The world without doubt ... draws to an end. Let us with John, the servant of God, cry in our hearts unto our Saviour Christ, Come, Lord Jesus, come.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Nicholas Ridley"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-028",
+      "paragraph": 15,
+      "quote": "“The thoughts of the coming of the Lord,” said Baxter, “are most sweet and joyful to me.”(474)",
+      "claim_text": "Richard Baxter is quoted as saying, 'The thoughts of the coming of the Lord are most sweet and joyful to me.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Richard Baxter"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-029",
+      "paragraph": 15,
+      "quote": "“It is the work of faith and the character of His saints to love His appearing and to look for that blessed hope.” “If death be the last enemy to be destroyed at the resurrection, we may learn how earnestly believers should long and pray for the second coming of Christ, when this full and final conquest shall be made.”(475) “This is the day that all believers should long, and hope, and wait for, as being the accomplishment of all the work of their redemption, and all the desires and endeavors of their souls.” “Hasten, O Lord, this blessed day!”(476)",
+      "claim_text": "Richard Baxter is further quoted as writing that believers should 'long, and hope, and wait for' the day of Christ's second coming, exclaiming 'Hasten, O Lord, this blessed day!'",
+      "claim_type": "attributed_quote",
+      "entities": ["Richard Baxter"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-030",
+      "paragraph": 15,
+      "quote": "Such was the hope of the apostolic church, of the “church in the wilderness,” and of the Reformers.",
+      "claim_text": "The hope of Christ's imminent second coming was shared, in this account, by the apostolic church, the medieval 'church in the wilderness' (the Waldenses), and the Protestant Reformers.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-17-031",
+      "paragraph": 16,
+      "quote": "Said Jesus: “There shall be signs in the sun, and in the moon, and in the stars.”(477) “The sun shall be darkened, and the moon shall not give her light, and the stars of heaven shall fall, and the powers that are in heaven shall be shaken. And then shall they see the Son of man coming in the clouds with great power and glory.”(478)",
+      "claim_text": "Jesus is quoted as prophesying signs in the sun, moon, and stars preceding his coming, including the sun being darkened and the stars falling from heaven.",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-032",
+      "paragraph": 16,
+      "quote": "The revelator thus describes the first of the signs to precede the second advent: “There was a great earthquake; and the sun became black as sackcloth of hair, and the moon became as blood.”(479)",
+      "claim_text": "The book of Revelation, attributed to 'the revelator' (John), describes a great earthquake accompanied by the sun turning black and the moon becoming as blood as the first sign preceding the second advent.",
+      "claim_type": "attributed_quote",
+      "entities": ["John of Patmos"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-033",
+      "paragraph": 17,
+      "quote": "These signs were witnessed before the opening of the nineteenth century. In fulfilment of this prophecy there occurred, in the year 1755, the most terrible earthquake that has ever been recorded.",
+      "claim_text": "An earthquake occurred in the year 1755 that is described as the most terrible earthquake ever recorded up to that time.",
+      "claim_type": "date",
+      "entities": ["Lisbon earthquake of 1755"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-034",
+      "paragraph": 17,
+      "quote": "Though commonly known as the earthquake of Lisbon, it extended to the greater part of Europe, Africa, and America.",
+      "claim_text": "The 1755 earthquake, commonly known as the Lisbon earthquake, extended its effects to the greater part of Europe, Africa, and America.",
+      "claim_type": "geographical",
+      "entities": ["Lisbon earthquake of 1755", "Europe", "Africa", "America"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-035",
+      "paragraph": 17,
+      "quote": "It was felt in Greenland, in the West Indies, in the island of Madeira, in Norway and Sweden, Great Britain and Ireland.",
+      "claim_text": "The 1755 Lisbon earthquake was felt in Greenland, the West Indies, Madeira, Norway, Sweden, Great Britain, and Ireland.",
+      "claim_type": "geographical",
+      "entities": ["Lisbon earthquake of 1755", "Greenland", "West Indies", "Madeira", "Norway", "Sweden", "Great Britain", "Ireland"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-036",
+      "paragraph": 17,
+      "quote": "It pervaded an extent of not less than four million square miles.",
+      "claim_text": "The 1755 Lisbon earthquake affected an area of not less than four million square miles.",
+      "claim_type": "statistic",
+      "entities": ["Lisbon earthquake of 1755"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-037",
+      "paragraph": 17,
+      "quote": "In Africa the shock was almost as severe as in Europe. A great part of Algiers was destroyed; and a short distance from Morocco, a village containing eight or ten thousand inhabitants was swallowed up.",
+      "claim_text": "During the 1755 earthquake, a great part of Algiers was destroyed, and a village near Morocco containing eight to ten thousand inhabitants was swallowed up.",
+      "claim_type": "statistic",
+      "entities": ["Lisbon earthquake of 1755", "Algiers", "Morocco"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-038",
+      "paragraph": 17,
+      "quote": "A vast wave swept over the coast of Spain and Africa, engulfing cities, and causing great destruction.",
+      "claim_text": "A vast wave swept over the coast of Spain and Africa during the 1755 earthquake, engulfing cities and causing great destruction.",
+      "claim_type": "event",
+      "entities": ["Lisbon earthquake of 1755", "Spain", "Africa"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-039",
+      "paragraph": 18,
+      "quote": "At Cadiz the inflowing wave was said to be sixty feet high.",
+      "claim_text": "At Cadiz, Spain, the tsunami wave from the 1755 earthquake was reported to be sixty feet high.",
+      "claim_type": "statistic",
+      "entities": ["Cadiz", "Lisbon earthquake of 1755"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-040",
+      "paragraph": 18,
+      "quote": "Mountains, “some of the largest in Portugal, were impetuously shaken, as it were, from their very foundations; and some of them opened at their summits, which were split and rent in a wonderful manner, huge masses of them being thrown down into the adjacent valleys. Flames are related to have issued from these mountains.”(480)",
+      "claim_text": "According to a cited account, some of the largest mountains in Portugal were violently shaken during the 1755 earthquake, split open at their summits, and reportedly emitted flames.",
+      "claim_type": "event",
+      "entities": ["Portugal", "Lisbon earthquake of 1755"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-041",
+      "paragraph": 19,
+      "quote": "At Lisbon “a sound of thunder was heard underground, and immediately afterward a violent shock threw down the greater part of that city.",
+      "claim_text": "At Lisbon, a sound like thunder was reportedly heard underground immediately before a violent shock threw down the greater part of the city during the 1755 earthquake.",
+      "claim_type": "event",
+      "entities": ["Lisbon", "Lisbon earthquake of 1755"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-042",
+      "paragraph": 19,
+      "quote": "In the course of about six minutes, sixty thousand persons perished.",
+      "claim_text": "An estimated sixty thousand people perished within about six minutes during the 1755 Lisbon earthquake.",
+      "claim_type": "statistic",
+      "entities": ["Lisbon earthquake of 1755"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-043",
+      "paragraph": 19,
+      "quote": "The sea first retired, and laid the bar dry; it then rolled in, rising fifty feet or more above its ordinary level.”(481)",
+      "claim_text": "During the 1755 Lisbon earthquake, the sea reportedly first retreated, exposing the harbor bar, then rolled back in, rising fifty feet or more above its ordinary level.",
+      "claim_type": "event",
+      "entities": ["Lisbon earthquake of 1755"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-044",
+      "paragraph": 19,
+      "quote": "Among other extraordinary events related to have occurred at Lisbon during the catastrophe, was the subsidence of a new quay, built entirely of marble, at an immense expense. A great concourse of people had collected there for safety, as a spot where they might be beyond the reach of falling ruins; but suddenly the quay sank down with all the people on it, and not one of the dead bodies ever floated to the surface.”(481)",
+      "claim_text": "During the 1755 Lisbon earthquake, a newly built marble quay, on which a large crowd had gathered for safety, reportedly sank suddenly with all the people on it, and none of the bodies were ever found floating to the surface.",
+      "claim_type": "event",
+      "entities": ["Lisbon earthquake of 1755", "Lisbon"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-045",
+      "paragraph": 20,
+      "quote": "“The shock” of the earthquake “was instantly followed by the fall of every church and convent, almost all the large public buildings, and more than one fourth of the houses.",
+      "claim_text": "The shock of the 1755 Lisbon earthquake was reportedly followed instantly by the collapse of every church and convent, almost all large public buildings, and more than one fourth of the houses in Lisbon.",
+      "claim_type": "statistic",
+      "entities": ["Lisbon earthquake of 1755", "Lisbon"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-046",
+      "paragraph": 20,
+      "quote": "In about two hours after the shock, fires broke out in different quarters, and raged with such violence for the space of nearly three days, that the city was completely desolated.",
+      "claim_text": "About two hours after the initial shock of the 1755 Lisbon earthquake, fires broke out and raged for nearly three days, completely desolating the city.",
+      "claim_type": "event",
+      "entities": ["Lisbon earthquake of 1755", "Lisbon"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-047",
+      "paragraph": 20,
+      "quote": "The earthquake happened on a holy-day, when the churches and convents were full of people, very few of whom escaped.”(482)",
+      "claim_text": "The 1755 Lisbon earthquake occurred on a religious holy day, when the churches and convents were full of people, very few of whom escaped.",
+      "claim_type": "event",
+      "entities": ["Lisbon earthquake of 1755", "Lisbon"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-048",
+      "paragraph": 20,
+      "quote": "They ran hither and thither, delirious with horror and astonishment, beating their faces and breasts, crying, ‘_Misericordia! the world’s at an end!_’ Mothers forgot their children, and ran about loaded with crucifixed images.",
+      "claim_text": "According to a contemporary account, during the 1755 Lisbon earthquake terrified people ran through the streets crying 'Misericordia! the world's at an end!' and mothers reportedly ran about carrying crucifix images, having forgotten their children.",
+      "claim_type": "event",
+      "entities": ["Lisbon earthquake of 1755", "Lisbon"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-049",
+      "paragraph": 20,
+      "quote": "It has been estimated that ninety thousand persons lost their lives on that fatal day.",
+      "claim_text": "It has been estimated that ninety thousand people lost their lives on the day of the 1755 Lisbon earthquake.",
+      "claim_type": "statistic",
+      "entities": ["Lisbon earthquake of 1755"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-050",
+      "paragraph": 21,
+      "quote": "Twenty-five years later appeared the next sign mentioned in the prophecy,—the darkening of the sun and moon.",
+      "claim_text": "Twenty-five years after the 1755 Lisbon earthquake (i.e., in 1780), the darkening of the sun and moon occurred, presented as the next prophetic sign.",
+      "claim_type": "date",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-051",
+      "paragraph": 21,
+      "quote": "The 1260 days, or years, terminated in 1798.",
+      "claim_text": "The prophetic period identified as the 1260 days/years (of papal persecution) is said to have terminated in the year 1798.",
+      "claim_type": "date",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "The 1260-year prophetic interpretive scheme is theological, but the specific terminal date claimed (1798) and the underlying historical claim about persecution ending are checkable."
+    },
+    {
+      "id": "GC-17-052",
+      "paragraph": 21,
+      "quote": "A quarter of a century earlier, persecution had almost wholly ceased.",
+      "claim_text": "Approximately twenty-five years before 1798 (i.e., around 1773), the religious persecution described as papal persecution had almost wholly ceased.",
+      "claim_type": "causal",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-053",
+      "paragraph": 21,
+      "quote": "On the 19th of May, 1780, this prophecy was fulfilled.",
+      "claim_text": "The darkening of the sun (the 'Dark Day') occurred on May 19, 1780.",
+      "claim_type": "date",
+      "entities": ["Dark Day of 1780"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-054",
+      "paragraph": 22,
+      "quote": "“Almost if not altogether alone, as the most mysterious and as yet unexplained phenomenon of its kind, ... stands the dark day of May 19, 1780,—a most unaccountable darkening of the whole visible heavens and atmosphere in New England.”(484)",
+      "claim_text": "A cited source describes the Dark Day of May 19, 1780, as an almost unparalleled and, at the time, scientifically unexplained darkening of the whole visible sky and atmosphere over New England.",
+      "claim_type": "attributed_quote",
+      "entities": ["Dark Day of 1780", "New England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-055",
+      "paragraph": 24,
+      "quote": "In the morning the sun rose clear, but was soon overcast. The clouds became lowery, and from them, black and ominous, as they soon appeared, lightning flashed, thunder rolled, and a little rain fell. Toward nine o’clock, the clouds became thinner, and assumed a brassy or coppery appearance, and earth, rocks, trees, buildings, water, and persons were changed by this strange, unearthly light. A few minutes later, a heavy black cloud spread over the entire sky except a narrow rim at the horizon, and it was as dark as it usually is at nine o’clock on a summer evening....",
+      "claim_text": "According to an eyewitness account from Massachusetts, on the morning of May 19, 1780, the sky progressed from clear to overcast with thunder and lightning, took on a brassy/coppery appearance around nine o'clock, and then a heavy black cloud spread over the entire sky, producing darkness comparable to nine o'clock on a summer evening.",
+      "claim_type": "event",
+      "entities": ["Dark Day of 1780", "Massachusetts"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-056",
+      "paragraph": 25,
+      "quote": "Fear, anxiety, and awe gradually filled the minds of the people. Women stood at the door, looking out upon the dark landscape; men returned from their labor in the fields; the carpenter left his tools, the blacksmith his forge, the tradesman his counter. Schools were dismissed, and tremblingly the children fled homeward.",
+      "claim_text": "According to the eyewitness account, the Dark Day of May 19, 1780, caused widespread fear that led workers to leave their trades and schools to dismiss children early.",
+      "claim_type": "event",
+      "entities": ["Dark Day of 1780"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-057",
+      "paragraph": 26,
+      "quote": "Candles were used; and hearth-fires shone as brightly as on a moonless evening in autumn.... Fowls retired to their roosts and went to sleep, cattle gathered at the pasture-bars and lowed, frogs peeped, birds sang their evening songs, and bats flew about.",
+      "claim_text": "During the Dark Day of May 19, 1780, people reportedly needed candles and could see hearth-fires as on a moonless evening, while farm animals and wildlife (fowls, cattle, frogs, birds, bats) exhibited nighttime behavior.",
+      "claim_type": "event",
+      "entities": ["Dark Day of 1780"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-058",
+      "paragraph": 27,
+      "quote": "Dr. Nathanael Whittaker, pastor of the Tabernacle church in Salem, held religious services in the meeting-house, and preached a sermon in which he maintained that the darkness was supernatural.",
+      "claim_text": "Dr. Nathanael Whittaker, pastor of the Tabernacle church in Salem, held religious services during the Dark Day of May 19, 1780, and preached that the darkness was supernatural.",
+      "claim_type": "biographical",
+      "entities": ["Nathanael Whittaker", "Salem", "Dark Day of 1780"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-059",
+      "paragraph": 27,
+      "quote": "The darkness was most dense shortly after eleven o’clock.”(485)",
+      "claim_text": "The darkness of the Dark Day of May 19, 1780, was most dense shortly after eleven o'clock in the morning.",
+      "claim_type": "statistic",
+      "entities": ["Dark Day of 1780"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-060",
+      "paragraph": 28,
+      "quote": "The extent of this darkness was extraordinary. It was observed as far east as Falmouth. To the westward it reached to the farthest part of Connecticut, and to Albany. To the southward, it was observed along the seacoasts; and to the north as far as the American settlements extend.”(486)",
+      "claim_text": "The darkness of the Dark Day of May 19, 1780, was observed as far east as Falmouth, as far west as the farthest part of Connecticut and to Albany, along the seacoasts to the south, and northward as far as American settlements extended.",
+      "claim_type": "geographical",
+      "entities": ["Dark Day of 1780", "Falmouth", "Connecticut", "Albany"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-061",
+      "paragraph": 29,
+      "quote": "The intense darkness of the day was succeeded, an hour or two before evening, by a partially clear sky, and the sun appeared, though it was still obscured by the black, heavy mist.",
+      "claim_text": "On May 19, 1780, an hour or two before evening, the sky partially cleared and the sun became visible, though still obscured by a black, heavy mist.",
+      "claim_type": "event",
+      "entities": ["Dark Day of 1780"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-062",
+      "paragraph": 29,
+      "quote": "Though at nine o’clock that night the moon rose to the full, “it had not the least effect to dispel the deathlike shadows.” After midnight the darkness disappeared, and the moon, when first visible, had the appearance of blood.",
+      "claim_text": "On the night of May 19, 1780, the full moon rose at nine o'clock but did not dispel the darkness; after midnight the darkness disappeared and the moon, when first visible, appeared blood-colored.",
+      "claim_type": "event",
+      "entities": ["Dark Day of 1780"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-063",
+      "paragraph": 30,
+      "quote": "May 19, 1780, stands in history as “The Dark Day.”",
+      "claim_text": "May 19, 1780, is known in history as 'The Dark Day.'",
+      "claim_type": "date",
+      "entities": ["Dark Day of 1780"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-064",
+      "paragraph": 30,
+      "quote": "Since the time of Moses, no period of darkness of equal density, extent, and duration, has ever been recorded.",
+      "claim_text": "No period of darkness of equal density, extent, and duration to the Dark Day of May 19, 1780, has been recorded since the time of Moses.",
+      "claim_type": "statistic",
+      "entities": ["Dark Day of 1780"],
+      "needs_verification": true,
+      "extractor_note": "Sweeping superlative historical-comparative claim; classified as a checkable statistic rather than interpretive because it makes a falsifiable claim about the historical record."
+    },
+    {
+      "id": "GC-17-065",
+      "paragraph": 30,
+      "quote": "The description of this event, as given by eye-witnesses, is but an echo of the words of the Lord, recorded by the prophet Joel, twenty-five hundred years previous to their fulfilment: “The sun shall be turned into darkness, and the moon into blood, before the great and the terrible day of the Lord come.”(489)",
+      "claim_text": "The book of Joel is quoted as prophesying that 'the sun shall be turned into darkness, and the moon into blood, before the great and terrible day of the Lord come,' presented here as fulfilled by the Dark Day of 1780.",
+      "claim_type": "theological",
+      "entities": ["Joel"],
+      "needs_verification": false,
+      "extractor_note": "Prophetic-fulfillment framing is theological; the separate dating claim ('twenty-five hundred years previous') is logged as GC-17-066."
+    },
+    {
+      "id": "GC-17-066",
+      "paragraph": 30,
+      "quote": "recorded by the prophet Joel, twenty-five hundred years previous to their fulfilment",
+      "claim_text": "The book of Joel was written approximately twenty-five hundred years before 1780 (i.e., roughly the 8th century BC).",
+      "claim_type": "date",
+      "entities": ["Joel"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-067",
+      "paragraph": 31,
+      "quote": "He pointed His followers to the budding trees of spring, and said: “When they now shoot forth, ye see and know of your own selves that summer is now nigh at hand. So likewise ye, when ye see these things come to pass, know ye that the kingdom of God is nigh at hand.”(490)",
+      "claim_text": "Jesus is quoted as comparing the signs of his coming to budding trees in spring that indicate summer is near, saying 'when ye see these things come to pass, know ye that the kingdom of God is nigh at hand.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-068",
+      "paragraph": 32,
+      "quote": "Especially was this the case in the churches of America. The freedom and comfort enjoyed by all classes of society, the ambitious desire for wealth and luxury, begetting an absorbing devotion to money-making, the eager rush for popularity and power, which seemed to be within the reach of all, led men to center their interests and hopes on the things of this life, and to put far in the future that solemn day when the present order of things should pass away.",
+      "claim_text": "In early nineteenth-century America, social freedom and prosperity fostered a devotion to wealth, luxury, and the pursuit of popularity and power that caused people to neglect the doctrine of Christ's second coming.",
+      "claim_type": "interpretive",
+      "entities": ["America"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-17-069",
+      "paragraph": 33,
+      "quote": "There would be, as in the days of Noah, the activity and stir of worldly business and pleasure-seeking—buying, selling, planting, building, marrying, and giving in marriage—with forgetfulness of God and the future life.",
+      "claim_text": "Christ foretold that just prior to his second advent, conditions would resemble the days of Noah, marked by worldly business and pleasure-seeking with forgetfulness of God.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-17-070",
+      "paragraph": 34,
+      "quote": "The condition of the church at this time is pointed out in the Saviour’s words in the Revelation, “Thou hast a name that thou livest, and art dead.”(492)",
+      "claim_text": "The book of Revelation is quoted as recording Christ addressing a church with the words 'Thou hast a name that thou livest, and art dead.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-071",
+      "paragraph": 35,
+      "quote": "The day of the Lord is great and very terrible; and who can abide it?",
+      "claim_text": "The Old Testament prophetic literature describes 'the day of the Lord' as great and terrible, a day none can abide.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-17-072",
+      "paragraph": 36,
+      "quote": "The prophet Jeremiah, looking forward to this fearful time, exclaimed: “I am pained at my very heart.” “I cannot hold my peace, because thou hast heard, O my soul, the sound of the trumpet, the alarm of war. Destruction upon destruction is cried.”(500)",
+      "claim_text": "The prophet Jeremiah is quoted as exclaiming 'I am pained at my very heart' and describing hearing 'the sound of the trumpet, the alarm of war.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jeremiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-073",
+      "paragraph": 37,
+      "quote": "“That day is a day of wrath, a day of trouble and distress, a day of wasteness and desolation, a day of darkness and gloominess, a day of clouds and thick darkness, a day of the trumpet and alarm.”(501)",
+      "claim_text": "The prophetic literature (Zephaniah) describes the 'day of the Lord' as a day of wrath, trouble, distress, darkness, and the sounding of trumpets and alarm.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-17-074",
+      "paragraph": 38,
+      "quote": "“Blow ye the trumpet in Zion, and sound an alarm in My holy mountain: let all the inhabitants of the land tremble: for the day of the Lord cometh, for it is nigh at hand.”",
+      "claim_text": "The book of Joel calls for a trumpet to be blown in Zion to warn the inhabitants that 'the day of the Lord cometh, for it is nigh at hand.'",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-17-075",
+      "paragraph": 39,
+      "quote": "God saw that many of His professed people were not building for eternity, and in His mercy He was about to send a message of warning to arouse them from their stupor, and lead them to make ready for the coming of the Lord.",
+      "claim_text": "God, seeing that many of his professed people were not building for eternity, was about to send a message of warning to arouse them and prepare them for the coming of the Lord.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-17-076",
+      "paragraph": 40,
+      "quote": "This warning is brought to view in Revelation 14. Here is a threefold message represented as proclaimed by heavenly beings, and immediately followed by the coming of the Son of man “to reap the harvest of the earth.”",
+      "claim_text": "Revelation chapter 14 presents a threefold message proclaimed by heavenly beings, immediately followed by the Son of man coming to 'reap the harvest of the earth.'",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-17-077",
+      "paragraph": 40,
+      "quote": "The prophet beheld an angel flying “in the midst of heaven, having the everlasting gospel to preach unto them that dwell on the earth, and to every nation, and kindred, and tongue, and people, saying with a loud voice, Fear God, and give glory to Him; for the hour of His judgment is come: and worship Him that made heaven, and earth, and the sea, and the fountains of waters.”(504)",
+      "claim_text": "The book of Revelation describes an angel flying in the midst of heaven proclaiming 'the everlasting gospel' to every nation and announcing 'the hour of His judgment is come.'",
+      "claim_type": "attributed_quote",
+      "entities": ["John of Patmos"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-078",
+      "paragraph": 41,
+      "quote": "The work of preaching the gospel has not been committed to angels, but has been intrusted to men.",
+      "claim_text": "The work of preaching the gospel has been entrusted to human beings rather than to angels.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-17-079",
+      "paragraph": 42,
+      "quote": "Faithful men, who were obedient to the promptings of God’s Spirit and the teachings of His word, were to proclaim this warning to the world.",
+      "claim_text": "Faithful men who were obedient to the promptings of God's Spirit and the teachings of scripture were destined to proclaim the advent warning to the world.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-17-080",
+      "paragraph": 43,
+      "quote": "It was not the scholarly theologians who had an understanding of this truth, and engaged in its proclamation... But they did not occupy this position, and the message was given by humbler men.",
+      "claim_text": "The proclamation of the advent message was carried out not by scholarly theologians, who failed to watch for and understand the prophecies, but by humbler men.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-17-081",
+      "paragraph": 44,
+      "quote": "The prophecy of Micah designated His birthplace;(510) Daniel specified the time of His advent.(511)",
+      "claim_text": "The book of Micah is presented as designating Bethlehem as the Messiah's birthplace, and the book of Daniel is presented as specifying the time of the Messiah's advent.",
+      "claim_type": "attributed_quote",
+      "entities": ["Micah", "Daniel"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-082",
+      "paragraph": 44,
+      "quote": "The Jews were building monuments for the slain prophets of God, while by their deference to the great men of earth they were paying homage to the servants of Satan.",
+      "claim_text": "The Jewish leaders of Christ's time built monuments to slain prophets while, through deference to powerful men, paying homage to the servants of Satan.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-17-083",
+      "paragraph": 45,
+      "quote": "But lo, at Bethlehem two weary travelers from the hills of Nazareth traverse the whole length of the narrow street to the eastern extremity of the town, vainly seeking a place of rest and shelter for the night. No doors are open to receive them. In a wretched hovel prepared for cattle, they at last find refuge, and there the Saviour of the world is born.",
+      "claim_text": "According to the Gospel narrative, Joseph and Mary traveled from Nazareth to Bethlehem and, finding no lodging available, took refuge in a shelter prepared for cattle, where Jesus was born.",
+      "claim_type": "event",
+      "entities": ["Bethlehem", "Nazareth", "Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-084",
+      "paragraph": 46,
+      "quote": "Heavenly angels had seen the glory which the Son of God shared with the Father before the world was, and they had looked forward with intense interest to His appearing on earth, as an event fraught with the greatest joy to all people.",
+      "claim_text": "Angels in heaven had seen the glory the Son of God shared with the Father before the world existed and anticipated his appearing on earth with intense interest.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-17-085",
+      "paragraph": 47,
+      "quote": "An angel visits the earth to see who are prepared to welcome Jesus. But he can discern no tokens of expectancy.",
+      "claim_text": "An angel is described as visiting the earth to see who was prepared to welcome Jesus, but finding no signs of expectancy among the people.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-17-086",
+      "paragraph": 48,
+      "quote": "In amazement the celestial messenger is about to return to heaven with the shameful tidings, when he discovers a group of shepherds who are watching their flocks by night... And suddenly the angel of the Lord appears, declaring the good tidings of great joy. Celestial glory floods all the plain, an innumerable company of angels is revealed, and as if the joy were too great for one messenger to bring from heaven, a multitude of voices break forth in the anthem which all the nations of the saved shall one day sing, “Glory to God in the highest, and on earth peace, good will toward men.”(512)",
+      "claim_text": "According to the Gospel narrative, an angel appeared to shepherds watching their flocks by night near Bethlehem, followed by a multitude of angels proclaiming 'Glory to God in the highest, and on earth peace, good will toward men.'",
+      "claim_type": "theological",
+      "entities": ["Bethlehem"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-17-087",
+      "paragraph": 49,
+      "quote": "How it warns us to beware, lest by our criminal indifference we also fail to discern the signs of the times, and therefore know not the day of our visitation.",
+      "claim_text": "The Bethlehem story is presented as a warning against criminal indifference that could cause failure to discern the signs of the times.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-17-088",
+      "paragraph": 50,
+      "quote": "In the land of the heathen also were those that looked for Him; they were wise men, rich and noble, the philosophers of the East.",
+      "claim_text": "According to the Gospel narrative, wise men from the East, described as rich and noble philosophers, looked for the coming Messiah.",
+      "claim_type": "biographical",
+      "entities": ["Magi"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-089",
+      "paragraph": 50,
+      "quote": "While the priests and rabbis of Jerusalem, the appointed guardians and expounders of the truth, were shrouded in darkness, the Heaven-sent star guided these Gentile strangers to the birthplace of the new-born King.",
+      "claim_text": "A divinely sent star is described as guiding the Gentile magi to the birthplace of Jesus in Bethlehem, according to the Gospel narrative.",
+      "claim_type": "theological",
+      "entities": ["Magi", "Bethlehem"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-17-090",
+      "paragraph": 51,
+      "quote": "They had failed to preserve their connection with God, and had refused light from heaven; therefore they were not of the number described by the apostle Paul: “But ye, brethren, are not in darkness, that that day should overtake you as a thief. Ye are all the children of light, and the children of the day: we are not of the night, nor of darkness.”(515)",
+      "claim_text": "The apostle Paul is quoted as writing to believers, 'Ye are not in darkness, that that day should overtake you as a thief. Ye are all the children of light, and the children of the day.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul the Apostle"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-17-091",
+      "paragraph": 52,
+      "quote": "The watchmen upon the walls of Zion should have been the first to catch the tidings of the Saviour’s advent, the first to lift their voices to proclaim Him near, the first to warn the people to prepare for His coming. But they were at ease, dreaming of peace and safety, while the people were asleep in their sins.",
+      "claim_text": "The religious leaders ('watchmen upon the walls of Zion') are characterized as having been at ease and failing to warn the people to prepare for the Lord's coming, while the people remained spiritually asleep.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-17-092",
+      "paragraph": 53,
+      "quote": "Unless the church will follow on in His opening providence, accepting every ray of light, performing every duty which may be revealed, religion will inevitably degenerate into the observance of forms, and the spirit of vital godliness will disappear.",
+      "claim_text": "If the church fails to accept every ray of new spiritual light and perform every revealed duty, religion will degenerate into empty forms and lose the spirit of vital godliness.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    }
+  ]
+}

@@ -987,7 +987,7 @@
       "stages": {
         "extract": "done",
         "verify": "done",
-        "defend": "pending",
+        "defend": "done",
         "impact": "pending"
       },
       "counts": {
@@ -1019,9 +1019,16 @@
           "low_confidence": 16,
           "searches": 14,
           "clusters": 11
+        },
+        "defend": {
+          "examined": 5,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 3,
+          "defense_failed": 2,
+          "searches": 3
         }
       },
-      "updated_at": "2026-07-05T10:31:09Z"
+      "updated_at": "2026-07-05T10:38:51Z"
     },
     "16": {
       "title": "The Pilgrim Fathers",
@@ -1083,7 +1090,7 @@
         "extract": "done",
         "verify": "done",
         "defend": "done",
-        "impact": "pending"
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -1121,9 +1128,27 @@
           "verdict_downgraded": 0,
           "defense_failed": 0,
           "searches": 2
+        },
+        "impact": {
+          "scored": 4,
+          "load_bearing": 0,
+          "top_impact": [
+            {
+              "id": "GC-17-042",
+              "score": 4
+            },
+            {
+              "id": "GC-17-049",
+              "score": 4
+            },
+            {
+              "id": "GC-17-066",
+              "score": 4
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-05T10:34:26Z"
+      "updated_at": "2026-07-05T10:41:37Z"
     },
     "18": {
       "title": "An American Reformer",
