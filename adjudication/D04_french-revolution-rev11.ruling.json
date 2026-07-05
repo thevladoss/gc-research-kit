@@ -1,0 +1,212 @@
+{
+  "dossier": "D04",
+  "slug": "french-revolution-rev11",
+  "stage": "adjudication",
+  "charter_version": "1.1-frozen",
+  "generated_at": "2026-07-05",
+  "notes": "searches: ~15 (10 shared pool, 5 defense-identification for the load-bearing GC-15-142) + 6 WebFetch attempts (2 productive: White Estate GC appendix; Arthur L. White's account of the 1911 revision. AUSS digitalcommons, adventistarchives and Academia.edu blocked by bot protection; the AUSS PDF downloaded via andrews.edu mirror but local PDF rendering is unavailable — no poppler — so Voerman was engaged via documented abstracts/snippets). The shared budget of 6-8 was overrun by ~4 searches; the overage went entirely into locating and characterizing the strongest published DEFENSE of GC-15-142 (charter §7 symmetry duty), recorded here per §10.3. Direction check (§7.1): all three as-written rulings are accusatory while all three weakened rulings are 'well-supported'; re-checked before submission — the pattern is not drift but the dossier's structure: each claim welds a well-documented substrate (dechristianization, Voltairean anti-Christianity, court fatalism) to a 19th-century precision or attribution artifact (an exact 3.5-year interval, a referent gloss, an apocryphal royal utterance), and the artifact is what fails. Period-standard note for synthesis: the 3.5-year construction was standard in historicist EXPOSITION (Croly 1827; Uriah Smith), but not in period academic historiography — Thiers, Mignet and Alison, whom the 1911 revisers consulted, already narrated the staged 1794-1795 restoration; the 1911 team's own search failed to find the decrees. No Phase-1 defense objects exist for any claim in this dossier (disputed skipped the defender stage); verifier rationales were engaged as positions per §0.2.",
+  "evidence_review": "STATE OF THE QUESTION. (1) French revolutionary religious legislation 1793-1797. Modern historiography (John McManners, The French Revolution and the Church, 1969; Nigel Aston, Religion and Revolution in France 1780-1804, 2000; Michel Vovelle on dechristianization; Timothy Tackett) describes the dechristianization of Year II as a decentralized, largely extra-legislative campaign, not a national statutory abolition of Christianity. Sequence: the Convention adopted the revolutionary calendar (5 Oct 1793) and acquiesced in the Cult of Reason (Festival of Reason in Notre-Dame, 10 Nov 1793, after Gobel's abjuration of 7 Nov); the closure of Paris churches (23-24 Nov 1793) was an act of the Paris Commune; on 6 Dec 1793 (16 Frimaire II) the Convention explicitly reaffirmed freedom of worship. No decree proscribing the Bible has ever been located: the GC 1911 revision team itself, per Arthur L. White's account (The Later Elmshaven Years, on the 1911 revision), found that 'painstaking research failed to disclose such specific legislation, but edicts were found that did so in effect' — which is why the 1888 wording ('the decree which prohibited the Bible') was reworded in 1911. Restoration was staged: 18 Sept 1794 (end of the constitutional church's state budget); law of 3 Ventose III, 21 Feb 1795, on the report of the Protestant Boissy d'Anglas (free exercise of all cults, separation of church and state — Assemblee nationale official history; Musee protestant); decree of 11 Prairial III, 30 May 1795 (church buildings returned). The Convention dissolved 26 Oct 1795; the Constitution of Year III replaced it with the Council of Five Hundred and Council of Ancients. A further liberalization under the Directory — Camille Jordan's report on liberty of worship (17 June 1797) and the law of 24 Aug 1797 repealing the measures against refractory clergy, carried by the new post-election majority — was annulled eleven days later by the Fructidor coup (4 Sept 1797), after which persecution of refractory clergy resumed and intensified to 1799 (Jordan himself was proscribed). The 3.5-year construction (Nov 1793 -> June 1797) descends from historicist exposition — George Croly, The Apocalypse of St. John (1827), followed by Uriah Smith — not from period academic historiography. Its strongest modern defense is Jan Voerman, 'The Reign of Terror', AUSS 47/1 (2009): 117-134, with an earlier companion article 'Ellen White and the French Revolution' (AUSS), a refereed confessional venue; published critics include Donald Casebolt (Father Miller's Daughter, 2022) and counter-apologetic compilations (positions only). Mainstream French-Revolution scholarship does not engage the Rev 11 frame at all. (2) Voltaire's 'ecrasez l'infame'. The critical tradition — Theodore Besterman (critical edition of the correspondence; the Voltaire Foundation lineage), Peter Gay (Voltaire's Politics, Princeton UP, 1959), Rene Pomeau (La Religion de Voltaire, 1956), with Will Durant's The Age of Voltaire as an independent popularizing witness — reads l'infame as superstition, fanaticism and the persecuting institutional church: the letters from c. 1760 collocate 'infame superstition', 'infames prejuges', 'infame fanatisme', with the epistolary signature 'Ecr.l'inf.'; Voltaire professed theism throughout and the slogan predates the Revolution (he died in 1778). No scholarly defense of 'l'infame = Christ personally' was located in either direction of search; that gloss circulated in 19th-century Anglo-Protestant homiletics. Separately, revolutionary dechristianizers did denounce Christianity as an imposture: the abjuration ceremonies of Nov 1793 had priests confess they had 'lied and misled', and Hebertist rhetoric attacked Christ's religion directly (Springer, 'November 7, 10, 1793: Dechristianizing'; dechristianization surveys). (3) The Louis XV apocryphon. Quotation scholarship traces 'Apres nous, le deluge' to Mme de Pompadour consoling Louis XV after Rossbach (Nov 1757), first printed in Mme du Hausset's Memoires (1824), with a parallel anecdote from the painter Maurice Quentin de La Tour; Mirabeau's L'Ami des hommes (1756) already calls the phrase 'the most common of all proverbs among us', and classical antecedents exist (the Greek tag 'when I am dead, let earth be mingled with fire', with Nero's variant in Suetonius/Dio). No contemporary document records Louis XV uttering 'Apres moi le deluge'; standard quotation references (Oxford) file the saying under Pompadour, and the attributions to the king appear only in later 19th-20th-century retellings. WHAT CHANGED SINCE THE 19TH CENTURY: the legislative record of 1793-1797 was already in Thiers/Mignet/Alison and has only been consolidated since (the 1911 revisers' failed source-hunt shows the gap was visible then); Voltaire studies were professionalized by Besterman's critical edition and Gay's and Pomeau's monographs; quotation scholarship (du Hausset's provenance, the Mirabeau attestation) moved the deluge saying from royal biography to apocrypha.",
+  "narrative_ru": "Досье проверяет три утверждения главы о Французской революции: интервал ровно в три с половиной года между отменой религии в 1793 году и её восстановлением «тем же собранием», лозунг «раздавите гадину» как направленный лично против Христа и слова «после меня хоть потоп» в устах Людовика XV. Законодательная хроника опровергает первую конструкцию: Конвент подтвердил свободу культов уже 6 декабря 1793 года, закон 3 вантоза (21 февраля 1795 года) восстановил свободное отправление религии через пятнадцать месяцев, а к июню 1797 года Конвента не существовало, так что «то же собрание» ничего отменить не могло. Исследователи Вольтера (Бестерман, Питер Гей, Помо) читают «l'infame» как суеверие, фанатизм и гонящую церковь; чтение «то есть Христос» в науке поддержки не имеет. Фразу о потопе самый ранний источник приписывает мадам де Помпадур, причём уже в 1756 году Мирабо называл её ходячей поговоркой. В ослабленных версиях все три утверждения устойчивы: кампания дехристианизации с публичным сожжением Библий, антихристианский смысл вольтеровского лозунга и беспечный фатализм двора Людовика XV документированы. Картину изменили бы находка в парламентских архивах конкретных актов 1793 и 1797 годов, письмо Вольтера с «l'infame» о самом Христе или прижизненная запись слов короля.",
+  "rulings": [
+    {
+      "id": "GC-15-142",
+      "dossier": "D04",
+      "quantifier_audit": [
+        "\"Three years and a half later\" (exact interval asserted)",
+        "\"the same body\" (identity of the legislature asserted)",
+        "\"a resolution rescinding these decrees\" (definite reference to a specific adopted legislative act)"
+      ],
+      "components": [
+        {
+          "component": "The 3.5-year interval instantiates Rev 11's 'three days and a half' (day-year principle), with France as the power that slew the two witnesses (the Scriptures).",
+          "kind": "hermeneutic",
+          "in_scope": false,
+          "ruling": null,
+          "rationale": "Prophetic identification; out of scope per §9. All in-scope findings below are conditional on not evaluating this premise: the adjudication rules on the calendar and legislative facts only, never on whether Rev 11 predicted them."
+        },
+        {
+          "component": "In 1797 a resolution was adopted rescinding the 1793 anti-religion/anti-Bible decrees and thereby 'granting toleration to the Scriptures'.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "No such adopted resolution is identifiable. The Scriptures were never proscribed by national legislation, so no act 'granting toleration to the Scriptures' existed to adopt; the 1911 revision team's own research 'failed to disclose such specific legislation' at either end (Arthur L. White). The traditional endpoint, Camille Jordan's report of 17 June 1797, was a committee report, not an adopted resolution; the actual law of 24 Aug 1797 concerned refractory clergy, not the Bible, was passed by a different legislature, and was annulled eleven days later by the Fructidor coup. Kept at improbable rather than discredited only because a real, if short-lived, liberalization was voted in the summer of 1797 ('edicts... in effect')."
+        },
+        {
+          "component": "The restoration came three and a half years after the 1793 decrees.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "The interval is an endpoint-selection artifact. Documented counterexamples inside the alleged 3.5-year suppression window: the Convention's decree of 6 Dec 1793 reaffirming freedom of worship (~2 weeks after the Commune's church closures) and above all the law of 3 Ventose III (21 Feb 1795) establishing free exercise of all cults (~15 months after Nov 1793), followed by the return of church buildings on 30 May 1795. Nov 1793 -> June 1797 yields ~3 years 7 months only if both intervening laws are ignored and a reversed, non-durable 1797 liberalization is treated as 'the' restoration."
+        },
+        {
+          "component": "The rescinding resolution was adopted 'by the same body' that passed the 1793 decrees.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "discredited",
+          "rationale": "Structurally unsatisfiable against undisputed constitutional chronology. The National Convention sat Sept 1792 - 26 Oct 1795 (37 months): no 3.5-year interval fits within its life. Any 1797 act belongs to the Council of Five Hundred / Council of Ancients under the Constitution of Year III — a different body; indeed the mid-1797 liberalization was possible precisely because the March 1797 elections had changed the legislature's composition. Conversely, the one restorative act the Convention itself did adopt (21 Feb 1795) destroys the 3.5-year interval. Every assignment of referents falsifies at least one conjunct of the printed sentence."
+        }
+      ],
+      "ruling_as_written": "discredited",
+      "failing_component_kind": "fact",
+      "weakened_version": "The dechristianization campaign that peaked in late 1793 — with the Convention's acquiescence, church closures, and public Bible burnings — was followed within a few years by a staged legislative restoration of religious toleration in France (18 Sept 1794, 21 Feb 1795, and briefly June-Aug 1797).",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 4,
+      "confidence": "high",
+      "minority_engagement": "The strongest published defense is Jan Voerman ('The Reign of Terror', AUSS 47/1, 2009: 117-134; earlier 'Ellen White and the French Revolution', AUSS), continuing George Croly's 1827 construction: the anti-religious terror ran from the measures of Nov 1793 to Camille Jordan's report on liberty of worship of 17 June 1797, which sustains White's 'three years and a half' in effect if not in statute. Engaged on its actual argument, it fails on evidence at three independent points: (1) the window is not continuous — the Convention reaffirmed freedom of worship on 6 Dec 1793 and legally restored free exercise on 21 Feb 1795, fifteen months in; (2) the chosen endpoint was neither a resolution nor durable — Jordan's report was never adopted as such, and the law of 24 Aug 1797 was annulled by the Fructidor coup on 4 Sept 1797 with persecution of clergy resuming to 1799; (3) no reading rescues 'the same body', since the Convention dissolved in Oct 1795. The concession the defense is owed is real and is carried by the weakened ruling: the 1793 assault on religion and the Scriptures happened, and a legislative toleration current did culminate in 1795-1797. Note also the admission against interest from the defending institution itself: Arthur L. White records that the 1911 revisers' 'painstaking research failed to disclose such specific legislation'. Voerman's full text was inaccessible (bot-protected repositories; local PDF rendering unavailable); his position was characterized from the article's documented abstract/snippets and its Croly-Smith lineage, and the structural refutation in component 4 is independent of any detail he could add. No Phase-1 defense object exists; the Phase-1 verifier's rationale (1795 law, endpoints interpretation-dependent) is incorporated and sharpened.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {
+          "ref": "Assemblee nationale (official site), 'Boissy d'Anglas (21 fevrier 1795)' — text and context of the law of 3 Ventose III: freedom of worship, separation of church and state",
+          "tier": "primary-in-context",
+          "independence_note": "French state institutional record of parliamentary history; independent of Anglo encyclopedic digests and of all confessional positions."
+        },
+        {
+          "ref": "Musee protestant, 'The restoration of religious freedom (law of 21 Feb 1795)' and 'Dechristianisation during the Reign of Terror (1793-1794)'",
+          "tier": "encyclopedic",
+          "independence_note": "French Protestant scholarly encyclopedia (confessional location noted); genealogically distinct from both Adventist historicism and English-language tertiary sources."
+        },
+        {
+          "ref": "Wikipedia: 'Dechristianization of France during the French Revolution', 'Timeline of the French Revolution', 'Coup of 18 Fructidor', 'Camille Jordan (politician)' (digesting Aston, McManners, Tackett, Vovelle)",
+          "tier": "encyclopedic",
+          "independence_note": "One genealogical unit (digest of the standard academic literature); counted once."
+        },
+        {
+          "ref": "G. Betros, 'The French Revolution and the Catholic Church', History Today / History Review (2010)",
+          "tier": "academic",
+          "independence_note": "Academic historian in a popular-academic venue; independent of the French institutional sources and of Wikipedia's digest chain."
+        },
+        {
+          "ref": "Arthur L. White, Ellen G. White: The Later Elmshaven Years, ch. on the 1911 GC revision (whiteestate.org): 'painstaking research failed to disclose such specific legislation, but edicts were found that did so in effect'",
+          "tier": "position",
+          "independence_note": "The defending institution's own account — admission against interest; genealogically internal to the claim's tradition, which is precisely its evidential value here."
+        },
+        {
+          "ref": "J. Voerman, 'The Reign of Terror', AUSS 47/1 (2009): 117-134 (defense, engaged via abstract/snippets); G. Croly, The Apocalypse of St. John (1827) (lineage of the 3.5-year construction)",
+          "tier": "position",
+          "independence_note": "Confessional refereed venue and its 19th-century source; both defend the claim — cited as the engaged minority, not as arbiters."
+        }
+      ],
+      "would_change_this": "Discovery in the Archives parlementaires of (a) a 1793 Convention decree explicitly proscribing the Scriptures and (b) a resolution rescinding it adopted in 1797 by a body institutionally continuous with the Convention — or a peer-reviewed study showing the law of 21 Feb 1795 did not in fact restore free exercise. For the weakened ruling: evidence that the 1793 dechristianization campaign or the 1795-1797 legislative toleration current did not occur.",
+      "gap_note": null,
+      "notes": "Load-bearing claim of the dossier. The as-written failure is a fact failure on calendar/legislative precision, not on the underlying event sequence; conditionality on the Rev 11 hermeneutic is recorded in component 1 and never entered the scale."
+    },
+    {
+      "id": "GC-15-069",
+      "dossier": "D04",
+      "quantifier_audit": [
+        "\"the rallying cry of the French infidels\" (definite, totalizing description of one slogan as THE cry)"
+      ],
+      "components": [
+        {
+          "component": "During the Revolution, French infidels declared Jesus Christ to be an impostor.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "probable",
+          "rationale": "Substantially documented for the dechristianization of Year II: the abjuration ceremonies of Nov 1793 (Gobel and others) had clergy confess their former teaching as lies and imposture; Hebertist propaganda and Cult-of-Reason rhetoric attacked Christ's religion as fraud. 'Probable' rather than 'well-supported' because the specific formula 'Christ = impostor' is attested through scholarship of the rhetoric rather than verified here in a named primary declaration."
+        },
+        {
+          "component": "'Crush the Wretch' (ecrasez l'infame) was the rallying cry of the French infidels.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "probable",
+          "rationale": "The slogan is genuine and genuinely functioned as the watchword of the Voltairean party (letters from c. 1760; signature 'Ecr.l'inf.'). The sentence's placement in 'the scenes of the Revolution' involves a mild anachronistic transfer — Voltaire died in 1778 and the slogan is epistolary, pre-revolutionary — but 19th-century usage of 'French infidels' covered the philosophes and their revolutionary heirs as one movement, and the revolutionary anticlericals did canonize Voltaire (Pantheon, 1791)."
+        },
+        {
+          "component": "The referent of the cry was Christ ('meaning Christ').",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Clear preponderance of Voltaire scholarship against: Besterman, Peter Gay (Voltaire's Politics), Pomeau, and the Voltaire Foundation lineage read l'infame as superstition, fanaticism, and the persecuting institutional church — Voltaire's own collocations are 'infame superstition', 'infame fanatisme' — while Voltaire professed theism throughout. No published scholarly defense of the 'Christ personally' referent was located in a search framed to find one. Kept at improbable rather than discredited because the term's exact extension is genuinely debated (the persecuting Church vs revealed Christianity as such), and on the broader reading White's gloss is a metonymic narrowing of a real anti-Christian target rather than a pure invention."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "French infidels of the Enlightenment and Revolution denounced Christianity as an imposture, and their watchword — Voltaire's 'ecrasez l'infame' — called for crushing the Christian religion as they knew it: its church, its dogmas, and its fanaticism.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "high",
+      "minority_engagement": "The strongest position for the as-written gloss is the 19th-century Anglo-Protestant homiletic tradition from which White drew, which read l'infame as the person of Christ ('the Wretch'); no modern scholarly advocate of that reading was found, and even confessional treatments of Voltaire legends do not defend it. Its actual argument — that l'infame is grammatically personal and that Voltaire's campaign was ultimately aimed at Christ's religion — fails on Voltaire's own documented usage (adjectival collocations with 'superstition', 'fanatisme', 'persecution') and on his professed theism; the defensible core (the campaign targeted Christianity as institutionalized) is exactly what the weakened ruling grants. The nuance that keeps the question of extension alive (church only vs revealed religion as such) is a debate among Voltaire scholars, none of whom lands on 'Christ personally'. No Phase-1 defense object exists; the Phase-1 verifier's rationale (interpretive narrowing) is incorporated, with its encyclopedic sources replaced by the scholarly tradition behind them.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {
+          "ref": "Peter Gay, Voltaire's Politics (Princeton UP, 1959) and the Besterman critical-edition tradition (Voltaire Foundation), on the referent of l'infame — engaged via the Foundation's own materials and scholarly digests",
+          "tier": "academic",
+          "independence_note": "Two independent scholarly lineages (Gay's political reading; Besterman's editorial tradition) converging on the same referent; encyclopedic digests of them counted within this unit, not separately."
+        },
+        {
+          "ref": "W. & A. Durant, The Age of Voltaire, ch. 'Ecrasez l'infame: Voltaire and Christianity 1734-78'",
+          "tier": "academic",
+          "independence_note": "Independent popularizing synthesis predating Gay's monograph; distinct genealogy from both Gay and Besterman."
+        },
+        {
+          "ref": "Merriam-Webster, entry 'ecrasez l'infame'",
+          "tier": "encyclopedic",
+          "independence_note": "Independent lexicographic tradition; corroborates the impersonal referent ('the infamous thing')."
+        },
+        {
+          "ref": "Springer chapter 'November 7, 10, 1793: Dechristianizing' and dechristianization surveys (abjurations, Cult of Reason rhetoric)",
+          "tier": "academic",
+          "independence_note": "Supports component 1 (imposture rhetoric); independent of the Voltaire-studies chain."
+        }
+      ],
+      "would_change_this": "A letter or manuscript in Voltaire's critical correspondence using l'infame unambiguously of the person of Christ, or a peer-reviewed Voltaire study defending that referent. For component 1: demonstration that no revolutionary-era declaration of Christ/Christianity as imposture is documentable would lower it; a named primary declaration would raise it to well-supported.",
+      "gap_note": null,
+      "notes": "The failing component is the referent gloss, a fact-level attribution of meaning; the sentence's anti-Christian substance survives weakening intact."
+    },
+    {
+      "id": "GC-15-113",
+      "dossier": "D04",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "Louis XV answered warnings with the words 'After me, the deluge!' (Apres moi, le deluge).",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Quotation scholarship treats the royal attribution as apocryphal: the earliest printed source (Mme du Hausset's Memoires, 1824, with La Tour's parallel anecdote) gives 'Apres NOUS le deluge' to Mme de Pompadour consoling the king after Rossbach (1757); Mirabeau's L'Ami des hommes (1756) already calls the phrase a common proverb, and classical antecedents exist. No contemporary document records the king uttering it; attributions to Louis XV appear only in later retellings. He could have repeated a current proverb, so the attribution is not decisively refuted — but the preponderance is clearly against the utterance as printed ('his... answer')."
+        },
+        {
+          "component": "The doom awaiting France was 'but too truly pictured' in this indolent and selfish answer (the saying as an authentic self-revelation of the king's disposition).",
+          "kind": "frame",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "As written the frame presupposes the authentic utterance: an answer the king never gave cannot 'truly picture' his disposition. The underlying characterization — court fatalism and heedlessness before the deluge — survives independently via the documented Pompadour anecdote and the proverb's currency, which is what the weakened version carries."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "tied_kinds": ["fact", "frame"],
+      "weakened_version": "A saying to this effect — 'After us, the deluge', already proverbial in the 1750s — is attributed by the earliest sources to Madame de Pompadour speaking to Louis XV, and it aptly emblematizes the heedless fatalism of his court on the eve of the Revolution's causes.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "medium",
+      "minority_engagement": "The position for the as-written attribution is the long 19th-20th-century biographical tradition that puts 'Apres moi le deluge' in the king's own mouth (the form White inherited); some general reference works still carry both attributions. Its argument — the saying fits the king's documented fatalism and circulated at his court — establishes plausibility of milieu, not of utterance: it rests on no contemporary attestation, the earliest source assigns different words to a different speaker, and the phrase's pre-1757 proverbial currency (Mirabeau 1756) undercuts any specific personal attribution. That keeps the component at improbable rather than discredited (a proverb the king might well have echoed cannot be decisively refuted) and rather than genuinely-open (no qualified scholarship positively defends the royal utterance on comparable evidence). No Phase-1 defense object exists; the Phase-1 verifier's rationale (Pompadour variant, apocryphal status) is incorporated with the Mirabeau proverb attestation added.",
+      "source_quality": "encyclopedic-only",
+      "sources": [
+        {
+          "ref": "Mme du Hausset, Memoires (pub. 1824) — earliest printed attribution: 'Apres nous, le deluge', Pompadour to Louis XV after Rossbach; La Tour anecdote parallel (both read via quotation-scholarship digests)",
+          "tier": "primary-in-context",
+          "independence_note": "The tradition's founding document, read through the scholarship that dates and weighs it, not proof-texted."
+        },
+        {
+          "ref": "V. Riqueti de Mirabeau, L'Ami des hommes (1756) — the phrase already 'the most common of all proverbs among us' (via quotation-scholarship digests)",
+          "tier": "primary-in-context",
+          "independence_note": "Independent attestation line: proverb currency predating the alleged utterance; genealogically distinct from the du Hausset anecdote."
+        },
+        {
+          "ref": "Wikipedia/Grokipedia 'Apres moi, le deluge' + Oxford quotation-reference tradition (files the saying under Pompadour)",
+          "tier": "encyclopedic",
+          "independence_note": "Digest of quotation scholarship (Shapiro/ODQ lineage); counted as one genealogical unit."
+        },
+        {
+          "ref": "Rodama (specialist 18th-century France blog), 'Apres nous, le Deluge' — survey with primary citations",
+          "tier": "encyclopedic",
+          "independence_note": "Independent source-critical survey citing La Tour and du Hausset directly; partially overlapping genealogy with the Wikipedia digest, weighed accordingly."
+        }
+      ],
+      "would_change_this": "A contemporary (pre-1774) document — diary, dispatch, or memoir manuscript — recording Louis XV himself saying 'Apres moi le deluge' would reverse the attribution component; a study showing the du Hausset memoir passage to be a later interpolation would harden it toward discredited.",
+      "gap_note": null,
+      "notes": "Lowest-impact claim of the dossier (impact 2). Fact and frame tie at the claim minimum; failing_component_kind takes the fixed §3 priority (fact), with the tie recorded in tied_kinds."
+    }
+  ]
+}
