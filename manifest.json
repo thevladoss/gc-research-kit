@@ -423,7 +423,7 @@
         "extract": "done",
         "verify": "done",
         "defend": "done",
-        "impact": "pending"
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -460,9 +460,27 @@
           "verdict_downgraded": 1,
           "defense_failed": 4,
           "searches": 1
+        },
+        "impact": {
+          "scored": 5,
+          "load_bearing": 0,
+          "top_impact": [
+            {
+              "id": "GC-07-050",
+              "score": 16
+            },
+            {
+              "id": "GC-07-037",
+              "score": 12
+            },
+            {
+              "id": "GC-07-056",
+              "score": 8
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-05T02:00:03Z"
+      "updated_at": "2026-07-05T02:02:03Z"
     },
     "08": {
       "title": "Luther Before The Diet",

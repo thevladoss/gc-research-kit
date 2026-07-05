@@ -1,0 +1,44 @@
+{
+  "chapter": 7,
+  "stage": "adversarial",
+  "notes": "searches: ~1; full defenses: 0, cheap audits: 5. All five scoped claims are 'anachronistic' (Read-only cheap audit). One search spent on the 036/037 Scala Sancta cluster (concrete lead: 16th-c. Paul Luther provenance). Result: 1 verdict downgraded (036 anachronistic -> disputed), 4 defense_failed (verdict stands). Verifier's Tetzel-cluster source audit (047/050/056) holds; anachronistic is the correct charitable classification for each. Two over-literalization catches recorded on 036 and 037 even where the discrepancy stands.",
+  "items": {
+    "GC-07-036": {
+      "result": "verdict_downgraded",
+      "argument": "The verifier calls the whole scene 'D'Aubigne's embellishment' and asserts GC dates Luther's justification breakthrough to the staircase. Both points overreach. (1) Provenance: the recollection of 'the just shall live by faith' coming to Luther on the Scala Sancta does not originate with D'Aubigne. It traces to a 16th-century family testimony, a letter by Luther's son Dr. Paul Luther (1533-1593) preserved in the Library of Rudolstadt. So this is not a 19th-century invention but a genuinely transmitted, if late and second-hand, tradition, and the scholarship shows 'different accounts' rather than a settled verdict of falsehood. (2) Over-literalization: GC's own wording is phenomenological and cautious, 'a voice like thunder SEEMED to say to him' (not an objective audible voice), and the extractor preserved this ('what seemed to him'). (3) GC does not actually locate the full breakthrough on the stairs. It says only 'That text never lost its power upon his soul' and 'From that time he saw MORE CLEARLY THAN EVER BEFORE' the fallacy of works, language of a seed and a gradual deepening that is fully compatible with the later Wittenberg tower-experience. The verifier's 'modern_consensus: GC dates the breakthrough to the stairs' misreads the text. What remains genuinely embellished is the theatrical staging (springing up, fleeing 'in shame and horror'), which is not in the sober record and belongs to Protestant dramatization. On balance the episode is contested, not cleanly 'wrong by modern standards': a real early source attests the core, historians divide on it, and GC's phrasing is careful. That fits 'disputed' better than 'anachronistic'.",
+      "revised_verdict": "disputed",
+      "new_sources": [
+        {
+          "title": "Lessons from Luther: The Just Shall Live by Faith",
+          "url": "https://gentlereformation.com/2025/10/31/lessons-from-luther-the-just-shall-live-by-faith/",
+          "source_class": "other",
+          "supports_verdict": true,
+          "note": "Position documenting the two rival accounts (Scala Sancta recollection vs. later Wittenberg breakthrough) and the on-the-stairs 'who knows if this is true' skepticism about the relic."
+        },
+        {
+          "title": "History of Martin Luther: Part 2 - Breakthrough (Bill Petro)",
+          "url": "https://billpetro.com/history-martin-luther-part-2/",
+          "source_class": "other",
+          "supports_verdict": true,
+          "note": "Notes the Scala Sancta recollection tradition traces to a letter of Dr. Paul Luther (1533-1593) preserved at the Library of Rudolstadt, i.e., a 16th-c. root predating D'Aubigne."
+        }
+      ]
+    },
+    "GC-07-037": {
+      "result": "defense_failed",
+      "argument": "Strongest steelman: GC's phrase 'His eyes had been opened ... to the delusions of the papacy' can be read narrowly as the moral corruption Luther genuinely witnessed in Rome, and that disillusionment IS well attested (claims 031, 033, 034 are all 'supported' - the luxury of Italian convents, clerical profanity during mass, the 'if there is a hell, Rome is built over it' report). To that extent the passage rests on real ground. It fails as a whole because GC does not stop at moral disgust: it welds that disgust to a DOCTRINAL and institutional break - 'he had turned away also in heart, and from that time the separation grew wider, until he severed all connection with the papal church.' Modern scholarship is firm, and Luther is explicit in his own recollections, that he returned from Rome (1510-11) still a devout and loyal Catholic and that his separation grew from the 1517 indulgence controversy, not from the Rome trip. This is D'Aubigne's teleological narrative arc reading the later break back into the earlier journey. Because the error traces faithfully to White's named source rather than being her own fabrication, 'anachronistic' is the correct and charitable classification, and the discrepancy stands."
+    },
+    "GC-07-047": {
+      "result": "defense_failed",
+      "argument": "Steelman: GC's language ('convicted of the basest offenses ... having escaped the punishment due to his crimes') is vague, and Tetzel was in fact a controversial and much-accused figure, so a defender could argue a kernel survives. The verifier's own source audit, however, is sound and cuts the other way: the specific charge is the Innsbruck adultery legend (condemnation to death by drowning, remitted by a prince's intercession), which modern scholarship, following Nikolaus Paulus, treats as unverified Protestant polemic. Crucially the anachronistic label is the RIGHT one, not an under-count: even the 1911 Encyclopaedia Britannica repeated the story only in hedged form ('is said to have been condemned'), which shows White was following period-standard scholarship (D'Aubigne / Wylie), not inventing. So the claim is period-typical rather than fabricated. The discrepancy against modern historiography nonetheless stands, and anachronistic holds."
+    },
+    "GC-07-050": {
+      "result": "defense_failed",
+      "argument": "Strongest steelman: there is a genuine documentary anchor beneath the polemic. Indulgence letters of the period, especially the confessional letters (litterae confessionales), were popularly marketed with the formula 'a poena et culpa' ('from penalty and guilt'), which ordinary hearers, and reformers, reasonably read as remitting sin itself and softening the contrition requirement; and the extravagance of the actual preaching is attested (claim 048 and the coffer-teaching of 051 are both 'supported'). So GC's charge is a sharpening of something real, not pure invention. It still fails as stated: official Catholic indulgence theology always required contrition and confession, and remission of FUTURE sins ('all the sins which the purchaser should afterward desire to commit') plus 'not even repentance is necessary' was never Church doctrine and is not credibly documented as Tetzel's actual formula - it is D'Aubigne's polemical rendering (ref 171). Because it traces to White's named source and represents period-standard Protestant reporting, anachronistic is correct and the discrepancy stands."
+    },
+    "GC-07-056": {
+      "result": "defense_failed",
+      "argument": "Strongest steelman, and it is a real one: Tetzel actually held an inquisitorial commission (inquisitor of heretical pravity), so a threat to 'burn heretics' echoes an office he genuinely occupied rather than being invented out of nothing; and public burnings did occur in the Tetzel-Luther conflict (Tetzel had Luther's theses burned; Wittenberg students later burned Tetzel's counter-theses in 1518), giving 'caused fires to be lighted in the public squares' a factual correlate. These anchors lower the severity of the item well below fabrication. The claim still fails as a precise historical report: the verbatim quotation 'an order from the pope to burn all heretics who presumed to oppose his most holy indulgences' and the specific bonfire-in-rage scene are not independently documented and trace to D'Aubigne (ref 175); even the 1911 Britannica records Tetzel's counter-attack without the theatrics. Faithful to White's named source, wrong by modern standards - anachronistic stands."
+    }
+  }
+}

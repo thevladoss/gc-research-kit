@@ -1,0 +1,47 @@
+{
+  "chapter": 7,
+  "stage": "impact",
+  "notes": "Chapter 7's argument: it builds Luther as the providentially-appointed reformer by tracing a single arc - childhood hardship and monastic despair over sin, discovery that justification comes by faith (not works), disillusionment with Rome's moral corruption, and finally the concrete institutional trigger (Tetzel's indulgence traffic) that provokes the Ninety-Five Theses and the 'vital principle of the Reformation' (sola scriptura). The claims doing the actual argumentative work are the indulgence-sale abuses (048/051/053-055, all supported) and the Theses/posting/spread (059-061, supported); the Rome-trip-as-turning-point (036/037) and Tetzel's personal villainy (047/056) are narrative scaffolding and color that dramatize, but are not required to establish, the documented institutional scandal. No web searches performed at this stage; impact scoring is based on re-reading the chapter text (paragraphs 14-26) alongside the defender's rationale/defense text in gc_ch07.defended.json. GC-07-036 scored as optional per instructions since its revised_verdict is 'disputed', included because it is thematically inseparable from 037's turning-point claim.",
+  "items": {
+    "GC-07-036": {
+      "severity": 2,
+      "centrality": 3,
+      "load_bearing": false,
+      "impact_score": 6,
+      "narrative_arc": "reformation",
+      "reasoning": "Downgraded to disputed: the 'voice like thunder' recollection has a genuine 16th-century root (Paul Luther's letter) and GC's own phrasing is cautious ('seemed to say'), so this is not a clean fabrication, only a dramatized rendering of a contested tradition. Deleting the scene would cost the chapter its vivid staircase image but nothing of substance, since the chapter's own text locates the real doctrinal deepening in gradual terms ('from that time he saw more clearly than ever before') compatible with the later Wittenberg breakthrough. Scored lightly because the defender's steelman is strong and the claim functions as scene-setting for the Rome visit rather than as the chapter's evidentiary backbone."
+    },
+    "GC-07-037": {
+      "severity": 3,
+      "centrality": 4,
+      "load_bearing": false,
+      "impact_score": 12,
+      "narrative_arc": "reformation",
+      "reasoning": "This is the chapter's pivot sentence, claiming Luther's 1510-11 Rome trip is where his 'separation grew wider' from the papacy - but modern scholarship places the actual rupture in the 1517+ indulgence controversy, and Luther returned from Rome still a loyal Catholic (a point GC itself concedes two paragraphs later at ¶17: 'Luther was still a true son of the papal church, and had no thought that he would ever be anything else'). Deleting this claim would not collapse the chapter's argument - the indulgence-controversy chapters that follow (045-061, all supported) independently supply the real causal engine of Luther's break - but it does misdate and misattribute causation on the specific dramatic hinge the narrative leans on to connect the Rome section to the Wittenberg section. Traces faithfully to D'Aubigne's teleological narrative arc rather than being White's invention, so the error reflects period Protestant historiography, not fabrication."
+    },
+    "GC-07-047": {
+      "severity": 3,
+      "centrality": 2,
+      "load_bearing": false,
+      "impact_score": 6,
+      "narrative_arc": "reformation",
+      "reasoning": "The claim that Tetzel had been 'convicted of the basest offenses' and 'escaped the punishment due to his crimes' repeats the unverified Innsbruck-adultery legend as settled fact; even the 1911 Britannica hedges it as 'is said to have been.' Deleting this ad hominem detail costs the chapter nothing argumentatively - the indulgence-traffic critique (048, 050, 051, 053) stands entirely on Tetzel's preaching and sales practices, not on his prior criminal record - so this functions as decorative character assassination rather than load-bearing evidence. Severity reflects that a real, named historical figure is charged with an unproven crime, but it faithfully transmits D'Aubigne/Wylie's period-standard (if now discredited) account rather than an invented charge."
+    },
+    "GC-07-050": {
+      "severity": 4,
+      "centrality": 4,
+      "load_bearing": false,
+      "impact_score": 16,
+      "narrative_arc": "reformation",
+      "reasoning": "This is the doctrinal core of the chapter's indictment of the indulgence trade: that Tetzel promised forgiveness of future sins with 'not even repentance necessary.' Official Catholic doctrine never taught this, and it is polemical exaggeration of the confessional-letter formula ('a poena et culpa') traced to D'Aubigne. Severity is high because it materially misstates the actual theological content of a documented institution (indulgences) rather than a peripheral detail. Centrality is high because this claim is the specific outrage the chapter uses to motivate Luther's parish confrontations (055) and his decision to post the Theses (059) - yet it is not load-bearing, since the surrounding supported claims (048 extravagant preaching, 051 the purgatory-coffer teaching, 054 learned Catholic unease) already establish a genuinely abusive indulgence campaign sufficient to motivate Luther's protest without this specific overstatement."
+    },
+    "GC-07-056": {
+      "severity": 4,
+      "centrality": 2,
+      "load_bearing": false,
+      "impact_score": 8,
+      "narrative_arc": "reformation",
+      "reasoning": "A vivid, quoted claim that Tetzel, enraged, lit public bonfires and declared he had 'received an order from the pope to burn all heretics.' The verbatim quote and bonfire theatrics are not independently documented (even the 1911 Britannica records Tetzel's counter-attack without them), though Tetzel did hold an inquisitorial office and thesis-burnings did occur in the conflict, giving it a real but distorted anchor. Severity is elevated because it puts an extreme, unattested direct quote in a real person's mouth; centrality stays low because the scene is dramatic color illustrating Tetzel's temperament, not evidence the chapter's argument (indulgence abuse -> Ninety-Five Theses) depends on - deleting it leaves the substantive indictment (045-055, supported) fully intact."
+    }
+  }
+}

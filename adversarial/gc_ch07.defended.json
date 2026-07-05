@@ -1,0 +1,3129 @@
+{
+  "chapter": 7,
+  "chapter_title": "Luther's Separation From Rome",
+  "stage": "adversarial",
+  "generated_at": "2026-07-05",
+  "notes": "Processed in two halves (paragraphs 1-37, then 38-73) and merged; IDs sequential GC-07-001 through GC-07-130. The pope referenced throughout (paragraphs 16, 21-26, 28-29, 34, 38-40, 48, 53, 57, 62, 64-66, 68, 71, 75) is historically Leo X, but the chapter text never names him, so entities use the unnamed form 'Pope' as given in the source; this is noted once here rather than repeated per claim.\n\nsearches: ~11, clusters: 8 (early biography; Rome/Scala Sancta; Tetzel/indulgences; 95 theses posting+spread; Augsburg/Cajetan/Frederick; D'Aubigne quote cluster; Exsurge Domine/bull-burning; Reformation spread to countries). Common-knowledge fast-path applied to textbook Luther facts and to the four Bible-quotation-accuracy claims (043, 052, 128, 129 verified verbatim against KJV). Control sample of 3 needs_verification:false claims: GC-07-002, GC-07-040, GC-07-093 (each noted). Almost every attributed_quote traces to J.H. Merle D'Aubigne, History of the Reformation, White's own cited source per the 1911 Appendix refs 159-197; these are genuine Luther utterances as transmitted by the standard 19th-c. source, hence supported/medium unless the underlying episode is itself embellished (036/037) -> anachronistic. Tetzel polemical details (047, 050, 056) trace to D'Aubigne and are treated as anachronistic against modern scholarship.\n\nsearches: ~1; full defenses: 0, cheap audits: 5. All five scoped claims are 'anachronistic' (Read-only cheap audit). One search spent on the 036/037 Scala Sancta cluster (concrete lead: 16th-c. Paul Luther provenance). Result: 1 verdict downgraded (036 anachronistic -> disputed), 4 defense_failed (verdict stands). Verifier's Tetzel-cluster source audit (047/050/056) holds; anachronistic is the correct charitable classification for each. Two over-literalization catches recorded on 036 and 037 even where the discrepancy stands.",
+  "claims": [
+    {
+      "id": "GC-07-001",
+      "paragraph": 1,
+      "quote": "through him, God accomplished a great work for the reformation of the church and the enlightenment of the world.",
+      "claim_text": "Through Martin Luther, God accomplished a great work for the reformation of the church and the enlightenment of the world.",
+      "claim_type": "theological",
+      "entities": [
+        "Martin Luther",
+        "God"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim: God accomplished a great work through Luther. Divine agency is not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-002",
+      "paragraph": 1,
+      "quote": "Foremost among those who were called to lead the church from the darkness of popery into the light of a purer faith, stood Martin Luther.",
+      "claim_text": "Martin Luther stood foremost among those called to lead the church from the darkness of popery into the light of a purer faith.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "[control sample: extractor flagged needs_verification=false] Interpretive/theological framing ('called to lead the church from the darkness of popery'). The embedded factual kernel - that Luther stood foremost among the leaders of the Protestant Reformation - is textbook common knowledge and true; the evaluative framing itself is unverifiable. Extractor's flag defensible.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-003",
+      "paragraph": 2,
+      "quote": "Like the first heralds of the gospel, Luther sprung from the ranks of poverty. His early years were spent in the humble home of a German peasant.",
+      "claim_text": "Martin Luther was born into poverty and spent his early years in the humble home of a German peasant family.",
+      "claim_type": "biographical",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Luther was born into a family of humble peasant origin; his father Hans Luder rose from the peasantry into copper mining. Early years were modest.",
+        "modern_consensus": "Luther's paternal line was peasant stock; the family was of modest means in his childhood though the father later prospered.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-004",
+      "paragraph": 2,
+      "quote": "By daily toil as a miner, his father earned the means for his education.",
+      "claim_text": "Martin Luther's father earned the means for Luther's education by daily toil as a miner.",
+      "claim_type": "biographical",
+      "entities": [
+        "Martin Luther",
+        "Hans Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Hans Luther worked in copper mining/smelting and funded Martin's education. Confirmed by standard biography.",
+        "modern_consensus": "Hans Luther was a relatively successful miner and smelter who paid for his son's schooling.",
+        "sources": [
+          {
+            "title": "Martin Luther - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Martin_Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Father a successful miner and smelter."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-005",
+      "paragraph": 2,
+      "quote": "He intended him for a lawyer; but God purposed to make him a builder in the great temple that was rising so slowly through the centuries.",
+      "claim_text": "Martin Luther's father intended for his son to become a lawyer.",
+      "claim_type": "biographical",
+      "entities": [
+        "Martin Luther",
+        "Hans Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Hans Luther intended his son for a legal career; Martin began law studies at Erfurt before entering the monastery.",
+        "modern_consensus": "Standard biography: father wanted Martin to become a lawyer.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-006",
+      "paragraph": 2,
+      "quote": "but God purposed to make him a builder in the great temple that was rising so slowly through the centuries.",
+      "claim_text": "God purposed to make Martin Luther a builder in the great temple of the church rising through the centuries.",
+      "claim_type": "theological",
+      "entities": [
+        "Martin Luther",
+        "God"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about God's purpose for Luther. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-007",
+      "paragraph": 3,
+      "quote": "Luther's father was a man of strong and active mind and great force of character, honest, resolute, and straight-forward.",
+      "claim_text": "Martin Luther's father was a man of strong and active mind and great force of character, described as honest, resolute, and straightforward.",
+      "claim_type": "biographical",
+      "entities": [
+        "Hans Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Characterization of Hans Luther as strong-minded and resolute matches D'Aubigne and standard portraits; evaluative but consistent with the record.",
+        "sources": [
+          {
+            "title": "Martin Luther - Britannica",
+            "url": "https://www.britannica.com/biography/Martin-Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-008",
+      "paragraph": 3,
+      "quote": "His sterling good sense led him to regard the monastic system with distrust. He was highly displeased when Luther, without his consent, entered a monastery;",
+      "claim_text": "Martin Luther's father regarded the monastic system with distrust and was highly displeased when Luther entered a monastery without his consent.",
+      "claim_type": "biographical",
+      "entities": [
+        "Martin Luther",
+        "Hans Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Hans Luther distrusted monasticism and was furious/displeased when Martin entered the Augustinian monastery in 1505 without consent.",
+        "modern_consensus": "Father was furious at what he saw as a waste of the education he had funded.",
+        "sources": [
+          {
+            "title": "Faces of the Reformation: Luther's Parents",
+            "url": "https://trinityradioandvideo.org/meet-martin-luthers-parents/",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Father outraged/furious at monastery decision."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-009",
+      "paragraph": 3,
+      "quote": "and it was two years before the father was reconciled to his son, and even then his opinions remained the same.",
+      "claim_text": "It took two years before Martin Luther's father became reconciled to his son over the decision to enter a monastery, though the father's opinion of monasticism remained unchanged.",
+      "claim_type": "biographical",
+      "entities": [
+        "Martin Luther",
+        "Hans Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Reconciliation came roughly two years later, around Luther's ordination and first mass (1507), which his father attended; Hans still voiced reservations about the monastic choice.",
+        "modern_consensus": "Luther entered the monastery July 1505; reconciled with father by his first mass in 1507 (~2 years).",
+        "sources": [
+          {
+            "title": "Martin Luther's Life - Holy Trinity",
+            "url": "https://www.htelc.com/martin-luthers-life",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Father reconciled by 1507 first mass, ~2 years after 1505."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-010",
+      "paragraph": 4,
+      "quote": "Luther's parents bestowed great care upon the education and training of their children. They endeavored to instruct them in the knowledge of God and the practice of Christian virtues.",
+      "claim_text": "Martin Luther's parents bestowed great care upon the education and religious training of their children.",
+      "claim_type": "biographical",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Parents gave attention to religious upbringing; consistent with D'Aubigne and standard biography, though the household piety was strict.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-011",
+      "paragraph": 5,
+      "quote": "At school, where he was sent at an early age, Luther was treated with harshness and even violence.",
+      "claim_text": "Martin Luther was sent to school at an early age and was treated there with harshness and even violence.",
+      "claim_type": "biographical",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther recalled harsh corporal discipline at school (Mansfeld/Magdeburg); the 'harshness and even violence' matches his own recollections transmitted by D'Aubigne.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-012",
+      "paragraph": 5,
+      "quote": "So great was the poverty of his parents, that upon going from home to school in another town he was for a time obliged to obtain his food by singing from door to door, and he often suffered from hunger.",
+      "claim_text": "Due to his parents' poverty, when Martin Luther attended school in another town he was for a time obliged to obtain food by singing from door to door and often suffered from hunger.",
+      "claim_type": "biographical",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "As a schoolboy (Eisenach) Luther sang for bread door-to-door (a Kurrende chorister) and knew hunger; a well-attested biographical detail.",
+        "sources": [
+          {
+            "title": "Martin Luther - Britannica",
+            "url": "https://www.britannica.com/biography/Martin-Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-013",
+      "paragraph": 7,
+      "quote": "When, at the age of eighteen, he entered the University of Erfurt, his situation was more favorable and his prospects were brighter than in his earlier years.",
+      "claim_text": "Martin Luther entered the University of Erfurt at the age of eighteen.",
+      "claim_type": "date",
+      "entities": [
+        "Martin Luther",
+        "University of Erfurt"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther matriculated at the University of Erfurt in 1501; born Nov 1483 he was 17 turning 18 that year, so 'age eighteen' (from D'Aubigne) is off by at most a year - within period reckoning, not a substantive error.",
+        "modern_consensus": "Entered Erfurt in 1501 at age 17/18.",
+        "sources": [
+          {
+            "title": "Martin Luther - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Martin_Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "In 1501, at age 17, entered University of Erfurt."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-014",
+      "paragraph": 7,
+      "quote": "His parents having by thrift and industry acquired a competence, they were able to render him all needed assistance.",
+      "claim_text": "By the time Martin Luther entered university, his parents had, through thrift and industry, acquired sufficient means to give him financial assistance.",
+      "claim_type": "biographical",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "By Luther's university years the father had prospered enough to support him; consistent with the record of Hans Luther's rising mining fortunes.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-015",
+      "paragraph": 8,
+      "quote": "“To pray well,” he often said, “is the better half of study.”(159)",
+      "claim_text": "Martin Luther is quoted as often saying, \"To pray well is the better half of study.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Attributed maxim 'To pray well is the better half of study' traces to D'Aubigne (White's cited source); reflects a saying Luther is reported to have used at Erfurt.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "White's cited source for Erfurt-period sayings."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-016",
+      "paragraph": 9,
+      "quote": "While one day examining the books in the library of the university, Luther discovered a Latin Bible. Such a book he had never before seen. He was ignorant even of its existence.",
+      "claim_text": "While examining books in the University of Erfurt library, Martin Luther discovered a Latin Bible, having previously been unaware of the existence of a complete Bible.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "University of Erfurt"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The tradition that Luther found a complete Latin Bible in the Erfurt library and was struck by it is standard biography; the stronger claim that he was 'ignorant even of its existence' is the traditional embellishment (he encountered scripture in liturgy), so accepted with medium confidence.",
+        "modern_consensus": "Luther discovered a complete Latin Bible in the Erfurt library; the 'never before seen / unaware of existence' framing is the traditional gloss.",
+        "sources": [
+          {
+            "title": "Luther finds the Latin Bible in the University Library at Erfurt - Library of Congress",
+            "url": "https://www.loc.gov/item/2005688187/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-017",
+      "paragraph": 9,
+      "quote": "with quickened pulse and throbbing heart he read for himself the words of life, pausing now and then to exclaim, “O that God would give me such a book for myself!”(160)",
+      "claim_text": "Upon discovering the Latin Bible, Martin Luther is quoted as exclaiming, \"O that God would give me such a book for myself!\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Exclamation 'O that God would give me such a book for myself!' traces to D'Aubigne, White's cited source (ref 160).",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-018",
+      "paragraph": 9,
+      "quote": "Angels of heaven were by his side, and rays of light from the throne of God revealed the treasures of truth to his understanding.",
+      "claim_text": "Angels of heaven were beside Martin Luther and rays of light from God's throne revealed the treasures of truth to his understanding when he discovered the Bible.",
+      "claim_type": "theological",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim: angels beside Luther and rays from God's throne. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-019",
+      "paragraph": 10,
+      "quote": "An earnest desire to be free from sin and to find peace with God, led him at last to enter a cloister, and devote himself to a monastic life.",
+      "claim_text": "An earnest desire to be free from sin and find peace with God led Martin Luther to enter a cloister and devote himself to monastic life.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther entered the Augustinian cloister (1505) out of spiritual anxiety over sin and salvation; GC omits the famous thunderstorm vow but the underlying religious motive is well-attested.",
+        "modern_consensus": "Luther entered monastery in 1505 after a thunderstorm vow, driven by fear for his soul/desire for salvation.",
+        "sources": [
+          {
+            "title": "Martin Luther - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Martin_Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-020",
+      "paragraph": 10,
+      "quote": "Here he was required to perform the lowest drudgery, and to beg from house to house.",
+      "claim_text": "As a monk, Martin Luther was required to perform the lowest drudgery and to beg from house to house.",
+      "claim_type": "biographical",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "As a novice/friar Luther performed menial duties and mendicant begging; consistent with Augustinian practice as transmitted by D'Aubigne.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-021",
+      "paragraph": 11,
+      "quote": "He had found a Bible chained to the convent wall, and to this he often repaired.",
+      "claim_text": "Martin Luther found a Bible chained to the convent wall and often studied it there.",
+      "claim_type": "biographical",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The chained convent Bible to which Luther repaired is a detail from D'Aubigne (White's cited source); consistent with monastic library practice.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-022",
+      "paragraph": 11,
+      "quote": "He led a most rigorous life, endeavoring by fasting, vigils, and scourgings to subdue the evils of his nature, from which the monastic life had brought no release.",
+      "claim_text": "Martin Luther led a rigorous ascetic life as a monk, using fasting, vigils, and scourgings in an attempt to subdue his sinful nature.",
+      "claim_type": "biographical",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Luther's severe monastic asceticism - fasting, vigils, self-mortification seeking to subdue sin - is well-documented in his own later recollections.",
+        "modern_consensus": "Luther practiced extreme austerities as an Augustinian friar.",
+        "sources": [
+          {
+            "title": "Martin Luther - Britannica",
+            "url": "https://www.britannica.com/biography/Martin-Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-023",
+      "paragraph": 11,
+      "quote": "“I was indeed a pious monk,” he afterward said, “and followed the rules of my order more strictly than I can express. If ever monk could obtain heaven by his monkish works, I should certainly have been entitled to it.... If it had continued much longer, I should have carried my mortifications even to death.”(161)",
+      "claim_text": "Martin Luther is quoted as later saying he had been a pious monk who followed the rules of his order more strictly than he could express, and that had it continued much longer he would have carried his mortifications even to death.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Authentic Luther self-description ('I was indeed a pious monk...') as rendered by D'Aubigne (ref 161); reflects his repeated later statements about his monkish rigor.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-024",
+      "paragraph": 11,
+      "quote": "As the result of this painful discipline, he lost strength, and suffered from fainting spasms, from the effects of which he never fully recovered.",
+      "claim_text": "As a result of his ascetic monastic discipline, Martin Luther lost strength and suffered from fainting spasms from which he never fully recovered.",
+      "claim_type": "biographical",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's health suffered from his austerities, including fainting/weakness; consistent with biographical record.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-025",
+      "paragraph": 12,
+      "quote": "The pious Staupitz opened the word of God to Luther's mind, and bade him look away from himself, cease the contemplation of infinite punishment for the violation of God's law, and look to Jesus, his sin-pardoning Saviour.",
+      "claim_text": "Johann von Staupitz counseled Martin Luther to stop contemplating infinite punishment for sin and instead to look to Jesus Christ as his sin-pardoning Savior.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Johann von Staupitz"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Johann von Staupitz, Luther's Augustinian superior, counseled him to turn from morbid self-examination toward Christ's mercy - a central, well-documented pastoral relationship.",
+        "modern_consensus": "Staupitz directed Luther away from anxious works-piety toward trust in Christ.",
+        "sources": [
+          {
+            "title": "Martin Luther - Britannica",
+            "url": "https://www.britannica.com/biography/Martin-Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-026",
+      "paragraph": 12,
+      "quote": "“Instead of torturing yourself on account of your sins, throw yourself into the Redeemer's arms. Trust in Him, in the righteousness of His life, in the atonement of His death.... Listen to the Son of God. He became man to give you the assurance of divine favor,” “Love Him who first loved you.”(162)",
+      "claim_text": "Johann von Staupitz is quoted as telling Martin Luther to throw himself into the Redeemer's arms and trust in the righteousness of Christ's life and the atonement of His death, rather than torture himself over his sins.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Johann von Staupitz",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Staupitz's counsel quote ('throw yourself into the Redeemer's arms...') traces to D'Aubigne (ref 162) and faithfully conveys Staupitz's known pastoral message.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-027",
+      "paragraph": 13,
+      "quote": "Luther was ordained a priest, and was called from the cloister to a professorship in the University of Wittenberg.",
+      "claim_text": "Martin Luther was ordained a priest and was called from the cloister to a professorship at the University of Wittenberg.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "University of Wittenberg"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Luther was ordained priest (1507) and moved from the cloister to a professorship at the University of Wittenberg (1508, permanently 1511/12).",
+        "modern_consensus": "Ordained 1507; called to Wittenberg professorship.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-028",
+      "paragraph": 13,
+      "quote": "Here he applied himself to the study of the Scriptures in the original tongues. He began to lecture upon the Bible; and the book of Psalms, the Gospels, and the Epistles were opened to the understanding of crowds of delighted listeners.",
+      "claim_text": "At Wittenberg, Martin Luther studied Scripture in the original languages and began lecturing on the Bible, including the Psalms, the Gospels, and the Epistles, to large audiences.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "University of Wittenberg"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "At Wittenberg Luther lectured on the Psalms (1513-15), Romans (1515-16), Galatians and Hebrews, studying the biblical text closely; the 'original tongues' framing is broadly right though his Greek/Hebrew was still developing.",
+        "modern_consensus": "Luther lectured on Psalms, Romans, Galatians, Hebrews at Wittenberg.",
+        "sources": [
+          {
+            "title": "Martin Luther - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Martin_Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-029",
+      "paragraph": 13,
+      "quote": "Staupitz, his friend and superior, urged him to ascend the pulpit, and preach the word of God. Luther hesitated, feeling himself unworthy to speak to the people in Christ's stead. It was only after a long struggle that he yielded to the solicitations of his friends.",
+      "claim_text": "Johann von Staupitz urged Martin Luther to begin preaching, and Luther hesitated, feeling unworthy, before yielding after a long struggle.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Johann von Staupitz"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Staupitz pressed a reluctant Luther to preach and to take his doctorate; Luther's hesitation and sense of unworthiness are attested.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-030",
+      "paragraph": 14,
+      "quote": "In the providence of God he was led to visit Rome. He pursued his journey on foot, lodging at the monasteries on the way.",
+      "claim_text": "Martin Luther traveled to Rome on foot, lodging at monasteries along the way.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Rome"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Luther traveled on foot to Rome (1510-11) on Augustinian business, lodging in monasteries along the route.",
+        "modern_consensus": "Luther walked to Rome c.1510-1511, staying at monasteries.",
+        "sources": [
+          {
+            "title": "Martin Luther: His Trip to Rome (1510)",
+            "url": "https://worldlysaints.wordpress.com/2017/01/06/martin-luther-his-trip-to-rome-1510/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-031",
+      "paragraph": 14,
+      "quote": "At a convent in Italy he was filled with wonder at the wealth, magnificence, and luxury that he witnessed. Endowed with a princely revenue, the monks dwelt in splendid apartments, attired themselves in the richest and most costly robes, and feasted at a sumptuous table.",
+      "claim_text": "At a convent in Italy on his way to Rome, Martin Luther witnessed monks with a princely revenue living in splendid apartments, wearing costly robes, and feasting at sumptuous tables.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Italy"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's shock at the wealth and luxury of Italian monasteries is recorded in his later recollections; transmitted here via D'Aubigne.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-032",
+      "paragraph": 15,
+      "quote": "At last he beheld in the distance the seven-hilled city. With deep emotion he prostrated himself upon the earth, exclaiming, “Holy Rome, I salute thee!”(163)",
+      "claim_text": "On first seeing Rome in the distance, Martin Luther is said to have prostrated himself on the earth, exclaiming \"Holy Rome, I salute thee!\"",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Rome"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's greeting on first sighting Rome ('Salve, Sancta Roma!' / 'Holy Rome, I salute thee!') is a well-attested pilgrimage detail transmitted by D'Aubigne (ref 163).",
+        "modern_consensus": "Luther fell down and exclaimed 'Salve, Sancta Roma' on approaching Rome.",
+        "sources": [
+          {
+            "title": "Luther's Visit To Rome - Lineage Journey",
+            "url": "https://lineagejourney.com/timeline-details/event/luthers-visit-to-rome/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-033",
+      "paragraph": 15,
+      "quote": "He saw that iniquity existed among all classes of the clergy. He heard indecent jokes from prelates, and was filled with horror at their awful profanity, even during mass.",
+      "claim_text": "While in Rome, Martin Luther witnessed iniquity among all classes of the clergy, including indecent jokes and profanity from prelates during mass.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Rome"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's later reports of clerical irreverence and profanity during hurried masses in Rome are attested in his Table Talk and recollections.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-034",
+      "paragraph": 15,
+      "quote": "“No one can imagine,” he wrote, “what sins and infamous actions are committed in Rome; they must be seen and heard to be believed. Thus they are in the habit of saying, ‘If there is a hell, Rome is built over it: it is an abyss whence issues every kind of sin.’ ”(164)",
+      "claim_text": "Martin Luther is quoted as writing that no one could imagine the sins and infamous actions committed in Rome, and that people there said, \"If there is a hell, Rome is built over it.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther",
+        "Rome"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The 'If there is a hell, Rome is built over it' saying about Roman corruption traces to D'Aubigne (ref 164) and reflects Luther's later reported sentiments about Rome.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-035",
+      "paragraph": 16,
+      "quote": "By a recent decretal, an indulgence had been promised by the pope to all who should ascend upon their knees “Pilate's staircase,” said to have been descended by our Saviour on leaving the Roman judgment hall, and to have been miraculously conveyed from Jerusalem to Rome.",
+      "claim_text": "By a papal decretal, an indulgence was promised to all who ascended \"Pilate's Staircase\" (the Scala Sancta) on their knees, a staircase said to have been descended by Christ leaving the Roman judgment hall and miraculously conveyed from Jerusalem to Rome.",
+      "claim_type": "event",
+      "entities": [
+        "Pope",
+        "Rome",
+        "Scala Sancta"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "An indulgence was attached to climbing the Scala Sancta ('Pilate's staircase') on one's knees; the staircase was traditionally said to have been brought from Jerusalem by St. Helena.",
+        "modern_consensus": "The Scala Sancta near the Lateran carried an indulgence for ascent on the knees; tradition attributes its transfer from Jerusalem to St. Helena c.326.",
+        "sources": [
+          {
+            "title": "Scala Sancta - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Scala_Sancta",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-036",
+      "paragraph": 16,
+      "quote": "Luther was one day devoutly climbing these steps, when suddenly a voice like thunder seemed to say to him, “The just shall live by faith.”(165) He sprung to his feet, and hastened from the place in shame and horror.",
+      "claim_text": "While devoutly climbing the Scala Sancta on his knees in Rome, Martin Luther experienced what seemed to him a voice like thunder saying \"The just shall live by faith,\" causing him to rise and leave in shame and horror.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Rome"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "The dramatic scene - a 'voice like thunder' proclaiming 'The just shall live by faith' (Rom 1:17) mid-ascent, sending Luther fleeing - is D'Aubigne's embellishment. Luther's own account is more modest ('who knows whether it is true?'), and his justification-by-faith breakthrough (the 'tower experience') is dated years later, c.1518-19, not to the staircase. GC follows the period-Protestant dramatization.",
+        "modern_consensus": "Historians treat the Scala Sancta thunderclap conversion as legendary; the Rom 1:17 breakthrough came later.",
+        "period_historiography": "D'Aubigne (History of the Reformation, White's ref 165) narrates the dramatic staircase episode with the thunder-voice.",
+        "sources": [
+          {
+            "title": "Scala Sancta - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Scala_Sancta",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Luther's own recorded reaction was doubt ('who knows whether this is true'), not a thunderclap revelation."
+          },
+          {
+            "title": "Martin Luther - Britannica",
+            "url": "https://www.britannica.com/biography/Martin-Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Tower experience/justification breakthrough dated to Wittenberg years, not Rome."
+          }
+        ]
+      },
+      "defense": {
+        "result": "verdict_downgraded",
+        "argument": "The verifier calls the whole scene 'D'Aubigne's embellishment' and asserts GC dates Luther's justification breakthrough to the staircase. Both points overreach. (1) Provenance: the recollection of 'the just shall live by faith' coming to Luther on the Scala Sancta does not originate with D'Aubigne. It traces to a 16th-century family testimony, a letter by Luther's son Dr. Paul Luther (1533-1593) preserved in the Library of Rudolstadt. So this is not a 19th-century invention but a genuinely transmitted, if late and second-hand, tradition, and the scholarship shows 'different accounts' rather than a settled verdict of falsehood. (2) Over-literalization: GC's own wording is phenomenological and cautious, 'a voice like thunder SEEMED to say to him' (not an objective audible voice), and the extractor preserved this ('what seemed to him'). (3) GC does not actually locate the full breakthrough on the stairs. It says only 'That text never lost its power upon his soul' and 'From that time he saw MORE CLEARLY THAN EVER BEFORE' the fallacy of works, language of a seed and a gradual deepening that is fully compatible with the later Wittenberg tower-experience. The verifier's 'modern_consensus: GC dates the breakthrough to the stairs' misreads the text. What remains genuinely embellished is the theatrical staging (springing up, fleeing 'in shame and horror'), which is not in the sober record and belongs to Protestant dramatization. On balance the episode is contested, not cleanly 'wrong by modern standards': a real early source attests the core, historians divide on it, and GC's phrasing is careful. That fits 'disputed' better than 'anachronistic'.",
+        "revised_verdict": "disputed",
+        "new_sources": [
+          {
+            "title": "Lessons from Luther: The Just Shall Live by Faith",
+            "url": "https://gentlereformation.com/2025/10/31/lessons-from-luther-the-just-shall-live-by-faith/",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Position documenting the two rival accounts (Scala Sancta recollection vs. later Wittenberg breakthrough) and the on-the-stairs 'who knows if this is true' skepticism about the relic."
+          },
+          {
+            "title": "History of Martin Luther: Part 2 - Breakthrough (Bill Petro)",
+            "url": "https://billpetro.com/history-martin-luther-part-2/",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Notes the Scala Sancta recollection tradition traces to a letter of Dr. Paul Luther (1533-1593) preserved at the Library of Rudolstadt, i.e., a 16th-c. root predating D'Aubigne."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-037",
+      "paragraph": 16,
+      "quote": "His eyes had been opened, and were never again to be closed, to the delusions of the papacy. When he turned his face from Rome, he had turned away also in heart, and from that time the separation grew wider, until he severed all connection with the papal church.",
+      "claim_text": "Martin Luther's experience on the Scala Sancta in Rome marked the beginning of his growing inward separation from the papacy, which widened over time until he severed all connection with the Roman Catholic Church.",
+      "claim_type": "causal",
+      "entities": [
+        "Martin Luther",
+        "Roman Catholic Church"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "The retrospective claim that leaving Rome marked the inward beginning of Luther's break with the papacy dramatizes the staircase episode. Modern scholarship holds the Rome trip did not turn Luther against the papacy; his separation grew from the indulgence controversy (1517 on). Traces to D'Aubigne's narrative arc.",
+        "modern_consensus": "Luther's break with Rome originated in the 1517+ indulgence controversy, not disillusionment at Rome in 1510-11.",
+        "period_historiography": "D'Aubigne frames the Rome visit and staircase as the turning point of Luther's inward separation.",
+        "sources": [
+          {
+            "title": "Martin Luther - Britannica",
+            "url": "https://www.britannica.com/biography/Martin-Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Scala Sancta - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Scala_Sancta",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      },
+      "defense": {
+        "result": "defense_failed",
+        "argument": "Strongest steelman: GC's phrase 'His eyes had been opened ... to the delusions of the papacy' can be read narrowly as the moral corruption Luther genuinely witnessed in Rome, and that disillusionment IS well attested (claims 031, 033, 034 are all 'supported' - the luxury of Italian convents, clerical profanity during mass, the 'if there is a hell, Rome is built over it' report). To that extent the passage rests on real ground. It fails as a whole because GC does not stop at moral disgust: it welds that disgust to a DOCTRINAL and institutional break - 'he had turned away also in heart, and from that time the separation grew wider, until he severed all connection with the papal church.' Modern scholarship is firm, and Luther is explicit in his own recollections, that he returned from Rome (1510-11) still a devout and loyal Catholic and that his separation grew from the 1517 indulgence controversy, not from the Rome trip. This is D'Aubigne's teleological narrative arc reading the later break back into the earlier journey. Because the error traces faithfully to White's named source rather than being her own fabrication, 'anachronistic' is the correct and charitable classification, and the discrepancy stands."
+      }
+    },
+    {
+      "id": "GC-07-038",
+      "paragraph": 17,
+      "quote": "After his return from Rome, Luther received at the University of Wittenberg the degree of Doctor of Divinity.",
+      "claim_text": "After returning from Rome, Martin Luther received the degree of Doctor of Divinity from the University of Wittenberg.",
+      "claim_type": "date",
+      "entities": [
+        "Martin Luther",
+        "University of Wittenberg"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] After returning from Rome, Luther received the degree of Doctor of Theology (Divinity) at Wittenberg in 1512.",
+        "modern_consensus": "Luther made Doctor of Theology at Wittenberg, October 1512.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-039",
+      "paragraph": 17,
+      "quote": "He had taken a solemn vow to study carefully and to preach with fidelity the word of God, not the sayings and doctrines of the popes, all the days of his life.",
+      "claim_text": "Upon receiving his doctorate, Martin Luther took a solemn vow to study and preach the word of God rather than the sayings and doctrines of the popes for the rest of his life.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's doctoral oath bound him to teach the Scriptures faithfully; he later appealed to that oath as authorizing his stand on the Bible. The 'not the popes' gloss is D'Aubigne's framing but consistent with Luther's own retrospective use of the vow.",
+        "sources": [
+          {
+            "title": "Martin Luther - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Martin_Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-040",
+      "paragraph": 17,
+      "quote": "These words struck at the very foundation of papal supremacy. They contained the vital principle of the Reformation.",
+      "claim_text": "Luther's declaration that Christians should receive no doctrines but those resting on scriptural authority struck at the foundation of papal supremacy and contained the vital principle of the Reformation.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] [control sample: extractor flagged needs_verification=false] Although framed interpretively, the claim asserts a checkable historiographical proposition: the principle of scriptural authority (sola scriptura) was central to the Reformation and struck at papal supremacy. This is standard, uncontested Reformation historiography. Control note: the interpretive claim smuggles a supportable factual core.",
+        "modern_consensus": "Sola scriptura vs. papal/traditional authority is universally treated as the foundational principle of Luther's Reformation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-041",
+      "paragraph": 18,
+      "quote": "He fearlessly attacked the speculative infidelity of the schoolmen, and opposed the philosophy and theology which had so long held a controlling influence upon the people.",
+      "claim_text": "Martin Luther attacked the scholastic philosophers (\"the schoolmen\") and opposed the scholastic philosophy and theology that had long held influence over the people.",
+      "claim_type": "biographical",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Luther attacked scholastic philosophy/theology, notably in his 1517 Disputation Against Scholastic Theology, opposing Aristotle and the schoolmen.",
+        "modern_consensus": "Luther openly repudiated scholastic theology (Disputation Against Scholastic Theology, 1517).",
+        "sources": [
+          {
+            "title": "Martin Luther - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Martin_Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-042",
+      "paragraph": 19,
+      "quote": "At Wittenberg a light was kindled whose rays should extend to the uttermost parts of the earth, and which was to increase in brightness to the close of time.",
+      "claim_text": "A light was kindled at Wittenberg through Luther's preaching whose influence was to extend to the uttermost parts of the earth and increase to the close of time.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Martin Luther",
+        "Wittenberg"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/rhetorical claim (a metaphorical 'light' at Wittenberg extending to the ends of the earth and to the close of time). Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-043",
+      "paragraph": 20,
+      "quote": "Our Saviour Himself declared, “I came not to send peace, but a sword,”(166)",
+      "claim_text": "Jesus Christ is quoted in Scripture as declaring, \"I came not to send peace, but a sword.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quotation-accuracy check only. 'I came not to send peace, but a sword' is Matthew 10:34 (KJV), quoted verbatim.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-044",
+      "paragraph": 20,
+      "quote": "Said Luther, a few years after the opening of the Reformation: “God does not guide me, He pushes me forward, He carries me away. I am not master of myself. I desire to live in repose; but I am thrown into the midst of tumults and revolutions.”(167)",
+      "claim_text": "A few years after the opening of the Reformation, Martin Luther is quoted as saying, \"God does not guide me, He pushes me forward, He carries me away... I am thrown into the midst of tumults and revolutions.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Authentic Luther statement ('God does not guide me, He pushes me forward...') as transmitted by D'Aubigne (ref 167); a well-known Luther self-description.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-045",
+      "paragraph": 21,
+      "quote": "Under the plea of raising funds for the erection of St. Peter's church at Rome, indulgences for sin were publicly offered for sale by the authority of the pope.",
+      "claim_text": "Under the pretext of raising funds to build St. Peter's Basilica in Rome, indulgences for sin were publicly sold by authority of the pope.",
+      "claim_type": "event",
+      "entities": [
+        "Pope",
+        "St. Peter's Basilica",
+        "Rome"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Indulgences were sold under papal authority (Leo X) ostensibly to fund the rebuilding of St. Peter's Basilica.",
+        "modern_consensus": "The 1515 indulgence (preached by Tetzel) was tied to St. Peter's construction, authorized by Leo X.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-046",
+      "paragraph": 21,
+      "quote": "But the very means adopted for Rome's aggrandizement provoked the deadliest blow to her power and greatness. It was this that aroused the most determined and successful of the enemies of popery, and led to the battle which shook the papal throne, and jostled the triple crown upon the pontiff's head.",
+      "claim_text": "The sale of indulgences to fund St. Peter's Basilica provoked the opposition that most significantly shook papal power, by arousing the reform movement led by Martin Luther.",
+      "claim_type": "causal",
+      "entities": [
+        "Roman Catholic Church",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The St. Peter's indulgence campaign directly provoked Luther's Ninety-Five Theses and the Reformation - a standard causal account.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-047",
+      "paragraph": 22,
+      "quote": "The official appointed to conduct the sale of indulgences in Germany—Tetzel by name—had been convicted of the basest offenses against society and against the law of God; but having escaped the punishment due to his crimes, he was employed to further the mercenary and unscrupulous projects of the pope.",
+      "claim_text": "Johann Tetzel, the official appointed to sell indulgences in Germany, had previously been convicted of grave offenses but escaped the punishment due to his crimes before being employed to sell indulgences for the pope.",
+      "claim_type": "biographical",
+      "entities": [
+        "Johann Tetzel",
+        "Pope"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "The claim that Tetzel had been convicted of grave offenses and escaped punishment is the Innsbruck adultery legend (a purported sentence of drowning/imprisonment for adultery, remitted by intercession). Even the 1911 Britannica hedges with 'is said to have been'; modern scholarship treats it as unverified Protestant polemic. Traces to D'Aubigne/Wylie.",
+        "modern_consensus": "The Innsbruck-adultery story is uncertain and likely polemical; scholars use qualified language.",
+        "period_historiography": "D'Aubigne and Wylie report Tetzel's prior conviction as fact; 1911 Britannica repeats it hedged.",
+        "sources": [
+          {
+            "title": "1911 Encyclopaedia Britannica/Tetzel, Johann - Wikisource",
+            "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Tetzel,_Johann",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "'Is said to have been condemned' - qualified/uncertain."
+          },
+          {
+            "title": "The Facts About Johann Tetzel (survey of scholarship)",
+            "url": "https://beggarsallreformation.blogspot.com/2020/04/the-facts-about-johann-tetzel.html",
+            "source_class": "apologetic",
+            "supports_verdict": true,
+            "note": "Position; catalogues the legendary status of the adultery story."
+          }
+        ]
+      },
+      "defense": {
+        "result": "defense_failed",
+        "argument": "Steelman: GC's language ('convicted of the basest offenses ... having escaped the punishment due to his crimes') is vague, and Tetzel was in fact a controversial and much-accused figure, so a defender could argue a kernel survives. The verifier's own source audit, however, is sound and cuts the other way: the specific charge is the Innsbruck adultery legend (condemnation to death by drowning, remitted by a prince's intercession), which modern scholarship, following Nikolaus Paulus, treats as unverified Protestant polemic. Crucially the anachronistic label is the RIGHT one, not an under-count: even the 1911 Encyclopaedia Britannica repeated the story only in hedged form ('is said to have been condemned'), which shows White was following period-standard scholarship (D'Aubigne / Wylie), not inventing. So the claim is period-typical rather than fabricated. The discrepancy against modern historiography nonetheless stands, and anachronistic holds."
+      }
+    },
+    {
+      "id": "GC-07-048",
+      "paragraph": 22,
+      "quote": "With great effrontery he repeated the most glaring falsehoods, and related marvelous tales to deceive an ignorant, credulous, and superstitious people.",
+      "claim_text": "Johann Tetzel repeated glaring falsehoods and told marvelous tales to deceive the people in his sale of indulgences.",
+      "claim_type": "event",
+      "entities": [
+        "Johann Tetzel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Tetzel's indulgence preaching was extravagant and included exaggerated claims; the polemical framing ('glaring falsehoods, marvelous tales') is from D'Aubigne but the substance of hyperbolic preaching is attested.",
+        "sources": [
+          {
+            "title": "Myths & Facts Re: Tetzel & Indulgences",
+            "url": "https://www.patheos.com/blogs/davearmstrong/2017/03/myths-facts-re-tetzel-indulgences.html",
+            "source_class": "apologetic",
+            "supports_verdict": true,
+            "note": "Position; even critics of the legends concede extravagant preaching."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-049",
+      "paragraph": 23,
+      "quote": "As Tetzel entered a town, a messenger went before him, announcing, “The grace of God and of the holy father is at your gates.”(170)",
+      "claim_text": "As Johann Tetzel entered a town, a messenger preceded him announcing, \"The grace of God and of the holy father is at your gates.\"",
+      "claim_type": "event",
+      "entities": [
+        "Johann Tetzel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The ceremonial announcement preceding Tetzel's entry into a town ('The grace of God and of the holy father is at your gates') traces to D'Aubigne (ref 170) and matches the pageantry of the indulgence campaign.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-050",
+      "paragraph": 23,
+      "quote": "He declared that by virtue of his certificates of pardon, all the sins which the purchaser should afterward desire to commit would be forgiven him, and that “not even repentance is necessary.”(171)",
+      "claim_text": "Johann Tetzel declared that his certificates of pardon would forgive all sins the purchaser might desire to commit in the future, and that \"not even repentance is necessary.\"",
+      "claim_type": "event",
+      "entities": [
+        "Johann Tetzel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "The claim that Tetzel's certificates forgave future sins and that 'not even repentance is necessary' is polemical exaggeration. Catholic indulgence doctrine required contrition/confession; forgiveness of future sins was never Church teaching. GC follows D'Aubigne's polemical rendering (ref 171).",
+        "modern_consensus": "Indulgences remitted temporal penalty for already-confessed sin, not future sin, and did not dispense with repentance; the contrary claim is polemical.",
+        "period_historiography": "D'Aubigne attributes the 'future sins / no repentance needed' claims to Tetzel.",
+        "sources": [
+          {
+            "title": "Questions & Answers Concerning Indulgences - Famous Trials",
+            "url": "https://famous-trials.com/luther/295-indulgences",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Indulgences presuppose contrition/confession; do not license future sin."
+          },
+          {
+            "title": "Myths & Facts Re: Tetzel & Indulgences",
+            "url": "https://www.patheos.com/blogs/davearmstrong/2017/03/myths-facts-re-tetzel-indulgences.html",
+            "source_class": "apologetic",
+            "supports_verdict": true,
+            "note": "Position; catalogues the 'future sins' claim as a polemical distortion."
+          }
+        ]
+      },
+      "defense": {
+        "result": "defense_failed",
+        "argument": "Strongest steelman: there is a genuine documentary anchor beneath the polemic. Indulgence letters of the period, especially the confessional letters (litterae confessionales), were popularly marketed with the formula 'a poena et culpa' ('from penalty and guilt'), which ordinary hearers, and reformers, reasonably read as remitting sin itself and softening the contrition requirement; and the extravagance of the actual preaching is attested (claim 048 and the coffer-teaching of 051 are both 'supported'). So GC's charge is a sharpening of something real, not pure invention. It still fails as stated: official Catholic indulgence theology always required contrition and confession, and remission of FUTURE sins ('all the sins which the purchaser should afterward desire to commit') plus 'not even repentance is necessary' was never Church doctrine and is not credibly documented as Tetzel's actual formula - it is D'Aubigne's polemical rendering (ref 171). Because it traces to White's named source and represents period-standard Protestant reporting, anachronistic is correct and the discrepancy stands."
+      }
+    },
+    {
+      "id": "GC-07-051",
+      "paragraph": 23,
+      "quote": "More than this, he assured his hearers that the indulgences had power to save not only the living but the dead; that the very moment the money should clink against the bottom of his chest, the soul in whose behalf it had been paid would escape from purgatory and make its way to heaven.(172)",
+      "claim_text": "Johann Tetzel taught that his indulgences could save the dead, and that a soul would escape purgatory for heaven the instant a payment made on its behalf struck the bottom of his money chest.",
+      "claim_type": "event",
+      "entities": [
+        "Johann Tetzel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The 'coin in the coffer / soul springs from purgatory' teaching cannot be traced verbatim to Tetzel's extant sermons (the jingle predates him, Univ. of Paris complaint 1482), but Martin Brecht and others hold he taught this in substance - that an indulgence for the dead was infallibly applied on payment. GC's paraphrase captures the substance he preached.",
+        "modern_consensus": "The exact jingle is not provably Tetzel's, but he taught the underlying idea of immediate release of a soul from purgatory upon payment.",
+        "sources": [
+          {
+            "title": "Martin Brecht: Tetzel and the coffer saying (scholarship survey)",
+            "url": "https://beggarsallreformation.blogspot.com/2014/09/martin-brecht-tetzel-did-not-say-as.html",
+            "source_class": "apologetic",
+            "supports_verdict": true,
+            "note": "Position; cites Brecht that Tetzel taught the substance though the exact jingle is not his."
+          },
+          {
+            "title": "Questions & Answers Concerning Indulgences - Famous Trials",
+            "url": "https://famous-trials.com/luther/295-indulgences",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-052",
+      "paragraph": 24,
+      "quote": "When Simon Magus offered to purchase of the apostles the power to work miracles, Peter answered him, “Thy money perish with thee, because thou hast thought that the gift of God may be purchased with money.”(173)",
+      "claim_text": "The apostle Peter is recorded in Scripture as answering Simon Magus, who had offered to buy the power to work miracles, \"Thy money perish with thee, because thou hast thought that the gift of God may be purchased with money.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Apostle Peter",
+        "Simon Magus"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quotation-accuracy check only. 'Thy money perish with thee, because thou hast thought that the gift of God may be purchased with money' is Acts 8:20 (KJV), quoted verbatim; the Simon Magus context is correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-053",
+      "paragraph": 24,
+      "quote": "But Tetzel's offer was grasped by eager thousands. Gold and silver flowed into his treasury.",
+      "claim_text": "Johann Tetzel's indulgences were purchased by eager thousands, and gold and silver flowed into his treasury.",
+      "claim_type": "statistic",
+      "entities": [
+        "Johann Tetzel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The indulgence campaign was lucrative and widely purchased; 'eager thousands' and revenue flowing in is consistent with the documented success of the sales.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-054",
+      "paragraph": 25,
+      "quote": "The doctrine of indulgences had been opposed by men of learning and piety in the Roman Church, and there were many who had no faith in pretensions so contrary to both reason and revelation. No prelate dared lift his voice against this iniquitous traffic;",
+      "claim_text": "The doctrine of indulgences had been opposed by some learned and pious men within the Roman Catholic Church, though no prelate publicly spoke out against the practice.",
+      "claim_type": "event",
+      "entities": [
+        "Roman Catholic Church"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Some learned Catholics privately doubted indulgence claims, yet no prelate openly opposed the traffic before Luther; broadly consistent with the historical situation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-055",
+      "paragraph": 26,
+      "quote": "Many of his own congregation had purchased certificates of pardon, and they soon began to come to their pastor, confessing their various sins, and expecting absolution, not because they were penitent and wished to reform, but on the ground of the indulgence. Luther refused them absolution, and warned them that unless they should repent and reform their lives, they must perish in their sins.",
+      "claim_text": "Members of Martin Luther's own congregation who had purchased indulgence certificates came to him expecting absolution without repentance, but Luther refused to absolve them and warned they must repent and reform or perish in their sins.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Parishioners at Wittenberg who had bought Tetzel's letters came to Luther expecting absolution; his refusal and insistence on true repentance is a documented spark of the controversy.",
+        "modern_consensus": "Luther's pastoral encounter with indulgence-holders in his parish helped prompt the Ninety-Five Theses.",
+        "sources": [
+          {
+            "title": "Martin Luther - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Martin_Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-056",
+      "paragraph": 26,
+      "quote": "The friar was filled with rage. He uttered the most terrible curses, caused fires to be lighted in the public squares, and declared that he “had received an order from the pope to burn all heretics who presumed to oppose his most holy indulgences.”(175)",
+      "claim_text": "After being confronted about refunds, Johann Tetzel reacted with rage, had fires lit in public squares, and declared he had received an order from the pope to burn all heretics who opposed his indulgences.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Johann Tetzel",
+        "Pope"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "The vivid detail of Tetzel enraged, lighting fires in public squares, and quoting 'an order from the pope to burn all heretics' traces to D'Aubigne (ref 175). Tetzel did respond angrily and issued counter-theses (later burned by students), but the specific 'burn heretics' quote and public bonfires are period-polemical dramatization, not independently documented.",
+        "period_historiography": "D'Aubigne narrates Tetzel's rage and the 'burn heretics' threat.",
+        "sources": [
+          {
+            "title": "1911 Encyclopaedia Britannica/Tetzel, Johann - Wikisource",
+            "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Tetzel,_Johann",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Documents Tetzel's counter-attack on Luther without the bonfire/burn-heretics theatrics."
+          },
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Source of the dramatized detail."
+          }
+        ]
+      },
+      "defense": {
+        "result": "defense_failed",
+        "argument": "Strongest steelman, and it is a real one: Tetzel actually held an inquisitorial commission (inquisitor of heretical pravity), so a threat to 'burn heretics' echoes an office he genuinely occupied rather than being invented out of nothing; and public burnings did occur in the Tetzel-Luther conflict (Tetzel had Luther's theses burned; Wittenberg students later burned Tetzel's counter-theses in 1518), giving 'caused fires to be lighted in the public squares' a factual correlate. These anchors lower the severity of the item well below fabrication. The claim still fails as a precise historical report: the verbatim quotation 'an order from the pope to burn all heretics who presumed to oppose his most holy indulgences' and the specific bonfire-in-rage scene are not independently documented and trace to D'Aubigne (ref 175); even the 1911 Britannica records Tetzel's counter-attack without the theatrics. Faithful to White's named source, wrong by modern standards - anachronistic stands."
+      }
+    },
+    {
+      "id": "GC-07-057",
+      "paragraph": 27,
+      "quote": "He related his own painful experience in vainly seeking by humiliation and penance to secure salvation, and assured his hearers that it was by looking away from himself and believing in Christ that he found peace and joy.",
+      "claim_text": "Martin Luther related to his congregation his own painful experience of vainly seeking salvation through humiliation and penance, and told them he found peace by believing in Christ instead.",
+      "claim_type": "biographical",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther preached from his own experience of failed works-righteousness and peace found in Christ; consistent with his documented preaching and self-testimony.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-058",
+      "paragraph": 28,
+      "quote": "The castle church of Wittenberg possessed many relics, which on certain holy days were exhibited to the people, and full remission of sins was granted to all who then visited the church and made confession.",
+      "claim_text": "The Castle Church of Wittenberg possessed many relics that were exhibited to the public on certain holy days, with full remission of sins granted to those who visited and made confession.",
+      "claim_type": "event",
+      "entities": [
+        "Castle Church of Wittenberg"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Castle Church of Wittenberg (All Saints') held Frederick the Wise's large relic collection, displayed on holy days with attached indulgences/remission for viewing.",
+        "modern_consensus": "Frederick's relic collection at the Castle Church carried indulgences shown on All Saints' Day.",
+        "sources": [
+          {
+            "title": "Martin Luther - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Martin_Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-059",
+      "paragraph": 28,
+      "quote": "On the preceding day, Luther, joining the crowds that were already making their way to the church, posted on its door a paper containing ninety-five propositions against the doctrine of indulgences. He declared his willingness to defend these theses next day at the university, against all who should see fit to attack them.",
+      "claim_text": "On the eve of the festival of All Saints, Martin Luther posted on the door of the Castle Church at Wittenberg a paper containing ninety-five propositions (theses) against the doctrine of indulgences and declared his willingness to defend them the next day at the university.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Castle Church of Wittenberg"
+      ],
+      "needs_verification": true,
+      "extractor_note": "The chapter text does not state the year; this event is traditionally dated 31 October 1517. Included here as the well-known historical event referenced by the text's description of 'the preceding day' before the All Saints festival.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther presented the Ninety-Five Theses against indulgences on the eve/day of All Saints (31 Oct 1517), traditionally by posting on the Castle Church door and offering academic disputation. His letter to Archbishop Albert that day is certain; the physical door-posting is the traditional account questioned by some scholars (Iserloh) but still mainstream. Extractor correctly notes the year is supplied as context.",
+        "modern_consensus": "31 Oct 1517 is the accepted date; the door-posting is traditional and debated (Iserloh thesis) but broadly accepted; the mailing to Albert is documented.",
+        "sources": [
+          {
+            "title": "Ninety-five Theses - Britannica",
+            "url": "https://www.britannica.com/event/Ninety-five-Theses",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "1517 Luther Posts the 95 Theses - Christian History Institute",
+            "url": "https://christianhistoryinstitute.org/magazine/article/luther-posts-theses",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-060",
+      "paragraph": 29,
+      "quote": "By these theses it was shown that the power to grant the pardon of sin, and to remit its penalty, had never been committed to the pope or to any other man.",
+      "claim_text": "Martin Luther's Ninety-Five Theses argued that the power to grant pardon of sin and remit its penalty had never been committed to the pope or to any other man.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Pope"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The Theses argued that the pope could only declare/remit penalties he himself or canon law imposed and had no power over divine guilt or purgatorial penalty (theses 5-6, 20-21); GC's summary is broadly accurate though compressed.",
+        "modern_consensus": "The Theses limited papal power over the remission of penalty and denied papal power over guilt.",
+        "sources": [
+          {
+            "title": "Ninety-five Theses - Britannica",
+            "url": "https://www.britannica.com/event/Ninety-five-Theses",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-061",
+      "paragraph": 30,
+      "quote": "The questions which he proposed had in a few days spread through all Germany, and in a few weeks they had sounded throughout Christendom.",
+      "claim_text": "Martin Luther's Ninety-Five Theses spread through all Germany within a few days and throughout Christendom within a few weeks of being posted.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Aided by printing, the Theses spread across Germany within about two weeks and across Europe within roughly a month/two months; GC's 'few days'/'few weeks' is a slight compression but substantively correct.",
+        "modern_consensus": "Copies spread through Germany in ~2 weeks and through Europe within a month or two.",
+        "sources": [
+          {
+            "title": "Ninety-five Theses - Britannica",
+            "url": "https://www.britannica.com/event/Ninety-five-Theses",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "The Reformation in Germany: Luther and the Printing Press",
+            "url": "https://www.deutschlandmuseum.de/en/history/the-reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-062",
+      "paragraph": 31,
+      "quote": "“Who does not know,” he responded, “that a man rarely puts forth any new idea without having some appearance of pride, and without being accused of exciting quarrels?... Why were Christ and all the martyrs put to death? Because they seemed to be proud contemners of the wisdom of the time, and because they advanced novelties without having first humbly taken counsel of the oracles of the ancient opinions.”",
+      "claim_text": "In response to accusations of acting from pride, Martin Luther is quoted as saying that a man rarely puts forth a new idea without being accused of pride and exciting quarrels, citing Christ and the martyrs as examples of those put to death for advancing novelties.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's response to charges of pride ('a man rarely puts forth any new idea without... being accused of exciting quarrels... Christ and all the martyrs') traces to D'Aubigne (White's source cluster, ref 176 region) and reflects Luther's documented rhetoric.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-063",
+      "paragraph": 32,
+      "quote": "“Whatever I do will be done, not by the prudence of men, but by the counsel of God. If the work be of God, who shall stop it? if it be not, who can forward it? Not my will, nor theirs, nor ours; but Thy will, O holy Father, which art in heaven.”(176)",
+      "claim_text": "Martin Luther is quoted as declaring that whatever he did would be done by the counsel of God, not the prudence of men, and that if the work was of God no one could stop it.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "'If the work be of God, who shall stop it?...Thy will, O holy Father' traces to D'Aubigne (ref 176); an authentic expression of Luther's providentialism echoing his letters.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-064",
+      "paragraph": 33,
+      "quote": "Many dignitaries, of both church and state, were convicted of the truthfulness of his theses; but they soon saw that the acceptance of these truths would involve great changes.... For this reason they refused the knowledge tendered them of God, and arrayed themselves against Christ and the truth by their opposition to the man whom He had sent to enlighten them.",
+      "claim_text": "Many church and state dignitaries were convinced of the truthfulness of Luther's theses but rejected them because accepting them would require great changes, including reducing the revenue and authority flowing to Rome.",
+      "claim_type": "causal",
+      "entities": [
+        "Martin Luther",
+        "Roman Catholic Church"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Interpretive-causal claim that many church/state figures recognized the theses' truth but resisted because reform threatened revenue/authority; a defensible characterization of the reaction, consistent with the financial stakes of the indulgence trade.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-065",
+      "paragraph": 34,
+      "quote": "“Who was I,” he writes, “to oppose the majesty of the pope, before whom ... the kings of the earth and the whole world trembled? ... No one can know what my heart suffered during these first two years, and into what despondency, I may say into what despair, I was sunk.”(177)",
+      "claim_text": "Martin Luther is quoted as writing that he asked himself who he was to oppose the pope's majesty, and that no one could know what his heart suffered during the first two years of the controversy, describing it as despondency and despair.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther",
+        "Pope"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's retrospective ('Who was I to oppose the majesty of the pope... what my heart suffered during these first two years... despair') echoes his 1545 autobiographical preface; transmitted here via D'Aubigne (ref 177).",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-066",
+      "paragraph": 35,
+      "quote": "“We cannot attain to the understanding of Scripture either by study or by the intellect. Your first duty is to begin by prayer. Entreat the Lord to grant you, of His great mercy, the true understanding of His word.... Believe this on the word of a man who has had experience.”(178)",
+      "claim_text": "In a letter to a friend of the Reformation, Martin Luther is quoted as writing that understanding of Scripture cannot be attained by study or intellect alone, and that one's first duty is to begin with prayer.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's counsel that Scripture is grasped through prayer, not intellect alone, traces to D'Aubigne (ref 178) and matches his known theology of Scripture (oratio, meditatio, tentatio).",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-067",
+      "paragraph": 36,
+      "quote": "“He is a heretic,” cried the Roman zealots. “It is high treason against the church to allow so horrible a heretic to live one hour longer. Let the scaffold be instantly erected for him!”(179)",
+      "claim_text": "Roman zealots are quoted as calling Martin Luther a heretic and demanding a scaffold be erected for him at once, calling it high treason to allow him to live.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The cry of Roman zealots calling Luther a heretic deserving the scaffold traces to D'Aubigne (ref 179); representative of the hostile reaction, though a composite attributed exclamation rather than a single documented speaker.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-068",
+      "paragraph": 36,
+      "quote": "But Luther did not fall a prey to their fury. God had a work for him to do, and angels of heaven were sent to protect him.",
+      "claim_text": "God had a work for Martin Luther to do, and angels of heaven were sent to protect him from those who sought his death.",
+      "claim_type": "theological",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim: angels sent to protect Luther. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-069",
+      "paragraph": 36,
+      "quote": "Many, however, who had received from Luther the precious light, were made the objects of Satan's wrath, and for the truth's sake fearlessly suffered torture and death.",
+      "claim_text": "Some who accepted Martin Luther's teachings suffered torture and death for their faith.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Early adherents of the Reformation did suffer persecution and martyrdom (e.g., the first Lutheran martyrs at Brussels, 1523); the statement is generally true though placed early in the narrative.",
+        "sources": [
+          {
+            "title": "Reformation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Reformation",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-070",
+      "paragraph": 37,
+      "quote": "Luther's teachings attracted the attention of thoughtful minds throughout all Germany. From his sermons and writings issued beams of light which awakened and illuminated thousands.",
+      "claim_text": "Martin Luther's sermons and writings attracted the attention of thoughtful minds throughout Germany and awakened thousands.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Luther's sermons and writings drew wide attention across Germany and awakened many; well-documented by the rapid growth of his following.",
+        "sources": [
+          {
+            "title": "Martin Luther - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Martin_Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-071",
+      "paragraph": 38,
+      "quote": "This wide-spread interest aroused still further the fears of the papal authorities. Luther received a summons to appear at Rome, to answer to the charge of heresy.",
+      "claim_text": "Martin Luther received a summons to appear at Rome to answer the charge of heresy.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Rome"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Luther was cited to appear at Rome in 1518 on a charge of heresy; the citation was subsequently commuted to a hearing in Germany.",
+        "modern_consensus": "Luther received a summons to Rome (1518), later changed to an examination before Cajetan at Augsburg.",
+        "sources": [
+          {
+            "title": "Luther and Cajetan (Schaff, History of the Christian Church vol. VII)",
+            "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.vi.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-072",
+      "paragraph": 38,
+      "quote": "They protested against his going to Rome, and requested that he receive his examination in Germany.",
+      "claim_text": "Martin Luther's friends protested against him going to Rome and requested that his examination take place in Germany instead.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Luther's protectors (notably Frederick the Wise and the university) secured that his examination be held in Germany rather than Rome.",
+        "sources": [
+          {
+            "title": "Luther and Cajetan (Schaff)",
+            "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.vi.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-073",
+      "paragraph": 39,
+      "quote": "This arrangement was finally effected, and the pope's legate was appointed to hear the case. In the instructions communicated by the pontiff to this official, it was stated that Luther had already been declared a heretic.",
+      "claim_text": "The pope arranged for Martin Luther's case to be heard by a papal legate in Germany, and the pope's instructions to the legate stated that Luther had already been declared a heretic.",
+      "claim_type": "event",
+      "entities": [
+        "Pope",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The pope appointed Cardinal Cajetan as legate to hear the case; the papal instructions/brief treated Luther as already a notorious suspect of heresy.",
+        "modern_consensus": "Cajetan's instructions presumed Luther's guilt and required recantation.",
+        "sources": [
+          {
+            "title": "Luther and Cajetan (Schaff)",
+            "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.vi.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-074",
+      "paragraph": 39,
+      "quote": "The legate was therefore charged “to prosecute and constrain without any delay.” If he should remain steadfast, and the legate should fail to gain possession of his person, he was empowered “to proscribe him in every part of Germany; to banish, curse, and excommunicate all those who are attached to him.”(180)",
+      "claim_text": "The pope's instructions charged his legate \"to prosecute and constrain without any delay\" and, if unable to seize Luther, \"to proscribe him in every part of Germany; to banish, curse, and excommunicate all those who are attached to him.\"",
+      "claim_type": "event",
+      "entities": [
+        "Pope",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The severe language of the papal briefs to Cajetan (prosecute/constrain without delay; proscribe, banish, curse, excommunicate his adherents) is quoted here via D'Aubigne (ref 180) and reflects the harsh papal instructions of Aug 1518.",
+        "sources": [
+          {
+            "title": "Luther and Cajetan (Schaff)",
+            "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.vi.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          },
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-075",
+      "paragraph": 39,
+      "quote": "And further, the pope directed his legate, in order entirely to root out the pestilent heresy, to excommunicate all, of whatever dignity in church or state, except the emperor, who should neglect to seize Luther and his adherents, and deliver them up to the vengeance of Rome.",
+      "claim_text": "The pope directed his legate to excommunicate anyone, of whatever rank in church or state except the emperor, who failed to seize Martin Luther and his followers and deliver them to Rome.",
+      "claim_type": "event",
+      "entities": [
+        "Pope",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The papal instructions directed excommunication of any who failed to seize Luther and his adherents, sparing the emperor; consistent with the sweeping terms of the 1518 briefs.",
+        "sources": [
+          {
+            "title": "Luther and Cajetan (Schaff)",
+            "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.vi.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-076",
+      "paragraph": 40,
+      "quote": "Here is displayed the true spirit of popery. Not a trace of Christian principle, or even of common justice, is to be seen in the whole document.",
+      "claim_text": "The pope's instructions regarding Luther's case display the true spirit of popery, containing not a trace of Christian principle or common justice.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Roman Catholic Church"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/polemical evaluation ('the true spirit of popery... not a trace of Christian principle'). A value judgment, not an empirically checkable proposition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-077",
+      "paragraph": 40,
+      "quote": "Luther was at a great distance from Rome; he had had no opportunity to explain or defend his position; yet before his case had been investigated, he was summarily pronounced a heretic, and in the same day, exhorted, accused, judged, and condemned; and all this by the self-styled holy father, the only supreme, infallible authority in church or state!",
+      "claim_text": "Before Martin Luther's case had been investigated and without opportunity for him to explain or defend his position, the pope pronounced him a heretic and, within the same document, exhorted, accused, judged, and condemned him.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Pope"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The factual core - that the papal instructions pronounced Luther a heretic before any hearing, with no chance to defend himself - is consistent with Cajetan's brief presuming guilt. The rhetorical amplification is interpretive.",
+        "sources": [
+          {
+            "title": "Luther and Cajetan (Schaff)",
+            "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.vi.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-078",
+      "paragraph": 41,
+      "quote": "At this time, when Luther so much needed the sympathy and counsel of a true friend, God's providence sent Melanchthon to Wittenberg. Young in years, modest and diffident in his manners, Melanchthon's sound judgment, extensive knowledge, and winning eloquence, combined with the purity and uprightness of his character, won universal admiration and esteem.",
+      "claim_text": "Philip Melanchthon came to Wittenberg at a time when Martin Luther needed a friend's support, and Melanchthon's sound judgment, extensive knowledge, and character won universal admiration.",
+      "claim_type": "biographical",
+      "entities": [
+        "Philip Melanchthon",
+        "Martin Luther",
+        "Wittenberg"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Philip Melanchthon arrived at Wittenberg in 1518 (as professor of Greek) and quickly won admiration; he became Luther's close collaborator.",
+        "modern_consensus": "Melanchthon came to Wittenberg in 1518 and became Luther's leading ally.",
+        "sources": [
+          {
+            "title": "Martin Luther - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Martin_Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-079",
+      "paragraph": 41,
+      "quote": "He soon became an earnest disciple of the gospel, and Luther's most trusted friend and valued supporter; his gentleness, caution, and exactness serving as a complement to Luther's courage and energy. Their union in the work added strength to the Reformation, and was a source of great encouragement to Luther.",
+      "claim_text": "Philip Melanchthon became Martin Luther's most trusted friend and supporter, with Melanchthon's gentleness and caution complementing Luther's courage and energy in the Reformation work.",
+      "claim_type": "biographical",
+      "entities": [
+        "Philip Melanchthon",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Melanchthon became Luther's most trusted colleague, his systematic caution complementing Luther's boldness - a standard characterization of the Wittenberg partnership.",
+        "sources": [
+          {
+            "title": "Martin Luther - Britannica",
+            "url": "https://www.britannica.com/biography/Martin-Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-080",
+      "paragraph": 42,
+      "quote": "Augsburg had been fixed upon as the place of trial, and the Reformer set out on foot to perform the journey thither. Serious fears were entertained in his behalf. Threats had been made openly that he would be seized and murdered on the way, and his friends begged him not to venture.",
+      "claim_text": "Augsburg was fixed as the place of Martin Luther's trial, and Luther traveled there on foot despite open threats that he would be seized and murdered along the way.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Augsburg"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Augsburg was the appointed place of Luther's examination before Cajetan (Oct 1518); Luther traveled there (partly on foot) amid fears for his safety.",
+        "modern_consensus": "Luther went to Augsburg to meet Cajetan in October 1518.",
+        "sources": [
+          {
+            "title": "Luther and Cajetan (Schaff)",
+            "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.vi.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-081",
+      "paragraph": 42,
+      "quote": "“I am like Jeremiah, a man of strife and contention; but the more their threats increase, the more my joy is multiplied.... They have already destroyed my honor and my reputation. One single thing remains; it is my wretched body: let them take it; they will thus shorten my life by a few hours. But as for my soul, they cannot take that. He who desires to proclaim the word of Christ to the world, must expect death at every moment.”(181)",
+      "claim_text": "Martin Luther is quoted as comparing himself to Jeremiah and saying that his enemies had already destroyed his honor and reputation, and that only his body remained for them to take.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's 'I am like Jeremiah, a man of strife...let them take my body...' traces to D'Aubigne (ref 181) and reflects his documented resolve on the eve of Augsburg.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-082",
+      "paragraph": 43,
+      "quote": "The Reformer had failed to provide himself with a safe-conduct. His friends urged him not to appear before the legate without one, and they themselves undertook to procure it from the emperor.",
+      "claim_text": "Martin Luther had not obtained a safe-conduct before traveling to Augsburg, so his friends undertook to procure one from the emperor and urged him not to appear before the legate without it.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther initially lacked a safe-conduct at Augsburg; his friends urged him not to appear without one, and an imperial safe-conduct was obtained.",
+        "modern_consensus": "Luther waited for a safe-conduct before meeting Cajetan.",
+        "sources": [
+          {
+            "title": "Martin Luther at Augsburg in 1518 - Steadfast Lutherans",
+            "url": "https://steadfastlutherans.org/blog/2018/11/martin-luther-at-augsburg-in-1518/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-083",
+      "paragraph": 43,
+      "quote": "The legate intended to force Luther, if possible, to retract, or, failing in this, to cause him to be conveyed to Rome, to share the fate of Huss and Jerome.",
+      "claim_text": "The papal legate at Augsburg intended, if unable to force Martin Luther to retract, to have him conveyed to Rome to share the fate of Jan Huss and Jerome of Prague.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Jan Hus",
+        "Jerome of Prague"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Cajetan's aim was to force retraction or, failing that, to have Luther sent to Rome; the parallel to the fate of Huss and Jerome (burned at Constance) is the natural fear given Luther's own comparisons.",
+        "sources": [
+          {
+            "title": "Luther and Cajetan (Schaff)",
+            "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.vi.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-084",
+      "paragraph": 43,
+      "quote": "Not until he had received the document pledging him the emperor's protection, did he appear in the presence of the papal ambassador.",
+      "claim_text": "Martin Luther did not appear before the papal legate until he had received the document pledging him the emperor's protection.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther received the safe-conduct (11 Oct 1518) before appearing before Cajetan the next day.",
+        "modern_consensus": "Luther got the letter of safe-conduct Oct 11, appeared before Cajetan Oct 12.",
+        "sources": [
+          {
+            "title": "Luther at Augsburg - 1517.org",
+            "url": "https://www.1517.org/articles/luther-at-augsburg",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-085",
+      "paragraph": 44,
+      "quote": "The legate, in his interviews with him, professed great friendliness; but he demanded that Luther submit implicitly to the authority of the church, and yield every point without argument or question.",
+      "claim_text": "At Augsburg, the papal legate professed friendliness toward Martin Luther but demanded he submit implicitly to church authority without argument.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Cajetan received Luther with professed fatherly friendliness but demanded unconditional submission and recantation without debate.",
+        "modern_consensus": "Cajetan demanded retraction and submission to the pope, refusing disputation.",
+        "sources": [
+          {
+            "title": "Luther and Cajetan (Schaff)",
+            "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.vi.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-086",
+      "paragraph": 44,
+      "quote": "Luther, in reply, expressed his regard for the church, his desire for the truth, his readiness to answer all objections to what he had taught, and to submit his doctrines to the decision of certain leading universities. But at the same time he protested against the cardinal's course in requiring him to retract without having proved him in error.",
+      "claim_text": "Martin Luther offered to submit his doctrines to the judgment of certain leading universities, while protesting the cardinal legate's demand that he retract without first being proven in error.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther expressed willingness to be corrected, offered to submit to universities, and protested being required to recant without being shown his error - consistent with the Augsburg record.",
+        "sources": [
+          {
+            "title": "Luther and Cajetan (Schaff)",
+            "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.vi.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-087",
+      "paragraph": 45,
+      "quote": "The only response was, “Retract, retract!”",
+      "claim_text": "The papal legate's only response to Martin Luther at Augsburg was \"Retract, retract!\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Cajetan repeatedly demanded 'Retract!' (revoca) without engaging Luther's arguments; the single-word demand is well-attested (Luther: 'I would be most welcome if I but spoke revoco').",
+        "sources": [
+          {
+            "title": "Luther and Cajetan (Schaff)",
+            "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.vi.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-088",
+      "paragraph": 45,
+      "quote": "Seeing that the conference, thus continued, would be utterly futile, Luther finally obtained a reluctant permission to present his answer in writing.",
+      "claim_text": "Martin Luther obtained reluctant permission from the papal legate to present his answer in writing rather than orally.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther obtained permission to submit a written response after the oral conference proved fruitless; consistent with the sequence of the Augsburg interviews.",
+        "sources": [
+          {
+            "title": "Luther and Cajetan (Schaff)",
+            "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.vi.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-089",
+      "paragraph": 46,
+      "quote": "“In so doing,” said he, writing to a friend, “the oppressed find double gain; first, what is written may be submitted to the judgment of others; and second, one has a better chance of working on the fears, if not on the conscience, of an arrogant and babbling despot, who would otherwise overpower by his imperious language.”(182)",
+      "claim_text": "In a letter to a friend, Martin Luther is quoted as explaining that writing his answer gave a double advantage: it could be judged by others, and it gave a better chance of affecting the fears of \"an arrogant and babbling despot.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's reasoning about the 'double gain' of a written answer and the 'arrogant and babbling despot' traces to D'Aubigne (ref 182); reflects his correspondence during Augsburg.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-090",
+      "paragraph": 47,
+      "quote": "At the next interview, Luther presented a clear, concise, and forcible exposition of his views, fully supported by many quotations from Scripture. This paper, after reading aloud, he handed to the cardinal, who, however, cast it contemptuously aside, declaring it to be a mass of idle words and irrelevant quotations.",
+      "claim_text": "Martin Luther presented a written exposition of his views, supported by scriptural quotations, to the cardinal legate at Augsburg, who dismissed it as \"a mass of idle words and irrelevant quotations.\"",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther presented a scripture-based written statement; Cajetan dismissed it and refused genuine engagement, matching the record of the third interview.",
+        "sources": [
+          {
+            "title": "Luther and Cajetan (Schaff)",
+            "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.vi.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-091",
+      "paragraph": 48,
+      "quote": "“Retract! or I will send you to Rome, there to appear before the judges commissioned to take cognizance of your cause. I will excommunicate you and all your partisans, and all who shall at any time countenance you, and will cast them out of the church.” And he finally declared, in a haughty and angry tone, “Retract, or return no more.”(183)",
+      "claim_text": "The papal legate at Augsburg is quoted as threatening to send Martin Luther to Rome and to excommunicate him and all his partisans, declaring, \"Retract, or return no more.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Cajetan's threat to send Luther to Rome and to excommunicate him and his partisans, ending 'Retract, or return no more' (revoca or come back no more), traces to D'Aubigne (ref 183) and matches the breakdown of the interviews.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "Luther and Cajetan (Schaff)",
+            "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.vi.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-092",
+      "paragraph": 49,
+      "quote": "The Reformer promptly withdrew with his friends, thus declaring plainly that no retraction was to be expected from him.",
+      "claim_text": "Martin Luther withdrew from the interview at Augsburg with his friends, making clear that no retraction would be forthcoming.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther withdrew with his companions, signaling that no recantation would follow; consistent with the end of the Augsburg conference.",
+        "sources": [
+          {
+            "title": "Luther and Cajetan (Schaff)",
+            "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.vi.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-093",
+      "paragraph": 50,
+      "quote": "The Reformer, simple, humble, firm, stood up in the strength of God, having truth on his side; the pope's representative, self-important, overbearing, haughty, and unreasonable, was without a single argument from the Scriptures, yet vehemently crying, “Retract, or be sent to Rome for punishment.”",
+      "claim_text": "At the Augsburg interview, Luther appeared simple, humble, and firm, while the legate appeared self-important and overbearing and offered no scriptural argument.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "[control sample: extractor flagged needs_verification=false] Partisan character-portrait of the two parties at Augsburg (humble Luther vs. haughty legate). The evaluative contrast is interpretive/unverifiable. Control note: the embedded factual kernel - that Cajetan offered no scriptural refutation and simply demanded retraction - is supported by the Augsburg record (see GC-07-085/087). Extractor's flag defensible.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-094",
+      "paragraph": 51,
+      "quote": "He accordingly left Augsburg before daybreak, on horseback, accompanied only by a guide furnished him by the magistrate.... He reached a small gate in the wall of the city. It was opened for him, and with his guide he passed through without hindrance.",
+      "claim_text": "Martin Luther left Augsburg before daybreak on horseback with a guide provided by the magistrate, and passed through a small gate in the city wall.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Augsburg"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther left Augsburg secretly before dawn (20 Oct 1518) on horseback with a guide, escaping through a small gate in the city wall.",
+        "modern_consensus": "Luther fled Augsburg by night through a gate/opening in the wall on horseback.",
+        "sources": [
+          {
+            "title": "Martin Luther at Augsburg in 1518 - Steadfast Lutherans",
+            "url": "https://steadfastlutherans.org/blog/2018/11/martin-luther-at-augsburg-in-1518/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-095",
+      "paragraph": 51,
+      "quote": "Once safely outside, the fugitives hastened their flight, and before the legate learned of Luther's departure, he was beyond the reach of his persecutors.",
+      "claim_text": "Martin Luther escaped from Augsburg and was beyond the reach of his persecutors before the papal legate learned of his departure.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's flight put him beyond reach before Cajetan acted; consistent with the accounts of his sudden nighttime departure.",
+        "sources": [
+          {
+            "title": "Luther and Cajetan (Schaff)",
+            "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.vi.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-096",
+      "paragraph": 52,
+      "quote": "He gave expression to his wrath in a letter to Frederick, the elector of Saxony, bitterly denouncing Luther, and demanding that Frederick send the Reformer to Rome or banish him from Saxony.",
+      "claim_text": "After Martin Luther's escape from Augsburg, the papal legate wrote a letter to Frederick, Elector of Saxony, denouncing Luther and demanding that Frederick send him to Rome or banish him from Saxony.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Frederick the Wise"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "After Augsburg, Cajetan wrote to Frederick the Wise denouncing Luther and demanding that Frederick send him to Rome or banish him.",
+        "modern_consensus": "Cajetan pressured Frederick to arrest/send Luther to Rome or expel him.",
+        "sources": [
+          {
+            "title": "Martin Luther at Augsburg in 1518 - Steadfast Lutherans",
+            "url": "https://steadfastlutherans.org/blog/2018/11/martin-luther-at-augsburg-in-1518/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-097",
+      "paragraph": 53,
+      "quote": "In defense, Luther urged that the legate or the pope show him his errors from the Scriptures, and pledged himself in the most solemn manner to renounce his doctrines if they could be shown to contradict the word of God.",
+      "claim_text": "In his defense, Martin Luther pledged to renounce his doctrines if the legate or pope could show from Scripture that they contradicted the word of God.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther repeatedly offered to recant if shown his errors from Scripture; a consistent feature of his defense at and after Augsburg.",
+        "sources": [
+          {
+            "title": "Luther and Cajetan (Schaff)",
+            "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.vi.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-098",
+      "paragraph": 54,
+      "quote": "“ ‘Since Doctor Martin has appeared before you at Augsburg, you should be satisfied. We did not expect that you would endeavor to make him retract without having convinced him of his errors. None of the learned men in our principality have informed me that Martin's doctrine is impious, antichristian, or heretical.’",
+      "claim_text": "Frederick, Elector of Saxony, is quoted as writing to the papal legate that none of the learned men in his principality had informed him that Luther's doctrine was impious, antichristian, or heretical.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Frederick the Wise",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Frederick's reply to Cajetan (18 Dec 1518) declined to act because Luther had not been convicted of error, noting that his learned men did not judge Luther's doctrine heretical; the quote (via D'Aubigne ref 184) matches Frederick's documented letter.",
+        "modern_consensus": "Frederick wrote Cajetan he would send Luther to Rome only after conviction of heresy.",
+        "sources": [
+          {
+            "title": "Martin Luther at Augsburg in 1518 - Steadfast Lutherans",
+            "url": "https://steadfastlutherans.org/blog/2018/11/martin-luther-at-augsburg-in-1518/",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Frederick balked; would send Luther only after conviction."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-099",
+      "paragraph": 54,
+      "quote": "The prince refused, moreover, to send Luther to Rome, or to expel him from his states.”(184)",
+      "claim_text": "Frederick, Elector of Saxony, refused to send Martin Luther to Rome or to expel him from his territories.",
+      "claim_type": "event",
+      "entities": [
+        "Frederick the Wise",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Frederick the Wise refused both to send Luther to Rome and to expel him from Saxony - a decisive act of protection.",
+        "modern_consensus": "Frederick protected Luther, refusing to hand him over or banish him.",
+        "sources": [
+          {
+            "title": "Martin Luther at Augsburg in 1518 - Steadfast Lutherans",
+            "url": "https://steadfastlutherans.org/blog/2018/11/martin-luther-at-augsburg-in-1518/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-100",
+      "paragraph": 55,
+      "quote": "The elector saw that there was a general breaking down of the moral restraints of society. A great work of reform was needed.... He saw that Luther was laboring to secure this object, and he secretly rejoiced that a better influence was making itself felt in the church.",
+      "claim_text": "Frederick the Elector believed a general breakdown of society's moral restraints made a great work of reform necessary, and he secretly rejoiced that Luther's influence was being felt in the church.",
+      "claim_type": "biographical",
+      "entities": [
+        "Frederick the Wise",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Frederick's cautious sympathy for reform is well-attested, but his interior motive ('secretly rejoiced', perceiving a general moral breakdown) is an inference about his private mind; the outward protection is documented, the inner state is only weakly checkable.",
+        "sources": [
+          {
+            "title": "Martin Luther - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Martin_Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Frederick's protective sympathy attested; inner motive interpretive."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-101",
+      "paragraph": 56,
+      "quote": "Only a year had passed since the Reformer posted his theses on the castle church, yet there was already a great falling off in the number of pilgrims that visited the church at the festival of All Saints.",
+      "claim_text": "Within a year of Martin Luther posting his theses on the Castle Church door, there was a marked decline in the number of pilgrims visiting the church's relics at the All Saints festival.",
+      "claim_type": "statistic",
+      "entities": [
+        "Martin Luther",
+        "Castle Church of Wittenberg"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "A marked decline in relic-pilgrimage at the Castle Church within about a year of the Theses is reported by D'Aubigne (ref 185 vicinity) and is consistent with the swift erosion of indulgence/relic devotion in Wittenberg.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-102",
+      "paragraph": 56,
+      "quote": "Rome had been deprived of worshipers and offerings, but their place was filled by another class, who now came to Wittenberg, not pilgrims to adore her relics, but students to fill her halls of learning. The writings of Luther had kindled everywhere a new interest in the Holy Scriptures, and not only from all parts of Germany, but from other lands, students flocked to the university.",
+      "claim_text": "Martin Luther's writings drew students from all parts of Germany and from other countries to study at the University of Wittenberg.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "University of Wittenberg"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's fame drew a surge of students to Wittenberg from across Germany and beyond; university enrollment rose sharply in these years.",
+        "modern_consensus": "Wittenberg's enrollment grew markedly as students flocked to Luther and Melanchthon.",
+        "sources": [
+          {
+            "title": "Martin Luther - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Martin_Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-103",
+      "paragraph": 56,
+      "quote": "Young men, coming in sight of Wittenberg for the first time, “raised their hands to heaven, and praised God for having caused the light of truth to shine forth from this city, as from Zion in times of old, and whence it spread even to the most distant countries.”(185)",
+      "claim_text": "Young men arriving at Wittenberg for the first time are described as raising their hands to heaven and praising God for the light of truth shining forth from the city.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Wittenberg"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The description of students raising their hands and praising God at the sight of Wittenberg traces to D'Aubigne (ref 185); a rhetorical report of the university's magnetism.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-104",
+      "paragraph": 57,
+      "quote": "“I am reading,” he wrote, “the decrees of the pontiffs, and ... I do not know whether the pope is antichrist himself, or his apostle, so greatly is Christ misrepresented and crucified in them.”(186)",
+      "claim_text": "Martin Luther is quoted as writing that after reading the decrees of the pontiffs, he did not know whether the pope was antichrist himself or his apostle.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther",
+        "Pope"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's line that reading the papal decretals left him unsure 'whether the pope is antichrist himself, or his apostle' traces to D'Aubigne (ref 186) and matches his documented radicalization c.1519-20.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-105",
+      "paragraph": 57,
+      "quote": "Yet at this time Luther was still a supporter of the Roman Church, and had no thought that he would ever separate from her communion.",
+      "claim_text": "At the time he wrote about the pontiffs' decrees, Martin Luther was still a supporter of the Roman Catholic Church and had no thought of ever separating from it.",
+      "claim_type": "biographical",
+      "entities": [
+        "Martin Luther",
+        "Roman Catholic Church"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "At this stage (c.1518-19) Luther still saw himself as a loyal Catholic seeking internal reform, not yet intending schism; a standard reading of his early development.",
+        "modern_consensus": "Luther initially sought reform from within and did not plan to leave the Church.",
+        "sources": [
+          {
+            "title": "Martin Luther - Britannica",
+            "url": "https://www.britannica.com/biography/Martin-Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-106",
+      "paragraph": 58,
+      "quote": "The work spread to Switzerland and Holland. Copies of his writings found their way to France and Spain. In England his teachings were received as the word of life. To Belgium and Italy also the truth had extended.",
+      "claim_text": "Martin Luther's writings and doctrine spread to Switzerland, Holland, France, Spain, England, Belgium, and Italy.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Switzerland",
+        "Holland",
+        "France",
+        "Spain",
+        "England",
+        "Belgium",
+        "Italy"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "By 1519-1520 Luther's writings circulated to Switzerland, the Low Countries, France, Italy, England and Spain via the printing trade. The rhetorical 'received as the word of life' in England overstates the mixed/hostile official reception (Henry VIII wrote against Luther in 1521), but the geographic spread is documented.",
+        "modern_consensus": "Luther's works reached France, England, Italy, the Netherlands, Switzerland and Spain by 1519-1520, though reception varied and was often suppressed.",
+        "sources": [
+          {
+            "title": "The rise of Protestantism in France (1520-1562) - Musee protestant",
+            "url": "https://museeprotestant.org/en/notice/the-rise-of-protestantism-in-france-1520-1562/",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "Reformation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Reformation",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-107",
+      "paragraph": 59,
+      "quote": "Rome became more and more exasperated by the attacks of Luther, and it was declared by some of his fanatical opponents, even by doctors in Catholic universities, that he who should kill the rebellious monk would be without sin.",
+      "claim_text": "Some fanatical opponents of Martin Luther, including doctors in Catholic universities, declared that killing him would be without sin.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Extremist opponents did declare that killing Luther would be no sin; such incitements are reported by D'Aubigne (ref vicinity) and reflect the venom of the polemic against him.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-108",
+      "paragraph": 59,
+      "quote": "One day a stranger, with a pistol hidden under his cloak, approached the Reformer, and inquired why he went thus alone. “I am in God's hands,” answered Luther. “He is my strength and my shield. What can man do unto me?”(187) Upon hearing these words, the stranger turned pale, and fled away, as from the presence of the angels of heaven.",
+      "claim_text": "A stranger carrying a hidden pistol approached Martin Luther and asked why he traveled alone; upon hearing Luther's reply that he was in God's hands, the stranger turned pale and fled.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The anecdote of a stranger with a concealed pistol fleeing at Luther's 'I am in God's hands' reply (ref 187) comes from D'Aubigne and cannot be independently corroborated; recorded as a period source-anecdote, not independently established.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-109",
+      "paragraph": 60,
+      "quote": "His doctrines were heard everywhere,—“in cottages and convents, ... in the castles of the nobles, in the universities, and in the palaces of kings;” and noble men were rising on every hand to sustain his efforts.",
+      "claim_text": "Martin Luther's doctrines were reportedly heard everywhere, \"in cottages and convents,... in the castles of the nobles, in the universities, and in the palaces of kings.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The quoted phrase describing Luther's doctrines heard 'in cottages and convents... in the palaces of kings' traces to D'Aubigne (ref vicinity); a rhetorical but broadly accurate report of the reach of his teaching.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-110",
+      "paragraph": 61,
+      "quote": "It was about this time that Luther, reading the works of Huss, found that the great truth of justification by faith, which he himself was seeking to uphold and teach, had been held by the Bohemian Reformer.",
+      "claim_text": "Martin Luther, upon reading the works of Jan Hus, found that Hus had held the doctrine of justification by faith that Luther himself was seeking to teach.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Jan Hus"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Around the 1519 Leipzig Disputation and after, Luther read Hus and found in him the doctrine of justification by faith he was defending; well-documented.",
+        "modern_consensus": "Luther read Hus c.1519-1520 and recognized his own convergence with Hus.",
+        "sources": [
+          {
+            "title": "The Long Legacy of a Roasted Goose - Christian History Institute",
+            "url": "https://christianhistoryinstitute.org/blog/post/the-long-legacy-of-a-roasted-goose/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-111",
+      "paragraph": 61,
+      "quote": "“We have all,” said Luther, “Paul, Augustine, and myself, been Hussites without knowing it!” “God will surely visit it upon the world,” he continued, “that the truth was preached to it a century ago, and burned!”(188)",
+      "claim_text": "Martin Luther is quoted as saying, \"We have all, Paul, Augustine, and myself, been Hussites without knowing it!\" and that God would visit judgment on the world for having burned the truth preached a century earlier by Huss.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther",
+        "Jan Hus",
+        "Paul the Apostle",
+        "Augustine of Hippo"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Genuine and famous Luther statement. Writing to Spalatin in February 1520 Luther declared 'sumus omnes Hussitae ignorantes' - 'We are all Hussites without knowing it,' adding that Paul and Augustine were in effect Hussites. GC's rendering (via D'Aubigne ref 188) is accurate.",
+        "modern_consensus": "Luther wrote 'We are all Hussites without knowing it' to Spalatin, Feb 1520.",
+        "sources": [
+          {
+            "title": "The Long Legacy of a Roasted Goose - Christian History Institute",
+            "url": "https://christianhistoryinstitute.org/blog/post/the-long-legacy-of-a-roasted-goose/",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "'sumus omnes Hussitae ignorantes', letter to Spalatin Feb 1520."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-112",
+      "paragraph": 62,
+      "quote": "In an appeal to the emperor and nobility of Germany in behalf of the Reformation of Christianity, Luther wrote concerning the pope:",
+      "claim_text": "Martin Luther wrote an appeal to the emperor and nobility of Germany on behalf of the Reformation of Christianity.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Luther wrote 'To the Christian Nobility of the German Nation' (Aug 1520), an appeal to the emperor and German nobility for reform of Christendom.",
+        "modern_consensus": "Address to the Christian Nobility, 1520.",
+        "sources": [
+          {
+            "title": "An Open Letter to the Christian Nobility - Project Wittenberg",
+            "url": "https://www.projectwittenberg.org/pub/resources/text/wittenberg/luther/web/nblty-01.html",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-113",
+      "paragraph": 62,
+      "quote": "“It is a horrible thing to behold the man who styles himself Christ's vicegerent, displaying a magnificence that no emperor can equal. Is this being like the poor Jesus, or the humble Peter? He is, say they, the lord of the world! But Christ, whose vicar he boasts of being, has said, ‘My kingdom is not of this world.’ Can the dominions of a vicar extend beyond those of his superior?”(189)",
+      "claim_text": "In his appeal to the German nobility, Martin Luther is quoted as writing that it is horrible to see the pope, who styles himself Christ's vicegerent, display a magnificence no emperor can equal, contrasting this with Christ's statement that His kingdom is not of this world.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther",
+        "Pope"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The passage contrasting the pope's magnificence with 'the poor Jesus' and 'My kingdom is not of this world' reflects Luther's argument in the Address to the German Nobility; rendered here via D'Aubigne (ref 189).",
+        "sources": [
+          {
+            "title": "An Open Letter to the Christian Nobility - Project Wittenberg",
+            "url": "https://www.projectwittenberg.org/pub/resources/text/wittenberg/luther/web/nblty-01.html",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-114",
+      "paragraph": 63,
+      "quote": "“I am much afraid that the universities will prove to be the great gates of hell, unless they diligently labor in explaining the Holy Scriptures, and engraving them in the hearts of youth. I advise no one to place his child where the Scriptures do not reign paramount. Every institution in which men are not unceasingly occupied with the word of God must become corrupt.”(190)",
+      "claim_text": "Martin Luther is quoted as writing that he feared universities would prove to be \"the great gates of hell\" unless they diligently taught the Holy Scriptures.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The 'great gates of hell' warning about universities that neglect Scripture is a well-known passage from Luther's Address to the Christian Nobility (1520); rendered via D'Aubigne (ref 190).",
+        "sources": [
+          {
+            "title": "An Open Letter to the Christian Nobility - Project Wittenberg",
+            "url": "https://www.projectwittenberg.org/pub/resources/text/wittenberg/luther/web/nblty-01.html",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-115",
+      "paragraph": 64,
+      "quote": "This appeal was rapidly circulated throughout Germany, and exerted a powerful influence upon the people. The whole nation was stirred, and multitudes were roused to rally around the standard of reform.",
+      "claim_text": "Martin Luther's appeal to the German nobility was rapidly circulated throughout Germany and stirred the whole nation, rallying multitudes to the cause of reform.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The Address to the Christian Nobility circulated rapidly (its first printing of ~4,000 copies sold out within days) and had a powerful national impact.",
+        "modern_consensus": "The 1520 Address was a runaway bestseller that stirred German opinion.",
+        "sources": [
+          {
+            "title": "Martin Luther - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Martin_Luther",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-116",
+      "paragraph": 64,
+      "quote": "Luther's opponents, burning with a desire for revenge, urged the pope to take decisive measures against him. It was decreed that his doctrines should be immediately condemned. Sixty days were granted the Reformer and his adherents, after which, if they did not recant, they were all to be excommunicated.",
+      "claim_text": "The pope decreed that Martin Luther's doctrines be condemned, granting Luther and his adherents sixty days to recant before excommunication.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Pope"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The bull Exsurge Domine (15 June 1520) condemned Luther's teachings and gave him sixty days after its publication in Saxony to recant on pain of excommunication.",
+        "modern_consensus": "Exsurge Domine, 1520: 60-day ultimatum to recant.",
+        "sources": [
+          {
+            "title": "Exsurge Domine - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Exsurge_Domine",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-117",
+      "paragraph": 65,
+      "quote": "For centuries Rome's sentence of excommunication had struck terror to powerful monarchs; it had filled mighty empires with woe and desolation. Those upon whom its condemnation fell, were universally regarded with dread and horror; they were cut off from intercourse with their fellows, and treated as outlaws, to be hunted to extermination.",
+      "claim_text": "For centuries, Rome's sentence of excommunication struck terror into powerful monarchs and filled mighty empires with woe, with those excommunicated being cut off from society and treated as outlaws.",
+      "claim_type": "causal",
+      "entities": [
+        "Roman Catholic Church"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Medieval papal excommunication (and interdict) could indeed cow monarchs and isolate the condemned; the general historical characterization is sound, if rhetorically heightened.",
+        "sources": [
+          {
+            "title": "Reformation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Reformation",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-118",
+      "paragraph": 65,
+      "quote": "“What is about to happen I know not, nor do I care to know.... Let the blow light where it may, I am without fear. Not so much as a leaf falls, without the will of our Father. How much rather will He care for us! It is a light thing to die for the Word, since the Word which was made flesh hath Himself died. If we die with Him, we shall live with Him; and passing through that which He has passed through before us, we shall be where He is and dwell with Him forever.”(191)",
+      "claim_text": "Facing the threat of excommunication, Martin Luther is quoted as writing that he did not know or care what was about to happen, and that he was without fear because not even a leaf falls without God's will.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's calm defiance ('not a leaf falls without the will of our Father... light thing to die for the Word') traces to D'Aubigne (ref 191) and matches his documented resolve facing the bull.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-119",
+      "paragraph": 66,
+      "quote": "“I despise and attack it, as impious, false.... It is _Christ_ Himself who is condemned therein.... I rejoice in having to bear such ills for the best of causes. Already I feel greater liberty in my heart; for at last I know that the pope is antichrist, and that his throne is that of Satan himself.”(192)",
+      "claim_text": "Upon receiving the papal bull against him, Martin Luther is quoted as saying he despised and attacked it as impious and false, and that he now knew the pope was antichrist and his throne that of Satan.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther",
+        "Pope"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's declaration that the bull was impious and false and that 'the pope is antichrist, and his throne that of Satan' traces to D'Aubigne (ref 192) and matches his writings against the bull (e.g., Against the Execrable Bull of Antichrist).",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-120",
+      "paragraph": 67,
+      "quote": "The weak and superstitious trembled before the decree of the pope; and while there was general sympathy for Luther, many felt that life was too dear to be risked in the cause of reform.",
+      "claim_text": "Following the papal decree against Martin Luther, many people who sympathized with him nonetheless felt life was too dear to risk in the cause of reform.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Pope"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Many sympathizers were intimidated by the papal decree and reluctant to risk their lives; a fair characterization of the mixed public response to Exsurge Domine.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-121",
+      "paragraph": 68,
+      "quote": "In the presence of a crowd of students, doctors, and citizens of all ranks, Luther burned the pope's bull, with the canon laws, the decretals, and certain writings sustaining the papal power.",
+      "claim_text": "In the presence of students, doctors, and citizens, Martin Luther publicly burned the papal bull against him along with the canon laws, decretals, and certain writings sustaining papal power.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Pope"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "On 10 December 1520 at the Elster Gate in Wittenberg Luther publicly burned Exsurge Domine together with volumes of canon law and decretals, before students and townsfolk.",
+        "modern_consensus": "Luther burned the bull and canon law at Wittenberg, 10 Dec 1520.",
+        "sources": [
+          {
+            "title": "Exsurge Domine - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Exsurge_Domine",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-122",
+      "paragraph": 68,
+      "quote": "“My enemies have been able, by burning my books,” he said, “to injure the cause of truth in the minds of the common people, and destroy their souls; for this reason I consumed their books in return. A serious struggle has just begun. Hitherto I have been only playing with the pope. I began this work in God's name; it will be ended without me, and by His might.”(193)",
+      "claim_text": "After burning the papal bull, Martin Luther is quoted as saying his enemies had injured the cause of truth by burning his books, so he burned theirs in return, and that \"a serious struggle has just begun.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's explanation for burning the books ('a serious struggle has just begun... hitherto I have been only playing with the pope') traces to D'Aubigne (ref 193) and reflects his stance after the burning.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-123",
+      "paragraph": 69,
+      "quote": "“Who knows if God has not chosen and called me, and if they ought not to fear that, by despising me, they despise God Himself? Moses was alone at the departure from Egypt; Elijah was alone in the reign of King Ahab; Isaiah alone in Jerusalem; Ezekiel alone in Babylon.... I do not say that I am a prophet; but I say that they ought to fear precisely because I am alone and that they are many. I am sure of this, that the word of God is with me, and that it is not with them.”(194)",
+      "claim_text": "Martin Luther is quoted as comparing himself to Moses, Elijah, Isaiah, and Ezekiel, who each stood alone, and asserting that he was sure the word of God was with him and not with his many opponents.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's 'Moses... Elijah... Isaiah... Ezekiel... alone' self-comparison, asserting the word of God was with him, traces to D'Aubigne (ref 194) and reflects his documented rhetoric of standing alone with Scripture.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-124",
+      "paragraph": 70,
+      "quote": "“I feel more and more every day how difficult it is to lay aside the scruples which one has imbibed in childhood. O, how much pain it has caused me, though I had the Scriptures on my side, to justify it to myself that I should dare to make a stand alone against the pope, and hold him forth as antichrist!... ’Twas so I fought with myself and with Satan, till Christ, by His own infallible word, fortified my heart against these doubts.”(195)",
+      "claim_text": "Martin Luther is quoted as writing about the internal struggle and pain it caused him to justify standing alone against the pope and holding him forth as antichrist, before Scripture fortified his heart against his doubts.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther",
+        "Pope"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's account of the inner struggle to stand alone against the pope and to call him antichrist, until Scripture fortified him, traces to D'Aubigne (ref 195) and matches his own retrospective testimony.",
+        "sources": [
+          {
+            "title": "History of the Reformation (D'Aubigne) - CCEL",
+            "url": "https://www.ccel.org/ccel/d/daubigne/reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-125",
+      "paragraph": 71,
+      "quote": "The pope had threatened Luther with excommunication if he did not recant, and the threat was now fulfilled. A new bull appeared, declaring the Reformer's final separation from the Roman Church, denouncing him as accursed of Heaven, and including in the same condemnation all who should receive his doctrines.",
+      "claim_text": "A new papal bull was issued declaring Martin Luther's final separation from the Roman Catholic Church, denouncing him as accursed and condemning all who accepted his doctrines.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Pope",
+        "Roman Catholic Church"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The bull Decet Romanum Pontificem (3 Jan 1521) formally excommunicated Luther, confirming his separation from the Roman Church and condemning his adherents.",
+        "modern_consensus": "Decet Romanum Pontificem, Jan 1521, excommunicated Luther.",
+        "sources": [
+          {
+            "title": "Exsurge Domine - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Exsurge_Domine",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Formal excommunication followed via Decet Romanum Pontificem, 3 Jan 1521."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-07-126",
+      "paragraph": 72,
+      "quote": "Opposition is the lot of all whom God employs to present truths specially applicable to their time.",
+      "claim_text": "Opposition is the lot of all whom God employs to present truths specially applicable to their time.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological generalization about those God employs. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-127",
+      "paragraph": 72,
+      "quote": "The great controversy between truth and error, between Christ and Satan, is to increase in intensity to the close of this world's history.",
+      "claim_text": "The great controversy between truth and error, between Christ and Satan, is to increase in intensity to the close of this world's history.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the cosmic conflict between Christ and Satan intensifying to the end of history. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-128",
+      "paragraph": 73,
+      "quote": "Said Jesus to His disciples: “If ye were of the world, the world would love his own: but because ye are not of the world, but I have chosen you out of the world, therefore the world hateth you. Remember the word that I said unto you, The servant is not greater than his Lord. If they have persecuted Me, they will also persecute you; if they have kept My saying, they will keep yours also.”(196)",
+      "claim_text": "Jesus Christ is quoted in Scripture as telling His disciples that because they are not of the world, the world hates them, and that as He was persecuted, they will also be persecuted.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quotation-accuracy check only. The passage is John 15:19-20 (KJV), quoted verbatim ('If ye were of the world... The servant is not greater than his lord... If they have persecuted me, they will also persecute you').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-129",
+      "paragraph": 73,
+      "quote": "And on the other hand our Lord declared plainly: “Woe unto you, when all men shall speak well of you! for so did their fathers to the false prophets.”(197)",
+      "claim_text": "Jesus Christ is quoted in Scripture as declaring, \"Woe unto you, when all men shall speak well of you! for so did their fathers to the false prophets.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quotation-accuracy check only. 'Woe unto you, when all men shall speak well of you! for so did their fathers to the false prophets' is Luke 6:26 (KJV), quoted verbatim.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-07-130",
+      "paragraph": 73,
+      "quote": "The spirit of the world is no more in harmony with the spirit of Christ to-day than in earlier times; and those who preach the word of God in its purity will be received with no greater favor now than then. The forms of opposition to the truth may change, the enmity may be less open because it is more subtle; but the same antagonism still exists, and will be manifested to the end of time.",
+      "claim_text": "The spirit of the world is no more in harmony with the spirit of Christ today than in earlier times, and those who preach God's word in its purity will be received with no greater favor now than in Luther's day.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/theological claim about the perennial enmity of 'the spirit of the world' toward the pure word of God. Not empirically checkable.",
+        "sources": []
+      }
+    }
+  ]
+}
