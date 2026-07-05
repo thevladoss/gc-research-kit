@@ -2905,7 +2905,23 @@
         "claims": 3,
         "load_bearing": 0,
         "academic_floor": true,
-        "status": "pending"
+        "status": "done",
+        "ruling_file": "adjudication/D11_papal-doctrine-continuity.ruling.json",
+        "rulings_as_written": {
+          "improbable": 3
+        },
+        "rulings_weakened": {
+          "well-supported": 3
+        },
+        "framing_gaps": {
+          "3": 3
+        },
+        "failing_component_kind_accusatory": {
+          "fact": 3
+        },
+        "gap_notes": [],
+        "searches": "searches: ~12 (10 shared, 2 stragglers on GC-03-061)",
+        "updated_at": "2026-07-05T18:14:23Z"
       },
       "D12": {
         "slug": "waldensian-albigensian-character",
