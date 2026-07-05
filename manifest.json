@@ -663,7 +663,7 @@
         "extract": "done",
         "verify": "done",
         "defend": "done",
-        "impact": "pending"
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -699,9 +699,14 @@
           "verdict_downgraded": 0,
           "defense_failed": 0,
           "searches": 0
+        },
+        "impact": {
+          "scored": 0,
+          "load_bearing": 0,
+          "top_impact": []
         }
       },
-      "updated_at": "2026-07-05T09:09:57Z"
+      "updated_at": "2026-07-05T09:16:30Z"
     },
     "10": {
       "title": "Progress Of Reform In Germany",

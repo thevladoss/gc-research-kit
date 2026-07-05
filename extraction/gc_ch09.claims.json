@@ -1,0 +1,877 @@
+{
+  "chapter": 9,
+  "chapter_title": "The Swiss Reformer",
+  "stage": "extraction",
+  "generated_at": "2026-07-05",
+  "notes": "Single-pass extraction, chapter read in full (39 paragraphs, ~4500 words). No web research performed at this stage per pipeline rules.",
+  "claims": [
+    {
+      "id": "GC-09-001",
+      "paragraph": 1,
+      "quote": "To the unlearned, toiling fishermen of Galilee was the call addressed, “Follow Me, and I will make you fishers of men.”",
+      "claim_text": "Jesus called unlearned, toiling fishermen of Galilee to follow him, saying, \"Follow Me, and I will make you fishers of men.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Galilee"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-002",
+      "paragraph": 1,
+      "quote": "So in the days of the Great Reformation. The leading Reformers were men from humble life,—men who were most free of any of their time from pride of rank, and from the influence of bigotry and priestcraft.",
+      "claim_text": "The leading Protestant Reformers of the sixteenth century came from humble social backgrounds and were largely free of aristocratic pride and clerical bigotry.",
+      "claim_type": "interpretive",
+      "entities": ["Protestant Reformation"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-09-003",
+      "paragraph": 2,
+      "quote": "A few weeks after the birth of Luther in a miner’s cabin in Saxony, Ulric Zwingle was born in a herdsman’s cottage among the Alps.",
+      "claim_text": "Martin Luther was born in a miner's cabin in Saxony.",
+      "claim_type": "biographical",
+      "entities": ["Martin Luther", "Saxony"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-004",
+      "paragraph": 2,
+      "quote": "A few weeks after the birth of Luther in a miner’s cabin in Saxony, Ulric Zwingle was born in a herdsman’s cottage among the Alps.",
+      "claim_text": "Ulrich Zwingli was born a few weeks after Martin Luther, in a herdsman's cottage in the Alps.",
+      "claim_type": "biographical",
+      "entities": ["Ulrich Zwingli", "Alps", "Martin Luther"],
+      "needs_verification": true,
+      "extractor_note": "GC does not name the specific village; historically identified as Wildhaus, Switzerland."
+    },
+    {
+      "id": "GC-09-005",
+      "paragraph": 3,
+      "quote": "At the age of thirteen he went to Bern, which then possessed the most distinguished school in Switzerland.",
+      "claim_text": "At age thirteen, Ulrich Zwingli went to Bern to attend what was then the most distinguished school in Switzerland.",
+      "claim_type": "biographical",
+      "entities": ["Ulrich Zwingli", "Bern"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-006",
+      "paragraph": 3,
+      "quote": "Determined efforts were put forth by the friars to allure him into a monastery.",
+      "claim_text": "Friars at Bern made determined efforts to induce the young Zwingli to enter a monastery.",
+      "claim_type": "event",
+      "entities": ["Ulrich Zwingli", "Bern"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-007",
+      "paragraph": 3,
+      "quote": "The Dominican and Franciscan monks were in rivalry for popular favor.",
+      "claim_text": "At Bern, the Dominican and Franciscan monastic orders competed with one another for popular favor.",
+      "claim_type": "event",
+      "entities": ["Dominicans", "Franciscans", "Bern"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-008",
+      "paragraph": 4,
+      "quote": "The Dominicans of Bern saw that if they could win this talented young scholar, they would secure both gain and honor.",
+      "claim_text": "The Dominicans at Bern sought to recruit Zwingli into their order believing his talents would bring the order financial gain and honor.",
+      "claim_type": "causal",
+      "entities": ["Dominicans", "Ulrich Zwingli", "Bern"],
+      "needs_verification": true,
+      "extractor_note": "Ascribed motive; borderline interpretive but presented as a historical causal assertion."
+    },
+    {
+      "id": "GC-09-009",
+      "paragraph": 4,
+      "quote": "By deceit and flattery they endeavored to induce Zwingle to enter their convent.",
+      "claim_text": "The Dominican friars at Bern used deceit and flattery in an attempt to induce Zwingli to enter their convent.",
+      "claim_type": "event",
+      "entities": ["Dominicans", "Ulrich Zwingli"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-010",
+      "paragraph": 4,
+      "quote": "Luther, while a student at school, had buried himself in a convent cell, and he would have been lost to the world had not God’s providence released him.",
+      "claim_text": "Martin Luther, while a student, entered a convent cell.",
+      "claim_type": "biographical",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-011",
+      "paragraph": 4,
+      "quote": "Luther, while a student at school, had buried himself in a convent cell, and he would have been lost to the world had not God’s providence released him.",
+      "claim_text": "Divine providence released Martin Luther from being lost to the world in a convent.",
+      "claim_type": "theological",
+      "entities": ["Martin Luther"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-09-012",
+      "paragraph": 4,
+      "quote": "Providentially his father received information of the designs of the friars.",
+      "claim_text": "Zwingli's father received information about the friars' plan to draw his son into a monastery.",
+      "claim_type": "event",
+      "entities": ["Ulrich Zwingli"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-013",
+      "paragraph": 4,
+      "quote": "Providentially his father received information of the designs of the friars.",
+      "claim_text": "It was providential (an act of divine providence) that Zwingli's father learned of the friars' designs.",
+      "claim_type": "theological",
+      "entities": ["Ulrich Zwingli"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-09-014",
+      "paragraph": 4,
+      "quote": "He saw that his future usefulness was at stake, and directed him to return home without delay.",
+      "claim_text": "Zwingli's father directed him to return home immediately from Bern to prevent him from entering a monastery.",
+      "claim_type": "event",
+      "entities": ["Ulrich Zwingli", "Bern"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-015",
+      "paragraph": 5,
+      "quote": "The command was obeyed; but the youth could not be long content in his native valley, and he soon resumed his studies, repairing, after a time, to Basel.",
+      "claim_text": "Ulrich Zwingli resumed his studies at Basel after returning home from Bern.",
+      "claim_type": "event",
+      "entities": ["Ulrich Zwingli", "Basel"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-016",
+      "paragraph": 5,
+      "quote": "It was here that Zwingle first heard the gospel of God’s free grace.",
+      "claim_text": "Ulrich Zwingli first heard the doctrine of salvation by free grace while studying at Basel.",
+      "claim_type": "biographical",
+      "entities": ["Ulrich Zwingli", "Basel"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-017",
+      "paragraph": 5,
+      "quote": "Wittembach, a teacher of the ancient languages, had, while studying Greek and Hebrew, been led to the Holy Scriptures, and thus rays of divine light were shed into the minds of the students under his instruction.",
+      "claim_text": "Wittembach, a teacher of ancient languages at Basel, was led to the study of the Holy Scriptures through his study of Greek and Hebrew, and conveyed this understanding to his students, including Zwingli.",
+      "claim_type": "biographical",
+      "entities": ["Wittembach", "Basel", "Ulrich Zwingli"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-018",
+      "paragraph": 5,
+      "quote": "He declared that there was a truth more ancient, and of infinitely greater worth, than the theories taught by schoolmen and philosophers.",
+      "claim_text": "Wittembach taught his students at Basel that there was a truth more ancient and of greater worth than scholastic theories.",
+      "claim_type": "biographical",
+      "entities": ["Wittembach", "Basel"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-019",
+      "paragraph": 5,
+      "quote": "This ancient truth was that the death of Christ is the sinner’s only ransom.",
+      "claim_text": "Wittembach taught that the death of Christ is the sinner's only ransom.",
+      "claim_type": "biographical",
+      "entities": ["Wittembach"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-020",
+      "paragraph": 6,
+      "quote": "His first field of labor was in an Alpine parish, not far distant from his native valley.",
+      "claim_text": "Ulrich Zwingli's first pastoral appointment was in an Alpine parish near his native valley.",
+      "claim_type": "biographical",
+      "entities": ["Ulrich Zwingli"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-021",
+      "paragraph": 6,
+      "quote": "Having received ordination as a priest, he “devoted himself with his whole soul to the search after divine truth; for he was well aware,” says a fellow-reformer, “how much he must know to whom the flock of Christ is entrusted.”(242)",
+      "claim_text": "A fellow-reformer stated that after his ordination as a priest, Zwingli devoted himself wholly to the search for divine truth, aware of how much he needed to know as a pastor.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-022",
+      "paragraph": 6,
+      "quote": "He submitted himself to the Bible as the word of God, the only sufficient, infallible rule.",
+      "claim_text": "Ulrich Zwingli held the Bible to be the sole sufficient, infallible rule of faith.",
+      "claim_type": "biographical",
+      "entities": ["Ulrich Zwingli"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-023",
+      "paragraph": 7,
+      "quote": "“The Scriptures,” said Zwingle, “come from God, not from man, and even that God who enlightens will give thee to understand that the speech comes from God. The word of God ... cannot fail; it is bright, it teaches itself, it discloses itself, it illumines the soul with all salvation and grace, comforts it in God, humbles it, so that it loses and even forfeits itself, and embraces God.”(243)",
+      "claim_text": "Zwingli is quoted as stating that the Scriptures come from God, not man, and that God's word illumines the soul with salvation and grace.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-024",
+      "paragraph": 7,
+      "quote": "“When ... I began to give myself wholly up to the Holy Scriptures, philosophy and theology (scholastic) would always keep suggesting quarrels to me. At last I came to this, that I thought, ‘Thou must let all that lie, and learn the meaning of God purely out of His own simple word.’ Then I began to ask God for His light, and the Scriptures began to be much easier to me.”(244)",
+      "claim_text": "Zwingli wrote that when he devoted himself wholly to the Holy Scriptures, scholastic philosophy and theology kept suggesting quarrels, until he resolved to learn the meaning of God purely from Scripture and asked God for light, after which the Scriptures became easier to understand.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-025",
+      "paragraph": 8,
+      "quote": "“If Luther preaches Christ,” said the Swiss Reformer, “he does what I am doing. Those whom he has brought to Christ are more numerous than those whom I have led. But this matters not. I will bear no other name than that of Christ, whose soldier I am, and who alone is my chief. Never has one single word been written by me to Luther, nor by Luther to me. And why?... That it might be shown how much the Spirit of God is in unison with itself, since both of us, without any collusion, teach the doctrine of Christ with such uniformity.”(245)",
+      "claim_text": "Zwingli is quoted stating that if Luther preaches Christ, he does what Zwingli is doing, and that Luther has brought more people to Christ than Zwingli has.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli", "Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-026",
+      "paragraph": 8,
+      "quote": "Never has one single word been written by me to Luther, nor by Luther to me.",
+      "claim_text": "Zwingli claimed that he and Luther had never exchanged a single written word with each other.",
+      "claim_type": "biographical",
+      "entities": ["Ulrich Zwingli", "Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-027",
+      "paragraph": 8,
+      "quote": "The doctrine preached by Zwingle was not received from Luther. It was the doctrine of Christ.",
+      "claim_text": "Zwingli's reformation doctrine developed independently of, and was not received from, Luther's teaching.",
+      "claim_type": "causal",
+      "entities": ["Ulrich Zwingli", "Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-028",
+      "paragraph": 9,
+      "quote": "In 1516 Zwingle was invited to become a preacher in the convent at Einsiedeln.",
+      "claim_text": "In 1516, Ulrich Zwingli was invited to become a preacher at the convent of Einsiedeln.",
+      "claim_type": "date",
+      "entities": ["Ulrich Zwingli", "Einsiedeln"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-029",
+      "paragraph": 9,
+      "quote": "Among the chief attractions of Einsiedeln was an image of the Virgin which was said to have the power of working miracles.",
+      "claim_text": "The convent at Einsiedeln housed an image of the Virgin reputed to have miracle-working power, which drew pilgrims.",
+      "claim_type": "event",
+      "entities": ["Einsiedeln"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-030",
+      "paragraph": 9,
+      "quote": "Above the gateway of the convent was the inscription, “Here a plenary remission of sins may be obtained.”(246)",
+      "claim_text": "An inscription above the gateway of the Einsiedeln convent read, \"Here a plenary remission of sins may be obtained.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Einsiedeln"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-031",
+      "paragraph": 9,
+      "quote": "Pilgrims at all seasons resorted to the shrine of the Virgin, but at the great yearly festival of its consecration, multitudes came from all parts of Switzerland, and even from France and Germany.",
+      "claim_text": "At the annual consecration festival of the Einsiedeln shrine, multitudes of pilgrims came from all parts of Switzerland, France, and Germany.",
+      "claim_type": "statistic",
+      "entities": ["Einsiedeln", "Switzerland", "France", "Germany"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-032",
+      "paragraph": 10,
+      "quote": "“Do not imagine,” he said, “that God is in this temple more than in any other part of creation. Whatever be the country in which you dwell, God is around you, and hears you.... Can unprofitable works, long pilgrimages, offerings, images, the invocation of the Virgin or of the saints, secure for you the grace of God?... What avails the multitude of words with which we embody our prayers? What efficacy has a glossy cowl, a smooth-shorn head, a long and flowing robe, or gold-embroidered slippers?... God looks at the heart, and our hearts are far from Him.”(247)",
+      "claim_text": "Zwingli is quoted at Einsiedeln preaching that God is not present in the shrine more than elsewhere, and that pilgrimages, offerings, images, and invocation of the Virgin or saints cannot secure God's grace.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli", "Einsiedeln"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-033",
+      "paragraph": 10,
+      "quote": "“Christ,” he said, “who was once offered upon the cross, is the sacrifice and victim, that had made satisfaction for the sins of believers to all eternity.”(247)",
+      "claim_text": "Zwingli is quoted stating that Christ, once offered on the cross, is the sacrifice that made eternal satisfaction for the sins of believers.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-034",
+      "paragraph": 11,
+      "quote": "They were satisfied with the old way to heaven which Rome had marked out for them. They shrank from the perplexity of searching for anything better.",
+      "claim_text": "Many listeners at Einsiedeln rejected Zwingli's message of free grace, preferring the established practices prescribed by Rome.",
+      "claim_type": "interpretive",
+      "entities": ["Einsiedeln"],
+      "needs_verification": false,
+      "extractor_note": "General characterization of audience reaction, not a specific checkable event."
+    },
+    {
+      "id": "GC-09-035",
+      "paragraph": 12,
+      "quote": "The truth was thus carried from hamlet to hamlet, from town to town, and the number of pilgrims to the Virgin’s shrine greatly lessened.",
+      "claim_text": "As a result of Zwingli's preaching at Einsiedeln, the number of pilgrims to the shrine of the Virgin there greatly lessened.",
+      "claim_type": "statistic",
+      "entities": ["Ulrich Zwingli", "Einsiedeln"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-036",
+      "paragraph": 12,
+      "quote": "There was a falling off in the offerings, and consequently in the salary of Zwingle, which was drawn from them.",
+      "claim_text": "Offerings at the Einsiedeln shrine declined, which in turn reduced Zwingli's salary, since it was drawn from those offerings.",
+      "claim_type": "statistic",
+      "entities": ["Ulrich Zwingli", "Einsiedeln"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-037",
+      "paragraph": 13,
+      "quote": "The authorities of the church were not blind to the work which Zwingle was accomplishing; but for the present they forbore to interfere. Hoping yet to secure him to their cause, they endeavored to win him by flatteries; and meanwhile the truth was gaining a hold upon the hearts of the people.",
+      "claim_text": "Church authorities, aware of Zwingli's growing influence at Einsiedeln, chose not to interfere directly but instead tried to win him over with flattery.",
+      "claim_type": "event",
+      "entities": ["Ulrich Zwingli", "Einsiedeln"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-038",
+      "paragraph": 14,
+      "quote": "After three years here, he was called to the office of preacher in the cathedral at Zurich.",
+      "claim_text": "After three years at Einsiedeln, Zwingli was called to the office of preacher in the cathedral at Zurich.",
+      "claim_type": "event",
+      "entities": ["Ulrich Zwingli", "Einsiedeln", "Zurich"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-039",
+      "paragraph": 14,
+      "quote": "This was then the most important town of the Swiss confederacy, and the influence exerted here would be widely felt.",
+      "claim_text": "Zurich was then the most important town of the Swiss confederacy.",
+      "claim_type": "geographical",
+      "entities": ["Zurich", "Swiss confederacy"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-040",
+      "paragraph": 15,
+      "quote": "“You will make every exertion,” they said, “to collect the revenues of the chapter, without overlooking the least. You will exhort the faithful, both from the pulpit and in the confessional, to pay all tithes and dues, and to show by their offerings their affection to the church. You will be diligent in increasing the income arising from the sick, from masses, and in general from every ecclesiastical ordinance.”(248)",
+      "claim_text": "The Zurich ecclesiastics who invited Zwingli instructed him to focus his duties on collecting church revenues, tithes, and income from masses and sick calls.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli", "Zurich"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-041",
+      "paragraph": 15,
+      "quote": "“As for the administration of the sacraments, the preaching, and the care of the flock,” added his instructors, “these are also the duties of the chaplain. But for these you may employ a substitute, and particularly in preaching. You should administer the sacraments to none but persons of note, and only when called upon; you are forbidden to do so without distinction of persons.”(248)",
+      "claim_text": "The Zurich ecclesiastics instructed Zwingli that he could employ a substitute for preaching and administering sacraments, and should administer sacraments only to persons of note.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli", "Zurich"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-042",
+      "paragraph": 16,
+      "quote": "“The life of Christ,” he said, “has been too long hidden from the people. I shall preach upon the whole of the Gospel of St. Matthew, ... drawing solely from the fountains of Scripture, sounding its depths, comparing one passage with another, and seeking for understanding by constant and earnest prayer. It is to God’s glory, to the praise of His only Son, to the real salvation of souls, and to their edification in the true faith, that I shall consecrate my ministry.”(249)",
+      "claim_text": "Zwingli replied to his Zurich instructors that he intended to preach through the entire Gospel of Matthew, drawing solely from Scripture.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli", "Zurich"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-043",
+      "paragraph": 16,
+      "quote": "He declared that he was about to introduce no new method, but the old method employed by the church in earlier and purer times.",
+      "claim_text": "Zwingli declared that his proposed preaching method was not new but a return to the church's practice in earlier, purer times.",
+      "claim_type": "biographical",
+      "entities": ["Ulrich Zwingli"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-044",
+      "paragraph": 17,
+      "quote": "He began his ministry by opening the Gospels, and reading and explaining to his hearers the inspired narrative of the life, teachings, and death of Christ.",
+      "claim_text": "Zwingli began his Zurich ministry by reading and expounding the Gospel narratives of the life, teachings, and death of Christ.",
+      "claim_type": "event",
+      "entities": ["Ulrich Zwingli", "Zurich"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-045",
+      "paragraph": 17,
+      "quote": "“It is to Christ,” he said, “that I desire to lead you,—to Christ, the true source of salvation.”(250)",
+      "claim_text": "Zwingli is quoted telling his Zurich congregation that he desired to lead them to Christ, the true source of salvation.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli", "Zurich"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-046",
+      "paragraph": 17,
+      "quote": "“This man,” they said, “is a preacher of the truth. He will be our Moses, to lead us forth from this Egyptian darkness.”(251)",
+      "claim_text": "Zurich hearers reportedly said of Zwingli that he was a preacher of the truth who would be their Moses, leading them out of \"Egyptian darkness.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli", "Zurich"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-047",
+      "paragraph": 18,
+      "quote": "“If we desire to gain over the wicked to Jesus Christ, we must shut our eyes against many things.”(252)",
+      "claim_text": "Zwingli is quoted saying that gaining over the wicked to Jesus Christ requires shutting one's eyes against many things.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-048",
+      "paragraph": 18,
+      "quote": "But though at first his labors were received with great enthusiasm, after a time opposition arose. The monks set themselves to hinder his work and condemn his teachings.",
+      "claim_text": "After initial enthusiasm for Zwingli's preaching at Zurich, monks organized opposition to hinder his work and condemn his teachings.",
+      "claim_type": "event",
+      "entities": ["Ulrich Zwingli", "Zurich"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-049",
+      "paragraph": 19,
+      "quote": "One Lucian was sent to Zurich with some of Luther’s writings, by a friend of the reformed faith at Basel, who suggested that the sale of these books might be a powerful means of scattering the light.",
+      "claim_text": "A man named Lucian was sent to Zurich carrying copies of Luther's writings, dispatched by a friend of the reformed faith in Basel.",
+      "claim_type": "event",
+      "entities": ["Lucian", "Zurich", "Basel", "Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-050",
+      "paragraph": 19,
+      "quote": "“Ascertain,” he wrote to Zwingle, “whether this man possesses sufficient prudence and skill; if so, let him carry from city to city, from town to town, from village to village, and even from house to house, among the Swiss, the works of Luther, and especially his exposition of the Lord’s prayer written for the laity. The more they are known, the more purchasers they will find.”(253)",
+      "claim_text": "The Basel correspondent wrote to Zwingli suggesting Lucian carry Luther's works, particularly his exposition of the Lord's Prayer, from town to town among the Swiss for sale.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli", "Lucian", "Martin Luther", "Basel"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-051",
+      "paragraph": 20,
+      "quote": "As men were rising up in different lands to present to the people forgiveness and justification through the blood of Christ, Rome proceeded with renewed energy to open her market throughout Christendom, offering pardon for money.",
+      "claim_text": "As reformers in various lands preached justification through Christ, the Roman church responded by intensifying the sale of indulgences for money throughout Christendom.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-052",
+      "paragraph": 21,
+      "quote": "Every sin had its price, and men were granted free license for crime, if the treasury of the church was kept well filled.",
+      "claim_text": "Under the indulgence system, every sin had an associated price, and payment to the church treasury was presented as securing license for the sin.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "extractor_note": "Polemically framed but rests on a checkable historical claim about indulgence pricing practices."
+    },
+    {
+      "id": "GC-09-053",
+      "paragraph": 22,
+      "quote": "In Germany the sale of indulgences had been committed to the Dominican friars, and was conducted by the infamous Tetzel.",
+      "claim_text": "In Germany, the sale of indulgences was entrusted to the Dominican friars and conducted by Johann Tetzel.",
+      "claim_type": "event",
+      "entities": ["Dominicans", "Tetzel", "Germany"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-054",
+      "paragraph": 22,
+      "quote": "In Switzerland the traffic was put into the hands of the Franciscans, under the control of Samson, an Italian monk.",
+      "claim_text": "In Switzerland, the sale of indulgences was entrusted to the Franciscans, under the control of Samson, an Italian monk.",
+      "claim_type": "biographical",
+      "entities": ["Franciscans", "Samson", "Switzerland"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-055",
+      "paragraph": 22,
+      "quote": "Samson had already done good service to the church, having secured immense sums from Germany and Switzerland to fill the papal treasury.",
+      "claim_text": "Samson had previously secured immense sums of money from Germany and Switzerland for the papal treasury before his Swiss indulgence campaign.",
+      "claim_type": "statistic",
+      "entities": ["Samson", "Germany", "Switzerland"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-056",
+      "paragraph": 22,
+      "quote": "Now he traversed Switzerland, attracting great crowds, despoiling the poor peasants of their scanty earnings, and exacting rich gifts from the wealthy classes.",
+      "claim_text": "Samson traveled through Switzerland selling indulgences, drawing large crowds and taking money from both poor peasants and wealthy classes.",
+      "claim_type": "event",
+      "entities": ["Samson", "Switzerland"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-057",
+      "paragraph": 22,
+      "quote": "Zwingle was still at Einsiedeln when Samson, soon after entering Switzerland, arrived with his wares at a neighboring town.",
+      "claim_text": "Zwingli was still stationed at Einsiedeln when Samson arrived with indulgences at a nearby town, soon after entering Switzerland.",
+      "claim_type": "event",
+      "entities": ["Ulrich Zwingli", "Samson", "Einsiedeln"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-058",
+      "paragraph": 22,
+      "quote": "Being apprised of his mission, the Reformer immediately set out to oppose him. The two did not meet, but such was Zwingle’s success in exposing the friar’s pretensions that he was obliged to leave for other quarters.",
+      "claim_text": "Zwingli, on learning of Samson's mission, acted to oppose him and succeeded in exposing his pretensions, forcing Samson to leave the area, though the two never met in person.",
+      "claim_type": "event",
+      "entities": ["Ulrich Zwingli", "Samson"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-059",
+      "paragraph": 23,
+      "quote": "At Zurich, Zwingle preached zealously against the pardon-mongers; and when Samson approached the place, he was met by a messenger from the council, with an intimation that he was expected to pass on.",
+      "claim_text": "Zwingli preached at Zurich against indulgence sellers, and when Samson approached Zurich he was met by a council messenger indicating he should move on.",
+      "claim_type": "event",
+      "entities": ["Ulrich Zwingli", "Samson", "Zurich"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-060",
+      "paragraph": 23,
+      "quote": "He finally secured an entrance by stratagem, but was sent away without the sale of a single pardon, and he soon after left Switzerland.",
+      "claim_text": "Samson entered Zurich by stratagem but left without selling a single pardon, and soon afterward departed Switzerland.",
+      "claim_type": "event",
+      "entities": ["Samson", "Zurich", "Switzerland"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-061",
+      "paragraph": 24,
+      "quote": "A strong impetus was given to the reform by the appearance of the plague, or “great death,” which swept over Switzerland in the year 1519.",
+      "claim_text": "A plague known as the \"great death\" swept over Switzerland in 1519, giving impetus to the Reformation.",
+      "claim_type": "date",
+      "entities": ["Switzerland"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-062",
+      "paragraph": 24,
+      "quote": "Zwingle at Zurich was smitten down; he was brought so low that all hope of his recovery was relinquished, and the report was widely circulated that he was dead.",
+      "claim_text": "Zwingli was struck down by the 1519 plague at Zurich and brought so low that his recovery was despaired of, and a report circulated that he had died.",
+      "claim_type": "biographical",
+      "entities": ["Ulrich Zwingli", "Zurich"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-063",
+      "paragraph": 24,
+      "quote": "When he came back from the gates of death, it was to preach the gospel with greater fervor than ever before; and his words exerted an unwonted power.",
+      "claim_text": "After recovering from the plague, Zwingli preached the gospel with greater fervor than before, and his preaching exerted unusual power.",
+      "claim_type": "event",
+      "entities": ["Ulrich Zwingli"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-064",
+      "paragraph": 25,
+      "quote": "“In Adam,” he said, “we are all dead, sunk in corruption and condemnation.”(254)",
+      "claim_text": "Zwingli is quoted teaching that in Adam, all humanity is dead, sunk in corruption and condemnation.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-065",
+      "paragraph": 25,
+      "quote": "“Christ ... has purchased for us a never-ending redemption ... His passion is ... an eternal sacrifice, and everlastingly effectual to heal; it satisfies the divine justice forever in behalf of all those who rely upon it with firm and unshaken faith.”",
+      "claim_text": "Zwingli is quoted teaching that Christ's passion is an eternal sacrifice that satisfies divine justice forever for those who rely on it with unshaken faith.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-066",
+      "paragraph": 25,
+      "quote": "“Wherever there is faith in God, there God is; and wherever God abideth, there a zeal exists urging and impelling men to good works.”(255)",
+      "claim_text": "Zwingli is quoted teaching that wherever there is faith in God, a zeal exists impelling men to good works.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-067",
+      "paragraph": 26,
+      "quote": "Such was the interest in Zwingle’s preaching that the cathedral was filled to overflowing with the crowds that came to listen to him.",
+      "claim_text": "Interest in Zwingli's preaching at Zurich was such that the cathedral was filled to overflowing with listeners.",
+      "claim_type": "statistic",
+      "entities": ["Ulrich Zwingli", "Zurich"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-068",
+      "paragraph": 27,
+      "quote": "One year before, the monk of Wittenberg had uttered his “No” to the pope and the emperor at Worms, and now everything seemed to indicate a similar withstanding of the papal claims at Zurich.",
+      "claim_text": "One year before these events at Zurich, Martin Luther had defied the pope and the emperor at the Diet of Worms.",
+      "claim_type": "date",
+      "entities": ["Martin Luther", "Worms", "Zurich"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-069",
+      "paragraph": 27,
+      "quote": "Accordingly the bishop of Constance dispatched three deputies to the Council of Zurich, accusing Zwingle of teaching the people to transgress the laws of the church, thus endangering the peace and good order of society.",
+      "claim_text": "The bishop of Constance sent three deputies to the Council of Zurich to accuse Zwingli of teaching the people to transgress church law and endanger social order.",
+      "claim_type": "event",
+      "entities": ["Ulrich Zwingli", "Constance", "Zurich"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-070",
+      "paragraph": 27,
+      "quote": "Zwingle replied that he had been for four years teaching the gospel in Zurich, “which was more quiet and peaceful than any other town in the confederacy.”",
+      "claim_text": "Zwingli replied to the bishop's deputies that he had been teaching the gospel in Zurich for four years, and that Zurich was more quiet and peaceful than any other town in the confederacy.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli", "Zurich"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-071",
+      "paragraph": 27,
+      "quote": "“Is not, then,” he said, “Christianity the best safeguard of the general security?”(256)",
+      "claim_text": "Zwingli is quoted asking the deputies whether Christianity was not the best safeguard of general security.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-072",
+      "paragraph": 28,
+      "quote": "“Let not this accusation move you. The foundation of the church is the same Rock, the same Christ, that gave Peter his name because he confessed Him faithfully. In every nation whosoever believes with all his heart in the Lord Jesus is accepted of God. Here, truly, is the church, out of which no one can be saved.”(257)",
+      "claim_text": "Zwingli is quoted responding to the bishop's deputies that the foundation of the church is Christ himself, and whoever believes in the Lord Jesus is accepted of God regardless of nation.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-073",
+      "paragraph": 28,
+      "quote": "As a result of the conference, one of the bishop’s deputies accepted the reformed faith.",
+      "claim_text": "As a result of the conference with the Council of Zurich, one of the bishop of Constance's deputies accepted the reformed faith.",
+      "claim_type": "event",
+      "entities": ["Constance", "Zurich"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-074",
+      "paragraph": 29,
+      "quote": "The council declined to take action against Zwingle, and Rome prepared for a fresh attack.",
+      "claim_text": "The Council of Zurich declined to take action against Zwingli, prompting Rome to prepare a fresh attack against him.",
+      "claim_type": "event",
+      "entities": ["Ulrich Zwingli", "Zurich", "Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-075",
+      "paragraph": 29,
+      "quote": "“Let them come on; I fear them as the beetling cliff fears the waves that thunder at its feet.”(258)",
+      "claim_text": "Zwingli is quoted saying he feared his enemies as little as a beetling cliff fears the waves thundering at its feet.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-076",
+      "paragraph": 29,
+      "quote": "In Germany its adherents, cast down by Luther’s disappearance, took heart again, as they saw the progress of the gospel in Switzerland.",
+      "claim_text": "Reform adherents in Germany, discouraged by Luther's disappearance, were encouraged again upon seeing the progress of the Reformation in Switzerland.",
+      "claim_type": "causal",
+      "entities": ["Martin Luther", "Germany", "Switzerland"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-077",
+      "paragraph": 30,
+      "quote": "“Peace has her habitation in our town,” wrote Zwingle; “no quarrel, no hypocrisy, no envy, no strife. Whence can such union come but from the Lord, and our doctrine, which fills us with the fruits of peace and piety?”(259)",
+      "claim_text": "Zwingli wrote that peace, free of quarrel, hypocrisy, envy, and strife, dwelt in Zurich as a fruit of the reformed doctrine.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ulrich Zwingli", "Zurich"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-078",
+      "paragraph": 31,
+      "quote": "They would hold a disputation with Zwingle, and having the arrangement of matters, they would make sure of victory by choosing, themselves, not only the place of the combat, but the judges that should decide between the disputants.",
+      "claim_text": "The Romanists planned a public disputation with Zwingli and arranged to choose both the location and the judges themselves to ensure victory.",
+      "claim_type": "event",
+      "entities": ["Ulrich Zwingli", "Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-079",
+      "paragraph": 32,
+      "quote": "The disputation was appointed to be held at Baden; but Zwingle was not present.",
+      "claim_text": "A public disputation on the Reformation was held at Baden, but Zwingli did not attend.",
+      "claim_type": "event",
+      "entities": ["Ulrich Zwingli", "Baden"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-080",
+      "paragraph": 32,
+      "quote": "The Council of Zurich, suspecting the designs of the papists, and warned by the burning piles kindled in the papal cantons for confessors of the gospel, forbade their pastor to expose himself to this peril.",
+      "claim_text": "The Council of Zurich, suspecting the papists' designs and citing executions of gospel confessors in the papal cantons, forbade Zwingli from attending the Baden disputation.",
+      "claim_type": "event",
+      "entities": ["Ulrich Zwingli", "Zurich", "Baden"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-081",
+      "paragraph": 32,
+      "quote": "Œcolampadius and Haller were chosen to represent the Reformers, while the famous Doctor Eck, supported by a host of learned doctors and prelates, was the champion of Rome.",
+      "claim_text": "At the Baden disputation, Œcolampadius and Haller represented the Reformers, while Doctor Johann Eck, supported by many learned doctors and prelates, represented Rome.",
+      "claim_type": "biographical",
+      "entities": ["Œcolampadius", "Haller", "Doctor Eck", "Baden"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-082",
+      "paragraph": 33,
+      "quote": "The secretaries were all chosen by the papists, and others were forbidden to take notes, on pain of death.",
+      "claim_text": "At the Baden disputation, all official secretaries were chosen by the papists, and others were forbidden, under penalty of death, from taking notes.",
+      "claim_type": "event",
+      "entities": ["Baden"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-083",
+      "paragraph": 33,
+      "quote": "A student in attendance at the disputation, made a record each evening of the arguments that day presented. These papers two other students undertook to deliver, with the daily letters of Œcolampadius, to Zwingle at Zurich.",
+      "claim_text": "A student at the Baden disputation recorded the day's arguments each evening, and two other students delivered these records along with Œcolampadius's daily letters to Zwingli at Zurich.",
+      "claim_type": "event",
+      "entities": ["Ulrich Zwingli", "Œcolampadius", "Baden", "Zurich"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-084",
+      "paragraph": 33,
+      "quote": "To elude the vigilance of the guard stationed at the city gates, these messengers brought baskets of poultry on their heads, and they were permitted to pass without hindrance.",
+      "claim_text": "The student messengers evaded guards at the city gates between Baden and Zurich by carrying baskets of poultry on their heads.",
+      "claim_type": "event",
+      "entities": ["Baden", "Zurich"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-085",
+      "paragraph": 34,
+      "quote": "He “has labored more,” said Myconius, “by his meditations, his sleepless nights, and the advice which he transmitted to Baden, than he would have done by discussing in person in the midst of his enemies.”(260)",
+      "claim_text": "Myconius said that Zwingli labored more through his meditations, sleepless nights, and advice sent to Baden than he would have by debating in person among his enemies.",
+      "claim_type": "attributed_quote",
+      "entities": ["Myconius", "Ulrich Zwingli", "Baden"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-086",
+      "paragraph": 35,
+      "quote": "The Romanists, flushed with anticipated triumph, had come to Baden attired in their richest robes and glittering with jewels. They fared luxuriously, their tables spread with the most costly delicacies and the choicest wines.",
+      "claim_text": "The Romanist delegation at the Baden disputation dressed in rich robes and jewels and dined luxuriously on costly delicacies and fine wines.",
+      "claim_type": "event",
+      "entities": ["Baden"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-087",
+      "paragraph": 35,
+      "quote": "In marked contrast appeared the Reformers, who were looked upon by the people as little better than a company of beggars, and whose frugal fare kept them but short time at table.",
+      "claim_text": "The Reformers at the Baden disputation were regarded by onlookers as little better than beggars, and ate frugally.",
+      "claim_type": "event",
+      "entities": ["Baden"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-088",
+      "paragraph": 35,
+      "quote": "Œcolampadius’s landlord, taking occasion to watch him in his room, found him always engaged in study or at prayer, and greatly wondering, reported that the heretic was at least “very pious.”",
+      "claim_text": "Œcolampadius's landlord at Baden observed him constantly studying or praying and reported that the \"heretic\" was at least very pious.",
+      "claim_type": "attributed_quote",
+      "entities": ["Œcolampadius", "Baden"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-089",
+      "paragraph": 36,
+      "quote": "“Eck haughtily ascended a pulpit splendidly decorated, while the humble Œcolampadius, meanly clothed, was forced to take his seat in front of his opponent on a rudely carved stool.”(261)",
+      "claim_text": "At the Baden disputation, Eck ascended a splendidly decorated pulpit while Œcolampadius, meanly clothed, sat on a rudely carved stool facing him.",
+      "claim_type": "attributed_quote",
+      "entities": ["Doctor Eck", "Œcolampadius", "Baden"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-090",
+      "paragraph": 36,
+      "quote": "His zeal was stimulated by the hope of gold as well as fame; for the defender of the faith was to be rewarded by a handsome fee.",
+      "claim_text": "Eck's zeal at the Baden disputation was stimulated by the prospect of a handsome monetary fee as well as fame.",
+      "claim_type": "biographical",
+      "entities": ["Doctor Eck", "Baden"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-091",
+      "paragraph": 37,
+      "quote": "he entered upon it with the solemn avowal, “I acknowledge no other standard of judgment than the word of God.”(262)",
+      "claim_text": "Œcolampadius opened the Baden disputation with the avowal that he acknowledged no standard of judgment other than the word of God.",
+      "claim_type": "attributed_quote",
+      "entities": ["Œcolampadius", "Baden"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-092",
+      "paragraph": 37,
+      "quote": "“Custom,” he said, “has no force in our Switzerland, unless it be according to the constitution; now, in matters of faith, the Bible is our constitution.”(263)",
+      "claim_text": "Œcolampadius argued at Baden that in Switzerland custom has no force unless it accords with the constitution, and that in matters of faith the Bible is that constitution.",
+      "claim_type": "attributed_quote",
+      "entities": ["Œcolampadius", "Switzerland", "Baden"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-093",
+      "paragraph": 38,
+      "quote": "The contrast between the two disputants was not without effect. The calm, clear reasoning of the Reformer, so gently and modestly presented, appealed to minds that turned in disgust from Eck’s boastful and boisterous assumptions.",
+      "claim_text": "The contrast between Œcolampadius's calm, modest reasoning and Eck's boastful manner at Baden influenced onlookers, turning some in favor of the Reformers.",
+      "claim_type": "interpretive",
+      "entities": ["Œcolampadius", "Doctor Eck", "Baden"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-09-094",
+      "paragraph": 39,
+      "quote": "The discussion continued eighteen days.",
+      "claim_text": "The Baden disputation continued for eighteen days.",
+      "claim_type": "statistic",
+      "entities": ["Baden"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-095",
+      "paragraph": 39,
+      "quote": "At its close, the papists with great confidence claimed the victory. Most of the deputies sided with Rome, and the Diet pronounced the Reformers vanquished, and declared that they, together with Zwingle, their leader, were cut off from the church.",
+      "claim_text": "At the close of the Baden disputation, most deputies sided with Rome, and the Diet declared the Reformers, along with Zwingli, cut off from the church.",
+      "claim_type": "event",
+      "entities": ["Ulrich Zwingli", "Baden", "Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-09-096",
+      "paragraph": 39,
+      "quote": "But the fruits of the conference revealed on which side the advantage lay. The contest resulted in a strong impetus to the Protestant cause, and it was not long afterward that the important cities of Bern and Basel declared for the Reformation.",
+      "claim_text": "Not long after the Baden disputation, the cities of Bern and Basel declared for the Reformation.",
+      "claim_type": "event",
+      "entities": ["Bern", "Basel"],
+      "needs_verification": true
+    }
+  ]
+}
