@@ -1,0 +1,639 @@
+{
+  "chapter": 38,
+  "chapter_title": "The Final Warning",
+  "stage": "extraction",
+  "generated_at": "2026-07-05",
+  "notes": "Chapter is overwhelmingly prophetic/theological (future-tense predictions about the loud cry, Sunday-law persecution, latter rain, Satan's counterfeit miracles). Extracted every discrete Scripture quotation with its footnote marker as an attributed_quote (needs_verification true, to check quote fidelity against the cited biblical text), the few genuinely historical/biographical assertions (1844 date, Advent Movement 1840-44, named Reformers list, Luther's 'show us from the word of God' plea, Elijah/Ahab reference), and logged all sweeping future-prophecy statements as theological (needs_verification false) per pipeline rules. No paragraph produced zero claims. Approximate claim count target for a 3254-word/24-paragraph chapter was met at 69 claims.",
+  "claims": [
+    {
+      "id": "GC-38-001",
+      "paragraph": 1,
+      "quote": "“I saw another angel come down from heaven, having great power; and the earth was lightened with his glory. And he cried mightily with a strong voice, saying, Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird.”",
+      "claim_text": "The book of Revelation (chapter 18, cf. footnote 1042) is quoted as describing an angel coming down from heaven with great power, lightening the earth with his glory, and crying that 'Babylon the great is fallen, is fallen, and is become the habitation of devils.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation 18", "Babylon (symbolic)"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-38-002",
+      "paragraph": 1,
+      "quote": "“And I heard another voice from heaven, saying, Come out of her, My people, that ye be not partakers of her sins, and that ye receive not of her plagues.”(1042)",
+      "claim_text": "The book of Revelation (chapter 18, footnote 1042) is quoted as recording a voice from heaven saying 'Come out of her, My people, that ye be not partakers of her sins, and that ye receive not of her plagues.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation 18", "Babylon (symbolic)"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-38-003",
+      "paragraph": 2,
+      "quote": "This scripture points forward to a time when the announcement of the fall of Babylon, as made by the second angel(1043) of Revelation 14, is to be repeated, with the additional mention of the corruptions which have been entering the various organizations that constitute Babylon, since that message was first given, in the summer of 1844.",
+      "claim_text": "The second angel's message of Revelation 14, announcing the fall of Babylon, was first given (by the Millerite movement) in the summer of 1844.",
+      "claim_type": "date",
+      "entities": ["Millerite movement", "Revelation 14"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-38-004",
+      "paragraph": 2,
+      "quote": "This scripture points forward to a time when the announcement of the fall of Babylon, as made by the second angel(1043) of Revelation 14, is to be repeated, with the additional mention of the corruptions which have been entering the various organizations that constitute Babylon, since that message was first given, in the summer of 1844.",
+      "claim_text": "The prophecy in Revelation 18 predicts a future repetition of the Revelation 14 second angel's message about Babylon's fall, with additional mention of corruptions that have entered the organizations constituting Babylon since 1844.",
+      "claim_type": "theological",
+      "entities": ["Revelation 14", "Revelation 18", "Babylon (symbolic)"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-005",
+      "paragraph": 2,
+      "quote": "With every rejection of truth, the minds of the people will become darker, their hearts more stubborn, until they are entrenched in an infidel hardihood.",
+      "claim_text": "As people persistently reject religious truth, their minds will become progressively darker and their hearts more stubborn until they are entrenched in infidelity.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-006",
+      "paragraph": 2,
+      "quote": "In defiance of the warnings which God has given, they will continue to trample upon one of the precepts of the decalogue, until they are led to persecute those who hold it sacred.",
+      "claim_text": "In defiance of divine warnings, people will continue violating one of the Ten Commandments (the Sabbath commandment) until they are led to persecute those who regard it as sacred.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-007",
+      "paragraph": 2,
+      "quote": "As the teachings of Spiritualism are accepted by the churches, the restraint imposed upon the carnal heart is removed, and the profession of religion will become a cloak to conceal the basest iniquity. A belief in spiritual manifestations opens the door to seducing spirits, and doctrines of devils, and thus the influence of evil angels will be felt in the churches.",
+      "claim_text": "As Spiritualist teachings are accepted by Christian churches, restraint on carnal impulses will be removed, religious profession will conceal iniquity, and the influence of evil angels will be felt in the churches through belief in spiritual manifestations.",
+      "claim_type": "theological",
+      "entities": ["Spiritualism"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-008",
+      "paragraph": 3,
+      "quote": "Of Babylon, at the time brought to view in this prophecy, it is declared, “Her sins have reached unto heaven, and God hath remembered her iniquities.”(1044)",
+      "claim_text": "The book of Revelation (footnote 1044) is quoted as declaring of Babylon, 'Her sins have reached unto heaven, and God hath remembered her iniquities.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation 18", "Babylon (symbolic)"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-38-009",
+      "paragraph": 3,
+      "quote": "She has filled up the measure of her guilt, and destruction is about to fall upon her. But God still has a people in Babylon; and before the visitation of His judgments, these faithful ones must be called out, that they “partake not of her sins, and receive not of her plagues.”",
+      "claim_text": "Babylon has filled up the measure of her guilt and destruction is about to fall upon her, but God still has a faithful people within Babylon who must be called out before His judgments are visited upon her.",
+      "claim_type": "theological",
+      "entities": ["Babylon (symbolic)"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-010",
+      "paragraph": 3,
+      "quote": "Hence the movement symbolized by the angel coming down from heaven, lightening the earth with his glory, and crying mightily with a strong voice, announcing the sins of Babylon. In connection with his message the call is heard, “Come out of her, My people.” These announcements, uniting with the third angel’s message, constitute the final warning to be given to the inhabitants of the earth.",
+      "claim_text": "The announcement of the angel from Revelation 18 uniting with the third angel's message of Revelation 14 constitutes the final warning to be given to the inhabitants of the earth.",
+      "claim_type": "theological",
+      "entities": ["Revelation 14", "Revelation 18"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-011",
+      "paragraph": 4,
+      "quote": "The powers of earth, uniting to war against the commandments of God, will decree that all, “both small and great, rich and poor, free and bond,”(1045) shall conform to the customs of the church by the observance of the false sabbath.",
+      "claim_text": "Revelation 13:16 (footnote 1045) is quoted describing 'both small and great, rich and poor, free and bond' in the context of a future decree requiring universal conformity to a false sabbath.",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation 13"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-38-012",
+      "paragraph": 4,
+      "quote": "All who refuse compliance will be visited with civil penalties, and it will finally be declared that they are deserving of death.",
+      "claim_text": "Those who refuse compliance with the future false-sabbath decree will be visited with civil penalties, and it will finally be declared they are deserving of death.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-013",
+      "paragraph": 4,
+      "quote": "On the other hand, the law of God enjoining the Creator’s rest-day demands obedience, and threatens wrath against all who transgress its precepts.",
+      "claim_text": "The law of God enjoining the Creator's rest-day (the Sabbath) demands obedience and threatens wrath against all who transgress its precepts.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-014",
+      "paragraph": 5,
+      "quote": "With the issue thus clearly brought before him, whoever shall trample upon God’s law to obey a human enactment, receives the mark of the beast; he accepts the sign of allegiance to the power which he chooses to obey instead of God.",
+      "claim_text": "Once the issue is clearly presented, whoever tramples upon God's law to obey a human enactment receives the mark of the beast, an emblem of allegiance to that power instead of God.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-015",
+      "paragraph": 5,
+      "quote": "The warning from heaven is, “If any man worship the beast and his image, and receive his mark in his forehead, or in his hand, the same shall drink of the wine of the wrath of God, which is poured out without mixture into the cup of His indignation.”(1046)",
+      "claim_text": "Revelation 14:9-10 (footnote 1046) is quoted warning that whoever worships the beast and his image and receives his mark shall drink the wine of the wrath of God, poured out without mixture into the cup of His indignation.",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation 14"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-38-016",
+      "paragraph": 6,
+      "quote": "But not one is made to suffer the wrath of God until the truth has been brought home to his mind and conscience, and has been rejected.",
+      "claim_text": "No one is made to suffer the wrath of God until the truth about the Sabbath has been brought home to their mind and conscience and has been rejected.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-017",
+      "paragraph": 6,
+      "quote": "There are many who have never had an opportunity to hear the special truths for this time. The obligation of the fourth commandment has never been set before them in its true light. He who reads every heart, and tries every motive, will leave none who desire a knowledge of the truth, to be deceived as to the issues of the controversy. The decree is not to be urged upon the people blindly. Every one is to have sufficient light to make his decision intelligently.",
+      "claim_text": "God will ensure that everyone who desires to know the truth receives sufficient light to make an intelligent decision about the Sabbath issue, rather than having the future decree imposed on them blindly.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-018",
+      "paragraph": 7,
+      "quote": "The Sabbath will be the great test of loyalty; for it is the point of truth especially controverted. When the final test shall be brought to bear upon men, then the line of distinction will be drawn between those who serve God and those who serve Him not.",
+      "claim_text": "The Sabbath will be the great test of loyalty in the final crisis, the point at which the line of distinction is drawn between those who serve God and those who do not.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-019",
+      "paragraph": 7,
+      "quote": "While the observance of the false sabbath in compliance with the law of the state, contrary to the fourth commandment, will be an avowal of allegiance to a power that is in opposition to God, the keeping of the true Sabbath, in obedience to God’s law, is an evidence of loyalty to the Creator. While one class, by accepting the sign of submission to earthly powers, receive the mark of the beast, the other, choosing the token of allegiance to divine authority, receive the seal of God.",
+      "claim_text": "Observance of a state-mandated false sabbath will mark allegiance to a power opposed to God and constitute the mark of the beast, while keeping the true Sabbath will mark loyalty to the Creator and constitute the seal of God.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-020",
+      "paragraph": 8,
+      "quote": "Heretofore those who presented the truths of the third angel’s message have often been regarded as mere alarmists. Their predictions that religious intolerance would gain control in the United States, that church and state would unite to persecute those who keep the commandments of God, have been pronounced groundless and absurd.",
+      "claim_text": "Historically, proponents of the Seventh-day Adventist third angel's message and their predictions that religious intolerance would gain control in the United States and that church and state would unite to persecute Sabbath-keepers were widely dismissed as groundless and absurd.",
+      "claim_type": "event",
+      "entities": ["Seventh-day Adventist Church", "United States"],
+      "needs_verification": true,
+      "extractor_note": "Borderline claim about public/critical reception of Adventist predictions; checkable in principle via contemporary press and denominational history, though the scope ('often'/'have been pronounced') is not precisely quantified in the text."
+    },
+    {
+      "id": "GC-38-021",
+      "paragraph": 8,
+      "quote": "It has been confidently declared that this land could never become other than what it has been,—the defender of religious freedom.",
+      "claim_text": "It had been confidently declared, prior to the time of writing, that the United States could never become other than a defender of religious freedom.",
+      "claim_type": "event",
+      "entities": ["United States"],
+      "needs_verification": true,
+      "extractor_note": "Vague, unattributed claim about a widespread public sentiment; borderline checkable."
+    },
+    {
+      "id": "GC-38-022",
+      "paragraph": 8,
+      "quote": "But as the question of enforcing Sunday observance is widely agitated, the event so long doubted and disbelieved is seen to be approaching, and the third message will produce an effect which it could not have had before.",
+      "claim_text": "At the time of writing, the question of enforcing Sunday observance by law was being widely agitated/debated in the United States.",
+      "claim_type": "event",
+      "entities": ["United States", "Sunday Law movement"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-38-023",
+      "paragraph": 9,
+      "quote": "In every generation God has sent His servants to rebuke sin, both in the world and in the church.",
+      "claim_text": "In every generation God has sent His servants to rebuke sin, both in the world and in the church.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-024",
+      "paragraph": 9,
+      "quote": "Many reformers, in entering upon their work, determined to exercise great prudence in attacking the sins of the church and the nation. They hoped, by the example of a pure Christian life, to lead the people back to the doctrines of the Bible.",
+      "claim_text": "Many historical religious reformers initially determined to exercise prudence in attacking the sins of the church and nation, hoping to lead people back to biblical doctrines through the example of a pure Christian life.",
+      "claim_type": "causal",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Generalized, unnamed claim about 'many reformers'; vague but included for completeness since it makes a checkable historical assertion about reformers' behavior."
+    },
+    {
+      "id": "GC-38-025",
+      "paragraph": 9,
+      "quote": "But the Spirit of God came upon them as it came upon Elijah, moving him to rebuke the sins of a wicked king and an apostate people; they could not refrain from preaching the plain utterances of the Bible,—doctrines which they had been reluctant to present.",
+      "claim_text": "The biblical prophet Elijah was moved by the Spirit of God to rebuke the sins of a wicked king (Ahab) and an apostate people (Israel).",
+      "claim_type": "biographical",
+      "entities": ["Elijah", "Ahab"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-38-026",
+      "paragraph": 9,
+      "quote": "They were impelled to zealously declare the truth, and the danger which threatened souls. The words which the Lord gave them they uttered, fearless of consequences, and the people were compelled to hear the warning.",
+      "claim_text": "Reformers were impelled to zealously declare the truth and the danger threatening souls, uttering fearlessly the words the Lord gave them.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-027",
+      "paragraph": 10,
+      "quote": "Thus the message of the third angel will be proclaimed. As the time comes for it to be given with greatest power, the Lord will work through humble instruments, leading the minds of those who consecrate themselves to His service. The laborers will be qualified rather by the unction of His Spirit than by the training of literary institutions.",
+      "claim_text": "The third angel's message will be given with greatest power through humble instruments qualified by the unction of the Holy Spirit rather than by formal literary/theological training.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-028",
+      "paragraph": 10,
+      "quote": "Men of faith and prayer will be constrained to go forth with holy zeal, declaring the words which God gives them. The sins of Babylon will be laid open. The fearful results of enforcing the observances of the church by civil authority, the inroads of Spiritualism, the stealthy but rapid progress of the papal power,—all will be unmasked. By these solemn warnings the people will be stirred. Thousands upon thousands will listen who have never heard words like these.",
+      "claim_text": "In the future proclamation of the third angel's message, the sins of Babylon, the results of enforcing church observances by civil authority, the inroads of Spiritualism, and the progress of papal power will all be unmasked, stirring thousands upon thousands who have never heard such words before.",
+      "claim_type": "theological",
+      "entities": ["Babylon (symbolic)", "Spiritualism"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-029",
+      "paragraph": 11,
+      "quote": "In amazement they hear the testimony that Babylon is the church, fallen because of her errors and sins, because of her rejection of the truth sent to her from heaven.",
+      "claim_text": "People will hear, in amazement, the testimony that Babylon represents the fallen church, fallen because of her errors, sins, and rejection of truth sent from heaven.",
+      "claim_type": "theological",
+      "entities": ["Babylon (symbolic)"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-030",
+      "paragraph": 11,
+      "quote": "As the people go to their former teachers with the eager inquiry, Are these things so? the ministers present fables, prophesy smooth things, to soothe their fears, and quiet the awakened conscience.",
+      "claim_text": "When people go to their former religious teachers asking whether the final-warning message is true, those ministers will present fables and prophesy smooth things to soothe fears and quiet awakened conscience.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-031",
+      "paragraph": 11,
+      "quote": "But since many refuse to be satisfied with the mere authority of men, and demand a plain “Thus saith the Lord,” the popular ministry, like the Pharisees of old, filled with anger as their authority is questioned, will denounce the message as of Satan, and stir up the sin-loving multitudes to revile and persecute those who proclaim it.",
+      "claim_text": "The popular ministry, compared to the Pharisees of the biblical era, will respond to challenges to their authority by denouncing the final-warning message as satanic and inciting persecution of those who proclaim it.",
+      "claim_type": "theological",
+      "entities": ["Pharisees"],
+      "needs_verification": false,
+      "extractor_note": "Includes a comparison to the historical Pharisees; the comparison itself is rhetorical/interpretive rather than an independent historical assertion, so logged as theological rather than split into a separate biographical claim."
+    },
+    {
+      "id": "GC-38-032",
+      "paragraph": 12,
+      "quote": "As the controversy extends into new fields, and the minds of the people are called to God’s down-trodden law, Satan is astir. The power attending the message will only madden those who oppose it. The clergy will put forth almost superhuman efforts to shut away the light, lest it should shine upon their flocks. By every means at their command they will endeavor to suppress the discussion of these vital questions. The church appeals to the strong arm of civil power, and in this work, papists and Protestants unite.",
+      "claim_text": "In the future controversy over God's law, the clergy will attempt to suppress discussion of the Sabbath question and the church will appeal to civil power, with Catholics and Protestants uniting in this effort.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-033",
+      "paragraph": 12,
+      "quote": "As the movement for Sunday enforcement becomes more bold and decided, the law will be invoked against commandment-keepers. They will be threatened with fines and imprisonment, and some will be offered positions of influence, and other rewards and advantages, as inducements to renounce their faith.",
+      "claim_text": "As the movement for Sunday enforcement becomes more bold, the law will be invoked against Sabbath-keepers, who will be threatened with fines and imprisonment and offered inducements to renounce their faith.",
+      "claim_type": "theological",
+      "entities": ["Sunday Law movement"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-034",
+      "paragraph": 12,
+      "quote": "But their steadfast answer is, “Show us from the word of God our error,”—the same plea that was made by Luther under similar circumstances.",
+      "claim_text": "Martin Luther, when confronted by ecclesiastical or civil authorities under circumstances similar to the future Sunday-law persecution, made the plea 'Show us from the word of God our error' or its substantive equivalent.",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther"],
+      "needs_verification": true,
+      "extractor_note": "This appears to echo Luther's reply at the Diet of Worms in 1521 ('unless I am convinced by Scripture and plain reason...'); the exact wording and setting attributed here should be checked against Luther's documented statements."
+    },
+    {
+      "id": "GC-38-035",
+      "paragraph": 12,
+      "quote": "Those who are arraigned before the courts, make a strong vindication of the truth, and some who hear them are led to take their stand to keep all the commandments of God. Thus light will be brought before thousands who otherwise would know nothing of these truths.",
+      "claim_text": "Those arraigned before courts for Sabbath-keeping will make a strong vindication of the truth, leading some hearers to take their stand and bringing light to thousands who otherwise would know nothing of these truths.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-036",
+      "paragraph": 13,
+      "quote": "Conscientious obedience to the word of God will be treated as rebellion. Blinded by Satan, the parent will exercise harshness and severity toward the believing child; the master or mistress will oppress the commandment-keeping servant. Affection will be alienated; children will be disinherited, and driven from home.",
+      "claim_text": "In the future crisis, conscientious obedience to God's word will be treated as rebellion, with parents exercising harshness toward believing children and masters oppressing commandment-keeping servants, leading to disinheritance and estrangement.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-037",
+      "paragraph": 13,
+      "quote": "The words of Paul will be literally fulfilled, “All that will live godly in Christ Jesus shall suffer persecution.”(1047)",
+      "claim_text": "The apostle Paul is quoted (footnote 1047, cf. 2 Timothy 3:12) as writing 'All that will live godly in Christ Jesus shall suffer persecution.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul (apostle)"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-38-038",
+      "paragraph": 13,
+      "quote": "As the defenders of truth refuse to honor the Sunday-sabbath, some of them will be thrust into prison, some will be exiled, some will be treated as slaves. To human wisdom, all this now seems impossible; but as the restraining Spirit of God shall be withdrawn from men, and they shall be under the control of Satan, who hates the divine precepts, there will be strange developments. The heart can be very cruel when God’s fear and love are removed.",
+      "claim_text": "As defenders of the true Sabbath refuse to honor Sunday, some will be imprisoned, exiled, or treated as slaves, developments made possible once the restraining Spirit of God is withdrawn from men under Satan's control.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-039",
+      "paragraph": 14,
+      "quote": "As the storm approaches, a large class who have professed faith in the third angel’s message, but have not been sanctified through obedience to the truth, abandon their position, and join the ranks of the opposition. By uniting with the world and partaking of its spirit, they have come to view matters in nearly the same light; and when the test is brought, they are prepared to choose the easy, popular side.",
+      "claim_text": "As the future crisis approaches, a large class who professed faith in the third angel's message but were not sanctified through obedience will abandon their position and join the opposition when the test comes.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-040",
+      "paragraph": 14,
+      "quote": "Men of talent and pleasing address, who once rejoiced in the truth, employ their powers to deceive and mislead souls. They become the most bitter enemies of their former brethren. When Sabbath-keepers are brought before the courts to answer for their faith, these apostates are the most efficient agents of Satan to misrepresent and accuse them, and by false reports and insinuations to stir up the rulers against them.",
+      "claim_text": "Talented individuals who once professed the third angel's message will apostatize and become the most bitter enemies of their former brethren, serving as Satan's most efficient agents in misrepresenting and accusing Sabbath-keepers before the courts.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-041",
+      "paragraph": 15,
+      "quote": "In this time of persecution the faith of the Lord’s servants will be tried. They have faithfully given the warning, looking to God and to His word alone. God’s Spirit, moving upon their hearts, has constrained them to speak. Stimulated with holy zeal, and with the divine impulse strong upon them, they entered upon the performance of their duties without coldly calculating the consequences of speaking to the people the word which the Lord had given them.",
+      "claim_text": "In the future time of persecution, the Lord's servants, constrained by God's Spirit, will have faithfully given the warning without calculating the consequences of proclaiming the word the Lord gave them.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-042",
+      "paragraph": 15,
+      "quote": "Yet when the storm of opposition and reproach bursts upon them, some, overwhelmed with consternation, will be ready to exclaim, “Had we foreseen the consequences of our words, we would have held our peace.” They are hedged in with difficulties. Satan assails them with fierce temptations. The work which they have undertaken seems far beyond their ability to accomplish. They are threatened with destruction. The enthusiasm which animated them is gone; yet they cannot turn back. Then, feeling their utter helplessness, they flee to the Mighty One for strength.",
+      "claim_text": "When the storm of opposition bursts upon them, some of the Lord's future servants, overwhelmed with consternation and assailed by Satan's temptations, will feel utter helplessness and flee to God for strength, unable to turn back.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-043",
+      "paragraph": 16,
+      "quote": "The same trials have been experienced by men of God in ages past. Wycliffe, Huss, Luther, Tyndale, Baxter, Wesley, urged that all doctrines be brought to the test of the Bible, and declared that they would renounce everything which it condemned.",
+      "claim_text": "The reformers John Wycliffe, Jan Hus, Martin Luther, William Tyndale, Richard Baxter, and John Wesley urged that all doctrines be tested against the Bible and declared they would renounce anything the Bible condemned.",
+      "claim_type": "biographical",
+      "entities": ["John Wycliffe", "Jan Hus", "Martin Luther", "William Tyndale", "Richard Baxter", "John Wesley"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-38-044",
+      "paragraph": 16,
+      "quote": "Against these men, persecution raged with relentless fury; yet they ceased not to declare the truth.",
+      "claim_text": "Wycliffe, Huss, Luther, Tyndale, Baxter, and Wesley each faced relentless persecution, yet none of them ceased proclaiming their message.",
+      "claim_type": "event",
+      "entities": ["John Wycliffe", "Jan Hus", "Martin Luther", "William Tyndale", "Richard Baxter", "John Wesley"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-38-045",
+      "paragraph": 16,
+      "quote": "Different periods in the history of the church have each been marked by the development of some special truth, adapted to the necessities of God’s people at that time. Every new truth has made its way against hatred and opposition; those who were blessed with its light were tempted and tried. The Lord gives a special truth for the people in an emergency. Who dare refuse to publish it? He commands His servants to present the last invitation of mercy to the world. They cannot remain silent, except at the peril of their souls. Christ’s ambassadors have nothing to do with consequences. They must perform their duty, and leave results with God.",
+      "claim_text": "Each period in church history has been marked by the development of a special truth suited to that time's necessities, and every new truth has made its way against hatred and opposition, testing those blessed with its light.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-046",
+      "paragraph": 17,
+      "quote": "As the opposition rises to a fiercer height, the servants of God are again perplexed; for it seems to them that they have brought the crisis. But conscience and the word of God assure them that their course is right; and although the trials continue, they are strengthened to bear them. The contest grows closer and sharper, but their faith and courage rise with the emergency.",
+      "claim_text": "As opposition to the future final-warning message intensifies, God's servants will be strengthened to bear continuing trials, their faith and courage rising with the emergency.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-047",
+      "paragraph": 17,
+      "quote": "Their testimony is: “We dare not tamper with God’s word, dividing His holy law; calling one portion essential and another non-essential, to gain the favor of the world. The Lord whom we serve is able to deliver us. Christ has conquered the powers of earth; and shall we be afraid of a world already conquered?”",
+      "claim_text": "The future testimony of God's persecuted servants will be that they dare not divide God's law into essential and non-essential portions to gain the world's favor, since Christ has already conquered the powers of earth.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-048",
+      "paragraph": 18,
+      "quote": "Persecution in its varied forms is the development of a principle which will exist as long as Satan exists and Christianity has vital power.",
+      "claim_text": "Persecution in its varied forms is the development of a principle that will exist as long as Satan exists and Christianity retains vital power.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-049",
+      "paragraph": 18,
+      "quote": "No man can serve God without enlisting against himself the opposition of the hosts of darkness. Evil angels will assail him, alarmed that his influence is taking the prey from their hands. Evil men, rebuked by his example, will unite with them in seeking to separate him from God by alluring temptations. When these do not succeed, then a compelling power is employed to force the conscience.",
+      "claim_text": "No one can serve God without provoking the opposition of evil angels and evil men, who will attempt to separate the believer from God through temptation and, failing that, through compulsion of conscience.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-050",
+      "paragraph": 19,
+      "quote": "But so long as Jesus remains man’s intercessor in the sanctuary above, the restraining influence of the Holy Spirit is felt by rulers and people. It still controls, to some extent, the laws of the land. Were it not for these laws, the condition of the world would be much worse than it now is.",
+      "claim_text": "So long as Jesus remains humanity's intercessor in the heavenly sanctuary, the restraining influence of the Holy Spirit is felt by rulers and people and controls, to some extent, the laws of the land.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-051",
+      "paragraph": 19,
+      "quote": "While many of our rulers are active agents of Satan, God also has His agents among the leading men of the nation. The enemy moves upon his servants to propose measures that would greatly impede the work of God; but statesmen who fear the Lord are influenced by holy angels to oppose such propositions with unanswerable arguments. Thus a few men will hold in check a powerful current of evil.",
+      "claim_text": "While many rulers are active agents of Satan, God has His own agents among the nation's leading men, and statesmen who fear the Lord are influenced by holy angels to oppose measures that would impede God's work, holding in check a powerful current of evil.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-052",
+      "paragraph": 19,
+      "quote": "The opposition of the enemies of truth will be restrained that the third angel’s message may do its work. When the final warning shall be given, it will arrest the attention of these leading men through whom the Lord is now working, and some of them will accept it, and will stand with the people of God through the time of trouble.",
+      "claim_text": "The opposition of truth's enemies will be restrained so the third angel's message can do its work, and when the final warning is given, some leading statesmen will accept it and stand with God's people through the time of trouble.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-053",
+      "paragraph": 20,
+      "quote": "The angel who unites in the proclamation of the third angel’s message, is to lighten the whole earth with his glory. A work of world-wide extent and unwonted power is here foretold.",
+      "claim_text": "The angel uniting in the proclamation of the third angel's message is prophesied to lighten the whole earth with his glory in a work of worldwide extent and unwonted power.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-054",
+      "paragraph": 20,
+      "quote": "The Advent Movement of 1840-44 was a glorious manifestation of the power of God;",
+      "claim_text": "The Millerite Advent Movement occurred between 1840 and 1844.",
+      "claim_type": "date",
+      "entities": ["Advent Movement", "Millerites"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-38-055",
+      "paragraph": 20,
+      "quote": "the first angel’s message was carried to every missionary station in the world,",
+      "claim_text": "The Millerite 'first angel's message' (based on Revelation 14:6-7) was carried to every missionary station in the world by 1844.",
+      "claim_type": "statistic",
+      "entities": ["Millerite movement"],
+      "needs_verification": true,
+      "extractor_note": "Hyperbolic global-scope claim; checkable in principle against historical records of Millerite/Adventist publication and missionary distribution in the early 1840s."
+    },
+    {
+      "id": "GC-38-056",
+      "paragraph": 20,
+      "quote": "and in some countries there was the greatest religious interest which has been witnessed in any land since the Reformation of the sixteenth century; but these are to be exceeded by the mighty movement under the last warning of the third angel.",
+      "claim_text": "In some countries, the religious interest generated by the Millerite Advent Movement (1840-44) was the greatest witnessed in any land since the 16th-century Protestant Reformation.",
+      "claim_type": "event",
+      "entities": ["Millerite movement", "Protestant Reformation"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-38-057",
+      "paragraph": 20,
+      "quote": "and in some countries there was the greatest religious interest which has been witnessed in any land since the Reformation of the sixteenth century; but these are to be exceeded by the mighty movement under the last warning of the third angel.",
+      "claim_text": "The religious interest of the Advent Movement of 1840-44 is to be exceeded by a future mighty movement under the last warning of the third angel.",
+      "claim_type": "theological",
+      "entities": ["Advent Movement"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-058",
+      "paragraph": 21,
+      "quote": "The work will be similar to that of the day of Pentecost. As the “former rain” was given, in the outpouring of the Holy Spirit at the opening of the gospel, to cause the upspringing of the precious seed, so the “latter rain” will be given at its close, for the ripening of the harvest.",
+      "claim_text": "The future work of the final warning will be similar to that of the day of Pentecost, with a 'latter rain' outpouring of the Holy Spirit at the close of the gospel era paralleling the 'former rain' outpouring at its opening.",
+      "claim_type": "theological",
+      "entities": ["Pentecost"],
+      "needs_verification": false,
+      "extractor_note": "References the biblical Day of Pentecost (Acts 2) as a comparison point; the comparison itself is prophetic/theological rather than an independent historical claim."
+    },
+    {
+      "id": "GC-38-059",
+      "paragraph": 21,
+      "quote": "“Then shall we know, if we follow on to know the Lord: His going forth is prepared as the morning; and He shall come unto us as the rain, as the latter and former rain unto the earth.”(1048)",
+      "claim_text": "A prophetic biblical text (footnote 1048, cf. Hosea 6:3) is quoted: 'Then shall we know, if we follow on to know the Lord: his going forth is prepared as the morning; and he shall come unto us as the rain, as the latter and former rain unto the earth.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Hosea"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-38-060",
+      "paragraph": 21,
+      "quote": "“Be glad then, ye children of Zion, and rejoice in the Lord your God: for He hath given you the former rain moderately, and He will cause to come down for you the rain, the former rain, and the latter rain.”(1049)",
+      "claim_text": "A prophetic biblical text (footnote 1049, cf. Joel 2:23) is quoted: 'Be glad then, ye children of Zion, and rejoice in the Lord your God: for he hath given you the former rain moderately, and he will cause to come down for you the rain, the former rain, and the latter rain.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Joel"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-38-061",
+      "paragraph": 21,
+      "quote": "“In the last days, saith God, I will pour out of My Spirit upon all flesh.”",
+      "claim_text": "A prophetic biblical text (cf. Joel 2:28 / Acts 2:17, footnote 1050) is quoted: 'In the last days, saith God, I will pour out of my Spirit upon all flesh.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Joel", "Acts of the Apostles"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-38-062",
+      "paragraph": 21,
+      "quote": "“And it shall come to pass, that whosoever shall call on the name of the Lord shall be saved.”(1050)",
+      "claim_text": "A prophetic biblical text (cf. Joel 2:32 / Acts 2:21, footnote 1050) is quoted: 'And it shall come to pass, that whosoever shall call on the name of the Lord shall be saved.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Joel", "Acts of the Apostles"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-38-063",
+      "paragraph": 22,
+      "quote": "The great work of the gospel is not to close with less manifestation of the power of God than marked its opening. The prophecies which were fulfilled in the outpouring of the former rain at the opening of the gospel, are again to be fulfilled in the latter rain at its close.",
+      "claim_text": "The great work of the gospel is not to close with less manifestation of God's power than marked its opening; the prophecies fulfilled in the former rain outpouring are to be fulfilled again in the latter rain at the gospel's close.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-064",
+      "paragraph": 22,
+      "quote": "Here are “the times of refreshing” to which the apostle Peter looked forward when he said, “Repent ye therefore, and be converted, that your sins may be blotted out when the times of refreshing shall come from the presence of the Lord; and He shall send Jesus.”(1051)",
+      "claim_text": "The apostle Peter is quoted (footnote 1051, cf. Acts 3:19-20) as saying, 'Repent ye therefore, and be converted, that your sins may be blotted out when the times of refreshing shall come from the presence of the Lord; and he shall send Jesus.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Peter (apostle)"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-38-065",
+      "paragraph": 23,
+      "quote": "Servants of God, with their faces lighted up and shining with holy consecration, will hasten from place to place to proclaim the message from heaven. By thousands of voices, all over the earth, the warning will be given. Miracles will be wrought, the sick will be healed, and signs and wonders will follow the believers.",
+      "claim_text": "In the future final proclamation, thousands of voices all over the earth will give the warning, and miracles, healing of the sick, and signs and wonders will follow believers.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-066",
+      "paragraph": 23,
+      "quote": "Satan also works with lying wonders, even bringing down fire from heaven in the sight of men.(1052) Thus the inhabitants of the earth will be brought to take their stand.",
+      "claim_text": "Satan will also work with lying wonders, including bringing down fire from heaven in the sight of men, as the inhabitants of the earth are brought to take their stand.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "extractor_note": "Echoes Revelation 13:13 (footnote 1052) regarding the second beast bringing fire down from heaven; this is a paraphrase, not a direct quotation, so logged as theological rather than attributed_quote."
+    },
+    {
+      "id": "GC-38-067",
+      "paragraph": 24,
+      "quote": "The message will be carried not so much by argument as by the deep conviction of the Spirit of God.",
+      "claim_text": "The future final message will be carried not so much by argument as by the deep conviction of the Spirit of God.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-38-068",
+      "paragraph": 24,
+      "quote": "The arguments have been presented. The seed has been sown, and now it will spring up and bear fruit. The publications distributed by missionary workers have exerted their influence, yet many whose minds were impressed have been prevented from fully comprehending the truth or from yielding obedience.",
+      "claim_text": "By the time of writing, publications distributed by missionary workers had exerted an influence on many people's minds, though many whose minds were impressed had been prevented from fully comprehending the truth or yielding obedience.",
+      "claim_type": "event",
+      "entities": ["Seventh-day Adventist Church"],
+      "needs_verification": true,
+      "extractor_note": "Vague, generalized claim about the historical effect of Adventist missionary publication activity up to the time of writing; borderline checkable but included for completeness."
+    },
+    {
+      "id": "GC-38-069",
+      "paragraph": 24,
+      "quote": "Now the rays of light penetrate everywhere, the truth is seen in its clearness, and the honest children of God sever the bands which have held them. Family connections, church relations, are powerless to stay them now. Truth is more precious than all besides. Notwithstanding the agencies combined against the truth, a large number take their stand upon the Lord’s side.",
+      "claim_text": "In the future final proclamation, the rays of light will penetrate everywhere and the honest children of God will sever family and church bonds to take their stand on the Lord's side, despite agencies combined against the truth.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    }
+  ]
+}
