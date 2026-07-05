@@ -1,0 +1,1670 @@
+{
+  "chapter": 40,
+  "chapter_title": "God's People Delivered",
+  "stage": "impact",
+  "generated_at": "2026-07-05",
+  "notes": "Chapter argument reconstruction: Chapter 40 is the climactic eschatological set-piece of the book's central thesis chain — it dramatizes the final deliverance of the Sabbath-keeping remnant established in ch. 39, moving through the death decree, the midnight deliverance, the pronouncement of the law from heaven (vindicating the Sabbath as God's seal), the second coming, the special and general resurrections, and the redeemed's entry into the New Jerusalem, closing on the cross as the eternal 'science and song' of the saved. The chapter carries almost no independent historical or biographical weight of its own: its load-bearing material is a dense mosaic of Old and New Testament prophetic and apocalyptic quotations (Isaiah, Daniel, Psalms, Malachi, Revelation, the Gospels) stitched into a single continuous vision, plus faithful retellings of Gospel passion-narrative and Genesis/Exodus scenes (Stephen's vision, Moses at Sinai, the crucifixion mockery, Adam's lifespan and fall). The claims that carry the chapter's persuasive weight are therefore either (a) attributed Scripture quotations, whose only checkable dimension is textual fidelity to the KJV/verse identification, or (b) explicitly theological/visionary assertions (evil angels, the voice of God, the vision of the executive judgment, Adam's stature, the joy of Christ) that are unverifiable by definition. Stage outcome: verification found 0 contradicted, 0 misquotation, 0 anachronistic, and 0 disputed claims (72 supported, 33 unverifiable); the defender pass therefore had nothing in scope (no defense objects added, notes carried over: 'Pass-through... Examined: 0'). Per the zero-discrepancy convention, no impact objects are added in this file: all 105 claims are carried forward verbatim from adversarial/gc_ch40.defended.json with frozen fields untouched, and the chapter-level assessment is recorded here rather than per-claim. Applicable narrative_arc for the chapter as a whole: eschatological (final deliverance, second coming, resurrection, New Jerusalem — the terminus of the cosmic-conflict chain). One item merits an explicit non-scored note: GC-40-050 (Herod's soldiers mocking/crowning Jesus) stayed verdict 'supported' at confidence 'medium' in verification — the defender rationale flags that White's phrase harmonizes Herod's mockery (Luke 23:11) with the crown-of-thorns mockery actually carried out later by Pilate's Roman soldiers (Matthew 27:27-29); this is a harmonizing retelling, not an accusatory verdict, so it never entered defender scope and is not scored here. No load-bearing discrepancies exist in this chapter because no discrepancies (contradicted/misquotation/anachronistic/disputed) exist at all — the chapter's argument rests entirely on quotation-fidelity claims (all verified faithful) and unfalsifiable theological/visionary claims, so the question of the argument surviving subtraction of erroneous supports does not arise for ch. 40.",
+  "claims": [
+    {
+      "id": "GC-40-001",
+      "paragraph": 1,
+      "quote": "When the protection of human laws shall be withdrawn from those who honor the law of God, there will be, in different lands, a simultaneous movement for their destruction.",
+      "claim_text": "The chapter predicts that when human legal protection is withdrawn from Sabbath-keepers, there will be a simultaneous movement in different lands to destroy them.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Future-prophetic prediction of a final worldwide persecution; supernatural/eschatological content that cannot be verified true or false (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-002",
+      "paragraph": 1,
+      "quote": "As the time appointed in the decree draws near, the people will conspire to root out the hated sect.",
+      "claim_text": "As the time appointed in a future decree draws near, the general populace will conspire to root out the persecuted Sabbath-keeping group.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Future-prophetic prediction; not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-003",
+      "paragraph": 1,
+      "quote": "It will be determined to strike in one night a decisive blow, which shall utterly silence the voice of dissent and reproof.",
+      "claim_text": "It will be determined to strike, in a single night, a decisive blow intended to utterly silence the voice of dissent and reproof from God's people.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Future-prophetic prediction; not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-004",
+      "paragraph": 2,
+      "quote": "The people of God—some in prison cells, some hidden in solitary retreats in the forests and the mountains—still plead for divine protection, while in every quarter companies of armed men, urged on by hosts of evil angels, are preparing for the work of death.",
+      "claim_text": "At this future crisis, God's people, some imprisoned and some hidden in forests and mountains, plead for divine protection while armed men, urged on by evil angels, prepare to kill them.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "extractor_note": "Includes supernatural agency (evil angels) alongside the future-historical prediction; treated as a single theological claim.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Future-prophetic scene with supernatural agency (evil angels); not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-005",
+      "paragraph": 2,
+      "quote": "It is now, in the hour of utmost extremity, that the God of Israel will interpose for the deliverance of His chosen.",
+      "claim_text": "At the hour of utmost extremity, God will interpose to deliver His chosen people.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological assertion of divine intervention; not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-006",
+      "paragraph": 2,
+      "quote": "Saith the Lord: “Ye shall have a song, as in the night when a holy solemnity is kept; and gladness of heart, as when one goeth ... to come into the mountain of Jehovah, to the Mighty One of Israel. And the Lord shall cause His glorious voice to be heard, and shall show the lighting down of His arm, with the indignation of His anger, and with the flame of a devouring fire, with scattering, and tempest, and hailstones.”",
+      "claim_text": "The text attributes to 'the Lord' a quotation promising a song of holy solemnity, God's glorious voice, and the descent of His arm with anger, devouring fire, scattering, tempest, and hailstones.",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1091); text corresponds to Isaiah 30:29-30.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Extractor's verse identification confirmed: quotation is Isaiah 30:29-30. Wording is faithful to the KJV, with 'Jehovah' and 'Mighty One of Israel' reflecting a revised-version rendering of the Tetragrammaton and the ellipsis (...) replacing 'with a pipe'. Meaning preserved; accurate citation.",
+        "sources": [
+          {"title": "Isaiah 30:29-30 KJV", "url": "https://www.kingjamesbibleonline.org/Isaiah-30-30/", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-40-007",
+      "paragraph": 3,
+      "quote": "Then a rainbow, shining with the glory from the throne of God, spans the heavens, and seems to encircle each praying company.",
+      "claim_text": "In the vision, a rainbow shining with the glory of God's throne spans the heavens and appears to encircle each company of praying believers.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Visionary/eschatological imagery; not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-008",
+      "paragraph": 3,
+      "quote": "With shouts of triumph, jeering, and imprecation, throngs of evil men are about to rush upon their prey, when, lo, a dense blackness, deeper than the darkness of the night, falls upon the earth.",
+      "claim_text": "As throngs of evil men are about to rush upon their prey, a dense blackness, deeper than ordinary night, falls upon the earth and arrests the angry multitudes.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Future-prophetic vision scene; not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-009",
+      "paragraph": 4,
+      "quote": "By the people of God a voice, clear and melodious, is heard, saying, “Look up,” and lifting their eyes to the heavens, they behold the bow of promise.",
+      "claim_text": "God's people hear a voice saying 'Look up' and, lifting their eyes, behold the bow of promise in the sky.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Visionary scene; not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-010",
+      "paragraph": 4,
+      "quote": "and like Stephen they look up steadfastly into heaven, and see the glory of God, and the Son of man seated upon His throne.",
+      "claim_text": "The chapter compares God's people at this moment to Stephen, who looked up steadfastly into heaven and saw the glory of God and the Son of man.",
+      "claim_type": "biographical",
+      "entities": ["Stephen"],
+      "needs_verification": true,
+      "extractor_note": "Alludes to the account of Stephen's martyrdom vision in Acts 7:55-56.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful allusion to Acts 7:55-56, in which Stephen 'looked up stedfastly into heaven, and saw the glory of God, and Jesus standing on the right hand of God ... the Son of man.' Accurately reflects the biblical narrative it retells.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-011",
+      "paragraph": 4,
+      "quote": "and from His lips they hear the request, presented before His Father and the holy angels, “I will that they also, whom Thou hast given Me, be with Me where I am.”",
+      "claim_text": "The text attributes to Jesus, addressed to His Father and the holy angels, the words 'I will that they also, whom Thou hast given Me, be with Me where I am.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1092); corresponds to John 17:24.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: John 17:24, 'Father, I will that they also, whom thou hast given me, be with me where I am.' Quotation faithful to KJV. (Duplicate of the same verse in GC-40-074.)",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-012",
+      "paragraph": 4,
+      "quote": "Again a voice, musical and triumphant, is heard, saying: “They come! they come! holy, harmless, and undefiled. They have kept the word of My patience; they shall walk among the angels;”",
+      "claim_text": "A triumphant voice in the vision declares 'They come! they come! holy, harmless, and undefiled. They have kept the word of My patience; they shall walk among the angels.'",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "extractor_note": "Not carrying one of the chapter's numbered footnotes; presented as part of White's own composed vision narrative rather than a discrete Scripture citation.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "White's own composed visionary utterance (echoing phrases such as 'holy, harmless, undefiled' from Heb 7:26 and 'the word of my patience' from Rev 3:10); presented as vision narrative, not a Scripture citation. Not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-013",
+      "paragraph": 5,
+      "quote": "It is at midnight that God manifests His power for the deliverance of His people.",
+      "claim_text": "According to the vision, God manifests His power for the deliverance of His people at midnight.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological/visionary assertion; not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-014",
+      "paragraph": 5,
+      "quote": "whence comes the voice of God like the sound of many waters, saying, “It is done.”",
+      "claim_text": "The text attributes to the voice of God, sounding like many waters, the words 'It is done.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1093); corresponds to Revelation 16:17.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Revelation 16:17, 'there came a great voice out of the temple of heaven, from the throne, saying, It is done.' Quotation faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-015",
+      "paragraph": 6,
+      "quote": "That voice shakes the heavens and the earth. There is a mighty earthquake, “such as was not since men were upon the earth, so mighty an earthquake, and so great.”",
+      "claim_text": "The text quotes a description of a mighty earthquake 'such as was not since men were upon the earth, so mighty an earthquake, and so great.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1094); corresponds to Revelation 16:18.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Revelation 16:18, 'there was a great earthquake, such as was not since men were upon the earth, so mighty an earthquake, and so great.' Quotation faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-016",
+      "paragraph": 6,
+      "quote": "Babylon the Great has come in remembrance before God, “to give unto her the cup of the wine of the fierceness of His wrath.”",
+      "claim_text": "The text quotes that 'Babylon the Great' comes into remembrance before God so that she is given 'the cup of the wine of the fierceness of His wrath.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1095); corresponds to Revelation 16:19.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Revelation 16:19, 'great Babylon came in remembrance before God, to give unto her the cup of the wine of the fierceness of his wrath.' Quotation faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-017",
+      "paragraph": 6,
+      "quote": "Great hailstones, every one “about the weight of a talent,” are doing their work of destruction.",
+      "claim_text": "The text quotes that great hailstones, each about the weight of a talent, cause destruction.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Revelation 16:21; not marked with one of the chapter's numbered footnotes in this instance.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Revelation 16:21, 'there fell upon men a great hail out of heaven, every stone about the weight of a talent.' Quoted phrase faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-018",
+      "paragraph": 6,
+      "quote": "Mountain chains are sinking. Inhabited islands disappear. The seaports that have become like Sodom for wickedness, are swallowed up by the angry waters.",
+      "claim_text": "In the vision, mountain chains sink, inhabited islands disappear, and wicked seaports are swallowed by the sea.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Future-prophetic vision scene (echoing Rev 16:20); not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-019",
+      "paragraph": 6,
+      "quote": "Prison walls are rent asunder, and God’s people, who have been held in bondage for their faith, are set free.",
+      "claim_text": "In the vision, prison walls are torn apart and God's people, held in bondage for their faith, are set free.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Visionary/eschatological scene; not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-020",
+      "paragraph": 7,
+      "quote": "Graves are opened, and “many of them that sleep in the dust of the earth ... awake, some to everlasting life, and some to shame and everlasting contempt.”",
+      "claim_text": "The text quotes that graves open and many who sleep in the dust of the earth awake, some to everlasting life and some to shame and everlasting contempt.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1096); corresponds to Daniel 12:2.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Daniel 12:2, 'many of them that sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.' Quotation faithful to KJV (ellipsis omits 'shall').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-021",
+      "paragraph": 7,
+      "quote": "“They also which pierced Him,” those that mocked and derided Christ’s dying agonies, and the most violent opposers of His truth and His people, are raised to behold Him in His glory, and to see the honor placed upon the loyal and obedient.",
+      "claim_text": "The text quotes 'they also which pierced Him' in describing that Christ's dying-agony mockers and violent opposers are resurrected to behold Him in His glory.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1097); corresponds to Revelation 1:7.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Revelation 1:7, 'and they also which pierced him.' Quoted phrase faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-022",
+      "paragraph": 7,
+      "quote": "All who have died in the faith of the third angel’s message come forth from the tomb glorified, to hear God’s covenant of peace with those who have kept His law.",
+      "claim_text": "All who died holding the Adventist 'third angel's message' are resurrected glorified at this point in the vision.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample check of a needs_verification:false item. Eschatological claim about a special resurrection of Adventist believers; supernatural/future content, not verifiable (CLAUDE.md rule 5). Extractor's false-flag is correct; no smuggled empirical assertion.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-023",
+      "paragraph": 8,
+      "quote": "Demons acknowledge the deity of Christ, and tremble before His power, while men are supplicating for mercy, and groveling in abject terror.",
+      "claim_text": "In the vision, demons acknowledge Christ's deity and tremble before His power while men beg for mercy in terror.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural/visionary scene; not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-024",
+      "paragraph": 9,
+      "quote": "Said the prophets of old, as they beheld in holy vision the day of God: “Howl ye; for the day of the Lord is at hand; it shall come as a destruction from the Almighty.”",
+      "claim_text": "The text attributes to 'the prophets of old' the quotation 'Howl ye; for the day of the Lord is at hand; it shall come as a destruction from the Almighty.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1098); corresponds to Isaiah 13:6.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Isaiah 13:6, 'Howl ye; for the day of the LORD is at hand; it shall come as a destruction from the Almighty.' Quotation verbatim KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-025",
+      "paragraph": 9,
+      "quote": "“Enter into the rock, and hide thee in the dust, for fear of the Lord, and for the glory of His majesty. The lofty looks of man shall be humbled, and the haughtiness of men shall be bowed down, and the Lord alone shall be exalted in that day. For the day of the Lord of hosts shall be upon every one that is proud and lofty, and upon every one that is lifted up; and he shall be brought low.” “In that day a man shall cast the idols of his silver, and the idols of his gold, which they made each one for himself to worship, to the moles and to the bats; to go into the clefts of the rocks, and into the tops of the ragged rocks, for fear of the Lord, and for the glory of His majesty, when He ariseth to shake terribly the earth.”",
+      "claim_text": "The text quotes a prophetic passage about men hiding from the Lord's glory, the humbling of the proud, and men casting away their idols of silver and gold when the Lord arises to shake the earth.",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1099); corresponds to a composite of Isaiah 2:10, 2:12, 2:19-21.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Composite of Isaiah 2:10, 2:12, and 2:19-21, faithful to KJV; the two quotation blocks correspond to those verse groups. Accurate acknowledged composite citation from a single chapter.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-026",
+      "paragraph": 10,
+      "quote": "Through a rift in the clouds, there beams a star whose brilliancy is increased fourfold in contrast with the darkness.",
+      "claim_text": "In the vision, a star of fourfold brilliancy beams through a rift in the clouds.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Visionary imagery; not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-027",
+      "paragraph": 10,
+      "quote": "Their voices rise in triumphant song: “God is our refuge and strength, a very present help in trouble. Therefore will not we fear, though the earth be removed, and though the mountains be carried into the midst of the sea; though the waters thereof roar and be troubled, though the mountains shake with the swelling thereof.”",
+      "claim_text": "The delivered faithful are described singing the quoted words 'God is our refuge and strength, a very present help in trouble... though the mountains shake with the swelling thereof.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1100); corresponds to Psalm 46:1-3.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Psalm 46:1-3, quotation verbatim KJV ('God is our refuge and strength, a very present help in trouble ... though the mountains shake with the swelling thereof').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-028",
+      "paragraph": 11,
+      "quote": "Then there appears against the sky a hand holding two tables of stone folded together.",
+      "claim_text": "In the vision, a hand holding two folded tables of stone appears against the sky.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Visionary imagery; not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-029",
+      "paragraph": 11,
+      "quote": "Says the prophet, “The heavens shall declare His righteousness: for God is judge Himself.”",
+      "claim_text": "The text attributes to 'the prophet' the quotation 'The heavens shall declare His righteousness: for God is judge Himself.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1101); corresponds to Psalm 50:6.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Psalm 50:6, 'And the heavens shall declare his righteousness: for God is judge himself.' Quotation faithful to KJV. (Duplicate of same verse in GC-40-094.)",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-030",
+      "paragraph": 11,
+      "quote": "That holy law, God’s righteousness, that amid thunder and flame was proclaimed from Sinai as the guide of life, is now revealed to men as the rule of judgment.",
+      "claim_text": "The Ten Commandments were originally proclaimed from Mount Sinai amid thunder and flame.",
+      "claim_type": "event",
+      "entities": ["Moses", "Sinai"],
+      "needs_verification": true,
+      "extractor_note": "References the giving of the Decalogue at Sinai as narrated in Exodus 19-20.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful retelling of Exodus 19:16-20 and 20:1-17: the Decalogue was proclaimed from Sinai amid thunder, lightning, fire and smoke ('mount Sinai was altogether on a smoke ... the LORD descended upon it in fire'). Verdict assesses fidelity to the biblical narrative, not the independent historicity of the Exodus event.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-031",
+      "paragraph": 12,
+      "quote": "“Then shall ye return, and discern between the righteous and the wicked, between him that serveth God and him that serveth Him not.”",
+      "claim_text": "The text quotes 'Then shall ye return, and discern between the righteous and the wicked, between him that serveth God and him that serveth Him not.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1102); corresponds to Malachi 3:18.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Malachi 3:18, 'Then shall ye return, and discern between the righteous and the wicked, between him that serveth God and him that serveth him not.' Quotation verbatim KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-032",
+      "paragraph": 12,
+      "quote": "The Lord gave them His law; they might have compared their characters with it, and learned their defects while there was yet opportunity for repentance and reform; but in order to secure the favor of the world, they set aside its precepts and taught others to transgress.",
+      "claim_text": "The wicked had opportunity for repentance by comparing their characters to God's law, but set aside its precepts and taught others to transgress in order to secure the world's favor.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/moral interpretation; not empirically verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-033",
+      "paragraph": 13,
+      "quote": "Too late they see that the Sabbath of the fourth commandment is the seal of the living God.",
+      "claim_text": "The claim that the Sabbath of the fourth commandment is the seal of the living God.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Doctrinal assertion (Sabbath as 'the seal of the living God'); a theological interpretation, not a claim about early-liturgical history, so no escalation cluster applies. Not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-034",
+      "paragraph": 13,
+      "quote": "Religious teachers have led souls to perdition while professing to guide them to the gates of Paradise.",
+      "claim_text": "Religious teachers, professing to guide souls to Paradise, have instead led them to perdition.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/moral interpretation; not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-035",
+      "paragraph": 14,
+      "quote": "The voice of God is heard from heaven, declaring the day and hour of Jesus’ coming, and delivering the everlasting covenant to His people.",
+      "claim_text": "In the vision, the voice of God from heaven declares the day and hour of Jesus' coming and delivers the everlasting covenant to His people.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological/visionary scene; not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-036",
+      "paragraph": 14,
+      "quote": "Their countenances are lighted up with His glory, and shine as did the face of Moses when he came down from Sinai.",
+      "claim_text": "Moses' face shone with light when he came down from Mount Sinai.",
+      "claim_type": "biographical",
+      "entities": ["Moses", "Sinai"],
+      "needs_verification": true,
+      "extractor_note": "References Exodus 34:29-30.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reference to Exodus 34:29-30: 'the skin of his face shone while he talked with him ... the skin of Moses' face shone.' Accurately reflects the biblical narrative retold.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-037",
+      "paragraph": 15,
+      "quote": "Soon there appears in the east a small black cloud, about half the size of a man’s hand.",
+      "claim_text": "In the vision, a small black cloud, about half the size of a man's hand, appears in the east as the sign of the Son of man.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "extractor_note": "Echoes the cloud imagery of 1 Kings 18:44 (Elijah), applied here without a footnote as part of the vision narrative.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample check of a needs_verification:false item. Future-prophetic vision imagery (echoing the cloud 'like a man's hand' of 1 Kings 18:44); supernatural/eschatological, not verifiable (CLAUDE.md rule 5). Extractor's false-flag is correct; no smuggled empirical assertion.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-038",
+      "paragraph": 15,
+      "quote": "“Faithful and true,” “in righteousness He doth judge and make war.” And “the armies which were in heaven follow Him.”",
+      "claim_text": "The text quotes 'Faithful and true,' 'in righteousness He doth judge and make war,' and 'the armies which were in heaven follow Him' as describing Christ's return.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1103); corresponds to Revelation 19:11,14.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Revelation 19:11 ('Faithful and True, and in righteousness he doth judge and make war') and 19:14 ('And the armies which were in heaven followed him'). Quoted phrases faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-039",
+      "paragraph": 15,
+      "quote": "“His glory covered the heavens, and the earth was full of His praise. And His brightness was as the light.”",
+      "claim_text": "The text quotes 'His glory covered the heavens, and the earth was full of His praise. And His brightness was as the light.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1104); corresponds to Habakkuk 3:3-4.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Verse identification confirmed: Habakkuk 3:3-4, 'His glory covered the heavens, and the earth was full of his praise. And his brightness was as the light.' Web-verified verbatim against KJV.",
+        "sources": [
+          {"title": "Habakkuk 3:3 KJV", "url": "https://www.kingjamesbibleonline.org/Habakkuk-3-3/", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-40-040",
+      "paragraph": 15,
+      "quote": "“And He hath on His vesture and on His thigh a name written, King of kings, and Lord of lords.”",
+      "claim_text": "The text quotes 'And He hath on His vesture and on His thigh a name written, King of kings, and Lord of lords.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1105); corresponds to Revelation 19:16.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Revelation 19:16, 'And he hath on his vesture and on his thigh a name written, KING OF KINGS, AND LORD OF LORDS.' Quotation verbatim KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-041",
+      "paragraph": 16,
+      "quote": "Before His presence, “all faces are turned into paleness;” upon the rejecters of God’s mercy falls the terror of eternal despair. “The heart melteth, and the knees smite together,” “and the faces of them all gather blackness.”",
+      "claim_text": "The text quotes that before Christ's presence 'all faces are turned into paleness,' 'the heart melteth, and the knees smite together,' and 'the faces of them all gather blackness.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1106); corresponds to Jeremiah 30:6 and Nahum 2:10.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Composite confirmed: 'all faces are turned into paleness' from Jeremiah 30:6; 'the heart melteth, and the knees smite together' and 'the faces of them all gather blackness' from Nahum 2:10. Web-verified verbatim against KJV.",
+        "sources": [
+          {"title": "Nahum 2:10 KJV", "url": "https://www.kingjamesbibleonline.org/Nahum-2-10/", "source_class": "primary", "supports_verdict": true},
+          {"title": "Jeremiah 30:6 KJV", "url": "https://www.bible.com/bible/1/JER.30.6.KJV", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-40-042",
+      "paragraph": 16,
+      "quote": "Then the voice of Jesus is heard, saying, “My grace is sufficient for you.”",
+      "claim_text": "The text attributes to Jesus, in the vision, the words 'My grace is sufficient for you.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to 2 Corinthians 12:9; no numbered footnote given at this instance.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Source identification confirmed: 2 Corinthians 12:9, 'My grace is sufficient for thee' (the Lord's word to Paul). White renders 'for you' and applies it as Christ's word to His people; wording otherwise faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-043",
+      "paragraph": 17,
+      "quote": "“Our God shall come, and shall not keep silence: a fire shall devour before Him, and it shall be very tempestuous round about Him. He shall call to the heavens from above, and to the earth, that He may judge His people.”",
+      "claim_text": "The text quotes 'Our God shall come, and shall not keep silence: a fire shall devour before Him... that He may judge His people.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1107); corresponds to Psalm 50:3-4.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Psalm 50:3-4, verbatim KJV ('Our God shall come, and shall not keep silence: a fire shall devour before him ... that he may judge his people').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-044",
+      "paragraph": 18,
+      "quote": "“And the kings of the earth, and the great men, and the rich men, and the chief captains, and the mighty men, and every bondman, and every freeman, hid themselves in the dens and in the rocks of the mountains; and said to the mountains and rocks, Fall on us, and hide us from the face of Him that sitteth on the throne, and from the wrath of the Lamb: for the great day of His wrath is come; and who shall be able to stand?”",
+      "claim_text": "The text quotes that kings, great men, rich men, chief captains, mighty men, and every bondman and freeman hid themselves in dens and rocks, begging the mountains to fall on them and hide them from the wrath of the Lamb.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1108); corresponds to Revelation 6:15-17.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Revelation 6:15-17, quotation verbatim KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-045",
+      "paragraph": 19,
+      "quote": "The clash of arms, the tumult of battle, “with confused noise, and garments rolled in blood,” is stilled.",
+      "claim_text": "The text quotes the phrase 'with confused noise, and garments rolled in blood' in describing the stilling of battle.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1109); corresponds to Isaiah 9:5.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Isaiah 9:5, 'every battle of the warrior is with confused noise, and garments rolled in blood.' Quoted phrase faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-046",
+      "paragraph": 19,
+      "quote": "The cry bursts forth from lips so lately scoffing, “The great day of His wrath is come; and who shall be able to stand?”",
+      "claim_text": "The text describes the wicked, who had lately been scoffing, crying out 'The great day of His wrath is come; and who shall be able to stand?'",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "extractor_note": "Repeats the Revelation 6:17 wording already logged in claim GC-40-044 (footnote 1108), here narrated as the wicked's own reaction rather than as the source citation itself.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Visionary narration placing the Revelation 6:17 words in the mouths of the wicked (already verified in GC-40-044). As a scene it is future-prophetic and not verifiable (CLAUDE.md rule 5); the underlying quotation is faithful KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-047",
+      "paragraph": 20,
+      "quote": "as that voice which has so long pleaded, “Turn ye, turn ye from your evil ways; for why will ye die?”",
+      "claim_text": "The text quotes the voice of Christ as having long pleaded 'Turn ye, turn ye from your evil ways; for why will ye die?'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1110); corresponds to Ezekiel 33:11.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Ezekiel 33:11, 'turn ye, turn ye from your evil ways; for why will ye die, O house of Israel?' Quoted phrase faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-048",
+      "paragraph": 20,
+      "quote": "Says Jesus: “I have called, and ye refused; I have stretched out My hand, and no man regarded; but ye have set at naught all My counsel, and would none of My reproof.”",
+      "claim_text": "The text attributes to Jesus the quotation 'I have called, and ye refused; I have stretched out My hand, and no man regarded; but ye have set at naught all My counsel, and would none of My reproof.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1111); corresponds to Proverbs 1:24-25.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Proverbs 1:24-25 (Wisdom's words), 'Because I have called, and ye refused; I have stretched out my hand, and no man regarded; But ye have set at nought all my counsel, and would none of my reproof.' Quotation faithful to KJV; applied to Christ.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-049",
+      "paragraph": 21,
+      "quote": "With thrilling power come to their minds the Sufferer’s words, when, adjured by the high priest, He solemnly declared, “Hereafter shall ye see the Son of man sitting on the right hand of power, and coming in the clouds of heaven.”",
+      "claim_text": "Jesus, when adjured by the high priest, declared 'Hereafter shall ye see the Son of man sitting on the right hand of power, and coming in the clouds of heaven.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1112); corresponds to Matthew 26:63-64 / Mark 14:61-62.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Matthew 26:64 (Jesus before the high priest), 'Hereafter shall ye see the Son of man sitting on the right hand of power, and coming in the clouds of heaven.' Quotation verbatim KJV; narrative context (adjured by the high priest) matches Matthew 26:63.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-050",
+      "paragraph": 22,
+      "quote": "There is the haughty Herod who jeered at His royal title, and bade the mocking soldiers crown Him king.",
+      "claim_text": "Herod jeered at Jesus' royal title and had mocking soldiers crown Him king.",
+      "claim_type": "event",
+      "entities": ["Herod", "Jesus"],
+      "needs_verification": true,
+      "extractor_note": "References Luke 23:11.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luke 23:11 records that Herod Antipas 'with his men of war set him at nought, and mocked him, and arrayed him in a gorgeous robe' - a mockery of Jesus' royal claim. White's phrase 'bade the mocking soldiers crown Him king' harmonizes Herod's mockery with the crown-of-thorns/king-mockery carried out by Pilate's Roman soldiers (Matthew 27:27-29), which the Gospels attribute to a later scene. This is a conflating retelling rather than a factual error about Herod; confidence medium to flag the harmonization.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-051",
+      "paragraph": 22,
+      "quote": "There are the very men who with impious hands placed upon His form the purple robe, upon His sacred brow the thorny crown, and in His unresisting hand the mimic scepter, and bowed before Him in blasphemous mockery.",
+      "claim_text": "Soldiers placed a purple robe, a crown of thorns, and a mock scepter on Jesus and bowed before Him in mockery.",
+      "claim_type": "event",
+      "entities": ["Jesus"],
+      "needs_verification": true,
+      "extractor_note": "References Matthew 27:28-29.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful retelling of the soldiers' mockery: Matthew 27:28-29 (robe, crown of thorns, reed as mock scepter, bowing), with 'purple robe' from Mark 15:17/John 19:2 (Matthew says 'scarlet'). Details accurately harmonized from the Gospel passion narratives.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-052",
+      "paragraph": 22,
+      "quote": "The men who smote and spit upon the Prince of life, now turn from His piercing gaze, and seek to flee from the overpowering glory of His presence.",
+      "claim_text": "Men struck and spat upon Jesus during His trial/passion.",
+      "claim_type": "event",
+      "entities": ["Jesus"],
+      "needs_verification": true,
+      "extractor_note": "References Matthew 26:67.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reference to Matthew 26:67, 'Then did they spit in his face, and buffeted him; and others smote him.' Accurately reflects the Gospel passion narrative.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-053",
+      "paragraph": 22,
+      "quote": "Those who drove the nails through His hands and feet, the soldier who pierced His side, behold these marks with terror and remorse.",
+      "claim_text": "Soldiers drove nails through Jesus' hands and feet, and a soldier pierced His side with a spear.",
+      "claim_type": "event",
+      "entities": ["Jesus"],
+      "needs_verification": true,
+      "extractor_note": "References the crucifixion nailing and John 19:34 (the piercing of Jesus' side).",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reference to the crucifixion narrative: the nailing (implied throughout the Gospels; cf. John 20:25 'the print of the nails') and John 19:34, 'one of the soldiers with a spear pierced his side.' Accurately reflects the Gospel account.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-054",
+      "paragraph": 23,
+      "quote": "With shuddering horror they remember how, wagging their heads in satanic exultation, they exclaimed: “He saved others; Himself He cannot save. If He be the King of Israel, let Him now come down from the cross, and we will believe Him. He trusted in God; let Him deliver Him now, if He will have Him.”",
+      "claim_text": "Priests and rulers, wagging their heads at the cross, said of Jesus 'He saved others; Himself He cannot save. If He be the King of Israel, let Him now come down from the cross, and we will believe Him. He trusted in God; let Him deliver Him now, if He will have Him.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1113); corresponds to Matthew 27:42-43.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Matthew 27:42-43, verbatim KJV ('He saved others; himself he cannot save. If he be the King of Israel ... He trusted in God; let him deliver him now, if he will have him'). The 'wagging their heads' detail matches Matthew 27:39.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-055",
+      "paragraph": 24,
+      "quote": "Vividly they recall the Saviour’s parable of the husbandmen who refused to render to their lord the fruit of the vineyard, who abused his servants and slew his son.",
+      "claim_text": "Jesus told a parable of husbandmen who refused to render to their lord the fruit of the vineyard, abused his servants, and killed his son.",
+      "claim_type": "event",
+      "entities": ["Jesus"],
+      "needs_verification": true,
+      "extractor_note": "References the parable of the wicked husbandmen, Matthew 21:33-41 (also Mark 12:1-9, Luke 20:9-16).",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful summary of the Parable of the Wicked Husbandmen, Matthew 21:33-41 (par. Mark 12:1-9; Luke 20:9-16): tenants withhold the fruit, beat/kill the servants, and kill the son. Accurately reflects the Gospel parable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-056",
+      "paragraph": 24,
+      "quote": "They remember, too, the sentence which they themselves pronounced: The lord of the vineyard “will miserably destroy those wicked men.”",
+      "claim_text": "In the parable, when asked what the lord of the vineyard would do, the chief priests/elders answered that he 'will miserably destroy those wicked men.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Matthew 21:41.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Matthew 21:41, 'They say unto him, He will miserably destroy those wicked men.' Quoted phrase verbatim KJV; the hearers do pronounce this sentence on themselves.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-057",
+      "paragraph": 24,
+      "quote": "Louder than the shout, “Crucify Him! crucify Him!” which rang through the streets of Jerusalem, swells the awful, despairing wail, “He is the Son of God! He is the true Messiah!”",
+      "claim_text": "A crowd in Jerusalem shouted 'Crucify Him! crucify Him!' regarding Jesus.",
+      "claim_type": "event",
+      "entities": ["Jesus"],
+      "needs_verification": true,
+      "extractor_note": "References the Gospel crowd scenes, e.g. Luke 23:21, John 19:6,15.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reference to the Gospel crowd cry, 'Crucify him, crucify him' (Luke 23:21; John 19:6,15). Accurately reflects the passion narrative.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-058",
+      "paragraph": 25,
+      "quote": "But what are these compared with the remorse of that day when “fear cometh as desolation,” when “destruction cometh as a whirlwind”!",
+      "claim_text": "The text quotes 'fear cometh as desolation' and 'destruction cometh as a whirlwind' to describe the remorse of the wicked at that day.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1114); corresponds to Proverbs 1:27.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Proverbs 1:27, 'When your fear cometh as desolation, and your destruction cometh as a whirlwind.' Quoted phrases faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-059",
+      "paragraph": 25,
+      "quote": "In the midst of their terror they hear the voices of the saints in joyful strains exclaiming, “Lo, this is our God; we have waited for Him, and He will save us.”",
+      "claim_text": "The text quotes the saints exclaiming 'Lo, this is our God; we have waited for Him, and He will save us.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1115); corresponds to Isaiah 25:9.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Isaiah 25:9, 'Lo, this is our God; we have waited for him, and he will save us.' Quotation verbatim KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-060",
+      "paragraph": 26,
+      "quote": "He looks upon the graves of the righteous, then raising His hands to heaven He cries, “Awake, awake, awake, ye that sleep in the dust, and arise!”",
+      "claim_text": "The text quotes the Son of God calling, over the graves of the righteous, 'Awake, awake, awake, ye that sleep in the dust, and arise!'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus"],
+      "needs_verification": true,
+      "extractor_note": "Echoes Isaiah 26:19; no numbered footnote at this instance.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Source identification confirmed: echoes Isaiah 26:19, 'Awake and sing, ye that dwell in dust.' Presented as Christ's visionary summons at the resurrection, an acknowledged rhetorical expansion ('Awake, awake, awake') rather than a verbatim citation; consistent with the scriptural text.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-061",
+      "paragraph": 26,
+      "quote": "From the prison-house of death they come, clothed with immortal glory, crying, “O death, where is thy sting? O grave, where is thy victory?”",
+      "claim_text": "The text quotes the resurrected as crying 'O death, where is thy sting? O grave, where is thy victory?'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1116); corresponds to 1 Corinthians 15:55.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: 1 Corinthians 15:55, 'O death, where is thy sting? O grave, where is thy victory?' Quotation verbatim KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-062",
+      "paragraph": 27,
+      "quote": "Adam, who stands among the risen throng, is of lofty height and majestic form, in stature but little below the Son of God. He presents a marked contrast to the people of later generations; in this one respect is shown the great degeneracy of the race.",
+      "claim_text": "The resurrected Adam is of lofty height and majestic form, only slightly below the Son of God in stature, in contrast to later generations who show the physical degeneracy of the human race.",
+      "claim_type": "theological",
+      "entities": ["Adam"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample check of a needs_verification:false item. Contains a latent quasi-empirical assertion (Adam of near-divine stature; progressive physical 'degeneracy of the race' across generations) that echoes 19th-century antediluvian-giant beliefs and is not supported by physical anthropology; but the claim is grounded in White's resurrection vision of Adam and rests on no accessible evidence either way (Adam's stature is not measurable). Untestable, so unverifiable stands. Note the smuggled empirical component per the control-sample instruction; extractor's false-flag is defensible.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-063",
+      "paragraph": 27,
+      "quote": "Restored to the tree of life in the long-lost Eden, the redeemed will “grow up” to the full stature of the race in its primeval glory.",
+      "claim_text": "The text quotes that the redeemed, restored to the tree of life in Eden, will 'grow up' to the full stature of the race in its primeval glory.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1117); the phrase 'grow up' echoes Malachi 4:2.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Source identification confirmed: the quoted phrase 'grow up' echoes Malachi 4:2, 'ye shall go forth, and grow up as calves of the stall.' The two-word citation is faithful to KJV; surrounding framing is White's theological application.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-064",
+      "paragraph": 27,
+      "quote": "Christ’s faithful ones will appear “in the beauty of the Lord our God,” in mind and soul and body reflecting the perfect image of their Lord.",
+      "claim_text": "The text quotes that Christ's faithful ones will appear 'in the beauty of the Lord our God.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Psalm 90:17; no numbered footnote at this instance.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Source identification confirmed: Psalm 90:17, 'And let the beauty of the LORD our God be upon us.' Quoted phrase faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-065",
+      "paragraph": 28,
+      "quote": "The living righteous are changed “in a moment, in the twinkling of an eye.”",
+      "claim_text": "The text quotes that the living righteous are changed 'in a moment, in the twinkling of an eye.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to 1 Corinthians 15:52; no numbered footnote at this instance.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: 1 Corinthians 15:52, 'In a moment, in the twinkling of an eye.' Quoted phrase verbatim KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-066",
+      "paragraph": 28,
+      "quote": "Angels “gather together the elect from the four winds, from one end of heaven to the other.”",
+      "claim_text": "The text quotes that angels 'gather together the elect from the four winds, from one end of heaven to the other.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Matthew 24:31; no numbered footnote at this instance.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Matthew 24:31, 'they shall gather together his elect from the four winds, from one end of heaven to the other.' Quotation faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-067",
+      "paragraph": 29,
+      "quote": "as the chariot rolls upward, the wheels cry, “Holy,” and the wings, as they move, cry, “Holy,” and the retinue of angels cry, “Holy, holy, holy, Lord God Almighty.”",
+      "claim_text": "The text quotes the wheels, wings, and angels around the ascending chariot crying 'Holy,' 'Holy,' and 'Holy, holy, holy, Lord God Almighty.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Composite imagery drawing on Ezekiel 1 (living creatures/wheels) and Revelation 4:8 (the thrice-holy cry); no single numbered footnote given.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Source identification confirmed: composite of Ezekiel 1 (chariot/wheels/living creatures) and Revelation 4:8, 'Holy, holy, holy, Lord God Almighty.' The quoted thrice-holy cry is faithful to KJV; the chariot/wheels-crying imagery is White's acknowledged visionary composition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-068",
+      "paragraph": 29,
+      "quote": "And the redeemed shout “Alleluia!” as the chariot moves onward toward the New Jerusalem.",
+      "claim_text": "The text quotes the redeemed shouting 'Alleluia!' as the chariot moves toward the New Jerusalem.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Echoes Revelation 19:1,3,4,6.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Source identification confirmed: 'Alleluia' echoes Revelation 19:1,3,4,6, where the heavenly multitude cries 'Alleluia.' The single-word acclamation is faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-069",
+      "paragraph": 30,
+      "quote": "every glance is fixed upon Him, every eye beholds His glory whose “visage was so marred more than any man, and His form more than the sons of men.”",
+      "claim_text": "The text quotes that Christ's visage 'was so marred more than any man, and His form more than the sons of men.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Isaiah 52:14; no numbered footnote at this instance.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Isaiah 52:14, 'his visage was so marred more than any man, and his form more than the sons of men.' Quotation verbatim KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-070",
+      "paragraph": 30,
+      "quote": "For each there is a crown, bearing his own “new name,” and the inscription, “Holiness to the Lord.”",
+      "claim_text": "The text quotes that each crown given to the redeemed bears the wearer's own 'new name' and the inscription 'Holiness to the Lord.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1118) for 'new name' (Revelation 2:17); 'Holiness to the Lord' echoes Exodus 28:36 / Zechariah 14:20.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Source identifications confirmed: 'new name' from Revelation 2:17, 'I will give him ... a new name'; 'Holiness to the Lord' from Exodus 28:36 (also Zechariah 14:20), 'HOLINESS TO THE LORD.' Both quoted phrases faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-071",
+      "paragraph": 30,
+      "quote": "each voice is raised in grateful praise: “Unto Him that loved us, and washed us from our sins in His own blood, and hath made us kings and priests unto God and His Father; to Him be glory and dominion forever and ever.”",
+      "claim_text": "The text quotes the redeemed's praise: 'Unto Him that loved us, and washed us from our sins in His own blood, and hath made us kings and priests unto God and His Father; to Him be glory and dominion forever and ever.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1119); corresponds to Revelation 1:5-6.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Revelation 1:5-6, verbatim KJV ('Unto him that loved us, and washed us from our sins in his own blood, And hath made us kings and priests unto God and his Father; to him be glory and dominion for ever and ever').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-072",
+      "paragraph": 31,
+      "quote": "Jesus opens wide the pearly gates, and the nations that have kept the truth enter in. There they behold the Paradise of God, the home of Adam in his innocency.",
+      "claim_text": "In the vision, Jesus opens the pearly gates of the holy city and the redeemed nations enter and behold the Paradise of God, the original home of Adam in his innocence.",
+      "claim_type": "theological",
+      "entities": ["Jesus", "Adam"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological/visionary scene; not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-073",
+      "paragraph": 31,
+      "quote": "Then that voice, richer than any music that ever fell on mortal ear, is heard, saying, “Your conflict is ended.” “Come, ye blessed of My Father, inherit the kingdom prepared for you from the foundation of the world.”",
+      "claim_text": "The text quotes a voice saying 'Your conflict is ended' and 'Come, ye blessed of My Father, inherit the kingdom prepared for you from the foundation of the world.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus"],
+      "needs_verification": true,
+      "extractor_note": "The second sentence corresponds to Matthew 25:34; no numbered footnote given here.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed for the second sentence: Matthew 25:34, 'Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundation of the world' (verbatim KJV). 'Your conflict is ended' is White's own composed line, not attributed as Scripture.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-074",
+      "paragraph": 32,
+      "quote": "Now is fulfilled the Saviour’s prayer for His disciples, “I will that they also whom Thou hast given Me be with Me where I am.”",
+      "claim_text": "The text quotes Jesus' prayer for His disciples, 'I will that they also whom Thou hast given Me be with Me where I am,' as now fulfilled.",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to John 17:24; duplicate citation of the same verse already logged in GC-40-011 (footnote 1092).",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: John 17:24, faithful to KJV. Duplicate of GC-40-011 (same verse); not re-researched.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-075",
+      "paragraph": 32,
+      "quote": "“Faultless before the presence of His glory with exceeding joy,” Christ presents to the Father the purchase of His blood, declaring, “Here am I, and the children whom Thou hast given Me.”",
+      "claim_text": "The text quotes 'Faultless before the presence of His glory with exceeding joy' and has Christ declaring to the Father 'Here am I, and the children whom Thou hast given Me.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1120) for the first phrase, corresponding to Jude 1:24; the second phrase echoes Hebrews 2:13 / Isaiah 8:18.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "First phrase web-verified: Jude 1:24, 'to present you faultless before the presence of his glory with exceeding joy' (verbatim KJV). Second phrase 'Here am I, and the children whom Thou hast given Me' from Hebrews 2:13 (citing Isaiah 8:18), faithful to KJV.",
+        "sources": [
+          {"title": "Jude 1:24 KJV", "url": "https://www.kingjamesbibleonline.org/Jude-1-24/", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-40-076",
+      "paragraph": 32,
+      "quote": "“Those that Thou gavest Me I have kept.”",
+      "claim_text": "The text quotes Christ declaring 'Those that Thou gavest Me I have kept.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to John 17:12; no numbered footnote at this instance.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Source identification confirmed: John 17:12, 'those that thou gavest me I have kept.' Quoted phrase faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-077",
+      "paragraph": 33,
+      "quote": "The Saviour’s joy is in seeing, in the kingdom of glory, the souls that have been saved by His agony and humiliation.",
+      "claim_text": "The Saviour's joy consists in seeing, in the kingdom of glory, the souls saved through His agony and humiliation.",
+      "claim_type": "theological",
+      "entities": ["Jesus"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about Christ's motives/joy; not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-078",
+      "paragraph": 34,
+      "quote": "As Adam discerns the prints of the cruel nails, he does not fall upon the bosom of his Lord, but in humiliation casts himself at His feet, crying, “Worthy, worthy is the Lamb that was slain!”",
+      "claim_text": "In the vision, Adam, seeing the nail-prints on Christ, casts himself at Christ's feet crying 'Worthy, worthy is the Lamb that was slain!'",
+      "claim_type": "attributed_quote",
+      "entities": ["Adam", "Jesus"],
+      "needs_verification": true,
+      "extractor_note": "The acclamation echoes Revelation 5:12.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Source identification confirmed: the acclamation echoes Revelation 5:12, 'Worthy is the Lamb that was slain.' White repeats 'worthy' and places it in Adam's mouth within the vision; faithful to the scriptural phrase. The surrounding scene is visionary narration.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-079",
+      "paragraph": 35,
+      "quote": "With patient humility he bore, for nearly a thousand years, the penalty of transgression.",
+      "claim_text": "Adam bore the penalty of his transgression, with patient humility, for nearly a thousand years before his death.",
+      "claim_type": "biographical",
+      "entities": ["Adam"],
+      "needs_verification": true,
+      "extractor_note": "Genesis 5:5 gives Adam's total lifespan as 930 years; checkable against that figure.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Genesis 5:5, 'all the days that Adam lived were nine hundred and thirty years: and he died.' 930 years is fairly described as 'nearly a thousand years'; the arithmetic/rounding is accurate to the biblical figure. Verdict assesses fidelity to the Genesis text, not the historicity of a 930-year lifespan.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-080",
+      "paragraph": 35,
+      "quote": "Faithfully did he repent of his sin, and trust in the merits of the promised Saviour, and he died in the hope of a resurrection.",
+      "claim_text": "Adam faithfully repented of his sin, trusted in the merits of the promised Saviour, and died in the hope of a resurrection.",
+      "claim_type": "theological",
+      "entities": ["Adam"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about Adam's inner faith/repentance; not recorded in Scripture and not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-081",
+      "paragraph": 36,
+      "quote": "He touches the golden harp, and the vaults of heaven echo the triumphant song, “Worthy, worthy, worthy is the Lamb that was slain, and lives again!”",
+      "claim_text": "The text quotes Adam's song 'Worthy, worthy, worthy is the Lamb that was slain, and lives again!'",
+      "claim_type": "attributed_quote",
+      "entities": ["Adam"],
+      "needs_verification": true,
+      "extractor_note": "Variant of the Revelation 5:12 acclamation.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Source identification confirmed: an expanded echo of Revelation 5:12, 'Worthy is the Lamb that was slain.' The added 'and lives again' is White's visionary expansion within a song attributed to Adam, not a claim to verbatim citation; the core acclamation is faithful to the scriptural phrase.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-082",
+      "paragraph": 37,
+      "quote": "This reunion is witnessed by the angels who wept at the fall of Adam, and rejoiced when Jesus, after His resurrection, ascended to heaven, having opened the grave for all who should believe on His name.",
+      "claim_text": "Jesus ascended to heaven after His resurrection.",
+      "claim_type": "event",
+      "entities": ["Jesus"],
+      "needs_verification": true,
+      "extractor_note": "References the ascension narrated in Acts 1:9; the angelic weeping/rejoicing is theological and not separately verifiable.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reference to the Ascension, Acts 1:9, 'he was taken up; and a cloud received him out of their sight' (also Luke 24:51). Verdict assesses fidelity to the New Testament narrative; the angelic weeping/rejoicing is theological and separately unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-083",
+      "paragraph": 38,
+      "quote": "Upon the crystal sea before the throne, that sea of glass as it were mingled with fire,—so resplendent is it with the glory of God,—are gathered the company that have “gotten the victory over the beast, and over his image, and over his mark, and over the number of his name.”",
+      "claim_text": "The text quotes that a company gathered on the sea of glass has 'gotten the victory over the beast, and over his image, and over his mark, and over the number of his name.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1121); corresponds to Revelation 15:2.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Revelation 15:2, 'them that had gotten the victory over the beast, and over his image, and over his mark, and over the number of his name.' Quotation faithful to KJV; the 'sea of glass mingled with fire' matches 15:2 as well.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-084",
+      "paragraph": 38,
+      "quote": "With the Lamb upon Mount Zion, “having the harps of God,” they stand, the hundred and forty and four thousand that were redeemed from among men; and there is heard, as the sound of many waters, and as the sound of a great thunder, “the voice of harpers harping with their harps.”",
+      "claim_text": "The text quotes that 144,000 redeemed stand with the Lamb on Mount Zion 'having the harps of God,' and 'the voice of harpers harping with their harps' is heard.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1122); corresponds to Revelation 14:1-2.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Revelation 14:1-2, 'a Lamb stood on the mount Sion, and with him an hundred forty and four thousand ... the voice of harpers harping with their harps.' 'Having the harps of God' matches Revelation 15:2; quoted phrases faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-085",
+      "paragraph": 38,
+      "quote": "And they sing “a new song” before the throne, a song which no man can learn save the hundred and forty and four thousand.",
+      "claim_text": "The text quotes that the 144,000 sing 'a new song' before the throne, which no other can learn.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Revelation 14:3; no numbered footnote at this instance.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Revelation 14:3, 'they sung as it were a new song before the throne ... no man could learn that song but the hundred and forty and four thousand.' Faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-086",
+      "paragraph": 38,
+      "quote": "These, having been translated from the earth, from among the living, are counted as “the first-fruits unto God and to the Lamb.”",
+      "claim_text": "The text quotes that those translated from among the living are counted as 'the first-fruits unto God and to the Lamb.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1123); corresponds to Revelation 14:4.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Revelation 14:4, 'being the firstfruits unto God and to the Lamb.' Quoted phrase faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-087",
+      "paragraph": 38,
+      "quote": "“These are they which came out of great tribulation;” they have passed through the time of trouble such as never was since there was a nation; they have endured the anguish of the time of Jacob’s trouble; they have stood without an intercessor through the final outpouring of God’s judgments.",
+      "claim_text": "The text quotes 'These are they which came out of great tribulation,' describing this company as having passed through an unprecedented time of trouble and the 'time of Jacob's trouble' without an intercessor.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1124); the quoted clause corresponds to Revelation 7:14; the 'time of Jacob's trouble' and 'without an intercessor' framing is the author's own theological narrative, not itself a direct scriptural quotation.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: the quoted clause is Revelation 7:14, 'These are they which came out of great tribulation' (verbatim KJV). The 'time of Jacob's trouble' (Jeremiah 30:7) and 'without an intercessor' are White's acknowledged theological framing, not attributed as this verse.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-088",
+      "paragraph": 38,
+      "quote": "But they have been delivered, for they have “washed their robes, and made them white in the blood of the Lamb.”",
+      "claim_text": "The text quotes that this company 'washed their robes, and made them white in the blood of the Lamb.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Revelation 7:14 (same verse as GC-40-087).",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Revelation 7:14, 'have washed their robes, and made them white in the blood of the Lamb.' Verbatim KJV. Same verse as GC-40-087; not re-researched.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-089",
+      "paragraph": 38,
+      "quote": "“In their mouth was found no guile: for they are without fault” before God.",
+      "claim_text": "The text quotes that 'in their mouth was found no guile: for they are without fault' before God.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Revelation 14:5; no numbered footnote at this instance.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Revelation 14:5, 'And in their mouth was found no guile: for they are without fault before the throne of God.' Quotation faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-090",
+      "paragraph": 38,
+      "quote": "“Therefore are they before the throne of God, and serve Him day and night in His temple: and He that sitteth on the throne shall dwell among them.”",
+      "claim_text": "The text quotes 'Therefore are they before the throne of God, and serve Him day and night in His temple: and He that sitteth on the throne shall dwell among them.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1125); corresponds to Revelation 7:15.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Revelation 7:15, verbatim KJV ('Therefore are they before the throne of God, and serve him day and night in his temple: and he that sitteth on the throne shall dwell among them').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-091",
+      "paragraph": 38,
+      "quote": "But “they shall hunger no more, neither thirst any more; neither shall the sun light on them, nor any heat. For the Lamb which is in the midst of the throne shall feed them, and shall lead them unto living fountains of waters: and God shall wipe away all tears from their eyes.”",
+      "claim_text": "The text quotes 'they shall hunger no more, neither thirst any more... God shall wipe away all tears from their eyes.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1126); corresponds to Revelation 7:16-17.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Revelation 7:16-17, verbatim KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-092",
+      "paragraph": 39,
+      "quote": "Having been partakers of Christ’s sufferings, they are fitted to be partakers with Him of His glory.",
+      "claim_text": "The claim that having partaken of Christ's sufferings fits the redeemed to be partakers of His glory.",
+      "claim_type": "theological",
+      "entities": ["Jesus"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion (echoing Romans 8:17 / 1 Peter 4:13); not empirically verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-093",
+      "paragraph": 40,
+      "quote": "Millions went down to the grave loaded with infamy, because they steadfastly refused to yield to the deceptive claims of Satan.",
+      "claim_text": "Millions of God's faithful people throughout history died bearing infamy because they refused to yield to Satan's deceptive claims.",
+      "claim_type": "statistic",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Sweeping, trans-historical statistical claim ('millions') about persecuted believers across all ages; effectively unquantifiable but stated as fact, flagged per pipeline rule that statistics require verification.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Sweeping trans-historical rhetorical figure: no accessible dataset counts, across all ages and lands, the faithful who 'went down to the grave loaded with infamy' for refusing Satan. 'Millions' is a hyperbolic order-of-magnitude figure, not a precise statistic; it can be neither confirmed nor refuted as stated. Honest non-accusatory verdict: unverifiable (evidence does not exist either way). Not a factual error.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-094",
+      "paragraph": 40,
+      "quote": "But now “God is judge Himself.”",
+      "claim_text": "The text quotes 'God is judge Himself' to describe the reversal of earthly judgments.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1127); corresponds to Psalm 50:6, duplicate citation of the same verse already logged in GC-40-029 (footnote 1101).",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Psalm 50:6, 'for God is judge himself.' Faithful to KJV. Duplicate of GC-40-029 (same verse); not re-researched.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-095",
+      "paragraph": 40,
+      "quote": "“The rebuke of His people shall He take away.”",
+      "claim_text": "The text quotes 'The rebuke of His people shall He take away.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1128); corresponds to Isaiah 25:8.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Isaiah 25:8, 'the rebuke of his people shall he take away from off all the earth.' Quoted phrase faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-096",
+      "paragraph": 40,
+      "quote": "“They shall call them, The holy people, The redeemed of the Lord.”",
+      "claim_text": "The text quotes 'They shall call them, The holy people, The redeemed of the Lord.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Isaiah 62:12; no numbered footnote at this instance.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Isaiah 62:12, 'And they shall call them, The holy people, The redeemed of the LORD.' Quotation verbatim KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-097",
+      "paragraph": 40,
+      "quote": "He hath appointed “to give unto them beauty for ashes, the oil of joy for mourning, the garment of praise for the spirit of heaviness.”",
+      "claim_text": "The text quotes 'to give unto them beauty for ashes, the oil of joy for mourning, the garment of praise for the spirit of heaviness.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1129); corresponds to Isaiah 61:3.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Isaiah 61:3, 'to give unto them beauty for ashes, the oil of joy for mourning, the garment of praise for the spirit of heaviness.' Quotation verbatim KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-098",
+      "paragraph": 40,
+      "quote": "On earth they were “destitute, afflicted, tormented.”",
+      "claim_text": "The text quotes that on earth the redeemed were 'destitute, afflicted, tormented.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Hebrews 11:37; no numbered footnote at this instance.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Hebrews 11:37, '...being destitute, afflicted, tormented.' Quoted phrase verbatim KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-099",
+      "paragraph": 40,
+      "quote": "until the anthem swells through the vaults of heaven, “Salvation to our God which sitteth upon the throne, and unto the Lamb.” And all the inhabitants of heaven respond in the ascription, “Amen: Blessing, and glory, and wisdom, and thanksgiving, and honor, and power, and might, be unto our God forever and ever.”",
+      "claim_text": "The text quotes the anthem 'Salvation to our God which sitteth upon the throne, and unto the Lamb' and the response 'Amen: Blessing, and glory, and wisdom, and thanksgiving, and honor, and power, and might, be unto our God forever and ever.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Footnote (1130); corresponds to Revelation 7:10,12.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verse identification confirmed: Revelation 7:10 ('Salvation to our God which sitteth upon the throne, and unto the Lamb') and 7:12 ('Amen: Blessing, and glory, and wisdom, and thanksgiving, and honour, and power, and might, be unto our God for ever and ever'). Quotations faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-100",
+      "paragraph": 41,
+      "quote": "The plan of redemption will not be fully understood, even when the ransomed see as they are seen and know as they are known; but through the eternal ages, new truth will continually unfold to the wondering and delighted mind.",
+      "claim_text": "The plan of redemption will never be fully understood, even in eternity; new truth about it will continually unfold.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological assertion; not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-101",
+      "paragraph": 42,
+      "quote": "As the nations of the saved look upon their Redeemer, and behold the eternal glory of the Father shining in His countenance; as they behold His throne, which is from everlasting to everlasting, and know that His kingdom is to have no end, they break forth in rapturous song, “Worthy, worthy is the Lamb that was slain, and hath redeemed us to God by His own most precious blood!”",
+      "claim_text": "The text quotes the redeemed nations singing 'Worthy, worthy is the Lamb that was slain, and hath redeemed us to God by His own most precious blood!'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Composite acclamation echoing Revelation 5:9 and 5:12.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Source identification confirmed: composite echo of Revelation 5:12 ('Worthy is the Lamb that was slain') and 5:9 ('hast redeemed us to God by thy blood'). Presented as the redeemed's song, an acknowledged acclamation faithful to the scriptural phrases rather than a claim to verbatim single-verse citation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-102",
+      "paragraph": 42,
+      "quote": "The cross of Christ will be the science and the song of the redeemed through all eternity.",
+      "claim_text": "The cross of Christ will be the science and the song of the redeemed through all eternity.",
+      "claim_type": "theological",
+      "entities": ["Jesus"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological assertion; not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-103",
+      "paragraph": 43,
+      "quote": "The mystery of the cross explains all other mysteries. In the light that streams from Calvary, the attributes of God which had filled us with fear and awe appear beautiful and attractive.",
+      "claim_text": "The mystery of the cross explains all other mysteries, and in the light from Calvary the attributes of God appear beautiful and attractive rather than fearsome.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion; not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-104",
+      "paragraph": 44,
+      "quote": "It will be seen that He who is infinite in wisdom could devise no plan for our salvation except the sacrifice of His Son.",
+      "claim_text": "God, infinite in wisdom, could devise no plan for human salvation except the sacrifice of His Son.",
+      "claim_type": "theological",
+      "entities": ["Jesus"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about divine wisdom and the atonement; not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-40-105",
+      "paragraph": 44,
+      "quote": "And such is the value of the soul that the Father is satisfied with the price paid; and Christ Himself, beholding the fruits of His great sacrifice, is satisfied.",
+      "claim_text": "The value of the human soul is such that the Father is satisfied with the price paid for it, and Christ is satisfied beholding the fruits of His sacrifice.",
+      "claim_type": "theological",
+      "entities": ["Jesus"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about divine satisfaction in the atonement (echoing Isaiah 53:11); not verifiable (CLAUDE.md rule 5).",
+        "sources": []
+      }
+    }
+  ]
+}
