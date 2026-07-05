@@ -1,0 +1,704 @@
+{
+  "dossier": "D01",
+  "slug": "chronology-1844",
+  "stage": "adjudication",
+  "charter_version": "1.0-frozen",
+  "generated_at": "2026-07-05",
+  "notes": "searches: ~21 web (20 shared pool, 1 straggler for GC-23-012 parting-of-the-ways frame); 4 WebFetch attempts (biblearchaeology.org blocked 403 twice; two journal PDFs fetched but not machine-readable); local scholarship used free of budget: bliss-memoirs-of-william-miller-1853.txt (lines ~4378-4384, 10449-10455, 10486-10492), wellcome-history-second-advent-message-1874.txt (lines ~2750-2753, 17772-17778, 19491-19508). No Phase-1 defense objects exist for any of the 16 claims (all skipped the defender stage as 'disputed'); the Phase-1 verifier rationales are answered instead per charter par. 0.2. Anomalies: (1) GC-18-058 decomposes as entirely hermeneutic and is returned out-of-scope per charter par. 9 (the escape hatch the charter predicted would be rare); (2) claim-level as-written rulings skew negative because all 16 claims hang on the same contested 457 BC anchor - this is the weakest-link arithmetic of one chain, not one-way drift; the weakened column and GC-18-062 (moved up to probable) show movement toward the claims; (3) array key named 'rulings' per agent output spec (orchestrator message used the word 'claims'; content identical).",
+  "evidence_review": "STATE OF THE QUESTION. The dossier is one arithmetic chain: (autumn 457 BC as effective date of the Ezra 7 decree) + 483 years -> autumn AD 27 (baptism), + 3.5 years -> spring AD 31 (crucifixion), + 3.5 -> AD 34 (end of the 70 weeks, Stephen, turn to Gentiles), + 1810 years -> autumn 1844. The arithmetic itself (no year zero) is correct at every step and was verified as such in Phase 1 (GC-18-064/079, GC-23-013 all 'supported'). Everything therefore turns on (a) the 457 anchor, (b) the NT dates, (c) the epistemic absolutes ('fixed beyond question', 'stands without impeachment'), and (d) the prophetic premises (year-day principle; Dan 9's 70 weeks as the first segment of Dan 8's 2300 'days'), which stay out of scope per charter par. 9. --- (1) THE 457/458 ANCHOR. Absolute Persian chronology is cuneiform-fixed: Xerxes was murdered in August 465 BC and Parker & Dubberstein, Babylonian Chronology 626 B.C.-A.D. 75 (Brown UP), p. 32, place Artaxerxes I's 7th regnal year as beginning Nisan 1, 458 BC. On this standard (Nisan, accession-year) reckoning Ezra's departure on 1 Nisan of year 7 and arrival on 1 Ab (Ezra 7:8-9) fall in spring-summer 458 BC; this is the date printed by modern reference works and standard commentaries (H. G. M. Williamson, Ezra, Nehemiah, WBC 16, 1985; Blenkinsopp, OTL), with a live minority dating Ezra's mission to 398 BC under Artaxerxes II (Van Hoonacker's thesis) and a skeptical school (Grabbe) doubting the mission's historicity; Andrew Steinmann (Concordia commentary 2010; From Abraham to Paul, 2011) refutes the 398 thesis and likewise dates the arrival to 458 (his chronology places Ezra 10's 1 Nisan assembly aftermath at March 457, i.e., arrival summer 458). The 457 BC date requires counting Artaxerxes' regnal years fall-to-fall (Tishri) as a Jewish civil convention. That defense is real and methodical: S. H. Horn & L. H. Wood, The Chronology of Ezra 7 (SDA General Conference, 1953; rev. 1970) and 'The Fifth-Century Jewish Calendar at Elephantine', JNES 13 (1954) 1-20, argue from Nehemiah 1:1/2:1 (Kislev of year 20 preceding Nisan of year 20, natural only on a Tishri year) and from Elephantine double-dated papyri. The extrabiblical leg was answered directly by R. A. Parker, 'Some Considerations on the Nature of the Fifth-Century Jewish Calendar at Elephantine', JNES 14 (1955) 271-274, and the fuller re-analysis of Sacha Stern, 'The Babylonian Calendar at Elephantine', ZPE 130 (2000) 159-171, concludes the Elephantine Jews used the Babylonian (Nisan-based) calendar, not a separate Jewish civil calendar. The Nehemiah 1:1/2:1 datum remains a genuine crux (conservative commentators do invoke a Tishri year for Nehemiah's memoir; critical commentators treat the 'twentieth year' of Neh 1:1 as a textual or arrangement problem), but no non-confessional Persian-period specialist extends a Tishri count to Ezra 7 so as to yield 457. Current published defenders of 457 are confessionally located: W. H. Shea ('Supplementary Evidence in Support of 457 B.C. as the Starting Date for the 2300 Day-Years of Daniel 8:14', JATS 12/1, 2001; DARCOM vol. 6, 1992), B. Owusu-Antwi (ATS Dissertation Series, 1995), Ministry (1953, 1988), and the evangelical Associates for Biblical Research 'Daniel 9:24-27 Project' (R. Lanser), which adopts the Horn-Wood Tishri argument. What changed since the 19th century: in 1844 and still in 1911 the received chronology (Ussher's dates, printed in KJV margins into the 1910s) gave 457 BC at Ezra 7 - Bliss, Memoirs of William Miller (1853) records that 'the best chronologers' dated the 70 weeks from 457 and quotes Dr. Hamilton calling the reckoning 'in the main, correct' (local file, lines 10449-10492); the cuneiform-based correction to 458 consolidated only with Parker & Dubberstein (1942/1956). The Millerite/GC use of 457 was therefore period-standard, and the modern gap is exactly one year, turning on calendar convention rather than gross error. --- (2) BAPTISM 'AUTUMN AD 27'. The one direct ancient datum is Luke 3:1 (John began in Tiberius's 15th year). A recent Tyndale Bulletin survey ('Reckoning Tiberius's Reign and Jesus's Baptism: First- and Second-Century Evidence Concerning Tiberius's Fifteenth Year (Luke 3:1)') finds no literary, numismatic, or inscriptional support for counting Tiberius's years from the co-regency (AD 11/12-13); on the evidenced reckoning the 15th year is AD 28/29, so the baptism falls no earlier than AD 28, and the modal modern placements of the ministry's start are 28-29 (Meier, A Marginal Jew I; Riesner; Hoehner, Chronological Aspects of the Life of Christ). AD 26/27 was the standard reading of older scholarship precisely via Ussher's co-regency assumption, and is defended today by ABR (15th year = AD 27 via 'co-princeps' authority) and by SDA scholarship; a second route (John 2:20's 46 temple-years from 20/19 BC) can land a first Passover in 27/28 but is ambiguous (naos vs hieron; Josephus's two dates). The season (autumn) is evidenced by nothing; it is back-computed from the 457 scheme. --- (3) CRUCIFIXION 'SPRING AD 31'. Astronomical-calendrical reconstructions since Fotheringham (1934) and Humphreys & Waddington ('Dating the Crucifixion', Nature 306 (1983) 743-746; refined versions 1985-1992) leave Friday, Nisan 14 possible under Pilate only on 7 April AD 30 and 3 April AD 33; the mainstream debate is exclusively 30 vs 33. R. T. Beckwith's 'Cautionary Notes on the Use of Calendars and Astronomy to Determine the Chronology of the Passion' (1989; repr. in Calendar and Chronology, Jewish and Christian, Brill 1996) shows the reconstruction's intercalation assumptions are not airtight, but even his loosening adds AD 36 as a candidate, not AD 31. The AD 31 date is defended by the SDA research committee line (Grace Amadon, 'Ancient Jewish Calendation', JBL 61 (1942); committee report defending Friday 27 April AD 31; 'The Chronology of the Crucifixion: An Updated Adventist View'), which requires a transposed (late-intercalated) Nisan for which no Second Temple evidence exists; the lunar data make 27 April AD 31 not a Nisan 14. The 3.5-year ministry length is a genuine open question (John's three-plus Passovers vs shorter synoptic readings). --- (4) AD 34. Stephen's martyrdom is undated in Acts; scholarship brackets it c. 33-36, and proposed dates for Paul's conversion run 32-36 with 34 as roughly the median (Riesner, Paul's Early Period, Eerdmans 1998, puts the conversion 31/32; others 33-36). So the year 34 sits comfortably inside the scholarly window for Stephen and the first persecution - the one link of the chain where the computed value falls squarely in the mainstream range. By contrast, a punctual 'turn to the Gentiles' in AD 34 matches no scholarly account: the Gentile mission was gradual (Cornelius late 30s, Antioch early 40s, the programmatic Pauline mission later; Fredriksen; 'Between Jerusalem and Antioch'), and the 'nation sealed its rejection' frame collides with parting-of-the-ways scholarship (J. D. G. Dunn, The Partings of the Ways, 1991, and successors), which finds a plural, regionally uneven separation stretching into the second century and beyond. --- (5) DAN 8:14 (out of scope, recorded for conditionality). The vast majority of critical scholarship (Collins, Hermeneia; Goldingay, WBC; Newsom, OTL) reads the 2300 evenings-mornings as the Antiochene disruption of the tamid (1 Macc 1:54; 4:52-53; either 1150 days or 2300 literal days within 167-164 BC) and does not link them to Dan 9's seventy weeks as a subset with a common start; SDA scholarship (Shea's twenty-plus lines of evidence for year-day; DARCOM) defends the linkage. Adjudication does not rule on this layer. --- (6) PERIOD-INTERNAL DISPUTE. Even inside Millerism the autumn-457 redating was contested in real time: S. S. Snow's February 1844 one-year correction was rejected by the Advent Herald editors, who traced Snow's error to a misquotation of Dr. Hales (Wellcome, History of the Second Advent Message, 1874, pp. 856-857, local file lines 19491-19508). This bears directly on the 'stands without impeachment' and 'fixed beyond question' absolutes: the computation was impeached, in print, by fellow Adventists in 1844 and by standard chronology since.",
+  "narrative_ru": "Досье проверяет арифметическую цепочку 457 г. до н.э. - 1844 г., на которой держится вся миллеритско-адвентистская хронология книги. Сама арифметика везде верна, а конечные даты в том виде, как они напечатаны, держатся на спорном якоре: клинописная хронология ставит седьмой год Артаксеркса I на 458, а не 457 год, дату распятия в 31 году астрономические реконструкции исключают, крещение 'осенью 27 года' опирается на отвергнутый ныне счёт лет Тиверия. Формулы 'установлено вне всякого сомнения' и 'остаётся неопровержимым' противоречат документированной картине: вычисление оспаривали и современные учёные, и сами миллериты в 1844 году. При этом смягчённые версии почти всех утверждений подтверждаются: дата 457 была стандартной библейской хронологией эпохи (поля Библий короля Иакова), события вокруг 34 года (мученичество Стефана, гонение) попадают в научно допустимое окно, а вычисление внутренне последовательно. Разрыв между риторикой уверенности и защитимой сутью - главный итог досье: страдает не столько фактическая основа эпохи, сколько абсолютные формулировки 1911 года. Картину изменили бы документы, показывающие осенний отсчёт лет персидских царей у иудейских писцов, либо новые данные о календаре Иудеи 20-30-х годов I века.",
+  "rulings": [
+    {
+      "id": "GC-18-058",
+      "dossier": "D01",
+      "quantifier_audit": ["must therefore be a part", "must begin together"],
+      "components": [
+        {
+          "component": "The seventy weeks of Dan 9 are 'cut off' from the 2300 days of Dan 8 and the two periods necessarily begin together (prophetic-structural synchronism).",
+          "kind": "hermeneutic",
+          "in_scope": false,
+          "ruling": null,
+          "rationale": "This is the foundational prophetic-interpretive move of the Millerite scheme, of the same family as the year-day principle and prophetic identifications excluded by charter par. 9. Ruling it true or false would be ruling on the hermeneutic itself. For the record (context, not ruling): the vast majority of critical scholarship (Collins, Goldingay, Newsom) reads Dan 8:14's 2300 evenings-mornings as the Antiochene tamid crisis and does not treat Dan 9's 490 as its opening segment; SDA scholarship (Shea, DARCOM; Owusu-Antwi 1995) defends the synchronism partly via the chathak ('cut off/determined') philology. Both are positions on an out-of-scope question."
+        }
+      ],
+      "ruling_as_written": "out-of-scope",
+      "failing_component_kind": null,
+      "weakened_version": "n/a - any same-subject weakening still asserts the prophetic synchronism; the descriptive claim 'this linkage was central to Miller's calculation' changes the subject from exegesis to historiography (that descriptive claim is accurate and documented in Bliss 1853).",
+      "ruling_weakened": "n/a",
+      "framing_gap": null,
+      "confidence": "high",
+      "minority_engagement": "n/a for an out-of-scope return. Answer to the Phase-1 verifier (no defense object exists): the verifier's 'disputed' correctly registered that this is 'a distinctive Millerite/Adventist interpretive link' with a 'genuine interpretive dispute'; adjudication goes one step further and finds the printed sentence contains no in-scope empirical component at all - the dispute it registers is exegetical/theological, which the charter keeps off the scale.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "J. J. Collins, Daniel (Hermeneia, 1993); J. Goldingay, Daniel (WBC 30) - Antiochene consensus on Dan 8:14, via search-corroborated summaries (solagroup.org survey; ABR project discussions)", "tier": "academic", "independence_note": "Standard critical commentaries; independent of both Adventist and counter-Adventist polemic. Used as context only, no ruling rests on them."},
+        {"ref": "W. H. Shea, DARCOM vol. 6 (1992); B. Owusu-Antwi, An Investigation of the Chronology of Daniel 9:24-27 (ATS Dissertation Series, 1995)", "tier": "position", "independence_note": "SDA institutional scholarship; the documented defense of the synchronism."},
+        {"ref": "S. Bliss, Memoirs of William Miller (1853), local file lines 10449-10455", "tier": "primary-in-context", "independence_note": "Insider primary source documenting that Miller's computation dated the 70 weeks and 2300 days from a common start at 457 BC."}
+      ],
+      "would_change_this": "Only a charter amendment bringing prophetic-structural exegesis into scope would allow a ruling; the question would then turn on Daniel scholarship (the Antiochene reading and its SDA critics) rather than on new documents.",
+      "gap_note": null,
+      "notes": "Entirely-hermeneutic return, the charter par. 9 escape hatch. Load-bearing status (impact 15) should be handled downstream as 'conditional premise, not empirically adjudicable' rather than as vindicated or refuted. Surface to user at calibration."
+    },
+    {
+      "id": "GC-18-060",
+      "dossier": "D01",
+      "quantifier_audit": ["In its completest form"],
+      "components": [
+        {
+          "component": "Ezra 7 records a royal rescript of Artaxerxes (I) authorizing Ezra's mission to Jerusalem; a genuine Persian document plausibly underlies it.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "probable",
+          "rationale": "The rescript's authenticity is genuinely debated: Williamson, Steiner, and Fried defend it on linguistic and administrative grounds; Grabbe's six-test survey concludes the documents are late compositions while conceding features suggesting genuine Persian correspondence behind some. The balance of specialist opinion accepts at least a genuine core."
+        },
+        {
+          "component": "The decree was issued in 457 BC.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Parker & Dubberstein (p. 32) fix Artaxerxes I's 7th year as beginning Nisan 1, 458 BC; the decree preceded Ezra's 1 Nisan departure (Ezra 7:8-9), so on standard reckoning it was issued in spring 458. The 457 value requires a Tishri fall-to-fall count applied to Ezra 7, a defense confessionally concentrated (Horn & Wood; Shea; ABR) whose extrabiblical leg was rebutted by Parker (JNES 1955) and Stern (ZPE 2000); Steinmann, the leading non-SDA conservative chronologist of the period, also lands on 458. The rival 398 BC school would move the date entirely. THIS COMPONENT IS THE 457 ANCHOR on which the whole dossier chain depends."
+        },
+        {
+          "component": "'In its completest form' - the Artaxerxes rescript as the fullest of the three royal acts concerning the restoration.",
+          "kind": "frame",
+          "in_scope": true,
+          "ruling": "probable",
+          "rationale": "As a description of the biblical documents this is defensible: the Ezra 7 rescript is the longest and most detailed of the three (funds, vessels, magistrates, judicial authority). Its further sense ('completeness required by the prophecy') belongs to the hermeneutic clause handled at GC-18-062."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "The decree recorded in Ezra 7 was issued by Artaxerxes I in his seventh regnal year, 458/457 BC - within a year of the Millerite date, which itself followed the received Ussher chronology of the day.",
+      "ruling_weakened": "probable",
+      "framing_gap": 2,
+      "confidence": "medium",
+      "minority_engagement": "Strongest opposing position: Horn & Wood, The Chronology of Ezra 7 (1953) and JNES 13 (1954), argue that Ezra-Nehemiah count Artaxerxes' years Tishri-to-Tishri, from (a) Neh 1:1/2:1, where Kislev of year 20 precedes Nisan of year 20, impossible on a Nisan year, and (b) Elephantine double-dated papyri allegedly showing a Jewish autumn epoch. The argument is methodical and (a) is a genuine crux that conservative non-SDA commentators also resolve via a Tishri year for Nehemiah's memoir. It fails to carry 457 for Ezra 7 on evidence: Parker (JNES 14, 1955) and Stern (ZPE 130, 2000) re-examined the papyri and found the Elephantine community using the Babylonian Nisan calendar; the Neh 1:1 datum concerns Nehemiah's memoir and admits textual/arrangement solutions; and no non-confessional Persian-period specialist dates Ezra 7 to 457 (Steinmann, a Lutheran conservative, dates it 458 while refuting the 398 school). Confessional identity is not the ground of dismissal; superseded and rebutted extrabiblical data are. Answer to the Phase-1 verifier: its 457-vs-458 framing is confirmed and sharpened - the split is not evenly weighted in current scholarship.",
+      "source_quality": "academic-full",
+      "sources": [
+        {"ref": "R. A. Parker & W. H. Dubberstein, Babylonian Chronology 626 B.C.-A.D. 75 (Brown UP), p. 32: 7th year of Artaxerxes I begins Nisan 1, 458 BC", "tier": "academic", "independence_note": "Cuneiform-based absolute chronology, independent of biblical exegesis and of all confessional programs."},
+        {"ref": "S. Stern, 'The Babylonian Calendar at Elephantine', ZPE 130 (2000) 159-171", "tier": "academic", "independence_note": "Independent re-analysis of the papyri; genealogically separate from Parker's 1955 reply and from the SDA literature."},
+        {"ref": "R. A. Parker, 'Some Considerations on the Nature of the Fifth-Century Jewish Calendar at Elephantine', JNES 14 (1955) 271-274", "tier": "academic", "independence_note": "Same author as Parker & Dubberstein - counted with it as one genealogical line; direct rebuttal of Horn & Wood."},
+        {"ref": "A. Steinmann, Ezra and Nehemiah (Concordia Commentary, 2010); 'The Chronology of the Book of Ezra' materials; From Abraham to Paul (2011)", "tier": "academic", "independence_note": "Confessional (Lutheran) publisher but independent of both SDA and critical-mainstream genealogies; dates arrival 458."},
+        {"ref": "S. H. Horn & L. H. Wood, The Chronology of Ezra 7 (1953/1970); 'The Fifth-Century Jewish Calendar at Elephantine', JNES 13 (1954)", "tier": "position", "independence_note": "SDA General Conference research program; JNES venue peer-reviewed, but the thesis was answered in the same journal the next year."},
+        {"ref": "W. H. Shea, 'Supplementary Evidence in Support of 457 B.C. ...', JATS 12/1 (2001); ABR Daniel 9:24-27 Project (R. Lanser), 'Did Ezra Come to Jerusalem in 457 BC?'", "tier": "position", "independence_note": "SDA and evangelical-apologetic respectively; ABR's Tishri argument descends from Horn & Wood, so the two count as one genealogical line."},
+        {"ref": "H. G. M. Williamson, Ezra, Nehemiah (WBC 16, 1985); Grabbe and Fried on the rescript's authenticity (via 'The Persian Documents in the Book of Ezra: Are They Authentic?' and Fried, 'You Shall Appoint Judges')", "tier": "academic", "independence_note": "Standard critical commentary tradition; independent of the chronological polemic."}
+      ],
+      "would_change_this": "A double-dated Persian-period document showing Jewish scribes counting Artaxerxes I's regnal years from Tishri (placing his year 7 in fall 458-fall 457), or a peer-reviewed re-analysis overturning Parker and Stern on the Elephantine calendar, would move the 457 component to genuinely-open or better.",
+      "gap_note": null,
+      "notes": "Anchor claim. Period note: 457 was the KJV-margin (Ussher) date at Ezra 7 into the 1910s; the claim was period-standard in 1844/1911 and is off by one year against modern chronology - anachronism-flavored, though the adjudicated question here is the date's truth, not its pedigree."
+    },
+    {
+      "id": "GC-18-062",
+      "dossier": "D01",
+      "quantifier_audit": ["perfection required by the prophecy"],
+      "components": [
+        {
+          "component": "Cyrus, Darius, and Artaxerxes each issued or confirmed royal acts bearing on the Jerusalem restoration, Darius's act explicitly reaffirming Cyrus's decree (Ezra 1; 6; 7), as Ezra 6:14 summarizes.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "probable",
+          "rationale": "The three-act sequence is documented in the book of Ezra, and 'originating, re-affirming' matches the record (Darius's officers retrieved and confirmed Cyrus's decree, Ezra 6). Authenticity of the underlying documents is debated (Williamson/Steiner/Fried for; Grabbe against, with concessions), and critical commentary widely takes Ezra 6:14's inclusion of Artaxerxes as an editorial extension, since the temple was completed in 516/515 BC, decades before his reign. Hence probable rather than well-supported."
+        },
+        {
+          "component": "Taken together the three acts constitute the single decree 'brought to the perfection required by the prophecy' to mark the start of the 2300 years.",
+          "kind": "hermeneutic",
+          "in_scope": false,
+          "ruling": null,
+          "rationale": "Prophecy-fit judgment; conditional on the year-day reading of the 2300 and on the Dan 8/9 synchronism, neither of which this adjudication evaluates. Mainstream historiography treats the decrees as distinct royal acts and builds no 2300-year period on them (the Phase-1 verifier's point, which belongs to this out-of-scope layer)."
+        }
+      ],
+      "ruling_as_written": "probable",
+      "failing_component_kind": "fact",
+      "weakened_version": "The book of Ezra presents the restoration as authorized by successive decrees of Cyrus, Darius, and Artaxerxes (Ezra 6:14), the later kings confirming and extending the first grant.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 1,
+      "confidence": "medium",
+      "minority_engagement": "Not required for probable; noted anyway: Grabbe's document-criticism (all Ezra 'Persian documents' late, possibly with a genuine core) is the strongest push against the fact component and is why it stays at probable rather than well-supported. Answer to the Phase-1 verifier: its objection ('mainstream does not combine them to anchor a 2300-year period') is correct but targets the hermeneutic clause, which is out of scope; the in-scope historical residue is better than 'disputed'. This is a ruling moved toward the claim.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "'The Persian Documents in the Book of Ezra: Are They Authentic?' (survey of Grabbe's six tests vs Williamson, Steiner, Fried)", "tier": "academic", "independence_note": "Document-criticism debate independent of the 1844 polemic."},
+        {"ref": "L. S. Fried, 'You Shall Appoint Judges: Ezra's Mission and the Rescript of Artaxerxes'", "tier": "academic", "independence_note": "Independent Persian-administration specialist treatment of the rescript."},
+        {"ref": "Ezra 1; 6:1-14; 7:11-26 (biblical record of the three royal acts)", "tier": "primary-in-context", "independence_note": "Primary text read through the commentary debate above."}
+      ],
+      "would_change_this": "A scholarly consensus that the Ezra documents are Hellenistic fictions without a genuine core would push the fact component to genuinely-open or below; a consensus for authenticity (Steiner-Williamson line) would lift it to well-supported.",
+      "gap_note": null,
+      "notes": "Genre: White's own voice, but the sentence's empirical residue is a paraphrase of Ezra 6:14. The prophecy-fit clause is not evaluated; the ruling is expressly conditional in that respect."
+    },
+    {
+      "id": "GC-18-063",
+      "dossier": "D01",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "The year of the decree's taking effect was 457 BC.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Inherits the 457 anchor (see GC-18-060): standard chronology puts Ezra's journey and arrival in 458 BC; 457 requires the confessionally concentrated Tishri reckoning."
+        },
+        {
+          "component": "The decree 'went into effect' in the AUTUMN of that year.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Even on the biblical narrative Ezra departed on 1 Nisan and arrived on 1 Ab, the fifth month (July/August; Ezra 7:8-9). An autumn effective date is an additional specification with no documentary basis in Ezra, Persian administrative sources, or scholarship; it exists because the 1844 terminus must fall in the autumn (the seventh-month argument). Even the SDA defense treats 'autumn' as the implementation period after a summer arrival, an inference, not a datum."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "The decree took practical effect in Jerusalem from the second half of the year of Ezra's arrival (summer 458 BC on standard reckoning; 457 on the fall-to-fall defense), after his arrival in the fifth month.",
+      "ruling_weakened": "probable",
+      "framing_gap": 2,
+      "confidence": "medium",
+      "minority_engagement": "Strongest opposing position: the SDA argument (Horn & Wood; Ministry 1988, 'Establishing the date 457 B.C.') that the decree became operative only upon Ezra's arrival and implementation, i.e., late in a fall-to-fall year 457. It fails twice on evidence: the year rests on the rebutted Tishri-for-Ezra reckoning (see GC-18-060), and the season rests on nothing documentary at all - the autumn specification is retro-fitted from the required 1844 endpoint, a circularity even sympathetic readers must grant. Answer to the Phase-1 verifier: confirmed and sharpened; 'autumn 457' is doubly underdetermined, by year and by season.",
+      "source_quality": "academic-full",
+      "sources": [
+        {"ref": "R. A. Parker & W. H. Dubberstein, Babylonian Chronology, p. 32", "tier": "academic", "independence_note": "Cuneiform-fixed regnal frame; one genealogical line with Parker 1955."},
+        {"ref": "S. Stern, ZPE 130 (2000) 159-171", "tier": "academic", "independence_note": "Independent of Parker line; removes the Elephantine support for a Jewish autumn epoch."},
+        {"ref": "Ezra 7:8-9 (departure 1st month, arrival 5th month)", "tier": "primary-in-context", "independence_note": "Primary text; both sides accept the itinerary."},
+        {"ref": "Ministry, 'Establishing the date 457 B.C.' (1988); Horn & Wood 1953", "tier": "position", "independence_note": "SDA defense; one genealogical line."}
+      ],
+      "would_change_this": "Documentary evidence dating the decree's implementation in Jerusalem to the autumn months (e.g., an administrative text or a firm scholarly reconstruction of Ezra's commission timetable), plus vindication of the 457 year as at GC-18-060.",
+      "gap_note": null,
+      "notes": "Depends wholly on the 457 anchor plus an extra unevidenced seasonal precision. The seasonal step is what converts 'about 1843' into 'autumn 1844', so it carries real load in the chain."
+    },
+    {
+      "id": "GC-18-065",
+      "dossier": "D01",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "Jesus was baptized by John and this began his public ministry.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "[common_knowledge]-class bedrock of historical-Jesus scholarship (criterion of embarrassment; Meier, A Marginal Jew)."
+        },
+        {
+          "component": "The baptism occurred in the autumn of AD 27.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Luke 3:1 on its evidence-supported reading (Tyndale Bulletin survey: no first/second-century support for co-regency counting of Tiberius's years) puts John's ministry no earlier than AD 28/29, hence the baptism at 28 or later; modal modern reconstructions are 28-29 (Meier 28; Riesner 28; Hoehner 29). AD 27 survives today only via the abandoned co-regency reckoning (ABR, SDA) or the earliest reading of John 2:20. The season is evidenced by nothing and is back-computed from the 457 scheme. The claim's truth is assessed on independent NT evidence; its warrant in GC (457+483) merely explains why the value is 27."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "Jesus was baptized in the late AD 20s (c. 27-29), shortly before beginning his public ministry.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "medium",
+      "minority_engagement": "Strongest opposing positions: (1) the co-regency reckoning of Tiberius's 15th year (Ussher's line, standard in older scholarship; today ABR's 'Fifteenth Year of Tiberius' argues year 15 = AD 27 via co-princeps authority over the provinces from AD 12/13). It fails on evidence: surveyed numismatic, inscriptional, and literary sources show no ancient writer or mint counting Tiberius's years from the co-regency (Tyndale Bulletin survey; Hoehner's earlier examination agrees). (2) The John 2:20 route (46 temple-years from 20/19 BC gives a first Passover of AD 27/28, implying baptism late 27). Conceded as a genuine line, but it is ambiguous (naos vs hieron, Josephus's two temple dates) and its non-confessional users mostly land at 28-30. Neither rescues 'autumn of AD 27' as a definite datum. Answer to the Phase-1 verifier: it gave the range 26-29; adjudication finds the evidenced range effectively 28-29, with 27 a live but weak edge case.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "'Reckoning Tiberius's Reign and Jesus's Baptism: First- and Second-Century Evidence Concerning Tiberius's Fifteenth Year (Luke 3:1)', Tyndale Bulletin (tyndalebulletin.org PDF)", "tier": "academic", "independence_note": "Peer-reviewed survey of the primary evidence; independent of the 1844 question."},
+        {"ref": "J. P. Meier, A Marginal Jew, vol. 1 (ministry begins c. 28); R. Riesner, Paul's Early Period (Eerdmans 1998); H. Hoehner, Chronological Aspects of the Life of Christ", "tier": "academic", "independence_note": "Standard NT chronology references, cited via search-corroborated summaries; three separate scholarly genealogies."},
+        {"ref": "ABR, 'What was the Fifteenth Year of Tiberius?' (Daniel 9:24-27 Project)", "tier": "position", "independence_note": "Evangelical-apologetic defense of AD 27; independent of SDA but same apologetic direction."}
+      ],
+      "would_change_this": "A coin, inscription, or papyrus attesting Tiberius's regnal years counted from the co-regency, or a decisive resolution of John 2:20's temple chronology in favor of a first Passover in AD 28, would reopen autumn 27.",
+      "gap_note": null,
+      "notes": "Dependence note: the value 'autumn AD 27' is generated by the 457 anchor (457 + 483, autumn-to-autumn); the coincidence that it lands near the scholarly window is why the weakened version is strong. Period note: AD 26/27 was the received reading of 19th-century scholarship, so the claim was period-typical."
+    },
+    {
+      "id": "GC-18-069",
+      "dossier": "D01",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "Jesus's mission, and then the earliest apostolic mission, went especially to the Jews before turning to the Gentiles.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Matt 10:5-6; 15:24 read with standard scholarship on the Israel-centered mission of Jesus and the Jerusalem-centered earliest church (Meier; Fredriksen). The Jews-first pattern in fact extended beyond the mid-30s, which makes the claimed window conservative."
+        },
+        {
+          "component": "That phase ran from AD 27 (start of Christ's personal ministry).",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Inherits the baptism dating (GC-18-065): on the evidenced reading of Luke 3:1 the ministry had not yet begun in 27."
+        },
+        {
+          "component": "The phase closed at AD 34.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "genuinely-open",
+          "rationale": "As a marker for Stephen's martyrdom and the first persecution, 34 sits inside the scholarly window (c. 33-36; Paul's conversion proposals 32-36 with 34 the approximate median). As a punctual end of Jewish priority it is schematic, but the claim here asserts the window's end, not the Gentile turn (that is GC-23-012)."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "From the late AD 20s to the mid-30s the gospel was preached first and especially to Jews, by Jesus in person and then by his disciples.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "medium",
+      "minority_engagement": "Strongest opposing position for the failing component: the AD 27 ministry start defended via co-regency reckoning or John 2:20 (see GC-18-065); it fails for the reasons given there - no attested ancient use of co-regency counting, ambiguity of the temple datum. The substantive Jews-first assertion needs no defense; it is mainstream. Answer to the Phase-1 verifier: agreed that the endpoints are scheme-derived; adjudication adds that the pattern component is positively well-supported, so the weakened claim is strong.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "Tyndale Bulletin survey on Tiberius's 15th year (as GC-18-065)", "tier": "academic", "independence_note": "Grounds the failing component."},
+        {"ref": "P. Fredriksen and standard accounts of the gradual Gentile mission ('Between Jerusalem and Antioch'; Wikipedia, Christianity in the 1st century, as index)", "tier": "academic", "independence_note": "Independent NT-history literature for the Jews-first pattern."},
+        {"ref": "Matt 10:5-6 (quoted in the same GC paragraph)", "tier": "primary-in-context", "independence_note": "Primary text; both sides accept it."}
+      ],
+      "would_change_this": "As at GC-18-065 for the start-date; for the endpoint, an independently datable fix of Stephen's martyrdom.",
+      "gap_note": null,
+      "notes": "Both endpoints are generated by the 457-anchored scheme; the claim's substantive content survives almost intact in the weakened form. Failing component is the 27 start; the 34 close is genuinely-open."
+    },
+    {
+      "id": "GC-18-071",
+      "dossier": "D01",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "Jesus was crucified under Pontius Pilate.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "[common_knowledge]-class bedrock (Josephus, Tacitus, universal scholarship)."
+        },
+        {
+          "component": "The crucifixion occurred in AD 31.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Astronomical-calendrical reconstructions since Fotheringham (1934), consolidated by Humphreys & Waddington (Nature 306, 1983), allow Friday, Nisan 14 under Pilate only on 7 April AD 30 and 3 April AD 33; the entire mainstream debate is 30 vs 33. In AD 31 Nisan 14 fell midweek on any evidenced reckoning. Beckwith's methodological caution loosens the exclusion toward AD 36, not 31. AD 31 is generated by the 457 scheme (457+486.5+1) rather than by any independent datum."
+        },
+        {
+          "component": "The crucifixion came three and a half years after the baptism (ministry length).",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "genuinely-open",
+          "rationale": "Ministry-length is a classic open question: John's three-plus Passovers support 2-3.5 years (Hoehner defends 3.5); shorter synoptic readings support 1-2 (Meier c. 2+). Qualified positions on both sides with comparable evidence."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "Jesus was crucified at a Passover in the early 30s AD (AD 30-33), roughly two to three and a half years after his baptism.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "high",
+      "minority_engagement": "Strongest opposing position: the SDA research committee line - Grace Amadon ('Ancient Jewish Calendation', JBL 61, 1942; committee report defending Friday, 27 April AD 31) and successors ('The Chronology of the Crucifixion: An Updated Adventist View'). Its actual argument: the Judean calendar intercalated late in AD 31, transposing Nisan a month later, and used reckonings placing Nisan 14 on Friday, 27 April. It fails on evidence, not confession: lunar visibility data make 27 April AD 31 approximately Nisan 16-17 even with the late intercalation, and no Second Temple source attests the postponement rules the reconstruction needs; the leading counter-reading (Beckwith) that questions astronomical certainty still produces 30/33/36, never 31. Non-academic Wednesday-crucifixion-AD-31 schemes fail on the same calendar data (as Ministry 1942 itself argued against them). Answer to the Phase-1 verifier: its 'AD 30 or 33, AD 31 has little modern support' is confirmed at full academic depth.",
+      "source_quality": "academic-full",
+      "sources": [
+        {"ref": "C. J. Humphreys & W. G. Waddington, 'Dating the Crucifixion', Nature 306 (1983) 743-746; restatement in JASA 37 (1985)", "tier": "academic", "independence_note": "Astronomical reconstruction; independent of confessional programs."},
+        {"ref": "R. T. Beckwith, 'Cautionary Notes on the Use of Calendars and Astronomy to Determine the Chronology of the Passion' (1989; repr. Calendar and Chronology, Jewish and Christian, Brill 1996)", "tier": "academic", "independence_note": "Independent methodological critique of Humphreys-Waddington; the strongest published loosening of the exclusion, and it still excludes 31."},
+        {"ref": "'Dating the Death of Jesus Christ', BYU Studies (review of the 30/33 debate)", "tier": "academic", "independence_note": "Third genealogical line reviewing the same question."},
+        {"ref": "G. Amadon, 'Ancient Jewish Calendation', JBL 61 (1942); SDA committee report on the crucifixion date and October 22, 1844; Ministry (1942) on the Wednesday argument", "tier": "position", "independence_note": "SDA institutional defense of AD 31; one genealogical line."}
+      ],
+      "would_change_this": "Documentary evidence that the Judean calendar of the 20s-30s AD used intercalation or postponement rules making Friday, Nisan 14 possible in AD 31, or a peer-reviewed astronomical re-analysis to that effect.",
+      "gap_note": null,
+      "notes": "Dependence note: AD 31 exists in the scheme because 457 does; but the ruling rests on independent astronomical evidence, so it would stand even if the anchor were vindicated."
+    },
+    {
+      "id": "GC-18-073",
+      "dossier": "D01",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "The seventy weeks are 490 years 'especially allotted to the Jews' (year-day reading and covenantal allotment).",
+          "kind": "hermeneutic",
+          "in_scope": false,
+          "ruling": null,
+          "rationale": "Prophetic interpretation; out of scope. All in-scope findings below are conditional on not evaluating this premise."
+        },
+        {
+          "component": "Arithmetic: 457 BC + 490 years (no year zero) = AD 34.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "[common_knowledge] Correct arithmetic; Phase 1 verified the sibling sums."
+        },
+        {
+          "component": "AD 34 as a real, fixed historical terminus, resting on the 457 start ('as we have seen').",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Inherits the 457 anchor (GC-18-060): with a 458 start the computed terminus is AD 33/34 on differing conventions, and with the mainstream reading of Daniel there is no such terminus at all. The claim asserts the computed date as established fact ('ended, as we have seen, in A.D. 34')."
+        },
+        {
+          "component": "The terminal events GC attaches to the date (Stephen's martyrdom, outbreak of persecution) occurred c. AD 34.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "genuinely-open",
+          "rationale": "Stephen is undated in Acts; scholarship brackets his death c. 33-36, and Paul's-conversion proposals (32-36, median c. 34; Riesner 31/32) keep 34 comfortably inside the window. Qualified positions across the window on comparable evidence."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "The events GC ties to the close of the period - Stephen's martyrdom and the first persecution scattering the Jerusalem believers - are plausibly dated to the mid-30s AD (c. 33-36), a window that includes 34.",
+      "ruling_weakened": "probable",
+      "framing_gap": 2,
+      "confidence": "medium",
+      "minority_engagement": "Strongest opposing position (defending AD 34 as fixed): SDA chronology (DARCOM; JATS 'The Prophetic Significance of Stephen') dates Stephen to 34 precisely because the 490 years require it. That warrant is circular for present purposes: no independent datum fixes Stephen's year, so the date can be called plausible but not established; and the start-anchor it depends on is itself improbable (GC-18-060). Conceded: unlike AD 31, nothing positively excludes 34 for the events - hence the events-component is genuinely-open and the weakened ruling favorable. Answer to the Phase-1 verifier: confirmed ('anchored to the undated martyrdom of Stephen... not an independently fixed date').",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "R. Riesner, Paul's Early Period (Eerdmans 1998) - conversion 31/32, first Jerusalem visit 33/34; survey summaries of conversion-date proposals 32-36", "tier": "academic", "independence_note": "Standard Pauline chronology; independent of the 1844 question."},
+        {"ref": "E. Schnabel, 'The Persecution of Christians in the First Century', JETS 61.3 (2018) 525-547", "tier": "academic", "independence_note": "Independent treatment of the early persecution chronology."},
+        {"ref": "SDA position: 'The Prophetic Significance of Stephen' (JATS); DARCOM vol. 6", "tier": "position", "independence_note": "Confessional defense of the fixed 34; one genealogical line."}
+      ],
+      "would_change_this": "An independently datable fix for Stephen's martyrdom or Paul's conversion (e.g., a firm Aretas-based chronology pinning the conversion to 34), together with vindication of the 457 anchor, would lift the as-written claim.",
+      "gap_note": null,
+      "notes": "The one link of the chain whose computed value lands squarely inside the mainstream window; the as-written failure is inherited from the anchor and from asserting a computed date as fixed."
+    },
+    {
+      "id": "GC-18-078",
+      "dossier": "D01",
+      "quantifier_audit": ["fixed beyond question"],
+      "components": [
+        {
+          "component": "'Fixed beyond question': the epistemic claim that no serious question stands against 457 BC and AD 34 as the endpoints of the seventy weeks.",
+          "kind": "frame",
+          "in_scope": true,
+          "ruling": "discredited",
+          "rationale": "Documented standing rivals defeat the absolute: standard chronology dates Ezra 7 to 458 (Parker & Dubberstein; Williamson; Steinmann); a major conservative school anchors the seventy weeks instead at Nehemiah's 20th year, 445/444 BC (Hoehner's line); critical scholarship reads the seventy weeks within the Antiochene crisis and rejects the messianic computation altogether; and the SDA literature itself is written as defense against these challenges (Shea 2001 is titled 'Supplementary Evidence in Support of 457 B.C.'). Multiple independent, published counterexamples to 'beyond question' - charter par. 6.3 yields discredited for the absolute even while the substance fares better."
+        },
+        {
+          "component": "The seventy weeks began at 457 BC.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "The 457 anchor (GC-18-060)."
+        },
+        {
+          "component": "Their expiration fell in AD 34.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "As at GC-18-073: computed terminus inherits the anchor; the associated events-window (c. 33-36) is genuinely-open."
+        }
+      ],
+      "ruling_as_written": "discredited",
+      "failing_component_kind": "frame",
+      "weakened_version": "The 457 BC - AD 34 placement of the seventy weeks followed the standard Bible chronology of the nineteenth century (Ussher's 457 in the KJV margins) and remains an internally coherent reckoning with published defenders, though it is one contested option rather than a fixed result.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 4,
+      "confidence": "high",
+      "minority_engagement": "Strongest opposing position (i.e., defense of the absolute): Horn & Wood and Shea maintain that 457 is not merely defensible but established, via the Tishri reckoning and Elephantine data. Their actual argument is engaged at GC-18-060 and fails on rebutted extrabiblical evidence (Parker 1955; Stern 2000); more to the point here, the very existence of their defensive literature, of the mainstream 458, of the evangelical 444, and of the critical Antiochene reading falsifies 'beyond question' as a description of the question's state - in 1911 as now (S. R. Driver's 1900 Daniel commentary already carried the Antiochene reading; the Advent Herald editors disputed the one-year shift in 1844). Answer to the Phase-1 verifier: its 'overstates the case' is upgraded - the absolute is not an overstatement but a false epistemic description, while the dates' substance is handled at GC-18-060/073.",
+      "source_quality": "academic-full",
+      "sources": [
+        {"ref": "Parker & Dubberstein, p. 32; Stern ZPE 130 (2000); Steinmann (Concordia) - the 458 rival", "tier": "academic", "independence_note": "Two-plus independent genealogies for the standing 458 question."},
+        {"ref": "H. Hoehner, Chronological Aspects of the Life of Christ (444 BC anchor for the seventy weeks); critical Daniel commentaries (Driver 1900; Collins 1993) for the Antiochene reading", "tier": "academic", "independence_note": "Independent rival anchorings, each sufficient to falsify 'beyond question'."},
+        {"ref": "W. H. Shea, JATS 12/1 (2001) 'Supplementary Evidence in Support of 457 B.C.'", "tier": "position", "independence_note": "SDA defense whose defensive framing itself evidences the standing question."},
+        {"ref": "Wellcome, History of the Second Advent Message (1874), local file lines 19491-19508 (Advent Herald editors vs Snow, 1844)", "tier": "primary-in-context", "independence_note": "Period-internal impeachment, independent of modern scholarship."}
+      ],
+      "would_change_this": "Nothing realistic can sustain 'beyond question' while published rival datings stand; for the substance of the endpoints, the evidence classes named at GC-18-060 and GC-18-073 apply.",
+      "gap_note": null,
+      "notes": "The 4-step framing gap (discredited as written, well-supported weakened) is the dossier's clearest rhetoric-vs-substance finding."
+    },
+    {
+      "id": "GC-18-081",
+      "dossier": "D01",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "Arithmetic: autumn 457 BC + 2300 years (no year zero) = autumn 1844.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "[common_knowledge] Correct; Phase 1 verified the sibling sums (GC-18-079, GC-22-040, GC-23-013)."
+        },
+        {
+          "component": "The 457 BC starting point as historical fact.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "The 457 anchor (GC-18-060); on the standard 458 date the same arithmetic yields 1843, which is in fact where Miller's original 'Jewish year 1843' reckoning pointed."
+        },
+        {
+          "component": "The 2300 'days' of Dan 8:14 are years terminating in the modern era (year-day principle; non-Antiochene referent).",
+          "kind": "hermeneutic",
+          "in_scope": false,
+          "ruling": null,
+          "rationale": "Out of scope. Context: the mainstream Antiochene reading (Collins, Goldingay; 1 Macc 1:54, 4:52-53) and the SDA defense (Shea) are positions on a prophetic identification this adjudication does not evaluate."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "Granting the Millerite premises (year-day; the seventy weeks cut off from the 2300) and the then-received 457 BC date for Ezra 7, the 2300 years end in 1844; the computation is internally exact and was correctly executed.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "medium",
+      "minority_engagement": "Strongest opposing position (defending the as-written terminus): SDA scholarship (Shea; Owusu-Antwi; DARCOM), which stands or falls with the 457 anchor and the out-of-scope hermeneutic. The in-scope part of its case is answered at GC-18-060/063 (Tishri reckoning rebutted; autumn specification unevidenced). Answer to the Phase-1 verifier: its rationale mixed the in-scope anchor with the out-of-scope Antiochene question; adjudication separates them - the as-written ruling here reaches only the anchor and arithmetic, and the prophetic reading is expressly not evaluated.",
+      "source_quality": "academic-full",
+      "sources": [
+        {"ref": "Parker & Dubberstein p. 32; Stern ZPE 130 (2000); Steinmann (as GC-18-060)", "tier": "academic", "independence_note": "The anchor evidence pool."},
+        {"ref": "S. Bliss, Memoirs of William Miller (1853), local lines 4378-4384 ('best chronologers' dated from 457, terminus 'about the Jewish year 1843')", "tier": "primary-in-context", "independence_note": "Documents the computation and its period-standard basis."},
+        {"ref": "W. H. Shea, JATS 12/1 (2001); DARCOM vol. 6", "tier": "position", "independence_note": "SDA defense; one genealogical line."}
+      ],
+      "would_change_this": "Vindication of the 457 anchor (evidence classes at GC-18-060) would make the dated arithmetic sound as written; the prophetic premises would remain out of scope regardless.",
+      "gap_note": null,
+      "notes": "Ruling is expressly conditional: it reaches the in-scope chain (anchor + arithmetic) only. Even a vindicated anchor would not amount to adjudicating the prophecy."
+    },
+    {
+      "id": "GC-22-039",
+      "dossier": "D01",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "The seventh-month movement was driven by the (re)dating argument that the decree took effect late in 457 BC rather than at the year's start.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Documented movement history: S. S. Snow's February 1844 article and the summer 1844 'true midnight cry' rested exactly on this one-year/late-year correction (Wellcome 1874, pp. 856-857; Bliss 1853)."
+        },
+        {
+          "component": "The decree in fact went into effect in the autumn of 457 BC (asserted via the factive 'the discovery that').",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "As at GC-18-063: year inherits the 457 anchor; the autumn specification has no documentary basis and is retro-fitted from the required terminus. Calling it a 'discovery' endorses it as fact; the endorsement is what fails."
+        },
+        {
+          "component": "'As had been formerly believed': Millerites had earlier reckoned from the beginning of the year.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Documented: Miller's original terminus was the 'Jewish year 1843' running to spring 1844 (Bliss; Wellcome; Phase-1 GC-22-001 supported)."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "The seventh-month movement arose from the Millerite argument that Artaxerxes' decree took effect in the latter part of 457 BC rather than at its start, which moved the expected terminus from spring to autumn 1844.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "medium",
+      "minority_engagement": "Strongest opposing position: the SDA defense of the autumn-457 effective date (Horn & Wood; Ministry 1988), engaged and found wanting at GC-18-060/063. An additional period fact cuts against the 'discovery' framing specifically: the Advent Herald's own editors examined Snow's redating in 1844 and traced it to a misquotation of Dr. Hales, 'one year too much' (Wellcome, p. 857) - the movement's leading organ did not accept the 'discovery' at the time. Answer to the Phase-1 verifier: its 457-vs-458 analysis is confirmed; adjudication adds the intra-movement dispute as evidence on the framing.",
+      "source_quality": "academic-full",
+      "sources": [
+        {"ref": "Parker & Dubberstein p. 32; Stern ZPE 130 (2000) (anchor pool)", "tier": "academic", "independence_note": "Grounds the failing component."},
+        {"ref": "I. C. Wellcome, History of the Second Advent Message (1874), local file lines 19491-19508", "tier": "primary-in-context", "independence_note": "Insider primary history; documents both the movement fact and the contemporaneous dissent."},
+        {"ref": "S. Bliss, Memoirs of William Miller (1853), local lines 4378-4384, 17772-17778 (via Wellcome quoting Miller)", "tier": "primary-in-context", "independence_note": "Second insider line, genealogically distinct from Wellcome's narrative."}
+      ],
+      "would_change_this": "As at GC-18-063: documentary evidence for an autumn effective date and vindication of the 457 year.",
+      "gap_note": null,
+      "notes": "Genre: narrative report of the movement, but 'the discovery that' asserts the fact in White's own voice; the ruling targets that endorsement, and the weakened descriptive version is fully vindicated."
+    },
+    {
+      "id": "GC-23-008",
+      "dossier": "D01",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "The 2300 days begin when the decree went into effect (Dan 8/9 synchronism applied to the decree's effective date).",
+          "kind": "hermeneutic",
+          "in_scope": false,
+          "ruling": null,
+          "rationale": "The synchronism premise (see GC-18-058) applied; out of scope. Conditionality: all in-scope findings assume nothing about it."
+        },
+        {
+          "component": "The decree's going into effect is a fact of autumn 457 BC (endorsed via 'had been found' and the paragraph's 'unquestionably fulfilled').",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "As at GC-18-063/GC-22-039: the year inherits the 457 anchor; the autumn precision is unevidenced and retro-fitted."
+        },
+        {
+          "component": "Millerite chronology did so date it (descriptive layer).",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Documented (Bliss; Wellcome; the seventh-month argument)."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "Millerite chronology dated the start of the 2300-day period to the decree's taking effect late in 457 BC, following the received Ussher-margin date for Ezra 7.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "medium",
+      "minority_engagement": "As at GC-18-060/063: the Horn & Wood/Shea Tishri defense engaged and found rebutted on its extrabiblical leg, unextended to Ezra 7 by any non-confessional specialist; the autumn precision additionally unevidenced. Answer to the Phase-1 verifier: confirmed; the ch.23 restatement adds no new evidence, only stronger endorsement ('unquestionably fulfilled' in the same paragraph).",
+      "source_quality": "academic-full",
+      "sources": [
+        {"ref": "Parker & Dubberstein p. 32; Stern ZPE 130 (2000); Steinmann (anchor pool, as GC-18-060)", "tier": "academic", "independence_note": "Grounds the failing component."},
+        {"ref": "Horn & Wood 1953/1954; Ministry 1988", "tier": "position", "independence_note": "The engaged minority; one genealogical line."},
+        {"ref": "Bliss 1853 / Wellcome 1874 (local files)", "tier": "primary-in-context", "independence_note": "Document the descriptive layer."}
+      ],
+      "would_change_this": "As at GC-18-060/063.",
+      "gap_note": null,
+      "notes": "Re-assertion of the ch.18/22 anchor claim in ch.23; ruled identically for consistency. Dependence on the 457 anchor: total."
+    },
+    {
+      "id": "GC-23-009",
+      "dossier": "D01",
+      "quantifier_audit": ["exactly fulfilled"],
+      "components": [
+        {
+          "component": "Arithmetic: 457 BC + 483 years (no year zero) = AD 27.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "[common_knowledge] Correct arithmetic (Phase-1 GC-18-064 supported)."
+        },
+        {
+          "component": "Christ's baptism and Spirit-anointing occurred in AD 27.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "As at GC-18-065: the evidenced reading of Luke 3:1 puts the baptism no earlier than 28; AD 27 survives only via the unattested co-regency count or the earliest John 2:20 reading."
+        },
+        {
+          "component": "'Exactly fulfilled the specification': exact correspondence between the computed point and the event.",
+          "kind": "frame",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Exactness is asserted where neither endpoint is independently fixed: the 457 anchor is improbable and the baptism date cannot be established to a season by any evidence. A correspondence claim at this precision outruns every available evidence class."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "The 457-based reckoning of the sixty-nine weeks lands in the same few-year window (the late AD 20s) in which Jesus's ministry in fact began.",
+      "ruling_weakened": "probable",
+      "framing_gap": 2,
+      "confidence": "medium",
+      "minority_engagement": "Strongest opposing position: the co-regency reckoning of Tiberius's years and the SDA/ABR defense of AD 27, engaged at GC-18-065 and failing on the absence of any ancient attestation for that count; the John 2:20 route conceded as a live but ambiguous edge case. On the 'exactly' frame: even a sympathetic reconstruction can claim at best a one-to-two-year proximity, not exactness. Answer to the Phase-1 verifier: its finding (arithmetic valid, anchor disputed, AD 27 not independently established) is confirmed and the 'exactly' absolute is explicitly adjudicated against.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "Tyndale Bulletin survey on Tiberius's 15th year; Meier/Riesner/Hoehner (as GC-18-065)", "tier": "academic", "independence_note": "Grounds the date component."},
+        {"ref": "Parker & Dubberstein p. 32 (anchor)", "tier": "academic", "independence_note": "Grounds the anchor side of the correspondence."},
+        {"ref": "ABR 'Fifteenth Year of Tiberius'; SDA Bible Commentary position", "tier": "position", "independence_note": "The engaged minority for AD 27."}
+      ],
+      "would_change_this": "As at GC-18-065 (attested co-regency counting or a resolved John 2:20 chronology), plus vindication of the anchor for the 'exactly' claim.",
+      "gap_note": null,
+      "notes": "failing_component_kind recorded as fact (the AD 27 dating); the 'exactly fulfilled' frame component ties at improbable and is noted for downstream segmentation. Weakened ruling probable rather than well-supported because the computed point (27) still sits one to two years off the modal 28-29 window."
+    },
+    {
+      "id": "GC-23-010",
+      "dossier": "D01",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "The crucifixion occurred at Passover season, in spring.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "[common_knowledge] Universal: all gospel traditions and all scholarship place the crucifixion at Passover (Nisan), i.e., spring."
+        },
+        {
+          "component": "The year was AD 31.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "As at GC-18-071: astronomical reconstructions allow Friday Nisan 14 only in AD 30 and 33; AD 31 is scheme-generated, defended only by the SDA committee line whose transposed-Nisan premise lacks Second Temple attestation."
+        },
+        {
+          "component": "Three and a half years after the baptism (ministry length).",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "genuinely-open",
+          "rationale": "As at GC-18-071: 2-3.5 years defended on both sides of a real scholarly split."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "Christ was crucified at a spring Passover in the early 30s AD (AD 30-33), after a ministry of two or more years.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "high",
+      "minority_engagement": "As at GC-18-071: Amadon and the SDA crucifixion committee (Friday 27 April AD 31 via a transposed Nisan) engaged; fails on lunar-visibility data and unattested postponement rules; Beckwith's published caution loosens toward 36, never 31. Answer to the Phase-1 verifier: confirmed at full depth; genre note - ch.23 reports the Adventist chronology, but the chapter's closing endorsement ('unquestionably fulfilled at the time appointed') makes it an authorial assertion, so it is ruled like GC-18-071.",
+      "source_quality": "academic-full",
+      "sources": [
+        {"ref": "Humphreys & Waddington, Nature 306 (1983) 743-746", "tier": "academic", "independence_note": "Astronomical basis."},
+        {"ref": "R. T. Beckwith, 'Cautionary Notes...' (1989/Brill 1996)", "tier": "academic", "independence_note": "Independent methodological check; still excludes 31."},
+        {"ref": "G. Amadon, JBL 61 (1942) and SDA committee report", "tier": "position", "independence_note": "The engaged minority; one genealogical line."}
+      ],
+      "would_change_this": "As at GC-18-071: documentary or astronomical rehabilitation of a Friday Nisan 14 in AD 31.",
+      "gap_note": null,
+      "notes": "Duplicate of GC-18-071 in the ch.23 recapitulation; ruled identically."
+    },
+    {
+      "id": "GC-23-012",
+      "dossier": "D01",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "A persecution following Stephen's death scattered the Jerusalem believers.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Acts 8 read with standard early-church history (Schnabel; Riesner); the event itself is uncontested in scholarship."
+        },
+        {
+          "component": "These events are datable to AD 34 specifically.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "genuinely-open",
+          "rationale": "Stephen c. 33-36; Paul's conversion proposals 32-36 with 34 the approximate median. The specific year is underdetermined but inside the window."
+        },
+        {
+          "component": "The apostles turned to the Gentiles in AD 34.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "No scholarly account dates a programmatic Gentile turn to 34: the mission's extension was gradual - Cornelius commonly placed in the late 30s, the Antioch Gentile church in the early 40s, the Pauline mission later; Acts's own narrative sequence places the turn well after the persecution. The mid-30s saw flight and preaching to Samaritans and diaspora Jews, not a Gentile mission."
+        },
+        {
+          "component": "'The nation sealed its rejection of Christ': a punctual, collective Jewish rejection at that date.",
+          "kind": "frame",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Parting-of-the-ways scholarship (Dunn 1991 and successors) finds a plural, regionally uneven separation extending into the second century and beyond; the Jerusalem church remained inside Judaism for decades and Jewish conversions continued (per Acts itself). A single national 'sealing' moment in 34 matches no historical reconstruction. (The claim's covenantal-theological layer - the end of a divinely allotted probation - is hermeneutic and not evaluated; what is ruled here is the historical characterization.)"
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "In the mid-30s AD, persecution following Stephen's death scattered the Jerusalem believers, and over the following decade the movement progressively extended its mission to Gentiles.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "medium",
+      "minority_engagement": "Strongest opposing position: the SDA reading (JATS 'The Prophetic Significance of Stephen'; DARCOM) that AD 34 marks both Stephen and the covenantal transition, with the Gentile turn dated from Paul's commissioning. Its Stephen-dating is conceded as plausible (hence genuinely-open for that component); its dating of the Gentile turn to 34 is warranted only by the 490-year scheme, and against it stand the documented gradualism of the mission (Cornelius, Antioch) and Acts's own sequence. The frame fails on Dunn-line scholarship, not on the confession of its defenders. Answer to the Phase-1 verifier: confirmed ('undated/gradual in Acts'), with the frame component now explicitly adjudicated.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "J. D. G. Dunn, The Partings of the Ways (1991); Brill open-access 'Parting of the Ways' volume (the metaphor and its revision)", "tier": "academic", "independence_note": "Standard scholarship on the separation's gradualism; independent of the 1844 question."},
+        {"ref": "P. Fredriksen and 'Between Jerusalem and Antioch: The Advent of the Gentile Mission' (gradual Gentile mission, late 30s-40s)", "tier": "academic", "independence_note": "Second genealogical line for the mission's chronology."},
+        {"ref": "R. Riesner, Paul's Early Period; E. Schnabel, JETS 61.3 (2018)", "tier": "academic", "independence_note": "Grounds the events-window component."},
+        {"ref": "SDA position: JATS 'The Prophetic Significance of Stephen'", "tier": "position", "independence_note": "The engaged minority."}
+      ],
+      "would_change_this": "Documentary or firm scholarly dating of a programmatic Gentile turn to the mid-30s (e.g., early dating of the Cornelius or Antioch traditions) would lift the fact component; a datable fix on Stephen would settle the window component.",
+      "gap_note": null,
+      "notes": "failing_component_kind recorded as fact (the AD 34 Gentile turn); the 'sealed its rejection' frame component ties at improbable and is noted for downstream segmentation."
+    },
+    {
+      "id": "GC-26-069",
+      "dossier": "D01",
+      "quantifier_audit": ["stands without impeachment"],
+      "components": [
+        {
+          "component": "'Stands without impeachment': the computation placing the close of the 2300 days in autumn 1844 is unrefuted.",
+          "kind": "frame",
+          "in_scope": true,
+          "ruling": "discredited",
+          "rationale": "Confining strictly to in-scope, calendar-arithmetic impeachments: (1) standard chronology dates Ezra 7 to 458 BC, dissolving the autumn-457 start (Parker & Dubberstein; Stern; Steinmann); (2) the scheme's own stated midpoints fail independently - AD 31 is astronomically excluded as a Friday-Passover year (Humphreys & Waddington; even Beckwith's loosening never reaches 31); (3) the autumn-effectiveness step has no documentary basis; (4) the computation was impeached in print at the time, by the Advent Herald's editors against Snow in 1844 (Wellcome, p. 857) and by non-Millerite chronologers quoted in the movement's own literature. 'Without impeachment' was false in 1911 and is false now; multiple independent documented counterexamples give discredited per charter par. 6.3."
+        },
+        {
+          "component": "Arithmetical self-consistency: autumn 457 + 2300 years = autumn 1844.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "[common_knowledge] The sum is correct; the computation is internally exact on its premises."
+        },
+        {
+          "component": "The prophetic validity of the periods (year-day; Dan 8/9 linkage; the sanctuary referent).",
+          "kind": "hermeneutic",
+          "in_scope": false,
+          "ruling": null,
+          "rationale": "Out of scope; the discredited ruling above deliberately rests only on calendar-chronological impeachments, not on the mainstream rejection of the year-day principle."
+        }
+      ],
+      "ruling_as_written": "discredited",
+      "failing_component_kind": "frame",
+      "weakened_version": "The Millerite computation is arithmetically self-consistent and rested on the then-received chronology (Ussher's 457 BC in the Bible margins), so its execution, as distinct from its premises and anchors, was competent and defensible for its day.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 4,
+      "confidence": "high",
+      "minority_engagement": "Strongest opposing position: SDA scholarship maintains the computation is in fact unrefuted, reading 'impeachment' as 'successful refutation' - Shea (JATS 2001), DARCOM, and Horn & Wood argue every challenge has been answered. Engaged on the merits: the Tishri defense of 457 stands rebutted on its extrabiblical evidence (Parker 1955; Stern 2000) and unadopted by any non-confessional specialist; the AD 31 defense requires calendar behavior without Second Temple attestation; and a computation whose start-date, midpoint, and seasonal step are each contested at best cannot be described as standing 'without impeachment' - the defensive literature's own existence documents the impeachments it answers. Even on the most charitable reading the absolute fails. Answer to the Phase-1 verifier: its rationale leaned on the out-of-scope Antiochene consensus; adjudication re-grounds the ruling on in-scope chronological impeachments so that no theological premise is on the scale.",
+      "source_quality": "academic-full",
+      "sources": [
+        {"ref": "Parker & Dubberstein p. 32; Stern ZPE 130 (2000); Steinmann (anchor pool)", "tier": "academic", "independence_note": "In-scope impeachment 1: the 458 dating."},
+        {"ref": "Humphreys & Waddington, Nature 306 (1983); Beckwith 1989/1996", "tier": "academic", "independence_note": "In-scope impeachment 2: AD 31 excluded; independent genealogies."},
+        {"ref": "Wellcome 1874, local lines 19491-19508 (Advent Herald vs Snow); Bliss 1853, local lines 10631-10636 (period objections to the co-start of the 2300)", "tier": "primary-in-context", "independence_note": "Period-internal impeachments, independent of modern scholarship."},
+        {"ref": "W. H. Shea, JATS 12/1 (2001); Horn & Wood 1953/1954", "tier": "position", "independence_note": "The engaged minority defending 'unrefuted'."}
+      ],
+      "would_change_this": "Nothing realistic can sustain the absolute while the 458 dating and the astronomical exclusion of AD 31 stand in the literature; vindication of the 457 anchor (GC-18-060) and rehabilitation of AD 31 (GC-18-071) would be jointly required even to reopen it.",
+      "gap_note": null,
+      "notes": "The dossier's second epistemic-absolute claim; like GC-18-078 it shows the maximal framing gap (discredited as written, well-supported weakened). The discredited ruling rests exclusively on in-scope chronological grounds."
+    }
+  ]
+}
