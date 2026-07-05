@@ -2619,5 +2619,177 @@
       },
       "updated_at": "2026-07-05T14:45:40Z"
     }
+  },
+  "adjudication": {
+    "charter": "ADJUDICATION_CHARTER.md",
+    "charter_version": "1.0-frozen",
+    "dossier_registry": "ADJUDICATION_DOSSIERS.md",
+    "validator": "scripts/validate_adjudication.py",
+    "command": "/adjudicate DNN",
+    "calibration_approved": false,
+    "calibration_note": "D01 first and alone; user review gate before any further dossier (charter section 10.5, PLAN.md Phase 2a)",
+    "dossiers": {
+      "D01": {
+        "slug": "chronology-1844",
+        "claims": 16,
+        "load_bearing": 15,
+        "academic_floor": true,
+        "status": "pending"
+      },
+      "D02": {
+        "slug": "sabbath-sunday-origins",
+        "claims": 8,
+        "load_bearing": 1,
+        "academic_floor": true,
+        "status": "pending"
+      },
+      "D03": {
+        "slug": "millerite-independence-and-1840",
+        "claims": 3,
+        "load_bearing": 1,
+        "academic_floor": true,
+        "status": "pending"
+      },
+      "D04": {
+        "slug": "french-revolution-rev11",
+        "claims": 3,
+        "load_bearing": 1,
+        "academic_floor": false,
+        "status": "pending"
+      },
+      "D05": {
+        "slug": "pella-flight-ad70",
+        "claims": 3,
+        "load_bearing": 1,
+        "academic_floor": false,
+        "status": "pending"
+      },
+      "D06": {
+        "slug": "eden-sabbath",
+        "claims": 1,
+        "load_bearing": 1,
+        "academic_floor": true,
+        "status": "pending"
+      },
+      "D07": {
+        "slug": "rome-and-the-bible",
+        "claims": 6,
+        "load_bearing": 0,
+        "academic_floor": true,
+        "status": "pending"
+      },
+      "D08": {
+        "slug": "immortality-genealogy",
+        "claims": 3,
+        "load_bearing": 0,
+        "academic_floor": false,
+        "status": "pending"
+      },
+      "D09": {
+        "slug": "luther-narrative-layer",
+        "claims": 4,
+        "load_bearing": 0,
+        "academic_floor": false,
+        "status": "pending"
+      },
+      "D10": {
+        "slug": "constantinian-fall-and-syncretism",
+        "claims": 8,
+        "load_bearing": 0,
+        "academic_floor": true,
+        "status": "pending"
+      },
+      "D11": {
+        "slug": "papal-doctrine-continuity",
+        "claims": 3,
+        "load_bearing": 0,
+        "academic_floor": true,
+        "status": "pending"
+      },
+      "D12": {
+        "slug": "waldensian-albigensian-character",
+        "claims": 7,
+        "load_bearing": 0,
+        "academic_floor": false,
+        "status": "pending"
+      },
+      "D13": {
+        "slug": "biblical-composition-frame",
+        "claims": 5,
+        "load_bearing": 0,
+        "academic_floor": false,
+        "status": "pending"
+      },
+      "D14": {
+        "slug": "medieval-sabbatarian-residue",
+        "claims": 1,
+        "load_bearing": 0,
+        "academic_floor": true,
+        "status": "pending"
+      },
+      "D15": {
+        "slug": "lisbon-1755",
+        "claims": 3,
+        "load_bearing": 0,
+        "academic_floor": false,
+        "status": "pending"
+      },
+      "D16": {
+        "slug": "titus-and-the-temple",
+        "claims": 4,
+        "load_bearing": 0,
+        "academic_floor": false,
+        "status": "pending"
+      },
+      "D17": {
+        "slug": "early-persecution-scale",
+        "claims": 5,
+        "load_bearing": 0,
+        "academic_floor": false,
+        "status": "pending"
+      },
+      "D18": {
+        "slug": "martyr-tolls-apostate-power",
+        "claims": 1,
+        "load_bearing": 0,
+        "academic_floor": true,
+        "status": "pending"
+      },
+      "D19": {
+        "slug": "wesley-membership",
+        "claims": 1,
+        "load_bearing": 0,
+        "academic_floor": false,
+        "status": "pending"
+      },
+      "D20": {
+        "slug": "st-bartholomew-extension",
+        "claims": 1,
+        "load_bearing": 0,
+        "academic_floor": false,
+        "status": "pending"
+      },
+      "D21": {
+        "slug": "massacre-of-innocents",
+        "claims": 1,
+        "load_bearing": 0,
+        "academic_floor": false,
+        "status": "pending"
+      },
+      "D22": {
+        "slug": "hus-bohemia-narrative",
+        "claims": 9,
+        "load_bearing": 0,
+        "academic_floor": false,
+        "status": "pending"
+      },
+      "D23": {
+        "slug": "wycliffe-predecessors",
+        "claims": 1,
+        "load_bearing": 0,
+        "academic_floor": false,
+        "status": "pending"
+      }
+    }
   }
 }
