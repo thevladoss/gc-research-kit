@@ -1,0 +1,3671 @@
+{
+  "chapter": 12,
+  "chapter_title": "The French Reformation",
+  "stage": "impact",
+  "generated_at": "2026-07-05",
+  "notes": "Processed in two passes (paragraphs 1-36, 37-71) and merged; IDs sequential GC-12-001..146. Entities normalized to modern names where identifiable (e.g. 'Lefevre' -> Lefevre/Jacques Lefevre d'Etaples).\n\nsearches: ~18, clusters: 13. Control sample of needs_verification:false claims: GC-12-108, GC-12-133, GC-12-144. Most attributed quotes trace to D'Aubigné 'History of the Reformation' and Wylie 'History of Protestantism' — White's named sources; verified at cluster level. Anachronistic verdicts: GC-12-027 (Marguerite 'accepted reformed faith'), GC-12-035 (Briçonnet 'stake or recant'), GC-12-114 (Louis XVI 'struggled'). Providential long-range causal claims (097, 116) marked unverifiable.\n\nsearches: ~1; full defenses: 0, cheap audits: 3. Scope limited to the three anachronistic verdicts (GC-12-027, 035, 114). Footnote apparatus checked: 035 and 114 trace to Wylie b.13 (fn 343 = Wylie b.13 ch.21); 027 sits in the Meaux passage drawn from Wylie/D'Aubigné. One search on the only concrete lead (114, whether period eyewitnesses genuinely conflict on Louis XVI struggling).\n\nChapter 12 narrates the French Reformation as a fresh instance of the book's recurring pattern: truth breaks in on individuals (Lefevre, Farel, Briconnet, Berquin, Calvin) despite institutional Catholic loyalty, faces persecution, and survives through steadfast witnesses even when a leader compromises (Briconnet) or is martyred (Berquin) — culminating in Geneva/Calvin as a durable institutional base for the wider Reformation. The chapter's own argumentative weight rests on the cumulative biographical arc of conversions and martyrdoms, not on any single anecdote; Briconnet's fall functions only as a foil contrasting leader-compromise with flock-fidelity (GC-12-036, already supported), and the closing Louis XVI/Terror passage (paragraphs 55-56) is a moral-providential coda illustrating 'rejected light produces judgment,' a theme pattern in the book but distinct from the central thesis chain (Reformation succession -> Millerite -> sanctuary -> Sabbath) defined in CLAUDE.md. The providential causal claims GC-12-097 and GC-12-116 (France's Reformation-era persecution 'inevitably' producing the Revolution/Terror) are theological/unverifiable and are noted here only for context, not scored as impact items per task scope. Only two claims carry a defense-adjusted anachronistic verdict in this chapter: GC-12-035 (Briconnet's personal peril dramatized) and GC-12-114 (Louis XVI's execution dramatized); both trace to Wylie (History of Protestantism, bk. 13), White's cited 19th-century source, so their severity commentary must register period-typical dramatization rather than invention.",
+  "claims": [
+    {
+      "id": "GC-12-001",
+      "paragraph": 1,
+      "quote": "The Protest of Spires and the Confession at Augsburg, which marked the triumph of the Reformation in Germany, were followed by years of conflict and darkness.",
+      "claim_text": "The Protest of Spires (1529) and the Confession of Augsburg (1530), which marked the triumph of the Reformation in Germany, were followed by years of conflict and darkness for German Protestants.",
+      "claim_type": "event",
+      "entities": [
+        "Protest of Spires",
+        "Confession of Augsburg",
+        "Protestant Reformation",
+        "Germany"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Protest of Spires (1529) and Confession of Augsburg (1530) are standard markers of the German Reformation, followed by confessional conflict.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-002",
+      "paragraph": 1,
+      "quote": "Civil war broke out;",
+      "claim_text": "Civil war broke out among German Protestants and Catholics in the period following the Diet of Augsburg (the Schmalkaldic War).",
+      "claim_type": "event",
+      "entities": [
+        "Schmalkaldic War",
+        "Germany"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The Schmalkaldic War (1546-47) between Charles V and the Protestant Schmalkaldic League is textbook fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-003",
+      "paragraph": 1,
+      "quote": "the Protestant cause was betrayed by one of its leading adherents;",
+      "claim_text": "The Protestant (Schmalkaldic League) cause in Germany was betrayed by one of its own leading adherents.",
+      "claim_type": "causal",
+      "entities": [
+        "Schmalkaldic League",
+        "Maurice of Saxony"
+      ],
+      "needs_verification": true,
+      "extractor_note": "GC does not name the betrayer; commonly identified as Duke Maurice of Saxony.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Duke Maurice of Saxony, a Protestant, allied with Charles V against the Schmalkaldic League (1546-47) — the standard 'betrayal' of the Protestant cause.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-004",
+      "paragraph": 1,
+      "quote": "the noblest of the reformed princes fell into the hands of the emperor, and were dragged as captives from town to town.",
+      "claim_text": "Leading reformed German princes fell into the hands of Emperor Charles V and were led as captives from town to town.",
+      "claim_type": "event",
+      "entities": [
+        "Charles V",
+        "John Frederick I of Saxony",
+        "Philip of Hesse"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] John Frederick I of Saxony (captured at Mühlberg 1547) and Philip of Hesse were held captive in Charles V's itinerant court.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-005",
+      "paragraph": 1,
+      "quote": "But in the moment of his apparent triumph, the emperor was smitten with defeat.",
+      "claim_text": "Shortly after his apparent triumph over the Schmalkaldic League, Emperor Charles V suffered a reversal of fortune.",
+      "claim_type": "event",
+      "entities": [
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Maurice of Saxony's 1552 revolt forced Charles V into flight, reversing his 1547 triumph.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-006",
+      "paragraph": 1,
+      "quote": "he was forced at last to grant toleration to the doctrines which it had been the ambition of his life to destroy.",
+      "claim_text": "Emperor Charles V was eventually forced to grant toleration to Protestant doctrines he had spent his reign trying to destroy.",
+      "claim_type": "causal",
+      "entities": [
+        "Charles V",
+        "Peace of Augsburg",
+        "Peace of Passau"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The Peace of Passau (1552) and Peace of Augsburg (1555) granted legal toleration to Lutheranism, which Charles V had fought.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-007",
+      "paragraph": 1,
+      "quote": "Now he saw his armies wasted by battle, his treasuries drained, his many kingdoms threatened by revolt, while everywhere the faith which he had vainly endeavored to suppress, was extending.",
+      "claim_text": "By the end of his campaigns against Protestantism, Charles V's armies were depleted, his treasuries drained, and his kingdoms threatened by revolt, while Protestantism continued to spread.",
+      "claim_type": "event",
+      "entities": [
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[common_knowledge] By the mid-1550s Charles V's finances were exhausted and his territories strained while Protestantism continued to expand — standard characterization of his late reign.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-008",
+      "paragraph": 1,
+      "quote": "in premature old age, worn out with the long struggle, he abdicated the throne, and buried himself in a cloister.",
+      "claim_text": "Charles V, worn out prematurely by his long struggle against Protestantism, abdicated the throne and retired to a monastery.",
+      "claim_type": "biographical",
+      "entities": [
+        "Charles V",
+        "Monastery of Yuste"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Charles V abdicated (1556) and retired to the monastery of Yuste, worn by gout and struggle at age ~56.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-009",
+      "paragraph": 1,
+      "quote": "God had said, “Let there be light,” but the emperor had sought to keep the darkness unbroken.",
+      "claim_text": "Charles V's opposition to the Reformation is framed as an attempt to keep divinely ordained light (truth) suppressed.",
+      "claim_type": "theological",
+      "entities": [
+        "Charles V"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological framing of Charles V's opposition as suppressing divinely ordained 'light'; not an empirical claim.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-010",
+      "paragraph": 2,
+      "quote": "While many cantons accepted the reformed faith, others clung with blind persistence to the creed of Rome.",
+      "claim_text": "Among the Swiss cantons, some accepted the reformed (Protestant) faith while others remained committed to Roman Catholicism.",
+      "claim_type": "event",
+      "entities": [
+        "Switzerland",
+        "Swiss cantons"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Swiss cantons divided between Protestant (Zurich, Bern) and Catholic (the Forest cantons) — textbook fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-011",
+      "paragraph": 2,
+      "quote": "Their persecution of those who desired to receive the truth, finally gave rise to civil war.",
+      "claim_text": "Persecution of Protestants by Catholic Swiss cantons eventually led to civil war in Switzerland (the Kappel Wars).",
+      "claim_type": "causal",
+      "entities": [
+        "Switzerland",
+        "Kappel Wars"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[common_knowledge] Confessional tension between Protestant and Catholic cantons produced the Kappel Wars (1529, 1531). GC's 'persecution of those who desired truth' simplifies mixed political/confessional/economic causes.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-012",
+      "paragraph": 2,
+      "quote": "Zwingle and many who had united with him in reform, fell on the bloody field of Cappel.",
+      "claim_text": "Huldrych Zwingli and many of his fellow reformers died in battle at Kappel (Second Battle of Kappel, 1531).",
+      "claim_type": "event",
+      "entities": [
+        "Huldrych Zwingli",
+        "Battle of Kappel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Huldrych Zwingli died at the Second Battle of Kappel, 11 October 1531, along with many Zurich reformers.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-013",
+      "paragraph": 2,
+      "quote": "Œcolampadius, overcome by these terrible disasters, soon after died.",
+      "claim_text": "Johannes Oecolampadius died shortly after the Battle of Kappel, reportedly overcome by the disasters it caused.",
+      "claim_type": "biographical",
+      "entities": [
+        "Johannes Oecolampadius"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[common_knowledge] Oecolampadius died 24 November 1531, weeks after Kappel; the 'overcome by disasters' causal framing is traditional (he died of illness shortly after).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-014",
+      "paragraph": 2,
+      "quote": "But He whose counsels are from everlasting had not forsaken His cause or His people.",
+      "claim_text": "Despite setbacks in Germany and Switzerland, divine providence had not abandoned the Protestant cause.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about divine providence not abandoning the Protestant cause.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-015",
+      "paragraph": 3,
+      "quote": "One of the first to catch the light was the aged Lefevre, a man of extensive learning, a professor in the University of Paris, and a sincere and zealous papist.",
+      "claim_text": "Jacques Lefevre d'Etaples, an elderly and learned professor at the University of Paris and a devout Roman Catholic, was among the first in France to embrace reformist ideas.",
+      "claim_type": "biographical",
+      "entities": [
+        "Jacques Lefevre d'Etaples",
+        "University of Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Jacques Lefèvre d'Étaples was an aged, learned professor at the University of Paris and a devout Catholic who became an early French reformist influence.",
+        "sources": [
+          {
+            "title": "Jacques Lefèvre d'Étaples — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Jacques_Lef%c3%a8vre_d'%c3%89taples",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Lefèvre d'Étaples — Encyclopedia.com",
+            "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/lefevre-detaples-jacques",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-016",
+      "paragraph": 3,
+      "quote": "In his researches into ancient literature his attention was directed to the Bible, and he introduced its study among his students.",
+      "claim_text": "Lefevre's research into ancient literature led him to focus on the Bible, and he introduced Bible study among his students at the University of Paris.",
+      "claim_type": "biographical",
+      "entities": [
+        "Jacques Lefevre d'Etaples"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Lefèvre's humanist study of ancient texts led to biblical scholarship (his 1509 Psalter and 1512 Pauline commentary) and he taught Scripture to students.",
+        "sources": [
+          {
+            "title": "Jacques Lefèvre d'Étaples — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Jacques_Lef%c3%a8vre_d'%c3%89taples",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-017",
+      "paragraph": 4,
+      "quote": "he had undertaken to prepare a history of the saints and martyrs, as given in the legends of the church.",
+      "claim_text": "Lefevre had undertaken to compile a history of the saints and martyrs based on the legends of the Catholic Church.",
+      "claim_type": "biographical",
+      "entities": [
+        "Jacques Lefevre d'Etaples"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Lefèvre worked on hagiographic/saints' material before turning to Scripture; the detail derives from D'Aubigné's account (White's cited source).",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Period source cited by GC"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-018",
+      "paragraph": 5,
+      "quote": "In 1512, before either Luther or Zwingle had begun the work of reform, Lefevre wrote: “It is God who gives us, by faith, that righteousness which by grace alone justifies to eternal life.”",
+      "claim_text": "In 1512, before Luther or Zwingli began their reform work, Lefevre wrote that God gives righteousness by faith, which by grace alone justifies to eternal life.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jacques Lefevre d'Etaples"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Lefèvre's 1512 commentary on the Pauline epistles teaches justification by grace alone through faith ('it is God alone who provides this righteousness through faith and justifies by grace alone unto life eternal'), predating Luther/Zwingli. Nearly verbatim match.",
+        "sources": [
+          {
+            "title": "Lefèvre Took Risks To Teach Righteousness By Faith — Christian History Institute",
+            "url": "https://christianhistoryinstitute.org/dailystory/permalink/lefevre-took-risks-to-teach-righteousness-by-faith",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "Jacques Lefèvre d'Étaples: a humanist or a reformist view of Paul? (academia.edu)",
+            "url": "https://www.academia.edu/525134/Jacques_Lef%C3%A8vre_dEtaples_a_humanist_or_a_reformist_view_of_Paul",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-019",
+      "paragraph": 5,
+      "quote": "Oh, the unspeakable greatness of that exchange,—the Sinless One is condemned, and he who is guilty goes free; the Blessing bears the curse, and the cursed is brought into blessing; the Life dies, and the dead live; the Glory is whelmed in darkness, and he who knew nothing but confusion of face is clothed with glory.",
+      "claim_text": "Lefevre is quoted as writing about the 'unspeakable greatness' of the exchange in which the sinless bears the guilty's condemnation.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jacques Lefevre d'Etaples"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Attributed quote from Lefèvre's writings on the atonement ('the exchange'); reproduced in D'Aubigné, White's cited source. Not independently located in the primary text within budget.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Period source cited by GC"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-020",
+      "paragraph": 6,
+      "quote": "If thou art a member of Christ’s church,” he said, “thou art a member of His body; if thou art of His body, then thou art full of the divine nature....",
+      "claim_text": "Lefevre is quoted teaching that a member of Christ's church is a member of His body and thus full of the divine nature.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jacques Lefevre d'Etaples"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Attributed quote from Lefèvre on church membership and the divine nature; traces to D'Aubigné, White's cited source.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Period source cited by GC"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-021",
+      "paragraph": 7,
+      "quote": "The son of pious parents, and educated to accept with implicit faith the teachings of the church, he might, with the apostle Paul, have declared concerning himself, “After the most straitest sect of our religion I lived a Pharisee.”",
+      "claim_text": "William Farel was the son of pious parents and was raised to accept the teachings of the Catholic Church without question.",
+      "claim_type": "biographical",
+      "entities": [
+        "William Farel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "William Farel was raised in a pious Catholic family and was a zealous Catholic before conversion.",
+        "sources": [
+          {
+            "title": "William Farel — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/William_Farel",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-022",
+      "paragraph": 7,
+      "quote": "I would gnash my teeth like a furious wolf,” he afterward said, referring to this period of his life, “when I heard any one speaking against the pope.”",
+      "claim_text": "William Farel later said that, as a devoted Catholic, he would 'gnash his teeth like a furious wolf' when he heard anyone speak against the pope.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "William Farel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Farel's recollection 'I would gnash my teeth like a furious wolf' when hearing anti-papal speech is a well-attested quotation in D'Aubigné, White's cited source.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "The Life of William Farel — American Presbyterian Church",
+            "url": "https://www.americanpresbyterianchurch.org/reformation-history/the-life-of-william-farel/section-1-early-life-and-labors/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-023",
+      "paragraph": 7,
+      "quote": "He had been untiring in his adoration of the saints, in company with Lefevre making the round of the churches of Paris, worshiping at the altars, and adorning with gifts the holy shrines.",
+      "claim_text": "Before his conversion, William Farel joined Lefevre in visiting the churches of Paris, worshiping at altars and adorning shrines with gifts.",
+      "claim_type": "biographical",
+      "entities": [
+        "William Farel",
+        "Jacques Lefevre d'Etaples"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Farel was a disciple of Lefèvre and, before conversion, joined in devotional rounds of Paris churches and shrines — attested in D'Aubigné and Farel biographies.",
+        "sources": [
+          {
+            "title": "The Life of William Farel — American Presbyterian Church",
+            "url": "https://www.americanpresbyterianchurch.org/reformation-history/the-life-of-william-farel/section-1-early-life-and-labors/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-024",
+      "paragraph": 7,
+      "quote": "Salvation is of grace.” “The Innocent One is condemned, and the criminal is acquitted.” “It is the cross of Christ alone that openeth the gates of heaven, and shutteth the gates of hell.",
+      "claim_text": "Farel is described as having heard Lefevre teach that salvation is of grace, that the innocent is condemned and the criminal acquitted, and that the cross of Christ alone opens heaven and shuts hell.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "William Farel",
+        "Jacques Lefevre d'Etaples"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Lefèvre's teaching on grace and the atonement as heard by Farel; the quoted phrases trace to D'Aubigné, White's cited source.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-025",
+      "paragraph": 8,
+      "quote": "Instead of the murderous heart of a ravening wolf, he came back,” he says, “quietly, like a meek and harmless lamb, having his heart entirely withdrawn from the pope, and given to Jesus Christ.",
+      "claim_text": "Farel described his conversion as a change from a 'ravening wolf' to a 'meek and harmless lamb', with his heart withdrawn from the pope and given to Jesus Christ.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "William Farel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Farel's own conversion account ('like a meek and harmless lamb, having his heart entirely withdrawn from the pope, and given to Jesus Christ') is attested in D'Aubigné, White's cited source.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-026",
+      "paragraph": 9,
+      "quote": "A dignitary of the church, the bishop of Meaux, soon after united with them.",
+      "claim_text": "The bishop of Meaux (Guillaume Briconnet) joined Lefevre and Farel in the early French reform movement.",
+      "claim_type": "biographical",
+      "entities": [
+        "Guillaume Briconnet",
+        "Meaux"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Guillaume Briçonnet, bishop of Meaux, gathered the evangelical humanists (Lefèvre, Farel, Roussel, etc.) into the 'Circle of Meaux'.",
+        "sources": [
+          {
+            "title": "Guillaume Briçonnet — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Guillaume_Bri%C3%A7onnet_(bishop_of_Meaux)",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Reformation & Repression under Bishop Briçonnet of Meaux — World History Encyclopedia",
+            "url": "https://www.worldhistory.org/article/2123/reformation--repression-under-bishop-briconnet-of/",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-027",
+      "paragraph": 9,
+      "quote": "The sister of Francis I., then the reigning monarch, accepted the reformed faith.",
+      "claim_text": "Marguerite de Navarre, sister of the reigning French king Francis I, accepted the reformed (Protestant) faith.",
+      "claim_type": "biographical",
+      "entities": [
+        "Marguerite de Navarre",
+        "Francis I"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "GC says Marguerite (sister of Francis I) 'accepted the reformed faith'. Modern scholarship holds she remained within the Catholic Church, promoting internal evangelical reform while never formally becoming Protestant. The stronger 'accepted the reformed faith' reading reflects 19th-c Protestant historiography (Wylie/D'Aubigné) that claimed her for the Reformation.",
+        "modern_consensus": "Marguerite de Navarre was an evangelical reformist and protector of reformers who remained Catholic and avoided a break with the papacy.",
+        "period_historiography": "D'Aubigné and Wylie present the king's sister as embracing the reformed/Protestant faith.",
+        "sources": [
+          {
+            "title": "King's sister, queen of dissent: Marguerite of Navarre — Medievalists.net",
+            "url": "https://www.medievalists.net/2014/11/kings-sister-queen-dissent-marguerite-navarre-1492-1549-evangelical-network/",
+            "source_class": "academic",
+            "supports_verdict": true
+          },
+          {
+            "title": "Marguerite de Navarre — World History Encyclopedia",
+            "url": "https://www.worldhistory.org/Marguerite_de_Navarre/",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "'Marguerite remained within the Catholic Church, pushing for internal reform, while avoiding a full break with the papacy.'"
+          }
+        ]
+      },
+      "defense": {
+        "result": "defense_succeeded",
+        "argument": "GC's clause is 'The sister of Francis I... accepted the reformed faith,' set in a paragraph that grades degrees of adherence: the king and queen mother only 'appeared for a time to regard it with favor,' while Marguerite 'accepted' it. In 19th-century evangelical idiom 'the reformed faith' denotes the doctrine of justification by grace through faith and the authority of Scripture, not institutional membership in a Reformed/Calvinist church. Under that reading the claim is well supported: Marguerite de Navarre was a committed evangelical inside the Briconnet-Lefevre circle, corresponded with Briconnet on evangelical spirituality, protected reformers throughout her life, and wrote the 'Miroir de l'ame pecheresse,' which the Sorbonne censured as heretical in 1533 (Francis I forced its withdrawal). The verifier's own sources grant her genuine evangelical convictions and contradict only the stronger reading that she formally became a Protestant, a claim White's sentence does not make: Marguerite never left the Catholic Church. Because the assertion is true under the doctrinal sense the words naturally carry, the anachronism charge rests on over-literalizing 'reformed faith' as institutional conversion. The distinction White draws in the same sentence (sister 'accepted' vs. king/mother merely 'regarded with favor') tracks the historical reality that her evangelical commitment was deeper and more durable than her brother's political flirtation.",
+        "revised_verdict": "supported"
+      }
+    },
+    {
+      "id": "GC-12-028",
+      "paragraph": 9,
+      "quote": "The king himself, and the queen mother, appeared for a time to regard it with favor,",
+      "claim_text": "King Francis I and the queen mother (Louise of Savoy) for a time appeared to view the reformed faith favorably.",
+      "claim_type": "biographical",
+      "entities": [
+        "Francis I",
+        "Louise of Savoy"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Francis I and his mother Louise of Savoy initially tolerated/favored the evangelical humanists (early 1520s) before the policy hardened.",
+        "sources": [
+          {
+            "title": "Reformation & Repression under Bishop Briçonnet of Meaux — World History Encyclopedia",
+            "url": "https://www.worldhistory.org/article/2123/reformation--repression-under-bishop-briconnet-of/",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-029",
+      "paragraph": 10,
+      "quote": "The bishop of Meaux labored zealously in his own diocese to instruct both the clergy and the people.",
+      "claim_text": "The bishop of Meaux worked zealously within his diocese to instruct both clergy and laypeople.",
+      "claim_type": "event",
+      "entities": [
+        "Guillaume Briconnet",
+        "Meaux"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Briçonnet actively reformed his Meaux diocese, instructing clergy and laity and instituting biblical preaching.",
+        "sources": [
+          {
+            "title": "Guillaume Briçonnet — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Guillaume_Bri%C3%A7onnet_(bishop_of_Meaux)",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-030",
+      "paragraph": 10,
+      "quote": "Ignorant and immoral priests were removed, and, so far as possible, replaced by men of learning and piety.",
+      "claim_text": "In the diocese of Meaux, ignorant and immoral priests were removed and replaced, where possible, with learned and pious men.",
+      "claim_type": "event",
+      "entities": [
+        "Meaux"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Briçonnet's reforms at Meaux included replacing negligent clergy and bringing in learned evangelical preachers.",
+        "sources": [
+          {
+            "title": "Reformation & Repression under Bishop Briçonnet of Meaux — World History Encyclopedia",
+            "url": "https://www.worldhistory.org/article/2123/reformation--repression-under-bishop-briconnet-of/",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-031",
+      "paragraph": 10,
+      "quote": "Lefevre undertook the translation of the New Testament; and at the very time when Luther’s German Bible was issuing from the press in Wittenberg, the French New Testament was published at Meaux.",
+      "claim_text": "Lefevre translated the New Testament into French, and it was published at Meaux at approximately the same time Luther's German Bible was being printed in Wittenberg.",
+      "claim_type": "event",
+      "entities": [
+        "Jacques Lefevre d'Etaples",
+        "Meaux",
+        "Martin Luther",
+        "Wittenberg"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Lefèvre's French New Testament appeared in 1523, close in time to Luther's German NT (Sept 1522). Minor imprecision: it was printed in Paris by Simon de Colines, though editions of Gospels/Epistles were made 'for the use of the diocese of Meaux' and Lefèvre was then vicar-general at Meaux.",
+        "modern_consensus": "French NT printed Paris 1523 by Colines, intended for the Meaux diocese.",
+        "sources": [
+          {
+            "title": "Jacques Lefèvre d'Étaples — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Jacques_Lef%c3%a8vre_d'%c3%89taples",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-032",
+      "paragraph": 10,
+      "quote": "The bishop spared no labor or expense to circulate it in his parishes, and soon the peasants of Meaux were in possession of the Holy Scriptures.",
+      "claim_text": "The bishop of Meaux spared no effort or expense to circulate Lefevre's French New Testament in his parishes, so that peasants of Meaux soon possessed copies of Scripture.",
+      "claim_type": "event",
+      "entities": [
+        "Guillaume Briconnet",
+        "Meaux"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Briçonnet promoted circulation of the French New Testament in his parishes; Meaux laypeople gained access to Scripture in the vernacular.",
+        "sources": [
+          {
+            "title": "Reformation & Repression under Bishop Briçonnet of Meaux — World History Encyclopedia",
+            "url": "https://www.worldhistory.org/article/2123/reformation--repression-under-bishop-briconnet-of/",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-033",
+      "paragraph": 11,
+      "quote": "At evening, instead of resorting to the wine shops, they assembled in one another’s homes to read God’s word and join in prayer and praise.",
+      "claim_text": "Peasants and artisans of Meaux who received the Scriptures reportedly gathered in each other's homes in the evenings to read the Bible and pray, instead of visiting wine shops.",
+      "claim_type": "event",
+      "entities": [
+        "Meaux"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Borderline general descriptive claim about communal behavior; included for completeness.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Descriptive claim about Meaux believers gathering to read Scripture; derives from D'Aubigné's narrative, White's cited source. Not independently documentable in detail.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-034",
+      "paragraph": 12,
+      "quote": "The rage of the hierarchy was for a time held in check by the king, who despised the narrow bigotry of the monks; but the papal leaders finally prevailed.",
+      "claim_text": "King Francis I, who reportedly despised the bigotry of the monks, held back the church hierarchy's persecution of reformers at Meaux for a time, but papal leaders eventually prevailed.",
+      "claim_type": "causal",
+      "entities": [
+        "Francis I",
+        "Meaux"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Royal protection restrained persecution at Meaux for a time before the Sorbonne/Parlement prevailed (mid-1520s), consistent with the documented collapse of the Circle of Meaux.",
+        "sources": [
+          {
+            "title": "Reformation & Repression under Bishop Briçonnet of Meaux — World History Encyclopedia",
+            "url": "https://www.worldhistory.org/article/2123/reformation--repression-under-bishop-briconnet-of/",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-035",
+      "paragraph": 12,
+      "quote": "Now the stake was set up. The bishop of Meaux, forced to choose between the fire and recantation, accepted the easier path;",
+      "claim_text": "When faced with execution by burning or recantation, the bishop of Meaux (Guillaume Briconnet) chose to recant.",
+      "claim_type": "biographical",
+      "entities": [
+        "Guillaume Briconnet",
+        "Meaux"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "GC dramatizes Briçonnet as 'forced to choose between the fire and recantation'. Modern scholarship shows he appeared before the Paris Parlement, gave guarantees to the Sorbonne that public Scripture instruction would cease, and was acquitted of heresy in November 1525 (fined 200 livres) — he was never condemned to the stake. The 'stake or recant' framing traces to White's Reformation sources.",
+        "modern_consensus": "Briçonnet submitted to Parlement pressure and issued anti-Lutheran synodal measures; acquitted 1525, remained bishop until his death in 1534. No death sentence.",
+        "period_historiography": "D'Aubigné/Wylie dramatize the bishop as forced to choose recantation over burning.",
+        "sources": [
+          {
+            "title": "Reformation & Repression under Bishop Briçonnet of Meaux — World History Encyclopedia",
+            "url": "https://www.worldhistory.org/article/2123/reformation--repression-under-bishop-briconnet-of/",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Henry M. Baird, History of the Rise of the Huguenots (CCEL)",
+            "url": "https://ccel.org/ccel/baird/huguenots/huguenots.vi.html",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Acquitted Nov 1525, fined 200 livres; gave guarantees to the Sorbonne"
+          }
+        ]
+      },
+      "defense": {
+        "result": "defense_failed",
+        "argument": "The strongest reading takes 'forced to choose between the fire and recantation, accepted the easier path' as rhetorical antithesis, not a claim that a tribunal literally sentenced Briconnet to death-or-abjuration. At Meaux the stake was in fact 'set up': Jean Leclerc and other members of his flock were burned, so a bishop championing reform did face a real existential choice, press on and share his people's fate or draw back. And he did draw back: under Sorbonne/Parlement pressure he gave guarantees that public Scripture instruction would cease and issued anti-Lutheran synodal measures, a functional recantation of his reforming program, while his flock 'remained steadfast.' That substance, leader falls and followers stand, is accurate. The defense fails only on the specific 'fire or recantation' mechanism: modern scholarship and the verifier's own Baird source show Briconnet was never in personal danger of the stake, was acquitted of heresy in November 1525, fined 200 livres, and remained bishop of Meaux until his death in 1534. Protected by episcopal rank and by royal and Marguerite favor, he did not recant to save himself from burning. The 'held between fire and recantation' peril is a Wylie/D'Aubigne dramatization (the passage traces to Wylie, book 13), so the anachronistic verdict stands. Severity is low, since the underlying event, the bishop's submission under persecution, is real; the exaggeration is confined to his personal danger."
+      },
+      "impact": {
+        "severity": 3,
+        "centrality": 2,
+        "load_bearing": false,
+        "impact_score": 6,
+        "narrative_arc": "reformation",
+        "reasoning": "GC dramatizes Briconnet as personally facing 'the fire or recantation,' but modern scholarship shows he was acquitted of heresy in 1525, fined, and remained bishop of Meaux until 1534 with no death sentence ever pronounced — the personal mortal peril is invented even though his real capitulation to Sorbonne pressure (ceasing public Scripture instruction) is accurate. The dramatization follows Wylie's account (White's named source, bk. 13), so this reflects period historiographical embellishment rather than fabrication from nothing. Deleting the claim leaves the chapter's contrast intact: GC-12-036 (flock remained steadfast, martyrs died) stands independently and already carries the chapter's rhetorical point about leader-compromise versus lay fidelity, so the argument is not load-bearing on this specific dramatized peril."
+      }
+    },
+    {
+      "id": "GC-12-036",
+      "paragraph": 12,
+      "quote": "notwithstanding the leader’s fall, his flock remained steadfast. Many witnessed for the truth amid the flames.",
+      "claim_text": "Despite the bishop of Meaux's recantation, many of his followers remained steadfast in the reformed faith and were burned at the stake for it.",
+      "claim_type": "event",
+      "entities": [
+        "Meaux"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Despite Briçonnet's retreat, Meaux produced martyrs (e.g. the wool-carder Jean Leclerc, and later Meaux believers burned in 1546), so some followers stood firm to death.",
+        "sources": [
+          {
+            "title": "Henry M. Baird, History of the Rise of the Huguenots (CCEL)",
+            "url": "https://ccel.org/ccel/baird/huguenots/huguenots.vi.html",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-037",
+      "paragraph": 13,
+      "quote": "Louis de Berquin was of noble birth.",
+      "claim_text": "Louis de Berquin was of noble birth.",
+      "claim_type": "biographical",
+      "entities": [
+        "Louis de Berquin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Louis de Berquin was of noble birth (a nobleman of Artois).",
+        "sources": [
+          {
+            "title": "Louis de Berquin — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Louis_de_Berquin",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-038",
+      "paragraph": 13,
+      "quote": "He was,” says a writer, “a great follower of the papistical constitutions, and a great hearer of masses and sermons; ... and he crowned all his other virtues by holding Lutheranism in special abhorrence.",
+      "claim_text": "A cited writer described Louis de Berquin, before his conversion, as a devoted follower of Catholic practice who held Lutheranism in special abhorrence.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Louis de Berquin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The description of Berquin as a strict Catholic who abhorred Lutheranism before conversion derives from Theodore Beza/Crespin as relayed by D'Aubigné, White's cited source.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-039",
+      "paragraph": 13,
+      "quote": "not the doctrines of Rome, but the doctrines of Luther.",
+      "claim_text": "Louis de Berquin, upon reading the Bible, was reportedly amazed to find in it not the doctrines of Rome but the doctrines of Luther.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Louis de Berquin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The claim that Berquin found in the Bible 'the doctrines of Luther' derives from D'Aubigné's account of his conversion, White's cited source.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-040",
+      "paragraph": 14,
+      "quote": "Berquin would have been a second Luther, had he found in Francis I. a second elector.",
+      "claim_text": "Theodore Beza is quoted as saying Berquin would have been a second Luther had he found in Francis I a second Frederick the Wise (elector).",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Theodore Beza",
+        "Louis de Berquin",
+        "Francis I"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Beza saying that Berquin 'would have been a second Luther had he found in Francis I a second elector' is well attested in the Reformation histories (D'Aubigné, Baird).",
+        "sources": [
+          {
+            "title": "Henry M. Baird, History of the Rise of the Huguenots — Berquin (CCEL)",
+            "url": "https://ccel.org/ccel/baird/huguenots/huguenots.viii.html",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-041",
+      "paragraph": 14,
+      "quote": "He is worse than Luther,” cried the papists.",
+      "claim_text": "French Catholic opponents reportedly called Louis de Berquin 'worse than Luther'.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Louis de Berquin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The cry 'He is worse than Luther' attributed to Berquin's opponents derives from D'Aubigné, White's cited source.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-042",
+      "paragraph": 14,
+      "quote": "They thrust him into prison as a heretic, but he was set at liberty by the king.",
+      "claim_text": "Louis de Berquin was imprisoned as a heretic by church authorities but freed by King Francis I.",
+      "claim_type": "event",
+      "entities": [
+        "Louis de Berquin",
+        "Francis I"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Berquin was imprisoned as a heretic (first in 1523) and released through Francis I's intervention.",
+        "sources": [
+          {
+            "title": "Louis de Berquin — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Louis_de_Berquin",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-043",
+      "paragraph": 14,
+      "quote": "Berquin was three times imprisoned by the papal authorities, only to be released by the monarch, who, in admiration of his genius and his nobility of character, refused to sacrifice him to the malice of the hierarchy.",
+      "claim_text": "Louis de Berquin was imprisoned three times by papal/Church authorities in France, each time being released by King Francis I.",
+      "claim_type": "statistic",
+      "entities": [
+        "Louis de Berquin",
+        "Francis I"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Berquin was imprisoned three times by Parlement/Sorbonne (1523, 1525/26, 1529) and freed by the king each of the first times; the third (1529) ended in execution during the king's absence.",
+        "sources": [
+          {
+            "title": "Louis de Berquin — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Louis_de_Berquin",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Louis de Berquin — Christian History Institute",
+            "url": "https://christianhistoryinstitute.org/it-happened-today/4/16",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-044",
+      "paragraph": 15,
+      "quote": "Ask to be sent as ambassador to some foreign country; go and travel in Germany. You know Beda and such as he—he is a thousand-headed monster, darting venom on every side. Your enemies are named legion. Were your cause better than that of Jesus Christ, they will not let you go till they have miserably destroyed you. Do not trust too much to the king’s protection. At all events, _do not compromise me_ with the faculty of theology.",
+      "claim_text": "Erasmus wrote a letter to Louis de Berquin urging him to seek exile, warning him not to trust too much in the king's protection and not to implicate Erasmus with the theology faculty.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Erasmus",
+        "Louis de Berquin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Erasmus corresponded with Berquin urging caution and exile, warning him not to trust the king's protection and not to implicate Erasmus with the theology faculty; his description of Béda as a 'thousand-headed monster' is attested.",
+        "sources": [
+          {
+            "title": "Henry M. Baird, History of the Rise of the Huguenots — Berquin (CCEL)",
+            "url": "https://ccel.org/ccel/baird/huguenots/huguenots.viii.html",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-045",
+      "paragraph": 16,
+      "quote": "From the writings of these doctors, Berquin drew twelve propositions which he publicly declared to be “opposed to the Bible, and heretical;” and he appealed to the king to act as judge in the controversy.",
+      "claim_text": "Louis de Berquin drew twelve propositions from the writings of Sorbonne theologians, publicly declared them unbiblical and heretical, and appealed to King Francis I to judge the controversy.",
+      "claim_type": "statistic",
+      "entities": [
+        "Louis de Berquin",
+        "University of Paris",
+        "Francis I"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Berquin drew propositions (reported as twelve) from the theologians' works, declared them heretical/unbiblical, and appealed to the king to judge; attested in D'Aubigné/Baird.",
+        "sources": [
+          {
+            "title": "Henry M. Baird, History of the Rise of the Huguenots — Berquin (CCEL)",
+            "url": "https://ccel.org/ccel/baird/huguenots/huguenots.viii.html",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-046",
+      "paragraph": 17,
+      "quote": "The monarch, not loath to bring into contrast the power and acuteness of the opposing champions, and glad of an opportunity of humbling the pride of these haughty monks, bade the Romanists defend their cause by the Bible.",
+      "claim_text": "King Francis I ordered the Catholic theologians to defend their case against Berquin's twelve propositions using the Bible.",
+      "claim_type": "event",
+      "entities": [
+        "Francis I",
+        "Louis de Berquin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The account that Francis I bade the theologians defend their case by the Bible derives from D'Aubigné, White's cited source.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-047",
+      "paragraph": 18,
+      "quote": "Just at that time an image of the Virgin at the corner of one of the streets, was mutilated.",
+      "claim_text": "Around the time of Berquin's dispute with the theologians, an image of the Virgin Mary at a Paris street corner was mutilated.",
+      "claim_type": "event",
+      "entities": [
+        "Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "A statue of the Virgin at a Paris street corner was mutilated (the 1528 defacing of a Virgin image on the rue des Rosiers), which provoked expiatory processions — the episode GC places near Berquin's 1529 trial.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-048",
+      "paragraph": 18,
+      "quote": "These are the fruits of the doctrines of Berquin,” they cried. “All is about to be overthrown—religion, the laws, the throne itself—by this Lutheran conspiracy.",
+      "claim_text": "Monks reportedly blamed the mutilation of a Virgin Mary image on Berquin's doctrines, claiming a Lutheran conspiracy threatened religion, law, and the throne.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Louis de Berquin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The monks' cry blaming Berquin's doctrines and alleging a Lutheran conspiracy against religion, law, and throne derives from D'Aubigné, White's cited source.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-049",
+      "paragraph": 19,
+      "quote": "The Reformer was tried, and condemned to die, and lest Francis should even yet interpose to save him, the sentence was executed on the very day it was pronounced.",
+      "claim_text": "Louis de Berquin was tried and condemned to death, and the sentence was carried out the same day it was pronounced so that King Francis I could not intervene to save him.",
+      "claim_type": "event",
+      "entities": [
+        "Louis de Berquin",
+        "Francis I"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Berquin was condemned and executed rapidly (17/22 April 1529) while Francis I was absent, precluding royal intervention.",
+        "sources": [
+          {
+            "title": "Louis de Berquin — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Louis_de_Berquin",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Louis de Berquin — Christian History Institute",
+            "url": "https://christianhistoryinstitute.org/it-happened-today/4/16",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-050",
+      "paragraph": 19,
+      "quote": "At noon Berquin was conducted to the place of death.",
+      "claim_text": "Louis de Berquin was taken to his execution at noon.",
+      "claim_type": "event",
+      "entities": [
+        "Louis de Berquin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The detail that Berquin was led to execution at noon derives from D'Aubigné's eyewitness-based account, White's cited source.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-051",
+      "paragraph": 20,
+      "quote": "a cloak of velvet, a doublet of satin and damask, and golden hose.",
+      "claim_text": "Louis de Berquin wore a velvet cloak, a satin-and-damask doublet, and golden hose at his execution.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Louis de Berquin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The description of Berquin's clothing at execution ('a cloak of velvet, a doublet of satin and damask, and golden hose') is directly from D'Aubigné's History of the Reformation, White's cited source.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation in Europe in the Time of Calvin",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-052",
+      "paragraph": 21,
+      "quote": "He is,” they said, “like one who sits in a temple, and meditates on holy things.",
+      "claim_text": "Onlookers reportedly said Berquin, during his execution procession, looked 'like one who sits in a temple, and meditates on holy things'.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Louis de Berquin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The onlookers' remark that Berquin looked like one meditating in a temple derives from D'Aubigné, White's cited source.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-053",
+      "paragraph": 22,
+      "quote": "At the stake, Berquin endeavored to address a few words to the people; but the monks, fearing the result, began to shout, and the soldiers to clash their arms, and their clamor drowned the martyr’s voice.",
+      "claim_text": "At the stake, Berquin tried to address the crowd, but monks shouted and soldiers clashed their weapons to drown out his voice.",
+      "claim_type": "event",
+      "entities": [
+        "Louis de Berquin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "D'Aubigné records that at the stake Berquin tried to speak and monks shouted and soldiers clashed their arms to drown his voice — reproduced by White.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-054",
+      "paragraph": 22,
+      "quote": "Thus in 1529, the highest literary and ecclesiastical authority of cultured Paris “set the populace of 1793 the base example of stifling on the scaffold the sacred words of the dying.”",
+      "claim_text": "Louis de Berquin was executed in 1529; a cited writer claims the authorities' silencing of his final words set a precedent that the Paris populace followed in 1793 when stifling condemned prisoners.",
+      "claim_type": "date",
+      "entities": [
+        "Louis de Berquin",
+        "Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Berquin was executed in 1529; the quoted line about setting 'the populace of 1793 the base example' is Wylie's (History of Protestantism), White's cited source. Date 1529 correct.",
+        "sources": [
+          {
+            "title": "Louis de Berquin — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Louis_de_Berquin",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Wylie, History of Protestantism, Vol. 2 Bk 13",
+            "url": "https://www.doctrine.org/history/HPv2b13.htm",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-055",
+      "paragraph": 23,
+      "quote": "Berquin was strangled, and his body was consumed in the flames.",
+      "claim_text": "Louis de Berquin was strangled and his body was then burned.",
+      "claim_type": "event",
+      "entities": [
+        "Louis de Berquin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "In consideration of his nobility, Berquin was strangled before his body was burned.",
+        "sources": [
+          {
+            "title": "Louis de Berquin — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Louis_de_Berquin",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-056",
+      "paragraph": 23,
+      "quote": "We too are ready,” said the witnesses for the truth, “to meet death cheerfully, setting our eyes on the life that is to come.",
+      "claim_text": "After Berquin's death, other Protestant witnesses reportedly said they too were ready to meet death cheerfully.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The witnesses' declaration of readiness to meet death cheerfully derives from D'Aubigné/Wylie, White's cited sources.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-057",
+      "paragraph": 24,
+      "quote": "Lefevre after a time made his way to Germany.",
+      "claim_text": "After the persecution at Meaux, Jacques Lefevre d'Etaples eventually traveled to Germany.",
+      "claim_type": "biographical",
+      "entities": [
+        "Jacques Lefevre d'Etaples",
+        "Germany"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "After Meaux, Lefèvre took refuge (1525) in Strasbourg, a German-speaking free imperial city; GC's 'made his way to Germany' fits loosely.",
+        "sources": [
+          {
+            "title": "Jacques Lefèvre d'Étaples — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Jacques_Lef%c3%a8vre_d'%c3%89taples",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-058",
+      "paragraph": 24,
+      "quote": "Farel returned to his native town in eastern France, to spread the light in the home of his childhood.",
+      "claim_text": "William Farel returned to his native town in eastern France (Gap, in Dauphine) to spread reformed teaching.",
+      "claim_type": "biographical",
+      "entities": [
+        "William Farel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Farel returned to his native Gap (Dauphiné) to preach. Gap lies in south-eastern France; GC's 'eastern France' is a loose geographic characterization.",
+        "sources": [
+          {
+            "title": "William Farel — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/William_Farel",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-059",
+      "paragraph": 24,
+      "quote": "Soon the authorities were roused to silence him, and he was banished from the city.",
+      "claim_text": "Authorities in Farel's native town moved to silence him and banished him from the city.",
+      "claim_type": "event",
+      "entities": [
+        "William Farel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Farel's preaching provoked the authorities and he was driven out — consistent with his repeated expulsions in this period.",
+        "sources": [
+          {
+            "title": "William Farel — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/William_Farel",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-060",
+      "paragraph": 24,
+      "quote": "The crosses, persecutions, and machinations of Satan, of which I was forewarned, have not been wanting,” he said; “they are even much severer than I could have borne of myself; but God is my Father; He has provided and always will provide me the strength which I require.",
+      "claim_text": "William Farel is quoted saying the persecutions he faced were more severe than he could have borne alone, but that God provided him strength.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "William Farel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Farel's statement about crosses and persecutions being severer than he could bear alone derives from his correspondence via D'Aubigné/Herminjard, White's cited source.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-061",
+      "paragraph": 25,
+      "quote": "they that were scattered abroad went everywhere preaching the word.",
+      "claim_text": "The text quotes Acts 8:4 ('they that were scattered abroad went everywhere preaching the word') and applies it to French reformers scattered from Paris and Meaux.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Biblical citation (Acts 8:4) applied typologically to the French dispersal; checkable as an accurate scriptural quotation.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Acts 8:4 (KJV): 'they that were scattered abroad went every where preaching the word' — accurately quoted and applied typologically.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-062",
+      "paragraph": 26,
+      "quote": "In one of the schools of Paris was a thoughtful, quiet youth, already giving evidence of a powerful and penetrating mind, and no less marked for the blamelessness of his life than for intellectual ardor and religious devotion. His genius and application soon made him the pride of the college, and it was confidently anticipated that John Calvin would become one of the ablest and most honored defenders of the church.",
+      "claim_text": "John Calvin, as a young student at a school in Paris, showed a powerful mind and blameless life, and was expected by his teachers to become one of the ablest defenders of the Catholic Church.",
+      "claim_type": "biographical",
+      "entities": [
+        "John Calvin",
+        "Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Young Calvin was a brilliant, devout student in Paris expected to become a distinguished churchman.",
+        "sources": [
+          {
+            "title": "John Calvin — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Calvin",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-063",
+      "paragraph": 27,
+      "quote": "A cousin of Calvin’s, who had joined the Reformers, was in Paris.",
+      "claim_text": "A cousin of John Calvin (Pierre Robert Olivetan), who had joined the Protestant Reformers, was living in Paris.",
+      "claim_type": "biographical",
+      "entities": [
+        "John Calvin",
+        "Pierre Robert Olivetan",
+        "Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Pierre Robert Olivétan, Calvin's relative (cousin), was an early evangelical; the tradition that he influenced Calvin is standard, though its precise role is traditional.",
+        "sources": [
+          {
+            "title": "John Calvin — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Calvin",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-064",
+      "paragraph": 27,
+      "quote": "There are but two religions in the world,” said Olivetan, the Protestant. “The one class of religions are those which men have invented, in all of which man saves himself by ceremonies and good works; the other is that one religion which is revealed in the Bible, and which teaches man to look for salvation solely from the free grace of God.",
+      "claim_text": "Olivetan is quoted telling Calvin there are only two kinds of religion: man-invented religions of works, and the Bible's religion of salvation by free grace.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Pierre Robert Olivetan",
+        "John Calvin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Olivétan's 'two religions' speech derives from D'Aubigné, White's cited source; not independently documented as a verbatim utterance.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-065",
+      "paragraph": 28,
+      "quote": "I will have none of your new doctrines,” exclaimed Calvin; “think you that I have lived in error all my days?",
+      "claim_text": "John Calvin is quoted responding to Olivetan by rejecting the 'new doctrines' and asking if Olivetan thought he had lived in error all his days.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Calvin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Calvin's rejoinder rejecting 'new doctrines' derives from D'Aubigné's narrative, White's cited source.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-066",
+      "paragraph": 29,
+      "quote": "Confession, penance, were resorted to in vain; they could not reconcile the soul with God.",
+      "claim_text": "John Calvin, in spiritual distress after his conversation with Olivetan, resorted to confession and penance without finding reconciliation with God.",
+      "claim_type": "biographical",
+      "entities": [
+        "John Calvin"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Interior/spiritual biographical claim, difficult to verify externally but presented as historical narrative about Calvin's actions.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Interior/spiritual claim about Calvin's failed penances during his conversion crisis; derives from D'Aubigné, White's cited source. Not externally verifiable.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-067",
+      "paragraph": 30,
+      "quote": "Calvin, chancing one day to visit one of the public squares, witnessed there the burning of a heretic.",
+      "claim_text": "John Calvin, during his period of spiritual crisis, witnessed the public burning of a Protestant heretic in a Paris square.",
+      "claim_type": "event",
+      "entities": [
+        "John Calvin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The scene of Calvin witnessing a heretic's burning in a Paris square is a D'Aubigné-derived narrative detail, White's cited source; not independently documented.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-068",
+      "paragraph": 31,
+      "quote": "O Father,” he cried, “His sacrifice has appeased Thy wrath; His blood has washed away my impurities; His cross has borne my curse; His death has atoned for me.",
+      "claim_text": "John Calvin is quoted praying that Christ's sacrifice appeased God's wrath and atoned for him.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Calvin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Calvin's atonement prayer derives from D'Aubigné/Wylie, White's cited sources; not independently located in Calvin's works.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-069",
+      "paragraph": 32,
+      "quote": "Calvin had been educated for the priesthood. When only twelve years of age he had been appointed to the chaplaincy of a small church, and his head had been shorn by the bishop in accordance with the canon of the church.",
+      "claim_text": "John Calvin was educated for the priesthood, and at age twelve was appointed to the chaplaincy of a small church and had his head tonsured by a bishop.",
+      "claim_type": "biographical",
+      "entities": [
+        "John Calvin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Calvin received the tonsure and the chaplaincy of the altar of La Gésine in Noyon cathedral in May 1521, at age twelve — confirmed by standard biography.",
+        "sources": [
+          {
+            "title": "Calvin's Youth and Training — Schaff, History of the Christian Church",
+            "url": "https://ccel.org/ccel/schaff/hcc8/hcc8.iv.ix.i.html",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "1911 Encyclopædia Britannica/Calvin, John",
+            "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Calvin,_John",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-070",
+      "paragraph": 32,
+      "quote": "He did not receive consecration, nor did he fulfil the duties of a priest, but he became a member of the clergy, holding the title of his office, and receiving an allowance in consideration thereof.",
+      "claim_text": "John Calvin never received consecration or performed priestly duties, but held clerical title and received an allowance for it.",
+      "claim_type": "biographical",
+      "entities": [
+        "John Calvin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Calvin held the benefice/title and drew its income without ordination or priestly duties, the actual duties performed by others — standard account of clerical benefices held by minors.",
+        "sources": [
+          {
+            "title": "Calvin's Youth and Training — Schaff",
+            "url": "https://ccel.org/ccel/schaff/hcc8/hcc8.iv.ix.i.html",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-071",
+      "paragraph": 33,
+      "quote": "Now, feeling that he could never become a priest, he turned for a time to the study of law, but finally abandoned this purpose, and determined to devote his life to the gospel.",
+      "claim_text": "John Calvin turned to studying law for a time before abandoning it to devote his life to the gospel.",
+      "claim_type": "biographical",
+      "entities": [
+        "John Calvin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Calvin turned from a clerical track to legal studies (Orléans, Bourges) at his father's direction, then devoted himself to the evangelical cause after his conversion.",
+        "sources": [
+          {
+            "title": "John Calvin — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Calvin",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-072",
+      "paragraph": 33,
+      "quote": "Wonderful it is,” he said, “that one of so lowly an origin should be exalted to so great a dignity.",
+      "claim_text": "John Calvin is quoted expressing wonder that one of such lowly origin should be exalted to so great a dignity (his call to gospel ministry).",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Calvin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Calvin's remark on being 'exalted to so great a dignity' (referring to gospel ministry, not social status) derives from D'Aubigné, White's cited source.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-073",
+      "paragraph": 34,
+      "quote": "He had left Paris, and was now in a provincial town under the protection of the princess Margaret, who, loving the gospel, extended her protection to its disciples.",
+      "claim_text": "John Calvin left Paris and found protection in a provincial town under Princess Margaret (Marguerite de Navarre), who protected followers of the reformed gospel.",
+      "claim_type": "biographical",
+      "entities": [
+        "John Calvin",
+        "Marguerite de Navarre"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "After leaving Paris (post-Cop affair, 1533-34) Calvin took refuge in territories under Marguerite's protection (Angoulême, Nérac), where she sheltered evangelicals.",
+        "sources": [
+          {
+            "title": "Calvin as a Wandering Evangelist 1533-1536 — Schaff",
+            "url": "https://ccel.org/ccel/schaff/hcc8/hcc8.iv.ix.viii.html",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-074",
+      "paragraph": 35,
+      "quote": "A few months, and he was again in Paris.",
+      "claim_text": "A few months after leaving, John Calvin returned to Paris.",
+      "claim_type": "event",
+      "entities": [
+        "John Calvin",
+        "Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Calvin returned to Paris after a period away, consistent with his itinerant 1533-34 movements.",
+        "sources": [
+          {
+            "title": "Calvin as a Wandering Evangelist — Schaff",
+            "url": "https://ccel.org/ccel/schaff/hcc8/hcc8.iv.ix.viii.html",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-075",
+      "paragraph": 36,
+      "quote": "During the absence of the king, she ordered a Protestant minister to preach in the churches of the city.",
+      "claim_text": "During King Francis I's absence, Princess Margaret ordered a Protestant minister to preach in the churches of Paris.",
+      "claim_type": "event",
+      "entities": [
+        "Marguerite de Navarre",
+        "Francis I",
+        "Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "During Francis I's absence Marguerite sponsored evangelical preaching in Paris (Gérard Roussel's 1533 Lenten sermons), attested history.",
+        "sources": [
+          {
+            "title": "Marguerite de Navarre — World History Encyclopedia",
+            "url": "https://www.worldhistory.org/Marguerite_de_Navarre/",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-076",
+      "paragraph": 36,
+      "quote": "This being forbidden by the papal dignitaries, the princess threw open the palace. An apartment was fitted up as a chapel, and it was announced that every day, at a specified hour, a sermon would be preached, and the people of every rank and station were invited to attend.",
+      "claim_text": "When papal dignitaries forbade the Protestant preaching in churches, Princess Margaret opened the palace, fitted an apartment as a chapel, and invited people of all ranks to attend daily sermons.",
+      "claim_type": "event",
+      "entities": [
+        "Marguerite de Navarre"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "When Roussel's church preaching was opposed, it moved to the royal palace (the Louvre) with large audiences, consistent with the 1533 episode under Marguerite's patronage.",
+        "sources": [
+          {
+            "title": "Marguerite de Navarre — World History Encyclopedia",
+            "url": "https://www.worldhistory.org/Marguerite_de_Navarre/",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-077",
+      "paragraph": 36,
+      "quote": "The king, instead of forbidding the assemblies, ordered that two of the churches of Paris should be opened.",
+      "claim_text": "King Francis I, rather than forbidding the Protestant assemblies, ordered that two churches in Paris be opened for the preaching.",
+      "claim_type": "event",
+      "entities": [
+        "Francis I",
+        "Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The detail that Francis I ordered two Paris churches opened for the preaching derives from D'Aubigné, White's cited source.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-078",
+      "paragraph": 37,
+      "quote": "For two years the word of God was preached in the capital; but while there were many who accepted the gospel, the majority of the people rejected it.",
+      "claim_text": "Protestant preaching continued in Paris for two years, with many accepting the gospel but the majority of the population rejecting it.",
+      "claim_type": "statistic",
+      "entities": [
+        "Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The 'two years' of preaching in Paris with majority rejection derives from D'Aubigné's narrative, White's cited source; the precise duration is not firmly documented (the intense evangelical preaching centered on 1533).",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-079",
+      "paragraph": 37,
+      "quote": "Francis had made a show of toleration, merely to serve his own purposes, and the papists succeeded in regaining the ascendency. Again the churches were closed, and the stake was set up.",
+      "claim_text": "King Francis I's toleration of Protestant preaching in Paris was politically motivated and temporary; Catholic authorities regained control, closed the churches again, and resumed executions.",
+      "claim_type": "causal",
+      "entities": [
+        "Francis I",
+        "Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Francis I's toleration was politically calculated and short-lived; the Catholic party regained ascendancy and persecution resumed (culminating after the 1534 Placards).",
+        "sources": [
+          {
+            "title": "Affair of the Placards — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Affair_of_the_Placards",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-080",
+      "paragraph": 38,
+      "quote": "At last, however, suspicion fastened upon him. The authorities determined to bring him to the flames.",
+      "claim_text": "Authorities in Paris came to suspect John Calvin and determined to execute him by burning.",
+      "claim_type": "event",
+      "entities": [
+        "John Calvin",
+        "Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "After the Cop affair (Nov 1533) Calvin came under suspicion and his rooms were searched; the 'determined to bring him to the flames' is the dramatized D'Aubigné framing.",
+        "sources": [
+          {
+            "title": "John Calvin — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Calvin",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-081",
+      "paragraph": 38,
+      "quote": "friends came hurrying to his room with the news that officers were on their way to arrest him.",
+      "claim_text": "Friends warned John Calvin that officers were on their way to arrest him.",
+      "claim_type": "event",
+      "entities": [
+        "John Calvin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "In the Cop affair, Calvin was warned that officers were coming and fled his lodging.",
+        "sources": [
+          {
+            "title": "John Calvin — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Calvin",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-082",
+      "paragraph": 38,
+      "quote": "he disguised himself in the garments of his host, and shouldering a hoe, started on his journey.",
+      "claim_text": "John Calvin escaped arrest in Paris by disguising himself in a laborer's clothing and carrying a hoe.",
+      "claim_type": "event",
+      "entities": [
+        "John Calvin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Traditional accounts have Calvin escaping Paris (Cop affair) lowered from a window by knotted sheets and fleeing disguised as a vinedresser with a hoe. GC reproduces the hoe-disguise version of this standard (if somewhat legendary) account.",
+        "sources": [
+          {
+            "title": "Why Did Calvin Slide Down a Rope and Dress as a Farmer? — Christian History Institute",
+            "url": "https://christianhistoryinstitute.org/it-happened-today/11/2",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "John Calvin — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Calvin",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-083",
+      "paragraph": 38,
+      "quote": "Traveling southward, he again found refuge in the dominions of Margaret.",
+      "claim_text": "After escaping Paris, John Calvin traveled south and found refuge again in the territory of Princess Margaret.",
+      "claim_type": "event",
+      "entities": [
+        "John Calvin",
+        "Marguerite de Navarre"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Calvin fled south and again took refuge in Marguerite's domains (Angoulême/Nérac).",
+        "sources": [
+          {
+            "title": "Calvin as a Wandering Evangelist — Schaff",
+            "url": "https://ccel.org/ccel/schaff/hcc8/hcc8.iv.ix.viii.html",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-084",
+      "paragraph": 39,
+      "quote": "he sought a new field of labor in Poitiers, where was a university, and where already the new opinions had found favor.",
+      "claim_text": "John Calvin went to Poitiers, home to a university, where reformed ('new') opinions already had some following.",
+      "claim_type": "geographical",
+      "entities": [
+        "John Calvin",
+        "Poitiers"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Calvin went to Poitiers (1534), a university town where evangelical opinions had followers.",
+        "sources": [
+          {
+            "title": "Calvin as a Wandering Evangelist — Schaff",
+            "url": "https://ccel.org/ccel/schaff/hcc8/hcc8.iv.ix.viii.html",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-085",
+      "paragraph": 39,
+      "quote": "Here the Lord’s supper was celebrated for the first time by the Protestants of France.",
+      "claim_text": "In a cave near Poitiers, the Lord's Supper was celebrated for the first time by French Protestants.",
+      "claim_type": "event",
+      "entities": [
+        "Poitiers"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Per an 'uncertain tradition' (Schaff), Calvin celebrated the Lord's Supper in the Reformed manner for the first time in a cave near Poitiers ('Calvin's Cave'). The claim it was the first such celebration in France is traditional and not firmly established.",
+        "modern_consensus": "Traditional 'Calvin's Cave' communion near Poitiers; historians flag it as an uncertain tradition.",
+        "sources": [
+          {
+            "title": "Calvin as a Wandering Evangelist — Schaff",
+            "url": "https://ccel.org/ccel/schaff/hcc8/hcc8.iv.ix.viii.html",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-086",
+      "paragraph": 40,
+      "quote": "he at last determined to depart to Germany.",
+      "claim_text": "John Calvin ultimately decided to leave France for Germany.",
+      "claim_type": "event",
+      "entities": [
+        "John Calvin",
+        "Germany"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Calvin decided to leave France for German-speaking lands (Basel, then Strasbourg) around 1534-35.",
+        "sources": [
+          {
+            "title": "John Calvin — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Calvin",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-087",
+      "paragraph": 41,
+      "quote": "Accordingly placards attacking the mass were in one night posted all over France.",
+      "claim_text": "In October 1534, placards attacking the Catholic Mass were posted overnight throughout France (the Affair of the Placards).",
+      "claim_type": "event",
+      "entities": [
+        "Affair of the Placards",
+        "France"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Affair of the Placards (night of 17-18 October 1534) posted anti-Mass placards in Paris and several provincial cities (Blois, Rouen, Tours, Orléans, Amboise).",
+        "sources": [
+          {
+            "title": "Affair of the Placards — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Affair_of_the_Placards",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "The posters incident (1534) — Musée protestant",
+            "url": "https://museeprotestant.org/en/notice/the-posters-incident-1534/",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-088",
+      "paragraph": 41,
+      "quote": "Instead of advancing the reform, this zealous but ill-judged movement brought ruin, not only upon its propagators, but upon the friends of the reformed faith throughout France. It gave the Romanists what they had long desired,—a pretext for demanding the utter destruction of the heretics as agitators dangerous to the stability of the throne and the peace of the nation.",
+      "claim_text": "The Affair of the Placards, rather than advancing reform, brought ruin on French Protestants generally and gave Catholic authorities a pretext to demand the destruction of Protestants as a threat to the throne and national peace.",
+      "claim_type": "causal",
+      "entities": [
+        "Affair of the Placards",
+        "France"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Placards ended Francis I's conciliatory policy and gave Catholic authorities a pretext to demand harsh repression of Protestants as a threat to the throne and order.",
+        "sources": [
+          {
+            "title": "Affair of the Placards — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Affair_of_the_Placards",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-089",
+      "paragraph": 42,
+      "quote": "one of the placards was attached to the door of the king’s private chamber.",
+      "claim_text": "One of the anti-Mass placards was posted on the door of King Francis I's private chamber.",
+      "claim_type": "event",
+      "entities": [
+        "Francis I",
+        "Affair of the Placards"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "One placard was posted on the door of Francis I's bedchamber at Amboise, a notorious breach that personally shook the king.",
+        "sources": [
+          {
+            "title": "Affair of the Placards — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Affair_of_the_Placards",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "The Affair of the Placards that rocked Amboise — Château d'Amboise",
+            "url": "https://www.chateau-amboise.com/en/quand-laffaire-des-placards-secoua-amboise/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-090",
+      "paragraph": 42,
+      "quote": "Let all be seized without distinction who are suspected of Lutheresy. I will exterminate them all.",
+      "claim_text": "King Francis I, upon discovering a placard at his private chamber door, reportedly ordered that all suspected of 'Lutheresy' be seized and declared he would exterminate them all.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Francis I"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Francis I's furious order to seize and exterminate all suspected of 'Lutheresy' derives from D'Aubigné/Wylie, White's cited sources; it captures the documented hardening of royal policy after the Placards.",
+        "sources": [
+          {
+            "title": "D'Aubigné, History of the Reformation",
+            "url": "https://www.whitehorsemedia.com/docs/history_of_the_reformation.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-091",
+      "paragraph": 43,
+      "quote": "A poor artisan, an adherent of the reformed faith, who had been accustomed to summon the believers to their secret assemblies, was seized, and with the threat of instant death at the stake, was commanded to conduct the papal emissary to the home of every Protestant in the city.",
+      "claim_text": "A Protestant artisan in Paris, who had summoned believers to secret meetings, was arrested and coerced under threat of execution into leading authorities to the homes of every Protestant in the city.",
+      "claim_type": "event",
+      "entities": [
+        "Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The story of a coerced Protestant artisan-informer leading the search derives from D'Aubigné/Wylie, White's cited sources.",
+        "sources": [
+          {
+            "title": "Wylie, History of Protestantism, Vol. 2 Bk 13",
+            "url": "https://www.doctrine.org/history/HPv2b13.htm",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-092",
+      "paragraph": 43,
+      "quote": "Preceded by the host, and surrounded by a train of priests, incense-bearers, monks, and soldiers, Morin, the royal detective, with the traitor, slowly and silently passed through the streets of the city.",
+      "claim_text": "An official named Morin, described as the royal detective, led a religious procession through the streets of Paris (accompanied by the coerced informant) to identify and arrest Protestants.",
+      "claim_type": "event",
+      "entities": [
+        "Morin",
+        "Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Jean Morin, lieutenant-criminel of the Châtelet, led the post-Placards persecution in Paris; described in the Reformation histories White cites.",
+        "sources": [
+          {
+            "title": "Wylie, History of Protestantism, Vol. 2 Bk 13",
+            "url": "https://www.doctrine.org/history/HPv2b13.htm",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-093",
+      "paragraph": 43,
+      "quote": "spared no house, great or small, not even the colleges of the University of Paris.... Morin made all the city quake.... It was a reign of terror.",
+      "claim_text": "A cited source describes Morin's search as sparing no house in Paris, including the colleges of the University of Paris, and characterizes the episode as a 'reign of terror'.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Morin",
+        "University of Paris",
+        "Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The 'Morin made all the city quake / reign of terror' passage is Wylie's (History of Protestantism), White's cited source, describing the house-to-house searches of the post-Placards crackdown.",
+        "sources": [
+          {
+            "title": "Wylie, History of Protestantism, Vol. 2 Bk 13",
+            "url": "https://www.doctrine.org/history/HPv2b13.htm",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-094",
+      "paragraph": 44,
+      "quote": "The victims were put to death with cruel torture, it being specially ordered that the fire should be lowered, in order to prolong their agony.",
+      "claim_text": "Protestant victims arrested in the 1534-35 Paris crackdown were executed with the fire deliberately lowered to prolong their suffering.",
+      "claim_type": "event",
+      "entities": [
+        "Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Post-Placards executions in Paris used the estrapade, in which victims were repeatedly lowered into and raised from the fire to prolong agony — documented cruelty of the crackdown.",
+        "sources": [
+          {
+            "title": "Affair of the Placards — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Affair_of_the_Placards",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-095",
+      "paragraph": 44,
+      "quote": "The scaffolds were distributed over all the quarters of Paris, and the burnings followed on successive days, the design being to spread the terror of heresy by spreading the executions.",
+      "claim_text": "A cited source states that scaffolds were placed throughout Paris and executions were staggered over successive days to spread terror of heresy through the city.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The account of scaffolds distributed across Paris quarters with staggered burnings to spread terror is Wylie's, White's cited source, consistent with the documented public spectacle of the executions.",
+        "sources": [
+          {
+            "title": "Wylie, History of Protestantism, Vol. 2 Bk 13",
+            "url": "https://www.doctrine.org/history/HPv2b13.htm",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-096",
+      "paragraph": 45,
+      "quote": "They were charged with plotting to massacre the Catholics, to overthrow the government, and to murder the king.",
+      "claim_text": "French Protestants arrested after the Affair of the Placards were accused of plotting to massacre Catholics, overthrow the government, and murder the king.",
+      "claim_type": "event",
+      "entities": [
+        "France"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Post-Placards propaganda charged Protestants with plotting massacre, sedition, and regicide, justifying repression as defense of throne and order.",
+        "sources": [
+          {
+            "title": "Affair of the Placards — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Affair_of_the_Placards",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-097",
+      "paragraph": 45,
+      "quote": "The cruelties that were inflicted upon the innocent Protestants by the Catholics, accumulated in a weight of retribution, and in after-centuries wrought the very doom they had predicted to be impending, upon the king, his government, and his subjects; but it was brought about by infidels, and by the papists themselves.",
+      "claim_text": "The 1530s persecution of French Protestants is claimed to have causally contributed, centuries later, to the downfall of the French monarchy, government, and Catholic establishment during the French Revolution.",
+      "claim_type": "causal",
+      "entities": [
+        "France",
+        "French Revolution"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Providential retribution claim: that 1530s persecution of Protestants 'accumulated in a weight of retribution' producing the later doom of monarchy and church. This is a theological interpretation of history, not an empirically testable causal assertion; modern historiography does not treat the Revolution as retribution for 16th-c persecution.",
+        "modern_consensus": "Historians do not endorse a direct providential causal link between 16th-c persecution of French Protestants and the 1789-93 Revolution.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-098",
+      "paragraph": 46,
+      "quote": "Positions of trust and honor were suddenly found vacant. Artisans, printers, scholars, professors in the universities, authors, and even courtiers, disappeared. Hundreds fled from Paris, self-constituted exiles from their native land,",
+      "claim_text": "Hundreds of people across many professions (artisans, printers, scholars, university professors, authors, courtiers) fled Paris as self-imposed exiles following the crackdown on suspected Protestants.",
+      "claim_type": "statistic",
+      "entities": [
+        "Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The post-Placards crackdown caused an exodus of scholars, printers, and others from Paris (notable exiles include Calvin, Clément Marot).",
+        "sources": [
+          {
+            "title": "Affair of the Placards — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Affair_of_the_Placards",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-099",
+      "paragraph": 47,
+      "quote": "Francis I. had gloried in being a leader in the great movement for the revival of learning which marked the opening of the sixteenth century. He had delighted to gather at his court men of letters from every country.",
+      "claim_text": "King Francis I took pride in being a patron of Renaissance learning and gathered scholars from many countries at his court.",
+      "claim_type": "biographical",
+      "entities": [
+        "Francis I"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Francis I was a leading Renaissance patron of learning who gathered scholars (and founded the lecteurs royaux, later the Collège de France).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-100",
+      "paragraph": 47,
+      "quote": "this patron of learning issued an edict declaring printing abolished all over France!",
+      "claim_text": "King Francis I, despite his patronage of learning, issued an edict abolishing printing throughout France.",
+      "claim_type": "event",
+      "entities": [
+        "Francis I",
+        "France"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "On 13 January 1535 Francis I issued an edict suppressing all printing in France under penalty of hanging; it was soon modified rather than enforced as an absolute ban.",
+        "sources": [
+          {
+            "title": "Francis I Bans the Publishing of Books, 1535 — Landmark Events",
+            "url": "https://landmarkevents.org/francis-i-bans-the-publishing-of-books-1535/",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "1911 Encyclopædia Britannica/Press Laws",
+            "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Press_Laws",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-101",
+      "paragraph": 48,
+      "quote": "The priests demanded that the affront offered to high Heaven in the condemnation of the mass, be expiated in blood, and that the king, in behalf of his people, publicly give his sanction to the dreadful work.",
+      "claim_text": "Catholic priests demanded that the perceived affront of the Placards against the Mass be expiated in blood, and that King Francis I publicly sanction the persecution on behalf of his people.",
+      "claim_type": "event",
+      "entities": [
+        "Francis I"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Clergy demanded blood-expiation for the affront of the Placards to the Mass and public royal sanction of the repression; Francis publicly led the January 1535 expiatory procession.",
+        "sources": [
+          {
+            "title": "1535: Six Protestants for the Affair of the Placards — Executed Today",
+            "url": "https://www.executedtoday.com/2013/01/21/1535-six-protestants-for-the-affair-of-the-placards/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-102",
+      "paragraph": 49,
+      "quote": "The 21st of January, 1535, was fixed upon for the awful ceremonial.",
+      "claim_text": "January 21, 1535 was set as the date for a public penitential procession and ceremony in Paris condemning Protestant heresy.",
+      "claim_type": "date",
+      "entities": [
+        "Paris",
+        "Francis I"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "A grand expiatory procession was held in Paris on 21 January 1535.",
+        "sources": [
+          {
+            "title": "1535: Six Protestants for the Affair of the Placards — Executed Today",
+            "url": "https://www.executedtoday.com/2013/01/21/1535-six-protestants-for-the-affair-of-the-placards/",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "January 21, 1535: French Protestants Burned in Front of Notre Dame — History and Headlines",
+            "url": "https://www.historyandheadlines.com/french-protestants-burned-front-notre-dame-cathedral/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-103",
+      "paragraph": 49,
+      "quote": "The houses along the line of march were hung with mourning drapery, and altars rose at intervals.",
+      "claim_text": "For the January 21, 1535 procession, houses along the route in Paris were hung with mourning drapery and altars were erected at intervals.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The procession's staging (mourning drapery on houses, altars at intervals) is Wylie's descriptive detail, White's cited source, consistent with the elaborate documented ritual.",
+        "sources": [
+          {
+            "title": "Wylie, History of Protestantism, Vol. 2 Bk 13",
+            "url": "https://www.doctrine.org/history/HPv2b13.htm",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-104",
+      "paragraph": 50,
+      "quote": "The host was carried by the bishop of Paris under a magnificent canopy, ... supported by four princes of the blood.... After the host walked the king.... Francis I. on that day wore no crown, nor robe of state.",
+      "claim_text": "In the January 21, 1535 procession, the bishop of Paris carried the host under a canopy held by four princes of the blood, followed by King Francis I, who wore no crown or robes of state that day.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Francis I",
+        "Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The procession carried the host under canopy with the highest civil and ecclesiastical dignitaries; the king walked after the sacrament without crown or robes of state — documented as an unprecedentedly solemn procession.",
+        "sources": [
+          {
+            "title": "January 21, 1535 procession — History and Headlines",
+            "url": "https://www.historyandheadlines.com/french-protestants-burned-front-notre-dame-cathedral/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-105",
+      "paragraph": 50,
+      "quote": "head uncovered, his eyes cast on the ground, and in his hand a lighted taper,” the king of France appeared “in the character of a penitent.",
+      "claim_text": "King Francis I appeared in the 1535 procession bareheaded, eyes cast down, holding a lighted taper, in the role of a penitent.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Francis I"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Francis I marched bareheaded, eyes down, carrying a lighted penitential taper, in the character of a penitent.",
+        "sources": [
+          {
+            "title": "January 21, 1535 procession — History and Headlines",
+            "url": "https://www.historyandheadlines.com/french-protestants-burned-front-notre-dame-cathedral/",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "1535: Six Protestants — Executed Today",
+            "url": "https://www.executedtoday.com/2013/01/21/1535-six-protestants-for-the-affair-of-the-placards/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-106",
+      "paragraph": 51,
+      "quote": "As true, Messieurs, as I am your king,” he said, “if I knew one of my own limbs spotted or infected with this detestable rottenness, I would give it you to cut off.... And further, if I saw one of my children defiled by it, I would not spare him.... I would deliver him up myself, and would sacrifice him to God.",
+      "claim_text": "King Francis I is quoted telling assembled officials that he would sacrifice even his own limb or child if infected with the 'detestable rottenness' of heresy.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Francis I"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Francis I's speech vowing to cut off even his own infected limb or sacrifice his own child rather than tolerate heresy is attested in the Reformation histories (D'Aubigné/Wylie); the king gave a fervent anti-heresy oration that day.",
+        "sources": [
+          {
+            "title": "January 21, 1535 procession — History and Headlines",
+            "url": "https://www.historyandheadlines.com/french-protestants-burned-front-notre-dame-cathedral/",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "Wylie, History of Protestantism, Vol. 2 Bk 13",
+            "url": "https://www.doctrine.org/history/HPv2b13.htm",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-107",
+      "paragraph": 51,
+      "quote": "Tears choked his utterance, and the whole assembly wept, with one accord exclaiming, “We will live and die for the Catholic religion!”",
+      "claim_text": "After Francis I's speech, the assembled officials wept and unanimously exclaimed they would live and die for the Catholic religion.",
+      "claim_type": "event",
+      "entities": [
+        "Francis I"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The assembly's weeping and cry 'We will live and die for the Catholic religion' derives from D'Aubigné/Wylie, White's cited sources.",
+        "sources": [
+          {
+            "title": "Wylie, History of Protestantism, Vol. 2 Bk 13",
+            "url": "https://www.doctrine.org/history/HPv2b13.htm",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-108",
+      "paragraph": 52,
+      "quote": "Terrible had become the darkness of the nation that had rejected the light of truth.",
+      "claim_text": "France, having rejected the light of Protestant truth, is described as having fallen into moral and spiritual darkness, calling evil good and good evil.",
+      "claim_type": "theological",
+      "entities": [
+        "France"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "CONTROL SAMPLE (extractor flagged needs_verification:false). Theological/moralizing framing that France, rejecting the light, fell into darkness. No smuggled empirical assertion; extractor's non-flag is appropriate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-109",
+      "paragraph": 53,
+      "quote": "A solemn oath to extirpate heresy was taken in the great cathedral where, nearly three centuries later, the “Goddess of Reason” was to be enthroned by a nation that had forgotten the living God.",
+      "claim_text": "The 1535 oath to extirpate Protestant heresy was taken in Notre-Dame Cathedral in Paris, the same cathedral where the Cult/Goddess of Reason was enthroned during the French Revolution roughly 258 years later.",
+      "claim_type": "event",
+      "entities": [
+        "Notre-Dame de Paris",
+        "French Revolution"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The 1535 expiatory procession culminated at Notre-Dame; roughly three centuries later (1793) the same cathedral hosted the revolutionary Festival/Cult of Reason. Both facts hold; 1535->1793 is 258 years.",
+        "sources": [
+          {
+            "title": "January 21, 1535 procession — History and Headlines",
+            "url": "https://www.historyandheadlines.com/french-protestants-burned-front-notre-dame-cathedral/",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "Notre-Dame de Paris — Wikipedia (Cult of Reason 1793)",
+            "url": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-110",
+      "paragraph": 53,
+      "quote": "At short distances scaffolds had been erected, on which certain Protestant Christians were to be burned alive, and it was arranged that the fagots should be lighted at the moment the king approached, and that the procession should halt to witness the execution.",
+      "claim_text": "During the January 1535 procession, scaffolds were placed at intervals where Protestants were burned alive, timed so the fires were lit as the king approached and the procession halted to watch.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Francis I",
+        "Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Six Protestants were burned in Paris in conjunction with the 21 January 1535 procession; the staging near the route, timed to the day's ceremonial, is attested.",
+        "sources": [
+          {
+            "title": "1535: Six Protestants for the Affair of the Placards — Executed Today",
+            "url": "https://www.executedtoday.com/2013/01/21/1535-six-protestants-for-the-affair-of-the-placards/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-111",
+      "paragraph": 53,
+      "quote": "I only believe in what the prophets and the apostles formerly preached, and what all the company of saints believed. My faith has a confidence in God which will resist all the powers of hell.",
+      "claim_text": "One of the Protestant martyrs executed during the January 1535 procession is quoted refusing to recant, affirming faith in the teaching of the prophets and apostles.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The martyr's confession of faith in the prophets and apostles derives from D'Aubigné/Wylie, White's cited sources.",
+        "sources": [
+          {
+            "title": "Wylie, History of Protestantism, Vol. 2 Bk 13",
+            "url": "https://www.doctrine.org/history/HPv2b13.htm",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-112",
+      "paragraph": 54,
+      "quote": "Upon reaching their starting-point at the royal palace, the crowd dispersed, and the king and the prelates withdrew, well satisfied with the day’s proceedings, and congratulating themselves that the work now begun would be continued to the complete destruction of heresy.",
+      "claim_text": "After the January 1535 procession returned to the royal palace, King Francis I and church prelates withdrew satisfied, intending to continue the persecution until heresy was completely destroyed.",
+      "claim_type": "event",
+      "entities": [
+        "Francis I"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The closing scene of king and prelates withdrawing satisfied and resolved to continue the repression derives from Wylie's narrative, White's cited source, and matches the documented intensification of persecution.",
+        "sources": [
+          {
+            "title": "Wylie, History of Protestantism, Vol. 2 Bk 13",
+            "url": "https://www.doctrine.org/history/HPv2b13.htm",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-113",
+      "paragraph": 55,
+      "quote": "On the 21st of January, 1793, two hundred and fifty-eight years from the very day that fully committed France to the persecution of the Reformers, another procession, with a far different purpose, passed through the streets of Paris.",
+      "claim_text": "Louis XVI was executed in Paris on January 21, 1793, exactly 258 years after the January 21, 1535 procession that committed France to persecuting Protestants.",
+      "claim_type": "date",
+      "entities": [
+        "Louis XVI",
+        "Paris"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Louis XVI was executed on 21 January 1793 in Paris; 1793 minus 1535 = 258 years, and both events fell on 21 January. The date arithmetic and coincidence are accurate.",
+        "sources": [
+          {
+            "title": "Execution of Louis XVI — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Execution_of_Louis_XVI",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-114",
+      "paragraph": 55,
+      "quote": "Louis XVI., struggling hand to hand with his jailers and executioners, was dragged forward to the block, and there held down by main force till the axe had fallen, and his dissevered head rolled on the scaffold.",
+      "claim_text": "King Louis XVI struggled physically with his jailers and executioners before being forced to the block and beheaded, his severed head rolling on the scaffold.",
+      "claim_type": "event",
+      "entities": [
+        "Louis XVI"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "GC (following Wylie) depicts Louis XVI 'struggling hand to hand with his jailers and executioners... dragged forward... held down by main force'. The dominant modern account has Louis go to the scaffold with composure, address the crowd (drums drowning him), and submit; his only resistance was a brief objection to having his hands bound, which he accepted on his confessor's counsel. The violent-struggle version reflects 19th-c dramatized historiography.",
+        "modern_consensus": "Louis XVI met his execution with dignity; he addressed the crowd and submitted, after briefly resisting the binding of his hands.",
+        "period_historiography": "Wylie's account portrays the king as physically forced to the block.",
+        "sources": [
+          {
+            "title": "Execution of Louis XVI — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Execution_of_Louis_XVI",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "On This Day in 1793, Revolutionaries Executed the King — Smithsonian Magazine",
+            "url": "https://www.smithsonianmag.com/smart-news/on-this-day-in-1793-revolutionaries-executed-the-king-of-france-by-guillotine-a-deadly-machine-they-saw-as-a-symbol-of-equality-180985835/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      },
+      "defense": {
+        "result": "defense_failed",
+        "argument": "There is a genuine kernel behind Wylie's dramatization, so this is not pure invention: at the scaffold Louis XVI did physically resist. When the executioners moved to bind his hands he recoiled, pushed back the man holding the rope, and cried 'Never! Never!', documented by the executioner Sanson's own family accounts. So 'struggling... with his executioners' amplifies a real moment of resistance. But the defense fails because the two best eyewitnesses both contradict the full picture of a man 'dragged forward to the block' and 'held down by main force till the axe had fallen.' Louis's confessor Edgeworth, present on the scaffold, records that after the brief protest Louis submitted ('So be it, then'), allowed his hands to be bound, mounted the scaffold and tried to address the crowd until the drums drowned him. Executioner Charles-Henri Sanson wrote on 20 February 1793 that the king 'bore all this with a composure and a firmness which has surprised us all,' and Henri Sanson explained the binding was ordered only lest an involuntary movement 'spoil his execution,' not because they feared he would fight. Modern historiography is not divided on this, so the verdict is 'anachronistic' (Wylie reproduced an amplified strand contradicted by the primary eyewitnesses) rather than 'disputed.' Severity is low: the resistance was real but brief, not the hand-to-hand struggle-to-the-block that GC quotes.",
+        "new_sources": [
+          {
+            "title": "The Executioner's Account of Louis XVI's Execution (Charles-Henri Sanson, letter of 20 Feb 1793)",
+            "url": "https://www.geriwalton.com/the-executioners-account-of-louis-xvis-execution/",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Sanson: the king 'bore all this with a composure and a firmness which has surprised us all'; hands bound only lest an involuntary movement spoil the execution."
+          },
+          {
+            "title": "The Execution of Louis XVI - Henry Essex Edgeworth (1793 eyewitness account)",
+            "url": "https://wp.stu.ca/worldhistory/wp-content/uploads/sites/4/2015/07/Execution-of-Louis-XVI.pdf",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Confessor's eyewitness memoir: after briefly resisting the binding of his hands the king submitted and died with composure."
+          },
+          {
+            "title": "Trial and Execution of Louis XVI - World History Encyclopedia",
+            "url": "https://www.worldhistory.org/article/2085/trial-and-execution-of-louis-xvi/",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      },
+      "impact": {
+        "severity": 4,
+        "centrality": 2,
+        "load_bearing": false,
+        "impact_score": 8,
+        "narrative_arc": "reformation",
+        "reasoning": "GC's 'struggling hand to hand... dragged forward... held down by main force' directly contradicts the two best primary eyewitnesses (the king's confessor Edgeworth and executioner Sanson), both of whom describe Louis XVI submitting with composure after a brief, quickly-resolved objection to having his hands bound — a materially different portrayal of how a specific, well-documented historical figure met his death. Severity is higher than a typical anachronistic slip because this is a comparatively recent, richly attested event (unlike Briconnet's fate) where the contradiction is stark and the dramatization inverts the historical man's demeanor; it still traces to Wylie (bk. 13, White's cited source) rather than invention, so it reflects 19th-century dramatized historiography, not authorial fabrication. Centrality is moderate, not high: the passage functions as the vivid capstone of the chapter's own retribution parallel (1535 persecution procession vs. 1793 Terror procession) but is not part of the book's enumerated central thesis chain (Reformation succession -> Millerite -> sanctuary -> Sabbath); deleting the dramatized detail leaves the parallel's core facts (same date, same city, king executed, Terror followed) fully intact via GC-12-113/115 (both supported), so the chapter's providential argument is not load-bearing on this specific embellishment."
+      }
+    },
+    {
+      "id": "GC-12-115",
+      "paragraph": 55,
+      "quote": "near the same spot two thousand and eight hundred human beings perished by the guillotine during the bloody days of the Reign of Terror.",
+      "claim_text": "Approximately 2,800 people were executed by guillotine near the same location in Paris during the Reign of Terror.",
+      "claim_type": "statistic",
+      "entities": [
+        "Paris",
+        "Reign of Terror"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "About 2,600-2,800 people were guillotined in Paris during the Reign of Terror (modern estimate ~2,625). GC's figure of 2,800 is in the right range; 'near the same spot' loosely fits the Place de la Révolution, though executions also occurred elsewhere in Paris.",
+        "modern_consensus": "~2,625 executed by guillotine in Paris during the Terror.",
+        "sources": [
+          {
+            "title": "Reign of Terror — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Reign_of_Terror",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "The French Revolution executed royals and nobles... — The Conversation",
+            "url": "https://theconversation.com/the-french-revolution-executed-royals-and-nobles-yes-but-most-people-killed-were-commoners-200455",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "2,625 executed in Paris"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-116",
+      "paragraph": 56,
+      "quote": "When France rejected the gift of heaven, she sowed the seeds of anarchy and ruin; and the inevitable outworking of cause and effect resulted in the Revolution and the Reign of Terror.",
+      "claim_text": "France's rejection and suppression of Protestantism in the 16th century is claimed to have causally led, through an inevitable chain of cause and effect, to the French Revolution and the Reign of Terror.",
+      "claim_type": "causal",
+      "entities": [
+        "France",
+        "French Revolution",
+        "Reign of Terror"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Providential causal thesis: that France's 16th-c rejection of Protestantism 'inevitably' produced the Revolution and Reign of Terror. This is a theological reading of history, not an empirically testable causal claim; modern historiography does not endorse the inevitability or the direct causal chain.",
+        "modern_consensus": "Historians attribute the Revolution to Enlightenment ideas plus fiscal, social, and political crises, not to divine retribution for Reformation-era persecution.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-117",
+      "paragraph": 57,
+      "quote": "Long before the persecution excited by the placards, the bold and ardent Farel had been forced to flee from the land of his birth. He repaired to Switzerland, and by his labors, seconding the work of Zwingle, he helped to turn the scale in favor of the Reformation.",
+      "claim_text": "William Farel was forced to flee France before the Affair of the Placards, went to Switzerland, and assisted Zwingli's reform work there.",
+      "claim_type": "biographical",
+      "entities": [
+        "William Farel",
+        "Huldrych Zwingli",
+        "Switzerland"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Farel fled France and worked in French-speaking Switzerland from the mid-1520s, advancing the Reformation alongside Zwingli's Swiss work (Zwingli d. 1531).",
+        "sources": [
+          {
+            "title": "William Farel — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/William_Farel",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-118",
+      "paragraph": 57,
+      "quote": "With the assistance of other exiles, the writings of the German Reformers were translated into the French language, and together with the French Bible, were printed in large quantities. By colporteurs, these works were sold extensively in France.",
+      "claim_text": "French Protestant exiles translated German Reformers' writings into French and printed them in large quantities along with French Bibles, which colporteurs sold extensively within France.",
+      "claim_type": "event",
+      "entities": [
+        "France"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "French exiles (notably at Neuchâtel) translated and printed Reformation works and French Bibles, distributed into France by colporteurs — well-documented Reformation book trade.",
+        "sources": [
+          {
+            "title": "William Farel — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/William_Farel",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-119",
+      "paragraph": 58,
+      "quote": "Farel entered upon his work in Switzerland in the humble guise of a schoolmaster.",
+      "claim_text": "William Farel began his reform work in Switzerland disguised as a humble schoolmaster.",
+      "claim_type": "biographical",
+      "entities": [
+        "William Farel",
+        "Switzerland"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Farel began his Swiss work under the humble guise of a schoolmaster (e.g. at Aigle, using a pseudonym).",
+        "sources": [
+          {
+            "title": "William Farel — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/William_Farel",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Guillaume Farel — Britannica",
+            "url": "https://www.britannica.com/biography/Guillaume-Farel",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-120",
+      "paragraph": 58,
+      "quote": "That cannot be the gospel of Christ,” urged the priests, “seeing the preaching of it does not bring peace, but war.",
+      "claim_text": "Priests opposing Farel's preaching in Switzerland reportedly argued that his message could not be the gospel of Christ because it brought war rather than peace.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "William Farel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The priests' argument that a gospel bringing war cannot be Christ's derives from D'Aubigné/Wylie, White's cited sources.",
+        "sources": [
+          {
+            "title": "Wylie, History of Protestantism, Vol. 2 Bk 14",
+            "url": "https://www.doctrine.org/history/HPv2b14.htm",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-121",
+      "paragraph": 58,
+      "quote": "More than once he was set upon by the rabble, and beaten almost to death.",
+      "claim_text": "William Farel was attacked by mobs on more than one occasion in Switzerland and beaten nearly to death.",
+      "claim_type": "event",
+      "entities": [
+        "William Farel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Farel was repeatedly assaulted by hostile crowds and beaten during his Swiss preaching campaigns.",
+        "sources": [
+          {
+            "title": "William Farel — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/William_Farel",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-122",
+      "paragraph": 58,
+      "quote": "The cities of Morat and Neuchatel also renounced the Romish rites, and removed the idolatrous images from their churches.",
+      "claim_text": "The Swiss cities of Morat and Neuchatel renounced Catholic rites and removed religious images from their churches as a result of Farel's work.",
+      "claim_type": "event",
+      "entities": [
+        "Morat",
+        "Neuchatel",
+        "William Farel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Farel's preaching led to the Reformation and removal of images in Neuchâtel (iconoclasm of 23 October 1530); Morat (Murten) likewise adopted the Reformation around this period.",
+        "sources": [
+          {
+            "title": "23 octobre 1530 - Neuchâtel se rallie à la Réforme — Herodote.net",
+            "url": "https://www.herodote.net/23_octobre_1530-evenement-15301023.php",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "William Farel — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/William_Farel",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-123",
+      "paragraph": 59,
+      "quote": "Farel had long desired to plant the Protestant standard in Geneva.",
+      "claim_text": "William Farel had long desired to establish Protestantism in Geneva.",
+      "claim_type": "biographical",
+      "entities": [
+        "William Farel",
+        "Geneva"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Farel long sought to bring the Reformation to Geneva, which he entered in the early 1530s.",
+        "sources": [
+          {
+            "title": "William Farel — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/William_Farel",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-124",
+      "paragraph": 59,
+      "quote": "Then with a single companion he entered Geneva. But only two sermons was he permitted to preach.",
+      "claim_text": "William Farel entered Geneva with a single companion and was permitted to preach only two sermons before opposition arose.",
+      "claim_type": "event",
+      "entities": [
+        "William Farel",
+        "Geneva"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Farel first entered Geneva (1532) with a companion and met immediate clerical opposition after brief preaching.",
+        "sources": [
+          {
+            "title": "William Farel — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/William_Farel",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-125",
+      "paragraph": 59,
+      "quote": "The priests, having vainly endeavored to secure his condemnation by the civil authorities, summoned him before an ecclesiastical council, to which they came with arms concealed under their robes, determined to take his life.",
+      "claim_text": "Priests in Geneva, unable to get Farel condemned by civil authorities, summoned him before an ecclesiastical council and came armed under their robes intending to kill him.",
+      "claim_type": "event",
+      "entities": [
+        "William Farel",
+        "Geneva"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Farel was summoned before a Geneva ecclesiastical council in 1532 amid clerical hostility that nearly cost his life; the detail of concealed weapons is D'Aubigné/Wylie dramatization of a genuinely dangerous confrontation.",
+        "sources": [
+          {
+            "title": "Wylie, History of Protestantism, Vol. 2 Bk 14",
+            "url": "https://www.doctrine.org/history/HPv2b14.htm",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-126",
+      "paragraph": 59,
+      "quote": "Outside the hall, a furious mob, with clubs and swords, was gathered to make sure of his death if he should succeed in escaping the council.",
+      "claim_text": "Outside the ecclesiastical council in Geneva, an armed mob gathered to kill Farel should he escape the council.",
+      "claim_type": "event",
+      "entities": [
+        "William Farel",
+        "Geneva"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The armed mob outside the council is a Wylie/D'Aubigné detail, White's cited source, dramatizing the real threat to Farel in Geneva 1532.",
+        "sources": [
+          {
+            "title": "Wylie, History of Protestantism, Vol. 2 Bk 14",
+            "url": "https://www.doctrine.org/history/HPv2b14.htm",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-127",
+      "paragraph": 59,
+      "quote": "Early next morning he was conducted, with his companion, across the lake to a place of safety.",
+      "claim_text": "William Farel and his companion were escorted across Lake Geneva to safety the morning after the council confrontation.",
+      "claim_type": "event",
+      "entities": [
+        "William Farel",
+        "Geneva"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Farel and his companion were escorted to safety and left Geneva after the 1532 confrontation.",
+        "sources": [
+          {
+            "title": "Wylie, History of Protestantism, Vol. 2 Bk 14",
+            "url": "https://www.doctrine.org/history/HPv2b14.htm",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-128",
+      "paragraph": 60,
+      "quote": "For the next trial a lowlier instrument was chosen,—a young man, so humble in appearance that he was coldly treated even by the professed friends of reform.",
+      "claim_text": "After Farel's failed first attempt, a young man of humble appearance (Antoine Froment) was chosen for a new attempt to evangelize Geneva, and was treated coldly even by professed reform sympathizers.",
+      "claim_type": "biographical",
+      "entities": [
+        "Antoine Froment",
+        "Geneva"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Antoine Froment, a young evangelist of humble bearing, was sent to Geneva after Farel's first attempt.",
+        "sources": [
+          {
+            "title": "Antoine Froment — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Antoine_Froment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-129",
+      "paragraph": 61,
+      "quote": "Froment began his work as a schoolmaster.",
+      "claim_text": "Antoine Froment began his evangelistic work in Geneva as a schoolmaster.",
+      "claim_type": "biographical",
+      "entities": [
+        "Antoine Froment",
+        "Geneva"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Froment went to Geneva (Nov 1532) and opened a school, using it as a platform for evangelical preaching.",
+        "sources": [
+          {
+            "title": "Antoine Froment — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Antoine_Froment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-130",
+      "paragraph": 61,
+      "quote": "the preachers returned, and through their labors the Protestant worship was finally established in Geneva.",
+      "claim_text": "Following Froment's schoolmaster work, Protestant preachers returned to Geneva and Protestant worship was finally established there.",
+      "claim_type": "event",
+      "entities": [
+        "Geneva"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "After Froment's groundwork, the Protestant preachers returned (backed by Bern) and Protestant worship was ultimately established in Geneva (official 1535/36).",
+        "sources": [
+          {
+            "title": "Antoine Froment — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Antoine_Froment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-131",
+      "paragraph": 62,
+      "quote": "The city had already declared for the Reformation, when Calvin, after various wanderings and vicissitudes, entered its gates.",
+      "claim_text": "Geneva had already officially declared for the Reformation by the time John Calvin arrived there.",
+      "claim_type": "event",
+      "entities": [
+        "John Calvin",
+        "Geneva"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Geneva officially adopted the Reformation (May 1536) before Calvin arrived there (July/August 1536).",
+        "sources": [
+          {
+            "title": "John Calvin — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Calvin",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-132",
+      "paragraph": 62,
+      "quote": "Returning from a last visit to his birthplace, he was on his way to Basel, when, finding the direct road occupied by the armies of Charles V., he was forced to take the circuitous route by Geneva.",
+      "claim_text": "John Calvin's direct route to Basel was blocked by the armies of Charles V, forcing him to travel via Geneva instead.",
+      "claim_type": "event",
+      "entities": [
+        "John Calvin",
+        "Charles V",
+        "Basel",
+        "Geneva"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "In 1536 war between Francis I and Charles V blocked Calvin's direct route, forcing him to detour through Geneva on his way to Basel/Strasbourg.",
+        "sources": [
+          {
+            "title": "John Calvin: Arrival in Geneva — Christian Study Library",
+            "url": "https://www.christianstudylibrary.org/article/john-calvin-arrival-geneva",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "John Calvin — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Calvin",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-133",
+      "paragraph": 63,
+      "quote": "While the people of Geneva had cast off the authority of Rome, they were not so ready to renounce the vices that had flourished under her rule.",
+      "claim_text": "Although Geneva had formally rejected papal authority, its people had not abandoned the vices that had flourished under Catholic rule.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Geneva"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "CONTROL SAMPLE (extractor flagged needs_verification:false). Largely interpretive/moralizing, but it embeds a checkable fact: Geneva had cast off papal authority (true, 1535/36). The claim that the populace retained old vices matches Calvin's own documented complaints, though the moral judgment is not independently quantifiable. Mild extractor blind spot noted; embedded fact is supported.",
+        "sources": [
+          {
+            "title": "John Calvin — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Calvin",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-134",
+      "paragraph": 64,
+      "quote": "that the hand of God was stretched down from heaven, that it lay hold of him, and fixed him irrevocably to the place he was so impatient to leave.",
+      "claim_text": "Calvin is quoted describing Farel's admonition to stay in Geneva as feeling like the hand of God reaching down and fixing him irrevocably to the place.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Calvin",
+        "William Farel",
+        "Geneva"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Calvin's own testimony that he felt 'as if God had from heaven laid his mighty hand upon me to arrest me' when Farel adjured him to stay in Geneva is well attested.",
+        "sources": [
+          {
+            "title": "John Calvin: Arrival in Geneva — Christian Study Library",
+            "url": "https://www.christianstudylibrary.org/article/john-calvin-arrival-geneva",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "New Schaff-Herzog Encyclopedia — Calvin, John",
+            "url": "https://ccel.org/s/schaff/encyc/encyc02/htm/iv.vi.xlvii.htm",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-135",
+      "paragraph": 65,
+      "quote": "The anathemas of the pope thundered against Geneva, and mighty nations threatened it with destruction.",
+      "claim_text": "The pope pronounced anathemas against Geneva, and powerful nations threatened the city with destruction.",
+      "claim_type": "event",
+      "entities": [
+        "Geneva"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Reformation Geneva faced papal condemnation and external military threat (notably from the Duke of Savoy) in this period.",
+        "sources": [
+          {
+            "title": "Antoine Froment — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Antoine_Froment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-136",
+      "paragraph": 66,
+      "quote": "At this time, the order of the Jesuits was created, the most cruel, unscrupulous, and powerful of all the champions of popery.",
+      "claim_text": "The Society of Jesus (Jesuits) was founded around this time (1540) as a Catholic religious order to counter Protestantism.",
+      "claim_type": "date",
+      "entities": [
+        "Society of Jesus",
+        "Jesuits"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Society of Jesus was founded and papally approved in 1540 (bull Regimini militantis Ecclesiae, 27 Sept 1540). GC's date is correct; 'most cruel, unscrupulous' is polemical characterization, not a factual claim.",
+        "sources": [
+          {
+            "title": "Jesuit order established, 27 September 1540 — History.com",
+            "url": "https://www.history.com/this-day-in-history/september-27/jesuit-order-established",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "Jesuits — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Jesuits",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-137",
+      "paragraph": 67,
+      "quote": "They established colleges for the sons of princes and nobles, and schools for the common people; and the children of Protestant parents were drawn into an observance of popish rites.",
+      "claim_text": "The Jesuits established colleges for the nobility and schools for common people, drawing children of Protestant parents into Catholic religious observance.",
+      "claim_type": "event",
+      "entities": [
+        "Jesuits"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The Jesuits became a major Counter-Reformation educational force, running colleges for elites and schools for common people, drawing pupils (including from Protestant families) into Catholic practice.",
+        "sources": [
+          {
+            "title": "Jesuits — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Jesuits",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-138",
+      "paragraph": 67,
+      "quote": "Under various disguises the Jesuits worked their way into offices of state, climbing up to be the counselors of kings, and shaping the policy of nations.",
+      "claim_text": "Jesuits worked their way into government offices, becoming counselors to kings and shaping national policy.",
+      "claim_type": "causal",
+      "entities": [
+        "Jesuits"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Jesuits did gain influence at Catholic courts (royal confessors, advisors). GC's 'under various disguises... shaping the policy of nations' overlays anti-Jesuit polemic on a factual core.",
+        "sources": [
+          {
+            "title": "Jesuits — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Jesuits",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-139",
+      "paragraph": 68,
+      "quote": "To give them greater power, a bull was issued re-establishing the Inquisition.",
+      "claim_text": "A papal bull re-established the Inquisition (the Roman Inquisition, 1542) to give the Jesuits and church authorities greater power against Protestantism.",
+      "claim_type": "event",
+      "entities": [
+        "Roman Inquisition",
+        "Jesuits"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Pope Paul III's bull Licet ab initio (21 July 1542) established the Roman Inquisition (Congregation of the Holy Office). GC's linkage of this specifically to empowering the Jesuits is White's framing; the bull was Cardinal Carafa's initiative, not a Jesuit instrument.",
+        "modern_consensus": "Roman Inquisition established 1542 by Licet ab initio; distinct from the Jesuit order.",
+        "sources": [
+          {
+            "title": "Roman Inquisition — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Roman_Inquisition",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-140",
+      "paragraph": 68,
+      "quote": "In many countries, thousands upon thousands of the very flower of the nation, the purest and noblest, the most intellectual and highly educated, pious and devoted pastors, industrious and patriotic citizens, brilliant scholars, talented artists, skilful artisans, were slain, or forced to flee to other lands.",
+      "claim_text": "The re-established Inquisition resulted in thousands of accomplished and educated people across many countries being killed or forced into exile.",
+      "claim_type": "statistic",
+      "entities": [
+        "Roman Inquisition"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Counter-Reformation persecution killed or exiled large numbers of Protestants across multiple countries, including many educated and skilled people.",
+        "sources": [
+          {
+            "title": "Roman Inquisition — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Roman_Inquisition",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-141",
+      "paragraph": 69,
+      "quote": "it was Holland on her sand-banks by the northern sea, wrestling against the tyranny of Spain, then the greatest and most opulent of kingdoms;",
+      "claim_text": "The Netherlands (Holland) fought against Spanish rule, Spain then being the greatest and richest of kingdoms, and contributed to securing the Reformation.",
+      "claim_type": "causal",
+      "entities": [
+        "Netherlands",
+        "Spain"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The Dutch Revolt against Spanish rule (Spain then Europe's greatest power) is textbook fact and advanced the Protestant cause in the Netherlands.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-142",
+      "paragraph": 69,
+      "quote": "it was bleak, sterile Sweden, that gained victories for the Reformation.",
+      "claim_text": "Sweden played a significant role in achieving victories for the Protestant Reformation.",
+      "claim_type": "geographical",
+      "entities": [
+        "Sweden"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[common_knowledge] Sweden adopted Lutheranism under the Vasa monarchy and later, under Gustavus Adolphus, decisively aided the Protestant cause in the Thirty Years' War.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-143",
+      "paragraph": 70,
+      "quote": "For nearly thirty years, Calvin labored at Geneva; first to establish there a church adhering to the morality of the Bible, and then for the advancement of the Reformation throughout Europe.",
+      "claim_text": "John Calvin worked in Geneva for nearly thirty years (approximately 1536-1564), first establishing a church there and then working for the Reformation's advancement across Europe.",
+      "claim_type": "date",
+      "entities": [
+        "John Calvin",
+        "Geneva"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Calvin worked at Geneva from 1536 (with a 1538-1541 exile) until his death in 1564 — spanning nearly thirty years, first building the Genevan church, then promoting the Reformation across Europe.",
+        "sources": [
+          {
+            "title": "John Calvin — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Calvin",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-12-144",
+      "paragraph": 70,
+      "quote": "His course as a public leader was not faultless, nor were his doctrines free from error.",
+      "claim_text": "Calvin's leadership and doctrines are characterized as imperfect and containing errors.",
+      "claim_type": "interpretive",
+      "entities": [
+        "John Calvin"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "CONTROL SAMPLE (extractor flagged needs_verification:false). Evaluative/interpretive judgment that Calvin's leadership was not faultless and his doctrines not error-free. This is a value judgment, not an empirically testable proposition; extractor's non-flag is appropriate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-145",
+      "paragraph": 71,
+      "quote": "The city of Calvin became a refuge for the hunted Reformers of all Western Europe.",
+      "claim_text": "Geneva, under Calvin, became a refuge for persecuted Protestant Reformers from across Western Europe.",
+      "claim_type": "event",
+      "entities": [
+        "Geneva",
+        "John Calvin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Calvin's Geneva became a refuge and training center for persecuted Protestants from across Western Europe.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-12-146",
+      "paragraph": 71,
+      "quote": "John Knox, the brave Scotch Reformer, not a few of the English Puritans, the Protestants of Holland and of Spain, and the Huguenots of France, carried from Geneva the torch of truth to lighten the darkness of their native lands.",
+      "claim_text": "John Knox, along with a number of English Puritans, Dutch and Spanish Protestants, and French Huguenots, took refuge in Geneva and carried Reformation influence back to their home countries.",
+      "claim_type": "biographical",
+      "entities": [
+        "John Knox",
+        "Geneva",
+        "Huguenots"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "John Knox and Marian-exile English Protestants, together with Dutch, Spanish, and French Huguenot refugees, sojourned in Geneva and carried Reformed influence home. 'Puritans' is a mildly anachronistic label for the mid-century English exiles.",
+        "sources": [
+          {
+            "title": "John Calvin — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Calvin",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    }
+  ]
+}

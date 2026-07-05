@@ -1,0 +1,42 @@
+{
+  "chapter": 12,
+  "stage": "adversarial",
+  "notes": "searches: ~1; full defenses: 0, cheap audits: 3. Scope limited to the three anachronistic verdicts (GC-12-027, 035, 114). Footnote apparatus checked: 035 and 114 trace to Wylie b.13 (fn 343 = Wylie b.13 ch.21); 027 sits in the Meaux passage drawn from Wylie/D'Aubigné. One search on the only concrete lead (114, whether period eyewitnesses genuinely conflict on Louis XVI struggling).",
+  "items": {
+    "GC-12-027": {
+      "result": "defense_succeeded",
+      "argument": "GC's clause is 'The sister of Francis I... accepted the reformed faith,' set in a paragraph that grades degrees of adherence: the king and queen mother only 'appeared for a time to regard it with favor,' while Marguerite 'accepted' it. In 19th-century evangelical idiom 'the reformed faith' denotes the doctrine of justification by grace through faith and the authority of Scripture, not institutional membership in a Reformed/Calvinist church. Under that reading the claim is well supported: Marguerite de Navarre was a committed evangelical inside the Briconnet-Lefevre circle, corresponded with Briconnet on evangelical spirituality, protected reformers throughout her life, and wrote the 'Miroir de l'ame pecheresse,' which the Sorbonne censured as heretical in 1533 (Francis I forced its withdrawal). The verifier's own sources grant her genuine evangelical convictions and contradict only the stronger reading that she formally became a Protestant, a claim White's sentence does not make: Marguerite never left the Catholic Church. Because the assertion is true under the doctrinal sense the words naturally carry, the anachronism charge rests on over-literalizing 'reformed faith' as institutional conversion. The distinction White draws in the same sentence (sister 'accepted' vs. king/mother merely 'regarded with favor') tracks the historical reality that her evangelical commitment was deeper and more durable than her brother's political flirtation.",
+      "revised_verdict": "supported"
+    },
+    "GC-12-035": {
+      "result": "defense_failed",
+      "argument": "The strongest reading takes 'forced to choose between the fire and recantation, accepted the easier path' as rhetorical antithesis, not a claim that a tribunal literally sentenced Briconnet to death-or-abjuration. At Meaux the stake was in fact 'set up': Jean Leclerc and other members of his flock were burned, so a bishop championing reform did face a real existential choice, press on and share his people's fate or draw back. And he did draw back: under Sorbonne/Parlement pressure he gave guarantees that public Scripture instruction would cease and issued anti-Lutheran synodal measures, a functional recantation of his reforming program, while his flock 'remained steadfast.' That substance, leader falls and followers stand, is accurate. The defense fails only on the specific 'fire or recantation' mechanism: modern scholarship and the verifier's own Baird source show Briconnet was never in personal danger of the stake, was acquitted of heresy in November 1525, fined 200 livres, and remained bishop of Meaux until his death in 1534. Protected by episcopal rank and by royal and Marguerite favor, he did not recant to save himself from burning. The 'held between fire and recantation' peril is a Wylie/D'Aubigne dramatization (the passage traces to Wylie, book 13), so the anachronistic verdict stands. Severity is low, since the underlying event, the bishop's submission under persecution, is real; the exaggeration is confined to his personal danger."
+    },
+    "GC-12-114": {
+      "result": "defense_failed",
+      "argument": "There is a genuine kernel behind Wylie's dramatization, so this is not pure invention: at the scaffold Louis XVI did physically resist. When the executioners moved to bind his hands he recoiled, pushed back the man holding the rope, and cried 'Never! Never!', documented by the executioner Sanson's own family accounts. So 'struggling... with his executioners' amplifies a real moment of resistance. But the defense fails because the two best eyewitnesses both contradict the full picture of a man 'dragged forward to the block' and 'held down by main force till the axe had fallen.' Louis's confessor Edgeworth, present on the scaffold, records that after the brief protest Louis submitted ('So be it, then'), allowed his hands to be bound, mounted the scaffold and tried to address the crowd until the drums drowned him. Executioner Charles-Henri Sanson wrote on 20 February 1793 that the king 'bore all this with a composure and a firmness which has surprised us all,' and Henri Sanson explained the binding was ordered only lest an involuntary movement 'spoil his execution,' not because they feared he would fight. Modern historiography is not divided on this, so the verdict is 'anachronistic' (Wylie reproduced an amplified strand contradicted by the primary eyewitnesses) rather than 'disputed.' Severity is low: the resistance was real but brief, not the hand-to-hand struggle-to-the-block that GC quotes.",
+      "new_sources": [
+        {
+          "title": "The Executioner's Account of Louis XVI's Execution (Charles-Henri Sanson, letter of 20 Feb 1793)",
+          "url": "https://www.geriwalton.com/the-executioners-account-of-louis-xvis-execution/",
+          "source_class": "other",
+          "supports_verdict": true,
+          "note": "Sanson: the king 'bore all this with a composure and a firmness which has surprised us all'; hands bound only lest an involuntary movement spoil the execution."
+        },
+        {
+          "title": "The Execution of Louis XVI - Henry Essex Edgeworth (1793 eyewitness account)",
+          "url": "https://wp.stu.ca/worldhistory/wp-content/uploads/sites/4/2015/07/Execution-of-Louis-XVI.pdf",
+          "source_class": "other",
+          "supports_verdict": true,
+          "note": "Confessor's eyewitness memoir: after briefly resisting the binding of his hands the king submitted and died with composure."
+        },
+        {
+          "title": "Trial and Execution of Louis XVI - World History Encyclopedia",
+          "url": "https://www.worldhistory.org/article/2085/trial-and-execution-of-louis-xvi/",
+          "source_class": "scholarly_encyclopedia",
+          "supports_verdict": true
+        }
+      ]
+    }
+  }
+}

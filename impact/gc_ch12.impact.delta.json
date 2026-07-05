@@ -1,0 +1,23 @@
+{
+  "chapter": 12,
+  "stage": "impact",
+  "notes": "Chapter 12 narrates the French Reformation as a fresh instance of the book's recurring pattern: truth breaks in on individuals (Lefevre, Farel, Briconnet, Berquin, Calvin) despite institutional Catholic loyalty, faces persecution, and survives through steadfast witnesses even when a leader compromises (Briconnet) or is martyred (Berquin) — culminating in Geneva/Calvin as a durable institutional base for the wider Reformation. The chapter's own argumentative weight rests on the cumulative biographical arc of conversions and martyrdoms, not on any single anecdote; Briconnet's fall functions only as a foil contrasting leader-compromise with flock-fidelity (GC-12-036, already supported), and the closing Louis XVI/Terror passage (paragraphs 55-56) is a moral-providential coda illustrating 'rejected light produces judgment,' a theme pattern in the book but distinct from the central thesis chain (Reformation succession -> Millerite -> sanctuary -> Sabbath) defined in CLAUDE.md. The providential causal claims GC-12-097 and GC-12-116 (France's Reformation-era persecution 'inevitably' producing the Revolution/Terror) are theological/unverifiable and are noted here only for context, not scored as impact items per task scope. Only two claims carry a defense-adjusted anachronistic verdict in this chapter: GC-12-035 (Briconnet's personal peril dramatized) and GC-12-114 (Louis XVI's execution dramatized); both trace to Wylie (History of Protestantism, bk. 13), White's cited 19th-century source, so their severity commentary must register period-typical dramatization rather than invention.",
+  "items": {
+    "GC-12-035": {
+      "severity": 3,
+      "centrality": 2,
+      "load_bearing": false,
+      "impact_score": 6,
+      "narrative_arc": "reformation",
+      "reasoning": "GC dramatizes Briconnet as personally facing 'the fire or recantation,' but modern scholarship shows he was acquitted of heresy in 1525, fined, and remained bishop of Meaux until 1534 with no death sentence ever pronounced — the personal mortal peril is invented even though his real capitulation to Sorbonne pressure (ceasing public Scripture instruction) is accurate. The dramatization follows Wylie's account (White's named source, bk. 13), so this reflects period historiographical embellishment rather than fabrication from nothing. Deleting the claim leaves the chapter's contrast intact: GC-12-036 (flock remained steadfast, martyrs died) stands independently and already carries the chapter's rhetorical point about leader-compromise versus lay fidelity, so the argument is not load-bearing on this specific dramatized peril."
+    },
+    "GC-12-114": {
+      "severity": 4,
+      "centrality": 2,
+      "load_bearing": false,
+      "impact_score": 8,
+      "narrative_arc": "reformation",
+      "reasoning": "GC's 'struggling hand to hand... dragged forward... held down by main force' directly contradicts the two best primary eyewitnesses (the king's confessor Edgeworth and executioner Sanson), both of whom describe Louis XVI submitting with composure after a brief, quickly-resolved objection to having his hands bound — a materially different portrayal of how a specific, well-documented historical figure met his death. Severity is higher than a typical anachronistic slip because this is a comparatively recent, richly attested event (unlike Briconnet's fate) where the contradiction is stark and the dramatization inverts the historical man's demeanor; it still traces to Wylie (bk. 13, White's cited source) rather than invention, so it reflects 19th-century dramatized historiography, not authorial fabrication. Centrality is moderate, not high: the passage functions as the vivid capstone of the chapter's own retribution parallel (1535 persecution procession vs. 1793 Terror procession) but is not part of the book's enumerated central thesis chain (Reformation succession -> Millerite -> sanctuary -> Sabbath); deleting the dramatized detail leaves the parallel's core facts (same date, same city, king executed, Terror followed) fully intact via GC-12-113/115 (both supported), so the chapter's providential argument is not load-bearing on this specific embellishment."
+    }
+  }
+}

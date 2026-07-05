@@ -595,65 +595,260 @@
       "words": 8755,
       "paragraphs": 76,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 134,
+          "needs_verification": 124,
+          "by_type": {
+            "event": 63,
+            "attributed_quote": 51,
+            "statistic": 5,
+            "date": 3,
+            "biographical": 3,
+            "causal": 1,
+            "theological": 8,
+            "interpretive": 2,
+            "geographical": 1
+          },
+          "zero_claim_paras": [
+            24,
+            35,
+            48,
+            60,
+            61,
+            67
+          ]
+        },
+        "verify": {
+          "supported": 123,
+          "anachronistic": 1,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 10,
+          "low_confidence": 2,
+          "searches": 11,
+          "clusters": 7
+        },
+        "defend": {
+          "examined": 1,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 1,
+          "defense_failed": 0,
+          "searches": 1
+        }
+      },
+      "updated_at": "2026-07-05T09:09:57Z"
     },
     "09": {
       "title": "The Swiss Reformer",
       "words": 4496,
       "paragraphs": 39,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 96,
+          "needs_verification": 91,
+          "by_type": {
+            "event": 32,
+            "attributed_quote": 28,
+            "biographical": 16,
+            "statistic": 6,
+            "causal": 5,
+            "interpretive": 3,
+            "date": 3,
+            "theological": 2,
+            "geographical": 1
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 91,
+          "anachronistic": 0,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 5,
+          "low_confidence": 13,
+          "searches": 11,
+          "clusters": 9
+        },
+        "defend": {
+          "examined": 0,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 0,
+          "searches": 0
+        }
+      },
+      "updated_at": "2026-07-05T09:09:57Z"
     },
     "10": {
       "title": "Progress Of Reform In Germany",
       "words": 3962,
       "paragraphs": 42,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 92,
+          "needs_verification": 80,
+          "by_type": {
+            "event": 35,
+            "attributed_quote": 21,
+            "biographical": 11,
+            "causal": 10,
+            "theological": 9,
+            "statistic": 3,
+            "interpretive": 3
+          },
+          "zero_claim_paras": [
+            3
+          ]
+        },
+        "verify": {
+          "supported": 79,
+          "anachronistic": 2,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 11,
+          "low_confidence": 7,
+          "searches": 7,
+          "clusters": 6
+        },
+        "defend": {
+          "examined": 2,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 2,
+          "defense_failed": 0,
+          "searches": 2
+        }
+      },
+      "updated_at": "2026-07-05T09:10:31Z"
     },
     "11": {
       "title": "Protest Of The Princes",
       "words": 4760,
       "paragraphs": 42,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 108,
+          "needs_verification": 92,
+          "by_type": {
+            "attributed_quote": 44,
+            "event": 32,
+            "theological": 9,
+            "interpretive": 7,
+            "biographical": 8,
+            "causal": 4,
+            "statistic": 3,
+            "date": 1
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 90,
+          "anachronistic": 1,
+          "disputed": 0,
+          "contradicted": 1,
+          "misquotation": 0,
+          "unverifiable": 16,
+          "low_confidence": 25,
+          "searches": 11,
+          "clusters": 5
+        },
+        "defend": {
+          "examined": 2,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 2,
+          "searches": 4
+        }
+      },
+      "updated_at": "2026-07-05T09:09:23Z"
     },
     "12": {
       "title": "The French Reformation",
       "words": 8999,
       "paragraphs": 71,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
-        "impact": "pending"
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
+        "impact": "done"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 146,
+          "needs_verification": 141,
+          "by_type": {
+            "event": 58,
+            "attributed_quote": 32,
+            "biographical": 28,
+            "causal": 10,
+            "statistic": 6,
+            "date": 5,
+            "theological": 3,
+            "interpretive": 2,
+            "geographical": 2
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 137,
+          "anachronistic": 3,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 6,
+          "low_confidence": 31,
+          "searches": 18,
+          "clusters": 13
+        },
+        "defend": {
+          "examined": 3,
+          "defense_succeeded": 1,
+          "verdict_downgraded": 0,
+          "defense_failed": 2,
+          "searches": 1
+        },
+        "impact": {
+          "scored": 2,
+          "load_bearing": 0,
+          "top_impact": [
+            {
+              "id": "GC-12-114",
+              "score": 8
+            },
+            {
+              "id": "GC-12-035",
+              "score": 6
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-07-05T09:10:49Z"
     },
     "13": {
       "title": "The Netherlands And Scandinavia",
