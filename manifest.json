@@ -2622,12 +2622,12 @@
   },
   "adjudication": {
     "charter": "ADJUDICATION_CHARTER.md",
-    "charter_version": "1.0-frozen",
+    "charter_version": "1.1-frozen",
     "dossier_registry": "ADJUDICATION_DOSSIERS.md",
     "validator": "scripts/validate_adjudication.py",
     "command": "/adjudicate DNN",
-    "calibration_approved": false,
-    "calibration_note": "D01 first and alone; user review gate before any further dossier (charter section 10.5, PLAN.md Phase 2a)",
+    "calibration_approved": true,
+    "calibration_note": "D01 approved by user 2026-07-05; charter amended to 1.1-frozen (4 post-calibration amendments, section 12); batch processing D02-D23 unlocked",
     "dossiers": {
       "D01": {
         "slug": "chronology-1844",
