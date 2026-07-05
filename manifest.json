@@ -3101,7 +3101,21 @@
         "claims": 1,
         "load_bearing": 0,
         "academic_floor": false,
-        "status": "pending"
+        "status": "done",
+        "ruling_file": "adjudication/D21_massacre-of-innocents.ruling.json",
+        "rulings_as_written": {
+          "genuinely-open": 1
+        },
+        "rulings_weakened": {
+          "probable": 1
+        },
+        "framing_gaps": {
+          "1": 1
+        },
+        "failing_component_kind_accusatory": {},
+        "gap_notes": [],
+        "searches": "searches: ~7 (6 shared, 1 straggler)",
+        "updated_at": "2026-07-05T19:48:33Z"
       },
       "D22": {
         "slug": "hus-bohemia-narrative",

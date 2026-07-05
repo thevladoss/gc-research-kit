@@ -1,0 +1,94 @@
+{
+  "dossier": "D21",
+  "slug": "massacre-of-innocents",
+  "stage": "adjudication",
+  "charter_version": "1.1-frozen",
+  "generated_at": "2026-07-05",
+  "notes": "searches: ~7 (6 shared, 1 straggler). Local scholarship contributed Justin Martyr, Dialogue with Trypho 78 (scholarship/anf01-ante-nicene-fathers-vol1.txt, lines ~21636-21645) as a Matthean-dependent second-century attestation; nothing else in scholarship/ covers NT historicity. No Phase-1 defense entry exists for GC-42-032 (disputed claims skipped the defense stage), so §7.4 requires no defender answer; the verifier's rationale was used as a position and checked independently.",
+  "evidence_review": "State of the question on the Massacre of the Innocents (Matthew 2:16-18). ATTESTATION: the event is reported only in Matthew; Luke's infancy narrative, Mark, John, and Paul know nothing of it. The two ancient texts sometimes offered as corroboration fail the genealogical-independence test: Justin Martyr, Dialogue with Trypho 78 (c. 160, read locally in ANF vol. 1) retells the Matthean story with the same Jeremiah 31:15 prooftext and is dependent on Matthean tradition; Macrobius, Saturnalia 2.4.11 (c. 430) has Augustus quip that it is 'better to be Herod's pig than his son' apropos of boys under two killed 'in Syria' together with Herod's own son, a late, garbled notice that scholars since Lardner have read as a conflation of the gospel story with Herod's execution of his son Antipater (4 BC), plausibly contaminated by Christian tradition; it is discounted as independent evidence. THE CRITICAL MAJORITY: Raymond Brown, The Birth of the Messiah (1977, rev. 1993, Anchor Bible Reference Library), the standard treatment, judges the episode unverifiable and likely non-historical in its present form: Josephus, who catalogs Herod's atrocities in detail (the executions of Mariamne, of Alexander and Aristobulus in 7 BC, of Antipater in 4 BC, the hippodrome order at his death), is silent, and Brown argues Josephus's demonstrated appetite for paranoia-revealing atrocities makes the silence weighty; the narrative closely tracks the first-century haggadic expansion of the Moses/Pharaoh infanticide story (Pharaoh forewarned of a liberator's birth, cf. Josephus Ant. 2.205-209), with Matthew casting Herod as Pharaoh and Jesus as the new Moses, capped by a fulfillment citation of Jeremiah 31:15. Ulrich Luz (Hermeneia) reads Matthew 2 as haggadic rather than historical reportage; most recent academic biographies of Herod deny the event (a concession made in print by defender Paul Maier in 1998); Vermes, Sanders, and Ehrman state the legendary reading as the mainstream one. THE DEFENSE: R. T. France, 'Herod and the Children of Bethlehem,' Novum Testamentum 21 (1979), the strongest peer-reviewed defense, argues that Bethlehem's population (roughly 1,000) implies perhaps ten to twenty boys under two, an atrocity of a scale below the notice threshold of surviving sources; that the argument from silence is methodologically weak given Josephus's selectivity; and that the deed fits Herod's documented final-years paranoia. Paul L. Maier (ancient historian, Western Michigan University; 'Herod and the Infants of Bethlehem,' in Chronos, Kairos, Christos II, 1998) adds that Josephus wrote for a Greco-Roman audience largely indifferent to infanticide. Everett Ferguson and Craig Keener endorse the small-scale point; David Instone-Brewer has further argued that Assumption of Moses 6.2-6 ('he shall slay the old and the young') may allude to indiscriminate killings by Herod, an argument that has not won acceptance because the passage is a vague merism for Herod's general cruelty. Even skeptics concede the deed is consistent in kind with Herod's documented record (Brown grants this explicitly). WHAT CHANGED SINCE THE 19TH CENTURY: White's milieu treated the episode as straightforward history via gospel harmonies; redaction and genre criticism of the infancy narratives (culminating in Brown) moved the mainstream to 'legendary or unverifiable,' while a peer-reviewed minority (France 1979; Maier 1998) keeps plausibility alive; recent academic work is largely reception-historical (Sung J. Cho, Matthew's Account of the Massacre of the Innocents in Light of Its Reception History, T&T Clark 2021). NET: both sides argue from the same tiny evidence base (Matthew 2, Josephus's corpus, Bethlehem demography, the Moses haggadah); neither positive confirmation nor positive disproof exists or is likely to; the disagreement is over the relative weight of Josephus's silence versus character-consistency, and it does not reduce cleanly to confessional alignment (Brown, a Catholic priest, anchors the skeptical side; France published his defense in a leading peer-reviewed journal).",
+  "narrative_ru": "Досье проверяло единственное утверждение: приказ Ирода Великого об избиении младенцев в Вифлееме как историческое событие. Рассказ сохранился только в Евангелии от Матфея; Иосиф Флавий, подробно описавший жестокости Ирода, о нём молчит, и большинство критических исследователей (Браун, Луц, Вермеш) считают эпизод легендарным или непроверяемым. Меньшинство квалифицированных учёных (Франс, Майер) защищает правдоподобие: убийство десятка младенцев в маленькой деревне соответствует документированному поведению Ирода в последние годы и могло не попасть в сохранившиеся источники. Обе стороны работают с одним и тем же скудным материалом, поэтому вердикт по формулировке книги: вопрос по-настоящему открыт. Ослабленная версия (событие такого масштаба правдоподобно, но недоказуемо) получает оценку вероятно. Картину изменила бы независимая нехристианская запись первого века или доказательство, что весь эпизод целиком выведен из иудейских преданий о Моисее.",
+  "rulings": [
+    {
+      "id": "GC-42-032",
+      "dossier": "D21",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "Herod the Great ordered and carried out the killing of the young male children of Bethlehem (the event occurred).",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "genuinely-open",
+          "rationale": "Single attestation (Matthew 2:16-18) with no genealogically independent corroboration (Justin Dial. 78 and Macrobius Sat. 2.4.11 both fail independence, see evidence_review). The critical majority (Brown, Luz, Vermes; most recent Herod biographies) reads the episode as legendary or unverifiable on two grounds: Josephus's silence despite his detailed hostile catalog of Herod's crimes, and the Moses/Pharaoh haggadic template shaping Matthew's infancy narrative. The peer-reviewed minority (France, Novum Testamentum 1979; Maier 1998; Ferguson, Keener) answers that a killing of perhaps ten to twenty infants in a village of about a thousand falls below the notice threshold of surviving sources, that arguments from silence are weak, and that the deed fits Herod's documented final-years conduct, a consistency even Brown concedes. Neither side possesses evidence the other lacks; the dispute is over weighting silence versus character-consistency on an identical, tiny evidence base. Positive disproof does not exist (silence and literary shaping show the sole witness is unconfirmed and theologically molded, not that the event did not occur), and positive confirmation does not exist either. Per charter §1 this is qualified disagreement on comparable evidential quality that does not reduce to confessional alignment: genuinely-open."
+        },
+        {
+          "component": "The killing aimed to destroy the newborn 'King of Israel' whose birth the Magi had announced (Herod's intent).",
+          "kind": "motive",
+          "in_scope": true,
+          "ruling": "genuinely-open",
+          "rationale": "The motive is inseparable from the event's sole source: Matthew 2:3-16 explicitly states the intent ('Herod will seek the young child to destroy him'), and no scholar defends the event while disputing this motive. The component is conditional on the fact component: if the event occurred, the only surviving account of why is Matthew's own. The competing mainstream position denies the event rather than offering a rival documented motive, so under §3 the undocumented-motive cap is genuinely-open, which coincides with the fact component's level. Rated genuinely-open, tracking the fact component."
+        },
+        {
+          "component": "The scene's setting (the final-judgment panorama in which the wicked behold their deeds) and the identification of the Bethlehem infant as 'the King of Israel' in the christological sense.",
+          "kind": "hermeneutic",
+          "in_scope": false,
+          "ruling": null,
+          "rationale": "Paragraph 15 of chapter 42 is an eschatological vision; the judgment-panorama frame and the messianic identity of the child are theological and receive no ruling (§9). The empirical components above are ruled conditionally on extracting the historical assertion from this devotional setting, which is how the extractor and verifier both read it: White relays the Matthean account as history, the near-universal 19th-century treatment."
+        }
+      ],
+      "ruling_as_written": "genuinely-open",
+      "failing_component_kind": "fact",
+      "tied_kinds": ["fact", "motive"],
+      "weakened_version": "A small-scale killing of Bethlehem's infant boys, as Matthew reports, would be consistent with Herod the Great's documented conduct in his final years and could have fallen below the notice of surviving non-Christian sources, though it cannot be independently confirmed.",
+      "ruling_weakened": "probable",
+      "framing_gap": 1,
+      "confidence": "medium",
+      "minority_engagement": "Not formally required for genuinely-open, but §1 demands positive documentation of disagreement on both sides, given here. Strongest case AGAINST the claim: Brown (The Birth of the Messiah), whose actual argument is cumulative, not a proof of non-occurrence: Josephus's demonstrated appetite for exactly this kind of paranoia-revealing atrocity makes his silence weighty, and the episode's genesis is fully explicable from the first-century Moses haggadah plus Matthew's fulfillment scheme. This does not defeat the claim outright because the template explains shaping without entailing invention, and the silence argument rests on an inference about Josephus's authorial interests that France's small-scale demography genuinely undercuts. Strongest case FOR the claim: France (Novum Testamentum 21, 1979) and Maier (1998), whose small-population and audience-indifference arguments use the same data the skeptics accept and were published in peer-reviewed or academic venues; they fail to establish historicity (plausibility and unfalsifiable silence-explanations cannot substitute for attestation), but they do not fail on dating, provenance, circularity, or superseded data, so per §5.1 they keep the question open rather than being defeated. The defenders' confessional location (largely evangelical) is noted per §4.1 and is not grounds for dismissal; the skeptical side is anchored by a Catholic priest (Brown), so the disagreement does not reduce to confessional alignment. Verdict: neither side's case is qualitatively stronger on evidence; genuinely-open.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {
+          "ref": "Raymond E. Brown, The Birth of the Messiah (Anchor Bible Reference Library, 1977, rev. 1993), on Matt 2:16-18: unverifiable, likely non-historical; Moses-haggadah template; rebuts the too-small-to-notice argument.",
+          "tier": "academic",
+          "independence_note": "Standard mainstream commentary; content reached via converging secondary summaries (Wikipedia, Ehrman, ABR article engaging Brown directly), not paged directly, hence academic-partial. Catholic author holding the skeptical position, evidence against confessional alignment of the dispute."
+        },
+        {
+          "ref": "R. T. France, 'Herod and the Children of Bethlehem,' Novum Testamentum 21 (1979) 98-120; also his NICNT Matthew commentary: Bethlehem population ~1,000, perhaps 10-20 boys under two; argument from silence weak; consistent with Herod's final years.",
+          "tier": "academic",
+          "independence_note": "Peer-reviewed defense in a leading NT journal; genealogically independent of Brown (contemporaneous, opposed conclusion from the same primary data). Evangelical author, institutional location noted per §4.1."
+        },
+        {
+          "ref": "Paul L. Maier, 'Herod and the Infants of Bethlehem,' in Chronos, Kairos, Christos II (1998): Greco-Roman audience indifference to infanticide; concedes 'most recent biographies of Herod the Great deny it entirely.'",
+          "tier": "academic",
+          "independence_note": "Professional ancient historian (Western Michigan University); argument independent of France in detail though same direction; his concession about recent Herod biographies is admission-against-interest evidence for the majority position."
+        },
+        {
+          "ref": "Justin Martyr, Dialogue with Trypho 78, read in scholarship/anf01-ante-nicene-fathers-vol1.txt lines ~21636-21645 ('ordered simply the whole of the children then in Bethlehem to be massacred', with the Jeremiah prooftext).",
+          "tier": "primary-in-context",
+          "independence_note": "Second-century attestation but genealogically dependent on Matthean tradition (same narrative sequence and prooftext); carries no independent evidential weight for historicity."
+        },
+        {
+          "ref": "Macrobius, Saturnalia 2.4.11 (Loeb; c. 430): Augustus's 'Herod's pig' quip over boys under two killed 'in Syria' including Herod's own son.",
+          "tier": "primary-in-context",
+          "independence_note": "Discounted as independent evidence: four centuries late, conflates the massacre with the execution of Antipater (so already Lardner; modern assessments concur), and plausibly contaminated by Christian tradition."
+        },
+        {
+          "ref": "Sung J. Cho, Matthew's Account of the Massacre of the Innocents in Light of Its Reception History (T&T Clark / LNTS, 2021).",
+          "tier": "academic",
+          "independence_note": "Recent academic monograph; reception-historical rather than adjudicating historicity; documents that the live scholarly conversation has largely moved to reception, consistent with an unresolved historicity question."
+        },
+        {
+          "ref": "Bart Ehrman, 'Massacre of the Innocents: History vs Myth' (bartehrman.com); Wikipedia, 'Massacre of the Innocents'.",
+          "tier": "encyclopedic",
+          "independence_note": "Digest-level statements of the critical majority position; genealogically downstream of Brown and the commentary tradition, counted once."
+        },
+        {
+          "ref": "Associates for Biblical Research, 'The Slaughter of the Innocents: Historical Fact or Legendary Fiction?'; Beitzel, 'Herod the Great: Another Snapshot of His Treachery?', JETS 57/2 (2014) on Macrobius.",
+          "tier": "position",
+          "independence_note": "Apologetic and confessional-academic statements of the defense; cited as positions per §4.5, useful for mapping the defense's actual arguments (France, Maier, Macrobius) rather than as arbiters."
+        }
+      ],
+      "would_change_this": "Toward well-supported: any genealogically independent first-century attestation (a non-Christian notice, or a securely datable pre-Matthean Jewish source referring to killings of infants at Bethlehem), or an archaeologically datable mass infant burial near Bethlehem from Herod's last years. Toward improbable: a datable pre-Matthean text applying the Moses-infanticide motif to a messianic child (showing the episode existed as a literary topos awaiting attachment), or a peer-reviewed demographic study removing the small-scale defense by showing Bethlehem's size made an unnoticed massacre implausible. The weakened ruling would fall if Herod scholarship overturned the picture of his final-years conduct.",
+      "gap_note": null,
+      "notes": "No verbatim universal quantifiers in the quote; 'the innocent children of Bethlehem' is a definite plural tracking Matthew's own wording, so no §6 burden escalation applies. Impact 2, non-load-bearing, decorative use in an eschatological list of historical actors. The verifier's disputed verdict is confirmed and refined rather than moved: this is a documented qualified standoff, not an exhausted-budget residue."
+    }
+  ]
+}
