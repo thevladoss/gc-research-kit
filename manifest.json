@@ -2847,7 +2847,28 @@
         "claims": 4,
         "load_bearing": 0,
         "academic_floor": false,
-        "status": "pending"
+        "status": "done",
+        "ruling_file": "adjudication/D09_luther-narrative-layer.ruling.json",
+        "rulings_as_written": {
+          "genuinely-open": 1,
+          "improbable": 3
+        },
+        "rulings_weakened": {
+          "well-supported": 3,
+          "genuinely-open": 1
+        },
+        "framing_gaps": {
+          "2": 1,
+          "1": 1,
+          "3": 2
+        },
+        "failing_component_kind_accusatory": {
+          "fact": 2,
+          "motive": 1
+        },
+        "gap_notes": [],
+        "searches": "searches: ~10 (8 shared, 2 stragglers: Scala Sancta modern specialist scholarship for GC-07-036",
+        "updated_at": "2026-07-05T17:51:23Z"
       },
       "D10": {
         "slug": "constantinian-fall-and-syncretism",
