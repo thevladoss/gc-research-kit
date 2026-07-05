@@ -1217,9 +1217,9 @@
       "paragraphs": 68,
       "stages": {
         "extract": "done",
-        "verify": "pending",
-        "defend": "pending",
-        "impact": "pending"
+        "verify": "done",
+        "defend": "done",
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -1237,9 +1237,45 @@
             "geographical": 1
           },
           "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 122,
+          "anachronistic": 1,
+          "disputed": 12,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 14,
+          "low_confidence": 2,
+          "searches": 5,
+          "clusters": 6
+        },
+        "defend": {
+          "examined": 1,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 1,
+          "searches": 0
+        },
+        "impact": {
+          "scored": 13,
+          "load_bearing": 9,
+          "top_impact": [
+            {
+              "id": "GC-18-081",
+              "score": 20
+            },
+            {
+              "id": "GC-18-060",
+              "score": 15
+            },
+            {
+              "id": "GC-18-058",
+              "score": 15
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-05T11:33:24Z"
+      "updated_at": "2026-07-05T11:52:52Z"
     },
     "19": {
       "title": "Light Through Darkness",
@@ -1476,13 +1512,27 @@
       "words": 4772,
       "paragraphs": 40,
       "stages": {
-        "extract": "pending",
+        "extract": "done",
         "verify": "pending",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 89,
+          "needs_verification": 72,
+          "by_type": {
+            "attributed_quote": 33,
+            "event": 28,
+            "theological": 16,
+            "date": 8,
+            "biographical": 3,
+            "interpretive": 1
+          },
+          "zero_claim_paras": []
+        }
+      },
+      "updated_at": "2026-07-05T11:50:34Z"
     },
     "24": {
       "title": "In The Holy Of Holies",
@@ -1515,13 +1565,28 @@
       "words": 3387,
       "paragraphs": 27,
       "stages": {
-        "extract": "pending",
+        "extract": "done",
         "verify": "pending",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 102,
+          "needs_verification": 53,
+          "by_type": {
+            "theological": 38,
+            "attributed_quote": 21,
+            "event": 19,
+            "interpretive": 11,
+            "causal": 5,
+            "biographical": 5,
+            "date": 3
+          },
+          "zero_claim_paras": []
+        }
+      },
+      "updated_at": "2026-07-05T11:50:59Z"
     },
     "27": {
       "title": "Modern Revivals",

@@ -1,0 +1,11 @@
+{
+  "chapter": 18,
+  "stage": "adversarial",
+  "notes": "searches: ~0; full defenses: 0, cheap audits: 1. Scope per orchestrator: 1 anachronistic claim (GC-18-072) cheap-audited; 12 disputed claims skipped per policy; 0 contradicted, 0 misquotation.",
+  "items": {
+    "GC-18-072": {
+      "result": "defense_failed",
+      "argument": "Best steelman: 'four thousand years' is a round rhetorical/biblical-idiom figure, not a precise chronological assertion. The sentence's load-bearing claim is theological ('Type had met antitype', offerings 'pointed forward to the Lamb of God') — the extractor over-literalized a devotional statement into an empirical duration. White's 'system of offerings' is not the Mosaic/Israelite sacrificial system alone but ALL sacrifice from the Fall onward (Abel, the patriarchs, then the ceremonial law), so under the Ussher chronology (creation c. 4004 BC, crucifixion c. AD 31) universal in her 19th-century sources the span from the first post-Fall sacrifice to Calvary is ~4,000 years — the figure is period-typical, not idiosyncratic error. Why it nonetheless fails as a full acquittal: even read as a round number, the claim presupposes a young-earth timeline (creation ~4000 BC) that modern historiography and archaeology reject, and there is no organized 4,000-year continuous sacrificial system. The verifier already chose the correct, gentle category: 'anachronistic' (traces to White's sources) rather than 'contradicted'. No verifier over-reach to catch here — the verdict is internally consistent and the period_historiography note is accurate — so the discrepancy stands as anachronistic. source_quality: encyclopedic-only (topic is general biblical chronology, not on the doctrinally-central escalation list; Ussherian dating is textbook common knowledge, no search warranted)."
+    }
+  }
+}

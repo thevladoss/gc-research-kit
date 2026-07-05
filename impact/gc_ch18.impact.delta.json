@@ -1,0 +1,111 @@
+{
+  "chapter": 18,
+  "stage": "impact",
+  "notes": "Chapter argument: ch18 builds a two-part case for William Miller as the divinely prepared 'American Reformer.' Part one (biographical, ~paras 1-17) establishes Miller's personal credibility -- poverty, self-education, deist-to-Christian conversion, and a rigorously inductive, commentary-free Bible-study method -- to authorize him as a trustworthy interpreter. Part two (paras 18-46, the chapter's actual center of gravity) walks the reader step by step through the 457 BC decree -> 483 years to AD 27 baptism -> 3.5 years to AD 31 crucifixion -> 490 years/70 weeks ending AD 34 -> remaining 1810 years -> 1844 calculation, presenting it as historically and exegetically inevitable, with the Josiah Litch Ottoman-1840 episode inserted as a corroborating 'proof text' that year-day calculation yields verifiable, precise historical fulfillments. Every biographical claim is decorative scaffolding for this chronological argument; the chapter exists to make 1844 appear historically forced rather than theologically chosen. Because 1844 is the hinge of the book's entire sanctuary/investigative-judgment doctrine (chs 19-24+), the chronological chain scored here is treated as load-bearing for the book's central thesis, consistent with the parallel ch22 anchor (GC-22-039, severity 3 x centrality 5 = 15, load_bearing true). Scored 13 claims: 1 confirmed anachronistic (GC-18-072) plus 12 disputed high-stakes items (10 chain claims + 2 Litch claims). 9 of the 10 chain claims are scored load-bearing; the terminal claim GC-18-081 (2300 days terminate in 1844) is scored highest (severity 4 x centrality 5 = 20) as the chain's actual conclusion rather than an intermediate link. The two Litch claims are scored as high-centrality corroborating showpieces (not structural chain links) since they function to lend the year-day method borrowed empirical credibility. No searches performed at this stage (Read-only synthesis of defended.json + chapter text per orchestrator scope).",
+  "items": {
+    "GC-18-072": {
+      "severity": 2,
+      "centrality": 1,
+      "load_bearing": false,
+      "impact_score": 2,
+      "narrative_arc": "millerite",
+      "reasoning": "The 'four thousand years' of sacrifice assumes Ussherian young-earth chronology (creation c. 4004 BC), universal in the 19th-century sources White drew on, so this is period-typical scholarship rather than invention -- it reflects authorial method, not authorial fabrication. Centrality is low: the figure is a devotional flourish inside the crucifixion paragraph and plays no role in the 457 BC-to-1844 arithmetic that is the chapter's actual argument. Counterfactual: deleting the claim costs the paragraph its rhetorical color and nothing else; the chronological chain and the chapter's persuasive purpose are untouched."
+    },
+    "GC-18-058": {
+      "severity": 3,
+      "centrality": 5,
+      "load_bearing": true,
+      "impact_score": 15,
+      "narrative_arc": "millerite",
+      "reasoning": "This premise (the 70 weeks are 'cut off' from, and share a start with, the 2300 days) is the only mechanism letting Miller subtract 490 years from 2300 to get to 1844; mainstream scholarship treats Dan 8 (Antiochus-era) and Dan 9 (Persian-era) as separate visions with no textual link fixing a shared start. Scored consistent with the ch22 precedent (GC-22-039, 3x5=15, load-bearing) since it performs the identical structural function for the same doctrinal chain. Counterfactual: remove this premise and the 2300-day prophecy has no stated starting point at all, collapsing the chapter's entire numeric argument."
+    },
+    "GC-18-060": {
+      "severity": 3,
+      "centrality": 5,
+      "load_bearing": true,
+      "impact_score": 15,
+      "narrative_arc": "millerite",
+      "reasoning": "The 457 BC dating of Artaxerxes' decree is the sole fixed starting point for the whole 483/490/1810-year chain culminating in 1844; this is literally the same decree and the same doctrinal function scored at ch22 (GC-22-039, load-bearing, 3x5=15), so consistency requires the same score here. Modern chronology places the king's 7th year at 458 or 457 BC by convention, and other scholars anchor Dan 9 instead to the 445 BC Nehemiah decree, making '457 BC' a contested but non-fringe choice rather than an invented one. Counterfactual: without a fixed 457 BC start none of the downstream AD 27/31/34/1844 dates can be computed."
+    },
+    "GC-18-062": {
+      "severity": 3,
+      "centrality": 5,
+      "load_bearing": true,
+      "impact_score": 15,
+      "narrative_arc": "millerite",
+      "reasoning": "The 'composite decree' argument -- that three separate Persian royal edicts (Cyrus, Darius, Artaxerxes) jointly constitute the one prophetic decree -- is a distinctively Millerite/Adventist device needed to justify treating 457 BC, rather than the more natural 445 BC Nehemiah decree, as the prophetic terminus a quo. Mainstream historiography treats the three edicts as unrelated royal acts. Counterfactual: without this premise, the choice of 457 BC over competing candidate dates looks arbitrary, undermining the chain's persuasive architecture even though the raw subsequent arithmetic still runs."
+    },
+    "GC-18-063": {
+      "severity": 3,
+      "centrality": 5,
+      "load_bearing": true,
+      "impact_score": 15,
+      "narrative_arc": "millerite",
+      "reasoning": "This claim fixes the season (autumn) of the 457 BC start, a precision necessary to land the calculation on autumn rather than spring 1844; it is a load-bearing precision-claim inside the anchor chain, not incidental detail, and depends on a Jewish civil-calendar convention not independently attested for Ezra's decree. Counterfactual: without this seasonal fix, the chain could not deliver the specific autumn-1844 terminus the chapter (and later chapters on the sanctuary) build toward."
+    },
+    "GC-18-065": {
+      "severity": 3,
+      "centrality": 5,
+      "load_bearing": true,
+      "impact_score": 15,
+      "narrative_arc": "millerite",
+      "reasoning": "Fixing Jesus' baptism to autumn AD 27 is the second load-bearing anchor after 457 BC, required for the subsequent '3.5 years to crucifixion' and '490 years to AD 34' steps to work. Modern NT chronology allows AD 26-29 for the start of Jesus' ministry with no consensus on autumn AD 27 specifically; the date is a downstream artifact of the 457 BC premise, not an independently attested datum. Counterfactual: remove it and the internal consistency of the 27-31-34-1844 sequence, which is the chapter's spine, breaks."
+    },
+    "GC-18-069": {
+      "severity": 2,
+      "centrality": 4,
+      "load_bearing": false,
+      "impact_score": 8,
+      "narrative_arc": "millerite",
+      "reasoning": "This claim frames AD 27-34 as a discrete apostolic phase of Jewish-focused evangelism, connective narrative bridging the already-established baptism and Stephen-martyrdom anchors rather than fixing an independent date. Its centrality is high (it belongs to the doctrinal chain's chronological frame) but its severity and load-bearing status are lower than the numeric anchors: it restates endpoints rather than computing them. Counterfactual: deleting it costs narrative color; the AD 34 terminus still stands on the Stephen-martyrdom claim alone."
+    },
+    "GC-18-071": {
+      "severity": 3,
+      "centrality": 5,
+      "load_bearing": true,
+      "impact_score": 15,
+      "narrative_arc": "millerite",
+      "reasoning": "AD 31 for the crucifixion is the third load-bearing anchor, needed both for the '3.5 years after baptism' framing and to make the seventy weeks end in AD 34; the two astronomically viable modern options are AD 30 or 33, leaving AD 31 with little independent support outside the Adventist scheme. Consistent with the ch22 precedent, this is scored load-bearing since removing it breaks the internal date sequence the chapter spends several paragraphs building toward 1844."
+    },
+    "GC-18-073": {
+      "severity": 3,
+      "centrality": 5,
+      "load_bearing": true,
+      "impact_score": 15,
+      "narrative_arc": "millerite",
+      "reasoning": "AD 34 as the terminus of the seventy weeks is the direct predecessor to the final 1810-year subtraction that lands on 1844; it depends on both the disputed 457 BC start and an undated (c. 34-36) placement of Stephen's martyrdom. As the last link before the final leap to 1844, it is fully load-bearing: deleting it removes the only stated terminus for 'the seventy weeks,' leaving the '1810 years to 1844' step with no start date."
+    },
+    "GC-18-078": {
+      "severity": 3,
+      "centrality": 5,
+      "load_bearing": true,
+      "impact_score": 15,
+      "narrative_arc": "millerite",
+      "reasoning": "This sentence is the chapter's own rhetorical certification of the whole preceding chain, asserting the 457 BC-AD 34 dating is settled 'beyond question' when the verifier's own finding is that both endpoints are genuinely disputed in scholarship. The overclaim of certainty is functionally load-bearing for the chapter's persuasive strategy even though it introduces no new date. Counterfactual: deleting it leaves the arithmetic unchanged but removes the chapter's explicit claim to certainty, exposing the chain's contested nature to the reader."
+    },
+    "GC-18-081": {
+      "severity": 4,
+      "centrality": 5,
+      "load_bearing": true,
+      "impact_score": 20,
+      "narrative_arc": "millerite",
+      "reasoning": "This is the chapter's culminating claim and arguably the single most consequential sentence in the book: the 2300-day prophecy terminating in 1844 is the historical premise underlying the sanctuary-cleansing/investigative-judgment doctrine that structures the rest of Great Controversy. Mainstream critical scholarship reads the 2300 evenings-mornings as concerning the 2nd-century-BC Antiochene crisis, a reading fundamentally incompatible with an 1844 terminus; the verifier's 'disputed' rather than 'contradicted' reflects charity toward internal Millerite consistency, not scholarly acceptance of the conclusion. Scored above its sibling anchors (severity 4 vs 3) because this is not one link but the conclusion the whole chain exists to reach; delete this claim and the book's central post-Reformation thesis has no starting date at all."
+    },
+    "GC-18-119": {
+      "severity": 3,
+      "centrality": 4,
+      "load_bearing": false,
+      "impact_score": 12,
+      "narrative_arc": "millerite",
+      "reasoning": "The quotation itself is accurately attributed, but the precise 'August 11, 1840' fulfillment claim is contested: Litch's original 1838 prediction was the looser 'August 1840,' and Litch himself later abandoned the exact-fulfillment claim. The chapter deploys this as an empirical demonstration that year-day calculation yields verifiable results, lending borrowed credibility to the untestable 457 BC-1844 chain elsewhere in the chapter, but it is a corroborating showpiece rather than a structural link in that chain. Counterfactual: remove it and the chapter loses its one concrete 'prophecy came true on schedule' illustration, weakening persuasive force but not collapsing the sanctuary-doctrine argument, which does not depend on Litch specifically."
+    },
+    "GC-18-120": {
+      "severity": 3,
+      "centrality": 4,
+      "load_bearing": false,
+      "impact_score": 12,
+      "narrative_arc": "millerite",
+      "reasoning": "The underlying event (the 1840 Convention of London and the ultimatum to Muhammad Ali) is real, but framing it as the predicted 'overthrow' of Ottoman power 'at the very time specified' overstates the case: the intervention preserved the Empire, which endured 82 more years, rather than overthrowing it. As with GC-18-119, this functions as corroborating evidence for the year-day method's reliability rather than a link in the 457 BC-1844 chain itself. Counterfactual: removing it costs the chapter a persuasive illustration but leaves the sanctuary/1844 argument, which rests on the separate Daniel chronology, structurally intact."
+    }
+  }
+}
