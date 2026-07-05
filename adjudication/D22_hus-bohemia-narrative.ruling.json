@@ -1,0 +1,332 @@
+{
+  "dossier": "D22",
+  "slug": "hus-bohemia-narrative",
+  "stage": "adjudication",
+  "charter_version": "1.1-frozen",
+  "generated_at": "2026-07-05",
+  "notes": "searches: ~15 (12 shared, 3 stragglers: 2 on the mother claims GC-06-013/015, 1 on the provenance of the two-Englishmen episode for GC-06-027). Local texts used in place of searches: Wylie vol.1 (scholarship/wylie-history-of-protestantism-vol1.txt, b.3 chs.1-2, the documented conduit for all nine claims, with Wylie's own footnotes to Comenius 1648 and Krasinski), Lea Inquisition of the Middle Ages vol.2 (Bohemia chapter), GC 1911 appendix references 125-127/130 (source/gc_full_1911.txt lines 25813-25826). No defense objects exist for these nine claims (disputed skipped the defense stage); the verifier rationales were engaged as positions. Symmetry re-check (charter 7): all nine as-written rulings landed improbable, but the movement is two-directional in substance: the weakened rulings rose to well-supported/probable in six cases, and on GC-06-009 the adjudication overturned the Phase-1 verifier UPWARD on the persecution core (documented via Patschovsky's Bohemian inquisition records, which Phase 1 missed). All nine claims match their 19th-century conduit (Wylie/Bonnechose <- Comenius); synthesis should consider period_standard: true tags for the improbable rulings.",
+  "evidence_review": "The dossier covers the Bohemian prologue of GC ch. 6: pre-Hus persecution, Hus's childhood, and the 'two English strangers' picture episode. (1) CONDUIT. Every claim tracks J. A. Wylie, History of Protestantism, b.3 chs.1-2, verbatim or nearly (local text verified; GC 1911's own appendix refs 125, 126 = Wylie b.3 ch.1, 130 = b.3 ch.2, 128 = Bonnechose). Wylie's cited authority for the persecution imagery, the 1376 burn-decree, the mother anecdote, and the two-Englishmen frescoes is Comenius, Historia persecutionum Ecclesiae Bohemicae (1648, pp. 21-25 and the frescoes passage; plus Krasinski, Slavonia p. 60, itself derivative) - a Unity of Brethren exile martyrology written 250 years after the events, situated by modern study 'between history, identity and martyrology' (academia.edu monographic essay on the Historia persecutionum). Genealogically, the whole legendary layer is ONE source line: Comenius (within the 16th-17th c. Flacius/Foxe martyrological stream) -> Krasinski/Bonnechose -> Wylie -> GC. (2) PRE-HUS PERSECUTION. What changed since the 19th century: A. Patschovsky's discovery and edition of the 14th-century Bohemian inquisition records (Quellen zur boehmischen Inquisition im 14. Jh., 1979) documented the inquisitor Gallus of Neuhaus (c. 1335 - c. 1353) prosecuting German-speaking Waldensian communities in southern Bohemia: the surviving fragment names ~180 heretics with 15 executions, and scholars extrapolate over 2,000 persons touched and up to ~200 burned (Ghegoiu CEU thesis; Utz Tremp; 2026 Journal of Medieval History article on Krems/Prague/Swidnica). Independently, Lea (1888, vol.2, Bohemia chapter, from papal bulls and synodal acts) documents the 1245 Innocent IV decretal, 1257 and 1318/1335 inquisitorial commissions, Arnest of Pardubice's episcopal inquisition and perquisitions (1350s+), and hereditary Waldensian families near Pisek into the 1380s. So real persecution with many executions is well documented; but the records locate clandestine worship in private houses at night (Patschovsky-line scholarship; Lea notes 'caverns' only as a hostile topos), not in forests and mountains, and no blanket decree 'all who depart shall be burned' is known for Bohemia: the law in force (imperial constitutions + canon law applied through the inquisition) burned obstinate and relapsed heretics after process while penitent first offenders received penances. Wylie's '1376 decree' rests on Comenius alone. (3) HUS'S CHILDHOOD. The documentary record is nearly empty: Spinka (John Hus: A Biography, Princeton UP 1968) - 'Nothing is known of his father'; of the family 'even less is known'; the mother's name is unknown; Spinka only conjectures ('Perhaps... it was she who wanted her son to become a priest and thus obtain a respected and secure living'). Fudge ('To Build a Fire', Christian History 68; the leading current specialist): 'His parents were peasants - nameless and unknown. His mother taught Jan to pray and, as he grew older, influenced him toward a career as a priest'; Hus's own documented recollection is that he first sought priesthood 'for the money and prestige'. The kneeling-blessing journey scene (with Wylie's lost-present detail) has no attestation before the Comenius layer and appears in no modern biography. (4) THE TWO ENGLISH STRANGERS AND THE PICTURES. Thirteen searches (English, Czech, German) found no medieval attestation of two Englishmen ('James and Conrad of Canterbury', so named only in the Comenius/Wylie line) arriving c. 1404, disputing against papal primacy, painting the two pictures publicly, drawing crowds, and fleeing. Modern accounts of Wycliffite transmission to Prague (Hudson; Van Dussen, From England to Bohemia, CUP 2012, and his BRRP 7 paper; Smahel; Spinka; Fudge) document different channels: Jerome of Prague returning from Oxford with Wyclif's works (~1401), Mikulas Faulfis and Jiri z Knehnic copying texts in England (1406-7), the Anne of Bohemia court connection, Richard Wyche's 1410 letter to Hus, and Peter Payne's arrival in 1414 - and none includes the two-strangers episode. The MOTIF, however, is genuine and central to Hussite propaganda, but dated 1412+, after Hus's development, not before: Nicholas of Dresden's Tabule veteris et novi coloris (1412; ed. Kaminsky, 'The Old Color and the New', APS 1965), an antithesis of the humble Christ and the pompous modern church made for public promulgation from the Black Rose house school; the Bethlehem Chapel program (Hus's own prison letter from Constance about the 'figures of Jesus Christ which he had got painted upon its walls', plus the De sex erroribus wall inscriptions, partly extant); and the later Jena Codex, originally titled Antithesis Christi et Antichristi (c. 1490-1510, Drobna's monograph), whose facing miniatures include exactly Christ on the donkey versus the pope on horseback - the pairing that reached Cranach's Passional Christi und Antichristi (1521; Taylorian/Royal Holloway edition traces the lineage). A documented 1408 disputation on Wyclif at the Black Rose with ~1000 listeners (Tomek) shows the milieu's publicity, and the authorities' documented suppression of Wycliffism (1403 condemnation of the 45 articles, 1410 book burnings) matches the 'silenced by the authorities' motif in substance. Net state of the question: the substance of each scene (persecution, a poor pious upbringing as tradition, Wycliffite arrival from England, public antithesis pictures, their popular resonance, imagery mattering to Hus) ranges from genuinely open to well documented; the specific staging GC prints as fact (forest worship, blanket burn-decree, the kneeling mother, the two named Englishmen and their flight, the pictures' causal role in Hus's turn to Wyclif) belongs to the martyrological legend layer with no medieval evidence.",
+  "narrative_ru": "Девять утверждений досье пересказывают богемский пролог главы о Гусе по викторианской книге Уайли, который сам опирался на мартиролог Коменского 1648 года. Ядро каждой сцены историки подтверждают: инквизиция четырнадцатого века действительно казнила богемских вальденсов, виклифитские идеи действительно пришли из Англии в Прагу, а контрастные изображения смиренного Христа и пышного папы действительно выставлялись в гуситской Праге, от стен Вифлеемской капеллы до таблиц Николая Дрезденского. Конкретные же сцены книги, включая коленопреклонённую мать у ворот Праги и двух английских художников с толпами у их рисунков, не имеют ни одного средневекового свидетельства и отсутствуют у современных биографов Гуса, от Спинки до Фаджа. Поэтому в формулировке как написано все девять утверждений получили оценку «маловероятно». В ослабленных версиях четыре поднялись до «твёрдо подтверждено», два до «вероятно», два остались открытыми, а одно смягчить нельзя. Найденная хроника пятнадцатого века об английских гостях или любой документ о семье Гуса изменили бы картину.",
+  "rulings": [
+    {
+      "id": "GC-06-009",
+      "dossier": "D22",
+      "quantifier_audit": ["all who departed from the Romish worship should be burned"],
+      "components": [
+        {
+          "component": "Pre-Hus Bohemian dissenters were persecuted and forced into clandestine worship",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Documented independently of the Comenius/Wylie line: Patschovsky's edition of the Gallus of Neuhaus inquisition records (c. 1335-1353, southern Bohemian Waldensians) and Lea's account from papal bulls and synodal acts (1245 decretal, 1257/1318/1335 commissions, episcopal perquisitions under Arnest of Pardubice). Secrecy of worship is explicit in the record."
+        },
+        {
+          "component": "The clandestine worship took place in the forests and the mountains",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "The inquisition records locate Waldensian conventicles in private houses at night; 'caverns' appear in Lea's material only as a hostile accusation topos. Forest-and-mountain worship is martyrological scene-setting from Comenius via Wylie, unattested for Bohemia."
+        },
+        {
+          "component": "They were hunted by soldiers, and many were put to death",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "probable",
+          "rationale": "Many deaths are documented: 15 executions in the surviving trial fragment, with scholarly extrapolation to some 200 burned and over 2,000 prosecuted (Patschovsky-line). Enforcement ran through the inquisition and the secular arm rather than literal soldier-hunts, so the military coloring is loose but the lethal persecution is real."
+        },
+        {
+          "component": "After a time it was decreed that all who departed from the Romish worship should be burned",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "No blanket Bohemian burn-decree is documented; Wylie's '1376 decree' rests on Comenius alone. The law actually in force burned obstinate and relapsed heretics after process, while penitent first offenders received penances and imprisonment - a well-provenanced counterexample to 'all', which per charter 6.3 caps the component at improbable even though death by fire for persistent dissent was genuinely the decreed penalty."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "Pre-Hus Bohemian dissenters, notably the Waldensians, were driven to clandestine worship and hunted down; many were burned, and persistent departure from Roman worship was legally punishable by death by fire.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "medium",
+      "minority_engagement": "The strongest case FOR the claim as written is the Wylie/Comenius tradition itself (Historia persecutionum pp. 23-24), which asserts forest worship and a 1376 stake-decree; it fails on provenance (a 1648 confessional martyrology, 250+ years after the events, with no medieval corroboration). Conversely, the Phase-1 verifier's position ('not documented for pre-Hussite Bohemia... a Protestant construction') must also be answered: it under-weighted the genuinely documented Bohemian Waldensian persecution recovered by Patschovsky, so the adjudication moves the persecution core UP to well-supported while sustaining the verifier's doubt only against the staging (forests, blanket decree).",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "A. Patschovsky, Quellen zur boehmischen Inquisition im 14. Jahrhundert (1979), as digested in S. Ghegoiu, 'Waldensians at the Turn of the Fifteenth Century' (CEU thesis, etd.ceu.edu) and K. Utz Tremp, 'Waldensians' handbook entry; cf. Journal of Medieval History 2026 article on Krems/Prague/Swidnica", "tier": "academic", "independence_note": "All numeric estimates descend from Patschovsky's edition of the Gallus of Neuhaus fragment - counted as one genealogical line"},
+        {"ref": "H. C. Lea, History of the Inquisition of the Middle Ages, vol. 2 (1888), Bohemia chapter (local file, lines ~14610-14898)", "tier": "academic", "independence_note": "Pre-Patschovsky, built from papal bulls and Prague synodal acts - genealogically independent of the trial-record line"},
+        {"ref": "J. A. Wylie, History of Protestantism, b.3 ch.1, citing Comenius, Historia persecutionum, pp. 23-24 (local file, lines ~13450-13483)", "tier": "position", "independence_note": "The claim's conduit, not corroboration; single line Comenius -> Wylie -> GC"}
+      ],
+      "would_change_this": "Publication of Bohemian inquisition depositions locating Waldensian conventicles in forests or mountains, or a documented 14th-century Bohemian enactment with a blanket burning provision (for example in Charles IV's legislation), would raise the two failing components.",
+      "gap_note": null,
+      "notes": "Matches Wylie b.3 ch.1 nearly verbatim; period-standard for 1888/1911 historiography (synthesis: period_standard candidate)."
+    },
+    {
+      "id": "GC-06-013",
+      "dossier": "D22",
+      "quantifier_audit": ["the most valuable of possessions"],
+      "components": [
+        {
+          "component": "Hus's mother took an active part in securing education and religious formation for her son",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "genuinely-open",
+          "rationale": "Qualified specialists themselves split: Spinka (Princeton UP 1968) and Fudge both retain a maternal role ('His mother taught Jan to pray and... influenced him toward a career as a priest' - Fudge; 'Perhaps... it was she who wanted her son to become a priest' - Spinka), while the same scholars document that the parents are 'nameless and unknown' and nothing about them is attested. Affirmation-by-tradition versus documented emptiness is a real underdetermination, positively documented on both sides."
+        },
+        {
+          "component": "She was pious and regarded education and the fear of God as the most valuable of possessions",
+          "kind": "motive",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "A specific inner valuation of an undocumented, unnamed woman asserted as fact. No documentary basis exists; the only documented motive-testimony in the family orbit is Hus's own admission that he first sought priesthood 'for the money and prestige' (primary, quoted by Fudge and Spinka), on which Spinka builds the rival account that the priesthood plan aimed at a 'respected and secure living'. With the rival account anchored in a document (at one remove), the undocumented motive attribution caps at improbable per charter 3; weighed gently as a devotional-biographical commonplace of low stakes."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "motive",
+      "weakened_version": "Hus's mother had a hand in directing him toward education and the priesthood.",
+      "ruling_weakened": "genuinely-open",
+      "framing_gap": 1,
+      "confidence": "medium",
+      "minority_engagement": "The strongest position FOR the claim is that the leading modern specialists themselves repeat the mother's formative role (Fudge: taught him to pray, influenced him toward priesthood; Spinka: wanted him to become a priest; Britannica/Wikipedia follow them). Engaged and partly conceded: it keeps the weakened core genuinely open. It cannot carry the printed valuation ('education and the fear of God as the most valuable of possessions'), because that wording's genealogy is the hagiographic layer (Comenius p. 25 via Wylie b.3 ch.1), the specialists flag pre-Prague stories as legend, and the one documented motive datum points to material advancement rather than piety.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "M. Spinka, John Hus: A Biography (Princeton UP, 1968), early-life chapter: 'Nothing is known of his father...'; 'Perhaps... it was she who wanted her son to become a priest and thus obtain a respected and secure living'", "tier": "academic", "independence_note": "Independent modern specialist, pre-Fudge"},
+        {"ref": "T. A. Fudge, 'To Build a Fire' (Christian History 68; johnhus.org reprint): 'His parents were peasants - nameless and unknown. His mother taught Jan to pray and... influenced him toward a career as a priest'; Hus 'originally pursued priesthood for the money and prestige'", "tier": "academic", "independence_note": "Leading current specialist writing in a popular venue; independent of Spinka's research and of the Wylie line"},
+        {"ref": "J. A. Wylie, History of Protestantism, b.3 ch.1 (local file, lines ~13555-13568), footnote to Comenius, Historia persecutionum p. 25", "tier": "position", "independence_note": "The claim's conduit; single Comenius line"}
+      ],
+      "would_change_this": "A passage in Hus's own writings or in contemporary testimony mentioning his mother's piety or aims (for example in the critical editions of his Czech works, or in Novotny's or Smahel's documentation) would raise both components; conversely, a critical study tracing the mother tradition wholly to post-1500 hagiography would push the weakened version down.",
+      "gap_note": null,
+      "notes": "Smahel's and Novotny's Czech biographies were not directly consultable within budget; the ruling rests on Spinka/Fudge convergence."
+    },
+    {
+      "id": "GC-06-015",
+      "dossier": "D22",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "The widowed, poor mother accompanied Hus on the journey to Prague",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Unattested. Earliest identifiable source is the Comenius layer (Wylie b.3 ch.1 cites Historia persecutionum p. 25); modern biographies (Spinka, Fudge) record that nothing is documented about the family - even 'widowed' is an inference stacked on an unknown."
+        },
+        {
+          "component": "Nearing the city she kneeled beside the fatherless youth and invoked the blessing of heaven",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "A devotional set piece with zero medieval attestation, absent from all modern scholarly accounts. Wylie's fuller version (a present for the rector lost on the way, prompting the kneeling prayer) exposes the legendary texture; GC trimmed the folkloric detail and printed the scene as fact."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "Hus's mother supported and blessed his departure to study in Prague.",
+      "ruling_weakened": "genuinely-open",
+      "framing_gap": 1,
+      "confidence": "medium",
+      "minority_engagement": "The strongest position FOR is the Bonnechose/Wylie biographical tradition (ultimately Comenius), defended implicitly by its retention in 19th-century scholarship (Lechler-era biographies). Answer: 250-year gap to the events, martyrological genre (the modern monographic essay on the Historia persecutionum places it between history, identity and martyrology), no medieval trace, and the leading modern biographers exclude the scene while stating the record of Hus's pre-Prague life is empty. The general maternal-support tradition retained by Spinka and Fudge keeps only the weakened version open.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "M. Spinka, John Hus: A Biography (Princeton UP, 1968): family undocumented, mother's name unknown; no journey/blessing scene", "tier": "academic", "independence_note": "Independent modern specialist"},
+        {"ref": "T. A. Fudge, 'To Build a Fire' (Christian History 68): parents 'nameless and unknown'; no journey scene", "tier": "academic", "independence_note": "Independent of Spinka and of the Wylie line"},
+        {"ref": "J. A. Wylie, History of Protestantism, b.3 ch.1 (local file, lines ~13556-13568) with footnote to Comenius p. 25; GC 1911 appendix ref 126 = Wylie b.3 ch.1", "tier": "position", "independence_note": "Conduit; single Comenius line"}
+      ],
+      "would_change_this": "Discovery of a 15th- or 16th-century Bohemian source for the journey or blessing anecdote, or any contemporary document about Hus's family, would reopen the as-written ruling.",
+      "gap_note": null,
+      "notes": "Period-standard for 1911 (printed as sober fact in Wylie/Bonnechose); synthesis period_standard candidate."
+    },
+    {
+      "id": "GC-06-027",
+      "dossier": "D22",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "About this time two learned strangers from England arrived in Prague to spread Wycliffite teaching",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "No medieval attestation surfaced across searches in English, Czech and German. The episode's genealogy is a single line of 16th-17th-century Protestant martyrology (Flacius/Foxe stream; Comenius 1648 supplies the names 'James and Conrad of Canterbury') -> Krasinski/Bonnechose -> Wylie (who himself hedges 'is said to have occurred... 1404') -> GC. Modern scholarship on Wycliffite transmission to Prague (Hudson; Van Dussen, CUP 2012; Smahel; Spinka; Fudge) documents different channels - Jerome of Prague returning from Oxford ~1401, Faulfis and Knehnic copying Wyclif in England 1406-7, Wyche's 1410 letter, Payne's arrival 1414 - and omits this episode entirely."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "Around 1400 Wycliffite teaching reached Prague carried by men of learning traveling from England, who spread it there.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "medium",
+      "minority_engagement": "The strongest opposing position is the Comenius/Wylie tradition with its named persons and 1404 date, plus the general plausibility of the milieu (documented Oxford-Prague traffic; an Englishman, Peter Payne, did later settle in Prague). Answer: the tradition fails on provenance (first identifiable appearance 250 years after the alleged event, in a martyrological genre), on silence (no trace in the edited chronicle corpus as reflected in modern scholarship, and no modern specialist account includes it), and on chronology (the documented public antithesis imagery it resembles belongs to 1412+, suggesting retrojection). Plausibility of milieu keeps the weakened, not the as-written, version alive.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "M. Van Dussen, From England to Bohemia: Heresy and Communication in the Later Middle Ages (Cambridge UP, 2012); id., 'Bohemia in English Religious Controversy' (BRRP 7, brrp.org)", "tier": "academic", "independence_note": "Standard modern account of the England-Bohemia channels; independent of the martyrological line"},
+        {"ref": "M. Spinka, John Hus: A Biography (Princeton UP, 1968) and T. A. Fudge's Hus scholarship: standard accounts of Hus's turn to Wyclif without the two-strangers episode", "tier": "academic", "independence_note": "Independent modern biographies"},
+        {"ref": "J. A. Wylie, History of Protestantism, b.3 ch.2 'The Two Frescoes' (local file, lines ~13712-13790), footnote to Comenius and Krasinski, Slavonia p. 60; GC 1911 appendix ref 130 = Wylie b.3 ch.2", "tier": "position", "independence_note": "Conduit; Krasinski digests Comenius, so genealogically one source"},
+        {"ref": "Monographic essay 'Historia Persecutionum Ecclesiae Bohemicae between History, Identity and Martyrology' (academia.edu)", "tier": "academic", "independence_note": "Genre assessment of the episode's ultimate source"}
+      ],
+      "would_change_this": "A 15th-century Prague source (chronicle entry, university act, archiepiscopal record) attesting English visitors matching the story - for instance in the Old Czech Annals or Hoefler's Geschichtschreiber corpus - would move the ruling toward genuinely-open or probable.",
+      "gap_note": null,
+      "notes": "The Czech chronicle corpus itself could not be exhaustively searched within budget; the ruling rests on its silence as reflected in modern specialist literature."
+    },
+    {
+      "id": "GC-06-028",
+      "dossier": "D22",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "The two strangers opened with a public attack on papal supremacy, were silenced by the authorities, and turned to other means",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "A dependent scene of the same single-line legend (Wylie: 'public disputations... the authorities promptly put a stop to the discussions'). Unattested for these persons. The milieu-level pattern is real: the university condemned Wyclif's 45 articles (1403), a disputation on Wyclif at the Black Rose drew ~1000 listeners (1408, Tomek), and Wycliffite advocacy was officially suppressed (1410 book burnings) while the movement turned to vernacular preaching, songs and images - but none of this attaches to two Englishmen in 1404."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "Open Wycliffite challenges to papal authority in Prague were silenced by the authorities, and the movement's advocates turned to indirect means such as vernacular preaching and images.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "medium",
+      "minority_engagement": "Strongest opposing position: the Comenius/Wylie narrative, reinforced by the fact that public disputation culture and official suppression are independently documented, so the scene 'fits'. Answer: fitting the milieu is exactly what a retrojected legend does; with no 15th-century attestation of these disputants and modern specialist silence, verisimilitude cannot substitute for evidence. The documented suppressions (1403, 1408, 1410) involve named local actors, not the two strangers.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "Standard accounts of the Prague Wyclif controversy 1403-1412 (Spinka; Fudge; Kaminsky, A History of the Hussite Revolution, California UP 1967); V. V. Tomek, Zaklady stareho mistopisu prazskeho II (1870), p. 188 for the 1408 Black Rose disputation (via cs.wikipedia on the house)", "tier": "academic", "independence_note": "Independent of the martyrological line"},
+        {"ref": "T. A. Fudge, 'Art and propaganda in Hussite Bohemia' (Religio 1/2, 1993, digilib.phil.muni.cz) - the movement's documented turn to visual and musical propaganda", "tier": "academic", "independence_note": "Independent; peer-reviewed venue"},
+        {"ref": "J. A. Wylie, History of Protestantism, b.3 ch.2 (local file, lines ~13751-13759)", "tier": "position", "independence_note": "Conduit; Comenius line"}
+      ],
+      "would_change_this": "The same chronicle-class find as GC-06-027: any contemporary record of English disputants against papal primacy in Prague around 1404.",
+      "gap_note": null,
+      "notes": null
+    },
+    {
+      "id": "GC-06-029",
+      "dossier": "D22",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "The two English strangers drew the two pictures in a place open to the public",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Inherits the legendary frame of GC-06-027. GC additionally amplifies Wylie: Wylie has the drawing made 'in the corridor of the house in which they resided', with the host's leave; GC turns this into 'a place open to the public'. No medieval attestation for the painters or the act."
+        },
+        {
+          "component": "Contrasting pictures of Christ's humble entry into Jerusalem versus the pope's rich mounted procession (triple crown, trumpeters, cardinals) were displayed in Hus-era Prague",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "As imagery, this is the genuine documented Hussite antithesis: Nicholas of Dresden's Tabule veteris et novi coloris (1412; Kaminsky's APS edition) made for public promulgation from the Black Rose school; the Bethlehem Chapel wall program (Hus's own prison letter about the Christ-figures 'he had got painted upon its walls'; De sex erroribus inscriptions partly extant); the Jena Codex, originally titled Antithesis Christi et Antichristi, with facing miniatures of Christ on the donkey versus the pope on horseback; the lineage runs to Cranach's Passional (1521). The documented imagery postdates GC's placement (1412+ versus ~1404) - the legend retrojets a real phenomenon."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "Contrasting pictures of Christ's humility and papal pomp, including Christ on the ass versus the pope's mounted procession, were publicly displayed in Hus's Prague.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "medium",
+      "minority_engagement": "Strongest position FOR the claim as written: the Comenius/Wylie tradition, plus the registry's own observation that the antithesis motif is genuine - a defender could argue the legend preserves a real early display. Engaged: the motif's genuineness is exactly what the weakened ruling credits at well-supported; but every documented instance (Tabule 1412, Bethlehem walls, Jena Codex) is later than GC's placement and attached to other actors (the Dresden masters at the Black Rose, Hus's own chapel), so the two-Englishmen-in-1404 staging remains without evidence and is best explained as retrojection.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "H. Kaminsky (ed.), Master Nicholas of Dresden: The Old Color and the New (Transactions of the American Philosophical Society 55/1, 1965); id., A History of the Hussite Revolution (1967)", "tier": "academic", "independence_note": "Critical edition of the primary antithesis text; independent of the martyrological line"},
+        {"ref": "Jena Codex (Antithesis Christi et Antichristi, Prague, KNM IV.B.24, c. 1490-1510); Z. Drobna, The Jena Codex: Hussite Pictorial Satire; Taylorian/Royal Holloway edition of Cranach's Passional tracing the antithesis lineage", "tier": "primary-in-context", "independence_note": "Manuscript evidence with scholarly apparatus; independent"},
+        {"ref": "Hus's prison letter from Constance on the Bethlehem wall pictures (Epist. xliv, quoted in Wylie b.3 ch.6 from Bonnechose's edition of the letters; critical text in Novotny/Spinka editions)", "tier": "primary-in-context", "independence_note": "Hus's own testimony to Christ-imagery on Bethlehem's walls"},
+        {"ref": "J. A. Wylie, History of Protestantism, b.3 ch.2 (local file, lines ~13760-13775)", "tier": "position", "independence_note": "Conduit; note GC's 'place open to the public' amplifies Wylie's 'corridor of the house'"}
+      ],
+      "would_change_this": "A pre-1410 Prague source attesting publicly displayed Christ/pope antithesis pictures by foreign visitors would vindicate the as-written version; conversely, a study showing the Bethlehem murals held no Christ/pope contrast would weaken the weakened ruling.",
+      "gap_note": null,
+      "notes": "GC 1911 ref 127 on the quote is Matt. 21:5 (the 'meek, sitting upon an ass' scripture), not a historical source."
+    },
+    {
+      "id": "GC-06-030",
+      "dossier": "D22",
+      "quantifier_audit": ["all classes"],
+      "components": [
+        {
+          "component": "Crowds of all classes came to gaze at the two strangers' drawings",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "A dependent detail of the unattested episode ('Many came to gaze' - Wylie); with the display itself undocumented, its audience is a fortiori undocumented. The 'all classes' universal has no evidence base of its own."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "Antithetical Christ-versus-pope imagery in Hus's Prague drew broad public attention across social ranks.",
+      "ruling_weakened": "probable",
+      "framing_gap": 2,
+      "confidence": "medium",
+      "minority_engagement": "The defense of the claim is the same single Comenius/Wylie line; it fails on provenance as with GC-06-027. The weakened version, by contrast, has real support: Nicholas of Dresden's Tables were composed for broad public promulgation, Hussite picture-and-song propaganda demonstrably reached lay audiences (Fudge's Religio study), the Bethlehem Chapel drew mass vernacular audiences, and the 1408 Black Rose disputation reportedly drew ~1000 listeners - but audience composition around specific pictures remains inference, hence probable rather than well-supported.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "T. A. Fudge, 'Art and propaganda in Hussite Bohemia' (Religio 1/2, 1993); H. Kaminsky on the public function of the Tabule (APS 1965)", "tier": "academic", "independence_note": "Independent scholarship on the imagery's public reach"},
+        {"ref": "J. A. Wylie, History of Protestantism, b.3 ch.2 (local file, lines ~13777-13783)", "tier": "position", "independence_note": "Conduit; Comenius line"}
+      ],
+      "would_change_this": "Any contemporary account of crowds at a specific pictorial display in early-1400s Prague would move the as-written ruling; audience studies of Hussite propaganda could move the weakened ruling either way.",
+      "gap_note": null,
+      "notes": null
+    },
+    {
+      "id": "GC-06-031",
+      "dossier": "D22",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "The commotion over the pictures forced the two strangers to depart Prague for their own safety",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Narrative closure of the legend ('the English strangers deemed it prudent to withdraw' - Wylie, from Comenius). The actors being unattested, their endangered departure is doubly so; no independent record of a city commotion over pictures in this period surfaced."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "n/a",
+      "ruling_weakened": "n/a",
+      "framing_gap": null,
+      "confidence": "medium",
+      "minority_engagement": "The only position FOR is the Comenius/Wylie tradition, answered under GC-06-027 (provenance, silence, retrojection). A defender might point to the real dangers faced by antithesis propagandists (Nicholas of Dresden left Prague and was reportedly burned at Meissen), but that concerns different, later, documented persons and cannot rehabilitate this scene.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "Modern Hus and Hussite scholarship's complete silence on the episode (Spinka; Fudge; Kaminsky; Van Dussen)", "tier": "academic", "independence_note": "Independent negative evidence across unrelated specialist literatures"},
+        {"ref": "J. A. Wylie, History of Protestantism, b.3 ch.2 (local file, lines ~13783-13787)", "tier": "position", "independence_note": "Conduit; Comenius line"}
+      ],
+      "would_change_this": "The same evidence class as GC-06-027: a contemporary Prague record of the visitors and their expulsion or flight. Weakened ruling is n/a because any rewrite either keeps the legendary actors (equally unattested) or changes the subject.",
+      "gap_note": null,
+      "notes": "framing_gap is null by construction (weakened version n/a per charter 2)."
+    },
+    {
+      "id": "GC-06-032",
+      "dossier": "D22",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "Hus saw the two strangers' pictures",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Inherits the unattested episode: if the display is undocumented, Hus's encounter with it is too. Wylie asserts it ('Among those who came to gaze... was John Huss'); no earlier source does."
+        },
+        {
+          "component": "The pictures made a deep impression on Hus and led him to closer study of the Bible and Wycliffe's writings",
+          "kind": "frame",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "A causal-psychological characterization resting on the failed factual premise. The documented drivers of Hus's turn to Wyclif are different: university study of Wyclif's philosophical works from the 1390s (Hus's own 1398 manuscript copies survive), Jerome of Prague's imports of the theological works (~1401), and the Czech academic milieu (Spinka; Fudge; Kaminsky). No source connects Hus's Wyclif studies to pictures seen in 1404."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "tied_kinds": ["fact", "frame"],
+      "weakened_version": "Antithetical Christ-versus-pope imagery resonated deeply with Hus, who himself adopted such imagery at Bethlehem Chapel as his study of Scripture and Wycliffe deepened.",
+      "ruling_weakened": "probable",
+      "framing_gap": 2,
+      "confidence": "medium",
+      "minority_engagement": "Strongest position FOR: Wylie's causal narrative, and behind it the genuine observation that images mattered to Hus - his own Constance prison letter dwells on the Christ-pictures painted on Bethlehem's walls and his dream of their effacement and restoration. Engaged: this primary evidence shows Hus valuing and deploying the imagery around 1412, which supports the weakened version at probable (influence-direction remains inference), but it cannot show 1404 pictures by English visitors causing his turn to Wyclif; the documented chronology of his Wyclif engagement (manuscripts from 1398) actually precedes the legend's date.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "Hus's prison letter on the Bethlehem wall pictures and the painters' dream (Epist. xliv, quoted in Wylie b.3 ch.6 from Bonnechose; critical editions Novotny/Spinka)", "tier": "primary-in-context", "independence_note": "Hus's own words; independent of the legend line"},
+        {"ref": "M. Spinka, John Hus: A Biography (Princeton UP 1968) and Lechler's documentation of Hus's 1398 Wyclif manuscript (Stockholm Royal Library, cited in Wylie's own footnote from Lechler, Johann von Wiclif ii.113): Hus's Wyclif engagement began in the 1390s via the university", "tier": "academic", "independence_note": "Independent documentation of the actual causal chain"},
+        {"ref": "J. A. Wylie, History of Protestantism, b.3 ch.2 (local file, lines ~13788-13792)", "tier": "position", "independence_note": "Conduit; Comenius line"}
+      ],
+      "would_change_this": "Any statement by Hus or a contemporary linking his early Wyclif study to publicly displayed pictures (for instance a passage in his Czech works referencing such paintings before 1410) would raise both the as-written and weakened rulings.",
+      "gap_note": null,
+      "notes": "Tie at the claim minimum between the fact and frame components; failing_component_kind takes fact by the charter 3 priority."
+    }
+  ]
+}

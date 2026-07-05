@@ -3154,7 +3154,30 @@
         "claims": 9,
         "load_bearing": 0,
         "academic_floor": false,
-        "status": "pending"
+        "status": "done",
+        "ruling_file": "adjudication/D22_hus-bohemia-narrative.ruling.json",
+        "rulings_as_written": {
+          "improbable": 9
+        },
+        "rulings_weakened": {
+          "well-supported": 4,
+          "genuinely-open": 2,
+          "probable": 2,
+          "n/a": 1
+        },
+        "framing_gaps": {
+          "3": 4,
+          "1": 2,
+          "2": 2,
+          "None": 1
+        },
+        "failing_component_kind_accusatory": {
+          "fact": 8,
+          "motive": 1
+        },
+        "gap_notes": [],
+        "searches": "searches: ~15 (12 shared, 3 stragglers: 2 on the mother claims GC-06-013/015, 1 on the provenance of the two-Englishmen episode for GC-06-027)",
+        "updated_at": "2026-07-05T20:17:07Z"
       },
       "D23": {
         "slug": "wycliffe-predecessors",
