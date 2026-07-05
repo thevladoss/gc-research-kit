@@ -1,0 +1,21 @@
+{"chapter": 21, "stage": "impact",
+ "notes": "Phase 2a adjudication moves GC-21-082 from Phase 1's hedged 'disputed' to a firmer as-written ruling of 'improbable' (fact-class quantifier failure, tied with a frame-class substitution-vs-mediation failure), while the weakened version is 'well-supported' (framing_gap=3): the Rome-restricted/Reformation-expanded kernel survives strongly, so the as-written failure is chiefly a rhetorical/absoluteness overreach rather than an invented event, in the same register as an anachronistic period-style overstatement even though this item was never classified anachronistic. This does not change the chapter-argument picture already established at Phase 1: the claim remains a subordinate rhetorical setup for the Beecher creed-worship quotation in paragraph 37, not evidence for the chapter's central Babylon-identification argument (which rests on the Revelation 17 harlot/marriage imagery, paragraphs 16-21), so severity/centrality/load_bearing are unchanged from the Phase 1 scoring and load_bearing remains false.",
+ "items": {
+  "GC-21-082": {
+   "category": "discrepancy",
+   "dossier": "D07",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "well-supported",
+   "framing_gap": 3,
+   "failing_component_kind": "fact",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 3,
+   "centrality": 4,
+   "load_bearing": false,
+   "impact_score": 12,
+   "narrative_arc": "reformation",
+   "reasoning": "The failing component is fact-class: the universal quantifier ('withheld the Bible from the people', 'required all men') is defeated by the documented counter-record of tolerated printed and manuscript vernacular Bibles pre-Reformation (this is tied with a frame-class failure — Rome's documented practice was magisterial mediation of scriptural interpretation, not literal substitution of teaching for Scripture). With framing_gap=3, the weakened version is well-supported: the substance (Rome restricted lay vernacular access and bound the faithful to its interpretive authority; the Reformation dramatically expanded direct lay access) survives fully, so the as-written failure is an absoluteness/rhetorical overreach reproducing the universal-withholding framing of White's own period source (Wylie), not a fabricated event. Deleting the claim leaves paragraph 37's actual argumentative point — the Beecher quotation charging Protestant 'creed power' with a subtler version of the same suppression — completely intact, and it does not touch the chapter's Babylon-identification argument, which rests entirely on the Revelation 17 harlot/marriage symbolism in paragraphs 16-21; hence load_bearing is false. Centrality holds at 4 because the Rome-suppressed/Reformation-restored narrative is a recurring pillar of the book's papal-apostasy-to-Reformation thesis link across chapters (cf. GC-15-028), independent of this claim's narrow local role; this is an independent evidential failure point, not inherited from any upstream chain claim (chain_inherited=false, independent_failure_point=null)."
+  }
+ }
+}

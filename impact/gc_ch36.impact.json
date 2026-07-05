@@ -11,7 +11,10 @@
       "quote": "From the very beginning of the great controversy in heaven, it has been Satan’s purpose to overthrow the law of God. It was to accomplish this that he entered upon his rebellion against the Creator;",
       "claim_text": "From the beginning of the cosmic conflict in heaven, Satan's purpose has been to overthrow the law of God, and this was his motive for rebelling against the Creator.",
       "claim_type": "theological",
-      "entities": ["Satan", "God"],
+      "entities": [
+        "Satan",
+        "God"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -26,7 +29,9 @@
       "quote": "and though he was cast out of heaven, he has continued the same warfare upon the earth.",
       "claim_text": "After being cast out of heaven, Satan continued the same warfare against God's law on earth.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -41,7 +46,9 @@
       "quote": "To deceive men, and thus lead them to transgress God’s law, is the object which he has steadfastly pursued.",
       "claim_text": "Deceiving people so as to lead them to transgress God's law has been Satan's steadfastly pursued objective.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -56,7 +63,10 @@
       "quote": "He that offends “in one point,” manifests contempt for the whole law; his influence and example are on the side of transgression; he becomes “guilty of all.”(1023)",
       "claim_text": "The chapter cites a biblical teaching (footnote 1023) that a person who offends in one point of the law manifests contempt for the whole law and becomes guilty of breaking all of it.",
       "claim_type": "attributed_quote",
-      "entities": ["Bible", "James (epistle)"],
+      "entities": [
+        "Bible",
+        "James (epistle)"
+      ],
       "needs_verification": true,
       "extractor_note": "Paraphrase/citation of James 2:10 KJV; footnote marker (1023) refers to the 1911 edition's Appendix source note.",
       "verification": {
@@ -72,7 +82,9 @@
       "quote": "In seeking to cast contempt upon the divine statutes, Satan has perverted the doctrines of the Bible, and errors have thus become incorporated into the faith of thousands who profess to believe the Scriptures.",
       "claim_text": "Satan has perverted biblical doctrines, causing errors to become incorporated into the faith of thousands of professing Christians.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -117,7 +129,9 @@
       "quote": "The Bible is within the reach of all, but there are few who really accept it as the guide of life.",
       "claim_text": "By the early 20th century, the Bible was accessible to virtually everyone.",
       "claim_type": "event",
-      "entities": ["Bible"],
+      "entities": [
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -154,8 +168,18 @@
         "confidence": "medium",
         "rationale": "The spread of skepticism into the churches c.1900 is well documented: German higher criticism, theological modernism, and the emerging fundamentalist-modernist controversy (Briggs heresy trial 1893; modernists taking over mainline seminaries) match White's characterization of 'infidelity' penetrating the church. 'Alarming extent' is rhetorical, but the underlying trend is real.",
         "sources": [
-          {"title": "Fundamentalist–modernist controversy — Wikipedia", "url": "https://en.wikipedia.org/wiki/Fundamentalist%E2%80%93modernist_controversy", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "Fundamentalist-Modernist conflict — EBSCO Research Starters", "url": "https://www.ebsco.com/research-starters/religion-and-philosophy/fundamentalist-modernist-conflict", "source_class": "scholarly_encyclopedia", "supports_verdict": true}
+          {
+            "title": "Fundamentalist–modernist controversy — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fundamentalist%E2%80%93modernist_controversy",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Fundamentalist-Modernist conflict — EBSCO Research Starters",
+            "url": "https://www.ebsco.com/research-starters/religion-and-philosophy/fundamentalist-modernist-conflict",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -172,8 +196,18 @@
         "confidence": "medium",
         "rationale": "The modernist wing of Protestantism c.1900-1920 openly questioned the biblical creation narrative (post-Darwin), the historicity of the fall, and substitutionary atonement; disputes over 'the authority of the Bible; and the death, resurrection, and atoning sacrifice of Jesus Christ' were exactly the fault lines of the fundamentalist-modernist controversy. 'A large share' is a defensible characterization for the mainline denominations. The specific inclusion of 'perpetuity of the law of God' reflects White's own emphasis, but antinomian/dispensational currents in the era make it consistent.",
         "sources": [
-          {"title": "Fundamentalist–modernist controversy — Wikipedia", "url": "https://en.wikipedia.org/wiki/Fundamentalist%E2%80%93modernist_controversy", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "Fundamentalist-Modernist conflict — EBSCO Research Starters", "url": "https://www.ebsco.com/research-starters/religion-and-philosophy/fundamentalist-modernist-conflict", "source_class": "scholarly_encyclopedia", "supports_verdict": true}
+          {
+            "title": "Fundamentalist–modernist controversy — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fundamentalist%E2%80%93modernist_controversy",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Fundamentalist-Modernist conflict — EBSCO Research Starters",
+            "url": "https://www.ebsco.com/research-starters/religion-and-philosophy/fundamentalist-modernist-conflict",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -190,8 +224,18 @@
         "confidence": "medium",
         "rationale": "That many ministers and seminary teachers held the Mosaic/moral law abrogated for Christians is consistent with the dispensationalist and antinomian-leaning currents and with modernist theology of the period. The added claim that literal law-keepers were met with 'ridicule or contempt' is White's polemical framing (she has SDA sabbatarians in view) and not independently quantifiable, but the core teaching-trend is period-accurate.",
         "sources": [
-          {"title": "Fundamentalist–modernist controversy — Wikipedia", "url": "https://en.wikipedia.org/wiki/Fundamentalist%E2%80%93modernist_controversy", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "Fundamentalist-Modernist conflict — EBSCO Research Starters", "url": "https://www.ebsco.com/research-starters/religion-and-philosophy/fundamentalist-modernist-conflict", "source_class": "scholarly_encyclopedia", "supports_verdict": true}
+          {
+            "title": "Fundamentalist–modernist controversy — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fundamentalist%E2%80%93modernist_controversy",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Fundamentalist-Modernist conflict — EBSCO Research Starters",
+            "url": "https://www.ebsco.com/research-starters/religion-and-philosophy/fundamentalist-modernist-conflict",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -201,7 +245,9 @@
       "quote": "In rejecting the truth, men reject its Author. In trampling upon the law of God, they deny the authority of the Lawgiver.",
       "claim_text": "Rejecting religious truth and God's law amounts to rejecting God as its Author and Lawgiver.",
       "claim_type": "theological",
-      "entities": ["God"],
+      "entities": [
+        "God"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -216,7 +262,10 @@
       "quote": "By misrepresenting the attributes of God, Satan leads men to conceive of Him in a false character.",
       "claim_text": "Satan misrepresents God's attributes to lead people to a false conception of God's character.",
       "claim_type": "theological",
-      "entities": ["Satan", "God"],
+      "entities": [
+        "Satan",
+        "God"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -246,7 +295,10 @@
       "quote": "idolatry exists in the Christian world to-day as verily as it existed among ancient Israel in the days of Elijah.",
       "claim_text": "Idolatry existed among the ancient Israelites during the era of the prophet Elijah.",
       "claim_type": "biographical",
-      "entities": ["Elijah", "Israel (ancient)"],
+      "entities": [
+        "Elijah",
+        "Israel (ancient)"
+      ],
       "needs_verification": true,
       "extractor_note": "Sentence also makes an interpretive comparison to 'the Christian world to-day,' logged separately as GC-36-017.",
       "verification": {
@@ -277,7 +329,10 @@
       "quote": "The god of many professedly wise men, of philosophers, poets, politicians, journalists,—the god of polished fashionable circles, of many colleges and universities, even of some theological institutions,—is little better than Baal, the sun-god of Phenicia.",
       "claim_text": "Baal was worshiped as a sun-god in ancient Phoenicia.",
       "claim_type": "geographical",
-      "entities": ["Baal", "Phoenicia"],
+      "entities": [
+        "Baal",
+        "Phoenicia"
+      ],
       "needs_verification": true,
       "extractor_note": "Extraction isolates the checkable factual component (Baal as Phoenician sun-god); the comparison of contemporary intellectuals/institutions to Baal-worship is an interpretive judgment, not separately logged as checkable.",
       "verification": {
@@ -287,10 +342,32 @@
         "modern_consensus": "Baal = storm/fertility god Hadad and his local manifestations; primary solar identification rejected (some Baals, e.g. Baal-Shamem/Baal-Hammon, had secondary solar associations, but Baal is not 'the sun-god').",
         "period_historiography": "19th-c. works (Rawlinson, Nave's Topical Bible, the Müller solar-mythology school) routinely called Baal the Phoenician sun-god; Baalbek = 'Heliopolis' cited as evidence.",
         "sources": [
-          {"title": "Baal — Wikipedia (storm/fertility god Hadad; older solar identification superseded)", "url": "https://en.wikipedia.org/wiki/Baal", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "Baal — World History Encyclopedia (sky/storm god bringing rain)", "url": "https://www.worldhistory.org/baal/", "source_class": "scholarly_encyclopedia", "supports_verdict": true},
-          {"title": "George Rawlinson, History of Phoenicia — Baal and Ashtoreth 'unquestionably the Sun and Moon' (period source)", "url": "https://www.heritage-history.com/index.php?c=read&author=rawlinson&book=phoenicia&story=religion", "source_class": "primary", "supports_verdict": true, "note": "documents the 19th-c. sun-god view White reflects"},
-          {"title": "Nave's Topical Bible: 'Baal: An Idol of the Phoenicians, God of the Sun'", "url": "https://biblehub.com/topical/naves/b/baal--an_idol_of_the_phoenicians,_god_of_the_sun--under_ahab.htm", "source_class": "other", "supports_verdict": true, "note": "19th-c. reference-work identification"}
+          {
+            "title": "Baal — Wikipedia (storm/fertility god Hadad; older solar identification superseded)",
+            "url": "https://en.wikipedia.org/wiki/Baal",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Baal — World History Encyclopedia (sky/storm god bringing rain)",
+            "url": "https://www.worldhistory.org/baal/",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "George Rawlinson, History of Phoenicia — Baal and Ashtoreth 'unquestionably the Sun and Moon' (period source)",
+            "url": "https://www.heritage-history.com/index.php?c=read&author=rawlinson&book=phoenicia&story=religion",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "documents the 19th-c. sun-god view White reflects"
+          },
+          {
+            "title": "Nave's Topical Bible: 'Baal: An Idol of the Phoenicians, God of the Sun'",
+            "url": "https://biblehub.com/topical/naves/b/baal--an_idol_of_the_phoenicians,_god_of_the_sun--under_ahab.htm",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "19th-c. reference-work identification"
+          }
         ]
       },
       "defense": {
@@ -319,8 +396,18 @@
         "confidence": "medium",
         "rationale": "The claim that antinomian/law-abrogation teaching was spreading is consistent with the era's dispensationalist and modernist theology (same milieu documented for GC-36-011/012). 'Rapidly gaining ground' and the ranking as the worst error are White's rhetorical/polemical emphasis, not independently measurable; the underlying trend is period-accurate.",
         "sources": [
-          {"title": "Fundamentalist–modernist controversy — Wikipedia", "url": "https://en.wikipedia.org/wiki/Fundamentalist%E2%80%93modernist_controversy", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "Fundamentalist-Modernist conflict — EBSCO Research Starters", "url": "https://www.ebsco.com/research-starters/religion-and-philosophy/fundamentalist-modernist-conflict", "source_class": "scholarly_encyclopedia", "supports_verdict": true}
+          {
+            "title": "Fundamentalist–modernist controversy — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fundamentalist%E2%80%93modernist_controversy",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Fundamentalist-Modernist conflict — EBSCO Research Starters",
+            "url": "https://www.ebsco.com/research-starters/religion-and-philosophy/fundamentalist-modernist-conflict",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -345,7 +432,10 @@
       "quote": "Terrible were the scenes enacted in France when atheism became the controlling power.",
       "claim_text": "During a period of France's history (the French Revolution era), atheism became the controlling power and terrible scenes of violence resulted.",
       "claim_type": "event",
-      "entities": ["France", "French Revolution"],
+      "entities": [
+        "France",
+        "French Revolution"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -353,8 +443,18 @@
         "rationale": "The dechristianization campaign of 1793-94 established the state-sponsored atheistic Cult of Reason (Hébert, Festival of Reason, Nov 1793), suppressed the Church, exiled ~30,000 priests, and coincided with the Reign of Terror's mass executions — 'terrible scenes' is accurate. The framing that 'atheism became the controlling power' is a period-typical simplification (consistent with GC ch.15): scholars note Robespierre actually opposed the atheists and imposed the deistic Cult of the Supreme Being, so atheism's ascendancy was brief and contested, not the settled 'controlling power' of the whole Revolution. Factual kernel supported; characterization period-typical.",
         "modern_consensus": "Radical dechristianization/atheism (Cult of Reason) dominated briefly in 1793-94 during the Terror, then was checked by Robespierre's deistic Cult of the Supreme Being; most dechristianization was politically/economically driven.",
         "sources": [
-          {"title": "Dechristianization of France during the French Revolution — Wikipedia", "url": "https://en.wikipedia.org/wiki/Dechristianization_of_France_during_the_French_Revolution", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "Cult of Reason — Wikipedia (state-sponsored atheistic religion, 1793)", "url": "https://en.wikipedia.org/wiki/Cult_of_Reason", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "Dechristianization of France during the French Revolution — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Dechristianization_of_France_during_the_French_Revolution",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Cult of Reason — Wikipedia (state-sponsored atheistic religion, 1793)",
+            "url": "https://en.wikipedia.org/wiki/Cult_of_Reason",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -364,7 +464,10 @@
       "quote": "It was then demonstrated to the world that to throw off the restraints which God has imposed is to accept the rule of the cruelest of tyrants.",
       "claim_text": "The atheistic period of the French Revolution demonstrated that throwing off God's moral restraints leads to the rule of the cruelest tyrants.",
       "claim_type": "causal",
-      "entities": ["France", "French Revolution"],
+      "entities": [
+        "France",
+        "French Revolution"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "unverifiable",
@@ -379,7 +482,9 @@
       "quote": "When the standard of righteousness is set aside, the way is open for the prince of evil to establish his power in the earth.",
       "claim_text": "When moral/religious standards are set aside, the way opens for Satan to establish his power on earth.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -591,7 +696,9 @@
       "quote": "Intemperance has beclouded the faculties of many, so that Satan has almost complete control of them.",
       "claim_text": "Satan has almost complete control over people whose faculties have been beclouded by intemperance.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -621,7 +728,10 @@
       "quote": "“Justice standeth afar off: for truth is fallen in the street, and equity cannot enter.”(1024)",
       "claim_text": "The chapter quotes a biblical passage (footnote 1024) stating that justice stands afar off, truth has fallen in the street, and equity cannot enter.",
       "claim_type": "attributed_quote",
-      "entities": ["Bible", "Isaiah"],
+      "entities": [
+        "Bible",
+        "Isaiah"
+      ],
       "needs_verification": true,
       "extractor_note": "Corresponds to Isaiah 59:14 KJV.",
       "verification": {
@@ -637,7 +747,9 @@
       "quote": "The iniquity and spiritual darkness that prevailed under the supremacy of Rome were the inevitable result of her suppression of the Scriptures;",
       "claim_text": "The iniquity and spiritual darkness that prevailed under the historical supremacy of the Roman Catholic Church were the inevitable result of the Church's suppression of the Scriptures.",
       "claim_type": "causal",
-      "entities": ["Roman Catholic Church"],
+      "entities": [
+        "Roman Catholic Church"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "anachronistic",
@@ -646,7 +758,13 @@
         "modern_consensus": "No universal suppression of Scripture; vernacular-translation restrictions were localized and anti-heretical, while the Latin Bible was ubiquitous in the medieval Church.",
         "period_historiography": "Wylie's History of Protestantism, D'Aubigné and Dowling present Rome as having withheld/suppressed the Bible from the people as the cause of the 'Dark Ages'.",
         "sources": [
-          {"title": "M. Deanesly, The Lollard Bible (Cambridge UP, 1920) — Council of Toulouse 1229; inquisitorial 'suppressing translations' targeted at Waldensians/Lollards", "url": "scholarship/deanesly-lollard-bible-1920.txt", "source_class": "academic", "supports_verdict": true, "note": "local text, ll.300-302, 2130-2132; restriction is regional/anti-heretical, not a blanket ban on all Scripture"}
+          {
+            "title": "M. Deanesly, The Lollard Bible (Cambridge UP, 1920) — Council of Toulouse 1229; inquisitorial 'suppressing translations' targeted at Waldensians/Lollards",
+            "url": "scholarship/deanesly-lollard-bible-1920.txt",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "local text, ll.300-302, 2130-2132; restriction is regional/anti-heretical, not a blanket ban on all Scripture"
+          }
         ]
       },
       "defense": {
@@ -668,7 +786,9 @@
       "quote": "he resorts to other means to accomplish the same object. To destroy faith in the Bible serves his purpose as well as to destroy the Bible itself.",
       "claim_text": "Satan resorts to destroying faith in the Bible when he cannot withhold the Bible itself, since undermining belief in Scripture serves his purposes equally well.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -683,7 +803,9 @@
       "quote": "By introducing the belief that God’s law is not binding, he as effectually leads men to transgress as if they were wholly ignorant of its precepts.",
       "claim_text": "Introducing the belief that God's law is not binding leads people to transgress as effectively as if they were wholly ignorant of the law's precepts.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -713,7 +835,11 @@
       "quote": "Clinging to the papal error of natural immortality and man’s consciousness in death, they have rejected the only defense against the delusions of Spiritualism.",
       "claim_text": "The doctrine of the natural immortality of the soul and consciousness after death, characterized here as a 'papal error,' left Protestant churches without a defense against the claims of Spiritualism.",
       "claim_type": "causal",
-      "entities": ["Roman Catholic Church", "Spiritualism", "Protestantism"],
+      "entities": [
+        "Roman Catholic Church",
+        "Spiritualism",
+        "Protestantism"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "disputed",
@@ -721,8 +847,18 @@
         "rationale": "Two components. (a) Historical genealogy: labelling natural immortality of the soul a 'papal error' is imprecise by scholarly standards — the doctrine entered Christianity chiefly through Hellenistic/Platonic philosophy adopted by the ante-Nicene fathers (Origen and others) by c.AD 200, predating and much broader than the papacy; it is a Greek-philosophical import, not a specifically papal/medieval-Catholic invention. Modern scholarship (peer-reviewed) supports the Platonic-origin reading that the conditionalist tradition itself invokes, but not the narrow 'papal' attribution. (b) The causal-apologetic claim that conditional immortality is 'the only defense against Spiritualism' is a theological argument, not a historical fact (unverifiable). Genuine framing disagreement between the SDA/conditionalist position and mainstream historiography. source_quality: academic-full.",
         "modern_consensus": "The immortal-soul doctrine derives from Greek (Platonic/Neoplatonic) philosophy assimilated by early Christianity centuries before the developed papacy; 'papal error' is historically imprecise as to origin.",
         "sources": [
-          {"title": "S. Kim et al., 'Plato's Shadow: The Encroaching Doctrine of the Soul's Immortality in the Early Church,' Humanities 13(3):77 (2024)", "url": "https://www.mdpi.com/2076-0787/13/3/77", "source_class": "academic", "supports_verdict": true},
-          {"title": "The concept of the soul in Plato and in early Judeo-Christian thought (Boston University OpenBU)", "url": "https://open.bu.edu/items/713dd180-a47e-461d-8298-c0afbd803ec4", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "S. Kim et al., 'Plato's Shadow: The Encroaching Doctrine of the Soul's Immortality in the Early Church,' Humanities 13(3):77 (2024)",
+            "url": "https://www.mdpi.com/2076-0787/13/3/77",
+            "source_class": "academic",
+            "supports_verdict": true
+          },
+          {
+            "title": "The concept of the soul in Plato and in early Judeo-Christian thought (Boston University OpenBU)",
+            "url": "https://open.bu.edu/items/713dd180-a47e-461d-8298-c0afbd803ec4",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       },
       "impact": {
@@ -732,6 +868,22 @@
         "impact_score": 12,
         "narrative_arc": "doctrinal",
         "reasoning": "Labelling natural immortality a 'papal error' is a historical-genealogy claim that scholarship contradicts: the doctrine entered Christianity through Hellenistic/Platonic philosophy absorbed by the ante-Nicene fathers (e.g., Origen, c.AD 200), well before and independent of the developed papacy, so pinning it on Rome specifically is imprecise, though the doctrine's near-universal adoption across medieval and Reformation-era Christianity gives the label surface plausibility. Centrality is high because this doctrine is one of the chapter's two named 'great errors' (paired with Sunday sacredness) that supposedly open the door to the end-time 'threefold union' of Spiritualism, Rome, and apostate Protestantism -- tying it directly to the book's Sabbath-vs-Sunday/spiritualism-deception doctrinal cluster. It is not load-bearing, however: deleting the word 'papal' leaves the functional argument intact, since natural immortality is (by the text's own account) held broadly across both Catholic and Protestant Christianity, so the anti-Spiritualism argument survives on the separate, unverifiable theological causal claim alone, independent of whose historical 'error' it originally was."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D08",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "probable",
+        "framing_gap": 2,
+        "failing_component_kind": "fact",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 3,
+        "centrality": 4,
+        "load_bearing": false,
+        "impact_score": 12,
+        "narrative_arc": "doctrinal",
+        "reasoning": "The adjudication rules the as-written claim improbable on a fact-kind failure: the 'papal error' genealogy label mislabels a doctrine with pre-papal, patristic/Hellenistic origins (Origen, Athenagoras, Tertullian; Eastern churches with no papal mediation) as a specifically Roman origination, compounded by a tied frame-kind failure in the historical exclusivity of 'the only defense' (Oppenheim and Byrne document non-conditionalist churches resisting Spiritualism via necromancy prohibitions and demonological framing). Framing_gap of 2 shows the substance survives at the weakened, probable level -- Braude's scholarship supports that belief in conscious post-mortem souls made Protestants receptive to Spiritualism's core claim -- so the as-written failure is a rhetorical-absoluteness problem (mislabeled origin plus a false 'only') layered on a defensible causal mechanism, not a fabrication. Centrality remains high (4) because this doctrine is one of the chapter's two named 'great errors' constructing the threefold-union mechanism (Spiritualism-Rome-apostate Protestantism) central to the book's Sabbath-vs-Sunday/final-crisis thesis chain, but it is not load-bearing: delete 'papal' and the 'only', and the receptivity argument survives intact at the probable level, so the chapter's forward-looking argument does not depend on the as-written overreach."
       }
     },
     {
@@ -747,8 +899,18 @@
         "confidence": "medium",
         "rationale": "Well-documented by historians of the 'decline of hell': 19th-c. moral revulsion against eternal torment produced sustained controversy inside and outside the churches, and Rowell shows that by later in the century doubt about hell fed broader doubt about the future life and the credibility of Scripture. That the doctrine drove 'many' toward disbelief is a defensible historical generalization.",
         "sources": [
-          {"title": "Geoffrey Rowell, Hell and the Victorians (Oxford)", "url": "https://academic.oup.com/book/9245", "source_class": "academic", "supports_verdict": true},
-          {"title": "D. P. Walker, The Decline of Hell (Univ. of Chicago Press; rev. in Modern Philology 63/1)", "url": "https://www.journals.uchicago.edu/doi/10.1086/389732", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "Geoffrey Rowell, Hell and the Victorians (Oxford)",
+            "url": "https://academic.oup.com/book/9245",
+            "source_class": "academic",
+            "supports_verdict": true
+          },
+          {
+            "title": "D. P. Walker, The Decline of Hell (Univ. of Chicago Press; rev. in Modern Philology 63/1)",
+            "url": "https://www.journals.uchicago.edu/doi/10.1086/389732",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -789,7 +951,9 @@
       "quote": "The teachings of religious leaders have opened the door to infidelity, to Spiritualism, and to contempt for God’s holy law; and upon these leaders rests a fearful responsibility for the iniquity that exists in the Christian world.",
       "claim_text": "The teachings of religious leaders opened the door to infidelity, Spiritualism, and contempt for God's law, and these leaders bear responsibility for the iniquity in the Christian world.",
       "claim_type": "interpretive",
-      "entities": ["Spiritualism"],
+      "entities": [
+        "Spiritualism"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -811,7 +975,12 @@
         "confidence": "medium",
         "rationale": "This is exactly the rhetoric of the Sabbath-observance movement behind the 1888-89 Blair Sunday-Rest Bill: Josephine Bateham's WCTU Sabbath-desecration department framed the Sabbath as the 'nerve center of a Christian nation' whose desecration threatened the common good, and the National Reform Association and American Sabbath Union argued Sunday enforcement would protect public morals. Accurate description of the movement's claims.",
         "sources": [
-          {"title": "The Sunday Rest Bill and the Battle to Keep the Civil Sabbath — Seton Hall Law Journal", "url": "https://scholarship.shu.edu/cgi/viewcontent.cgi?article=1084&context=shlj", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "The Sunday Rest Bill and the Battle to Keep the Civil Sabbath — Seton Hall Law Journal",
+            "url": "https://scholarship.shu.edu/cgi/viewcontent.cgi?article=1084&context=shlj",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -821,14 +990,21 @@
       "quote": "This claim is especially urged in America, where the doctrine of the true Sabbath has been most widely preached.",
       "claim_text": "The claim linking social corruption to Sunday desecration was especially urged in the United States in the early 20th century, where seventh-day Sabbath doctrine had been most widely preached.",
       "claim_type": "geographical",
-      "entities": ["United States"],
+      "entities": [
+        "United States"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "The national Sunday-law campaign (petitions of 1881 onward, the 1888 Blair Bill) was a distinctly American movement, and the seventh-day Sabbath was most prominently preached in the US (the Seventh-day Adventist and Seventh Day Baptist strongholds). Both halves of the claim fit the documented context.",
         "sources": [
-          {"title": "The Sunday Rest Bill and the Battle to Keep the Civil Sabbath — Seton Hall Law Journal", "url": "https://scholarship.shu.edu/cgi/viewcontent.cgi?article=1084&context=shlj", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "The Sunday Rest Bill and the Battle to Keep the Civil Sabbath — Seton Hall Law Journal",
+            "url": "https://scholarship.shu.edu/cgi/viewcontent.cgi?article=1084&context=shlj",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -838,14 +1014,22 @@
       "quote": "Here the temperance work, one of the most prominent and important of moral reforms, is often combined with the Sunday movement, and the advocates of the latter represent themselves as laboring to promote the highest interest of society;",
       "claim_text": "In the early 20th-century United States, the temperance movement was often combined with the Sunday-observance movement, whose advocates represented themselves as promoting society's highest interests.",
       "claim_type": "event",
-      "entities": ["United States", "Temperance movement"],
+      "entities": [
+        "United States",
+        "Temperance movement"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "high",
         "rationale": "Documented directly: the Woman's Christian Temperance Union added a 'Department of Effort to Prevent Sabbath Desecration' in 1884 under Josephine C. Bateham, explicitly yoking Sabbath observance to the temperance cause and to the 'common good,' and the WCTU/NRA/American Sabbath Union coalition drove the Blair Sunday-Rest Bill. The temperance-Sunday alliance is exactly as White describes.",
         "sources": [
-          {"title": "The Sunday Rest Bill and the Battle to Keep the Civil Sabbath — Seton Hall Law Journal (WCTU Sabbath-observance dept. under Bateham; NRA; American Sabbath Union)", "url": "https://scholarship.shu.edu/cgi/viewcontent.cgi?article=1084&context=shlj", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "The Sunday Rest Bill and the Battle to Keep the Civil Sabbath — Seton Hall Law Journal (WCTU Sabbath-observance dept. under Bateham; NRA; American Sabbath Union)",
+            "url": "https://scholarship.shu.edu/cgi/viewcontent.cgi?article=1084&context=shlj",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -855,14 +1039,21 @@
       "quote": "those who refuse to unite with them are denounced as the enemies of temperance and reform.",
       "claim_text": "Those who refused to join the combined temperance/Sunday movement in the early 20th-century United States were denounced as enemies of temperance and reform.",
       "claim_type": "event",
-      "entities": ["United States"],
+      "entities": [
+        "United States"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "low",
         "rationale": "Consistent with the coalition dynamics of the Sabbath-Sunday movement, in which the WCTU framed Sabbath observance as inseparable from temperance and the common good, so that opposing Sunday laws could be cast as opposing reform. Specific documentation of this denunciation is thin from the sources gathered, hence low confidence; plausible and in keeping with the movement's rhetoric.",
         "sources": [
-          {"title": "The Sunday Rest Bill and the Battle to Keep the Civil Sabbath — Seton Hall Law Journal", "url": "https://scholarship.shu.edu/cgi/viewcontent.cgi?article=1084&context=shlj", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "The Sunday Rest Bill and the Battle to Keep the Civil Sabbath — Seton Hall Law Journal",
+            "url": "https://scholarship.shu.edu/cgi/viewcontent.cgi?article=1084&context=shlj",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -872,7 +1063,9 @@
       "quote": "Through the two great errors, the immortality of the soul and Sunday sacredness, Satan will bring the people under his deceptions.",
       "claim_text": "Satan will use two doctrines, the immortality of the soul and Sunday sacredness, to bring people under his deceptions.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -887,7 +1080,10 @@
       "quote": "While the former lays the foundation of Spiritualism, the latter creates a bond of sympathy with Rome.",
       "claim_text": "The doctrine of the soul's immortality lays the foundation for Spiritualism, while Sunday sacredness creates a bond of sympathy with the Roman Catholic Church.",
       "claim_type": "theological",
-      "entities": ["Spiritualism", "Roman Catholic Church"],
+      "entities": [
+        "Spiritualism",
+        "Roman Catholic Church"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -902,7 +1098,12 @@
       "quote": "The Protestants of the United States will be foremost in stretching their hands across the gulf to grasp the hand of Spiritualism; they will reach over the abyss to clasp hands with the Roman power; and under the influence of this threefold union, this country will follow in the steps of Rome in trampling on the rights of conscience.",
       "claim_text": "United States Protestants will be foremost in uniting with both Spiritualism and the Roman Catholic Church, and under this threefold union the United States will follow Rome's example in trampling on the rights of conscience.",
       "claim_type": "theological",
-      "entities": ["United States", "Spiritualism", "Roman Catholic Church", "Protestantism"],
+      "entities": [
+        "United States",
+        "Spiritualism",
+        "Roman Catholic Church",
+        "Protestantism"
+      ],
       "needs_verification": false,
       "extractor_note": "Central eschatological prediction of the chapter.",
       "verification": {
@@ -918,7 +1119,9 @@
       "quote": "Satan himself is converted, after the modern order of things. He will appear in the character of an angel of light.",
       "claim_text": "Satan will appear as an angel of light, converted according to the modern order of things.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -933,7 +1136,9 @@
       "quote": "Through the agency of Spiritualism, miracles will be wrought, the sick will be healed, and many undeniable wonders will be performed.",
       "claim_text": "Through Spiritualism, miracles will be performed, the sick will be healed, and undeniable wonders will occur.",
       "claim_type": "theological",
-      "entities": ["Spiritualism"],
+      "entities": [
+        "Spiritualism"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -948,7 +1153,9 @@
       "quote": "As Spiritualism more closely imitates the nominal Christianity of the day, it has greater power to deceive and ensnare.",
       "claim_text": "In the early 20th century, Spiritualism was increasingly imitating nominal Christianity, which increased its power to deceive.",
       "claim_type": "event",
-      "entities": ["Spiritualism"],
+      "entities": [
+        "Spiritualism"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -978,7 +1185,10 @@
       "quote": "Church-members love what the world loves, and are ready to join with them; and Satan determines to unite them in one body, and thus strengthen his cause by sweeping all into the ranks of Spiritualism.",
       "claim_text": "Satan intends to unite church members and worldly people into one body through shared worldly affections, sweeping them into the ranks of Spiritualism.",
       "claim_type": "theological",
-      "entities": ["Satan", "Spiritualism"],
+      "entities": [
+        "Satan",
+        "Spiritualism"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -993,7 +1203,11 @@
       "quote": "Papists, who boast of miracles as a certain sign of the true church, will be readily deceived by this wonder-working power; and Protestants, having cast away the shield of truth, will also be deluded.",
       "claim_text": "Catholics, who regard miracles as a sign of the true church, will be readily deceived by Spiritualism's wonder-working power, and Protestants who have abandoned the shield of truth will also be deluded.",
       "claim_type": "theological",
-      "entities": ["Roman Catholic Church", "Protestantism", "Spiritualism"],
+      "entities": [
+        "Roman Catholic Church",
+        "Protestantism",
+        "Spiritualism"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1008,7 +1222,10 @@
       "quote": "Papists, Protestants, and worldlings will alike accept the form of godliness without the power, and they will see in this union a grand movement for the conversion of the world, and the ushering in of the long-expected millennium.",
       "claim_text": "Catholics, Protestants, and worldly people will alike accept a form of godliness without its power, viewing their union as a movement for world conversion and the ushering in of the millennium.",
       "claim_type": "theological",
-      "entities": ["Roman Catholic Church", "Protestantism"],
+      "entities": [
+        "Roman Catholic Church",
+        "Protestantism"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1023,7 +1240,10 @@
       "quote": "Through Spiritualism, Satan appears as a benefactor of the race, healing the diseases of the people, and professing to present a new and more exalted system of religious faith; but at the same time he works as a destroyer.",
       "claim_text": "Through Spiritualism, Satan appears as a benefactor healing diseases and presenting an exalted religious system, while actually working as a destroyer.",
       "claim_type": "theological",
-      "entities": ["Satan", "Spiritualism"],
+      "entities": [
+        "Satan",
+        "Spiritualism"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1053,7 +1273,9 @@
       "quote": "Satan delights in war; for it excites the worst passions of the soul, and then sweeps into eternity its victims steeped in vice and blood.",
       "claim_text": "Satan delights in war because it excites people's worst passions and sends its victims into eternity steeped in vice and blood.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1068,7 +1290,9 @@
       "quote": "It is his object to incite the nations to war against one another; for he can thus divert the minds of the people from the work of preparation to stand in the day of God.",
       "claim_text": "Satan's objective is to incite nations to war against each other in order to divert people's minds from spiritual preparation.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1083,7 +1307,9 @@
       "quote": "Satan works through the elements also to garner his harvest of unprepared souls. He has studied the secrets of the laboratories of nature, and he uses all his power to control the elements as far as God allows.",
       "claim_text": "Satan works through natural elements, having studied nature's secrets, using his power to control the elements to the extent God allows.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1098,7 +1324,10 @@
       "quote": "When he was suffered to afflict Job, how quickly flocks and herds, servants, houses, children, were swept away, one trouble succeeding another as in a moment.",
       "claim_text": "According to the biblical narrative, when Satan was permitted to afflict Job, Job's flocks, herds, servants, house, and children were swept away in rapid succession.",
       "claim_type": "event",
-      "entities": ["Job", "Satan"],
+      "entities": [
+        "Job",
+        "Satan"
+      ],
       "needs_verification": true,
       "extractor_note": "Reference to the Book of Job narrative (Job 1).",
       "verification": {
@@ -1114,7 +1343,9 @@
       "quote": "It is God that shields His creatures, and hedges them in from the power of the destroyer. But the Christian world have shown contempt for the law of Jehovah; and the Lord will do just what He has declared that He would,—He will withdraw His blessings from the earth, and remove His protecting care from those who are rebelling against His law, and teaching and forcing others to do the same.",
       "claim_text": "Because the Christian world has shown contempt for God's law, God will withdraw His protective blessings from those who rebel against His law and cause others to do likewise.",
       "claim_type": "theological",
-      "entities": ["God"],
+      "entities": [
+        "God"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1129,7 +1360,10 @@
       "quote": "Satan has control of all whom God does not especially guard. He will favor and prosper some, in order to further his own designs; and he will bring trouble upon others, and lead men to believe that it is God who is afflicting them.",
       "claim_text": "Satan controls all whom God does not specially guard, favoring some to further his designs and afflicting others while making people believe God is the source of their affliction.",
       "claim_type": "theological",
-      "entities": ["Satan", "God"],
+      "entities": [
+        "Satan",
+        "God"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1144,7 +1378,9 @@
       "quote": "While appearing to the children of men as a great physician who can heal all their maladies, he will bring disease and disaster, until populous cities are reduced to ruin and desolation.",
       "claim_text": "While appearing as a great healer, Satan will bring disease and disaster until populous cities are reduced to ruin.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1159,7 +1395,9 @@
       "quote": "Even now he is at work. In accidents and calamities by sea and by land, in great conflagrations, in fierce tornadoes and terrific hail-storms, in tempests, floods, cyclones, tidal waves, and earthquakes, in every place and in a thousand forms, Satan is exercising his power.",
       "claim_text": "Satan is already exercising his power in accidents, calamities, fires, tornadoes, hailstorms, tempests, floods, cyclones, tidal waves, and earthquakes occurring worldwide.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1190,7 +1428,10 @@
       "quote": "“The earth mourneth and fadeth away,” “the haughty people ... do languish. The earth also is defiled under the inhabitants thereof; because they have transgressed the laws, changed the ordinance, broken the everlasting covenant.”(1025)",
       "claim_text": "The chapter quotes a biblical passage (footnote 1025) stating the earth mourns and fades, the haughty people languish, and the earth is defiled because its inhabitants transgressed laws, changed the ordinance, and broke the everlasting covenant.",
       "claim_type": "attributed_quote",
-      "entities": ["Bible", "Isaiah"],
+      "entities": [
+        "Bible",
+        "Isaiah"
+      ],
       "needs_verification": true,
       "extractor_note": "Corresponds to Isaiah 24:4-5 KJV.",
       "verification": {
@@ -1222,7 +1463,12 @@
       "quote": "“And it came to pass, when Ahab saw Elijah, that Ahab said unto him, Art thou he that troubleth Israel? And he answered, I have not troubled Israel; but thou, and thy father’s house, in that ye have forsaken the commandments of the Lord, and thou hast followed Baalim.”(1026)",
       "claim_text": "The chapter quotes the biblical account (footnote 1026, corresponding to 1 Kings 18) in which King Ahab accused Elijah of troubling Israel, and Elijah responded that Ahab's household, not he, had troubled Israel by forsaking God's commandments and following the Baals.",
       "claim_type": "attributed_quote",
-      "entities": ["Ahab", "Elijah", "Baal", "Bible"],
+      "entities": [
+        "Ahab",
+        "Elijah",
+        "Baal",
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1237,7 +1483,9 @@
       "quote": "As the wrath of the people shall be excited by false charges, they will pursue a course toward God’s ambassadors very similar to that which apostate Israel pursued toward Elijah.",
       "claim_text": "It is predicted that people whose wrath is excited by false charges will treat God's future messengers similarly to how apostate Israel treated the prophet Elijah.",
       "claim_type": "theological",
-      "entities": ["Elijah"],
+      "entities": [
+        "Elijah"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1252,7 +1500,9 @@
       "quote": "Thus the accusation urged of old against the servant of God will be repeated, and upon grounds equally well established",
       "claim_text": "The ancient accusation made against Elijah as a 'troubler of Israel' will be repeated against God's people in the predicted final conflict, on similarly unfounded grounds.",
       "claim_type": "theological",
-      "entities": ["Elijah"],
+      "entities": [
+        "Elijah"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1267,7 +1517,9 @@
       "quote": "The miracle-working power manifested through Spiritualism will exert its influence against those who choose to obey God rather than men.",
       "claim_text": "The miracle-working power manifested through Spiritualism will be used against those who choose to obey God rather than human authorities.",
       "claim_type": "theological",
-      "entities": ["Spiritualism"],
+      "entities": [
+        "Spiritualism"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1282,7 +1534,9 @@
       "quote": "Communications from the spirits will declare that God has sent them to convince the rejecters of Sunday of their error, affirming that the laws of the land should be obeyed as the law of God.",
       "claim_text": "Spiritualist communications will claim to be sent by God to convince Sunday-law objectors of their error and to affirm that civil Sunday laws should be obeyed as God's law.",
       "claim_type": "theological",
-      "entities": ["Spiritualism"],
+      "entities": [
+        "Spiritualism"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1297,7 +1551,9 @@
       "quote": "They will lament the great wickedness in the world, and second the testimony of religious teachers, that the degraded state of morals is caused by the desecration of Sunday.",
       "claim_text": "Spiritualist communications will affirm religious teachers' claims that society's moral decline is caused by Sunday desecration.",
       "claim_type": "theological",
-      "entities": ["Spiritualism"],
+      "entities": [
+        "Spiritualism"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1312,7 +1568,9 @@
       "quote": "Satan’s policy in this final conflict with God’s people is the same that he employed in the opening of the great controversy in heaven. He professed to be seeking to promote the stability of the divine government, while secretly bending every effort to secure its overthrow. And the very work which he was thus endeavoring to accomplish, he charged upon the loyal angels.",
       "claim_text": "Satan's policy in the predicted final conflict mirrors his original strategy in the heavenly conflict: professing to support divine government while secretly working to overthrow it, and blaming his own actions on the loyal angels.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1327,7 +1585,9 @@
       "quote": "The same policy of deception has marked the history of the Roman Church. It has professed to act as the vicegerent of Heaven, while seeking to exalt itself above God, and to change His law.",
       "claim_text": "Throughout its history, the Roman Catholic Church professed to act as Heaven's representative while, according to the author, seeking to exalt itself above God and change His law.",
       "claim_type": "causal",
-      "entities": ["Roman Catholic Church"],
+      "entities": [
+        "Roman Catholic Church"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "unverifiable",
@@ -1342,7 +1602,9 @@
       "quote": "Under the rule of Rome, those who suffered death for their fidelity to the gospel were denounced as evil-doers; they were declared to be in league with Satan; and every possible means was employed to cover them with reproach, to cause them to appear, in the eyes of the people, and even to themselves, as the vilest of criminals.",
       "claim_text": "Under the historical rule of the Roman Catholic Church, people executed for their fidelity to the gospel were denounced as evil-doers and accused of being in league with Satan, and efforts were made to make them appear as the vilest criminals.",
       "claim_type": "event",
-      "entities": ["Roman Catholic Church"],
+      "entities": [
+        "Roman Catholic Church"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1350,7 +1612,13 @@
         "rationale": "In its general form the claim matches the documented rhetoric of medieval anti-heretical persecution: Lea's standard history records heretics being cast as the 'synagogue of Satan' and 'emissaries of Satan' fit to share 'eternal fire with Satan,' and inquisitorial procedure deliberately stripped the condemned of honor and portrayed them as criminals. White's framing ('fidelity to the gospel') is the Protestant reading of the victims' identity, but the mechanism she describes — demonization and public reproach of the condemned — is accurate as a corpus pattern. source_quality: academic-full (Lea).",
         "modern_consensus": "Medieval and inquisitorial polemic routinely demonized heretics as Satan's agents and used ritual degradation; the pattern is well documented, whatever one's theological view of the victims.",
         "sources": [
-          {"title": "H. C. Lea, A History of the Inquisition of the Middle Ages, vol. 1 (1888) — heretics as 'synagogue of Satan' / 'emissaries of Satan'", "url": "scholarship/lea-inquisition-middle-ages-vol1-1888.txt", "source_class": "academic", "supports_verdict": true, "note": "local text, ll.3689, 7591, 8392"}
+          {
+            "title": "H. C. Lea, A History of the Inquisition of the Middle Ages, vol. 1 (1888) — heretics as 'synagogue of Satan' / 'emissaries of Satan'",
+            "url": "scholarship/lea-inquisition-middle-ages-vol1-1888.txt",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "local text, ll.3689, 7591, 8392"
+          }
         ]
       }
     },
@@ -1360,7 +1628,9 @@
       "quote": "So it will be now. While Satan seeks to destroy those who honor God’s law, he will cause them to be accused as lawbreakers, as men who are dishonoring God, and bringing judgments upon the world.",
       "claim_text": "It is predicted that Satan will cause those who honor God's law to be accused of being lawbreakers who dishonor God and bring judgments on the world.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1375,7 +1645,10 @@
       "quote": "God never forces the will or the conscience; but Satan’s constant resort—to gain control of those whom he cannot otherwise seduce—is compulsion by cruelty.",
       "claim_text": "God never forces the human will or conscience, whereas Satan's constant method for controlling those he cannot otherwise seduce is compulsion through cruelty.",
       "claim_type": "theological",
-      "entities": ["God", "Satan"],
+      "entities": [
+        "God",
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1390,7 +1663,9 @@
       "quote": "Through fear or force he endeavors to rule the conscience, and to secure homage to himself. To accomplish this, he works through both religious and secular authorities, moving them to the enforcement of human laws in defiance of the law of God.",
       "claim_text": "Satan works through both religious and secular authorities to enforce human laws in defiance of God's law, ruling the conscience through fear or force.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1450,7 +1725,9 @@
       "quote": "As the Protestant churches reject the clear, scriptural arguments in defense of God’s law, they will long to silence those whose faith they cannot overthrow by the Bible.",
       "claim_text": "It is predicted that Protestant churches, having rejected clear scriptural arguments defending God's law, will seek to silence those whose faith they cannot refute using the Bible.",
       "claim_type": "theological",
-      "entities": ["Protestantism"],
+      "entities": [
+        "Protestantism"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1465,7 +1742,9 @@
       "quote": "they are now adopting a course which will lead to the persecution of those who conscientiously refuse to do what the rest of the Christian world are doing, and acknowledge the claims of the papal sabbath.",
       "claim_text": "It is claimed that Protestant churches, as of the time of writing, were adopting a course that would lead to the persecution of those who conscientiously refused to observe Sunday (termed here 'the papal sabbath').",
       "claim_type": "theological",
-      "entities": ["Protestantism"],
+      "entities": [
+        "Protestantism"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1510,7 +1789,9 @@
       "quote": "even in free America, rulers and legislators, in order to secure public favor, will yield to the popular demand for a law enforcing Sunday observance.",
       "claim_text": "It is predicted that in the United States, rulers and legislators will yield to popular demand and enact a law enforcing Sunday observance.",
       "claim_type": "theological",
-      "entities": ["United States"],
+      "entities": [
+        "United States"
+      ],
       "needs_verification": false,
       "extractor_note": "Also implies a present-tense (circa 1911) claim that there was popular demand in the US for a Sunday-enforcement law; logged separately as GC-36-096 (event).",
       "verification": {
@@ -1526,14 +1807,21 @@
       "quote": "in order to secure public favor, will yield to the popular demand for a law enforcing Sunday observance.",
       "claim_text": "In the early 20th-century United States, there was a popular movement/demand advocating a law to enforce Sunday observance.",
       "claim_type": "event",
-      "entities": ["United States"],
+      "entities": [
+        "United States"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "high",
         "rationale": "Strongly documented. A national Sunday-law movement was active from 1881: the Blair Sunday-Rest Bill (introduced May 1888, reintroduced 1889) was backed by petitions reported as ~21,000 (claiming to represent ~14 million people), organized by the National Reform Association, the American Sabbath Union, and the WCTU's Sabbath-desecration department. A genuine popular demand for Sunday-enforcement legislation existed exactly as the sentence's premise states.",
         "sources": [
-          {"title": "The Sunday Rest Bill and the Battle to Keep the Civil Sabbath — Seton Hall Law Journal", "url": "https://scholarship.shu.edu/cgi/viewcontent.cgi?article=1084&context=shlj", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "The Sunday Rest Bill and the Battle to Keep the Civil Sabbath — Seton Hall Law Journal",
+            "url": "https://scholarship.shu.edu/cgi/viewcontent.cgi?article=1084&context=shlj",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1558,7 +1846,10 @@
       "quote": "In the soon-coming conflict we shall see exemplified the prophet’s words, “The dragon was wroth with the woman, and went to make war with the remnant of her seed, which keep the commandments of God, and have the testimony of Jesus Christ.”(1027)",
       "claim_text": "The chapter quotes Revelation (footnote 1027) describing the dragon's wrath against the woman and war against the remnant of her seed who keep God's commandments and have the testimony of Jesus Christ, applying it to a predicted soon-coming conflict.",
       "claim_type": "attributed_quote",
-      "entities": ["Bible", "Book of Revelation"],
+      "entities": [
+        "Bible",
+        "Book of Revelation"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",

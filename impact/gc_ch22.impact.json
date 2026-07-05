@@ -11,7 +11,10 @@
       "quote": "When the time passed at which the Lord’s coming was first expected,—in the spring of 1844,—those who had looked in faith for His appearing were for a season involved in doubt and uncertainty.",
       "claim_text": "Millerite Adventists first expected Christ's second coming to occur in the spring of 1844, and experienced doubt and uncertainty when that time passed without His appearing.",
       "claim_type": "date",
-      "entities": ["Millerites", "William Miller"],
+      "entities": [
+        "Millerites",
+        "William Miller"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -19,8 +22,18 @@
         "rationale": "Bliss records Miller's own words that 'the vernal equinox of 1844 was the furthest point of time to which Mr. Miller's calculation of the prophetic periods extended' and his March 25, 1844 letter written when 'this time passed.' Miller later spoke of 'the disappointment I did in the spring.' source_quality: academic-partial (primary insider biography + secondary corroboration).",
         "modern_consensus": "Millerites' original terminus (the 'Jewish year 1843') ran to spring 1844; the passing of March 21, 1844 produced the first disappointment before the seventh-month movement.",
         "sources": [
-          {"title": "S. Bliss, Memoirs of William Miller (1853), pp. 254-255, 270", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true},
-          {"title": "Great Disappointment — Wikipedia", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853), pp. 254-255, 270",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "Great Disappointment — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -30,7 +43,9 @@
       "quote": "Many continued to search the Scriptures, examining anew the evidences of their faith, and carefully studying the prophecies to obtain further light.",
       "claim_text": "After the spring 1844 disappointment, many Adventist believers continued to study Scripture and prophecy to seek further understanding.",
       "claim_type": "event",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -38,8 +53,18 @@
         "rationale": "The renewed prophetic study of the 'tarrying time' between the spring disappointment and the seventh-month movement is documented in the insider histories; it produced Snow's Karaite-based recalculation to October 22. source_quality: academic-partial.",
         "modern_consensus": "The interval April–August 1844 saw continued Millerite prophetic study, culminating in the seventh-month message.",
         "sources": [
-          {"title": "I. C. Wellcome, History of the Second Advent Message (1874), ch. on the seventh-month movement", "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true},
-          {"title": "Great Disappointment — Wikipedia", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "I. C. Wellcome, History of the Second Advent Message (1874), ch. on the seventh-month movement",
+            "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "Great Disappointment — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -95,7 +120,9 @@
       "quote": "“I will stand upon my watch, and set me upon the tower, and will watch to see what He will say unto me, and what I shall answer when I am reproved. And the Lord answered me, and said, Write the vision, and make it plain upon tables, that he may run that readeth it. For the vision is yet for an appointed time, but at the end it shall speak, and not lie: though it tarry, wait for it; because it will surely come, it will not tarry. Behold, his soul which is lifted up is not upright in him: but the just shall live by his faith.”",
       "claim_text": "Habakkuk 2:1-4 contains this wording as quoted here (attributed to the prophet Habakkuk).",
       "claim_type": "attributed_quote",
-      "entities": ["Habakkuk"],
+      "entities": [
+        "Habakkuk"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -110,7 +137,9 @@
       "quote": "As early as 1842, the direction given in this prophecy, to “write the vision, and make it plain upon tables, that he may run that readeth it,” had suggested to Charles Fitch the preparation of a prophetic chart to illustrate the visions of Daniel and the Revelation.",
       "claim_text": "As early as 1842, Charles Fitch prepared a prophetic chart illustrating the visions of Daniel and Revelation, inspired by Habakkuk 2:2.",
       "claim_type": "event",
-      "entities": ["Charles Fitch"],
+      "entities": [
+        "Charles Fitch"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -118,7 +147,12 @@
         "rationale": "Wellcome records that 'In the spring of 1842, Eld. Charles Fitch went to Springfield, with the great chart which illustrated the symbols of Daniel and Revelation,' and that the chart-idea 'was encouraged by the passage in Hab.' 2:2 ('I will write the vision...'), footing up A.D. 1843. This is the well-known Fitch (later 'Fitch-Hale') '1843 chart.' source_quality: academic-partial.",
         "modern_consensus": "Charles Fitch (with Apollos Hale) produced the Millerite '1843 chart' of Daniel/Revelation in 1842, explicitly tied to Habakkuk 2:2.",
         "sources": [
-          {"title": "I. C. Wellcome, History of the Second Advent Message (1874), pp. ~ (Fitch chart; Hab 2:2)", "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "I. C. Wellcome, History of the Second Advent Message (1874), pp. ~ (Fitch chart; Hab 2:2)",
+            "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -128,7 +162,9 @@
       "quote": "The publication of this chart was regarded as a fulfilment of the command given by Habakkuk.",
       "claim_text": "Millerites regarded the publication of Charles Fitch's prophetic chart as a fulfilment of Habakkuk's command to \"write the vision.\"",
       "claim_type": "theological",
-      "entities": ["Charles Fitch"],
+      "entities": [
+        "Charles Fitch"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -143,7 +179,9 @@
       "quote": "“The word of the Lord came unto me, saying, Son of man, what is that proverb that ye have in the land of Israel, saying, The days are prolonged, and every vision faileth? Tell them therefore, Thus saith the Lord God, ... The days are at hand, and the effect of every vision.... I will speak, and the word that I shall speak shall come to pass; it shall be no more prolonged.” “They of the house of Israel say, The vision that he seeth is for many days to come, and he prophesieth of the times that are far off. Therefore say unto them, Thus saith the Lord God: There shall none of My words be prolonged any more, but the word which I have spoken shall be done.”",
       "claim_text": "The book of Ezekiel (chapter 12) contains this text, quoted here as attributed to the prophet Ezekiel.",
       "claim_type": "attributed_quote",
-      "entities": ["Ezekiel"],
+      "entities": [
+        "Ezekiel"
+      ],
       "needs_verification": true,
       "extractor_note": "Quotation includes original ellipses present in the 1911 source.",
       "verification": {
@@ -234,7 +272,9 @@
       "quote": "The wide-spread reformation under the proclamation of His soon coming, answered to the going forth of the virgins.",
       "claim_text": "The proclamation of Christ's soon coming by the Millerite movement produced a wide-spread religious reformation/revival.",
       "claim_type": "event",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -242,8 +282,18 @@
         "rationale": "The Millerite preaching produced widely attested revivals ('Great Reformations') across the northeastern United States, with tens of thousands of adherents. Wellcome's chapter headings and narrative document numerous conversions and revivals. The typological application to the parable is theological, but the underlying revival is historical. source_quality: academic-partial.",
         "modern_consensus": "Millerism was a genuine mass revival movement (est. 50,000–100,000 adherents) accompanied by conversions across the northeastern US and Canada.",
         "sources": [
-          {"title": "I. C. Wellcome, History of the Second Advent Message (1874)", "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true},
-          {"title": "Millerism — Wikipedia", "url": "https://en.wikipedia.org/wiki/Millerism", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "I. C. Wellcome, History of the Second Advent Message (1874)",
+            "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "Millerism — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -268,7 +318,9 @@
       "quote": "About this time, fanaticism began to appear. Some who had professed to be zealous believers in the message, rejected the word of God as the one infallible guide, and claiming to be led by the Spirit, gave themselves up to the control of their own feelings, impressions, and imaginations.",
       "claim_text": "Around the time of the 1844 \"tarrying time,\" fanaticism appeared among some professed Advent believers, with some rejecting sole scriptural authority and claiming direct Spirit-leading of their feelings and impressions.",
       "claim_type": "event",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -276,8 +328,18 @@
         "rationale": "Episodes of fanaticism and 'enthusiasm' (claims of direct Spirit-leading, mesmerism, etc.) among some Millerite adherents in 1844 are documented in the movement's own histories, which distinguish these excesses from the core message and record leaders acting to suppress them. source_quality: academic-partial.",
         "modern_consensus": "Fringe fanaticism appeared among some Millerites in 1844; movement leaders opposed it.",
         "sources": [
-          {"title": "I. C. Wellcome, History of the Second Advent Message (1874)", "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true},
-          {"title": "A. Taylor, The Origins of Millerite Separatism", "url": "https://aurora.edu/documents/library-archives/origins-of-millerite-separatism-andrew-taylor.pdf", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "I. C. Wellcome, History of the Second Advent Message (1874)",
+            "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "A. Taylor, The Origins of Millerite Separatism",
+            "url": "https://aurora.edu/documents/library-archives/origins-of-millerite-separatism-andrew-taylor.pdf",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -287,7 +349,9 @@
       "quote": "The people had been greatly stirred by the Advent Movement, thousands of sinners had been converted, and faithful men were giving themselves to the work of proclaiming the truth, even in the tarrying time.",
       "claim_text": "Thousands of people were converted through the Advent Movement, including during the 1844 \"tarrying time.\"",
       "claim_type": "statistic",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -295,8 +359,18 @@
         "rationale": "The Millerite movement numbered on the order of 50,000–100,000 adherents with many thousands of conversions; the scale is well documented. 'Thousands' is a conservative characterization. source_quality: academic-partial.",
         "modern_consensus": "Millerites numbered roughly 50,000–100,000; thousands were converted.",
         "sources": [
-          {"title": "Millerism — Wikipedia", "url": "https://en.wikipedia.org/wiki/Millerism", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "I. C. Wellcome, History of the Second Advent Message (1874)", "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "Millerism — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "I. C. Wellcome, History of the Second Advent Message (1874)",
+            "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -351,7 +425,9 @@
       "quote": "Thus it was in Paul’s day. Wherever the apostle raised up a church, there were some who professed to receive the faith, but who brought in heresies, that, if received, would eventually crowd out the love of the truth.",
       "claim_text": "In the apostle Paul's time, in churches he established, some who professed the faith introduced heresies that threatened to crowd out true doctrine.",
       "claim_type": "biographical",
-      "entities": ["Paul the Apostle"],
+      "entities": [
+        "Paul the Apostle"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -366,7 +442,9 @@
       "quote": "Luther also suffered great perplexity and distress from the course of fanatical persons who claimed that God had spoken directly through them, and who therefore set their own ideas and opinions above the testimony of the Scriptures.",
       "claim_text": "Martin Luther experienced perplexity and distress due to fanatical persons who claimed direct divine revelation and placed their own opinions above Scripture.",
       "claim_type": "biographical",
-      "entities": ["Martin Luther"],
+      "entities": [
+        "Martin Luther"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -381,7 +459,10 @@
       "quote": "And the Wesleys, and others who blessed the world by their influence and their faith, encountered at every step the wiles of Satan in pushing overzealous, unbalanced, and unsanctified ones into fanaticism of every grade.",
       "claim_text": "John and Charles Wesley encountered fanaticism among overzealous, unbalanced followers throughout their ministry.",
       "claim_type": "biographical",
-      "entities": ["John Wesley", "Charles Wesley"],
+      "entities": [
+        "John Wesley",
+        "Charles Wesley"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -389,8 +470,18 @@
         "rationale": "The Wesleys repeatedly confronted 'enthusiasm.' The George Bell–Thomas Maxfield episode (early 1760s), in which Bell prophesied the world would end 28 Feb 1763 and Maxfield led a fanatical breakaway over Christian perfection, is a documented crisis both John and Charles Wesley tried to check.",
         "modern_consensus": "The Wesleyan revival encountered recurrent fanatical excesses (French Prophets influence, the Bell-Maxfield affair); both brothers opposed such 'enthusiasm.'",
         "sources": [
-          {"title": "Maxfield, Thomas — Dictionary of Methodism in Britain and Ireland", "url": "https://dmbi.online/index.php?do=app.entry&id=1849", "source_class": "scholarly_encyclopedia", "supports_verdict": true},
-          {"title": "John Wesley — Britannica", "url": "https://www.britannica.com/biography/John-Wesley", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "Maxfield, Thomas — Dictionary of Methodism in Britain and Ireland",
+            "url": "https://dmbi.online/index.php?do=app.entry&id=1849",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "John Wesley — Britannica",
+            "url": "https://www.britannica.com/biography/John-Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -400,7 +491,9 @@
       "quote": "William Miller had no sympathy with those influences that led to fanaticism.",
       "claim_text": "William Miller had no sympathy with the influences that led to fanaticism among Adventists.",
       "claim_type": "biographical",
-      "entities": ["William Miller"],
+      "entities": [
+        "William Miller"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -408,7 +501,12 @@
         "rationale": "Miller's own writings and letters (preserved in Bliss and Wellcome) consistently oppose fanaticism, insisting that every spirit be tested by Scripture; his verbatim statements to that effect are confirmed locally (see GC-22-029). source_quality: academic-partial.",
         "modern_consensus": "Miller is uniformly characterized as a temperate opponent of fanatical excess within the movement.",
         "sources": [
-          {"title": "S. Bliss, Memoirs of William Miller (1853)", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853)",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -418,14 +516,22 @@
       "quote": "He declared, with Luther, that every spirit should be tested by the word of God.",
       "claim_text": "William Miller stated that every spirit/claim should be tested by the word of God, echoing Luther's position.",
       "claim_type": "biographical",
-      "entities": ["William Miller", "Martin Luther"],
+      "entities": [
+        "William Miller",
+        "Martin Luther"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "high",
         "rationale": "Confirmed by Miller's own quoted words in the following paragraphs ('we are commanded to try the spirits'; 'The Spirit and word agree'), preserved in the insider record; consonant with Luther's sola scriptura test of spirits. source_quality: academic-partial.",
         "sources": [
-          {"title": "S. Bliss, Memoirs of William Miller (1853)", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853)",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -435,14 +541,21 @@
       "quote": "“The devil,” said Miller, “has great power over the minds of some at the present day. And how shall we know what manner of spirit they are of? The Bible answers: ‘By their fruits ye shall know them.’... There are many spirits gone out into the world; and we are commanded to try the spirits. The spirit that does not cause us to live soberly, righteously, and godly, in this present world, is not the Spirit of Christ. I am more and more convinced that Satan has much to do in these wild movements.... Many among us, who pretend to be wholly sanctified, are following the traditions of men, and apparently are as ignorant of truth as others who make no such pretensions.”",
       "claim_text": "William Miller is quoted as stating that the devil had great power over the minds of some believers and that Satan had much to do with the \"wild movements\" of fanaticism.",
       "claim_type": "attributed_quote",
-      "entities": ["William Miller"],
+      "entities": [
+        "William Miller"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "The passage matches Miller's documented anti-fanaticism writings; White's 1911 Appendix cites his letters/Memoirs (Bliss). The verbatim string was not re-located in the OCR of the local Bliss text, but adjacent Miller quotations against fanaticism are confirmed verbatim (GC-22-029), and the content is fully consistent with his published positions. source_quality: academic-partial.",
         "sources": [
-          {"title": "S. Bliss, Memoirs of William Miller (1853)", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853)",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -452,14 +565,21 @@
       "quote": "“The spirit of error will lead us from the truth; and the Spirit of God will lead us into truth. But, say you, a man may be in an error, and think he has the truth. What then? We answer, The Spirit and word agree. If a man judges himself by the word of God, and finds a perfect harmony through the whole word, then he must believe he has the truth; but if he finds the spirit by which he is led does not harmonize with the whole tenor of God’s law or book, then let him walk carefully, lest he be caught in the snare of the devil.”",
       "claim_text": "William Miller is quoted as teaching that any spirit must be tested against harmony with the whole of Scripture.",
       "claim_type": "attributed_quote",
-      "entities": ["William Miller"],
+      "entities": [
+        "William Miller"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "Consistent with Miller's documented sola-scriptura test of spirits; drawn from his published writings cited by White (Bliss). Verbatim string not re-located in the local OCR, but content and adjacent verbatim quotations confirm authenticity. source_quality: academic-partial.",
         "sources": [
-          {"title": "S. Bliss, Memoirs of William Miller (1853)", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853)",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -469,14 +589,21 @@
       "quote": "“I have often obtained more evidence of inward piety from a kindling eye, a wet cheek, and a choked utterance, than from all the noise in Christendom.”",
       "claim_text": "William Miller is quoted as saying he obtained more evidence of inward piety from quiet emotional signs than from religious \"noise.\"",
       "claim_type": "attributed_quote",
-      "entities": ["William Miller"],
+      "entities": [
+        "William Miller"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "high",
         "rationale": "Verbatim match located in Bliss: 'I have often obtained more evidence of inward piety from a kindling eye, a wet cheek, and a choked utterance, than from all the noise in Christendom.' source_quality: academic-partial (primary insider biography).",
         "sources": [
-          {"title": "S. Bliss, Memoirs of William Miller (1853), line ~15045", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853), line ~15045",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -494,7 +621,13 @@
         "rationale": "Catholic polemicists routinely blamed Luther for the excesses of the radicals (Zwickau prophets, Müntzer, the Peasants' War and Anabaptist violence), though Luther publicly opposed them. The general characterization is well founded in Reformation historiography.",
         "modern_consensus": "Reformation opponents commonly attributed radical/fanatical excesses to the magisterial reformers who repudiated them.",
         "sources": [
-          {"title": "J. A. Wylie, The History of Protestantism (contextual, on Luther vs. the radicals)", "url": "file://scholarship/wylie-history-of-protestantism-vol1.txt", "source_class": "other", "supports_verdict": true, "note": "19th-c. source in White's tradition; corroborative context"}
+          {
+            "title": "J. A. Wylie, The History of Protestantism (contextual, on Luther vs. the radicals)",
+            "url": "file://scholarship/wylie-history-of-protestantism-vol1.txt",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "19th-c. source in White's tradition; corroborative context"
+          }
         ]
       }
     },
@@ -504,15 +637,27 @@
       "quote": "A similar course was pursued by the opposers of the Advent Movement.",
       "claim_text": "Opponents of the Millerite Advent Movement pursued a course similar to Reformation-era enemies, blaming fanaticism on the movement's leaders.",
       "claim_type": "event",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "Millerite leaders were widely ridiculed and blamed for fanatical excesses in the popular press and by opposing clergy; the movement's histories record contemptuous opposition and attribution of extremists' behavior to the movement as a whole. source_quality: academic-partial.",
         "sources": [
-          {"title": "S. Bliss, Memoirs of William Miller (1853)", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true},
-          {"title": "Millerism — Wikipedia", "url": "https://en.wikipedia.org/wiki/Millerism", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853)",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "Millerism — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -522,7 +667,9 @@
       "quote": "not content with misrepresenting and exaggerating the errors of extremists and fanatics, they circulated unfavorable reports that had not the slightest semblance of truth.",
       "claim_text": "Opponents of the Advent Movement circulated false, baseless reports about Adventists in addition to exaggerating actual fanatic behavior.",
       "claim_type": "event",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -530,7 +677,12 @@
         "rationale": "It is documented that sensational and false stories circulated about Millerites (e.g., the enduring 'ascension robes' legend, later shown to be largely fabricated by hostile press). White's specific claim of reports with 'not the slightest semblance of truth' fits this pattern but is a broad characterization difficult to verify in each instance. source_quality: academic-partial.",
         "modern_consensus": "Much sensational anti-Millerite reporting (notably the 'ascension robes' tales) was fabricated or grossly exaggerated by the contemporary press.",
         "sources": [
-          {"title": "Great Disappointment — Wikipedia", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "Great Disappointment — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -555,15 +707,27 @@
       "quote": "These appeared in the summer of 1844, when Adventists were in a state of doubt and perplexity concerning their real position.",
       "claim_text": "Fanaticism and division among Adventists appeared in the summer of 1844, a period of doubt about their prophetic position.",
       "claim_type": "date",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "The 'tarrying time' between the spring 1844 disappointment and the seventh-month movement (August–October 1844) was a period of doubt and perplexity in which fringe fanaticism surfaced; this chronology matches the movement's own accounts. source_quality: academic-partial.",
         "sources": [
-          {"title": "I. C. Wellcome, History of the Second Advent Message (1874)", "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true},
-          {"title": "Great Disappointment — Wikipedia", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "I. C. Wellcome, History of the Second Advent Message (1874)",
+            "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "Great Disappointment — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -580,7 +744,12 @@
         "confidence": "low",
         "rationale": "An apologetic causal claim assigning fanaticism to the confusion of the tarrying time rather than to the core message. Plausible and consonant with the record (fanaticism surfaced amid post-disappointment uncertainty), but the causal attribution is interpretive and not strictly demonstrable. source_quality: academic-partial.",
         "sources": [
-          {"title": "A. Taylor, The Origins of Millerite Separatism", "url": "https://aurora.edu/documents/library-archives/origins-of-millerite-separatism-andrew-taylor.pdf", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "A. Taylor, The Origins of Millerite Separatism",
+            "url": "https://aurora.edu/documents/library-archives/origins-of-millerite-separatism-andrew-taylor.pdf",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -590,14 +759,21 @@
       "quote": "The preaching of the first angel’s message and of the “midnight cry” tended directly to repress fanaticism and dissension.",
       "claim_text": "The preaching of the first angel's message and the \"midnight cry\" directly tended to repress fanaticism and dissension among Adventists.",
       "claim_type": "causal",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "low",
         "rationale": "Interpretive causal claim. Bliss notes the seventh-month ('midnight cry') message united believers with 'great unanimity,' which is consonant with White's assertion, but the specific causal claim that it 'directly' repressed fanaticism is an apologetic reading, not independently established. source_quality: academic-partial.",
         "sources": [
-          {"title": "S. Bliss, Memoirs of William Miller (1853), on the unanimity of the seventh-month movement", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853), on the unanimity of the seventh-month movement",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -622,7 +798,9 @@
       "quote": "In the summer of 1844, midway between the time when it had been first thought that the 2300 days would end, and the autumn of the same year, to which it was afterward found that they extended, the message was proclaimed in the very words of Scripture, “Behold, the Bridegroom cometh!”",
       "claim_text": "The \"midnight cry\" message, \"Behold, the Bridegroom cometh,\" was proclaimed by Millerites in the summer of 1844.",
       "claim_type": "date",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -630,8 +808,19 @@
         "rationale": "Samuel S. Snow's 'true midnight cry' / seventh-month message was launched at the Exeter, New Hampshire camp meeting in August 1844, spreading rapidly through late summer and autumn. source_quality: academic-partial.",
         "modern_consensus": "The 'midnight cry' seventh-month message was proclaimed from August 1844 (Exeter camp meeting) onward.",
         "sources": [
-          {"title": "S. Bliss, Memoirs of William Miller (1853), ch. XIX (Seventh Month Movement)", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true},
-          {"title": "Snow, Samuel Sheffield — Encyclopedia of Seventh-day Adventists", "url": "https://encyclopedia.adventist.org/article?id=9A6O", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "denominational; cited as position"}
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853), ch. XIX (Seventh Month Movement)",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "Snow, Samuel Sheffield — Encyclopedia of Seventh-day Adventists",
+            "url": "https://encyclopedia.adventist.org/article?id=9A6O",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "denominational; cited as position"
+          }
         ]
       }
     },
@@ -641,7 +830,9 @@
       "quote": "That which led to this movement was the discovery that the decree of Artaxerxes for the restoration of Jerusalem, which formed the starting-point for the period of the 2300 days, went into effect in the autumn of the year B.C. 457, and not at the beginning of the year, as had been formerly believed.",
       "claim_text": "The decree of Artaxerxes for the restoration of Jerusalem, used by Millerites as the starting point of the 2300-day prophecy, went into effect in the autumn of 457 BC rather than at the start of that year.",
       "claim_type": "date",
-      "entities": ["Artaxerxes"],
+      "entities": [
+        "Artaxerxes"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "disputed",
@@ -650,9 +841,27 @@
         "modern_consensus": "Modern reference works generally give 458 BC for Artaxerxes I's seventh year (spring-to-spring); the 457-BC dating rests on Jewish fall-to-fall reckoning and is a minority (largely SDA-affiliated) academic position.",
         "period_historiography": "Bliss (1853) states the seventy weeks/2300 days were dated by 'the best chronologers' from B.C. 457, the seventh year of Artaxerxes Longimanus (Ezra 7) — the standard reckoning in White's sources.",
         "sources": [
-          {"title": "Research: The Seventh Year of Artaxerxes I — Ministry Magazine (1953)", "url": "https://www.ministrymagazine.org/archive/1953/06/research-the-seventh-year-of-artaxerxes-i", "source_class": "other", "supports_verdict": true, "note": "denominational scholarship defending 457; notes modern references favor 458"},
-          {"title": "Supplementary Evidence in Support of 457 B.C. (Journal of the Adventist Theological Society)", "url": "https://digitalcommons.andrews.edu/cgi/viewcontent.cgi?article=1291&context=jats", "source_class": "academic", "supports_verdict": true, "note": "SDA academic; minority 457 position"},
-          {"title": "Artaxerxes I — Wikipedia", "url": "https://en.wikipedia.org/wiki/Artaxerxes_I", "source_class": "encyclopedia", "supports_verdict": false, "note": "reference-level dating context (accession 465 BC; 7th year 458 BC on standard reckoning)"}
+          {
+            "title": "Research: The Seventh Year of Artaxerxes I — Ministry Magazine (1953)",
+            "url": "https://www.ministrymagazine.org/archive/1953/06/research-the-seventh-year-of-artaxerxes-i",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "denominational scholarship defending 457; notes modern references favor 458"
+          },
+          {
+            "title": "Supplementary Evidence in Support of 457 B.C. (Journal of the Adventist Theological Society)",
+            "url": "https://digitalcommons.andrews.edu/cgi/viewcontent.cgi?article=1291&context=jats",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "SDA academic; minority 457 position"
+          },
+          {
+            "title": "Artaxerxes I — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Artaxerxes_I",
+            "source_class": "encyclopedia",
+            "supports_verdict": false,
+            "note": "reference-level dating context (accession 465 BC; 7th year 458 BC on standard reckoning)"
+          }
         ]
       },
       "impact": {
@@ -662,6 +871,22 @@
         "impact_score": 15,
         "narrative_arc": "millerite",
         "reasoning": "Counterfactual: delete or falsify this claim and the precise arithmetic '457 BC (autumn) + 2300 = autumn 1844' no longer lands on 1844 — on the majority modern reckoning (458 BC), the period would terminate in autumn 1843, one year before the date the chapter (and chapter 23's sanctuary doctrine) requires. The claim is not a fabrication: it accurately reports what the Millerites concluded and cites real, still-defended (if minority) scholarship for 457 BC, so severity is moderated to 3 rather than 5 — this is a live scholarly dispute, not an invented fact, and the chapter's confident framing ('the discovery... as had been formerly believed') overstates certainty more than it misstates evidence. Centrality is maximal (5) because this single date is the doctrinal keystone the verifier flagged: the entire 2300-day/1844/investigative-judgment chain that anchors the book's distinctive eschatology depends on 457 BC being correct, making it load-bearing not just for this chapter's midnight-cry narrative but for the central thesis chain itself. Distinct from a genuine error, this illustrates authorial method (adopting a chronology defended by contemporary scholarship, Bliss's 'best chronologers') colliding with an unresolved, doctrinally consequential dispute — the chapter's argument survives only if the minority 457-BC position is right."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D01",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "well-supported",
+        "framing_gap": 3,
+        "failing_component_kind": "fact",
+        "chain_inherited": true,
+        "independent_failure_point": "GC-18-060",
+        "severity": 3,
+        "centrality": 5,
+        "load_bearing": true,
+        "impact_score": 15,
+        "narrative_arc": "millerite",
+        "reasoning": "The failing component is fact-class: White's narration frames the autumn-457-BC effective date as 'the discovery that' — an established finding — but the as-written ruling finds this factive assertion improbable, since the autumn specification has no documentary basis and is retro-fitted from the required 1844 terminus. At the weakened level ('the movement arose from the argument that the decree took effect late in 457 BC, moving the terminus to autumn 1844') the claim is well-supported (framing_gap 3): the movement-history substance survives fully, and what fails as-written is the rhetorical certainty of calling a contested redating a 'discovery' rather than an argument. GC-22-039 is chain-inherited, not a fresh independent error — it repeats the same 457 BC anchor already adjudicated at GC-18-060, so this chapter's failure traces to that earlier claim rather than originating here. Centrality remains maximal (this date is the specific arithmetic step producing October 22, 1844, the terminus chapter 23's sanctuary doctrine requires) and load_bearing stays true for the chapter's own argument, even though the error's independent origin lies outside chapter 22."
       }
     },
     {
@@ -670,7 +895,9 @@
       "quote": "Reckoning from the autumn of 457, the 2300 years terminate in the autumn of 1844.",
       "claim_text": "Millerites calculated that, reckoning from the autumn of 457 BC, the 2300-year prophetic period terminated in the autumn of 1844.",
       "claim_type": "date",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -678,8 +905,18 @@
         "rationale": "LOAD-BEARING. As an accurate report of the Millerite computation and its internal arithmetic, this is correct: given a starting point in autumn 457 BC and the day-year reading of the 2300 'days' (Daniel 8:14), the arithmetic yields autumn 1844 (-457 + 2300 = 1843, +1 for the absence of a year zero = 1844). The Millerites did reach exactly this conclusion. The two contested premises — the 457-BC anchor (see GC-22-039, disputed) and the day-year prophetic interpretation itself — are respectively disputed and unverifiable theology; only the computation-as-reported and its arithmetic are affirmed here. source_quality: academic-partial.",
         "modern_consensus": "The 457-BC-to-1844 calculation is arithmetically valid on its own premises and is accurately reported as the Millerite conclusion; its historical/theological premises are separately contested.",
         "sources": [
-          {"title": "S. Bliss, Memoirs of William Miller (1853), on the 2300 days/457 BC reckoning", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true},
-          {"title": "Great Disappointment — Wikipedia", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853), on the 2300 days/457 BC reckoning",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "Great Disappointment — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -689,15 +926,28 @@
       "quote": "Arguments drawn from the Old Testament types also pointed to the autumn as the time when the event represented by the “cleansing of the sanctuary” must take place.",
       "claim_text": "Millerites believed Old Testament typology pointed to autumn as the time for the \"cleansing of the sanctuary\" to occur.",
       "claim_type": "theological",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "supported",
         "confidence": "high",
         "rationale": "CONTROL-SAMPLE catch: extractor filed this as 'theological', but it embeds a checkable historical claim about what Millerites believed. Snow's seventh-month message argued precisely from Old Testament typology (the autumn feasts / Day of Atonement) that the antitypical 'cleansing of the sanctuary' fell in autumn 1844 — this is well documented history of the movement. The truth of the typology itself remains theological/unverifiable, but the reported Millerite belief is confirmed. source_quality: academic-partial.",
         "sources": [
-          {"title": "S. Bliss, Memoirs of William Miller (1853), ch. XIX", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true},
-          {"title": "Snow, Samuel Sheffield — Encyclopedia of Seventh-day Adventists", "url": "https://encyclopedia.adventist.org/article?id=9A6O", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "denominational; cited as position"}
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853), ch. XIX",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "Snow, Samuel Sheffield — Encyclopedia of Seventh-day Adventists",
+            "url": "https://encyclopedia.adventist.org/article?id=9A6O",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "denominational; cited as position"
+          }
         ]
       }
     },
@@ -707,7 +957,9 @@
       "quote": "Says Paul, “Christ our passover is sacrificed for us.”",
       "claim_text": "The apostle Paul wrote, \"Christ our passover is sacrificed for us\" (1 Corinthians 5:7).",
       "claim_type": "attributed_quote",
-      "entities": ["Paul the Apostle"],
+      "entities": [
+        "Paul the Apostle"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -722,7 +974,9 @@
       "quote": "Paul says, in speaking of the resurrection of the Lord, and of all His people, “Christ the first-fruits; afterward they that are Christ’s at His coming.”",
       "claim_text": "The apostle Paul wrote, \"Christ the first-fruits; afterward they that are Christ's at His coming\" (1 Corinthians 15:23).",
       "claim_type": "attributed_quote",
-      "entities": ["Paul the Apostle"],
+      "entities": [
+        "Paul the Apostle"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -767,7 +1021,9 @@
       "quote": "On the fourteenth day of the first Jewish month, the very day and month on which, for fifteen long centuries, the Passover lamb had been slain, Christ, having eaten the Passover with His disciples, instituted that feast which was to commemorate His own death as “the Lamb of God, which taketh away the sin of the world.”",
       "claim_text": "Christ instituted the Lord's Supper on the fourteenth day of the first Jewish month (Nisan), the same calendar date on which the Passover lamb had traditionally been slain for approximately fifteen centuries.",
       "claim_type": "date",
-      "entities": ["Jesus Christ"],
+      "entities": [
+        "Jesus Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -782,7 +1038,9 @@
       "quote": "That same night He was taken by wicked hands, to be crucified and slain.",
       "claim_text": "Christ was arrested the same night He instituted the Lord's Supper and was subsequently crucified.",
       "claim_type": "event",
-      "entities": ["Jesus Christ"],
+      "entities": [
+        "Jesus Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -797,7 +1055,9 @@
       "quote": "And as the antitype of the wave-sheaf, our Lord was raised from the dead on the third day, “the first-fruits of them that slept,”",
       "claim_text": "Christ was raised from the dead on the third day following His crucifixion.",
       "claim_type": "date",
-      "entities": ["Jesus Christ"],
+      "entities": [
+        "Jesus Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -812,7 +1072,9 @@
       "quote": "“the first-fruits of them that slept,”",
       "claim_text": "1 Corinthians 15:20 contains the phrase \"the first-fruits of them that slept,\" attributed to Paul.",
       "claim_type": "attributed_quote",
-      "entities": ["Paul the Apostle"],
+      "entities": [
+        "Paul the Apostle"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -827,7 +1089,9 @@
       "quote": "a sample of all the resurrected just, whose “vile body” shall be changed, and “fashioned like unto His glorious body.”",
       "claim_text": "Philippians 3:21 contains the phrases \"vile body\" and \"fashioned like unto His glorious body,\" attributed to Paul.",
       "claim_type": "attributed_quote",
-      "entities": ["Paul the Apostle"],
+      "entities": [
+        "Paul the Apostle"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -857,7 +1121,9 @@
       "quote": "The tenth day of the seventh month, the great day of atonement, the time of the cleansing of the sanctuary, which in the year 1844 fell upon the twenty-second of October, was regarded as the time of the Lord’s coming.",
       "claim_text": "In 1844, the tenth day of the seventh Jewish month (the Day of Atonement) fell on October 22, and Millerites regarded this as the expected time of the Lord's coming.",
       "claim_type": "date",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -865,9 +1131,26 @@
         "rationale": "LOAD-BEARING. Confirmed as history-of-the-movement: Bliss states the tenth day of the seventh month in 1844, 'following the reckoning of the Caraite [Karaite] Jews, fell on the 22d day of October,' and that this was 'regarded as the time of the Lord's coming.' Snow's calculation used the Karaite (rather than the Rabbinic) calendar, yielding October 22 (the Rabbinic Day of Atonement in 1844 fell earlier, on ~September 23). The claim accurately reports what Millerites believed and how they derived the date; whether October 22 was truly the antitypical Day of Atonement is unverifiable theology. source_quality: academic-partial (primary insider record + scholarly-encyclopedia; the standard academic account is Knight, Millennial Fever, not locally accessible).",
         "modern_consensus": "Snow fixed October 22, 1844 as Tishri 10 using the Karaite calendar; this is the well-established origin of the date.",
         "sources": [
-          {"title": "S. Bliss, Memoirs of William Miller (1853), line ~14331 ('Caraite Jews... 22d day of October')", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true},
-          {"title": "Snow, Samuel Sheffield — Encyclopedia of Seventh-day Adventists", "url": "https://encyclopedia.adventist.org/article?id=9A6O", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "denominational; cited as position"},
-          {"title": "Great Disappointment — Wikipedia", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true, "note": "Karaite-calendar derivation of Oct 22"}
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853), line ~14331 ('Caraite Jews... 22d day of October')",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "Snow, Samuel Sheffield — Encyclopedia of Seventh-day Adventists",
+            "url": "https://encyclopedia.adventist.org/article?id=9A6O",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "denominational; cited as position"
+          },
+          {
+            "title": "Great Disappointment — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Karaite-calendar derivation of Oct 22"
+          }
         ]
       }
     },
@@ -877,7 +1160,9 @@
       "quote": "So it was believed that Christ, our great High Priest, would appear to purify the earth by the destruction of sin and sinners, and to bless His waiting people with immortality.",
       "claim_text": "Millerites believed Christ, as great High Priest, would appear on the day of atonement's antitype to purify the earth and bless His people with immortality.",
       "claim_type": "theological",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -892,15 +1177,27 @@
       "quote": "the “midnight cry” was heralded by thousands of believers.",
       "claim_text": "Thousands of Adventist believers proclaimed the \"midnight cry\" message in 1844.",
       "claim_type": "statistic",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "high",
         "rationale": "Given a movement of tens of thousands, the seventh-month 'midnight cry' was indeed proclaimed by many thousands of adherents in autumn 1844. source_quality: academic-partial.",
         "sources": [
-          {"title": "Millerism — Wikipedia", "url": "https://en.wikipedia.org/wiki/Millerism", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "S. Bliss, Memoirs of William Miller (1853)", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "Millerism — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853)",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -910,15 +1207,28 @@
       "quote": "Like a tidal wave the movement swept over the land. From city to city, from village to village, and into remote country places it went, until the waiting people of God were fully aroused.",
       "claim_text": "The 1844 \"midnight cry\" Advent movement spread rapidly across cities, villages, and rural areas.",
       "claim_type": "event",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "The seventh-month message spread with notable rapidity through the northeastern US in late summer/autumn 1844, energizing the movement; the 'tidal wave' language is rhetorical but the rapid, widespread diffusion is well attested. source_quality: academic-partial.",
         "sources": [
-          {"title": "Snow, Samuel Sheffield — Encyclopedia of Seventh-day Adventists", "url": "https://encyclopedia.adventist.org/article?id=9A6O", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "denominational; cited as position"},
-          {"title": "I. C. Wellcome, History of the Second Advent Message (1874)", "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "Snow, Samuel Sheffield — Encyclopedia of Seventh-day Adventists",
+            "url": "https://encyclopedia.adventist.org/article?id=9A6O",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "denominational; cited as position"
+          },
+          {
+            "title": "I. C. Wellcome, History of the Second Advent Message (1874)",
+            "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -928,14 +1238,21 @@
       "quote": "Said Miller, in describing that work: “There is no great expression of joy: that is, as it were, suppressed for a future occasion, when all heaven and earth will rejoice together with joy unspeakable and full of glory. There is no shouting: that, too, is reserved for the shout from heaven. The singers are silent: they are waiting to join the angelic hosts, the choir from heaven.... There is no clashing of sentiments: all are of one heart and of one mind.”",
       "claim_text": "William Miller is quoted describing the 1844 midnight-cry movement as marked by suppressed joy, no shouting, silent singers, and unity of sentiment.",
       "claim_type": "attributed_quote",
-      "entities": ["William Miller"],
+      "entities": [
+        "William Miller"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "high",
         "rationale": "Verbatim opening located in Wellcome: 'There is no great expression of joy: that is, as it were, suppressed for a future occasion, when all heaven and earth will rejoice...' — from Miller's letter describing the awakening. source_quality: academic-partial (primary insider record).",
         "sources": [
-          {"title": "I. C. Wellcome, History of the Second Advent Message (1874), line ~19822", "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "I. C. Wellcome, History of the Second Advent Message (1874), line ~19822",
+            "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -953,7 +1270,12 @@
         "confidence": "high",
         "rationale": "The testimony is locatable in the period Millerite literature: Wellcome preserves the matching passage, 'It has produced everywhere the most deep searching of hearts and humilation [sic] of souls before the God of high heaven.' The quotation is authentic contemporary Advent testimony, so anonymity in GC does not make it a misquotation. source_quality: academic-partial (primary insider record).",
         "sources": [
-          {"title": "I. C. Wellcome, History of the Second Advent Message (1874), line ~19898", "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "I. C. Wellcome, History of the Second Advent Message (1874), line ~19898",
+            "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -963,7 +1285,9 @@
       "quote": "Of all the great religious movements since the days of the apostles, none have been more free from human imperfection and the wiles of Satan than was that of the autumn of 1844.",
       "claim_text": "The autumn 1844 Adventist movement was more free from human imperfection and satanic influence than any other great religious movement since the apostles.",
       "claim_type": "interpretive",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -993,15 +1317,27 @@
       "quote": "Farmers left their crops standing in the fields, mechanics laid down their tools, and with tears and rejoicing went out to give the warning.",
       "claim_text": "During the 1844 midnight-cry movement, farmers left crops unharvested in the fields and mechanics left their tools to go proclaim the warning message.",
       "claim_type": "event",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "The abandonment of the autumn harvest and daily work by some Millerites in the final weeks before October 22 is reported in contemporary and near-contemporary accounts of the seventh-month movement's intensity. The specifics are illustrative and probably not universal, but the phenomenon (unharvested fields, laying aside of work) is attested in the movement's own histories. source_quality: academic-partial.",
         "sources": [
-          {"title": "I. C. Wellcome, History of the Second Advent Message (1874)", "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true},
-          {"title": "Great Disappointment — Wikipedia", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "I. C. Wellcome, History of the Second Advent Message (1874)",
+            "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "Great Disappointment — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1011,7 +1347,9 @@
       "quote": "Those who had formerly led in the cause were among the last to join in this movement.",
       "claim_text": "Those who had formerly led the Advent cause were among the last to join the 1844 midnight-cry movement.",
       "claim_type": "event",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1019,7 +1357,12 @@
         "rationale": "Historically the established Millerite leaders (Miller, Himes, Litch) were slow to endorse Snow's seventh-month/October-22 message; Bliss records that it was 'not generally received with favor by those who sympathized with Mr. Miller, till a few weeks previous to the time designated,' and that Miller himself only came to favor it on October 6, 1844. source_quality: academic-partial.",
         "modern_consensus": "Movement leaders lagged behind the grassroots in accepting the October 22 date; Miller endorsed it only in early October.",
         "sources": [
-          {"title": "S. Bliss, Memoirs of William Miller (1853), lines ~14329-14338", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853), lines ~14329-14338",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1029,7 +1372,9 @@
       "quote": "The churches in general closed their doors against this message, and a large company of those who received it withdrew from their connection.",
       "claim_text": "Established churches generally closed their doors to the midnight-cry message, prompting a large number of Adventist believers to withdraw from their church membership.",
       "claim_type": "event",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1037,8 +1382,18 @@
         "rationale": "Millerite 'come-outerism' in 1843-1844 — churches expelling or closing to Adventists and believers withdrawing — is a central documented feature of the movement (Fitch's 1843 'Come Out of Babylon' sermon; the separatist wave). Taylor's academic study treats this directly, and contemporary reports describe Millerites driven from churches to meet in barns and halls. source_quality: academic-full (Taylor is a peer-context academic monograph-length study of Millerite separatism).",
         "modern_consensus": "Church closures/expulsions and Millerite withdrawal ('come-outerism') were widespread in 1843-1844.",
         "sources": [
-          {"title": "A. Taylor, The Origins of Millerite Separatism", "url": "https://aurora.edu/documents/library-archives/origins-of-millerite-separatism-andrew-taylor.pdf", "source_class": "academic", "supports_verdict": true},
-          {"title": "Great Disappointment / Millerism — Wikipedia", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "A. Taylor, The Origins of Millerite Separatism",
+            "url": "https://aurora.edu/documents/library-archives/origins-of-millerite-separatism-andrew-taylor.pdf",
+            "source_class": "academic",
+            "supports_verdict": true
+          },
+          {
+            "title": "Great Disappointment / Millerism — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1048,7 +1403,9 @@
       "quote": "Upon the occasion of Christ’s triumphal entry into Jerusalem, the people who were assembled from all parts of the land to keep the feast, flocked to the Mount of Olives, and as they joined the throng that were escorting Jesus, they caught the inspiration of the hour, and helped to swell the shout, “Blessed is He that cometh in the name of the Lord!”",
       "claim_text": "During Christ's triumphal entry into Jerusalem, people assembled from across the land for the feast flocked to the Mount of Olives and joined the crowd escorting Jesus.",
       "claim_type": "event",
-      "entities": ["Jesus Christ"],
+      "entities": [
+        "Jesus Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1078,14 +1435,21 @@
       "quote": "In like manner did unbelievers who flocked to the Adventist meetings—some from curiosity, some merely to ridicule—feel the convincing power attending the message, “Behold, the Bridegroom cometh!”",
       "claim_text": "Some unbelievers who attended Adventist meetings in 1844 out of curiosity or to ridicule reportedly felt a convincing spiritual power in the \"Behold, the Bridegroom cometh\" message.",
       "claim_type": "event",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "low",
         "rationale": "A claim about the subjective spiritual impact of the meetings on skeptical attendees. Millerite accounts do report curiosity-seekers being convicted, but the 'convincing power' is an experiential/interpretive characterization that cannot be independently verified. source_quality: academic-partial.",
         "sources": [
-          {"title": "I. C. Wellcome, History of the Second Advent Message (1874)", "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "I. C. Wellcome, History of the Second Advent Message (1874)",
+            "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1110,7 +1474,9 @@
       "quote": "They often met together in secluded places to commune with God, and the voice of intercession ascended to heaven from the fields and groves.",
       "claim_text": "Adventist believers in 1844 often met in secluded outdoor places, such as fields and groves, for prayer.",
       "claim_type": "event",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "extractor_note": "General characterization of collective devotional practice; borderline specific but presented as historical fact.",
       "verification": {
@@ -1118,7 +1484,12 @@
         "confidence": "medium",
         "rationale": "Outdoor prayer and grove/field devotions were characteristic of the camp-meeting revival culture in which Millerism was embedded; such practice is consistent with contemporary accounts of the movement's intense devotional life. A general characterization rather than a discretely documented event. source_quality: academic-partial.",
         "sources": [
-          {"title": "I. C. Wellcome, History of the Second Advent Message (1874)", "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "I. C. Wellcome, History of the Second Advent Message (1874)",
+            "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1128,7 +1499,9 @@
       "quote": "But again they were destined to disappointment. The time of expectation passed, and their Saviour did not appear.",
       "claim_text": "October 22, 1844 passed without Christ's expected return, producing a second Millerite disappointment.",
       "claim_type": "date",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1136,8 +1509,18 @@
         "rationale": "The 'Great Disappointment': October 22, 1844 passed without Christ's return, the defining event of Millerite history. source_quality: academic-partial.",
         "modern_consensus": "October 22, 1844 is the date of the Great Disappointment.",
         "sources": [
-          {"title": "Great Disappointment — Wikipedia", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "S. Bliss, Memoirs of William Miller (1853)", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "Great Disappointment — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853)",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1147,7 +1530,9 @@
       "quote": "“They have taken away my Lord, and I know not where they have laid Him.”",
       "claim_text": "Mary is recorded as saying, upon finding Christ's tomb empty, \"They have taken away my Lord, and I know not where they have laid Him\" (John 20:13).",
       "claim_type": "attributed_quote",
-      "entities": ["Mary Magdalene"],
+      "entities": [
+        "Mary Magdalene"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1162,7 +1547,9 @@
       "quote": "A large class who had professed to believe in the Lord’s soon coming, renounced their faith.",
       "claim_text": "After the October 22, 1844 disappointment, a large number of former believers renounced their Adventist faith.",
       "claim_type": "statistic",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1170,8 +1557,18 @@
         "rationale": "The Great Disappointment produced mass defection: many adherents abandoned the movement entirely, and the remaining believers fragmented into competing groups. Well documented. source_quality: academic-partial.",
         "modern_consensus": "The failure of October 22, 1844 caused widespread abandonment of the movement and its fragmentation.",
         "sources": [
-          {"title": "Great Disappointment — Wikipedia", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "A. Taylor, The Origins of Millerite Separatism", "url": "https://aurora.edu/documents/library-archives/origins-of-millerite-separatism-andrew-taylor.pdf", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "Great Disappointment — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "A. Taylor, The Origins of Millerite Separatism",
+            "url": "https://aurora.edu/documents/library-archives/origins-of-millerite-separatism-andrew-taylor.pdf",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1181,7 +1578,9 @@
       "quote": "Those who had based their faith upon the opinions of others, and not upon the word of God, were now as ready again to change their views.",
       "claim_text": "Adventist believers whose faith rested on others' opinions rather than personal Scripture study readily abandoned their views after the 1844 disappointment.",
       "claim_type": "causal",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "extractor_note": "General characterization; borderline as a discrete checkable fact but presented as historical claim.",
       "verification": {
@@ -1189,7 +1588,12 @@
         "confidence": "low",
         "rationale": "An interpretive causal generalization about the psychology of those who defected. Consonant with the documented pattern of mass abandonment after October 22, but the specific causal attribution (faith 'based on the opinions of others') is White's apologetic reading, not independently demonstrable.",
         "sources": [
-          {"title": "Great Disappointment — Wikipedia", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "Great Disappointment — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1199,14 +1603,21 @@
       "quote": "they had, to a great extent, withdrawn from the society of those who did not receive the message.",
       "claim_text": "Many Millerite believers had largely withdrawn from social contact with non-believers in anticipation of Christ's 1844 coming.",
       "claim_type": "event",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "Consistent with the documented separatism ('come-outerism') and the intense pre-October-22 withdrawal from ordinary affairs and unbelieving society. Taylor's study documents the social separation of Millerite believers. source_quality: academic-full (Taylor).",
         "sources": [
-          {"title": "A. Taylor, The Origins of Millerite Separatism", "url": "https://aurora.edu/documents/library-archives/origins-of-millerite-separatism-andrew-taylor.pdf", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "A. Taylor, The Origins of Millerite Separatism",
+            "url": "https://aurora.edu/documents/library-archives/origins-of-millerite-separatism-andrew-taylor.pdf",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1216,7 +1627,9 @@
       "quote": "When Jesus rode triumphantly into Jerusalem, His followers believed that He was about to ascend the throne of David, and deliver Israel from her oppressors.",
       "claim_text": "At Christ's triumphal entry into Jerusalem, His followers believed He was about to ascend David's throne and deliver Israel from its oppressors.",
       "claim_type": "biographical",
-      "entities": ["Jesus Christ"],
+      "entities": [
+        "Jesus Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1231,7 +1644,9 @@
       "quote": "Many spread their outer garments as a carpet in His path, or strewed before Him the leafy branches of the palm.",
       "claim_text": "At Christ's triumphal entry, people spread their outer garments and palm branches in His path.",
       "claim_type": "event",
-      "entities": ["Jesus Christ"],
+      "entities": [
+        "Jesus Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1261,7 +1676,9 @@
       "quote": "He replied, “If these should hold their peace, the stones would immediately cry out.”",
       "claim_text": "Jesus is recorded as replying to the Pharisees, \"If these should hold their peace, the stones would immediately cry out\" (Luke 19:40).",
       "claim_type": "attributed_quote",
-      "entities": ["Jesus Christ"],
+      "entities": [
+        "Jesus Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1276,7 +1693,9 @@
       "quote": "Not till their Lord had come forth triumphant from the grave could they perceive that all had been foretold by prophecy, and “that Christ must needs have suffered, and risen again from the dead.”",
       "claim_text": "Only after Christ's resurrection did His disciples understand that His suffering and rising had been foretold by prophecy.",
       "claim_type": "attributed_quote",
-      "entities": ["Jesus Christ"],
+      "entities": [
+        "Jesus Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1291,7 +1710,9 @@
       "quote": "“Rejoice greatly, O daughter of Zion; shout, O daughter of Jerusalem: behold, thy King cometh unto thee: He is just, and having salvation; lowly, and riding upon an ass, and upon a colt the foal of an ass.”",
       "claim_text": "The prophet Zechariah is quoted as declaring this prophecy (Zechariah 9:9) regarding the coming King.",
       "claim_type": "attributed_quote",
-      "entities": ["Zechariah"],
+      "entities": [
+        "Zechariah"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1306,7 +1727,9 @@
       "quote": "Five hundred years before, the Lord had declared by the prophet Zechariah,",
       "claim_text": "The prophet Zechariah delivered his prophecy of the King riding on a colt approximately five hundred years before Christ's triumphal entry into Jerusalem.",
       "claim_type": "date",
-      "entities": ["Zechariah"],
+      "entities": [
+        "Zechariah"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1321,7 +1744,9 @@
       "quote": "In like manner, Miller and his associates fulfilled prophecy, and gave a message which Inspiration had foretold should be given to the world, but which they could not have given had they fully understood the prophecies pointing out their disappointment,",
       "claim_text": "William Miller and his associates fulfilled biblical prophecy by giving a divinely foretold message, which they could not have given had they fully understood the prophecies of their own disappointment.",
       "claim_type": "theological",
-      "entities": ["William Miller"],
+      "entities": [
+        "William Miller"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1336,14 +1761,21 @@
       "quote": "The ablest of their opponents had not succeeded in overthrowing their system of prophetic interpretation.",
       "claim_text": "The ablest opponents of the Millerites had not succeeded in overthrowing the Millerite system of prophetic interpretation.",
       "claim_type": "event",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "low",
         "rationale": "An evaluative/apologetic claim. It is true that no opponent produced a knock-down refutation that dissolved the movement before October 1844, and Millerites believed their scheme stood; but 'had not succeeded in overthrowing' is a judgment internal to the movement's self-assessment rather than an objective historical fact, since critics did publish substantial rebuttals. source_quality: academic-partial.",
         "sources": [
-          {"title": "S. Bliss, Memoirs of William Miller (1853)", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853)",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1353,7 +1785,10 @@
       "quote": "When Jonah proclaimed in the streets of Nineveh that within forty days the city would be overthrown, the Lord accepted the humiliation of the Ninevites, and extended their period of probation;",
       "claim_text": "The prophet Jonah proclaimed in the streets of Nineveh that the city would be overthrown within forty days, and the Lord accepted the Ninevites' humiliation and extended their probation.",
       "claim_type": "biographical",
-      "entities": ["Jonah", "Nineveh"],
+      "entities": [
+        "Jonah",
+        "Nineveh"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1368,7 +1803,9 @@
       "quote": "“It has,” they declared, “tested the hearts of all who heard it, and awakened a love for the Lord’s appearing; or it has called forth a hatred, more or less perceivable, but known to God, of His coming. It has drawn a line, ... so that those who will examine their own hearts, may know on which side of it they would have been found, had the Lord then come—whether they would have exclaimed, ‘Lo! this is our God, we have waited for Him, and He will save us;’ or whether they would have called to the rocks and mountains to fall on them to hide them from the face of Him that sitteth on the throne, and from the wrath of the Lamb. God thus, as we believe, has tested His people, has tried their faith, has proved them, and seen whether they would shrink, in the hour of trial, from the position in which He might see fit to place them; and whether they would relinquish this world and rely with implicit confidence in the word of God.”",
       "claim_text": "Adventists are quoted declaring that the 1844 message tested the hearts of all who heard it and drew a line revealing love or hatred of the Lord's appearing.",
       "claim_type": "attributed_quote",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "extractor_note": "Attributed collectively to Adventist believers (\"they declared\"), not a single named individual in the source text.",
       "verification": {
@@ -1376,7 +1813,13 @@
         "confidence": "medium",
         "rationale": "The quotation is traceable to a contemporary Millerite publication (the Advent Herald and Signs of the Times Reporter, vol. 8 no. 14, November 13, 1844); the wording 'tested the hearts of all who heard it' and 'drawn a line' matches. The collective attribution ('they declared') is therefore accurate to a genuine Adventist source, not a misquotation. Located only via a counter-apologetic page reproducing the primary citation, hence medium confidence.",
         "sources": [
-          {"title": "Advent Herald & Signs of the Times Reporter, vol. 8 no. 14 (Nov 13, 1844) — cited re 'tested the hearts'/'drawn a line'", "url": "https://www.nonegw.org/rea/gc12.htm", "source_class": "counter_apologetic", "supports_verdict": true, "note": "counter-apologetic page reproducing the primary Advent Herald citation; the primary source, not the page, is the evidence"}
+          {
+            "title": "Advent Herald & Signs of the Times Reporter, vol. 8 no. 14 (Nov 13, 1844) — cited re 'tested the hearts'/'drawn a line'",
+            "url": "https://www.nonegw.org/rea/gc12.htm",
+            "source_class": "counter_apologetic",
+            "supports_verdict": true,
+            "note": "counter-apologetic page reproducing the primary Advent Herald citation; the primary source, not the page, is the evidence"
+          }
         ]
       }
     },
@@ -1386,14 +1829,21 @@
       "quote": "“Were I to live my life over again, with the same evidence that I then had, to be honest with God and man I should have to do as I have done.”",
       "claim_text": "William Miller is quoted as saying that, given the same evidence, he would repeat his actions if he lived his life again.",
       "claim_type": "attributed_quote",
-      "entities": ["William Miller"],
+      "entities": [
+        "William Miller"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "high",
         "rationale": "Verbatim match located in Wellcome (Miller's letter 'To Second Advent Believers,' May 2, 1844): 'Were I to live my life over again, with the same evidence that I then had, to be honest with God and man I should have to do as I have done.' source_quality: academic-partial (primary insider record).",
         "sources": [
-          {"title": "I. C. Wellcome, History of the Second Advent Message (1874), line ~18079", "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "I. C. Wellcome, History of the Second Advent Message (1874), line ~18079",
+            "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1403,14 +1853,21 @@
       "quote": "“I hope that I have cleansed my garments from the blood of souls. I feel that, as far as it was in my power, I have freed myself from all guilt in their condemnation.”",
       "claim_text": "William Miller is quoted expressing hope that he had cleansed himself of guilt for others' spiritual condemnation.",
       "claim_type": "attributed_quote",
-      "entities": ["William Miller"],
+      "entities": [
+        "William Miller"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "high",
         "rationale": "Verbatim match located in Bliss (Miller's letter of March 25, 1844): 'I hope that I have cleansed my garments of the blood of souls. I feel that, as far as it was in my power, I have freed myself from all guilt in their condemnation.' (GC reads 'from the blood of souls' vs. the source 'of the blood of souls' — an inconsequential preposition variant.) source_quality: academic-partial (primary insider record).",
         "sources": [
-          {"title": "S. Bliss, Memoirs of William Miller (1853), lines ~13560-13562", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853), lines ~13560-13562",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1420,7 +1877,9 @@
       "quote": "“Although I have been twice disappointed,” wrote this man of God,",
       "claim_text": "William Miller experienced two disappointments regarding Christ's expected return in 1844 (spring and autumn).",
       "claim_type": "biographical",
-      "entities": ["William Miller"],
+      "entities": [
+        "William Miller"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1428,7 +1887,12 @@
         "rationale": "Miller himself anticipated exactly this: in October 1844 he wrote (per Bliss) 'If Christ does not come within twenty or twenty-five days, I shall feel twice the disappointment I did in the spring.' The two disappointments (spring 1844 and October 22, 1844) are historically established. source_quality: academic-partial (primary insider record).",
         "modern_consensus": "Miller experienced the spring-1844 and the October-22-1844 disappointments.",
         "sources": [
-          {"title": "S. Bliss, Memoirs of William Miller (1853), lines ~14339-14341", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853), lines ~14339-14341",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1438,14 +1902,21 @@
       "quote": "“I am not yet cast down or discouraged.... My hope in the coming of Christ is as strong as ever. I have done only what, after years of solemn consideration, I felt it my solemn duty to do. If I have erred, it has been on the side of charity, love to my fellow-men, and conviction of duty to God.”",
       "claim_text": "William Miller is quoted stating that his hope in Christ's coming remained strong despite disappointment, and that any error on his part had been on the side of charity and duty.",
       "claim_type": "attributed_quote",
-      "entities": ["William Miller"],
+      "entities": [
+        "William Miller"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "From Miller's post-disappointment writings (his 'Apology and Defence,' 1845, and associated letters), which White cites via Bliss. The sentiment matches Miller's documented and locally-confirmed statements of undimmed hope ('My faith and confidence in God's word are as strong as ever, although Christ has not come in the time I expected,' Bliss). The exact string was not re-located in the local OCR, hence medium confidence. source_quality: academic-partial.",
         "sources": [
-          {"title": "S. Bliss, Memoirs of William Miller (1853) / Miller, Apology and Defence (1845)", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853) / Miller, Apology and Defence (1845)",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1455,14 +1926,21 @@
       "quote": "“One thing I do know, I have preached nothing but what I believed; and God has been with me; His power has been manifested in the work, and much good has been effected.”",
       "claim_text": "William Miller is quoted asserting that he preached only what he believed, that God's power had been manifested in his work, and that much good had resulted.",
       "claim_type": "attributed_quote",
-      "entities": ["William Miller"],
+      "entities": [
+        "William Miller"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "From Miller's 'Apology and Defence' (1845)/later letters as cited by White through Bliss; consistent with his documented self-defense. The exact string was not re-located in the local OCR, hence medium confidence. source_quality: academic-partial.",
         "sources": [
-          {"title": "S. Bliss, Memoirs of William Miller (1853) / Miller, Apology and Defence (1845)", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853) / Miller, Apology and Defence (1845)",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1472,14 +1950,21 @@
       "quote": "“Many thousands, to all human appearance, have been made to study the Scriptures by the preaching of the time; and by that means, through faith and the sprinkling of the blood of Christ, have been reconciled to God.”",
       "claim_text": "William Miller is quoted claiming that many thousands were led to study the Scriptures because of his preaching and were reconciled to God as a result.",
       "claim_type": "attributed_quote",
-      "entities": ["William Miller"],
+      "entities": [
+        "William Miller"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "From Miller's 'Apology and Defence' (1845) as cited by White. Wellcome independently uses the same 'many thousands' language of the movement's effect. Exact string not re-located verbatim in local OCR, hence medium confidence; content is fully consistent with Miller's documented writings. source_quality: academic-partial.",
         "sources": [
-          {"title": "I. C. Wellcome, History of the Second Advent Message (1874) / Miller, Apology and Defence (1845)", "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "I. C. Wellcome, History of the Second Advent Message (1874) / Miller, Apology and Defence (1845)",
+            "url": "file://scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1489,14 +1974,21 @@
       "quote": "“I have never courted the smiles of the proud, nor quailed when the world frowned. I shall not now purchase their favor, nor shall I go beyond duty to tempt their hate. I shall never seek my life at their hands, nor shrink, I hope, from losing it, if God in His good providence so orders.”",
       "claim_text": "William Miller is quoted stating that he had never courted approval from the powerful nor feared the world's disapproval.",
       "claim_type": "attributed_quote",
-      "entities": ["William Miller"],
+      "entities": [
+        "William Miller"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "From Miller's 'Apology and Defence' (1845) as cited by White through Bliss; consistent with his documented resolve under public ridicule. Exact string not re-located verbatim in local OCR, hence medium confidence. source_quality: academic-partial.",
         "sources": [
-          {"title": "S. Bliss, Memoirs of William Miller (1853) / Miller, Apology and Defence (1845)", "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853) / Miller, Apology and Defence (1845)",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1506,7 +1998,9 @@
       "quote": "“Cast not away therefore your confidence, which hath great recompense of reward. For ye have need of patience, that, after ye have done the will of God, ye might receive the promise. For yet a little while, and He that shall come will come, and will not tarry. Now the just shall live by faith: but if any man draw back, My soul shall have no pleasure in him. But we are not of them who draw back unto perdition; but of them that believe to the saving of the soul.”",
       "claim_text": "The Epistle to the Hebrews (10:35-39) contains this text as quoted here in the King James Version.",
       "claim_type": "attributed_quote",
-      "entities": ["Epistle to the Hebrews"],
+      "entities": [
+        "Epistle to the Hebrews"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",

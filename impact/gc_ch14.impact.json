@@ -3727,6 +3727,22 @@
         "impact_score": 4,
         "narrative_arc": "reformation",
         "reasoning": "Scored as a high-stakes disputed item per instructions, though genuine members-vs-adherents ambiguity (not confirmed error) keeps severity low: documented Methodist Society membership was ~135,000 at Wesley's death, but 'avowed adherents' as a looser count of hearers/sympathizers is not implausible at a higher order of magnitude, and the figure descends from older Methodist historiography rather than fabrication. It is a closing decorative statistic capping the Wesley biography. Counterfactual: deleting or correcting the number changes nothing about the chapter's claims regarding Wesley's doctrine, his conflict with Antinomian theology, or his role in reviving 'the great doctrine of justification by faith' — the chapter's actual argument is untouched."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D19",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "probable",
+        "framing_gap": 2,
+        "failing_component_kind": "fact",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 3,
+        "centrality": 2,
+        "load_bearing": false,
+        "impact_score": 6,
+        "narrative_arc": "reformation",
+        "reasoning": "Fact failure: the ruling finds the printed 'more than half a million souls' figure improbable as an 'avowed adherents' count -- documented Methodist society membership at Wesley's death totaled roughly 120,000-150,000 transatlantic, and even the loosest peer-reviewed reconstruction of the wider hearer community (Field, JEH 2012, back-projected to 1791) reaches only about 350,000-450,000, short of the stated threshold, so the sentence's own 'avowed' qualifier is what defeats the multiplier defense. Framing_gap=2 shows the weakened, unquantified version (~135,000 enrolled members plus a much larger penumbra of adherents and hearers, 'one of the largest religious movements of the age') survives at probable -- an absoluteness/quantifier failure over a real large-scale phenomenon, analogous to Phase 1's anachronistic treatment, though per the adjudication rule this does not by itself lower severity since the reader meets only the printed half-million absolute. The sentence is the closing capstone statistic of the Wesley biography, not part of the chapter's actual argument (the Tyndale-to-Knox sola scriptura lineage and Wesley's defense of the moral law against Antinomianism) or the book's Reformation-Millerite-sanctuary-Sabbath thesis chain; deleting or correcting the number leaves every doctrinal claim in the chapter fully intact, so load_bearing is false."
       }
     },
     {

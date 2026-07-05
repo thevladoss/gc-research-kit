@@ -11,7 +11,9 @@
       "quote": "The work of Sabbath reform to be accomplished in the last days is foretold in the prophecy of Isaiah",
       "claim_text": "A future work of Sabbath reform to be accomplished in the last days is foretold in the book of Isaiah.",
       "claim_type": "theological",
-      "entities": ["Isaiah"],
+      "entities": [
+        "Isaiah"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -26,7 +28,9 @@
       "quote": "“Thus saith the Lord, Keep ye judgment, and do justice: for My salvation is near to come, and My righteousness to be revealed. Blessed is the man that doeth this, and the son of man that layeth hold on it; that keepeth the Sabbath from polluting it, and keepeth his hand from doing any evil.”",
       "claim_text": "The book of Isaiah contains the passage beginning \"Thus saith the Lord, Keep ye judgment, and do justice... that keepeth the Sabbath from polluting it, and keepeth his hand from doing any evil\" (cf. Isaiah 56:1-2).",
       "claim_type": "attributed_quote",
-      "entities": ["Isaiah"],
+      "entities": [
+        "Isaiah"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -41,7 +45,9 @@
       "quote": "“The sons of the stranger, that join themselves to the Lord, to serve Him, and to love the name of the Lord, to be His servants, every one that keepeth the Sabbath from polluting it, and taketh hold of My covenant; even them will I bring to My holy mountain, and make them joyful in My house of prayer.”",
       "claim_text": "The book of Isaiah contains the passage \"The sons of the stranger, that join themselves to the Lord... even them will I bring to My holy mountain, and make them joyful in My house of prayer\" (cf. Isaiah 56:6-7).",
       "claim_type": "attributed_quote",
-      "entities": ["Isaiah"],
+      "entities": [
+        "Isaiah"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -71,7 +77,9 @@
       "quote": "“The Lord God which gathereth the outcasts of Israel saith, Yet will I gather others to him, beside those that are gathered unto him.”",
       "claim_text": "The book of Isaiah contains the statement \"The Lord God which gathereth the outcasts of Israel saith, Yet will I gather others to him, beside those that are gathered unto him\" (cf. Isaiah 56:8).",
       "claim_type": "attributed_quote",
-      "entities": ["Isaiah"],
+      "entities": [
+        "Isaiah"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -131,7 +139,9 @@
       "quote": "The Lord commands by the same prophet, “Bind up the testimony, seal the law among My disciples.”",
       "claim_text": "The book of Isaiah contains the command \"Bind up the testimony, seal the law among My disciples\" (cf. Isaiah 8:16).",
       "claim_type": "attributed_quote",
-      "entities": ["Isaiah"],
+      "entities": [
+        "Isaiah"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -169,7 +179,13 @@
         "confidence": "medium",
         "rationale": "Control-sample check of a needs_verification:false claim that smuggles a checkable textual assertion about Exodus 20. The kernel holds: the divine name (\"the LORD thy God\") recurs in several commandments, but only the fourth commandment (Ex 20:8-11) supplies the Lawgiver's title and basis of authority — Creator of \"heaven and earth, the sea, and all that in them is.\" Thus only the fourth couples name and title/office together. The wider theological inference (that this makes it the law's \"seal\") remains interpretive and is not adjudicated here.",
         "sources": [
-          {"title": "KJV Exodus 20:2-17 (Decalogue text)", "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-20/", "source_class": "primary", "supports_verdict": true, "note": "Only the fourth commandment identifies God as Creator of heaven and earth."}
+          {
+            "title": "KJV Exodus 20:2-17 (Decalogue text)",
+            "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-20/",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Only the fourth commandment identifies God as Creator of heaven and earth."
+          }
         ]
       }
     },
@@ -209,7 +225,9 @@
       "quote": "When the Sabbath was changed by the papal power, the seal was taken from the law.",
       "claim_text": "The papacy changed the Sabbath (from the seventh day to Sunday), thereby removing the 'seal' from God's law.",
       "claim_type": "causal",
-      "entities": ["Papacy"],
+      "entities": [
+        "Papacy"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "disputed",
@@ -217,9 +235,27 @@
         "rationale": "source_quality: academic-full. The causal claim that the Sabbath was changed \"by the papal power\" is genuinely disputed among modern scholars. Bacchiocchi (Pontifical Gregorian Univ. Press) argues the Church of Rome played a decisive leadership role in the 2nd-century promotion of Sunday and belittling of the Sabbath (anti-Judaic motive), which supports the causal direction White asserts. Mainstream scholarship, however, holds the shift was a gradual, regionally variable process across the 2nd-4th centuries (with Constantine's 321 civil law and centuries of dual observance), not a discrete decree of \"papal power\" — a framing anachronistic for the pre-Nicene period. The theological \"seal\" corollary is non-empirical.",
         "modern_consensus": "Sunday's rise was gradual and multi-causal; a developed \"papacy\" did not yet exist in the 2nd century when Sunday worship spread. Rome's influence is affirmed by some (Bacchiocchi) but a single papal act is rejected.",
         "sources": [
-          {"title": "S. Bacchiocchi, From Sabbath to Sunday, ch.6 'The Church of Rome and the Sabbath' (Pontifical Gregorian Univ. Press, 1977)", "url": "local:scholarship/bacchiocchi-from-sabbath-to-sunday-ch6.txt", "source_class": "academic", "supports_verdict": true, "note": "Argues the Church of Rome led measures to wean Christians off Sabbath veneration in the 2nd c.; supports a Roman-church role but locates it before any developed papacy."},
-          {"title": "When Did Sunday Become the Primary Christian Day of Worship (fact-check summary of scholarly consensus)", "url": "https://factually.co/fact-checks/religion/when-did-sunday-replace-saturday-primary-christian-worship-398b0b", "source_class": "other", "supports_verdict": true, "note": "Consensus: transition gradual and regionally variable, not a one-time switch or single decree."},
-          {"title": "J.N. Andrews, History of the Sabbath (1873), 'The Sabbath in the Dark Ages'", "url": "local:scholarship/andrews-history-of-the-sabbath-1873.txt", "source_class": "other", "supports_verdict": true, "note": "Period source behind White: attributes suppression of the Sabbath to the Roman pontiff/papal power."}
+          {
+            "title": "S. Bacchiocchi, From Sabbath to Sunday, ch.6 'The Church of Rome and the Sabbath' (Pontifical Gregorian Univ. Press, 1977)",
+            "url": "local:scholarship/bacchiocchi-from-sabbath-to-sunday-ch6.txt",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Argues the Church of Rome led measures to wean Christians off Sabbath veneration in the 2nd c.; supports a Roman-church role but locates it before any developed papacy."
+          },
+          {
+            "title": "When Did Sunday Become the Primary Christian Day of Worship (fact-check summary of scholarly consensus)",
+            "url": "https://factually.co/fact-checks/religion/when-did-sunday-replace-saturday-primary-christian-worship-398b0b",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Consensus: transition gradual and regionally variable, not a one-time switch or single decree."
+          },
+          {
+            "title": "J.N. Andrews, History of the Sabbath (1873), 'The Sabbath in the Dark Ages'",
+            "url": "local:scholarship/andrews-history-of-the-sabbath-1873.txt",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Period source behind White: attributes suppression of the Sabbath to the Roman pontiff/papal power."
+          }
         ]
       },
       "impact": {
@@ -229,6 +265,22 @@
         "impact_score": 15,
         "narrative_arc": "doctrinal",
         "reasoning": "The claim pins a discrete agent ('papal power') on the Sabbath-to-Sunday shift; Bacchiocchi's academic study supports a Roman-church leadership role but locates it in the pre-Nicene 2nd century, before any developed papacy existed, and mainstream scholarship treats the change as gradual and multi-causal rather than a datable papal act. This single sentence supplies the causal engine for the chapter's entire 'seal was taken from the law' argument (paragraphs 3-4), and it is the doctrinal claim on which the book's whole Sabbath-vs-Sunday hinge ultimately rests, so centrality is maximal. Counterfactual: delete the specific 'papal power' attribution and the chapter's practical exhortation to restore the Sabbath still stands on the undisputed historical fact that Sunday displaced the seventh day over time — the polemical villain is lost but the call to reform is not, so the chapter's argument does not structurally collapse; not load-bearing."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D02",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "probable",
+        "framing_gap": 2,
+        "failing_component_kind": "fact",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 3,
+        "centrality": 5,
+        "load_bearing": false,
+        "impact_score": 15,
+        "narrative_arc": "doctrinal",
+        "reasoning": "Fact failure: the ruling finds 'improbable' the as-written claim that the papacy, as an institution, enacted a discrete change of the Sabbath to Sunday; the displacement was gradual, multi-causal, and partly Eastern (Laodicea canon 29), predating any developed papacy, per the ruling's rationale. Framing_gap=2: at the weakened level ('probable') Roman ecclesiastical leadership in the displacement (Bacchiocchi's Saturday-fast evidence) survives, so the substance of an anti-Sabbath Roman narrative is not baseless -- only the printed sentence's single-institutional-agent absolute fails. This is the independent evidentiary anchor of the GC-26-014/GC-26-025 pair and functions as the causal engine of the chapter's 'seal was taken from the law' argument, giving it maximal centrality for the book's Sabbath-vs-Sunday final-test thesis; it remains not load-bearing because deleting the specific papal-agency attribution still leaves the chapter's call to restore the Sabbath standing on the undisputed fact that Sunday displaced the seventh day over time."
       }
     },
     {
@@ -252,7 +304,9 @@
       "quote": "“To the law and to the testimony.”",
       "claim_text": "The book of Isaiah contains the phrase \"To the law and to the testimony\" (cf. Isaiah 8:20).",
       "claim_type": "attributed_quote",
-      "entities": ["Isaiah"],
+      "entities": [
+        "Isaiah"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -282,7 +336,9 @@
       "quote": "Says the prophet, “If they speak not according to this word, it is because there is no light in them.”",
       "claim_text": "The book of Isaiah contains the statement \"If they speak not according to this word, it is because there is no light in them\" (cf. Isaiah 8:20).",
       "claim_type": "attributed_quote",
-      "entities": ["Isaiah"],
+      "entities": [
+        "Isaiah"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -297,7 +353,9 @@
       "quote": "Again, the command is given, “Cry aloud, spare not, lift up thy voice like a trumpet, and show My people their transgression, and the house of Jacob their sins.”",
       "claim_text": "The book of Isaiah contains the command \"Cry aloud, spare not, lift up thy voice like a trumpet, and show My people their transgression, and the house of Jacob their sins\" (cf. Isaiah 58:1).",
       "claim_type": "attributed_quote",
-      "entities": ["Isaiah"],
+      "entities": [
+        "Isaiah"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -327,7 +385,9 @@
       "quote": "He declares further, “Yet they seek Me daily, and delight to know My ways, as a nation that did righteousness, and forsook not the ordinance of their God.”",
       "claim_text": "The book of Isaiah contains the statement \"Yet they seek Me daily, and delight to know My ways, as a nation that did righteousness, and forsook not the ordinance of their God\" (cf. Isaiah 58:2).",
       "claim_type": "attributed_quote",
-      "entities": ["Isaiah"],
+      "entities": [
+        "Isaiah"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -357,7 +417,9 @@
       "quote": "“Thou shalt raise up the foundations of many generations; and thou shalt be called, The repairer of the breach, The restorer of paths to dwell in. If thou turn away thy foot from the Sabbath, from doing thy pleasure on My holy day; and call the Sabbath a delight, the holy of the Lord, honorable; and shalt honor Him, not doing thine own ways, nor finding thine own pleasure, nor speaking thine own words: then shalt thou delight thyself in the Lord.”",
       "claim_text": "The book of Isaiah contains the passage \"Thou shalt raise up the foundations of many generations... then shalt thou delight thyself in the Lord\" (cf. Isaiah 58:12-14).",
       "claim_type": "attributed_quote",
-      "entities": ["Isaiah"],
+      "entities": [
+        "Isaiah"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -387,7 +449,9 @@
       "quote": "The breach was made in the law of God when the Sabbath was changed by the Roman power.",
       "claim_text": "The Roman power changed the Sabbath, thereby making a 'breach' in the law of God.",
       "claim_type": "causal",
-      "entities": ["Papacy"],
+      "entities": [
+        "Papacy"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "disputed",
@@ -395,9 +459,27 @@
         "rationale": "source_quality: academic-full. Parallel to GC-26-014. Whether \"the Roman power\" changed the Sabbath is a genuine historiographical dispute: Bacchiocchi (Gregorian UP) assigns the Church of Rome a leadership role in promoting Sunday and degrading the Sabbath in the 2nd century; mainstream scholarship treats the change as gradual, multi-causal, and regionally variable rather than an act of \"Roman power,\" and dual Sabbath/Sunday observance persisted for centuries. The \"breach in the law\" language is a theological corollary.",
         "modern_consensus": "The seventh-day-to-Sunday transition was a centuries-long, uneven process; no single Roman/papal act effected it, though Rome's influence is affirmed by some scholars.",
         "sources": [
-          {"title": "S. Bacchiocchi, From Sabbath to Sunday, ch.6 (Pontifical Gregorian Univ. Press, 1977)", "url": "local:scholarship/bacchiocchi-from-sabbath-to-sunday-ch6.txt", "source_class": "academic", "supports_verdict": true, "note": "Church of Rome's leadership role in the 2nd-century marginalization of the Sabbath."},
-          {"title": "When Did Sunday Become the Primary Christian Day of Worship (scholarly-consensus summary)", "url": "https://factually.co/fact-checks/religion/when-did-sunday-replace-saturday-primary-christian-worship-398b0b", "source_class": "other", "supports_verdict": true, "note": "Gradual, regionally variable transition; not a single decree."},
-          {"title": "J.N. Andrews, History of the Sabbath (1873)", "url": "local:scholarship/andrews-history-of-the-sabbath-1873.txt", "source_class": "other", "supports_verdict": true, "note": "White's period source attributing the change to Roman/papal power."}
+          {
+            "title": "S. Bacchiocchi, From Sabbath to Sunday, ch.6 (Pontifical Gregorian Univ. Press, 1977)",
+            "url": "local:scholarship/bacchiocchi-from-sabbath-to-sunday-ch6.txt",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Church of Rome's leadership role in the 2nd-century marginalization of the Sabbath."
+          },
+          {
+            "title": "When Did Sunday Become the Primary Christian Day of Worship (scholarly-consensus summary)",
+            "url": "https://factually.co/fact-checks/religion/when-did-sunday-replace-saturday-primary-christian-worship-398b0b",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Gradual, regionally variable transition; not a single decree."
+          },
+          {
+            "title": "J.N. Andrews, History of the Sabbath (1873)",
+            "url": "local:scholarship/andrews-history-of-the-sabbath-1873.txt",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "White's period source attributing the change to Roman/papal power."
+          }
         ]
       },
       "impact": {
@@ -407,6 +489,22 @@
         "impact_score": 15,
         "narrative_arc": "doctrinal",
         "reasoning": "Restates GC-26-014's causal claim as a 'breach' made by 'the Roman power'; the same academic tension applies — Bacchiocchi supports a Roman leadership role in the 2nd century, while mainstream scholarship treats the change as gradual and regionally variable, with dual observance lasting centuries. This sentence restates the chapter's central premise (paragraph 3's 'seal' argument echoed via Isaiah 58's 'breach' language), making it a book-level hinge for the Sabbath-vs-Sunday final-test thesis, hence maximal centrality. Counterfactual: without the specific 'Roman power' agency, the chapter's larger claim — that the true Sabbath has been neglected and now needs restoring — still stands on the undisputed historical fact that Sunday supplanted the seventh day; the argument's practical thrust survives even if its polemical attribution of blame does not, so it is not load-bearing for the chapter."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D02",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "probable",
+        "framing_gap": 2,
+        "failing_component_kind": "fact",
+        "chain_inherited": true,
+        "independent_failure_point": "GC-26-014",
+        "severity": 3,
+        "centrality": 5,
+        "load_bearing": false,
+        "impact_score": 15,
+        "narrative_arc": "doctrinal",
+        "reasoning": "Chain-inherited restatement of the GC-26-014 fact failure, not a fresh independent error: the same 'improbable' ruling applies to 'the Roman power' as sole causal agent, for the identical reason -- the Sabbath-to-Sunday shift was gradual, multi-causal, and partly Eastern in origin, with no single documented Roman act changing the day. Framing_gap=2 places the weakened claim ('probable': Roman authority played a central documented role in the displacement) within reach, so the anti-Sabbath substance survives while only the absolute single-agency framing of this Isaiah-58 'breach' restatement fails. Centrality remains maximal since this sentence is the chapter's second statement of the doctrinal engine feeding the book's Sabbath-vs-Sunday hinge, but load_bearing is false because the chapter's practical restoration argument does not require this specific 'Roman power' attribution to survive, given GC-26-014 already supplies (and shares) the same evidentiary weakness."
       }
     },
     {
@@ -430,7 +528,9 @@
       "quote": "Hallowed by the Creator’s rest and blessing, the Sabbath was kept by Adam in his innocence in holy Eden; by Adam, fallen yet repentant, when he was driven from his happy estate.",
       "claim_text": "The Sabbath, hallowed by the Creator's rest and blessing, was kept by Adam both in Eden before the Fall and after his expulsion.",
       "claim_type": "theological",
-      "entities": ["Adam"],
+      "entities": [
+        "Adam"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -445,7 +545,12 @@
       "quote": "It was kept by all the patriarchs, from Abel to righteous Noah, to Abraham, to Jacob.",
       "claim_text": "The Sabbath was kept by all the patriarchs, including Abel, Noah, Abraham, and Jacob.",
       "claim_type": "theological",
-      "entities": ["Abel", "Noah", "Abraham", "Jacob"],
+      "entities": [
+        "Abel",
+        "Noah",
+        "Abraham",
+        "Jacob"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -460,7 +565,10 @@
       "quote": "When the chosen people were in bondage in Egypt, many, in the midst of prevailing idolatry, lost their knowledge of God’s law",
       "claim_text": "During Israel's bondage in Egypt, many of the chosen people lost their knowledge of God's law amid prevailing idolatry.",
       "claim_type": "theological",
-      "entities": ["Israelites", "Egypt"],
+      "entities": [
+        "Israelites",
+        "Egypt"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -475,7 +583,9 @@
       "quote": "but when the Lord delivered Israel, He proclaimed His law in awful grandeur to the assembled multitude, that they might know His will, and fear and obey Him forever.",
       "claim_text": "When the Lord delivered Israel from Egypt, He proclaimed His law in grandeur to the assembled multitude so they would know, fear, and obey Him.",
       "claim_type": "theological",
-      "entities": ["Israelites"],
+      "entities": [
+        "Israelites"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -498,7 +608,13 @@
         "rationale": "source_quality: academic-partial. Read minimally (\"the seventh-day Sabbath has been kept by some continuously since Sinai\"), the bare continuity claim is uncontroversial: the Jewish people have observed the seventh-day Sabbath without interruption from antiquity to the present. Ball's academic study documents an additional Christian Sabbatarian strand emerging from ~1402 and flourishing after the Reformation. The stronger implication of unbroken CHRISTIAN 'faithful-remnant' observance through the medieval West is the disputed part, adjudicated separately under GC-26-032.",
         "modern_consensus": "Continuous Jewish seventh-day observance is undisputed; continuous Christian seventh-day observance is not attested for the medieval Latin West.",
         "sources": [
-          {"title": "Review of B.W. Ball, The Seventh-Day Men (Oxford: Clarendon, 1994), Church History (Cambridge Core)", "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/96092AD8673C270994C38AD7A51C61E7/S0009640700082603a.pdf", "source_class": "academic", "supports_verdict": true, "note": "Standard academic history of post-Reformation Sabbatarianism; first 'modern' Sabbatarian dated ~1402."}
+          {
+            "title": "Review of B.W. Ball, The Seventh-Day Men (Oxford: Clarendon, 1994), Church History (Cambridge Core)",
+            "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/96092AD8673C270994C38AD7A51C61E7/S0009640700082603a.pdf",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Standard academic history of post-Reformation Sabbatarianism; first 'modern' Sabbatarian dated ~1402."
+          }
         ]
       }
     },
@@ -508,7 +624,9 @@
       "quote": "Though the “man of sin” succeeded in trampling under foot God’s holy day, yet even in the period of his supremacy there were, hidden in secret places, faithful souls who paid it honor.",
       "claim_text": "During the period of papal ('man of sin') supremacy, faithful souls hidden in secret places continued to honor the seventh-day Sabbath.",
       "claim_type": "event",
-      "entities": ["Papacy"],
+      "entities": [
+        "Papacy"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "anachronistic",
@@ -517,9 +635,27 @@
         "modern_consensus": "No documented continuous seventh-day Sabbath-keeping remnant through the medieval Latin West; the Waldensian-Sabbatarian identification is unsubstantiated.",
         "period_historiography": "J.N. Andrews, History of the Sabbath (1873), devotes a chapter to 'The Sabbath retained through the Dark Ages by those who were not in the communion of the Romish church,' citing Waldenses, Passaginians, Ethiopians and others as seventh-day observers — the direct basis for White's statement.",
         "sources": [
-          {"title": "J.N. Andrews, History of the Sabbath (1873), 'The Sabbath in the Dark Ages'", "url": "local:scholarship/andrews-history-of-the-sabbath-1873.txt", "source_class": "other", "supports_verdict": true, "note": "White's period source asserting a hidden Sabbatarian remnant through the Dark Ages."},
-          {"title": "Sabbath in seventh-day churches (survey of medieval Sabbatarian claims)", "url": "https://en.wikipedia.org/wiki/Sabbath_in_seventh-day_churches", "source_class": "encyclopedia", "supports_verdict": true, "note": "Notes that the claim of Waldensian seventh-day Sabbatarianism is historically contested and largely unsubstantiated."},
-          {"title": "Review of B.W. Ball, The Seventh-Day Men (Oxford: Clarendon, 1994)", "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/96092AD8673C270994C38AD7A51C61E7/S0009640700082603a.pdf", "source_class": "academic", "supports_verdict": true, "note": "Traces the documented Sabbatarian movement to c.1402/post-Reformation, not a continuous medieval remnant."}
+          {
+            "title": "J.N. Andrews, History of the Sabbath (1873), 'The Sabbath in the Dark Ages'",
+            "url": "local:scholarship/andrews-history-of-the-sabbath-1873.txt",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "White's period source asserting a hidden Sabbatarian remnant through the Dark Ages."
+          },
+          {
+            "title": "Sabbath in seventh-day churches (survey of medieval Sabbatarian claims)",
+            "url": "https://en.wikipedia.org/wiki/Sabbath_in_seventh-day_churches",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Notes that the claim of Waldensian seventh-day Sabbatarianism is historically contested and largely unsubstantiated."
+          },
+          {
+            "title": "Review of B.W. Ball, The Seventh-Day Men (Oxford: Clarendon, 1994)",
+            "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/96092AD8673C270994C38AD7A51C61E7/S0009640700082603a.pdf",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Traces the documented Sabbatarian movement to c.1402/post-Reformation, not a continuous medieval remnant."
+          }
         ]
       },
       "defense": {
@@ -550,8 +686,20 @@
         "rationale": "source_quality: academic-full. Well supported. Ball's Oxford/Clarendon monograph documents a continuous English-and-Welsh Sabbatarian ('Seventh-day Men') movement from the early 17th century onward; the Mill Yard church (London, c.1650) and the Seventh Day Baptist denomination (America from 1671) provide an unbroken institutional line of seventh-day observers from the Reformation era to the present, later joined by Seventh-day Adventists. The 'some in every generation since the Reformation' claim is historically defensible.",
         "modern_consensus": "A continuous Sabbatarian presence in Protestantism from the 17th century (Seventh Day Baptists) forward is well documented.",
         "sources": [
-          {"title": "Review of B.W. Ball, The Seventh-Day Men: Sabbatarians in England and Wales 1600-1800 (Oxford: Clarendon, 1994), Church History", "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/96092AD8673C270994C38AD7A51C61E7/S0009640700082603a.pdf", "source_class": "academic", "supports_verdict": true, "note": "First fully documented history of the post-Reformation Sabbatarian movement."},
-          {"title": "Seventh Day Baptists", "url": "https://en.wikipedia.org/wiki/Seventh_Day_Baptists", "source_class": "encyclopedia", "supports_verdict": true, "note": "Mill Yard church c.1650; first American SDB church 1671; continuous denomination since."}
+          {
+            "title": "Review of B.W. Ball, The Seventh-Day Men: Sabbatarians in England and Wales 1600-1800 (Oxford: Clarendon, 1994), Church History",
+            "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/96092AD8673C270994C38AD7A51C61E7/S0009640700082603a.pdf",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "First fully documented history of the post-Reformation Sabbatarian movement."
+          },
+          {
+            "title": "Seventh Day Baptists",
+            "url": "https://en.wikipedia.org/wiki/Seventh_Day_Baptists",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Mill Yard church c.1650; first American SDB church 1671; continuous denomination since."
+          }
         ]
       }
     },
@@ -569,8 +717,20 @@
         "confidence": "medium",
         "rationale": "source_quality: academic-partial. The persecution/reproach element is supported for the post-Reformation Sabbatarians documented by Ball: the 'Seventh-day Men' faced legal penalties and social opprobrium in 17th-century England (e.g., imprisonment; Francis Bampfield died in Newgate, 1684). Their sustained polemical output ('constant testimony') to the fourth commandment's perpetuity is likewise attested. Confidence is medium because 'constant testimony ... amid persecution' is a broad characterization, strongest for the post-Reformation period and weaker for any claimed medieval continuity (see GC-26-032).",
         "sources": [
-          {"title": "Review of B.W. Ball, The Seventh-Day Men (Oxford: Clarendon, 1994), Church History", "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/96092AD8673C270994C38AD7A51C61E7/S0009640700082603a.pdf", "source_class": "academic", "supports_verdict": true, "note": "Documents Sabbatarian nonconformists, their writings and the penalties they incurred."},
-          {"title": "Seventh Day Baptists", "url": "https://en.wikipedia.org/wiki/Seventh_Day_Baptists", "source_class": "encyclopedia", "supports_verdict": true, "note": "17th-century Sabbatarian leaders imprisoned/penalized for their observance."}
+          {
+            "title": "Review of B.W. Ball, The Seventh-Day Men (Oxford: Clarendon, 1994), Church History",
+            "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/96092AD8673C270994C38AD7A51C61E7/S0009640700082603a.pdf",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Documents Sabbatarian nonconformists, their writings and the penalties they incurred."
+          },
+          {
+            "title": "Seventh Day Baptists",
+            "url": "https://en.wikipedia.org/wiki/Seventh_Day_Baptists",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "17th-century Sabbatarian leaders imprisoned/penalized for their observance."
+          }
         ]
       }
     },
@@ -640,15 +800,29 @@
       "quote": "Those who received the light concerning the sanctuary and the immutability of the law of God, were filled with joy and wonder, as they saw the beauty and harmony of the system of truth that opened to their understanding.",
       "claim_text": "Early Sabbatarian Adventists who accepted the sanctuary doctrine and the immutability of God's law were filled with joy and wonder at the perceived harmony of this system of belief.",
       "claim_type": "event",
-      "entities": ["Seventh-day Adventists"],
+      "entities": [
+        "Seventh-day Adventists"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "source_quality: academic-partial. Characterization of the subjective response of the small post-1844 Sabbatarian group (Bates, the Whites, Crosier) to the new sanctuary/law synthesis. This matches the documented enthusiasm surrounding Crosier's 1845-46 sanctuary articles, out of which the Sabbatarian Adventist body cohered. A partisan self-description, but consistent with the movement's own contemporaneous accounts; not contradicted by scholarship.",
         "sources": [
-          {"title": "G. Land, 'The Historians and the Millerites,' AUSS 32/3 (1994)", "url": "local:scholarship/land-historians-and-millerites-auss-1994.pdf", "source_class": "academic", "supports_verdict": true, "note": "Historiographical survey of the post-1844 Sabbatarian development (cited as academic corroboration; PDF is an image scan)."},
-          {"title": "Millerism", "url": "https://en.wikipedia.org/wiki/Millerism", "source_class": "encyclopedia", "supports_verdict": true, "note": "Post-1844 Sabbatarian group and its consolidation around the sanctuary doctrine."}
+          {
+            "title": "G. Land, 'The Historians and the Millerites,' AUSS 32/3 (1994)",
+            "url": "local:scholarship/land-historians-and-millerites-auss-1994.pdf",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Historiographical survey of the post-1844 Sabbatarian development (cited as academic corroboration; PDF is an image scan)."
+          },
+          {
+            "title": "Millerism",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Post-1844 Sabbatarian group and its consolidation around the sanctuary doctrine."
+          }
         ]
       }
     },
@@ -658,7 +832,9 @@
       "quote": "They desired that the light which appeared to them so precious might be imparted to all Christians; and they could not but believe that it would be joyfully accepted.",
       "claim_text": "Early Sabbatarian Adventists desired to share their sanctuary and Sabbath doctrine with all Christians, believing it would be joyfully accepted.",
       "claim_type": "event",
-      "entities": ["Seventh-day Adventists"],
+      "entities": [
+        "Seventh-day Adventists"
+      ],
       "needs_verification": true,
       "extractor_note": "Borderline: describes subjective beliefs/expectations of a historical group; included per completeness rule.",
       "verification": {
@@ -666,8 +842,20 @@
         "confidence": "medium",
         "rationale": "source_quality: academic-partial. Describes the evangelistic intent of early Sabbatarian Adventists. Consistent with the group's documented efforts to publish and propagate its message (the 'Present Truth'/'Review' papers from 1849 onward). A subjective/expectational statement, but not contradicted by the historical record.",
         "sources": [
-          {"title": "Millerism", "url": "https://en.wikipedia.org/wiki/Millerism", "source_class": "encyclopedia", "supports_verdict": true, "note": "Sabbatarian Adventists sought to spread their doctrine after 1844."},
-          {"title": "G. Land, 'The Historians and the Millerites,' AUSS 32/3 (1994)", "url": "local:scholarship/land-historians-and-millerites-auss-1994.pdf", "source_class": "academic", "supports_verdict": true, "note": "Academic survey of the movement's post-1844 development."}
+          {
+            "title": "Millerism",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Sabbatarian Adventists sought to spread their doctrine after 1844."
+          },
+          {
+            "title": "G. Land, 'The Historians and the Millerites,' AUSS 32/3 (1994)",
+            "url": "local:scholarship/land-historians-and-millerites-auss-1994.pdf",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Academic survey of the movement's post-1844 development."
+          }
         ]
       }
     },
@@ -684,7 +872,13 @@
         "confidence": "medium",
         "rationale": "Control-sample check of a needs_verification:false claim. The interpretive generalization carries a checkable kernel: the seventh-day Sabbath message, which set adherents at odds with the Sunday-keeping majority, met widespread resistance among professing Christians in the post-1844 milieu. That resistance is well documented (the Sabbatarian branch remained a small minority), so the kernel holds. The moral framing ('not welcome ... who claimed to be followers of Christ') remains interpretive.",
         "sources": [
-          {"title": "Millerism / post-1844 Sabbatarian minority", "url": "https://en.wikipedia.org/wiki/Millerism", "source_class": "encyclopedia", "supports_verdict": true, "note": "Seventh-day Sabbath doctrine adopted by only a small fraction of Adventists; majority resisted."}
+          {
+            "title": "Millerism / post-1844 Sabbatarian minority",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Seventh-day Sabbath doctrine adopted by only a small fraction of Adventists; majority resisted."
+          }
         ]
       }
     },
@@ -694,15 +888,29 @@
       "quote": "Obedience to the fourth commandment required a sacrifice from which the majority drew back.",
       "claim_text": "The majority of Adventists who encountered the Sabbath (fourth commandment) doctrine drew back from the sacrifice its observance required.",
       "claim_type": "event",
-      "entities": ["Seventh-day Adventists"],
+      "entities": [
+        "Seventh-day Adventists"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "source_quality: academic-partial. Factually the seventh-day Sabbath was accepted by only a minority of post-Disappointment Adventists; the great majority did not adopt it. 'Drew back from the sacrifice' is a value-laden framing of that documented numerical fact. The underlying claim (majority did not embrace seventh-day observance) is well supported.",
         "sources": [
-          {"title": "Millerism", "url": "https://en.wikipedia.org/wiki/Millerism", "source_class": "encyclopedia", "supports_verdict": true, "note": "Sabbatarian branch was a small minority of the fragmented movement."},
-          {"title": "Great Disappointment", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true, "note": "Most Adventists did not join the Sabbatarian group."}
+          {
+            "title": "Millerism",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Sabbatarian branch was a small minority of the fragmented movement."
+          },
+          {
+            "title": "Great Disappointment",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Most Adventists did not join the Sabbatarian group."
+          }
         ]
       }
     },
@@ -735,7 +943,13 @@
         "confidence": "medium",
         "rationale": "This is a composite rhetorical quotation ('Said they'), not a verbatim citation of any named person or document — so a misquotation verdict would be inappropriate. Evaluated as a characterization of period arguments, the objections it dramatizes (Sunday as long tradition; appeal to the good deaths of Sunday-keeping forebears; fear of isolation from the wider Christian world) match the standard traditionalist case against seventh-day observance in the 19th-century Adventist debates. No evidence of fabrication; the representation is fair.",
         "sources": [
-          {"title": "Millerism / post-1844 Sabbath debates", "url": "https://en.wikipedia.org/wiki/Millerism", "source_class": "encyclopedia", "supports_verdict": true, "note": "Tradition-and-majority arguments were the common objection to seventh-day observance."}
+          {
+            "title": "Millerism / post-1844 Sabbath debates",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Tradition-and-majority arguments were the common objection to seventh-day observance."
+          }
         ]
       }
     },
@@ -745,7 +959,10 @@
       "quote": "It was by similar arguments that the Jews endeavored to justify their rejection of Christ.",
       "claim_text": "Jews used arguments similar to the 'our fathers always did it this way' reasoning to justify their rejection of Christ.",
       "claim_type": "causal",
-      "entities": ["Jews", "Jesus Christ"],
+      "entities": [
+        "Jews",
+        "Jesus Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -760,7 +977,10 @@
       "quote": "So, in the time of Luther, papists reasoned that true Christians had died in the Catholic faith, and therefore that religion was sufficient for salvation.",
       "claim_text": "In Martin Luther's time, Catholic (papist) opponents of the Reformation argued that since true Christians had died in the Catholic faith, that faith was sufficient for salvation.",
       "claim_type": "event",
-      "entities": ["Martin Luther", "Catholic Church"],
+      "entities": [
+        "Martin Luther",
+        "Catholic Church"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -782,7 +1002,13 @@
         "confidence": "medium",
         "rationale": "That opponents advanced the antiquity-and-universality-of-Sunday argument is both plausible and, on its own terms, factually accurate: Sunday had indeed been the predominant Christian day of worship for many centuries. The characterization of the objection is fair and uncontested.",
         "sources": [
-          {"title": "Origin of Sunday observance (scholarly-consensus summary)", "url": "https://factually.co/fact-checks/religion/when-did-sunday-replace-saturday-primary-christian-worship-398b0b", "source_class": "other", "supports_verdict": true, "note": "Sunday widespread as the primary Christian worship day from the 2nd century onward."}
+          {
+            "title": "Origin of Sunday observance (scholarly-consensus summary)",
+            "url": "https://factually.co/fact-checks/religion/when-did-sunday-replace-saturday-primary-christian-worship-398b0b",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Sunday widespread as the primary Christian worship day from the 2nd century onward."
+          }
         ]
       }
     },
@@ -846,7 +1072,13 @@
         "confidence": "low",
         "rationale": "The verifiable kernel — that mainstream clergy publicly countered Sabbatarian preaching with alternative interpretations of scripture — is documented in the antebellum Sabbath controversies. The pejorative characterization ('perverted the word of God,' 'to quiet inquiring minds') imputes bad faith and is an unverifiable value judgment, hence low confidence.",
         "sources": [
-          {"title": "Millerism / Sabbath controversy", "url": "https://en.wikipedia.org/wiki/Millerism", "source_class": "encyclopedia", "supports_verdict": true, "note": "Clergy generally opposed the seventh-day Sabbath teaching."}
+          {
+            "title": "Millerism / Sabbath controversy",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Clergy generally opposed the seventh-day Sabbath teaching."
+          }
         ]
       }
     },
@@ -878,7 +1110,13 @@
         "confidence": "low",
         "rationale": "The kernel — that opponents appealed to patristic tradition and church authority in arguing against seventh-day observance — is consistent with the anti-Sabbatarian case, which characteristically invoked the practice of the early church and long ecclesiastical custom. 'Sophistry' is a partisan characterization. Low confidence given the generic, unattributed framing.",
         "sources": [
-          {"title": "Origin of Sunday observance (scholarly summary)", "url": "https://factually.co/fact-checks/religion/when-did-sunday-replace-saturday-primary-christian-worship-398b0b", "source_class": "other", "supports_verdict": true, "note": "Appeals to church tradition/antiquity were the standard defense of Sunday."}
+          {
+            "title": "Origin of Sunday observance (scholarly summary)",
+            "url": "https://factually.co/fact-checks/religion/when-did-sunday-replace-saturday-primary-christian-worship-398b0b",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Appeals to church tradition/antiquity were the standard defense of Sunday."
+          }
         ]
       }
     },
@@ -888,14 +1126,22 @@
       "quote": "Its advocates were driven to their Bibles to defend the validity of the fourth commandment.",
       "claim_text": "Advocates of the seventh-day Sabbath doctrine relied on scripture alone to defend the validity of the fourth commandment.",
       "claim_type": "event",
-      "entities": ["Seventh-day Adventists"],
+      "entities": [
+        "Seventh-day Adventists"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "Consistent with the documented sola-scriptura method of early Sabbatarian Adventist controversialists (e.g., Joseph Bates, J.N. Andrews), who grounded the seventh-day argument in biblical exegesis of the fourth commandment. Fair and uncontroversial characterization.",
         "sources": [
-          {"title": "Millerism / Sabbatarian Adventism", "url": "https://en.wikipedia.org/wiki/Millerism", "source_class": "encyclopedia", "supports_verdict": true, "note": "Early Sabbatarian Adventists argued the Sabbath from scripture."}
+          {
+            "title": "Millerism / Sabbatarian Adventism",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Early Sabbatarian Adventists argued the Sabbath from scripture."
+          }
         ]
       }
     },
@@ -913,7 +1159,13 @@
         "confidence": "low",
         "rationale": "The kernel — that largely self-taught lay Sabbatarian debaters engaged trained clergy in public disputation — is consistent with the movement's history (many early Adventist leaders lacked formal theological training). The claimed OUTCOME ('withstood,' opponents' 'sophistry powerless') is a partisan verdict on debates that has no neutral scorekeeping, so confidence is low.",
         "sources": [
-          {"title": "Millerism / early Adventist debaters", "url": "https://en.wikipedia.org/wiki/Millerism", "source_class": "encyclopedia", "supports_verdict": true, "note": "Early Sabbatarian Adventist leaders were mostly without formal academic training."}
+          {
+            "title": "Millerism / early Adventist debaters",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Early Sabbatarian Adventist leaders were mostly without formal academic training."
+          }
         ]
       }
     },
@@ -931,7 +1183,13 @@
         "confidence": "medium",
         "rationale": "A composite representative quotation, not a verbatim citation, so no misquotation issue arises. As a characterization of period argument, the appeal-to-authority/appeal-to-majority objection ('the learned reject it, so it must be wrong') is a natural and well-attested line against a small dissenting group; the depiction is fair and unfabricated.",
         "sources": [
-          {"title": "Millerism / Sabbatarian minority", "url": "https://en.wikipedia.org/wiki/Millerism", "source_class": "encyclopedia", "supports_verdict": true, "note": "Seventh-day view held by only a small minority, inviting appeal-to-majority objections."}
+          {
+            "title": "Millerism / Sabbatarian minority",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Seventh-day view held by only a small minority, inviting appeal-to-majority objections."
+          }
         ]
       }
     },
@@ -971,7 +1229,10 @@
       "quote": "The majority of Adventists rejected the truths concerning the sanctuary and the law of God, and many also renounced their faith in the Advent Movement, and adopted unsound and conflicting views of the prophecies which applied to that work.",
       "claim_text": "After the Great Disappointment, the majority of Adventists rejected the sanctuary doctrine and the seventh-day law message, and many renounced their faith in the Advent Movement altogether, adopting varied and conflicting prophetic interpretations.",
       "claim_type": "event",
-      "entities": ["Adventists", "Advent Movement"],
+      "entities": [
+        "Adventists",
+        "Advent Movement"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -979,8 +1240,20 @@
         "rationale": "source_quality: academic-partial. Well supported by Millerite historiography: after 22 Oct 1844 the once-united movement fragmented, most did not accept the Sabbatarian sanctuary/law synthesis (a minority position), and a proliferation of conflicting explanations and re-interpretations of the prophecies ensued, with many abandoning the movement entirely.",
         "modern_consensus": "The post-Disappointment movement fractured into multiple groups with divergent prophetic views; the Sabbatarian sanctuary branch was a minority.",
         "sources": [
-          {"title": "Great Disappointment", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true, "note": "Post-1844 fragmentation; many gave up their beliefs, others advanced conflicting explanations."},
-          {"title": "G. Land, 'The Historians and the Millerites,' AUSS 32/3 (1994)", "url": "local:scholarship/land-historians-and-millerites-auss-1994.pdf", "source_class": "academic", "supports_verdict": true, "note": "Academic survey of post-Disappointment fragmentation."}
+          {
+            "title": "Great Disappointment",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Post-1844 fragmentation; many gave up their beliefs, others advanced conflicting explanations."
+          },
+          {
+            "title": "G. Land, 'The Historians and the Millerites,' AUSS 32/3 (1994)",
+            "url": "local:scholarship/land-historians-and-millerites-auss-1994.pdf",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Academic survey of post-Disappointment fragmentation."
+          }
         ]
       }
     },
@@ -990,15 +1263,29 @@
       "quote": "Some were led into the error of repeatedly fixing upon a definite time for the coming of Christ.",
       "claim_text": "Some Adventists, after 1844, repeatedly set new definite dates for the second coming of Christ.",
       "claim_type": "event",
-      "entities": ["Adventists"],
+      "entities": [
+        "Adventists"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "high",
         "rationale": "source_quality: academic-partial. Documented: after October 1844 various Millerites set successive new dates (April, July, and October 1845, and later), a recurring feature of the movement's fragmentation.",
         "sources": [
-          {"title": "Great Disappointment", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true, "note": "New dates predicted after 1844 (April, July, October 1845, etc.)."},
-          {"title": "Millerism", "url": "https://en.wikipedia.org/wiki/Millerism", "source_class": "encyclopedia", "supports_verdict": true, "note": "Repeated post-1844 date-setting among factions."}
+          {
+            "title": "Great Disappointment",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "New dates predicted after 1844 (April, July, October 1845, etc.)."
+          },
+          {
+            "title": "Millerism",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Repeated post-1844 date-setting among factions."
+          }
         ]
       }
     },
@@ -1023,15 +1310,29 @@
       "quote": "But, turning from the light, they continued to set time after time for the Lord to come, and as often they were disappointed.",
       "claim_text": "Certain Adventists continued repeatedly to set new dates for Christ's return after 1844, and were repeatedly disappointed.",
       "claim_type": "event",
-      "entities": ["Adventists"],
+      "entities": [
+        "Adventists"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "high",
         "rationale": "source_quality: academic-partial. Same well-documented pattern as GC-26-060: successive post-1844 date predictions, each followed by disappointment, are attested in Millerite history.",
         "sources": [
-          {"title": "Great Disappointment", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true, "note": "Successive failed dates after 1844."},
-          {"title": "Millerism", "url": "https://en.wikipedia.org/wiki/Millerism", "source_class": "encyclopedia", "supports_verdict": true, "note": "Repeated date-setting and disappointment among factions."}
+          {
+            "title": "Great Disappointment",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Successive failed dates after 1844."
+          },
+          {
+            "title": "Millerism",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Repeated date-setting and disappointment among factions."
+          }
         ]
       }
     },
@@ -1041,7 +1342,10 @@
       "quote": "When the Thessalonian church received erroneous views concerning the coming of Christ, the apostle Paul counseled them to test their hopes and anticipations carefully by the word of God.",
       "claim_text": "The apostle Paul counseled the church at Thessalonica, which had adopted erroneous views about the timing of Christ's coming, to test their expectations by scripture.",
       "claim_type": "biographical",
-      "entities": ["Paul", "Thessalonica"],
+      "entities": [
+        "Paul",
+        "Thessalonica"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1056,7 +1360,10 @@
       "quote": "He cited them to prophecies revealing the events to take place before Christ should come, and showed that they had no ground to expect Him in their day.",
       "claim_text": "Paul cited the Thessalonians to prophecies of events that must occur before Christ's coming, showing they had no scriptural ground to expect Him in their own lifetime.",
       "claim_type": "biographical",
-      "entities": ["Paul", "Thessalonica"],
+      "entities": [
+        "Paul",
+        "Thessalonica"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1071,7 +1378,9 @@
       "quote": "“Let no man deceive you by any means,”",
       "claim_text": "The apostle Paul wrote \"Let no man deceive you by any means\" in warning the Thessalonians about the timing of Christ's coming (cf. 2 Thessalonians 2:3).",
       "claim_type": "attributed_quote",
-      "entities": ["Paul"],
+      "entities": [
+        "Paul"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1086,14 +1395,22 @@
       "quote": "Many Adventists have felt that unless they could fix their faith upon a definite time for the Lord’s coming, they could not be zealous and diligent in the work of preparation.",
       "claim_text": "Many Adventists believed that fixing a definite date for Christ's return was necessary in order to remain zealous and diligent in preparation.",
       "claim_type": "event",
-      "entities": ["Adventists"],
+      "entities": [
+        "Adventists"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "source_quality: academic-partial. The definite-time expectation was central to Millerite motivation; the persistent date-setting after 1844 reflects exactly this felt need for a fixed date to sustain urgency. A reasonable characterization of the movement's psychology, consistent with its history.",
         "sources": [
-          {"title": "Millerism", "url": "https://en.wikipedia.org/wiki/Millerism", "source_class": "encyclopedia", "supports_verdict": true, "note": "Definite-time expectancy drove Millerite zeal and post-1844 date-setting."}
+          {
+            "title": "Millerism",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Definite-time expectancy drove Millerite zeal and post-1844 date-setting."
+          }
         ]
       }
     },
@@ -1103,14 +1420,22 @@
       "quote": "But as their hopes are again and again excited, only to be destroyed, their faith receives such a shock that it becomes well-nigh impossible for them to be impressed by the great truths of prophecy.",
       "claim_text": "Repeated raising and dashing of date-setting expectations among Adventists caused a shock to their faith that made them resistant to prophetic teaching thereafter.",
       "claim_type": "causal",
-      "entities": ["Adventists"],
+      "entities": [
+        "Adventists"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "low",
         "rationale": "source_quality: academic-partial. The general pattern — that repeated failed predictions produced disillusionment and loss of confidence in prophetic teaching — is broadly consistent with the documented collapse of confidence after the Great Disappointment and later failed dates. The specific psychological causal mechanism is a plausible generalization rather than a precisely measurable historical fact, hence low confidence.",
         "sources": [
-          {"title": "Great Disappointment", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true, "note": "Failed predictions produced widespread disillusionment and loss of momentum."}
+          {
+            "title": "Great Disappointment",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Failed predictions produced widespread disillusionment and loss of momentum."
+          }
         ]
       }
     },
@@ -1135,7 +1460,10 @@
       "quote": "The computation of the prophetic periods on which that message was based, placing the close of the 2300 days in the autumn of 1844, stands without impeachment.",
       "claim_text": "The Millerite computation of prophetic periods, placing the close of the 2300-day prophecy in the autumn of 1844, is accurate and unrefuted.",
       "claim_type": "date",
-      "entities": ["Millerites", "William Miller"],
+      "entities": [
+        "Millerites",
+        "William Miller"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "disputed",
@@ -1143,8 +1471,20 @@
         "rationale": "source_quality: academic-partial (relying on the well-established critical consensus reported in standard Daniel commentaries, e.g. J.J. Collins, Daniel, Hermeneia). The claim that the 2300-days=1844 computation 'stands without impeachment' is far stronger than merely reporting the calculation, and it is not sustained. Mainstream OT scholarship dates Daniel to the 2nd century BC and reads the '2300 evenings and mornings' (Dan 8:14) as the Antiochene desecration of the temple (c.167-164 BC), commonly ~1150 days, rejecting the year-day principle that converts the figure to years. Even within the year-day framework the anchor date is contested: the mainstream date for Artaxerxes' decree/Ezra's return is 458 BC, not the 457 BC Miller required, and Daniel 8's 2300 days are not textually linked to Daniel 9's 70 weeks. Consistent with this project's treatment of the 457-BC anchor in chs. 18/22/23, the underlying calculation is a genuine, ongoing SDA-vs-mainstream dispute; White's 'without impeachment' assertion overstates it, but the matter turns on contested interpretive premises rather than a single demonstrable factual error, so 'disputed' is the calibrated verdict.",
         "modern_consensus": "Critical scholarship reads Dan 8:14 as referring to Antiochus IV (2nd c. BC), rejects the year-day principle, and does not recognize any prophetic period terminating in 1844; the 457-vs-458 BC anchor is itself contested.",
         "sources": [
-          {"title": "Great Disappointment (Miller's 2300-day/457 BC computation and its critique)", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true, "note": "Documents the 457 BC + year-day basis and that the two time-prophecies (Dan 8 and Dan 9) were linked by Miller."},
-          {"title": "Understanding the 2,300 'Evenings and Mornings' of Daniel 8:14 (summarizing the dominant Antiochus/Maccabean reading it contests)", "url": "https://biblearchaeology.org/research/the-daniel-9-24-27-project/4362-understanding-the-2-300-evenings-and-mornings-of-daniel-8-14", "source_class": "apologetic", "supports_verdict": true, "note": "Cited as a position: acknowledges that 'the vast majority of interpreters' identify Dan 8 with Antiochus IV and construe 2300 evening-mornings as ~1150 days, against the year-day/1844 reading."}
+          {
+            "title": "Great Disappointment (Miller's 2300-day/457 BC computation and its critique)",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Documents the 457 BC + year-day basis and that the two time-prophecies (Dan 8 and Dan 9) were linked by Miller."
+          },
+          {
+            "title": "Understanding the 2,300 'Evenings and Mornings' of Daniel 8:14 (summarizing the dominant Antiochus/Maccabean reading it contests)",
+            "url": "https://biblearchaeology.org/research/the-daniel-9-24-27-project/4362-understanding-the-2-300-evenings-and-mornings-of-daniel-8-14",
+            "source_class": "apologetic",
+            "supports_verdict": true,
+            "note": "Cited as a position: acknowledges that 'the vast majority of interpreters' identify Dan 8 with Antiochus IV and construe 2300 evening-mornings as ~1150 days, against the year-day/1844 reading."
+          }
         ]
       },
       "impact": {
@@ -1154,6 +1494,22 @@
         "impact_score": 15,
         "narrative_arc": "millerite",
         "reasoning": "White's assertion that the 2300-day/1844 computation 'stands without impeachment' overstates a genuinely contested calculation: mainstream Danielic scholarship reads Dan 8:14 as referring to Antiochus IV (c.167-164 BC) and rejects the year-day principle outright, and even inside the year-day framework the 457-BC anchor is itself disputed (458 BC in standard chronologies) — the same tension already scored for the sibling claim GC-22-039. Severity is capped at 3 because the computation follows a real, internally consistent 19th-century historicist method rather than being fabricated. Within the chapter, this claim is the pivot of the entire paragraphs-16-21 sub-argument, which exists to defend the legitimacy of the 'first message' (1844) against the discrediting effect of the later, admittedly erroneous, date-settings; without an unimpeachable original 1844 calculation, that distinction between 'sound first message' and 'unsound repetitions' collapses, so it is load-bearing for the chapter's defensive argument and, at the book level, load-bearing for the sanctuary/investigative-judgment doctrine anchored to 1844 — scored consistent with GC-22-039."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D01",
+        "ruling_as_written": "discredited",
+        "ruling_weakened": "well-supported",
+        "framing_gap": 4,
+        "failing_component_kind": "frame",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 4,
+        "centrality": 5,
+        "load_bearing": true,
+        "impact_score": 20,
+        "narrative_arc": "millerite",
+        "reasoning": "Frame failure: the adjudication discredits the epistemic-absolute claim that the 1844 computation 'stands without impeachment,' since it was impeached in print by the Advent Herald editors against Snow in 1844 and remains impeachable today on the 458 BC Ezra-7 dating and the astronomical exclusion of AD 31 as a Friday-Passover year. Framing_gap=4, the maximal gap observed in this chapter: the weakened claim -- that the arithmetic is self-consistent and rested on then-received chronology -- is well-supported, so the computation's execution was not fabricated, only the sentence's claim of absolute invincibility is discredited, a distinct failure class from GC-26-014/025's fact-level causal misattribution. This is an independent failure point with no chain relation to the Sabbath-agency pair, and it remains load-bearing at severity 4 / centrality 5 because paragraphs 16-21 build the entire defense distinguishing the 'sound first message' from later 'unsound' date-settings on precisely this unimpeachability claim, while the book-level sanctuary/investigative-judgment doctrine is anchored to the same 1844 date this sentence purports to certify as beyond challenge."
       }
     },
     {
@@ -1162,14 +1518,22 @@
       "quote": "The repeated efforts to find new dates for the beginning and close of the prophetic periods, and the unsound reasoning necessary to sustain these positions, not only lead minds away from the present truth, but throw contempt upon all efforts to explain the prophecies.",
       "claim_text": "Repeated post-1844 efforts by Adventists to set new prophetic dates, and the unsound reasoning required to sustain them, led minds away from the sanctuary message and brought contempt on prophetic interpretation generally.",
       "claim_type": "causal",
-      "entities": ["Adventists"],
+      "entities": [
+        "Adventists"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "source_quality: academic-partial. The factual core — repeated post-1844 date-setting occurred and discredited prophetic date-preaching in the eyes of many — is consistent with the historiography of the movement's decline in credibility after successive failures. The internal-theology framing ('present truth,' 'unsound reasoning') is denominational; the historical kernel is supportable.",
         "sources": [
-          {"title": "Great Disappointment", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true, "note": "Repeated failed dates brought ridicule on the movement's prophetic claims."}
+          {
+            "title": "Great Disappointment",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Repeated failed dates brought ridicule on the movement's prophetic claims."
+          }
         ]
       }
     },
@@ -1194,7 +1558,10 @@
       "quote": "After the time has passed, he excites ridicule and contempt of its advocates, and thus casts reproach upon the great Advent Movement of 1843 and 1844.",
       "claim_text": "The Advent Movement spanned 1843 and 1844, and subsequent failed date-setting brought ridicule and reproach upon it.",
       "claim_type": "date",
-      "entities": ["Advent Movement", "William Miller"],
+      "entities": [
+        "Advent Movement",
+        "William Miller"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1239,7 +1606,10 @@
       "quote": "God led His people in the Advent Movement, even as He led the children of Israel from Egypt.",
       "claim_text": "God led His people in the Advent Movement in the same manner He led the children of Israel out of Egypt.",
       "claim_type": "theological",
-      "entities": ["Advent Movement", "Israelites"],
+      "entities": [
+        "Advent Movement",
+        "Israelites"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1254,14 +1624,22 @@
       "quote": "In the great disappointment their faith was tested as was that of the Hebrews at the Red Sea.",
       "claim_text": "The faith of Adventists in the 1844 Great Disappointment was tested in a manner parallel to the Hebrews' test of faith at the Red Sea.",
       "claim_type": "event",
-      "entities": ["Millerites"],
+      "entities": [
+        "Millerites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "The historical kernel — that the Great Disappointment of 22 October 1844 was a severe test of faith for the Millerites — is well documented. The comparison to the Hebrews at the Red Sea is an interpretive typology, not itself a factual claim. On its verifiable content (the Disappointment as a profound trial of faith), it is supported.",
         "sources": [
-          {"title": "Great Disappointment", "url": "https://en.wikipedia.org/wiki/Great_Disappointment", "source_class": "encyclopedia", "supports_verdict": true, "note": "Oct 22, 1844 remembered as a profound crisis/test of faith for believers."}
+          {
+            "title": "Great Disappointment",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Oct 22, 1844 remembered as a profound crisis/test of faith for believers."
+          }
         ]
       }
     },
@@ -1301,7 +1679,9 @@
       "quote": "It was not the will of God that Israel should wander forty years in the wilderness",
       "claim_text": "The Israelites wandered forty years in the wilderness after the Exodus.",
       "claim_type": "date",
-      "entities": ["Israelites"],
+      "entities": [
+        "Israelites"
+      ],
       "needs_verification": true,
       "extractor_note": "Underlying biblical chronological claim (cf. Numbers 14:33-34), embedded in a statement about divine will.",
       "verification": {
@@ -1317,7 +1697,9 @@
       "quote": "It was not the will of God that Israel should wander forty years in the wilderness; He desired to lead them directly to the land of Canaan, and establish them there, a holy, happy people.",
       "claim_text": "It was not God's original will that Israel wander forty years in the wilderness; He intended to lead them directly to Canaan.",
       "claim_type": "theological",
-      "entities": ["Israelites"],
+      "entities": [
+        "Israelites"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1332,7 +1714,9 @@
       "quote": "But “they could not enter in because of unbelief.”",
       "claim_text": "The book of Hebrews states of the wilderness generation of Israel, \"they could not enter in because of unbelief\" (cf. Hebrews 3:19).",
       "claim_type": "attributed_quote",
-      "entities": ["Israelites"],
+      "entities": [
+        "Israelites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1347,7 +1731,9 @@
       "quote": "Because of their backsliding and apostasy, they perished in the desert, and others were raised up to enter the promised land.",
       "claim_text": "Because of backsliding and apostasy, the Exodus generation of Israel perished in the wilderness, and a subsequent generation was raised up to enter the promised land.",
       "claim_type": "event",
-      "entities": ["Israelites"],
+      "entities": [
+        "Israelites"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1437,7 +1823,9 @@
       "quote": "Elijah was declared to be a troubler in Israel",
       "claim_text": "The prophet Elijah was declared to be a 'troubler in Israel' (cf. 1 Kings 18:17).",
       "claim_type": "biographical",
-      "entities": ["Elijah"],
+      "entities": [
+        "Elijah"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1452,7 +1840,9 @@
       "quote": "Jeremiah a traitor",
       "claim_text": "The prophet Jeremiah was declared to be a traitor (cf. Jeremiah 37-38).",
       "claim_type": "biographical",
-      "entities": ["Jeremiah"],
+      "entities": [
+        "Jeremiah"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1467,7 +1857,9 @@
       "quote": "Paul a polluter of the temple.",
       "claim_text": "The apostle Paul was accused of being a polluter of the temple (cf. Acts 21:28).",
       "claim_type": "biographical",
-      "entities": ["Paul"],
+      "entities": [
+        "Paul"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1489,7 +1881,13 @@
         "confidence": "medium",
         "rationale": "Control-sample check of a needs_verification:false claim. The sweeping generalization rests on a checkable historical kernel: religious dissenters and reformers were indeed routinely labeled seditious, heretical, or schismatic (e.g., Jan Hus condemned as a heretic at Constance; Luther declared a heretic and outlaw; countless nonconformists prosecuted for schism/sedition). The pattern the sentence asserts is well attested; the value term 'loyal to truth' is the author's framing.",
         "sources": [
-          {"title": "General church history of heresy/schism accusations against reformers (illustrative)", "url": "https://en.wikipedia.org/wiki/Jan_Hus", "source_class": "encyclopedia", "supports_verdict": true, "note": "Reformers such as Hus and Luther were formally denounced as heretics/schismatics."}
+          {
+            "title": "General church history of heresy/schism accusations against reformers (illustrative)",
+            "url": "https://en.wikipedia.org/wiki/Jan_Hus",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Reformers such as Hus and Luther were formally denounced as heretics/schismatics."
+          }
         ]
       }
     },
@@ -1544,7 +1942,9 @@
       "quote": "Anciently the Lord declared to one who spoke in His name, “The house of Israel will not hearken unto thee; for they will not hearken unto Me.”",
       "claim_text": "The book of Ezekiel contains the Lord's declaration to Ezekiel, \"The house of Israel will not hearken unto thee; for they will not hearken unto Me\" (cf. Ezekiel 3:7).",
       "claim_type": "attributed_quote",
-      "entities": ["Ezekiel"],
+      "entities": [
+        "Ezekiel"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1559,7 +1959,9 @@
       "quote": "Nevertheless He said, “Thou shalt speak My words unto them, whether they will hear, or whether they will forbear.”",
       "claim_text": "The book of Ezekiel contains the Lord's instruction, \"Thou shalt speak My words unto them, whether they will hear, or whether they will forbear\" (cf. Ezekiel 2:7).",
       "claim_type": "attributed_quote",
-      "entities": ["Ezekiel"],
+      "entities": [
+        "Ezekiel"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1574,7 +1976,9 @@
       "quote": "“Son of man, I have set thee a watchman unto the house of Israel; therefore thou shalt hear the word at My mouth, and warn them from Me. When I say unto the wicked, O wicked man, thou shalt surely die; if thou dost not speak to warn the wicked from his way, that wicked man shall die in his iniquity; but his blood will I require at thine hand. Nevertheless, if thou warn the wicked of his way to turn from it; if he do not turn from his way, he shall die in his iniquity; but thou hast delivered thy soul.”",
       "claim_text": "The book of Ezekiel records God appointing Ezekiel as a 'watchman' to the house of Israel, charged to warn the wicked or bear responsibility for their blood (cf. Ezekiel 33:7-9).",
       "claim_type": "attributed_quote",
-      "entities": ["Ezekiel"],
+      "entities": [
+        "Ezekiel"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1604,7 +2008,9 @@
       "quote": "with the apostle Paul counting that “our light affliction, which is but for a moment, worketh for us a far more exceeding and eternal weight of glory;”",
       "claim_text": "The apostle Paul wrote that \"our light affliction, which is but for a moment, worketh for us a far more exceeding and eternal weight of glory\" (cf. 2 Corinthians 4:17).",
       "claim_type": "attributed_quote",
-      "entities": ["Paul"],
+      "entities": [
+        "Paul"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1619,7 +2025,9 @@
       "quote": "with one of old, “esteeming the reproach of Christ greater riches than the treasures in Egypt.”",
       "claim_text": "The book of Hebrews describes Moses as \"esteeming the reproach of Christ greater riches than the treasures in Egypt\" (cf. Hebrews 11:26).",
       "claim_type": "attributed_quote",
-      "entities": ["Moses"],
+      "entities": [
+        "Moses"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1649,7 +2057,9 @@
       "quote": "“Hearken unto Me, ye that know righteousness, the people in whose heart is My law; fear ye not the reproach of men, neither be ye afraid of their revilings. For the moth shall eat them up like a garment, and the worm shall eat them like wool: but My righteousness shall be forever, and My salvation from generation to generation.”",
       "claim_text": "The book of Isaiah contains the passage \"Hearken unto Me, ye that know righteousness... but My righteousness shall be forever, and My salvation from generation to generation\" (cf. Isaiah 51:7-8).",
       "claim_type": "attributed_quote",
-      "entities": ["Isaiah"],
+      "entities": [
+        "Isaiah"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",

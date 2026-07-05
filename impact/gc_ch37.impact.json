@@ -11,7 +11,10 @@
       "quote": "“To the law and to the testimony: if they speak not according to this word, it is because there is no light in them.”",
       "claim_text": "The scripture (footnoted to Isaiah 8:20) reads: 'To the law and to the testimony: if they speak not according to this word, it is because there is no light in them.'",
       "claim_type": "attributed_quote",
-      "entities": ["Isaiah", "Bible"],
+      "entities": [
+        "Isaiah",
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -26,7 +29,9 @@
       "quote": "Satan employs every possible device to prevent men from obtaining a knowledge of the Bible; for its plain utterances reveal his deceptions.",
       "claim_text": "Satan employs every possible device to prevent people from gaining knowledge of the Bible because its plain statements reveal his deceptions.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -41,7 +46,10 @@
       "quote": "At every revival of God’s work, the prince of evil is aroused to more intense activity; he is now putting forth his utmost efforts for a final struggle against Christ and His followers.",
       "claim_text": "At every revival of God's work Satan is aroused to more intense activity, and he is presently exerting his utmost efforts for a final struggle against Christ and His followers.",
       "claim_type": "theological",
-      "entities": ["Satan", "Jesus Christ"],
+      "entities": [
+        "Satan",
+        "Jesus Christ"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -56,7 +64,9 @@
       "quote": "The last great delusion is soon to open before us. Antichrist is to perform his marvelous works in our sight.",
       "claim_text": "A final great delusion is soon to appear, in which Antichrist will perform marvelous (miraculous) works.",
       "claim_type": "theological",
-      "entities": ["Antichrist"],
+      "entities": [
+        "Antichrist"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -116,7 +126,10 @@
       "quote": "Before His crucifixion, the Saviour explained to His disciples that He was to be put to death, and to rise again from the tomb; and angels were present to impress His words on minds and hearts.",
       "claim_text": "Before His crucifixion, Jesus explained to His disciples that He would be put to death and would rise again from the tomb.",
       "claim_type": "biographical",
-      "entities": ["Jesus Christ", "the disciples"],
+      "entities": [
+        "Jesus Christ",
+        "the disciples"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -131,7 +144,11 @@
       "quote": "Before His crucifixion, the Saviour explained to His disciples that He was to be put to death, and to rise again from the tomb; and angels were present to impress His words on minds and hearts.",
       "claim_text": "Angels were present when Jesus explained His coming death and resurrection to His disciples, to impress His words on their minds and hearts.",
       "claim_type": "theological",
-      "entities": ["angels", "Jesus Christ", "the disciples"],
+      "entities": [
+        "angels",
+        "Jesus Christ",
+        "the disciples"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -146,7 +163,11 @@
       "quote": "But the disciples were looking for temporal deliverance from the Roman yoke, and they could not tolerate the thought that He in whom all their hopes centered should suffer an ignominious death.",
       "claim_text": "Jesus' disciples expected temporal (political) deliverance from Roman rule and could not accept that Jesus, in whom their hopes centered, would suffer an ignominious death.",
       "claim_type": "biographical",
-      "entities": ["the disciples", "Jesus Christ", "Roman Empire"],
+      "entities": [
+        "the disciples",
+        "Jesus Christ",
+        "Roman Empire"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -161,7 +182,10 @@
       "quote": "The death of Jesus as fully destroyed their hopes as if He had not forewarned them.",
       "claim_text": "Jesus' death destroyed the disciples' hopes as completely as if He had never forewarned them of it.",
       "claim_type": "interpretive",
-      "entities": ["the disciples", "Jesus Christ"],
+      "entities": [
+        "the disciples",
+        "Jesus Christ"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -176,7 +200,9 @@
       "quote": "Satan watches to catch away every impression that would make them wise unto salvation, and the time of trouble will find them unready.",
       "claim_text": "Satan watches to remove every impression of prophetic truth that would make people wise unto salvation, so that the coming time of trouble will find them unready.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -191,7 +217,10 @@
       "quote": "When God sends to men warnings so important that they are represented as proclaimed by holy angels flying in the midst of heaven, He requires every person endowed with reasoning powers to heed the message.",
       "claim_text": "God requires every person endowed with reasoning powers to heed warnings so important that they are represented in Scripture as proclaimed by holy angels flying in the midst of heaven.",
       "claim_type": "theological",
-      "entities": ["God", "angels"],
+      "entities": [
+        "God",
+        "angels"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -221,7 +250,9 @@
       "quote": "The apostle Paul declared, looking down to the last days, “The time will come when they will not endure sound doctrine.”",
       "claim_text": "The apostle Paul, referring to the last days, stated (footnoted, cf. 2 Timothy 4:3): 'The time will come when they will not endure sound doctrine.'",
       "claim_type": "attributed_quote",
-      "entities": ["Paul the Apostle"],
+      "entities": [
+        "Paul the Apostle"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -236,7 +267,9 @@
       "quote": "That time has fully come.",
       "claim_text": "The time Paul foretold, when people would not endure sound doctrine, has fully come at the time of writing.",
       "claim_type": "interpretive",
-      "entities": ["Paul the Apostle"],
+      "entities": [
+        "Paul the Apostle"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -251,7 +284,9 @@
       "quote": "But God will have a people upon the earth to maintain the Bible, and the Bible only, as the standard of all doctrines, and the basis of all reforms.",
       "claim_text": "God will have a people on earth who maintain the Bible, and the Bible only, as the standard of all doctrines and the basis of all reforms.",
       "claim_type": "theological",
-      "entities": ["God"],
+      "entities": [
+        "God"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -266,7 +301,9 @@
       "quote": "Satan is constantly endeavoring to attract attention to man in the place of God.",
       "claim_text": "Satan constantly endeavors to attract human attention to man in the place of God.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -281,7 +318,9 @@
       "quote": "When Christ came to speak the words of life, the common people heard Him gladly; and many, even of the priests and rulers, believed on Him.",
       "claim_text": "When Jesus preached, the common people heard Him gladly, and many people, including some priests and rulers, believed on Him.",
       "claim_type": "biographical",
-      "entities": ["Jesus Christ"],
+      "entities": [
+        "Jesus Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -296,7 +335,10 @@
       "quote": "But the chief of the priesthood and the leading men of the nation were determined to condemn and repudiate His teachings.",
       "claim_text": "The chief priests and leading men of the Jewish nation were determined to condemn and repudiate Jesus' teachings.",
       "claim_type": "event",
-      "entities": ["Jesus Christ", "Sanhedrin"],
+      "entities": [
+        "Jesus Christ",
+        "Sanhedrin"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -311,7 +353,10 @@
       "quote": "Though they were baffled in all their efforts to find accusations against Him, though they could not but feel the influence of the divine power and wisdom attending His words, yet they encased themselves in prejudice; they rejected the clearest evidence of His Messiahship, lest they should be forced to become His disciples.",
       "claim_text": "The Jewish religious leaders were unable to find valid accusations against Jesus and felt the influence of divine power and wisdom in His words, yet they rejected the clearest evidence of His Messiahship out of prejudice, to avoid being forced to become His disciples.",
       "claim_type": "interpretive",
-      "entities": ["Sanhedrin", "Jesus Christ"],
+      "entities": [
+        "Sanhedrin",
+        "Jesus Christ"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -362,7 +407,10 @@
       "quote": "It was the influence of such teachers that led the Jewish nation to reject their Redeemer.",
       "claim_text": "The influence of the Jewish religious teachers/leaders caused the Jewish nation to reject Jesus as their Redeemer.",
       "claim_type": "causal",
-      "entities": ["Sanhedrin", "Jesus Christ"],
+      "entities": [
+        "Sanhedrin",
+        "Jesus Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -392,7 +440,11 @@
       "quote": "Christ foresaw that the undue assumption of authority indulged by the scribes and Pharisees would not cease with the dispersion of the Jews.",
       "claim_text": "Jesus foresaw that the undue assumption of authority practiced by the scribes and Pharisees would not cease with the dispersion of the Jews.",
       "claim_type": "theological",
-      "entities": ["Jesus Christ", "Pharisees", "scribes"],
+      "entities": [
+        "Jesus Christ",
+        "Pharisees",
+        "scribes"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -422,7 +474,11 @@
       "quote": "And His fearful denunciations of the scribes and Pharisees, and His warnings to the people not to follow these blind leaders, were placed on record as an admonition to future generations.",
       "claim_text": "Jesus' denunciations of the scribes and Pharisees and His warnings against following them were recorded (in the Gospels) as an admonition to future generations.",
       "claim_type": "event",
-      "entities": ["Jesus Christ", "Pharisees", "scribes"],
+      "entities": [
+        "Jesus Christ",
+        "Pharisees",
+        "scribes"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -437,7 +493,9 @@
       "quote": "The Roman Church reserves to the clergy the right to interpret the Scriptures.",
       "claim_text": "The Roman Catholic Church reserves to the clergy the exclusive right to interpret Scripture.",
       "claim_type": "event",
-      "entities": ["Roman Catholic Church"],
+      "entities": [
+        "Roman Catholic Church"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -461,7 +519,9 @@
       "quote": "On the ground that ecclesiastics alone are competent to explain God’s word, it is withheld from the common people.",
       "claim_text": "The Roman Catholic Church withholds the Bible from the common people on the ground that only ecclesiastics are competent to explain God's word.",
       "claim_type": "causal",
-      "entities": ["Roman Catholic Church"],
+      "entities": [
+        "Roman Catholic Church"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "disputed",
@@ -506,6 +566,22 @@
         "impact_score": 12,
         "narrative_arc": "doctrinal",
         "reasoning": "Severity 3: the claim overstates a real kernel (documented, localized, permission-based restrictions on vernacular Scripture) as a timeless universal policy, a materially inaccurate but not fabricated portrayal, consistent with the same cluster's siblings (GC-15-028, GC-21-082, GC-32-017). Centrality 4: measured against the book's fixed thesis chain, 'Rome withholds the Bible' is a recurring load-bearing plank of the papal-apostasy stage of the cosmic-conflict narrative, so centrality is held consistent with the sibling instances rather than downgraded merely because this occurrence is rhetorical. Load_bearing is false specifically for THIS chapter: chapter 37 is a homiletic exhortation whose case for 'search the Scriptures yourself' rests primarily on the well-supported Jewish-leaders analogy (GC-37-019/020/023) and on unfalsifiable theological appeals, with the Rome clause serving as one illustrative link in a three-part chain (Jews, Rome, Protestants) rather than as the argument's foundation. Counterfactual: delete this sentence and the chapter's exhortation to independent Bible study stands unweakened, resting on the Gospel case study and on GC-37-030's separately-supported claim about Protestant deference; only the analogical color, not the persuasive structure, is lost."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D07",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "well-supported",
+        "framing_gap": 3,
+        "failing_component_kind": "fact",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 3,
+        "centrality": 4,
+        "load_bearing": false,
+        "impact_score": 12,
+        "narrative_arc": "doctrinal",
+        "reasoning": "The failing element is a 'fact'-class component: the categorical 1911-present claim that the Bible 'is withheld from the common people' is ruled improbable because approved annotated versions were licit and Pius X was actively distributing Gospels, while the weakened, non-absolute version (magisterium reserves authoritative interpretation; only approved annotated Bibles permitted; unmediated lay reading stayed restricted and uncommon) is ruled well-supported, a large framing_gap of 3 showing the substance survives and the as-written failure is chiefly an absoluteness/tense overstatement rather than an invented practice, analogous to the rhetorical-overstatement pattern Phase 1 flagged in anachronistic items. Severity 3 is held at the Phase-1 level: this is a materially inaccurate universalization of a real, well-documented restriction, consistent with the cluster siblings (GC-15-028, GC-21-082, GC-32-017) and with the 'improbable' (not 'discredited') tier. Centrality 4 stays fixed against the book's central papal-apostasy thesis plank, independent of the adjudication's finer componential result. Load_bearing is false for this chapter specifically: deleting the clause removes one illustrative step in the Jews-to-Rome-to-Protestants analogical chain, leaving the chapter's real evidentiary weight -- the Gospel case study of priestly authority (paragraphs 7-9) and the surrounding unfalsifiable exhortations -- fully intact; chain_inherited is false and independent_failure_point is null because this is an independently adjudicated evidential failure, not one inherited from a defect in an upstream sibling claim."
       }
     },
     {
@@ -514,7 +590,11 @@
       "quote": "Though the Reformation gave the Scriptures to all, yet the selfsame principle which was maintained by Rome prevents multitudes in Protestant churches from searching the Bible for themselves.",
       "claim_text": "The Reformation gave the Scriptures to all people, yet the same principle maintained by the Roman Catholic Church (of deferring interpretation to church authority) prevents multitudes in Protestant churches from searching the Bible for themselves.",
       "claim_type": "causal",
-      "entities": ["Roman Catholic Church", "Protestant churches", "Reformation"],
+      "entities": [
+        "Roman Catholic Church",
+        "Protestant churches",
+        "Reformation"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -538,7 +618,9 @@
       "quote": "there are thousands who dare receive nothing, however plainly revealed in Scripture, that is contrary to their creed, or the established teaching of their church.",
       "claim_text": "Thousands of Protestant church members refuse to accept anything, however plainly revealed in Scripture, that is contrary to their creed or their church's established teaching.",
       "claim_type": "statistic",
-      "entities": ["Protestant churches"],
+      "entities": [
+        "Protestant churches"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "unverifiable",
@@ -568,7 +650,9 @@
       "quote": "Many are the ways by which Satan works through human influence to bind his captives.",
       "claim_text": "Satan works through human influence in many ways to bind his captives.",
       "claim_type": "interpretive",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -598,7 +682,9 @@
       "quote": "“There is a way that seemeth right unto a man, but the end thereof are the ways of death.”",
       "claim_text": "The scripture (footnoted, cf. Proverbs 14:12) reads: 'There is a way that seemeth right unto a man, but the end thereof are the ways of death.'",
       "claim_type": "attributed_quote",
-      "entities": ["Bible"],
+      "entities": [
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -613,7 +699,9 @@
       "quote": "When the lawyer came to Jesus with the inquiry, “What shall I do to inherit eternal life?” the Saviour referred him to the Scriptures, saying, “What is written in the law? how readest thou?”",
       "claim_text": "A lawyer came to Jesus asking, 'What shall I do to inherit eternal life?' and Jesus referred him to the Scriptures, saying, 'What is written in the law? how readest thou?' (cf. Luke 10:25-26).",
       "claim_type": "attributed_quote",
-      "entities": ["Jesus Christ"],
+      "entities": [
+        "Jesus Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -658,7 +746,9 @@
       "quote": "“Ye know not the Scriptures, neither the power of God.”",
       "claim_text": "Jesus declared to false teachers (footnoted, cf. Matthew 22:29): 'Ye know not the Scriptures, neither the power of God.'",
       "claim_type": "attributed_quote",
-      "entities": ["Jesus Christ"],
+      "entities": [
+        "Jesus Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -673,7 +763,9 @@
       "quote": "“If any man will do His will, he shall know of the doctrine.”",
       "claim_text": "Christ gave the promise (footnoted, cf. John 7:17): 'If any man will do His will, he shall know of the doctrine.'",
       "claim_type": "attributed_quote",
-      "entities": ["Jesus Christ"],
+      "entities": [
+        "Jesus Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -718,7 +810,9 @@
       "quote": "“Open Thou mine eyes, that I may behold wondrous things out of Thy law.”",
       "claim_text": "The psalmist's petition (footnoted, cf. Psalm 119:18) reads: 'Open Thou mine eyes, that I may behold wondrous things out of Thy law.'",
       "claim_type": "attributed_quote",
-      "entities": ["Bible"],
+      "entities": [
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -733,7 +827,9 @@
       "quote": "It is the office of heavenly angels to prepare the heart so to comprehend God’s word that we shall be charmed with its beauty, admonished by its warnings, or animated and strengthened by its promises.",
       "claim_text": "It is the office of heavenly angels to prepare the human heart to comprehend God's word so as to be charmed by its beauty, admonished by its warnings, and animated and strengthened by its promises.",
       "claim_type": "theological",
-      "entities": ["angels"],
+      "entities": [
+        "angels"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -748,7 +844,9 @@
       "quote": "when the enemy shall come in like a flood, the Spirit of the Lord shall lift up a standard against him.",
       "claim_text": "The scripture (footnoted, cf. Isaiah 59:19) states that when the enemy shall come in like a flood, the Spirit of the Lord shall lift up a standard against him.",
       "claim_type": "attributed_quote",
-      "entities": ["Bible"],
+      "entities": [
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -763,7 +861,10 @@
       "quote": "“The Comforter, which is the Holy Ghost, whom the Father will send in My name, He shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you.”",
       "claim_text": "Jesus promised His disciples (footnoted, cf. John 14:26): 'The Comforter, which is the Holy Ghost, whom the Father will send in My name, He shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you.'",
       "claim_type": "attributed_quote",
-      "entities": ["Jesus Christ", "the disciples"],
+      "entities": [
+        "Jesus Christ",
+        "the disciples"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -778,7 +879,9 @@
       "quote": "“Thy word have I hid in mine heart,” said David, “that I might not sin against Thee.”",
       "claim_text": "David said (footnoted, cf. Psalm 119:11): 'Thy word have I hid in mine heart, that I might not sin against Thee.'",
       "claim_type": "attributed_quote",
-      "entities": ["David"],
+      "entities": [
+        "David"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -793,7 +896,9 @@
       "quote": "Satan adapts his temptations to all classes. He assails the illiterate with a jest or sneer, while he meets the educated with scientific objections and philosophical reasoning, alike calculated to excite distrust or contempt of the Scriptures.",
       "claim_text": "Satan adapts his temptations to all classes of people, assailing the illiterate with jest or sneer and the educated with scientific objections and philosophical reasoning, both calculated to excite distrust or contempt of the Scriptures.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -823,7 +928,9 @@
       "quote": "we are on Satan’s enchanted ground.",
       "claim_text": "Humanity is currently on 'Satan's enchanted ground,' at risk of spiritual laxity.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -838,7 +945,9 @@
       "quote": "“Wherefore He saith, Awake, thou that sleepest, and arise from the dead, and Christ shall give thee light. See then that ye walk circumspectly, ... redeeming the time, because the days are evil.”",
       "claim_text": "The scripture (footnoted, cf. Ephesians 5:14-16) reads: 'Wherefore He saith, Awake, thou that sleepest, and arise from the dead, and Christ shall give thee light. See then that ye walk circumspectly, ... redeeming the time, because the days are evil.'",
       "claim_type": "attributed_quote",
-      "entities": ["Bible"],
+      "entities": [
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -868,7 +977,9 @@
       "quote": "“Thy testimonies are my meditation.”",
       "claim_text": "The psalmist stated (footnoted, cf. Psalm 119:99): 'Thy testimonies are my meditation.'",
       "claim_type": "attributed_quote",
-      "entities": ["Bible"],
+      "entities": [
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -883,7 +994,9 @@
       "quote": "“Through Thy precepts I get understanding: therefore I hate every false way.”",
       "claim_text": "The psalmist stated (footnoted, cf. Psalm 119:104): 'Through Thy precepts I get understanding: therefore I hate every false way.'",
       "claim_type": "attributed_quote",
-      "entities": ["Bible"],
+      "entities": [
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -898,7 +1011,9 @@
       "quote": "“Happy is the man that findeth wisdom.”",
       "claim_text": "The scripture (footnoted, cf. Proverbs 3:13) reads: 'Happy is the man that findeth wisdom.'",
       "claim_type": "attributed_quote",
-      "entities": ["Bible"],
+      "entities": [
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -913,7 +1028,9 @@
       "quote": "“He shall be as a tree planted by the waters, and that spreadeth out her roots by the river, and shall not see when heat cometh, but her leaf shall be green; and shall not be careful in the year of drought, neither shall cease from yielding fruit.”",
       "claim_text": "The scripture (footnoted, cf. Jeremiah 17:8) reads: 'He shall be as a tree planted by the waters, and that spreadeth out her roots by the river, and shall not see when heat cometh, but her leaf shall be green; and shall not be careful in the year of drought, neither shall cease from yielding fruit.'",
       "claim_type": "attributed_quote",
-      "entities": ["Bible"],
+      "entities": [
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",

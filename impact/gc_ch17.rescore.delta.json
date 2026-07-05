@@ -1,0 +1,55 @@
+{
+ "chapter": 17,
+ "stage": "impact",
+ "notes": "Phase 2a adjudication reclassifies all three D15 Lisbon casualty/quay claims from Phase-1 'disputed' to 'improbable' as written, confirming genuine fact-failures rather than open historiographical disagreement: the 60,000-in-six-minutes and 90,000-same-day tolls both roughly double the modern archival consensus (Pereira 2009: ~30,000-50,000 total across the region), and the quay anecdote's totalizing absolute ('not one body ever floated') is specifically falsified by the site's shallow bathymetry, even though the underlying quay-subsidence-with-casualties event is itself well-supported/probable. Because framing_gap is 2-3 for every claim, the weakened/substantive versions recover to well-supported or probable, meaning these are rhetoric-of-absoluteness fact-failures layered on real events rather than fabrications; none rises above severity 3, and none touches the chapter's actual load-bearing claim that a catastrophic earthquake struck in 1755, fulfilling the 'great earthquake' sign 25 years before the 1780 Dark Day. All three are independent fact-class errors with no chain inheritance; impact_scores (6, 3, 6) confirm they remain decorative-to-moderate color within the millerite sign-cluster, with load_bearing false throughout.",
+ "items": {
+  "GC-17-042": {
+   "category": "discrepancy",
+   "dossier": "D15",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "well-supported",
+   "framing_gap": 3,
+   "failing_component_kind": "fact",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 3,
+   "centrality": 2,
+   "load_bearing": false,
+   "impact_score": 6,
+   "narrative_arc": "millerite",
+   "reasoning": "This is a fact failure: modern archival demography (Pereira 2009, Araujo, Chester) converges on roughly 20,000-40,000 Lisbon deaths against a disaster that unfolded over shaking, a tsunami ~40 minutes later, and days of fire, so the printed 'sixty thousand... in the course of about six minutes' overstates the toll and compresses a multi-hour/day accumulation into the shaking window alone -- the adjudication upgrades this from Phase-1's 'genuinely disputed' to a confident 'improbable' rejection of the operative claim. With framing_gap=3 the weakened version (tens of thousands died in a disaster whose violent shaking lasted about six minutes) is well-supported, so the substance survives; only the compressed absolute reading fails, an absoluteness-of-figure problem sitting on top of a real catastrophe. The chapter's sign-identification argument needs only that a devastating earthquake struck in 1755, not this death toll or timeframe, so deleting the sentence leaves the millerite sign-chain fully intact -- not load-bearing."
+  },
+  "GC-17-044": {
+   "category": "discrepancy",
+   "dossier": "D15",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "probable",
+   "framing_gap": 2,
+   "failing_component_kind": "fact",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 3,
+   "centrality": 1,
+   "load_bearing": false,
+   "impact_score": 3,
+   "narrative_arc": "millerite",
+   "reasoning": "This is a fact failure confined to the anecdote's totalizing layer: the quay's existence, subsidence, and crowd deaths are themselves well-supported and probable (modern geophysics documents liquefaction at the Terreiro do Paco waterfront), but the printed absolutes -- 'ALL the people,' 'NOT ONE... EVER' floated -- are specifically contradicted by the site's shallow bathymetry and later rebuilding as the Praca do Comercio, an unfalsifiable-in-principle claim the adjudication marks improbable even though the underlying event is real. With framing_gap=2 the weakened version (a real subsidence that killed many who had sought refuge there) lands only at probable rather than well-supported, reflecting testimony-based rather than archival certainty, so the failure reads as inherited rhetorical absoluteness rather than an invented event. The anecdote is pure dramatic illustration inside a block quotation; deleting it leaves the chapter's 'great earthquake' sign-fulfillment argument completely untouched, so it carries no load-bearing weight."
+  },
+  "GC-17-049": {
+   "category": "discrepancy",
+   "dossier": "D15",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "well-supported",
+   "framing_gap": 3,
+   "failing_component_kind": "fact",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 3,
+   "centrality": 2,
+   "load_bearing": false,
+   "impact_score": 6,
+   "narrative_arc": "millerite",
+   "reasoning": "This is a fact failure on the operative assertion: Pereira's modern maximal reconstruction (Portugal, Spain, and Morocco combined, across the quake, tsunami, and days of fire) tops out near 40,000-50,000, roughly half the claimed ninety thousand attributed to a single day, and the adjudication's high-confidence 'improbable' verdict confirms this as a firm rejection rather than Phase-1's open dispute. With framing_gap=3 the weakened version (contemporary estimates ran as high as 90,000, though modern reckoning gives 30,000-50,000) is well-supported -- the sentence's own hedge ('it has been estimated') is literally true even though its paragraph-climax function reads as an assertive fact -- so the failure is an absoluteness-of-scale problem, not invention. The sign-identification argument needs only that a catastrophic earthquake occurred in 1755, not this particular death toll, so the claim is not load-bearing for the chapter's argument."
+  }
+ }
+}

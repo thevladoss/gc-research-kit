@@ -962,6 +962,22 @@
         "impact_score": 10,
         "narrative_arc": "doctrinal",
         "reasoning": "Paragraph 11 explicitly grounds the Sabbath's status as a universal, eternal 'memorial of creation' in its institution 'in Eden' at creation, not at Sinai; this is precisely what lets the chapter later treat Sabbath-keeping as binding on all mankind (Gentile and Jew alike) rather than as a piece of the Mosaic covenant that ended with it. Critical OT scholarship dates the Genesis 1 creation-Sabbath framing to the Priestly source (post-exilic) and treats it as an etiology for the Mosaic/Israelite institution rather than evidence of Edenic observance, which would (if correct) reduce the Sabbath to a covenant-specific sign rather than a creation ordinance for all humanity. Counterfactual: delete this claim and the chapter still has other rhetorical resources (the 'Sabbath is a sign' argument, Christ's 'Son of man is Lord of the Sabbath'), but it loses its most direct textual basis for universalizing the fourth commandment beyond Israel, weakening — without destroying — the leap from 'Sabbath as Israel's sign' to 'Sabbath as the end-time test for all nations.' Scored as disputed, not contradicted, since this is genuine, ongoing historiographical disagreement rather than a settled academic refutation."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D06",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "well-supported",
+        "framing_gap": 3,
+        "failing_component_kind": "fact",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 3,
+        "centrality": 5,
+        "load_bearing": true,
+        "impact_score": 15,
+        "narrative_arc": "doctrinal",
+        "reasoning": "The failing component is a fact claim — that the seventh-day Sabbath existed as a human institution from primeval antiquity, 'in Eden,' long before Israel — which the adjudication ruled improbable on convergent evidence: no documented pre-Israelite culture attests a weekly Sabbath or continuous seven-day week, Genesis 2:1-3 contains neither the term nor a command to humans, and critical scholarship reads the creation account as the Priestly writer's etiology for the Israelite institution rather than a chronicle of Edenic practice. The framing_gap of 3 shows the substance survives at the weakened level (the biblical tradition does ground the Sabbath in creation textually, from Genesis onward, and all sides read the text that way), so the as-written failure is best described as a genre/absoluteness failure — treating a theological etiology as literal primeval history — rather than invention of an event or quote; but GC prints the primeval-institution claim as literal fact, so reader-facing severity is not reduced by that distinction. Counterfactual: delete the Eden-institution claim and paragraph 11 loses the one textual peg that lets chapter 25 universalize the fourth commandment to all humanity from the dawn of history rather than treat it as Israel's Mosaic sign; the chapter retains secondary supports (the 'sign' argument, Christ as 'Lord of the Sabbath') but none does the same primeval-universalizing work needed to carry the mark-of-the-beast/seal-of-God dichotomy for all nations, so the claim remains load-bearing for this specific chapter argument even though the book's broader Sabbath-perpetuity thesis has redundant anchors elsewhere."
       }
     },
     {

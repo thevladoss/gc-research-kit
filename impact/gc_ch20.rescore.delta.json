@@ -1,0 +1,23 @@
+{
+ "chapter": 20,
+ "stage": "impact",
+ "notes": "Phase 2a reopened GC-20-016 (para 6, the 'isolated bodies... solely by the study of the Scriptures' sentence) and ruled the as-written claim improbable on fact grounds: no historian documents mutually unconnected 'isolated bodies' plural, and every identifiable case (Wolff at Albury, Irving's 1827 Lacunza translation, Bengel's printed legacy, Gaussen via Rollin) worked inside a shared, transmitted historicist tradition rather than arriving 'solely' by Scripture. A framing_gap of 2 shows a weakened version is itself probable, so the underlying fact of a genuine multi-national advent awakening is not in question -- only the chapter's absolutist independence/sole-source framing is. Because paragraph 6 is the chapter's own interpretive keystone (the sentence every subsequent vignette is offered to confirm), impact scoring is unchanged from Phase 1 (severity 3 x centrality 4 = 12, load-bearing for the chapter, not the book thesis) but is now anchored to the adjudication's fact-failure/framing-gap record rather than to the bare 'disputed' verdict.",
+ "items": {
+  "GC-20-016": {
+   "category": "discrepancy",
+   "dossier": "D03",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "probable",
+   "framing_gap": 2,
+   "failing_component_kind": "fact",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 3,
+   "centrality": 4,
+   "load_bearing": true,
+   "impact_score": 12,
+   "narrative_arc": "millerite",
+   "reasoning": "Fact failure: the adjudication found the 'isolated' and 'solely by the study of the Scriptures' components improbable as written -- documented cases were networked (Wolff at the 1826 Albury conference, Irving's 1827 Lacunza translation, Bengel's printed legacy, Gaussen via Rollin's history), and all shared the inherited historicist exegetical apparatus rather than reaching their conclusions by Scripture alone. Framing_gap of 2 means the weakened version ('little or no direct contact... chiefly through their own study') is itself probable, so the substance -- a real, geographically dispersed advent awakening -- survives; what fails is the sentence's absolutist rhetoric of total isolation and exclusive sourcing, a rhetoric/absoluteness failure layered on well-supported facts rather than a fabricated event, which keeps severity at 3 rather than higher. This is an independent evidential failure (chain_inherited: false; no upstream claim in this chapter propagates the error here) sitting exactly at the chapter's thesis-setting sentence, so centrality stays at 4 and the claim remains load-bearing for the chapter's own 'independent convergence proves providence' argument, though not for the book's broader thesis chain, since network-diffusion would still satisfy Revelation 14's 'to every nation' framing invoked elsewhere in the chapter."
+  }
+ }
+}

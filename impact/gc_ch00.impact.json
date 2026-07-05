@@ -11,7 +11,10 @@
       "quote": "Before the entrance of sin, Adam enjoyed open communion with his Maker; but since man separated himself from God by transgression, the human race has been cut off from this high privilege.",
       "claim_text": "Before sin entered, Adam had open communion with God; after Adam's transgression separated humanity from God, the human race was cut off from this privilege of open communion with God.",
       "claim_type": "theological",
-      "entities": ["Adam", "God"],
+      "entities": [
+        "Adam",
+        "God"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -26,7 +29,9 @@
       "quote": "By the plan of redemption, however, a way has been opened whereby the inhabitants of the earth may still have connection with heaven.",
       "claim_text": "The plan of redemption opened a way for the inhabitants of the earth to still have connection with heaven despite the separation caused by sin.",
       "claim_type": "theological",
-      "entities": ["God"],
+      "entities": [
+        "God"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -41,7 +46,10 @@
       "quote": "God has communicated with men by His Spirit, and divine light has been imparted to the world by revelations to His chosen servants.",
       "claim_text": "God communicated with humanity through His Spirit and imparted divine light to the world through revelations to chosen servants (prophets).",
       "claim_type": "theological",
-      "entities": ["God", "Holy Spirit"],
+      "entities": [
+        "God",
+        "Holy Spirit"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -56,7 +64,10 @@
       "quote": "“Holy men of God spake as they were moved by the Holy Ghost.” 2 Peter 1:21.",
       "claim_text": "2 Peter 1:21 states: 'Holy men of God spake as they were moved by the Holy Ghost.'",
       "claim_type": "attributed_quote",
-      "entities": ["2 Peter 1:21", "Bible"],
+      "entities": [
+        "2 Peter 1:21",
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -71,7 +82,11 @@
       "quote": "During the first twenty-five hundred years of human history, there was no written revelation.",
       "claim_text": "For the first 2,500 years of human history (traditionally reckoned from Adam to Moses), there was no written scriptural revelation.",
       "claim_type": "date",
-      "entities": ["Adam", "Moses", "Bible"],
+      "entities": [
+        "Adam",
+        "Moses",
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "disputed",
@@ -79,8 +94,20 @@
         "rationale": "The ~2,500-year figure is the traditional Adam/creation-to-Moses span of the Ussher-type biblical chronology (creation c. 4004 BC to the Exodus c. 1500 BC) standard in conservative Protestant scholarship. The narrower claim that no scriptural writing existed before Moses assumes Mosaic priority. Modern critical biblical scholarship disputes both the young chronology of human history and Mosaic authorship as the origin point of Scripture; this is a genuine ongoing conservative-vs-critical divide rather than a settled fact.",
         "modern_consensus": "Critical scholarship holds that human history long predates any 2,500-year Adam-to-Moses span and that the Pentateuch reached its form through a long compositional process, not a single Mosaic authorship.",
         "sources": [
-          {"title": "Dating the Bible - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dating_the_Bible", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Critical dating rejects single Mosaic-origin framework"},
-          {"title": "Chronology of the Bible - Wikipedia", "url": "https://en.wikipedia.org/wiki/Chronology_of_the_Bible", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Describes the traditional (Ussher) chronology and its disputed status"}
+          {
+            "title": "Dating the Bible - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Dating_the_Bible",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Critical dating rejects single Mosaic-origin framework"
+          },
+          {
+            "title": "Chronology of the Bible - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Chronology_of_the_Bible",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Describes the traditional (Ussher) chronology and its disputed status"
+          }
         ]
       },
       "impact": {
@@ -90,6 +117,22 @@
         "impact_score": 4,
         "narrative_arc": "frame",
         "reasoning": "This is a scene-setting chronological premise, not part of the great-controversy cosmic-conflict chain the book will build across 42 chapters; it merely frames how the Bible came to be written. It reflects the standard young-earth/Ussher-type reckoning universal in the conservative Protestant scholarship of White's period, so any error is a matter of period-typical framework rather than invention. Counterfactual: delete the sentence and paragraph 2's actual point (oral transmission preceded a gradually-written canon) is untouched; nothing in the chapter's argument about Spirit-guided, human-mediated inspiration depends on the exact 2,500-year figure."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D13",
+        "ruling_as_written": "discredited",
+        "ruling_weakened": "well-supported",
+        "framing_gap": 4,
+        "failing_component_kind": "fact",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 4,
+        "centrality": 2,
+        "load_bearing": false,
+        "impact_score": 8,
+        "narrative_arc": "frame",
+        "reasoning": "Fact failure: the as-written claim asserts human history itself began c. 4000 BC, a young-earth/Ussher-type chronology decisively refuted by convergent archaeological and radiometric evidence (Neolithic Jericho c. 9000 BC, Çatalhöyük c. 7400-6200 BC, Homo sapiens c. 300,000 years old) -- the strongest ruling level in the dossier ('discredited') and its largest framing gap (4). At the weakened level ('no biblical book existed before the pre-Mosaic era, transmission was oral') the claim is well-supported, so the paragraph's actual rhetorical point survives fully; per the adjudication rule this does not automatically lower severity, since readers encounter only the printed absolute. The claim is frame-setting scaffolding for the Introduction's doctrine-of-Scripture paragraph, wholly outside the Reformation-Millerite-sanctuary thesis chain, so centrality stays low and the chapter's argument does not depend on it (not load-bearing); this is an independent failure point (its own anchor, the antiquity of human history), not inherited from another claim."
       }
     },
     {
@@ -114,7 +157,10 @@
       "quote": "The preparation of the written word began in the time of Moses.",
       "claim_text": "The writing of the biblical text began in the time of Moses.",
       "claim_type": "event",
-      "entities": ["Moses", "Bible"],
+      "entities": [
+        "Moses",
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "disputed",
@@ -122,8 +168,20 @@
         "rationale": "The claim that biblical writing began with Moses is the traditional conservative view held in White's era. Modern critical scholarship dates the earliest written biblical material variously and holds the Pentateuch was composed and edited over centuries, reaching final form well after any Mosaic period; this is a genuine, ongoing conservative-vs-critical disagreement.",
         "modern_consensus": "Mainstream critical scholarship rejects Mosaic authorship as the origin of biblical writing, favoring a long, multi-source compositional process.",
         "sources": [
-          {"title": "Dating the Bible - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dating_the_Bible", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Documentary/compositional models vs. Mosaic authorship"},
-          {"title": "When Was the Bible Written? - Biblica", "url": "https://www.biblica.com/resources/bible-faqs/when-was-the-bible-written/", "source_class": "other", "supports_verdict": true, "note": "States the traditional Moses-origin view that modern critics contest"}
+          {
+            "title": "Dating the Bible - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Dating_the_Bible",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Documentary/compositional models vs. Mosaic authorship"
+          },
+          {
+            "title": "When Was the Bible Written? - Biblica",
+            "url": "https://www.biblica.com/resources/bible-faqs/when-was-the-bible-written/",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "States the traditional Moses-origin view that modern critics contest"
+          }
         ]
       },
       "impact": {
@@ -133,6 +191,22 @@
         "impact_score": 4,
         "narrative_arc": "frame",
         "reasoning": "A single-sentence premise about biblical origins, decorative scaffolding for the paragraph's real claim (that revelation moved from oral to written form) rather than a load-bearing link in the Reformation-to-final-crisis thesis chain. It is period-typical: Mosaic authorship of the Pentateuch was the near-universal conservative Protestant position in the 1880s-1900s, not an idiosyncratic invention by White. Counterfactual: removing this sentence costs the chapter nothing argumentatively, since the surrounding paragraph's substantive point (long compositional history culminating in a Spirit-guided, humanly-written canon) stands independent of pinning the start date to Moses specifically."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D13",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "genuinely-open",
+        "framing_gap": 1,
+        "failing_component_kind": "fact",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 3,
+        "centrality": 2,
+        "load_bearing": false,
+        "impact_score": 6,
+        "narrative_arc": "frame",
+        "reasoning": "Fact failure: scholarly preponderance places Old Hebrew script and the literary infrastructure needed for pentateuchal composition no earlier than the 9th century BC, with the completed Torah dated into the Persian period -- the claim that biblical writing 'began in the time of Moses' (c. 15th-13th c. BC) is ruled improbable, and even its weakened form ('some pentateuchal material may descend from late-2nd-millennium tradition, though the books as written compositions date later') only reaches genuinely-open, the smallest framing gap in the dossier (1). This is decorative scaffolding for the Introduction's doctrine-of-Scripture paragraph, not a premise the Reformation-Millerite-sanctuary thesis chain relies on, so centrality is low and the chapter's argument survives its removal (not load-bearing). This claim is itself the independent failure point -- the shared pentateuchal-dating anchor -- that GC-00-008 inherits from; it is not itself chain-inherited."
       }
     },
     {
@@ -141,7 +215,11 @@
       "quote": "This work continued during the long period of sixteen hundred years,—from Moses, the historian of creation and the law, to John, the recorder of the most sublime truths of the gospel.",
       "claim_text": "The composition of the Bible spanned approximately 1,600 years, from Moses (author of the creation account and the law) to John (author of the recorded gospel truths, i.e., Gospel/Revelation of John).",
       "claim_type": "date",
-      "entities": ["Moses", "John", "Bible"],
+      "entities": [
+        "Moses",
+        "John",
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "disputed",
@@ -149,8 +227,20 @@
         "rationale": "The ~1,600-year span (Moses c. 1500 BC to John c. AD 95-100) is within the traditional conservative estimate (commonly given as 1,500-1,600 years) and the ~40-author picture is uncontested. The contested element is anchoring the start to Mosaic authorship; critical scholarship dates the earliest written texts later and rejects Moses as author of Genesis, giving a shorter effective compositional span. Genuine conservative-vs-critical divide.",
         "modern_consensus": "Traditional dating gives ~1,500-1,600 years; critical scholarship gives a shorter span for actual composition and rejects Mosaic authorship of the earliest books.",
         "sources": [
-          {"title": "When Was the Bible Written? - Biblica", "url": "https://www.biblica.com/resources/bible-faqs/when-was-the-bible-written/", "source_class": "other", "supports_verdict": true, "note": "Traditional ~1,500-year Moses-to-John span, 40+ authors"},
-          {"title": "Dating the Bible - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dating_the_Bible", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Critical dating differs from the traditional Mosaic anchor"}
+          {
+            "title": "When Was the Bible Written? - Biblica",
+            "url": "https://www.biblica.com/resources/bible-faqs/when-was-the-bible-written/",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Traditional ~1,500-year Moses-to-John span, 40+ authors"
+          },
+          {
+            "title": "Dating the Bible - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Dating_the_Bible",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true,
+            "note": "Critical dating differs from the traditional Mosaic anchor"
+          }
         ]
       },
       "impact": {
@@ -160,6 +250,22 @@
         "impact_score": 4,
         "narrative_arc": "frame",
         "reasoning": "This restates the same traditional Moses-to-John compositional frame as GC-00-007 with a specific span figure; it is background art-history-of-the-canon material, not a premise the cosmic-conflict thesis chain relies on. The 1,600-year figure sits inside the conventional 1,500-1,600-year conservative estimate of White's day, so this is inherited period scholarship rather than a fabricated number. Counterfactual: deleting the sentence removes a decorative flourish about the Bible's long compositional history; nothing downstream in the chapter (the Spirit/Scripture relationship, the announcement of the great controversy, or the author's stated method) depends on this specific figure."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D13",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "well-supported",
+        "framing_gap": 3,
+        "failing_component_kind": "fact",
+        "chain_inherited": true,
+        "independent_failure_point": "GC-00-007",
+        "severity": 2,
+        "centrality": 2,
+        "load_bearing": false,
+        "impact_score": 4,
+        "narrative_arc": "frame",
+        "reasoning": "Chain-inherited fact failure: the '1,600-year' Moses-to-John span is pure arithmetic on two anchors, and its Mosaic starting point fails for the same reason already ruled at GC-00-007 (its independent_failure_point), not as a fresh error of its own; the Johannine endpoint (c. 90-110 AD) is independently well-supported on all sides. As written the span is improbable, but at the weakened level ('composed over an immense span, roughly a millennium or more, concluding near 100 AD') it is well-supported (framing_gap 3), so the paragraph's rhetorical point -- one book written across many centuries by many hands -- survives essentially intact even though the specific figure does not. Centrality stays low: this is frame-setting decoration outside the Reformation-Millerite-sanctuary thesis chain, and the chapter's argument does not depend on the precise span (not load-bearing)."
       }
     },
     {
@@ -168,7 +274,10 @@
       "quote": "The Bible points to God as its author; yet it was written by human hands; and in the varied style of its different books it presents the characteristics of the several writers.",
       "claim_text": "The Bible presents God as its ultimate author while being written by human hands, with each book reflecting the stylistic characteristics of its individual writer.",
       "claim_type": "theological",
-      "entities": ["Bible", "God"],
+      "entities": [
+        "Bible",
+        "God"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -183,7 +292,10 @@
       "quote": "The truths revealed are all “given by inspiration of God” (2 Tim. 3:16); yet they are expressed in the words of men.",
       "claim_text": "2 Timothy 3:16 describes scriptural truths as 'given by inspiration of God.'",
       "claim_type": "attributed_quote",
-      "entities": ["2 Timothy 3:16", "Bible"],
+      "entities": [
+        "2 Timothy 3:16",
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -198,7 +310,9 @@
       "quote": "He has given dreams and visions, symbols and figures; and those to whom the truth was thus revealed, have themselves embodied the thought in human language.",
       "claim_text": "God gave dreams, visions, symbols, and figures to those receiving revelation, who then expressed the revealed thought in their own human language.",
       "claim_type": "theological",
-      "entities": ["God"],
+      "entities": [
+        "God"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -213,7 +327,10 @@
       "quote": "The ten commandments were spoken by God Himself, and were written by His own hand.",
       "claim_text": "The Ten Commandments were spoken directly by God and written by God's own hand.",
       "claim_type": "theological",
-      "entities": ["Ten Commandments", "God"],
+      "entities": [
+        "Ten Commandments",
+        "God"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -228,7 +345,9 @@
       "quote": "They are of divine, and not of human composition.",
       "claim_text": "The Ten Commandments are of divine, not human, composition.",
       "claim_type": "theological",
-      "entities": ["Ten Commandments"],
+      "entities": [
+        "Ten Commandments"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -243,7 +362,10 @@
       "quote": "But the Bible, with its God-given truths expressed in the language of men, presents a union of the divine and the human. Such a union existed in the nature of Christ, who was the Son of God and the Son of man.",
       "claim_text": "The Bible presents a union of the divine and the human, analogous to the union of divine and human natures in Christ, who was the Son of God and the Son of man.",
       "claim_type": "theological",
-      "entities": ["Bible", "Christ"],
+      "entities": [
+        "Bible",
+        "Christ"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -258,7 +380,10 @@
       "quote": "“the Word was made flesh, and dwelt among us.” John 1:14.",
       "claim_text": "John 1:14 states: 'the Word was made flesh, and dwelt among us.'",
       "claim_type": "attributed_quote",
-      "entities": ["John 1:14", "Bible"],
+      "entities": [
+        "John 1:14",
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -273,14 +398,22 @@
       "quote": "Written in different ages, by men who differed widely in rank and occupation, and in mental and spiritual endowments, the books of the Bible present a wide contrast in style, as well as a diversity in the nature of the subjects unfolded.",
       "claim_text": "The books of the Bible were written across different historical ages by men of widely differing social rank, occupation, and mental and spiritual endowments.",
       "claim_type": "biographical",
-      "entities": ["Bible"],
+      "entities": [
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "high",
         "rationale": "[common_knowledge] Uncontested across traditional and critical scholarship alike: the biblical books were written over many centuries by a large and varied set of authors (kings, shepherds, a physician, fishermen, prophets, apostles), producing marked stylistic diversity. This holds regardless of the disputed dating/authorship of individual books.",
         "sources": [
-          {"title": "When Was the Bible Written? - Biblica", "url": "https://www.biblica.com/resources/bible-faqs/when-was-the-bible-written/", "source_class": "other", "supports_verdict": true, "note": "40+ authors of varied occupation across centuries and three languages"}
+          {
+            "title": "When Was the Bible Written? - Biblica",
+            "url": "https://www.biblica.com/resources/bible-faqs/when-was-the-bible-written/",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "40+ authors of varied occupation across centuries and three languages"
+          }
         ]
       }
     },
@@ -290,7 +423,9 @@
       "quote": "there may appear, to the superficial, careless, or prejudiced reader, to be discrepancy or contradiction, where the thoughtful, reverent student, with clearer insight, discerns the underlying harmony.",
       "claim_text": "Apparent discrepancies or contradictions in the Bible, as perceived by superficial or prejudiced readers, are resolved into underlying harmony by thoughtful, reverent study.",
       "claim_type": "interpretive",
-      "entities": ["Bible"],
+      "entities": [
+        "Bible"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -305,7 +440,10 @@
       "quote": "each, under the guidance of the Holy Spirit, presents what is most forcibly impressed upon his own mind—a different aspect of the truth in each, but a perfect harmony through all.",
       "claim_text": "Each biblical writer, guided by the Holy Spirit, presented a different aspect of truth, together forming a perfect harmony across all of Scripture.",
       "claim_type": "theological",
-      "entities": ["Holy Spirit", "Bible"],
+      "entities": [
+        "Holy Spirit",
+        "Bible"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -320,7 +458,10 @@
       "quote": "God has been pleased to communicate His truth to the world by human agencies, and He Himself, by His Holy Spirit, qualified men and enabled them to do this work. He guided the mind in the selection of what to speak and what to write.",
       "claim_text": "God communicated His truth to the world through human agents whom His Holy Spirit qualified and enabled, guiding their minds in selecting what to speak and write.",
       "claim_type": "theological",
-      "entities": ["God", "Holy Spirit"],
+      "entities": [
+        "God",
+        "Holy Spirit"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -335,7 +476,10 @@
       "quote": "In His word, God has committed to men the knowledge necessary for salvation. The Holy Scriptures are to be accepted as an authoritative, infallible revelation of His will. They are the standard of character, the revealer of doctrines, and the test of experience.",
       "claim_text": "The Holy Scriptures contain the knowledge necessary for salvation and are to be accepted as an authoritative, infallible revelation of God's will, serving as the standard of character, revealer of doctrine, and test of experience.",
       "claim_type": "theological",
-      "entities": ["Bible", "God"],
+      "entities": [
+        "Bible",
+        "God"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -350,14 +494,23 @@
       "quote": "“Every scripture inspired of God is also profitable for teaching, for reproof, for correction, for instruction which is in righteousness; that the man of God may be complete, furnished completely unto every good work.” 2 Tim. 3:16, 17, Revised Version.",
       "claim_text": "2 Timothy 3:16-17 (Revised Version) states that every scripture inspired of God is profitable for teaching, reproof, correction, and instruction in righteousness, so that the man of God may be complete, furnished for every good work.",
       "claim_type": "attributed_quote",
-      "entities": ["2 Timothy 3:16-17", "Bible"],
+      "entities": [
+        "2 Timothy 3:16-17",
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "high",
         "rationale": "The quotation accurately reproduces the English Revised Version (1881) of 2 Timothy 3:16-17 ('Every scripture inspired of God is also profitable for teaching, for reproof, for correction, for instruction which is in righteousness: that the man of God may be complete, furnished completely unto every good work'); the citation and 'Revised Version' attribution are correct.",
         "sources": [
-          {"title": "Daily Bible Nugget #161, 2 Timothy 3:16-17 - Real Bible Study", "url": "https://www.realbiblestudy.com/?p=991", "source_class": "other", "supports_verdict": true, "note": "Confirms RV wording 'Every scripture inspired of God is also profitable...'"}
+          {
+            "title": "Daily Bible Nugget #161, 2 Timothy 3:16-17 - Real Bible Study",
+            "url": "https://www.realbiblestudy.com/?p=991",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Confirms RV wording 'Every scripture inspired of God is also profitable...'"
+          }
         ]
       }
     },
@@ -367,7 +520,11 @@
       "quote": "the Spirit was promised by our Saviour, to open the Word to His servants, to illuminate and apply its teachings. And since it was the Spirit of God that inspired the Bible, it is impossible that the teaching of the Spirit should ever be contrary to that of the Word.",
       "claim_text": "The Holy Spirit was promised by Jesus to open the Word to His servants and illuminate its teachings, and because the same Spirit inspired the Bible, the Spirit's teaching can never contradict the Word.",
       "claim_type": "theological",
-      "entities": ["Holy Spirit", "Jesus", "Bible"],
+      "entities": [
+        "Holy Spirit",
+        "Jesus",
+        "Bible"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -382,7 +539,11 @@
       "quote": "Says the apostle John, “Believe not every spirit, but try the spirits whether they are of God: because many false prophets are gone out into the world.” 1 John 4:1.",
       "claim_text": "1 John 4:1, attributed to the apostle John, states: 'Believe not every spirit, but try the spirits whether they are of God: because many false prophets are gone out into the world.'",
       "claim_type": "attributed_quote",
-      "entities": ["John (apostle)", "1 John 4:1", "Bible"],
+      "entities": [
+        "John (apostle)",
+        "1 John 4:1",
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -397,7 +558,11 @@
       "quote": "And Isaiah declares, “To the law and to the testimony: if they speak not according to this word, it is because there is no light in them.” Isa. 8:20.",
       "claim_text": "Isaiah 8:20, attributed to the prophet Isaiah, states: 'To the law and to the testimony: if they speak not according to this word, it is because there is no light in them.'",
       "claim_type": "attributed_quote",
-      "entities": ["Isaiah", "Isaiah 8:20", "Bible"],
+      "entities": [
+        "Isaiah",
+        "Isaiah 8:20",
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -412,7 +577,10 @@
       "quote": "The Spirit was not given—nor can it ever be bestowed—to supersede the Bible; for the Scriptures explicitly state that the word of God is the standard by which all teaching and experience must be tested.",
       "claim_text": "The Holy Spirit was never given to supersede the Bible; Scripture itself declares that the word of God is the standard by which all teaching and experience must be tested.",
       "claim_type": "theological",
-      "entities": ["Holy Spirit", "Bible"],
+      "entities": [
+        "Holy Spirit",
+        "Bible"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -427,7 +595,9 @@
       "quote": "Great reproach has been cast upon the work of the Holy Spirit by the errors of a class that, claiming its enlightenment, profess to have no further need of guidance from the word of God. They are governed by impressions which they regard as the voice of God in the soul. But the spirit that controls them is not the Spirit of God.",
       "claim_text": "A class of people who claim enlightenment by the Holy Spirit and profess no further need of the word of God are actually governed by impressions that are not from the Spirit of God.",
       "claim_type": "theological",
-      "entities": ["Holy Spirit"],
+      "entities": [
+        "Holy Spirit"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -442,7 +612,10 @@
       "quote": "it is one of the devices of Satan, through the errors of extremists and fanatics, to cast contempt upon the work of the Spirit, and cause the people of God to neglect this source of strength which our Lord Himself has provided.",
       "claim_text": "It is one of Satan's devices, through the errors of extremists and fanatics, to cast contempt on the work of the Holy Spirit and cause God's people to neglect this source of strength.",
       "claim_type": "theological",
-      "entities": ["Satan", "Holy Spirit"],
+      "entities": [
+        "Satan",
+        "Holy Spirit"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -457,7 +630,10 @@
       "quote": "During the ages while the Scriptures of both the Old and the New Testament were being given, the Holy Spirit did not cease to communicate light to individual minds, apart from the revelations to be embodied in the Sacred Canon.",
       "claim_text": "While the Old and New Testament Scriptures were being written, the Holy Spirit continued to communicate light to individual minds apart from the revelations that became part of the biblical canon.",
       "claim_type": "theological",
-      "entities": ["Holy Spirit", "Bible"],
+      "entities": [
+        "Holy Spirit",
+        "Bible"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -472,7 +648,10 @@
       "quote": "The Bible itself relates how, through the Holy Spirit, men received warning, reproof, counsel, and instruction, in matters in no way relating to the giving of the Scriptures. And mention is made of prophets in different ages, of whose utterances nothing is recorded.",
       "claim_text": "The Bible records instances of men receiving warning, reproof, counsel, and instruction through the Holy Spirit unrelated to the writing of Scripture, and it mentions prophets in various eras whose specific utterances were never recorded.",
       "claim_type": "event",
-      "entities": ["Bible", "Holy Spirit"],
+      "entities": [
+        "Bible",
+        "Holy Spirit"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -487,7 +666,9 @@
       "quote": "In like manner, after the close of the canon of Scripture, the Holy Spirit was still to continue its work, to enlighten, warn, and comfort the children of God.",
       "claim_text": "After the closing of the biblical canon, the Holy Spirit continued its work of enlightening, warning, and comforting the children of God.",
       "claim_type": "theological",
-      "entities": ["Holy Spirit"],
+      "entities": [
+        "Holy Spirit"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -502,7 +683,12 @@
       "quote": "Jesus promised His disciples, “The Comforter, which is the Holy Ghost, whom the Father will send in My name, He shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you.” “When He, the Spirit of truth, is come, He will guide you into all truth: ... and He will show you things to come.” John 14:26; 16:13.",
       "claim_text": "According to John 14:26 and 16:13, Jesus promised His disciples that the Comforter (the Holy Ghost) would teach them all things, bring His words to their remembrance, and guide them into all truth, including things to come.",
       "claim_type": "attributed_quote",
-      "entities": ["Jesus", "John 14:26", "John 16:13", "Bible"],
+      "entities": [
+        "Jesus",
+        "John 14:26",
+        "John 16:13",
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -517,7 +703,10 @@
       "quote": "Scripture plainly teaches that these promises, so far from being limited to apostolic days, extend to the church of Christ in all ages.",
       "claim_text": "Scripture teaches that Jesus's promises regarding the Holy Spirit's guidance were not limited to the apostolic era but extend to the church of Christ in all ages.",
       "claim_type": "theological",
-      "entities": ["Bible", "Holy Spirit"],
+      "entities": [
+        "Bible",
+        "Holy Spirit"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -532,7 +721,11 @@
       "quote": "The Saviour assures His followers, “I am with you alway, even unto the end of the world.” Matt. 28:20.",
       "claim_text": "Matthew 28:20 records Jesus assuring His followers: 'I am with you alway, even unto the end of the world.'",
       "claim_type": "attributed_quote",
-      "entities": ["Jesus", "Matthew 28:20", "Bible"],
+      "entities": [
+        "Jesus",
+        "Matthew 28:20",
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -547,7 +740,11 @@
       "quote": "And Paul declares that the gifts and manifestations of the Spirit were set in the church “for the perfecting of the saints, for the work of the ministry, for the edifying of the body of Christ: till we all come in the unity of the faith, and of the knowledge of the Son of God, unto a perfect man, unto the measure of the stature of the fulness of Christ.” Eph. 4:12, 13.",
       "claim_text": "Ephesians 4:12-13, attributed to Paul, states that the gifts and manifestations of the Spirit were set in the church for the perfecting of the saints, the work of the ministry, and the edifying of the body of Christ until all attain unity of faith and knowledge of the Son of God.",
       "claim_type": "attributed_quote",
-      "entities": ["Paul", "Ephesians 4:12-13", "Bible"],
+      "entities": [
+        "Paul",
+        "Ephesians 4:12-13",
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -562,7 +759,12 @@
       "quote": "For the believers at Ephesus the apostle prayed, “That the God of our Lord Jesus Christ, the Father of glory, may give unto you the _Spirit of wisdom and revelation_ in the knowledge of Him: _the eyes of your understanding being enlightened_; that ye may know what is the hope of His calling, and ... what is the _exceeding greatness_ of His power to us-ward who believe.” Eph. 1:17-19.",
       "claim_text": "The apostle Paul prayed for the believers at Ephesus, per Ephesians 1:17-19, that God would give them the Spirit of wisdom and revelation and enlighten the eyes of their understanding.",
       "claim_type": "attributed_quote",
-      "entities": ["Paul", "Ephesus", "Ephesians 1:17-19", "Bible"],
+      "entities": [
+        "Paul",
+        "Ephesus",
+        "Ephesians 1:17-19",
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -577,7 +779,10 @@
       "quote": "After the wonderful manifestation of the Holy Spirit on the day of Pentecost, Peter exhorted the people to repentance and baptism in the name of Christ, for the remission of their sins",
       "claim_text": "After the manifestation of the Holy Spirit on the day of Pentecost, Peter exhorted the people to repent and be baptized in the name of Christ for the remission of their sins.",
       "claim_type": "event",
-      "entities": ["Peter", "Pentecost"],
+      "entities": [
+        "Peter",
+        "Pentecost"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -592,7 +797,11 @@
       "quote": "he said: “Ye shall receive the gift of the Holy Ghost. For the promise is unto you, and to your children, and to all that are afar off, even as many as the Lord our God shall call.” Acts 2:38, 39.",
       "claim_text": "Acts 2:38-39, attributed to Peter, states: 'Ye shall receive the gift of the Holy Ghost. For the promise is unto you, and to your children, and to all that are afar off, even as many as the Lord our God shall call.'",
       "claim_type": "attributed_quote",
-      "entities": ["Peter", "Acts 2:38-39", "Bible"],
+      "entities": [
+        "Peter",
+        "Acts 2:38-39",
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -607,7 +816,11 @@
       "quote": "In immediate connection with the scenes of the great day of God, the Lord by the prophet Joel has promised a special manifestation of His Spirit. Joel 2:28. This prophecy received a partial fulfilment in the outpouring of the Spirit on the day of Pentecost; but it will reach its full accomplishment in the manifestation of divine grace which will attend the closing work of the gospel.",
       "claim_text": "The prophecy in Joel 2:28 of a special outpouring of God's Spirit was partially fulfilled at Pentecost and will be fully fulfilled in a future manifestation of divine grace attending the closing work of the gospel.",
       "claim_type": "theological",
-      "entities": ["Joel", "Joel 2:28", "Pentecost"],
+      "entities": [
+        "Joel",
+        "Joel 2:28",
+        "Pentecost"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -622,7 +835,11 @@
       "quote": "The great controversy between good and evil will increase in intensity to the very close of time. In all ages the wrath of Satan has been manifested against the church of Christ; and God has bestowed His grace and Spirit upon His people to strengthen them to stand against the power of the evil one.",
       "claim_text": "The great controversy between good and evil will intensify until the close of time; Satan's wrath has been directed against the church of Christ in all ages, and God has given His grace and Spirit to strengthen His people against the evil one.",
       "claim_type": "theological",
-      "entities": ["Satan", "God", "Holy Spirit"],
+      "entities": [
+        "Satan",
+        "God",
+        "Holy Spirit"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -637,7 +854,9 @@
       "quote": "When the apostles of Christ were to bear His gospel to the world and to record it for all future ages, they were especially endowed with the enlightenment of the Spirit.",
       "claim_text": "The apostles of Christ were especially endowed with the enlightenment of the Holy Spirit when they were to bear the gospel to the world and record it for future generations.",
       "claim_type": "theological",
-      "entities": ["Holy Spirit"],
+      "entities": [
+        "Holy Spirit"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -652,7 +871,9 @@
       "quote": "But as the church approaches her final deliverance, Satan is to work with greater power.",
       "claim_text": "As the church approaches its final deliverance, Satan will work with greater power.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -667,7 +888,11 @@
       "quote": "He comes down “having great wrath, because he knoweth that he hath but a short time.” Rev. 12:12.",
       "claim_text": "Revelation 12:12 describes Satan/the devil coming down 'having great wrath, because he knoweth that he hath but a short time.'",
       "claim_type": "attributed_quote",
-      "entities": ["Revelation 12:12", "Bible", "Satan"],
+      "entities": [
+        "Revelation 12:12",
+        "Bible",
+        "Satan"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -682,7 +907,10 @@
       "quote": "He will work “with all power and signs and lying wonders.” 2 Thess. 2:9.",
       "claim_text": "2 Thessalonians 2:9 states that the coming deceiver will work 'with all power and signs and lying wonders.'",
       "claim_type": "attributed_quote",
-      "entities": ["2 Thessalonians 2:9", "Bible"],
+      "entities": [
+        "2 Thessalonians 2:9",
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -697,7 +925,9 @@
       "quote": "For six thousand years that master-mind that once was highest among the angels of God, has been wholly bent to the work of deception and ruin.",
       "claim_text": "For six thousand years, the being (Satan) who was once highest among God's angels has been wholly devoted to deception and ruin.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "extractor_note": "Embeds a specific chronological claim (~6,000-year timeframe since Satan's fall/creation) inside a statement about angelic/supernatural activity; logged as theological per project rule 5 since the core assertion concerns Satan, not a secular chronology.",
       "verification": {
@@ -713,7 +943,9 @@
       "quote": "And all the depths of satanic skill and subtlety acquired, all the cruelty developed, during these struggles of the ages, will be brought to bear against God’s people in the final conflict. And in this time of peril the followers of Christ are to bear to the world the warning of the Lord’s second advent; and a people are to be prepared to stand before Him at His coming",
       "claim_text": "All the satanic skill, subtlety, and cruelty developed over the ages will be brought against God's people in the final conflict, during which the followers of Christ are to warn the world of the Lord's second advent and a people are to be prepared to stand blameless before Him at His coming.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -728,7 +960,10 @@
       "quote": "“without spot, and blameless.” 2 Peter 3:14.",
       "claim_text": "2 Peter 3:14 describes a people prepared to be found 'without spot, and blameless' at the Lord's coming.",
       "claim_type": "attributed_quote",
-      "entities": ["2 Peter 3:14", "Bible"],
+      "entities": [
+        "2 Peter 3:14",
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -758,7 +993,12 @@
       "quote": "Through the illumination of the Holy Spirit, the scenes of the long-continued conflict between good and evil have been opened to the writer of these pages. From time to time I have been permitted to behold the working, in different ages, of the great controversy between Christ, the Prince of life, the Author of our salvation, and Satan, the prince of evil, the author of sin, the first transgressor of God’s holy law.",
       "claim_text": "The author (Ellen G. White) states that through the illumination of the Holy Spirit, she has been permitted to behold, from time to time, the scenes of the long-continued conflict between Christ and Satan across different historical ages.",
       "claim_type": "theological",
-      "entities": ["Ellen G. White", "Christ", "Satan", "Holy Spirit"],
+      "entities": [
+        "Ellen G. White",
+        "Christ",
+        "Satan",
+        "Holy Spirit"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -773,7 +1013,10 @@
       "quote": "Satan’s enmity against Christ has been manifested against His followers. The same hatred of the principles of God’s law, the same policy of deception, by which error is made to appear as truth, by which human laws are substituted for the law of God, and men are led to worship the creature rather than the Creator, may be traced in all the history of the past.",
       "claim_text": "Satan's enmity against Christ has been manifested against Christ's followers, and the same policy of deception -- making error appear as truth, substituting human laws for God's law, and leading men to worship the creature rather than the Creator -- can be traced throughout past history.",
       "claim_type": "theological",
-      "entities": ["Satan", "Christ"],
+      "entities": [
+        "Satan",
+        "Christ"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -788,7 +1031,9 @@
       "quote": "Satan’s efforts to misrepresent the character of God, to cause men to cherish a false conception of the Creator, and thus to regard Him with fear and hate rather than with love; his endeavors to set aside the divine law, leading the people to think themselves free from its requirements; and his persecution of those who dare to resist his deceptions, have been steadfastly pursued in all ages. They may be traced in the history of patriarchs, prophets, and apostles, of martyrs and reformers.",
       "claim_text": "Satan's efforts to misrepresent God's character, set aside the divine law, and persecute those who resist his deceptions have been pursued in all ages and can be traced through the history of patriarchs, prophets, apostles, martyrs, and reformers.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -803,7 +1048,9 @@
       "quote": "In the great final conflict, Satan will employ the same policy, manifest the same spirit, and work for the same end, as in all preceding ages. That which has been, will be, except that the coming struggle will be marked with a terrible intensity such as the world has never witnessed. Satan’s deceptions will be more subtle, his assaults more determined.",
       "claim_text": "In the final conflict, Satan will employ the same policy as in previous ages, but with unprecedented intensity, more subtle deceptions, and more determined assaults.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -818,7 +1065,10 @@
       "quote": "If it were possible, he would lead astray the elect. Mark 13:22, Revised Version.",
       "claim_text": "Mark 13:22 (Revised Version) states that the deceiver would, if possible, lead astray the elect.",
       "claim_type": "attributed_quote",
-      "entities": ["Mark 13:22", "Bible"],
+      "entities": [
+        "Mark 13:22",
+        "Bible"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -833,7 +1083,10 @@
       "quote": "As the Spirit of God has opened to my mind the great truths of His word, and the scenes of the past and the future, I have been bidden to make known to others that which has thus been revealed,—to trace the history of the controversy in past ages, and especially so to present it as to shed a light on the fast-approaching struggle of the future.",
       "claim_text": "The author (Ellen G. White) states that the Spirit of God opened to her mind the great truths of Scripture and scenes of the past and future, and that she was bidden to make this known to others by tracing the history of the controversy and shedding light on the approaching future struggle.",
       "claim_type": "theological",
-      "entities": ["Ellen G. White", "Holy Spirit"],
+      "entities": [
+        "Ellen G. White",
+        "Holy Spirit"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -848,7 +1101,10 @@
       "quote": "In pursuance of this purpose, I have endeavored to select and group together events in the history of the church in such a manner as to trace the unfolding of the great testing truths that at different periods have been given to the world, that have excited the wrath of Satan, and the enmity of a world-loving church, and that have been maintained by the witness of those who “loved not their lives unto the death.”",
       "claim_text": "The author states that she selected and grouped together events in church history to trace the unfolding of great testing truths given at different periods, truths that excited Satan's wrath and the enmity of a world-loving church, and were maintained by witnesses willing to die for them.",
       "claim_type": "interpretive",
-      "entities": ["Ellen G. White", "Satan"],
+      "entities": [
+        "Ellen G. White",
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -863,7 +1119,9 @@
       "quote": "“loved not their lives unto the death.”",
       "claim_text": "The phrase 'loved not their lives unto the death' is used to describe witnesses/martyrs maintaining testing truths.",
       "claim_type": "attributed_quote",
-      "entities": ["Bible"],
+      "entities": [
+        "Bible"
+      ],
       "needs_verification": true,
       "extractor_note": "No chapter-and-verse citation is given in the source text; the phrase closely echoes Revelation 12:11 KJV ('and they loved not their lives unto the death').",
       "verification": {
@@ -879,7 +1137,9 @@
       "quote": "In these records we may see a foreshadowing of the conflict before us. Regarding them in the light of God’s word, and by the illumination of His Spirit, we may see unveiled the devices of the wicked one, and the dangers which they must shun who would be found “without fault” before the Lord at His coming.",
       "claim_text": "The historical records presented in the book are said to foreshadow the coming conflict, and viewed by the light of God's word and Spirit, to unveil Satan's devices and the dangers that must be avoided by those seeking to be found without fault before the Lord at His coming.",
       "claim_type": "theological",
-      "entities": ["Holy Spirit"],
+      "entities": [
+        "Holy Spirit"
+      ],
       "needs_verification": false,
       "extractor_note": "Embeds a short scriptural fragment, 'without fault,' echoing Revelation 14:5; not separately extracted given its brevity and interpretive framing.",
       "verification": {
@@ -895,7 +1155,9 @@
       "quote": "The great events which have marked the progress of reform in past ages, are matters of history, well known and universally acknowledged by the Protestant world; they are facts which none can gainsay.",
       "claim_text": "The great events marking the progress of religious reform in past ages are matters of history, well known and universally acknowledged by the Protestant world, and are facts that cannot be disputed.",
       "claim_type": "interpretive",
-      "entities": ["Protestantism"],
+      "entities": [
+        "Protestantism"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "supported",
@@ -910,7 +1172,9 @@
       "quote": "This history I have presented briefly, in accordance with the scope of the book, and the brevity which must necessarily be observed, the facts having been condensed into as little space as seemed consistent with a proper understanding of their application.",
       "claim_text": "The author states she presented this reform history briefly and condensed the facts to fit the book's necessary scope.",
       "claim_type": "interpretive",
-      "entities": ["Ellen G. White"],
+      "entities": [
+        "Ellen G. White"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -925,7 +1189,9 @@
       "quote": "In some cases where a historian has so grouped together events as to afford, in brief, a comprehensive view of the subject, or has summarized details in a convenient manner, his words have been quoted; but in some instances no specific credit has been given, since the quotations are not given for the purpose of citing that writer as authority, but because his statement affords a ready and forcible presentation of the subject.",
       "claim_text": "The author states that in composing the book's historical narrative, she quoted the words of historians who had usefully grouped or summarized events, and that in some of these instances no specific credit was given to the historian, because the quotations were used for their forcible presentation of the subject rather than to cite the writer as an authority.",
       "claim_type": "biographical",
-      "entities": ["Ellen G. White"],
+      "entities": [
+        "Ellen G. White"
+      ],
       "needs_verification": true,
       "extractor_note": "Author's own admission of quoting historians without specific credit in some instances; directly relevant to the literary-dependence/plagiarism scholarship referenced in the project's scholarship baseline (Walter Rea, Donald McAdams).",
       "verification": {
@@ -934,9 +1200,27 @@
         "rationale": "The factual core — that White quoted historians and in some instances gave no specific credit — is well-documented and self-admitted. The 1911 revision was itself an effort to locate, verify, and (partly) credit these borrowings from historians such as J.H. Merle D'Aubigné and J.A. Wylie; the White Estate acknowledges 'in keeping with the thinking in those times, she and those associated with her did not consider this use of available materials as a matter that called for specific recognition.' Independent critical scholarship (Walter Rea's 'The White Lie,' Donald McAdams' study of the Reformation chapters) documents that the borrowing was considerably more extensive than 'some instances' might suggest to a reader — a dispute about EXTENT, not about the fact of uncredited quotation, which this claim asserts. Verdict is supported on the asserted proposition; the extent question belongs to later stages.",
         "modern_consensus": "The uncredited literary borrowing is undisputed; scholars differ on how extensive it was (White Estate: ~4% of the 1911 edition is verbatim borrowed wording; critics such as Rea argue substantially more paraphrastic dependence).",
         "sources": [
-          {"title": "The Great Controversy (book) - Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Great_Controversy_(book)", "source_class": "encyclopedia", "supports_verdict": true, "note": "Documents borrowing from historians and the 1911 crediting effort"},
-          {"title": "W. W. Prescott and the 1911 Edition of Great Controversy - Ellen G. White Estate", "url": "https://whiteestate.org/legacy/issues-gc-prescott-html/", "source_class": "apologetic", "supports_verdict": true, "note": "Denominational account (position) of locating/verifying quotations from historians for the 1911 revision"},
-          {"title": "The Truth about the White Lie - Ministry Magazine", "url": "https://www.ministrymagazine.org/archive/1982/08/the-truth-about-the-white-lie", "source_class": "apologetic", "supports_verdict": true, "note": "Response to Walter Rea's plagiarism charge (counter-position); confirms the borrowing occurred"}
+          {
+            "title": "The Great Controversy (book) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/The_Great_Controversy_(book)",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Documents borrowing from historians and the 1911 crediting effort"
+          },
+          {
+            "title": "W. W. Prescott and the 1911 Edition of Great Controversy - Ellen G. White Estate",
+            "url": "https://whiteestate.org/legacy/issues-gc-prescott-html/",
+            "source_class": "apologetic",
+            "supports_verdict": true,
+            "note": "Denominational account (position) of locating/verifying quotations from historians for the 1911 revision"
+          },
+          {
+            "title": "The Truth about the White Lie - Ministry Magazine",
+            "url": "https://www.ministrymagazine.org/archive/1982/08/the-truth-about-the-white-lie",
+            "source_class": "apologetic",
+            "supports_verdict": true,
+            "note": "Response to Walter Rea's plagiarism charge (counter-position); confirms the borrowing occurred"
+          }
         ]
       }
     },
@@ -946,15 +1230,29 @@
       "quote": "In narrating the experience and views of those carrying forward the work of reform in our own time, similar use has been made of their published works.",
       "claim_text": "The author states that when narrating the experience and views of contemporary reformers, she similarly made use of their published works (implying similar uncredited-quotation practice).",
       "claim_type": "biographical",
-      "entities": ["Ellen G. White"],
+      "entities": [
+        "Ellen G. White"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "Consistent with the same well-documented practice as GC-00-059: the later (Millerite/Advent) chapters of The Great Controversy draw verbatim and near-verbatim on published works of the movement's participants and reformers (e.g., contemporary accounts and histories of the Advent movement), a dependence documented in the same 1911-revision and critical literature. The claim asserts only that such use of published works occurred, which is supported.",
         "sources": [
-          {"title": "The Great Controversy (book) - Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Great_Controversy_(book)", "source_class": "encyclopedia", "supports_verdict": true, "note": "Documents literary dependence including on contemporary published works"},
-          {"title": "The Truth about the White Lie - Ministry Magazine", "url": "https://www.ministrymagazine.org/archive/1982/08/the-truth-about-the-white-lie", "source_class": "apologetic", "supports_verdict": true, "note": "Confirms use of others' published works (position)"}
+          {
+            "title": "The Great Controversy (book) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/The_Great_Controversy_(book)",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Documents literary dependence including on contemporary published works"
+          },
+          {
+            "title": "The Truth about the White Lie - Ministry Magazine",
+            "url": "https://www.ministrymagazine.org/archive/1982/08/the-truth-about-the-white-lie",
+            "source_class": "apologetic",
+            "supports_verdict": true,
+            "note": "Confirms use of others' published works (position)"
+          }
         ]
       }
     },
@@ -964,7 +1262,9 @@
       "quote": "It is not so much the object of this book to present new truths concerning the struggles of former times, as to bring out facts and principles which have a bearing on coming events.",
       "claim_text": "The stated object of the book is not primarily to present new truths about historical struggles, but to bring out facts and principles bearing on future events.",
       "claim_type": "interpretive",
-      "entities": ["Ellen G. White"],
+      "entities": [
+        "Ellen G. White"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -995,7 +1295,10 @@
       "quote": "To unfold the scenes of the great controversy between truth and error; to reveal the wiles of Satan, and the means by which he may be successfully resisted; to present a satisfactory solution of the great problem of evil, shedding such a light upon the origin and the final disposition of sin as to make fully manifest the justice and benevolence of God in all His dealings with His creatures; and to show the holy, unchanging nature of His law, is the object of this book.",
       "claim_text": "The stated object of the book is to unfold the scenes of the controversy between truth and error, reveal Satan's wiles and how to resist them, present a solution to the problem of evil that demonstrates God's justice and benevolence, and show the holy, unchanging nature of God's law.",
       "claim_type": "interpretive",
-      "entities": ["Satan", "God"],
+      "entities": [
+        "Satan",
+        "God"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1010,7 +1313,9 @@
       "quote": "That through its influence souls may be delivered from the power of darkness, and become “partakers of the inheritance of the saints in light,” to the praise of Him who loved us, and gave Himself for us, is the earnest prayer of the writer.",
       "claim_text": "The author's stated prayer is that through the book's influence, souls may be delivered from darkness and become partakers of the inheritance of the saints in light.",
       "claim_type": "theological",
-      "entities": ["Ellen G. White"],
+      "entities": [
+        "Ellen G. White"
+      ],
       "needs_verification": false,
       "extractor_note": "Embeds a scriptural quotation, 'partakers of the inheritance of the saints in light,' echoing Colossians 1:12; not separately extracted as a full standalone attributed_quote entry given the wording is folded into the author's own prayer statement (see also GC-00-004 etc. for standalone verse-citation quotes elsewhere in the chapter).",
       "verification": {
@@ -1026,7 +1331,9 @@
       "quote": "E. G. W.",
       "claim_text": "The Introduction is signed with the initials 'E. G. W.,' identifying Ellen G. White as its author.",
       "claim_type": "biographical",
-      "entities": ["Ellen G. White"],
+      "entities": [
+        "Ellen G. White"
+      ],
       "needs_verification": true,
       "extractor_note": "Signature initials at the close of the Introduction; the checkable fact is authorship attribution to Ellen G. White.",
       "verification": {
@@ -1042,7 +1349,10 @@
       "quote": "Jerusalem From The Mount Of Olives.",
       "claim_text": "The Introduction concludes with the line 'Jerusalem From The Mount Of Olives,' associated with a place of writing or an accompanying illustration in the 1911 edition.",
       "claim_type": "geographical",
-      "entities": ["Jerusalem", "Mount of Olives"],
+      "entities": [
+        "Jerusalem",
+        "Mount of Olives"
+      ],
       "needs_verification": true,
       "extractor_note": "In the 1911 edition this line likely functions as an illustration caption (a common feature of that edition's layout) rather than a narrative assertion by the author; ambiguous in this plain-text extraction without access to original page images. Flagged for the verifier to check against the print edition/illustration list.",
       "verification": {
@@ -1050,8 +1360,20 @@
         "confidence": "medium",
         "rationale": "The line is an illustration/plate caption in the 1911 edition, not an authorial geographical assertion. In that edition a plate captioned 'Jerusalem from the Mount of Olives' introduces Chapter 1 ('The Destruction of Jerusalem'), whose opening describes Jesus viewing Jerusalem 'from the crest of Olivet.' The plain-text extraction picked up the caption after the Introduction's signature because of the plate's placement. The checkable fact (it is an edition caption, not a claim that the book was written in Jerusalem) is confirmed by the edition's contents.",
         "sources": [
-          {"title": "The Great Controversy (book) - Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Great_Controversy_(book)", "source_class": "encyclopedia", "supports_verdict": true, "note": "Describes the 1911 illustrated edition; chapter 1 concerns the destruction of Jerusalem"},
-          {"title": "The Great Controversy (1911), full text PDF - EGW Writings", "url": "https://media4.egwwritings.org/pdf/en_GC.pdf", "source_class": "primary", "supports_verdict": true, "note": "1911 edition; the 'Jerusalem from the Mount of Olives' plate introduces the opening chapter's Olivet scene"}
+          {
+            "title": "The Great Controversy (book) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/The_Great_Controversy_(book)",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Describes the 1911 illustrated edition; chapter 1 concerns the destruction of Jerusalem"
+          },
+          {
+            "title": "The Great Controversy (1911), full text PDF - EGW Writings",
+            "url": "https://media4.egwwritings.org/pdf/en_GC.pdf",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "1911 edition; the 'Jerusalem from the Mount of Olives' plate introduces the opening chapter's Olivet scene"
+          }
         ]
       }
     }

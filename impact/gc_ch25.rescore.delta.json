@@ -1,0 +1,23 @@
+{
+ "chapter": 25,
+ "stage": "impact",
+ "notes": "Phase 2a adjudication reclassifies GC-25-051 from a Phase-1 'genuinely-open two-camp dispute' into a discrepancy: the as-written fact claim (a primeval, pre-Israelite institution of the Sabbath 'in Eden') is ruled improbable against convergent evidence (comparative absence of any pre-Israelite weekly rest, Priestly-source etiology of Genesis 1, silence of Genesis 2 on Sabbath vocabulary/command), while the weakened version (the biblical tradition itself grounds the Sabbath in creation from Genesis onward) is well-supported, giving a framing_gap of 3. This raises severity from Phase 1's 2 to 3, since the ruling is now a documented evidential preponderance rather than an undecidable dispute between comparable camps, but centrality and load_bearing are unchanged at maximal/true because the adjudication notes explicitly warn the chapter's universalizing argument rides on the as-written primeval-event claim, not on the weakened textual-grounding version, so impact_score moves from 10 to 15.",
+ "items": {
+  "GC-25-051": {
+   "category": "discrepancy",
+   "dossier": "D06",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "well-supported",
+   "framing_gap": 3,
+   "failing_component_kind": "fact",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 3,
+   "centrality": 5,
+   "load_bearing": true,
+   "impact_score": 15,
+   "narrative_arc": "doctrinal",
+   "reasoning": "The failing component is a fact claim — that the seventh-day Sabbath existed as a human institution from primeval antiquity, 'in Eden,' long before Israel — which the adjudication ruled improbable on convergent evidence: no documented pre-Israelite culture attests a weekly Sabbath or continuous seven-day week, Genesis 2:1-3 contains neither the term nor a command to humans, and critical scholarship reads the creation account as the Priestly writer's etiology for the Israelite institution rather than a chronicle of Edenic practice. The framing_gap of 3 shows the substance survives at the weakened level (the biblical tradition does ground the Sabbath in creation textually, from Genesis onward, and all sides read the text that way), so the as-written failure is best described as a genre/absoluteness failure — treating a theological etiology as literal primeval history — rather than invention of an event or quote; but GC prints the primeval-institution claim as literal fact, so reader-facing severity is not reduced by that distinction. Counterfactual: delete the Eden-institution claim and paragraph 11 loses the one textual peg that lets chapter 25 universalize the fourth commandment to all humanity from the dawn of history rather than treat it as Israel's Mosaic sign; the chapter retains secondary supports (the 'sign' argument, Christ as 'Lord of the Sabbath') but none does the same primeval-universalizing work needed to carry the mark-of-the-beast/seal-of-God dichotomy for all nations, so the claim remains load-bearing for this specific chapter argument even though the book's broader Sabbath-perpetuity thesis has redundant anchors elsewhere."
+  }
+ }
+}

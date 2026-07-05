@@ -1,0 +1,39 @@
+{
+ "chapter": 33,
+ "stage": "impact",
+ "notes": "Phase 2a adjudication reopens both dossier D08 items and finds the same pattern in each: the empirical core (pagan/Platonic philosophical origin of soul-immortality; transmission of eternal-torment doctrine to Protestants through the medieval Latin/Roman channel) survives at the weakened level as well-supported, but the as-written claim that ROME specifically originated/did the borrowing is ruled improbable, since both doctrines are attested in the 2nd-5th century patristic world before a papal Rome existed and persist in Eastern Christendom without Roman mediation. Both failures are independent (chain_inherited: false) and load on the 'fact' component (agency/origination misattribution), tied with 'frame' for GC-33-034. Impact scores are unchanged from Phase 1 (12 each; severity 3 x centrality 4): severity reflects a materially imprecise causal-agency claim rather than a fabricated event, consistent with the adjudication's 'improbable' (not 'discredited') ruling, and centrality is capped at 4 rather than 5 because this doctrinal genealogy is the chapter's own thesis-template (reused in ch. 34's spiritualism arc) but runs parallel to, not inside, the book's core Reformation-Millerite-Sabbath chain; neither claim is load-bearing since the chapter's extensive supported scriptural case for conditional immortality does not depend on either genealogical aside.",
+ "items": {
+  "GC-33-034": {
+   "category": "discrepancy",
+   "dossier": "D08",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "well-supported",
+   "framing_gap": 3,
+   "failing_component_kind": "fact",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 3,
+   "centrality": 4,
+   "load_bearing": false,
+   "impact_score": 12,
+   "narrative_arc": "doctrinal",
+   "reasoning": "The failing component is factual (tied with frame): the claim's force is that Rome specifically ORIGINATED the eternal-torment doctrine and passed it on exactly as it passed on Sunday observance, but the doctrine is attested across the 2nd-century Mediterranean (Justin, Irenaeus, Athenagoras, Tertullian) centuries before a papal Rome existed, and Eastern Orthodoxy holds it without Roman mediation - ruled improbable as written. With framing_gap 3 the weakened conduit-plus-consolidation reading ('Protestants inherited the doctrine through the medieval Latin church, which had consolidated it since Augustine') is well-supported, so the substance survives; what fails is the absolute origination/agency claim and its rhetorical yoking to the separately well-evidenced Sunday genealogy - an overclaiming failure, not a fabrication. This is an independent failure (chain_inherited: false; no upstream claim's collapse propagates into it). Centrality stays 4 because the sentence is this chapter's own thesis-statement on how the error entered Christendom and the template reused in ch. 34's spiritualism arc, yet it sits parallel to, not inside, the book's core Reformation-Millerite-Sabbath chain, and the chapter's dozens of supported scriptural citations refute natural immortality independently of this genealogical aside, so load_bearing is false."
+  },
+  "GC-33-099": {
+   "category": "discrepancy",
+   "dossier": "D08",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "well-supported",
+   "framing_gap": 3,
+   "failing_component_kind": "fact",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 3,
+   "centrality": 4,
+   "load_bearing": false,
+   "impact_score": 12,
+   "narrative_arc": "doctrinal",
+   "reasoning": "The failing component is factual: 'Roman agency' - the claim that Rome, as an institutional actor, did the borrowing from paganism and the incorporating - fails because the incorporation was accomplished in the 2nd-5th centuries by Greek and North African fathers (Athenagoras, Tertullian, Augustine) working before and outside a papal 'Rome', and Eastern Christendom holds the same anthropology without Roman mediation; Rome's own documented acts (Benedictus Deus 1336, Fifth Lateran Council 1513) are late dogmatizations of an already-universal doctrine, not the incorporation itself. The pagan-origin half of the same sentence is independently well-supported (Cullmann; Rankin; the 2024 'Plato's Shadow' study), so with framing_gap 3 the weakened conjunctive reading ('Greek philosophy entered patristic theology and was later dogmatized by Rome') is well-supported; the as-written failure is agency/rhetoric overreach, not an invented event, and this is an independent failure (chain_inherited: false). Centrality stays 4: the sentence is the chapter's explicit closing thesis and the template reused in ch. 34's spiritualism arc, yet it remains parallel to, not a link within, the book's core Reformation-Millerite-Sabbath chain, and the chapter's extensive supported scriptural case for conditional immortality does not depend on this closing genealogical line, so load_bearing is false."
+  }
+ }
+}

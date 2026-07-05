@@ -322,6 +322,22 @@
         "impact_score": 12,
         "narrative_arc": "millerite",
         "reasoning": "This sentence is the interpretive keystone of paragraph 6, explicitly modeled on the Reformation parallel ('Like the great Reformation... appeared in different countries... at the same time'), and it frames every subsequent vignette (Wolff, Lacunza, Bengel, Gaussen, the Scandinavian child-preachers) as independent, Scripture-only convergence rather than ordinary transatlantic diffusion. Modern historiography documents real cross-pollination -- Irving's 1827 translation of Lacunza circulating in Britain, American Millerite publications reprinted in England, Wolff's own itinerant preaching seeding multiple regions -- so 'solely by the study of the Scriptures... independently' overstates the case, though some genuinely prior/independent study did occur (Bengel's 1740s date-setting predates any American influence entirely), which is why the verdict is disputed rather than contradicted. Counterfactual: strip the 'independence' framing and the chapter's roster of national awakenings still stands as an accurate record of a real transatlantic revival, but the chapter's specific interpretive claim -- that the ubiquity constitutes evidence of providential rather than social causation -- loses its evidentiary anchor, since ordinary diffusion is a sufficient naturalistic explanation for the same facts; this makes the claim load-bearing for the chapter's own argument (though not fatal to the book's broader thesis chain, since a diffusion-based worldwide awakening would still satisfy Revelation 14's 'to every nation' imagery)."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D03",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "probable",
+        "framing_gap": 2,
+        "failing_component_kind": "fact",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 3,
+        "centrality": 4,
+        "load_bearing": true,
+        "impact_score": 12,
+        "narrative_arc": "millerite",
+        "reasoning": "Fact failure: the adjudication found the 'isolated' and 'solely by the study of the Scriptures' components improbable as written -- documented cases were networked (Wolff at the 1826 Albury conference, Irving's 1827 Lacunza translation, Bengel's printed legacy, Gaussen via Rollin's history), and all shared the inherited historicist exegetical apparatus rather than reaching their conclusions by Scripture alone. Framing_gap of 2 means the weakened version ('little or no direct contact... chiefly through their own study') is itself probable, so the substance -- a real, geographically dispersed advent awakening -- survives; what fails is the sentence's absolutist rhetoric of total isolation and exclusive sourcing, a rhetoric/absoluteness failure layered on well-supported facts rather than a fabricated event, which keeps severity at 3 rather than higher. This is an independent evidential failure (chain_inherited: false; no upstream claim in this chapter propagates the error here) sitting exactly at the chapter's thesis-setting sentence, so centrality stays at 4 and the claim remains load-bearing for the chapter's own 'independent convergence proves providence' argument, though not for the book's broader thesis chain, since network-diffusion would still satisfy Revelation 14's 'to every nation' framing invoked elsewhere in the chapter."
       }
     },
     {

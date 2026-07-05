@@ -564,6 +564,22 @@
         "impact_score": 12,
         "narrative_arc": "doctrinal",
         "reasoning": "The claim that it was 'Rome's policy... to keep [the Bible] locked up in an unknown tongue, and hidden away from the people' is a doctrinally central topic under CLAUDE.md's escalation rule; Deanesly and modern medievalist scholarship show restrictions were regional/reactive (tied to heresy, e.g. the 1408 Oxford Constitutions) alongside genuine, sometimes abundant, vernacular Scripture circulation -- a categorical universal-ban claim is overstated. Severity reflects a real overgeneralization of a partly-true premise. Centrality is high because this sentence functions as the chapter's summary statement of Rome's antecedent guilt, immediately preceding the turn to 'a new power... the beast from the bottomless pit' -- it is the hinge between the book's standing Rome-suppression thesis and this chapter's France-specific case. Counterfactual: even without this categorical claim, the chapter's actual evidentiary base (well-documented Huguenot persecution, 1685 Revocation, dragonnades) carries the France-specific argument on its own, so it is not load-bearing, but it does supply the rhetorical premise tying this chapter back to the book's broader anti-papal thesis."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D07",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "well-supported",
+        "framing_gap": 3,
+        "failing_component_kind": "fact",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 3,
+        "centrality": 4,
+        "load_bearing": false,
+        "impact_score": 12,
+        "narrative_arc": "doctrinal",
+        "reasoning": "Fact failure: the adjudication rules the universal 'Rome's policy ... to keep it locked up ... hidden away from the people' improbable as written, since no pope or council ever issued a church-wide concealment mandate and abundant tolerated vernacular Scripture circulated in many regions/periods, while the weakened version (real, extensive, but regional/reactive restriction, hardening into a centralized Italian/Spanish ban after Trent) is well-supported -- the substance survives, and the as-written failure is an absolute/singular framing error, not fabrication (framing_gap 3). Centrality stays high because this sentence is the chapter's summary hinge between the book's standing Rome-suppression thesis and its France-specific case, immediately preceding the turn to 'the beast from the bottomless pit.' Counterfactual: deleting this categorical clause costs the chapter nothing evidentially, since its actual proof (documented Huguenot persecution, the 1685 Revocation, dragonnades) carries the France-specific argument without it, so load_bearing stays false."
       }
     },
     {
@@ -904,6 +920,22 @@
         "impact_score": 6,
         "narrative_arc": "pre-reformation",
         "reasoning": "Grouping the Albigenses with the Waldenses as fellow 'witnesses to the truth' reflects Wylie's 19th-century historiography; the defender's steelman shows the modern scholarly ground has shifted from a confident dualist-sect consensus to genuine live debate (Pegg, Moore, Sennis ed.) over whether Catharism is even reconstructable as a doctrine, so 'disputed' rather than a clean error is fair. Severity is modest because the underlying counter-claim is itself contested. Centrality is moderate: this pairing touches the book's broader 'faithful persecuted minorities' lineage (explicitly part of the central thesis chain), but within this chapter it functions as one clause of scene-setting for French persecution, not as a structural pillar. Counterfactual: removing the Albigenses clause costs the chapter nothing -- the France-specific persecution narrative (Huguenots, Church in the Desert) stands entirely without it."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D12",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "well-supported",
+        "framing_gap": 3,
+        "failing_component_kind": "fact",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 2,
+        "centrality": 3,
+        "load_bearing": false,
+        "impact_score": 6,
+        "narrative_arc": "pre-reformation",
+        "reasoning": "Fact failure: the doctrinal-kinship claim ('brethren ... similar witness to the truth') is ruled improbable, since the primary and inquisitorial record treats Waldenses and Albigenses/Cathars as doctrinally opposed camps (including the Waldenses' own anti-Cathar polemic) even under the current revisionist destabilization of the confident dualist portrait, while the shared fact of persecution-to-death is well-supported and forms the weakened version (framing_gap 3) -- the substance survives at that non-doctrinal level, and the as-written failure is a 19th-century (Wylie/Allix/Faber) kinship-framing error inherited uncritically rather than an invented event. Centrality is moderate: this clause touches the book's broader persecuted-minorities lineage but functions here as one item of scene-setting before the chapter turns to the well-documented Huguenot/Church-in-the-Desert case. Counterfactual: removing the Albigenses clause changes nothing in the chapter's France-specific persecution argument, so load_bearing is false."
       }
     },
     {
@@ -1260,6 +1292,22 @@
         "impact_score": 4,
         "narrative_arc": "reformation",
         "reasoning": "Whether the provincial extension of the St. Bartholomew massacre followed 'special order of the king' is genuinely disputed -- Charles IX in fact issued orders to halt the killing on 25-27 Aug, while provincial officials pressed on regardless, so White's single-cause royal-order framing (following period Protestant sources) overstates central coordination. Severity is low: the underlying fact that the massacre did spread to the provinces and killed many is undisputed. Centrality is low: this is one supporting detail within the massacre narrative, itself illustrative color for the broader persecution argument, not a claim the chapter's thesis depends on. Counterfactual: reframing this as decentralized provincial violence rather than a royal decree changes nothing about the chapter's condemnation of Rome-aligned persecution."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D20",
+        "ruling_as_written": "discredited",
+        "ruling_weakened": "well-supported",
+        "framing_gap": 4,
+        "failing_component_kind": "fact",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 3,
+        "centrality": 2,
+        "load_bearing": false,
+        "impact_score": 6,
+        "narrative_arc": "reformation",
+        "reasoning": "Compound fact failure: the adjudication discredits the 'all the provinces and towns where Protestants were found' universal outright (major Huguenot centers such as La Rochelle, Nimes, and Montauban were never massacred) and separately rules the 'special order of the king' command-attribution improbable (Charles IX's surviving letters of 24/28 August ordered protection, not killing). The weakened version -- spread to roughly a dozen provincial cities amid perpetrators' claims of royal sanction -- is well-supported (framing_gap 4), so the atrocity and its provincial scale survive; what fails is the totalizing scope and centralized-command frame the sentence uses to sharpen crown/Rome culpability. Centrality stays low because this is illustrative atrocity detail within the massacre narrative rather than a claim the chapter's thesis depends on, so a decentralized-violence reframing changes nothing about the broader Rome-persecution argument; load_bearing false."
       }
     },
     {
@@ -1591,6 +1639,22 @@
         "impact_score": 12,
         "narrative_arc": "frame",
         "reasoning": "Glossing Voltaire's 'l'infame' (generally read by scholars as institutionalized fanaticism/the persecuting Church, not the person of Christ) as meaning Christ personally is an interpretive narrowing that materially changes what is being claimed about revolutionary infidelity's target -- from anti-clericalism to literal anti-Christ. Severity reflects a real semantic distortion of a well-documented slogan. Centrality is fairly high because this reinterpretation directly feeds the chapter's 'same master-spirit' framing linking Voltairean infidelity to a personal war against Christ, which is part of the chapter's rhetorical bridge from Enlightenment anti-clericalism to the cosmic-conflict frame. Counterfactual: if 'the Wretch' is read as institutional religion rather than Christ, the chapter's broader claim (French infidelity attacked Christianity and its Scriptures) still stands on the independently well-documented dechristianization campaign, so this single equation is not load-bearing, only rhetorically vivid."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D04",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "well-supported",
+        "framing_gap": 3,
+        "failing_component_kind": "fact",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 3,
+        "centrality": 4,
+        "load_bearing": false,
+        "impact_score": 12,
+        "narrative_arc": "frame",
+        "reasoning": "Fact failure on the referent gloss specifically: 'meaning Christ' is ruled improbable, since Voltaire scholarship (Besterman, Gay, Pomeau) reads l'infame as institutionalized fanaticism/the persecuting church rather than the person of Christ, while the underlying claims that French infidels called Christianity an imposture and that 'ecrasez l'infame' was their genuine watchword are each independently probable to well-supported (framing_gap 3) -- the anti-Christian substance survives, and the as-written failure is a metonymic narrowing (institution to person) rather than an invented slogan. Centrality remains high because this reglossing feeds directly into the chapter's 'same master-spirit' bridge from the St. Bartholomew Massacre to the Revolution's anti-Christian character, part of the cosmic-conflict framing running through the whole book. Counterfactual: reading 'the Wretch' as institutional religion rather than Christ leaves the chapter's broader claim (French infidelity attacked Christianity and its Scriptures) fully intact via the independently documented dechristianization campaign, so load_bearing is false."
       }
     },
     {
@@ -2587,6 +2651,22 @@
         "impact_score": 2,
         "narrative_arc": "frame",
         "reasoning": "'After me, the deluge' is popularly attributed to Louis XV but the earliest sourced version (Mme du Hausset's memoirs) gives 'Apres nous' to Madame de Pompadour; the king-attribution is a traditional but doubtful ascription White inherited from period historians. Severity is low -- a disputed bon mot, not a substantive historical claim. Centrality is minimal: it is purely decorative color illustrating Louis XV's fatalism, a point already established by the adjacent (independently attested) quotation in GC-15-112. Counterfactual: deleting this line changes nothing in the chapter's portrait of pre-Revolutionary decay."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D04",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "well-supported",
+        "framing_gap": 3,
+        "failing_component_kind": "fact",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 2,
+        "centrality": 1,
+        "load_bearing": false,
+        "impact_score": 2,
+        "narrative_arc": "frame",
+        "reasoning": "A tied fact/frame failure, with fact taking priority per the adjudication's fixed rule: the specific attribution to Louis XV is improbable, since the earliest source (du Hausset's memoirs) assigns the words to Madame de Pompadour and Mirabeau already called the phrase proverbial in 1756, and the accompanying frame ('truly pictured' his own disposition) necessarily fails alongside an utterance the king may never have made. The weakened version -- a proverbial saying current at his court, aptly emblematizing its fatalism -- is well-supported (framing_gap 3), so the substance survives at that level. Centrality is minimal: this is purely decorative color, and the adjacent, independently-attested quotation (GC-15-112, 'after my death it may be as it will') already establishes the same point, so deleting this claim costs the chapter nothing; load_bearing is false, making this the chapter's lowest-impact rescored item."
       }
     },
     {
@@ -3239,6 +3319,22 @@
         "impact_score": 15,
         "narrative_arc": "eschatological",
         "reasoning": "The claim that toleration of Scripture was restored 'three years and a half' after the 1793 decrees is engineered to match Revelation 11's 'three days and a half' resurrection of the witnesses; modern historiography dates the substantive restoration of worship to the law of 3 Ventose Year III (21 Feb 1795), roughly fifteen months after the dechristianization decrees, not 3.5 years. Severity reflects a specific, checkable date claim that conflicts with the documented legislative record. Centrality is maximal: this is the chapter's climactic 'proof point' -- the literal numeric match between prophecy and history that GC-15-035 calls an 'exact and striking fulfilment.' Counterfactual: if the real interval is about 15 months rather than 42, the chapter's single strongest claim to precise, verifiable prophetic fulfillment collapses; the broader providential narrative (Rome's suppression, Revolution as consequence, eventual toleration) can survive on looser terms, but the specific 'exactness' argument this claim exists to serve cannot, making it load-bearing for that argument even though it is not needed for the chapter's more general moral-historical narrative."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D04",
+        "ruling_as_written": "discredited",
+        "ruling_weakened": "well-supported",
+        "framing_gap": 4,
+        "failing_component_kind": "fact",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 5,
+        "centrality": 5,
+        "load_bearing": true,
+        "impact_score": 25,
+        "narrative_arc": "eschatological",
+        "reasoning": "This is the chapter's single load-bearing claim, and the adjudication's ruling is markedly harder than Phase-1's 'disputed': the fact failure is total rather than partial -- the 'same body' component is discredited outright (the National Convention dissolved in Oct. 1795, so no 3.5-year interval spanning to any 1797 act can fit), while the '3.5 years later' interval and the '1797 resolution ... granting toleration' components are each independently improbable, since an undisputed intervening restoration (3 Ventose Year III, 21 Feb 1795, roughly 15 months after the 1793 decrees) falls inside the alleged suppression window, and even the 1911 SDA revision committee's own research 'failed to disclose such specific legislation.' The weakened version -- a staged legislative restoration of toleration over several years (1794-1797) following the 1793 dechristianization -- is well-supported (framing_gap 4), so the moral-providential narrative (Rome's antecedent suppression, Revolution as consequence, eventual toleration) survives, but the chapter's specific claim to an exact, verifiable numeric match with Revelation 11's 'three days and a half' does not, since no assignment of 'the same body' or the interval satisfies the sentence as printed. Severity is set at maximum because this is not a loose approximation but an engineered precision claim (a specific interval, a specific legislative body, a specific act) the adjudication finds structurally impossible under undisputed constitutional chronology; centrality remains maximal because the chapter itself (GC-15-035) calls this construction 'a most exact and striking fulfilment,' its own chosen proof-point for literal prophetic fulfillment -- remove this claim and the chapter's strongest claim to precise fulfillment collapses, even though the broader providential-history narrative does not depend on it, so load_bearing stays true."
       }
     },
     {

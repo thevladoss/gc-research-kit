@@ -1,0 +1,39 @@
+{
+ "chapter": 10,
+ "stage": "impact",
+ "notes": "Phase 2a adjudication reopens both claims this chapter's Phase-1 impact stage had already flagged anachronistic-then-disputed, and issues as-written rulings of 'improbable' for each on distinct failing-component grounds: GC-10-054 fails as an undocumented motive attribution (Muntzer's 'ambition'), while GC-10-066 fails as an absolutist factual quantifier ('without the slightest foundation') applied to the Peasants'-War charge. Both weaken to well-supported versions with framing_gap 3, meaning the substantive historical claims underneath survive and only the as-printed motive-psychologizing or absolute-denial framing fails -- consistent with the chapter's low structural reliance on either clause, since the fanaticism-vs-true-reform foil (GC-10-054's context) and Luther's personal exoneration from the revolt (GC-10-066's context) both rest primarily on independently-verified theological and documentary claims elsewhere in the chapter (Muntzer's rejection of sola scriptura, Luther's own documented condemnation of the revolt). Neither claim is load-bearing for the chapter's argument or the book's central thesis chain; GC-10-066 scores higher (9 vs 4) because its fact/quantifier failure is judged against concrete, named documentary counter-evidence (the Twelve Articles, the rebels' explicit invocation of Luther), whereas GC-10-054's motive failure turns on an evidentiary gap (no document from Muntzer's own hand) rather than a positively documented contradiction.",
+ "items": {
+  "GC-10-054": {
+   "category": "discrepancy",
+   "dossier": "D09",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "well-supported",
+   "framing_gap": 3,
+   "failing_component_kind": "motive",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 2,
+   "centrality": 2,
+   "load_bearing": false,
+   "impact_score": 4,
+   "narrative_arc": "reformation",
+   "reasoning": "This is a motive-attribution failure, not a fact or frame failure: no document from Muntzer's own hand or circle evidences office-seeking ambition as his driver, and the 'ambition' framing traces to hostile polemic (Luther's attacks, Melanchthon's Histori Thome Muntzers) that modern specialists (Friesen, Goertz, Scott, Drummond) read as adversarial genre rather than reliable testimony, while the rival, documented account is Muntzer's own apocalyptic-mystical theology. The frame component (his defiant refusal to be second to Luther) is independently ruled probable and the weakened version is well-supported (framing_gap=3): the substance -- Muntzer's documented, theologically self-justified rivalry with Wittenberg -- survives; only the psychologized 'ambitious...for position and influence' motive-clause, read as printed, fails. Centrality stays low because the chapter's fanaticism-vs-true-reform foil is carried by the independently-verified theological claims (rejection of sola scriptura, claimed private revelation, GC-10-055/056/057); delete this ambition-motive clause and that foil, plus Luther's Word-not-force argument, stand undiminished, so load_bearing is false. Independent evidential failure point, not chain-inherited."
+  },
+  "GC-10-066": {
+   "category": "discrepancy",
+   "dossier": "D09",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "well-supported",
+   "framing_gap": 3,
+   "failing_component_kind": "fact",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 3,
+   "centrality": 3,
+   "load_bearing": false,
+   "impact_score": 9,
+   "narrative_arc": "reformation",
+   "reasoning": "This is a fact/quantifier failure, not a frame or motive failure: the absolute claim that the doctrinal-cause charge was 'without the slightest foundation' fails against documented counter-evidence -- the Twelve Articles ground the peasants' demands explicitly in Scripture and evangelical 'freedom' language, and the rebels invoked Luther by name -- so the post-Blickle/Roper consensus treats the evangelical message as a real, if misapplied, ingredient of the 1525 program, giving the princes' charge genuine foundation in the causal-contribution sense even though it fails on doctrinal warrant/intent. The narrower reading -- that Luther never taught or sanctioned revolt -- is well-supported (framing_gap=3): the substance of White's exculpation of Luther's own conduct survives at the weakened level, and readers still encounter the printed absolute ('the slightest foundation'), which is why severity is not lowered for the framing gap. Centrality is moderate: this passage carries the chapter's apologetic template (separating a reform movement from violence later blamed on it) reused for the Millerite post-1844 crisis, but Luther's own documented condemnation of the revolt (GC-10-067) independently supplies the exculpatory work, so softening or deleting this clause does not collapse the chapter's argument -- load_bearing is false. Independent evidential failure point, not chain-inherited."
+  }
+ }
+}

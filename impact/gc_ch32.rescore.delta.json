@@ -1,0 +1,19 @@
+{"chapter": 32, "stage": "impact",
+ "notes": "Phase 2a adjudication moves GC-32-017 from Phase-1's cautious 'disputed' to a formal dual ruling: as-written 'improbable' (both the universal-present-tense access clause and the self-serving-motive clause fail as general claims about Rome), weakened to 'well-supported' (selective presentation, reserved interpretation, and historically real regional bans survive at framing_gap 3). This sharpens rather than reverses the Phase-1 picture: severity/centrality/impact_score are unchanged (3x4=12) because the underlying substance-vs-overclaim structure is the same, but the reasoning now names the two tied failing component kinds explicitly (fact + motive) and states plainly that the as-written failure is a rhetoric/absoluteness problem, not fabrication. load_bearing stays false: this remains one illustration among several (paragraph 10's proof-texting and symbol-twisting) in a homiletic chapter whose argument does not hinge on this single passage.",
+ "items": {"GC-32-017": {
+   "category": "discrepancy",
+   "dossier": "D07",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "well-supported",
+   "framing_gap": 3,
+   "failing_component_kind": "fact",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 3,
+   "centrality": 4,
+   "load_bearing": false,
+   "impact_score": 12,
+   "narrative_arc": "doctrinal",
+   "reasoning": "The adjudication rules improbable as-written on two tied failing components: a 'fact' component (the universal present-tense claim that papal leaders deny the laity Bible study fails against the documented 1911 state — Officiorum ac Munerum 1897, Leo XIII's 1898 Gospel indulgence, Pius X's Gospel campaign) and a 'motive' component (undocumented self-serving bad-faith attribution, capped per charter §3 against a documented rival account of lectionary/catechesis-bound interpretation). Framing_gap of 3 shows the weakened version is well-supported, so the as-written failure is chiefly a rhetoric/absoluteness problem — an unqualified universal present tense plus an imputed motive — not invention of a nonexistent phenomenon; the real historical core (Trent/Vatican I's denial of private interpretation, and regional Bible bans from Toulouse 1229 through 1596-1757) survives intact, which is why severity stays at 3 rather than rising to fabrication-level 5. Centrality remains 4, matching the recurring book-level 'Rome withheld the Bible from the laity' cluster (GC-15-028, GC-21-082) that functions as a standing pillar of the papal-apostasy plank in the central thesis chain, but load_bearing is false for this chapter specifically: paragraph 10 already supplies proof-texting and symbol-twisting as independent illustrations of the same homiletic point, so deleting GC-32-017 leaves the chapter's own argument — that Satan diversifies his tactics against sincere Bible study — fully intact."
+ }}
+}

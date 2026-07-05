@@ -1,0 +1,21 @@
+{"chapter": 37, "stage": "impact",
+ "notes": "Only GC-37-029 required Phase-2b rescoring; the adjudication confirms this Rome-withholds-Scripture clause fails as written on the categorical present-tense 'fact' component (improbable) while its weakened, non-absolute version is well-supported (framing_gap=3), meaning the practical kernel of a magisterium-reserved, approved-versions-only regime survives and only the timeless-universal framing is the failure. This does not change severity/centrality relative to Phase 1, since those are held against the fixed cross-chapter Rome-and-Bible cluster and the chapter's own argument structure, both of which are unaffected by the adjudication's more granular componential ruling. Load_bearing stays false: chapter 37's exhortation to independent Bible study is carried by the well-attested Jewish-leaders Gospel analogy and unfalsifiable theological appeals, with this clause serving only as one illustrative link in the Jews-Rome-Protestants chain.",
+ "items": {
+  "GC-37-029": {
+   "category": "discrepancy",
+   "dossier": "D07",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "well-supported",
+   "framing_gap": 3,
+   "failing_component_kind": "fact",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 3,
+   "centrality": 4,
+   "load_bearing": false,
+   "impact_score": 12,
+   "narrative_arc": "doctrinal",
+   "reasoning": "The failing element is a 'fact'-class component: the categorical 1911-present claim that the Bible 'is withheld from the common people' is ruled improbable because approved annotated versions were licit and Pius X was actively distributing Gospels, while the weakened, non-absolute version (magisterium reserves authoritative interpretation; only approved annotated Bibles permitted; unmediated lay reading stayed restricted and uncommon) is ruled well-supported, a large framing_gap of 3 showing the substance survives and the as-written failure is chiefly an absoluteness/tense overstatement rather than an invented practice, analogous to the rhetorical-overstatement pattern Phase 1 flagged in anachronistic items. Severity 3 is held at the Phase-1 level: this is a materially inaccurate universalization of a real, well-documented restriction, consistent with the cluster siblings (GC-15-028, GC-21-082, GC-32-017) and with the 'improbable' (not 'discredited') tier. Centrality 4 stays fixed against the book's central papal-apostasy thesis plank, independent of the adjudication's finer componential result. Load_bearing is false for this chapter specifically: deleting the clause removes one illustrative step in the Jews-to-Rome-to-Protestants analogical chain, leaving the chapter's real evidentiary weight -- the Gospel case study of priestly authority (paragraphs 7-9) and the surrounding unfalsifiable exhortations -- fully intact; chain_inherited is false and independent_failure_point is null because this is an independently adjudicated evidential failure, not one inherited from a defect in an upstream sibling claim."
+  }
+ }
+}

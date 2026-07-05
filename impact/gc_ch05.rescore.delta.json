@@ -1,0 +1,23 @@
+{
+ "chapter": 5,
+ "stage": "impact",
+ "notes": "Phase 2a adjudication re-opens GC-05-107 (Wycliffe 'no predecessors' claim), which the Phase-1 defender had downgraded to disputed and which was excluded from the Phase-1 impact scope. The adjudication finds the as-written universal negative improbable (a fact failure defeated by Wyclif's documented debt to FitzRalph, Bradwardine, Grosseteste) while a weakened frame -- Wyclif as first to weld existing materials into an unprecedented, comprehensive reform program -- is well-supported, a large framing_gap of 3. This is the chapter's most explicit textual assertion of Wycliffe's 'first-forerunner' originality, but the chapter's actual argumentative weight rests on his documented conflicts, the Bible translation, and his providential survivals, which this sentence does not carry; the claim is scored moderate severity/centrality and non-load-bearing.",
+ "items": {
+  "GC-05-107": {
+   "category": "discrepancy",
+   "dossier": "D23",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "well-supported",
+   "framing_gap": 3,
+   "failing_component_kind": "fact",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 3,
+   "centrality": 3,
+   "load_bearing": false,
+   "impact_score": 9,
+   "narrative_arc": "pre-reformation",
+   "reasoning": "As written, the sentence fails as a fact claim: Wyclif's dominion doctrine and disendowment program are textually traceable to FitzRalph (whom Wyclif cites as 'Armachanus'), with Bradwardine and Grosseteste ('Lincolniensis') also invoked as authorities, defeating the universal negative under its natural reading -- a fact failure, ruled improbable. The frame component (Wyclif as first to weld these materials into an unprecedented, systematic reform program) survives at well-supported, a framing_gap of 3, so the chapter's 'morning star'/originator claim keeps its substance; only the absolute zero-debt phrasing fails, and this is not a simple period-typical echo since the ruling notes the printed absolute exceeds even Wylie, White's own source, who names pre-Wycliffe forerunners. The failure is independent (no chain inheritance): it inflates Wycliffe's discontinuity from his Oxford milieu, but the chapter's real evidentiary weight rests on his documented conflicts with Rome, the Bible translation, and his repeated providential survivals -- none of which this sentence supplies -- so deleting or correcting it to the weakened version leaves the chapter's argument intact and load_bearing is false."
+  }
+ }
+}

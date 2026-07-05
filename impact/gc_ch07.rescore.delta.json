@@ -1,0 +1,23 @@
+{
+ "chapter": 7,
+ "stage": "impact",
+ "notes": "Phase-1 had downgraded GC-07-036 to 'disputed' on the strength of the defender's Paul Luther provenance point and scored it lightly (2x3=6). Adjudication reopens it: the kernel (Luther climbing the Scala Sancta seeking the indulgence) is well-supported, but the printed scene's specific dramatized epiphany (thunder-voice, springing to his feet, fleeing in shame and horror) is ruled improbable as written -- a fact failure traceable to D'Aubigne's theatrical elaboration rather than to the earliest (Paul Luther) attestation, which modern specialists treat with skepticism as any reformatory awakening on the stairs. Because the weakened version only reaches 'genuinely-open' (framing_gap=1, not the 2+ threshold that would mean the substance clearly survives), this is scored slightly heavier than Phase 1's disputed-driven leniency, though still not load-bearing since the chapter's own narrative secures the justification-by-faith doctrine earlier via Staupitz (paragraph 12) and the Rome-corruption theme independently via paragraphs 14-15.",
+ "items": {
+  "GC-07-036": {
+   "category": "discrepancy",
+   "dossier": "D09",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "genuinely-open",
+   "framing_gap": 1,
+   "failing_component_kind": "fact",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 3,
+   "centrality": 3,
+   "load_bearing": false,
+   "impact_score": 9,
+   "narrative_arc": "reformation",
+   "reasoning": "This is a fact failure: the adjudication finds the climb itself well-supported but the specific dramatized epiphany (voice like thunder, springing to his feet, flight in shame and horror) improbable as narrated, since it enters the record only through D'Aubigne's theatrical rendering rather than through Paul Luther's earlier secondhand memorandum, and modern specialists (Schneider, Brecht, Kaufmann et al.) doubt any reformatory awakening on the stairs at all. Because the weakened kernel lands only at 'genuinely-open' rather than probable/well-supported (framing_gap=1), the substance does not clearly survive the way an anachronistic-style downgrade would -- the scene as printed remains a fact-level embellishment, not merely an over-absolute restatement of settled ground. Centrality is moderate (3): the scene dramatizes the chapter's titular theme of separation from Rome, but it is reinforcing color, not the doctrinal origin -- the chapter's own text already secures Luther's justification-by-faith breakthrough earlier via Staupitz (paragraph 12) and the disillusionment-with-Rome theme via the preceding corruption scenes (paragraphs 14-15). Deleting the scene costs the chapter a vivid staircase image but leaves its documented argument (indulgence-sale abuses, the Ninety-Five Theses, sola scriptura) fully intact, so load_bearing is false."
+  }
+ }
+}

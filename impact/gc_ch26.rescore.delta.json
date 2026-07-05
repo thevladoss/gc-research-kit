@@ -1,0 +1,55 @@
+{
+ "chapter": 26,
+ "stage": "impact",
+ "notes": "Phase 2a adjudication converts all three Phase-1 'disputed' items into confirmed as-written failures. GC-26-014 and GC-26-025 form a single evidentiary chain (one anchor plus its restatement): both are fact failures ruled 'improbable' with framing_gap 2, meaning the specific papal/Roman single-agency mechanism for the Sabbath-to-Sunday change fails while a weaker Roman-leading-role narrative (Bacchiocchi) survives at 'probable'. GC-26-069 is an independent frame failure ruled 'discredited' with the maximal framing_gap of 4: the arithmetic (457 BC + 2300 = 1844) is well-supported and period-appropriate, but the sentence's absolute claim that the computation 'stands without impeachment' is false both historically (the Advent Herald's contemporaneous rebuttal of Snow) and against modern chronology (458 BC Ezra-7 dating, astronomically excluded AD 31). All three retain maximal centrality (5) as load-bearing nodes of the book's central Sabbath-vs-Sunday and 1844/sanctuary thesis chains, but severity is differentiated by ruling strength: 3 for the improbable fact-failure pair, 4 for the discredited frame-failure singleton; only GC-26-069 is scored load_bearing, since paragraphs 16-21's defense of the 'sound first message' depends specifically on the unimpeachability claim, whereas the chapter's Sabbath-restoration argument survives the loss of the specific papal/Roman agency attribution.",
+ "items": {
+  "GC-26-014": {
+   "category": "discrepancy",
+   "dossier": "D02",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "probable",
+   "framing_gap": 2,
+   "failing_component_kind": "fact",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 3,
+   "centrality": 5,
+   "load_bearing": false,
+   "impact_score": 15,
+   "narrative_arc": "doctrinal",
+   "reasoning": "Fact failure: the ruling finds 'improbable' the as-written claim that the papacy, as an institution, enacted a discrete change of the Sabbath to Sunday; the displacement was gradual, multi-causal, and partly Eastern (Laodicea canon 29), predating any developed papacy, per the ruling's rationale. Framing_gap=2: at the weakened level ('probable') Roman ecclesiastical leadership in the displacement (Bacchiocchi's Saturday-fast evidence) survives, so the substance of an anti-Sabbath Roman narrative is not baseless -- only the printed sentence's single-institutional-agent absolute fails. This is the independent evidentiary anchor of the GC-26-014/GC-26-025 pair and functions as the causal engine of the chapter's 'seal was taken from the law' argument, giving it maximal centrality for the book's Sabbath-vs-Sunday final-test thesis; it remains not load-bearing because deleting the specific papal-agency attribution still leaves the chapter's call to restore the Sabbath standing on the undisputed fact that Sunday displaced the seventh day over time."
+  },
+  "GC-26-025": {
+   "category": "discrepancy",
+   "dossier": "D02",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "probable",
+   "framing_gap": 2,
+   "failing_component_kind": "fact",
+   "chain_inherited": true,
+   "independent_failure_point": "GC-26-014",
+   "severity": 3,
+   "centrality": 5,
+   "load_bearing": false,
+   "impact_score": 15,
+   "narrative_arc": "doctrinal",
+   "reasoning": "Chain-inherited restatement of the GC-26-014 fact failure, not a fresh independent error: the same 'improbable' ruling applies to 'the Roman power' as sole causal agent, for the identical reason -- the Sabbath-to-Sunday shift was gradual, multi-causal, and partly Eastern in origin, with no single documented Roman act changing the day. Framing_gap=2 places the weakened claim ('probable': Roman authority played a central documented role in the displacement) within reach, so the anti-Sabbath substance survives while only the absolute single-agency framing of this Isaiah-58 'breach' restatement fails. Centrality remains maximal since this sentence is the chapter's second statement of the doctrinal engine feeding the book's Sabbath-vs-Sunday hinge, but load_bearing is false because the chapter's practical restoration argument does not require this specific 'Roman power' attribution to survive, given GC-26-014 already supplies (and shares) the same evidentiary weakness."
+  },
+  "GC-26-069": {
+   "category": "discrepancy",
+   "dossier": "D01",
+   "ruling_as_written": "discredited",
+   "ruling_weakened": "well-supported",
+   "framing_gap": 4,
+   "failing_component_kind": "frame",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 4,
+   "centrality": 5,
+   "load_bearing": true,
+   "impact_score": 20,
+   "narrative_arc": "millerite",
+   "reasoning": "Frame failure: the adjudication discredits the epistemic-absolute claim that the 1844 computation 'stands without impeachment,' since it was impeached in print by the Advent Herald editors against Snow in 1844 and remains impeachable today on the 458 BC Ezra-7 dating and the astronomical exclusion of AD 31 as a Friday-Passover year. Framing_gap=4, the maximal gap observed in this chapter: the weakened claim -- that the arithmetic is self-consistent and rested on then-received chronology -- is well-supported, so the computation's execution was not fabricated, only the sentence's claim of absolute invincibility is discredited, a distinct failure class from GC-26-014/025's fact-level causal misattribution. This is an independent failure point with no chain relation to the Sabbath-agency pair, and it remains load-bearing at severity 4 / centrality 5 because paragraphs 16-21 build the entire defense distinguishing the 'sound first message' from later 'unsound' date-settings on precisely this unimpeachability claim, while the book-level sanctuary/investigative-judgment doctrine is anchored to the same 1844 date this sentence purports to certify as beyond challenge."
+  }
+ }
+}

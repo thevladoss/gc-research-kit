@@ -11,7 +11,10 @@
       "quote": "The great controversy between Christ and Satan, that has been carried forward for nearly six thousand years, is soon to close",
       "claim_text": "The cosmic conflict between Christ and Satan has continued for nearly six thousand years and is nearing its close.",
       "claim_type": "theological",
-      "entities": ["Christ", "Satan"],
+      "entities": [
+        "Christ",
+        "Satan"
+      ],
       "needs_verification": false,
       "extractor_note": "Chronological figure embedded in theological/cosmological framing (six-thousand-year controversy); treated as theological rather than an independent checkable date claim per the supernatural-claim exemption.",
       "verification": {
@@ -27,7 +30,10 @@
       "quote": "and the wicked one redoubles his efforts to defeat the work of Christ in man’s behalf, and to fasten souls in his snares. To hold the people in darkness and impenitence till the Saviour’s mediation is ended, and there is no longer a sacrifice for sin, is the object which he seeks to accomplish.",
       "claim_text": "Satan's goal is to keep people in spiritual darkness and impenitence until Christ's heavenly mediation ends and there is no longer a sacrifice for sin.",
       "claim_type": "theological",
-      "entities": ["Satan", "Christ"],
+      "entities": [
+        "Satan",
+        "Christ"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -42,7 +48,11 @@
       "quote": "But when the attention is called to eternal things, and souls are inquiring, “What must I do to be saved?” he is on the ground, seeking to match his power against the power of Christ, and to counteract the influence of the Holy Spirit.",
       "claim_text": "Satan becomes actively engaged against souls specifically when they begin inquiring about salvation, working to counteract the influence of the Holy Spirit.",
       "claim_type": "theological",
-      "entities": ["Satan", "Holy Spirit", "Christ"],
+      "entities": [
+        "Satan",
+        "Holy Spirit",
+        "Christ"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -57,7 +67,10 @@
       "quote": "The Scriptures declare that upon one occasion, when the angels of God came to present themselves before the Lord, Satan came also among them,(914) not to bow before the Eternal King, but to further his own malicious designs against the righteous.",
       "claim_text": "According to Scripture (cf. Job 1:6), on one occasion when the angels of God presented themselves before the Lord, Satan also came among them, not to worship but to further his malicious designs against the righteous.",
       "claim_type": "theological",
-      "entities": ["Satan", "Job"],
+      "entities": [
+        "Satan",
+        "Job"
+      ],
       "needs_verification": false,
       "extractor_note": "Paraphrase/recounting of Job 1:6; footnote marker (914) present in original text.",
       "verification": {
@@ -73,7 +86,9 @@
       "quote": "With the same object he is in attendance when men assemble for the worship of God. Though hidden from sight, he is working with all diligence to control the minds of the worshipers. Like a skilful general, he lays his plans beforehand.",
       "claim_text": "Satan is present, unseen, at gatherings for worship, working strategically and in advance to control worshipers' minds.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -88,7 +103,9 @@
       "quote": "Then with renewed zeal he plies his arts. He tempts men to the indulgence of appetite or to some other form of self-gratification, and thus benumbs their sensibilities, so that they fail to hear the very things which they most need to learn.",
       "claim_text": "Satan tempts people toward self-indulgence and appetite in order to dull their spiritual sensibilities and prevent them from receiving needed messages.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -133,7 +150,10 @@
       "quote": "“Ye shall know them by their fruits.”(915)",
       "claim_text": "The saying \"Ye shall know them by their fruits\" is quoted as Scripture (cf. Matthew 7:16, 20).",
       "claim_type": "attributed_quote",
-      "entities": ["Bible", "Gospel of Matthew"],
+      "entities": [
+        "Bible",
+        "Gospel of Matthew"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -148,7 +168,10 @@
       "quote": "Their course resembles that of Satan, the envenomed slanderer, “the accuser of our brethren.”(916)",
       "claim_text": "The phrase \"the accuser of our brethren,\" applied to Satan, is quoted as Scripture (cf. Revelation 12:10).",
       "claim_type": "attributed_quote",
-      "entities": ["Satan", "Book of Revelation"],
+      "entities": [
+        "Satan",
+        "Book of Revelation"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -163,7 +186,9 @@
       "quote": "It is his plan to bring into the church insincere, unregenerate elements that will encourage doubt and unbelief, and hinder all who desire to see the work of God advance, and to advance with it.",
       "claim_text": "Satan's plan is to introduce insincere, unconverted people into the church to encourage doubt and hinder its progress.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -178,7 +203,9 @@
       "quote": "The position that it is of no consequence what men believe, is one of Satan’s most successful deceptions.",
       "claim_text": "The belief that religious doctrine is unimportant is characterized as one of Satan's most successful deceptions.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -193,7 +220,11 @@
       "quote": "From the beginning, the servants of God have contended against false teachers, not merely as vicious men, but as inculcators of falsehoods that were fatal to the soul. Elijah, Jeremiah, Paul, firmly and fearlessly opposed those who were turning men from the word of God.",
       "claim_text": "The biblical figures Elijah, Jeremiah, and Paul firmly and fearlessly opposed false teachers who were turning people away from the word of God.",
       "claim_type": "biographical",
-      "entities": ["Elijah", "Jeremiah", "Paul"],
+      "entities": [
+        "Elijah",
+        "Jeremiah",
+        "Paul"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -208,7 +239,9 @@
       "quote": "The vague and fanciful interpretations of Scripture, and the many conflicting theories concerning religious faith, that are found in the Christian world, are the work of our great adversary, to confuse minds so that they shall not discern the truth.",
       "claim_text": "The many vague and conflicting interpretations of Scripture found in Christendom are attributed to Satan's work of confusing minds.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -254,7 +287,10 @@
       "quote": "The papal leaders select such portions of Scripture as best serve their purpose, interpret to suit themselves, and then present these to the people, while they deny them the privilege of studying the Bible and understanding its sacred truths for themselves.",
       "claim_text": "Catholic Church (papal) leaders historically selected Scripture passages to serve their purposes, interpreted them accordingly, and denied ordinary people the opportunity to study the Bible and understand its truths for themselves.",
       "claim_type": "causal",
-      "entities": ["Roman Catholic Church", "papacy"],
+      "entities": [
+        "Roman Catholic Church",
+        "papacy"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "anachronistic",
@@ -284,6 +320,22 @@
         "impact_score": 12,
         "narrative_arc": "doctrinal",
         "reasoning": "The claim survived defense only as 'disputed' (not confirmed false): the defender's own academic anchor (Deanesly) corroborates a real kernel — clerical denial of the laity's right to interpret Scripture 'for themselves' tracks actual Tridentine doctrine on authoritative interpretation — while the universalizing 'deny them the privilege of studying the Bible' framing remains a genuinely contested overstatement, so severity is scored as moderate overstatement rather than fabrication. Within THIS chapter the claim is one illustration among several (proof-texting in paragraph 10, symbol-twisting also in paragraph 10) for the general homiletic point that self-serving interpretation distorts Scripture; delete it and the chapter's argument — Satan diversifies his tactics against sincere Bible study, culminating in the exhortation that 'the whole Bible should be given to the people just as it reads' — stands unaffected on its remaining illustrations, so load_bearing is false for this chapter. Centrality is scored at 4, matching the recurring book-level 'Rome withheld the Bible from the laity' cluster (GC-15-028, GC-21-082, impact_score 12 each) rather than at chapter-local decorative weight, because this specific proposition is a standing pillar of the papal-apostasy plank in the central thesis chain even though this particular chapter does not depend on it."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D07",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "well-supported",
+        "framing_gap": 3,
+        "failing_component_kind": "fact",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 3,
+        "centrality": 4,
+        "load_bearing": false,
+        "impact_score": 12,
+        "narrative_arc": "doctrinal",
+        "reasoning": "The adjudication rules improbable as-written on two tied failing components: a 'fact' component (the universal present-tense claim that papal leaders deny the laity Bible study fails against the documented 1911 state — Officiorum ac Munerum 1897, Leo XIII's 1898 Gospel indulgence, Pius X's Gospel campaign) and a 'motive' component (undocumented self-serving bad-faith attribution, capped per charter §3 against a documented rival account of lectionary/catechesis-bound interpretation). Framing_gap of 3 shows the weakened version is well-supported, so the as-written failure is chiefly a rhetoric/absoluteness problem — an unqualified universal present tense plus an imputed motive — not invention of a nonexistent phenomenon; the real historical core (Trent/Vatican I's denial of private interpretation, and regional Bible bans from Toulouse 1229 through 1596-1757) survives intact, which is why severity stays at 3 rather than rising to fabrication-level 5. Centrality remains 4, matching the recurring book-level 'Rome withheld the Bible from the laity' cluster (GC-15-028, GC-21-082) that functions as a standing pillar of the papal-apostasy plank in the central thesis chain, but load_bearing is false for this chapter specifically: paragraph 10 already supplies proof-texting and symbol-twisting as independent illustrations of the same homiletic point, so deleting GC-32-017 leaves the chapter's own argument — that Satan diversifies his tactics against sincere Bible study — fully intact."
       }
     },
     {
@@ -307,7 +359,11 @@
       "quote": "God gave to men the sure word of prophecy; angels and even Christ Himself came to make known to Daniel and John the things that must shortly come to pass.",
       "claim_text": "According to the chapter, angels and Christ Himself communicated prophetic revelations to the biblical figures Daniel and John.",
       "claim_type": "theological",
-      "entities": ["Daniel", "John", "Christ"],
+      "entities": [
+        "Daniel",
+        "John",
+        "Christ"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -322,7 +378,9 @@
       "quote": "Said the Lord by the prophet Habakkuk, “Write the vision, and make it plain, ... that he may run that readeth it.”(917)",
       "claim_text": "The quotation \"Write the vision, and make it plain, that he may run that readeth it\" is attributed to the Lord speaking through the prophet Habakkuk (cf. Habakkuk 2:2).",
       "claim_type": "attributed_quote",
-      "entities": ["Habakkuk"],
+      "entities": [
+        "Habakkuk"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -337,7 +395,10 @@
       "quote": "“Light is sown for the righteous.”(918)",
       "claim_text": "The phrase \"Light is sown for the righteous\" is quoted as Scripture (cf. Psalm 97:11).",
       "claim_type": "attributed_quote",
-      "entities": ["Bible", "Psalms"],
+      "entities": [
+        "Bible",
+        "Psalms"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -352,7 +413,9 @@
       "quote": "By the cry, Liberality, men are blinded to the devices of their adversary, while he is all the time working steadily for the accomplishment of his object. As he succeeds in supplanting the Bible by human speculations, the law of God is set aside, and the churches are under the bondage of sin while they claim to be free.",
       "claim_text": "Under the banner of \"liberality,\" Satan is characterized as blinding people to his devices, replacing Bible teaching with human speculation, and thereby setting aside God's law while churches claim to be free.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -382,7 +445,10 @@
       "quote": "Many accept mere theories and speculations as scientific facts, and they think that God’s word is to be tested by the teachings of “science falsely so called.”(919)",
       "claim_text": "The phrase \"science falsely so called\" is quoted as Scripture (cf. 1 Timothy 6:20).",
       "claim_type": "attributed_quote",
-      "entities": ["Bible", "1 Timothy"],
+      "entities": [
+        "Bible",
+        "1 Timothy"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -427,7 +493,9 @@
       "quote": "It is a masterpiece of Satan’s deceptions to keep the minds of men searching and conjecturing in regard to that which God has not made known, and which He does not intend that we shall understand.",
       "claim_text": "Keeping human minds occupied with speculation about matters God has not revealed is characterized as one of Satan's masterful deceptions.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -442,7 +510,9 @@
       "quote": "It was thus that Lucifer lost his place in heaven. He became dissatisfied because all the secrets of God’s purposes were not confided to him, and he entirely disregarded that which was revealed concerning his own work in the lofty position assigned him. By arousing the same discontent in the angels under his command, he caused their fall.",
       "claim_text": "According to the chapter's theology, Lucifer lost his place in heaven because he became dissatisfied that God's purposes were not fully confided to him, and he caused the fall of the angels under his command by arousing the same discontent in them.",
       "claim_type": "theological",
-      "entities": ["Lucifer"],
+      "entities": [
+        "Lucifer"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -457,7 +527,10 @@
       "quote": "It was thus that the papacy gained its power over the minds of men",
       "claim_text": "The Roman Catholic papacy is asserted to have gained its historical power over people's minds by supplying pleasing, undemanding teachings instead of the Bible's exacting truths.",
       "claim_type": "causal",
-      "entities": ["papacy", "Roman Catholic Church"],
+      "entities": [
+        "papacy",
+        "Roman Catholic Church"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "anachronistic",
@@ -494,7 +567,9 @@
       "quote": "and by rejection of the truth because it involves a cross, Protestants are following the same path.",
       "claim_text": "The chapter asserts that Protestants, by rejecting truth that demands self-denial, are following the same historical path as the papacy.",
       "claim_type": "interpretive",
-      "entities": ["Protestants"],
+      "entities": [
+        "Protestants"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -509,7 +584,10 @@
       "quote": "The apostle Paul, speaking of a class who “received not the love of the truth, that they might be saved,” declares, “For this cause God shall send them strong delusion, that they should believe a lie: that they all might be damned who believed not the truth, but had pleasure in unrighteousness.”(920)",
       "claim_text": "The apostle Paul is quoted as writing that God sends strong delusion to those who did not receive the love of the truth, causing them to believe a lie and be damned (cf. 2 Thessalonians 2:10-12).",
       "claim_type": "attributed_quote",
-      "entities": ["Paul", "2 Thessalonians"],
+      "entities": [
+        "Paul",
+        "2 Thessalonians"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -524,7 +602,9 @@
       "quote": "Among the most successful agencies of the great deceiver are the delusive teachings and lying wonders of Spiritualism.",
       "claim_text": "Spiritualism's teachings and phenomena are characterized as among Satan's most successful deceptive agencies.",
       "claim_type": "theological",
-      "entities": ["Spiritualism"],
+      "entities": [
+        "Spiritualism"
+      ],
       "needs_verification": false,
       "extractor_note": "References the historical Spiritualist movement; the framing itself ('agencies of the great deceiver') is theological/interpretive rather than a checkable historical proposition.",
       "verification": {
@@ -540,7 +620,9 @@
       "quote": "Another dangerous error is the doctrine that denies the deity of Christ, claiming that He had no existence before His advent to this world. This theory is received with favor by a large class who profess to believe the Bible",
       "claim_text": "As of the time of writing (early 20th century), a doctrine denying Christ's deity and pre-existence was received with favor by a large class of people who professed to believe the Bible.",
       "claim_type": "event",
-      "entities": ["Christ"],
+      "entities": [
+        "Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -571,7 +653,9 @@
       "quote": "“The natural man receiveth not the things of the Spirit of God: for they are foolishness unto him: neither can he know them, because they are spiritually discerned.”(921)",
       "claim_text": "This statement about the natural man not receiving spiritual things is quoted as Scripture (cf. 1 Corinthians 2:14).",
       "claim_type": "attributed_quote",
-      "entities": ["1 Corinthians"],
+      "entities": [
+        "1 Corinthians"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -586,7 +670,9 @@
       "quote": "Still another subtle and mischievous error is the fast-spreading belief that Satan has no existence as a personal being; that the name is used in Scripture merely to represent men’s evil thoughts and desires.",
       "claim_text": "As of the time of writing, a belief denying Satan's existence as a personal being (interpreting the name as representing merely human evil thoughts) was fast-spreading.",
       "claim_type": "event",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -617,7 +703,9 @@
       "quote": "The teaching so widely echoed from popular pulpits, that the second advent of Christ is His coming to each individual at death, is a device to divert the minds of men from His personal coming in the clouds of heaven.",
       "claim_text": "As of the time of writing, popular pulpits widely taught that Christ's second advent refers to His coming to each individual at death, rather than a personal, visible return.",
       "claim_type": "event",
-      "entities": ["Christ"],
+      "entities": [
+        "Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "unverifiable",
@@ -632,7 +720,9 @@
       "quote": "For years Satan has thus been saying, “Behold, He is in the secret chambers,”(922) and many souls have been lost by accepting this deception.",
       "claim_text": "The phrase \"Behold, He is in the secret chambers\" is attributed as an echo of Scripture (cf. Matthew 24:26), used to characterize a satanic deception about Christ's return.",
       "claim_type": "attributed_quote",
-      "entities": ["Gospel of Matthew"],
+      "entities": [
+        "Gospel of Matthew"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -647,7 +737,9 @@
       "quote": "Men of science claim that there can be no real answer to prayer; that this would be a violation of law, a miracle, and that miracles have no existence. The universe, say they, is governed by fixed laws, and God Himself does nothing contrary to these laws.",
       "claim_text": "As of the time of writing, some men of science claimed there could be no real answer to prayer because that would require a miracle, and they held that miracles do not occur, the universe being governed by fixed laws with which God does not interfere.",
       "claim_type": "event",
-      "entities": ["scientific naturalism"],
+      "entities": [
+        "scientific naturalism"
+      ],
       "needs_verification": true,
       "extractor_note": "Likely reflects 19th-century debates over the efficacy of prayer and scientific naturalism (e.g., the 1870s 'Prayer Gauge' controversy associated with John Tyndall).",
       "verification": {
@@ -724,7 +816,9 @@
       "quote": "Satan stands at the head of the great army of doubters, and he works to the utmost of his power to beguile souls into his ranks.",
       "claim_text": "Satan is characterized as leading a \"great army of doubters\" and working to draw souls into unbelief.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -829,7 +923,10 @@
       "quote": "And upon the authority of the Son of God it is declared, “Seek, and ye shall find.”",
       "claim_text": "\"Seek, and ye shall find\" is quoted as a statement declared on the authority of Jesus Christ (cf. Matthew 7:7).",
       "claim_type": "attributed_quote",
-      "entities": ["Jesus Christ", "Gospel of Matthew"],
+      "entities": [
+        "Jesus Christ",
+        "Gospel of Matthew"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -844,7 +941,9 @@
       "quote": "“If any man will do His will, he shall know of the doctrine.”(925)",
       "claim_text": "The statement \"If any man will do His will, he shall know of the doctrine\" is quoted as Scripture (cf. John 7:17).",
       "claim_type": "attributed_quote",
-      "entities": ["Gospel of John"],
+      "entities": [
+        "Gospel of John"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -859,7 +958,10 @@
       "quote": "Christ is the truth, and the “light, which lighteth every man that cometh into the world.”(924)",
       "claim_text": "The description of Christ as \"the light, which lighteth every man that cometh into the world\" is quoted as Scripture (cf. John 1:9).",
       "claim_type": "attributed_quote",
-      "entities": ["Jesus Christ", "Gospel of John"],
+      "entities": [
+        "Jesus Christ",
+        "Gospel of John"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -889,7 +991,9 @@
       "quote": "Every temptation, every opposing influence, whether open or secret, may be successfully resisted, “not by might, nor by power, but by My Spirit, saith the Lord of hosts.”(926)",
       "claim_text": "The phrase \"not by might, nor by power, but by My Spirit, saith the Lord of hosts\" is quoted as Scripture (cf. Zechariah 4:6).",
       "claim_type": "attributed_quote",
-      "entities": ["Book of Zechariah"],
+      "entities": [
+        "Book of Zechariah"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -904,7 +1008,10 @@
       "quote": "When Balaam, allured by the promise of rich rewards, practised enchantments against Israel, and by sacrifices to the Lord sought to invoke a curse upon His people, the Spirit of God forbade the evil which he longed to pronounce",
       "claim_text": "According to the biblical narrative (cf. Numbers 22-24), Balaam, motivated by promised rewards, attempted enchantments and offered sacrifices seeking to curse Israel, but the Spirit of God prevented him from pronouncing the curse he wished to speak.",
       "claim_type": "event",
-      "entities": ["Balaam", "Israel"],
+      "entities": [
+        "Balaam",
+        "Israel"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -919,7 +1026,9 @@
       "quote": "and Balaam was forced to exclaim: “How shall I curse, whom God hath not cursed? or how shall I defy, whom the Lord hath not defied?”",
       "claim_text": "The words \"How shall I curse, whom God hath not cursed? or how shall I defy, whom the Lord hath not defied?\" are attributed to Balaam (cf. Numbers 23:8).",
       "claim_type": "attributed_quote",
-      "entities": ["Balaam"],
+      "entities": [
+        "Balaam"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -934,7 +1043,9 @@
       "quote": "“Let me die the death of the righteous, and let my last end be like his!”",
       "claim_text": "The words \"Let me die the death of the righteous, and let my last end be like his!\" are attributed to Balaam (cf. Numbers 23:10).",
       "claim_type": "attributed_quote",
-      "entities": ["Balaam"],
+      "entities": [
+        "Balaam"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -949,7 +1060,11 @@
       "quote": "When sacrifice had again been offered, the ungodly prophet declared: “Behold, I have received commandment to bless: and He hath blessed; and I cannot reverse it. He hath not beheld iniquity in Jacob, neither hath He seen perverseness in Israel: the Lord his God is with him, and the shout of a King is among them.”",
       "claim_text": "The words \"Behold, I have received commandment to bless... the shout of a King is among them\" are attributed to Balaam, described as \"the ungodly prophet\" (cf. Numbers 23:20-21).",
       "claim_type": "attributed_quote",
-      "entities": ["Balaam", "Israel", "Jacob"],
+      "entities": [
+        "Balaam",
+        "Israel",
+        "Jacob"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -964,7 +1079,11 @@
       "quote": "“Surely there is no enchantment against Jacob, neither is there any divination against Israel: according to this time it shall be said of Jacob and of Israel, What hath God wrought!”(928)",
       "claim_text": "The words \"Surely there is no enchantment against Jacob... What hath God wrought!\" are attributed to Balaam (cf. Numbers 23:23).",
       "claim_type": "attributed_quote",
-      "entities": ["Balaam", "Israel", "Jacob"],
+      "entities": [
+        "Balaam",
+        "Israel",
+        "Jacob"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -979,7 +1098,10 @@
       "quote": "But from the unwilling lips of the prophet, the Spirit of God declared the prosperity of His chosen, and rebuked the folly and malice of their foes: “Blessed is he that blesseth thee, and cursed is he that curseth thee.”(929)",
       "claim_text": "The words \"Blessed is he that blesseth thee, and cursed is he that curseth thee\" are attributed to Balaam's oracle regarding Israel (cf. Numbers 24:9).",
       "claim_type": "attributed_quote",
-      "entities": ["Balaam", "Israel"],
+      "entities": [
+        "Balaam",
+        "Israel"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -994,7 +1116,9 @@
       "quote": "The people of Israel were at this time loyal to God; and so long as they continued in obedience to His law, no power in earth or hell could prevail against them.",
       "claim_text": "According to the chapter's account of the biblical narrative, the people of Israel were loyal to God at the time of Balaam's oracles, and no power could prevail against them while they remained obedient to His law.",
       "claim_type": "event",
-      "entities": ["Israel"],
+      "entities": [
+        "Israel"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1009,7 +1133,10 @@
       "quote": "But the curse which Balaam had not been permitted to pronounce against God’s people, he finally succeeded in bringing upon them by seducing them into sin. When they transgressed God’s commandments, then they separated themselves from Him, and they were left to feel the power of the destroyer.",
       "claim_text": "According to the biblical narrative, Balaam, unable to pronounce a direct curse on Israel, ultimately caused Israel harm by seducing them into sin, after which their transgression of God's commandments separated them from Him and exposed them to the destroyer's power.",
       "claim_type": "causal",
-      "entities": ["Balaam", "Israel"],
+      "entities": [
+        "Balaam",
+        "Israel"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1024,7 +1151,9 @@
       "quote": "Satan is well aware that the weakest soul who abides in Christ is more than a match for the hosts of darkness, and that, should he reveal himself openly, he would be met and resisted.",
       "claim_text": "The chapter asserts, theologically, that Satan knows even the weakest believer abiding in Christ is more than a match for the forces of darkness, which is why he avoids open confrontation.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1054,7 +1183,9 @@
       "quote": "Satan is an expert in quoting Scripture, placing his own interpretation upon passages, by which he hopes to cause us to stumble.",
       "claim_text": "The chapter asserts that Satan is skilled at quoting Scripture and applying his own interpretation to passages in order to cause people to stumble.",
       "claim_type": "theological",
-      "entities": ["Satan"],
+      "entities": [
+        "Satan"
+      ],
       "needs_verification": false,
       "extractor_note": "Likely alludes to Satan's use of Scripture during the temptation of Christ (cf. Matthew 4:1-11).",
       "verification": {

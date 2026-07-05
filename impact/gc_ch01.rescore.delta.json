@@ -1,0 +1,55 @@
+{
+ "chapter": 1,
+ "stage": "impact",
+ "notes": "Phase 2a adjudication treats all three re-opened Chapter 1 items as as-written 'improbable' fact-failures rather than the softer Phase-1 'disputed' framing, sharpening severity on GC-01-079 (zero-casualty absolute) and GC-01-101 (Olivet 'not one stone' command) while confirming GC-01-097's Deuteronomy-dating error is chain-inherited from the Introduction's pentateuchal-dating anchor (GC-00-007) and survives at 'well-supported' once the '14 centuries' quantifier is dropped. None of the three collapses the chapter's core argument (destruction-as-fulfilled-prophecy and the withdrawal-of-restraint theology); load_bearing status is reserved for GC-01-079, whose zero-casualty absolute specifically underwrites the chapter's closing deliverance typology (paragraphs 48-50).",
+ "items": {
+  "GC-01-079": {
+   "category": "discrepancy",
+   "dossier": "D05",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "genuinely-open",
+   "framing_gap": 1,
+   "failing_component_kind": "fact",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 4,
+   "centrality": 4,
+   "load_bearing": true,
+   "impact_score": 16,
+   "narrative_arc": "frame",
+   "reasoning": "Fact failure: the adjudication ruled the population-level 'not one Christian perished' absolute improbable — no ancient source offers a casualty census, Josephus never even categorizes Christians in his war narrative, and the modern kernel-defenders (Koester, van Houwelingen, Bourgel) support only a community departure, never a zero-death claim; the underlying community-withdrawal component is itself independently only genuinely-open (contested since Brandon 1951), and framing_gap=1 shows the weakened version does not clear even that bar, so this is not a case of solid substance sitting under merely absolutist rhetoric. Per the adjudication's own note, the claim is load-bearing specifically for paragraph 48's deliverance typology ('as in the time of Jerusalem's destruction, God's people will be delivered'), the chapter's template for the book's recurring end-time preservation-of-the-remnant motif; deleting the claim leaves the chapter's central judgment argument intact but strips its only historical anchor for that escape-the-doomed-city pattern. Severity 4 reflects a fact failure resting on a 17th-19th-century argument-from-silence hardened into a positive universal (Newton to Clarke) rather than a fresh invention — capped short of discredited only because no named counterexample (a documented Christian death in the siege) exists either."
+  },
+  "GC-01-097": {
+   "category": "discrepancy",
+   "dossier": "D13",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "well-supported",
+   "framing_gap": 3,
+   "failing_component_kind": "fact",
+   "chain_inherited": true,
+   "independent_failure_point": "GC-00-007",
+   "severity": 2,
+   "centrality": 2,
+   "load_bearing": false,
+   "impact_score": 4,
+   "narrative_arc": "frame",
+   "reasoning": "Fact failure, but chain-inherited: the 'fourteen centuries' dating rests on the same Mosaic-authorship/early-Deuteronomy assumption whose independent failure point is GC-00-007 in the Introduction, so this is not a fresh chapter-1 error but a restatement of that anchor applied to a single verse citation. Framing_gap=3 shows the underlying substance is well-supported once the specific number is dropped ('recorded many centuries — at least about seven — before AD 70'): the failure is a quantifier/absoluteness problem (roughly doubling the true interval via the Josianic 7th-century dating that Esarhaddon-treaty parallels and the Tell Tayinat find support), not a claim that ancient prophecy failed to precede the siege at all. Severity stays low because the passage is a chronological aside with no argumentative role — the chapter's point (an ancient warning literally matched by the siege-cannibalism) is unaffected by whether the interval is seven or fourteen centuries; centrality likewise stays low since this functions as decorative period-color within the fulfilled-prophecy proof-texting cluster, not as a premise the chapter's own argument depends on."
+  },
+  "GC-01-101": {
+   "category": "discrepancy",
+   "dossier": "D16",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "genuinely-open",
+   "framing_gap": 1,
+   "failing_component_kind": "fact",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 4,
+   "centrality": 3,
+   "load_bearing": false,
+   "impact_score": 12,
+   "narrative_arc": "frame",
+   "reasoning": "Fact failure isolated to one of three components: the frame (Titus's horror at the corpses) and the motive (his wish to spare the temple) both remain genuinely-open, reflecting a genuine, evidentially comparable split among specialists (Barnes/Rives vs. Leoni/Rajak/Goodman/Mason); only the specific staged fact — an Olivet command 'that not one stone of it be touched' — is ruled improbable, since no ancient source reports such an order and Josephus's own friendliest account contains a documented counterexample (Titus's order to fire the temple gates, BJ 6.228) plus a later, weaker war-council decision merely not to burn the sanctuary. Framing_gap=1 means the weakened version ('Titus... initially resolved that the temple should, if possible, be spared') only reaches genuinely-open, not a vindicated substance, so this remains an unresolved motive/frame question dressed as a settled fact by an invented Olivet command. Severity 4 reflects a vivid, quote-like dramatization (traced to the Milman passage White paraphrased) presented as a specific historical event with a same-source counterexample; centrality 3 and load_bearing false because deleting the vignette leaves the chapter's 'fulfilled to the letter' argument about the temple's actual destruction fully intact — only the illustrative proof that even a sympathetic conqueror's will was overridden by prophecy is lost."
+  }
+ }
+}

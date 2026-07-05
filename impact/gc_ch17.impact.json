@@ -11,7 +11,9 @@
       "quote": "Enoch, only the seventh in descent from them that dwelt in Eden, he who for three centuries on earth walked with his God, was permitted to behold from afar the coming of the Deliverer.",
       "claim_text": "According to the biblical genealogy, Enoch was the seventh generation in descent from Adam and Eve (the first pair who dwelt in Eden), and he walked with God for three hundred years on earth.",
       "claim_type": "biographical",
-      "entities": ["Enoch"],
+      "entities": [
+        "Enoch"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -26,7 +28,9 @@
       "quote": "“Behold,” he declared, “the Lord cometh with ten thousands of His saints, to execute judgment upon all.”(450)",
       "claim_text": "The biblical figure Enoch is quoted as declaring, 'Behold, the Lord cometh with ten thousands of His saints, to execute judgment upon all.'",
       "claim_type": "attributed_quote",
-      "entities": ["Enoch"],
+      "entities": [
+        "Enoch"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -41,7 +45,9 @@
       "quote": "The patriarch Job in the night of his affliction exclaimed with unshaken trust: “I know that my Redeemer liveth, and that He shall stand at the latter day upon the earth: ... in my flesh shall I see God: whom I shall see for myself, and mine eyes shall behold, and not another.”(451)",
       "claim_text": "The patriarch Job is quoted, during a period of affliction, as saying 'I know that my Redeemer liveth, and that He shall stand at the latter day upon the earth ... in my flesh shall I see God.'",
       "claim_type": "attributed_quote",
-      "entities": ["Job"],
+      "entities": [
+        "Job"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -56,7 +62,9 @@
       "quote": "The psalmist sung of the power and majesty of Israel’s King: “Out of Zion, the perfection of beauty, God hath shined. Our God shall come, and shall not keep silence.... He shall call to the heavens from above, and to the earth, that He may judge His people.”(452) “Let the heavens rejoice, and let the earth be glad ... before the Lord: for He cometh, for He cometh to judge the earth: He shall judge the world with righteousness, and the people with His truth.”(453)",
       "claim_text": "The biblical Psalms, attributed to the Psalmist, are quoted as describing God coming forth from Zion 'in the perfection of beauty' to judge the earth and its people with righteousness.",
       "claim_type": "attributed_quote",
-      "entities": ["Psalmist"],
+      "entities": [
+        "Psalmist"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -71,7 +79,9 @@
       "quote": "Said the prophet Isaiah: “Awake and sing, ye that dwell in dust: for thy dew is as the dew of herbs, and the earth shall cast out the dead.” “Thy dead men shall live, together with my dead body shall they arise.” “He will swallow up death in victory; and the Lord God will wipe away tears from off all faces; and the rebuke of His people shall He take away from off all the earth: for the Lord hath spoken it. And it shall be said in that day, Lo, this is our God; we have waited for Him, and He will save us: this is the Lord; we have waited for Him, we will be glad and rejoice in His salvation.”(454)",
       "claim_text": "The biblical prophet Isaiah is quoted as prophesying a resurrection of the dead and declaring that God 'will swallow up death in victory' and wipe away tears from all faces.",
       "claim_type": "attributed_quote",
-      "entities": ["Isaiah"],
+      "entities": [
+        "Isaiah"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -86,7 +96,9 @@
       "quote": "And Habakkuk, rapt in holy vision, beheld His appearing. “God came from Teman, and the Holy One from Mount Paran. His glory covered the heavens, and the earth was full of His praise. And His brightness was as the light.” “He stood, and measured the earth: He beheld, and drove asunder the nations; and the everlasting mountains were scattered, the perpetual hills did bow: His ways are everlasting.” “Thou didst ride upon Thine horses and Thy chariots of salvation.” “The mountains saw Thee, and they trembled: ... the deep uttered his voice, and lifted up his hands on high. The sun and moon stood still in their habitation: at the light of Thine arrows they went, and at the shining of Thy glittering spear.” “Thou wentest forth for the salvation of Thy people, even for salvation with Thine anointed.”(455)",
       "claim_text": "The biblical prophet Habakkuk is quoted as recording a vision in which God comes from Teman and Mount Paran, scatters the mountains, and causes the sun and moon to stand still.",
       "claim_type": "attributed_quote",
-      "entities": ["Habakkuk"],
+      "entities": [
+        "Habakkuk"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -101,7 +113,9 @@
       "quote": "When the Saviour was about to be separated from His disciples, He comforted them in their sorrow with the assurance that He would come again: “Let not your heart be troubled.... In My Father’s house are many mansions.... I go to prepare a place for you. And if I go and prepare a place for you, I will come again, and receive you unto Myself.”(456)",
       "claim_text": "Jesus is quoted, before being separated from his disciples, as promising to go and prepare a place for them and to 'come again' and receive them to himself.",
       "claim_type": "attributed_quote",
-      "entities": ["Jesus Christ"],
+      "entities": [
+        "Jesus Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -116,7 +130,9 @@
       "quote": "“The Son of man shall come in His glory, and all the holy angels with Him. Then shall He sit upon the throne of His glory: and before Him shall be gathered all nations.”(457)",
       "claim_text": "Jesus is quoted as saying the Son of man will come in glory with all the holy angels and sit on the throne of his glory, with all nations gathered before him.",
       "claim_type": "attributed_quote",
-      "entities": ["Jesus Christ"],
+      "entities": [
+        "Jesus Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -131,7 +147,10 @@
       "quote": "The angels who lingered upon Olivet after Christ’s ascension, repeated to the disciples the promise of His return: “This _same_ Jesus, which is taken up from you into heaven, shall _so_ come in like manner as ye have seen Him go into heaven.”(458)",
       "claim_text": "According to the biblical account, after Christ's ascension from the Mount of Olives, angels remaining there told the disciples that the same Jesus would return in the same manner they had seen him ascend.",
       "claim_type": "event",
-      "entities": ["Jesus Christ", "Mount of Olives"],
+      "entities": [
+        "Jesus Christ",
+        "Mount of Olives"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -146,7 +165,9 @@
       "quote": "And the apostle Paul, speaking by the Spirit of inspiration, testified: “The Lord _Himself_ shall descend from heaven with a shout, with the voice of the Archangel, and with the trump of God.”(459)",
       "claim_text": "The apostle Paul is quoted as testifying that the Lord himself will descend from heaven with a shout, the voice of the archangel, and the trumpet of God.",
       "claim_type": "attributed_quote",
-      "entities": ["Paul the Apostle"],
+      "entities": [
+        "Paul the Apostle"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -161,7 +182,10 @@
       "quote": "Says the prophet of Patmos, “Behold, He cometh with clouds; and every eye shall see Him.”(460)",
       "claim_text": "John, referred to as 'the prophet of Patmos,' is quoted in the book of Revelation as saying 'Behold, He cometh with clouds; and every eye shall see Him.'",
       "claim_type": "attributed_quote",
-      "entities": ["John of Patmos", "Patmos"],
+      "entities": [
+        "John of Patmos",
+        "Patmos"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -206,7 +230,10 @@
       "quote": "When the Thessalonian Christians were filled with grief as they buried their loved ones, who had hoped to live to witness the coming of the Lord, Paul, their teacher, pointed them to the resurrection, to take place at the Saviour’s advent.",
       "claim_text": "The Christians at Thessalonica grieved over believers who died before witnessing Christ's return, and the apostle Paul, who had taught them, responded by directing them to the future resurrection at Christ's second coming.",
       "claim_type": "event",
-      "entities": ["Paul the Apostle", "Thessalonica"],
+      "entities": [
+        "Paul the Apostle",
+        "Thessalonica"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -221,7 +248,9 @@
       "quote": "Then the dead in Christ should rise, and together with the living be caught up to meet the Lord in the air. “And so,” he said, “shall we ever be with the Lord. Wherefore comfort one another with these words.”(465)",
       "claim_text": "Paul is quoted as teaching the Thessalonians that the dead in Christ will rise and, together with the living, be caught up to meet the Lord in the air, so that believers will 'ever be with the Lord.'",
       "claim_type": "attributed_quote",
-      "entities": ["Paul the Apostle"],
+      "entities": [
+        "Paul the Apostle"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -236,7 +265,10 @@
       "quote": "On rocky Patmos the beloved disciple hears the promise, “Surely I come quickly,” and his longing response voices the prayer of the church in all her pilgrimage, “Even so, come, Lord Jesus.”(466)",
       "claim_text": "John, described as 'the beloved disciple,' while on the island of Patmos, is recorded as hearing the promise 'Surely I come quickly' and responding 'Even so, come, Lord Jesus.'",
       "claim_type": "attributed_quote",
-      "entities": ["John of Patmos", "Patmos"],
+      "entities": [
+        "John of Patmos",
+        "Patmos"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -259,7 +291,12 @@
         "confidence": "low",
         "rationale": "The quotation traces to the period Advent/patristic compilations White drew on (GC footnote 467). Its substance—that early Christian assurance of the resurrection produced contempt for death—is consistent with well-documented early-Christian eschatological martyrology. The exact primary wording could not be independently located within budget; no evidence contradicts it, so no accusatory verdict is warranted. Low confidence reflects the unverified primary source.",
         "sources": [
-          {"title": "Wellcome, History of the Second Advent Message (1874) — period compilation of the Reformer/early-Christian advent-hope genre GC reproduces", "url": "scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874) — period compilation of the Reformer/early-Christian advent-hope genre GC reproduces",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -276,7 +313,12 @@
         "confidence": "low",
         "rationale": "Fragmentary phrase ('rise free') attributed to an early Christian source via GC footnote 468, part of the same period compilation cluster as GC-17-017. Substance consistent with early-Christian resurrection hope; exact wording unverified within budget. No contradicting evidence.",
         "sources": [
-          {"title": "Wellcome, History of the Second Advent Message (1874)", "url": "scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874)",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -293,7 +335,12 @@
         "confidence": "low",
         "rationale": "Phrasing echoes Irenaeus/early-patristic chiliast expectation ('bringing to the just the times of the kingdom' resembles Irenaeus, Against Heresies V). Traces to GC's period source cluster; the substance (early Christians expected Christ's return in clouds) is well documented. Exact wording unverified within budget; no contradiction found.",
         "sources": [
-          {"title": "Wellcome, History of the Second Advent Message (1874)", "url": "scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874)",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -303,14 +350,21 @@
       "quote": "The Waldenses cherished the same faith.(469)",
       "claim_text": "The Waldenses held the same faith in Christ's imminent second coming as the early Christian martyrs described.",
       "claim_type": "biographical",
-      "entities": ["Waldenses"],
+      "entities": [
+        "Waldenses"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "Broadly consistent with scholarship: medieval Waldensian piety included eschatological/apocalyptic expectation, and the group is regularly grouped with historicist expectors of Christ's return. GC traces this to a cited period source (footnote 469). The general claim is unremarkable; low specificity keeps confidence at medium.",
         "sources": [
-          {"title": "Day-year principle — Wikipedia (survey of pre-Reformation and Reformation historicist expectors of Christ's advent)", "url": "https://en.wikipedia.org/wiki/Day-year_principle", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "Day-year principle — Wikipedia (survey of pre-Reformation and Reformation historicist expectors of Christ's advent)",
+            "url": "https://en.wikipedia.org/wiki/Day-year_principle",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -320,14 +374,21 @@
       "quote": "Wycliffe looked forward to the Redeemer’s appearing as the hope of the church.(470)",
       "claim_text": "John Wycliffe regarded the appearing of the Redeemer (Christ's second coming) as the hope of the church.",
       "claim_type": "biographical",
-      "entities": ["John Wycliffe"],
+      "entities": [
+        "John Wycliffe"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "Wycliffe is documented as an expositor working within a historicist/eschatological frame who anticipated Christ's return; the claim that he held the advent as the church's hope is consistent with standard accounts of his thought. Traced to GC footnote 470.",
         "sources": [
-          {"title": "Day-year principle — Wikipedia (lists Wycliffe among historicist expositors)", "url": "https://en.wikipedia.org/wiki/Day-year_principle", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "Day-year principle — Wikipedia (lists Wycliffe among historicist expositors)",
+            "url": "https://en.wikipedia.org/wiki/Day-year_principle",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -337,15 +398,27 @@
       "quote": "Luther declared: “I persuade myself verily, that the day of judgment will not be absent full three hundred years. God will not, can not, suffer this wicked world much longer.” “The great day is drawing near in which the kingdom of abominations shall be overthrown.”(471)",
       "claim_text": "Martin Luther is quoted as declaring that he believed the day of judgment would come within three hundred years, and that 'the great day is drawing near in which the kingdom of abominations shall be overthrown.'",
       "claim_type": "attributed_quote",
-      "entities": ["Martin Luther"],
+      "entities": [
+        "Martin Luther"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "The distinctive 'day of judgment will not be absent full three hundred years' line is confirmed verbatim in Wellcome's History of the Second Advent Message (1874), the kind of period Advent source White relied on, attributed there to Luther after his study of the prophetic numbers. Luther's belief in an imminent last day is well documented. The exact original wording (Luther's Table Talk / commentary) was not traced to primary text within budget, hence medium confidence.",
         "sources": [
-          {"title": "Wellcome, History of the Second Advent Message (1874), p. ~ (Luther '300 years' quotation)", "url": "scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true},
-          {"title": "Day-year principle — Wikipedia (Luther among historicist expositors expecting an imminent end)", "url": "https://en.wikipedia.org/wiki/Day-year_principle", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874), p. ~ (Luther '300 years' quotation)",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "Day-year principle — Wikipedia (Luther among historicist expositors expecting an imminent end)",
+            "url": "https://en.wikipedia.org/wiki/Day-year_principle",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -355,15 +428,27 @@
       "quote": "“This aged world is not far from its end,” said Melanchthon.",
       "claim_text": "Philipp Melanchthon is quoted as saying 'This aged world is not far from its end.'",
       "claim_type": "attributed_quote",
-      "entities": ["Philipp Melanchthon"],
+      "entities": [
+        "Philipp Melanchthon"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "low",
         "rationale": "Melanchthon is documented as sharing the Wittenberg expectation of an imminent end of the world (he worked on the prophetic chronologies with Luther). The specific one-line quotation traces to GC's period Advent sources and could not be independently located in Melanchthon's primary works within budget; substance consistent, no contradiction found.",
         "sources": [
-          {"title": "Wellcome, History of the Second Advent Message (1874) — groups Luther, Melanchthon, Latimer as studying the prophetic numbers for the end", "url": "scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true},
-          {"title": "Day-year principle — Wikipedia (Melanchthon among historicist expositors)", "url": "https://en.wikipedia.org/wiki/Day-year_principle", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874) — groups Luther, Melanchthon, Latimer as studying the prophetic numbers for the end",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "Day-year principle — Wikipedia (Melanchthon among historicist expositors)",
+            "url": "https://en.wikipedia.org/wiki/Day-year_principle",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -373,15 +458,27 @@
       "quote": "Calvin bids Christians “not to hesitate, ardently desiring the day of Christ’s coming as of all events most auspicious;” and declares that “the whole family of the faithful will keep in view that day.” “We must hunger after Christ, we must seek, contemplate,” he says, “till the dawning of that great day, when our Lord will fully manifest the glory of His kingdom.”(472)",
       "claim_text": "John Calvin is quoted as urging Christians to ardently desire the day of Christ's coming and stating that 'the whole family of the faithful will keep in view that day.'",
       "claim_type": "attributed_quote",
-      "entities": ["John Calvin"],
+      "entities": [
+        "John Calvin"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "low",
         "rationale": "The sentiment is consistent with Calvin's eschatology in his Institutes and commentaries, where he urges believers to long for Christ's return. The quotation traces to GC's cited period source (footnote 472); exact wording not matched to Calvin's primary text within budget. Substance consistent; no contradiction found.",
         "sources": [
-          {"title": "Day-year principle — Wikipedia (Calvin among Reformation historicist expositors)", "url": "https://en.wikipedia.org/wiki/Day-year_principle", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "Wellcome, History of the Second Advent Message (1874)", "url": "scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "Day-year principle — Wikipedia (Calvin among Reformation historicist expositors)",
+            "url": "https://en.wikipedia.org/wiki/Day-year_principle",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874)",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -391,15 +488,28 @@
       "quote": "“Has not our Lord Jesus carried up our flesh into heaven?” said Knox, the Scotch Reformer, “and shall He not return? We know that He shall return, and that with expedition.”(473)",
       "claim_text": "John Knox, referred to as 'the Scotch Reformer,' is quoted as asking 'Has not our Lord Jesus carried up our flesh into heaven? and shall He not return? We know that He shall return, and that with expedition.'",
       "claim_type": "attributed_quote",
-      "entities": ["John Knox"],
+      "entities": [
+        "John Knox"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "low",
         "rationale": "Attributed to Knox in GC's period source (footnote 473). Knox held Reformed eschatological views. The specific quotation was not found in the standard Knox quote corpora searched, but its absence from popular databases is not evidence of fabrication, and it is consistent with Knox's theology. Exact primary source (Works of John Knox) unverified within budget; low confidence.",
         "sources": [
-          {"title": "John Knox — Wikiquote / standard Knox quote collections (searched; quote not disproven, not in popular corpora)", "url": "https://en.wikiquote.org/wiki/John_Knox", "source_class": "other", "supports_verdict": false, "note": "Could neither confirm nor refute the exact wording."},
-          {"title": "Wellcome, History of the Second Advent Message (1874) — period compilation of Reformer advent quotes", "url": "scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "John Knox — Wikiquote / standard Knox quote collections (searched; quote not disproven, not in popular corpora)",
+            "url": "https://en.wikiquote.org/wiki/John_Knox",
+            "source_class": "other",
+            "supports_verdict": false,
+            "note": "Could neither confirm nor refute the exact wording."
+          },
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874) — period compilation of Reformer advent quotes",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -409,14 +519,22 @@
       "quote": "Ridley and Latimer, who laid down their lives for the truth, looked in faith for the Lord’s coming.",
       "claim_text": "Nicholas Ridley and Hugh Latimer, English Protestant Reformers who were executed for their faith, are said to have looked in faith for the Lord's coming.",
       "claim_type": "biographical",
-      "entities": ["Nicholas Ridley", "Hugh Latimer"],
+      "entities": [
+        "Nicholas Ridley",
+        "Hugh Latimer"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "Ridley and Latimer were English Reformers burned at Oxford in 1555 under Mary I (well documented). Their shared Protestant eschatological hope in Christ's return is consistent with their writings and the following Ridley quotation (GC-17-027). The martyrdom fact is textbook; the advent-hope characterization is period-sourced and unremarkable.",
         "sources": [
-          {"title": "Day-year principle — Wikipedia (English Reformers among historicist expositors)", "url": "https://en.wikipedia.org/wiki/Day-year_principle", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "Day-year principle — Wikipedia (English Reformers among historicist expositors)",
+            "url": "https://en.wikipedia.org/wiki/Day-year_principle",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -426,14 +544,21 @@
       "quote": "Ridley wrote: “The world without doubt—this I do believe, and therefore I say it—draws to an end. Let us with John, the servant of God, cry in our hearts unto our Saviour Christ, Come, Lord Jesus, come.”(473)",
       "claim_text": "Nicholas Ridley is quoted as writing, 'The world without doubt ... draws to an end. Let us with John, the servant of God, cry in our hearts unto our Saviour Christ, Come, Lord Jesus, come.'",
       "claim_type": "attributed_quote",
-      "entities": ["Nicholas Ridley"],
+      "entities": [
+        "Nicholas Ridley"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "low",
         "rationale": "Attributed to Ridley in GC's cited period source (footnote 473); the sentiment matches the imminent-end expectation common among Marian-era English Reformers. Exact primary source (Ridley's farewell writings) unverified within budget; consistent with GC-17-026, no contradiction found.",
         "sources": [
-          {"title": "Wellcome, History of the Second Advent Message (1874)", "url": "scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874)",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -443,14 +568,21 @@
       "quote": "“The thoughts of the coming of the Lord,” said Baxter, “are most sweet and joyful to me.”(474)",
       "claim_text": "Richard Baxter is quoted as saying, 'The thoughts of the coming of the Lord are most sweet and joyful to me.'",
       "claim_type": "attributed_quote",
-      "entities": ["Richard Baxter"],
+      "entities": [
+        "Richard Baxter"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "Richard Baxter's devotional focus on Christ's return is well documented; his 'Saint's Everlasting Rest' (referenced in Wellcome 1874) centres on longing for that day. The sentiment is characteristic of Baxter; traces to GC footnote 474. Medium confidence: the theme is firmly Baxter's, exact wording not matched to primary text within budget.",
         "sources": [
-          {"title": "Wellcome, History of the Second Advent Message (1874) — cites Baxter, Saint's Rest, on longing for Christ's coming", "url": "scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874) — cites Baxter, Saint's Rest, on longing for Christ's coming",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -460,14 +592,21 @@
       "quote": "“It is the work of faith and the character of His saints to love His appearing and to look for that blessed hope.” “If death be the last enemy to be destroyed at the resurrection, we may learn how earnestly believers should long and pray for the second coming of Christ, when this full and final conquest shall be made.”(475) “This is the day that all believers should long, and hope, and wait for, as being the accomplishment of all the work of their redemption, and all the desires and endeavors of their souls.” “Hasten, O Lord, this blessed day!”(476)",
       "claim_text": "Richard Baxter is further quoted as writing that believers should 'long, and hope, and wait for' the day of Christ's second coming, exclaiming 'Hasten, O Lord, this blessed day!'",
       "claim_type": "attributed_quote",
-      "entities": ["Richard Baxter"],
+      "entities": [
+        "Richard Baxter"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "Consistent with the sustained theme of Baxter's 'Saint's Everlasting Rest' (longing for Christ's return and the resurrection). Traced to GC footnotes 475-476. Exact wording not matched to primary text within budget; theme firmly Baxter's, so medium confidence.",
         "sources": [
-          {"title": "Wellcome, History of the Second Advent Message (1874) — references Baxter's Saint's Rest", "url": "scholarship/wellcome-history-second-advent-message-1874.txt", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874) — references Baxter's Saint's Rest",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -484,7 +623,12 @@
         "confidence": "low",
         "rationale": "Control-sample re-check of a needs_verification:false item. The summary interpretation smuggles a factual assertion—that the apostolic church, medieval dissenters, and the Reformers all held advent hope—which the preceding quote cluster and standard surveys of historicist eschatology broadly support (Wycliffe, Luther, Calvin, Knox, English Reformers documented as expecting Christ's return). The 'church in the wilderness' framing of the Waldenses is White's periodization. Low confidence given its rhetorical, summarizing character.",
         "sources": [
-          {"title": "Day-year principle — Wikipedia (survey of historicist advent expectors across the periods named)", "url": "https://en.wikipedia.org/wiki/Day-year_principle", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "Day-year principle — Wikipedia (survey of historicist advent expectors across the periods named)",
+            "url": "https://en.wikipedia.org/wiki/Day-year_principle",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -494,7 +638,9 @@
       "quote": "Said Jesus: “There shall be signs in the sun, and in the moon, and in the stars.”(477) “The sun shall be darkened, and the moon shall not give her light, and the stars of heaven shall fall, and the powers that are in heaven shall be shaken. And then shall they see the Son of man coming in the clouds with great power and glory.”(478)",
       "claim_text": "Jesus is quoted as prophesying signs in the sun, moon, and stars preceding his coming, including the sun being darkened and the stars falling from heaven.",
       "claim_type": "attributed_quote",
-      "entities": ["Jesus Christ"],
+      "entities": [
+        "Jesus Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -509,7 +655,9 @@
       "quote": "The revelator thus describes the first of the signs to precede the second advent: “There was a great earthquake; and the sun became black as sackcloth of hair, and the moon became as blood.”(479)",
       "claim_text": "The book of Revelation, attributed to 'the revelator' (John), describes a great earthquake accompanied by the sun turning black and the moon becoming as blood as the first sign preceding the second advent.",
       "claim_type": "attributed_quote",
-      "entities": ["John of Patmos"],
+      "entities": [
+        "John of Patmos"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -524,7 +672,9 @@
       "quote": "These signs were witnessed before the opening of the nineteenth century. In fulfilment of this prophecy there occurred, in the year 1755, the most terrible earthquake that has ever been recorded.",
       "claim_text": "An earthquake occurred in the year 1755 that is described as the most terrible earthquake ever recorded up to that time.",
       "claim_type": "date",
-      "entities": ["Lisbon earthquake of 1755"],
+      "entities": [
+        "Lisbon earthquake of 1755"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -532,8 +682,18 @@
         "rationale": "The Great Lisbon earthquake of 1 November 1755 (estimated moment magnitude 8.5-9.0) is a real, exceptionally destructive event, one of the deadliest in recorded European history. The superlative 'most terrible ever recorded' reflects the assessment of Charles Lyell's Principles of Geology (GC's cited source) and 18th/19th-century opinion; modern seismology confirms it as one of the largest and most destructive known, so the superlative is period-typical but not contradicted. source_quality: academic-full.",
         "modern_consensus": "1 Nov 1755, epicentre in the Atlantic ~200 km WSW of Cape St Vincent, magnitude ~8.5-9.0; among the deadliest earthquakes in history.",
         "sources": [
-          {"title": "The AD 1755 Lisbon Earthquake-Tsunami: seismic source modelling (Quaternary International)", "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474", "source_class": "academic", "supports_verdict": true},
-          {"title": "Lisbon earthquake of 1755 — Britannica", "url": "https://www.britannica.com/event/Lisbon-earthquake-of-1755", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "The AD 1755 Lisbon Earthquake-Tsunami: seismic source modelling (Quaternary International)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474",
+            "source_class": "academic",
+            "supports_verdict": true
+          },
+          {
+            "title": "Lisbon earthquake of 1755 — Britannica",
+            "url": "https://www.britannica.com/event/Lisbon-earthquake-of-1755",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -543,15 +703,30 @@
       "quote": "Though commonly known as the earthquake of Lisbon, it extended to the greater part of Europe, Africa, and America.",
       "claim_text": "The 1755 earthquake, commonly known as the Lisbon earthquake, extended its effects to the greater part of Europe, Africa, and America.",
       "claim_type": "geographical",
-      "entities": ["Lisbon earthquake of 1755", "Europe", "Africa", "America"],
+      "entities": [
+        "Lisbon earthquake of 1755",
+        "Europe",
+        "Africa",
+        "America"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "Seismic shaking was felt across the Iberian Peninsula and beyond, and far-field tsunami effects reached the British Isles, the Netherlands, the Azores, Canary and Cape Verde islands, Madeira, and the Caribbean (the 'America' of period accounts). 'Greater part of Europe, Africa, and America' is Lyell's characterization (GC's source), broadly consistent with modern reconstructions of the shaking + tsunami footprint. source_quality: academic-full.",
         "sources": [
-          {"title": "1755 Lisbon earthquake — Wikipedia (felt/tsunami reach across Europe, NW Africa, and Atlantic incl. Caribbean)", "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "The AD 1755 Lisbon Earthquake-Tsunami seismic source modelling (Quaternary International)", "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "1755 Lisbon earthquake — Wikipedia (felt/tsunami reach across Europe, NW Africa, and Atlantic incl. Caribbean)",
+            "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "The AD 1755 Lisbon Earthquake-Tsunami seismic source modelling (Quaternary International)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -561,15 +736,34 @@
       "quote": "It was felt in Greenland, in the West Indies, in the island of Madeira, in Norway and Sweden, Great Britain and Ireland.",
       "claim_text": "The 1755 Lisbon earthquake was felt in Greenland, the West Indies, Madeira, Norway, Sweden, Great Britain, and Ireland.",
       "claim_type": "geographical",
-      "entities": ["Lisbon earthquake of 1755", "Greenland", "West Indies", "Madeira", "Norway", "Sweden", "Great Britain", "Ireland"],
+      "entities": [
+        "Lisbon earthquake of 1755",
+        "Greenland",
+        "West Indies",
+        "Madeira",
+        "Norway",
+        "Sweden",
+        "Great Britain",
+        "Ireland"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "Modern accounts confirm effects (shaking and/or tsunami/seiche) in Ireland, Great Britain, Sweden, Madeira, and the West Indies/Caribbean. The reach reproduces Lyell's list (GC's cited source). Greenland is the most doubtful item and rests on the period source; the rest is corroborated. Not contradicted overall. source_quality: academic-partial.",
         "sources": [
-          {"title": "1755 Lisbon earthquake — Wikipedia (effects in British Isles, Netherlands, Azores, Canary, Cape Verde, Caribbean; felt in Ireland, Sweden, Madeira)", "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "The AD 1755 Lisbon Earthquake-Tsunami (Quaternary International)", "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "1755 Lisbon earthquake — Wikipedia (effects in British Isles, Netherlands, Azores, Canary, Cape Verde, Caribbean; felt in Ireland, Sweden, Madeira)",
+            "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "The AD 1755 Lisbon Earthquake-Tsunami (Quaternary International)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -579,7 +773,9 @@
       "quote": "It pervaded an extent of not less than four million square miles.",
       "claim_text": "The 1755 Lisbon earthquake affected an area of not less than four million square miles.",
       "claim_type": "statistic",
-      "entities": ["Lisbon earthquake of 1755"],
+      "entities": [
+        "Lisbon earthquake of 1755"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "anachronistic",
@@ -588,8 +784,18 @@
         "modern_consensus": "Damage area ~100,000 km2 (≥ intensity VI); far-field water disturbances noted much more widely but not quantified as a single 'felt area' of that size.",
         "period_historiography": "Lyell, Principles of Geology, states the shock pervaded an area of not less than four million square miles — the exact figure GC reproduces.",
         "sources": [
-          {"title": "The AD 1755 Lisbon Earthquake-Tsunami seismic source modelling (Quaternary International) — damage area ~100,000 km2", "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474", "source_class": "academic", "supports_verdict": true},
-          {"title": "1755 Lisbon earthquake — Wikipedia (Lyell's 'four million square miles' estimate; modern damage-area figures)", "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "The AD 1755 Lisbon Earthquake-Tsunami seismic source modelling (Quaternary International) — damage area ~100,000 km2",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474",
+            "source_class": "academic",
+            "supports_verdict": true
+          },
+          {
+            "title": "1755 Lisbon earthquake — Wikipedia (Lyell's 'four million square miles' estimate; modern damage-area figures)",
+            "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       },
       "defense": {
@@ -597,8 +803,20 @@
         "revised_verdict": "supported",
         "argument": "The anachronistic verdict rests on a category error the verifier itself half-concedes. White's word is 'pervaded an extent' — the reach over which the shock and its associated disturbances were PERCEPTIBLE, exactly Lyell's meaning. The verifier then measures that against the ~100,000 km2 heavy-DAMAGE (intensity ≥VI) footprint. Those are different quantities. Under the correct reading (perceptible reach), modern reconstruction corroborates an area of at least this order of magnitude. The academic ESI-07 study (Quaternary International, 2021) documents far-field seiches from the 1 Nov 1755 event in English lakes (Cumbria), Scottish lochs (Lomond, Ness), Swiss lakes (Geneva, Neuchâtel, Zürich), the Thames, the Elbe at Hamburg, and river outlets as far as the Dalälven (Sweden) and Aurajoki (Finland) — 'the observation of seiches as far away as Finland suggests a magnitude approaching 9.0.' USGS far-field tsunami simulations add the transatlantic reach to the U.S. East Coast and the Caribbean. A perceptible-effects region bounded by the Caribbean, Finland, and North Africa spans well over four million square miles (~10.4 million km2), so White's Lyell-sourced figure is a defensible LOWER BOUND on the perceptible reach, not an error 'wrong by modern standards.' The exact number is a period estimate that modern data corroborates directionally rather than a modern measurement, but nothing in current seismology contradicts it; the claim is defensible as stated. source_quality: academic-partial (search-snippet access to Quaternary International ESI-07 paper and USGS far-field simulation).",
         "new_sources": [
-          {"title": "The AD 1755 Lisbon Earthquake-Tsunami: seismic source modelling from ESI-07 environmental data (Quaternary International, 2021) — documents seiches from the Caribbean/Atlantic reaching English, Scottish, and Swiss lakes and river outlets as far as Sweden and Finland", "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474", "source_class": "academic", "supports_verdict": true, "note": "Felt/perceptible reach corroborated to order-of-magnitude; supports 'pervaded an extent' reading."},
-          {"title": "Far-field tsunami simulations of the 1755 Lisbon earthquake: implications for tsunami hazard to the U.S. East Coast and the Caribbean (USGS)", "url": "https://pubs.usgs.gov/publication/70036556", "source_class": "academic", "supports_verdict": true, "note": "Transatlantic perceptible reach to the Americas."}
+          {
+            "title": "The AD 1755 Lisbon Earthquake-Tsunami: seismic source modelling from ESI-07 environmental data (Quaternary International, 2021) — documents seiches from the Caribbean/Atlantic reaching English, Scottish, and Swiss lakes and river outlets as far as Sweden and Finland",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Felt/perceptible reach corroborated to order-of-magnitude; supports 'pervaded an extent' reading."
+          },
+          {
+            "title": "Far-field tsunami simulations of the 1755 Lisbon earthquake: implications for tsunami hazard to the U.S. East Coast and the Caribbean (USGS)",
+            "url": "https://pubs.usgs.gov/publication/70036556",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Transatlantic perceptible reach to the Americas."
+          }
         ]
       }
     },
@@ -608,15 +826,29 @@
       "quote": "In Africa the shock was almost as severe as in Europe. A great part of Algiers was destroyed; and a short distance from Morocco, a village containing eight or ten thousand inhabitants was swallowed up.",
       "claim_text": "During the 1755 earthquake, a great part of Algiers was destroyed, and a village near Morocco containing eight to ten thousand inhabitants was swallowed up.",
       "claim_type": "statistic",
-      "entities": ["Lisbon earthquake of 1755", "Algiers", "Morocco"],
+      "entities": [
+        "Lisbon earthquake of 1755",
+        "Algiers",
+        "Morocco"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "low",
         "rationale": "Damage in North Africa is confirmed: Algiers and Moroccan coastal towns (Tangier, Rabat, Larache, Asilah, Agadir/Santa Cruz) suffered damage and casualties; Morocco lost on the order of ~10,000. The specific detail of a village of 8,000-10,000 'swallowed up' is Lyell's period account and cannot be independently confirmed; the broad claim of severe African damage is corroborated. Low confidence on the swallowed-village specific. source_quality: academic-partial.",
         "sources": [
-          {"title": "The effects of the November 1, 1755 'Lisbon' earthquake in Morocco (Tectonophysics)", "url": "https://www.sciencedirect.com/science/article/abs/pii/0040195191901904", "source_class": "academic", "supports_verdict": true},
-          {"title": "Lisbon earthquake of 1755 — Britannica (damage reported in Algiers; ~10,000 deaths in Morocco)", "url": "https://www.britannica.com/event/Lisbon-earthquake-of-1755", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "The effects of the November 1, 1755 'Lisbon' earthquake in Morocco (Tectonophysics)",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/0040195191901904",
+            "source_class": "academic",
+            "supports_verdict": true
+          },
+          {
+            "title": "Lisbon earthquake of 1755 — Britannica (damage reported in Algiers; ~10,000 deaths in Morocco)",
+            "url": "https://www.britannica.com/event/Lisbon-earthquake-of-1755",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -626,15 +858,29 @@
       "quote": "A vast wave swept over the coast of Spain and Africa, engulfing cities, and causing great destruction.",
       "claim_text": "A vast wave swept over the coast of Spain and Africa during the 1755 earthquake, engulfing cities and causing great destruction.",
       "claim_type": "event",
-      "entities": ["Lisbon earthquake of 1755", "Spain", "Africa"],
+      "entities": [
+        "Lisbon earthquake of 1755",
+        "Spain",
+        "Africa"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "high",
         "rationale": "The earthquake generated a major transoceanic tsunami that struck the coasts of Portugal, southwest Spain (Huelva, Cadiz) and Morocco with waves of several to ~20 metres, causing extensive destruction. Well established in modern scholarship. source_quality: academic-full.",
         "sources": [
-          {"title": "The tsunami in Cadiz on 1 November 1755 (Comptes Rendus Geoscience)", "url": "https://www.sciencedirect.com/science/article/pii/S1631071307003902", "source_class": "academic", "supports_verdict": true},
-          {"title": "1755 Lisbon earthquake — Wikipedia (tsunami on Iberian and NW African coasts)", "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "The tsunami in Cadiz on 1 November 1755 (Comptes Rendus Geoscience)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1631071307003902",
+            "source_class": "academic",
+            "supports_verdict": true
+          },
+          {
+            "title": "1755 Lisbon earthquake — Wikipedia (tsunami on Iberian and NW African coasts)",
+            "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -644,7 +890,10 @@
       "quote": "At Cadiz the inflowing wave was said to be sixty feet high.",
       "claim_text": "At Cadiz, Spain, the tsunami wave from the 1755 earthquake was reported to be sixty feet high.",
       "claim_type": "statistic",
-      "entities": ["Cadiz", "Lisbon earthquake of 1755"],
+      "entities": [
+        "Cadiz",
+        "Lisbon earthquake of 1755"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -652,8 +901,18 @@
         "rationale": "The 'sixty feet high at Cadiz' figure is Lyell's (Principles of Geology, GC's source), and Britannica likewise reports a ~65-foot (20 m) wave at Cadiz. Some modern analyses regard the figure as likely exaggerated, but it is not contradicted as a reported contemporary observation and lies near the upper cited range. source_quality: academic-full.",
         "modern_consensus": "Tsunami of order 20 m (~65 ft) reported at Cadiz; some scholars regard the highest historical figures as exaggerated.",
         "sources": [
-          {"title": "Lisbon earthquake of 1755 — Britannica (~65 ft wave at Cadiz)", "url": "https://www.britannica.com/event/Lisbon-earthquake-of-1755", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "The tsunami in Cadiz on 1 November 1755: critical analysis of Ulloa and Godin reports (C.R. Geoscience)", "url": "https://www.sciencedirect.com/science/article/pii/S1631071307003902", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "Lisbon earthquake of 1755 — Britannica (~65 ft wave at Cadiz)",
+            "url": "https://www.britannica.com/event/Lisbon-earthquake-of-1755",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "The tsunami in Cadiz on 1 November 1755: critical analysis of Ulloa and Godin reports (C.R. Geoscience)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1631071307003902",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -663,7 +922,10 @@
       "quote": "Mountains, “some of the largest in Portugal, were impetuously shaken, as it were, from their very foundations; and some of them opened at their summits, which were split and rent in a wonderful manner, huge masses of them being thrown down into the adjacent valleys. Flames are related to have issued from these mountains.”(480)",
       "claim_text": "According to a cited account, some of the largest mountains in Portugal were violently shaken during the 1755 earthquake, split open at their summits, and reportedly emitted flames.",
       "claim_type": "event",
-      "entities": ["Portugal", "Lisbon earthquake of 1755"],
+      "entities": [
+        "Portugal",
+        "Lisbon earthquake of 1755"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "anachronistic",
@@ -671,8 +933,18 @@
         "rationale": "This is a marked quotation from Lyell's Principles of Geology (GC footnote 480), itself relaying 18th-century eyewitness reports of landslides, ground fissuring and 'flames.' Modern geology attributes the phenomena to seismic ground failure, rockfalls and possibly ignited gases; the 'flames from mountains' language reflects period reportage rather than a modern volcanic/geologic description. Faithfully quoted from White's source; not independently confirmed as literal. source_quality: academic-partial.",
         "period_historiography": "Lyell, Principles of Geology, reproduces contemporary accounts of Portuguese mountains split and emitting flames — the passage GC quotes.",
         "sources": [
-          {"title": "The AD 1755 Lisbon Earthquake-Tsunami: ESI-07 environmental effects (Quaternary International)", "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474", "source_class": "academic", "supports_verdict": true},
-          {"title": "1755 Lisbon earthquake — Wikipedia", "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "The AD 1755 Lisbon Earthquake-Tsunami: ESI-07 environmental effects (Quaternary International)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474",
+            "source_class": "academic",
+            "supports_verdict": true
+          },
+          {
+            "title": "1755 Lisbon earthquake — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       },
       "defense": {
@@ -680,7 +952,13 @@
         "revised_verdict": "supported",
         "argument": "Two points overturn the anachronistic label. First, the geological substance of the quoted passage is confirmed by modern seismology, not contradicted by it. 'Mountains impetuously shaken from their foundations, summits split and rent, huge masses thrown down into the adjacent valleys' is an 18th-century description of large coseismic landslides, rockfalls, and ground fissuring — precisely the ESI-07 environmental effects the modern academic literature documents for this event (scattered rockfalls in distal zones; permanent landslide/landscape changes at Güevejar and Minateda; ground fissures reported ~5 m wide). Second, the single anomalous element — flames — is explicitly HEDGED by White: 'Flames ARE RELATED TO HAVE issued from these mountains.' She asserts only that such reports existed (which is true; Lyell relays them), not that flames literally issued. The extractor preserved this hedge ('reportedly emitted flames'). So the checkable content of the claim is: (a) mountains were violently shaken and suffered summit failure with mass movement into valleys — modern-confirmed; (b) an account reports flames — faithfully and accurately reproduced. Neither component is 'wrong by modern standards.' The verifier's anachronistic call over-literalizes a hedged period report and ignores that the destructive-geology core is exactly what modern ESI-07 analysis records. The claim is defensible as stated. source_quality: academic-partial (search-snippet access to Quaternary International ESI-07 environmental-effects paper).",
         "new_sources": [
-          {"title": "The AD 1755 Lisbon Earthquake-Tsunami: ESI-07 environmental effects (Quaternary International, 2021) — documents coseismic rockfalls, permanent landslides (Güevejar, Minateda) and ~5 m ground fissures", "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474", "source_class": "academic", "supports_verdict": true, "note": "Confirms the 'shaken, split at summits, masses thrown into valleys' geology as real seismic ground failure."}
+          {
+            "title": "The AD 1755 Lisbon Earthquake-Tsunami: ESI-07 environmental effects (Quaternary International, 2021) — documents coseismic rockfalls, permanent landslides (Güevejar, Minateda) and ~5 m ground fissures",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Confirms the 'shaken, split at summits, masses thrown into valleys' geology as real seismic ground failure."
+          }
         ]
       }
     },
@@ -690,15 +968,28 @@
       "quote": "At Lisbon “a sound of thunder was heard underground, and immediately afterward a violent shock threw down the greater part of that city.",
       "claim_text": "At Lisbon, a sound like thunder was reportedly heard underground immediately before a violent shock threw down the greater part of the city during the 1755 earthquake.",
       "claim_type": "event",
-      "entities": ["Lisbon", "Lisbon earthquake of 1755"],
+      "entities": [
+        "Lisbon",
+        "Lisbon earthquake of 1755"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "Contemporary Lisbon accounts describe a subterranean roar/rumble ('like thunder') preceding the main shock, which levelled much of the city. This is standard in the sources (Lyell, and eyewitness accounts) and consistent with modern descriptions of the earthquake's onset and the destruction of central Lisbon. source_quality: academic-partial.",
         "sources": [
-          {"title": "Lisbon earthquake of 1755 — Britannica (violent shaking destroyed much of the city)", "url": "https://www.britannica.com/event/Lisbon-earthquake-of-1755", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "The AD 1755 Lisbon Earthquake-Tsunami (Quaternary International)", "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "Lisbon earthquake of 1755 — Britannica (violent shaking destroyed much of the city)",
+            "url": "https://www.britannica.com/event/Lisbon-earthquake-of-1755",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "The AD 1755 Lisbon Earthquake-Tsunami (Quaternary International)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -708,7 +999,9 @@
       "quote": "In the course of about six minutes, sixty thousand persons perished.",
       "claim_text": "An estimated sixty thousand people perished within about six minutes during the 1755 Lisbon earthquake.",
       "claim_type": "statistic",
-      "entities": ["Lisbon earthquake of 1755"],
+      "entities": [
+        "Lisbon earthquake of 1755"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "disputed",
@@ -716,8 +1009,18 @@
         "rationale": "The '60,000 in six minutes' figure is Lyell's period estimate (GC's source). Modern estimates of Lisbon deaths range widely (commonly 10,000-40,000, with older figures up to 100,000), and disaggregating an exact toll for the first minutes of shaking is not possible. The number lies within the broad historical range but the precise 'six minutes / 60,000' claim is not supported by modern quantification and estimates genuinely diverge. source_quality: academic-full.",
         "modern_consensus": "Lisbon death toll commonly estimated 10,000-40,000 (some older estimates to 100,000); no reliable minute-by-minute breakdown.",
         "sources": [
-          {"title": "1755 Lisbon earthquake — Wikipedia (death-toll estimates 10,000-100,000)", "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "The AD 1755 Lisbon Earthquake-Tsunami (Quaternary International)", "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "1755 Lisbon earthquake — Wikipedia (death-toll estimates 10,000-100,000)",
+            "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "The AD 1755 Lisbon Earthquake-Tsunami (Quaternary International)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       },
       "impact": {
@@ -727,6 +1030,22 @@
         "impact_score": 4,
         "narrative_arc": "millerite",
         "reasoning": "The specific 60,000/six-minutes figure is a high-end period casualty estimate (Lyell) inside the broad range historians still debate (10,000-40,000 common, up to ~100,000 in older sources); genuinely disputed rather than clearly false, so severity is modest. Centrality is low-moderate: the number amplifies how catastrophic the earthquake was, but the chapter's actual argumentative work — identifying the 1755 quake as the prophesied 'great earthquake' sign feeding the historicist countdown to 1798/1780/1844 — needs only that a very destructive earthquake occurred in 1755, not this exact death toll or timeframe. Counterfactual: delete the sentence and the sign-identification argument, and the millerite chronological chain it sets up, are completely untouched; only the passage's dramatic color is reduced."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D15",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "well-supported",
+        "framing_gap": 3,
+        "failing_component_kind": "fact",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 3,
+        "centrality": 2,
+        "load_bearing": false,
+        "impact_score": 6,
+        "narrative_arc": "millerite",
+        "reasoning": "This is a fact failure: modern archival demography (Pereira 2009, Araujo, Chester) converges on roughly 20,000-40,000 Lisbon deaths against a disaster that unfolded over shaking, a tsunami ~40 minutes later, and days of fire, so the printed 'sixty thousand... in the course of about six minutes' overstates the toll and compresses a multi-hour/day accumulation into the shaking window alone -- the adjudication upgrades this from Phase-1's 'genuinely disputed' to a confident 'improbable' rejection of the operative claim. With framing_gap=3 the weakened version (tens of thousands died in a disaster whose violent shaking lasted about six minutes) is well-supported, so the substance survives; only the compressed absolute reading fails, an absoluteness-of-figure problem sitting on top of a real catastrophe. The chapter's sign-identification argument needs only that a devastating earthquake struck in 1755, not this death toll or timeframe, so deleting the sentence leaves the millerite sign-chain fully intact -- not load-bearing."
       }
     },
     {
@@ -735,7 +1054,9 @@
       "quote": "The sea first retired, and laid the bar dry; it then rolled in, rising fifty feet or more above its ordinary level.”(481)",
       "claim_text": "During the 1755 Lisbon earthquake, the sea reportedly first retreated, exposing the harbor bar, then rolled back in, rising fifty feet or more above its ordinary level.",
       "claim_type": "event",
-      "entities": ["Lisbon earthquake of 1755"],
+      "entities": [
+        "Lisbon earthquake of 1755"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -743,8 +1064,18 @@
         "rationale": "The classic tsunami sequence—sea withdrawal exposing the harbour bar, then a large in-rushing wave—is well documented at Lisbon. Wave heights at Lisbon itself are usually given around 6 m (~20 ft); the 'fifty feet or more' is Lyell's higher period figure (GC footnote 481). Sequence supported; the exact height is a period estimate at the upper end. source_quality: academic-full.",
         "modern_consensus": "Tsunami at Lisbon commonly ~6 m; the withdrawal-then-inundation sequence is confirmed.",
         "sources": [
-          {"title": "Lisbon earthquake of 1755 — Britannica (sea receded, then tsunami waves)", "url": "https://www.britannica.com/event/Lisbon-earthquake-of-1755", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "The AD 1755 Lisbon Earthquake-Tsunami (Quaternary International)", "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "Lisbon earthquake of 1755 — Britannica (sea receded, then tsunami waves)",
+            "url": "https://www.britannica.com/event/Lisbon-earthquake-of-1755",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "The AD 1755 Lisbon Earthquake-Tsunami (Quaternary International)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -754,15 +1085,28 @@
       "quote": "Among other extraordinary events related to have occurred at Lisbon during the catastrophe, was the subsidence of a new quay, built entirely of marble, at an immense expense. A great concourse of people had collected there for safety, as a spot where they might be beyond the reach of falling ruins; but suddenly the quay sank down with all the people on it, and not one of the dead bodies ever floated to the surface.”(481)",
       "claim_text": "During the 1755 Lisbon earthquake, a newly built marble quay, on which a large crowd had gathered for safety, reportedly sank suddenly with all the people on it, and none of the bodies were ever found floating to the surface.",
       "claim_type": "event",
-      "entities": ["Lisbon earthquake of 1755", "Lisbon"],
+      "entities": [
+        "Lisbon earthquake of 1755",
+        "Lisbon"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "disputed",
         "confidence": "low",
         "rationale": "The story of the Cais de Pedra marble quay sinking with a crowd aboard is a famous and much-repeated contemporary account (relayed by Lyell, GC footnote 481). Its literal truth is debated among historians: some regard it as a genuine ground-failure/liquefaction event at the quayside, others as an embellished legend. GC quotes the period source faithfully, but modern scholarship does not treat it as an established fact. source_quality: academic-partial.",
         "sources": [
-          {"title": "1755 Lisbon earthquake — Wikipedia (accounts of quayside collapse; disputed details of the disaster narratives)", "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "The AD 1755 Lisbon Earthquake-Tsunami ESI-07 environmental effects (Quaternary International)", "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "1755 Lisbon earthquake — Wikipedia (accounts of quayside collapse; disputed details of the disaster narratives)",
+            "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "The AD 1755 Lisbon Earthquake-Tsunami ESI-07 environmental effects (Quaternary International)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       },
       "impact": {
@@ -772,6 +1116,22 @@
         "impact_score": 3,
         "narrative_arc": "millerite",
         "reasoning": "The marble-quay-with-drowned-crowd story is a vivid, quotable atrocity anecdote whose historicity is genuinely contested (possible embellished legend rather than confirmed liquefaction event); if it is invented, that is a more serious kind of error than a disputed number, hence severity 3. But its centrality is minimal: it is pure dramatic illustration lifted verbatim from Lyell within a block quotation, contributing color to 'how terrible the earthquake was' without doing any of the argumentative work (sign-identification, dating, prophetic-period arithmetic) that the chapter's thesis rests on. Counterfactual: removing this anecdote entirely leaves the chapter's claim that 1755 fulfilled the 'great earthquake' sign fully intact — nothing else in the argument depends on the quay story."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D15",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "probable",
+        "framing_gap": 2,
+        "failing_component_kind": "fact",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 3,
+        "centrality": 1,
+        "load_bearing": false,
+        "impact_score": 3,
+        "narrative_arc": "millerite",
+        "reasoning": "This is a fact failure confined to the anecdote's totalizing layer: the quay's existence, subsidence, and crowd deaths are themselves well-supported and probable (modern geophysics documents liquefaction at the Terreiro do Paco waterfront), but the printed absolutes -- 'ALL the people,' 'NOT ONE... EVER' floated -- are specifically contradicted by the site's shallow bathymetry and later rebuilding as the Praca do Comercio, an unfalsifiable-in-principle claim the adjudication marks improbable even though the underlying event is real. With framing_gap=2 the weakened version (a real subsidence that killed many who had sought refuge there) lands only at probable rather than well-supported, reflecting testimony-based rather than archival certainty, so the failure reads as inherited rhetorical absoluteness rather than an invented event. The anecdote is pure dramatic illustration inside a block quotation; deleting it leaves the chapter's 'great earthquake' sign-fulfillment argument completely untouched, so it carries no load-bearing weight."
       }
     },
     {
@@ -780,15 +1140,28 @@
       "quote": "“The shock” of the earthquake “was instantly followed by the fall of every church and convent, almost all the large public buildings, and more than one fourth of the houses.",
       "claim_text": "The shock of the 1755 Lisbon earthquake was reportedly followed instantly by the collapse of every church and convent, almost all large public buildings, and more than one fourth of the houses in Lisbon.",
       "claim_type": "statistic",
-      "entities": ["Lisbon earthquake of 1755", "Lisbon"],
+      "entities": [
+        "Lisbon earthquake of 1755",
+        "Lisbon"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "Modern accounts confirm catastrophic destruction of Lisbon: the great majority of churches, convents, palaces and public buildings collapsed or burned, and a large fraction of the city's houses were destroyed. The 'more than one fourth of houses' figure is within the range of period estimates and consistent with the scale of devastation. source_quality: academic-partial.",
         "sources": [
-          {"title": "Lisbon earthquake of 1755 — Britannica (near-total destruction of the city)", "url": "https://www.britannica.com/event/Lisbon-earthquake-of-1755", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "The AD 1755 Lisbon Earthquake-Tsunami (Quaternary International)", "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "Lisbon earthquake of 1755 — Britannica (near-total destruction of the city)",
+            "url": "https://www.britannica.com/event/Lisbon-earthquake-of-1755",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "The AD 1755 Lisbon Earthquake-Tsunami (Quaternary International)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -798,15 +1171,28 @@
       "quote": "In about two hours after the shock, fires broke out in different quarters, and raged with such violence for the space of nearly three days, that the city was completely desolated.",
       "claim_text": "About two hours after the initial shock of the 1755 Lisbon earthquake, fires broke out and raged for nearly three days, completely desolating the city.",
       "claim_type": "event",
-      "entities": ["Lisbon earthquake of 1755", "Lisbon"],
+      "entities": [
+        "Lisbon earthquake of 1755",
+        "Lisbon"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "high",
         "rationale": "A great fire broke out after the earthquake and tsunami and burned for several days (commonly reported as ~5-6 days total, raging most fiercely in the first days), destroying much of what the quake and wave had spared. The 'nearly three days' and 'two hours after' details are within period accounts and the fire's severity is firmly established. source_quality: academic-partial.",
         "sources": [
-          {"title": "Lisbon earthquake of 1755 — Britannica (post-quake firestorm devastated the city)", "url": "https://www.britannica.com/event/Lisbon-earthquake-of-1755", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "1755 Lisbon earthquake — Wikipedia (fires burned for days)", "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "Lisbon earthquake of 1755 — Britannica (post-quake firestorm devastated the city)",
+            "url": "https://www.britannica.com/event/Lisbon-earthquake-of-1755",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "1755 Lisbon earthquake — Wikipedia (fires burned for days)",
+            "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -816,15 +1202,28 @@
       "quote": "The earthquake happened on a holy-day, when the churches and convents were full of people, very few of whom escaped.”(482)",
       "claim_text": "The 1755 Lisbon earthquake occurred on a religious holy day, when the churches and convents were full of people, very few of whom escaped.",
       "claim_type": "event",
-      "entities": ["Lisbon earthquake of 1755", "Lisbon"],
+      "entities": [
+        "Lisbon earthquake of 1755",
+        "Lisbon"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "high",
         "rationale": "The earthquake struck on the morning of 1 November 1755, the Feast of All Saints, a major Catholic holy day, when churches were crowded for Mass; the collapse of church buildings killed many worshippers. Confirmed by modern scholarship. source_quality: academic-full.",
         "sources": [
-          {"title": "1755 Lisbon earthquake — Wikipedia (struck 09:40, 1 Nov, Feast of All Saints; churches crowded)", "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "Lisbon earthquake of 1755 — Britannica (All Saints' Day; worshippers in churches)", "url": "https://www.britannica.com/event/Lisbon-earthquake-of-1755", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "1755 Lisbon earthquake — Wikipedia (struck 09:40, 1 Nov, Feast of All Saints; churches crowded)",
+            "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Lisbon earthquake of 1755 — Britannica (All Saints' Day; worshippers in churches)",
+            "url": "https://www.britannica.com/event/Lisbon-earthquake-of-1755",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -834,15 +1233,28 @@
       "quote": "They ran hither and thither, delirious with horror and astonishment, beating their faces and breasts, crying, ‘_Misericordia! the world’s at an end!_’ Mothers forgot their children, and ran about loaded with crucifixed images.",
       "claim_text": "According to a contemporary account, during the 1755 Lisbon earthquake terrified people ran through the streets crying 'Misericordia! the world's at an end!' and mothers reportedly ran about carrying crucifix images, having forgotten their children.",
       "claim_type": "event",
-      "entities": ["Lisbon earthquake of 1755", "Lisbon"],
+      "entities": [
+        "Lisbon earthquake of 1755",
+        "Lisbon"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "low",
         "rationale": "This is a quoted contemporary eyewitness account (e.g., of the type given by survivors such as Rev. Charles Davy) relayed through GC's period source. Such scenes of panic, religious invocation and cries that the world was ending are consistent with multiple survivor narratives. As a quoted impression it is faithfully reproduced; individual details are not independently verifiable. Low confidence given the anecdotal nature. source_quality: academic-partial.",
         "sources": [
-          {"title": "1755 Lisbon earthquake — Wikipedia (survivor accounts of panic and religious terror)", "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "Lisbon earthquake of 1755 — Britannica", "url": "https://www.britannica.com/event/Lisbon-earthquake-of-1755", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "1755 Lisbon earthquake — Wikipedia (survivor accounts of panic and religious terror)",
+            "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Lisbon earthquake of 1755 — Britannica",
+            "url": "https://www.britannica.com/event/Lisbon-earthquake-of-1755",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -852,7 +1264,9 @@
       "quote": "It has been estimated that ninety thousand persons lost their lives on that fatal day.",
       "claim_text": "It has been estimated that ninety thousand people lost their lives on the day of the 1755 Lisbon earthquake.",
       "claim_type": "statistic",
-      "entities": ["Lisbon earthquake of 1755"],
+      "entities": [
+        "Lisbon earthquake of 1755"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "disputed",
@@ -860,8 +1274,18 @@
         "rationale": "The 90,000 figure is a high period estimate (Lyell/18th-century sources, GC footnote). Modern estimates diverge substantially: Lisbon deaths commonly put at 10,000-40,000, with regional totals (including Morocco) sometimes reaching into the tens of thousands more, and older maximal estimates up to ~100,000. 90,000 sits at the upper end of the cited range and is genuinely disputed rather than settled. source_quality: academic-full.",
         "modern_consensus": "Widely varying estimates; Lisbon toll most often 10,000-40,000, with total regional deaths uncertain; some historical figures reach ~100,000.",
         "sources": [
-          {"title": "1755 Lisbon earthquake — Wikipedia (death-toll estimates 10,000-100,000)", "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "The AD 1755 Lisbon Earthquake-Tsunami (Quaternary International)", "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "1755 Lisbon earthquake — Wikipedia (death-toll estimates 10,000-100,000)",
+            "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "The AD 1755 Lisbon Earthquake-Tsunami (Quaternary International)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1040618221005474",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       },
       "impact": {
@@ -871,6 +1295,22 @@
         "impact_score": 4,
         "narrative_arc": "millerite",
         "reasoning": "Ninety thousand sits at the high end of a wide, genuinely disputed modern range (10,000-40,000 most cited, older estimates to ~100,000); it is a period-typical maximal estimate rather than a demonstrably fabricated number, so severity is moderate. Centrality is low-moderate: it feeds the rhetorical case that this was 'the most terrible earthquake ever recorded,' reinforcing the chapter's overall dramatic register, but the sign-fulfillment argument (an earthquake, in 1755, as the prophesied token) does not depend on the exact toll. Counterfactual: replacing 90,000 with any modern range figure leaves the argument that 1755 fulfilled the 'great earthquake' sign completely intact; only the sense of scale is affected."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D15",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "well-supported",
+        "framing_gap": 3,
+        "failing_component_kind": "fact",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 3,
+        "centrality": 2,
+        "load_bearing": false,
+        "impact_score": 6,
+        "narrative_arc": "millerite",
+        "reasoning": "This is a fact failure on the operative assertion: Pereira's modern maximal reconstruction (Portugal, Spain, and Morocco combined, across the quake, tsunami, and days of fire) tops out near 40,000-50,000, roughly half the claimed ninety thousand attributed to a single day, and the adjudication's high-confidence 'improbable' verdict confirms this as a firm rejection rather than Phase-1's open dispute. With framing_gap=3 the weakened version (contemporary estimates ran as high as 90,000, though modern reckoning gives 30,000-50,000) is well-supported -- the sentence's own hedge ('it has been estimated') is literally true even though its paragraph-climax function reads as an assertive fact -- so the failure is an absoluteness-of-scale problem, not invention. The sign-identification argument needs only that a catastrophic earthquake occurred in 1755, not this particular death toll, so the claim is not load-bearing for the chapter's argument."
       }
     },
     {
@@ -886,7 +1326,12 @@
         "confidence": "high",
         "rationale": "Arithmetic and dating are correct: 1755 + 25 = 1780, the year of the New England Dark Day (19 May 1780). The prophetic-sign framing is interpretive, but the chronological claim is accurate. source_quality: academic-full (Dark Day cluster).",
         "sources": [
-          {"title": "New England's Dark Day — Wikipedia (19 May 1780)", "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "New England's Dark Day — Wikipedia (19 May 1780)",
+            "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -905,8 +1350,19 @@
         "rationale": "The historical anchor is factual: on 10-15 February 1798 the French general Louis-Alexandre Berthier occupied Rome, proclaimed a Roman Republic, and took Pope Pius VI prisoner (he died in French captivity in 1799), ending the pope's temporal sovereignty for a time. The '1260 years terminating in 1798' is the standard Protestant historicist reading (with 538 as the start point) that White shares—the interpretive scheme itself is theological, but the 1798 event and the near-unanimous Protestant expositor consensus on that terminal date are real. source_quality: encyclopedic-only for the interpretation; the 1798 event is textbook history. Note: the day-year scheme as prophecy fulfillment is not itself empirically verifiable.",
         "modern_consensus": "1798 papal captivity under Berthier is well documented; the 1260-year prophetic application is a Protestant historicist interpretation, not a historical finding.",
         "sources": [
-          {"title": "Pope Pius VI — Wikipedia (Berthier's 1798 capture of the pope)", "url": "https://en.wikipedia.org/wiki/Pope_Pius_VI", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "Napoleon and the pope—what really happened in 1798? (Ministry)", "url": "https://www.ministrymagazine.org/archive/1979/06/napoleon-and-the-popewhat-really-happened-in-1798", "source_class": "apologetic", "supports_verdict": true, "note": "Denominational; cited as a position on the historicist reading, not as arbiter."}
+          {
+            "title": "Pope Pius VI — Wikipedia (Berthier's 1798 capture of the pope)",
+            "url": "https://en.wikipedia.org/wiki/Pope_Pius_VI",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Napoleon and the pope—what really happened in 1798? (Ministry)",
+            "url": "https://www.ministrymagazine.org/archive/1979/06/napoleon-and-the-popewhat-really-happened-in-1798",
+            "source_class": "apologetic",
+            "supports_verdict": true,
+            "note": "Denominational; cited as a position on the historicist reading, not as arbiter."
+          }
         ]
       }
     },
@@ -923,7 +1379,12 @@
         "confidence": "low",
         "rationale": "Broadly consistent with the historical trajectory: by the early 1770s Enlightenment-era policy had sharply curtailed Catholic coercive machinery—Pope Clement XIV suppressed the Jesuits in 1773 (Dominus ac Redemptor), and the Inquisitions were in steep decline with executions rare. So the claim that overt religious persecution had 'almost wholly ceased' by ~1773 is defensible, though 'almost wholly' is an overstatement (the Spanish Inquisition persisted, if weakly, until 1834). Low confidence given the vague, argument-driven framing keyed to the 1798-25=1773 scheme. source_quality: encyclopedic-only.",
         "sources": [
-          {"title": "Pope Pius VI — Wikipedia (late-18th-c. decline of papal coercive power; 1773 Jesuit suppression context)", "url": "https://en.wikipedia.org/wiki/Pope_Pius_VI", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "Pope Pius VI — Wikipedia (late-18th-c. decline of papal coercive power; 1773 Jesuit suppression context)",
+            "url": "https://en.wikipedia.org/wiki/Pope_Pius_VI",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -933,15 +1394,27 @@
       "quote": "On the 19th of May, 1780, this prophecy was fulfilled.",
       "claim_text": "The darkening of the sun (the 'Dark Day') occurred on May 19, 1780.",
       "claim_type": "date",
-      "entities": ["Dark Day of 1780"],
+      "entities": [
+        "Dark Day of 1780"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "high",
         "rationale": "The New England Dark Day is firmly dated to 19 May 1780. The 'fulfilment of prophecy' framing is interpretive/theological; the date itself is textbook-accurate. source_quality: academic-full.",
         "sources": [
-          {"title": "New England's Dark Day — Wikipedia (19 May 1780)", "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "Fire scars reveal source of New England's 1780 Dark Day (US Forest Service / Int. J. Wildland Fire)", "url": "https://research.fs.usda.gov/treesearch/41025", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "New England's Dark Day — Wikipedia (19 May 1780)",
+            "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Fire scars reveal source of New England's 1780 Dark Day (US Forest Service / Int. J. Wildland Fire)",
+            "url": "https://research.fs.usda.gov/treesearch/41025",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -951,7 +1424,10 @@
       "quote": "“Almost if not altogether alone, as the most mysterious and as yet unexplained phenomenon of its kind, ... stands the dark day of May 19, 1780,—a most unaccountable darkening of the whole visible heavens and atmosphere in New England.”(484)",
       "claim_text": "A cited source describes the Dark Day of May 19, 1780, as an almost unparalleled and, at the time, scientifically unexplained darkening of the whole visible sky and atmosphere over New England.",
       "claim_type": "attributed_quote",
-      "entities": ["Dark Day of 1780", "New England"],
+      "entities": [
+        "Dark Day of 1780",
+        "New England"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -959,8 +1435,18 @@
         "rationale": "The quotation (GC footnote 484, from a 19th-century reference work) accurately conveys how the Dark Day was regarded before its cause was established: a striking, then-unexplained daytime darkening over New England. Modern science has since explained it (smoke from massive Canadian forest fires plus fog/cloud), so 'as yet unexplained' was true of the period source but is no longer the state of knowledge. The quotation is faithfully reproduced. source_quality: academic-full.",
         "modern_consensus": "Cause identified (2007-08 tree-ring/fire-scar study): smoke from extensive 1780 wildfires in Ontario/Canada combined with fog and low cloud.",
         "sources": [
-          {"title": "Fire scars reveal source of New England's 1780 Dark Day (US Forest Service / Int. J. Wildland Fire)", "url": "https://research.fs.usda.gov/treesearch/41025", "source_class": "academic", "supports_verdict": true},
-          {"title": "New England's Dark Day — Wikipedia (contemporaries found it unexplained; modern cause)", "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "Fire scars reveal source of New England's 1780 Dark Day (US Forest Service / Int. J. Wildland Fire)",
+            "url": "https://research.fs.usda.gov/treesearch/41025",
+            "source_class": "academic",
+            "supports_verdict": true
+          },
+          {
+            "title": "New England's Dark Day — Wikipedia (contemporaries found it unexplained; modern cause)",
+            "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -970,15 +1456,28 @@
       "quote": "In the morning the sun rose clear, but was soon overcast. The clouds became lowery, and from them, black and ominous, as they soon appeared, lightning flashed, thunder rolled, and a little rain fell. Toward nine o’clock, the clouds became thinner, and assumed a brassy or coppery appearance, and earth, rocks, trees, buildings, water, and persons were changed by this strange, unearthly light. A few minutes later, a heavy black cloud spread over the entire sky except a narrow rim at the horizon, and it was as dark as it usually is at nine o’clock on a summer evening....",
       "claim_text": "According to an eyewitness account from Massachusetts, on the morning of May 19, 1780, the sky progressed from clear to overcast with thunder and lightning, took on a brassy/coppery appearance around nine o'clock, and then a heavy black cloud spread over the entire sky, producing darkness comparable to nine o'clock on a summer evening.",
       "claim_type": "event",
-      "entities": ["Dark Day of 1780", "Massachusetts"],
+      "entities": [
+        "Dark Day of 1780",
+        "Massachusetts"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "Faithfully reproduces a documented eyewitness account (GC footnote 485). Contemporary observers across New England reported morning cloud, a brassy/coppery light, and a progressive darkening to near-night levels by mid-morning. Consistent with the modern explanation (smoke + fog) and with multiple period records. source_quality: academic-partial.",
         "sources": [
-          {"title": "New England's Dark Day — Wikipedia (eyewitness descriptions: brassy sky, darkness by late morning)", "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "Fire scars reveal source of New England's 1780 Dark Day (US Forest Service)", "url": "https://research.fs.usda.gov/treesearch/41025", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "New England's Dark Day — Wikipedia (eyewitness descriptions: brassy sky, darkness by late morning)",
+            "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Fire scars reveal source of New England's 1780 Dark Day (US Forest Service)",
+            "url": "https://research.fs.usda.gov/treesearch/41025",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -988,14 +1487,21 @@
       "quote": "Fear, anxiety, and awe gradually filled the minds of the people. Women stood at the door, looking out upon the dark landscape; men returned from their labor in the fields; the carpenter left his tools, the blacksmith his forge, the tradesman his counter. Schools were dismissed, and tremblingly the children fled homeward.",
       "claim_text": "According to the eyewitness account, the Dark Day of May 19, 1780, caused widespread fear that led workers to leave their trades and schools to dismiss children early.",
       "claim_type": "event",
-      "entities": ["Dark Day of 1780"],
+      "entities": [
+        "Dark Day of 1780"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "Consistent with well-attested contemporary reactions: the darkness caused widespread alarm, many believing the Day of Judgment had come; work stopped and normal activity was disrupted. A famous corroborating anecdote is the Connecticut legislature's reaction (Abraham Davenport). Faithful to period accounts (GC footnote). source_quality: academic-partial.",
         "sources": [
-          {"title": "New England's Dark Day — Wikipedia (public alarm, many thought Judgment Day had come)", "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "New England's Dark Day — Wikipedia (public alarm, many thought Judgment Day had come)",
+            "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1005,14 +1511,21 @@
       "quote": "Candles were used; and hearth-fires shone as brightly as on a moonless evening in autumn.... Fowls retired to their roosts and went to sleep, cattle gathered at the pasture-bars and lowed, frogs peeped, birds sang their evening songs, and bats flew about.",
       "claim_text": "During the Dark Day of May 19, 1780, people reportedly needed candles and could see hearth-fires as on a moonless evening, while farm animals and wildlife (fowls, cattle, frogs, birds, bats) exhibited nighttime behavior.",
       "claim_type": "event",
-      "entities": ["Dark Day of 1780"],
+      "entities": [
+        "Dark Day of 1780"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "Multiple contemporary accounts state candles were required from midday, animals returned to roosts/pastures and nocturnal creatures became active—standard details of the Dark Day record. Faithful to period sources. source_quality: academic-partial.",
         "sources": [
-          {"title": "New England's Dark Day — Wikipedia (candles needed by day; animal behaviour as at night)", "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "New England's Dark Day — Wikipedia (candles needed by day; animal behaviour as at night)",
+            "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1022,15 +1535,29 @@
       "quote": "Dr. Nathanael Whittaker, pastor of the Tabernacle church in Salem, held religious services in the meeting-house, and preached a sermon in which he maintained that the darkness was supernatural.",
       "claim_text": "Dr. Nathanael Whittaker, pastor of the Tabernacle church in Salem, held religious services during the Dark Day of May 19, 1780, and preached that the darkness was supernatural.",
       "claim_type": "biographical",
-      "entities": ["Nathanael Whittaker", "Salem", "Dark Day of 1780"],
+      "entities": [
+        "Nathanael Whittaker",
+        "Salem",
+        "Dark Day of 1780"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "The Rev. Dr. Nathaniel Whitaker (GC spells it 'Whittaker') was pastor of the Tabernacle (Third) Church in Salem, Massachusetts, at this period (there in 1780; the meeting-house was later reincorporated as 'where the Reverend Doctor Nathaniel Whitaker now preaches'). An outspoken minister, his preaching that the darkness was supernatural is reported in the period Dark Day literature GC drew on (footnote 485). Identity and pastorate confirmed; the specific sermon detail traces to period accounts. source_quality: academic-partial.",
         "sources": [
-          {"title": "Whitaker, Nathaniel — Dartmouth (Occom) personography (Presbyterian minister, five congregations 1755-1795, incl. Salem)", "url": "https://collections.dartmouth.edu/archive/text/occom/ctx/personography/pers0037.ocp.html", "source_class": "primary", "supports_verdict": true},
-          {"title": "Congregational Library — Tabernacle Church, Salem records ('where the Rev. Dr. Nathaniel Whitaker now preaches')", "url": "https://congregationallibrary.quartexcollections.com/manuscript-collections/browse-the-tabernacle-church-records-in-salem-massachusetts", "source_class": "primary", "supports_verdict": true}
+          {
+            "title": "Whitaker, Nathaniel — Dartmouth (Occom) personography (Presbyterian minister, five congregations 1755-1795, incl. Salem)",
+            "url": "https://collections.dartmouth.edu/archive/text/occom/ctx/personography/pers0037.ocp.html",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "Congregational Library — Tabernacle Church, Salem records ('where the Rev. Dr. Nathaniel Whitaker now preaches')",
+            "url": "https://congregationallibrary.quartexcollections.com/manuscript-collections/browse-the-tabernacle-church-records-in-salem-massachusetts",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1040,14 +1567,21 @@
       "quote": "The darkness was most dense shortly after eleven o’clock.”(485)",
       "claim_text": "The darkness of the Dark Day of May 19, 1780, was most dense shortly after eleven o'clock in the morning.",
       "claim_type": "statistic",
-      "entities": ["Dark Day of 1780"],
+      "entities": [
+        "Dark Day of 1780"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "low",
         "rationale": "Contemporary observations placed the deepest darkness in the late morning to early afternoon (accounts vary by location, generally between ~10:30 and mid-afternoon). 'Shortly after eleven' falls within the reported range and is faithfully quoted from GC's period source (footnote 485), though the precise peak time differed by locality. source_quality: academic-partial.",
         "sources": [
-          {"title": "New England's Dark Day — Wikipedia (darkness deepest late morning through afternoon)", "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "New England's Dark Day — Wikipedia (darkness deepest late morning through afternoon)",
+            "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1057,15 +1591,30 @@
       "quote": "The extent of this darkness was extraordinary. It was observed as far east as Falmouth. To the westward it reached to the farthest part of Connecticut, and to Albany. To the southward, it was observed along the seacoasts; and to the north as far as the American settlements extend.”(486)",
       "claim_text": "The darkness of the Dark Day of May 19, 1780, was observed as far east as Falmouth, as far west as the farthest part of Connecticut and to Albany, along the seacoasts to the south, and northward as far as American settlements extended.",
       "claim_type": "geographical",
-      "entities": ["Dark Day of 1780", "Falmouth", "Connecticut", "Albany"],
+      "entities": [
+        "Dark Day of 1780",
+        "Falmouth",
+        "Connecticut",
+        "Albany"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "The Dark Day's darkness covered all of New England and extended into eastern New York (Albany) and parts of eastern Canada; it was observed from Maine (Falmouth, now Portland area) westward to the New York border region. GC's stated extent matches the documented geographic footprint. source_quality: academic-full.",
         "sources": [
-          {"title": "New England's Dark Day — Wikipedia (observed across New England, into eastern New York and Canada)", "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "Fire scars reveal source of New England's 1780 Dark Day (US Forest Service)", "url": "https://research.fs.usda.gov/treesearch/41025", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "New England's Dark Day — Wikipedia (observed across New England, into eastern New York and Canada)",
+            "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Fire scars reveal source of New England's 1780 Dark Day (US Forest Service)",
+            "url": "https://research.fs.usda.gov/treesearch/41025",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1075,14 +1624,21 @@
       "quote": "The intense darkness of the day was succeeded, an hour or two before evening, by a partially clear sky, and the sun appeared, though it was still obscured by the black, heavy mist.",
       "claim_text": "On May 19, 1780, an hour or two before evening, the sky partially cleared and the sun became visible, though still obscured by a black, heavy mist.",
       "claim_type": "event",
-      "entities": ["Dark Day of 1780"],
+      "entities": [
+        "Dark Day of 1780"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "Contemporary accounts report a partial clearing in the late afternoon before darkness returned in the evening; the sun, when glimpsed, appeared reddish/obscured through the smoke haze. Consistent with the smoke-and-fog explanation and period records. source_quality: academic-partial.",
         "sources": [
-          {"title": "New England's Dark Day — Wikipedia (partial afternoon clearing; sun reddened by smoke)", "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "New England's Dark Day — Wikipedia (partial afternoon clearing; sun reddened by smoke)",
+            "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1092,14 +1648,21 @@
       "quote": "Though at nine o’clock that night the moon rose to the full, “it had not the least effect to dispel the deathlike shadows.” After midnight the darkness disappeared, and the moon, when first visible, had the appearance of blood.",
       "claim_text": "On the night of May 19, 1780, the full moon rose at nine o'clock but did not dispel the darkness; after midnight the darkness disappeared and the moon, when first visible, appeared blood-colored.",
       "claim_type": "event",
-      "entities": ["Dark Day of 1780"],
+      "entities": [
+        "Dark Day of 1780"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "The night of 19 May 1780 followed a full moon (the moon was full around this date), yet the smoke pall made the night extraordinarily dark, a detail widely recorded; and observers reported the moon and sun appearing reddish/blood-coloured through the smoke. Both the unusual nighttime darkness despite a full moon and the reddened moon are documented. source_quality: academic-partial.",
         "sources": [
-          {"title": "New England's Dark Day — Wikipedia (full moon that night; intense darkness; reddened moon through smoke)", "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day", "source_class": "encyclopedia", "supports_verdict": true}
+          {
+            "title": "New England's Dark Day — Wikipedia (full moon that night; intense darkness; reddened moon through smoke)",
+            "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1109,7 +1672,9 @@
       "quote": "May 19, 1780, stands in history as “The Dark Day.”",
       "claim_text": "May 19, 1780, is known in history as 'The Dark Day.'",
       "claim_type": "date",
-      "entities": ["Dark Day of 1780"],
+      "entities": [
+        "Dark Day of 1780"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1124,15 +1689,27 @@
       "quote": "Since the time of Moses, no period of darkness of equal density, extent, and duration, has ever been recorded.",
       "claim_text": "No period of darkness of equal density, extent, and duration to the Dark Day of May 19, 1780, has been recorded since the time of Moses.",
       "claim_type": "statistic",
-      "entities": ["Dark Day of 1780"],
+      "entities": [
+        "Dark Day of 1780"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "low",
         "rationale": "A rhetorical superlative (echoing the plague of darkness in Exodus 10) drawn from GC's period source. The Dark Day was indeed a genuinely remarkable, widely recorded atmospheric darkening, and no comparable well-documented daytime darkening of that density/extent/duration is commonly cited from the intervening historical record, so the claim is not contradicted; but as a sweeping since-Moses comparison it is essentially unfalsifiable and rests on period assertion. Low confidence. source_quality: academic-partial.",
         "sources": [
-          {"title": "New England's Dark Day — Wikipedia (regarded as an exceptional, well-documented event)", "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "Fire scars reveal source of New England's 1780 Dark Day (US Forest Service)", "url": "https://research.fs.usda.gov/treesearch/41025", "source_class": "academic", "supports_verdict": true}
+          {
+            "title": "New England's Dark Day — Wikipedia (regarded as an exceptional, well-documented event)",
+            "url": "https://en.wikipedia.org/wiki/New_England%27s_Dark_Day",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Fire scars reveal source of New England's 1780 Dark Day (US Forest Service)",
+            "url": "https://research.fs.usda.gov/treesearch/41025",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1142,7 +1719,9 @@
       "quote": "The description of this event, as given by eye-witnesses, is but an echo of the words of the Lord, recorded by the prophet Joel, twenty-five hundred years previous to their fulfilment: “The sun shall be turned into darkness, and the moon into blood, before the great and the terrible day of the Lord come.”(489)",
       "claim_text": "The book of Joel is quoted as prophesying that 'the sun shall be turned into darkness, and the moon into blood, before the great and terrible day of the Lord come,' presented here as fulfilled by the Dark Day of 1780.",
       "claim_type": "theological",
-      "entities": ["Joel"],
+      "entities": [
+        "Joel"
+      ],
       "needs_verification": false,
       "extractor_note": "Prophetic-fulfillment framing is theological; the separate dating claim ('twenty-five hundred years previous') is logged as GC-17-066.",
       "verification": {
@@ -1158,7 +1737,9 @@
       "quote": "recorded by the prophet Joel, twenty-five hundred years previous to their fulfilment",
       "claim_text": "The book of Joel was written approximately twenty-five hundred years before 1780 (i.e., roughly the 8th century BC).",
       "claim_type": "date",
-      "entities": ["Joel"],
+      "entities": [
+        "Joel"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "disputed",
@@ -1167,8 +1748,18 @@
         "modern_consensus": "Majority favour a post-exilic (Persian-period) date; a pre-exilic date is a minority position. Estimates range from the 9th c. BC to the Maccabean era.",
         "period_historiography": "19th-century biblical scholarship commonly dated Joel to the pre-exilic period (9th-8th c. BC), consistent with the ~2500-years-before-1780 figure.",
         "sources": [
-          {"title": "The Date of the Book of Joel — Damien Freeman (survey of the dating debate)", "url": "https://damienfreeman.com/wp-content/uploads/2014/11/PDF37-The-Date-of-the-Book-of-Joel.pdf", "source_class": "academic", "supports_verdict": true},
-          {"title": "Joel, Book of — Jewish Encyclopedia (dating discussion)", "url": "https://jewishencyclopedia.com/articles/8703-joel-book-of", "source_class": "scholarly_encyclopedia", "supports_verdict": true}
+          {
+            "title": "The Date of the Book of Joel — Damien Freeman (survey of the dating debate)",
+            "url": "https://damienfreeman.com/wp-content/uploads/2014/11/PDF37-The-Date-of-the-Book-of-Joel.pdf",
+            "source_class": "academic",
+            "supports_verdict": true
+          },
+          {
+            "title": "Joel, Book of — Jewish Encyclopedia (dating discussion)",
+            "url": "https://jewishencyclopedia.com/articles/8703-joel-book-of",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
         ]
       },
       "impact": {
@@ -1186,7 +1777,9 @@
       "quote": "He pointed His followers to the budding trees of spring, and said: “When they now shoot forth, ye see and know of your own selves that summer is now nigh at hand. So likewise ye, when ye see these things come to pass, know ye that the kingdom of God is nigh at hand.”(490)",
       "claim_text": "Jesus is quoted as comparing the signs of his coming to budding trees in spring that indicate summer is near, saying 'when ye see these things come to pass, know ye that the kingdom of God is nigh at hand.'",
       "claim_type": "attributed_quote",
-      "entities": ["Jesus Christ"],
+      "entities": [
+        "Jesus Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1201,7 +1794,9 @@
       "quote": "Especially was this the case in the churches of America. The freedom and comfort enjoyed by all classes of society, the ambitious desire for wealth and luxury, begetting an absorbing devotion to money-making, the eager rush for popularity and power, which seemed to be within the reach of all, led men to center their interests and hopes on the things of this life, and to put far in the future that solemn day when the present order of things should pass away.",
       "claim_text": "In early nineteenth-century America, social freedom and prosperity fostered a devotion to wealth, luxury, and the pursuit of popularity and power that caused people to neglect the doctrine of Christ's second coming.",
       "claim_type": "interpretive",
-      "entities": ["America"],
+      "entities": [
+        "America"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1231,7 +1826,9 @@
       "quote": "The condition of the church at this time is pointed out in the Saviour’s words in the Revelation, “Thou hast a name that thou livest, and art dead.”(492)",
       "claim_text": "The book of Revelation is quoted as recording Christ addressing a church with the words 'Thou hast a name that thou livest, and art dead.'",
       "claim_type": "attributed_quote",
-      "entities": ["Jesus Christ"],
+      "entities": [
+        "Jesus Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1261,7 +1858,9 @@
       "quote": "The prophet Jeremiah, looking forward to this fearful time, exclaimed: “I am pained at my very heart.” “I cannot hold my peace, because thou hast heard, O my soul, the sound of the trumpet, the alarm of war. Destruction upon destruction is cried.”(500)",
       "claim_text": "The prophet Jeremiah is quoted as exclaiming 'I am pained at my very heart' and describing hearing 'the sound of the trumpet, the alarm of war.'",
       "claim_type": "attributed_quote",
-      "entities": ["Jeremiah"],
+      "entities": [
+        "Jeremiah"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1336,7 +1935,9 @@
       "quote": "The prophet beheld an angel flying “in the midst of heaven, having the everlasting gospel to preach unto them that dwell on the earth, and to every nation, and kindred, and tongue, and people, saying with a loud voice, Fear God, and give glory to Him; for the hour of His judgment is come: and worship Him that made heaven, and earth, and the sea, and the fountains of waters.”(504)",
       "claim_text": "The book of Revelation describes an angel flying in the midst of heaven proclaiming 'the everlasting gospel' to every nation and announcing 'the hour of His judgment is come.'",
       "claim_type": "attributed_quote",
-      "entities": ["John of Patmos"],
+      "entities": [
+        "John of Patmos"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1396,7 +1997,10 @@
       "quote": "The prophecy of Micah designated His birthplace;(510) Daniel specified the time of His advent.(511)",
       "claim_text": "The book of Micah is presented as designating Bethlehem as the Messiah's birthplace, and the book of Daniel is presented as specifying the time of the Messiah's advent.",
       "claim_type": "attributed_quote",
-      "entities": ["Micah", "Daniel"],
+      "entities": [
+        "Micah",
+        "Daniel"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1426,7 +2030,11 @@
       "quote": "But lo, at Bethlehem two weary travelers from the hills of Nazareth traverse the whole length of the narrow street to the eastern extremity of the town, vainly seeking a place of rest and shelter for the night. No doors are open to receive them. In a wretched hovel prepared for cattle, they at last find refuge, and there the Saviour of the world is born.",
       "claim_text": "According to the Gospel narrative, Joseph and Mary traveled from Nazareth to Bethlehem and, finding no lodging available, took refuge in a shelter prepared for cattle, where Jesus was born.",
       "claim_type": "event",
-      "entities": ["Bethlehem", "Nazareth", "Jesus Christ"],
+      "entities": [
+        "Bethlehem",
+        "Nazareth",
+        "Jesus Christ"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
@@ -1471,7 +2079,9 @@
       "quote": "In amazement the celestial messenger is about to return to heaven with the shameful tidings, when he discovers a group of shepherds who are watching their flocks by night... And suddenly the angel of the Lord appears, declaring the good tidings of great joy. Celestial glory floods all the plain, an innumerable company of angels is revealed, and as if the joy were too great for one messenger to bring from heaven, a multitude of voices break forth in the anthem which all the nations of the saved shall one day sing, “Glory to God in the highest, and on earth peace, good will toward men.”(512)",
       "claim_text": "According to the Gospel narrative, an angel appeared to shepherds watching their flocks by night near Bethlehem, followed by a multitude of angels proclaiming 'Glory to God in the highest, and on earth peace, good will toward men.'",
       "claim_type": "theological",
-      "entities": ["Bethlehem"],
+      "entities": [
+        "Bethlehem"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1501,15 +2111,27 @@
       "quote": "In the land of the heathen also were those that looked for Him; they were wise men, rich and noble, the philosophers of the East.",
       "claim_text": "According to the Gospel narrative, wise men from the East, described as rich and noble philosophers, looked for the coming Messiah.",
       "claim_type": "biographical",
-      "entities": ["Magi"],
+      "entities": [
+        "Magi"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",
         "confidence": "medium",
         "rationale": "Matthew 2 describes magi 'from the East' who sought the newborn king. Scholars identify the magoi as an elite class of astrologers/scholars (Persian or Babylonian), so 'wise men, philosophers of the East' matches the mainstream reading. 'Rich and noble' is the traditional inference from their costly gifts (gold, frankincense, myrrh) rather than an explicit gospel statement. The characterization is consistent with both the text and scholarship; medium confidence because 'rich and noble' is interpretive embellishment.",
         "sources": [
-          {"title": "Biblical Magi — Wikipedia (magoi as eastern astrologers/scholars, Persian or Babylonian)", "url": "https://en.wikipedia.org/wiki/Biblical_Magi", "source_class": "encyclopedia", "supports_verdict": true},
-          {"title": "Who were the Magi? — National Geographic (elite scholars trained in astronomy, from an eastern land)", "url": "https://www.nationalgeographic.com/history/article/who-were-the-magi-three-kings-wise-men-star-of-bethlehem-jesus-christmas-story-gospel-of-matthew", "source_class": "other", "supports_verdict": true}
+          {
+            "title": "Biblical Magi — Wikipedia (magoi as eastern astrologers/scholars, Persian or Babylonian)",
+            "url": "https://en.wikipedia.org/wiki/Biblical_Magi",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Who were the Magi? — National Geographic (elite scholars trained in astronomy, from an eastern land)",
+            "url": "https://www.nationalgeographic.com/history/article/who-were-the-magi-three-kings-wise-men-star-of-bethlehem-jesus-christmas-story-gospel-of-matthew",
+            "source_class": "other",
+            "supports_verdict": true
+          }
         ]
       }
     },
@@ -1519,7 +2141,10 @@
       "quote": "While the priests and rabbis of Jerusalem, the appointed guardians and expounders of the truth, were shrouded in darkness, the Heaven-sent star guided these Gentile strangers to the birthplace of the new-born King.",
       "claim_text": "A divinely sent star is described as guiding the Gentile magi to the birthplace of Jesus in Bethlehem, according to the Gospel narrative.",
       "claim_type": "theological",
-      "entities": ["Magi", "Bethlehem"],
+      "entities": [
+        "Magi",
+        "Bethlehem"
+      ],
       "needs_verification": false,
       "verification": {
         "verdict": "unverifiable",
@@ -1534,7 +2159,9 @@
       "quote": "They had failed to preserve their connection with God, and had refused light from heaven; therefore they were not of the number described by the apostle Paul: “But ye, brethren, are not in darkness, that that day should overtake you as a thief. Ye are all the children of light, and the children of the day: we are not of the night, nor of darkness.”(515)",
       "claim_text": "The apostle Paul is quoted as writing to believers, 'Ye are not in darkness, that that day should overtake you as a thief. Ye are all the children of light, and the children of the day.'",
       "claim_type": "attributed_quote",
-      "entities": ["Paul the Apostle"],
+      "entities": [
+        "Paul the Apostle"
+      ],
       "needs_verification": true,
       "verification": {
         "verdict": "supported",

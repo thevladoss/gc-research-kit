@@ -1,0 +1,19 @@
+{"chapter": 36, "stage": "impact",
+ "notes": "Phase 2a adjudication reopens GC-36-044 (previously a high-stakes 'disputed' pass-through) and rules the as-written claim improbable: the genealogy label 'papal error' misattributes a pre-papal, patristic/Hellenistic doctrine to Rome (fact-kind failure), tied with a frame-kind failure in the historical exclusivity of 'the only defense'. The weakened causal-receptivity version (belief in conscious souls left Protestants exposed to Spiritualism's claims) is rated probable, a framing_gap of 2, so this behaves like Phase-1's anachronistic class: substance survives, the printed absolute does not. This confirms rather than overturns Phase-1's non-load-bearing verdict; the chapter's threefold-union argument does not depend on the mislabeled Roman origin or the overstated 'only'.",
+ "items": {"GC-36-044": {
+   "category": "discrepancy",
+   "dossier": "D08",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "probable",
+   "framing_gap": 2,
+   "failing_component_kind": "fact",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 3,
+   "centrality": 4,
+   "load_bearing": false,
+   "impact_score": 12,
+   "narrative_arc": "doctrinal",
+   "reasoning": "The adjudication rules the as-written claim improbable on a fact-kind failure: the 'papal error' genealogy label mislabels a doctrine with pre-papal, patristic/Hellenistic origins (Origen, Athenagoras, Tertullian; Eastern churches with no papal mediation) as a specifically Roman origination, compounded by a tied frame-kind failure in the historical exclusivity of 'the only defense' (Oppenheim and Byrne document non-conditionalist churches resisting Spiritualism via necromancy prohibitions and demonological framing). Framing_gap of 2 shows the substance survives at the weakened, probable level -- Braude's scholarship supports that belief in conscious post-mortem souls made Protestants receptive to Spiritualism's core claim -- so the as-written failure is a rhetorical-absoluteness problem (mislabeled origin plus a false 'only') layered on a defensible causal mechanism, not a fabrication. Centrality remains high (4) because this doctrine is one of the chapter's two named 'great errors' constructing the threefold-union mechanism (Spiritualism-Rome-apostate Protestantism) central to the book's Sabbath-vs-Sunday/final-crisis thesis chain, but it is not load-bearing: delete 'papal' and the 'only', and the receptivity argument survives intact at the probable level, so the chapter's forward-looking argument does not depend on the as-written overreach."
+ }}
+}

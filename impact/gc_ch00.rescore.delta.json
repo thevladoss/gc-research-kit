@@ -1,0 +1,55 @@
+{
+ "chapter": 0,
+ "stage": "impact",
+ "notes": "Phase 2a adjudication converts the three Phase-1 'disputed' biblical-chronology claims in this chapter's D13 dossier into confirmed fact-level discrepancies, ranging from 'improbable' (GC-00-007, GC-00-008) to fully 'discredited' (GC-00-005, the dossier's largest framing gap at 4). All three remain frame-setting premises for the Introduction's doctrine-of-Scripture paragraph and never touch the Reformation-Millerite-sanctuary-Sabbath thesis chain, so centrality and load-bearing status are unchanged from Phase 1 (centrality 2, not load-bearing); only severity moves, tracking the strength of the as-written ruling. GC-00-008 is explicitly chain-inherited from GC-00-007's Mosaic-authorship anchor rather than a fresh independent error, while GC-00-005 rests on its own distinct anchor (the antiquity of human history itself) and is the most severely refuted item of the three.",
+ "items": {
+  "GC-00-005": {
+   "category": "discrepancy",
+   "dossier": "D13",
+   "ruling_as_written": "discredited",
+   "ruling_weakened": "well-supported",
+   "framing_gap": 4,
+   "failing_component_kind": "fact",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 4,
+   "centrality": 2,
+   "load_bearing": false,
+   "impact_score": 8,
+   "narrative_arc": "frame",
+   "reasoning": "Fact failure: the as-written claim asserts human history itself began c. 4000 BC, a young-earth/Ussher-type chronology decisively refuted by convergent archaeological and radiometric evidence (Neolithic Jericho c. 9000 BC, Çatalhöyük c. 7400-6200 BC, Homo sapiens c. 300,000 years old) -- the strongest ruling level in the dossier ('discredited') and its largest framing gap (4). At the weakened level ('no biblical book existed before the pre-Mosaic era, transmission was oral') the claim is well-supported, so the paragraph's actual rhetorical point survives fully; per the adjudication rule this does not automatically lower severity, since readers encounter only the printed absolute. The claim is frame-setting scaffolding for the Introduction's doctrine-of-Scripture paragraph, wholly outside the Reformation-Millerite-sanctuary thesis chain, so centrality stays low and the chapter's argument does not depend on it (not load-bearing); this is an independent failure point (its own anchor, the antiquity of human history), not inherited from another claim."
+  },
+  "GC-00-007": {
+   "category": "discrepancy",
+   "dossier": "D13",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "genuinely-open",
+   "framing_gap": 1,
+   "failing_component_kind": "fact",
+   "chain_inherited": false,
+   "independent_failure_point": null,
+   "severity": 3,
+   "centrality": 2,
+   "load_bearing": false,
+   "impact_score": 6,
+   "narrative_arc": "frame",
+   "reasoning": "Fact failure: scholarly preponderance places Old Hebrew script and the literary infrastructure needed for pentateuchal composition no earlier than the 9th century BC, with the completed Torah dated into the Persian period -- the claim that biblical writing 'began in the time of Moses' (c. 15th-13th c. BC) is ruled improbable, and even its weakened form ('some pentateuchal material may descend from late-2nd-millennium tradition, though the books as written compositions date later') only reaches genuinely-open, the smallest framing gap in the dossier (1). This is decorative scaffolding for the Introduction's doctrine-of-Scripture paragraph, not a premise the Reformation-Millerite-sanctuary thesis chain relies on, so centrality is low and the chapter's argument survives its removal (not load-bearing). This claim is itself the independent failure point -- the shared pentateuchal-dating anchor -- that GC-00-008 inherits from; it is not itself chain-inherited."
+  },
+  "GC-00-008": {
+   "category": "discrepancy",
+   "dossier": "D13",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "well-supported",
+   "framing_gap": 3,
+   "failing_component_kind": "fact",
+   "chain_inherited": true,
+   "independent_failure_point": "GC-00-007",
+   "severity": 2,
+   "centrality": 2,
+   "load_bearing": false,
+   "impact_score": 4,
+   "narrative_arc": "frame",
+   "reasoning": "Chain-inherited fact failure: the '1,600-year' Moses-to-John span is pure arithmetic on two anchors, and its Mosaic starting point fails for the same reason already ruled at GC-00-007 (its independent_failure_point), not as a fresh error of its own; the Johannine endpoint (c. 90-110 AD) is independently well-supported on all sides. As written the span is improbable, but at the weakened level ('composed over an immense span, roughly a millennium or more, concluding near 100 AD') it is well-supported (framing_gap 3), so the paragraph's rhetorical point -- one book written across many centuries by many hands -- survives essentially intact even though the specific figure does not. Centrality stays low: this is frame-setting decoration outside the Reformation-Millerite-sanctuary thesis chain, and the chapter's argument does not depend on the precise span (not load-bearing)."
+  }
+ }
+}

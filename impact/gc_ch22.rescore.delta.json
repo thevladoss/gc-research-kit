@@ -1,0 +1,23 @@
+{
+ "chapter": 22,
+ "stage": "impact",
+ "notes": "The Phase-2a adjudication does not add a new independent error to chapter 22: GC-22-039 is a verbatim re-assertion of the 457 BC anchor already adjudicated at GC-18-060, so its 'improbable' as-written ruling is chain-inherited rather than freshly generated in this chapter. The large framing_gap (3) shows the movement-history substance is well-supported at the weakened level — Millerites really did redate on exactly this autumn-457 argument — and only White's confident 'the discovery that' endorsement of the date as objectively established fails. Centrality stays maximal because this is still the specific arithmetic hinge producing October 22, 1844, on which chapter 23's sanctuary/investigative-judgment reinterpretation depends; severity is moderated because the failing element is an overconfident factual endorsement of an already-scored retrofit, not a fabrication invented in chapter 22 itself.",
+ "items": {
+  "GC-22-039": {
+   "category": "discrepancy",
+   "dossier": "D01",
+   "ruling_as_written": "improbable",
+   "ruling_weakened": "well-supported",
+   "framing_gap": 3,
+   "failing_component_kind": "fact",
+   "chain_inherited": true,
+   "independent_failure_point": "GC-18-060",
+   "severity": 3,
+   "centrality": 5,
+   "load_bearing": true,
+   "impact_score": 15,
+   "narrative_arc": "millerite",
+   "reasoning": "The failing component is fact-class: White's narration frames the autumn-457-BC effective date as 'the discovery that' — an established finding — but the as-written ruling finds this factive assertion improbable, since the autumn specification has no documentary basis and is retro-fitted from the required 1844 terminus. At the weakened level ('the movement arose from the argument that the decree took effect late in 457 BC, moving the terminus to autumn 1844') the claim is well-supported (framing_gap 3): the movement-history substance survives fully, and what fails as-written is the rhetorical certainty of calling a contested redating a 'discovery' rather than an argument. GC-22-039 is chain-inherited, not a fresh independent error — it repeats the same 457 BC anchor already adjudicated at GC-18-060, so this chapter's failure traces to that earlier claim rather than originating here. Centrality remains maximal (this date is the specific arithmetic step producing October 22, 1844, the terminus chapter 23's sanctuary doctrine requires) and load_bearing stays true for the chapter's own argument, even though the error's independent origin lies outside chapter 22."
+  }
+ }
+}

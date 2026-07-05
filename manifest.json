@@ -3224,6 +3224,93 @@
         "searches": "searches: ~7 (6 shared, 1 straggler)",
         "updated_at": "2026-07-05T20:00:58Z"
       }
+    },
+    "impact_rescore": {
+      "status": "done",
+      "method": "impact-assessor subagent per chapter (24 chapters, fresh contexts); delta impact/gc_chNN.rescore.delta.json merged into impact/gc_chNN.impact.json under NEW key impact_adjudicated via scripts/merge_stage.py (Phase-1 impact objects untouched); scripts/validate.py PASS on all 24 merged files",
+      "claims_rescored": 81,
+      "conditional_premise": [
+        "GC-18-058"
+      ],
+      "by_failing_component_kind": {
+        "fact": 75,
+        "frame": 4,
+        "motive": 2
+      },
+      "chain_inherited": 13,
+      "independent_failure_points": 68,
+      "chain_map": {
+        "GC-18-060": [
+          "GC-18-063",
+          "GC-18-065",
+          "GC-18-069",
+          "GC-18-073",
+          "GC-18-081",
+          "GC-22-039",
+          "GC-23-008",
+          "GC-23-009",
+          "GC-23-010",
+          "GC-23-012"
+        ],
+        "GC-26-014": [
+          "GC-26-025"
+        ],
+        "GC-00-007": [
+          "GC-00-008",
+          "GC-01-097"
+        ]
+      },
+      "load_bearing": 18,
+      "impact_score_sum": 835,
+      "top_impact": [
+        {
+          "id": "GC-15-142",
+          "score": 25
+        },
+        {
+          "id": "GC-35-057",
+          "score": 20
+        },
+        {
+          "id": "GC-26-069",
+          "score": 20
+        },
+        {
+          "id": "GC-18-078",
+          "score": 20
+        },
+        {
+          "id": "GC-03-032",
+          "score": 20
+        }
+      ],
+      "chapters": [
+        "00",
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "10",
+        "14",
+        "15",
+        "17",
+        "18",
+        "20",
+        "21",
+        "22",
+        "23",
+        "25",
+        "26",
+        "32",
+        "33",
+        "35",
+        "36",
+        "37"
+      ],
+      "updated_at": "2026-07-05T20:56:12Z"
     }
   }
 }

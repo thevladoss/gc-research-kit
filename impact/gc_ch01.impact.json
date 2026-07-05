@@ -1613,6 +1613,22 @@
         "impact_score": 9,
         "narrative_arc": "frame",
         "reasoning": "'Not one Christian perished' is an absolute historical claim resting entirely on a single strand of patristic tradition (Eusebius, Epiphanius) whose historicity has been actively disputed in scholarship since Brandon (1951); presenting it as flatly established fact overstates a genuinely contested tradition rather than the more modest 'some Christians reportedly withdrew to Pella' that the sources actually support. This claim is load-bearing for a specific sub-argument the chapter needs: paragraphs 48-50 explicitly generalize the Jerusalem episode into the book's end-time promise that those who watch for prophetic signs will be delivered while the careless perish ('as He warned His disciples of Jerusalem's destruction... so He has warned the world of the day of final destruction'). Counterfactual: without a total, zero-casualty deliverance of the obedient minority, the chapter loses its only historical anchor for the 'watch-the-sign-and-escape-unharmed' pattern that the book reuses as a template for the final generation — the broader chapter argument about judgment on apostate Jerusalem survives, but this specific and often-quoted sub-argument does not."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D05",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "genuinely-open",
+        "framing_gap": 1,
+        "failing_component_kind": "fact",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 4,
+        "centrality": 4,
+        "load_bearing": true,
+        "impact_score": 16,
+        "narrative_arc": "frame",
+        "reasoning": "Fact failure: the adjudication ruled the population-level 'not one Christian perished' absolute improbable — no ancient source offers a casualty census, Josephus never even categorizes Christians in his war narrative, and the modern kernel-defenders (Koester, van Houwelingen, Bourgel) support only a community departure, never a zero-death claim; the underlying community-withdrawal component is itself independently only genuinely-open (contested since Brandon 1951), and framing_gap=1 shows the weakened version does not clear even that bar, so this is not a case of solid substance sitting under merely absolutist rhetoric. Per the adjudication's own note, the claim is load-bearing specifically for paragraph 48's deliverance typology ('as in the time of Jerusalem's destruction, God's people will be delivered'), the chapter's template for the book's recurring end-time preservation-of-the-remnant motif; deleting the claim leaves the chapter's central judgment argument intact but strips its only historical anchor for that escape-the-doomed-city pattern. Severity 4 reflects a fact failure resting on a 17th-19th-century argument-from-silence hardened into a positive universal (Newton to Clarke) rather than a fresh invention — capped short of discredited only because no named counterexample (a documented Christian death in the siege) exists either."
       }
     },
     {
@@ -2161,6 +2177,22 @@
         "impact_score": 2,
         "narrative_arc": "frame",
         "reasoning": "The claim that Deuteronomy 28's siege-cannibalism warning was uttered 'fourteen centuries before' AD 70 assumes Mosaic authorship/dating (~1400 BC); mainstream critical scholarship favors a 7th-century BC Josianic composition, which would roughly halve the interval. The defender rightly downgraded this to disputed: Deuteronomy's date and authorship remain a genuinely contested question in biblical scholarship, and the verifier's own chapter treats parallel traditional attributions (Davidic Psalms) as unproblematic, so singling out this one as a hard error was inconsistent. Severity is low precisely because this is a live scholarly debate, not a settled modern correction, and it is a chronological aside embedded in an already-verified cannibalism-fulfillment passage. Counterfactual: whether the interval is fourteen or seven centuries, the chapter's point — an ancient prophetic warning literally fulfilled during the siege — stands unchanged; the exact number of intervening centuries carries no argumentative weight."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D13",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "well-supported",
+        "framing_gap": 3,
+        "failing_component_kind": "fact",
+        "chain_inherited": true,
+        "independent_failure_point": "GC-00-007",
+        "severity": 2,
+        "centrality": 2,
+        "load_bearing": false,
+        "impact_score": 4,
+        "narrative_arc": "frame",
+        "reasoning": "Fact failure, but chain-inherited: the 'fourteen centuries' dating rests on the same Mosaic-authorship/early-Deuteronomy assumption whose independent failure point is GC-00-007 in the Introduction, so this is not a fresh chapter-1 error but a restatement of that anchor applied to a single verse citation. Framing_gap=3 shows the underlying substance is well-supported once the specific number is dropped ('recorded many centuries — at least about seven — before AD 70'): the failure is a quantifier/absoluteness problem (roughly doubling the true interval via the Josianic 7th-century dating that Esarhaddon-treaty parallels and the Tell Tayinat find support), not a claim that ancient prophecy failed to precede the siege at all. Severity stays low because the passage is a chronological aside with no argumentative role — the chapter's point (an ancient warning literally matched by the siege-cannibalism) is unaffected by whether the interval is seven or fourteen centuries; centrality likewise stays low since this functions as decorative period-color within the fulfilled-prophecy proof-texting cluster, not as a premise the chapter's own argument depends on."
       }
     },
     {
@@ -2275,6 +2307,22 @@
         "impact_score": 9,
         "narrative_arc": "frame",
         "reasoning": "The claim that Titus was horrified, wanted to spare the temple, and 'gave command that not one stone of it be touched' follows Josephus's pro-Flavian account (his own patron's whitewash), which the Tacitus/Sulpicius Severus tradition directly contradicts by having Titus order the temple's destruction; modern scholars remain genuinely split on which ancient source to trust. The vignette does real argumentative work: it stages a human authority actively trying to prevent an outcome that a divine prophetic decree still enforces ('In vain were the efforts of Titus... One greater than he had declared'), the chapter's most vivid illustration that predicted events unfold regardless of human intention or resistance — a mechanism the book leans on again wherever it argues that specific dates or events (1844, the final crisis) proceed on a divine timetable no human plan can alter. Counterfactual: delete the 'Titus tried to save it' framing and the temple still burns and the city still falls exactly as Christ predicted, so the chapter's core claim of literal fulfillment survives intact; only the specific dramatic proof that prophecy overrides even a sympathetic conqueror's will is lost, which matters for later thesis-chain arguments but not for this chapter's stated case."
+      },
+      "impact_adjudicated": {
+        "category": "discrepancy",
+        "dossier": "D16",
+        "ruling_as_written": "improbable",
+        "ruling_weakened": "genuinely-open",
+        "framing_gap": 1,
+        "failing_component_kind": "fact",
+        "chain_inherited": false,
+        "independent_failure_point": null,
+        "severity": 4,
+        "centrality": 3,
+        "load_bearing": false,
+        "impact_score": 12,
+        "narrative_arc": "frame",
+        "reasoning": "Fact failure isolated to one of three components: the frame (Titus's horror at the corpses) and the motive (his wish to spare the temple) both remain genuinely-open, reflecting a genuine, evidentially comparable split among specialists (Barnes/Rives vs. Leoni/Rajak/Goodman/Mason); only the specific staged fact — an Olivet command 'that not one stone of it be touched' — is ruled improbable, since no ancient source reports such an order and Josephus's own friendliest account contains a documented counterexample (Titus's order to fire the temple gates, BJ 6.228) plus a later, weaker war-council decision merely not to burn the sanctuary. Framing_gap=1 means the weakened version ('Titus... initially resolved that the temple should, if possible, be spared') only reaches genuinely-open, not a vindicated substance, so this remains an unresolved motive/frame question dressed as a settled fact by an invented Olivet command. Severity 4 reflects a vivid, quote-like dramatization (traced to the Milman passage White paraphrased) presented as a specific historical event with a same-source counterexample; centrality 3 and load_bearing false because deleting the vignette leaves the chapter's 'fulfilled to the letter' argument about the temple's actual destruction fully intact — only the illustrative proof that even a sympathetic conqueror's will was overridden by prophecy is lost."
       }
     },
     {
