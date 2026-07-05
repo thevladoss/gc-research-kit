@@ -1,0 +1,27 @@
+{
+  "chapter": 20,
+  "stage": "adversarial",
+  "notes": "searches: ~2; full defenses: 1, cheap audits: 0. Only 1 in-scope claim (GC-20-063, contradicted). Anachronism steelman tested against local Wellcome 1874 + web: failed.",
+  "items": {
+    "GC-20-063": {
+      "result": "defense_failed",
+      "argument": "Steelman: the claim is factually correct in every respect except the surname. Lacunza (a Jesuit) genuinely published his eschatological treatise under an assumed Jewish/converted-Jew persona precisely to gain a Protestant hearing and deflect Roman censure — GC's characterization of the motive and the persona is exactly right and well-documented. The only defect is the name: GC gives 'Rabbi Ben-Israel' where the pseudonym was 'Juan Josafat Ben-Ezra' (styled 'Rabbi Juan Josaphat ben-Ezra'). This is an isolated name-substitution, not a fabricated episode, and 'Ben-Israel' plausibly arose from conflation with the famous Amsterdam rabbi Menasseh ben Israel (a name far more current in English religious literature). \n\nThe anachronism path the verifier flagged was tested and FAILS. If a 19th-century Advent source White relied on had itself rendered the name 'Ben-Israel,' the verdict would downgrade to anachronistic. It did not. The principal insider Millerite history in scholarship/ (I. C. Wellcome, History of the Second Advent Message, 1874, p. 525-526 / lines 628, 28374, 28397) names him correctly TWICE as 'Ben Ezra' (Lacunza) and refers to 'a translation of Ben Ezra.' Edward Irving's 1827 English translation title likewise carries 'Ben-Ezra,' and the 1812 primary title page reads 'J.J. Ben Ezra.' Two web searches turned up no period or modern source using 'Ben-Israel' for Lacunza; all sources (JATS academic article, Wikipedia, primary scan, Adventist Encyclopedia) give 'Ben-Ezra.' Because the period baseline itself is correct, the error cannot be excused as period-typical scholarship — it is White's (or an intermediary's) own slip. Verdict 'contradicted' stands; not downgradeable to anachronistic. \n\nsource_quality: academic-partial (JATS/Andrews academic article + primary 1812 title page + local primary Wellcome 1874; encyclopedic corroboration secondary).",
+      "new_sources": [
+        {
+          "title": "I. C. Wellcome, History of the Second Advent Message (1874), pp. 525-526 — names Lacunza's pseudonym 'Ben Ezra' (twice), not 'Ben-Israel'",
+          "url": "scholarship/wellcome-history-second-advent-message-1874.txt (lines 628, 28374, 28397)",
+          "source_class": "primary",
+          "supports_verdict": true,
+          "note": "Insider Millerite history White's circle used; period baseline is 'Ben Ezra', defeating the anachronism steelman"
+        },
+        {
+          "title": "Two Hundred Years from Lacunza, JATS (Andrews University)",
+          "url": "https://digitalcommons.andrews.edu/cgi/viewcontent.cgi?article=1342&context=jats",
+          "source_class": "academic",
+          "supports_verdict": true,
+          "note": "Academic confirmation of pseudonym 'Juan Josafat Ben-Ezra'"
+        }
+      ]
+    }
+  }
+}

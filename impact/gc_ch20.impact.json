@@ -1,0 +1,2869 @@
+{
+  "chapter": 20,
+  "chapter_title": "A Great Religious Awakening",
+  "stage": "impact",
+  "generated_at": "2026-07-05",
+  "notes": "Extraction pass, single pass over 49 paragraphs. Footnote reference numbers (590-617) present in source were stripped from `quote` fields as apparatus, not prose; footnote numbers are noted in extractor_note for attributed_quote items where useful for later source-tracing. Many biblical/scriptural quotations embedded in theological argument (Rev 14, 2 Thess 2, Daniel, Matt 24, 1 Thess 5, 2 Peter 3) were classified as theological/interpretive rather than attributed_quote, since their primary claim-content is prophetic interpretation, not a historically contestable attribution; a few explicit direct-quote citations of scripture supporting a specific interpretive datum were kept as attributed_quote/date. Quotations attributed to named 19th-century historical figures (Wolff, Bengel, Gaussen) and their footnoted memoirs/writings were extracted as attributed_quote with needs_verification true.\n\nsearches: ~11, clusters: 9 (scripture-fidelity, 1798/1260-historicist, Luther-eschatology, Joseph Wolff, England/Brock/Winter, Lacunza, Bengel, Gaussen, Scandinavian child-preachers, Millerite/1844 core). Delta format chosen: 127 claims risks a truncated full-file Write, and the delta touches no frozen fields (quote/claim_text/id). Doctrinal escalation applied to Millerite/1844 + worldwide-awakening cluster (academic anchors: Numbers & Butler eds. The Disappointed, Taylor Origins of Millerite Separatism, Wolff Oxford Modern Judaism article, Andrews JATS Lacunza). Control sample of 3 needs_verification:false claims verified: GC-20-090, GC-20-106, GC-20-107.\n\nsearches: ~2; full defenses: 1, cheap audits: 0. Only 1 in-scope claim (GC-20-063, contradicted). Anachronism steelman tested against local Wellcome 1874 + web: failed.\n\nChapter argument reconstruction: Ch.20 opens with the historicist prophetic scaffold (Daniel sealed until 'the time of the end,' Paul's 'man of sin' = papacy holding power 1260 years, ending 1798, therefore Daniel 'unsealed' and a judgment-hour message becoming possible only after that date). It then makes its real evidentiary move in paragraph 6 by asserting that, like the sixteenth-century Reformation, the nineteenth-century Advent Movement broke out 'in different countries... at the same time' and that isolated bodies of Christians reached the advent conviction 'solely by the study of the Scriptures... independently' -- this sentence is the thesis-statement for the whole chapter, and everything that follows (Wolff, Lacunza, Bengel, Gaussen, the Scandinavian child-preachers, then Miller and the American Millerite culmination) is offered as a catalogue of confirming instances of that independent, worldwide, providentially-patterned convergence. The chapter's persuasive weight therefore rests less on any single biographical vignette than on the cumulative pattern-claim of simultaneous independent discovery, which is used rhetorically to elevate the advent awakening (and by extension 1844) above a merely social/contagious movement into a providentially-designed one, paralleling the Reformation and priming the reader for the sanctuary/investigative-judgment material in following chapters. Individual portraits (Wolff's travels, Lacunza's Jesuit background, Bengel's Württemberg ministry, Gaussen's child-catechesis) are supporting color/texture, richly detailed but not individually load-bearing; only the 'independent convergence' framing and the Great-Disappointment/providential-test narrative at chapter's end carry real argumentative freight toward the book's Millerite-to-1844 thesis chain. No web research performed at this stage; both items assessed by re-reading the defended verdict, rationale, and full chapter context (paragraphs 1-49).",
+  "claims": [
+    {
+      "id": "GC-20-001",
+      "paragraph": 1,
+      "quote": "A great religious awakening under the proclamation of Christ’s soon coming, is foretold in the prophecy of the first angel’s message of Revelation 14.",
+      "claim_text": "The first angel's message of Revelation 14 is a prophecy foretelling a great religious awakening under the proclamation of Christ's soon coming.",
+      "claim_type": "theological",
+      "entities": [
+        "Revelation 14"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Prophetic interpretation of Revelation 14; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-002",
+      "paragraph": 2,
+      "quote": "By the purity, the glory, and the power of the heavenly messenger, divine wisdom has been pleased to represent the exalted character of the work to be accomplished by the message, and the power and glory that were to attend it.",
+      "claim_text": "The angel of Revelation 14 represents, by divine design, the exalted character and the power and glory of the work to be accomplished by the first angel's message.",
+      "claim_type": "theological",
+      "entities": [
+        "Revelation 14"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about divine design in the angel imagery; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-003",
+      "paragraph": 2,
+      "quote": "And the angel’s flight “in the midst of heaven,” the “loud voice” with which the warning is uttered, and its promulgation to all “that dwell on the earth,”—“to every nation, and kindred, and tongue, and people,”—give evidence of the rapidity and world-wide extent of the movement.",
+      "claim_text": "The imagery of the angel's flight, loud voice, and universal promulgation in Revelation 14 gives evidence of the rapidity and world-wide extent of the advent movement.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Revelation 14"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive reading of Revelation 14 imagery as evidence of a worldwide movement; theological.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-004",
+      "paragraph": 3,
+      "quote": "It is declared to be a part of the “everlasting gospel;” and it announces the opening of the judgment.",
+      "claim_text": "The first angel's message of Revelation 14 is declared to be part of the 'everlasting gospel' and announces the opening of the judgment.",
+      "claim_type": "theological",
+      "entities": [
+        "Revelation 14"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Prophetic interpretation (message = part of 'everlasting gospel' announcing judgment); theological.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-005",
+      "paragraph": 3,
+      "quote": "but this message is a part of the gospel which could be proclaimed only in the last days, for only then would it be true that the hour of judgment _had come_.",
+      "claim_text": "The judgment message of Revelation 14 could be proclaimed only in the last days, since only then would it be true that the hour of judgment had come.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about when the judgment message could be proclaimed; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-006",
+      "paragraph": 3,
+      "quote": "But that part of his prophecy which related to the last days, Daniel was bidden to close up and seal “to the time of the end.”",
+      "claim_text": "The prophet Daniel was instructed to close up and seal the part of his prophecy relating to the last days until the time of the end.",
+      "claim_type": "theological",
+      "entities": [
+        "Daniel"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretation of Daniel 12:4 ('seal to the time of the end'); theological.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-007",
+      "paragraph": 3,
+      "quote": "But at the time of the end, says the prophet, “many shall run to and fro, and knowledge shall be increased.”",
+      "claim_text": "The book of Daniel is quoted as prophesying that at the time of the end, 'many shall run to and fro, and knowledge shall be increased' (cf. Daniel 12:4).",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Daniel"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Footnote 591; quote fidelity checkable against Daniel 12:4 KJV.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quotation matches Daniel 12:4 KJV ('many shall run to and fro, and knowledge shall be increased') verbatim.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-008",
+      "paragraph": 4,
+      "quote": "“That day shall not come,” he says, “except there come a falling away first, and that man of sin be revealed.”",
+      "claim_text": "The apostle Paul wrote that the day of Christ's coming would not come 'except there come a falling away first, and that man of sin be revealed' (2 Thessalonians 2:3).",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Paul"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Footnote 592; checkable against 2 Thessalonians 2:3 KJV.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quotation matches 2 Thessalonians 2:3 KJV ('except there come a falling away first, and that man of sin be revealed').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-009",
+      "paragraph": 4,
+      "quote": "Not till after the great apostasy, and the long period of the reign of the “man of sin,” can we look for the advent of our Lord.",
+      "claim_text": "According to this interpretation, the advent of Christ could not be expected until after the great apostasy and the long period of the reign of the 'man of sin.'",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological inference from the 'man of sin' interpretation; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-010",
+      "paragraph": 4,
+      "quote": "The “man of sin,” which is also styled the “mystery of iniquity,” the “son of perdition,” and “that wicked,” represents the papacy, which, as foretold in prophecy, was to maintain its supremacy for 1260 years.",
+      "claim_text": "The 'man of sin' of 2 Thessalonians 2 is identified with the papacy, which is said to have been prophesied to maintain its supremacy for 1260 years.",
+      "claim_type": "theological",
+      "entities": [
+        "papacy"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Prophetic identification of the papacy as the 'man of sin' and the 1260-year scheme; historicist theology, not empirically decidable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-011",
+      "paragraph": 4,
+      "quote": "This period ended in 1798.",
+      "claim_text": "The 1260-year period of papal supremacy identified in this prophetic interpretation ended in the year 1798.",
+      "claim_type": "date",
+      "entities": [
+        "papacy",
+        "1798"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[common_knowledge] The historical anchor is well documented: French general Berthier entered Rome and Pope Pius VI was taken prisoner in February 1798, a decisive blow to papal temporal power. The framing that this 'ended the 1260 years' is historicist interpretation shared with White's sources (Wylie, Andrews), not itself empirically decidable. source_quality: encyclopedic-only (textbook-level event; interpretive layer theological).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-012",
+      "paragraph": 4,
+      "quote": "Paul covers with his caution the whole of the Christian dispensation down to the year 1798.",
+      "claim_text": "Paul's caution against expecting an imminent second coming is interpreted as covering the whole Christian dispensation down to the year 1798.",
+      "claim_type": "theological",
+      "entities": [
+        "Paul",
+        "1798"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive extension of Paul's caution to 1798; theological.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-013",
+      "paragraph": 5,
+      "quote": "Martin Luther placed the judgment about three hundred years in the future from his day.",
+      "claim_text": "Martin Luther believed the judgment would occur about three hundred years after his own lifetime.",
+      "claim_type": "biographical",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's Table Talk (c.1540) contains the statement that he expected the Last Day within about three hundred years ('it will not be absent full three hundred years longer'), placing it near 1840 — consistent with White's claim. Luther elsewhere also voiced imminence, so his eschatology was mixed; White accurately reports the specific 300-year statement. Counter-apologetic sites treating this as misrepresentation are logged as a position only.",
+        "sources": [
+          {
+            "title": "Martin Luther and the End of the World, Ministry Magazine (1951)",
+            "url": "https://www.ministrymagazine.org/archive/1951/12/martin-luther-and-the-end-of-the-world",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "Luther's Eschatology, Oxford Handbook of Martin Luther's Theology",
+            "url": "https://academic.oup.com/edited-volume/34343/chapter/327334429",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-014",
+      "paragraph": 5,
+      "quote": "But since 1798 the book of Daniel has been unsealed, knowledge of the prophecies has increased, and many have proclaimed the solemn message of the judgment near.",
+      "claim_text": "Since 1798, it is claimed, the book of Daniel has been considered unsealed, prophetic knowledge increased, and many people have proclaimed the message that judgment is near.",
+      "claim_type": "theological",
+      "entities": [
+        "1798"
+      ],
+      "needs_verification": false,
+      "extractor_note": "Contains an embedded historical claim (many proclaiming this message after 1798) alongside the interpretive framing; logged as theological given the dominant interpretive claim about the 'unsealing.'",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive claim about the 'unsealing' of Daniel after 1798; theological.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-015",
+      "paragraph": 6,
+      "quote": "Like the great Reformation of the sixteenth century, the Advent Movement appeared in different countries of Christendom at the same time.",
+      "claim_text": "The nineteenth-century Advent Movement appeared in different countries of Christendom at approximately the same time, similar to the sixteenth-century Reformation.",
+      "claim_type": "causal",
+      "entities": [
+        "Advent Movement",
+        "Reformation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "A transatlantic prophetic/millenarian revival did appear in multiple countries in the early 19th century (Wolff's global mission, Irving and the Albury conferences, Lacunza's influence, Württemberg Pietism, the Swedish revival, Millerism), broadly contemporaneous. source_quality: academic-partial.",
+        "sources": [
+          {
+            "title": "Numbers & Butler (eds.), The Disappointed: Millerism and Millenarianism (Univ. Tennessee Press, 1993) — via Great Disappointment overview",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Joseph Wolff (1795–1862)—The Making of an Englishman, Modern Judaism (Oxford)",
+            "url": "https://academic.oup.com/mj/article-abstract/39/1/18/5266907",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-016",
+      "paragraph": 6,
+      "quote": "In different lands there were isolated bodies of Christians who, solely by the study of the Scriptures, arrived at the belief that the Saviour’s advent was near.",
+      "claim_text": "In different lands, isolated bodies of Christians independently arrived, solely through study of Scripture, at the belief that the Saviour's advent was near.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "low",
+        "rationale": "The claim that the movements arose 'solely by the study of the Scriptures' and independently overstates the historical picture: historians document substantial diffusion (Lacunza's book translated by Irving in 1827 and circulated in Britain, advent publications reprinted in England, Wolff's own worldwide circulation). Some genuinely independent study occurred, so the claim is partly true; the universal independence framing is the contested element. source_quality: academic-partial.",
+        "sources": [
+          {
+            "title": "Millerism — Wikipedia (diffusion of advent publications)",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": false
+          },
+          {
+            "title": "Two Hundred Years from Lacunza, JATS (Andrews Univ.) — Irving translation and transmission",
+            "url": "https://digitalcommons.andrews.edu/cgi/viewcontent.cgi?article=1342&context=jats",
+            "source_class": "academic",
+            "supports_verdict": false
+          }
+        ]
+      },
+      "impact": {
+        "severity": 3,
+        "centrality": 4,
+        "load_bearing": true,
+        "impact_score": 12,
+        "narrative_arc": "millerite",
+        "reasoning": "This sentence is the interpretive keystone of paragraph 6, explicitly modeled on the Reformation parallel ('Like the great Reformation... appeared in different countries... at the same time'), and it frames every subsequent vignette (Wolff, Lacunza, Bengel, Gaussen, the Scandinavian child-preachers) as independent, Scripture-only convergence rather than ordinary transatlantic diffusion. Modern historiography documents real cross-pollination -- Irving's 1827 translation of Lacunza circulating in Britain, American Millerite publications reprinted in England, Wolff's own itinerant preaching seeding multiple regions -- so 'solely by the study of the Scriptures... independently' overstates the case, though some genuinely prior/independent study did occur (Bengel's 1740s date-setting predates any American influence entirely), which is why the verdict is disputed rather than contradicted. Counterfactual: strip the 'independence' framing and the chapter's roster of national awakenings still stands as an accurate record of a real transatlantic revival, but the chapter's specific interpretive claim -- that the ubiquity constitutes evidence of providential rather than social causation -- loses its evidentiary anchor, since ordinary diffusion is a sufficient naturalistic explanation for the same facts; this makes the claim load-bearing for the chapter's own argument (though not fatal to the book's broader thesis chain, since a diffusion-based worldwide awakening would still satisfy Revelation 14's 'to every nation' imagery)."
+      }
+    },
+    {
+      "id": "GC-20-017",
+      "paragraph": 7,
+      "quote": "In 1821, three years after Miller had arrived at his exposition of the prophecies pointing to the time of the judgment, Dr. Joseph Wolff, “the missionary to the world,” began to proclaim the Lord’s soon coming.",
+      "claim_text": "In 1821, three years after William Miller arrived at his exposition of the prophecies pointing to the time of the judgment, Dr. Joseph Wolff began proclaiming the Lord's soon coming.",
+      "claim_type": "date",
+      "entities": [
+        "Joseph Wolff",
+        "William Miller",
+        "1821"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Wolff set out on his mission in 1821, roughly three years after Miller reached his prophetic exposition (c.1818). Dates consistent with biographical record and Wolff's own account.",
+        "sources": [
+          {
+            "title": "DNB 1885-1900: Wolff, Joseph",
+            "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Wolff,_Joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-018",
+      "paragraph": 7,
+      "quote": "Wolff was born in Germany, of Hebrew parentage, his father being a Jewish rabbi.",
+      "claim_text": "Joseph Wolff was born in Germany of Hebrew parentage, his father being a Jewish rabbi.",
+      "claim_type": "biographical",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wolff was born in Germany (Weilersbach, near Bamberg, 1795) of Jewish parentage; his father was a rabbi. Confirmed by the Jewish Encyclopedia and DNB.",
+        "sources": [
+          {
+            "title": "Wolff, Joseph — Jewish Encyclopedia",
+            "url": "https://www.jewishencyclopedia.com/articles/14988-wolff-joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "DNB 1885-1900: Wolff, Joseph",
+            "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Wolff,_Joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-019",
+      "paragraph": 7,
+      "quote": "While very young, he was convinced of the truth of the Christian religion.",
+      "claim_text": "Joseph Wolff became convinced of the truth of the Christian religion while very young.",
+      "claim_type": "biographical",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Wolff's early attraction to Christianity is documented (he left home 'on account of his inclination toward Christianity'); ultimately from his own account.",
+        "sources": [
+          {
+            "title": "DNB 1885-1900: Wolff, Joseph",
+            "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Wolff,_Joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-020",
+      "paragraph": 7,
+      "quote": "“A Jew of the greatest talent,” was the answer; “but as He pretended to be the Messiah, the Jewish tribunal sentenced Him to death.” “Why,” rejoined the questioner, “is Jerusalem destroyed, and why are we in captivity?” “Alas, alas!” answered his father, “because the Jews murdered the prophets.”",
+      "claim_text": "Joseph Wolff recounted a childhood dialogue with his father in which his father explained Jesus's condemnation and attributed Jerusalem's destruction and Jewish captivity to the murder of the prophets.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Footnote 593, attributed to Wolff's own memoir/account.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Faithfully drawn from Wolff's own memoir (footnote 593). Autobiographical anecdote; not independently corroborable but accurately quoted per period source.",
+        "sources": [
+          {
+            "title": "Wolff, Joseph — Jewish Encyclopedia",
+            "url": "https://www.jewishencyclopedia.com/articles/14988-wolff-joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-021",
+      "paragraph": 7,
+      "quote": "So strong was this feeling, that though forbidden to enter a Christian church, he would often linger outside to listen to the preaching.",
+      "claim_text": "As a child, Joseph Wolff, though forbidden to enter a Christian church, would often linger outside to listen to the preaching.",
+      "claim_type": "biographical",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Consistent with Wolff's documented early attraction to Christianity; from his self-report.",
+        "sources": [
+          {
+            "title": "DNB 1885-1900: Wolff, Joseph",
+            "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Wolff,_Joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-022",
+      "paragraph": 8,
+      "quote": "When only seven years old, he was boasting to an aged Christian neighbor of the future triumph of Israel at the advent of the Messiah",
+      "claim_text": "At seven years of age, Joseph Wolff boasted to an aged Christian neighbor of the future triumph of Israel at the advent of the Messiah.",
+      "claim_type": "biographical",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Autobiographical anecdote from Wolff's memoir; accurately quoted, not independently verifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-023",
+      "paragraph": 8,
+      "quote": "“Dear boy, I will tell you who the real Messiah was: He was Jesus of Nazareth, ... whom your ancestors have crucified, as they did the prophets of old. Go home and read the fifty-third chapter of Isaiah, and you will be convinced that Jesus Christ is the Son of God.”",
+      "claim_text": "An aged Christian neighbor told the seven-year-old Joseph Wolff that Jesus of Nazareth was the real Messiah and urged him to read Isaiah 53.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Footnote 594.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Faithfully drawn from Wolff's memoir (footnote 594); autobiographical.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-024",
+      "paragraph": 9,
+      "quote": "when only eleven years old, he left his father’s house, and went out into the world to gain for himself an education, to choose his religion and his life-work.",
+      "claim_text": "At eleven years of age, Joseph Wolff left his father's house to seek an education and to choose his own religion and life-work.",
+      "claim_type": "biographical",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Wolff left home young to pursue education and religion; age 11 is his own account, consistent with DNB's 'leaving home on account of his inclination toward Christianity.'",
+        "sources": [
+          {
+            "title": "DNB 1885-1900: Wolff, Joseph",
+            "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Wolff,_Joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-025",
+      "paragraph": 9,
+      "quote": "Through the influence of a Catholic instructor, he was led to accept the Romish faith, and formed the purpose of becoming a missionary to his own people.",
+      "claim_text": "Joseph Wolff was led by a Catholic instructor to accept the Roman Catholic faith and formed the purpose of becoming a missionary to the Jews.",
+      "claim_type": "biographical",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wolff was led to Catholicism and baptized (Sept 1812) with the purpose of a mission to the Jews; documented.",
+        "sources": [
+          {
+            "title": "Wolff, Joseph — Jewish Encyclopedia",
+            "url": "https://www.jewishencyclopedia.com/articles/14988-wolff-joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-026",
+      "paragraph": 9,
+      "quote": "With this object he went, a few years later, to pursue his studies in the College of the Propaganda at Rome.",
+      "claim_text": "Joseph Wolff went to study at the College of the Propaganda in Rome in pursuit of becoming a Catholic missionary to the Jews.",
+      "claim_type": "event",
+      "entities": [
+        "Joseph Wolff",
+        "Rome"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wolff studied at the Collegio Romano and the Collegio di Propaganda in Rome (arrived 1816). Confirmed by Jewish Encyclopedia and DNB.",
+        "sources": [
+          {
+            "title": "Wolff, Joseph — Jewish Encyclopedia",
+            "url": "https://www.jewishencyclopedia.com/articles/14988-wolff-joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-027",
+      "paragraph": 9,
+      "quote": "He openly attacked the abuses of the church, and urged the necessity of reform.",
+      "claim_text": "While at Rome, Joseph Wolff openly attacked abuses of the Catholic Church and urged the necessity of reform.",
+      "claim_type": "event",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wolff publicly attacked church doctrine (notably papal infallibility) while at Rome. Documented.",
+        "sources": [
+          {
+            "title": "Wolff, Joseph — Jewish Encyclopedia",
+            "url": "https://www.jewishencyclopedia.com/articles/14988-wolff-joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-028",
+      "paragraph": 9,
+      "quote": "Though at first treated with special favor by the papal dignitaries, he was after a time removed from Rome.",
+      "claim_text": "Joseph Wolff, though initially treated with special favor by papal dignitaries, was eventually removed from Rome.",
+      "claim_type": "event",
+      "entities": [
+        "Joseph Wolff",
+        "Rome"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Initially received favorably (introduced to Pope Pius VII), Wolff was expelled from the papal dominions in 1818. Documented.",
+        "sources": [
+          {
+            "title": "Wolff, Joseph — Jewish Encyclopedia",
+            "url": "https://www.jewishencyclopedia.com/articles/14988-wolff-joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-029",
+      "paragraph": 9,
+      "quote": "He was declared to be incorrigible, and was left at liberty to go where he pleased.",
+      "claim_text": "Joseph Wolff was declared incorrigible by the church and left at liberty to go where he pleased.",
+      "claim_type": "event",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Wolff was expelled and left free to travel; the 'incorrigible' characterization is his own framing but consistent with expulsion for 'erroneous opinions.'",
+        "sources": [
+          {
+            "title": "DNB 1885-1900: Wolff, Joseph",
+            "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Wolff,_Joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-030",
+      "paragraph": 9,
+      "quote": "He now made his way to England, and professing the Protestant faith, united with the English Church.",
+      "claim_text": "Joseph Wolff made his way to England, adopted Protestant belief, and joined the Church of England.",
+      "claim_type": "event",
+      "entities": [
+        "Joseph Wolff",
+        "England",
+        "Church of England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wolff went to England and declared himself a member of the Church of England. Documented.",
+        "sources": [
+          {
+            "title": "Wolff, Joseph — Jewish Encyclopedia",
+            "url": "https://www.jewishencyclopedia.com/articles/14988-wolff-joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-031",
+      "paragraph": 9,
+      "quote": "After two years’ study he set out, in 1821, upon his mission.",
+      "claim_text": "After two years of study in England, Joseph Wolff set out on his missionary travels in 1821.",
+      "claim_type": "date",
+      "entities": [
+        "Joseph Wolff",
+        "1821"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "After study in England Wolff set out on his mission in 1821; consistent with the record of his 1821–26 Levant travels.",
+        "sources": [
+          {
+            "title": "DNB 1885-1900: Wolff, Joseph",
+            "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Wolff,_Joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-032",
+      "paragraph": 10,
+      "quote": "“Jesus of Nazareth, the true Messiah,” he said, “whose hands and feet were pierced, who was brought like a lamb to the slaughter, who was the Man of sorrows and acquainted with grief, who after the scepter was taken from Judah, and the legislative power from between his feet, came the first time; shall come the second time in the clouds of heaven, and with the trump of the Archangel,”",
+      "claim_text": "Joseph Wolff is quoted teaching that Jesus of Nazareth, the true Messiah, who came the first time in humiliation, would come a second time in the clouds of heaven with the trump of the Archangel.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Footnote 595.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Faithful quotation from Wolff's published writings (footnote 595); corroborated by the insider source Wellcome, which reproduces Wolff's advent teaching. Self-report.",
+        "sources": [
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874) — Wolff passages",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "insider period source reproducing Wolff's writings"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-033",
+      "paragraph": 10,
+      "quote": "“and shall stand upon the Mount of Olives; and that dominion, once consigned to Adam over the creation, and forfeited by him (Gen. 1:26; 3:17), shall be given to Jesus. He shall be king over all the earth. The groanings and lamentations of the creation shall cease, but songs of praises and thanksgivings shall be heard.... When Jesus comes in the glory of His Father, with the holy angels, ... the dead believers shall rise first. 1 Thess. 4:16; 1 Cor. 15: 23. This is what we Christians call the first resurrection. Then the animal kingdom shall change its nature (Isa. 11:6-9), and be subdued unto Jesus. Psalm 8. Universal peace shall prevail.”",
+      "claim_text": "Joseph Wolff is quoted teaching that Christ would stand on the Mount of Olives, receive dominion over the earth, raise dead believers in a first resurrection, and inaugurate universal peace.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Footnote 596.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Faithful quotation from Wolff's writings (footnote 596), consistent with his premillennial teaching as recorded by Wellcome. Self-report.",
+        "sources": [
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874)",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-034",
+      "paragraph": 10,
+      "quote": "“The Lord again shall look down upon the earth, and say, ‘Behold, it is very good.’ ”",
+      "claim_text": "Joseph Wolff is quoted stating that the Lord would again look down upon the earth and declare it 'very good.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Footnote 597.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Faithful short quotation from Wolff (footnote 597).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-035",
+      "paragraph": 11,
+      "quote": "Wolff replied: “Did our Lord say that that day and hour should _never_ be known? Did He not give us signs of the times, in order that we may know at least the _approach_ of His coming, as one knows the approach of the summer by the fig-tree putting forth its leaves? Matt. 24:32. Are we never to know that period, whilst He Himself exhorteth us not only to read Daniel the prophet, but to understand it? and in that very Daniel, where it is said that the words were shut up to the time of the end (which was the case in his time), and that ‘many shall run to and fro’ (a Hebrew expression for observing and thinking upon the time), ‘and _knowledge_’ (regarding that time) ‘shall be increased.’ Dan. 12:4. Besides this, our Lord does not intend to say by this, that the _approach_ of the time shall not be known, but that the _exact_ ‘_day_ and _hour_ knoweth no man.’ Enough, He does say, shall be known by the signs of the times, to induce us to prepare for His coming, as Noah prepared the ark.”",
+      "claim_text": "Joseph Wolff is quoted arguing, against the objection that 'no man knoweth the day or hour,' that Christ's signs of the times allow the approach of His coming to be known even if the exact day and hour cannot be.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Footnote 598.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Faithful quotation from Wolff's writings (footnote 598) presenting his 'signs of the times' argument; consistent with Wellcome's reproduction of Wolff. Self-report.",
+        "sources": [
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874)",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-036",
+      "paragraph": 11,
+      "quote": "Wolff believed the coming of the Lord to be at hand, his interpretation of the prophetic periods placing the great consummation within a very few years of the time pointed out by Miller.",
+      "claim_text": "Joseph Wolff's own interpretation of the prophetic periods placed the great consummation within a very few years of the date pointed out by William Miller.",
+      "claim_type": "biographical",
+      "entities": [
+        "Joseph Wolff",
+        "William Miller"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Wolff expected the consummation within a very few years of Miller's date (Wolff looked toward c.1847); consistent with his published chronology. Self-report.",
+        "sources": [
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874)",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-037",
+      "paragraph": 12,
+      "quote": "Wolff wrote: “The greater part of the Christian church have swerved from the plain sense of Scripture, and have turned to the phantomizing system of the Buddhists, who believe that the future happiness of mankind will consist in moving about in the air, and suppose that when they are reading _Jews_, they must understand _Gentiles_; and when they read _Jerusalem_, they must understand the _church_; and if it is said _earth_, it means _sky_; and for the coming of the _Lord_ they must understand the progress of the _missionary societies_; and going up to the mountain of the Lord’s house, signifies a grand _class-meeting of Methodists_.”",
+      "claim_text": "Joseph Wolff is quoted criticizing the majority of the Christian church for spiritualizing (allegorizing) plain scriptural terms such as 'Jews,' 'Jerusalem,' 'earth,' and 'the Lord's coming.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Footnote 599.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Faithful quotation from Wolff's writings (footnote 599) criticizing allegorical/spiritualizing exegesis. Self-report.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-038",
+      "paragraph": 13,
+      "quote": "During the twenty-four years from 1821 to 1845, Wolff traveled extensively: in Africa, visiting Egypt and Abyssinia; in Asia, traversing Palestine, Syria, Persia, Bokhara, and India.",
+      "claim_text": "Between 1821 and 1845, Joseph Wolff traveled extensively in Africa (Egypt, Abyssinia) and Asia (Palestine, Syria, Persia, Bokhara, India).",
+      "claim_type": "date",
+      "entities": [
+        "Joseph Wolff",
+        "Egypt",
+        "Abyssinia",
+        "Palestine",
+        "Syria",
+        "Persia",
+        "Bokhara",
+        "India"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wolff's extensive 1821–1845 travels through Egypt, Abyssinia, Palestine, Syria, Persia, Bokhara, and India are well documented (he styled himself apostle for Palestine, Persia, Bokhara and Balkh).",
+        "sources": [
+          {
+            "title": "Wolff, Joseph — Jewish Encyclopedia",
+            "url": "https://www.jewishencyclopedia.com/articles/14988-wolff-joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-039",
+      "paragraph": 13,
+      "quote": "He also visited the United States, on the journey thither preaching on the island of St. Helena.",
+      "claim_text": "Joseph Wolff visited the United States and, en route, preached on the island of St. Helena.",
+      "claim_type": "event",
+      "entities": [
+        "Joseph Wolff",
+        "St. Helena",
+        "United States"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Wolff visited the United States (1837); the St. Helena stopover is from his own itinerary account. Plausible and consistent with the record.",
+        "sources": [
+          {
+            "title": "DNB 1885-1900: Wolff, Joseph",
+            "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Wolff,_Joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-040",
+      "paragraph": 13,
+      "quote": "He arrived in New York in August, 1837",
+      "claim_text": "Joseph Wolff arrived in New York in August 1837.",
+      "claim_type": "date",
+      "entities": [
+        "Joseph Wolff",
+        "New York",
+        "1837"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Wolff's US visit is dated to 1837 (he preached before Congress in December 1837 and was ordained in New Jersey that year); the August 1837 New York arrival is from his own account and is consistent.",
+        "sources": [
+          {
+            "title": "DNB 1885-1900: Wolff, Joseph",
+            "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Wolff,_Joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-041",
+      "paragraph": 13,
+      "quote": "and after speaking in that city, he preached in Philadelphia and Baltimore, and finally proceeded to Washington.",
+      "claim_text": "After speaking in New York, Joseph Wolff preached in Philadelphia and Baltimore before proceeding to Washington.",
+      "claim_type": "event",
+      "entities": [
+        "Joseph Wolff",
+        "Philadelphia",
+        "Baltimore",
+        "Washington"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wolff preached in New York, Philadelphia, Baltimore and Washington; documented in DNB.",
+        "sources": [
+          {
+            "title": "DNB 1885-1900: Wolff, Joseph",
+            "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Wolff,_Joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-042",
+      "paragraph": 13,
+      "quote": "“on a motion brought forward by the ex-president, John Quincy Adams, in one of the houses of Congress, the House unanimously granted to me the use of the Congress Hall for a lecture, which I delivered on a Saturday, honored with the presence of all the members of Congress, and also of the bishop of Virginia, and of the clergy and citizens of Washington.",
+      "claim_text": "Joseph Wolff claimed that, on a motion by former president John Quincy Adams, Congress unanimously granted him use of Congress Hall for a lecture attended by all members of Congress, the bishop of Virginia, and clergy and citizens of Washington.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Joseph Wolff",
+        "John Quincy Adams",
+        "Congress"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Footnote 600.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Corroborated: former president John Quincy Adams moved that Wolff be granted the House hall for a lecture, and Wolff addressed Congress in 1837. The quotation is faithful to Wolff's memoir (footnote 600).",
+        "sources": [
+          {
+            "title": "DNB 1885-1900: Wolff, Joseph",
+            "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Wolff,_Joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Joseph Wolff — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Joseph_Wolff",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-043",
+      "paragraph": 13,
+      "quote": "The same honor was granted to me by the members of the government of New Jersey and Pennsylvania, in whose presence I delivered lectures on my researches in Asia, and also on the personal reign of Jesus Christ.”",
+      "claim_text": "Joseph Wolff claimed the governments of New Jersey and Pennsylvania granted him similar honors, allowing him to lecture on his researches in Asia and on the personal reign of Jesus Christ.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Joseph Wolff",
+        "New Jersey",
+        "Pennsylvania"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Footnote 600, continuation of preceding quote.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Continuation of Wolff's own account (footnote 600); his 1837 US activity, including a New Jersey ordination, is documented. Honors from state legislatures are self-reported.",
+        "sources": [
+          {
+            "title": "Joseph Wolff — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Joseph_Wolff",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-044",
+      "paragraph": 14,
+      "quote": "Dr. Wolff traveled in the most barbarous countries, without the protection of any European authority, enduring many hardships, and surrounded with countless perils.",
+      "claim_text": "Joseph Wolff traveled in what the text characterizes as the most barbarous countries without the protection of any European authority, enduring hardships and perils.",
+      "claim_type": "biographical",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Wolff travelled without European protection and endured serious perils (his Bokhara journey nearly ended in his execution). General characterization consistent with the record; details from his own narration.",
+        "sources": [
+          {
+            "title": "Wolff, Joseph — Jewish Encyclopedia",
+            "url": "https://www.jewishencyclopedia.com/articles/14988-wolff-joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-045",
+      "paragraph": 14,
+      "quote": "He was bastinadoed and starved, sold as a slave, and three times condemned to death.",
+      "claim_text": "Joseph Wolff was bastinadoed, starved, sold as a slave, and condemned to death on three occasions during his travels.",
+      "claim_type": "statistic",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Self-reported superlatives from Wolff's memoirs (bastinadoed, starved, sold as a slave, three times condemned to death). His travels were genuinely dangerous, but these specific claims are uncorroborated and Wolff was known for colorful self-narration; treat with caution per extractor note.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-046",
+      "paragraph": 14,
+      "quote": "He was beset by robbers, and sometimes nearly perished from thirst.",
+      "claim_text": "Joseph Wolff was beset by robbers and at times nearly perished from thirst during his travels.",
+      "claim_type": "event",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Consistent with the hazards of Wolff's routes; from his own account.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-047",
+      "paragraph": 14,
+      "quote": "Once he was stripped of all that he possessed, and left to travel hundreds of miles on foot through the mountains, the snow beating in his face, and his naked feet benumbed by contact with the frozen ground.",
+      "claim_text": "On one occasion, Joseph Wolff was stripped of all his possessions and forced to travel hundreds of miles on foot, barefoot, through snowy mountains.",
+      "claim_type": "event",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Autobiographical incident from Wolff's memoirs; consistent with his hazardous mountain travels. Self-report.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-048",
+      "paragraph": 15,
+      "quote": "he declared himself “provided with arms,”—“prayer, zeal for Christ, and confidence in His help.” “I am also,” he said, “provided with the love of God and my neighbor in my heart, and the Bible is in my hand.”",
+      "claim_text": "Joseph Wolff, when warned about traveling unarmed among hostile tribes, is quoted declaring his 'arms' to be prayer, zeal for Christ, love of God and neighbor, and the Bible.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Footnote 601.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Faithful quotation from Wolff (footnote 601); self-report.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-049",
+      "paragraph": 15,
+      "quote": "Of one of his later journeys he says, “I ... kept the Bible open in my hand. I felt my power was in the book, and that its might would sustain me.”",
+      "claim_text": "Joseph Wolff is quoted saying that on one of his journeys he kept the Bible open in his hand, feeling his power was in the book.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Footnote 602.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Faithful quotation from Wolff (footnote 602); self-report.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-050",
+      "paragraph": 15,
+      "quote": "The Bible in Hebrew and English he carried with him wherever he went.",
+      "claim_text": "Joseph Wolff carried a Bible in Hebrew and English with him wherever he traveled.",
+      "claim_type": "biographical",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Wolff carried and distributed Bibles in Hebrew and other tongues; consistent with the record of his colportage. Self-report.",
+        "sources": [
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874) — Wolff circulated many Bibles",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-051",
+      "paragraph": 16,
+      "quote": "Thus he persevered in his labors until the message of the judgment had been carried to a large part of the habitable globe.",
+      "claim_text": "Joseph Wolff persevered in his missionary labors until the judgment message had been carried to a large part of the habitable globe.",
+      "claim_type": "event",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Quantifier 'a large part of the habitable globe' is vague/hyperbolic; flagged for verification of scope.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Wolff's mission did reach a very wide geographic range; 'a large part of the habitable globe' is hyperbolic but broadly matches his documented travels.",
+        "sources": [
+          {
+            "title": "Wolff, Joseph — Jewish Encyclopedia",
+            "url": "https://www.jewishencyclopedia.com/articles/14988-wolff-joseph",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-052",
+      "paragraph": 16,
+      "quote": "Among Jews, Turks, Parsees, Hindoos, and many other nationalities and races, he distributed the word of God in these various tongues, and everywhere heralded the approaching reign of the Messiah.",
+      "claim_text": "Joseph Wolff distributed the Bible in various languages among Jews, Turks, Parsees, Hindus, and other nationalities, proclaiming the approaching reign of the Messiah.",
+      "claim_type": "event",
+      "entities": [
+        "Joseph Wolff"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Wolff distributed Scripture among Jews, Muslims (Turks), Parsees, Hindus and others while proclaiming the advent; corroborated by Wellcome. Self-report.",
+        "sources": [
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874)",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-053",
+      "paragraph": 17,
+      "quote": "The Arabs of Yemen, he says, “are in possession of a book called ‘Seera,’ which gives notice of the second coming of Christ and His reign in glory; and they expect great events to take place in the year 1840.”",
+      "claim_text": "Joseph Wolff reported that the Arabs of Yemen possessed a book called 'Seera' foretelling Christ's second coming, and expected great events in the year 1840.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Joseph Wolff",
+        "Yemen"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Footnote 603.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Faithful to Wolff's report (footnote 603) that Yemeni Arabs held a book ('Seera') foretelling Christ's coming and expected events in 1840; Wellcome reproduces Wolff's Yemen reports. Wolff's ethnographic claims are self-reported.",
+        "sources": [
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874) — Yemen/Wolff",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-054",
+      "paragraph": 17,
+      "quote": "“In Yemen ... I spent six days with the children of Rechab. They drink no wine, plant no vineyard, sow no seed, and live in tents, and remember good old Jonadab, the son of Rechab; and I found in their company children of Israel, of the tribe of Dan, ... who expect, with the children of Rechab, the speedy arrival of the Messiah in the clouds of heaven.”",
+      "claim_text": "Joseph Wolff reported spending six days in Yemen with a group calling themselves the 'children of Rechab' and with people claiming descent from the tribe of Dan, both expecting the speedy arrival of the Messiah.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Joseph Wolff",
+        "Yemen"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Footnote 604.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Faithful to Wolff's report (footnote 604) of the Rechabites and putative tribe-of-Dan in Yemen; Wellcome reproduces the same. The claim is that Wolff reported these, which is accurately quoted; the ethnographic identifications are his self-report and would be viewed skeptically by modern scholarship.",
+        "sources": [
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874) — Rechabites/Yemen",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-055",
+      "paragraph": 18,
+      "quote": "A similar belief was found by another missionary to exist in Tartary.",
+      "claim_text": "An unnamed missionary found a similar belief in the Lord's soon coming existing among people in Tartary.",
+      "claim_type": "event",
+      "entities": [
+        "Tartary"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "A period missionary anecdote of a similar advent belief in Tartary; drawn from 19th-century missionary literature and not independently corroborable, but not contradicted.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-056",
+      "paragraph": 18,
+      "quote": "the priest seemed greatly surprised at such ignorance in one who professed to be a Bible teacher, and stated his own belief, founded on prophecy, that Christ would come about 1844.",
+      "claim_text": "A Tartar priest told a missionary that, based on prophecy, he believed Christ would come about 1844.",
+      "claim_type": "event",
+      "entities": [
+        "Tartary",
+        "1844"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Same Tartary anecdote (a priest expecting Christ about 1844); uncorroborated period missionary report, not contradicted.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-057",
+      "paragraph": 19,
+      "quote": "As early as 1826 the advent message began to be preached in England.",
+      "claim_text": "The advent message began to be preached in England as early as 1826.",
+      "claim_type": "date",
+      "entities": [
+        "England",
+        "1826"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "A British prophetic/advent revival is documented from the mid-1820s (the Albury Park conferences began 1826, involving Drummond and Irving). Consistent with 'as early as 1826.'",
+        "sources": [
+          {
+            "title": "Millerism — Wikipedia (British advent context)",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-058",
+      "paragraph": 19,
+      "quote": "Mourant Brock, an English writer, states that about seven hundred ministers of the Church of England were engaged in preaching this “gospel of the kingdom.”",
+      "claim_text": "According to the English writer Mourant Brock, about seven hundred ministers of the Church of England were engaged in preaching the second-advent message.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Mourant Brock",
+        "Church of England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Mourant Brock was a real advent writer, and the '~700 ministers of the Church of England' figure is his own published estimate (as cited by 19th-century advent historians). The attribution is genuine; the figure is not independently verified and is likely a partisan estimate.",
+        "sources": [
+          {
+            "title": "Millerism — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-059",
+      "paragraph": 19,
+      "quote": "Advent publications from the United States were widely circulated. Books and journals were republished in England.",
+      "claim_text": "Advent publications from the United States were widely circulated in England, and related books and journals were republished there.",
+      "claim_type": "event",
+      "entities": [
+        "England",
+        "United States"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "American advent publications did circulate in Britain and books/journals were reprinted there; documented in Millerite historiography.",
+        "sources": [
+          {
+            "title": "Millerism — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-060",
+      "paragraph": 19,
+      "quote": "in 1842, Robert Winter, an Englishman by birth, who had received the advent faith in America, returned to his native country to herald the coming of the Lord.",
+      "claim_text": "In 1842, Robert Winter, an Englishman who had adopted the advent faith in America, returned to England to preach the coming of the Lord.",
+      "claim_type": "date",
+      "entities": [
+        "Robert Winter",
+        "England",
+        "1842"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Corroborated near-verbatim by the local insider source Wellcome: 'In 1842, Robert Winter, an Englishman by birth... fell in with the Adventists in this country' and returned to England. Robert Winter is a documented Millerite emissary to Britain.",
+        "sources": [
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874), p.~289 — Robert Winter 1842",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-061",
+      "paragraph": 19,
+      "quote": "Many united with him in the work, and the message of the judgment was proclaimed in various parts of England.",
+      "claim_text": "Many people united with Robert Winter in proclaiming the judgment message in various parts of England.",
+      "claim_type": "event",
+      "entities": [
+        "Robert Winter",
+        "England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Winter's advent preaching spread in parts of England with co-labourers; consistent with the insider record.",
+        "sources": [
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874)",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-062",
+      "paragraph": 20,
+      "quote": "In South America, in the midst of barbarism and priestcraft, Lacunza, a Spaniard and a Jesuit, found his way to the Scriptures, and thus received the truth of Christ’s speedy return.",
+      "claim_text": "Lacunza, a Spanish Jesuit living in South America, came to the Scriptures and arrived at a belief in Christ's speedy return.",
+      "claim_type": "biographical",
+      "entities": [
+        "Lacunza",
+        "South America"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Manuel Lacunza was a Jesuit and a subject of Spain born in Santiago de Chile, who reached a premillennial reading of Scripture. Nuance: he composed his prophetic work in exile in Italy (Imola), not in South America, so the 'in South America... found his way to the Scriptures' framing is imprecise about where the work was done; his origin and identity are correct.",
+        "sources": [
+          {
+            "title": "Manuel Lacunza — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Manuel_Lacunza",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Two Hundred Years from Lacunza, JATS (Andrews Univ.)",
+            "url": "https://digitalcommons.andrews.edu/cgi/viewcontent.cgi?article=1342&context=jats",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-063",
+      "paragraph": 20,
+      "quote": "Impelled to give the warning, yet desiring to escape the censures of Rome, he published his views under the assumed name of “Rabbi Ben-Israel,” representing himself as a converted Jew.",
+      "claim_text": "Lacunza published his views on Christ's second coming under the pseudonym 'Rabbi Ben-Israel,' presenting himself as a converted Jew, in order to avoid censure from Rome.",
+      "claim_type": "biographical",
+      "entities": [
+        "Lacunza"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "contradicted",
+        "confidence": "medium",
+        "rationale": "The pseudonym is misstated. Lacunza published as 'Juan Josafat Ben-Ezra' (styled 'Rabbi Juan Josaphat ben-Ezra'), not 'Rabbi Ben-Israel'; the title page of the original ('...J.J. Ben Ezra, 1812') confirms 'Ben-Ezra.' The surrounding claims (a converted-Jew persona, avoiding Roman censure) are accurate; only the name is wrong. Possible source-copying error — flagged for the defender to check White's 19th-century sources for an 'Ben-Israel' rendering.",
+        "sources": [
+          {
+            "title": "Manuel Lacunza — Wikipedia (pseudonym Juan Josafat Ben-Ezra)",
+            "url": "https://en.wikipedia.org/wiki/Manuel_Lacunza",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Two Hundred Years from Lacunza, JATS (Andrews Univ.)",
+            "url": "https://digitalcommons.andrews.edu/cgi/viewcontent.cgi?article=1342&context=jats",
+            "source_class": "academic",
+            "supports_verdict": true
+          },
+          {
+            "title": "La venida del Mesías... J.J. Ben Ezra, 1812 (Internet Archive scan, title page)",
+            "url": "https://archive.org/details/venidamesiasgloriamagestad.v1.mlacunza.jjbenezra.1812.22.26",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "primary title page shows 'Ben Ezra'"
+          }
+        ]
+      },
+      "defense": {
+        "result": "defense_failed",
+        "argument": "Steelman: the claim is factually correct in every respect except the surname. Lacunza (a Jesuit) genuinely published his eschatological treatise under an assumed Jewish/converted-Jew persona precisely to gain a Protestant hearing and deflect Roman censure — GC's characterization of the motive and the persona is exactly right and well-documented. The only defect is the name: GC gives 'Rabbi Ben-Israel' where the pseudonym was 'Juan Josafat Ben-Ezra' (styled 'Rabbi Juan Josaphat ben-Ezra'). This is an isolated name-substitution, not a fabricated episode, and 'Ben-Israel' plausibly arose from conflation with the famous Amsterdam rabbi Menasseh ben Israel (a name far more current in English religious literature). \n\nThe anachronism path the verifier flagged was tested and FAILS. If a 19th-century Advent source White relied on had itself rendered the name 'Ben-Israel,' the verdict would downgrade to anachronistic. It did not. The principal insider Millerite history in scholarship/ (I. C. Wellcome, History of the Second Advent Message, 1874, p. 525-526 / lines 628, 28374, 28397) names him correctly TWICE as 'Ben Ezra' (Lacunza) and refers to 'a translation of Ben Ezra.' Edward Irving's 1827 English translation title likewise carries 'Ben-Ezra,' and the 1812 primary title page reads 'J.J. Ben Ezra.' Two web searches turned up no period or modern source using 'Ben-Israel' for Lacunza; all sources (JATS academic article, Wikipedia, primary scan, Adventist Encyclopedia) give 'Ben-Ezra.' Because the period baseline itself is correct, the error cannot be excused as period-typical scholarship — it is White's (or an intermediary's) own slip. Verdict 'contradicted' stands; not downgradeable to anachronistic. \n\nsource_quality: academic-partial (JATS/Andrews academic article + primary 1812 title page + local primary Wellcome 1874; encyclopedic corroboration secondary).",
+        "new_sources": [
+          {
+            "title": "I. C. Wellcome, History of the Second Advent Message (1874), pp. 525-526 — names Lacunza's pseudonym 'Ben Ezra' (twice), not 'Ben-Israel'",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt (lines 628, 28374, 28397)",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Insider Millerite history White's circle used; period baseline is 'Ben Ezra', defeating the anachronism steelman"
+          },
+          {
+            "title": "Two Hundred Years from Lacunza, JATS (Andrews University)",
+            "url": "https://digitalcommons.andrews.edu/cgi/viewcontent.cgi?article=1342&context=jats",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "Academic confirmation of pseudonym 'Juan Josafat Ben-Ezra'"
+          }
+        ]
+      },
+      "impact": {
+        "severity": 2,
+        "centrality": 2,
+        "load_bearing": false,
+        "impact_score": 4,
+        "narrative_arc": "millerite",
+        "reasoning": "Isolated name-substitution: GC gives 'Rabbi Ben-Israel' for the pseudonym Lacunza actually used, 'Juan Josafat Ben-Ezra' -- every surrounding fact (Jesuit identity, converted-Jew disguise, motive of escaping Roman censure) is correct, and even the era's own sources (Wellcome 1874, Irving's 1827 translation title) render the name correctly as 'Ben-Ezra,' so this is White's own slip rather than an inherited period error, notable as the first contradicted verdict to survive defense in the whole project. Counterfactual: correcting or deleting the erroneous name changes nothing about the Lacunza episode's role in the chapter's diffusion catalogue -- the claim that a Jesuit reached advent convictions and published under a converted-Jew persona to avoid censure stands untouched by which name is attached to that persona. Severity reflects a genuine, avoidable factual/quotation error confined to a single proper noun; centrality is low because the specific spelling of the pseudonym carries no argumentative weight of its own within either the chapter's or the book's thesis chain."
+      }
+    },
+    {
+      "id": "GC-20-064",
+      "paragraph": 20,
+      "quote": "Lacunza lived in the eighteenth century, but it was about 1825 that his book, having found its way to London, was translated into the English language.",
+      "claim_text": "Lacunza lived in the eighteenth century, and his book was translated into English in London around 1825.",
+      "claim_type": "date",
+      "entities": [
+        "Lacunza",
+        "London",
+        "1825"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Lacunza lived in the 18th century (1731–1801). The English translation (by Edward Irving) appeared in 1827; GC's 'about 1825' is close (the manuscript reached and circulated in London in the mid-1820s). Minor date approximation.",
+        "sources": [
+          {
+            "title": "Manuel Lacunza — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Manuel_Lacunza",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-065",
+      "paragraph": 21,
+      "quote": "In Germany the doctrine had been taught in the eighteenth century by Bengel, a minister in the Lutheran Church, and a celebrated biblical scholar and critic.",
+      "claim_text": "Bengel, a Lutheran minister and biblical scholar in Germany, taught the doctrine of Christ's soon coming in the eighteenth century.",
+      "claim_type": "biographical",
+      "entities": [
+        "Bengel",
+        "Germany"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Johann Albrecht Bengel (1687–1752), Lutheran minister in Württemberg and celebrated biblical scholar/critic, taught the soon coming (his date-setting) in the 18th century. Confirmed.",
+        "sources": [
+          {
+            "title": "Johann Albrecht Bengel — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Johann_Albrecht_Bengel",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-066",
+      "paragraph": 21,
+      "quote": "Upon completing his education, Bengel had “devoted himself to the study of theology, to which the grave and religious tone of his mind, deepened and strengthened by his early training and discipline, naturally inclined him. Like other young men of thoughtful character, before and since, he had to struggle with doubts and difficulties of a religious nature, and he alludes, with much feeling, to the ‘many arrows which pierced his poor heart, and made his youth hard to bear.’ ”",
+      "claim_text": "A source quoted in the text states that Bengel devoted himself to theology upon completing his education and struggled with religious doubts in his youth, describing 'many arrows which pierced his poor heart.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Bengel"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Footnote 605.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Faithful quotation from a Bengel memoir (footnote 605); consistent with the standard account of his turn to theology and youthful religious struggles.",
+        "sources": [
+          {
+            "title": "Johann Albrecht Bengel — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Johann_Albrecht_Bengel",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-067",
+      "paragraph": 21,
+      "quote": "Becoming a member of the consistory of Würtemberg, he advocated the cause of religious liberty.",
+      "claim_text": "Bengel became a member of the consistory of Würtemberg and advocated for religious liberty.",
+      "claim_type": "biographical",
+      "entities": [
+        "Bengel",
+        "Würtemberg"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Bengel served in the Württemberg church consistory and held moderate views on toleration; consistent with his biography.",
+        "sources": [
+          {
+            "title": "Johann Albrecht Bengel — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Johann_Albrecht_Bengel",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-068",
+      "paragraph": 21,
+      "quote": "“While maintaining the rights and privileges of the church, he was an advocate for all reasonable freedom being accorded to those who felt themselves bound, on grounds of conscience, to withdraw from her communion.”",
+      "claim_text": "A source quoted in the text states that Bengel, while maintaining the rights of the church, advocated for reasonable freedom for those who withdrew from church communion on grounds of conscience.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Bengel"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Footnote 606.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Faithful quotation from a Bengel memoir (footnote 606) on toleration; consistent with 067.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-069",
+      "paragraph": 22,
+      "quote": "It was while preparing a sermon from Revelation 21 for “Advent Sunday” that the light of Christ’s second coming broke in upon Bengel’s mind.",
+      "claim_text": "Bengel arrived at his belief in Christ's soon coming while preparing a sermon from Revelation 21 for 'Advent Sunday.'",
+      "claim_type": "biographical",
+      "entities": [
+        "Bengel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Specific memoir detail (light on the second coming came while preparing a Revelation 21 Advent-Sunday sermon); drawn from a Bengel biography. Not independently corroborable but consistent with his prophetic focus.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-070",
+      "paragraph": 22,
+      "quote": "The date which he fixed upon as the time of the second advent was within a very few years of that afterward held by Miller.",
+      "claim_text": "Bengel's own fixed date for the second advent was within a very few years of the date later held by William Miller.",
+      "claim_type": "biographical",
+      "entities": [
+        "Bengel",
+        "William Miller"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Bengel fixed June 18, 1836 for the onset of the millennium/second advent, within a very few years of Miller's 1843/1844. Confirmed.",
+        "sources": [
+          {
+            "title": "The End-Time Calculation of J.A. Bengel, Journal of Unification Studies (2010)",
+            "url": "https://www.journals.uts.edu/volume-xi-2010/102-the-end-time-calculation-of-johann-albrecht-bengel",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "Johann Albrecht Bengel — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Johann_Albrecht_Bengel",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-071",
+      "paragraph": 23,
+      "quote": "Bengel’s writings have been spread throughout Christendom. His views of prophecy were quite generally received in his own state of Würtemberg, and to some extent in other parts of Germany.",
+      "claim_text": "Bengel's writings spread throughout Christendom, and his views of prophecy were generally received in Würtemberg and to some extent elsewhere in Germany.",
+      "claim_type": "event",
+      "entities": [
+        "Bengel",
+        "Würtemberg",
+        "Germany"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Bengel's writings were widely diffused and his prophetic views were received in Württemberg and beyond in Germany; documented (Württemberg Pietism).",
+        "sources": [
+          {
+            "title": "Johann Albrecht Bengel — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Johann_Albrecht_Bengel",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-072",
+      "paragraph": 23,
+      "quote": "At an early date some of the believers went to Russia, and there formed colonies, and the faith of Christ’s soon coming is still held by the German churches of that country.",
+      "claim_text": "Some believers in Bengel's advent teaching emigrated to Russia at an early date, formed colonies, and the belief in Christ's soon coming was still held by German churches in Russia at the time of writing.",
+      "claim_type": "event",
+      "entities": [
+        "Bengel",
+        "Russia"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Württemberg Pietists influenced by Bengel's date emigrated eastward — to Russia (and the Holy Land) — forming colonies to await the coming; German advent-minded colonies persisted in Russia. Confirmed.",
+        "sources": [
+          {
+            "title": "Johann Albrecht Bengel — Wikipedia (Swabian emigration eastward)",
+            "url": "https://en.wikipedia.org/wiki/Johann_Albrecht_Bengel",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-073",
+      "paragraph": 24,
+      "quote": "At Geneva, where Farel and Calvin had spread the truths of the Reformation, Gaussen preached the message of the second advent.",
+      "claim_text": "Gaussen preached the message of the second advent at Geneva, the city where Farel and Calvin had earlier spread the truths of the Reformation.",
+      "claim_type": "biographical",
+      "entities": [
+        "Gaussen",
+        "Farel",
+        "Calvin",
+        "Geneva"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Louis Gaussen preached the second advent at Geneva, the city where Farel and Calvin had earlier established the Reformation. Confirmed.",
+        "sources": [
+          {
+            "title": "Louis Gaussen — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Louis_Gaussen",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Gaussen, Louis — McClintock & Strong Biblical Cyclopedia",
+            "url": "https://www.biblicalcyclopedia.com/G/gaussen-louis.html",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-074",
+      "paragraph": 24,
+      "quote": "While a student at school, Gaussen had encountered that spirit of rationalism which pervaded all Europe during the latter part of the eighteenth and the opening of the nineteenth century; and when he entered the ministry he was not only ignorant of true faith, but inclined to skepticism.",
+      "claim_text": "As a student, Gaussen encountered a pervasive spirit of rationalism in Europe of the late eighteenth/early nineteenth century, and upon entering the ministry he was inclined to skepticism.",
+      "claim_type": "biographical",
+      "entities": [
+        "Gaussen"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Gaussen came of age amid late-18th/early-19th-century rationalism and entered the ministry inclined to skepticism before his evangelical turn; consistent with his biography.",
+        "sources": [
+          {
+            "title": "Gaussen, Louis — McClintock & Strong Biblical Cyclopedia",
+            "url": "https://www.biblicalcyclopedia.com/G/gaussen-louis.html",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-075",
+      "paragraph": 24,
+      "quote": "After reading Rollin’s “Ancient History,” his attention was called to the second chapter of Daniel, and he was struck with the wonderful exactness with which the prophecy had been fulfilled, as seen in the historian’s record.",
+      "claim_text": "Gaussen's attention was drawn to Daniel chapter 2 after reading Rollin's 'Ancient History,' where he found the prophecy's fulfillment recorded with what he considered wonderful exactness.",
+      "claim_type": "biographical",
+      "entities": [
+        "Gaussen"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Reading Rollin's Ancient History drew Gaussen's attention to Daniel 2 and its historical fulfillment, leading to his interest in the second advent. Confirmed.",
+        "sources": [
+          {
+            "title": "Louis Gaussen — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Louis_Gaussen",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-076",
+      "paragraph": 25,
+      "quote": "He finally determined—as Farel had done before him in evangelizing Geneva—to begin with the children, through whom he hoped to interest the parents.",
+      "claim_text": "Gaussen determined to begin his prophecy teaching with children, following the earlier example of Farel in evangelizing Geneva, hoping through the children to interest their parents.",
+      "claim_type": "causal",
+      "entities": [
+        "Gaussen",
+        "Farel",
+        "Geneva"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Gaussen chose to teach the prophecies to children first (as Farel had earlier begun in Geneva), hoping to reach the parents; consistent with his own stated method.",
+        "sources": [
+          {
+            "title": "Gaussen, Louis — McClintock & Strong Biblical Cyclopedia",
+            "url": "https://www.biblicalcyclopedia.com/G/gaussen-louis.html",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-077",
+      "paragraph": 26,
+      "quote": "“I desire this to be understood,” he afterward said, speaking of his object in this undertaking, “it is not because of its small importance, but on the contrary because of its great value, that I wished to present it in this familiar form, and that I addressed it to the children. I desired to be heard, and I feared that I would not be if I addressed myself to the grown people first.” “I determined therefore to go to the youngest. I gather an audience of children; if the group enlarges, if it is seen that they listen, are pleased, interested, that they understand and explain the subject, I am sure to have a second circle soon, and in their turn, grown people will see that it is worth their while to sit down and study. When this is done, the cause is gained.”",
+      "claim_text": "Gaussen is quoted explaining that he deliberately addressed children first, believing that if children showed interest, adults would follow and take the subject seriously.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Gaussen"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Footnote 607.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Faithful quotation from Gaussen (footnote 607) explaining why he addressed children first; consistent with his documented method.",
+        "sources": [
+          {
+            "title": "Louis Gaussen — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Louis_Gaussen",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-078",
+      "paragraph": 27,
+      "quote": "As he addressed the children, older persons came to listen. The galleries of his church were filled with attentive hearers.",
+      "claim_text": "As Gaussen addressed children, older persons came to listen, and the galleries of his church filled with attentive hearers.",
+      "claim_type": "event",
+      "entities": [
+        "Gaussen"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Adults came to listen as Gaussen taught the children and his church filled; consistent with the accounts of his ministry.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-079",
+      "paragraph": 28,
+      "quote": "“To publish instruction given to the children,” says Gaussen, “is to say to adults, who too often neglect such books under the false pretense that they are obscure, ‘How can they be obscure, since your children understand them?’ ”",
+      "claim_text": "Gaussen is quoted explaining his rationale for publishing his children's lessons on prophecy as a way to challenge adults' claim that prophetic books are too obscure.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Gaussen"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Faithful quotation from Gaussen on publishing the children's instruction to shame adults' 'obscurity' pretext; corroborated by the standard account.",
+        "sources": [
+          {
+            "title": "Louis Gaussen — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Louis_Gaussen",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-080",
+      "paragraph": 28,
+      "quote": "“I had a great desire,” he adds, “to render a knowledge of the prophecies popular in our flocks, if possible.”",
+      "claim_text": "Gaussen is quoted stating he had a great desire to make knowledge of the prophecies popular among his congregations.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Gaussen"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Faithful quotation of Gaussen's stated desire to popularize prophecy in his congregations.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-081",
+      "paragraph": 29,
+      "quote": "Gaussen was after a time suspended from the ministry, his principal offense being that instead of the church’s catechism, a tame and rationalistic manual, almost destitute of positive faith, he had used the Bible in giving instruction to the youth.",
+      "claim_text": "Gaussen was eventually suspended from the ministry, his principal offense being his use of the Bible rather than the official church catechism in instructing youth.",
+      "claim_type": "event",
+      "entities": [
+        "Gaussen"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Gaussen was suspended from the ministry, the principal charge being his use of the Bible rather than the official (rationalistic) catechism in instructing youth. Confirmed.",
+        "sources": [
+          {
+            "title": "Louis Gaussen — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Louis_Gaussen",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Gaussen, Louis — McClintock & Strong Biblical Cyclopedia",
+            "url": "https://www.biblicalcyclopedia.com/G/gaussen-louis.html",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-082",
+      "paragraph": 29,
+      "quote": "He afterward became teacher in a theological school, while on Sunday he continued his work as catechist, addressing the children, and instructing them in the Scriptures.",
+      "claim_text": "After his suspension, Gaussen became a teacher in a theological school while continuing on Sundays as a catechist instructing children in Scripture.",
+      "claim_type": "biographical",
+      "entities": [
+        "Gaussen"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "After suspension Gaussen taught in a theological school (the Evangelical Society's school, from 1834) and continued catechizing children; consistent with his biography.",
+        "sources": [
+          {
+            "title": "Louis Gaussen — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Louis_Gaussen",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-083",
+      "paragraph": 30,
+      "quote": "In Scandinavia also the advent message was proclaimed, and a wide-spread interest was kindled.",
+      "claim_text": "The advent message was proclaimed in Scandinavia and kindled widespread interest there.",
+      "claim_type": "event",
+      "entities": [
+        "Scandinavia"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "A Scandinavian (chiefly Swedish) advent revival did arise in the early 1840s with widespread interest. source_quality: encyclopedic-only (academic source not located within budget for this sub-cluster; verdict non-accusatory).",
+        "sources": [
+          {
+            "title": "Shouter movement (Roparerörelsen) — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Shouter_movement",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-084",
+      "paragraph": 30,
+      "quote": "the clergy of the state church opposed the movement, and through their influence some who preached the message were thrown into prison.",
+      "claim_text": "The clergy of the Scandinavian state church opposed the advent movement, and through their influence some preachers of the message were imprisoned.",
+      "claim_type": "event",
+      "entities": [
+        "Scandinavia"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The Church of Sweden (state church) opposed the lay revival; the Conventicle Act (1726, in force into the mid-1800s) was used to punish unauthorized preachers, and some were confined. Consistent with the record.",
+        "sources": [
+          {
+            "title": "Shouter movement — Wikipedia (Conventicle Act, persecution)",
+            "url": "https://en.wikipedia.org/wiki/Shouter_movement",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-085",
+      "paragraph": 30,
+      "quote": "In many places where the preachers of the Lord’s soon coming were thus silenced, God was pleased to send the message, in a miraculous manner, through little children.",
+      "claim_text": "Where advent preachers were silenced, God is said to have miraculously sent the message through little children.",
+      "claim_type": "theological",
+      "entities": [
+        "Scandinavia"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim that God miraculously sent the message through children; not empirically decidable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-086",
+      "paragraph": 31,
+      "quote": "The movement was chiefly among the lower class, and it was in the humble dwellings of the laborers that the people assembled to hear the warning.",
+      "claim_text": "The Scandinavian child-preaching movement was chiefly among the lower class, with people assembling in the humble dwellings of laborers to hear the message.",
+      "claim_type": "event",
+      "entities": [
+        "Scandinavia"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The Swedish 'ropare' revival was chiefly among the lower classes (peasants, maids, labourers), meeting in humble homes. Consistent with the record.",
+        "sources": [
+          {
+            "title": "Shouter movement — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Shouter_movement",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-087",
+      "paragraph": 31,
+      "quote": "Some of them were not more than six or eight years of age",
+      "claim_text": "Some of the Scandinavian child-preachers were as young as six or eight years old.",
+      "claim_type": "statistic",
+      "entities": [
+        "Scandinavia"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Child preachers, some very young, are a documented feature of the Swedish revival; ages as low as six to eight are reported in the advent-historical literature (Froom) and consistent with the 'child-preacher' character of the movement.",
+        "sources": [
+          {
+            "title": "Shouter movement — Wikipedia (child preachers)",
+            "url": "https://en.wikipedia.org/wiki/Shouter_movement",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-088",
+      "paragraph": 31,
+      "quote": "it was evident that they were moved by an influence beyond their own natural gifts.",
+      "claim_text": "The Scandinavian child-preachers were, according to the text, moved by an influence beyond their own natural gifts when speaking before the people.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim that the child-preachers were moved by an influence beyond natural gifts; not empirically decidable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-089",
+      "paragraph": 32,
+      "quote": "a work was done so marked that even ministers of the state church were forced to acknowledge that the hand of God was in the movement.",
+      "claim_text": "The Scandinavian child-preaching movement's effects were so marked that ministers of the state church were forced to acknowledge God's hand in it.",
+      "claim_type": "theological",
+      "entities": [
+        "Scandinavia"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim that ministers acknowledged 'the hand of God'; the supernatural attribution is not empirically decidable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-090",
+      "paragraph": 33,
+      "quote": "When Jesus drew near to Jerusalem attended by the rejoicing multitudes that, with shouts of triumph and the waving of palm branches, heralded Him as the Son of David, the jealous Pharisees called upon Him to silence them; but Jesus answered that all this was in fulfilment of prophecy, and if these should hold their peace, the very stones would cry out.",
+      "claim_text": "According to the Gospel account, when Jesus entered Jerusalem amid rejoicing crowds, the Pharisees asked Him to silence them, and Jesus replied that this fulfilled prophecy and that the stones would cry out if the people were silent.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus",
+        "Jerusalem",
+        "Pharisees"
+      ],
+      "needs_verification": false,
+      "extractor_note": "Retelling of the Triumphal Entry narrative (Luke 19) used as a typological analogy for the Scandinavian child-preachers episode.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Control-sample check of a needs_verification:false claim: the retelling of the Triumphal Entry (crowds hailing Jesus as Son of David, Pharisees asking Him to silence them, Jesus answering that the stones would cry out) accurately reflects Luke 19:37-40 / Matt 21. The embedded Gospel-narrative assertion is accurate; the typological application is theological.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-091",
+      "paragraph": 34,
+      "quote": "To William Miller and his co-laborers it was given to preach the warning in America.",
+      "claim_text": "William Miller and his co-laborers preached the advent warning in America.",
+      "claim_type": "event",
+      "entities": [
+        "William Miller",
+        "America"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "William Miller and his co-labourers preached the advent warning in America — the well-documented Millerite movement.",
+        "sources": [
+          {
+            "title": "Millerism — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-092",
+      "paragraph": 34,
+      "quote": "This country became the center of the great Advent Movement.",
+      "claim_text": "America became the center of the great Advent Movement.",
+      "claim_type": "interpretive",
+      "entities": [
+        "America",
+        "Advent Movement"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive claim that America was the center of the Advent Movement; framed as interpretation. (Historically the American Millerite movement was the largest; the load-bearing content here is interpretive.)",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-093",
+      "paragraph": 34,
+      "quote": "It was here that the prophecy of the first angel’s message had its most direct fulfilment.",
+      "claim_text": "The prophecy of the first angel's message of Revelation 14 had its most direct fulfilment in America.",
+      "claim_type": "theological",
+      "entities": [
+        "America",
+        "Revelation 14"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Prophetic-fulfillment claim (first angel's message fulfilled 'most directly' in America); theological.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-094",
+      "paragraph": 34,
+      "quote": "The writings of Miller and his associates were carried to distant lands.",
+      "claim_text": "The writings of William Miller and his associates were carried to distant lands beyond America.",
+      "claim_type": "event",
+      "entities": [
+        "William Miller"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Millerite writings were carried abroad (e.g. reprinted in Britain and taken to mission fields); documented.",
+        "sources": [
+          {
+            "title": "Millerism — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-095",
+      "paragraph": 35,
+      "quote": "The testimony of the prophecies which seemed to point to the coming of Christ in the spring of 1844, took deep hold of the minds of the people.",
+      "claim_text": "Prophetic arguments pointing to Christ's coming in the spring of 1844 took deep hold on the minds of the American public.",
+      "claim_type": "date",
+      "entities": [
+        "1844"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Miller's earlier computation pointed to Christ's coming about the Jewish year ending in the spring of 1844 (around March 21, 1844) before the later 'seventh-month' revision to October 22, 1844. 'Spring of 1844' matches the earlier expectation. source_quality: academic-partial.",
+        "sources": [
+          {
+            "title": "Great Disappointment — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "A. Taylor, The Origins of Millerite Separatism (Aurora Univ.)",
+            "url": "https://aurora.edu/documents/library-archives/origins-of-millerite-separatism-andrew-taylor.pdf",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-096",
+      "paragraph": 35,
+      "quote": "As the message went from State to State, there was everywhere awakened wide-spread interest.",
+      "claim_text": "As the advent message spread from state to state in America, it awakened widespread interest everywhere.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The message spread state to state with widespread interest through camp meetings and the advent press; documented.",
+        "sources": [
+          {
+            "title": "Millerism — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-097",
+      "paragraph": 35,
+      "quote": "Some ministers laid aside their sectarian views and feelings, left their salaries and their churches, and united in proclaiming the coming of Jesus.",
+      "claim_text": "Some ministers in America left their salaries, churches, and sectarian views to join in proclaiming Christ's coming.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Some ministers left their pulpits and salaries to preach the advent (e.g. Charles Fitch, Josiah Litch, and others); documented.",
+        "sources": [
+          {
+            "title": "Millerism — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-098",
+      "paragraph": 35,
+      "quote": "the advent truth was accepted by many thousands.",
+      "claim_text": "The advent truth (Millerite message) was accepted by many thousands of people.",
+      "claim_type": "statistic",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Millerite adherents are estimated by historians at roughly 50,000–100,000, so 'many thousands' is well supported. source_quality: academic-partial.",
+        "sources": [
+          {
+            "title": "Great Disappointment — Wikipedia (50,000–100,000)",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "A. Taylor, The Origins of Millerite Separatism (Aurora Univ.)",
+            "url": "https://aurora.edu/documents/library-archives/origins-of-millerite-separatism-andrew-taylor.pdf",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-099",
+      "paragraph": 36,
+      "quote": "Like John the Baptist, the forerunner of Christ, the preachers laid the axe at the root of the tree, and urged all to bring forth fruit meet for repentance.",
+      "claim_text": "The advent preachers are characterized as being like John the Baptist, urging repentance in a manner that 'laid the axe at the root of the tree.'",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/typological comparison of the preachers to John the Baptist; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-100",
+      "paragraph": 36,
+      "quote": "Their stirring appeals were in marked contrast to the assurances of peace and safety that were heard from popular pulpits",
+      "claim_text": "The advent preachers' stirring appeals are characterized as being in marked contrast to assurances of peace and safety heard from popular pulpits of the day.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive contrast between the advent preachers and 'popular pulpits'; rhetorical/theological.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-101",
+      "paragraph": 37,
+      "quote": "Heartfelt confessions were made, and the members of the household labored for the salvation of those who were nearest and dearest.",
+      "claim_text": "During the Millerite revival, heartfelt confessions were made and family members labored for the conversion of their nearest and dearest relatives.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "General/vague characterization of revival phenomena; included per completeness rule.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "General characterization of revival phenomena (confessions, family conversions); consistent with revival accounts but too vague to verify precisely.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-102",
+      "paragraph": 38,
+      "quote": "All classes flocked to the Adventist meetings. Rich and poor, high and low, were, from various causes, anxious to hear for themselves the doctrine of the second advent.",
+      "claim_text": "People of all social classes -- rich and poor, high and low -- flocked to Adventist meetings to hear the doctrine of the second advent.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Adventist meetings drew broad cross-class attendance; consistent with contemporary and historical accounts of the movement's reach.",
+        "sources": [
+          {
+            "title": "Millerism — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-103",
+      "paragraph": 38,
+      "quote": "The presence of holy angels was felt in these assemblies",
+      "claim_text": "The presence of holy angels was felt in the Adventist assemblies.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the felt presence of holy angels; supernatural, not empirically decidable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-104",
+      "paragraph": 38,
+      "quote": "many were daily added to the believers.",
+      "claim_text": "Many people were daily added to the ranks of Adventist believers.",
+      "claim_type": "statistic",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The movement grew rapidly with continual accessions during 1843–44; consistent with the historiography.",
+        "sources": [
+          {
+            "title": "Millerism — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-105",
+      "paragraph": 39,
+      "quote": "The proclamation of a definite time for Christ’s coming called forth great opposition from many of all classes, from the minister in the pulpit down to the most reckless, Heaven-daring sinner.",
+      "claim_text": "The Millerite proclamation of a definite time for Christ's coming provoked great opposition from people of all classes, from ministers to irreligious sinners.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The setting of a definite time provoked broad opposition from clergy and the irreligious alike; documented, including ridicule in the press.",
+        "sources": [
+          {
+            "title": "Great Disappointment — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-106",
+      "paragraph": 39,
+      "quote": "The words of prophecy were fulfilled: “There shall come in the last days scoffers, walking after their own lusts, and saying, ‘Where is the promise of His coming?’ for since the fathers fell asleep, all things continue as they were from the beginning of the creation.”",
+      "claim_text": "The opposition to the Millerite advent message is presented as a fulfillment of the prophecy of 2 Peter 3 concerning 'scoffers' who deny the promise of Christ's coming.",
+      "claim_type": "theological",
+      "entities": [
+        "2 Peter"
+      ],
+      "needs_verification": false,
+      "extractor_note": "Footnote 609; contains a direct scriptural quotation whose text is checkable against 2 Peter 3:3-4 KJV, but the operative claim is the fulfillment interpretation.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Control-sample check of a needs_verification:false claim: the embedded quotation matches 2 Peter 3:3-4 KJV ('there shall come in the last days scoffers... Where is the promise of his coming?...'). The scriptural text is accurate; the 'fulfillment' framing is theological/unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-107",
+      "paragraph": 40,
+      "quote": "The words were spoken by Christ in that memorable conversation with His disciples upon Olivet, after He had for the last time departed from the temple.",
+      "claim_text": "The saying 'of that day and hour knoweth no man' was spoken by Christ to His disciples on the Mount of Olives, after His final departure from the temple, per the Gospel account.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus",
+        "Mount of Olives"
+      ],
+      "needs_verification": false,
+      "extractor_note": "Assertion about Gospel narrative context (Matthew 24); classified theological as part of scriptural exposition, though in principle checkable against the Gospel text itself.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Control-sample check of a needs_verification:false claim: the Gospel context is accurate — the 'of that day and hour knoweth no man' saying belongs to the Olivet Discourse (Matt 24), which Matthew places after Jesus 'departed from the temple' (24:1) and sat on the Mount of Olives (24:3). Narrative context correctly reported; the exposition is theological.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-108",
+      "paragraph": 41,
+      "quote": "Paul speaks of a class to whom the Lord’s appearing will come unawares.",
+      "claim_text": "The apostle Paul is described as speaking, in 1 Thessalonians 5, of a class of people to whom the Lord's appearing will come unawares, like a thief in the night.",
+      "claim_type": "theological",
+      "entities": [
+        "Paul"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Exposition of 1 Thessalonians 5 (the Lord's appearing coming 'unawares'); theological.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-109",
+      "paragraph": 42,
+      "quote": "As the people were roused, and began to inquire the way of salvation, religious teachers stepped in between them and the truth, seeking to quiet their fears by falsely interpreting the word of God.",
+      "claim_text": "As people were roused by the advent message and began inquiring about salvation, religious teachers intervened to quiet their fears through what the text characterizes as false interpretation of Scripture.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/polemical claim that teachers gave a 'false interpretation' of Scripture; theological judgment.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-110",
+      "paragraph": 42,
+      "quote": "Unfaithful watchmen united in the work of the great deceiver, crying, Peace, peace, when God had not spoken peace.",
+      "claim_text": "Clergy opposed to the advent message are characterized as 'unfaithful watchmen' who united in the work of Satan by preaching false assurances of peace.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive characterization of opposing clergy as 'unfaithful watchmen' aiding the deceiver; theological.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-111",
+      "paragraph": 43,
+      "quote": "The most humble and devoted in the churches were usually the first to receive the message.",
+      "claim_text": "The most humble and devoted church members were usually the first to accept the Millerite advent message.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive generalization that the humble/devoted received the message first; not empirically checkable as stated.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-112",
+      "paragraph": 43,
+      "quote": "wherever the people were not controlled by the influence of the clergy, wherever they would search the word of God for themselves, the advent doctrine needed only to be compared with the Scriptures to establish its divine authority.",
+      "claim_text": "Wherever people searched Scripture independently of clergy influence, the advent doctrine needed only comparison with Scripture to establish its authority in their eyes.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive claim tying independent Scripture study to acceptance of the advent doctrine; theological/rhetorical.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-113",
+      "paragraph": 44,
+      "quote": "Many were persecuted by their unbelieving brethren.",
+      "claim_text": "Many advent believers were persecuted by fellow church members who did not accept the advent message.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Advent believers were often opposed and ostracized by fellow church members; documented in the 'come-outer' separatism of 1843–44.",
+        "sources": [
+          {
+            "title": "A. Taylor, The Origins of Millerite Separatism (Aurora Univ.)",
+            "url": "https://aurora.edu/documents/library-archives/origins-of-millerite-separatism-andrew-taylor.pdf",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-114",
+      "paragraph": 44,
+      "quote": "Not a few were cut off from the fellowship of the church for no other reason than expressing their belief in the coming of Christ.",
+      "claim_text": "A significant number of advent believers were expelled from church fellowship solely for expressing belief in Christ's soon coming.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Churches did expel members over advent belief in 1843–44, which drove the Millerite 'come-out' separation from the denominations. Documented in the separatism scholarship. source_quality: academic-partial.",
+        "sources": [
+          {
+            "title": "A. Taylor, The Origins of Millerite Separatism (Aurora Univ.)",
+            "url": "https://aurora.edu/documents/library-archives/origins-of-millerite-separatism-andrew-taylor.pdf",
+            "source_class": "academic",
+            "supports_verdict": true
+          },
+          {
+            "title": "Millerism — Wikipedia (expulsions / come-outerism)",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-115",
+      "paragraph": 45,
+      "quote": "Angels of God were watching with the deepest interest the result of the warning.",
+      "claim_text": "Angels of God watched with deep interest the results of the advent warning being given.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about angels watching the results of the warning; supernatural.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-116",
+      "paragraph": 45,
+      "quote": "When there was a general rejection of the message by the churches, angels turned away in sadness.",
+      "claim_text": "When the churches generally rejected the advent message, angels turned away in sadness.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about angels turning away in sadness; supernatural.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-117",
+      "paragraph": 46,
+      "quote": "For some weeks preceding the time, worldly business was for the most part laid aside.",
+      "claim_text": "For some weeks before the expected 1844 advent date, Millerite believers largely laid aside their worldly business.",
+      "claim_type": "event",
+      "entities": [
+        "Millerites"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Corroborated by the insider source Wellcome: 'worldly business was for the most part... suspended' as believers prepared for the expected event. Consistent with contemporary accounts.",
+        "sources": [
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874) — business suspended",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-118",
+      "paragraph": 46,
+      "quote": "There was no making of “ascension robes;”",
+      "claim_text": "Millerite believers did not make special 'ascension robes' in anticipation of Christ's coming.",
+      "claim_type": "event",
+      "entities": [
+        "Millerites"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Footnote 616. Directly addresses a well-known popular legend about the Millerites; historiographically significant claim for verification.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The 'ascension robes' story is largely a hostile-press legend. Millerite papers denied it at the time, the insider historian Wellcome (local) states investigations found 'no instance of the kind anywhere occurred,' and modern Millerite historiography (Nichol; treatments in Numbers & Butler's The Disappointed) regards the robe accounts as exaggerated/fabricated, though a few isolated later claims keep the picture nuanced. White's denial aligns with the dominant scholarly position. source_quality: academic-partial.",
+        "sources": [
+          {
+            "title": "Wellcome, History of the Second Advent Message (1874) — ascension robes 'false and scandalous'",
+            "url": "scholarship/wellcome-history-second-advent-message-1874.txt",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "Are the ascension robes a myth? (survey of Millerite historians' debunking)",
+            "url": "https://talkerofthetown.com/2019/10/18/remembering-the-terquasquicentennial-of-the-day-of-wrath-or-the-great-disappointment-atop-cobbs-hill-are-the-ascension-robes-a-myth/",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "Great Disappointment — Wikipedia (Millerite denials of robes)",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-119",
+      "paragraph": 47,
+      "quote": "God designed to prove His people. His hand covered a mistake in the reckoning of the prophetic periods.",
+      "claim_text": "God is said to have deliberately allowed (covered) a mistake in the Millerite reckoning of the prophetic periods, in order to test His people.",
+      "claim_type": "theological",
+      "entities": [
+        "Millerites"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim that God designed to prove His people and 'covered a mistake' in the reckoning; not empirically decidable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-120",
+      "paragraph": 47,
+      "quote": "Adventists did not discover the error, nor was it discovered by the most learned of their opponents.",
+      "claim_text": "Neither the Millerite Adventists nor the most learned of their opponents discovered the error in the reckoning of the prophetic periods before the expected date passed.",
+      "claim_type": "event",
+      "entities": [
+        "Millerites"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Before the expected date, contemporaries did not identify a chronological error in Miller's prophetic reckoning; opponents typically disputed the nature of the predicted event rather than the calculation (see GC-20-121). The concept of a providentially 'covered' error is theological; the empirical part (no acknowledged discovery of a reckoning error) is broadly consistent with the record but hard to establish universally.",
+        "sources": [
+          {
+            "title": "Great Disappointment — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-121",
+      "paragraph": 47,
+      "quote": "The latter said: “Your reckoning of the prophetic periods is correct. Some great event is about to take place; but it is not what Mr. Miller predicts; it is the conversion of the world, and not the second advent of Christ.”",
+      "claim_text": "Opponents of William Miller reportedly conceded that his reckoning of the prophetic periods was correct but argued the predicted event was the conversion of the world rather than the second advent of Christ.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "William Miller"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Footnote 617; attribution is to unnamed 'opponents' rather than a specific named individual.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Attributed to unnamed 'opponents' (footnote 617). Some contemporaries (notably postmillennialists) did accept the prophetic-period chronology while arguing the event foretold was the world's conversion rather than the personal advent — a genuine period position. The specific quotation is not tied to a named individual, so confidence is low.",
+        "sources": [
+          {
+            "title": "Millerism — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Millerism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-122",
+      "paragraph": 48,
+      "quote": "The time of expectation passed, and Christ did not appear for the deliverance of His people.",
+      "claim_text": "The expected time for Christ's appearing (1844) passed without Christ appearing for the deliverance of His people.",
+      "claim_type": "event",
+      "entities": [
+        "1844"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The expected time passed and Christ did not appear — the Great Disappointment (culminating October 22, 1844). Well documented. source_quality: academic-partial.",
+        "sources": [
+          {
+            "title": "Great Disappointment — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "A. Taylor, The Origins of Millerite Separatism (Aurora Univ.)",
+            "url": "https://aurora.edu/documents/library-archives/origins-of-millerite-separatism-andrew-taylor.pdf",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-123",
+      "paragraph": 48,
+      "quote": "Those who with sincere faith and love had looked for their Saviour, experienced a bitter disappointment.",
+      "claim_text": "Millerite believers who had sincerely awaited Christ's coming experienced bitter disappointment when the expected date passed.",
+      "claim_type": "event",
+      "entities": [
+        "Millerites"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Sincere Millerite believers experienced a bitter disappointment; the episode is literally named the Great Disappointment.",
+        "sources": [
+          {
+            "title": "Great Disappointment — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Disappointment",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-20-124",
+      "paragraph": 48,
+      "quote": "There were among them many who had been actuated by no higher motive than fear.",
+      "claim_text": "Among the Millerite believers, many were motivated by no higher motive than fear rather than sincere faith.",
+      "claim_type": "event",
+      "entities": [
+        "Millerites"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Characterization that some professed adherents were driven mainly by fear; plausible and consistent with contemporary observers but a subjective, hard-to-quantify motive claim.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-125",
+      "paragraph": 48,
+      "quote": "When the expected event failed to take place, these persons declared that they were not disappointed; they had never believed that Christ would come.",
+      "claim_text": "When the expected 1844 advent failed to occur, some fear-motivated professed believers claimed they had never actually believed Christ would come and were not disappointed.",
+      "claim_type": "event",
+      "entities": [
+        "Millerites"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "After the date failed, some who had professed belief distanced themselves and claimed they had never really expected the advent; consistent with accounts of post-disappointment fallout, though a general characterization.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-126",
+      "paragraph": 49,
+      "quote": "But Jesus and all the heavenly host looked with love and sympathy upon the tried and faithful yet disappointed ones.",
+      "claim_text": "Jesus and the heavenly host looked with love and sympathy upon the faithful believers who were disappointed after the passing of the expected 1844 advent.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Jesus and the heavenly host regarding the disappointed; supernatural.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-20-127",
+      "paragraph": 49,
+      "quote": "Could the veil separating the visible from the invisible world have been swept back, angels would have been seen drawing near to these steadfast souls, and shielding them from the shafts of Satan.",
+      "claim_text": "Had the veil between the visible and invisible worlds been removed, angels would have been seen drawing near to the disappointed but steadfast believers, shielding them from Satan.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about angels shielding believers behind the veil; supernatural.",
+        "sources": []
+      }
+    }
+  ]
+}

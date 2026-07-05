@@ -1229,52 +1229,186 @@
       "words": 4067,
       "paragraphs": 30,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 74,
+          "needs_verification": 52,
+          "by_type": {
+            "attributed_quote": 27,
+            "theological": 15,
+            "event": 12,
+            "biographical": 9,
+            "interpretive": 7,
+            "causal": 4
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 51,
+          "anachronistic": 1,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 22,
+          "low_confidence": 0,
+          "searches": 4,
+          "clusters": 4
+        },
+        "defend": {
+          "examined": 1,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 1,
+          "searches": 0
+        }
+      },
+      "updated_at": "2026-07-05T11:12:22Z"
     },
     "20": {
       "title": "A Great Religious Awakening",
       "words": 6844,
       "paragraphs": 49,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
-        "impact": "pending"
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
+        "impact": "done"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 127,
+          "needs_verification": 96,
+          "by_type": {
+            "event": 39,
+            "theological": 23,
+            "attributed_quote": 22,
+            "biographical": 20,
+            "date": 9,
+            "interpretive": 8,
+            "statistic": 4,
+            "causal": 2
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 82,
+          "anachronistic": 0,
+          "disputed": 1,
+          "contradicted": 1,
+          "misquotation": 0,
+          "unverifiable": 43,
+          "low_confidence": 12,
+          "searches": 11,
+          "clusters": 9
+        },
+        "defend": {
+          "examined": 1,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 1,
+          "searches": 2
+        },
+        "impact": {
+          "scored": 2,
+          "load_bearing": 1,
+          "top_impact": [
+            {
+              "id": "GC-20-016",
+              "score": 12
+            },
+            {
+              "id": "GC-20-063",
+              "score": 4
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-07-05T11:14:24Z"
     },
     "21": {
       "title": "A Warning Rejected",
       "words": 5334,
       "paragraphs": 42,
       "stages": {
-        "extract": "pending",
+        "extract": "done",
         "verify": "pending",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 90,
+          "needs_verification": 54,
+          "by_type": {
+            "theological": 23,
+            "attributed_quote": 22,
+            "event": 17,
+            "interpretive": 13,
+            "causal": 6,
+            "biographical": 5,
+            "date": 3,
+            "statistic": 1
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 51,
+          "anachronistic": 0,
+          "disputed": 3,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 33,
+          "low_confidence": 13,
+          "searches": 18,
+          "clusters": 9
+        }
+      },
+      "updated_at": "2026-07-05T11:13:29Z"
     },
     "22": {
       "title": "Prophecies Fulfilled",
       "words": 6239,
       "paragraphs": 45,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
+        "extract": "done",
+        "verify": "done",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 92,
+          "needs_verification": 70,
+          "by_type": {
+            "attributed_quote": 27,
+            "theological": 19,
+            "event": 17,
+            "date": 11,
+            "biographical": 8,
+            "causal": 4,
+            "statistic": 3,
+            "interpretive": 3
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 68,
+          "anachronistic": 0,
+          "disputed": 1,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 23,
+          "low_confidence": 6,
+          "searches": 5,
+          "clusters": 6
+        }
+      },
+      "updated_at": "2026-07-05T11:13:00Z"
     },
     "23": {
       "title": "What Is The Sanctuary?",
