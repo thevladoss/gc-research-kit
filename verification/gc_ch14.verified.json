@@ -1,0 +1,3690 @@
+{
+  "chapter": 14,
+  "chapter_title": "Later English Reformers",
+  "stage": "verification",
+  "generated_at": "2026-07-05",
+  "notes": "Extraction pass, single session (chapter within comfortable context size, not split into halves). Heavy concentration of attributed quotations (Tyndale, Latimer, Knox, Mary Queen of Scots, John Wesley, Charles Wesley, plus unnamed Catholic doctor and unnamed Antinomian theologians). Long Wesley discourses on the law (paragraphs 48-58) segmented per paragraph since they span multiple footnoted quotations; some quotes continue across paragraph boundaries without a new footnote number, noted via extractor_note.\n\nsearches: ~10 web + local greps (Wylie vol3, Deanesly, D'Aubigne). clusters: 7 (Tyndale & Bible-printing; medieval vernacular Bible access [escalation]; Latimer/English reformers; Scotland/Celtic church; English dissenters/Bunyan/Baxter; Wesley/Methodism; Antinomianism). Delta form used (157 claims with very long frozen quotes exceed single-write budget; merge via scripts/merge_stage.py). Primary chapter source identified as J.A. Wylie History of Protestantism vol.3 (Tyndale 'eagles' and 'plough boy' quotes located verbatim there); reformer quotes trace to Wylie/Foxe/D'Aubigne and Wesley's Journal/Works. Control sample of 3 needs_verification:false claims: GC-14-053, GC-14-088, GC-14-089 (all confirmed genuinely interpretive; embedded empirical elements noted). Medieval-Bible-access cluster (002-004,006,009) carries source_quality note; academic source = Deanesly (Cambridge UP 1920). Low-confidence items: 0.",
+  "claims": [
+    {
+      "id": "GC-14-001",
+      "paragraph": 1,
+      "quote": "While Luther was opening a closed Bible to the people of Germany, Tyndale was impelled by the Spirit of God to do the same for England.",
+      "claim_text": "William Tyndale was impelled by the Spirit of God to open the Bible to the people of England, paralleling Luther's work in Germany.",
+      "claim_type": "theological",
+      "entities": [
+        "William Tyndale",
+        "Martin Luther"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim (divine impulse behind Tyndale's work); not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-002",
+      "paragraph": 1,
+      "quote": "Wycliffe’s Bible had been translated from the Latin text, which contained many errors.",
+      "claim_text": "John Wycliffe's English Bible translation was made from the Latin (Vulgate) text, which contained many errors.",
+      "claim_type": "biographical",
+      "entities": [
+        "John Wycliffe"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[medieval vernacular Bible access] Wycliffe's English Bible was translated from the Latin Vulgate, which contained textual errors relative to the Greek/Hebrew. source_quality: academic-full (Deanesly).",
+        "modern_consensus": "Wycliffite Bible rendered from the Vulgate.",
+        "sources": [
+          {
+            "title": "M. Deanesly, The Lollard Bible (Cambridge UP, 1920), local copy",
+            "url": "scholarship/deanesly-lollard-bible-1920.txt",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "'The Holy Bible: made from the Latin Vulgate by John Wyclif and his followers'"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-003",
+      "paragraph": 1,
+      "quote": "It had never been printed, and the cost of manuscript copies was so great that few but wealthy men or nobles could procure it;",
+      "claim_text": "Wycliffe's Bible translation had never been printed, and manuscript copies were so costly that generally only wealthy men or nobles could obtain them.",
+      "claim_type": "event",
+      "entities": [
+        "John Wycliffe"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[medieval vernacular Bible access] Wycliffite Bible was pre-print (manuscript only) and costly; Deanesly documents ownership concentrated among clergy, gentry, nuns and the highest classes by license. source_quality: academic-full.",
+        "modern_consensus": "Manuscript-only, expensive; owners mostly well-off, though ~250 mss survive (wider than once assumed).",
+        "sources": [
+          {
+            "title": "M. Deanesly, The Lollard Bible (Cambridge UP, 1920), local copy",
+            "url": "scholarship/deanesly-lollard-bible-1920.txt",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "ownership of English Bibles restricted to highest classes by individual license"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-004",
+      "paragraph": 1,
+      "quote": "and furthermore, being strictly proscribed by the church, it had had a comparatively narrow circulation.",
+      "claim_text": "Wycliffe's Bible translation was strictly proscribed by the Church, giving it a comparatively narrow circulation.",
+      "claim_type": "causal",
+      "entities": [
+        "John Wycliffe"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[medieval vernacular Bible access] The 1407/1408 Constitutions of Oxford (Arundel) banned unauthorized English Scripture, restricting circulation. source_quality: academic-full.",
+        "modern_consensus": "Arundel's Constitutions of 1408 proscribed unlicensed vernacular translations.",
+        "sources": [
+          {
+            "title": "M. Deanesly, The Lollard Bible (Cambridge UP, 1920), local copy",
+            "url": "scholarship/deanesly-lollard-bible-1920.txt",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "constitutions of Oxford Nov 1407, confirmed 1408"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-005",
+      "paragraph": 1,
+      "quote": "In 1516, a year before the appearance of Luther’s theses, Erasmus had published his Greek and Latin version of the New Testament.",
+      "claim_text": "In 1516, one year before Martin Luther's Ninety-Five Theses appeared (1517), Erasmus published a Greek and Latin edition of the New Testament.",
+      "claim_type": "date",
+      "entities": [
+        "Desiderius Erasmus",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Erasmus published his Greek/Latin NT in 1516; Luther's theses 1517.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-006",
+      "paragraph": 1,
+      "quote": "Now for the first time the word of God was printed in the original tongue.",
+      "claim_text": "Erasmus's 1516 edition was the first time the New Testament was printed in its original Greek language.",
+      "claim_type": "event",
+      "entities": [
+        "Desiderius Erasmus"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[medieval vernacular Bible access] Erasmus's 1516 Novum Instrumentum was the first PUBLISHED Greek NT; the Complutensian Polyglot was printed 1514 but not released until 1522, so GC's 'first printed' is slightly imprecise while substantially correct. source_quality: academic-partial/encyclopedic.",
+        "modern_consensus": "Erasmus's was the first published Greek NT; Complutensian printed earlier but published later.",
+        "sources": [
+          {
+            "title": "Bridwell Library, 'The First Published New Testament in Greek'",
+            "url": "https://bridwell.omeka.net/exhibits/show/earlygreek/newtestament/greeklatin",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "Complutensian printed 1514, released 1522; Erasmus 1516 first published"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-007",
+      "paragraph": 1,
+      "quote": "In this work many errors of former versions were corrected, and the sense was more clearly rendered.",
+      "claim_text": "Erasmus's 1516 Greek/Latin New Testament corrected many errors found in previous versions and rendered the sense more clearly.",
+      "claim_type": "event",
+      "entities": [
+        "Desiderius Erasmus"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Erasmus's edition corrected Vulgate errors and supplied a fresh Latin rendering with critical notes; standard scholarship.",
+        "sources": [
+          {
+            "title": "Novum Instrumentum omne - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Novum_Instrumentum_omne",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-008",
+      "paragraph": 1,
+      "quote": "It led many among the educated classes to a better knowledge of the truth, and gave a new impetus to the work of reform.",
+      "claim_text": "Erasmus's Greek New Testament led many among the educated classes to a better knowledge of Scripture and gave new impetus to the Reformation.",
+      "claim_type": "causal",
+      "entities": [
+        "Desiderius Erasmus"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Erasmus's Greek NT circulated widely among the learned and stimulated reform; standard historiography.",
+        "sources": [
+          {
+            "title": "Novum Instrumentum omne - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Novum_Instrumentum_omne",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "wide distribution among educated; impetus to reform"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-009",
+      "paragraph": 1,
+      "quote": "But the common people were still, to a great extent, debarred from God’s word.",
+      "claim_text": "After Erasmus's 1516 edition, common (non-elite) people were still largely without access to the Bible.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[medieval vernacular Bible access] After 1516 the common English reader still lacked a printed vernacular Bible (Greek/Latin editions were for scholars); no printed English NT until Tyndale 1526. source_quality: academic-full context (Deanesly).",
+        "sources": [
+          {
+            "title": "M. Deanesly, The Lollard Bible (Cambridge UP, 1920), local copy",
+            "url": "scholarship/deanesly-lollard-bible-1920.txt",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-010",
+      "paragraph": 1,
+      "quote": "Tyndale was to complete the work of Wycliffe in giving the Bible to his countrymen.",
+      "claim_text": "William Tyndale completed the work begun by John Wycliffe of giving the English Bible to the people of England.",
+      "claim_type": "interpretive",
+      "entities": [
+        "William Tyndale",
+        "John Wycliffe"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive framing (Tyndale 'completed' Wycliffe's work); not a discrete checkable fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-011",
+      "paragraph": 2,
+      "quote": "A diligent student and an earnest seeker for truth, he had received the gospel from the Greek Testament of Erasmus.",
+      "claim_text": "William Tyndale received the gospel through studying Erasmus's Greek New Testament.",
+      "claim_type": "biographical",
+      "entities": [
+        "William Tyndale",
+        "Desiderius Erasmus"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Tyndale studied Erasmus's Greek NT; Wylie records he 'kept his Greek New Testament ever beside him.'",
+        "sources": [
+          {
+            "title": "J.A. Wylie, History of Protestantism, vol. 3 (local copy)",
+            "url": "scholarship/wylie-history-of-protestantism-vol3.txt",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "period source White relied on"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-012",
+      "paragraph": 2,
+      "quote": "He fearlessly preached his convictions, urging that all doctrines be tested by the Scriptures.",
+      "claim_text": "William Tyndale preached that all doctrines should be tested against Scripture.",
+      "claim_type": "biographical",
+      "entities": [
+        "William Tyndale"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Tyndale urged doctrines be tested by Scripture; consistent with Wylie and biographies.",
+        "sources": [
+          {
+            "title": "J.A. Wylie, History of Protestantism, vol. 3 (local copy)",
+            "url": "scholarship/wylie-history-of-protestantism-vol3.txt",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-013",
+      "paragraph": 2,
+      "quote": "Tyndale responded: “Do you know who taught the eagles to find their prey? Well, that same God teaches His hungry children to find their Father in His word. Far from having given us the Scriptures, it is you who have hidden them from us; it is you who burn those who teach them, and if you could, you would burn the Scriptures themselves.”",
+      "claim_text": "William Tyndale is quoted as replying to the papist claim that only the Church could give and explain the Bible with: 'Do you know who taught the eagles to find their prey?... if you could, you would burn the Scriptures themselves.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "William Tyndale"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The 'eagles' exchange is located verbatim (abridged) in Wylie vol.3 ('Do you know who taught the eagles to find their prey?...it is you who have hidden them from us'); White's version, likely via D'Aubigne, extends it slightly but faithfully transmits a period-attested saying.",
+        "sources": [
+          {
+            "title": "J.A. Wylie, History of Protestantism, vol. 3 (local copy)",
+            "url": "scholarship/wylie-history-of-protestantism-vol3.txt",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "quote located verbatim, l.36906-36911"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-014",
+      "paragraph": 3,
+      "quote": "Tyndale’s preaching excited great interest; many accepted the truth.",
+      "claim_text": "William Tyndale's preaching excited great interest and many people accepted his teaching.",
+      "claim_type": "event",
+      "entities": [
+        "William Tyndale"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Tyndale's preaching drew interest and converts; Wylie describes his preaching tours (Bristol, St Austin's Green).",
+        "sources": [
+          {
+            "title": "J.A. Wylie, History of Protestantism, vol. 3 (local copy)",
+            "url": "scholarship/wylie-history-of-protestantism-vol3.txt",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-015",
+      "paragraph": 3,
+      "quote": "But the priests were on the alert, and no sooner had he left the field than they by their threats and misrepresentations endeavored to destroy his work. Too often they succeeded.",
+      "claim_text": "Priests, alert to Tyndale's movements, used threats and misrepresentation to destroy his work after he left an area, and often succeeded.",
+      "claim_type": "causal",
+      "entities": [
+        "William Tyndale"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Wylie records priests destroyed Tyndale's work after he left ('no sooner had he sowed the seed than the priests hastened to destroy it...the field was ravaged').",
+        "sources": [
+          {
+            "title": "J.A. Wylie, History of Protestantism, vol. 3 (local copy)",
+            "url": "scholarship/wylie-history-of-protestantism-vol3.txt",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-016",
+      "paragraph": 3,
+      "quote": "“What is to be done?” he exclaimed. “While I am sowing in one place, the enemy ravages the field I have just left. I cannot be everywhere. Oh! if Christians possessed the Holy Scriptures in their own tongue, they could of themselves withstand these sophists. Without the Bible it is impossible to establish the laity in the truth.”",
+      "claim_text": "William Tyndale is quoted as saying that because he could not be everywhere, only an English Bible could enable Christians to withstand the 'sophists' opposing them, since 'without the Bible it is impossible to establish the laity in the truth.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "William Tyndale"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Matches Wylie's Tyndale saying ('if the people of England had the Word of God in their own language this would not happen... Without this it will be impossible to establish the laity in the truth'); White expands rhetorically but faithfully.",
+        "sources": [
+          {
+            "title": "J.A. Wylie, History of Protestantism, vol. 3 (local copy)",
+            "url": "scholarship/wylie-history-of-protestantism-vol3.txt",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "l.36931-36935"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-017",
+      "paragraph": 4,
+      "quote": "“It was in the language of Israel,” said he, “that the psalms were sung in the temple of Jehovah; and shall not the gospel speak the language of England among us?... Ought the church to have less light at noonday than at the dawn?... Christians must read the New Testament in their mother-tongue.”",
+      "claim_text": "William Tyndale is quoted arguing that just as the psalms were sung in Hebrew in the temple, the gospel should speak the language of England, and that Christians must read the New Testament in their mother tongue.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "William Tyndale"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Tyndale's vernacular-Scripture argument (temple songs in Hebrew, epistles in addressees' tongue) matches Wylie's report; period-attested reasoning.",
+        "sources": [
+          {
+            "title": "J.A. Wylie, History of Protestantism, vol. 3 (local copy)",
+            "url": "scholarship/wylie-history-of-protestantism-vol3.txt",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-018",
+      "paragraph": 4,
+      "quote": "The doctors and teachers of the church disagreed among themselves.",
+      "claim_text": "The doctors and teachers of the church disagreed among themselves on doctrine, according to the narrative.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Narrator's (White's) framing sentence bridging two Tyndale quotations, not itself in quotation marks.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Narrator's bridging sentence; the substance (church doctors disagreeing) is a commonplace of Reformation polemic and matches the disputants Wylie describes at Sodbury.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-019",
+      "paragraph": 4,
+      "quote": "Only by the Bible could men arrive at the truth.",
+      "claim_text": "Only the Bible could enable people to arrive at religious truth, per the chapter's framing of Tyndale's argument.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological proposition (only the Bible yields truth); not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-020",
+      "paragraph": 4,
+      "quote": "“One holdeth this doctor, another that.... Now each of these authors contradicts the other. How then can we distinguish him who says right from him who says wrong?... How?... Verily by God’s word.”",
+      "claim_text": "William Tyndale is quoted arguing that because church doctors contradict one another, only God's word can distinguish right teaching from wrong.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "William Tyndale"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Tyndale's 'one holdeth this doctor, another that... verily by God's word' argument is a period-attested saying transmitted via White's sources (Wylie/D'Aubigne).",
+        "sources": [
+          {
+            "title": "J.A. Wylie, History of Protestantism, vol. 3 (local copy)",
+            "url": "scholarship/wylie-history-of-protestantism-vol3.txt",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-021",
+      "paragraph": 5,
+      "quote": "a learned Catholic doctor, engaging in controversy with him, exclaimed, “We were better to be without God’s laws than the pope’s.”",
+      "claim_text": "An unnamed learned Catholic doctor is quoted, in controversy with Tyndale, as saying 'We were better to be without God's laws than the pope's.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "William Tyndale"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Catholic doctor's 'We were better to be without God's laws than the pope's' is recorded in Foxe's Acts and Monuments as part of the plough-boy exchange; well attested.",
+        "sources": [
+          {
+            "title": "Foxe's Acts and Monuments (as cited in Tyndale scholarship)",
+            "url": "https://www.bible-researcher.com/tyndalebib.html",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-022",
+      "paragraph": 5,
+      "quote": "Tyndale replied, “I defy the pope and all his laws; and if God spare my life, ere many years I will cause a boy that driveth the plow to know more of the Scripture than you do.”",
+      "claim_text": "William Tyndale is quoted replying to a Catholic doctor: 'I defy the pope and all his laws; and if God spare my life, ere many years I will cause a boy that driveth the plow to know more of the Scripture than you do.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "William Tyndale"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The plough-boy vow is located in Wylie vol.3 verbatim ('cause the boy that driveth the plough to know more of the Scriptures than the priests do'), sourced there to Foxe; one of the best-attested Tyndale sayings.",
+        "sources": [
+          {
+            "title": "J.A. Wylie, History of Protestantism, vol. 3 (local copy)",
+            "url": "scholarship/wylie-history-of-protestantism-vol3.txt",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "l.36952-36955, cites Foxe Acts & Mon."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-023",
+      "paragraph": 6,
+      "quote": "The purpose which he had begun to cherish, of giving to the people the New Testament Scriptures in their own language, was now confirmed, and he immediately applied himself to the work.",
+      "claim_text": "William Tyndale confirmed his purpose to give the New Testament Scriptures to the English people in their own language and immediately applied himself to the work.",
+      "claim_type": "biographical",
+      "entities": [
+        "William Tyndale"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Tyndale's resolve to translate the NT is documented; Wylie: 'the sublime idea entered his mind of translating and printing the Scriptures.'",
+        "sources": [
+          {
+            "title": "J.A. Wylie, History of Protestantism, vol. 3 (local copy)",
+            "url": "scholarship/wylie-history-of-protestantism-vol3.txt",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-024",
+      "paragraph": 6,
+      "quote": "Driven from his home by persecution, he went to London, and there for a time pursued his labors undisturbed.",
+      "claim_text": "William Tyndale, driven from his home by persecution, went to London where he pursued his labors undisturbed for a time.",
+      "claim_type": "event",
+      "entities": [
+        "William Tyndale",
+        "London"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Tyndale went to London (1523) seeking Tunstall's patronage and worked there for a time (under Humphrey Monmouth); Wylie confirms he 'repaired (1523) to the metropolis.'",
+        "sources": [
+          {
+            "title": "J.A. Wylie, History of Protestantism, vol. 3 (local copy)",
+            "url": "scholarship/wylie-history-of-protestantism-vol3.txt",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-025",
+      "paragraph": 6,
+      "quote": "But again the violence of the papists forced him to flee. All England seemed closed against him, and he resolved to seek shelter in Germany.",
+      "claim_text": "The violence of papists forced Tyndale to flee London; finding all England closed against him, he resolved to seek shelter in Germany.",
+      "claim_type": "event",
+      "entities": [
+        "William Tyndale",
+        "Germany"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Finding no support in England, Tyndale left for the Continent (1524); standard biography.",
+        "sources": [
+          {
+            "title": "Cuthbert Tunstall - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cuthbert_Tunstall",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-026",
+      "paragraph": 6,
+      "quote": "Here he began the printing of the English New Testament.",
+      "claim_text": "William Tyndale began printing his English New Testament in Germany.",
+      "claim_type": "event",
+      "entities": [
+        "William Tyndale"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Tyndale began printing the English NT on the Continent (Cologne, then Worms).",
+        "sources": [
+          {
+            "title": "Worms New Testament — Tyndale's Ploughboy",
+            "url": "https://www.tyndalesploughboy.org/worms-new-testament/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-027",
+      "paragraph": 6,
+      "quote": "Twice the work was stopped; but when forbidden to print in one city, he went to another.",
+      "claim_text": "Tyndale's printing of the New Testament was halted twice in Germany, and when forbidden to print in one city he moved to another.",
+      "claim_type": "event",
+      "entities": [
+        "William Tyndale"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Printing was interrupted at Cologne (1525, raided) before completion at Worms; 'twice stopped / moved city' matches the Cologne-to-Worms sequence.",
+        "sources": [
+          {
+            "title": "Worms New Testament — Tyndale's Ploughboy",
+            "url": "https://www.tyndalesploughboy.org/worms-new-testament/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-028",
+      "paragraph": 6,
+      "quote": "At last he made his way to Worms, where, a few years before, Luther had defended the gospel before the Diet.",
+      "claim_text": "William Tyndale made his way to Worms, where Martin Luther had defended the gospel before the Diet a few years earlier (Diet of Worms, 1521).",
+      "claim_type": "event",
+      "entities": [
+        "William Tyndale",
+        "Worms",
+        "Martin Luther",
+        "Diet of Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Tyndale completed the NT at Worms; Luther defended the gospel at the Diet of Worms (1521).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-029",
+      "paragraph": 6,
+      "quote": "In that ancient city were many friends of the Reformation, and Tyndale there prosecuted his work without further hindrance.",
+      "claim_text": "Worms had many friends of the Reformation, and Tyndale was able to prosecute his printing work there without further hindrance.",
+      "claim_type": "event",
+      "entities": [
+        "William Tyndale",
+        "Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Worms was sympathetic to the Reformation and Tyndale finished printing there unhindered; standard account.",
+        "sources": [
+          {
+            "title": "The Tyndale Bible — Worms.de",
+            "url": "https://www.worms.de/en/web/luther/Lutherschriften/Schoefferdrucke/Tyndale.php",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-030",
+      "paragraph": 6,
+      "quote": "Three thousand copies of the New Testament were soon finished, and another edition followed in the same year.",
+      "claim_text": "Three thousand copies of Tyndale's English New Testament were printed at Worms, with another edition following the same year.",
+      "claim_type": "statistic",
+      "entities": [
+        "William Tyndale",
+        "Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "~3,000 copies of the Worms 1526 NT is the standard figure (estimates 3,000-6,000). Further 1526-27 (pirated Antwerp) reprints followed, consistent with 'another edition the same year,' though this second-edition detail traces to White's sources.",
+        "modern_consensus": "Worms octavo 1526, print run ~3,000 (some say 6,000); pirate reprints soon after.",
+        "sources": [
+          {
+            "title": "Worms New Testament — Tyndale's Ploughboy",
+            "url": "https://www.tyndalesploughboy.org/worms-new-testament/",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "~3,000 copies; only two survive"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-031",
+      "paragraph": 7,
+      "quote": "Notwithstanding the English authorities had guarded their ports with the strictest vigilance, the word of God was in various ways secretly conveyed to London, and thence circulated throughout the country.",
+      "claim_text": "Despite strict vigilance at English ports, Tyndale's English New Testament was secretly smuggled into London and circulated throughout England.",
+      "claim_type": "event",
+      "entities": [
+        "William Tyndale",
+        "London"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Copies were smuggled into England despite port searches and circulated widely; standard history.",
+        "sources": [
+          {
+            "title": "The Life and Work of William Tyndale",
+            "url": "https://sonsoflittlesummer.wordpress.com/2007/11/26/the-life-and-work-of-william-tyndale-theologian-reformer-and-entrepreneur/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-032",
+      "paragraph": 7,
+      "quote": "The bishop of Durham at one time bought of a bookseller who was a friend of Tyndale, his whole stock of Bibles, for the purpose of destroying them, supposing that this would greatly hinder the work.",
+      "claim_text": "The Bishop of Durham purchased the entire stock of Tyndale Bibles from a bookseller who was Tyndale's friend, intending to destroy them.",
+      "claim_type": "event",
+      "entities": [
+        "Bishop of Durham",
+        "William Tyndale"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "contradicted",
+        "confidence": "medium",
+        "rationale": "The prelate who bought up Tyndale's Testaments (via Augustine Packington, c.1529) was Cuthbert Tunstall as Bishop of LONDON; he was translated to Durham only in 1530. GC (following its sources) calls him 'bishop of Durham.' The anecdote's substance is accurate; only the episcopal title is wrong. Low-severity title error; defender to check whether White's immediate source made the same slip.",
+        "modern_consensus": "Tunstall, Bishop of London (1522-1530), arranged the buy-up before his 1530 translation to Durham.",
+        "sources": [
+          {
+            "title": "Cuthbert Tunstall - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cuthbert_Tunstall",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Bishop of London 1522-1530, Durham from 1530"
+          },
+          {
+            "title": "Tyndale Society Journal 17 — A Tale of Two Packingtons",
+            "url": "http://www.tyndale.org/tsj17/cooper.html",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "buy-up c.1529, while Tunstall was Bishop of London"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-033",
+      "paragraph": 7,
+      "quote": "But on the contrary, the money thus furnished, purchased material for a new and better edition, which, but for this, could not have been published.",
+      "claim_text": "The money the Bishop of Durham paid for the confiscated Bibles funded materials for a new, better edition of Tyndale's New Testament that otherwise could not have been published.",
+      "claim_type": "causal",
+      "entities": [
+        "Bishop of Durham",
+        "William Tyndale"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The money from the buy-up funded a new/revised edition; recorded in Halle's Chronicle and Foxe. (Bishop's title Durham vs London noted at GC-14-032.)",
+        "sources": [
+          {
+            "title": "The Day an English Bishop Burned Bibles (recounting Halle/Foxe)",
+            "url": "https://jamescary.substack.com/p/the-day-an-english-bishop-burned",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-034",
+      "paragraph": 7,
+      "quote": "When Tyndale was afterward made a prisoner, his liberty was offered him on condition that he would reveal the names of those who had helped him meet the expense of printing his Bibles.",
+      "claim_text": "When Tyndale was later imprisoned, he was offered his liberty on condition that he reveal the names of those who had financially helped him print his Bibles.",
+      "claim_type": "event",
+      "entities": [
+        "William Tyndale"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Imprisoned at Vilvoorde, Tyndale was pressed to name his backers; the incentive-to-recant framing is consistent with Foxe's account of his captivity.",
+        "sources": [
+          {
+            "title": "The Martyrdom of William Tyndale",
+            "url": "https://fulfillingthepromises.com/2024/10/22/the-martyrdom-of-william-tyndale-the-promised-crown-of-life/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-035",
+      "paragraph": 7,
+      "quote": "He replied that the bishop of Durham had done more than any other person; for by paying a large price for the books left on hand, he had enabled him to go on with good courage.",
+      "claim_text": "Tyndale reportedly replied, when asked to name his financial helpers, that the Bishop of Durham had done more than anyone else by paying a large price for the leftover books.",
+      "claim_type": "event",
+      "entities": [
+        "William Tyndale",
+        "Bishop of Durham"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Tyndale's witty reply that the bishop had helped him most (by overpaying for the leftover stock) is the standard Foxe/Halle anecdote. (Title should be Bishop of London per GC-14-032.)",
+        "sources": [
+          {
+            "title": "The Day an English Bishop Burned Bibles",
+            "url": "https://jamescary.substack.com/p/the-day-an-english-bishop-burned",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-036",
+      "paragraph": 8,
+      "quote": "Tyndale was betrayed into the hands of his enemies, and at one time suffered imprisonment for many months.",
+      "claim_text": "William Tyndale was betrayed into the hands of his enemies and imprisoned for many months.",
+      "claim_type": "event",
+      "entities": [
+        "William Tyndale"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Tyndale was imprisoned ~16 months (c.500 days) at Vilvoorde Castle, 1535-1536.",
+        "sources": [
+          {
+            "title": "The Martyrdom of William Tyndale",
+            "url": "https://fulfillingthepromises.com/2024/10/22/the-martyrdom-of-william-tyndale-the-promised-crown-of-life/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-037",
+      "paragraph": 8,
+      "quote": "He finally witnessed for his faith by a martyr’s death;",
+      "claim_text": "William Tyndale was executed as a martyr for his faith.",
+      "claim_type": "event",
+      "entities": [
+        "William Tyndale"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Tyndale was executed (strangled and burned) as a martyr in 1536.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-038",
+      "paragraph": 8,
+      "quote": "but the weapons which he prepared have enabled other soldiers to do battle through all the centuries even to our time.",
+      "claim_text": "Tyndale's translation work has continued to enable others to advance the Reformation cause through the centuries.",
+      "claim_type": "interpretive",
+      "entities": [
+        "William Tyndale"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/figurative (his 'weapons' aiding others through the centuries); not a discrete fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-039",
+      "paragraph": 9,
+      "quote": "Latimer maintained from the pulpit that the Bible ought to be read in the language of the people.",
+      "claim_text": "Hugh Latimer maintained from the pulpit that the Bible ought to be read in the language of the people.",
+      "claim_type": "biographical",
+      "entities": [
+        "Hugh Latimer"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Latimer preached for vernacular Scripture; consistent with his sermons and Foxe.",
+        "sources": [
+          {
+            "title": "Hugh Latimer - Wikiquote",
+            "url": "https://en.wikiquote.org/wiki/Hugh_Latimer",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-040",
+      "paragraph": 9,
+      "quote": "The Author of Holy Scripture, said he, “is God Himself;” and this Scripture partakes of the might and eternity of its Author. “There is no king, emperor, magistrate, and ruler ... but are bound to obey ... His holy word.” “Let us not take any by-walks, but let God’s word direct us: let us not walk after ... our forefathers, nor seek not what they did, but what they should have done.”",
+      "claim_text": "Hugh Latimer is quoted teaching that God is the Author of Scripture, that all rulers are bound to obey His holy word, and that people should be directed by God's word rather than the examples of their forefathers.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Hugh Latimer"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The quoted sentiments (God as Author of Scripture; rulers bound to obey His word; be directed by God's word not forefathers) are drawn from Latimer's sermons; faithfully transmitted period quotation.",
+        "sources": [
+          {
+            "title": "Hugh Latimer: Sermons (CCEL)",
+            "url": "https://ccel.org/ccel/latimer/sermons/sermons.vi.html",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-041",
+      "paragraph": 10,
+      "quote": "Barnes and Frith, the faithful friends of Tyndale, arose to defend the truth.",
+      "claim_text": "Robert Barnes and John Frith, described as faithful friends of Tyndale, arose to defend the Reformation's teaching.",
+      "claim_type": "biographical",
+      "entities": [
+        "Robert Barnes",
+        "John Frith",
+        "William Tyndale"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Robert Barnes and John Frith were early English reformers and associates of Tyndale.",
+        "sources": [
+          {
+            "title": "The Life and Work of William Tyndale",
+            "url": "https://sonsoflittlesummer.wordpress.com/2007/11/26/the-life-and-work-of-william-tyndale-theologian-reformer-and-entrepreneur/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-042",
+      "paragraph": 10,
+      "quote": "The Ridleys and Cranmer followed.",
+      "claim_text": "Nicholas Ridley and Thomas Cranmer followed Barnes and Frith as leaders in the English Reformation.",
+      "claim_type": "biographical",
+      "entities": [
+        "Nicholas Ridley",
+        "Thomas Cranmer"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Nicholas Ridley and Thomas Cranmer were later leaders of the English Reformation. 'The Ridleys' (plural) is loose but Nicholas Ridley is the principal referent.",
+        "sources": [
+          {
+            "title": "The Oxford Martyrs: Hugh Latimer",
+            "url": "https://continuingreformation.wordpress.com/2015/10/15/the-oxford-martyrs-hugh-latimer/comment-page-1/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-043",
+      "paragraph": 10,
+      "quote": "These leaders in the English Reformation were men of learning, and most of them had been highly esteemed for zeal or piety in the Romish communion.",
+      "claim_text": "The leaders of the English Reformation (Barnes, Frith, the Ridleys, Cranmer) were men of learning, most having been highly esteemed for zeal or piety within the Roman Catholic Church prior to their break with it.",
+      "claim_type": "biographical",
+      "entities": [
+        "Robert Barnes",
+        "John Frith",
+        "Nicholas Ridley",
+        "Thomas Cranmer"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Cranmer, Ridley, Barnes and others were university-trained clergy formerly in good standing in the Roman church; standard biography.",
+        "sources": [
+          {
+            "title": "The Oxford Martyrs: Hugh Latimer",
+            "url": "https://continuingreformation.wordpress.com/2015/10/15/the-oxford-martyrs-hugh-latimer/comment-page-1/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-044",
+      "paragraph": 10,
+      "quote": "Their opposition to the papacy was the result of their knowledge of the errors of the “holy see.”",
+      "claim_text": "The English Reformation leaders' opposition to the papacy resulted from their own knowledge of the errors of the papacy, gained during their time within the Roman Catholic Church.",
+      "claim_type": "causal",
+      "entities": [
+        "Robert Barnes",
+        "John Frith",
+        "Nicholas Ridley",
+        "Thomas Cranmer"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Causal-interpretive but well grounded: these men's insider knowledge of the church shaped their critique; a defensible characterization.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-045",
+      "paragraph": 10,
+      "quote": "Their acquaintance with the mysteries of Babylon, gave greater power to their testimonies against her.",
+      "claim_text": "The English reformers' prior familiarity with the Roman Catholic Church (figuratively 'Babylon') gave greater power to their testimonies against it.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/figurative ('mysteries of Babylon'); not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-046",
+      "paragraph": 11,
+      "quote": "“Now I would ask a strange question,” said Latimer. “Who is the most diligent bishop and prelate in all England? ... I will tell you: it is the devil.... He is never out of his diocese; ... call for him when you will, he is ever at home; ... he is ever at his plow.... Ye shall never find him idle, I warrant you.... Where the devil is resident, ... there away with books, and up with candles; away with Bibles, and up with beads; away with the light of the gospel, and up with the light of candles, yea, at noondays; ... down with Christ’s cross, up with purgatory pick-purse; ... away with clothing the naked, the poor, and impotent, up with decking of images and gay garnishing of stocks and stones; up with man’s traditions and his laws, down with God’s traditions and His most holy word.... O that our prelates would be as diligent to sow the corn of good doctrine, as Satan is to sow cockle and darnel!”",
+      "claim_text": "Hugh Latimer is quoted in a sermon declaring the devil to be 'the most diligent bishop and prelate in all England,' castigating the English clergy's neglect of Scripture and preference for tradition, images, and purgatory doctrine over God's word.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Hugh Latimer"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The 'most diligent prelate in all England... the devil' passage is from Latimer's Sermon of the Plough (1548), verbatim in substance; well attested.",
+        "sources": [
+          {
+            "title": "Latimer's Sermon of the Plough (Luminarium)",
+            "url": "https://www.luminarium.org/renlit/latimersermon1.htm",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-047",
+      "paragraph": 12,
+      "quote": "The grand principle maintained by these Reformers—the same that had been held by the Waldenses, by Wycliffe, by John Huss, by Luther, Zwingle, and those who united with them—was the infallible authority of the Holy Scriptures as a rule of faith and practice.",
+      "claim_text": "The grand principle maintained by the English Reformers, shared with the Waldenses, Wycliffe, John Huss, Luther, and Zwingli, was the infallible authority of Scripture as the rule of faith and practice.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Waldenses",
+        "John Wycliffe",
+        "Jan Hus",
+        "Martin Luther",
+        "Huldrych Zwingli"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive thesis linking the reformers to the Waldenses/Wycliffe/Huss/Luther/Zwingli by a shared 'sola scriptura' principle; a theological-historical construal, not a single checkable fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-048",
+      "paragraph": 12,
+      "quote": "They denied the right of popes, councils, Fathers, and kings, to control the conscience in matters of religion.",
+      "claim_text": "The English Reformers denied the right of popes, councils, Church Fathers, and kings to control the conscience in matters of religion.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive characterization of the reformers' stance on conscience; not a discrete testable proposition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-049",
+      "paragraph": 12,
+      "quote": "“Be of good comfort,” exclaimed Latimer to his fellow-martyr as the flames were about to silence their voices, “we shall this day light such a candle, by God’s grace, in England, as I trust shall never be put out.”",
+      "claim_text": "Hugh Latimer is quoted saying to his fellow martyr Nicholas Ridley at the stake, as the flames were about to silence their voices, 'we shall this day light such a candle, by God's grace, in England, as I trust shall never be put out.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Hugh Latimer",
+        "Nicholas Ridley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Latimer's 'we shall this day light such a candle... as I trust shall never be put out,' spoken to Ridley at their burning (Oxford, 1555), is recorded in Foxe's Acts and Monuments; among the most famous martyr sayings.",
+        "sources": [
+          {
+            "title": "Hugh Latimer - Wikiquote (Foxe, Acts and Monuments)",
+            "url": "https://en.wikiquote.org/wiki/Hugh_Latimer",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-050",
+      "paragraph": 13,
+      "quote": "In Scotland the seeds of truth scattered by Columba and his co-laborers had never been wholly destroyed.",
+      "claim_text": "The seeds of gospel truth scattered by Columba and his co-laborers in Scotland had never been wholly destroyed by the time of the Reformation.",
+      "claim_type": "biographical",
+      "entities": [
+        "Columba",
+        "Scotland"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "White follows Wylie's Culdee/Celtic-church thesis, in which Columba's Iona mission planted a purer gospel that survived as a distinct witness. Modern scholarship treats the early Scottish (Celtic) church as fully catholic in doctrine, distinctive only in customs (Easter dating, tonsure), not a proto-Protestant remnant.",
+        "modern_consensus": "The Celtic/Scottish church was doctrinally catholic; the 'proto-Protestant Culdee remnant' reading is rejected.",
+        "period_historiography": "Wylie vol.3 (chapter on 'Suppression of the Culdees') frames Columba's Iona as kindling a torch of independent gospel truth.",
+        "sources": [
+          {
+            "title": "J.A. Wylie, History of Protestantism, vol. 3 (local copy)",
+            "url": "scholarship/wylie-history-of-protestantism-vol3.txt",
+            "source_class": "other",
+            "supports_verdict": true,
+            "note": "period source: Culdee-independence thesis"
+          },
+          {
+            "title": "David I of Scotland - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/David_I_of_Scotland",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Scottish church catholic; brought to Roman conformity 11th-12th c"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-051",
+      "paragraph": 13,
+      "quote": "For hundreds of years after the churches of England submitted to Rome, those of Scotland maintained their freedom.",
+      "claim_text": "The churches of Scotland maintained independence from Rome for hundreds of years after the churches of England had submitted to Roman authority.",
+      "claim_type": "event",
+      "entities": [
+        "Scotland",
+        "England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "'For hundreds of years after the churches of England submitted to Rome, those of Scotland maintained their freedom' reflects Wylie's Culdee-independence narrative. Modern historians: the Celtic north retained distinctive customs after the Synod of Whitby (664) but conformed on Easter by the early 8th c. and was never outside catholic communion; 'freedom from Rome' is anachronistic period framing.",
+        "modern_consensus": "Distinctive Celtic customs, not doctrinal independence from Rome; conformity progressive from the 8th c.",
+        "period_historiography": "Wylie vol.3 portrays Scotland as retaining independence until forcible Romanization.",
+        "sources": [
+          {
+            "title": "J.A. Wylie, History of Protestantism, vol. 3 (local copy)",
+            "url": "scholarship/wylie-history-of-protestantism-vol3.txt",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "Saint Margaret of Scotland - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Saint_Margaret_of_Scotland",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Margaret (1070-93) brought Celtic church into Roman conformity"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-052",
+      "paragraph": 13,
+      "quote": "In the twelfth century, however, popery became established here, and in no country did it exercise a more absolute sway.",
+      "claim_text": "Papal authority became established in Scotland in the twelfth century.",
+      "claim_type": "date",
+      "entities": [
+        "Scotland"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The Roman reorganization of the Scottish church did crystallize in the 12th century under David I (r.1124-53), who rebuilt dioceses/parishes on the Roman pattern; papal-protected status via Cum universi (1192). GC's 12th-century dating is broadly correct.",
+        "modern_consensus": "David I Romanized the Scottish church in the 12th c.; Cum universi 1192.",
+        "sources": [
+          {
+            "title": "David I of Scotland - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/David_I_of_Scotland",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "12th-c reorganization on Roman lines"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-053",
+      "paragraph": 13,
+      "quote": "in no country did it exercise a more absolute sway. Nowhere was the darkness deeper.",
+      "claim_text": "Papal authority exercised a more absolute sway in Scotland than in any other country, with darkness deeper there than anywhere else.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Scotland"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "CONTROL SAMPLE (extractor flagged needs_verification:false). Verified: the sentence is a rhetorical superlative ('in no country did it exercise a more absolute sway. Nowhere was the darkness deeper'). It smuggles an unfalsifiable comparative claim (Scotland had the most absolute papal sway of any country), which cannot be tested. Extractor's non-flag is defensible; genuinely interpretive.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-054",
+      "paragraph": 13,
+      "quote": "The Lollards, coming from England with the Bible and the teachings of Wycliffe, did much to preserve the knowledge of the gospel, and every century had its witnesses and martyrs.",
+      "claim_text": "The Lollards, coming from England to Scotland with the Bible and Wycliffe's teachings, preserved knowledge of the gospel there, and every century produced witnesses and martyrs to that faith.",
+      "claim_type": "event",
+      "entities": [
+        "Lollards",
+        "John Wycliffe",
+        "Scotland"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Lollardy did reach Scotland with Wycliffite ideas; documented martyrs include James Resby (1407), Paul Crawar (1433) and the Lollards of Kyle (c.1494). 'Every century had its witnesses' is a reasonable summary via Wylie.",
+        "sources": [
+          {
+            "title": "J.A. Wylie, History of Protestantism, vol. 3 (local copy)",
+            "url": "scholarship/wylie-history-of-protestantism-vol3.txt",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-055",
+      "paragraph": 14,
+      "quote": "With the opening of the Great Reformation came the writings of Luther, and then Tyndale’s English New Testament.",
+      "claim_text": "The writings of Luther, followed by Tyndale's English New Testament, reached Scotland with the opening of the Reformation.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "William Tyndale",
+        "Scotland"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Luther's writings and Tyndale's NT were smuggled into Scotland in the 1520s (Patrick Hamilton had studied Lutheran doctrine on the Continent); standard history.",
+        "sources": [
+          {
+            "title": "John Knox and the Scottish Reformation - Historic UK",
+            "url": "https://www.historic-uk.com/HistoryUK/HistoryofScotland/John-Knox-Scottish-Reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-056",
+      "paragraph": 14,
+      "quote": "Unnoticed by the hierarchy, these messengers silently traversed the mountains and valleys, kindling into new life the torch of truth so nearly extinguished in Scotland, and undoing the work which Rome for four centuries of oppression had done.",
+      "claim_text": "Luther's writings and Tyndale's New Testament spread through Scotland unnoticed by the church hierarchy, undoing the effects of what is described as four centuries of Roman oppression there.",
+      "claim_type": "causal",
+      "entities": [
+        "Scotland"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The internal chronology is consistent (12th-c Romanization to mid-16th-c Reformation ~ four centuries); Reformation ideas did spread quietly before open reform. The 'oppression' framing is interpretive but the timeframe checks out.",
+        "sources": [
+          {
+            "title": "David I of Scotland - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/David_I_of_Scotland",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-057",
+      "paragraph": 15,
+      "quote": "Then the blood of martyrs gave fresh impetus to the movement.",
+      "claim_text": "The blood of Scottish martyrs gave fresh impetus to the Reformation movement in Scotland.",
+      "claim_type": "causal",
+      "entities": [
+        "Scotland"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Scottish martyrdoms (Hamilton, Wishart) preceded and energized the Reformation movement; standard historiography.",
+        "sources": [
+          {
+            "title": "John Knox and the Scottish Reformation - Historic UK",
+            "url": "https://www.historic-uk.com/HistoryUK/HistoryofScotland/John-Knox-Scottish-Reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-058",
+      "paragraph": 15,
+      "quote": "The papist leaders, suddenly awakening to the danger that threatened their cause, brought to the stake some of the noblest and most honored of the sons of Scotland.",
+      "claim_text": "Roman Catholic leaders in Scotland had some of the noblest and most honored Scottish men burned at the stake.",
+      "claim_type": "event",
+      "entities": [
+        "Scotland"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Roman Catholic authorities in Scotland (e.g. Cardinal Beaton) executed prominent reform figures; consistent with the record.",
+        "sources": [
+          {
+            "title": "John Knox and the Scottish Reformation - Historic UK",
+            "url": "https://www.historic-uk.com/HistoryUK/HistoryofScotland/John-Knox-Scottish-Reformation/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-059",
+      "paragraph": 16,
+      "quote": "Hamilton and Wishart, princely in character as in birth, with a long line of humbler disciples, yielded up their lives at the stake.",
+      "claim_text": "Patrick Hamilton and George Wishart, along with a long line of humbler disciples, were executed at the stake in Scotland.",
+      "claim_type": "event",
+      "entities": [
+        "Patrick Hamilton",
+        "George Wishart"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Patrick Hamilton (burned 1528, of noble/royal-connected birth) and George Wishart (burned 1546) were Scottish martyrs, with lesser-known followers also executed.",
+        "sources": [
+          {
+            "title": "John Knox - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Knox",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-060",
+      "paragraph": 16,
+      "quote": "But from the burning pile of Wishart there came one whom the flames were not to silence, one who under God was to strike the death-knell of popery in Scotland.",
+      "claim_text": "John Knox emerged from the impact of Wishart's burning as the figure who, under God, would strike the death-knell of popery in Scotland.",
+      "claim_type": "theological",
+      "entities": [
+        "John Knox",
+        "George Wishart"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological framing (Knox raised up 'under God' to end popery); the providential claim is not testable. Knox's historical association with Wishart is treated at GC-14-062.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-061",
+      "paragraph": 17,
+      "quote": "John Knox had turned away from the traditions and mysticisms of the church, to feed upon the truths of God’s word;",
+      "claim_text": "John Knox turned away from the traditions and mysticism of the Roman Catholic Church to study the truths of Scripture.",
+      "claim_type": "biographical",
+      "entities": [
+        "John Knox"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Knox turned from Roman tradition to Scripture; standard biography.",
+        "sources": [
+          {
+            "title": "John Knox - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Knox",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-062",
+      "paragraph": 17,
+      "quote": "and the teaching of Wishart had confirmed his determination to forsake the communion of Rome, and join himself to the persecuted Reformers.",
+      "claim_text": "George Wishart's teaching confirmed John Knox's determination to leave the Roman Catholic Church and join the persecuted Reformers.",
+      "claim_type": "causal",
+      "entities": [
+        "John Knox",
+        "George Wishart"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Knox was closely associated with Wishart (acting as a bodyguard before Wishart's 1546 arrest); Wishart's influence confirmed his commitment to reform.",
+        "sources": [
+          {
+            "title": "John Knox - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Knox",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-063",
+      "paragraph": 18,
+      "quote": "Urged by his companions to take the office of preacher, he shrunk with trembling from its responsibility, and it was only after days of seclusion and painful conflict with himself that he consented.",
+      "claim_text": "John Knox, urged by his companions to become a preacher, shrank from the responsibility and consented only after days of seclusion and inner conflict.",
+      "claim_type": "biographical",
+      "entities": [
+        "John Knox"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Knox was famously reluctant to accept the preaching call at St Andrews (1547), consenting only after inner struggle; recorded in his own History.",
+        "sources": [
+          {
+            "title": "John Knox - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Knox",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-064",
+      "paragraph": 18,
+      "quote": "But having once accepted the position, he pressed forward with inflexible determination and undaunted courage as long as life continued.",
+      "claim_text": "Once John Knox accepted the office of preacher, he pursued it with inflexible determination and undaunted courage for the rest of his life.",
+      "claim_type": "interpretive",
+      "entities": [
+        "John Knox"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive characterization of Knox's lifelong resolve; not a discrete fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-065",
+      "paragraph": 19,
+      "quote": "When brought face to face with the queen of Scotland, in whose presence the zeal of many a leader of the Protestants had abated, John Knox bore unswerving witness for the truth.",
+      "claim_text": "John Knox, brought before Mary, Queen of Scots, bore unswerving witness for the Protestant faith where other Protestant leaders' zeal had reportedly abated.",
+      "claim_type": "event",
+      "entities": [
+        "John Knox",
+        "Mary Queen of Scots"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Knox had several confrontational interviews with Mary, Queen of Scots (1561-63) and maintained his stance; documented in his History of the Reformation in Scotland.",
+        "sources": [
+          {
+            "title": "John Knox - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Knox",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-066",
+      "paragraph": 19,
+      "quote": "The queen charged him with heresy. He had taught the people to receive a religion prohibited by the state, she declared, and had thus transgressed God’s command enjoining subjects to obey their princes.",
+      "claim_text": "Mary, Queen of Scots, charged John Knox with heresy, claiming he had taught the people to receive a religion prohibited by the state and thereby transgressed God's command that subjects obey their princes.",
+      "claim_type": "event",
+      "entities": [
+        "John Knox",
+        "Mary Queen of Scots"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Mary charged Knox with teaching subjects to receive a religion the state forbade and thus with sedition; recorded in Knox's History.",
+        "sources": [
+          {
+            "title": "The History of the Reformation of Religion in Scotland (Knox), Gutenberg",
+            "url": "https://www.gutenberg.org/files/48250/48250-h/48250-h.htm",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-067",
+      "paragraph": 20,
+      "quote": "“As right religion took neither original strength nor authority from worldly princes, but from the eternal God alone, so are not subjects bound to frame their religion according to the appetites of their princes. For oft it is that princes are the most ignorant of all others in God’s true religion.... If all the seed of Abraham had been of the religion of Pharaoh, whose subjects they long were, I pray you, madam, what religion would there have been in the world? Or if all men in the days of the apostles had been of the religion of the Roman emperors, what religion would there have been upon the face of the earth?... And so, madam, ye may perceive that subjects are not bound to the religion of their princes, albeit they are commanded to give them obedience.”",
+      "claim_text": "John Knox is quoted telling Mary, Queen of Scots, that true religion derives its authority from God alone, not from princes, and that subjects are not bound to adopt their prince's religion, citing the examples of Abraham under Pharaoh and the apostles under Roman emperors.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Knox",
+        "Mary Queen of Scots"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Knox's argument that true religion derives from God not princes, with the Abraham-under-Pharaoh and apostles-under-Rome examples, is from his reported dialogue with Mary in his own History; faithfully transmitted.",
+        "sources": [
+          {
+            "title": "The History of the Reformation... in Scotland (Knox), Gutenberg",
+            "url": "https://www.gutenberg.org/files/48250/48250-h/48250-h.htm",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-068",
+      "paragraph": 21,
+      "quote": "Said Mary, “Ye interpret the Scriptures in one manner, and they [the Roman Catholic teachers] interpret in another; whom shall I believe, and who shall be judge?”",
+      "claim_text": "Mary, Queen of Scots, is quoted asking John Knox who should be the judge between his interpretation of Scripture and that of Roman Catholic teachers.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Mary Queen of Scots",
+        "John Knox"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Mary's question 'whom shall I believe, and who shall be judge?' is from Knox's recorded dialogue in his History.",
+        "sources": [
+          {
+            "title": "The History of the Reformation... in Scotland (Knox), Gutenberg",
+            "url": "https://www.gutenberg.org/files/48250/48250-h/48250-h.htm",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-069",
+      "paragraph": 22,
+      "quote": "“Ye shall believe God, that plainly speaketh in His word,” answered the Reformer; “and farther than the Word teaches you, ye neither shall believe the one nor the other. The word of God is plain in itself; and if there appear any obscurity in one place, the Holy Ghost, which is never contrary to Himself, explains the same more clearly in other places, so that there can remain no doubt but unto such as obstinately remain ignorant.”",
+      "claim_text": "John Knox is quoted answering Mary, Queen of Scots, that she should believe God as He plainly speaks in His word, and that Scripture is clear in itself, obscure passages being clarified elsewhere by the Holy Ghost.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Knox",
+        "Mary Queen of Scots"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Knox's reply ('believe God, that plainly speaketh in His word'; Scripture self-interpreting) is from his History; faithfully transmitted period quotation.",
+        "sources": [
+          {
+            "title": "The History of the Reformation... in Scotland (Knox), Gutenberg",
+            "url": "https://www.gutenberg.org/files/48250/48250-h/48250-h.htm",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-070",
+      "paragraph": 23,
+      "quote": "Such were the truths that the fearless Reformer, at the peril of his life, spoke in the ear of royalty.",
+      "claim_text": "John Knox spoke these Reformation truths to Mary, Queen of Scots, at the peril of his life.",
+      "claim_type": "interpretive",
+      "entities": [
+        "John Knox"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive framing ('at the peril of his life... in the ear of royalty'); rhetorical, not a discrete fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-071",
+      "paragraph": 23,
+      "quote": "With the same undaunted courage he kept to his purpose, praying and fighting the battles of the Lord, until Scotland was free from popery.",
+      "claim_text": "John Knox continued his efforts with undaunted courage until Scotland was free from Roman Catholic (papal) authority.",
+      "claim_type": "event",
+      "entities": [
+        "John Knox",
+        "Scotland"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Knox persisted until Scotland's Reformation Parliament (1560) abolished papal jurisdiction; standard history.",
+        "sources": [
+          {
+            "title": "John Knox - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Knox",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-072",
+      "paragraph": 24,
+      "quote": "In England the establishment of Protestantism as the national religion diminished, but did not wholly stop, persecution.",
+      "claim_text": "The establishment of Protestantism as the national religion in England diminished, but did not entirely stop, religious persecution.",
+      "claim_type": "event",
+      "entities": [
+        "England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Establishing Protestantism as the national religion reduced but did not end religious persecution (dissenters continued to suffer).",
+        "sources": [
+          {
+            "title": "Act of Uniformity 1662 - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Act_of_Uniformity_1662",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-073",
+      "paragraph": 24,
+      "quote": "While many of the doctrines of Rome had been renounced, not a few of its forms were retained.",
+      "claim_text": "The Church of England renounced many Roman Catholic doctrines while retaining a number of its liturgical forms.",
+      "claim_type": "event",
+      "entities": [
+        "Church of England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Church of England renounced many Roman doctrines while retaining much liturgical form; standard characterization.",
+        "sources": [
+          {
+            "title": "Act of Uniformity 1662 - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Act_of_Uniformity_1662",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-074",
+      "paragraph": 24,
+      "quote": "The supremacy of the pope was rejected, but in his place the monarch was enthroned as the head of the church.",
+      "claim_text": "The Church of England rejected the supremacy of the pope but established the English monarch as head of the church.",
+      "claim_type": "event",
+      "entities": [
+        "Church of England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Act of Supremacy (1534/1559) rejected papal supremacy and made the monarch Supreme Head/Governor of the church.",
+        "sources": [
+          {
+            "title": "Act of Uniformity 1662 - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Act_of_Uniformity_1662",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-075",
+      "paragraph": 24,
+      "quote": "All were required to accept the doctrines and observe the forms of worship prescribed by the established church. Dissenters suffered persecution, to a greater or less extent, for hundreds of years.",
+      "claim_text": "All English subjects were required to accept the doctrines and worship forms of the established Church of England, and dissenters suffered persecution to varying degrees for hundreds of years.",
+      "claim_type": "event",
+      "entities": [
+        "Church of England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Acts of Uniformity required conformity to the established church; dissenters were penalized for well over a century.",
+        "sources": [
+          {
+            "title": "Act of Uniformity 1662 - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Act_of_Uniformity_1662",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-076",
+      "paragraph": 25,
+      "quote": "In the seventeenth century thousands of pastors were expelled from their positions.",
+      "claim_text": "In the seventeenth century, thousands of pastors in England were expelled from their positions for nonconformity to the established church.",
+      "claim_type": "statistic",
+      "entities": [
+        "England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Great Ejection (1662) removed ~2,000 ministers who refused conformity; 'thousands' is within the range of estimates (1,800-2,500).",
+        "modern_consensus": "~2,000 ministers ejected in 1662.",
+        "sources": [
+          {
+            "title": "Great Ejection - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Ejection",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "~2,000 ministers; Heywood estimated 2,500"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-077",
+      "paragraph": 25,
+      "quote": "The people were forbidden, on pain of heavy fines, imprisonment, and banishment, to attend any religious meetings except such as were sanctioned by the church.",
+      "claim_text": "The English government forbade attendance at religious meetings not sanctioned by the established church, on pain of heavy fines, imprisonment, and banishment.",
+      "claim_type": "event",
+      "entities": [
+        "England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Conventicle Acts (1664, 1670) and Five Mile Act (1665) forbade unauthorized religious meetings under penalty of fines, imprisonment and transportation.",
+        "sources": [
+          {
+            "title": "Great Ejection - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Ejection",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-078",
+      "paragraph": 25,
+      "quote": "Those faithful souls who could not refrain from gathering to worship God, were compelled to meet in dark alleys, in obscure garrets, and at some seasons in the woods at midnight.",
+      "claim_text": "English religious dissenters were compelled to hold worship meetings in dark alleys, obscure garrets, and sometimes in the woods at midnight.",
+      "claim_type": "event",
+      "entities": [
+        "England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Persecuted dissenters met covertly (private houses, out-of-the-way places, night gatherings); consistent with the Conventicle-era record.",
+        "sources": [
+          {
+            "title": "Great Ejection - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Ejection",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-079",
+      "paragraph": 25,
+      "quote": "But despite all their precautions, many suffered for their faith. The jails were crowded. Families were broken up. Many were banished to foreign lands.",
+      "claim_text": "Many English dissenters suffered for their faith despite precautions: jails became crowded, families were broken up, and many were banished to foreign lands.",
+      "claim_type": "event",
+      "entities": [
+        "England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Many dissenters were fined, jailed and some transported/banished; broadly accurate for the Restoration persecution.",
+        "sources": [
+          {
+            "title": "Great Ejection - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Ejection",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-080",
+      "paragraph": 25,
+      "quote": "Many were driven across the ocean to America, and here laid the foundations of civil and religious liberty which have been the bulwark and glory of this country.",
+      "claim_text": "Many persecuted English dissenters emigrated across the Atlantic to America, where they laid the foundations of civil and religious liberty.",
+      "claim_type": "causal",
+      "entities": [
+        "America",
+        "England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Persecuted English dissenters (Puritans, Pilgrims, Quakers) emigrated to America and contributed to traditions of civil/religious liberty; standard history, though the causal simplification is White's framing.",
+        "sources": [
+          {
+            "title": "Great Ejection - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Ejection",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-081",
+      "paragraph": 26,
+      "quote": "In a loathsome dungeon crowded with profligates and felons, John Bunyan breathed the very atmosphere of heaven; and there he wrote his wonderful allegory of the pilgrim’s journey from the land of destruction to the celestial city.",
+      "claim_text": "John Bunyan, while imprisoned in a dungeon crowded with profligates and felons, wrote his allegory of the pilgrim's journey (The Pilgrim's Progress).",
+      "claim_type": "biographical",
+      "entities": [
+        "John Bunyan"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "John Bunyan wrote The Pilgrim's Progress during imprisonment (Bedford, 1660s-70s) for unlicensed preaching; standard biography.",
+        "sources": [
+          {
+            "title": "John Bunyan (Britannica)",
+            "url": "https://www.britannica.com/biography/John-Bunyan",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-082",
+      "paragraph": 26,
+      "quote": "For over two hundred years that voice from Bedford jail has spoken with thrilling power to the hearts of men.",
+      "claim_text": "As of the time of writing (1911), more than two hundred years had passed since John Bunyan's voice from Bedford jail began speaking to readers through his writings.",
+      "claim_type": "date",
+      "entities": [
+        "John Bunyan",
+        "Bedford"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Pilgrim's Progress was published 1678; 'over two hundred years' before the 1911 GC is arithmetically correct (~233 years).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-083",
+      "paragraph": 26,
+      "quote": "Bunyan’s “Pilgrim’s Progress” and “Grace Abounding to the Chief of Sinners” have guided many feet into the path of life.",
+      "claim_text": "John Bunyan wrote 'Pilgrim's Progress' and 'Grace Abounding to the Chief of Sinners.'",
+      "claim_type": "biographical",
+      "entities": [
+        "John Bunyan"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Bunyan wrote both The Pilgrim's Progress (1678) and Grace Abounding to the Chief of Sinners (1666).",
+        "sources": [
+          {
+            "title": "John Bunyan (Britannica)",
+            "url": "https://www.britannica.com/biography/John-Bunyan",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-084",
+      "paragraph": 27,
+      "quote": "Baxter, Flavel, Alleine, and other men of talent, education, and deep Christian experience, stood up in valiant defense of the faith which was once delivered to the saints.",
+      "claim_text": "Richard Baxter, John Flavel, Joseph Alleine, and other learned men stood up in defense of the Christian faith during the era of persecution of English dissenters.",
+      "claim_type": "biographical",
+      "entities": [
+        "Richard Baxter",
+        "John Flavel",
+        "Joseph Alleine"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Richard Baxter, John Flavel and Joseph Alleine were prominent ejected/nonconformist ministers and authors of the period.",
+        "sources": [
+          {
+            "title": "Great Ejection - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Ejection",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-085",
+      "paragraph": 27,
+      "quote": "Flavel’s “Fountain of Life” and “Method of Grace” have taught thousands how to commit the keeping of their souls to Christ.",
+      "claim_text": "John Flavel wrote 'Fountain of Life' and 'Method of Grace.'",
+      "claim_type": "biographical",
+      "entities": [
+        "John Flavel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "John Flavel wrote The Fountain of Life (1673) and The Method of Grace (1681).",
+        "sources": [
+          {
+            "title": "John Flavel — bibliography (standard reference)",
+            "url": "https://en.wikipedia.org/wiki/John_Flavel",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-086",
+      "paragraph": 27,
+      "quote": "Baxter’s “Reformed Pastor” has proved a blessing to many who desire a revival of the work of God, and his “Saints’ Everlasting Rest” has done its work in leading souls to the “rest that remaineth for the people of God.”",
+      "claim_text": "Richard Baxter wrote 'The Reformed Pastor' and 'The Saints' Everlasting Rest.'",
+      "claim_type": "biographical",
+      "entities": [
+        "Richard Baxter"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Richard Baxter wrote The Reformed Pastor (1656) and The Saints' Everlasting Rest (1650).",
+        "sources": [
+          {
+            "title": "Richard Baxter — bibliography (standard reference)",
+            "url": "https://en.wikipedia.org/wiki/Richard_Baxter",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-087",
+      "paragraph": 28,
+      "quote": "A hundred years later, in a day of great spiritual darkness, Whitefield and the Wesleys appeared as light-bearers for God.",
+      "claim_text": "About a hundred years after the era of Baxter, Flavel, and Alleine, George Whitefield and John and Charles Wesley appeared as religious leaders in England.",
+      "claim_type": "date",
+      "entities": [
+        "George Whitefield",
+        "John Wesley",
+        "Charles Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Whitefield and the Wesleys led the Evangelical Revival from c.1738. 'A hundred years later' than the Baxter/Flavel/Alleine era (active c.1650s-1680s) is a loose rounding (~55-80 years); rhetorical rather than precise.",
+        "modern_consensus": "Evangelical Revival began late 1730s, ~75 years after the Great Ejection.",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-088",
+      "paragraph": 28,
+      "quote": "Under the rule of the established church, the people of England had lapsed into a state of religious declension hardly to be distinguished from heathenism.",
+      "claim_text": "Under the established Church of England, the people of England had, by the early eighteenth century, lapsed into a state of religious declension hardly distinguishable from heathenism.",
+      "claim_type": "interpretive",
+      "entities": [
+        "England",
+        "Church of England"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "CONTROL SAMPLE (needs_verification:false). Verified: primarily an evaluative characterization ('religious declension hardly to be distinguished from heathenism'). It embeds a contestable empirical claim about the pre-revival state of English religion; modern historians debate the 'spiritual darkness before the revival' trope as Evangelical polemic. Extractor's non-flag defensible; core is interpretive.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-089",
+      "paragraph": 28,
+      "quote": "Natural religion was the favorite study of the clergy, and included most of their theology. The higher classes sneered at piety, and prided themselves on being above what they called its fanaticism. The lower classes were grossly ignorant, and abandoned to vice, while the church had no courage or faith any longer to support the downfallen cause of truth.",
+      "claim_text": "In early eighteenth-century England, the clergy's theology was dominated by natural religion, the upper classes scorned piety as fanaticism, and the lower classes were grossly ignorant and given to vice, while the church lacked the courage or faith to support true religion.",
+      "claim_type": "interpretive",
+      "entities": [
+        "England",
+        "Church of England"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "CONTROL SAMPLE (needs_verification:false). Verified: chiefly evaluative. Embedded factual element (natural religion/Deism prominent in early-18th-c clergy theology) is broadly accurate, but the sweeping moral condemnation of the classes is polemical characterization, not a checkable fact. Extractor's non-flag defensible.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-090",
+      "paragraph": 29,
+      "quote": "The great doctrine of justification by faith, so clearly taught by Luther, had been almost wholly lost sight of; and the Romish principle of trusting to good works for salvation, had taken its place.",
+      "claim_text": "By the early eighteenth century in England, the Reformation doctrine of justification by faith (as taught by Luther) had been largely lost, replaced by reliance on good works for salvation.",
+      "claim_type": "causal",
+      "entities": [
+        "Martin Luther",
+        "England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "By the early 18th c. the Reformation emphasis on justification by faith had faded in much English preaching in favor of moralism/works; a defensible period-Evangelical characterization (though 'Romish principle' is polemical).",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-091",
+      "paragraph": 29,
+      "quote": "Whitefield and the Wesleys, who were members of the established church, were sincere seekers for the favor of God, and this they had been taught was to be secured by a virtuous life and an observance of the ordinances of religion.",
+      "claim_text": "George Whitefield and the Wesleys, as members of the established Church of England, were sincere seekers of God's favor, having been taught it was secured through a virtuous life and observance of religious ordinances.",
+      "claim_type": "biographical",
+      "entities": [
+        "George Whitefield",
+        "John Wesley",
+        "Charles Wesley",
+        "Church of England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Whitefield and the Wesleys were Church of England members who initially pursued salvation through disciplined virtue/ordinances (the Oxford 'Holy Club'); standard biography.",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-092",
+      "paragraph": 30,
+      "quote": "When Charles Wesley at one time fell ill, and anticipated that death was approaching, he was asked upon what he rested his hope of eternal life.",
+      "claim_text": "Charles Wesley, upon falling seriously ill and anticipating approaching death, was asked upon what he rested his hope of eternal life.",
+      "claim_type": "biographical",
+      "entities": [
+        "Charles Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Charles Wesley recounted a serious illness during which he reflected on the ground of his hope; consistent with Methodist biography.",
+        "sources": [
+          {
+            "title": "1738 John & Charles Wesley Experience Conversions - Christian History",
+            "url": "https://christianhistoryinstitute.org/magazine/article/john-and-charles-converted/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-093",
+      "paragraph": 30,
+      "quote": "His answer was, “I have used my best endeavors to serve God.” As the friend who had put the question seemed not to be fully satisfied with his answer, Wesley thought, “What! are not my endeavors a sufficient ground of hope? Would he rob me of my endeavors? I have nothing else to trust to.”",
+      "claim_text": "Charles Wesley is quoted, on being asked the basis of his hope of eternal life while gravely ill, as answering 'I have used my best endeavors to serve God,' and privately thinking 'I have nothing else to trust to' when his friend seemed dissatisfied.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Charles Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Charles Wesley's 'I have used my best endeavors to serve God' and his reflection on having 'nothing else to trust to' are drawn from Methodist biographical sources; faithfully transmitted.",
+        "sources": [
+          {
+            "title": "The Conversion of the Wesley Brothers - Church History Review",
+            "url": "https://lexloiz.wordpress.com/2009/07/13/the-conversion-of-the-wesley-brothers/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-094",
+      "paragraph": 31,
+      "quote": "Wesley and his associates were led to see that true religion is seated in the heart, and that God’s law extends to the thoughts as well as to the words and actions.",
+      "claim_text": "John Wesley and his associates came to believe that true religion is seated in the heart and that God's law extends to thoughts as well as words and actions.",
+      "claim_type": "biographical",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wesley taught that true religion is inward and that God's law reaches the thoughts; central to his theology.",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-095",
+      "paragraph": 31,
+      "quote": "They lived a life of self-denial, charity, and humiliation, observing with great rigor and exactness every measure which they thought could be helpful to them in obtaining what they most desired,—that holiness which could secure the favor of God.",
+      "claim_text": "John Wesley and his associates lived a rigorous life of self-denial, charity, and humiliation in pursuit of holiness that could secure God's favor.",
+      "claim_type": "biographical",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Oxford Holy Club practiced rigorous self-denial, charity and religious exactness in pursuit of holiness; standard biography.",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-096",
+      "paragraph": 31,
+      "quote": "But they did not obtain the object which they sought. In vain were their endeavors to free themselves from the condemnation of sin or to break its power.",
+      "claim_text": "Wesley and his associates did not obtain the holiness they sought through their rigorous self-denial; their endeavors failed to free them from the sense of condemnation of sin.",
+      "claim_type": "biographical",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wesley by his own account did not attain assurance/freedom from sin's condemnation through these efforts before 1738; documented in his Journal.",
+        "sources": [
+          {
+            "title": "John Wesley and Faith at Aldersgate - The Gospel Coalition",
+            "url": "https://www.thegospelcoalition.org/themelios/article/john-wesley-and-faith-at-aldersgate/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-097",
+      "paragraph": 31,
+      "quote": "It was the same struggle which Luther had experienced in his cell at Erfurt. It was the same question which had tortured his soul,—“How should man be just before God?”",
+      "claim_text": "Wesley's spiritual struggle to find assurance of salvation through works paralleled the struggle Martin Luther experienced in his monastic cell at Erfurt, tortured by the same question, 'How should man be just before God?'",
+      "claim_type": "causal",
+      "entities": [
+        "John Wesley",
+        "Martin Luther",
+        "Erfurt"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The parallel to Luther's monastic struggle is apt: Luther was an Augustinian friar (Erfurt, 1505-08) tormented by 'how shall man be just before God?' The comparison is interpretive but the Luther facts are correct.",
+        "sources": [
+          {
+            "title": "John Wesley and Faith at Aldersgate - The Gospel Coalition",
+            "url": "https://www.thegospelcoalition.org/themelios/article/john-wesley-and-faith-at-aldersgate/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-098",
+      "paragraph": 32,
+      "quote": "The fires of divine truth, well-nigh extinguished upon the altars of Protestantism, were to be rekindled from the ancient torch handed down the ages by the Bohemian Christians.",
+      "claim_text": "The fires of divine truth, nearly extinguished within Protestantism, were rekindled by the influence of the Bohemian Christians who had preserved the ancient faith through the ages.",
+      "claim_type": "theological",
+      "entities": [
+        "Bohemia"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/figurative ('fires of divine truth... ancient torch'); not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-099",
+      "paragraph": 32,
+      "quote": "After the Reformation, Protestantism in Bohemia had been trampled out by the hordes of Rome. All who refused to renounce the truth were forced to flee. Some of these, finding refuge in Saxony, there maintained the ancient faith.",
+      "claim_text": "After the Reformation, Protestantism in Bohemia was suppressed by Roman Catholic forces; those who refused to renounce their faith were forced to flee, some finding refuge in Saxony where they preserved their faith.",
+      "claim_type": "event",
+      "entities": [
+        "Bohemia",
+        "Saxony"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "After the Bohemian defeat (White Mountain, 1620), Protestantism was suppressed; refugees preserved the faith, some later gathering at Herrnhut in Saxony (the renewed Moravian Church).",
+        "sources": [
+          {
+            "title": "The Moravians and John Wesley - Christian History",
+            "url": "https://christianhistoryinstitute.org/magazine/article/moravians-and-wesley",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-100",
+      "paragraph": 32,
+      "quote": "It was from the descendants of these Christians that light came to Wesley and his associates.",
+      "claim_text": "Spiritual light and instruction that shaped John Wesley and his associates came from descendants of the Bohemian Protestant refugees who had settled in Saxony (the Moravians).",
+      "claim_type": "causal",
+      "entities": [
+        "John Wesley",
+        "Moravians",
+        "Saxony"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Moravians who influenced Wesley descended from the Bohemian Brethren who took refuge in Saxony (Herrnhut).",
+        "sources": [
+          {
+            "title": "The Moravians and John Wesley - Christian History",
+            "url": "https://christianhistoryinstitute.org/magazine/article/moravians-and-wesley",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-101",
+      "paragraph": 33,
+      "quote": "John and Charles Wesley, after being ordained to the ministry, were sent on a mission to America.",
+      "claim_text": "John and Charles Wesley, after being ordained to the ministry, were sent on a missionary trip to America (the Georgia mission, 1735-1736).",
+      "claim_type": "event",
+      "entities": [
+        "John Wesley",
+        "Charles Wesley",
+        "America"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "John and Charles Wesley, ordained CoE clergy, went on the Georgia mission (1735-36).",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-102",
+      "paragraph": 33,
+      "quote": "On board the ship was a company of Moravians.",
+      "claim_text": "A company of Moravians was aboard the ship carrying John and Charles Wesley to America.",
+      "claim_type": "event",
+      "entities": [
+        "John Wesley",
+        "Moravians"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "A company of Moravians was aboard the ship (the Simmonds) with the Wesleys; documented in Wesley's Journal.",
+        "sources": [
+          {
+            "title": "John Wesley Meets the Moravians",
+            "url": "https://www.wvbc.org/news/john-wesley-meets-the-moravians/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-103",
+      "paragraph": 33,
+      "quote": "Violent storms were encountered on the passage, and John Wesley, brought face to face with death, felt that he had not the assurance of peace with God.",
+      "claim_text": "During the voyage to America, John Wesley encountered violent storms and, facing possible death, felt he lacked assurance of peace with God.",
+      "claim_type": "biographical",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Violent Atlantic storms occurred and Wesley confessed his lack of assurance facing death; from his Journal.",
+        "sources": [
+          {
+            "title": "John Wesley Meets the Moravians",
+            "url": "https://www.wvbc.org/news/john-wesley-meets-the-moravians/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-104",
+      "paragraph": 33,
+      "quote": "The Germans, on the contrary, manifested a calmness and trust to which he was a stranger.",
+      "claim_text": "The Moravian (German) passengers on the ship manifested a calmness and trust in God during the storms that John Wesley found himself lacking.",
+      "claim_type": "event",
+      "entities": [
+        "Moravians",
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wesley contrasted the Moravians' calm trust with his own fear; from his Journal.",
+        "sources": [
+          {
+            "title": "John Wesley Meets the Moravians",
+            "url": "https://www.wvbc.org/news/john-wesley-meets-the-moravians/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-105",
+      "paragraph": 34,
+      "quote": "In the midst of the psalm wherewith their service began, the sea broke over, split the mainsail in pieces, covered the ship, and poured in between the decks as if the great deep had already swallowed us up. A terrible screaming began among the English. The Germans calmly sung on. I asked one of them afterward, ‘Were you not afraid?’ He answered, ‘I thank God, no,’ I asked, ‘But were not your women and children afraid?’ He replied mildly, ‘No; our women and children are not afraid to die.’ ”",
+      "claim_text": "John Wesley recorded that during a storm on the voyage to America, a wave split the mainsail and flooded the ship, causing the English passengers to scream in terror while the Moravian Germans calmly continued singing a psalm, and that when asked, one Moravian said neither he nor the women and children were afraid to die.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Wesley",
+        "Moravians"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The storm passage (mainsail split, English screaming, Germans singing on, 'our women and children are not afraid to die') is quoted from Wesley's Journal; confirmed near-verbatim.",
+        "sources": [
+          {
+            "title": "John Wesley Meets the Moravians (quoting Wesley's Journal)",
+            "url": "https://www.wvbc.org/news/john-wesley-meets-the-moravians/",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-106",
+      "paragraph": 35,
+      "quote": "Upon arriving in Savannah, Wesley for a short time abode with the Moravians, and was deeply impressed with their Christian deportment.",
+      "claim_text": "Upon arriving in Savannah, Georgia, John Wesley lodged briefly with the Moravians and was deeply impressed by their Christian conduct.",
+      "claim_type": "event",
+      "entities": [
+        "John Wesley",
+        "Savannah",
+        "Moravians"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "On arriving at Savannah, Wesley lodged briefly with the Moravians (Spangenberg) and admired their conduct; from his Journal.",
+        "sources": [
+          {
+            "title": "Chapter VI — To America and Back (Wesley Center Online)",
+            "url": "https://wesley.nnu.edu/john-wesley/john-wesley-the-methodist/chapter-vi-to-america-and-back/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-107",
+      "paragraph": 35,
+      "quote": "Of one of their religious services, in striking contrast to the lifeless formalism of the Church of England, he wrote: “The great simplicity as well as solemnity of the whole almost made me forget the seventeen hundred years between, and imagine myself in one of those assemblies where form and state were not; but Paul, the tent-maker, or Peter, the fisherman, presided; yet with the demonstration of the Spirit and of power.”",
+      "claim_text": "John Wesley wrote of a Moravian religious service in Savannah that its simplicity and solemnity made him feel as though he were in an assembly presided over by Paul the tent-maker or Peter the fisherman, contrasting it with the formalism of the Church of England.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Wesley",
+        "Moravians",
+        "Church of England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wesley's admiring description of a Moravian service ('almost made me forget the seventeen hundred years... Paul the tent-maker, or Peter the fisherman') is quoted from his Journal.",
+        "sources": [
+          {
+            "title": "Wesley Center Online — Journal excerpts",
+            "url": "https://wesley.nnu.edu/john-wesley/john-wesley-the-methodist/chapter-vi-to-america-and-back/",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-108",
+      "paragraph": 36,
+      "quote": "On his return to England, Wesley, under the instruction of a Moravian preacher, arrived at a clearer understanding of Bible faith.",
+      "claim_text": "On returning to England, John Wesley, instructed by a Moravian preacher, arrived at a clearer understanding of Bible faith.",
+      "claim_type": "biographical",
+      "entities": [
+        "John Wesley",
+        "Moravians"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Back in England, Wesley was instructed by the Moravian Peter Boehler and moved toward assurance by faith; documented.",
+        "sources": [
+          {
+            "title": "John Wesley and Faith at Aldersgate - The Gospel Coalition",
+            "url": "https://www.thegospelcoalition.org/themelios/article/john-wesley-and-faith-at-aldersgate/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-109",
+      "paragraph": 36,
+      "quote": "He was convinced that he must renounce all dependence upon his own works for salvation, and must trust wholly to the “Lamb of God that taketh away the sin of the world.”",
+      "claim_text": "John Wesley became convinced he must renounce all dependence on his own works for salvation and trust wholly in Christ.",
+      "claim_type": "biographical",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wesley became convinced to renounce dependence on works and trust wholly in Christ; documented in his Journal/letters.",
+        "sources": [
+          {
+            "title": "John Wesley and Faith at Aldersgate - The Gospel Coalition",
+            "url": "https://www.thegospelcoalition.org/themelios/article/john-wesley-and-faith-at-aldersgate/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-110",
+      "paragraph": 36,
+      "quote": "At a meeting of the Moravian society in London, a statement was read from Luther, describing the change which the Spirit of God works in the heart of the believer.",
+      "claim_text": "At a Moravian society meeting in London, a statement from Luther describing the change the Spirit of God works in a believer's heart was read aloud (the Aldersgate Street meeting, May 1738).",
+      "claim_type": "event",
+      "entities": [
+        "John Wesley",
+        "Martin Luther",
+        "London",
+        "Moravians"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "At the Aldersgate Street Moravian society (24 May 1738), Luther's Preface to the Epistle to the Romans was being read; from Wesley's Journal.",
+        "sources": [
+          {
+            "title": "Aldersgate Day - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Aldersgate_Day",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Luther's Preface to Romans read"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-111",
+      "paragraph": 36,
+      "quote": "“I felt my heart strangely warmed,” he says. “I felt I did trust in Christ, Christ alone, for salvation: and an assurance was given me, that He had taken away _my_ sins, even _mine_, and saved _me_ from the law of sin and death.”",
+      "claim_text": "John Wesley recorded of the Aldersgate meeting: 'I felt my heart strangely warmed... I felt I did trust in Christ, Christ alone, for salvation: and an assurance was given me, that He had taken away my sins, even mine, and saved me from the law of sin and death.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "'I felt my heart strangely warmed... I did trust in Christ, Christ alone, for salvation' is quoted verbatim from Wesley's Journal (24 May 1738); one of the most-cited passages in Christian history.",
+        "sources": [
+          {
+            "title": "Aldersgate Day - Wikipedia (quoting Wesley's Journal)",
+            "url": "https://en.wikipedia.org/wiki/Aldersgate_Day",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-112",
+      "paragraph": 37,
+      "quote": "Through long years of wearisome and comfortless striving,—years of rigorous self-denial, of reproach and humiliation,—Wesley had steadfastly adhered to his one purpose of seeking God. Now he had found Him; and he found that the grace which he had toiled to win by prayers and fasts, by almsdeeds and self-abnegation, was a gift, “without money, and without price.”",
+      "claim_text": "After years of rigorous self-denial seeking God through prayer, fasting, almsdeeds, and self-abnegation, John Wesley came to believe that grace was in fact a free gift, 'without money, and without price.'",
+      "claim_type": "biographical",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wesley concluded that saving grace is a free gift; consistent with his post-Aldersgate theology and Journal.",
+        "sources": [
+          {
+            "title": "John Wesley and Faith at Aldersgate - The Gospel Coalition",
+            "url": "https://www.thegospelcoalition.org/themelios/article/john-wesley-and-faith-at-aldersgate/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-113",
+      "paragraph": 38,
+      "quote": "“I look upon all the world as my parish;” he said; “in whatever part of it I am, I judge it meet, right, and my bounden duty, to declare unto all that are willing to hear, the glad tidings of salvation.”",
+      "claim_text": "John Wesley is quoted saying 'I look upon all the world as my parish,' declaring his duty to preach salvation wherever he was.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "'I look upon all the world as my parish' is a genuine, well-known Wesley statement (from a 1739 letter to James Hervey).",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "1739 letter to James Hervey"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-114",
+      "paragraph": 39,
+      "quote": "He continued his strict and self-denying life, not now as the _ground_, but the _result_ of faith; not the _root_, but the _fruit_ of holiness.",
+      "claim_text": "After his Aldersgate experience, John Wesley continued a strict, self-denying life, but now understood it as the result of faith rather than its basis.",
+      "claim_type": "biographical",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wesley continued a disciplined life but reframed works as the fruit rather than the ground of faith; standard account of his theology.",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-115",
+      "paragraph": 39,
+      "quote": "Wesley’s life was devoted to the preaching of the great truths which he had received,—justification through faith in the atoning blood of Christ, and the renewing power of the Holy Spirit upon the heart, bringing forth fruit in a life conformed to the example of Christ.",
+      "claim_text": "John Wesley devoted his life to preaching justification by faith in Christ's atoning blood and the renewing power of the Holy Spirit.",
+      "claim_type": "biographical",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wesley's ministry centered on justification by faith in Christ's atonement and the Spirit's renewing work (sanctification); standard.",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-116",
+      "paragraph": 40,
+      "quote": "Whitefield and the Wesleys had been prepared for their work by long and sharp personal convictions of their own lost condition; and that they might be able to endure hardness as good soldiers of Christ, they had been subjected to the fiery ordeal of scorn, derision, and persecution, both in the university and as they were entering the ministry.",
+      "claim_text": "George Whitefield and the Wesleys experienced long personal convictions of their own lost spiritual condition and were subjected to scorn, derision, and persecution both at university and upon entering the ministry.",
+      "claim_type": "biographical",
+      "entities": [
+        "George Whitefield",
+        "John Wesley",
+        "Charles Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Whitefield and the Wesleys endured scorn at Oxford and on entering ministry after their own protracted convictions; standard biography.",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-117",
+      "paragraph": 40,
+      "quote": "They and a few others who sympathized with them were contemptuously called Methodists by their ungodly fellow-students,—a name which is at the present time regarded as honorable by one of the largest denominations in England and America.",
+      "claim_text": "Whitefield, the Wesleys, and their sympathizers were contemptuously nicknamed 'Methodists' by fellow students, a name that by 1911 was regarded as honorable by one of the largest denominations in England and America.",
+      "claim_type": "event",
+      "entities": [
+        "George Whitefield",
+        "John Wesley",
+        "Charles Wesley",
+        "Methodists"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] 'Methodist' began as a derisive Oxford nickname and by 1911 named a major denomination in Britain and America.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-118",
+      "paragraph": 41,
+      "quote": "As members of the Church of England, they were strongly attached to her forms of worship, but the Lord had presented before them in His word a higher standard.",
+      "claim_text": "Whitefield and the Wesleys, as members of the Church of England, were strongly attached to its forms of worship.",
+      "claim_type": "biographical",
+      "entities": [
+        "George Whitefield",
+        "John Wesley",
+        "Charles Wesley",
+        "Church of England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "As CoE members the leaders were attached to its liturgy/forms even while pressing revival; standard.",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-119",
+      "paragraph": 41,
+      "quote": "The power of the Highest attended their labors. Thousands were convicted and truly converted.",
+      "claim_text": "Thousands of people were convicted and converted through the preaching labors of Whitefield and the Wesleys.",
+      "claim_type": "statistic",
+      "entities": [
+        "George Whitefield",
+        "John Wesley",
+        "Charles Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The revival preaching of Whitefield and the Wesleys produced large numbers of conversions; well documented.",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-120",
+      "paragraph": 41,
+      "quote": "Wesley had no thought of forming a new denomination, but he organized them under what was called the Methodist Connection.",
+      "claim_text": "John Wesley had no intention of forming a new denomination but organized his converts under what became known as the Methodist Connection.",
+      "claim_type": "event",
+      "entities": [
+        "John Wesley",
+        "Methodist Connection"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wesley organized converts into the 'Methodist Connexion' intending renewal within the CoE, not a new denomination (formal separation came after his death). GC's statement of his intent is accurate.",
+        "sources": [
+          {
+            "title": "Methodism - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Methodism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-121",
+      "paragraph": 42,
+      "quote": "Mysterious and trying was the opposition which these preachers encountered from the established church; yet God, in His wisdom, had overruled events to cause the reform to begin within the church itself.",
+      "claim_text": "God overruled events so that the Methodist reform movement began within the Church of England itself, despite the church's opposition.",
+      "claim_type": "theological",
+      "entities": [
+        "Church of England"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim (God 'overruled events' so reform began within the church); not testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-122",
+      "paragraph": 42,
+      "quote": "But as the revival preachers were churchmen, and labored within the pale of the church wherever they could find opportunity, the truth had an entrance where the doors would otherwise have remained closed. Some of the clergy were roused from their moral stupor, and became zealous preachers in their own parishes.",
+      "claim_text": "Because the Methodist revival preachers remained Church of England clergy laboring within the church, the movement gained entrance where it otherwise would have been shut out, rousing some clergy to become zealous preachers in their own parishes.",
+      "claim_type": "causal",
+      "entities": [
+        "Church of England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Because the revival preachers were CoE clergy working inside the church, the movement gained entry and roused some parish clergy; standard historiography.",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-123",
+      "paragraph": 43,
+      "quote": "They did not harmonize upon every point of doctrine, but all were moved by the Spirit of God, and united in the absorbing aim to win souls to Christ.",
+      "claim_text": "The Methodist leaders did not agree on every point of doctrine but were united in the aim of winning souls to Christ.",
+      "claim_type": "interpretive",
+      "entities": [
+        "George Whitefield",
+        "John Wesley",
+        "Charles Wesley"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive ('all moved by the Spirit of God, united in aim'); the theological attribution is not testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-124",
+      "paragraph": 43,
+      "quote": "The differences between Whitefield and the Wesleys threatened at one time to create alienation; but as they learned meekness in the school of Christ, mutual forbearance and charity reconciled them.",
+      "claim_text": "Doctrinal differences between George Whitefield and the Wesleys at one time threatened alienation between them, but mutual forbearance and charity reconciled them.",
+      "claim_type": "event",
+      "entities": [
+        "George Whitefield",
+        "John Wesley",
+        "Charles Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Calvinist/Arminian dispute between Whitefield and the Wesleys did threaten a breach but they were personally reconciled; well documented (Whitefield asked Wesley to preach his funeral sermon).",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-125",
+      "paragraph": 44,
+      "quote": "Men of influence and learning employed their powers against them. After a time many of the clergy manifested determined hostility, and the doors of the churches were closed against a pure faith and those who proclaimed it.",
+      "claim_text": "Men of influence and learning opposed the Methodists, and eventually many Church of England clergy manifested determined hostility and closed church doors against the Methodist preachers.",
+      "claim_type": "event",
+      "entities": [
+        "Church of England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Learned opponents attacked the Methodists and many clergy eventually closed their pulpits to them; standard history.",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-126",
+      "paragraph": 44,
+      "quote": "The course of the clergy in denouncing them from the pulpit, aroused the elements of darkness, ignorance, and iniquity.",
+      "claim_text": "Denunciations of the Methodists from the pulpit by clergy aroused mob hostility against them.",
+      "claim_type": "causal",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Pulpit denunciations helped incite mob hostility against the Methodists; consistent with the record of the anti-Methodist riots.",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-127",
+      "paragraph": 44,
+      "quote": "Again and again did John Wesley escape death by a miracle of God’s mercy.",
+      "claim_text": "John Wesley escaped death repeatedly by what is described as a miracle of God's mercy.",
+      "claim_type": "theological",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim (repeated escape by 'a miracle of God's mercy'); the providential attribution is not testable, though the underlying mob dangers were real.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-128",
+      "paragraph": 44,
+      "quote": "When the rage of the mob was excited against him, and there seemed no way of escape, an angel in human form came to his side, the mob fell back, and the servant of Christ passed in safety from the place of danger.",
+      "claim_text": "On an occasion when a mob's rage was excited against John Wesley with no apparent way of escape, an angel in human form came to his side, causing the mob to fall back and allowing him to pass safely away.",
+      "claim_type": "theological",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim ('an angel in human form' dispersing a mob); not empirically verifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-129",
+      "paragraph": 45,
+      "quote": "“Many endeavored to throw me down while we were going down hill on a slippery path to the town; as well judging that if I was once on the ground, I should hardly rise any more. But I made no stumble at all, nor the least slip, till I was entirely out of their hands.... Although many strove to lay hold on my collar or clothes, to pull me down, they could not fasten at all: only one got fast hold of the flap of my waistcoat, which was soon left in his hand; the other flap, in the pocket of which was a bank-note, was torn but half off.... A lusty man just behind, struck at me several times, with a large oaken stick; with which if he had struck me once on the back part of my head, it would have saved him all further trouble. But every time the blow was turned aside, I know not how; for I could not move to the right hand or left.... Another came rushing through the press, and raising his arm to strike, on a sudden let it drop, and only stroked my head, saying, ‘What soft hair he has!’ ... The very first men whose hearts were turned were the heroes of the town, the captains of the rabble on all occasions, one of them having been a prize-fighter at the bear-gardens....",
+      "claim_text": "John Wesley recorded that during a mob attack, men tried to throw him down and strike him with a stick, but he escaped unharmed, and that among the first to be won over were the town's rabble-rousers, one a former prize-fighter at the bear-gardens.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The mob-attack account (attempts to throw him down, the torn waistcoat flaps, the oaken stick, the man stroking his hair) is quoted from Wesley's Journal (Wednesbury/Walsall riots, Oct 1743).",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia (Wednesbury riots, Journal)",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-130",
+      "paragraph": 46,
+      "quote": "“By how gentle degrees does God prepare us for His will! Two years ago, a piece of brick grazed my shoulders. It was a year after that the stone struck me between the eyes. Last month I received one blow, and this evening two, one before we came into the town, and one after we were gone out; but both were as nothing: for though one man struck me on the breast with all his might, and the other on the mouth with such a force that the blood gushed out immediately, I felt no more pain from either of the blows than if they had touched me with a straw.”",
+      "claim_text": "John Wesley recorded a timeline of assaults against him: a piece of brick grazed his shoulder two years before an incident, a stone struck him between the eyes a year after that, and in the same month/evening as this account he was struck on the breast and the mouth (drawing blood), yet felt as if unharmed.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The tally of assaults (brick, stone between the eyes, blows to breast and mouth 'as if... a straw') is quoted from Wesley's Journal.",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia (Journal)",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-131",
+      "paragraph": 47,
+      "quote": "The Methodists of those early days—people as well as preachers—endured ridicule and persecution, alike from church-members and from the openly irreligious who were inflamed by their misrepresentations.",
+      "claim_text": "Early Methodists, both preachers and lay members, endured ridicule and persecution from both church-members and openly irreligious people.",
+      "claim_type": "event",
+      "entities": [
+        "Methodists"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Early Methodists (preachers and laity) suffered ridicule and persecution from churchmen and the irreligious; well documented.",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-132",
+      "paragraph": 47,
+      "quote": "They were arraigned before courts of justice—such only in name, for justice was rare in the courts of that time.",
+      "claim_text": "Early Methodists were arraigned before courts of justice in England.",
+      "claim_type": "event",
+      "entities": [
+        "Methodists"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Methodists were sometimes hauled before magistrates; consistent with the record (e.g. Wesley's own encounters with justices).",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-133",
+      "paragraph": 47,
+      "quote": "courts of justice—such only in name, for justice was rare in the courts of that time.",
+      "claim_text": "The courts before which early Methodists were arraigned were 'justice' in name only, since actual justice was rare in the courts of that era.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive editorial ('courts of justice—such only in name'); an evaluative aside, not a checkable fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-134",
+      "paragraph": 47,
+      "quote": "Often they suffered violence from their persecutors. Mobs went from house to house, destroying furniture and goods, plundering whatever they chose, and brutally abusing men, women, and children.",
+      "claim_text": "Mobs attacked Methodist households, destroying furniture and goods, plundering property, and brutally abusing men, women, and children.",
+      "claim_type": "event",
+      "entities": [
+        "Methodists"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Anti-Methodist mobs did ransack homes, plunder goods and assault people; documented in the riots of the 1740s.",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-135",
+      "paragraph": 47,
+      "quote": "In some instances, public notices were posted, calling upon those who desired to assist in breaking the windows and robbing the houses of the Methodists, to assemble at a given time and place.",
+      "claim_text": "In some instances, public notices were posted calling on people to assemble at a given time and place to break windows and rob the houses of Methodists.",
+      "claim_type": "event",
+      "entities": [
+        "Methodists"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Public handbills summoning people to attack Methodists are reported in Wesley's Journal and contemporary accounts; plausible and attested for the anti-Methodist violence.",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-136",
+      "paragraph": 47,
+      "quote": "These open violations of both human and divine law were allowed to pass without a reprimand. A systematic persecution was carried on against a people whose only fault was that of seeking to turn the feet of sinners from the path of destruction to the path of holiness.",
+      "claim_text": "Attacks on Methodists went unreprimanded by authorities, amounting to a systematic persecution against a people whose only fault was seeking to turn sinners toward holiness.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Methodists"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/evaluative summary ('systematic persecution... whose only fault...'); a value judgment, not a discrete fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-137",
+      "paragraph": 48,
+      "quote": "Said John Wesley, referring to the charges against himself and his associates: “Some allege that the doctrines of these men are false, erroneous, and enthusiastic; that they are new and unheard-of till of late; that they are Quakerism, fanaticism, popery. This whole pretense has been already cut up by the roots, it having been shown at large that every branch of this doctrine is the plain doctrine of Scripture interpreted by our own church. Therefore it cannot be either false or erroneous, provided the Scripture be true.”",
+      "claim_text": "John Wesley is quoted defending Methodist doctrine against charges of being false, new, or resembling Quakerism, fanaticism, or popery, arguing it is the plain doctrine of Scripture as interpreted by the Church of England.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The defense against charges of novelty/Quakerism/popery is quoted from Wesley's works (his apologetic writings); faithfully transmitted period quotation.",
+        "sources": [
+          {
+            "title": "John Wesley, Works (Wesley Center Online)",
+            "url": "https://wesley.nnu.edu/",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-138",
+      "paragraph": 48,
+      "quote": "“Others allege, ‘Their doctrine is too strict; they make the way to heaven too narrow.’ And this is in truth the original objection, (as it was almost the only one for some time,) and is secretly at the bottom of a thousand more, which appear in various forms. But do they make the way to heaven any narrower than our Lord and His apostles made it? Is their doctrine stricter than that of the Bible? Consider only a few plain texts: ‘Thou shalt love the Lord thy God with all thy heart, and with all thy mind, and with all thy soul, and with all thy strength.’ ‘For every idle word which men shall speak, they shall give an account in the day of judgment.’ ‘Whether ye eat, or drink, or whatever ye do, do all to the glory of God.’",
+      "claim_text": "John Wesley is quoted answering the objection that Methodist doctrine was 'too strict,' arguing it was no stricter than the Bible's own commands, citing texts on loving God fully, accounting for idle words, and doing all to God's glory.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The 'too strict / too narrow a way' passage with its Scripture texts is from Wesley's works; faithfully transmitted.",
+        "sources": [
+          {
+            "title": "John Wesley, Works",
+            "url": "https://wesley.nnu.edu/",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-139",
+      "paragraph": 49,
+      "quote": "“If their doctrine is stricter than this, they are to blame; but you know in your conscience it is not. And who can be one jot less strict without corrupting the word of God? Can any steward of the mysteries of God be found faithful if he change any part of that sacred depositum? No. He can abate nothing, he can soften nothing; he is constrained to declare to all men, ‘I may not bring down the Scripture to your taste. You must come up to it, or perish forever.’ This is the real ground of that other popular cry concerning ‘the uncharitableness of these men.’ Uncharitable, are they? In what respect? Do they not feed the hungry and clothe the naked? ‘No; that is not the thing: they are not wanting in this: but they are so uncharitable in judging! they think none can be saved but those of their own way.’ ”",
+      "claim_text": "John Wesley is quoted continuing his defense, arguing a faithful steward of God's mysteries cannot soften Scripture's demands, and addressing the charge of 'uncharitableness' leveled against the Methodists for supposedly believing only their own way leads to salvation.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The continuation on the 'steward of the mysteries of God' and the charge of 'uncharitableness' is from Wesley's works; faithfully transmitted.",
+        "sources": [
+          {
+            "title": "John Wesley, Works",
+            "url": "https://wesley.nnu.edu/",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-140",
+      "paragraph": 50,
+      "quote": "The spiritual declension which had been manifest in England just before the time of Wesley, was in great degree the result of Antinomian teaching.",
+      "claim_text": "The spiritual decline evident in England shortly before Wesley's time was largely the result of Antinomian teaching.",
+      "claim_type": "causal",
+      "entities": [
+        "England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Wesley attributed pre-revival spiritual decline substantially to Antinomian teaching; this is his own diagnosis, accurately reported (a partisan reading, but genuinely his).",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-141",
+      "paragraph": 50,
+      "quote": "Many affirmed that Christ had abolished the moral law, and that Christians are therefore under no obligation to observe it; that a believer is freed from the “bondage of good works.”",
+      "claim_text": "Some Antinomian teachers in England held that Christ had abolished the moral law and that Christians were therefore under no obligation to observe it, being freed from the 'bondage of good works.'",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Antinomians did teach that Christ abolished the moral law's obligation for believers ('freed from the bondage of good works'); an accurate summary of the historical Antinomian position Wesley opposed.",
+        "sources": [
+          {
+            "title": "Antinomianism (standard reference)",
+            "url": "https://en.wikipedia.org/wiki/Antinomianism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-142",
+      "paragraph": 50,
+      "quote": "Others, though admitting the perpetuity of the law, declared that it was unnecessary for ministers to exhort the people to obedience of its precepts, since those whom God had elected to salvation would, “by the irresistible impulse of divine grace, be led to the practice of piety and virtue,” while those who were doomed to eternal reprobation “did not have power to obey the divine law.”",
+      "claim_text": "Other Antinomian-influenced teachers held that ministers need not exhort obedience to the moral law, since the elect would be irresistibly led to piety by divine grace while the reprobate lacked the power to obey the divine law.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The description (ministers need not exhort obedience; elect led irresistibly, reprobate unable to obey) is quoted from a period ecclesiastical history (Mosheim-type source used by White); faithfully transmitted as a characterization of hyper-Calvinist Antinomianism.",
+        "sources": [
+          {
+            "title": "Antinomianism / Mosheim, Ecclesiastical History (period source)",
+            "url": "https://en.wikipedia.org/wiki/Antinomianism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-143",
+      "paragraph": 51,
+      "quote": "Others, also holding that “the elect cannot fall from grace nor forfeit the divine favor,” arrived at the still more hideous conclusion that “the wicked actions they commit are not really sinful, nor to be considered as instances of their violation of the divine law, and that consequently they have no occasion either to confess their sins or to break them off by repentance.”",
+      "claim_text": "Some teachers, holding that the elect cannot fall from grace, concluded that the elect's wicked actions are not really sinful and require neither confession nor repentance.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The 'elect cannot fall... their wicked actions are not really sinful' claim is quoted from a period ecclesiastical-history source (Mosheim). Modern scholars regard this as a hostile caricature of extreme Antinomianism, but White transmits it faithfully.",
+        "sources": [
+          {
+            "title": "Mosheim, Ecclesiastical History (period characterization of Antinomians)",
+            "url": "https://en.wikipedia.org/wiki/Antinomianism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-144",
+      "paragraph": 51,
+      "quote": "Therefore, they declared that even one of the vilest of sins, “considered universally an enormous violation of the divine law, is not a sin in the sight of God,” if committed by one of the elect, “because it is one of the essential and distinctive characteristics of the elect, that they cannot do anything that is either displeasing to God or prohibited by the law.”",
+      "claim_text": "These teachers held that even a universally recognized enormous violation of the divine law is not a sin in God's sight if committed by one of the elect, since it is an essential characteristic of the elect that they cannot do anything displeasing to God or prohibited by the law.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The 'even the vilest sin is not a sin in God's sight if committed by one of the elect' formulation is quoted from the same period source; faithfully transmitted as the extreme-Antinomian caricature.",
+        "sources": [
+          {
+            "title": "Mosheim, Ecclesiastical History",
+            "url": "https://en.wikipedia.org/wiki/Antinomianism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-145",
+      "paragraph": 52,
+      "quote": "These monstrous doctrines are essentially the same as the later teaching of popular educators and theologians,—that there is no unchangeable divine law as the standard of right, but that the standard of morality is indicated by society itself, and has constantly been subject to change.",
+      "claim_text": "The Antinomian doctrines described are essentially the same, in substance, as later teaching by 'popular educators and theologians' that there is no unchangeable divine law and that morality's standard is set by society and subject to change.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive equation of Antinomianism with later moral relativism; an argumentative construal, not a checkable fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-146",
+      "paragraph": 52,
+      "quote": "All these ideas are inspired by the same master-spirit,—by him who, even among the sinless inhabitants of heaven, began his work of seeking to break down the righteous restraints of the law of God.",
+      "claim_text": "All Antinomian and relativistic ideas about the moral law are inspired by Satan, who began seeking to break down God's law even among the sinless inhabitants of heaven.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim (all such ideas inspired by Satan, who began in heaven); not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-14-147",
+      "paragraph": 53,
+      "quote": "The doctrine of the divine decrees, unalterably fixing the character of men, had led many to a virtual rejection of the law of God.",
+      "claim_text": "The doctrine of divine decrees unalterably fixing men's character led many in England to a virtual rejection of the law of God.",
+      "claim_type": "causal",
+      "entities": [],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Wesley (an Arminian) argued that hyper-Calvinist 'divine decrees' fixing character led many toward practical rejection of the moral law; accurately his position.",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-148",
+      "paragraph": 53,
+      "quote": "Wesley steadfastly opposed the errors of the Antinomian teachers, and showed that this doctrine which led to Antinomianism was contrary to the Scriptures.",
+      "claim_text": "John Wesley steadfastly opposed the errors of the Antinomian teachers and argued that the doctrine leading to Antinomianism was contrary to Scripture.",
+      "claim_type": "biographical",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wesley steadfastly opposed Antinomianism and argued its underlying predestinarianism was unscriptural; well documented (his sermons and the Calvinist controversy).",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-149",
+      "paragraph": 53,
+      "quote": "“The grace of God that bringeth salvation hath appeared to _all men_.” “This is good and acceptable in the sight of God our Saviour; who will have _all men_ to be saved; and to come unto the knowledge of the truth. For there is one God, and one mediator between God and men, the man Christ Jesus; who gave Himself a ransom for _all_.”",
+      "claim_text": "Wesley cited Scripture (Titus 2:11 and 1 Timothy 2:3-6) teaching that God's saving grace has appeared to all men and that Christ gave Himself a ransom for all, against the Antinomian doctrine of limited election.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wesley cited Titus 2:11 and 1 Timothy 2:3-6 for universal grace against limited election; the quoted texts are accurate Scripture and characteristic of his Arminian argument.",
+        "sources": [
+          {
+            "title": "John Wesley, Works / sermons on free grace",
+            "url": "https://wesley.nnu.edu/",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-150",
+      "paragraph": 53,
+      "quote": "Thus Christ, “the true Light,” “lighteth every man that cometh into the world.”",
+      "claim_text": "Wesley cited the scriptural description of Christ as 'the true Light' who 'lighteth every man that cometh into the world' (John 1:9) in his argument against limited-election Antinomianism.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wesley cited John 1:9 ('the true Light... lighteth every man') in support of universal grace; accurate Scripture and characteristic argument.",
+        "sources": [
+          {
+            "title": "John Wesley, Works / sermons",
+            "url": "https://wesley.nnu.edu/",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-151",
+      "paragraph": 54,
+      "quote": "In answer to the claim that at the death of Christ the precepts of the decalogue had been abolished with the ceremonial law, Wesley said: “The moral law, contained in the ten commandments and enforced by the prophets, He did not take away. It was not the design of His coming to revoke any part of this. This is a law which never can be broken, which ‘stands fast as the faithful witness in heaven.’ ... This was from the beginning of the world, being ‘written not on tables of stone,’ but on the hearts of all the children of men, when they came out of the hands of the Creator. And however the letters once wrote by the finger of God are now in a great measure defaced by sin, yet can they not wholly be blotted out, while we have any consciousness of good and evil. Every part of this law must remain in force upon all mankind, and in all ages; as not depending either on time or place, or any other circumstances liable to change, but on the nature of God, and the nature of man, and their unchangeable relation to each other.",
+      "claim_text": "John Wesley is quoted arguing that Christ did not abolish the moral law (the Ten Commandments) at His death, since this law is written on the hearts of all mankind from creation and remains binding on all people in all ages.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The passage ('The moral law... He did not take away... written on the hearts of all') is from Wesley's Sermon 25 (Upon Our Lord's Sermon on the Mount, Discourse V); faithfully transmitted.",
+        "sources": [
+          {
+            "title": "John Wesley, Sermon 25 (Wesley Center Online)",
+            "url": "https://wesley.nnu.edu/",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-152",
+      "paragraph": 55,
+      "quote": "“ ‘I am not come to destroy, but to fulfil.’... Without question, His meaning in this place is (consistently with all that goes before and follows after),—I am come to establish it in its fulness, in spite of all the glosses of men: I am come to place in a full and clear view whatsoever was dark or obscure therein: I am come to declare the true and full import of every part of it; to show the length and breadth, the entire extent, of every commandment contained therein, and the height and depth, the inconceivable purity and spirituality of it in all its branches.”",
+      "claim_text": "John Wesley is quoted interpreting Christ's statement 'I am not come to destroy, but to fulfil' (Matthew 5:17) as meaning Christ came to establish the moral law in its fullness and clarify its true, full import.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Continuation of the same Wesley discourse begun in paragraph 54 (footnote 380); no new footnote number appears at this point in the source.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wesley's exposition of 'I am not come to destroy, but to fulfil' (to establish the law in its fullness) is from the same sermon discourse; faithfully transmitted.",
+        "sources": [
+          {
+            "title": "John Wesley, Sermon 25",
+            "url": "https://wesley.nnu.edu/",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-153",
+      "paragraph": 56,
+      "quote": "Wesley declared the perfect harmony of the law and the gospel. “There is, therefore, the closest connection that can be conceived, between the law and the gospel. On the one hand, the law continually makes way for, and points us to, the gospel; on the other, the gospel continually leads us to a more exact fulfilling of the law. The law, for instance, requires us to love God, to love our neighbor, to be meek, humble, or holy. We feel that we are not sufficient for these things; yea, that ‘with man this is impossible:’ but we see a promise of God to give us that love, and to make us humble, meek, and holy: we lay hold of this gospel, of these glad tidings; it is done unto us according to our faith; and ‘the righteousness of the law is fulfilled in us,’ through faith which is in Christ Jesus....",
+      "claim_text": "John Wesley is quoted teaching a perfect harmony between the moral law and the gospel: the law points to the gospel, and the gospel enables believers to more exactly fulfill the law through faith in Christ.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Continuation of the same Wesley discourse (footnote 380).",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wesley's teaching on the harmony of law and gospel (law points to gospel; gospel fulfils the law in us) is from his sermons; faithfully transmitted.",
+        "sources": [
+          {
+            "title": "John Wesley, Sermon on the Law Established Through Faith",
+            "url": "https://wesley.nnu.edu/",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-154",
+      "paragraph": 57,
+      "quote": "“In the highest rank of the enemies of the gospel of Christ,” said Wesley, “are they who openly and explicitly ‘judge the law’ itself, and ‘speak evil of the law;’ who teach men to break (to dissolve, to loose, to untie the obligation of) not one only, whether of the least or of the greatest, but all the commandments at a stroke.... The most surprising of all the circumstances that attend this strong delusion, is that they who are given up to it, really believe that they honor Christ by overthrowing His law, and that they are magnifying His office while they are destroying His doctrine! Yea, they honor Him just as Judas did when he said, ‘Hail, Master, and kissed Him.’ And He may as justly say to every one of them, ‘Betrayest thou the Son of man with a kiss?’ It is no other than betraying Him with a kiss, to talk of His blood, and take away His crown; to set light by any part of His law, under pretense of advancing His gospel. Nor indeed can any one escape this charge, who preaches faith in any such a manner as either directly or indirectly tends to set aside any branch of obedience: who preaches Christ so as to disannul, or weaken in any wise, the least of the commandments of God.”",
+      "claim_text": "John Wesley is quoted describing those who teach that Christ's grace dissolves the obligation to obey God's commandments as among 'the highest rank of the enemies of the gospel,' comparing them to Judas betraying Christ with a kiss.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The passage placing those who 'speak evil of the law' among 'the highest rank of the enemies of the gospel' and comparing them to Judas is from Wesley's sermon on the Law; faithfully transmitted.",
+        "sources": [
+          {
+            "title": "John Wesley, Sermon on the Law Established Through Faith",
+            "url": "https://wesley.nnu.edu/",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-155",
+      "paragraph": 58,
+      "quote": "To those who urged that “the preaching of the gospel answers all the ends of the law,” Wesley replied: “This we utterly deny. It does not answer the very first end of the law, namely, the convincing men of sin, the awakening those who are still asleep on the brink of hell.” The apostle Paul declares that “by the law is the knowledge of sin;” “and not until man is convicted of sin, will he truly feel his need of the atoning blood of Christ.... ‘They that be whole,’ as our Lord Himself observes, ‘need not a physician, but they that are sick.’ It is absurd, therefore, to offer a physician to them that are whole, or that at least imagine themselves so to be. You are first to convince them that they are sick; otherwise they will not thank you for your labor. It is equally absurd to offer Christ to them whose heart is whole, having never yet been broken.”",
+      "claim_text": "John Wesley is quoted rejecting the claim that gospel preaching alone answers all the purposes of the law, arguing the law's function of convicting men of sin (citing Romans 3:20 and Christ's 'physician' saying) must precede offering Christ as Savior.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Wesley's rejection of 'the preaching of the gospel answers all the ends of the law' (the law must first convince of sin; Rom 3:20; the 'physician' saying) is from his sermon on the Law; faithfully transmitted.",
+        "sources": [
+          {
+            "title": "John Wesley, Sermon on the Law Established Through Faith",
+            "url": "https://wesley.nnu.edu/",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-156",
+      "paragraph": 59,
+      "quote": "At the close of his long life of more than fourscore years—above half a century spent in itinerant ministry—his avowed adherents numbered more than half a million souls.",
+      "claim_text": "By the close of John Wesley's life of more than eighty years, over half of which was spent in itinerant ministry, his avowed adherents numbered more than half a million people.",
+      "claim_type": "statistic",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "At Wesley's death (1791) documented Methodist SOCIETY MEMBERS numbered roughly 135,000 (Britain plus America). GC's 'avowed adherents... more than half a million' far exceeds membership; it is defensible only if 'adherents' means the broader body of hearers/attenders, an estimate at the high end and not securely documented. The half-million figure descends from older Methodist historiography. Genuine ambiguity between 'members' and 'adherents' places this in dispute rather than plain error. Not load-bearing.",
+        "modern_consensus": "~135,000 members at Wesley's death; ~500,000 'adherents' is an upper-bound estimate for hearers, not membership.",
+        "sources": [
+          {
+            "title": "John Wesley - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/John_Wesley",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "71,668 GB + 43,265 US members in 1791"
+          },
+          {
+            "title": "Methodism - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Methodism",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "membership figures well below half a million"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-14-157",
+      "paragraph": 59,
+      "quote": "His life presents a lesson of priceless worth to every Christian.",
+      "claim_text": "John Wesley's life presents a lesson of priceless worth to every Christian.",
+      "claim_type": "interpretive",
+      "entities": [
+        "John Wesley"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/homiletic ('a lesson of priceless worth to every Christian'); an evaluative statement, not a checkable fact.",
+        "sources": []
+      }
+    }
+  ]
+}

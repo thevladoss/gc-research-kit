@@ -1,0 +1,43 @@
+{
+  "chapter": 14,
+  "stage": "adversarial",
+  "notes": "searches: ~1; full defenses: 1 (GC-14-032), cheap audits: 2 (GC-14-050, GC-14-051). Culdee audits used local Wylie vol.3 grep only, no web search. GC-14-156 (disputed) skipped per scope.",
+  "items": {
+    "GC-14-032": {
+      "result": "verdict_downgraded",
+      "revised_verdict": "supported",
+      "argument": "The 'contradicted' verdict over-reaches: the verifier's own rationale concedes 'the anecdote's substance is accurate; only the episcopal title is wrong.' A verdict of contradicted means the claim is false by strong scholarship. Here modern scholarship (Hall's Chronicle -> Foxe -> Tyndale Society) AFFIRMS the event in full: a bishop bought up Tyndale's whole stock in Antwerp via the mercer Augustine Packington to burn them at St Paul's Cross, and the money instead funded a new, corrected edition. The bishop is correctly the man Cuthbert Tunstall. The sole defect is the see-title 'Durham' vs 'London,' which is (a) Tunstall's principal and best-known title — he held Durham 1530-1559, 29 years, against 8 years at London; (b) his actual title at the paragraph's own climactic event, Tyndale's imprisonment reply of 1535 ('He replied that the bishop of Durham had done more than any other person'), when Tunstall WAS Bishop of Durham; White carries that identifier back to the earlier buy-up. This is a mislabel of a correctly identified person inside a confirmed event, not a false event, so 'contradicted' is the wrong bucket. The source-match path to 'anachronistic' is honestly foreclosed: White's two heaviest documented sources both call him 'Bishop of London' — Wylie vol.3 ('The Bishop of London,' replied the merchant... Tonstall) and the local D'Aubigne ('the bishop of London.' — 'Tonstall?'), as does Foxe. So the 'Durham' slip is White's own, not inherited; it cannot be defended as period historiography. Residual imprecision remains (Tunstall was Bishop of London, not Durham, at the c.1529 buy-up), but it is a trivial title slip on a true, well-attested, correctly-attributed event; the checkable core proposition is supported. source_quality: not a doctrinally-central topic (Tyndale printing), encyclopedic/primary sourcing sufficient.",
+      "new_sources": [
+        {
+          "title": "J.A. Wylie, History of Protestantism, vol. 3 (local copy, buy-up narrative)",
+          "url": "scholarship/wylie-history-of-protestantism-vol3.txt",
+          "source_class": "other",
+          "supports_verdict": true,
+          "note": "Lines ~38136-38184: names the prelate 'Bishop Tonstall... The Bishop of London' throughout; White's heaviest source does NOT say Durham. Confirms buy-up funded 'a new and more correct edition.'"
+        },
+        {
+          "title": "J.H. Merle D'Aubigne, History of the Reformation (local copy, English Reformation books)",
+          "url": "scholarship/daubigne-history-of-reformation-complete-1849.txt",
+          "source_class": "other",
+          "supports_verdict": true,
+          "note": "Lines ~134455-134503: Packington episode, prelate = 'the bishop of London.' — 'Tonstall?'; Tyndale resolves to 'print a new and more correct edition.' Also 'of Durham' as Tunstall's later see. No Durham attribution for the buy-up."
+        },
+        {
+          "title": "The Tyndale Society Journal no. 17: A Tale of Two Packingtons",
+          "url": "http://www.tyndale.org/tsj17/cooper.html",
+          "source_class": "other",
+          "supports_verdict": true,
+          "note": "Standard account (from Hall/Foxe): Cuthbert Tunstall, Bishop of London, in Antwerp arranges the buy-up c.1529; event historically attested, individual correctly Tunstall."
+        }
+      ]
+    },
+    "GC-14-050": {
+      "result": "defense_failed",
+      "argument": "Steelman: the bare proposition — Christian faith persisted continuously in Scotland from Columba's Iona mission (563) to the Reformation — is trivially true, and 'seeds of truth' is partly theological/rhetorical language (arguably unverifiable rather than false). One could argue the verifier over-literalized a devotional metaphor. But the loaded historical claim GC actually advances, and which the extractor correctly captured, is the Culdee-remnant thesis: that Columba planted a PURER, quasi-independent gospel witness that survived as a distinct proto-Protestant strain. That is anachronistic, and the verdict is sound. Local audit confirms the source chain exactly: Wylie vol.3 (chapter titled '...Suppression of the Culdees') frames Columba as one 'who kindled his evangelical lamp on the rocks of Iona' at the very time 'Rome was stretching her shadow' over the West, and speaks of a lamp 'brighter than that which Columba had kindled at Iona' awaiting the Reformation (local lines ~47770, ~48598). Modern scholarship holds the early Celtic/Scottish church fully catholic in doctrine and communion, distinctive only in customs (Easter computus, tonsure). The verifier's rationale, sources, and the anachronism call are internally consistent; no concrete lead justified a search. Defense fails: anachronistic stands, and it is already the cautious/safe-direction verdict."
+    },
+    "GC-14-051": {
+      "result": "defense_failed",
+      "argument": "Strongest steelman: there is a genuine historical kernel of Scottish ecclesiastical distinctiveness. The Celtic north retained its own customs (Easter dating, tonsure, monastic-familial organization) well after England conformed at the Synod of Whitby (664), and later the Scottish church enjoyed a real jurisdictional peculiarity — it answered to no English metropolitan and in 1192 the bull Cum universi made it a 'special daughter' of Rome with no intermediate archbishop. So 'those of Scotland maintained their freedom' has a defensible NON-doctrinal reading: freedom from English (York/Canterbury) metropolitan jurisdiction and persistence of distinctive Celtic usage. That kernel does not rescue GC's plain meaning, though: the chapter frames Scotland's 'freedom' as freedom from Roman/papal doctrinal AUTHORITY, a proto-Protestant independence, which is anachronistic — the Celtic church never stood outside catholic communion and conformed progressively from the 8th century. Local audit confirms Wylie vol.3 supplies exactly this framing (chapter heading 'Its Independence Secured — Bannockburn — Suppression of the Culdees'; the church's 'independence' established then forcibly Romanized). Verifier sources and rationale are consistent; the named period source genuinely asserts the thesis; no concrete lead for a search. Defense fails: anachronistic stands (already the cautious verdict)."
+    }
+  }
+}

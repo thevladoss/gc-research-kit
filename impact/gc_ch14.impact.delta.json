@@ -1,0 +1,31 @@
+{
+  "chapter": 14,
+  "stage": "impact",
+  "notes": "Chapter argument: GC-14 traces a single 'sola scriptura' lineage running from Tyndale's English NT through Latimer, Ridley/Cranmer, into Scotland via Knox, then through the persecuted post-Restoration dissenters (Bunyan, Baxter et al.), culminating in Whitefield/Wesley's revival of 'justification by faith' against Antinomian corruption of the moral law. The claims carrying this argument's weight are the extensively attested Tyndale/Latimer/Knox quotations and events (Wylie/Foxe/D'Aubigne/Wesley's own Journal and sermons), all of which verified as supported. The Scotland paragraph (13) that opens the Knox section is scene-setting background explaining why Scotland was primed for Reformation preaching, not a load-bearing proof for the chapter's own argument or for the book's Reformation/Millerite/sanctuary/Sabbath thesis chain; the closing Wesley membership statistic is likewise decorative. Only 3 items scored: GC-14-050 and GC-14-051 (Columba/Culdee 'Scotland free from Rome for centuries' thesis, both anachronistic/defense_failed) and GC-14-156 (Wesley 'half a million adherents', disputed, scored as a high-stakes disputed item per instructions). GC-14-032 (Tunstall 'Durham' title) was downgraded to supported on defense and is correctly excluded as not a confirmed discrepancy. Searches for this stage: 0 web (Read-only re-audit of chapter text plus defended.json; reasoning drawn from already-documented verifier/defender sourcing).",
+  "items": {
+    "GC-14-050": {
+      "severity": 3,
+      "centrality": 3,
+      "load_bearing": false,
+      "impact_score": 9,
+      "narrative_arc": "reformation",
+      "reasoning": "Anachronistic, not fabricated: White directly follows Wylie's own 'Suppression of the Culdees' framing, so the claim reflects genuine 19th-century scholarly consensus on Celtic Christianity (a proto-independent gospel witness) rather than invention — this matters for distinguishing authorial method from authorial invention. It echoes the book's broader 'continuous faithful remnant' motif used elsewhere for the Waldenses/Wycliffe/Huss, but is not one of the central thesis chain's own named links. Counterfactual: delete the claim and paragraph 13's scene-setting softens, but Knox's confrontation with Mary and the entire Scottish Reformation narrative (paragraphs 16-23), which carries the chapter's actual argumentative weight, remains fully intact and independently well-supported."
+    },
+    "GC-14-051": {
+      "severity": 3,
+      "centrality": 3,
+      "load_bearing": false,
+      "impact_score": 9,
+      "narrative_arc": "reformation",
+      "reasoning": "The stronger, more explicit companion claim to GC-14-050, asserting centuries of Scottish doctrinal 'freedom' from Rome; modern scholarship holds the Celtic church was fully catholic in communion, distinctive only in customs (Easter dating, tonsure), with conformity progressive from the 8th century. Same source chain (Wylie vol.3) and same period-typical-scholarship caveat as GC-14-050 apply — this is inherited historiography, not White's invention. Counterfactual: removing it leaves the chapter's Reformation-era argument (Tyndale, Latimer, Knox, Wesley) completely unaffected, since none of those sections depend on Scotland's early ecclesiastical status; it only weakens the atmospheric backdrop to Knox's entrance."
+    },
+    "GC-14-156": {
+      "severity": 2,
+      "centrality": 2,
+      "load_bearing": false,
+      "impact_score": 4,
+      "narrative_arc": "reformation",
+      "reasoning": "Scored as a high-stakes disputed item per instructions, though genuine members-vs-adherents ambiguity (not confirmed error) keeps severity low: documented Methodist Society membership was ~135,000 at Wesley's death, but 'avowed adherents' as a looser count of hearers/sympathizers is not implausible at a higher order of magnitude, and the figure descends from older Methodist historiography rather than fabrication. It is a closing decorative statistic capping the Wesley biography. Counterfactual: deleting or correcting the number changes nothing about the chapter's claims regarding Wesley's doctrine, his conflict with Antinomian theology, or his role in reviving 'the great doctrine of justification by faith' — the chapter's actual argument is untouched."
+    }
+  }
+}
