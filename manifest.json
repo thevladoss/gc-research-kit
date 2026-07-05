@@ -199,7 +199,7 @@
         "extract": "done",
         "verify": "done",
         "defend": "done",
-        "impact": "pending"
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -237,9 +237,27 @@
           "verdict_downgraded": 1,
           "defense_failed": 1,
           "searches": 1
+        },
+        "impact": {
+          "scored": 5,
+          "load_bearing": 0,
+          "top_impact": [
+            {
+              "id": "GC-02-053",
+              "score": 12
+            },
+            {
+              "id": "GC-02-050",
+              "score": 10
+            },
+            {
+              "id": "GC-02-020",
+              "score": 6
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-05T08:24:15Z"
+      "updated_at": "2026-07-05T08:30:36Z"
     },
     "03": {
       "title": "The Apostasy",
@@ -248,7 +266,7 @@
       "stages": {
         "extract": "done",
         "verify": "done",
-        "defend": "pending",
+        "defend": "done",
         "impact": "pending"
       },
       "counts": {
@@ -276,9 +294,16 @@
           "low_confidence": 3,
           "searches": 15,
           "clusters": 9
+        },
+        "defend": {
+          "examined": 5,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 2,
+          "defense_failed": 3,
+          "searches": 2
         }
       },
-      "updated_at": "2026-07-05T08:14:36Z"
+      "updated_at": "2026-07-05T08:29:10Z"
     },
     "04": {
       "title": "The Waldenses",

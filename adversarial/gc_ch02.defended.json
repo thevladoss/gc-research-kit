@@ -1,0 +1,1127 @@
+{
+  "chapter": 2,
+  "chapter_title": "Persecution In The First Centuries",
+  "stage": "adversarial",
+  "generated_at": "2026-07-05",
+  "notes": "searches: ~1; full defenses: 0, cheap audits: 2. Scope: zero contradicted/misquotation claims; two anachronistic claims (GC-02-020, GC-02-022, both the catacomb-refuge legend) received the cheap Read-only audit with one shared search (Valerian 257 edict / catacomb use during persecution). Nine disputed claims skipped per procedure; supported/unverifiable claims out of scope. Outcomes: GC-02-020 defense_failed (anachronistic stands); GC-02-022 verdict_downgraded anachronistic -> disputed (true burial half + documented episodic assembly/refuge kernel).",
+  "claims": [
+    {
+      "id": "GC-02-001",
+      "paragraph": 1,
+      "quote": "From Olivet the Saviour beheld the storms about to fall upon the apostolic church; and penetrating deeper into the future, His eye discerned the fierce, wasting tempests that were to beat upon His followers in the coming ages of darkness and persecution.",
+      "claim_text": "Jesus, in the Olivet Discourse, prophetically foresaw persecutions that would befall His followers both in the apostolic era and in later ages.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Mount of Olives"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Claim of prophetic divine foresight is theological/supernatural by nature and cannot be tested historically.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-002",
+      "paragraph": 1,
+      "quote": "The followers of Christ must tread the same path of humiliation, reproach, and suffering which their Master trod.",
+      "claim_text": "Followers of Christ were destined to undergo the same path of humiliation, reproach, and suffering that Jesus himself experienced.",
+      "claim_type": "interpretive",
+      "entities": ["Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/theological statement about the destined spiritual pattern of discipleship; not an empirically checkable proposition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-003",
+      "paragraph": 2,
+      "quote": "The history of the early church testified to the fulfilment of the Saviour’s words.",
+      "claim_text": "The subsequent history of the early Christian church confirmed the fulfillment of Jesus's prophecy of persecution.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "early church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Assertion of prophetic fulfillment is a theological interpretation of history, not a testable historical claim.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-004",
+      "paragraph": 2,
+      "quote": "Paganism foresaw that should the gospel triumph, her temples and altars would be swept away; therefore she summoned her forces to destroy Christianity.",
+      "claim_text": "Adherents of Greco-Roman paganism foresaw that the triumph of the Christian gospel would sweep away pagan temples and altars, and for that reason mobilized to destroy Christianity.",
+      "claim_type": "causal",
+      "entities": ["Roman paganism", "Christianity"],
+      "needs_verification": true,
+      "extractor_note": "Personified/generalized causal claim about pagan motive for persecution; checkable against modern scholarship on causes of Roman persecution of Christians.",
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "The personified motive — an organized pagan campaign to save its temples from an anticipated Christian triumph — does not match the modern consensus. Modern scholarship holds that persecution in the first two centuries was sporadic, locally driven, and rooted in Christians' refusal to participate in the civic sacrificial cult, not a coordinated defensive war by paganism, which faced no real threat while Christianity was still a small minority. White's framing reflects a 19th-century providentialist reading of the conflict.",
+        "modern_consensus": "Early persecution was provincial, sporadic, and not centrally directed; its fundamental cause was Christians' conscientious rejection of the gods, not fear of temples being swept away.",
+        "sources": [
+          {"title": "Persecution of Christians in the Roman Empire", "url": "https://en.wikipedia.org/wiki/Persecution_of_Christians_in_the_Roman_Empire", "source_class": "encyclopedia", "supports_verdict": true, "note": "Persecution mostly provincial, sporadic, not centrally directed in first two centuries."},
+          {"title": "Why Early Christians Were Persecuted by the Romans (History Today)", "url": "https://www.historytoday.com/archive/causes-early-persecutions", "source_class": "other", "supports_verdict": true, "note": "Local conditions and governors' attitudes, not an organized pagan defense of temples."},
+          {"title": "Christianity — Relations with the Roman government (Britannica)", "url": "https://www.britannica.com/topic/Christianity/Relations-between-Christianity-and-the-Roman-government-and-the-Hellenistic-culture", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Core cause was refusal to honor the gods believed to secure imperial success."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-005",
+      "paragraph": 2,
+      "quote": "Christians were stripped of their possessions, and driven from their homes.",
+      "claim_text": "Early Christians were, as a general practice under Roman persecution, stripped of their possessions and driven from their homes.",
+      "claim_type": "event",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Confiscation of property and exile were documented penalties during Roman persecutions, especially the Diocletianic persecution (from 303), whose edicts ordered seizure of church property and stripped Christians of legal protections and status. As a universal 'general practice' the statement is somewhat broad, but the underlying facts are attested.",
+        "modern_consensus": "Property confiscation, loss of rank, and exile were among the penalties used against Christians, particularly under Decius, Valerian, and Diocletian.",
+        "sources": [
+          {"title": "Persecution of Christians in the Roman Empire", "url": "https://en.wikipedia.org/wiki/Persecution_of_Christians_in_the_Roman_Empire", "source_class": "encyclopedia", "supports_verdict": true, "note": "Diocletianic edicts ordered confiscation and loss of legal standing."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-006",
+      "paragraph": 2,
+      "quote": "They “endured a great fight of afflictions.”(58)",
+      "claim_text": "The phrase \"endured a great fight of afflictions\" is quoted (footnote 58) as scripture describing the early Christians' persecution, corresponding to Hebrews 10:32.",
+      "claim_type": "attributed_quote",
+      "entities": ["Epistle to the Hebrews"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The wording matches Hebrews 10:32 KJV (\"...ye endured a great fight of afflictions\"). Attribution and text are accurate; this is fixed, textbook-level scriptural text.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-007",
+      "paragraph": 2,
+      "quote": "They “had trial of cruel mockings and scourgings, yea, moreover of bonds and imprisonment.”(59)",
+      "claim_text": "The phrase \"had trial of cruel mockings and scourgings, yea, moreover of bonds and imprisonment\" is quoted (footnote 59) as scripture, corresponding to Hebrews 11:36.",
+      "claim_type": "attributed_quote",
+      "entities": ["Epistle to the Hebrews"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Wording matches Hebrews 11:36 KJV exactly. Fixed scriptural text.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-008",
+      "paragraph": 2,
+      "quote": "Great numbers sealed their testimony with their blood.",
+      "claim_text": "Great numbers of early Christians were martyred for their faith.",
+      "claim_type": "statistic",
+      "entities": ["Christians"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "That martyrdoms occurred is undisputed, but the scale ('great numbers') is a live historiographical debate. Candida Moss (The Myth of Persecution) argues the traditional picture of vast numbers of martyrs across a 300-year 'Age of Martyrs' is a later, exaggerated and partly invented construction, with relatively few authentic persecution incidents. Critics such as Ben Witherington counter that Moss herself understates the toll. Because the number is genuinely contested, this rests as disputed.",
+        "modern_consensus": "No firm consensus on totals; a significant scholarly revisionist current argues the numbers were far smaller than traditional accounts claim, while others defend a substantial toll.",
+        "sources": [
+          {"title": "The Myth of Persecution (Candida Moss) — Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Myth_of_Persecution", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Argues the 'Age of Martyrs' and its numbers were exaggerated."},
+          {"title": "Persecution of Christians in the Roman Empire", "url": "https://en.wikipedia.org/wiki/Persecution_of_Christians_in_the_Roman_Empire", "source_class": "encyclopedia", "supports_verdict": true, "note": "Sporadic, provincial persecution complicates any 'great numbers' generalization."},
+          {"title": "The Myth of Persecution: An Overdone Thesis (Christian Research Institute)", "url": "https://www.equip.org/articles/the-myth-of-persecution-a-provocative-title-an-overdone-thesis/", "source_class": "apologetic", "supports_verdict": true, "note": "Position: pushes back on Moss, illustrating the debate over scale."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-009",
+      "paragraph": 2,
+      "quote": "Noble and slave, rich and poor, learned and ignorant, were alike slain without mercy.",
+      "claim_text": "Victims of the Roman persecution of Christians came from all social classes—nobility and slaves, rich and poor, educated and uneducated—and were killed without regard to status.",
+      "claim_type": "statistic",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Known martyrs span the social spectrum: the slave Blandina and the slave Felicitas alongside the aristocratic Perpetua at Lyon (177) and Carthage (203). Christianity's adherents crossed class lines, so its victims did too. The rhetorical sweep is broad but the substance is sound.",
+        "modern_consensus": "Early Christian communities and their martyrs included both slaves/poor and members of higher status; persecution did not spare elites.",
+        "sources": [
+          {"title": "Persecution of Christians in the Roman Empire", "url": "https://en.wikipedia.org/wiki/Persecution_of_Christians_in_the_Roman_Empire", "source_class": "encyclopedia", "supports_verdict": true, "note": "Martyr accounts include slaves and elites alike."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-010",
+      "paragraph": 3,
+      "quote": "These persecutions, beginning under Nero about the time of the martyrdom of Paul, continued with greater or less fury for centuries.",
+      "claim_text": "Roman persecution of Christians began under Emperor Nero, around the time of the apostle Paul's martyrdom, and continued with varying intensity for centuries afterward.",
+      "claim_type": "date",
+      "entities": ["Nero", "Paul (apostle)", "Roman Empire"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Neronian persecution (AD 64, following the Great Fire of Rome) is traditionally the first imperial action against Christians, and Paul is traditionally martyred at Rome c. AD 64–67 under Nero. Persecution then recurred sporadically ('greater or less fury') until the Edict of Milan (313). The 'for centuries' language correctly captures the intermittent, not continuous, character.",
+        "modern_consensus": "Nero's 64 persecution is conventionally the first; persecution thereafter was sporadic until legalization in 313. Paul's martyrdom is dated to Nero's reign.",
+        "sources": [
+          {"title": "Tacitus on the Christians (Livius)", "url": "https://www.livius.org/sources/content/tacitus/tacitus-on-the-christians/", "source_class": "primary", "supports_verdict": true, "note": "Tacitus Annals 15.44 on Nero blaming Christians for the fire of 64."},
+          {"title": "Persecution of Christians in the Roman Empire", "url": "https://en.wikipedia.org/wiki/Persecution_of_Christians_in_the_Roman_Empire", "source_class": "encyclopedia", "supports_verdict": true, "note": "Sporadic persecution from Nero to 313."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-011",
+      "paragraph": 3,
+      "quote": "Christians were falsely accused of the most dreadful crimes, and declared to be the cause of great calamities—famine, pestilence, and earthquake.",
+      "claim_text": "Christians were falsely accused of dreadful crimes and blamed as the cause of calamities such as famine, pestilence, and earthquake.",
+      "claim_type": "event",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Christians were widely accused of atrocities (incest, cannibalism, 'Thyestean feasts') and scapegoated for natural disasters. Tertullian (Apology 40) famously complained that if the Tiber flooded or the Nile failed, the cry went up 'Christians to the lion!' The specific triad famine/pestilence/earthquake reflects this documented pattern of blame.",
+        "modern_consensus": "Christians were blamed for public misfortunes as offenders against the gods, and charged with lurid crimes.",
+        "sources": [
+          {"title": "Persecution of Christians in the Roman Empire", "url": "https://en.wikipedia.org/wiki/Persecution_of_Christians_in_the_Roman_Empire", "source_class": "encyclopedia", "supports_verdict": true, "note": "Christians blamed for disasters and accused of crimes."},
+          {"title": "Christianity — Relations with the Roman government (Britannica)", "url": "https://www.britannica.com/topic/Christianity/Relations-between-Christianity-and-the-Roman-government-and-the-Hellenistic-culture", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Christians seen as impious and blamed for divine displeasure/calamity."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-012",
+      "paragraph": 3,
+      "quote": "As they became the objects of popular hatred and suspicion, informers stood ready, for the sake of gain, to betray the innocent.",
+      "claim_text": "As Christians became objects of popular hatred and suspicion in the Roman Empire, informers, motivated by financial gain, betrayed innocent Christians to authorities.",
+      "claim_type": "event",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Roman legal procedure ran on private accusers (delatores), and popular hostility to Christians is well attested. The claim is broadly accurate, with one nuance: Trajan's rescript to Pliny directed that Christians not be actively sought out and that anonymous accusations be disregarded, which limited (without eliminating) the role of profit-seeking informers.",
+        "modern_consensus": "Prosecution of Christians typically depended on private accusers amid popular hostility, though imperial policy at times discouraged anonymous denunciation.",
+        "sources": [
+          {"title": "Persecution of Christians in the Roman Empire", "url": "https://en.wikipedia.org/wiki/Persecution_of_Christians_in_the_Roman_Empire", "source_class": "encyclopedia", "supports_verdict": true, "note": "Accusation-driven prosecution; Trajan's 'not to be sought out' rescript."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-013",
+      "paragraph": 3,
+      "quote": "They were condemned as rebels against the empire, as foes of religion, and pests to society.",
+      "claim_text": "Christians were formally condemned by Roman authorities as rebels against the empire, enemies of religion, and pests to society.",
+      "claim_type": "event",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Christians were charged with 'atheism' (rejecting the gods), disloyalty for refusing the imperial cult, and hostility to society; Tacitus records they were 'hated for their abominations' and convicted for 'hatred of the human race.' The three characterizations map onto attested Roman charges.",
+        "modern_consensus": "Christians were prosecuted as impious, socially subversive, and disloyal to the state cult.",
+        "sources": [
+          {"title": "Tacitus on the Christians (Livius)", "url": "https://www.livius.org/sources/content/tacitus/tacitus-on-the-christians/", "source_class": "primary", "supports_verdict": true, "note": "'Hatred of the human race'; hated for abominations."},
+          {"title": "Persecution of Christians in the Roman Empire", "url": "https://en.wikipedia.org/wiki/Persecution_of_Christians_in_the_Roman_Empire", "source_class": "encyclopedia", "supports_verdict": true, "note": "Charges of atheism and disloyalty."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-014",
+      "paragraph": 3,
+      "quote": "Great numbers were thrown to wild beasts or burned alive in the amphitheaters.",
+      "claim_text": "Great numbers of Christians were executed by being thrown to wild beasts or burned alive in Roman amphitheaters.",
+      "claim_type": "statistic",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The execution methods are well documented: damnatio ad bestias (exposure to beasts, e.g. at Lyon 177 and the martyrdom of Perpetua and Felicitas) and burning (Nero's victims per Tacitus). The methods are firmly attested; the aggregate scale ('great numbers') is the debated element (see GC-02-008), but the core claim about how Christians were executed is supported.",
+        "modern_consensus": "Beast-fighting and burning were standard modes of executing condemned Christians in the arena; totals are contested.",
+        "sources": [
+          {"title": "Tacitus on the Christians (Livius)", "url": "https://www.livius.org/sources/content/tacitus/tacitus-on-the-christians/", "source_class": "primary", "supports_verdict": true, "note": "Burning and beast-exposure under Nero."},
+          {"title": "Persecution of Christians in the Roman Empire", "url": "https://en.wikipedia.org/wiki/Persecution_of_Christians_in_the_Roman_Empire", "source_class": "encyclopedia", "supports_verdict": true, "note": "Arena executions of Christians."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-015",
+      "paragraph": 3,
+      "quote": "Some were crucified; others were covered with the skins of wild animals, and thrust into the arena to be torn by dogs.",
+      "claim_text": "Some Christians were executed by crucifixion, and others were dressed in animal skins and thrust into the arena to be torn apart by dogs.",
+      "claim_type": "event",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "This is a nearly verbatim paraphrase of Tacitus, Annals 15.44: under Nero, Christians were 'covered with the skins of beasts, torn by dogs and perished, or were nailed to crosses, or were doomed to the flames.' Directly attested by the primary source.",
+        "modern_consensus": "Tacitus's account of Nero's executions is the primary basis and matches this description.",
+        "sources": [
+          {"title": "Tacitus, Annals 15.44 (Perseus)", "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0078%3Abook%3D15%3Achapter%3D44", "source_class": "primary", "supports_verdict": true, "note": "Skins of beasts, torn by dogs, crucifixion, burning."},
+          {"title": "Tacitus on the Christians (Livius)", "url": "https://www.livius.org/sources/content/tacitus/tacitus-on-the-christians/", "source_class": "primary", "supports_verdict": true, "note": "Same passage translated."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-016",
+      "paragraph": 3,
+      "quote": "Their punishment was often made the chief entertainment at public fêtes.",
+      "claim_text": "The execution of Christians was often used as the chief entertainment at Roman public festivals.",
+      "claim_type": "event",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Tacitus reports Nero staged the executions as public spectacle in his circus and gardens, using burning Christians as 'nightly illumination'; arena executions of the condemned were a standard feature of games and festivals. The claim reflects documented practice.",
+        "modern_consensus": "Executions of condemned criminals, including Christians, were incorporated into public games as entertainment.",
+        "sources": [
+          {"title": "Tacitus, Annals 15.44 (Perseus)", "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0078%3Abook%3D15%3Achapter%3D44", "source_class": "primary", "supports_verdict": true, "note": "Nero made a spectacle of the executions."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-017",
+      "paragraph": 3,
+      "quote": "Vast multitudes assembled to enjoy the sight, and greeted their dying agonies with laughter and applause.",
+      "claim_text": "Large crowds in the Roman Empire assembled to watch the execution of Christians and responded to their suffering with laughter and applause.",
+      "claim_type": "event",
+      "entities": ["Roman Empire"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Arena spectacle drew large, appreciative crowds, and Roman audiences are documented enjoying violent executions. One nuance: Tacitus records that at Nero's spectacle a feeling of compassion actually arose for the Christians because the cruelty seemed to serve one man's savagery. The general picture of crowds relishing such deaths is nonetheless well supported.",
+        "modern_consensus": "Public executions were mass entertainment; crowd approval of arena violence is well documented, though reactions varied.",
+        "sources": [
+          {"title": "Tacitus on the Christians (Livius)", "url": "https://www.livius.org/sources/content/tacitus/tacitus-on-the-christians/", "source_class": "primary", "supports_verdict": true, "note": "Spectacle context; also notes compassion arose in one case."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-018",
+      "paragraph": 4,
+      "quote": "Wherever they sought refuge, the followers of Christ were hunted like beasts of prey.",
+      "claim_text": "Wherever early Christians sought refuge from persecution, they were hunted down.",
+      "claim_type": "event",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "The image of Christians being relentlessly hunted everywhere overstates the modern consensus. For most of the pre-Decian period Christians were not actively sought out: Trajan's rescript to Pliny explicitly stated they were 'not to be sought out' and anonymous accusations were to be ignored. Persecution was sporadic and reactive rather than a continuous manhunt. The rhetorical universality of the claim is contested.",
+        "modern_consensus": "Before the mid-3rd century, imperial policy generally did not seek Christians out; persecution was intermittent and locally triggered.",
+        "sources": [
+          {"title": "Persecution of Christians in the Roman Empire", "url": "https://en.wikipedia.org/wiki/Persecution_of_Christians_in_the_Roman_Empire", "source_class": "encyclopedia", "supports_verdict": true, "note": "Trajan's 'not to be sought out' policy; sporadic persecution."},
+          {"title": "Why Early Christians Were Persecuted by the Romans (History Today)", "url": "https://www.historytoday.com/archive/causes-early-persecutions", "source_class": "other", "supports_verdict": true, "note": "Christians not systematically hunted; local and sporadic."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-019",
+      "paragraph": 4,
+      "quote": "“Destitute, afflicted, tormented; (of whom the world was not worthy:) they wandered in deserts, and in mountains, and in dens and caves of the earth.”(60)",
+      "claim_text": "The quoted passage (footnote 60), describing persecuted believers as wandering destitute in deserts, mountains, dens, and caves, corresponds to Hebrews 11:37-38.",
+      "claim_type": "attributed_quote",
+      "entities": ["Epistle to the Hebrews"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Wording matches Hebrews 11:37-38 KJV. Fixed scriptural text, correctly attributed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-020",
+      "paragraph": 4,
+      "quote": "The catacombs afforded shelter for thousands.",
+      "claim_text": "The Roman catacombs afforded shelter for thousands of persecuted early Christians.",
+      "claim_type": "statistic",
+      "entities": ["Catacombs of Rome", "Christians"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "The idea that Christians sheltered/hid in the catacombs during persecution is a persistent popular legend that modern archaeology rejects: there is no primary contemporary evidence of refuge there, no signs of habitation, the tunnels were cold and damp and unlivable, and their locations were publicly known. But this refuge motif was a commonplace of 19th-century historiography and devotional literature that White drew on; judged against her period's sources rather than modern archaeology, the claim is period-typical, hence anachronistic rather than simply contradicted.",
+        "modern_consensus": "Catacombs were burial sites and places of commemorative ritual, not hiding places or dwellings; the 'refuge' story is a debunked myth.",
+        "period_historiography": "The catacombs-as-refuge legend was standard in 19th-century Protestant and popular church-history writing (e.g. Wylie's History of Protestantism and the romantic 'city of the dead' literature) before De Rossi-era and later archaeology corrected it.",
+        "sources": [
+          {"title": "Christian Refugees in Catacombs of Rome: Fact or Fiction (academia.edu)", "url": "https://www.academia.edu/35486662/CHRISTIAN_REFUGEES_IN_CATACOMBS_OF_ROME_FACT_OR_FICTION", "source_class": "academic", "supports_verdict": true, "note": "No contemporary evidence of refuge; archaeology lacks habitation indicators."},
+          {"title": "Jewish and Christian Catacombs in Rome (Bible Odyssey)", "url": "https://www.bibleodyssey.org/articles/jewish-and-christian-catacombs-in-rome/", "source_class": "academic", "supports_verdict": true, "note": "Catacombs primarily for burial and ritual, not hiding."}
+        ]
+      },
+      "defense": {
+        "result": "defense_failed",
+        "argument": "The verifier's anachronistic verdict is correct, but its rationale slightly overstates the case as pure fiction, and three honest mitigations deserve to be on record. (1) '[The catacombs] afforded shelter for thousands' is 19th-century hyperbolic idiom, not a demographic assertion that thousands dwelt underground simultaneously; read cumulatively across roughly 250 years of intermittent persecution, many Christians could have resorted to the galleries at one time or another. (2) The catacombs were documented Christian gathering places, not merely burial pits: Emperor Valerian's rescript of 257 specifically stripped Christians of the right to hold assemblies and to enter the subterranean burial places — a ban that only makes sense because Christians were in fact congregating in them during proscription. (3) Even scholarship that debunks the romantic legend concedes the catacombs were 'only infrequently places of hiding during persecution' — occasional refuge is granted, not categorically denied. What fails is the picture the sentence actually evokes: mass, sustained shelter of thousands of the living. The consensus rejects catacombs as dwellings or hiding places — their locations were registered with the authorities and their damp galleries were unlivable — and the bare 'shelter for thousands' has no true anchor to lift it (unlike GC-02-022, which pairs the motif with the undisputed burial fact). So the defense cannot raise this above anachronistic; the verdict is appropriately mild (period-typical, traceable to Wylie-type sources), not a charge of fabrication.",
+        "new_sources": [
+          {"title": "Valerian (Catholic Encyclopedia, New Advent)", "url": "https://www.newadvent.org/cathen/15256b.htm", "source_class": "encyclopedia", "supports_verdict": true, "note": "Valerian's 257 rescript took from Christians the right to hold assemblies or to enter the subterranean burial places — evidence catacombs were used for Christian assembly during proscription."},
+          {"title": "The Maltreatment of Early Christians: Refinement and Response (Southern Equip / SBTS)", "url": "https://equip.sbts.edu/publications/journals/journal-of-theology/the-maltreatment-of-early-christians-refinement-and-response/", "source_class": "other", "supports_verdict": true, "note": "States the refuge-in-catacombs picture is largely abandoned by historians, yet concedes catacombs were 'only infrequently places of hiding during persecution'; locations were registered with authorities."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-021",
+      "paragraph": 4,
+      "quote": "Beneath the hills outside the city of Rome, long galleries had been tunneled through earth and rock; the dark and intricate network of passages extended for miles beyond the city walls.",
+      "claim_text": "Beneath the hills outside Rome, long galleries were tunneled through earth and rock, forming a network of underground passages extending for miles beyond the city walls.",
+      "claim_type": "geographical",
+      "entities": ["Catacombs of Rome", "Rome"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The physical description is accurate: the Roman catacombs are extensive multi-level galleries dug into the soft volcanic tufa outside the city walls (Roman law forbade burial within the walls), forming a network that in total extends for many miles/hundreds of kilometers along the consular roads.",
+        "modern_consensus": "The catacombs are vast tunnel systems cut into tufa outside Rome's walls, extending for miles.",
+        "sources": [
+          {"title": "Jewish and Christian Catacombs in Rome (Bible Odyssey)", "url": "https://www.bibleodyssey.org/articles/jewish-and-christian-catacombs-in-rome/", "source_class": "academic", "supports_verdict": true, "note": "Extensive tunnel networks outside the walls."},
+          {"title": "Christian Refugees in Catacombs of Rome (academia.edu)", "url": "https://www.academia.edu/35486662/CHRISTIAN_REFUGEES_IN_CATACOMBS_OF_ROME_FACT_OR_FICTION", "source_class": "academic", "supports_verdict": true, "note": "Describes the physical extent of the galleries."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-022",
+      "paragraph": 4,
+      "quote": "In these underground retreats, the followers of Christ buried their dead; and here also, when suspected and proscribed, they found a home.",
+      "claim_text": "Early Christians used the Roman catacombs both to bury their dead and as a refuge when suspected or proscribed by authorities.",
+      "claim_type": "event",
+      "entities": ["Catacombs of Rome", "Christians"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "Half of the claim is correct — Christians did bury their dead in the catacombs — but the assertion that they 'found a home' or refuge there when proscribed is the debunked catacomb-refuge legend (see GC-02-020): no contemporary evidence, no habitation traces, unlivable conditions, and publicly known locations. Since the refuge belief was standard in the 19th-century sources White used, the verdict is anachronistic rather than contradicted.",
+        "modern_consensus": "Catacombs served for burial and commemoration; they were not hiding places or dwellings during persecution.",
+        "period_historiography": "19th-century church-history and devotional works routinely portrayed the catacombs as both cemetery and secret refuge for persecuted Christians; this was the received view in White's sources.",
+        "sources": [
+          {"title": "Christian Refugees in Catacombs of Rome: Fact or Fiction (academia.edu)", "url": "https://www.academia.edu/35486662/CHRISTIAN_REFUGEES_IN_CATACOMBS_OF_ROME_FACT_OR_FICTION", "source_class": "academic", "supports_verdict": true, "note": "Refuge claim unsupported; burial use confirmed."},
+          {"title": "Jewish and Christian Catacombs in Rome (Bible Odyssey)", "url": "https://www.bibleodyssey.org/articles/jewish-and-christian-catacombs-in-rome/", "source_class": "academic", "supports_verdict": true, "note": "Primary function burial/ritual, not refuge."}
+        ]
+      },
+      "defense": {
+        "result": "verdict_downgraded",
+        "argument": "This sentence couples an undisputed true half with the contested refuge motif, and the extractor's compound framing over-literalizes it. The first clause — Christians 'buried their dead' in the catacombs — is flatly correct and undisputed (the verifier concedes this), and it is the dominant assertion of the sentence. The second clause — 'here also, when suspected and proscribed, they found a home' — is not the pure legend the flat 'anachronistic' label implies, because it is explicitly conditioned on episodes of proscription, and for such episodes there is documentary support: Valerian's edict of 257 banned Christians from entering the catacombs and holding assemblies there, which presupposes that during proscription Christians did gather in them; and the very scholarship that otherwise debunks the romantic picture still grants the catacombs were 'infrequently places of hiding during persecution.' Read as episodic refuge and clandestine assembly during acute proscription — rather than as permanent dwelling — the clause tracks a genuinely debated historical reality, not a settled error. Because the sentence's core assertion (burial) is true and its secondary refuge clause sits inside a live scholarly discussion about the degree of catacomb use during persecution, the more accurate verdict is disputed rather than anachronistic. The strong reading of 'found a home' as literal habitation remains rejected by consensus (locations were registered with authorities; conditions were unlivable), which is exactly why this is disputed rather than supported.",
+        "revised_verdict": "disputed",
+        "new_sources": [
+          {"title": "Valerian (Catholic Encyclopedia, New Advent)", "url": "https://www.newadvent.org/cathen/15256b.htm", "source_class": "encyclopedia", "supports_verdict": true, "note": "Valerian's 257 rescript forbade Christians to hold assemblies or to enter the subterranean burial places — presupposes catacomb use for assembly/refuge during proscription."},
+          {"title": "The Maltreatment of Early Christians: Refinement and Response (Southern Equip / SBTS)", "url": "https://equip.sbts.edu/publications/journals/journal-of-theology/the-maltreatment-of-early-christians-refinement-and-response/", "source_class": "other", "supports_verdict": true, "note": "Rejects the mass-refuge legend but concedes catacombs were 'only infrequently places of hiding during persecution'; supports the narrow episodic-refuge kernel."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-023",
+      "paragraph": 4,
+      "quote": "When the Lifegiver shall awaken those who have fought the good fight, many a martyr for Christ’s sake will come forth from those gloomy caverns.",
+      "claim_text": "At the future resurrection, many martyrs will be raised from the catacombs where they were buried.",
+      "claim_type": "theological",
+      "entities": ["Catacombs of Rome"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "A claim about a future eschatological resurrection is theological/supernatural and cannot be tested historically.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-024",
+      "paragraph": 5,
+      "quote": "Under the fiercest persecution, these witnesses for Jesus kept their faith unsullied.",
+      "claim_text": "Early Christian martyrs kept their faith unsullied even under the fiercest persecution.",
+      "claim_type": "interpretive",
+      "entities": ["Christians"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample re-check of a needs_verification:false claim. The statement is an interpretive/valorizing generalization ('kept their faith unsullied') about the inner fidelity of martyrs; it embeds no discrete checkable fact beyond the existence of persecution (covered elsewhere). Extractor's classification stands.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-025",
+      "paragraph": 5,
+      "quote": "The loss of every earthly blessing could not force them to renounce their belief in Christ.",
+      "claim_text": "The loss of every earthly blessing could not force persecuted early Christians to renounce their belief in Christ.",
+      "claim_type": "interpretive",
+      "entities": ["Christians"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive generalization about the steadfastness of believers; not an empirically testable proposition (and historically some Christians did apostatize under pressure, e.g. the lapsi, which the sweeping form ignores).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-026",
+      "paragraph": 6,
+      "quote": "Like God’s servants of old, many were “tortured, not accepting deliverance; that they might obtain a better resurrection.”(61)",
+      "claim_text": "The quoted passage (footnote 61), describing believers tortured while refusing deliverance in hope of a better resurrection, corresponds to Hebrews 11:35.",
+      "claim_type": "attributed_quote",
+      "entities": ["Epistle to the Hebrews"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Wording matches Hebrews 11:35 KJV. Fixed scriptural text, correctly attributed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-027",
+      "paragraph": 6,
+      "quote": "Looking upward by faith, they saw Christ and angels leaning over the battlements of heaven, gazing upon them with the deepest interest, and regarding their steadfastness with approval,",
+      "claim_text": "Martyred early Christians, in their final moments, saw by faith Christ and angels watching over them from heaven with approval.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "angels"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural claim about angels and Christ visible by faith to dying martyrs; theological by definition and untestable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-028",
+      "paragraph": 6,
+      "quote": "A voice came down to them from the throne of God, “Be thou faithful unto death, and I will give thee a crown of life.”(62)",
+      "claim_text": "A voice from the throne of God spoke the words \"Be thou faithful unto death, and I will give thee a crown of life\" (footnote 62, corresponding to Revelation 2:10) to persecuted martyrs.",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Revelation"],
+      "needs_verification": true,
+      "extractor_note": "The scriptural wording itself is checkable against Revelation 2:10; the framing that a voice audibly spoke this to dying martyrs is a supernatural/theological claim layered on top.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The quoted words match Revelation 2:10 KJV exactly. Only the quotation accuracy/attribution is affirmed here; the layered supernatural framing (a voice audibly addressing dying martyrs from God's throne) is theological and unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-029",
+      "paragraph": 7,
+      "quote": "In vain were Satan’s efforts to destroy the church of Christ by violence.",
+      "claim_text": "Satan's efforts to destroy the Christian church through violent persecution ultimately failed.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Attributes historical persecution to Satan's agency — a supernatural/theological causal claim that cannot be tested. (The empirical residue, that persecution failed to destroy the church, is addressed in GC-02-030.)",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-030",
+      "paragraph": 7,
+      "quote": "The gospel continued to spread, and the number of its adherents to increase.",
+      "claim_text": "Despite persecution, the Christian gospel continued to spread and the number of Christian adherents continued to increase.",
+      "claim_type": "causal",
+      "entities": ["Christianity"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Christianity grew steadily and substantially through the very centuries of persecution. Rodney Stark's demographic modeling plots continuous growth (roughly 40% per decade) from a tiny group c. AD 40 to perhaps 10% of the empire by AD 300; persecution did not reverse the expansion.",
+        "modern_consensus": "The church expanded continuously through the ante-Nicene period despite sporadic persecution.",
+        "sources": [
+          {"title": "The Rise of Christianity (Rodney Stark)", "url": "https://www.amazon.com/Rise-Christianity-Marginal-Religious-Centuries/dp/0060677015", "source_class": "academic", "supports_verdict": true, "note": "Models steady growth from c. AD 40 to ~10% by 300."},
+          {"title": "Historiography of the Christianization of the Roman Empire (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Historiography_of_the_Christianization_of_the_Roman_Empire", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Survey of growth models."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-031",
+      "paragraph": 7,
+      "quote": "It penetrated into regions that were inaccessible, even to the eagles of Rome.",
+      "claim_text": "Christianity spread into regions beyond the reach of Roman military power.",
+      "claim_type": "geographical",
+      "entities": ["Christianity", "Roman Empire"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Christianity did spread beyond the Roman frontier in the first centuries — into the Parthian/Persian (Sasanian) realm, Armenia (which adopted Christianity as a state religion c. 301, outside Roman control), Osroene/Edessa, and toward Ethiopia and India by tradition. The claim that it reached beyond the reach of Rome's legions is historically sound.",
+        "modern_consensus": "Early Christianity expanded outside imperial borders, notably into Persia and Armenia.",
+        "sources": [
+          {"title": "Historiography of the Christianization of the Roman Empire (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Historiography_of_the_Christianization_of_the_Roman_Empire", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Spread beyond imperial frontiers."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-032",
+      "paragraph": 7,
+      "quote": "Said a Christian, expostulating with the heathen rulers who were urging forward the persecution: You may “kill us, torture us, condemn us.... Your injustice is the proof that we are innocent.... Nor does your cruelty ... avail you.”",
+      "claim_text": "An early Christian is quoted addressing heathen Roman rulers urging persecution, with the words \"kill us, torture us, condemn us.... Your injustice is the proof that we are innocent.... Nor does your cruelty ... avail you.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true,
+      "extractor_note": "Speaker is unnamed in the text ('a Christian'); the quoted lines resemble Tertullian's Apologeticus. Attribution and exact wording need checking.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The lines come from the closing chapter (50) of Tertullian's Apologeticus (c. AD 197): 'kill us, torture us, condemn us, grind us to dust; your injustice is the proof that we are innocent.' White's generic attribution to 'a Christian' addressing heathen rulers is accurate — Tertullian's Apology is precisely a defense addressed to Roman magistrates. Wording and sense are faithful.",
+        "modern_consensus": "The passage is a well-known part of Tertullian's Apologeticus 50.",
+        "sources": [
+          {"title": "Tertullian — The Blood of Christians is Seed (Early Church Texts)", "url": "https://earlychurchtexts.com/public/tertullian_blood_christians_seed.htm", "source_class": "primary", "supports_verdict": true, "note": "Apologeticus 50 text including the 'kill us, torture us' close."},
+          {"title": "Apologeticus (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Apologeticus", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Work is an apology addressed to Roman governors/magistrates, c. 197."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-033",
+      "paragraph": 7,
+      "quote": "“The oftener we are mown down by you, the more in number we grow; the blood of Christians is seed.”(63)",
+      "claim_text": "The same unnamed early Christian is quoted (footnote 63) stating \"The oftener we are mown down by you, the more in number we grow; the blood of Christians is seed,\" the famous \"semen est sanguis Christianorum\" formulation.",
+      "claim_type": "attributed_quote",
+      "entities": ["Christians"],
+      "needs_verification": true,
+      "extractor_note": "Commonly attributed to Tertullian's Apologeticus ('semen est sanguis Christianorum'), though not named in this text.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The line is Tertullian, Apologeticus 50: 'Plures efficimur, quotiens metimur a vobis: semen est sanguis Christianorum' — 'We multiply whenever we are mown down by you; the blood of Christians is seed.' White's rendering is an accurate translation of the authentic passage.",
+        "modern_consensus": "One of the most famous lines of Tertullian's Apologeticus 50.",
+        "sources": [
+          {"title": "Tertullian — The Blood of Christians is Seed (Early Church Texts)", "url": "https://earlychurchtexts.com/public/tertullian_blood_christians_seed.htm", "source_class": "primary", "supports_verdict": true, "note": "Latin and English of the 'semen est sanguis Christianorum' line."},
+          {"title": "Apologeticus (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Apologeticus", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Confirms the quotation and its location."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-034",
+      "paragraph": 8,
+      "quote": "Thousands were imprisoned and slain; but others sprung up to fill their places.",
+      "claim_text": "Thousands of Christians were imprisoned and killed under Roman persecution, and other Christians took their places.",
+      "claim_type": "statistic",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The substantive point — that losses to imprisonment and execution were continually replaced, so the church kept growing — is well supported by the demographic evidence (Stark). The absolute figure 'thousands' across the whole ante-Nicene period is defensible even on revisionist accounts, though the precise scale of martyrdom is debated (see GC-02-008).",
+        "modern_consensus": "The church replenished and expanded despite executions; martyr totals themselves are contested.",
+        "sources": [
+          {"title": "The Rise of Christianity (Rodney Stark)", "url": "https://www.amazon.com/Rise-Christianity-Marginal-Religious-Centuries/dp/0060677015", "source_class": "academic", "supports_verdict": true, "note": "Continuous growth despite persecution."},
+          {"title": "The Myth of Persecution (Candida Moss) — Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Myth_of_Persecution", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Debate over the scale ('thousands') of martyrdom."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-035",
+      "paragraph": 8,
+      "quote": "The sufferings which they endured brought Christians nearer to one another and to their Redeemer.",
+      "claim_text": "The sufferings endured by persecuted Christians brought them closer to one another and to Christ.",
+      "claim_type": "interpretive",
+      "entities": ["Christians"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/devotional claim about the spiritual effect of suffering on believers' inner and communal life; not an empirically testable proposition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-036",
+      "paragraph": 9,
+      "quote": "Satan therefore laid his plans to war more successfully against the government of God, by planting his banner in the Christian church.",
+      "claim_text": "After failing to destroy Christianity through violent persecution, Satan devised a strategy of infiltrating the Christian church itself.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Christian church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Attributes church history to a deliberate Satanic strategy — a supernatural/theological causal claim that cannot be verified historically.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-037",
+      "paragraph": 10,
+      "quote": "Persecution ceased, and in its stead were substituted the dangerous allurements of temporal prosperity and worldly honor.",
+      "claim_text": "Roman persecution of Christianity ceased and was replaced by inducements of temporal prosperity and worldly honor offered to the church.",
+      "claim_type": "causal",
+      "entities": ["Christianity", "Roman Empire"],
+      "needs_verification": true,
+      "extractor_note": "General claim likely referencing the Constantinian shift; no specific date/emperor named in the text.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The historical core is sound and refers to the Constantinian shift: with the Edict of Milan (313) persecution ended, and under Constantine and his successors the church gained legal favor, imperial patronage, wealth, tax privileges, and public honor, culminating in established status under Theodosius (380/391). White's evaluative language ('dangerous allurements') is interpretive, but the factual transition from persecution to imperial favor is well attested.",
+        "modern_consensus": "After 313 the church moved from persecution to imperial favor and material privilege.",
+        "sources": [
+          {"title": "Constantine the Great and Christianity (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Constantine_the_Great_and_Christianity", "source_class": "encyclopedia", "supports_verdict": true, "note": "Legalization, patronage, and privileges after 313."},
+          {"title": "The Constantinian Shift (Brewminate)", "url": "https://brewminate.com/the-constantinian-shift-romes-transition-from-pagan-tolerance-to-christian-supremacy/", "source_class": "other", "supports_verdict": true, "note": "Transition to Christian favor and supremacy."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-038",
+      "paragraph": 10,
+      "quote": "Idolaters were led to receive a part of the Christian faith, while they rejected other essential truths.",
+      "claim_text": "Following the end of persecution, adherents of pagan idolatry adopted parts of the Christian faith while rejecting other essential Christian doctrines.",
+      "claim_type": "causal",
+      "entities": ["Christianity", "Roman paganism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "Historians do acknowledge that after Christianity became favored, conversions grew more numerous and often more nominal/politically motivated. But the specific framing — that pagans adopted 'part' of Christianity while retaining pagan essentials — is the Protestant 'paganization'/great-apostasy thesis, which modern scholarship treats as contested rather than established. The alleged mechanism and its normative judgment do not command consensus.",
+        "modern_consensus": "Nominal/mass conversion after Constantine is recognized; the 'partial adoption / paganized Christianity' interpretation is debated, not settled.",
+        "sources": [
+          {"title": "Historiography of the Christianization of the Roman Empire (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Historiography_of_the_Christianization_of_the_Roman_Empire", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Competing models of 'conversion' vs superficial adherence."},
+          {"title": "Constantine the Great and Christianity (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Constantine_the_Great_and_Christianity", "source_class": "encyclopedia", "supports_verdict": true, "note": "Debate over syncretism and the depth of 4th-century conversion."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-039",
+      "paragraph": 10,
+      "quote": "They professed to accept Jesus as the Son of God, and to believe in His death and resurrection; but they had no conviction of sin, and felt no need of repentance or of a change of heart.",
+      "claim_text": "Pagan converts of this period professed belief in Jesus as the Son of God and in his death and resurrection, but lacked conviction of sin or felt need for repentance.",
+      "claim_type": "causal",
+      "entities": ["Roman paganism", "Christianity"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "A generalization about the inner spiritual state (conviction of sin, felt need of repentance) of a whole class of converts. Interior religious sincerity is not historically recoverable or falsifiable; this is a theological characterization rather than a checkable event.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-040",
+      "paragraph": 11,
+      "quote": "Some of the Christians stood firm, declaring that they could make no compromise. Others were in favor of yielding or modifying some features of their faith, and uniting with those who had accepted a part of Christianity, urging that this might be the means of their full conversion.",
+      "claim_text": "During this period, the Christian community split between those who refused any doctrinal compromise with partially converted pagans and those who favored modifying features of the faith to unite with them.",
+      "claim_type": "event",
+      "entities": ["Christians"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "As stated this is an undated, generalized 'firm vs. compromising' split with no named group, council, or episode. Genuine accommodation-vs-rigor controversies did occur (the lapsi question under Novatian, later Donatism), but White's sentence offers no locatable event to test and frames the division as a moral-confessional archetype rather than a checkable historical assertion. No distinct, verifiable factual core survives.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-041",
+      "paragraph": 12,
+      "quote": "Most of the Christians at last consented to lower their standard, and a union was formed between Christianity and paganism.",
+      "claim_text": "Most Christians eventually consented to lower their doctrinal standards, resulting in a union between Christianity and paganism.",
+      "claim_type": "causal",
+      "entities": ["Christianity", "Roman paganism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "This is the core 'paganization of Christianity' thesis. Modern scholarship is genuinely divided: some historians document real absorption of pagan customs and civic-religious forms after Constantine, while others (and the general trend of recent scholarship) reject the older Protestant picture of a deliberate, wholesale 'union' that corrupted the faith, viewing continuity and adaptation more subtly. The strong causal claim ('most Christians consented to lower their standard; a union was formed') matches 19th-century Protestant historiography (Wylie, D'Aubigné) more than modern consensus, but because a syncretism debate is live, it rests as disputed.",
+        "modern_consensus": "Cultural adaptation occurred, but the 'wholesale union of Christianity and paganism' narrative is contested and largely rejected in its strong form.",
+        "period_historiography": "The 'union of Christianity and paganism / great apostasy' framing is standard in the Protestant church-history sources White used, e.g. J. A. Wylie's History of Protestantism and D'Aubigné.",
+        "sources": [
+          {"title": "Historiography of the Christianization of the Roman Empire (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Historiography_of_the_Christianization_of_the_Roman_Empire", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Surveys the contested syncretism/paganization debate."},
+          {"title": "Constantine the Great and Christianity (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Constantine_the_Great_and_Christianity", "source_class": "encyclopedia", "supports_verdict": true, "note": "Competing views on 4th-century syncretism."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-042",
+      "paragraph": 12,
+      "quote": "Although the worshipers of idols professed to be converted, and united with the church, they still clung to their idolatry, only changing the objects of their worship to images of Jesus, and even of Mary and the saints.",
+      "claim_text": "Pagan idol worshipers who professed conversion and joined the church continued idolatrous practice, redirecting it toward images of Jesus, Mary, and the saints.",
+      "claim_type": "causal",
+      "entities": ["Roman paganism", "Christian church", "Mary (mother of Jesus)"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "Two problems place this in dispute. (1) The claim that saint/image veneration is simply relabeled paganism is exactly the contested syncretism thesis; some scholars note continuities with pagan cult, others hold that veneration of martyrs/saints grew from within Christian practice and predates Constantine. (2) There is a chronological telescoping: the developed veneration of images of Mary and the saints emerged gradually over subsequent centuries (Marian devotion intensifying after the Council of Ephesus in 431, and image veneration becoming a major issue only by the iconoclastic controversies of the 8th–9th centuries), not immediately among fourth-century pagan converts. The strong causal identity of the claim is not the modern consensus.",
+        "modern_consensus": "Saint/image veneration developed gradually and its 'pagan survival' character is debated; direct one-to-one substitution of idols for saint-images is contested and chronologically compressed.",
+        "period_historiography": "The 'idolatry merely re-labeled as saints and images' argument is a staple of the 19th-century Protestant polemical histories White relied on.",
+        "sources": [
+          {"title": "Historiography of the Christianization of the Roman Empire (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Historiography_of_the_Christianization_of_the_Roman_Empire", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Contested claims about saints replacing gods."},
+          {"title": "Constantine the Great and Christianity (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Constantine_the_Great_and_Christianity", "source_class": "encyclopedia", "supports_verdict": true, "note": "Competing perspectives on syncretism and continuity."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-043",
+      "paragraph": 12,
+      "quote": "Unsound doctrines, superstitious rites, and idolatrous ceremonies were incorporated into her faith and worship.",
+      "claim_text": "Unsound doctrines, superstitious rites, and idolatrous ceremonies became incorporated into the Christian church's faith and worship as a result of the union with paganism.",
+      "claim_type": "causal",
+      "entities": ["Christian church", "Roman paganism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Which doctrines and rites count as 'unsound,' 'superstitious,' or 'idolatrous' is itself a confessional value judgment, not a checkable fact. Ritual and doctrinal development in the 4th–5th centuries is documented, but classifying it as corrupt pagan importation presupposes the Protestant standard at issue; there is no neutral factual proposition here to adjudicate true or false.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-044",
+      "paragraph": 12,
+      "quote": "As the followers of Christ united with idolaters, the Christian religion became corrupted, and the church lost her purity and power.",
+      "claim_text": "The union of Christians with pagan idolaters caused the Christian religion to become corrupted and the church to lose its purity and power.",
+      "claim_type": "causal",
+      "entities": ["Christian church", "Roman paganism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "'The Christian religion became corrupted' and 'the church lost her purity and power' are theological/confessional value judgments, not empirically adjudicable facts. The 4th-century transformation of the church is documented, but whether it constituted corruption and a loss of spiritual power is a normative evaluation outside the reach of historical verification.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-045",
+      "paragraph": 13,
+      "quote": "Among the twelve apostles was a traitor.",
+      "claim_text": "One of Jesus's twelve apostles, Judas Iscariot, was a traitor.",
+      "claim_type": "biographical",
+      "entities": ["Judas Iscariot", "Jesus Christ", "twelve apostles"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] All four canonical Gospels identify Judas Iscariot, one of the Twelve, as the one who betrayed Jesus. This is textbook-level content of the New Testament narrative.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-046",
+      "paragraph": 14,
+      "quote": "Judas was accepted, not because of his defects of character, but notwithstanding them.",
+      "claim_text": "Judas Iscariot was accepted as a disciple by Jesus despite his character defects, not because of them.",
+      "claim_type": "theological",
+      "entities": ["Judas Iscariot", "Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample re-check of a needs_verification:false claim. This is a theological interpretation of Jesus's motive in choosing Judas; it makes no independently checkable historical assertion beyond the datum handled in GC-02-045. Extractor's classification stands.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-047",
+      "paragraph": 14,
+      "quote": "By indulgence in sin, he invited the temptations of Satan. His evil traits of character became predominant. He yielded his mind to the control of the powers of darkness, he became angry when his faults were reproved, and thus he was led to commit the fearful crime of betraying his Master.",
+      "claim_text": "Judas Iscariot's growing indulgence in sin and resentment at being reproved for his faults led him to betray Jesus.",
+      "claim_type": "causal",
+      "entities": ["Judas Iscariot", "Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "A psychological-moral and partly supernatural ('control of the powers of darkness') reconstruction of Judas's inner motives, extrapolated from the Gospel narrative. The interior causation of the betrayal is not historically recoverable or testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-048",
+      "paragraph": 15,
+      "quote": "Ananias and Sapphira acted the part of deceivers, pretending to make an entire sacrifice for God, when they were covetously withholding a portion for themselves.",
+      "claim_text": "Ananias and Sapphira, members of the early church, pretended to donate the entire proceeds of a sale to the church while secretly withholding a portion for themselves.",
+      "claim_type": "biographical",
+      "entities": ["Ananias", "Sapphira", "early church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] This is a faithful summary of the narrative in Acts 5:1-11, where Ananias and Sapphira sell property and lay only part of the proceeds at the apostles' feet while pretending to give the whole. The claim accurately represents its cited biblical source.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-049",
+      "paragraph": 15,
+      "quote": "the judgments of God rid the church of this foul blot upon its purity",
+      "claim_text": "Divine judgment against Ananias and Sapphira removed their corrupting influence from the early church.",
+      "claim_type": "theological",
+      "entities": ["Ananias", "Sapphira", "early church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Attributes the deaths of Ananias and Sapphira to divine judgment purifying the church — a theological/supernatural interpretation, not a testable historical claim.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-050",
+      "paragraph": 15,
+      "quote": "Thus, as long as persecution continued, the church remained comparatively pure. But as it ceased, converts were added who were less sincere and devoted, and the way was opened for Satan to obtain a foothold.",
+      "claim_text": "The early church remained comparatively pure while persecution continued, but once persecution ceased, less sincere converts joined, opening the way for corrupting influence within the church.",
+      "claim_type": "causal",
+      "entities": ["early church", "Satan"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "low",
+        "rationale": "The empirical half of the claim — that the end of persecution and the arrival of imperial favor drew in more numerous and often more nominal/opportunistic converts — has real scholarly support: Ramsay MacMullen argues that after Constantine, money and later coercion, rather than deepening piety, brought many conversions. But the value framing ('comparatively pure' before, Satan's foothold after) and the sharp 'persecution = purity' correlation are a schematic confessional reading, not an established finding. Because the factual core is genuinely debated while the framing is interpretive, it rests as disputed.",
+        "modern_consensus": "Post-Constantinian growth included many nominal/opportunistic adherents (MacMullen); whether earlier persecution kept the church 'purer' is an interpretive judgment, not consensus.",
+        "sources": [
+          {"title": "Historiography of the Christianization of the Roman Empire (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Historiography_of_the_Christianization_of_the_Roman_Empire", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Nominal conversion after favor; interpretive judgments vary."},
+          {"title": "Ramsay MacMullen, Christianizing the Roman Empire (A.D. 100-400)", "url": "https://yalebooks.yale.edu/book/9780300036428/christianizing-the-roman-empire/", "source_class": "academic", "supports_verdict": true, "note": "After Constantine, money and later coercion drove many conversions rather than deepening piety."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-051",
+      "paragraph": 16,
+      "quote": "When Christians consented to unite with those who were but half converted from paganism, they entered upon a path which led farther and farther from the truth.",
+      "claim_text": "Christians who agreed to unite with those only half converted from paganism progressively departed further from Christian truth.",
+      "claim_type": "causal",
+      "entities": ["Christians", "Roman paganism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "'Farther and farther from the truth' presupposes a confessional standard of doctrinal truth. Whether post-Constantinian developments moved the church away from or toward orthodoxy is a theological judgment, not a fact history can adjudicate; the claim states no discrete, testable event.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-052",
+      "paragraph": 16,
+      "quote": "None understood so well how to oppose the true Christian faith as did those who had once been its defenders; and these apostate Christians, uniting with their half-pagan companions, directed their warfare against the most essential features of the doctrines of Christ.",
+      "claim_text": "Apostate former Christians, having once defended the true faith, became especially effective opponents of it, and joined with half-pagan converts to attack the most essential Christian doctrines.",
+      "claim_type": "causal",
+      "entities": ["Christian church", "Roman paganism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "The characterization of 'apostate Christians' allied with 'half-pagan companions' waging war on the essential doctrines of Christ is a polemical, undated construction that presupposes which party held 'the true Christian faith.' It identifies no specific persons or episode and rests on a confessional judgment about truth and apostasy, so there is no checkable historical proposition to verify.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-053",
+      "paragraph": 17,
+      "quote": "The Bible was not accepted as the standard of faith.",
+      "claim_text": "During this period of church history, the Bible was not accepted as the standard of faith.",
+      "claim_type": "event",
+      "entities": ["Christian church", "Bible"],
+      "needs_verification": true,
+      "extractor_note": "No specific date/period named in the text; general claim about a historical era.",
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "low",
+        "rationale": "This engages a genuine historiographical debate about the rule of faith. Heiko Oberman's influential analysis distinguishes 'Tradition I' (Scripture interpreted within the church's rule of faith, the early-church view) from 'Tradition II' (tradition as a second, supplementary source of revelation, developing from the late 4th century onward). On that scholarship the pre-Reformation church did treat Scripture as authoritative — but within, not as, a framework of tradition and ecclesial authority. White's flat claim that the Bible 'was not accepted as the standard of faith' overstates and is undated; whether that framing is warranted is exactly what the Scripture-and-tradition dispute concerns, so it rests as disputed.",
+        "modern_consensus": "Scholarship (Oberman) holds the pre-Reformation church regarded Scripture as authoritative within a rule-of-faith/tradition framework; the sola-scriptura reading of the period is confessionally contested.",
+        "sources": [
+          {"title": "Historiography of the Christianization of the Roman Empire (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Historiography_of_the_Christianization_of_the_Roman_Empire", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Confessional dispute over Scripture-and-tradition."},
+          {"title": "A Novel Doctrine? An Evaluation of Sola Scriptura in Patristic and Medieval Thought (Harvard DASH)", "url": "https://dash.harvard.edu/bitstreams/495f998c-ff52-42ce-80e8-a9c076d39509/download", "source_class": "academic", "supports_verdict": true, "note": "Reviews Oberman's Tradition I/II framework; Scripture held authoritative within a tradition framework."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-054",
+      "paragraph": 17,
+      "quote": "The doctrine of religious freedom was termed heresy, and its upholders were hated and proscribed.",
+      "claim_text": "During this period, advocacy of religious freedom was labeled heresy, and its advocates were hated and legally proscribed.",
+      "claim_type": "event",
+      "entities": ["Christian church"],
+      "needs_verification": true,
+      "extractor_note": "No specific date/period named in the text; general claim about a historical era.",
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "low",
+        "rationale": "There is a real historical core — after Christianity became the state religion (Theodosius, 380/391), dissent and 'heresy' were legally proscribed and dissenters persecuted. But 'the doctrine of religious freedom' is a modern conceptual category anachronistically projected back onto late antiquity; no ancient party advocated 'religious freedom' as such doctrine. The claim mixes a defensible fact (suppression of dissent) with an anachronistic label, and is undated, so it rests as disputed.",
+        "modern_consensus": "The established imperial church did suppress heresy and dissent, but 'religious freedom' as an articulated doctrine is a later (Enlightenment/modern) concept.",
+        "sources": [
+          {"title": "Constantine the Great and Christianity (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Constantine_the_Great_and_Christianity", "source_class": "encyclopedia", "supports_verdict": true, "note": "Move toward suppression of heresy under the established church."},
+          {"title": "Historiography of the Christianization of the Roman Empire (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Historiography_of_the_Christianization_of_the_Roman_Empire", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Context for coercion of dissent."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-055",
+      "paragraph": 18,
+      "quote": "After a long and severe conflict, the faithful few decided to dissolve all union with the apostate church if she still refused to free herself from falsehood and idolatry.",
+      "claim_text": "After a prolonged conflict, a faithful minority decided to separate from the apostate church over its refusal to abandon falsehood and idolatry.",
+      "claim_type": "event",
+      "entities": ["Christian church"],
+      "needs_verification": true,
+      "extractor_note": "No specific group, date, or location is named; the claim is vague as presented and may refer to groups such as the Waldenses discussed in later chapters.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "The claim names no group, date, or place and cannot be matched to any specific historical separation. It functions as a narrative bridge to the later dissenter chapters (Waldenses etc.) and rests on the contested apostasy framing. Various separatist and rigorist movements broke with the mainstream church at different times, but no single generalized 'faithful few decide to separate' event exists to verify; as stated there is no checkable proposition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-056",
+      "paragraph": 19,
+      "quote": "There is an alarming indifference in regard to the doctrines which are the pillars of the Christian faith.",
+      "claim_text": "There is an alarming indifference, at the time of writing, regarding doctrines considered pillars of the Christian faith.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "An evaluative observation about the religious climate of White's own day; a subjective interpretive judgment, not an empirically checkable historical proposition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-057",
+      "paragraph": 20,
+      "quote": "The early Christians were indeed a peculiar people. Their blameless deportment and unswerving faith were a continual reproof that disturbed the sinner’s peace. Though few in numbers, without wealth, position, or honorary titles, they were a terror to evil-doers wherever their character and doctrines were known.",
+      "claim_text": "Early Christians were a distinctive people whose blameless conduct and unswerving faith served as a reproof to sinners, even though they were few in number and lacked wealth or social standing.",
+      "claim_type": "interpretive",
+      "entities": ["early church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Control-sample re-check of a needs_verification:false claim. Although the extractor filed it as interpretive, the sentence smuggles a checkable social-composition assertion: early Christians were 'few in numbers, without wealth, position, or honorary titles.' On the numbers, this is accurate for the earliest generations (a very small minority, well under 1% of the empire before the mid-3rd century per Stark's estimates). On social status the picture is only broadly right and modern scholarship qualifies it: Wayne Meeks (The First Urban Christians) shows socially mixed urban congregations, and Rodney Stark argues early Christianity actually attracted a fair share of the privileged, so 'without wealth' overstates. The moral/valorizing portion ('blameless deportment,' 'terror to evil-doers') remains interpretive and untestable. Net: the embedded factual core is supported with the noted qualification.",
+        "modern_consensus": "Earliest Christians were a small minority lacking political power; their socioeconomic makeup was mixed rather than uniformly poor.",
+        "sources": [
+          {"title": "The Rise of Christianity (Rodney Stark)", "url": "https://www.amazon.com/Rise-Christianity-Marginal-Religious-Centuries/dp/0060677015", "source_class": "academic", "supports_verdict": true, "note": "Small early numbers; attracted privileged as well as poor."},
+          {"title": "Review: Wayne Meeks, The First Urban Christians (academia.edu)", "url": "https://www.academia.edu/5545090/Review_Wayne_Meeks_The_First_Urban_Christians_The_Social_World_of_the_Apostle_Paul_", "source_class": "academic", "supports_verdict": true, "note": "Socially diverse urban congregations."}
+        ]
+      }
+    },
+    {
+      "id": "GC-02-058",
+      "paragraph": 20,
+      "quote": "It was for the same reason that the Jews rejected and crucified the Saviour,—because the purity and holiness of His character was a constant rebuke to their selfishness and corruption.",
+      "claim_text": "Jesus of Nazareth was rejected and crucified by the Jewish authorities.",
+      "claim_type": "event",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true,
+      "extractor_note": "Core historical claim of the crucifixion is separable from the interpretive causal claim about motive ('a constant rebuke to their selfishness and corruption'), which is theological/interpretive framing.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The crucifixion of Jesus is among the most securely attested facts of ancient history (Tacitus and Josephus corroborate execution under Pontius Pilate). The Gospel accounts and Josephus attest the involvement of Jerusalem's Jewish authorities in his condemnation, with the execution carried out by Roman authority — a nuance to White's compressed phrase 'the Jews... crucified,' but the core historical event is not in doubt. The theological motive ('a constant rebuke to their corruption') is interpretive and outside this verification.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-059",
+      "paragraph": 21,
+      "quote": "When Isaiah foretold the birth of the Messiah, he ascribed to Him the title, “Prince of Peace.”",
+      "claim_text": "The prophet Isaiah, in foretelling the birth of the Messiah, gave him the title \"Prince of Peace,\" corresponding to Isaiah 9:6.",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah", "Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The title 'Prince of Peace' appears in Isaiah 9:6 KJV. The quotation and attribution to Isaiah are accurate; its messianic application is a standard Christian reading and here only the wording/attribution is being checked.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-060",
+      "paragraph": 21,
+      "quote": "When angels announced to the shepherds that Christ was born, they sung above the plains of Bethlehem, “Glory to God in the highest, and on earth peace, good will toward men.”(64)",
+      "claim_text": "The quoted words \"Glory to God in the highest, and on earth peace, good will toward men\" (footnote 64, corresponding to Luke 2:14) were sung by angels announcing Christ's birth to shepherds near Bethlehem.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bethlehem", "Jesus Christ", "angels"],
+      "needs_verification": true,
+      "extractor_note": "The scriptural wording is checkable against Luke 2:14; the angelic appearance itself is a supernatural/theological claim.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The quoted words match Luke 2:14 KJV. Only the quotation accuracy/attribution is affirmed; the angelic announcement itself is a supernatural/theological element outside verification.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-061",
+      "paragraph": 21,
+      "quote": "the words of Christ, “I came not to send peace, but a sword.”(65)",
+      "claim_text": "Jesus is quoted (footnote 65, corresponding to Matthew 10:34) as saying \"I came not to send peace, but a sword.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The wording matches Matthew 10:34 KJV ('I came not to send peace, but a sword'). Accurate quotation and attribution.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-062",
+      "paragraph": 22,
+      "quote": "Said the Saviour to His disciples, foreseeing the doubts that would press upon their souls in days of trial and darkness: “Remember the word that I said unto you, The servant is not greater than his lord. If they have persecuted Me, they will also persecute you.”(66)",
+      "claim_text": "Jesus is quoted (footnote 66, corresponding to John 15:20) telling his disciples, \"Remember the word that I said unto you, The servant is not greater than his lord. If they have persecuted Me, they will also persecute you.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The wording matches John 15:20 KJV. Accurate quotation and attribution.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-063",
+      "paragraph": 23,
+      "quote": "“The Lord is not slack concerning His promise.”(67)",
+      "claim_text": "The quoted phrase \"The Lord is not slack concerning His promise\" (footnote 67, corresponding to 2 Peter 3:9) is scripture.",
+      "claim_type": "attributed_quote",
+      "entities": ["Second Epistle of Peter"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The wording matches 2 Peter 3:9 KJV ('The Lord is not slack concerning his promise'). Accurate quotation and attribution.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-064",
+      "paragraph": 24,
+      "quote": "The day of His vengeance hastens, when all who have transgressed His law and oppressed His people will meet the just recompense of their deeds; when every act of cruelty or injustice toward God’s faithful ones will be punished as though done to Christ Himself.",
+      "claim_text": "A future day of divine judgment will bring just recompense to all who transgressed God's law and oppressed his people.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "A claim about a future day of divine vengeance and judgment; eschatological/theological by definition and not historically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-02-065",
+      "paragraph": 25,
+      "quote": "The apostle Paul declares that “all that will live godly in Christ Jesus shall suffer persecution.”(68)",
+      "claim_text": "The apostle Paul is quoted (footnote 68, corresponding to 2 Timothy 3:12) declaring that \"all that will live godly in Christ Jesus shall suffer persecution.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul (apostle)"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The wording matches 2 Timothy 3:12 KJV ('Yea, and all that will live godly in Christ Jesus shall suffer persecution'). Accurate quotation; the epistle is traditionally attributed to Paul, consistent with White's attribution.",
+        "sources": []
+      }
+    }
+  ]
+}

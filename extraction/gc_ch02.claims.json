@@ -1,0 +1,604 @@
+{
+  "chapter": 2,
+  "chapter_title": "Persecution In The First Centuries",
+  "stage": "extraction",
+  "generated_at": "2026-07-05",
+  "notes": "Extracted in a single pass (chapter is short, 3193 words / 26 paragraphs). Paragraph 26 is a plate caption ('St. Peter's And The Vatican') with no checkable content. Scriptural quotations (Hebrews, Isaiah, Luke, Matthew, John, 2 Peter, 2 Timothy) are treated as attributed_quote claims (verifying accuracy/attribution of the quoted wording), separate from any embedded supernatural claim, which is logged as theological. Several broad causal-historical claims about the Christianity/paganism syncretism (paragraphs 10-16) are structurally central to the chapter's argument and are flagged needs_verification even though phrased in general terms; extractor_notes added where the claim is vague as to specific time/place.",
+  "claims": [
+    {
+      "id": "GC-02-001",
+      "paragraph": 1,
+      "quote": "From Olivet the Saviour beheld the storms about to fall upon the apostolic church; and penetrating deeper into the future, His eye discerned the fierce, wasting tempests that were to beat upon His followers in the coming ages of darkness and persecution.",
+      "claim_text": "Jesus, in the Olivet Discourse, prophetically foresaw persecutions that would befall His followers both in the apostolic era and in later ages.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Mount of Olives"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-02-002",
+      "paragraph": 1,
+      "quote": "The followers of Christ must tread the same path of humiliation, reproach, and suffering which their Master trod.",
+      "claim_text": "Followers of Christ were destined to undergo the same path of humiliation, reproach, and suffering that Jesus himself experienced.",
+      "claim_type": "interpretive",
+      "entities": ["Jesus Christ"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-02-003",
+      "paragraph": 2,
+      "quote": "The history of the early church testified to the fulfilment of the Saviour’s words.",
+      "claim_text": "The subsequent history of the early Christian church confirmed the fulfillment of Jesus's prophecy of persecution.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "early church"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-02-004",
+      "paragraph": 2,
+      "quote": "Paganism foresaw that should the gospel triumph, her temples and altars would be swept away; therefore she summoned her forces to destroy Christianity.",
+      "claim_text": "Adherents of Greco-Roman paganism foresaw that the triumph of the Christian gospel would sweep away pagan temples and altars, and for that reason mobilized to destroy Christianity.",
+      "claim_type": "causal",
+      "entities": ["Roman paganism", "Christianity"],
+      "needs_verification": true,
+      "extractor_note": "Personified/generalized causal claim about pagan motive for persecution; checkable against modern scholarship on causes of Roman persecution of Christians."
+    },
+    {
+      "id": "GC-02-005",
+      "paragraph": 2,
+      "quote": "Christians were stripped of their possessions, and driven from their homes.",
+      "claim_text": "Early Christians were, as a general practice under Roman persecution, stripped of their possessions and driven from their homes.",
+      "claim_type": "event",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-006",
+      "paragraph": 2,
+      "quote": "They “endured a great fight of afflictions.”(58)",
+      "claim_text": "The phrase \"endured a great fight of afflictions\" is quoted (footnote 58) as scripture describing the early Christians' persecution, corresponding to Hebrews 10:32.",
+      "claim_type": "attributed_quote",
+      "entities": ["Epistle to the Hebrews"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-007",
+      "paragraph": 2,
+      "quote": "They “had trial of cruel mockings and scourgings, yea, moreover of bonds and imprisonment.”(59)",
+      "claim_text": "The phrase \"had trial of cruel mockings and scourgings, yea, moreover of bonds and imprisonment\" is quoted (footnote 59) as scripture, corresponding to Hebrews 11:36.",
+      "claim_type": "attributed_quote",
+      "entities": ["Epistle to the Hebrews"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-008",
+      "paragraph": 2,
+      "quote": "Great numbers sealed their testimony with their blood.",
+      "claim_text": "Great numbers of early Christians were martyred for their faith.",
+      "claim_type": "statistic",
+      "entities": ["Christians"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-009",
+      "paragraph": 2,
+      "quote": "Noble and slave, rich and poor, learned and ignorant, were alike slain without mercy.",
+      "claim_text": "Victims of the Roman persecution of Christians came from all social classes—nobility and slaves, rich and poor, educated and uneducated—and were killed without regard to status.",
+      "claim_type": "statistic",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-010",
+      "paragraph": 3,
+      "quote": "These persecutions, beginning under Nero about the time of the martyrdom of Paul, continued with greater or less fury for centuries.",
+      "claim_text": "Roman persecution of Christians began under Emperor Nero, around the time of the apostle Paul's martyrdom, and continued with varying intensity for centuries afterward.",
+      "claim_type": "date",
+      "entities": ["Nero", "Paul (apostle)", "Roman Empire"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-011",
+      "paragraph": 3,
+      "quote": "Christians were falsely accused of the most dreadful crimes, and declared to be the cause of great calamities—famine, pestilence, and earthquake.",
+      "claim_text": "Christians were falsely accused of dreadful crimes and blamed as the cause of calamities such as famine, pestilence, and earthquake.",
+      "claim_type": "event",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-012",
+      "paragraph": 3,
+      "quote": "As they became the objects of popular hatred and suspicion, informers stood ready, for the sake of gain, to betray the innocent.",
+      "claim_text": "As Christians became objects of popular hatred and suspicion in the Roman Empire, informers, motivated by financial gain, betrayed innocent Christians to authorities.",
+      "claim_type": "event",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-013",
+      "paragraph": 3,
+      "quote": "They were condemned as rebels against the empire, as foes of religion, and pests to society.",
+      "claim_text": "Christians were formally condemned by Roman authorities as rebels against the empire, enemies of religion, and pests to society.",
+      "claim_type": "event",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-014",
+      "paragraph": 3,
+      "quote": "Great numbers were thrown to wild beasts or burned alive in the amphitheaters.",
+      "claim_text": "Great numbers of Christians were executed by being thrown to wild beasts or burned alive in Roman amphitheaters.",
+      "claim_type": "statistic",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-015",
+      "paragraph": 3,
+      "quote": "Some were crucified; others were covered with the skins of wild animals, and thrust into the arena to be torn by dogs.",
+      "claim_text": "Some Christians were executed by crucifixion, and others were dressed in animal skins and thrust into the arena to be torn apart by dogs.",
+      "claim_type": "event",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-016",
+      "paragraph": 3,
+      "quote": "Their punishment was often made the chief entertainment at public fêtes.",
+      "claim_text": "The execution of Christians was often used as the chief entertainment at Roman public festivals.",
+      "claim_type": "event",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-017",
+      "paragraph": 3,
+      "quote": "Vast multitudes assembled to enjoy the sight, and greeted their dying agonies with laughter and applause.",
+      "claim_text": "Large crowds in the Roman Empire assembled to watch the execution of Christians and responded to their suffering with laughter and applause.",
+      "claim_type": "event",
+      "entities": ["Roman Empire"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-018",
+      "paragraph": 4,
+      "quote": "Wherever they sought refuge, the followers of Christ were hunted like beasts of prey.",
+      "claim_text": "Wherever early Christians sought refuge from persecution, they were hunted down.",
+      "claim_type": "event",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-019",
+      "paragraph": 4,
+      "quote": "“Destitute, afflicted, tormented; (of whom the world was not worthy:) they wandered in deserts, and in mountains, and in dens and caves of the earth.”(60)",
+      "claim_text": "The quoted passage (footnote 60), describing persecuted believers as wandering destitute in deserts, mountains, dens, and caves, corresponds to Hebrews 11:37-38.",
+      "claim_type": "attributed_quote",
+      "entities": ["Epistle to the Hebrews"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-020",
+      "paragraph": 4,
+      "quote": "The catacombs afforded shelter for thousands.",
+      "claim_text": "The Roman catacombs afforded shelter for thousands of persecuted early Christians.",
+      "claim_type": "statistic",
+      "entities": ["Catacombs of Rome", "Christians"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-021",
+      "paragraph": 4,
+      "quote": "Beneath the hills outside the city of Rome, long galleries had been tunneled through earth and rock; the dark and intricate network of passages extended for miles beyond the city walls.",
+      "claim_text": "Beneath the hills outside Rome, long galleries were tunneled through earth and rock, forming a network of underground passages extending for miles beyond the city walls.",
+      "claim_type": "geographical",
+      "entities": ["Catacombs of Rome", "Rome"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-022",
+      "paragraph": 4,
+      "quote": "In these underground retreats, the followers of Christ buried their dead; and here also, when suspected and proscribed, they found a home.",
+      "claim_text": "Early Christians used the Roman catacombs both to bury their dead and as a refuge when suspected or proscribed by authorities.",
+      "claim_type": "event",
+      "entities": ["Catacombs of Rome", "Christians"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-023",
+      "paragraph": 4,
+      "quote": "When the Lifegiver shall awaken those who have fought the good fight, many a martyr for Christ’s sake will come forth from those gloomy caverns.",
+      "claim_text": "At the future resurrection, many martyrs will be raised from the catacombs where they were buried.",
+      "claim_type": "theological",
+      "entities": ["Catacombs of Rome"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-02-024",
+      "paragraph": 5,
+      "quote": "Under the fiercest persecution, these witnesses for Jesus kept their faith unsullied.",
+      "claim_text": "Early Christian martyrs kept their faith unsullied even under the fiercest persecution.",
+      "claim_type": "interpretive",
+      "entities": ["Christians"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-02-025",
+      "paragraph": 5,
+      "quote": "The loss of every earthly blessing could not force them to renounce their belief in Christ.",
+      "claim_text": "The loss of every earthly blessing could not force persecuted early Christians to renounce their belief in Christ.",
+      "claim_type": "interpretive",
+      "entities": ["Christians"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-02-026",
+      "paragraph": 6,
+      "quote": "Like God’s servants of old, many were “tortured, not accepting deliverance; that they might obtain a better resurrection.”(61)",
+      "claim_text": "The quoted passage (footnote 61), describing believers tortured while refusing deliverance in hope of a better resurrection, corresponds to Hebrews 11:35.",
+      "claim_type": "attributed_quote",
+      "entities": ["Epistle to the Hebrews"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-027",
+      "paragraph": 6,
+      "quote": "Looking upward by faith, they saw Christ and angels leaning over the battlements of heaven, gazing upon them with the deepest interest, and regarding their steadfastness with approval,",
+      "claim_text": "Martyred early Christians, in their final moments, saw by faith Christ and angels watching over them from heaven with approval.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "angels"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-02-028",
+      "paragraph": 6,
+      "quote": "A voice came down to them from the throne of God, “Be thou faithful unto death, and I will give thee a crown of life.”(62)",
+      "claim_text": "A voice from the throne of God spoke the words \"Be thou faithful unto death, and I will give thee a crown of life\" (footnote 62, corresponding to Revelation 2:10) to persecuted martyrs.",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Revelation"],
+      "needs_verification": true,
+      "extractor_note": "The scriptural wording itself is checkable against Revelation 2:10; the framing that a voice audibly spoke this to dying martyrs is a supernatural/theological claim layered on top."
+    },
+    {
+      "id": "GC-02-029",
+      "paragraph": 7,
+      "quote": "In vain were Satan’s efforts to destroy the church of Christ by violence.",
+      "claim_text": "Satan's efforts to destroy the Christian church through violent persecution ultimately failed.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-02-030",
+      "paragraph": 7,
+      "quote": "The gospel continued to spread, and the number of its adherents to increase.",
+      "claim_text": "Despite persecution, the Christian gospel continued to spread and the number of Christian adherents continued to increase.",
+      "claim_type": "causal",
+      "entities": ["Christianity"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-031",
+      "paragraph": 7,
+      "quote": "It penetrated into regions that were inaccessible, even to the eagles of Rome.",
+      "claim_text": "Christianity spread into regions beyond the reach of Roman military power.",
+      "claim_type": "geographical",
+      "entities": ["Christianity", "Roman Empire"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-032",
+      "paragraph": 7,
+      "quote": "Said a Christian, expostulating with the heathen rulers who were urging forward the persecution: You may “kill us, torture us, condemn us.... Your injustice is the proof that we are innocent.... Nor does your cruelty ... avail you.”",
+      "claim_text": "An early Christian is quoted addressing heathen Roman rulers urging persecution, with the words \"kill us, torture us, condemn us.... Your injustice is the proof that we are innocent.... Nor does your cruelty ... avail you.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true,
+      "extractor_note": "Speaker is unnamed in the text ('a Christian'); the quoted lines resemble Tertullian's Apologeticus. Attribution and exact wording need checking."
+    },
+    {
+      "id": "GC-02-033",
+      "paragraph": 7,
+      "quote": "“The oftener we are mown down by you, the more in number we grow; the blood of Christians is seed.”(63)",
+      "claim_text": "The same unnamed early Christian is quoted (footnote 63) stating \"The oftener we are mown down by you, the more in number we grow; the blood of Christians is seed,\" the famous \"semen est sanguis Christianorum\" formulation.",
+      "claim_type": "attributed_quote",
+      "entities": ["Christians"],
+      "needs_verification": true,
+      "extractor_note": "Commonly attributed to Tertullian's Apologeticus ('semen est sanguis Christianorum'), though not named in this text."
+    },
+    {
+      "id": "GC-02-034",
+      "paragraph": 8,
+      "quote": "Thousands were imprisoned and slain; but others sprung up to fill their places.",
+      "claim_text": "Thousands of Christians were imprisoned and killed under Roman persecution, and other Christians took their places.",
+      "claim_type": "statistic",
+      "entities": ["Christians", "Roman Empire"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-035",
+      "paragraph": 8,
+      "quote": "The sufferings which they endured brought Christians nearer to one another and to their Redeemer.",
+      "claim_text": "The sufferings endured by persecuted Christians brought them closer to one another and to Christ.",
+      "claim_type": "interpretive",
+      "entities": ["Christians"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-02-036",
+      "paragraph": 9,
+      "quote": "Satan therefore laid his plans to war more successfully against the government of God, by planting his banner in the Christian church.",
+      "claim_text": "After failing to destroy Christianity through violent persecution, Satan devised a strategy of infiltrating the Christian church itself.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Christian church"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-02-037",
+      "paragraph": 10,
+      "quote": "Persecution ceased, and in its stead were substituted the dangerous allurements of temporal prosperity and worldly honor.",
+      "claim_text": "Roman persecution of Christianity ceased and was replaced by inducements of temporal prosperity and worldly honor offered to the church.",
+      "claim_type": "causal",
+      "entities": ["Christianity", "Roman Empire"],
+      "needs_verification": true,
+      "extractor_note": "General claim likely referencing the Constantinian shift; no specific date/emperor named in the text."
+    },
+    {
+      "id": "GC-02-038",
+      "paragraph": 10,
+      "quote": "Idolaters were led to receive a part of the Christian faith, while they rejected other essential truths.",
+      "claim_text": "Following the end of persecution, adherents of pagan idolatry adopted parts of the Christian faith while rejecting other essential Christian doctrines.",
+      "claim_type": "causal",
+      "entities": ["Christianity", "Roman paganism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-039",
+      "paragraph": 10,
+      "quote": "They professed to accept Jesus as the Son of God, and to believe in His death and resurrection; but they had no conviction of sin, and felt no need of repentance or of a change of heart.",
+      "claim_text": "Pagan converts of this period professed belief in Jesus as the Son of God and in his death and resurrection, but lacked conviction of sin or felt need for repentance.",
+      "claim_type": "causal",
+      "entities": ["Roman paganism", "Christianity"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-040",
+      "paragraph": 11,
+      "quote": "Some of the Christians stood firm, declaring that they could make no compromise. Others were in favor of yielding or modifying some features of their faith, and uniting with those who had accepted a part of Christianity, urging that this might be the means of their full conversion.",
+      "claim_text": "During this period, the Christian community split between those who refused any doctrinal compromise with partially converted pagans and those who favored modifying features of the faith to unite with them.",
+      "claim_type": "event",
+      "entities": ["Christians"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-041",
+      "paragraph": 12,
+      "quote": "Most of the Christians at last consented to lower their standard, and a union was formed between Christianity and paganism.",
+      "claim_text": "Most Christians eventually consented to lower their doctrinal standards, resulting in a union between Christianity and paganism.",
+      "claim_type": "causal",
+      "entities": ["Christianity", "Roman paganism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-042",
+      "paragraph": 12,
+      "quote": "Although the worshipers of idols professed to be converted, and united with the church, they still clung to their idolatry, only changing the objects of their worship to images of Jesus, and even of Mary and the saints.",
+      "claim_text": "Pagan idol worshipers who professed conversion and joined the church continued idolatrous practice, redirecting it toward images of Jesus, Mary, and the saints.",
+      "claim_type": "causal",
+      "entities": ["Roman paganism", "Christian church", "Mary (mother of Jesus)"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-043",
+      "paragraph": 12,
+      "quote": "Unsound doctrines, superstitious rites, and idolatrous ceremonies were incorporated into her faith and worship.",
+      "claim_text": "Unsound doctrines, superstitious rites, and idolatrous ceremonies became incorporated into the Christian church's faith and worship as a result of the union with paganism.",
+      "claim_type": "causal",
+      "entities": ["Christian church", "Roman paganism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-044",
+      "paragraph": 12,
+      "quote": "As the followers of Christ united with idolaters, the Christian religion became corrupted, and the church lost her purity and power.",
+      "claim_text": "The union of Christians with pagan idolaters caused the Christian religion to become corrupted and the church to lose its purity and power.",
+      "claim_type": "causal",
+      "entities": ["Christian church", "Roman paganism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-045",
+      "paragraph": 13,
+      "quote": "Among the twelve apostles was a traitor.",
+      "claim_text": "One of Jesus's twelve apostles, Judas Iscariot, was a traitor.",
+      "claim_type": "biographical",
+      "entities": ["Judas Iscariot", "Jesus Christ", "twelve apostles"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-046",
+      "paragraph": 14,
+      "quote": "Judas was accepted, not because of his defects of character, but notwithstanding them.",
+      "claim_text": "Judas Iscariot was accepted as a disciple by Jesus despite his character defects, not because of them.",
+      "claim_type": "theological",
+      "entities": ["Judas Iscariot", "Jesus Christ"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-02-047",
+      "paragraph": 14,
+      "quote": "By indulgence in sin, he invited the temptations of Satan. His evil traits of character became predominant. He yielded his mind to the control of the powers of darkness, he became angry when his faults were reproved, and thus he was led to commit the fearful crime of betraying his Master.",
+      "claim_text": "Judas Iscariot's growing indulgence in sin and resentment at being reproved for his faults led him to betray Jesus.",
+      "claim_type": "causal",
+      "entities": ["Judas Iscariot", "Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-048",
+      "paragraph": 15,
+      "quote": "Ananias and Sapphira acted the part of deceivers, pretending to make an entire sacrifice for God, when they were covetously withholding a portion for themselves.",
+      "claim_text": "Ananias and Sapphira, members of the early church, pretended to donate the entire proceeds of a sale to the church while secretly withholding a portion for themselves.",
+      "claim_type": "biographical",
+      "entities": ["Ananias", "Sapphira", "early church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-049",
+      "paragraph": 15,
+      "quote": "the judgments of God rid the church of this foul blot upon its purity",
+      "claim_text": "Divine judgment against Ananias and Sapphira removed their corrupting influence from the early church.",
+      "claim_type": "theological",
+      "entities": ["Ananias", "Sapphira", "early church"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-02-050",
+      "paragraph": 15,
+      "quote": "Thus, as long as persecution continued, the church remained comparatively pure. But as it ceased, converts were added who were less sincere and devoted, and the way was opened for Satan to obtain a foothold.",
+      "claim_text": "The early church remained comparatively pure while persecution continued, but once persecution ceased, less sincere converts joined, opening the way for corrupting influence within the church.",
+      "claim_type": "causal",
+      "entities": ["early church", "Satan"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-051",
+      "paragraph": 16,
+      "quote": "When Christians consented to unite with those who were but half converted from paganism, they entered upon a path which led farther and farther from the truth.",
+      "claim_text": "Christians who agreed to unite with those only half converted from paganism progressively departed further from Christian truth.",
+      "claim_type": "causal",
+      "entities": ["Christians", "Roman paganism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-052",
+      "paragraph": 16,
+      "quote": "None understood so well how to oppose the true Christian faith as did those who had once been its defenders; and these apostate Christians, uniting with their half-pagan companions, directed their warfare against the most essential features of the doctrines of Christ.",
+      "claim_text": "Apostate former Christians, having once defended the true faith, became especially effective opponents of it, and joined with half-pagan converts to attack the most essential Christian doctrines.",
+      "claim_type": "causal",
+      "entities": ["Christian church", "Roman paganism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-053",
+      "paragraph": 17,
+      "quote": "The Bible was not accepted as the standard of faith.",
+      "claim_text": "During this period of church history, the Bible was not accepted as the standard of faith.",
+      "claim_type": "event",
+      "entities": ["Christian church", "Bible"],
+      "needs_verification": true,
+      "extractor_note": "No specific date/period named in the text; general claim about a historical era."
+    },
+    {
+      "id": "GC-02-054",
+      "paragraph": 17,
+      "quote": "The doctrine of religious freedom was termed heresy, and its upholders were hated and proscribed.",
+      "claim_text": "During this period, advocacy of religious freedom was labeled heresy, and its advocates were hated and legally proscribed.",
+      "claim_type": "event",
+      "entities": ["Christian church"],
+      "needs_verification": true,
+      "extractor_note": "No specific date/period named in the text; general claim about a historical era."
+    },
+    {
+      "id": "GC-02-055",
+      "paragraph": 18,
+      "quote": "After a long and severe conflict, the faithful few decided to dissolve all union with the apostate church if she still refused to free herself from falsehood and idolatry.",
+      "claim_text": "After a prolonged conflict, a faithful minority decided to separate from the apostate church over its refusal to abandon falsehood and idolatry.",
+      "claim_type": "event",
+      "entities": ["Christian church"],
+      "needs_verification": true,
+      "extractor_note": "No specific group, date, or location is named; the claim is vague as presented and may refer to groups such as the Waldenses discussed in later chapters."
+    },
+    {
+      "id": "GC-02-056",
+      "paragraph": 19,
+      "quote": "There is an alarming indifference in regard to the doctrines which are the pillars of the Christian faith.",
+      "claim_text": "There is an alarming indifference, at the time of writing, regarding doctrines considered pillars of the Christian faith.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-02-057",
+      "paragraph": 20,
+      "quote": "The early Christians were indeed a peculiar people. Their blameless deportment and unswerving faith were a continual reproof that disturbed the sinner’s peace. Though few in numbers, without wealth, position, or honorary titles, they were a terror to evil-doers wherever their character and doctrines were known.",
+      "claim_text": "Early Christians were a distinctive people whose blameless conduct and unswerving faith served as a reproof to sinners, even though they were few in number and lacked wealth or social standing.",
+      "claim_type": "interpretive",
+      "entities": ["early church"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-02-058",
+      "paragraph": 20,
+      "quote": "It was for the same reason that the Jews rejected and crucified the Saviour,—because the purity and holiness of His character was a constant rebuke to their selfishness and corruption.",
+      "claim_text": "Jesus of Nazareth was rejected and crucified by the Jewish authorities.",
+      "claim_type": "event",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true,
+      "extractor_note": "Core historical claim of the crucifixion is separable from the interpretive causal claim about motive ('a constant rebuke to their selfishness and corruption'), which is theological/interpretive framing."
+    },
+    {
+      "id": "GC-02-059",
+      "paragraph": 21,
+      "quote": "When Isaiah foretold the birth of the Messiah, he ascribed to Him the title, “Prince of Peace.”",
+      "claim_text": "The prophet Isaiah, in foretelling the birth of the Messiah, gave him the title \"Prince of Peace,\" corresponding to Isaiah 9:6.",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah", "Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-060",
+      "paragraph": 21,
+      "quote": "When angels announced to the shepherds that Christ was born, they sung above the plains of Bethlehem, “Glory to God in the highest, and on earth peace, good will toward men.”(64)",
+      "claim_text": "The quoted words \"Glory to God in the highest, and on earth peace, good will toward men\" (footnote 64, corresponding to Luke 2:14) were sung by angels announcing Christ's birth to shepherds near Bethlehem.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bethlehem", "Jesus Christ", "angels"],
+      "needs_verification": true,
+      "extractor_note": "The scriptural wording is checkable against Luke 2:14; the angelic appearance itself is a supernatural/theological claim."
+    },
+    {
+      "id": "GC-02-061",
+      "paragraph": 21,
+      "quote": "the words of Christ, “I came not to send peace, but a sword.”(65)",
+      "claim_text": "Jesus is quoted (footnote 65, corresponding to Matthew 10:34) as saying \"I came not to send peace, but a sword.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-062",
+      "paragraph": 22,
+      "quote": "Said the Saviour to His disciples, foreseeing the doubts that would press upon their souls in days of trial and darkness: “Remember the word that I said unto you, The servant is not greater than his lord. If they have persecuted Me, they will also persecute you.”(66)",
+      "claim_text": "Jesus is quoted (footnote 66, corresponding to John 15:20) telling his disciples, \"Remember the word that I said unto you, The servant is not greater than his lord. If they have persecuted Me, they will also persecute you.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-063",
+      "paragraph": 23,
+      "quote": "“The Lord is not slack concerning His promise.”(67)",
+      "claim_text": "The quoted phrase \"The Lord is not slack concerning His promise\" (footnote 67, corresponding to 2 Peter 3:9) is scripture.",
+      "claim_type": "attributed_quote",
+      "entities": ["Second Epistle of Peter"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-02-064",
+      "paragraph": 24,
+      "quote": "The day of His vengeance hastens, when all who have transgressed His law and oppressed His people will meet the just recompense of their deeds; when every act of cruelty or injustice toward God’s faithful ones will be punished as though done to Christ Himself.",
+      "claim_text": "A future day of divine judgment will bring just recompense to all who transgressed God's law and oppressed his people.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-02-065",
+      "paragraph": 25,
+      "quote": "The apostle Paul declares that “all that will live godly in Christ Jesus shall suffer persecution.”(68)",
+      "claim_text": "The apostle Paul is quoted (footnote 68, corresponding to 2 Timothy 3:12) declaring that \"all that will live godly in Christ Jesus shall suffer persecution.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul (apostle)"],
+      "needs_verification": true
+    }
+  ]
+}
