@@ -1,0 +1,947 @@
+{
+  "chapter": 41,
+  "chapter_title": "Desolation Of The Earth",
+  "stage": "impact",
+  "generated_at": "2026-07-05",
+  "notes": "Chapter argument reconstruction: chapter 41 depicts the immediate aftermath of the Second Coming — the destruction of the wicked (via a chain of Old Testament judgment oracles read typologically as end-time prophecy), the banishment of a now-powerless Satan to a millennially desolate earth (the antitypical 'scapegoat', keyed to Leviticus 16 and Revelation 20's 'bottomless pit'), and the thousand-year investigative/executive judgment of the wicked and fallen angels by Christ and the redeemed saints. Its argumentative work is almost entirely eschatological application of Scripture to Scripture: nearly every load-bearing sentence is a biblical quotation (Revelation 18, Isaiah 14/24/26, Jeremiah 4/6/8/23/25, Ezekiel 9/13, Zechariah 14, Daniel 7, 1 Corinthians 4/6, Jude) stitched into the Adventist sanctuary/scapegoat/millennium framework, with narrative prose supplying emotional and typological connective tissue rather than new historical assertions. Because the chapter makes no claims about verifiable past persons, dates, or events, its entire probative weight for the central thesis rests on prophetic interpretation (already logged unverifiable) and on the fidelity of its scriptural quotations to their source texts. This is the terminal eschatological node of the book's thesis chain (post-1844 sanctuary doctrine extended into the millennium), so its centrality to the frame is high, but that centrality attaches to theology, not to any checkable historical-factual claim. Verification stage found the quotation layer completely faithful (27 supported, mostly KJV with one confirmed 1885 Revised Version quotation correctly identified) and the interpretive/theological layer entirely unverifiable (32 items) — zero claims reached contradicted, misquotation, anachronistic, or disputed status, so this impact pass scores nothing and the full claims array is carried forward unchanged with no impact objects added, per the zero-discrepancy convention. searches: 0 (no confirmed discrepancies to assess; defended.json had 0 items in defender scope).",
+  "claims": [
+    {
+      "id": "GC-41-001",
+      "paragraph": 1,
+      "quote": "“Her sins have reached unto heaven, and God hath remembered her iniquities.” “In the cup which she hath filled, fill to her double. How much she hath glorified herself, and lived deliciously, so much torment and sorrow give her: for she saith in her heart, I sit a queen, and am no widow, and shall see no sorrow. Therefore shall her plagues come in one day, death, and mourning, and famine; and she shall be utterly burned with fire: for strong is the Lord God who judgeth her. And the kings of the earth, who have committed fornication and lived deliciously with her, shall bewail her, and lament for her, ... saying, Alas, alas that great city Babylon, that mighty city! for in one hour is thy judgment come.”",
+      "claim_text": "The text quotes (footnote 1131, identified by the extractor as Revelation 18:5-10) a passage stating that Babylon's sins reached heaven, her plagues (death, mourning, famine, burning) would come in one day, and the kings of the earth who lived deliciously with her would lament that her judgment came in one hour.",
+      "claim_type": "attributed_quote",
+      "entities": ["Babylon", "Book of Revelation"],
+      "needs_verification": true,
+      "extractor_note": "No inline speaker is named in the paragraph itself; attribution is via quotation marks plus footnote 1131. Book/chapter identified by extractor from KJV wording (Revelation 18).",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful abridged quotation of KJV Revelation 18:5-10. 'Her sins have reached unto heaven, and God hath remembered her iniquities' = 18:5; 'In the cup which she hath filled, fill to her double... for in one hour is thy judgment come' = 18:6-10 (the ellipsis marks the omitted phrase 'and glorified themselves'). Wording and the extractor's Rev 18 identification both correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-002",
+      "paragraph": 2,
+      "quote": "“The merchants of the earth,” that have “waxed rich through the abundance of her delicacies,” “shall stand afar off for the fear of her torment, weeping and wailing, and saying, Alas, alas that great city, that was clothed in fine linen, and purple, and scarlet, and decked with gold, and precious stones, and pearls! For in one hour so great riches is come to naught.”",
+      "claim_text": "The text quotes (footnote 1132, identified by the extractor as Revelation 18:15-17) a passage in which the merchants of the earth, who waxed rich through Babylon's delicacies, weep and wail that Babylon's great riches came to nothing in one hour.",
+      "claim_type": "attributed_quote",
+      "entities": ["Babylon", "Book of Revelation"],
+      "needs_verification": true,
+      "extractor_note": "Book/chapter identified by extractor from KJV wording (Revelation 18); source gives only footnote 1132.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful composite quotation from KJV Revelation 18. 'The merchants of the earth' and 'waxed rich through the abundance of her delicacies' echo 18:3; 'shall stand afar off for the fear of her torment, weeping and wailing... For in one hour so great riches is come to nought' = 18:15-17. Meaning and Rev 18 identification correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-003",
+      "paragraph": 3,
+      "quote": "Such are the judgments that fall upon Babylon in the day of the visitation of God’s wrath. She has filled up the measure of her iniquity; her time has come; she is ripe for destruction.",
+      "claim_text": "The text asserts that Babylon (symbolic) has filled up the measure of her iniquity and is ripe for destruction in the day of God's wrath.",
+      "claim_type": "theological",
+      "entities": ["Babylon"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample re-check of an extractor false-flag. This is a theological/eschatological interpretation of symbolic 'Babylon' within the cosmic-conflict framework; it asserts no empirically checkable historical fact. Extractor's classification confirmed correct. Unverifiable per CLAUDE.md rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-004",
+      "paragraph": 4,
+      "quote": "When the voice of God turns the captivity of His people, there is a terrible awakening of those who have lost all in the great conflict of life.",
+      "claim_text": "The text asserts that when God turns the captivity of His people, those who have lost everything in life's conflict experience a terrible awakening.",
+      "claim_type": "theological",
+      "entities": ["God's people"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological assertion about a future divine act; no empirically checkable content.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-005",
+      "paragraph": 4,
+      "quote": "The rich prided themselves upon their superiority to those who were less favored; but they had obtained their riches by violation of the law of God. They had neglected to feed the hungry, to clothe the naked, to deal justly, and to love mercy.",
+      "claim_text": "The text asserts that the rich obtained their riches by violating God's law and neglected to feed the hungry, clothe the naked, deal justly, or love mercy.",
+      "claim_type": "theological",
+      "entities": ["the rich"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Moral/theological characterization within the eschatological narrative; not an empirically checkable historical claim.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-006",
+      "paragraph": 5,
+      "quote": "The wicked are filled with regret, not because of their sinful neglect of God and their fellow-men, but because God has conquered. They lament that the result is what it is; but they do not repent of their wickedness.",
+      "claim_text": "The text asserts that the wicked regret that God has conquered rather than repenting of their own sinful neglect of God and others.",
+      "claim_type": "theological",
+      "entities": ["the wicked"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about the interior state of 'the wicked' at the final judgment; no empirically checkable content.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-007",
+      "paragraph": 6,
+      "quote": "The world see the very class whom they have mocked and derided, and desired to exterminate, pass unharmed through pestilence, tempest, and earthquake. He who is to the transgressors of His law a devouring fire, is to His people a safe pavilion.",
+      "claim_text": "The text asserts that the class of people mocked, derided, and targeted for extermination by the world passes unharmed through pestilence, tempest, and earthquake, while God is a devouring fire to transgressors and a safe refuge to His people.",
+      "claim_type": "theological",
+      "entities": ["God's people"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological narrative of divine protection and judgment; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-008",
+      "paragraph": 7,
+      "quote": "The minister who has sacrificed truth to gain the favor of men, now discerns the character and influence of his teachings. It is apparent that the omniscient eye was following him as he stood in the desk, as he walked the streets, as he mingled with men in the various scenes of life. Every emotion of the soul, every line written, every word uttered, every act that led men to rest in a refuge of falsehood, has been scattering seed; and now, in the wretched, lost souls around him, he beholds the harvest.",
+      "claim_text": "The text asserts that a minister who sacrificed truth to gain human favor now perceives that God's omniscient eye followed him throughout his ministry, and beholds the lost souls around him as the harvest of the false teaching he sowed.",
+      "claim_type": "theological",
+      "entities": ["minister (unnamed, generic)"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological depiction of a generic minister's realization under divine omniscience; no empirically checkable historical claim.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-009",
+      "paragraph": 8,
+      "quote": "“They have healed the hurt of the daughter of My people slightly, saying, Peace, peace; when there is no peace.” “With lies ye have made the heart of the righteous sad, whom I have not made sad; and strengthened the hands of the wicked, that he should not return from his wicked way, by promising him life.”",
+      "claim_text": "The text quotes the Lord (footnote 1133, identified by the extractor as combining Jeremiah 6:14/8:11 and Ezekiel 13:22) rebuking false teachers for saying 'Peace, peace' when there is no peace, and for saddening the righteous with lies while strengthening the wicked in their evil way.",
+      "claim_type": "attributed_quote",
+      "entities": ["the Lord", "Jeremiah", "Ezekiel"],
+      "needs_verification": true,
+      "extractor_note": "Introduced inline as 'Saith the Lord'; two source verses appear combined under one footnote (1133); book/chapter identification (Jeremiah 6:14/8:11; Ezekiel 13:22) is the extractor's, based on KJV wording.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Both fragments faithful to the KJV. 'They have healed the hurt of my people slightly, saying, Peace, peace; when there is no peace' = Jeremiah 8:11 (nearly identical to 6:14). 'With lies ye have made the heart of the righteous sad, whom I have not made sad; and strengthened the hands of the wicked, that he should not return from his wicked way, by promising him life' = Ezekiel 13:22. Only the leading 'For'/'Because' are dropped. Extractor's dual identification correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-010",
+      "paragraph": 9,
+      "quote": "“Woe be unto the pastors that destroy and scatter the sheep of My pasture!... Behold, I will visit upon you the evil of your doings.” “Howl, ye shepherds, and cry; and wallow yourselves in the ashes, ye principal of the flock: for your days for slaughter and your dispersions are accomplished; ... and the shepherds shall have no way to flee, nor the principal of the flock to escape.”",
+      "claim_text": "The text quotes (footnote 1134, identified by the extractor as Jeremiah 23:1-2 and Jeremiah 25:34-35) a woe pronounced on pastors/shepherds who destroy and scatter the flock, declaring their days for slaughter accomplished and that they will have no way to escape.",
+      "claim_type": "attributed_quote",
+      "entities": ["pastors", "shepherds", "Jeremiah"],
+      "needs_verification": true,
+      "extractor_note": "No inline speaker named in this paragraph; continues thematically from the 'Saith the Lord' quote of the previous paragraph. Book/chapter identification is the extractor's.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Faithful abridged quotation of Jeremiah 23:1-2 and 25:34-35. 'Woe be unto the pastors that destroy and scatter the sheep of my pasture!... Behold, I will visit upon you the evil of your doings' = KJV Jer 23:1-2. 'Howl, ye shepherds, and cry; and wallow yourselves in the ashes, ye principal of the flock... and the shepherds shall have no way to flee, nor the principal of the flock to escape' = KJV Jer 25:34-35. One minor rewording: GC reads 'for your days for slaughter and your dispersions are accomplished' where KJV reads 'for the days of your slaughter and of your dispersions are accomplished' (search-confirmed). Sense is preserved (the days of slaughter/dispersion are accomplished), so this is a paraphrastic variant, not a meaning-altering misquotation. Extractor identification correct.",
+        "sources": [
+          {
+            "title": "Jeremiah 25:34 KJV — King James Bible Online",
+            "url": "https://www.kingjamesbibleonline.org/Jeremiah-25-34/",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "KJV base text: 'for the days of your slaughter and of your dispersions are accomplished'; GC's slight rewording preserves the meaning."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-41-011",
+      "paragraph": 10,
+      "quote": "The setting aside of the divine precepts gave rise to thousands of springs of evil, discord, hatred, iniquity, until the earth became one vast field of strife, one sink of corruption.",
+      "claim_text": "The text asserts, as a causal claim, that the setting aside of divine precepts caused the earth to become a field of strife and a sink of corruption.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological causal assertion (setting aside divine precepts producing universal corruption) within the cosmic-conflict framework; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-012",
+      "paragraph": 10,
+      "quote": "Men whom the world has worshiped for their talents and eloquence now see these things in their true light. They realize what they have forfeited by transgression, and they fall at the feet of those whose fidelity they have despised and derided, and confess that God has loved them.",
+      "claim_text": "The text asserts that men once worshiped by the world for talent and eloquence come to fall at the feet of the faithful people they had despised, confessing that God had loved those faithful people.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological scene of the wicked's remorse; no empirically checkable content.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-013",
+      "paragraph": 11,
+      "quote": "The people see that they have been deluded. They accuse one another of having led them to destruction; but all unite in heaping their bitterest condemnation upon the ministers.",
+      "claim_text": "The text asserts that the deceived people accuse one another of causing their ruin but unite in placing their bitterest condemnation on the ministers who misled them.",
+      "claim_type": "theological",
+      "entities": ["ministers"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological narrative of mutual recrimination at the final crisis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-014",
+      "paragraph": 11,
+      "quote": "The very ones that once admired them most, will pronounce the most dreadful curses upon them. The very hands that once crowned them with laurels, will be raised for their destruction. The swords which were to slay God’s people, are now employed to destroy their enemies. Everywhere there is strife and bloodshed.",
+      "claim_text": "The text asserts that former admirers of the false shepherds turn violently against them, and that swords once meant to slay God's people are turned on their former masters, producing universal strife and bloodshed.",
+      "claim_type": "theological",
+      "entities": ["false shepherds"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological narrative of the final destruction; no empirically checkable historical claim.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-015",
+      "paragraph": 12,
+      "quote": "“A noise shall come even to the ends of the earth; for the Lord hath a controversy with the nations, He will plead with all flesh; He will give them that are wicked to the sword.”",
+      "claim_text": "The text quotes (footnote 1135, identified by the extractor as Jeremiah 25:31) a declaration that a noise will reach the ends of the earth because the Lord has a controversy with the nations and will give the wicked to the sword.",
+      "claim_type": "attributed_quote",
+      "entities": ["Jeremiah"],
+      "needs_verification": true,
+      "extractor_note": "Book/chapter identification is the extractor's based on KJV wording; source gives only footnote 1135.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful to KJV Jeremiah 25:31: 'A noise shall come even to the ends of the earth; for the LORD hath a controversy with the nations, he will plead with all flesh; he will give them that are wicked to the sword, saith the LORD.' GC omits only the trailing 'saith the LORD'. Identification correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-016",
+      "paragraph": 12,
+      "quote": "For six thousand years the great controversy has been in progress; the Son of God and His heavenly messengers have been in conflict with the power of the evil one, to warn, enlighten, and save the children of men.",
+      "claim_text": "The text asserts that for six thousand years a great controversy has been in progress in which the Son of God and heavenly messengers have been in conflict with Satan to warn, enlighten, and save humanity.",
+      "claim_type": "theological",
+      "entities": ["Son of God", "Satan"],
+      "needs_verification": false,
+      "extractor_note": "Embeds a specific chronological claim (approximately 6,000 years elapsed since creation as of the time of writing) within an overtly theological cosmic-conflict framework; classified theological per CLAUDE.md rule 5, flagged here for the centrality analysis.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample re-check of an extractor false-flag. The core assertion (a cosmic conflict between the Son of God and Satan) is theological/supernatural and unverifiable per CLAUDE.md rule 5. Noted for the centrality analysis: the phrase 'for six thousand years' smuggles in a young-earth chronology (roughly 6,000 years since creation/the Fall), which modern geology, paleontology, and archaeology contradict decisively (human presence and the earth are vastly older). Because that chronology is inseparable here from the theological cosmic-conflict framing and White drew it from a Ussher-type biblical chronology standard in 19th-century conservative Protestantism, the claim as stated is logged unverifiable rather than assigned an accusatory verdict; the embedded factual chronology is flagged for downstream impact/centrality assessment.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-017",
+      "paragraph": 12,
+      "quote": "Now all have made their decision; the wicked have fully united with Satan in his warfare against God. The time has come for God to vindicate the authority of His downtrodden law.",
+      "claim_text": "The text asserts that the wicked have fully united with Satan against God, and that the time has come for God to vindicate the authority of His law.",
+      "claim_type": "theological",
+      "entities": ["Satan", "the wicked"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological assertion about the final alignment of the wicked with Satan; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-018",
+      "paragraph": 13,
+      "quote": "Now the angel of death goes forth, represented in Ezekiel’s vision by the men with the slaughtering weapons, to whom the command is given: “Slay utterly old and young, both maids, and little children, and women: but come not near any man upon whom is the mark; and begin at My sanctuary.”",
+      "claim_text": "The text states that Ezekiel's vision (footnote 1136, Ezekiel 9) represents men with slaughtering weapons commanded to slay all except those bearing the mark, beginning at the sanctuary.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ezekiel"],
+      "needs_verification": true,
+      "extractor_note": "Explicitly attributed inline to 'Ezekiel's vision'; specific chapter (Ezekiel 9) identified by the extractor.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful to KJV Ezekiel 9:6: 'Slay utterly old and young, both maids, and little children, and women: but come not near any man upon whom is the mark; and begin at my sanctuary.' The men with slaughter weapons are Ezekiel 9:1-2. Identification (Ezekiel 9) correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-019",
+      "paragraph": 13,
+      "quote": "Says the prophet, “They began at the ancient men which were before the house.”",
+      "claim_text": "The text quotes 'the prophet' (footnote 1137, identified by the extractor as Ezekiel 9:6) stating that the slaughter began at the ancient men before the house (the sanctuary).",
+      "claim_type": "attributed_quote",
+      "entities": ["Ezekiel"],
+      "needs_verification": true,
+      "extractor_note": "Explicitly attributed inline as 'Says the prophet'; specific verse identified by the extractor.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful to KJV Ezekiel 9:6, which ends: 'Then they began at the ancient men which were before the house.' GC drops the leading 'Then'. Identification correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-020",
+      "paragraph": 13,
+      "quote": "The work of destruction begins among those who have professed to be the spiritual guardians of the people. The false watchmen are the first to fall. There are none to pity or to spare. Men, women, maidens, and little children perish together.",
+      "claim_text": "The text asserts, interpreting Ezekiel's vision, that the destruction begins among those who professed to be the people's spiritual guardians, with false watchmen falling first and no one spared.",
+      "claim_type": "theological",
+      "entities": ["false watchmen"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample re-check of an extractor false-flag. This applies the Ezekiel 9 vision typologically to the eschatological judgment (destruction beginning with the false spiritual guardians); it is theological interpretation, not an empirically checkable historical claim. The underlying scriptural detail — the slaughter beginning at the sanctuary/'ancient men' — is verified separately at GC-41-018/019. Extractor's classification confirmed correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-021",
+      "paragraph": 14,
+      "quote": "“The Lord cometh out of His place to punish the inhabitants of the earth for their iniquity: the earth also shall disclose her blood, and shall no more cover her slain.”",
+      "claim_text": "The text quotes (footnote 1138, identified by the extractor as Isaiah 26:21) a declaration that the Lord comes out of His place to punish the earth's inhabitants and that the earth will disclose her blood and no longer cover her slain.",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true,
+      "extractor_note": "Book/chapter identification is the extractor's; source gives only footnote 1138.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful to KJV Isaiah 26:21: 'For, behold, the LORD cometh out of his place to punish the inhabitants of the earth for their iniquity: the earth also shall disclose her blood, and shall no more cover her slain.' GC drops the leading 'For, behold'. Identification correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-022",
+      "paragraph": 14,
+      "quote": "“And this shall be the plague wherewith the Lord will smite all the people that have fought against Jerusalem: Their flesh shall consume away while they stand upon their feet, and their eyes shall consume away in their holes, and their tongue shall consume away in their mouth. And it shall come to pass in that day, that a great tumult from the Lord shall be among them; and they shall lay hold every one on the hand of his neighbor, and his hand shall rise up against the hand of his neighbor.”",
+      "claim_text": "The text quotes (footnote 1139, identified by the extractor as Zechariah 14:12-13) a description of a plague in which flesh, eyes, and tongue consume away and people turn their hands against their neighbors in a great tumult.",
+      "claim_type": "attributed_quote",
+      "entities": ["Zechariah"],
+      "needs_verification": true,
+      "extractor_note": "Book/chapter identification is the extractor's; source gives only footnote 1139.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful to KJV Zechariah 14:12-13 (the semicolon after 'Jerusalem' rendered as a colon; American spelling 'neighbor'). Wording of the plague and the tumult matches the KJV. Identification correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-023",
+      "paragraph": 14,
+      "quote": "“And the slain of the Lord shall be at that day from one end of the earth even unto the other end of the earth: they shall not be lamented, neither gathered, nor buried.”",
+      "claim_text": "The text quotes (footnote 1140, identified by the extractor as Jeremiah 25:33) a statement that the slain of the Lord will extend from one end of the earth to the other, unlamented, ungathered, and unburied.",
+      "claim_type": "attributed_quote",
+      "entities": ["Jeremiah"],
+      "needs_verification": true,
+      "extractor_note": "Book/chapter identification is the extractor's; source gives only footnote 1140.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful to KJV Jeremiah 25:33: 'And the slain of the LORD shall be at that day from one end of the earth even unto the other end of the earth: they shall not be lamented, neither gathered, nor buried; they shall be dung upon the ground.' GC quotes through 'buried', omitting the final clause. Identification correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-024",
+      "paragraph": 14,
+      "quote": "In the mad strife of their own fierce passions, and by the awful outpouring of God’s unmingled wrath, fall the wicked inhabitants of the earth,—priests, rulers, and people, rich and poor, high and low.",
+      "claim_text": "The text asserts that the wicked inhabitants of the earth—priests, rulers, and people of all ranks—fall through their own fierce passions and the outpouring of God's wrath.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological narrative of the destruction of the wicked; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-025",
+      "paragraph": 15,
+      "quote": "At the coming of Christ the wicked are blotted from the face of the whole earth,—consumed with the spirit of His mouth, and destroyed by the brightness of His glory. Christ takes His people to the city of God, and the earth is emptied of its inhabitants.",
+      "claim_text": "The text asserts that at Christ's coming the wicked are destroyed and blotted from the earth, while Christ takes His people to the city of God, leaving the earth emptied of inhabitants.",
+      "claim_type": "theological",
+      "entities": ["Christ", "city of God"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological/theological assertion about the Second Coming (echoing 2 Thess 2:8); not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-026",
+      "paragraph": 15,
+      "quote": "“Behold, the Lord maketh the earth empty, and maketh it waste, and turneth it upside down, and scattereth abroad the inhabitants thereof.” “The land shall be utterly emptied, and utterly spoiled: for the Lord hath spoken this word.” “Because they have transgressed the laws, changed the ordinance, broken the everlasting covenant. Therefore hath the curse devoured the earth, and they that dwell therein are desolate: therefore the inhabitants of the earth are burned.”",
+      "claim_text": "The text quotes (footnote 1141, identified by the extractor as Isaiah 24:1, 3, 5-6) a passage declaring that the Lord makes the earth empty and waste, and that the curse devours the earth because its inhabitants transgressed the laws and broke the everlasting covenant.",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true,
+      "extractor_note": "Book/chapter identification is the extractor's; source gives only footnote 1141.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful selective quotation of KJV Isaiah 24: v.1 ('Behold, the LORD maketh the earth empty...'), v.3 ('The land shall be utterly emptied, and utterly spoiled: for the LORD hath spoken this word'), and vv.5-6 ('...because they have transgressed the laws, changed the ordinance, broken the everlasting covenant. Therefore hath the curse devoured the earth...therefore the inhabitants of the earth are burned...'). GC begins mid-verse 5 at 'Because'. Identification correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-027",
+      "paragraph": 16,
+      "quote": "The whole earth appears like a desolate wilderness. The ruins of cities and villages destroyed by the earthquake, uprooted trees, ragged rocks thrown out by the sea or torn out of the earth itself, are scattered over its surface, while vast caverns mark the spot where the mountains have been rent from their foundations.",
+      "claim_text": "The text describes the future state of the whole earth after these events as a desolate wilderness covered with ruined cities and villages, uprooted trees, displaced rocks, and caverns left by rent mountains.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological description of the earth's future desolation; a visionary/theological scene, not an empirically checkable historical claim.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-028",
+      "paragraph": 17,
+      "quote": "When the ministration in the holy of holies had been completed, and the sins of Israel had been removed from the sanctuary by virtue of the blood of the sin-offering, then the scapegoat was presented alive before the Lord; and in presence of the congregation the high priest confessed over him “all the iniquities of the children of Israel, and all their transgressions in all their sins, putting them upon the head of the goat.”",
+      "claim_text": "The text describes the ancient Day of Atonement ritual as involving completion of the ministration in the holy of holies, removal of Israel's sins from the sanctuary by the sin-offering's blood, and presentation of a live scapegoat before the Lord upon which the high priest confessed the sins of the people.",
+      "claim_type": "event",
+      "entities": ["Day of Atonement", "high priest", "scapegoat", "Israel"],
+      "needs_verification": true,
+      "extractor_note": "Describes a historical/scriptural ritual practice (Leviticus 16) that is checkable against biblical text and Second Temple-period descriptions.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful retelling of the Leviticus 16 Day of Atonement ritual and its sequence: the high priest first makes atonement for/cleanses the holy place, tabernacle, and altar with the blood of the sin-offering (Lev 16:15-20a), then presents the live goat, lays both hands on its head, and confesses 'all the iniquities of the children of Israel, and all their transgressions in all their sins, putting them upon the head of the goat', which is sent into the wilderness (Lev 16:20b-22). The quoted clause matches KJV Lev 16:21 verbatim. The ordering GC gives (sanctuary ministration completed, then live goat presented) tracks the biblical sequence. Ritual details accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-029",
+      "paragraph": 17,
+      "quote": "“all the iniquities of the children of Israel, and all their transgressions in all their sins, putting them upon the head of the goat.”",
+      "claim_text": "The text quotes (footnote 1142, identified by the extractor as Leviticus 16:21) the high priest's confession formula placing all the iniquities and transgressions of the children of Israel upon the head of the goat.",
+      "claim_type": "attributed_quote",
+      "entities": ["Leviticus", "high priest"],
+      "needs_verification": true,
+      "extractor_note": "Book/chapter identification is the extractor's; source gives only footnote 1142.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim from KJV Leviticus 16:21: '...and confess over him all the iniquities of the children of Israel, and all their transgressions in all their sins, putting them upon the head of the goat.' Identification correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-030",
+      "paragraph": 17,
+      "quote": "In like manner, when the work of atonement in the heavenly sanctuary has been completed, then in the presence of God and heavenly angels, and the host of the redeemed, the sins of God’s people will be placed upon Satan; he will be declared guilty of all the evil which he has caused them to commit. And as the scapegoat was sent away into a land not inhabited, so Satan will be banished to the desolate earth, an uninhabited and dreary wilderness.",
+      "claim_text": "The text asserts, as the antitype of the Day of Atonement scapegoat ritual, that when the work of atonement in the heavenly sanctuary is completed the sins of God's people will be placed upon Satan and he will be banished to the desolate, uninhabited earth.",
+      "claim_type": "theological",
+      "entities": ["Satan", "heavenly sanctuary"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Distinctive Adventist sanctuary/scapegoat typology (Satan as antitypical scapegoat); a theological interpretation, not an empirically checkable historical claim. Unverifiable per CLAUDE.md rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-031",
+      "paragraph": 18,
+      "quote": "The revelator foretells the banishment of Satan, and the condition of chaos and desolation to which the earth is to be reduced; and he declares that this condition will exist for a thousand years.",
+      "claim_text": "The text asserts that the biblical revelator foretells Satan's banishment and a thousand-year condition of chaos and desolation on the earth.",
+      "claim_type": "theological",
+      "entities": ["Satan", "the revelator"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/theological framing of Revelation 20; a prophetic reading, not an empirically checkable claim.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-032",
+      "paragraph": 18,
+      "quote": "“I saw an angel come down from heaven, having the key of the bottomless pit and a great chain in his hand. And he laid hold on the dragon, that old serpent, which is the devil, and Satan, and bound him a thousand years, and cast him into the bottomless pit, and shut him up, and set a seal upon him, that he should deceive the nations no more, till the thousand years should be fulfilled: and after that he must be loosed a little season.”",
+      "claim_text": "The text quotes (footnote 1143, identified by the extractor as Revelation 20:1-3) a vision of an angel binding the dragon/Satan for a thousand years and casting him into the bottomless pit, to be loosed after that period.",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Revelation", "Satan"],
+      "needs_verification": true,
+      "extractor_note": "Introduced inline as 'the prophecy continues'; book/chapter identification is the extractor's.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful to KJV Revelation 20:1-3 (GC drops the leading 'And' and lower-cases 'devil'). 'I saw an angel come down from heaven... bound him a thousand years, and cast him into the bottomless pit... and after that he must be loosed a little season.' Identification correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-033",
+      "paragraph": 19,
+      "quote": "That the expression “bottomless pit” represents the earth in a state of confusion and darkness, is evident from other scriptures.",
+      "claim_text": "The text asserts, as a biblical interpretation, that the phrase 'bottomless pit' in Revelation 20 represents the earth in a state of confusion and darkness.",
+      "claim_type": "interpretive",
+      "entities": ["bottomless pit"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "A specific (and contested) line of prophetic interpretation identifying the Revelation 20 'bottomless pit' with the desolate earth; theological exegesis, not an empirically checkable historical fact. Unverifiable per CLAUDE.md rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-034",
+      "paragraph": 19,
+      "quote": "Concerning the condition of the earth “in the beginning,” the Bible record says that it “was without form, and void; and darkness was upon the face of the deep.”",
+      "claim_text": "The text quotes (footnote 1144, identified by the extractor as Genesis 1:2) the Bible's description of the earth 'in the beginning' as without form, void, and dark.",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Genesis"],
+      "needs_verification": true,
+      "extractor_note": "Explicitly attributed inline to 'the Bible record'; specific verse identified by the extractor.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful to KJV Genesis 1:2: 'And the earth was without form, and void; and darkness was upon the face of the deep.' Identification correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-035",
+      "paragraph": 19,
+      "quote": "Looking forward to the great day of God, the prophet Jeremiah declares: “I beheld the earth, and, lo, it was without form, and void; and the heavens, and they had no light. I beheld the mountains, and, lo, they trembled, and all the hills moved lightly. I beheld, and, lo, there was no man, and all the birds of the heavens were fled. I beheld, and, lo, the fruitful place was a wilderness, and all the cities thereof were broken down.”",
+      "claim_text": "The text quotes the prophet Jeremiah (footnote 1145, identified by the extractor as Jeremiah 4:23-26) describing a vision of the earth without form and void, mountains trembling, no man remaining, and cities broken down.",
+      "claim_type": "attributed_quote",
+      "entities": ["Jeremiah"],
+      "needs_verification": true,
+      "extractor_note": "Explicitly attributed inline to 'the prophet Jeremiah'; specific verses identified by the extractor.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful to KJV Jeremiah 4:23-26 through 'broken down' (the KJV continues '...at the presence of the LORD, and by his fierce anger', which GC omits). Wording matches the KJV. Identification correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-036",
+      "paragraph": 20,
+      "quote": "Here is to be the home of Satan with his evil angels for a thousand years. Limited to the earth, he will not have access to other worlds, to tempt and annoy those who have never fallen.",
+      "claim_text": "The text asserts that Satan and his evil angels will be confined to the desolate earth for a thousand years, with no access to other, unfallen worlds.",
+      "claim_type": "theological",
+      "entities": ["Satan", "evil angels"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about Satan's millennial confinement and the existence of unfallen worlds; supernatural content, unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-037",
+      "paragraph": 20,
+      "quote": "It is in this sense that he is bound: there are none remaining, upon whom he can exercise his power. He is wholly cut off from the work of deception and ruin which for so many centuries has been his sole delight.",
+      "claim_text": "The text asserts that Satan's 'binding' during the thousand years consists in having no one left on earth over whom to exercise deceptive power.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretation of the 'binding' of Satan (Rev 20); theological exegesis, not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-038",
+      "paragraph": 21,
+      "quote": "“How art thou fallen from heaven, O Lucifer, son of the morning! how art thou cut down to the ground, which didst weaken the nations!... Thou hast said in thine heart, I will ascend into heaven, I will exalt my throne above the stars of God.” “I will be like the Most High. Yet thou shalt be brought down to hell, to the sides of the pit. They that see thee shall narrowly look upon thee, and consider thee, saying, Is this the man that made the earth to tremble, that did shake kingdoms; that made the world as a wilderness, and destroyed the cities thereof; that _opened not the house of his prisoners_?”",
+      "claim_text": "The text quotes the prophet Isaiah (footnote 1146, identified by the extractor as Isaiah 14:12-17) describing 'Lucifer, son of the morning,' as fallen from heaven for saying he would ascend and be like the Most High, and as one who made the earth tremble, shook kingdoms, and did not open the house of his prisoners.",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah", "Lucifer"],
+      "needs_verification": true,
+      "extractor_note": "Explicitly attributed inline to 'the prophet Isaiah'; specific verses identified by the extractor.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful selective quotation of KJV Isaiah 14:12-17: v.12 ('How art thou fallen from heaven, O Lucifer, son of the morning!...'), vv.13-14 ('...Thou hast said in thine heart, I will ascend into heaven... I will be like the most High'), vv.15-17 ('Yet thou shalt be brought down to hell, to the sides of the pit... Is this the man that made the earth to tremble... that opened not the house of his prisoners?'). GC drops the leading 'For' at v.13. Wording matches the KJV; the extractor's Isaiah 14 identification is correct. (Whether the passage refers to a literal Satan/Lucifer is a separate interpretive question logged at GC-41-039.)",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-039",
+      "paragraph": 21,
+      "quote": "The prophet Isaiah, looking forward to the time of Satan’s overthrow, exclaims:",
+      "claim_text": "The text interprets the Isaiah 14 'Lucifer, son of the morning' passage as a prophecy about the future overthrow of Satan.",
+      "claim_type": "interpretive",
+      "entities": ["Isaiah", "Lucifer", "Satan"],
+      "needs_verification": false,
+      "extractor_note": "This identification of the Isaiah 14 taunt against the king of Babylon with a literal fallen angel named Satan/Lucifer is a specific, contested line of biblical interpretation; logged here as interpretive per CLAUDE.md rule 5, not fact-checked for historical accuracy.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Identifying the Isaiah 14 taunt (addressed in its context to the king of Babylon) with the future overthrow of a literal Satan/Lucifer is a contested theological interpretation, not an empirically checkable historical claim. Modern critical scholarship reads Isaiah 14 as a taunt-song against a Babylonian/Assyrian king, but adjudicating the correct prophetic meaning is theology, not history. Unverifiable per CLAUDE.md rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-040",
+      "paragraph": 22,
+      "quote": "For six thousand years, Satan’s work of rebellion has “made the earth to tremble.” He has “made the world as a wilderness, and destroyed the cities thereof.” And “he opened not the house of his prisoners.”",
+      "claim_text": "The text asserts that for six thousand years Satan's rebellion has made the earth tremble, made the world a wilderness, destroyed its cities, and kept its prisoners confined.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "extractor_note": "Repeats the 'six thousand years' chronology also found in paragraph 12; embeds a specific chronological claim within a theological framework.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion applying Isaiah 14 phrases to Satan's rebellion; supernatural content, unverifiable. As with GC-41-016, the recurring 'for six thousand years' embeds a young-earth chronology contradicted by modern science; noted for the centrality analysis but not assigned an accusatory verdict here, since it is inseparable from the theological framing and reflects the Ussher-type chronology standard in White's period.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-041",
+      "paragraph": 22,
+      "quote": "For six thousand years his prison-house has received God’s people, and he would have held them captive forever, but Christ has broken his bonds, and set the prisoners free.",
+      "claim_text": "The text asserts that for six thousand years Satan's prison-house received God's people, and that Christ broke his bonds and freed the prisoners.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Christ", "God's people"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/soteriological assertion (Christ liberating the captives) within the cosmic-conflict framework; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-042",
+      "paragraph": 23,
+      "quote": "Even the wicked are now placed beyond the power of Satan; and alone with his evil angels he remains to realize the effect of the curse which sin has brought.",
+      "claim_text": "The text asserts that the wicked are placed beyond Satan's power, leaving him alone with his evil angels to experience the effect of sin's curse.",
+      "claim_type": "theological",
+      "entities": ["Satan", "evil angels"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about Satan's millennial isolation; supernatural content, unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-043",
+      "paragraph": 23,
+      "quote": "“The kings of the nations, even all of them, lie in glory, every one in his own house [the grave]. But thou art cast out of thy grave like an abominable branch.... Thou shalt not be joined with them in burial, because thou hast destroyed thy land, and slain thy people.”",
+      "claim_text": "The text quotes (footnote 1147, identified by the extractor as Isaiah 14:18-20) a passage contrasting the kings of the nations who lie in glory in their graves with a figure cast out of his grave unburied, for having destroyed his land and slain his people.",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true,
+      "extractor_note": "Book/chapter identification is the extractor's; source gives only footnote 1147. The bracketed gloss '[the grave]' is present in the source text itself.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful to KJV Isaiah 14:18-20 (GC drops the leading 'All'; KJV: 'All the kings of the nations, even all of them, lie in glory, every one in his own house. But thou art cast out of thy grave like an abominable branch... Thou shalt not be joined with them in burial, because thou hast destroyed thy land, and slain thy people'). The bracketed gloss '[the grave]' is GC's own editorial insertion, marked as such. Identification correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-044",
+      "paragraph": 24,
+      "quote": "For a thousand years, Satan will wander to and fro in the desolate earth, to behold the results of his rebellion against the law of God. During this time his sufferings are intense.",
+      "claim_text": "The text asserts that Satan will wander the desolate earth for a thousand years beholding the results of his rebellion, suffering intensely during this period.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural assertion about Satan's millennial experience; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-045",
+      "paragraph": 24,
+      "quote": "Since his fall, his life of unceasing activity has banished reflection; but he is now deprived of his power, and left to contemplate the part which he has acted since first he rebelled against the government of heaven, and to look forward with trembling and terror to the dreadful future, when he must suffer for all the evil that he has done, and be punished for the sins that he has caused to be committed.",
+      "claim_text": "The text asserts that Satan's unceasing activity since his fall had prevented reflection, but during the thousand years he is deprived of power and forced to contemplate his rebellion and anticipate future punishment for the evil he caused.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about Satan's inner state and future punishment; supernatural content, unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-046",
+      "paragraph": 25,
+      "quote": "To God’s people, the captivity of Satan will bring gladness and rejoicing.",
+      "claim_text": "The text asserts that Satan's captivity during the thousand years will bring gladness and rejoicing to God's people.",
+      "claim_type": "theological",
+      "entities": ["Satan", "God's people"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological assertion; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-047",
+      "paragraph": 25,
+      "quote": "“It shall come to pass in the day that the Lord shall give thee rest from thy sorrow, and from thy trouble, and from the hard service wherein thou wast made to serve, that thou shalt take up this proverb against the king of Babylon [here representing Satan], and say, How hath the oppressor ceased!... The Lord hath broken the staff of the wicked, the scepter of the rulers; that smote the peoples in wrath with a continual stroke, that ruled the nations in anger, with a persecution that none restrained.”",
+      "claim_text": "The text quotes (footnote 1148, identified by the extractor as Isaiah 14:3-6) a proverb taken up against the king of Babylon—here read as representing Satan—declaring that the oppressor has ceased and the Lord has broken the staff of the wicked ruler.",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah", "Satan", "king of Babylon"],
+      "needs_verification": true,
+      "extractor_note": "Explicitly attributed inline as 'says the prophet'; the bracketed gloss '[here representing Satan]' is present in the source text itself, applying the Isaiah 14 king-of-Babylon taunt to Satan.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Faithful quotation of Isaiah 14:3-6 — but from the 1885 English Revised Version, not the KJV. Search confirmed the ERV reads 'rest from thy sorrow, and from thy trouble, and from the hard service wherein thou wast made to serve' (KJV: 'from thy fear, and from the hard bondage'), and vv.5-6 'broken the staff of the wicked, the sceptre of the rulers; that smote the peoples in wrath with a continual stroke, that ruled the nations in anger, with a persecution that none restrained' (the plural 'peoples' and this phrasing are ERV hallmarks; KJV differs). Both are standard, published Bible versions and the rendering is faithful to the ERV, so this is a legitimate quotation, not a misquotation. The bracketed '[here representing Satan]' is GC's own interpretive gloss, marked as such (the underlying king-of-Babylon-as-Satan reading is the interpretive matter logged at GC-41-039). Extractor's Isaiah 14:3-6 identification correct.",
+        "sources": [
+          {
+            "title": "Isaiah 14:3 — version comparison (KJV vs. Revised Version)",
+            "url": "https://www.bible.com/bible/compare/ISA.14.3",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "ERV/Revised Version reads 'from thy trouble, and from the hard service'; KJV reads 'from thy fear, and from the hard bondage'. GC follows the Revised Version."
+          },
+          {
+            "title": "Isaiah 14:3 KJV — King James Bible Online",
+            "url": "https://www.kingjamesbibleonline.org/Isaiah-14-3/",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "KJV base text, showing the divergence that identifies GC's source as the Revised Version rather than the KJV."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-41-048",
+      "paragraph": 26,
+      "quote": "During the thousand years between the first and the second resurrection, the judgment of the wicked takes place.",
+      "claim_text": "The text asserts that the judgment of the wicked takes place during the thousand years between the first and second resurrections.",
+      "claim_type": "theological",
+      "entities": ["first resurrection", "second resurrection"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological doctrine of two resurrections and a millennial judgment; theological interpretation, unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-049",
+      "paragraph": 26,
+      "quote": "“Judge nothing before the time, until the Lord come, who both will bring to light the hidden things of darkness, and will make manifest the counsels of the hearts.”",
+      "claim_text": "The text attributes to the apostle Paul (footnote 1149, identified by the extractor as 1 Corinthians 4:5) a statement that judgment should wait until the Lord comes to bring hidden things to light.",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul"],
+      "needs_verification": true,
+      "extractor_note": "Explicitly attributed inline to 'the apostle Paul'; specific verse identified by the extractor.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful to KJV 1 Corinthians 4:5: 'Therefore judge nothing before the time, until the Lord come, who both will bring to light the hidden things of darkness, and will make manifest the counsels of the hearts.' GC drops the leading 'Therefore'. Pauline attribution and identification correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-050",
+      "paragraph": 26,
+      "quote": "Daniel declares that when the Ancient of days came, “judgment was given to the saints of the Most High.”",
+      "claim_text": "The text attributes to Daniel (footnote 1150, identified by the extractor as Daniel 7:22) the statement that when the Ancient of Days came, judgment was given to the saints of the Most High.",
+      "claim_type": "attributed_quote",
+      "entities": ["Daniel"],
+      "needs_verification": true,
+      "extractor_note": "Explicitly attributed inline to 'Daniel'; specific verse identified by the extractor.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful to KJV Daniel 7:22: 'Until the Ancient of days came, and judgment was given to the saints of the most High...'. The quoted clause matches; the surrounding paraphrase ('when the Ancient of days came') accurately reflects the verse. Identification correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-051",
+      "paragraph": 26,
+      "quote": "John in the Revelation says: “I saw thrones, and they sat upon them, and judgment was given unto them.” “They shall be priests of God and of Christ, and shall reign with Him a thousand years.”",
+      "claim_text": "The text attributes to John in the Revelation (footnote 1151, identified by the extractor as Revelation 20:4 and 20:6) the statements that he saw thrones and judgment given to those seated on them, and that they would be priests of God and Christ reigning with Him a thousand years.",
+      "claim_type": "attributed_quote",
+      "entities": ["John", "Book of Revelation"],
+      "needs_verification": true,
+      "extractor_note": "Explicitly attributed inline to 'John in the Revelation'; specific verses identified by the extractor.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Both fragments faithful to the KJV: 'And I saw thrones, and they sat upon them, and judgment was given unto them' = Revelation 20:4 (GC drops 'And'); 'they shall be priests of God and of Christ, and shall reign with him a thousand years' = Revelation 20:6. Attribution to John and identification correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-052",
+      "paragraph": 26,
+      "quote": "It is at this time that, as foretold by Paul, “the saints shall judge the world.”",
+      "claim_text": "The text attributes to Paul (footnote 1152, identified by the extractor as 1 Corinthians 6:2) the statement 'the saints shall judge the world.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul"],
+      "needs_verification": true,
+      "extractor_note": "Explicitly attributed inline to 'Paul'; specific verse identified by the extractor.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] 'The saints shall judge the world' is a verbatim clause from KJV 1 Corinthians 6:2 ('Do ye not know that the saints shall judge the world?'). Pauline attribution and identification correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-053",
+      "paragraph": 26,
+      "quote": "In union with Christ they judge the wicked, comparing their acts with the statute-book, the Bible, and deciding every case according to the deeds done in the body.",
+      "claim_text": "The text asserts that the saints, in union with Christ, judge the wicked during the thousand years by comparing their deeds against the Bible as a statute-book.",
+      "claim_type": "theological",
+      "entities": ["Christ", "the saints"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological description of the millennial 'investigative' judgment by the saints; doctrinal interpretation, unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-054",
+      "paragraph": 27,
+      "quote": "Satan also and evil angels are judged by Christ and His people.",
+      "claim_text": "The text asserts that Satan and the evil angels are judged by Christ and His people during the thousand years.",
+      "claim_type": "theological",
+      "entities": ["Satan", "evil angels", "Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural assertion about the judgment of Satan and fallen angels; unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-055",
+      "paragraph": 27,
+      "quote": "Says Paul, “Know ye not that we shall judge angel?”",
+      "claim_text": "The text attributes to Paul (footnote 1153, identified by the extractor as 1 Corinthians 6:3) the rhetorical question, 'Know ye not that we shall judge angels?'",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul"],
+      "needs_verification": true,
+      "extractor_note": "Explicitly attributed inline as 'Says Paul'; specific verse identified by the extractor. Source text reads 'judge angel' (singular), which the extractor notes as a possible typographic variant of 'angels'.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The quote corresponds to KJV 1 Corinthians 6:3: 'Know ye not that we shall judge angels?' The 1911 GC printing reproduced here reads the singular 'angel', which is a typesetting error (a dropped final 's'); modern GC editions and every other printing of the verse read the plural 'angels'. The Pauline attribution and the 1 Cor 6:3 identification are correct, and the singular/plural slip does not alter the meaning (still: believers will judge angelic beings). Handled honestly as a print typo rather than a meaning-altering misquotation, so the verdict is supported; the typographic discrepancy is documented here for transparency.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-056",
+      "paragraph": 27,
+      "quote": "Jude declares that “the angels which kept not their first estate, but left their own habitation, He hath reserved in everlasting chains under darkness unto the judgment of the great day.”",
+      "claim_text": "The text attributes to Jude (footnote 1154, identified by the extractor as Jude 1:6) the statement that angels who kept not their first estate are reserved by God in everlasting chains under darkness until the judgment of the great day.",
+      "claim_type": "attributed_quote",
+      "entities": ["Jude"],
+      "needs_verification": true,
+      "extractor_note": "Explicitly attributed inline to 'Jude'; specific verse identified by the extractor.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful to KJV Jude 6: 'And the angels which kept not their first estate, but left their own habitation, he hath reserved in everlasting chains under darkness unto the judgment of the great day.' GC drops the leading 'And'. Attribution to Jude and identification correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-057",
+      "paragraph": 28,
+      "quote": "At the close of the thousand years the second resurrection will take place. Then the wicked will be raised from the dead, and appear before God for the execution of “the judgment written.”",
+      "claim_text": "The text asserts that at the close of the thousand years the second resurrection occurs, raising the wicked to appear before God for the execution of the judgment already recorded.",
+      "claim_type": "theological",
+      "entities": ["second resurrection"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological doctrine of the second resurrection and final judgment (echoing the phrase 'the judgment written', Psalm 149:9); theological interpretation, unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-058",
+      "paragraph": 28,
+      "quote": "Thus the revelator, after describing the resurrection of the righteous, says, “The rest of the dead lived not again until the thousand years were finished.”",
+      "claim_text": "The text attributes to 'the revelator' (footnote 1155, identified by the extractor as Revelation 20:5) the statement that 'the rest of the dead lived not again until the thousand years were finished.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Revelation"],
+      "needs_verification": true,
+      "extractor_note": "Explicitly attributed inline to 'the revelator'; specific verse identified by the extractor.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful to KJV Revelation 20:5: 'But the rest of the dead lived not again until the thousand years were finished.' GC drops the leading 'But'. Identification correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-41-059",
+      "paragraph": 28,
+      "quote": "And Isaiah declares, concerning the wicked, “They shall be gathered together, as prisoners are gathered in the pit, and shall be shut up in the prison, and _after many days shall they be visited_.”",
+      "claim_text": "The text attributes to Isaiah (footnote 1156, identified by the extractor as Isaiah 24:22) the statement that the wicked shall be gathered as prisoners in a pit, shut up, and visited after many days.",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true,
+      "extractor_note": "Explicitly attributed inline to 'Isaiah'; specific verse identified by the extractor.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful to KJV Isaiah 24:22: 'And they shall be gathered together, as prisoners are gathered in the pit, and shall be shut up in the prison, and after many days shall they be visited.' GC drops the leading 'And'; the italics on the final clause are GC's own emphasis. Attribution to Isaiah and identification correct.",
+        "sources": []
+      }
+    }
+  ]
+}

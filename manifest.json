@@ -2365,7 +2365,7 @@
       "stages": {
         "extract": "done",
         "verify": "done",
-        "defend": "pending",
+        "defend": "done",
         "impact": "pending"
       },
       "counts": {
@@ -2393,9 +2393,16 @@
           "low_confidence": 4,
           "searches": 4,
           "clusters": 3
+        },
+        "defend": {
+          "examined": 0,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 0,
+          "searches": 0
         }
       },
-      "updated_at": "2026-07-05T14:32:05Z"
+      "updated_at": "2026-07-05T14:37:20Z"
     },
     "39": {
       "title": "“The Time Of Trouble.”",
@@ -2456,7 +2463,7 @@
       "stages": {
         "extract": "done",
         "verify": "done",
-        "defend": "pending",
+        "defend": "done",
         "impact": "pending"
       },
       "counts": {
@@ -2483,9 +2490,16 @@
           "low_confidence": 0,
           "searches": 4,
           "clusters": 3
+        },
+        "defend": {
+          "examined": 0,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 0,
+          "searches": 0
         }
       },
-      "updated_at": "2026-07-05T14:32:06Z"
+      "updated_at": "2026-07-05T14:38:38Z"
     },
     "41": {
       "title": "Desolation Of The Earth",
@@ -2494,8 +2508,8 @@
       "stages": {
         "extract": "done",
         "verify": "done",
-        "defend": "pending",
-        "impact": "pending"
+        "defend": "done",
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -2519,9 +2533,21 @@
           "low_confidence": 0,
           "searches": 2,
           "clusters": 1
+        },
+        "defend": {
+          "examined": 0,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 0,
+          "searches": 0
+        },
+        "impact": {
+          "scored": 0,
+          "load_bearing": 0,
+          "top_impact": []
         }
       },
-      "updated_at": "2026-07-05T14:31:27Z"
+      "updated_at": "2026-07-05T14:40:59Z"
     },
     "42": {
       "title": "The Controversy Ended",
@@ -2530,7 +2556,7 @@
       "stages": {
         "extract": "done",
         "verify": "done",
-        "defend": "pending",
+        "defend": "done",
         "impact": "pending"
       },
       "counts": {
@@ -2558,9 +2584,16 @@
           "low_confidence": 0,
           "searches": 4,
           "clusters": 4
+        },
+        "defend": {
+          "examined": 1,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 1,
+          "searches": 0
         }
       },
-      "updated_at": "2026-07-05T14:32:06Z"
+      "updated_at": "2026-07-05T14:39:40Z"
     }
   }
 }
