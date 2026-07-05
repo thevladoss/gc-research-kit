@@ -716,7 +716,7 @@
         "extract": "done",
         "verify": "done",
         "defend": "done",
-        "impact": "pending"
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -752,9 +752,23 @@
           "verdict_downgraded": 2,
           "defense_failed": 0,
           "searches": 2
+        },
+        "impact": {
+          "scored": 2,
+          "load_bearing": 0,
+          "top_impact": [
+            {
+              "id": "GC-10-066",
+              "score": 6
+            },
+            {
+              "id": "GC-10-054",
+              "score": 4
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-05T09:10:31Z"
+      "updated_at": "2026-07-05T09:16:44Z"
     },
     "11": {
       "title": "Protest Of The Princes",

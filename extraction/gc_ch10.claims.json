@@ -1,0 +1,847 @@
+{
+  "chapter": 10,
+  "chapter_title": "Progress Of Reform In Germany",
+  "stage": "extraction",
+  "generated_at": "2026-07-05",
+  "notes": "Extraction pass, single session (chapter within comfortable single-pass length, 42 paragraphs / ~3962 words). Paragraph 3 is a section sub-heading duplicating the opening clause of paragraph 4 and contains no independent claim. Footnote reference numbers (e.g. (264)) are citation markers in the source and were excluded from verbatim 'quote' fields as not part of the quoted prose.",
+  "claims": [
+    {
+      "id": "GC-10-001",
+      "paragraph": 1,
+      "quote": "Luther’s mysterious disappearance excited consternation throughout all Germany.",
+      "claim_text": "Luther's disappearance (after the Diet of Worms, when he was taken into protective custody en route from Worms) caused widespread consternation throughout Germany.",
+      "claim_type": "event",
+      "entities": ["Martin Luther", "Germany"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-002",
+      "paragraph": 1,
+      "quote": "The wildest rumors were circulated, and many believed that he had been murdered.",
+      "claim_text": "After Luther's disappearance, rumors circulated widely in Germany and many people believed he had been murdered.",
+      "claim_type": "event",
+      "entities": ["Martin Luther", "Germany"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-003",
+      "paragraph": 1,
+      "quote": "There was great lamentation, not only by his avowed friends, but by thousands who had not openly taken their stand with the Reformation.",
+      "claim_text": "Thousands of people who had not openly joined the Reformation nevertheless mourned Luther's presumed death, in addition to his avowed friends.",
+      "claim_type": "statistic",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-004",
+      "paragraph": 1,
+      "quote": "Many bound themselves by a solemn oath to avenge his death.",
+      "claim_text": "Many people bound themselves by a solemn oath to avenge Luther's death, believing him murdered.",
+      "claim_type": "event",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-005",
+      "paragraph": 2,
+      "quote": "The Romish leaders saw with terror to what a pitch had risen the feeling against them.",
+      "claim_text": "Catholic ecclesiastical leaders became fearful of the intensity of popular anger directed against them after Luther's presumed murder.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-006",
+      "paragraph": 2,
+      "quote": "Though at first exultant at the supposed death of Luther, they soon desired to hide from the wrath of the people.",
+      "claim_text": "Catholic leaders were initially jubilant believing Luther dead, but soon sought to hide from the resulting popular anger.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church", "Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-007",
+      "paragraph": 2,
+      "quote": "“The only remaining way of saving ourselves,” said one, “is to light torches, and hunt for Luther through the whole world, to restore him to the nation that is calling for him.”",
+      "claim_text": "An unnamed contemporary is quoted as having said that the only remaining way for Luther's opponents to save themselves was to light torches and hunt for Luther through the whole world to restore him to the nation calling for him.",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther"],
+      "needs_verification": true,
+      "extractor_note": "Speaker attributed only as 'one'; footnote (264) in source presumably cites a specific historian/source."
+    },
+    {
+      "id": "GC-10-008",
+      "paragraph": 2,
+      "quote": "The edict of the emperor seemed to fall powerless.",
+      "claim_text": "The emperor's edict against Luther (the Edict of Worms, 1521) seemed to have little practical effect following Luther's disappearance.",
+      "claim_type": "causal",
+      "entities": ["Charles V", "Edict of Worms", "Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-009",
+      "paragraph": 2,
+      "quote": "The papal legates were filled with indignation as they saw that it commanded far less attention than did the fate of Luther.",
+      "claim_text": "Papal legates were indignant that public attention was focused more on Luther's fate than on the emperor's edict against him.",
+      "claim_type": "event",
+      "entities": ["papal legates", "Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-010",
+      "paragraph": 4,
+      "quote": "The tidings that he was safe, though a prisoner, calmed the fears of the people, while it still further aroused their enthusiasm in his favor.",
+      "claim_text": "Luther was held safely (at Wartburg Castle) as a prisoner, and news of his safety calmed public fear while further increasing public enthusiasm for him.",
+      "claim_type": "event",
+      "entities": ["Martin Luther", "Wartburg Castle"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-011",
+      "paragraph": 4,
+      "quote": "His writings were read with greater eagerness than ever before.",
+      "claim_text": "Following news of Luther's safety, his writings were read with greater eagerness than previously.",
+      "claim_type": "event",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-012",
+      "paragraph": 4,
+      "quote": "Increasing numbers joined the cause of the heroic man who had, at such fearful odds, defended the word of God.",
+      "claim_text": "Increasing numbers of people joined the Reformation cause in support of Luther during his confinement at the Wartburg.",
+      "claim_type": "event",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-013",
+      "paragraph": 4,
+      "quote": "His absence accomplished a work which his presence would have failed to do.",
+      "claim_text": "Luther's absence from public life during his confinement at the Wartburg accomplished more for the Reformation's growth than his continued presence would have.",
+      "claim_type": "interpretive",
+      "entities": ["Martin Luther"],
+      "needs_verification": false,
+      "extractor_note": "Counterfactual causal judgment presented as sweeping interpretation rather than a directly checkable historical fact."
+    },
+    {
+      "id": "GC-10-014",
+      "paragraph": 5,
+      "quote": "But Satan was not idle. He now attempted what he has attempted in every other reformatory movement,—to deceive and destroy the people by palming off upon them a counterfeit in place of the true work.",
+      "claim_text": "Satan attempted to deceive and destroy the Reformation movement by introducing a counterfeit religious movement in its place.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-10-015",
+      "paragraph": 5,
+      "quote": "As there were false christs in the first century of the Christian church, so there arose false prophets in the sixteenth century.",
+      "claim_text": "Religious enthusiasts claiming prophetic status arose in Germany during the sixteenth-century Reformation era (the Zwickau prophets).",
+      "claim_type": "event",
+      "entities": ["Zwickau prophets", "Germany"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-016",
+      "paragraph": 6,
+      "quote": "A few men, deeply affected by the excitement in the religious world, imagined themselves to have received special revelations from Heaven, and claimed to have been divinely commissioned to carry forward to its completion the Reformation which, they declared, had been but feebly begun by Luther.",
+      "claim_text": "A small group of men (the Zwickau prophets) claimed to have received special revelations from Heaven and to have been divinely commissioned to complete the Reformation, which they said Luther had only feebly begun.",
+      "claim_type": "biographical",
+      "entities": ["Zwickau prophets", "Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-017",
+      "paragraph": 6,
+      "quote": "They rejected the great principle which was the very foundation of the Reformation,—that the word of God is the all-sufficient rule of faith and practice; and for that unerring guide they substituted the changeable, uncertain standard of their own feelings and impressions.",
+      "claim_text": "The Zwickau prophets rejected sola scriptura, the Reformation's foundational principle that Scripture alone is the rule of faith and practice, substituting their own personal feelings and impressions as their guide.",
+      "claim_type": "event",
+      "entities": ["Zwickau prophets"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-018",
+      "paragraph": 6,
+      "quote": "By this act of setting aside the great detector of error and falsehood, the way was opened for Satan to control minds as best pleased himself.",
+      "claim_text": "By setting aside Scripture as the detector of error, the Zwickau prophets opened the way for Satan to control minds.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Zwickau prophets"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-10-019",
+      "paragraph": 7,
+      "quote": "One of these prophets claimed to have been instructed by the angel Gabriel.",
+      "claim_text": "One of the Zwickau prophets claimed to have been instructed by the angel Gabriel.",
+      "claim_type": "biographical",
+      "entities": ["Zwickau prophets"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-020",
+      "paragraph": 7,
+      "quote": "A student who united with him forsook his studies, declaring that he had been endowed by God Himself with wisdom to expound His word.",
+      "claim_text": "A student joined the Zwickau prophets movement, abandoned his studies, and declared he had been divinely endowed with wisdom to expound Scripture.",
+      "claim_type": "biographical",
+      "entities": ["Zwickau prophets"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-021",
+      "paragraph": 7,
+      "quote": "Others who were naturally inclined to fanaticism united with them.",
+      "claim_text": "Additional individuals inclined toward religious fanaticism joined the Zwickau prophets movement.",
+      "claim_type": "event",
+      "entities": ["Zwickau prophets"],
+      "needs_verification": true,
+      "extractor_note": "Vague/generic claim without identifiable specifics; included for completeness."
+    },
+    {
+      "id": "GC-10-022",
+      "paragraph": 8,
+      "quote": "The leaders of the movement proceeded to Wittenberg, and urged their claims upon Melanchthon and his co-laborers.",
+      "claim_text": "The leaders of the Zwickau prophets movement traveled to Wittenberg and presented their claims of prophetic authority to Philip Melanchthon and his colleagues.",
+      "claim_type": "event",
+      "entities": ["Zwickau prophets", "Wittenberg", "Philip Melanchthon"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-023",
+      "paragraph": 8,
+      "quote": "“We are sent by God to instruct the people. We have held familiar conversations with the Lord; we know what will happen; in a word, we are apostles and prophets, and appeal to Doctor Luther.”",
+      "claim_text": "The leaders of the Zwickau prophets movement are quoted as claiming, at Wittenberg, to have been sent by God, to have held familiar conversations with the Lord, to know what will happen, and to be apostles and prophets appealing to Doctor Luther.",
+      "claim_type": "attributed_quote",
+      "entities": ["Zwickau prophets", "Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-024",
+      "paragraph": 9,
+      "quote": "“There are indeed extraordinary spirits in these men; but what spirits?... On the one hand, let us beware of quenching the Spirit of God, and on the other, of being led astray by the spirit of Satan.”",
+      "claim_text": "Philip Melanchthon is quoted as saying there were extraordinary spirits in the Zwickau prophets, and cautioning against both quenching the Spirit of God and being led astray by the spirit of Satan.",
+      "claim_type": "attributed_quote",
+      "entities": ["Philip Melanchthon", "Zwickau prophets"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-025",
+      "paragraph": 9,
+      "quote": "The Reformers were astonished and perplexed.",
+      "claim_text": "The Wittenberg Reformers, including Melanchthon, were astonished and perplexed by the Zwickau prophets' claims.",
+      "claim_type": "event",
+      "entities": ["Philip Melanchthon", "Wittenberg"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-026",
+      "paragraph": 10,
+      "quote": "The people were led to neglect the Bible, or to cast it wholly aside.",
+      "claim_text": "As a result of the Zwickau prophets' influence, some people neglected or wholly cast aside the Bible.",
+      "claim_type": "causal",
+      "entities": ["Zwickau prophets"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-027",
+      "paragraph": 10,
+      "quote": "The schools were thrown into confusion. Students, spurning all restraint, abandoned their studies, and withdrew from the university.",
+      "claim_text": "The University of Wittenberg was thrown into confusion by the Zwickau prophets' influence, and students abandoned their studies and withdrew from the university.",
+      "claim_type": "event",
+      "entities": ["University of Wittenberg", "Zwickau prophets"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-028",
+      "paragraph": 10,
+      "quote": "“One last struggle, and all will be ours.”",
+      "claim_text": "Catholic ('Romanist') observers are described as exclaiming, in response to the disorder caused by the Zwickau prophets, that one last struggle would give them victory over the Reformation.",
+      "claim_type": "attributed_quote",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-029",
+      "paragraph": 11,
+      "quote": "“I always expected that Satan would send us this plague.”",
+      "claim_text": "Luther, on hearing at the Wartburg of the disturbances caused by the Zwickau prophets, is quoted as saying he always expected Satan would send this plague.",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther", "Wartburg Castle"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-030",
+      "paragraph": 11,
+      "quote": "He perceived the true character of those pretended prophets, and saw the danger that threatened the cause of truth.",
+      "claim_text": "While at the Wartburg, Luther, upon hearing of the Zwickau prophets, perceived their true character and recognized the danger they posed to the Reformation.",
+      "claim_type": "biographical",
+      "entities": ["Martin Luther", "Zwickau prophets"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-031",
+      "paragraph": 12,
+      "quote": "In the work of reform, Luther had been urged forward by the Spirit of God, and had been carried beyond himself.",
+      "claim_text": "Luther was urged forward in his reform work by the Spirit of God and carried beyond himself.",
+      "claim_type": "theological",
+      "entities": ["Martin Luther"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-10-032",
+      "paragraph": 12,
+      "quote": "“If I knew that my doctrine injured one man, one single man, however lowly and obscure,—which it cannot, for it is the gospel itself,—I would rather die ten times than not retract it.”",
+      "claim_text": "Luther is quoted as saying that if he knew his doctrine injured even one lowly man, he would rather die ten times than not retract it.",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-033",
+      "paragraph": 13,
+      "quote": "This terrible condition had not resulted from the teachings of Luther; but throughout Germany his enemies were charging it upon him.",
+      "claim_text": "The disorder at Wittenberg caused by the Zwickau prophets did not result from Luther's own teachings, but his enemies throughout Germany blamed it on him.",
+      "claim_type": "causal",
+      "entities": ["Martin Luther", "Wittenberg", "Zwickau prophets"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-034",
+      "paragraph": 13,
+      "quote": "“Can such then be the end of this great work of the Reformation?”",
+      "claim_text": "Luther is quoted as asking, in bitterness of soul over the Wittenberg disorder, whether this could be the end of the great work of the Reformation.",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-035",
+      "paragraph": 13,
+      "quote": "“The work is not mine, but Thine own,” he said; “Thou wilt not suffer it to be corrupted by superstition or fanaticism.”",
+      "claim_text": "Luther is quoted, in prayer, as saying that the Reformation's work was not his own but God's, and that God would not suffer it to be corrupted by superstition or fanaticism.",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther"],
+      "needs_verification": true,
+      "extractor_note": "No footnote number attached to this quotation in the source, unlike surrounding quotes."
+    },
+    {
+      "id": "GC-10-036",
+      "paragraph": 13,
+      "quote": "He determined to return to Wittenberg.",
+      "claim_text": "Luther determined to leave the Wartburg and return to Wittenberg in response to the disorder there.",
+      "claim_type": "event",
+      "entities": ["Martin Luther", "Wartburg Castle", "Wittenberg"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-037",
+      "paragraph": 14,
+      "quote": "He was under the ban of the empire. Enemies were at liberty to take his life; friends were forbidden to aid or shelter him.",
+      "claim_text": "At the time of his return to Wittenberg, Luther was under the imperial ban (Edict of Worms), meaning his enemies were legally free to kill him and his friends were forbidden to aid or shelter him.",
+      "claim_type": "biographical",
+      "entities": ["Martin Luther", "Edict of Worms"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-038",
+      "paragraph": 14,
+      "quote": "Without delay he set out on his perilous journey.",
+      "claim_text": "Luther set out from the Wartburg for Wittenberg without delay on what was described as a perilous journey.",
+      "claim_type": "event",
+      "entities": ["Martin Luther", "Wartburg Castle", "Wittenberg"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-039",
+      "paragraph": 14,
+      "quote": "The imperial government was adopting the most stringent measures against his adherents.",
+      "claim_text": "At the time of Luther's return journey to Wittenberg, the imperial government was adopting stringent measures against his followers.",
+      "claim_type": "event",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-040",
+      "paragraph": 15,
+      "quote": "“Be it known to your highness that I am going to Wittenberg under a protection far higher than that of princes and electors. I think not of soliciting your highness’ support, and far from desiring your protection, I would rather protect you myself. If I knew that your highness could or would protect me, I would not go to Wittenberg at all. There is no sword that can further this cause. God alone must do everything, without the help or concurrence of man. He who has the greatest faith is he who is most able to protect.”",
+      "claim_text": "In a letter to the Elector (Frederick the Wise) written before leaving the Wartburg, Luther stated he was going to Wittenberg under a protection higher than that of princes and electors, and that he did not seek the elector's protection.",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther", "Frederick III of Saxony", "Wartburg Castle", "Wittenberg"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-041",
+      "paragraph": 16,
+      "quote": "“I am ready to incur the displeasure of your highness and the anger of the whole world. Are not the Wittenbergers my sheep? Has not God entrusted them to me? And ought I not, if necessary, to expose myself to death for their sakes? Besides, I fear to see a terrible outbreak in Germany, by which God will punish our nation.”",
+      "claim_text": "In a second letter written on his way to Wittenberg, Luther stated he was ready to incur the elector's displeasure and the world's anger, called the Wittenbergers his sheep entrusted to him by God, and expressed fear of a terrible outbreak in Germany.",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther", "Frederick III of Saxony", "Wittenberg", "Germany"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-042",
+      "paragraph": 17,
+      "quote": "“By the Word,” said he, “must we overthrow and destroy what has been set up by violence. I will not make use of force against the superstitious and unbelieving.... No one must be constrained. Liberty is the very essence of faith.”",
+      "claim_text": "Luther is quoted as stating, upon his return to Wittenberg, that reform must be accomplished by the Word rather than force, and that liberty is the essence of faith.",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-043",
+      "paragraph": 18,
+      "quote": "It was soon noised through Wittenberg that Luther had returned, and that he was to preach. The people flocked from all directions, and the church was filled to overflowing.",
+      "claim_text": "News that Luther had returned to Wittenberg and would preach spread quickly, and crowds flocked to hear him, filling the church to overflowing.",
+      "claim_type": "event",
+      "entities": ["Martin Luther", "Wittenberg"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-044",
+      "paragraph": 19,
+      "quote": "“The mass is a bad thing; God is opposed to it; it ought to be abolished; and I would that throughout the whole world it were replaced by the supper of the gospel. But let no one be torn from it by force. We must leave the matter in God’s hands. His word must act, and not we. And why so? you will ask. Because I do not hold men’s hearts in my hand, as the potter holds the clay. We have a right to speak: we have _not_ the right to act. Let us preach; the rest belongs unto God. Were I to employ force, what should I gain? Grimace, formality, apings, human ordinances, and hypocrisy.... But there would be no sincerity of heart, nor faith, nor charity. Where these three are wanting, all is wanting, and I would not give a pear-stalk for such a result.... God does more by His word alone than you and I and all the world by our united strength. God lays hold upon the heart; and when the heart is taken, all is won....",
+      "claim_text": "In his first sermon on returning to Wittenberg (March 1522), Luther preached that the mass ought to be abolished but that no one should be forced from it by violence, and that God's word alone, not human force, must accomplish reform.",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther", "Wittenberg"],
+      "needs_verification": true,
+      "extractor_note": "Quote continues without a closing quotation mark into paragraph 20 in the source (single continuous sermon quotation, footnote 274)."
+    },
+    {
+      "id": "GC-10-045",
+      "paragraph": 20,
+      "quote": "“I will preach, discuss, and write; but I will constrain none, for faith is a voluntary act. See what I have done. I stood up against the pope, indulgences, and papists, but without violence or tumult. I put forward God’s word; I preached and wrote—this was all I did. And yet while I was asleep, ... the word that I had preached overthrew popery, so that neither prince nor emperor has done it so much harm. And yet I did nothing; the Word alone did all. If I had wished to appeal to force, the whole of Germany would perhaps have been deluged with blood. But what would have been the result? Ruin and desolation both to body and soul. I therefore kept quiet, and left the Word to run through the world alone.”",
+      "claim_text": "Luther is quoted as claiming that his preaching and writing alone, without violence, had overthrown the power of the papacy more than any prince or emperor had done, and that resorting to force would have deluged Germany in blood.",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther", "Germany", "Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-046",
+      "paragraph": 21,
+      "quote": "Day after day, for a whole week, Luther continued to preach to eager crowds.",
+      "claim_text": "Upon his return to Wittenberg, Luther preached daily for a whole week to eager crowds (the Invocavit Sermons, March 1522).",
+      "claim_type": "event",
+      "entities": ["Martin Luther", "Wittenberg"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-047",
+      "paragraph": 21,
+      "quote": "The word of God broke the spell of fanatical excitement. The power of the gospel brought back the misguided people into the way of truth.",
+      "claim_text": "Luther's week of preaching at Wittenberg in March 1522 ended the fanatical excitement there and restored the misguided population to Reformation teaching.",
+      "claim_type": "causal",
+      "entities": ["Martin Luther", "Wittenberg"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-048",
+      "paragraph": 22,
+      "quote": "He knew them to be men of unsound judgment and undisciplined passions, who, while claiming to be especially illuminated from heaven, would not endure the slightest contradiction, or even the kindest reproof or counsel.",
+      "claim_text": "Luther considered the Zwickau prophets men of unsound judgment and undisciplined passions who would not tolerate contradiction despite claiming special divine illumination.",
+      "claim_type": "biographical",
+      "entities": ["Martin Luther", "Zwickau prophets"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-049",
+      "paragraph": 22,
+      "quote": "But as they demanded an interview with him, he consented to meet them; and so successfully did he expose their pretensions, that the impostors at once departed from Wittenberg.",
+      "claim_text": "Luther consented to meet with the Zwickau prophets when they demanded an interview, and so effectively exposed their claims that they immediately left Wittenberg.",
+      "claim_type": "event",
+      "entities": ["Martin Luther", "Zwickau prophets", "Wittenberg"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-050",
+      "paragraph": 23,
+      "quote": "The fanaticism was checked for a time; but several years later it broke out with greater violence and more terrible results.",
+      "claim_text": "The fanatical movement associated with the Zwickau prophets was checked at Wittenberg in 1522 but resurfaced years later with greater violence and worse results (the German Peasants' War, 1524-1525).",
+      "claim_type": "event",
+      "entities": ["Zwickau prophets", "Germany"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-051",
+      "paragraph": 23,
+      "quote": "“To them the Holy Scriptures were but a dead letter, and they all began to cry, ‘The Spirit! the Spirit!’ But most assuredly I will not follow where their spirit leads them. May God of His mercy preserve me from a church in which there are none but saints. I desire to dwell with the humble, the feeble, the sick, who know and feel their sins, and who groan and cry continually to God from the bottom of their hearts to obtain His consolation and support.”",
+      "claim_text": "Luther is quoted as saying, of the leaders of the fanatical movement, that Scripture was a dead letter to them and that he would not follow their professed spirit, preferring to dwell among the humble and sinful rather than the self-proclaimed saints.",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-052",
+      "paragraph": 24,
+      "quote": "Thomas Münzer, the most active of the fanatics, was a man of considerable ability, which, rightly directed, would have enabled him to do good; but he had not learned the first principles of true religion.",
+      "claim_text": "Thomas Munzer was the most active leader among the religious fanatics of this movement and was a man of considerable ability.",
+      "claim_type": "biographical",
+      "entities": ["Thomas Muntzer"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-053",
+      "paragraph": 24,
+      "quote": "“He was possessed with a desire of reforming the world, and forgot, as all enthusiasts do, that the reformation should begin with himself.”",
+      "claim_text": "A cited source describes Thomas Munzer as possessed with a desire to reform the world while forgetting that reform should begin with himself.",
+      "claim_type": "attributed_quote",
+      "entities": ["Thomas Muntzer"],
+      "needs_verification": true,
+      "extractor_note": "Attributed to an unnamed cited historian via footnote (276), not to Munzer himself."
+    },
+    {
+      "id": "GC-10-054",
+      "paragraph": 24,
+      "quote": "He was ambitious to obtain position and influence, and was unwilling to be second, even to Luther.",
+      "claim_text": "Thomas Munzer was ambitious for position and influence and was unwilling to accept a position secondary to Luther.",
+      "claim_type": "biographical",
+      "entities": ["Thomas Muntzer", "Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-055",
+      "paragraph": 24,
+      "quote": "He declared that the Reformers, in substituting the authority of Scripture for that of the pope, were only establishing a different form of popery.",
+      "claim_text": "Thomas Munzer declared that the Reformers, by substituting scriptural authority for papal authority, were only establishing a different form of popery.",
+      "claim_type": "event",
+      "entities": ["Thomas Muntzer"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-056",
+      "paragraph": 24,
+      "quote": "He himself, he claimed, had been divinely commissioned to introduce the true reform.",
+      "claim_text": "Thomas Munzer claimed to have been divinely commissioned to introduce the true reform.",
+      "claim_type": "biographical",
+      "entities": ["Thomas Muntzer"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-057",
+      "paragraph": 24,
+      "quote": "“He who possesses this spirit,” said Münzer, “possesses the true faith, although he should never see the Scriptures in his life.”",
+      "claim_text": "Thomas Munzer is quoted as saying that whoever possesses 'this spirit' possesses true faith even if he never sees the Scriptures.",
+      "claim_type": "attributed_quote",
+      "entities": ["Thomas Muntzer"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-058",
+      "paragraph": 25,
+      "quote": "The fanatical teachers gave themselves up to be governed by impressions, regarding every thought and impulse as the voice of God; consequently they went to great extremes.",
+      "claim_text": "The fanatical teachers of this movement governed themselves by personal impressions, treating every thought and impulse as the voice of God, leading them to great extremes.",
+      "claim_type": "event",
+      "entities": ["Thomas Muntzer"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-059",
+      "paragraph": 25,
+      "quote": "Some even burned their Bibles, exclaiming, “The letter killeth, but the Spirit giveth life.”",
+      "claim_text": "Some followers of the fanatical movement burned their Bibles, quoting the phrase 'the letter killeth, but the Spirit giveth life.'",
+      "claim_type": "event",
+      "entities": ["Thomas Muntzer"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-060",
+      "paragraph": 25,
+      "quote": "His doctrines were received by thousands.",
+      "claim_text": "Thomas Munzer's doctrines were received by thousands of people.",
+      "claim_type": "statistic",
+      "entities": ["Thomas Muntzer"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-061",
+      "paragraph": 25,
+      "quote": "He soon denounced all order in public worship, and declared that to obey princes was to attempt to serve both God and Belial.",
+      "claim_text": "Thomas Munzer denounced all order in public worship and declared that obeying princes amounted to trying to serve both God and Belial.",
+      "claim_type": "biographical",
+      "entities": ["Thomas Muntzer"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-062",
+      "paragraph": 26,
+      "quote": "Münzer’s revolutionary teachings, claiming divine sanction, led them to break away from all control, and give the rein to their prejudices and passions.",
+      "claim_text": "Thomas Munzer's revolutionary teachings, which claimed divine sanction, caused his followers to break away from all civil control and give free rein to their prejudices and passions.",
+      "claim_type": "causal",
+      "entities": ["Thomas Muntzer"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-063",
+      "paragraph": 26,
+      "quote": "The most terrible scenes of sedition and strife followed, and the fields of Germany were drenched with blood.",
+      "claim_text": "Scenes of sedition and strife followed Munzer's teachings, and the fields of Germany were drenched with blood, referring to the German Peasants' War (1524-1525).",
+      "claim_type": "event",
+      "entities": ["Germany", "Thomas Muntzer"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-064",
+      "paragraph": 27,
+      "quote": "The agony of soul which Luther had so long before experienced at Erfurt, now pressed upon him with redoubled power as he saw the results of fanaticism charged upon the Reformation.",
+      "claim_text": "Luther experienced agony of soul, comparable to what he had earlier experienced at Erfurt, upon seeing the results of the fanatical movement blamed on the Reformation.",
+      "claim_type": "biographical",
+      "entities": ["Martin Luther", "Erfurt"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-065",
+      "paragraph": 27,
+      "quote": "The papist princes declared—and many were ready to credit the statement—that the rebellion was the legitimate fruit of Luther’s doctrines.",
+      "claim_text": "Catholic princes declared that the German Peasants' War rebellion was the legitimate result of Luther's doctrines, and many people were inclined to believe this claim.",
+      "claim_type": "event",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-066",
+      "paragraph": 27,
+      "quote": "Although this charge was without the slightest foundation, it could not but cause the Reformer great distress.",
+      "claim_text": "The accusation that Luther's doctrines caused the German Peasants' War rebellion was without any foundation.",
+      "claim_type": "causal",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-067",
+      "paragraph": 27,
+      "quote": "the leaders in the revolt hated Luther because he had not only opposed their doctrines and denied their claims to divine inspiration, but had pronounced them rebels against the civil authority.",
+      "claim_text": "The leaders of the peasant revolt hated Luther because he opposed their doctrines, denied their claims to divine inspiration, and pronounced them rebels against civil authority.",
+      "claim_type": "causal",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-068",
+      "paragraph": 28,
+      "quote": "The Romanists exulted, expecting to witness the speedy downfall of the Reformation; and they blamed Luther, even for the errors which he had been most earnestly endeavoring to correct.",
+      "claim_text": "Catholics exulted, expecting the speedy downfall of the Reformation because of the peasant revolt, and blamed Luther even for errors he had been actively trying to correct.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church", "Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-069",
+      "paragraph": 28,
+      "quote": "The fanatical party, by falsely claiming to have been treated with great injustice, succeeded in gaining the sympathies of a large class of the people, and, as is often the case with those who take the wrong side, they came to be regarded as martyrs.",
+      "claim_text": "The fanatical party (associated with the German Peasants' War) falsely claimed to have suffered great injustice, gaining the sympathy of a large segment of the population and coming to be regarded as martyrs.",
+      "claim_type": "causal",
+      "entities": ["Thomas Muntzer"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-070",
+      "paragraph": 28,
+      "quote": "This was the work of Satan, prompted by the same spirit of rebellion which was first manifested in heaven.",
+      "claim_text": "The favorable public perception of the fanatical party as martyrs was the work of Satan, prompted by the same spirit of rebellion first manifested in heaven.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-10-071",
+      "paragraph": 29,
+      "quote": "Satan is constantly seeking to deceive men, and lead them to call sin righteousness, and righteousness sin.",
+      "claim_text": "Satan constantly seeks to deceive people into calling sin righteousness and righteousness sin.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-10-072",
+      "paragraph": 30,
+      "quote": "Counterfeit holiness, spurious sanctification, is still doing its work of deception.",
+      "claim_text": "Counterfeit holiness and spurious sanctification, of the type exhibited by the sixteenth-century fanatics, continue to deceive people in later eras.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-10-073",
+      "paragraph": 31,
+      "quote": "Fearlessly did Luther defend the gospel from the attacks which came from every quarter. The word of God proved itself a weapon mighty in every conflict. With that Word he warred against the usurped authority of the pope, and the rationalistic philosophy of the schoolmen, while he stood firm as a rock against the fanaticism that sought to ally itself with the Reformation.",
+      "claim_text": "Luther defended the gospel against attacks from the papacy, rationalist scholastic philosophy, and religious fanaticism, using the Bible as his primary weapon.",
+      "claim_type": "interpretive",
+      "entities": ["Martin Luther"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-10-074",
+      "paragraph": 32,
+      "quote": "Romanism, claiming for her sovereign pontiff an inspiration descended in unbroken line from the apostles, and unchangeable through all time, gives ample opportunity for every species of extravagance and corruption to be concealed under the sanctity of the apostolic commission.",
+      "claim_text": "The Roman Catholic Church claims for the pope an inspiration descended in unbroken line from the apostles, unchangeable through time, which the text characterizes as providing cover for extravagance and corruption.",
+      "claim_type": "theological",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-10-075",
+      "paragraph": 32,
+      "quote": "The inspiration claimed by Münzer and his associates proceeded from no higher source than the vagaries of the imagination, and its influence was subversive of all authority, human or divine.",
+      "claim_text": "The inspiration Thomas Munzer and his associates claimed came from imagination rather than a divine source, and its influence undermined all human and divine authority.",
+      "claim_type": "theological",
+      "entities": ["Thomas Muntzer"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-10-076",
+      "paragraph": 33,
+      "quote": "Upon his return from the Wartburg, Luther completed his translation of the New Testament, and the gospel was soon after given to the people of Germany in their own language.",
+      "claim_text": "After returning from the Wartburg, Luther completed his German translation of the New Testament (the 'September Testament,' 1522), which was then given to the German people in their own language.",
+      "claim_type": "event",
+      "entities": ["Martin Luther", "Germany", "Wartburg Castle"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-077",
+      "paragraph": 34,
+      "quote": "Rome summoned all her authority to prevent the circulation of the Scriptures; but decrees, anathemas, and tortures were alike in vain.",
+      "claim_text": "The Roman Catholic Church used decrees, anathemas, and torture in an attempt to prevent the circulation of Luther's German-language Scriptures, but these measures failed.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-078",
+      "paragraph": 34,
+      "quote": "Seeing the favor with which the New Testament was received, Luther immediately began the translation of the Old, and published it in parts as fast as completed.",
+      "claim_text": "After the favorable reception of his New Testament translation, Luther immediately began translating the Old Testament into German and published it in installments as sections were completed.",
+      "claim_type": "event",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-079",
+      "paragraph": 35,
+      "quote": "“What Luther and his friends composed, others circulated. Monks, convinced of the unlawfulness of monastic obligations, desirous of exchanging a long life of slothfulness for one of active exertion, but too ignorant to proclaim the word of God, traveled through the provinces, visiting hamlets and cottages, where they sold the books of Luther and his friends. Germany soon swarmed with these bold colporteurs.”",
+      "claim_text": "A cited source describes former monks, convinced monastic vows were unlawful, traveling through German provinces selling the writings of Luther and his associates, so that Germany soon had large numbers of such colporteurs.",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther", "Germany"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-080",
+      "paragraph": 36,
+      "quote": "At night the teachers of the village schools read them aloud to little groups gathered at the fireside.",
+      "claim_text": "Village school teachers in Germany read Luther's writings aloud at night to small groups gathered at the fireside.",
+      "claim_type": "event",
+      "entities": ["Germany"],
+      "needs_verification": true,
+      "extractor_note": "Generalized/illustrative claim rather than a claim about a specific documented incident."
+    },
+    {
+      "id": "GC-10-081",
+      "paragraph": 37,
+      "quote": "“The entrance of Thy words giveth light; it giveth understanding unto the simple.”",
+      "claim_text": "The text quotes, as fulfilled by the Reformation-era spread of Scripture, the biblical statement 'The entrance of Thy words giveth light; it giveth understanding unto the simple' (Psalm 119:130).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-082",
+      "paragraph": 37,
+      "quote": "The papal rule had placed upon its subjects an iron yoke which held them in ignorance and degradation.",
+      "claim_text": "Papal rule kept its subjects under an iron yoke of ignorance and degradation prior to the Reformation.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-10-083",
+      "paragraph": 38,
+      "quote": "Persons of all ranks were to be seen with the Bible in their hands, defending the doctrines of the Reformation.",
+      "claim_text": "People of all social ranks in Reformation-era Germany were seen carrying the Bible and defending Reformation doctrines.",
+      "claim_type": "event",
+      "entities": ["Germany"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-084",
+      "paragraph": 38,
+      "quote": "“Unhappily,” said a Catholic writer, “Luther had persuaded his followers to put no faith in any other oracle than the Holy Scriptures.”",
+      "claim_text": "An unnamed Catholic writer is quoted as lamenting that Luther had persuaded his followers to trust no authority except the Holy Scriptures.",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther"],
+      "needs_verification": true,
+      "extractor_note": "Writer identified only as 'a Catholic writer'; footnote (280) presumably names the source."
+    },
+    {
+      "id": "GC-10-085",
+      "paragraph": 38,
+      "quote": "Laborers, soldiers, women, and even children, were better acquainted with the Bible teachings than were the priests and learned doctors.",
+      "claim_text": "Ordinary laborers, soldiers, women, and children in Reformation Germany were, according to the text, more knowledgeable of Bible teachings than priests and learned Catholic doctors.",
+      "claim_type": "event",
+      "entities": ["Germany"],
+      "needs_verification": true,
+      "extractor_note": "Sweeping comparative claim; difficult to verify empirically but presented as historical fact rather than mere interpretation."
+    },
+    {
+      "id": "GC-10-086",
+      "paragraph": 39,
+      "quote": "“Opposed to the old champions of the hierarchy, who had neglected the study of languages and the cultivation of literature, ... were generous-minded youths, devoted to study, investigating Scripture, and familiarizing themselves with the masterpieces of antiquity. Possessing an active mind, an elevated soul, and intrepid heart, these young men soon acquired such knowledge that for a long period none could compete with them.... Accordingly, when these youthful defenders of the Reformation met the Romish doctors in any assembly, they attacked them with such ease and confidence that these ignorant men hesitated, became embarrassed, and fell into a contempt merited in the eyes of all.”",
+      "claim_text": "A cited source contrasts young Reformation-era scholars, devoted to studying Scripture and classical literature, with the older Catholic hierarchy's neglect of languages and literature, claiming the young scholars easily bested Catholic doctors in debate.",
+      "claim_type": "attributed_quote",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-087",
+      "paragraph": 40,
+      "quote": "As the Romish clergy saw their congregations diminishing, they invoked the aid of the magistrates, and by every means in their power endeavored to bring back their hearers.",
+      "claim_text": "As Catholic clergy in Reformation-era Germany saw their congregations shrink, they sought help from civil magistrates and used every available means to bring their hearers back.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-088",
+      "paragraph": 41,
+      "quote": "“When they persecute you in this city, flee ye into another.”",
+      "claim_text": "The text quotes, as words of Christ applied by persecuted Reformation-era preachers, the statement 'When they persecute you in this city, flee ye into another' (Matthew 10:23).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-089",
+      "paragraph": 41,
+      "quote": "The fugitives would find somewhere a hospitable door opened to them, and there abiding, they would preach Christ, sometimes in the church, or if denied that privilege, in private houses or in the open air.",
+      "claim_text": "Reformation-era preachers fleeing persecution in Germany found hospitable refuge elsewhere and continued preaching in churches, private houses, or in the open air.",
+      "claim_type": "event",
+      "entities": ["Germany"],
+      "needs_verification": true,
+      "extractor_note": "Generalized narrative claim rather than reference to a specific documented incident."
+    },
+    {
+      "id": "GC-10-090",
+      "paragraph": 42,
+      "quote": "Thousands of believers sealed their faith with their blood, and yet the work went on.",
+      "claim_text": "Thousands of Reformation-era believers in Germany were killed for their faith (sealed their faith with their blood) under ecclesiastical and civil persecution.",
+      "claim_type": "statistic",
+      "entities": ["Germany"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-091",
+      "paragraph": 42,
+      "quote": "Persecution served only to extend the truth",
+      "claim_text": "Persecution of Reformation believers in Germany served only to extend the spread of Reformation teaching rather than suppress it.",
+      "claim_type": "causal",
+      "entities": ["Germany"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-10-092",
+      "paragraph": 42,
+      "quote": "and the fanaticism which Satan endeavored to unite with it, resulted in making more clear the contrast between the work of Satan and the work of God.",
+      "claim_text": "The fanaticism Satan sought to associate with the Reformation ultimately made clearer the contrast between Satan's work and God's work.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    }
+  ]
+}
