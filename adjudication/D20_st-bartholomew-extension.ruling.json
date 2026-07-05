@@ -1,0 +1,88 @@
+{
+  "dossier": "D20",
+  "slug": "st-bartholomew-extension",
+  "stage": "adjudication",
+  "charter_version": "1.1-frozen",
+  "generated_at": "2026-07-05",
+  "notes": "searches: ~6 (4 WebSearch + 2 WebFetch, all shared pool; 0 stragglers). Local scholarship greps (Wylie vol. 2, Dowling 1845) cost no budget and established the period-standard genealogy. No Phase-1 defense object exists for GC-15-058 (disputed skipped the defense stage; adversarial/gc_ch15.defended.json duplicates the verification record). period_standard candidate: the claim reproduces Wylie nearly verbatim.",
+  "evidence_review": "STATE OF THE QUESTION: did a royal order extend the St. Bartholomew's Day massacre (24 August 1572) from Paris to the provinces? The foundational modern study is Philip Benedict, 'The Saint Bartholomew's Massacres in the Provinces', Historical Journal 21/2 (1978), still cited as the best treatment. Benedict's documented picture: massacres occurred in roughly twelve provincial cities (Meaux, La Charite, Bourges, Orleans, Saumur, Angers, Lyon, Troyes, Rouen, Bordeaux, Toulouse, Gaillac, with smaller incidents elsewhere), killing an estimated 3,000-5,000; they were driven by militant local Catholics and municipal factions acting amid rumor that killing was 'the king's will', not by a documented royal order. The surviving royal correspondence points the opposite way: Charles IX's letters of 24 and 28 August ordered governors to maintain the Peace of Saint-Germain and protect peaceable Protestants, and a circular of 30 August revoked whatever verbal instructions had circulated in his name. Early verbal orders to Lyon and Bordeaux are judged by the scholarship to have concerned arrests and security, not killing, and were countermanded. The 26 August lit de justice took royal responsibility only for the execution of Coligny and his alleged co-conspirators, not for a general massacre. The strongest documented court-level thread is a set of apparently genuine letters from the duke of Anjou (the king's brother) urging killings in the king's name; at Nantes the mayor withheld such a letter until the king's contrary orders arrived. Counterexamples to any universal extension are numerous and undisputed: the Huguenot strongholds La Rochelle, Nimes and Montauban were untouched; Nantes, Rennes and Aix protected their Protestants; several governors refused (the famous d'Orthez 'no hangman' reply at Bayonne belongs to this tradition, whatever its authenticity). Later scholarship converges on Benedict: Mack Holt (The French Wars of Religion, Cambridge UP) attributes the spread to hardline nobles misrepresenting the king's wishes; Arlette Jouanna (The Saint Bartholomew's Day Massacre: The Mysteries of a Crime of State, Manchester UP 2013) further exonerates Charles IX for the provincial 'copycat' massacres; Penny Roberts (Troyes) and Gautier Mingous (Lyon, French History 2020) document the local dynamics city by city. WHAT CHANGED SINCE THE 19TH CENTURY: the royal-extension-order reading was standard in White's source layer. Wylie, History of Protestantism (1870s), vol. 2 (local file, ~lines 61136-61144), reads 'In pursuance of orders sent from the court, they were extended to all provinces and cities where Protestants were found', citing the Jesuit Maimbourg (1682); Dowling, History of Romanism (1845; local file ~lines 34479-34485) has special messengers 'ordering a general massacre', though even Dowling limits the carnage to 'nearly all the provinces'. White's sentence tracks Wylie nearly verbatim (including 'seven days', 'two months' and Sully's 70,000 nearby). The premeditation school survived into the late 19th century (Henri Bordier, La Saint-Barthelemy et la critique moderne, 1879) against Ranke, Henri Martin, Henry White, Loiseleur, La Ferriere and Vacandard; by 1911 the consensus had turned against premeditation (1911 Britannica), and Benedict 1978 settled the provinces question specifically. No current specialist defends a royal order extending the massacre.",
+  "narrative_ru": "Досье проверяло утверждение «Великой борьбы», что Варфоломеевская резня «по особому приказу короля» распространилась на все провинции и города, где жили протестанты. Сохранившиеся письма Карла IX от 24 и 28 августа 1572 года предписывали губернаторам хранить мир и защищать протестантов, а резня вспыхнула примерно в двенадцати городах усилиями местных католических активистов, поверивших слухам о воле короля (Бенедикт, Холт, Жуанна). Крупнейшие гугенотские города, включая Ла-Рошель, Ним и Монтобан, остались нетронутыми, и ряд губернаторов прямо отказался исполнять мнимый приказ. Формулировка книги отклонена как написано, поскольку документам противоречат и «особый приказ короля», и охват «всех провинций»; ослабленная версия, что резня перекинулась на провинции и многие исполнители считали себя орудием королевской воли, прочно подтверждена. Уайт почти дословно следует Уайли, передававшему стандартное для девятнадцатого века прочтение; картину изменил бы подлинный королевский приказ об истреблении протестантов в провинциях, если бы такой нашёлся в архивах.",
+  "rulings": [
+    {
+      "id": "GC-15-058",
+      "dossier": "D20",
+      "quantifier_audit": ["all the provinces and towns where Protestants were found"],
+      "components": [
+        {
+          "component": "The massacre was not confined to Paris but spread to provincial cities and towns in the following weeks",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Undisputed: massacres in roughly twelve provincial cities between late August and early October 1572, with 3,000-5,000 provincial victims (Benedict 1978; Holt; Jouanna). Every modern account carries this."
+        },
+        {
+          "component": "The extension to the provinces occurred 'by special order of the king' (a royal order commanding the killing beyond Paris)",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "No such order exists in the documentary record. Charles IX's surviving letters of 24 and 28 August ordered governors to maintain the Peace of Saint-Germain and protect Protestants; the 30 August circular revoked verbal instructions circulating in his name; the early verbal orders to Lyon and Bordeaux are judged to have concerned arrests, not massacre, and were countermanded; the 26 August lit de justice claimed responsibility only for Coligny's execution as punishment of an alleged conspiracy. The provincial killings correlate with cities that had militant Catholic networks and prior confessional trauma, which fits local initiative under rumor of royal will, not a uniform command (Benedict 1978, the consensus study; Jouanna 2013; Holt). Not 'discredited': a documented court-level thread survives (apparently genuine letters of the duke of Anjou urging killings in the king's name; ambiguous early verbal signals), so the sentence is defeated by clear preponderance rather than by a single decisive refutation. This is a fact component (existence of an order), not a motive cap case; in any case the competing account rests on surviving royal letters, i.e. documents."
+        },
+        {
+          "component": "The massacre reached ALL the provinces and towns where Protestants were found",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "discredited",
+          "rationale": "Multiple independent, undisputed counterexamples defeat the universal (charter section 6.3): the major Huguenot cities La Rochelle, Nimes and Montauban saw no massacre and became centers of resistance in the Fourth War; Nantes, Rennes and Aix protected their Protestants; several governors and municipalities refused to kill (a fact even Wylie records, with the d'Orthez reply). Benedict counts about a dozen affected cities against the many dozens of towns with Protestant communities. On the alternative reading that 'all' describes the scope of the alleged order rather than the outcome, the component collapses into the royal-order component, which itself fails; on either reading the sentence as printed does not survive."
+        }
+      ],
+      "ruling_as_written": "discredited",
+      "failing_component_kind": "fact",
+      "weakened_version": "The massacre was not confined to Paris: over the following weeks it spread to about a dozen provincial cities, with many perpetrators and some local authorities believing or claiming that they acted on the king's will.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 4,
+      "confidence": "high",
+      "minority_engagement": "The strongest case FOR a royal extension order combines: (1) the older premeditation school, most fully Henri Bordier (La Saint-Barthelemy et la critique moderne, 1879), building on contemporary Huguenot accounts, Capilupi's celebratory pamphlet, and perpetrators' claims of verbal orders; (2) White's own source layer, Wylie (1870s, citing the Jesuit Maimbourg, 1682) and Dowling (1845), which carried the royal-messenger reading as standard, and whose genealogy is notably not purely Protestant since Maimbourg was a Catholic historian; (3) the genuine residue moderns acknowledge: Charles IX's early verbal instructions to Lyon and Bordeaux, the 26 August lit de justice taking responsibility for Coligny's death, and the apparently genuine letters of the duke of Anjou urging killings in the king's name (the Nantes case). This case fails on evidence for the claim AS WRITTEN: the authenticated royal correspondence of 24 and 28 August commands protection of Protestants, the 30 August circular disavows verbal orders sent in the king's name, the verbal instructions are judged by Benedict and successors to have ordered arrests rather than killing, the Anjou letters are the brother's initiative rather than a 'special order of the king', and the claims of royal kill-orders come from perpetrators' ex post facto self-justifications and hostile pamphlets, not authenticated documents. The premeditation consensus had already collapsed by the late 19th century (Ranke, Henri Martin, Henry White, Loiseleur, La Ferriere, Vacandard; Lord Acton's final position), and Benedict 1978 settled the provinces question; no current specialist defends a royal extension order. The residue is fully incorporated in the weakened ruling. Phase-1 answer: no defense object exists (disputed skipped the defense stage); the verifier's rationale is consistent with this adjudication, which sharpens it by separating the decisively false universal quantifier from the preponderance-defeated royal-order component.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {
+          "ref": "Philip Benedict, 'The Saint Bartholomew's Massacres in the Provinces', The Historical Journal 21/2 (1978), Cambridge Core (abstract and summaries engaged)",
+          "tier": "academic",
+          "independence_note": "Foundational archival study of the provincial massacres; the upstream source of the modern consensus, examined directly rather than through digests."
+        },
+        {
+          "ref": "Arlette Jouanna, The Saint Bartholomew's Day Massacre: The Mysteries of a Crime of State (Manchester UP, 2013; French orig. 2007), engaged via H-France Forum review PDF and IHR Reviews in History no. 1463",
+          "tier": "academic",
+          "independence_note": "Independent archival synthesis post-Benedict; genealogically distinct examination of the royal correspondence and the lit de justice; further exonerates Charles IX for the provincial copycat massacres."
+        },
+        {
+          "ref": "Mack P. Holt, The French Wars of Religion, 1562-1629 (Cambridge UP), position on Anjou and hardline nobles misrepresenting the king's wishes",
+          "tier": "academic",
+          "independence_note": "Standard survey; downstream of Benedict on the provinces but an independent monographic treatment; source of the Anjou-letters point."
+        },
+        {
+          "ref": "Wikipedia, 'St. Bartholomew's Day massacre in the provinces' (synthesizing Benedict, Holt, Knecht, Penny Roberts on Troyes, Mingous on Lyon)",
+          "tier": "encyclopedic",
+          "independence_note": "Used as a map to the academic literature and for the city-by-city detail (protected cities, refusing governors); not an arbiter; genealogically downstream of Benedict."
+        },
+        {
+          "ref": "J. A. Wylie, History of Protestantism, vol. 2 (local file scholarship/wylie-history-of-protestantism-vol2.txt, ~lines 61136-61195), citing Maimbourg livr. vi",
+          "tier": "primary-in-context",
+          "independence_note": "White's near-verbatim source for the sentence; establishes the period-standard genealogy (Wylie -> Maimbourg 1682), not the modern facts."
+        },
+        {
+          "ref": "J. Dowling, The History of Romanism (1845; local file scholarship/dowling-history-of-romanism-1845.txt, ~lines 34479-34497)",
+          "tier": "primary-in-context",
+          "independence_note": "Second, earlier period source with the royal-messenger reading ('nearly all the provinces'); independent of Wylie but drawing on the same 17th-century compilations (Maimbourg, Mezeray)."
+        },
+        {
+          "ref": "1911 Encyclopaedia Britannica, 'St Bartholomew, Massacre of' (Wikisource), on the Bordier vs Ranke/Martin/Loiseleur/Vacandard premeditation debate",
+          "tier": "encyclopedic",
+          "independence_note": "Documents the historiographical state at the time of GC 1911: the premeditation consensus had already turned against the royal-order reading."
+        }
+      ],
+      "would_change_this": "An authenticated document from Charles IX or his council, datable to late August 1572, ordering the killing of Protestants in the provinces (as opposed to the surviving letters ordering their protection) would reverse the royal-order component; documented massacres in the major Huguenot towns (La Rochelle, Nimes, Montauban) or in most Protestant-populated towns would rehabilitate the universal extent. Conversely, a peer-reviewed demonstration that the Anjou letters are forgeries would push the royal-order component toward discredited.",
+      "gap_note": null,
+      "notes": "period_standard: true (candidate for synthesis tagging) - the sentence tracks Wylie nearly verbatim ('extended to all provinces and cities where Protestants were found', 'orders sent from the court'), and the royal-order reading was standard across White's period sources, Protestant (Wylie, Dowling) and Catholic (Maimbourg) alike. All three components are fact-kind, so no cross-kind tie arises at the minimum; the minimum is set solely by the universal-extent component."
+    }
+  ]
+}

@@ -3094,7 +3094,23 @@
         "claims": 1,
         "load_bearing": 0,
         "academic_floor": false,
-        "status": "pending"
+        "status": "done",
+        "ruling_file": "adjudication/D20_st-bartholomew-extension.ruling.json",
+        "rulings_as_written": {
+          "discredited": 1
+        },
+        "rulings_weakened": {
+          "well-supported": 1
+        },
+        "framing_gaps": {
+          "4": 1
+        },
+        "failing_component_kind_accusatory": {
+          "fact": 1
+        },
+        "gap_notes": [],
+        "searches": "searches: ~6 (4 WebSearch + 2 WebFetch, all shared pool",
+        "updated_at": "2026-07-05T19:49:46Z"
       },
       "D21": {
         "slug": "massacre-of-innocents",
