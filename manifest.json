@@ -252,13 +252,66 @@
       "words": 8027,
       "paragraphs": 68,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
-        "impact": "pending"
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
+        "impact": "done"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 176,
+          "needs_verification": 160,
+          "by_type": {
+            "event": 73,
+            "attributed_quote": 40,
+            "biographical": 32,
+            "interpretive": 12,
+            "date": 5,
+            "causal": 6,
+            "theological": 4,
+            "statistic": 3,
+            "geographical": 1
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 148,
+          "anachronistic": 6,
+          "disputed": 9,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 13,
+          "low_confidence": 17,
+          "searches": 14,
+          "clusters": 10
+        },
+        "defend": {
+          "examined": 6,
+          "defense_succeeded": 1,
+          "verdict_downgraded": 0,
+          "defense_failed": 5,
+          "searches": 1
+        },
+        "impact": {
+          "scored": 5,
+          "load_bearing": 0,
+          "top_impact": [
+            {
+              "id": "GC-06-034",
+              "score": 16
+            },
+            {
+              "id": "GC-06-005",
+              "score": 12
+            },
+            {
+              "id": "GC-06-174",
+              "score": 12
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-07-05T01:24:38Z"
     },
     "07": {
       "title": "Luther’s Separation From Rome",

@@ -1,0 +1,47 @@
+{
+  "chapter": 6,
+  "stage": "impact",
+  "notes": "Chapter argument reconstruction: Chapter 6 extends the book's continuity thesis from the Waldenses (ch. 4) and Wycliffe (ch. 5) into Bohemia, arguing that a single unbroken current of 'true faith' runs from apostolic Christianity through persecuted remnants into Huss and Jerome, and from them onward toward the Reformation proper (Luther, ch. 7). Its load-bearing claims are the well-documented biographical and trial narrative of Huss (birth, Prague career, Bethlehem Chapel preaching, papal summons/interdict, Council of Constance, martyrdom) and of Jerome (recantation, retraction, martyrdom), all of which the verification/defense stages found solidly supported by primary and secondary sources (Mladonovice, Poggio, Bonnechose's edition of Hus's letters). Around this documentary spine the chapter weaves several connective and rhetorical claims inherited from Wylie/Foxe-style 19th-century Protestant historiography: the Waldensian/Albigensian seedbed reaching Bohemia, Queen Anne as a Wycliffite conduit, the reversed causality of the German students' exodus, a rephrased Four Articles of Prague, and the 'century' prophecy bridging Huss to Luther. None of these five confirmed discrepancies touch the documentary core (Huss's and Jerome's own words and deaths); they are all connective tissue asserting how Bohemia's dissent linked backward to Waldensian/Wycliffite origins and forward to the German Reformation. Consequently the chapter's central narrative (a real reformer persecuted and executed by an institutionally corrupt church, provoking national resistance and a lasting dissenting church) survives subtraction of all five items intact; what is weakened is specifically the SEAMLESSNESS of the continuity thesis that the book's central thesis chain requires between Waldenses/Wycliffe and Huss, and between Huss and the German Reformation. Two of the five (GC-06-034, GC-06-174) bear directly on that inter-chapter linkage and are scored higher on centrality for that reason, even though neither is load-bearing for chapter 6's own internal argument. Consistent with CLAUDE.md rule 4, all five anachronistic items reflect White's fidelity to her stated 19th-century sources (chiefly Wylie) rather than invention: the errors are in the sources she trusted, not fabrications of her own, which matters for the eventual synthesis on authorial method vs. authorial invention.",
+  "items": {
+    "GC-06-005": {
+      "severity": 3,
+      "centrality": 4,
+      "load_bearing": false,
+      "impact_score": 12,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "The claim conflates a real, modest Waldensian presence in southern Bohemia with an unattested mass migration of Albigenses (Cathars) from France and Italy, feeding the Wylie-style continuity thesis that these refugees 'preserved the true faith from century to century.' This is the chapter's opening framing device and restates, for Bohemia specifically, the central-thesis-chain claim that persecuted minorities carried the true faith forward across centuries -- so centrality is high. Deleting the sentence, however, does not damage the chapter's own argument: Huss's story is independently anchored in Wycliffe/Jerome transmission (GC-06-024, 026, both supported) and needs no Waldensian/Albigensian pedigree, and the broader continuity thesis is separately established in chapters 4-5. As an anachronistic verdict, the error reflects Wylie's period historiography of treating Waldenses, Albigenses and Hussites as one proto-Protestant lineage, not an invention by White."
+    },
+    "GC-06-025": {
+      "severity": 3,
+      "centrality": 3,
+      "load_bearing": false,
+      "impact_score": 9,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "Anne of Bohemia genuinely was a Bohemian princess and queen of England who valued vernacular Scripture, but the claim that she was a 'convert to Wycliffe's teachings' who 'widely circulated' his works in Bohemia overstates her role; modern scholarship (vanDussen) identifies Czech Oxford students, not the queen, as the real conduit. The claim supports the chapter's Wycliffe-to-Bohemia transmission narrative (centrality 3) but is redundant: Jerome's own documented trip to England and return with Wycliffe's writings (GC-06-024, supported) already establishes that transmission channel, so the argument does not depend on Anne's supposed role. Anachronistic rather than invented -- it reproduces the Foxe/Wylie 'Wycliffite queen' tradition that White inherited."
+    },
+    "GC-06-034": {
+      "severity": 4,
+      "centrality": 4,
+      "load_bearing": false,
+      "impact_score": 16,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "This is the highest-severity confirmed item in the chapter: the departing German masters and students of 1409 were overwhelmingly the anti-Wycliffite, anti-Hus faction who left precisely because the Decree of Kutna Hora stripped them of their voting majority, not disciples who had 'received from Huss their first knowledge of the Bible.' The defender itself flags that this borders on outright contradiction of the documented alignment, which justifies severity 4 over the other anachronistic items where the core event is merely embellished rather than reversed. Centrality is high because the sentence is the chapter's explicit bridge claiming Bohemian light 'extended to Germany,' foreshadowing the German Reformation the central thesis chain moves toward next. It is not load-bearing, though: the sentence is a single aside not developed further in the chapter, and the broader German Reformation narrative is carried independently in chapter 7 without reference to this exodus. As with the other anachronistic items, the reversal traces to Wylie's framing rather than to White inventing an event."
+    },
+    "GC-06-162": {
+      "severity": 2,
+      "centrality": 2,
+      "load_bearing": false,
+      "impact_score": 4,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "Consistent with the defender's assessment, this is the lowest-severity item: three of the four articles GC lists (free preaching, clerical exclusion from secular power, civil jurisdiction over clergy in cases of crime) are close, defensible paraphrases of the authentic Four Articles of Prague, and only the folding of 'use of the mother tongue' into the communion article and the narrowing of 'mortal/public sins' to 'crime' are genuine departures. The article list is local color supporting the chapter's account of the Compactata negotiations, not a claim the chapter's persecution/martyrdom/providence argument depends on, so centrality is low. Deleting or correcting the wording would not change the chapter's narrative that Rome negotiated in bad faith. Anachronistic status reflects Wylie's own rewording, faithfully reproduced rather than freshly distorted by White."
+    },
+    "GC-06-174": {
+      "severity": 3,
+      "centrality": 4,
+      "load_bearing": false,
+      "impact_score": 12,
+      "narrative_arc": "pre-reformation",
+      "reasoning": "The specific, datable 'a century must revolve before the day should break' prophecy, named to both Huss and Jerome, belongs to the post-hoc reformer-prophecy tradition (elaborated by Luther in the 1530s mapping the Hus-goose onto the Luther-swan); unlike the anonymous saying at GC-06-010, this one is concretely attributed and concretely rejected by modern scholarship, so it cannot be softened past anachronistic. Centrality is high because this quotation functions as the chapter's rhetorical capstone, explicitly and repeatedly (see also GC-06-176) tying Huss's martyrdom forward to its 'fulfillment' in Luther and the Reformation -- exactly the linkage the book's central thesis chain needs between the pre-Reformation and Reformation narrative_arcs. It is not load-bearing for chapter 6 itself: the chapter's account of Huss's death, the Hussite wars, and the United Brethren's survival stands on its own supported evidentiary base without this specific prophecy. As an inherited quotation from a named 19th-century source (Gillett, via ref. 157), it reflects period scholarship rather than authorial invention."
+    }
+  }
+}

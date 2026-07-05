@@ -1,0 +1,40 @@
+{
+  "chapter": 6,
+  "stage": "adversarial",
+  "notes": "defender: searches: ~1; full defenses: 0, cheap audits: 6 (GC-06-005, 010, 025, 034, 162, 174)",
+  "items": {
+    "GC-06-005": {
+      "result": "defense_failed",
+      "argument": "The claim splits into a defensible half and an indefensible half. Waldensian presence in Bohemia is genuinely attested: late-14th-century inquisition records (e.g. Peter Zwicker's campaigns of the 1390s) document Waldensian communities in southern Bohemia, and some did arrive fleeing persecution, so 'Waldenses ... came to Bohemia' has a real historical kernel that the verifier itself concedes ('scattered Waldensian communities existed in German/Bohemian lands'). White reproduces her source faithfully rather than inventing the motif. But the other half — a mass migration of Albigenses (Cathars) from France and Italy into Bohemia — is unattested, and the framing of these refugees as a continuous proto-Protestant seedbed that 'preserved the true faith from century to century' into Hussitism is exactly the Wylie continuity-thesis that modern scholarship ('Waldensianism Before Waldo') rejects. Because the Cathar migration is undocumented and the proto-Protestant lineage is a period construction traceable to Wylie, the anachronistic verdict is correctly placed and cannot be lifted to 'supported.'"
+    },
+    "GC-06-010": {
+      "result": "defense_succeeded",
+      "revised_verdict": "unverifiable",
+      "argument": "The verifier's own source undercuts the anachronistic label. The claim is an attributed quotation of an ANONYMOUS dying pre-Huss Bohemian teacher, transmitted via White's 19th-century source (ref. 126, the Bonnechose/Wylie tradition). The verifier's sole cited source is the Jan Hus Wikipedia article on the 'goose/swan' legend — but that legend is Huss's OWN, named prophecy predicting Luther ('you may roast this goose, but a swan shall arise'), a different saying by a different (named) person. A targeted search confirms modern discussion attaches only to Huss's own 'hundred years' prophecy, not to this anonymous deathbed utterance, which no surviving contemporary evidence records at all. 'Anachronistic' asserts a claim is wrong by modern standards but matched 19th-c sources; here modern historiography has not positively judged this saying wrong — it simply cannot confirm or deny a private anonymous deathbed utterance that exists only in the devotional tradition. That is the definition of 'unverifiable', and re-classing it there corrects a verifier over-reach (its own confidence was 'low'). The prophecy's later interpretive framing as foreshadowing Huss is handled separately at GC-06-011 (already unverifiable).",
+      "new_sources": [
+        {
+          "title": "John Hus (GreatSite) — discussion attaches only to Hus's own '100 years' saying, not the anonymous pre-Hus prophecy",
+          "url": "https://greatsite.com/john-hus/",
+          "source_class": "other",
+          "supports_verdict": true
+        }
+      ]
+    },
+    "GC-06-025": {
+      "result": "defense_failed",
+      "argument": "A real kernel exists: Anne of Bohemia was a Bohemian princess and queen of England (wife of Richard II), and she genuinely owned and valued vernacular Scripture — documented as possessing the gospels in Latin, Czech and German, and Wycliffe himself praised her for it in his own writing. Her marriage opened Anglo-Bohemian dynastic and scholarly channels along which ideas travelled. So 'a Bohemian princess who was queen of England and prized vernacular Scripture' is accurate. But the load-bearing assertions — that she was a 'convert to Wycliffe's teachings' and that 'through her influence his works were widely circulated in Bohemia' — go beyond the evidence. The strong sources (vanDussen's BRRP study; the DNB) find no Wycliffite conversion and identify the real conduit as Czech students at Oxford (Faulfis, Knehnic), not the queen. Because the overreach traces directly to the Foxe/Wylie 'Wycliffite queen' tradition rather than to a fabrication by White, anachronistic is the correct bin and cannot be raised to supported."
+    },
+    "GC-06-034": {
+      "result": "defense_failed",
+      "argument": "The broad umbrella sentence ('From Bohemia the light extended to Germany; for disturbances in the University of Prague caused the withdrawal of hundreds of German students') is itself accurate: the Decree of Kutna Hora (1409) did trigger a large German exodus that dispersed Prague's academic community and helped found the University of Leipzig, spreading Prague's intellectual culture into the Empire. The steelman would read 'the light extended to Germany' loosely as this diffusion of learning and controversy. But the specific causal claim in this item — that the departing Germans 'had received from Huss their first knowledge of the Bible' and 'spread the gospel in their fatherland' — inverts the actual alignment. The emigrants were overwhelmingly the anti-Wycliffite, anti-Hus party; they left precisely BECAUSE the decree stripped them of their voting majority and they rejected Wycliffe, not because they were Hus's Bible-students. The Brill study and the Kutna Hora record establish this reversal firmly, so the item borders on outright contradiction. It stays in the anachronistic category only because the inverted framing traces to Wylie; the defense cannot make it supported or disputed."
+    },
+    "GC-06-162": {
+      "result": "defense_failed",
+      "argument": "The strongest honest case is that White conveys the Four Articles of Prague in substance, not caricature. Her article 1 (free preaching of the Bible) matches the authentic first article closely; her article 3 (exclusion of clergy from secular offices and authority) matches the authentic third article (clergy dispossessed of secular power/property) closely. Her article 4 (civil-court jurisdiction over clergy and laity alike in cases of crime) is a defensible paraphrase of the authentic fourth article's core thrust — that public and mortal sins be punished by the proper authority sparing no one regardless of rank, i.e. ending clerical immunity from secular justice. So three of the four are substantively faithful. Two deviations remain, however: White folds 'the use of the mother tongue in divine worship' into the utraquist communion article, and vernacular worship — though a genuine, closely-associated Hussite demand — was not one of the four codified articles; and she narrows 'mortal/public sins' to 'crime.' Because these are real rewordings (traceable to Wylie's rendering) rather than fabrications, the claim is period-typical paraphrase — anachronistic is correct, and the two genuine departures block a clean 'supported.'"
+    },
+    "GC-06-174": {
+      "result": "defense_failed",
+      "argument": "Two steelman moves exist but neither rescues the claim. First, the item is framed as a QUOTATION from a 19th-century source (ref. 157) reporting what the Taborites 'remembered,' so White transmits her source rather than asserting the prophecy's authenticity in her own voice. Second, Hussite expectation of eventual vindication genuinely circulated, and the 'goose' wordplay (Hus = husa/goose in Czech) is authentic — Hus alluded to the goose in his own letters. But the specific, datable prophecy that 'a century must revolve before the day should break,' attributed by name to Huss and repeated by Jerome, belongs to the reformer-prophecy tradition elaborated after the fact (notably by Luther in the 1530s, mapping Hus's goose onto Luther's swan across roughly a century). Modern scholarship treats this hundred-years prophecy as a post-hoc construction, not an authentic contemporary utterance. Crucially, unlike the anonymous saying at GC-06-010, this one is specifically named and specifically addressed and rejected by scholarship, so it cannot be softened to merely 'unverifiable.' It matched White's 19th-c sources (Wylie, Gillett) and is wrong by modern standards — the textbook definition of anachronistic. Defense fails."
+    }
+  }
+}

@@ -35,7 +35,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SCHEMA_PATH = os.path.join(ROOT, "schemas", "claim.schema.json")
 
 ID_RE = re.compile(r"^GC-(\d{2})-(\d{3})$")
-NON_SUPPORTED = {"contradicted", "disputed", "misquotation", "anachronistic"}
+# disputed is deliberately absent: since commit ee626ce the defender skips it
+# (CLAUDE.md rule 3), so a missing defense object on disputed is not an error.
+DEFENSE_REQUIRED = {"contradicted", "misquotation", "anachronistic"}
 CONFIRMED = {"contradicted", "misquotation", "anachronistic"}
 MULTI_SOURCE_VERDICTS = {"contradicted", "disputed", "misquotation"}
 
@@ -124,7 +126,7 @@ def semantic_check(data, stage, rep):
 
         if stage in ("adversarial", "impact"):
             verdict = (c.get("verification") or {}).get("verdict")
-            if verdict in NON_SUPPORTED:
+            if verdict in DEFENSE_REQUIRED:
                 d = c.get("defense")
                 if d is None:
                     rep.err(f"{cid}: non-supported verdict '{verdict}' lacks a defense object")
