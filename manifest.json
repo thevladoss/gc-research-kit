@@ -749,7 +749,7 @@
         "extract": "done",
         "verify": "done",
         "defend": "done",
-        "impact": "pending"
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -784,9 +784,23 @@
           "verdict_downgraded": 0,
           "defense_failed": 2,
           "searches": 4
+        },
+        "impact": {
+          "scored": 2,
+          "load_bearing": 0,
+          "top_impact": [
+            {
+              "id": "GC-11-095",
+              "score": 12
+            },
+            {
+              "id": "GC-11-076",
+              "score": 2
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-05T09:09:23Z"
+      "updated_at": "2026-07-05T09:11:25Z"
     },
     "12": {
       "title": "The French Reformation",

@@ -1,0 +1,23 @@
+{
+  "chapter": 11,
+  "stage": "impact",
+  "notes": "Chapter argument reconstruction: GC11 narrates the 1529 Speyer Protest and the 1530 Diet of Augsburg as the twin founding acts of Protestantism proper — the moment the evangelical princes asserted that conscience bound by Scripture outranks civil/ecclesiastical coercion (the Protest's sola-scriptura language, paras 1-23) and the moment that principle was publicly tested and vindicated before the emperor (the Confession's reading and the ensuing Catholic concessions, paras 30-35). The claims carrying the chapter's argumentative weight are: the documented event-sequence of the two Diets (supported, high confidence), the verbatim Protest text (supported, primary-document quotation), and the concession anecdotes that dramatize the Confession's rhetorical triumph — an unnamed bishop (GC-11-091, supported) and Doctor Eck's admission he could refute the Confession only from Fathers/councils, not apostles/prophets (GC-11-092, supported). GC-11-095 ('the emperor himself declared...but the truth') is the rhetorical climax of that same concession sequence, but the defender traced the actual concession anecdotes in D'Aubigne b.14 to Duke William of Bavaria and to Eck, never to Charles V — so this is White's own uncited over-generalization, not a faithful compression of her period source. GC-11-076 (the Coburg hymn) is decorative color in the travel narrative to Augsburg and carries none of the chapter's argumentative load. Two items scored in this delta; searches: 0 (Read-only re-analysis of the already-completed defense objects, no new external verification required).",
+  "items": {
+    "GC-11-095": {
+      "severity": 4,
+      "centrality": 3,
+      "load_bearing": false,
+      "impact_score": 12,
+      "narrative_arc": "reformation",
+      "reasoning": "White asserts, without a footnote, that Charles V personally declared the Protestant articles true — a specific and named-person claim the defender could not trace to D'Aubigne (whose concession anecdotes attach to Duke William of Bavaria and to Eck, never the emperor) and which is positively contradicted by the documented record: Charles adopted the Catholic Confutatio and demanded recantation within six months. Severity is 4, not 5, because a real kernel exists (Charles treated the Confession with unusual seriousness, kept the Latin copy, sent the Confutatio back for softening) that the sentence exaggerates rather than invents outright. Counterfactual: delete the sentence and the chapter's 'even Rome conceded the truth' beat survives intact via GC-11-091 (bishop) and GC-11-092 (Eck), both independently supported and already carrying that argumentative function — so this claim is not load-bearing for the chapter, though it is the sentence's most rhetorically forceful (and least defensible) member of the concession triad."
+    },
+    "GC-11-076": {
+      "severity": 2,
+      "centrality": 1,
+      "load_bearing": false,
+      "impact_score": 2,
+      "narrative_arc": "reformation",
+      "reasoning": "The core event — Luther accompanying the elector's party to Coburg and singing 'Ein feste Burg' to steady their nerves — is true; only the parenthetical claim that the hymn was 'written on that journey' is wrong, since modern scholarship dates it to 1527-1529 and it already appears in the 1528/1529 Wittenberg hymnals, positively excluding a 1530 composition. Severity is kept low (2) because this reflects a specific, then-standard 19th-century tradition traceable to D'Aubigne rather than an invented incident; the anachronistic verdict signals sound authorial method (following her named source) rather than invention. Counterfactual: delete the composition-date claim and nothing in the chapter's argument changes — the anecdote is atmospheric support for Luther's faith during the Augsburg crisis, not evidence for the Protest's or Confession's doctrinal content, so centrality is 1 and the item is not load-bearing."
+    }
+  }
+}

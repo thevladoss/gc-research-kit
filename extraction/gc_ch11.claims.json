@@ -1,0 +1,988 @@
+{
+  "chapter": 11,
+  "chapter_title": "Protest Of The Princes",
+  "stage": "extraction",
+  "generated_at": "2026-07-05",
+  "notes": "Extraction pass, single session (chapter ~4760 words, processed as one pass). Footnote numbers in quotes preserved as printed in 1911 edition. Long historian quotations (footnotes 289, 296, 297) spanning multiple paragraphs were split into per-paragraph claims to keep quotes verbatim and manageable; each such claim carries an extractor_note pointing to the shared footnote/source.",
+  "claims": [
+    {
+      "id": "GC-11-001",
+      "paragraph": 1,
+      "quote": "One of the noblest testimonies ever uttered for the Reformation, was the Protest offered by the Christian princes of Germany at the Diet of Spires in 1529.",
+      "claim_text": "The Christian princes of Germany offered a Protest at the Diet of Spires (Speyer) in 1529.",
+      "claim_type": "event",
+      "entities": ["Diet of Speyer", "1529", "Christian princes of Germany"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-002",
+      "paragraph": 1,
+      "quote": "Their Protest gave to the reformed church the name of Protestant",
+      "claim_text": "The 1529 Protest at the Diet of Speyer is the origin of the name \"Protestant\" for the reformed church.",
+      "claim_type": "event",
+      "entities": ["Diet of Speyer", "Protestant (name)"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-003",
+      "paragraph": 1,
+      "quote": "its principles are “the very essence of Protestantism.”(283)",
+      "claim_text": "A historical source (GC 1911 footnote 283) states that the principles of the 1529 Protest are \"the very essence of Protestantism.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["footnote 283"],
+      "needs_verification": true,
+      "extractor_note": "Source of footnote 283 not given in body text; likely a historian such as D'Aubigné per Appendix."
+    },
+    {
+      "id": "GC-11-004",
+      "paragraph": 1,
+      "quote": "One of the noblest testimonies ever uttered for the Reformation, was the Protest offered by the Christian princes of Germany at the Diet of Spires in 1529.",
+      "claim_text": "The 1529 Protest at Speyer was one of the noblest testimonies ever uttered for the Reformation.",
+      "claim_type": "interpretive",
+      "entities": ["Diet of Speyer"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-11-005",
+      "paragraph": 1,
+      "quote": "The courage, faith, and firmness of those men of God, gained for succeeding ages liberty of thought and of conscience.",
+      "claim_text": "The courage, faith, and firmness of the protesting princes gained liberty of thought and conscience for succeeding ages.",
+      "claim_type": "interpretive",
+      "entities": ["Christian princes of Germany"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-11-006",
+      "paragraph": 2,
+      "quote": "Notwithstanding the edict of Worms, declaring Luther to be an outlaw, and forbidding the teaching or belief of his doctrines, religious toleration had thus far prevailed in the empire.",
+      "claim_text": "The Edict of Worms declared Martin Luther an outlaw and forbade the teaching or belief of his doctrines.",
+      "claim_type": "event",
+      "entities": ["Edict of Worms", "Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-007",
+      "paragraph": 2,
+      "quote": "Charles V. was bent on crushing the Reformation, but often as he raised his hand to strike, he had been forced to turn aside the blow.",
+      "claim_text": "Charles V intended to crush the Protestant Reformation but was repeatedly forced to divert his efforts before the 1529 Diet of Speyer.",
+      "claim_type": "causal",
+      "entities": ["Charles V"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-008",
+      "paragraph": 2,
+      "quote": "at the critical moment the armies of the Turk appeared on the eastern frontier, or the king of France, or even the pope himself, jealous of the increasing greatness of the emperor, made war upon him; and thus, amid the strife and tumult of nations, the Reformation had been left to strengthen and extend.",
+      "claim_text": "Ottoman military pressure on the eastern frontier, wars with the king of France, and conflict with the pope repeatedly diverted Charles V from suppressing the Reformation, allowing it to strengthen and extend prior to 1529.",
+      "claim_type": "causal",
+      "entities": ["Charles V", "Ottoman Empire", "Francis I of France", "Pope"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-009",
+      "paragraph": 2,
+      "quote": "God’s providence had held in check the forces that opposed the truth.",
+      "claim_text": "God's providence held in check the forces opposing the Reformation.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-11-010",
+      "paragraph": 3,
+      "quote": "The Diet of Spires in 1526 had given each state full liberty in matters of religion until the meeting of a general council;",
+      "claim_text": "The Diet of Speyer in 1526 gave each German state full liberty in matters of religion until a general council would meet.",
+      "claim_type": "event",
+      "entities": ["Diet of Speyer 1526"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-011",
+      "paragraph": 3,
+      "quote": "the emperor summoned a second Diet to convene at Spires in 1529 for the purpose of crushing heresy.",
+      "claim_text": "Emperor Charles V summoned a second Diet to convene at Speyer in 1529 for the purpose of crushing heresy.",
+      "claim_type": "event",
+      "entities": ["Charles V", "Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-012",
+      "paragraph": 3,
+      "quote": "The princes were to be induced, by peaceable means if possible, to side against the Reformation; but if these failed, Charles was prepared to resort to the sword.",
+      "claim_text": "Charles V planned to induce the princes to side against the Reformation by peaceable means, but was prepared to use force if that failed.",
+      "claim_type": "causal",
+      "entities": ["Charles V"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-013",
+      "paragraph": 4,
+      "quote": "They appeared at Spires in great numbers, and openly manifested their hostility toward the Reformers and all who favored them.",
+      "claim_text": "Papal partisans appeared at the 1529 Diet of Speyer in great numbers and openly manifested hostility toward the Reformers and their supporters.",
+      "claim_type": "event",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-014",
+      "paragraph": 4,
+      "quote": "Said Melanchthon, “We are the execration and the sweepings of the world; but Christ will look down on His poor people, and will preserve them.”(284)",
+      "claim_text": "Philip Melanchthon is quoted as saying, at the 1529 Diet of Speyer, \"We are the execration and the sweepings of the world; but Christ will look down on His poor people, and will preserve them.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Philip Melanchthon"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-015",
+      "paragraph": 4,
+      "quote": "The evangelical princes in attendance at the Diet were forbidden even to have the gospel preached in their dwellings.",
+      "claim_text": "The evangelical princes attending the 1529 Diet of Speyer were forbidden to have the gospel preached in their own dwellings.",
+      "claim_type": "event",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-016",
+      "paragraph": 4,
+      "quote": "notwithstanding the prohibition, thousands flocked to the services held in the chapel of the elector of Saxony.",
+      "claim_text": "Thousands of people at Speyer flocked to religious services held in the chapel of the Elector of Saxony despite a prohibition.",
+      "claim_type": "statistic",
+      "entities": ["Elector of Saxony", "Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-017",
+      "paragraph": 5,
+      "quote": "An imperial message announced to the Diet that as the resolution granting liberty of conscience had given rise to great disorders, the emperor required that it be annulled.",
+      "claim_text": "An imperial message to the 1529 Diet of Speyer required annulment of the 1526 resolution granting liberty of conscience, on grounds it had caused disorders.",
+      "claim_type": "event",
+      "entities": ["Charles V", "Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-018",
+      "paragraph": 5,
+      "quote": "Said one, “Christ has again fallen into the hands of Caiaphas and Pilate.”",
+      "claim_text": "An unnamed evangelical Christian at the 1529 Diet of Speyer is quoted saying, \"Christ has again fallen into the hands of Caiaphas and Pilate.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-019",
+      "paragraph": 5,
+      "quote": "A bigoted papist declared: “The Turks are better than the Lutherans; for the Turks observe fast-days, and the Lutherans violate them. If we must choose between the Holy Scriptures of God and the old errors of the church, we should reject the former.”",
+      "claim_text": "An unnamed papist at the 1529 Diet of Speyer is quoted declaring the Turks better than the Lutherans and that the Holy Scriptures should be rejected in favor of \"the old errors of the church\" if a choice had to be made.",
+      "claim_type": "attributed_quote",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-020",
+      "paragraph": 5,
+      "quote": "Said Melanchthon, “Every day, in full assembly, Faber casts some new stone at us Gospelers.”(285)",
+      "claim_text": "Philip Melanchthon is quoted saying that Faber cast \"some new stone\" at the evangelicals every day in full assembly at the Diet of Speyer.",
+      "claim_type": "attributed_quote",
+      "entities": ["Philip Melanchthon", "Faber", "Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-021",
+      "paragraph": 6,
+      "quote": "Religious toleration had been legally established, and the evangelical states were resolved to oppose the infringement of their rights.",
+      "claim_text": "Religious toleration had been legally established by the 1526 Diet of Speyer, and the evangelical states resolved to oppose its infringement in 1529.",
+      "claim_type": "event",
+      "entities": ["Diet of Speyer 1526", "Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-022",
+      "paragraph": 6,
+      "quote": "Luther, being still under the ban imposed by the edict of Worms, was not permitted to be present at Spires;",
+      "claim_text": "Martin Luther, still under the ban of the Edict of Worms, was not permitted to be present at the 1529 Diet of Speyer.",
+      "claim_type": "biographical",
+      "entities": ["Martin Luther", "Edict of Worms", "Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-023",
+      "paragraph": 6,
+      "quote": "The noble Frederick of Saxony, Luther’s former protector, had been removed by death; but Duke John, his brother and successor, had joyfully welcomed the Reformation,",
+      "claim_text": "Frederick of Saxony, Luther's former protector, had died, and his brother and successor Duke John had welcomed the Reformation.",
+      "claim_type": "biographical",
+      "entities": ["Frederick the Wise of Saxony", "John of Saxony", "Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-024",
+      "paragraph": 7,
+      "quote": "The priests demanded that the states which had accepted the Reformation submit implicitly to Romish jurisdiction.",
+      "claim_text": "At the 1529 Diet of Speyer, Catholic priests demanded that states which had accepted the Reformation submit implicitly to Roman Catholic jurisdiction.",
+      "claim_type": "event",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-025",
+      "paragraph": 8,
+      "quote": "“in those where the people had deviated from it, and where they could not conform to it without danger of revolt, they should at least effect no new reform, they should touch upon no controverted point, they should not oppose the celebration of the mass, they should permit no Roman Catholic to embrace Lutheranism.”(286)",
+      "claim_text": "A cited source (footnote 286) reports the 1529 Diet of Speyer compromise terms: in states that had deviated from the Edict of Worms, no new reforms would be permitted, the mass could not be opposed, and no Roman Catholic could embrace Lutheranism.",
+      "claim_type": "attributed_quote",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-026",
+      "paragraph": 8,
+      "quote": "This measure passed the Diet, to the great satisfaction of the popish priests and prelates.",
+      "claim_text": "The compromise measure restricting the Reformation passed the 1529 Diet of Speyer, to the satisfaction of Catholic priests and prelates.",
+      "claim_type": "event",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-027",
+      "paragraph": 9,
+      "quote": "“the Reformation could neither be extended ... where as yet it was unknown, nor be established on solid foundations ... where it already existed.”(287)",
+      "claim_text": "A cited source (footnote 287) states that, under the 1529 Speyer decree, the Reformation could neither be extended where unknown nor be firmly established where it already existed.",
+      "claim_type": "attributed_quote",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-028",
+      "paragraph": 9,
+      "quote": "“The re-establishment of the Romish hierarchy ... would infallibly bring back the ancient abuses;” and an occasion would readily be found for “completing the destruction of a work already so violently shaken” by fanaticism and dissension.(288)",
+      "claim_text": "A cited source (footnote 288) states that re-establishing the Roman hierarchy under the 1529 decree would have brought back \"the ancient abuses\" and risked \"completing the destruction\" of the Reformation.",
+      "claim_type": "attributed_quote",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-029",
+      "paragraph": 10,
+      "quote": "The Lutheran princes were guaranteed the free exercise of their religion. The same boon was extended to all those of their subjects who, prior to the passing of the measure, had embraced the reformed views.",
+      "claim_text": "Under the 1529 Speyer compromise, Lutheran princes and any of their subjects who had already embraced reformed views prior to the measure were guaranteed free exercise of their religion.",
+      "claim_type": "event",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true,
+      "extractor_note": "Part of an extended historian quotation (footnote 289) spanning paragraphs 10-11."
+    },
+    {
+      "id": "GC-11-030",
+      "paragraph": 11,
+      "quote": "It was the right of Rome to coerce conscience and forbid free inquiry.",
+      "claim_text": "A cited historian (footnote 289) characterizes the principle underlying the 1529 Speyer arrangement as affirming Rome's right to coerce conscience and forbid free inquiry outside the reformed states.",
+      "claim_type": "attributed_quote",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true,
+      "extractor_note": "Part of the extended historian quotation closed by footnote 289 at the end of paragraph 11."
+    },
+    {
+      "id": "GC-11-031",
+      "paragraph": 11,
+      "quote": "Rather would they “sacrifice everything, even their states, their crowns, and their lives.”(290)",
+      "claim_text": "A cited source (footnote 290) states that the Reformers would rather sacrifice their states, crowns, and lives than accept the 1529 Speyer arrangement.",
+      "claim_type": "attributed_quote",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-032",
+      "paragraph": 12,
+      "quote": "“Let us reject this decree,” said the princes.",
+      "claim_text": "The Protestant princes at the 1529 Diet of Speyer are quoted saying, \"Let us reject this decree.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-033",
+      "paragraph": 12,
+      "quote": "“In matters of conscience the majority has no power.”",
+      "claim_text": "The Protestant princes at the 1529 Diet of Speyer are quoted asserting that in matters of conscience the majority has no power.",
+      "claim_type": "attributed_quote",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-034",
+      "paragraph": 12,
+      "quote": "The deputies declared: “It is to the decree of 1526 that we are indebted for the peace that the empire enjoys: its abolition would fill Germany with troubles and divisions. The Diet is incompetent to do more than preserve religious liberty until the council meets.”(291)",
+      "claim_text": "The evangelical deputies at the 1529 Diet of Speyer are quoted (footnote 291) declaring that the 1526 decree secured the empire's peace and that the Diet lacked authority to do more than preserve religious liberty until a general council met.",
+      "claim_type": "attributed_quote",
+      "entities": ["Diet of Speyer 1526", "Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-035",
+      "paragraph": 12,
+      "quote": "To protect liberty of conscience is the duty of the state, and this is the limit of its authority in matters of religion.",
+      "claim_text": "The protection of liberty of conscience is the duty of the state, marking the limit of its authority in religious matters.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-11-036",
+      "paragraph": 12,
+      "quote": "Every secular government that attempts to regulate or enforce religious observances by civil authority, is sacrificing the very principle for which the evangelical Christians so nobly struggled.",
+      "claim_text": "Any secular government that attempts to regulate or enforce religious observances by civil authority sacrifices the principle for which the Speyer evangelicals struggled.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-11-037",
+      "paragraph": 13,
+      "quote": "The representatives of the free cities were at last summoned before the Diet, and required to declare whether they would accede to the terms of the proposition.",
+      "claim_text": "Representatives of the free imperial cities were summoned before the 1529 Diet of Speyer and required to declare whether they would accede to the compromise proposition.",
+      "claim_type": "event",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-038",
+      "paragraph": 13,
+      "quote": "When brought to the test, nearly one half their number sided with the Reformers.",
+      "claim_text": "When tested at the 1529 Diet of Speyer, nearly half of the free cities' representatives sided with the Reformers.",
+      "claim_type": "statistic",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-039",
+      "paragraph": 13,
+      "quote": "Said one of the delegates, “We must either deny the word of God, or—be burnt.”(292)",
+      "claim_text": "An unnamed delegate at the 1529 Diet of Speyer is quoted saying, \"We must either deny the word of God, or be burnt.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-040",
+      "paragraph": 14,
+      "quote": "King Ferdinand, the emperor’s representative at the Diet, saw that the decree would cause serious divisions unless the princes could be induced to accept and sustain it.",
+      "claim_text": "King Ferdinand (later Ferdinand I) served as Emperor Charles V's representative at the 1529 Diet of Speyer.",
+      "claim_type": "biographical",
+      "entities": ["Ferdinand I", "Charles V", "Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-041",
+      "paragraph": 14,
+      "quote": "He “begged the princes to accept the decree, assuring them that the emperor would be exceedingly pleased with them.”",
+      "claim_text": "A cited source (footnote 293) states that Ferdinand begged the princes at Speyer to accept the decree, assuring them the emperor would be pleased.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ferdinand I", "Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-042",
+      "paragraph": 14,
+      "quote": "they answered calmly, “We will obey the emperor in everything that may contribute to maintain peace and the honor of God.”(293)",
+      "claim_text": "The evangelical princes at the 1529 Diet of Speyer are quoted replying that they would obey the emperor in everything that maintained peace and the honor of God.",
+      "claim_type": "attributed_quote",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-043",
+      "paragraph": 15,
+      "quote": "the king at last announced to the elector and his friends that the edict “was about to be drawn up in the form of an imperial decree,” and that “their only remaining course was to submit to the majority.”",
+      "claim_text": "King Ferdinand announced to the elector of Saxony and his allies at Speyer that the edict would be drawn up as an imperial decree and that their only remaining course was to submit to the majority.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ferdinand I", "Elector of Saxony", "Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-044",
+      "paragraph": 15,
+      "quote": "Having thus spoken, he withdrew from the assembly, giving the Reformers no opportunity for deliberation or reply.",
+      "claim_text": "After his announcement, Ferdinand withdrew from the assembly at Speyer without giving the Reformers opportunity for deliberation or reply.",
+      "claim_type": "event",
+      "entities": ["Ferdinand I", "Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-045",
+      "paragraph": 15,
+      "quote": "To their remonstrances he answered only, “It is a settled affair; submission is all that remains.”(294)",
+      "claim_text": "Ferdinand is quoted answering the Reformers' remonstrances at Speyer with, \"It is a settled affair; submission is all that remains.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Ferdinand I", "Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-046",
+      "paragraph": 16,
+      "quote": "The imperial party were convinced that the Christian princes would adhere to the Holy Scriptures as superior to human doctrines and requirements; and they knew that wherever this principle was accepted, the papacy would eventually be overthrown.",
+      "claim_text": "The imperial party at Speyer believed the Christian princes would adhere to Scripture over human doctrine, and understood that acceptance of this principle would eventually overthrow the papacy.",
+      "claim_type": "causal",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-047",
+      "paragraph": 16,
+      "quote": "They appealed “from the report of the Diet to the word of God, and from the emperor Charles to Jesus Christ, the King of kings and Lord of lords.”(295)",
+      "claim_text": "A cited source (footnote 295) states that the Reformers at Speyer appealed from the report of the Diet to the word of God, and from Emperor Charles to Jesus Christ.",
+      "claim_type": "attributed_quote",
+      "entities": ["Charles V", "Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-048",
+      "paragraph": 17,
+      "quote": "the princes decided not to heed his absence, but to bring their Protest before the national council without delay. A solemn declaration was therefore drawn up, and presented to the Diet:",
+      "claim_text": "The evangelical princes, after Ferdinand's withdrawal, decided to bring a written Protest before the Diet of Speyer without delay, and a formal declaration was drawn up and presented.",
+      "claim_type": "event",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-049",
+      "paragraph": 18,
+      "quote": "“We protest by these presents, before God, our only Creator, Preserver, Redeemer, and Saviour, and who will one day be our Judge, as well as before all men and all creatures, that we, for us and for our people, neither consent nor adhere in any manner whatsoever to the proposed decree, in anything that is contrary to God, to His holy word, to our right conscience, to the salvation of our souls.”",
+      "claim_text": "The 1529 Speyer Protest document contains the wording that the signatory princes and their people neither consent nor adhere to the proposed decree in anything contrary to God, His word, right conscience, or the salvation of their souls.",
+      "claim_type": "attributed_quote",
+      "entities": ["Protest of Speyer", "Diet of Speyer 1529"],
+      "needs_verification": true,
+      "extractor_note": "Primary document quotation, footnote 296 closes at end of paragraph 20."
+    },
+    {
+      "id": "GC-11-050",
+      "paragraph": 19,
+      "quote": "“There is no sure doctrine but such as is conformable to the word of God.... The Lord forbids the teaching of any other doctrine.... The Holy Scriptures ought to be explained by other and clearer texts; ... this holy book is, in all things necessary for the Christian, easy of understanding, and calculated to scatter the darkness. We are resolved, with the grace of God, to maintain the pure and exclusive preaching of His only word, such as it is contained in the biblical books of the Old and New Testaments, without adding anything thereto that may be contrary to it.”",
+      "claim_text": "The 1529 Speyer Protest document contains a declaration that the signatories are resolved to maintain the pure and exclusive preaching of Scripture, the Old and New Testaments, without adding anything contrary to it.",
+      "claim_type": "attributed_quote",
+      "entities": ["Protest of Speyer", "Diet of Speyer 1529"],
+      "needs_verification": true,
+      "extractor_note": "Part of the Protest text, footnote 296 closes at end of paragraph 20."
+    },
+    {
+      "id": "GC-11-051",
+      "paragraph": 20,
+      "quote": "“For this reason we reject the yoke that is imposed on us.” “At the same time we are in expectation that his imperial majesty will behave toward us like a Christian prince who loves God above all things; and we declare ourselves ready to pay unto him, as well as unto you, gracious lords, all the affection and obedience that are our just and legitimate duty.”(296)",
+      "claim_text": "The 1529 Speyer Protest document rejects the imposed decree while pledging the princes' continued affection and legitimate obedience to the emperor.",
+      "claim_type": "attributed_quote",
+      "entities": ["Protest of Speyer", "Charles V", "Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-052",
+      "paragraph": 21,
+      "quote": "A deep impression was made upon the Diet. The majority were filled with amazement and alarm at the boldness of the protesters.",
+      "claim_text": "Presentation of the Protest at the 1529 Diet of Speyer made a deep impression, and the majority reacted with amazement and alarm at the protesters' boldness.",
+      "claim_type": "event",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-053",
+      "paragraph": 21,
+      "quote": "the Reformers, assured of the justice of their cause, and relying upon the arm of Omnipotence, were “full of courage and firmness.”",
+      "claim_text": "A cited source describes the Reformers after presenting the Speyer Protest as \"full of courage and firmness.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true,
+      "extractor_note": "Borderline/brief characterization quote; included for completeness."
+    },
+    {
+      "id": "GC-11-054",
+      "paragraph": 22,
+      "quote": "“The principles contained in this celebrated Protest ... constitute the very essence of Protestantism. Now this Protest opposes two abuses of man in matters of faith: the first is the intrusion of the civil magistrate, and the second the arbitrary authority of the church. Instead of these abuses, Protestantism sets the power of conscience above the magistrate, and the authority of the word of God above the visible church. In the first place, it rejects the civil power in divine things, and says with the prophets and apostles, ‘We must obey God rather than man.’ In presence of the crown of Charles the Fifth, it uplifts the crown of Jesus Christ. But it goes farther: it lays down the principle that all human teaching should be subordinate to the oracles of God.”(297)",
+      "claim_text": "A cited historian (footnote 297) analyzes the 1529 Speyer Protest as constituting the essence of Protestantism by opposing civil-magistrate intrusion and arbitrary church authority, placing conscience above the magistrate and Scripture above the visible church.",
+      "claim_type": "attributed_quote",
+      "entities": ["Protest of Speyer", "Charles V"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-055",
+      "paragraph": 22,
+      "quote": "The protesters had moreover affirmed their right to utter freely their convictions of truth.",
+      "claim_text": "The Speyer protesters affirmed their right to freely utter their convictions of truth.",
+      "claim_type": "interpretive",
+      "entities": ["Protest of Speyer"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-11-056",
+      "paragraph": 22,
+      "quote": "The Protest of Spires was a solemn witness against religious intolerance, and an assertion of the right of all men to worship God according to the dictates of their own consciences.",
+      "claim_text": "The Protest of Speyer stands as a solemn witness against religious intolerance and an assertion of the right of all men to worship according to their own consciences.",
+      "claim_type": "interpretive",
+      "entities": ["Protest of Speyer"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-11-057",
+      "paragraph": 23,
+      "quote": "All evangelical Germany adopted the Protest as the expression of its faith.",
+      "claim_text": "All of evangelical Germany adopted the Speyer Protest as the expression of its faith.",
+      "claim_type": "event",
+      "entities": ["Protest of Speyer"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-058",
+      "paragraph": 23,
+      "quote": "Said one of the princes to the Protestants of Spires, “May the Almighty, who has given you grace to confess energetically, freely, and fearlessly, preserve you in that Christian firmness until the day of eternity.”(298)",
+      "claim_text": "An unnamed prince is quoted (footnote 298) blessing the Protestants of Speyer with the wish that God preserve them in Christian firmness until eternity.",
+      "claim_type": "attributed_quote",
+      "entities": ["Diet of Speyer 1529"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-059",
+      "paragraph": 24,
+      "quote": "Satan’s manner of working against God and His word has not changed; he is still as much opposed to the Scriptures being made the guide of life as in the sixteenth century.",
+      "claim_text": "Satan's manner of working against God and His word has not changed since the sixteenth century.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-11-060",
+      "paragraph": 24,
+      "quote": "Satan is still working through every means which he can control to destroy religious liberty.",
+      "claim_text": "Satan is still working through every means he can control to destroy religious liberty.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-11-061",
+      "paragraph": 24,
+      "quote": "there is need of a return to the great Protestant principle,—the Bible, and the Bible only, as the rule of faith and duty.",
+      "claim_text": "There is a present need to return to the Protestant principle of the Bible, and the Bible only, as the rule of faith and duty.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-11-062",
+      "paragraph": 25,
+      "quote": "“Melanchthon hastily conducted through the streets of Spires toward the Rhine his friend Simon Grynæus, pressing him to cross the river.",
+      "claim_text": "According to a cited source (footnote 299), Melanchthon hastily conducted his friend Simon Grynaeus through the streets of Speyer toward the Rhine, urging him to cross the river.",
+      "claim_type": "event",
+      "entities": ["Philip Melanchthon", "Simon Grynaeus", "Speyer", "Rhine River"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-063",
+      "paragraph": 25,
+      "quote": "‘An old man of grave and solemn air, but who is unknown to me,’ said Melanchthon, ‘appeared before me and said, In a minute officers of justice will be sent by Ferdinand to arrest Grynæus.’ ”",
+      "claim_text": "Melanchthon is quoted (footnote 299) reporting that an unknown old man of grave and solemn air appeared before him and warned that officers sent by Ferdinand would arrest Grynaeus within a minute.",
+      "claim_type": "attributed_quote",
+      "entities": ["Philip Melanchthon", "Simon Grynaeus", "Ferdinand I"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-064",
+      "paragraph": 26,
+      "quote": "During the day, Grynæus had been scandalized at a sermon by Faber, a leading papal doctor; and at the close, remonstrated with him for defending “certain detestable errors.”",
+      "claim_text": "Simon Grynaeus was scandalized at a sermon by Faber, described as a leading Catholic doctor, and remonstrated with him afterward for defending \"certain detestable errors.\"",
+      "claim_type": "event",
+      "entities": ["Simon Grynaeus", "Faber", "Speyer"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-065",
+      "paragraph": 26,
+      "quote": "“Faber dissembled his anger, but immediately after repaired to the king, from whom he had obtained an order against the importunate professor of Heidelberg.",
+      "claim_text": "According to the cited source, Faber concealed his anger at Grynaeus's rebuke but went immediately to King Ferdinand and obtained an order against Grynaeus.",
+      "claim_type": "event",
+      "entities": ["Faber", "Ferdinand I", "Simon Grynaeus"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-066",
+      "paragraph": 26,
+      "quote": "Melanchthon doubted not that God had saved his friend by sending one of His holy angels to forewarn him.",
+      "claim_text": "Melanchthon believed God had saved Grynaeus by sending a holy angel to forewarn him.",
+      "claim_type": "theological",
+      "entities": ["Philip Melanchthon", "Simon Grynaeus"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-11-067",
+      "paragraph": 27,
+      "quote": "‘At last,’ cried Melanchthon, as he saw him on the opposite side, ‘at last he is torn from the cruel jaws of those who thirst for innocent blood.’",
+      "claim_text": "Melanchthon is quoted exclaiming, upon seeing Grynaeus reach the opposite bank of the Rhine, that he was \"torn from the cruel jaws of those who thirst for innocent blood.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Philip Melanchthon", "Simon Grynaeus"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-068",
+      "paragraph": 27,
+      "quote": "When he returned to his house, Melanchthon was informed that officers in search of Grynæus had ransacked it from top to bottom.”(299)",
+      "claim_text": "Officers searching for Grynaeus ransacked Melanchthon's house from top to bottom.",
+      "claim_type": "event",
+      "entities": ["Philip Melanchthon", "Simon Grynaeus"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-069",
+      "paragraph": 28,
+      "quote": "Charles V., in the year following the Protest of Spires, convoked a Diet at Augsburg, over which he announced his intention to preside in person.",
+      "claim_text": "Charles V convoked a Diet at Augsburg in the year following the 1529 Protest of Speyer (i.e., 1530), announcing his intention to preside in person.",
+      "claim_type": "date",
+      "entities": ["Charles V", "Diet of Augsburg 1530"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-070",
+      "paragraph": 28,
+      "quote": "The evangelical princes had been denied a hearing by King Ferdinand; but they were to be granted an opportunity to present their cause in the presence of the emperor and the assembled dignitaries of church and state.",
+      "claim_text": "The evangelical princes, previously denied a hearing by King Ferdinand at Speyer, were to present their cause before Charles V and the assembled dignitaries at the Diet of Augsburg.",
+      "claim_type": "event",
+      "entities": ["Ferdinand I", "Charles V", "Diet of Augsburg 1530"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-071",
+      "paragraph": 29,
+      "quote": "The elector of Saxony was urged by his councilors not to appear at the Diet.",
+      "claim_text": "The elector of Saxony's councilors urged him not to appear at the 1530 Diet of Augsburg.",
+      "claim_type": "event",
+      "entities": ["Elector of Saxony", "Diet of Augsburg 1530"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-072",
+      "paragraph": 29,
+      "quote": "“Is it not risking everything to go and shut oneself up within the walls of a city with a powerful enemy?”",
+      "claim_text": "The elector of Saxony's councilors are quoted questioning whether attending the Diet of Augsburg risked everything by shutting the elector inside a city with a powerful enemy.",
+      "claim_type": "attributed_quote",
+      "entities": ["Elector of Saxony", "Diet of Augsburg 1530"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-073",
+      "paragraph": 29,
+      "quote": "But others nobly declared, “Let the princes only comport themselves with courage, and God’s cause is saved.”",
+      "claim_text": "Unnamed others are quoted declaring that if the princes comported themselves with courage, God's cause would be saved at Augsburg.",
+      "claim_type": "attributed_quote",
+      "entities": ["Diet of Augsburg 1530"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-074",
+      "paragraph": 29,
+      "quote": "“God is faithful; He will not abandon us,”(300) said Luther.",
+      "claim_text": "Martin Luther is quoted saying, regarding the Diet of Augsburg, \"God is faithful; He will not abandon us.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther", "Diet of Augsburg 1530"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-075",
+      "paragraph": 29,
+      "quote": "The elector set out, with his retinue, for Augsburg.",
+      "claim_text": "The elector of Saxony set out with his retinue for the 1530 Diet of Augsburg.",
+      "claim_type": "event",
+      "entities": ["Elector of Saxony", "Diet of Augsburg 1530"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-076",
+      "paragraph": 29,
+      "quote": "But Luther, who accompanied them as far as Coburg, revived their sinking faith by singing the hymn, written on that journey, “A strong tower is our God.”",
+      "claim_text": "Martin Luther accompanied the elector's party as far as Coburg on the way to Augsburg in 1530 and revived their faith by singing the hymn \"A strong tower is our God\" (Ein feste Burg), which he wrote on that journey.",
+      "claim_type": "biographical",
+      "entities": ["Martin Luther", "Coburg", "Ein feste Burg ist unser Gott"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-077",
+      "paragraph": 30,
+      "quote": "The reformed princes had determined upon having a statement of their views in systematic form, with the evidence from the Scriptures, to present before the Diet; and the task of its preparation was committed to Luther, Melanchthon, and their associates.",
+      "claim_text": "The reformed princes determined to present a systematic statement of their views with scriptural evidence at the Diet of Augsburg, and committed its preparation to Luther, Melanchthon, and their associates.",
+      "claim_type": "event",
+      "entities": ["Martin Luther", "Philip Melanchthon", "Diet of Augsburg 1530", "Augsburg Confession"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-078",
+      "paragraph": 30,
+      "quote": "This Confession was accepted by the Protestants as an exposition of their faith, and they assembled to affix their names to the important document.",
+      "claim_text": "The Augsburg Confession was accepted by the Protestants as an exposition of their faith, and the princes assembled to sign it.",
+      "claim_type": "event",
+      "entities": ["Augsburg Confession"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-079",
+      "paragraph": 30,
+      "quote": "Melanchthon interposed, saying, “It is for the theologians and ministers to propose these things; let us reserve for other matters the authority of the mighty ones of the earth.”",
+      "claim_text": "Melanchthon is quoted objecting to the princes signing the Augsburg Confession, saying it was for theologians and ministers to propose such matters.",
+      "claim_type": "attributed_quote",
+      "entities": ["Philip Melanchthon", "Augsburg Confession"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-080",
+      "paragraph": 30,
+      "quote": "“God forbid,” replied John of Saxony, “that you should exclude me. I am resolved to do what is right, without troubling myself about my crown. I desire to confess the Lord. My electoral hat and my ermine are not so precious to me as the cross of Jesus Christ.”",
+      "claim_text": "John, Elector of Saxony, is quoted responding to Melanchthon that he was resolved to sign the Augsburg Confession regardless of his crown, valuing the cross of Christ above his electoral hat and ermine.",
+      "claim_type": "attributed_quote",
+      "entities": ["John of Saxony", "Philip Melanchthon", "Augsburg Confession"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-081",
+      "paragraph": 30,
+      "quote": "Having thus spoken, he wrote down his name.",
+      "claim_text": "John, Elector of Saxony, signed the Augsburg Confession.",
+      "claim_type": "biographical",
+      "entities": ["John of Saxony", "Augsburg Confession"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-082",
+      "paragraph": 30,
+      "quote": "“If the honor of my Lord Jesus Christ requires it, I am ready ... to leave my goods and life behind.” “I would rather renounce my subjects and my states, rather quit the country of my fathers staff in hand,” he continued, “than receive any other doctrine than that which is contained in this Confession.”(301)",
+      "claim_text": "An unnamed prince is quoted (footnote 301) declaring readiness to leave his goods, life, subjects, and states rather than accept any doctrine other than that contained in the Augsburg Confession.",
+      "claim_type": "attributed_quote",
+      "entities": ["Augsburg Confession"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-083",
+      "paragraph": 31,
+      "quote": "Charles V., seated upon his throne, surrounded by the electors and the princes, gave audience to the Protestant Reformers. The confession of their faith was read.",
+      "claim_text": "At the 1530 Diet of Augsburg, Charles V, seated on his throne surrounded by the electors and princes, gave audience to the Protestant Reformers while the Augsburg Confession was read.",
+      "claim_type": "event",
+      "entities": ["Charles V", "Diet of Augsburg 1530", "Augsburg Confession"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-084",
+      "paragraph": 31,
+      "quote": "Well has that day been pronounced “the greatest day of the Reformation, and one of the most glorious in the history of Christianity and of mankind.”(302)",
+      "claim_text": "A cited source (footnote 302) describes the day the Augsburg Confession was read as \"the greatest day of the Reformation, and one of the most glorious in the history of Christianity and of mankind.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Diet of Augsburg 1530", "Augsburg Confession"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-085",
+      "paragraph": 32,
+      "quote": "But a few years had passed since the monk of Wittenberg stood alone at Worms before the national council.",
+      "claim_text": "A few years before the 1530 Diet of Augsburg, Luther, described as \"the monk of Wittenberg,\" had stood alone before the national council at the 1521 Diet of Worms.",
+      "claim_type": "event",
+      "entities": ["Martin Luther", "Wittenberg", "Diet of Worms 1521", "Diet of Augsburg 1530"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-086",
+      "paragraph": 32,
+      "quote": "Luther had been forbidden to appear at Augsburg, but he had been present by his words and prayers.",
+      "claim_text": "Martin Luther was forbidden to appear at the 1530 Diet of Augsburg.",
+      "claim_type": "event",
+      "entities": ["Martin Luther", "Diet of Augsburg 1530"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-087",
+      "paragraph": 32,
+      "quote": "“I am overjoyed,” he wrote, “that I have lived until this hour, in which Christ has been publicly exalted by such illustrious confessors, and in so glorious an assembly.”(303)",
+      "claim_text": "Martin Luther is quoted (footnote 303) writing that he was overjoyed to have lived to see Christ publicly exalted by illustrious confessors at such a glorious assembly (the Diet of Augsburg).",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther", "Diet of Augsburg 1530"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-088",
+      "paragraph": 32,
+      "quote": "Thus was fulfilled what the Scripture says, “I will speak of Thy testimonies before kings.”(304)",
+      "claim_text": "The reading of the Augsburg Confession before Charles V is presented as fulfillment of the scriptural statement \"I will speak of Thy testimonies before kings.\"",
+      "claim_type": "theological",
+      "entities": ["Diet of Augsburg 1530"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-11-089",
+      "paragraph": 33,
+      "quote": "In the days of Paul, the gospel for which he was imprisoned was thus brought before the princes and nobles of the imperial city.",
+      "claim_text": "The apostle Paul, while imprisoned, had the gospel he preached brought before princes and nobles of the imperial city (Rome).",
+      "claim_type": "biographical",
+      "entities": ["Apostle Paul", "Rome"],
+      "needs_verification": true,
+      "extractor_note": "Refers to the biblical narrative of Paul's trial before Roman authorities (cf. Acts); included as a checkable historical/biographical claim about biblical-era events."
+    },
+    {
+      "id": "GC-11-090",
+      "paragraph": 33,
+      "quote": "“Since the apostolic age,” says a writer, “there has never been a greater work or a more magnificent confession.”(305)",
+      "claim_text": "A cited writer (footnote 305) states that since the apostolic age there had never been a greater work or more magnificent confession than the Augsburg Confession.",
+      "claim_type": "attributed_quote",
+      "entities": ["Augsburg Confession"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-091",
+      "paragraph": 34,
+      "quote": "“All that the Lutherans have said is true; we cannot deny it,” declared a papist bishop.",
+      "claim_text": "An unnamed Catholic bishop is quoted declaring, regarding the Augsburg Confession, \"All that the Lutherans have said is true; we cannot deny it.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Diet of Augsburg 1530"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-092",
+      "paragraph": 34,
+      "quote": "“Can you refute by sound reasons the Confession made by the elector and his allies?” asked another, of Doctor Eck. “With the writings of the apostles and prophets—no!” was the reply; “but with those of the Fathers and of the councils—yes!”",
+      "claim_text": "Doctor Eck is quoted (footnote 306) admitting he could not refute the Augsburg Confession using the writings of the apostles and prophets, but could using the Church Fathers and councils.",
+      "claim_type": "attributed_quote",
+      "entities": ["Johann Eck", "Augsburg Confession"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-093",
+      "paragraph": 34,
+      "quote": "“I understand,” responded the questioner. “The Lutherans, according to you, are in Scripture, and we are outside.”(306)",
+      "claim_text": "An unnamed questioner is quoted (footnote 306) responding to Doctor Eck that, by his own admission, the Lutherans stood on Scripture while the Catholics stood outside it.",
+      "claim_type": "attributed_quote",
+      "entities": ["Johann Eck"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-094",
+      "paragraph": 35,
+      "quote": "Some of the princes of Germany were won to the reformed faith.",
+      "claim_text": "Some princes of Germany were won to the reformed faith following the Diet of Augsburg.",
+      "claim_type": "event",
+      "entities": ["Diet of Augsburg 1530"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-095",
+      "paragraph": 35,
+      "quote": "The emperor himself declared that the Protestant articles were but the truth.",
+      "claim_text": "Charles V himself declared that the Protestant articles presented at Augsburg were the truth.",
+      "claim_type": "event",
+      "entities": ["Charles V", "Augsburg Confession"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-096",
+      "paragraph": 35,
+      "quote": "The Confession was translated into many languages, and circulated through all Europe, and it has been accepted by millions in succeeding generations as the expression of their faith.",
+      "claim_text": "The Augsburg Confession was translated into many languages, circulated throughout Europe, and has been accepted by millions in succeeding generations as an expression of their faith.",
+      "claim_type": "statistic",
+      "entities": ["Augsburg Confession"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-097",
+      "paragraph": 36,
+      "quote": "Could their eyes have been opened, they would have seen as marked evidence of divine presence and aid as was granted to a prophet of old.... And, lo, the mountain was filled with chariots and horses of fire, the army of heaven stationed to protect the man of God. Thus did angels guard the workers in the cause of the Reformation.",
+      "claim_text": "Angels guarded the workers in the cause of the Reformation, as in the account of Elisha's servant seeing the mountain filled with heavenly chariots and horses of fire.",
+      "claim_type": "theological",
+      "entities": ["Elisha"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-11-098",
+      "paragraph": 37,
+      "quote": "One of the principles most firmly maintained by Luther was that there should be no resort to secular power in support of the Reformation, and no appeal to arms for its defense.",
+      "claim_text": "Martin Luther firmly maintained the principle that there should be no resort to secular power in support of the Reformation and no appeal to arms for its defense.",
+      "claim_type": "biographical",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-099",
+      "paragraph": 37,
+      "quote": "he declared that “the doctrine of the gospel should be defended by God alone.... The less man meddled in the work, the more striking would be God’s intervention in its behalf. All the politic precautions suggested were, in his view, attributable to unworthy fear and sinful mistrust.”(308)",
+      "claim_text": "Martin Luther is quoted (footnote 308) declaring that the doctrine of the gospel should be defended by God alone and that proposed political/military precautions reflected unworthy fear and sinful mistrust.",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-100",
+      "paragraph": 38,
+      "quote": "Luther wrote: “Satan is putting forth his fury; ungodly pontiffs are conspiring; and we are threatened with war. Exhort the people to contend valiantly before the throne of the Lord, by faith and prayer, so that our enemies, vanquished by the Spirit of God, may be constrained to peace. Our chief want, our chief labor, is prayer; let the people know that they are now exposed to the edge of the sword and to the rage of Satan, and let them pray.”(309)",
+      "claim_text": "Martin Luther is quoted (footnote 309) writing that Satan and conspiring pontiffs threatened war, and exhorting the people to respond with prayer rather than arms.",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-101",
+      "paragraph": 39,
+      "quote": "Luther declared that the only weapon employed in this warfare should be “the sword of the Spirit.”",
+      "claim_text": "Regarding the reformed princes' contemplated defensive league, Luther declared that the only weapon that should be employed was \"the sword of the Spirit.\"",
+      "claim_type": "event",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-102",
+      "paragraph": 39,
+      "quote": "He wrote to the elector of Saxony: “We cannot on our conscience approve of the proposed alliance. We would rather die ten times than see our gospel cause one drop of blood to be shed. Our part is to be like lambs of the slaughter. The cross of Christ must be borne. Let your highness be without fear.... You cannot defend our faith: each one should believe at his own risk and peril.”(310)",
+      "claim_text": "Martin Luther is quoted (footnote 310) writing to the elector of Saxony that he could not in conscience approve a proposed defensive alliance and would rather die than see bloodshed for the gospel's cause.",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther", "Elector of Saxony"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-103",
+      "paragraph": 40,
+      "quote": "During the struggle at Augsburg, Luther “did not pass a day without devoting three hours at least to prayer, and they were hours selected from those the most favorable to study.”",
+      "claim_text": "During the struggle at the 1530 Diet of Augsburg, Luther devoted at least three hours each day to prayer, chosen from his most productive study hours.",
+      "claim_type": "biographical",
+      "entities": ["Martin Luther", "Diet of Augsburg 1530"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-104",
+      "paragraph": 40,
+      "quote": "“I know that Thou art our Father and our God,” he said, “and that Thou wilt scatter the persecutors of Thy children; for Thou art Thyself endangered with us. All this matter is Thine, and it is only by Thy constraint that we have put our hands to it. Defend us, then, O Father!”(311)",
+      "claim_text": "Martin Luther is quoted (footnote 311) praying during the Augsburg struggle that God, as Father, would defend His endangered cause.",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-105",
+      "paragraph": 41,
+      "quote": "To Melanchthon, who was crushed under the burden of anxiety and fear, he wrote: “Grace and peace in Christ—in Christ, I say, and not in the world. Amen. I hate with exceeding hatred those extreme cares which consume you. If the cause is unjust, abandon it; if the cause is just, why should we belie the promises of Him who commands us to sleep without fear?... Christ will not be wanting to the work of justice and of truth. He lives, He reigns; what fear, then, can we have?”(312)",
+      "claim_text": "Martin Luther is quoted (footnote 312) writing to a fear-stricken Melanchthon during the Augsburg crisis, urging trust that Christ lives and reigns and will not fail the cause.",
+      "claim_type": "attributed_quote",
+      "entities": ["Martin Luther", "Philip Melanchthon"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-11-106",
+      "paragraph": 42,
+      "quote": "God did listen to the cries of His servants. He gave to princes and ministers grace and courage to maintain the truth against the rulers of the darkness of this world.",
+      "claim_text": "God listened to the cries of the Reformation's servants and gave the princes and ministers grace and courage to maintain the truth.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-11-107",
+      "paragraph": 42,
+      "quote": "Saith the Lord, “Behold, I lay in Zion a chief corner-stone, elect, precious: and he that believeth on Him shall not be confounded.”(313)",
+      "claim_text": "The chapter closes by invoking the scriptural promise that God lays in Zion a chief cornerstone, elect and precious, and that whoever believes on Him will not be confounded.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-11-108",
+      "paragraph": 42,
+      "quote": "The Protestant Reformers had built on Christ, and the gates of hell could not prevail against them.",
+      "claim_text": "The Protestant Reformers had built on Christ, so that the gates of hell could not prevail against them.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    }
+  ]
+}
