@@ -2058,7 +2058,7 @@
       "stages": {
         "extract": "done",
         "verify": "done",
-        "defend": "pending",
+        "defend": "done",
         "impact": "pending"
       },
       "counts": {
@@ -2087,9 +2087,16 @@
           "low_confidence": 2,
           "searches": 7,
           "clusters": 6
+        },
+        "defend": {
+          "examined": 0,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 0,
+          "searches": 0
         }
       },
-      "updated_at": "2026-07-05T13:13:35Z"
+      "updated_at": "2026-07-05T13:20:48Z"
     },
     "34": {
       "title": "Spiritualism",
@@ -2098,8 +2105,8 @@
       "stages": {
         "extract": "done",
         "verify": "done",
-        "defend": "pending",
-        "impact": "pending"
+        "defend": "done",
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -2127,9 +2134,26 @@
           "low_confidence": 6,
           "searches": 7,
           "clusters": 5
+        },
+        "defend": {
+          "examined": 1,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 1,
+          "searches": 0
+        },
+        "impact": {
+          "scored": 1,
+          "load_bearing": 0,
+          "top_impact": [
+            {
+              "id": "GC-34-014",
+              "score": 2
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-05T13:15:26Z"
+      "updated_at": "2026-07-05T13:26:17Z"
     },
     "35": {
       "title": "Aims Of The Papacy",
@@ -2171,7 +2195,7 @@
       "stages": {
         "extract": "done",
         "verify": "done",
-        "defend": "pending",
+        "defend": "done",
         "impact": "pending"
       },
       "counts": {
@@ -2199,9 +2223,16 @@
           "low_confidence": 3,
           "searches": 7,
           "clusters": 9
+        },
+        "defend": {
+          "examined": 2,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 2,
+          "searches": 0
         }
       },
-      "updated_at": "2026-07-05T13:13:46Z"
+      "updated_at": "2026-07-05T13:22:50Z"
     },
     "37": {
       "title": "The Scriptures A Safeguard",

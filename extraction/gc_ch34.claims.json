@@ -1,0 +1,580 @@
+{
+  "chapter": 34,
+  "chapter_title": "Spiritualism",
+  "stage": "extraction",
+  "generated_at": "2026-07-05",
+  "notes": "Chapter is predominantly theological/polemical argument against Spiritualism, built heavily on scriptural quotation. Extraction captures: (1) attributed biblical quotations (majority of claims, since nearly every paragraph is scaffolded on Scripture citations with footnote markers (984)-(999)); (2) checkable historical/sociological claims about the 19th-century Spiritualist movement (origin in 'rapping' phenomena, scale of adherents, penetration into science/church/legislatures/royal courts, doctrinal evolution toward a 'Christian guise'); (3) theological/supernatural causal claims (Satan's/fallen angels' direct agency) logged with needs_verification:false per pipeline rules. No paragraph was left without at least one logged claim.",
+  "claims": [
+    {
+      "id": "GC-34-001",
+      "paragraph": 1,
+      "quote": "The doctrine of natural immortality, first borrowed from the pagan philosophy, and in the darkness of the great apostasy incorporated into the Christian faith, has supplanted the truth, so plainly taught in Scripture, that “the dead know not anything.”",
+      "claim_text": "The doctrine of the natural immortality of the soul originated in pagan philosophy and was incorporated into Christian teaching during a period of apostasy from apostolic Christianity, displacing the biblical teaching that the dead know not anything.",
+      "claim_type": "causal",
+      "entities": ["doctrine of the immortality of the soul", "pagan philosophy", "Christian church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-002",
+      "paragraph": 1,
+      "quote": "“the dead know not anything.”",
+      "claim_text": "Ecclesiastes 9:5 (KJV) states that 'the dead know not any thing.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Ecclesiastes", "Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-003",
+      "paragraph": 1,
+      "quote": "Multitudes have come to believe that it is the spirits of the dead who are the “ministering spirits sent forth to minister for them who shall be heirs of salvation.”",
+      "claim_text": "In 19th-century popular theology, many Christians came to believe that the 'ministering spirits' described in Hebrews 1:14 were the spirits of deceased human beings returning to minister to the living.",
+      "claim_type": "event",
+      "entities": ["popular theology", "Hebrews 1:14"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-004",
+      "paragraph": 2,
+      "quote": "The doctrine of man’s consciousness in death, especially the belief that the spirits of the dead return to minister to the living, has prepared the way for modern Spiritualism.",
+      "claim_text": "The doctrine of conscious existence after death, particularly the belief that departed spirits return to minister to the living, prepared the way for the emergence of modern Spiritualism.",
+      "claim_type": "causal",
+      "entities": ["modern Spiritualism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-005",
+      "paragraph": 2,
+      "quote": "Here is a channel regarded as sacred, through which Satan works for the accomplishment of his purposes. The fallen angels who do his bidding appear as messengers from the spirit world.",
+      "claim_text": "Fallen angels acting on Satan's behalf appear as messengers from the spirit world through the channel of belief in communication with the dead.",
+      "claim_type": "theological",
+      "entities": ["Satan", "fallen angels"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-34-006",
+      "paragraph": 3,
+      "quote": "He has power to bring before men the appearance of their departed friends. The counterfeit is perfect; the familiar look, the words, the tone, are reproduced with marvelous distinctness.",
+      "claim_text": "Satan has the supernatural power to perfectly reproduce the appearance, voice, and mannerisms of a deceased person in spiritualist manifestations.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-34-007",
+      "paragraph": 3,
+      "quote": "Many are comforted with the assurance that their loved ones are enjoying the bliss of heaven; and without suspicion of danger, they give ear to “seducing spirits, and doctrines of devils.”",
+      "claim_text": "Participants in spiritualist communications are commonly told that their deceased loved ones are enjoying the bliss of heaven.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-008",
+      "paragraph": 3,
+      "quote": "“seducing spirits, and doctrines of devils.”",
+      "claim_text": "1 Timothy 4:1 (KJV) refers to 'seducing spirits, and doctrines of devils.'",
+      "claim_type": "attributed_quote",
+      "entities": ["1 Timothy 4:1", "Paul"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-009",
+      "paragraph": 4,
+      "quote": "Satan causes those to appear who went into the grave unprepared. They claim to be happy in heaven, and even to occupy exalted positions there;",
+      "claim_text": "Satan causes the spirits of persons who died spiritually unprepared to appear in spiritualist manifestations claiming to be happy and exalted in heaven.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-34-010",
+      "paragraph": 4,
+      "quote": "and thus the error is widely taught, that no difference is made between the righteous and the wicked.",
+      "claim_text": "Spiritualist teaching widely held that no distinction is made in the afterlife between the righteous and the wicked.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-011",
+      "paragraph": 4,
+      "quote": "The pretended visitants from the world of spirits sometimes utter cautions and warnings which prove to be correct.",
+      "claim_text": "Spiritualist manifestations ('visitants from the world of spirits') have sometimes given warnings that proved to be accurate.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-012",
+      "paragraph": 4,
+      "quote": "The fact that they state some truths, and are able at times to foretell future events, gives to their statements an appearance of reliability;",
+      "claim_text": "Spiritualist communications have at times stated truths and correctly foretold future events, lending an appearance of reliability to their statements.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-013",
+      "paragraph": 4,
+      "quote": "The spirits deny the deity of Christ, and place even the Creator on a level with themselves.",
+      "claim_text": "Spiritualist communications ('the spirits') deny the deity of Christ and place the Creator on the same level as themselves.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-014",
+      "paragraph": 4,
+      "quote": "Thus under a new disguise the great rebel still carries on his warfare against God, begun in heaven, and for nearly six thousand years continued upon the earth.",
+      "claim_text": "Satan's rebellion against God, which began in heaven, has continued on earth for nearly six thousand years.",
+      "claim_type": "date",
+      "entities": ["Satan"],
+      "extractor_note": "Reflects a young-earth biblical chronology embedded in theological narration; included as a checkable chronological claim rather than excluded as purely theological.",
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-015",
+      "paragraph": 5,
+      "quote": "Many endeavor to account for spiritual manifestations by attributing them wholly to fraud and sleight of hand on the part of the medium. But while it is true that the results of trickery have often been palmed off as genuine manifestations, there have been, also, marked exhibitions of supernatural power.",
+      "claim_text": "Some spiritualist manifestations resulted from fraud and sleight of hand by mediums, which was passed off as genuine phenomena.",
+      "claim_type": "event",
+      "entities": ["Spiritualism", "mediums"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-016",
+      "paragraph": 5,
+      "quote": "The mysterious rapping with which modern Spiritualism began was not the result of human trickery or cunning, but was the direct work of evil angels, who thus introduced one of the most successful of soul-destroying delusions.",
+      "claim_text": "Modern Spiritualism began with mysterious 'rapping' phenomena.",
+      "claim_type": "event",
+      "entities": ["modern Spiritualism", "Fox sisters", "Hydesville rappings"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-017",
+      "paragraph": 5,
+      "quote": "The mysterious rapping with which modern Spiritualism began was not the result of human trickery or cunning, but was the direct work of evil angels, who thus introduced one of the most successful of soul-destroying delusions.",
+      "claim_text": "The rapping phenomena that began modern Spiritualism were not the result of human trickery but the direct work of evil angels.",
+      "claim_type": "theological",
+      "entities": ["evil angels", "modern Spiritualism"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-34-018",
+      "paragraph": 5,
+      "quote": "Many will be ensnared through the belief that Spiritualism is a merely human imposture; when brought face to face with manifestations which they cannot but regard as supernatural, they will be deceived, and will be led to accept them as the great power of God.",
+      "claim_text": "People who believe Spiritualism is merely a human imposture will be more easily deceived when confronted with manifestations they perceive as supernatural.",
+      "claim_type": "theological",
+      "entities": ["Spiritualism"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-34-019",
+      "paragraph": 6,
+      "quote": "It was by satanic aid that Pharaoh’s magicians were enabled to counterfeit the work of God.",
+      "claim_text": "According to the biblical account in Exodus, Pharaoh's magicians were able to counterfeit the miracles performed by Moses and Aaron through satanic aid.",
+      "claim_type": "event",
+      "entities": ["Pharaoh's magicians", "Moses", "Aaron", "Exodus"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-020",
+      "paragraph": 6,
+      "quote": "“the working of Satan with all power and signs and lying wonders, and with all deceivableness of unrighteousness.”(984)",
+      "claim_text": "2 Thessalonians states that the coming of the lawless one will be accompanied by 'the working of Satan with all power and signs and lying wonders, and with all deceivableness of unrighteousness.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul", "2 Thessalonians"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-021",
+      "paragraph": 6,
+      "quote": "“He doeth great wonders, so that he maketh fire come down from heaven on the earth in the sight of men, and deceiveth them that dwell on the earth by the means of those miracles which he had power to do.”(985)",
+      "claim_text": "The book of Revelation, attributed to the apostle John, describes a beast that 'doeth great wonders, so that he maketh fire come down from heaven on the earth in the sight of men, and deceiveth them that dwell on the earth by the means of those miracles which he had power to do.'",
+      "claim_type": "attributed_quote",
+      "entities": ["John", "Revelation 13"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-022",
+      "paragraph": 7,
+      "quote": "He who could appear clothed with the brightness of the heavenly seraphs before Christ in the wilderness of temptation, comes to men in the most attractive manner, as an angel of light.",
+      "claim_text": "According to the Gospel temptation narrative, Satan appeared before Christ in the wilderness of temptation.",
+      "claim_type": "event",
+      "entities": ["Satan", "Jesus Christ", "wilderness of temptation"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-023",
+      "paragraph": 7,
+      "quote": "That mighty being who could take the world’s Redeemer to an exceedingly high mountain, and bring before Him all the kingdoms of the earth and the glory of them, will present his temptations to men in a manner to pervert the senses of all who are not shielded by divine power.",
+      "claim_text": "According to the Gospel temptation narrative, Satan took Jesus to an exceedingly high mountain and showed Him all the kingdoms of the earth and their glory.",
+      "claim_type": "event",
+      "entities": ["Satan", "Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-024",
+      "paragraph": 7,
+      "quote": "The wisdom which Spiritualism imparts is that described by the apostle James, which “descendeth not from above, but is earthly, sensual, devilish.”(986)",
+      "claim_text": "The Epistle of James describes a wisdom that 'descendeth not from above, but is earthly, sensual, devilish.'",
+      "claim_type": "attributed_quote",
+      "entities": ["James", "Epistle of James"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-025",
+      "paragraph": 8,
+      "quote": "“Ye shall be as gods,” he declares, “knowing good and evil.”(987)",
+      "claim_text": "According to Genesis 3, the serpent told Eve, 'Ye shall be as gods, knowing good and evil.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Genesis 3", "serpent", "Eve"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-026",
+      "paragraph": 8,
+      "quote": "Spiritualism teaches “that man is the creature of progression; that it is his destiny from his birth to progress, even to eternity, toward the Godhead.”",
+      "claim_text": "19th-century Spiritualist teaching held that man is 'the creature of progression,' destined from birth to progress eternally toward the Godhead.",
+      "claim_type": "attributed_quote",
+      "entities": ["Spiritualism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-027",
+      "paragraph": 8,
+      "quote": "And again: “Each mind will judge itself and not another.” “The judgment will be right, because it is the judgment of self.... The throne is within you.”",
+      "claim_text": "Spiritualist teaching held that 'each mind will judge itself and not another' and that 'the throne is within you.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Spiritualism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-028",
+      "paragraph": 8,
+      "quote": "Said a Spiritualistic teacher, as the “spiritual consciousness” awoke within him, “My fellow-men, all were unfallen demigods.”",
+      "claim_text": "An unnamed Spiritualistic teacher is quoted, upon the awakening of his 'spiritual consciousness,' declaring 'My fellow-men, all were unfallen demigods.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Spiritualism"],
+      "extractor_note": "Speaker is unnamed in the source text; verification should attempt to trace this quotation to a specific named source (e.g., in GC's appendix references).",
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-029",
+      "paragraph": 8,
+      "quote": "And another declares, “Any just and perfect being is Christ.”",
+      "claim_text": "An unnamed Spiritualist writer is quoted as declaring, 'Any just and perfect being is Christ.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Spiritualism"],
+      "extractor_note": "Speaker is unnamed in the source text.",
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-030",
+      "paragraph": 9,
+      "quote": "Satan has substituted the sinful, erring nature of man himself, as the only object of adoration, the only rule of judgment, or standard of character.",
+      "claim_text": "Satan has substituted the sinful, erring nature of man as the object of adoration and standard of judgment in place of God's righteousness and law.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-34-031",
+      "paragraph": 10,
+      "quote": "It is a law both of the intellectual and the spiritual nature, that by beholding, we become changed.",
+      "claim_text": "It is a law of both the intellectual and spiritual nature that a person becomes changed by what they behold.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-34-032",
+      "paragraph": 11,
+      "quote": "He has destroyed and is destroying thousands through the indulgence of the passions, thus brutalizing the entire nature of man.",
+      "claim_text": "Satan has destroyed and continues to destroy thousands of people through the indulgence of the passions.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "extractor_note": "Contains a quantity term ('thousands') but is framed as a direct supernatural causal claim about Satan's action rather than as an independently documented historical statistic.",
+      "needs_verification": false
+    },
+    {
+      "id": "GC-34-033",
+      "paragraph": 11,
+      "quote": "he declares, through the spirits, that “true knowledge places man above all law;” that “whatever is, is right;” that “God doth not condemn;” and that “_all_ sins which are committed are innocent.”",
+      "claim_text": "Spiritualist communications ('the spirits') declared that 'true knowledge places man above all law,' 'whatever is, is right,' 'God doth not condemn,' and 'all sins which are committed are innocent.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Spiritualism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-034",
+      "paragraph": 12,
+      "quote": "The Bible declares that the dead know not anything, that their thoughts have perished; they have no part in anything that is done under the sun; they know nothing of the joys or sorrows of those who were dearest to them on earth.",
+      "claim_text": "The book of Ecclesiastes teaches that the dead know nothing, their thoughts have perished, and they have no part in anything done under the sun.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ecclesiastes", "Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-035",
+      "paragraph": 13,
+      "quote": "In the days of the Hebrews there was a class of people who claimed, as do the Spiritualists of to-day, to hold communication with the dead.",
+      "claim_text": "In ancient Israelite society, there existed a class of people who claimed to hold communication with the dead.",
+      "claim_type": "biographical",
+      "entities": ["ancient Israel", "necromancy"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-036",
+      "paragraph": 13,
+      "quote": "But the “familiar spirits,” as these visitants from other worlds were called, are declared by the Bible to be the “spirits of devils.”(988)",
+      "claim_text": "The Bible refers to the 'familiar spirits' consulted by ancient necromancers as 'spirits of devils.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-037",
+      "paragraph": 13,
+      "quote": "The work of dealing with familiar spirits was pronounced an abomination to the Lord, and was solemnly forbidden under penalty of death.(989)",
+      "claim_text": "Mosaic law declared the practice of consulting familiar spirits an abomination to the Lord and prescribed the death penalty for it.",
+      "claim_type": "event",
+      "entities": ["Mosaic law", "ancient Israel"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-038",
+      "paragraph": 13,
+      "quote": "But Spiritualism, which numbers its converts by hundreds of thousands, yea, by millions, which has made its way into scientific circles, which has invaded churches, and has found favor in legislative bodies, and even in the courts of kings,—this mammoth deception is but a revival, in a new disguise, of the witchcraft condemned and prohibited of old.",
+      "claim_text": "By the time of writing (circa 1911), Spiritualism numbered its adherents by the hundreds of thousands, and by some estimates millions, worldwide.",
+      "claim_type": "statistic",
+      "entities": ["Spiritualism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-039",
+      "paragraph": 13,
+      "quote": "which has made its way into scientific circles,",
+      "claim_text": "By circa 1911, Spiritualism had gained adherents and influence within scientific circles.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-040",
+      "paragraph": 13,
+      "quote": "which has invaded churches,",
+      "claim_text": "By circa 1911, Spiritualist beliefs and practices had spread into Christian churches.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-041",
+      "paragraph": 13,
+      "quote": "and has found favor in legislative bodies,",
+      "claim_text": "By circa 1911, Spiritualism had found favor among members of legislative bodies.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-042",
+      "paragraph": 13,
+      "quote": "and even in the courts of kings,",
+      "claim_text": "By circa 1911, Spiritualism had found favor even within royal courts.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-043",
+      "paragraph": 13,
+      "quote": "this mammoth deception is but a revival, in a new disguise, of the witchcraft condemned and prohibited of old.",
+      "claim_text": "Modern Spiritualism is a revival, in new form, of ancient witchcraft.",
+      "claim_type": "interpretive",
+      "entities": ["Spiritualism"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-34-044",
+      "paragraph": 14,
+      "quote": "The Spiritualist teachers virtually declare, “Every one that doeth evil is good in the sight of the Lord, and He delighteth in them; or, Where is the God of judgment?”(990)",
+      "claim_text": "The book of Malachi records the rhetorical objection, 'Every one that doeth evil is good in the sight of the Lord, and He delighteth in them; or, Where is the God of judgment?'",
+      "claim_type": "attributed_quote",
+      "entities": ["Malachi"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-045",
+      "paragraph": 14,
+      "quote": "Saith the word of God, “Woe unto them that call evil good, and good evil; that put darkness for light, and light for darkness.”(991)",
+      "claim_text": "Isaiah pronounces, 'Woe unto them that call evil good, and good evil; that put darkness for light, and light for darkness.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-046",
+      "paragraph": 15,
+      "quote": "as the Roman guard that watched the tomb of Jesus spread the lying report which the priests and elders put into their mouths to disprove His resurrection",
+      "claim_text": "According to the Gospel account, the Roman guard assigned to watch Jesus' tomb spread a false report, supplied to them by the priests and elders, to deny His resurrection.",
+      "claim_type": "event",
+      "entities": ["Roman guard", "Jesus Christ", "priests and elders", "Matthew 28"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-047",
+      "paragraph": 15,
+      "quote": "so do the believers in spiritual manifestations try to make it appear that there is nothing miraculous in the circumstances of our Saviour’s life.",
+      "claim_text": "Believers in spiritual manifestations sought to portray the events of Jesus' life as having nothing miraculous about them.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-048",
+      "paragraph": 15,
+      "quote": "After thus seeking to put Jesus in the background, they call attention to their own miracles, declaring that these far exceed the works of Christ.",
+      "claim_text": "Spiritualists claimed that the miracles associated with their manifestations far exceeded the works of Christ.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-049",
+      "paragraph": 16,
+      "quote": "It is true that Spiritualism is now changing its form, and, veiling some of its more objectionable features, is assuming a Christian guise.",
+      "claim_text": "By the time of writing (early 20th century), Spiritualism was evolving to present itself in a more Christian-appearing form, veiling some of its earlier objectionable features.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-050",
+      "paragraph": 17,
+      "quote": "While it formerly denounced Christ and the Bible, it now _professes_ to accept both.",
+      "claim_text": "Spiritualism, which had formerly denounced Christ and the Bible, later professed to accept both.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-051",
+      "paragraph": 18,
+      "quote": "There are few who have any just conception of the deceptive power of Spiritualism and the danger of coming under its influence.",
+      "claim_text": "Few people have an accurate understanding of the deceptive power of Spiritualism and the danger of coming under its influence.",
+      "claim_type": "interpretive",
+      "entities": ["Spiritualism"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-34-052",
+      "paragraph": 19,
+      "quote": "Having achieved their overthrow, the tempter will employ them as his agents to lure others to ruin.",
+      "claim_text": "Satan employs those he has overthrown as agents to lure others to ruin.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-34-053",
+      "paragraph": 20,
+      "quote": "Says the prophet Isaiah: “When they shall say unto you, Seek unto them that have familiar spirits, and unto wizards that peep, and that mutter: should not a people seek unto their God? for the living to the dead? To the law and to the testimony: if they speak not according to this word, it is because there is no light in them.”(992)",
+      "claim_text": "The prophet Isaiah is quoted warning against seeking familiar spirits and wizards, asking 'should not a people seek unto their God? for the living to the dead?' and directing attention 'to the law and to the testimony.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-054",
+      "paragraph": 20,
+      "quote": "“Because they received not the love of the truth, that they might be saved,” therefore “God shall send them strong delusion, that they should believe a lie.”(993)",
+      "claim_text": "2 Thessalonians states that because some 'received not the love of the truth, that they might be saved,' God 'shall send them strong delusion, that they should believe a lie.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul", "2 Thessalonians"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-055",
+      "paragraph": 21,
+      "quote": "Satan can quote Scripture now as in the days of Christ, and he will pervert its teachings to sustain his delusions.",
+      "claim_text": "According to the Gospel temptation narrative, Satan quoted Scripture to Christ.",
+      "claim_type": "event",
+      "entities": ["Satan", "Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-056",
+      "paragraph": 21,
+      "quote": "The people of God should be able to meet him, as did our Saviour, with the words, “It is written.”",
+      "claim_text": "According to the Gospel narrative, Jesus responded to Satan's temptations with the words 'It is written.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Matthew 4"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-057",
+      "paragraph": 22,
+      "quote": "Just before us is the “hour of temptation, which shall come upon all the world, to try them that dwell upon the earth.”(994)",
+      "claim_text": "Revelation 3:10 refers to an 'hour of temptation, which shall come upon all the world, to try them that dwell upon the earth.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation 3:10"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-058",
+      "paragraph": 22,
+      "quote": "“Because thou hast kept the word of My patience, I also will keep thee,”(995) is the Saviour’s promise.",
+      "claim_text": "Revelation 3:10 records Christ's promise, 'Because thou hast kept the word of My patience, I also will keep thee.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation 3:10", "Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-059",
+      "paragraph": 23,
+      "quote": "“We have made a covenant with death, and with hell are we at agreement; when the overflowing scourge shall pass through, it shall not come unto us: for we have made lies our refuge, and under falsehood have we hid ourselves.”(996)",
+      "claim_text": "Isaiah 28 records a statement attributed to the people, 'We have made a covenant with death, and with hell are we at agreement... for we have made lies our refuge, and under falsehood have we hid ourselves.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah 28"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-060",
+      "paragraph": 24,
+      "quote": "Marvelous beyond expression is the blindness of the people of this generation.",
+      "claim_text": "The people of the current generation display a marvelous blindness regarding spiritual deception.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-34-061",
+      "paragraph": 25,
+      "quote": "The foundation of his work was laid by the assurance given to Eve in Eden, “Ye shall not surely die.” “In the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil.”(997)",
+      "claim_text": "According to Genesis 3, the serpent told Eve in Eden, 'Ye shall not surely die... In the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Genesis 3", "Eve", "serpent"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-062",
+      "paragraph": 25,
+      "quote": "Says the prophet: “I saw three unclean spirits like frogs; ... they are the spirits of devils, working miracles, which go forth unto the kings of the earth and of the whole world, to gather them to the battle of that great day of God Almighty.”(998)",
+      "claim_text": "The book of Revelation describes John seeing 'three unclean spirits like frogs... the spirits of devils, working miracles, which go forth unto the kings of the earth and of the whole world, to gather them to the battle of that great day of God Almighty.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation 16", "John"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-34-063",
+      "paragraph": 26,
+      "quote": "Saith the Lord God: “Judgment also will I lay to the line, and righteousness to the plummet: and the hail shall sweep away the refuge of lies, and the waters shall overflow the hiding-place. And your covenant with death shall be disannulled, and your agreement with hell shall not stand; when the overflowing scourge shall pass through, then ye shall be trodden down by it.”(999)",
+      "claim_text": "Isaiah 28 records God's declaration, 'Judgment also will I lay to the line, and righteousness to the plummet... your covenant with death shall be disannulled, and your agreement with hell shall not stand.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah 28"],
+      "needs_verification": true
+    }
+  ]
+}

@@ -1,0 +1,1017 @@
+{
+  "chapter": 34,
+  "chapter_title": "Spiritualism",
+  "stage": "adversarial",
+  "generated_at": "2026-07-05",
+  "notes": "Defender stage. searches: ~0; full defenses: 0, cheap audits: 1. Scope: only 1 anachronistic claim (GC-34-014, Ussherian 'nearly six thousand years'). 0 contradicted, 0 misquotation, 0 disputed. Cheap Read-only audit re-read the claim in chapter context (source/chapters/gc_ch34.txt) and audited the verifier's rationale/period_historiography; no concrete lead surfaced, so no search spent. Result: defense_failed (anachronism stands, consistent with corpus pattern GC-18-072). All other claims carry forward unchanged from verification.",
+  "claims": [
+    {
+      "id": "GC-34-001",
+      "paragraph": 1,
+      "quote": "The doctrine of natural immortality, first borrowed from the pagan philosophy, and in the darkness of the great apostasy incorporated into the Christian faith, has supplanted the truth, so plainly taught in Scripture, that “the dead know not anything.”",
+      "claim_text": "The doctrine of the natural immortality of the soul originated in pagan philosophy and was incorporated into Christian teaching during a period of apostasy from apostolic Christianity, displacing the biblical teaching that the dead know not anything.",
+      "claim_type": "causal",
+      "entities": ["doctrine of the immortality of the soul", "pagan philosophy", "Christian church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The historical core—that the doctrine of the soul's natural immortality has Greek/Platonic roots and entered Christian thought under Hellenistic philosophical influence—is a recognized scholarly position (Cullmann's classic thesis; the 2024 Humanities study 'Plato's Shadow' documents the doctrine's encroachment on the early church). The 'great apostasy' framing and the claim that it 'supplanted' a formerly unanimous biblical view are theological/polemical and contested (many scholars find diverse afterlife concepts already in Second Temple Judaism). Supported for the Hellenic-origin claim; the apostasy narrative is interpretive. source_quality: academic-partial (abstract/review level).",
+        "modern_consensus": "Scholars widely acknowledge Platonic/Hellenistic influence on the Christian doctrine of the immortal soul, though whether it 'displaced' an original biblical monism is debated.",
+        "sources": [
+          {"title": "Oscar Cullmann, Immortality of the Soul or Resurrection of the Dead?", "url": "https://www.religion-online.org/book/immortality-of-the-soul-or-resurrection-of-the-dead/", "source_class": "academic", "supports_verdict": true, "note": "Argues immortality-of-soul is a Greek idea taken up by later Christian theologians, distinct from NT resurrection hope."},
+          {"title": "Plato's Shadow: The Encroaching Doctrine of the Soul's Immortality in the Early Church, Humanities 13(3):77 (2024)", "url": "https://www.mdpi.com/2076-0787/13/3/77", "source_class": "academic", "supports_verdict": true, "note": "Peer-reviewed study tracing Platonic influence on early-church soul doctrine."}
+        ]
+      }
+    },
+    {
+      "id": "GC-34-002",
+      "paragraph": 1,
+      "quote": "“the dead know not anything.”",
+      "claim_text": "Ecclesiastes 9:5 (KJV) states that 'the dead know not any thing.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Ecclesiastes", "Bible"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV rendering of Ecclesiastes 9:5, 'the dead know not any thing.'",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-003",
+      "paragraph": 1,
+      "quote": "Multitudes have come to believe that it is the spirits of the dead who are the “ministering spirits sent forth to minister for them who shall be heirs of salvation.”",
+      "claim_text": "In 19th-century popular theology, many Christians came to believe that the 'ministering spirits' described in Hebrews 1:14 were the spirits of deceased human beings returning to minister to the living.",
+      "claim_type": "event",
+      "entities": ["popular theology", "Hebrews 1:14"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Consistent with the Victorian culture of consolation and the Swedenborgian/Spiritualist milieu, in which the belief that departed loved ones survive as active, ministering spirits was widespread and formed part of the ground on which Spiritualism grew. No dedicated statistic quantifies 'multitudes' identifying Hebrews 1:14 angels with the dead specifically; the general belief is documented, so low confidence.",
+        "sources": [
+          {"title": "Andrew Jackson Davis (Summerland/ministering departed spirits), Encyclopedia.com", "url": "https://www.encyclopedia.com/people/philosophy-and-religion/other-religious-beliefs-biographies/andrew-jackson-davis", "source_class": "encyclopedia", "supports_verdict": true, "note": "Documents the doctrine that the dead continue as active spirits, foundational to popular consolation belief."}
+        ]
+      }
+    },
+    {
+      "id": "GC-34-004",
+      "paragraph": 2,
+      "quote": "The doctrine of man’s consciousness in death, especially the belief that the spirits of the dead return to minister to the living, has prepared the way for modern Spiritualism.",
+      "claim_text": "The doctrine of conscious existence after death, particularly the belief that departed spirits return to minister to the living, prepared the way for the emergence of modern Spiritualism.",
+      "claim_type": "causal",
+      "entities": ["modern Spiritualism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Historians of American Spiritualism locate its roots in prevailing beliefs about the conscious, surviving soul—channeled through Swedenborgianism, mesmerism, and Andrew Jackson Davis's harmonial philosophy—which predisposed a large public to accept spirit communication. The causal link from belief in post-mortem consciousness to Spiritualism is a mainstream historiographical observation. White frames it theologically, but the underlying continuity is documented.",
+        "modern_consensus": "Modern Spiritualism grew out of existing Swedenborgian and liberal-Protestant beliefs in an active surviving soul.",
+        "sources": [
+          {"title": "D. K. Nartonis, The Rise of 19th-Century American Spiritualism, 1854-1873, JSSR (2010)", "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1468-5906.2010.01515.x", "source_class": "academic", "supports_verdict": true, "note": "Traces Spiritualism's emergence from prior religious currents."},
+          {"title": "Andrew Jackson Davis and Spiritualist Constructions of Religion(s), Religion and American Culture (Cambridge)", "url": "https://www.cambridge.org/core/journals/religion-and-american-culture/article/abs/andrew-jackson-davis-and-spiritualist-constructions-of-religions/82F792B9372459020FA3C7D61F8ED582", "source_class": "academic", "supports_verdict": true, "note": "On Davis's harmonial roots of Spiritualist belief in surviving spirits."}
+        ]
+      }
+    },
+    {
+      "id": "GC-34-005",
+      "paragraph": 2,
+      "quote": "Here is a channel regarded as sacred, through which Satan works for the accomplishment of his purposes. The fallen angels who do his bidding appear as messengers from the spirit world.",
+      "claim_text": "Fallen angels acting on Satan's behalf appear as messengers from the spirit world through the channel of belief in communication with the dead.",
+      "claim_type": "theological",
+      "entities": ["Satan", "fallen angels"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural/theological claim about the agency of Satan and fallen angels; not empirically checkable by historiography. Logged for centrality analysis. Extractor's false-flag is appropriate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-006",
+      "paragraph": 3,
+      "quote": "He has power to bring before men the appearance of their departed friends. The counterfeit is perfect; the familiar look, the words, the tone, are reproduced with marvelous distinctness.",
+      "claim_text": "Satan has the supernatural power to perfectly reproduce the appearance, voice, and mannerisms of a deceased person in spiritualist manifestations.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural/theological claim about Satan's powers; not empirically verifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-007",
+      "paragraph": 3,
+      "quote": "Many are comforted with the assurance that their loved ones are enjoying the bliss of heaven; and without suspicion of danger, they give ear to “seducing spirits, and doctrines of devils.”",
+      "claim_text": "Participants in spiritualist communications are commonly told that their deceased loved ones are enjoying the bliss of heaven.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Central to Spiritualist practice: mediums routinely conveyed that the departed had passed into a happy afterlife. Andrew Jackson Davis's 'Summerland'—a paradisal after-death state to which souls progress—was standard consolation doctrine, and the reassurance of loved ones' bliss was the movement's chief emotional appeal.",
+        "sources": [
+          {"title": "Summerland, Encyclopedia.com", "url": "https://www.encyclopedia.com/religion/legal-and-political-magazines/summerland", "source_class": "encyclopedia", "supports_verdict": true, "note": "Spiritualist paradisal afterlife state coined by A. J. Davis (1845)."}
+        ]
+      }
+    },
+    {
+      "id": "GC-34-008",
+      "paragraph": 3,
+      "quote": "“seducing spirits, and doctrines of devils.”",
+      "claim_text": "1 Timothy 4:1 (KJV) refers to 'seducing spirits, and doctrines of devils.'",
+      "claim_type": "attributed_quote",
+      "entities": ["1 Timothy 4:1", "Paul"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV rendering of 1 Timothy 4:1, 'giving heed to seducing spirits, and doctrines of devils.'",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-009",
+      "paragraph": 4,
+      "quote": "Satan causes those to appear who went into the grave unprepared. They claim to be happy in heaven, and even to occupy exalted positions there;",
+      "claim_text": "Satan causes the spirits of persons who died spiritually unprepared to appear in spiritualist manifestations claiming to be happy and exalted in heaven.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural/theological claim about Satan's agency; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-010",
+      "paragraph": 4,
+      "quote": "and thus the error is widely taught, that no difference is made between the righteous and the wicked.",
+      "claim_text": "Spiritualist teaching widely held that no distinction is made in the afterlife between the righteous and the wicked.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Spiritualist theology (following A. J. Davis) rejected eternal hell and taught universal, endless progression: after death every soul enters one of a series of spheres according to character and continues to grow toward perfection. There is thus no permanent, categorical division between righteous and wicked, and no everlasting punishment—matching White's characterization, though Spiritualists did affirm differing initial post-mortem states.",
+        "sources": [
+          {"title": "Andrew Jackson Davis (seven heavens / continual growth, no hell), Encyclopedia.com", "url": "https://www.encyclopedia.com/people/philosophy-and-religion/other-religious-beliefs-biographies/andrew-jackson-davis", "source_class": "encyclopedia", "supports_verdict": true, "note": "All continue working out salvation; no eternal damnation."}
+        ]
+      }
+    },
+    {
+      "id": "GC-34-011",
+      "paragraph": 4,
+      "quote": "The pretended visitants from the world of spirits sometimes utter cautions and warnings which prove to be correct.",
+      "claim_text": "Spiritualist manifestations ('visitants from the world of spirits') have sometimes given warnings that proved to be accurate.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "medium",
+        "rationale": "The claim asserts that spirit communications sometimes produced veridical (accurate) warnings. Anecdotal reports of ostensibly accurate séance messages are abundantly documented, but historiography cannot establish the paranormal accuracy of such warnings as objective fact. The claim's truth-value rests on the reality of a supernatural phenomenon and is therefore unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-012",
+      "paragraph": 4,
+      "quote": "The fact that they state some truths, and are able at times to foretell future events, gives to their statements an appearance of reliability;",
+      "claim_text": "Spiritualist communications have at times stated truths and correctly foretold future events, lending an appearance of reliability to their statements.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "medium",
+        "rationale": "Like GC-34-011, this asserts genuine predictive accuracy of spirit communications. Contemporaries reported such incidents, but historiography cannot confirm the paranormal claim of foretelling future events; the proposition is unverifiable in principle.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-013",
+      "paragraph": 4,
+      "quote": "The spirits deny the deity of Christ, and place even the Creator on a level with themselves.",
+      "claim_text": "Spiritualist communications ('the spirits') deny the deity of Christ and place the Creator on the same level as themselves.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Mainstream 19th-century Spiritualist theology rejected the Trinity and the deity of Christ, treating Jesus as the most perfect of men and a pattern to imitate rather than God incarnate (so taught A. J. Davis and Jesse B. Ferguson). The doctrine of endless human progression 'toward the Godhead' also blurred the Creator/creature distinction. White's characterization matches the movement's dominant teaching.",
+        "sources": [
+          {"title": "Andrew Jackson Davis / Ferguson rejecting deity of Christ, Wikipedia", "url": "https://en.wikipedia.org/wiki/Andrew_Jackson_Davis", "source_class": "encyclopedia", "supports_verdict": true, "note": "Rejected Trinity and Christ's deity; Jesus as perfect man."},
+          {"title": "Andrew Jackson Davis and Spiritualist Constructions of Religion(s), Cambridge Core", "url": "https://www.cambridge.org/core/journals/religion-and-american-culture/article/abs/andrew-jackson-davis-and-spiritualist-constructions-of-religions/82F792B9372459020FA3C7D61F8ED582", "source_class": "academic", "supports_verdict": true, "note": "On Davis's non-Trinitarian, progression theology."}
+        ]
+      }
+    },
+    {
+      "id": "GC-34-014",
+      "paragraph": 4,
+      "quote": "Thus under a new disguise the great rebel still carries on his warfare against God, begun in heaven, and for nearly six thousand years continued upon the earth.",
+      "claim_text": "Satan's rebellion against God, which began in heaven, has continued on earth for nearly six thousand years.",
+      "claim_type": "date",
+      "entities": ["Satan"],
+      "extractor_note": "Reflects a young-earth biblical chronology embedded in theological narration; included as a checkable chronological claim rather than excluded as purely theological.",
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "high",
+        "rationale": "The 'nearly six thousand years' figure encodes the Ussherian biblical chronology (creation c. 4004 BC), which was standard, uncontested background in the conservative 19th-century Protestant milieu White wrote in—printed in KJV margins and assumed by her named sources. Modern science dates the Earth to c. 4.54 billion years and anatomically modern humans to c. 300,000 years, so the figure is wrong by modern historiography but period-typical. Consistent with corpus pattern GC-18-072 (Ussherian chronology). [common_knowledge] applied to both the Ussher datum and the modern-science consensus.",
+        "modern_consensus": "Earth ~4.54 billion years old; anatomically modern humans ~300,000 years. A ~6,000-year human history is a young-earth position rejected by mainstream science.",
+        "period_historiography": "James Ussher's Annales Veteris Testamenti (1650) fixed creation at 4004 BC; this chronology was printed in the margins of 19th-century KJV Bibles and universally assumed in the conservative Protestant scholarship White drew on. c. 4000 BC creation + ~1,900 years AD ≈ ~5,900 years of earthly history.",
+        "sources": []
+      },
+      "defense": {
+        "result": "defense_failed",
+        "argument": "Best steelman, along two lines. (1) Genre / over-literalization: the number sits inside an avowedly theological clause—'the great rebel still carries on his warfare against God, begun in heaven, and for nearly six thousand years continued upon the earth.' The subject is Satan's cosmic warfare, an unverifiable supernatural narration; the temporal phrase is a rhetorical span attached to it, softened by 'nearly,' not a stand-alone geological or anthropological assertion about the age of the earth. On that reading the sentence as a whole is unverifiable theology and the '6000 years' is figurative scene-setting rather than a datable proposition. (2) Anachronism is already the correct, charitable verdict: the figure faithfully reproduces the Ussherian chronology (creation c. 4004 BC) that was printed in the margins of 19th-century KJV Bibles and assumed without controversy across the conservative Protestant scholarship White used. It is not an idiosyncratic error of White's making but the period-standard background of her sources. Why the defense fails: even granting the theological wrapper, the extractor rightly isolated a checkable chronological proposition—Satan's *earthly* warfare (i.e., human history since the Fall) has run 'nearly six thousand years,' which entails a young-earth human chronology of roughly six millennia. That entailment is flatly contradicted by modern science (anatomically modern humans c. 300,000 years; earth c. 4.54 billion years). 'Nearly' narrows, it does not dissolve, the claim—it still asserts a figure in the ~5,900-year range. There is no basis to downgrade to 'unverifiable' (the number is a concrete, falsifiable chronological datum, not pure theology) nor to 'supported' (it is false by modern historiography). The verifier's rationale and period_historiography are accurate as common knowledge (Ussher 1650; 4004 BC; KJV margins), no cited source overreaches, and the audit surfaced no lead warranting a search. The anachronistic verdict stands, consistent with the identical treatment of GC-18-072. source_quality: encyclopedic-only (common-knowledge Ussher datum; no doctrinally central source dispute engaged)."
+      }
+    },
+    {
+      "id": "GC-34-015",
+      "paragraph": 5,
+      "quote": "Many endeavor to account for spiritual manifestations by attributing them wholly to fraud and sleight of hand on the part of the medium. But while it is true that the results of trickery have often been palmed off as genuine manifestations, there have been, also, marked exhibitions of supernatural power.",
+      "claim_text": "Some spiritualist manifestations resulted from fraud and sleight of hand by mediums, which was passed off as genuine phenomena.",
+      "claim_type": "event",
+      "entities": ["Spiritualism", "mediums"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Well documented: numerous mediums were exposed as frauds, and in 1888 Margaret Fox publicly confessed that the founding Hydesville 'rappings' had been produced by cracking her joints (a confession she later retracted). That trickery was frequently passed off as genuine manifestation is uncontested history. (White's added claim of residual 'supernatural power' is her theological interpretation, not part of this factual proposition.)",
+        "sources": [
+          {"title": "Margaret Fox and Catherine Fox, Britannica", "url": "https://www.britannica.com/biography/Margaret-Fox-and-Catherine-Fox", "source_class": "encyclopedia", "supports_verdict": true, "note": "1888 confession that rappings were produced by joint-cracking."},
+          {"title": "The Fox Sisters and the Rap on Spiritualism, Smithsonian Magazine", "url": "https://www.smithsonianmag.com/history/the-fox-sisters-and-the-rap-on-spiritualism-99663697/", "source_class": "other", "supports_verdict": true, "note": "Documents fraud and exposure history."}
+        ]
+      }
+    },
+    {
+      "id": "GC-34-016",
+      "paragraph": 5,
+      "quote": "The mysterious rapping with which modern Spiritualism began was not the result of human trickery or cunning, but was the direct work of evil angels, who thus introduced one of the most successful of soul-destroying delusions.",
+      "claim_text": "Modern Spiritualism began with mysterious 'rapping' phenomena.",
+      "claim_type": "event",
+      "entities": ["modern Spiritualism", "Fox sisters", "Hydesville rappings"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The conventional historical marker for the birth of modern Spiritualism is the March 1848 'rappings' experienced by the Fox sisters at Hydesville, New York, which spread as the 'Rochester rappings' and launched the movement. That modern Spiritualism 'began' with rapping phenomena is standard historiography (the theological attribution to 'evil angels' is White's interpretation, not the factual claim here).",
+        "modern_consensus": "Modern Spiritualism dates from the 1848 Hydesville/Fox-sisters rappings.",
+        "sources": [
+          {"title": "D. K. Nartonis, The Rise of 19th-Century American Spiritualism, JSSR (2010)", "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1468-5906.2010.01515.x", "source_class": "academic", "supports_verdict": true, "note": "Dates the movement's rise from the 1848 rappings."},
+          {"title": "Margaret Fox and Catherine Fox, Britannica", "url": "https://www.britannica.com/biography/Margaret-Fox-and-Catherine-Fox", "source_class": "encyclopedia", "supports_verdict": true, "note": "1848 Hydesville rappings as origin of Spiritualism."}
+        ]
+      }
+    },
+    {
+      "id": "GC-34-017",
+      "paragraph": 5,
+      "quote": "The mysterious rapping with which modern Spiritualism began was not the result of human trickery or cunning, but was the direct work of evil angels, who thus introduced one of the most successful of soul-destroying delusions.",
+      "claim_text": "The rapping phenomena that began modern Spiritualism were not the result of human trickery but the direct work of evil angels.",
+      "claim_type": "theological",
+      "entities": ["evil angels", "modern Spiritualism"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample re-check of a false-flagged claim: confirmed correctly flagged. This is a supernatural attribution (rappings as 'the direct work of evil angels') that historiography cannot adjudicate. Note the tension with GC-34-015/the 1888 Fox confession, which attributes the rappings to joint-cracking—but the truth of the demonic-agency assertion itself remains theological and unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-018",
+      "paragraph": 5,
+      "quote": "Many will be ensnared through the belief that Spiritualism is a merely human imposture; when brought face to face with manifestations which they cannot but regard as supernatural, they will be deceived, and will be led to accept them as the great power of God.",
+      "claim_text": "People who believe Spiritualism is merely a human imposture will be more easily deceived when confronted with manifestations they perceive as supernatural.",
+      "claim_type": "theological",
+      "entities": ["Spiritualism"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Predictive/theological claim about future deception; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-019",
+      "paragraph": 6,
+      "quote": "It was by satanic aid that Pharaoh’s magicians were enabled to counterfeit the work of God.",
+      "claim_text": "According to the biblical account in Exodus, Pharaoh's magicians were able to counterfeit the miracles performed by Moses and Aaron through satanic aid.",
+      "claim_type": "event",
+      "entities": ["Pharaoh's magicians", "Moses", "Aaron", "Exodus"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful retelling of the Exodus narrative: Pharaoh's magicians replicated Aaron's serpent and the first plagues 'with their enchantments' (Exodus 7:11-12, 22; 8:7). The 'by satanic aid' gloss is White's theological interpretation, not stated in the text; the underlying biblical event (the magicians counterfeited the signs) is accurately reported.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-020",
+      "paragraph": 6,
+      "quote": "“the working of Satan with all power and signs and lying wonders, and with all deceivableness of unrighteousness.”(984)",
+      "claim_text": "2 Thessalonians states that the coming of the lawless one will be accompanied by 'the working of Satan with all power and signs and lying wonders, and with all deceivableness of unrighteousness.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul", "2 Thessalonians"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV rendering of 2 Thessalonians 2:9-10.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-021",
+      "paragraph": 6,
+      "quote": "“He doeth great wonders, so that he maketh fire come down from heaven on the earth in the sight of men, and deceiveth them that dwell on the earth by the means of those miracles which he had power to do.”(985)",
+      "claim_text": "The book of Revelation, attributed to the apostle John, describes a beast that 'doeth great wonders, so that he maketh fire come down from heaven on the earth in the sight of men, and deceiveth them that dwell on the earth by the means of those miracles which he had power to do.'",
+      "claim_type": "attributed_quote",
+      "entities": ["John", "Revelation 13"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV rendering of Revelation 13:13-14.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-022",
+      "paragraph": 7,
+      "quote": "He who could appear clothed with the brightness of the heavenly seraphs before Christ in the wilderness of temptation, comes to men in the most attractive manner, as an angel of light.",
+      "claim_text": "According to the Gospel temptation narrative, Satan appeared before Christ in the wilderness of temptation.",
+      "claim_type": "event",
+      "entities": ["Satan", "Jesus Christ", "wilderness of temptation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful retelling of the Gospel temptation narrative (Matthew 4:1-11; Luke 4:1-13), in which the tempter confronts Jesus in the wilderness.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-023",
+      "paragraph": 7,
+      "quote": "That mighty being who could take the world’s Redeemer to an exceedingly high mountain, and bring before Him all the kingdoms of the earth and the glory of them, will present his temptations to men in a manner to pervert the senses of all who are not shielded by divine power.",
+      "claim_text": "According to the Gospel temptation narrative, Satan took Jesus to an exceedingly high mountain and showed Him all the kingdoms of the earth and their glory.",
+      "claim_type": "event",
+      "entities": ["Satan", "Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful retelling of Matthew 4:8 (cf. Luke 4:5): the devil showed Jesus all the kingdoms of the world and their glory from an exceeding high mountain.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-024",
+      "paragraph": 7,
+      "quote": "The wisdom which Spiritualism imparts is that described by the apostle James, which “descendeth not from above, but is earthly, sensual, devilish.”(986)",
+      "claim_text": "The Epistle of James describes a wisdom that 'descendeth not from above, but is earthly, sensual, devilish.'",
+      "claim_type": "attributed_quote",
+      "entities": ["James", "Epistle of James"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV rendering of James 3:15.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-025",
+      "paragraph": 8,
+      "quote": "“Ye shall be as gods,” he declares, “knowing good and evil.”(987)",
+      "claim_text": "According to Genesis 3, the serpent told Eve, 'Ye shall be as gods, knowing good and evil.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Genesis 3", "serpent", "Eve"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV rendering of Genesis 3:5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-026",
+      "paragraph": 8,
+      "quote": "Spiritualism teaches “that man is the creature of progression; that it is his destiny from his birth to progress, even to eternity, toward the Godhead.”",
+      "claim_text": "19th-century Spiritualist teaching held that man is 'the creature of progression,' destined from birth to progress eternally toward the Godhead.",
+      "claim_type": "attributed_quote",
+      "entities": ["Spiritualism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Accurately represents the core Spiritualist doctrine of endless progression—A. J. Davis's harmonial teaching that the soul advances through ascending spheres 'to eternity,' toward the divine. The exact wording is attributed generically to 'Spiritualism'; the specific published source is not independently located, but the doctrine it states is well documented, so the characterization is sound.",
+        "sources": [
+          {"title": "Andrew Jackson Davis (eternal progression through spheres), Encyclopedia.com", "url": "https://www.encyclopedia.com/people/philosophy-and-religion/other-religious-beliefs-biographies/andrew-jackson-davis", "source_class": "encyclopedia", "supports_verdict": true, "note": "Doctrine of continual growth toward the divine."}
+        ]
+      }
+    },
+    {
+      "id": "GC-34-027",
+      "paragraph": 8,
+      "quote": "And again: “Each mind will judge itself and not another.” “The judgment will be right, because it is the judgment of self.... The throne is within you.”",
+      "claim_text": "Spiritualist teaching held that 'each mind will judge itself and not another' and that 'the throne is within you.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Spiritualism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Faithful to Spiritualist doctrine: rather than an external judgment, the soul after death is said to gravitate to the sphere fitting its own character—self-judgment 'within.' The precise published source of the wording is not independently located within budget, but the self-judgment/inner-throne teaching is documented Spiritualist doctrine, so the characterization is accurate.",
+        "sources": [
+          {"title": "Andrew Jackson Davis (souls gravitate by character; self-determined afterlife), Encyclopedia.com", "url": "https://www.encyclopedia.com/people/philosophy-and-religion/other-religious-beliefs-biographies/andrew-jackson-davis", "source_class": "encyclopedia", "supports_verdict": true, "note": "Post-mortem sphere determined by one's own character."}
+        ]
+      }
+    },
+    {
+      "id": "GC-34-028",
+      "paragraph": 8,
+      "quote": "Said a Spiritualistic teacher, as the “spiritual consciousness” awoke within him, “My fellow-men, all were unfallen demigods.”",
+      "claim_text": "An unnamed Spiritualistic teacher is quoted, upon the awakening of his 'spiritual consciousness,' declaring 'My fellow-men, all were unfallen demigods.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Spiritualism"],
+      "extractor_note": "Speaker is unnamed in the source text; verification should attempt to trace this quotation to a specific named source (e.g., in GC's appendix references).",
+      "needs_verification": true,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "low",
+        "rationale": "Attempt to trace the phrase 'all were unfallen demigods' returned only pages derived from The Great Controversy itself; no independent primary Spiritualist source was located within budget. White attributes it only to an unnamed 'Spiritualistic teacher,' so there is no named speaker or work against which to check the wording. Per the corpus convention for unlocated anonymous quotations (cf. GC-21-054/072/075), a shallow-search failure to locate is not itself an accusation: the quotation can be neither confirmed verbatim nor shown to be fabricated, so the verdict is unverifiable at low confidence (empty sources valid). The self-deifying sentiment is at least consistent with documented Spiritualist doctrine of endless progression toward the Godhead.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-029",
+      "paragraph": 8,
+      "quote": "And another declares, “Any just and perfect being is Christ.”",
+      "claim_text": "An unnamed Spiritualist writer is quoted as declaring, 'Any just and perfect being is Christ.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Spiritualism"],
+      "extractor_note": "Speaker is unnamed in the source text.",
+      "needs_verification": true,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "low",
+        "rationale": "As with GC-34-028, the phrase surfaces only in GC-derived texts; no independent primary source was located within budget, and the attribution is anonymous ('another declares'), leaving no named speaker or work to check. Per the corpus convention for unlocated anonymous quotations (cf. GC-21-054/072/075), the search failure is not an accusation: neither confirmable verbatim nor demonstrably fabricated → unverifiable, low confidence (empty sources valid). The sentiment (Christhood as an attainable moral state rather than a unique divine person) aligns with documented Spiritualist Christology, which held Jesus to be the most perfect of men and a pattern to imitate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-030",
+      "paragraph": 9,
+      "quote": "Satan has substituted the sinful, erring nature of man himself, as the only object of adoration, the only rule of judgment, or standard of character.",
+      "claim_text": "Satan has substituted the sinful, erring nature of man as the object of adoration and standard of judgment in place of God's righteousness and law.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological interpretation of Satan's strategy; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-031",
+      "paragraph": 10,
+      "quote": "It is a law both of the intellectual and the spiritual nature, that by beholding, we become changed.",
+      "claim_text": "It is a law of both the intellectual and spiritual nature that a person becomes changed by what they behold.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive maxim about moral/psychological formation; a value proposition rather than a checkable historical fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-032",
+      "paragraph": 11,
+      "quote": "He has destroyed and is destroying thousands through the indulgence of the passions, thus brutalizing the entire nature of man.",
+      "claim_text": "Satan has destroyed and continues to destroy thousands of people through the indulgence of the passions.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "extractor_note": "Contains a quantity term ('thousands') but is framed as a direct supernatural causal claim about Satan's action rather than as an independently documented historical statistic.",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural causal claim attributing moral ruin to Satan's agency; the 'thousands' is rhetorical, not a documented statistic. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-033",
+      "paragraph": 11,
+      "quote": "he declares, through the spirits, that “true knowledge places man above all law;” that “whatever is, is right;” that “God doth not condemn;” and that “_all_ sins which are committed are innocent.”",
+      "claim_text": "Spiritualist communications ('the spirits') declared that 'true knowledge places man above all law,' 'whatever is, is right,' 'God doth not condemn,' and 'all sins which are committed are innocent.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Spiritualism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The antinomian/moral-relativist sentiments here (man above law, no divine condemnation, moral optimism captured in the borrowed Popean line 'whatever is, is right') correspond to documented radical, free-thought and free-love strands within 19th-century Spiritualism that alarmed even sympathizers. The exact wording is attributed generically to 'the spirits' and no single primary source is located within budget, so low confidence; the general characterization is defensible.",
+        "sources": [
+          {"title": "Ann Braude, Radical Spirits: Spiritualism and Women's Rights in Nineteenth-Century America", "url": "https://www.amazon.com/Radical-Spirits-Spiritualism-Nineteenth-Century-America/dp/0253215021", "source_class": "academic", "supports_verdict": true, "note": "Standard monograph documenting Spiritualism's antinomian/free-love and individualist currents."}
+        ]
+      }
+    },
+    {
+      "id": "GC-34-034",
+      "paragraph": 12,
+      "quote": "The Bible declares that the dead know not anything, that their thoughts have perished; they have no part in anything that is done under the sun; they know nothing of the joys or sorrows of those who were dearest to them on earth.",
+      "claim_text": "The book of Ecclesiastes teaches that the dead know nothing, their thoughts have perished, and they have no part in anything done under the sun.",
+      "claim_type": "attributed_quote",
+      "entities": ["Ecclesiastes", "Bible"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful paraphrase of Ecclesiastes 9:5-6, 10 ('the dead know not any thing... neither have they any more a portion for ever in any thing that is done under the sun'), cf. Psalm 146:4 ('his thoughts perish').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-035",
+      "paragraph": 13,
+      "quote": "In the days of the Hebrews there was a class of people who claimed, as do the Spiritualists of to-day, to hold communication with the dead.",
+      "claim_text": "In ancient Israelite society, there existed a class of people who claimed to hold communication with the dead.",
+      "claim_type": "biographical",
+      "entities": ["ancient Israel", "necromancy"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Necromancers and mediums ('those that have familiar spirits') are attested throughout the Hebrew Bible—the medium of Endor (1 Samuel 28) and the repeated prohibitions (Leviticus 19:31; 20:6, 27; Deuteronomy 18:10-12) presuppose an existing class of such practitioners in ancient Israelite society.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-036",
+      "paragraph": 13,
+      "quote": "But the “familiar spirits,” as these visitants from other worlds were called, are declared by the Bible to be the “spirits of devils.”(988)",
+      "claim_text": "The Bible refers to the 'familiar spirits' consulted by ancient necromancers as 'spirits of devils.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[common_knowledge] A synthesizing scriptural characterization: 'familiar spirits' is the KJV term for the entities consulted by mediums (Leviticus 19:31 etc.), and 'spirits of devils' is the KJV phrase from Revelation 16:14. White joins the two to argue that biblical 'familiar spirits' are demonic. The individual phrases are accurate KJV wording; the equation is her interpretive synthesis, standard within her scriptural argument.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-037",
+      "paragraph": 13,
+      "quote": "The work of dealing with familiar spirits was pronounced an abomination to the Lord, and was solemnly forbidden under penalty of death.(989)",
+      "claim_text": "Mosaic law declared the practice of consulting familiar spirits an abomination to the Lord and prescribed the death penalty for it.",
+      "claim_type": "event",
+      "entities": ["Mosaic law", "ancient Israel"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate summary of Mosaic law: Deuteronomy 18:10-12 calls those who consult familiar spirits 'an abomination unto the LORD,' and Leviticus 20:27 prescribes death ('A man also or woman that hath a familiar spirit... shall surely be put to death'); cf. Leviticus 20:6.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-038",
+      "paragraph": 13,
+      "quote": "But Spiritualism, which numbers its converts by hundreds of thousands, yea, by millions, which has made its way into scientific circles, which has invaded churches, and has found favor in legislative bodies, and even in the courts of kings,—this mammoth deception is but a revival, in a new disguise, of the witchcraft condemned and prohibited of old.",
+      "claim_text": "By the time of writing (circa 1911), Spiritualism numbered its adherents by the hundreds of thousands, and by some estimates millions, worldwide.",
+      "claim_type": "statistic",
+      "entities": ["Spiritualism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The 'hundreds of thousands, yea, by millions' range matches both period and modern scholarship. Nartonis (JSSR 2010) states that during the third quarter of the century 'thousands and perhaps millions of Americans participated in Spiritualism,' while cautioning that the movement's aversion to formal organization makes exact counts impossible; contemporary figures ran from hundreds of thousands to Emma Hardinge's claim of two million new believers from the Civil War alone, up to inflated 11-million claims. White's estimate falls within the defensible historiographical range, though hard membership numbers are unrecoverable. source_quality: academic-full (Nartonis, Braude).",
+        "modern_consensus": "Adherent totals are unquantifiable, but scholars accept a scale of hundreds of thousands to a few million participants in mid-to-late-19th-century America.",
+        "sources": [
+          {"title": "D. K. Nartonis, The Rise of 19th-Century American Spiritualism, 1854-1873, JSSR 49(2) (2010)", "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1468-5906.2010.01515.x", "source_class": "academic", "supports_verdict": true, "note": "'Thousands and perhaps millions'; numbers hard to chart due to lack of organization."},
+          {"title": "Ann Braude, Radical Spirits (Indiana Univ. Press)", "url": "https://www.amazon.com/Radical-Spirits-Spiritualism-Nineteenth-Century-America/dp/0253215021", "source_class": "academic", "supports_verdict": true, "note": "Discusses the impossibility of firm counts and the range of contemporary estimates."}
+        ]
+      }
+    },
+    {
+      "id": "GC-34-039",
+      "paragraph": 13,
+      "quote": "which has made its way into scientific circles,",
+      "claim_text": "By circa 1911, Spiritualism had gained adherents and influence within scientific circles.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Prominent scientists investigated and converted to Spiritualism: chemist Sir William Crookes (FRS) conducted and published tests (1870-1873) endorsing the phenomena, and naturalist Alfred Russel Wallace, co-discoverer of natural selection, became an outspoken convert. The Society for Psychical Research (1882) institutionalized scientific interest. Spiritualism's penetration of scientific circles is well documented.",
+        "sources": [
+          {"title": "William Crookes, Psi Encyclopedia (Society for Psychical Research)", "url": "https://psi-encyclopedia.spr.ac.uk/articles/william-crookes/", "source_class": "other", "supports_verdict": true, "note": "Crookes's 1870-73 investigations endorsing the phenomena."},
+          {"title": "Alfred Russel Wallace, Psi Encyclopedia (SPR)", "url": "https://psi-encyclopedia.spr.ac.uk/articles/alfred-russel-wallace", "source_class": "other", "supports_verdict": true, "note": "Wallace's public conversion to Spiritualism."}
+        ]
+      }
+    },
+    {
+      "id": "GC-34-040",
+      "paragraph": 13,
+      "quote": "which has invaded churches,",
+      "claim_text": "By circa 1911, Spiritualist beliefs and practices had spread into Christian churches.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Spiritualism drew heavily from church populations and produced 'Christian Spiritualist' currents; clergy converted, and Spiritualist ideas of spirit communication influenced liberal Protestant milieus. Nartonis documents that the movement recruited substantially from existing congregations, and a distinct Christian Spiritualism accepting the Bible and Jesus later developed. The penetration of churches is supported, though 'invaded' is White's rhetorical framing.",
+        "sources": [
+          {"title": "D. K. Nartonis, The Rise of 19th-Century American Spiritualism, JSSR (2010)", "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1468-5906.2010.01515.x", "source_class": "academic", "supports_verdict": true, "note": "Spiritualism recruited from church populations."},
+          {"title": "Spiritual Christianity / Christian Spiritualism, Wikipedia", "url": "https://en.wikipedia.org/wiki/Spiritual_Christianity", "source_class": "encyclopedia", "supports_verdict": true, "note": "Christian Spiritualist acceptance of Jesus and Bible."}
+        ]
+      }
+    },
+    {
+      "id": "GC-34-041",
+      "paragraph": 13,
+      "quote": "and has found favor in legislative bodies,",
+      "claim_text": "By circa 1911, Spiritualism had found favor among members of legislative bodies.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Spiritualism reached legislative bodies and counted legislators among its adherents. An 1854 memorial signed by ~15,000 persons, headed by ex-U.S. Senator and former Wisconsin governor Nathaniel Tallmadge, was presented to Congress by Senator James Shields requesting a scientific investigation; Tallmadge and Judge John Edmonds were prominent officials who embraced the movement. 'Found favor' overstates the chilly Congressional reception (the petition was tabled after ridicule), so medium confidence, but Spiritualism did penetrate legislative circles.",
+        "sources": [
+          {"title": "Spiritualists Petition to Congress (1854), iapsop.com (reproducing Emma Hardinge's history)", "url": "http://iapsop.com/spirithistory/spiritualists_petition_to_congress.html", "source_class": "primary", "supports_verdict": true, "note": "15,000-signature memorial headed by ex-Senator Tallmadge, presented by Senator Shields."},
+          {"title": "1854 Society for the Diffusion of Spiritual Knowledge, iapsop.com", "url": "http://iapsop.com/spirithistory/1854_society_for_diffusion_of_spiritual_knowledge.html", "source_class": "primary", "supports_verdict": true, "note": "Members included Judge Edmonds and Governor Tallmadge."}
+        ]
+      }
+    },
+    {
+      "id": "GC-34-042",
+      "paragraph": 13,
+      "quote": "and even in the courts of kings,",
+      "claim_text": "By circa 1911, Spiritualism had found favor even within royal courts.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The medium Daniel Dunglas Home conducted séances for Emperor Napoleon III and Empress Eugénie, for Tsar Alexander II at the Winter Palace, and for Queen Sophia of the Netherlands, producing a spiritualist vogue at several European courts. Spiritualism's reach into royal courts is well documented.",
+        "sources": [
+          {"title": "Daniel Dunglas Home, Encyclopedia.com", "url": "https://www.encyclopedia.com/people/philosophy-and-religion/other-religious-beliefs-biographies/daniel-dunglas-home", "source_class": "encyclopedia", "supports_verdict": true, "note": "Séances before Napoleon III, Tsar Alexander II, and other royalty."},
+          {"title": "Daniel Dunglas Home, Psi Encyclopedia (SPR)", "url": "https://psi-encyclopedia.spr.ac.uk/articles/daniel-dunglas-home/", "source_class": "other", "supports_verdict": true, "note": "Court séances for Napoleon III, Empress Eugénie, Tsar Alexander II."}
+        ]
+      }
+    },
+    {
+      "id": "GC-34-043",
+      "paragraph": 13,
+      "quote": "this mammoth deception is but a revival, in a new disguise, of the witchcraft condemned and prohibited of old.",
+      "claim_text": "Modern Spiritualism is a revival, in new form, of ancient witchcraft.",
+      "claim_type": "interpretive",
+      "entities": ["Spiritualism"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "medium",
+        "rationale": "Control-sample re-check of a false-flagged interpretive claim. The equation of modern Spiritualism with ancient 'witchcraft' is a theological/polemical judgment and is fundamentally unverifiable. NOTE (smuggled factual assertion): the framing implies a literal historical continuity between 19th-century Spiritualism and ancient necromancy/witchcraft. Modern historiography does not endorse such genealogical continuity—it treats modern Spiritualism as a distinct movement arising in 1848 from Swedenborgian, mesmeric, and liberal-Protestant currents, not as a lineal survival of ancient practices. The thematic parallel (claimed contact with the dead) is real; the implied historical descent is not established. Extractor's false-flag is defensible, but the smuggled continuity claim is flagged here.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-044",
+      "paragraph": 14,
+      "quote": "The Spiritualist teachers virtually declare, “Every one that doeth evil is good in the sight of the Lord, and He delighteth in them; or, Where is the God of judgment?”(990)",
+      "claim_text": "The book of Malachi records the rhetorical objection, 'Every one that doeth evil is good in the sight of the Lord, and He delighteth in them; or, Where is the God of judgment?'",
+      "claim_type": "attributed_quote",
+      "entities": ["Malachi"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV rendering of Malachi 2:17.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-045",
+      "paragraph": 14,
+      "quote": "Saith the word of God, “Woe unto them that call evil good, and good evil; that put darkness for light, and light for darkness.”(991)",
+      "claim_text": "Isaiah pronounces, 'Woe unto them that call evil good, and good evil; that put darkness for light, and light for darkness.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV rendering of Isaiah 5:20.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-046",
+      "paragraph": 15,
+      "quote": "as the Roman guard that watched the tomb of Jesus spread the lying report which the priests and elders put into their mouths to disprove His resurrection",
+      "claim_text": "According to the Gospel account, the Roman guard assigned to watch Jesus' tomb spread a false report, supplied to them by the priests and elders, to deny His resurrection.",
+      "claim_type": "event",
+      "entities": ["Roman guard", "Jesus Christ", "priests and elders", "Matthew 28"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful retelling of Matthew 28:11-15: the chief priests and elders paid the soldiers guarding the tomb to say the disciples stole the body. (Whether the guard was strictly 'Roman' or temple guard is a minor exegetical point; Matthew's 'watch' answered to Pilate in 27:65-66, so 'Roman guard' is a defensible reading.)",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-047",
+      "paragraph": 15,
+      "quote": "so do the believers in spiritual manifestations try to make it appear that there is nothing miraculous in the circumstances of our Saviour’s life.",
+      "claim_text": "Believers in spiritual manifestations sought to portray the events of Jesus' life as having nothing miraculous about them.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "Consistent with a documented Spiritualist tendency to naturalize Christ's miracles by reinterpreting Jesus as a great medium whose 'works' were the same order of spirit-phenomena Spiritualists claimed to produce—thereby draining them of unique miraculous significance. The general current is documented; the specific universal claim about 'the circumstances of our Saviour's life' is White's polemical generalization, hence low confidence.",
+        "sources": [
+          {"title": "Spiritualism (reinterpretation of Jesus as medium), Encyclopedia.com", "url": "https://www.encyclopedia.com/philosophy-and-religion/other-religious-beliefs-and-general-terms/miscellaneous-religion/spiritualism", "source_class": "encyclopedia", "supports_verdict": true, "note": "Spiritualist naturalizing of Christian miracle claims."}
+        ]
+      }
+    },
+    {
+      "id": "GC-34-048",
+      "paragraph": 15,
+      "quote": "After thus seeking to put Jesus in the background, they call attention to their own miracles, declaring that these far exceed the works of Christ.",
+      "claim_text": "Spiritualists claimed that the miracles associated with their manifestations far exceeded the works of Christ.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "low",
+        "rationale": "Some Spiritualist rhetoric presented modern manifestations as continuous with, and evidentially superior to, biblical miracles, but a specific, widely-held claim that Spiritualist phenomena 'far exceed the works of Christ' is not documented in the sources reached within budget, and the assertion is attributed generically to 'they' with no named speaker or work to check. Applying the same corpus convention as for unlocated anonymous attributions (cf. GC-21-054/072/075), the failure to locate an actual example is not itself an accusation of falsehood: the characterization can be neither corroborated nor shown fabricated, so verdict is unverifiable at low confidence (empty sources valid). Not escalated to disputed absent the ≥2 sources documenting an actual scholarly disagreement.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-049",
+      "paragraph": 16,
+      "quote": "It is true that Spiritualism is now changing its form, and, veiling some of its more objectionable features, is assuming a Christian guise.",
+      "claim_text": "By the time of writing (early 20th century), Spiritualism was evolving to present itself in a more Christian-appearing form, veiling some of its earlier objectionable features.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "From the later 19th into the early 20th century a distinct 'Christian Spiritualism' developed, adopting Christian language and biblical framing and moderating the anti-clerical, radical, and free-love associations of the movement's early phase. White's observation that Spiritualism was assuming a more Christian guise tracks this documented shift.",
+        "sources": [
+          {"title": "Spiritual Christianity / Christian Spiritualism, Wikipedia", "url": "https://en.wikipedia.org/wiki/Spiritual_Christianity", "source_class": "encyclopedia", "supports_verdict": true, "note": "Christian Spiritualists accept Jesus and biblical framing."},
+          {"title": "Spiritualism, Encyclopedia.com", "url": "https://www.encyclopedia.com/philosophy-and-religion/other-religious-beliefs-and-general-terms/miscellaneous-religion/spiritualism", "source_class": "encyclopedia", "supports_verdict": true, "note": "Later consolidation and Christianizing of the movement."}
+        ]
+      }
+    },
+    {
+      "id": "GC-34-050",
+      "paragraph": 17,
+      "quote": "While it formerly denounced Christ and the Bible, it now _professes_ to accept both.",
+      "claim_text": "Spiritualism, which had formerly denounced Christ and the Bible, later professed to accept both.",
+      "claim_type": "event",
+      "entities": ["Spiritualism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Early Spiritualism carried a strong anti-clerical, Bible-critical streak, whereas later Christian Spiritualist groups explicitly professed to accept the Bible and Jesus—some (e.g. the 1920s Greater World movement via Winifred Moyes) even affirming Jesus as Son of God, and others centering teaching on the Bible alongside A. J. Davis. The trajectory White describes is documented.",
+        "sources": [
+          {"title": "Spiritual Christianity / Christian Spiritualism, Wikipedia", "url": "https://en.wikipedia.org/wiki/Spiritual_Christianity", "source_class": "encyclopedia", "supports_verdict": true, "note": "Later Christian Spiritualist acceptance of Bible and Jesus."}
+        ]
+      }
+    },
+    {
+      "id": "GC-34-051",
+      "paragraph": 18,
+      "quote": "There are few who have any just conception of the deceptive power of Spiritualism and the danger of coming under its influence.",
+      "claim_text": "Few people have an accurate understanding of the deceptive power of Spiritualism and the danger of coming under its influence.",
+      "claim_type": "interpretive",
+      "entities": ["Spiritualism"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/evaluative claim about public awareness of spiritual danger; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-052",
+      "paragraph": 19,
+      "quote": "Having achieved their overthrow, the tempter will employ them as his agents to lure others to ruin.",
+      "claim_text": "Satan employs those he has overthrown as agents to lure others to ruin.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample re-check of a false-flagged claim: confirmed correctly flagged. Supernatural/theological assertion about Satan's use of agents; not empirically checkable. No smuggled factual claim.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-053",
+      "paragraph": 20,
+      "quote": "Says the prophet Isaiah: “When they shall say unto you, Seek unto them that have familiar spirits, and unto wizards that peep, and that mutter: should not a people seek unto their God? for the living to the dead? To the law and to the testimony: if they speak not according to this word, it is because there is no light in them.”(992)",
+      "claim_text": "The prophet Isaiah is quoted warning against seeking familiar spirits and wizards, asking 'should not a people seek unto their God? for the living to the dead?' and directing attention 'to the law and to the testimony.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV rendering of Isaiah 8:19-20.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-054",
+      "paragraph": 20,
+      "quote": "“Because they received not the love of the truth, that they might be saved,” therefore “God shall send them strong delusion, that they should believe a lie.”(993)",
+      "claim_text": "2 Thessalonians states that because some 'received not the love of the truth, that they might be saved,' God 'shall send them strong delusion, that they should believe a lie.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul", "2 Thessalonians"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV rendering of 2 Thessalonians 2:10-11.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-055",
+      "paragraph": 21,
+      "quote": "Satan can quote Scripture now as in the days of Christ, and he will pervert its teachings to sustain his delusions.",
+      "claim_text": "According to the Gospel temptation narrative, Satan quoted Scripture to Christ.",
+      "claim_type": "event",
+      "entities": ["Satan", "Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful retelling of Matthew 4:6 (cf. Luke 4:9-11), where the devil quotes Psalm 91:11-12 to Jesus.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-056",
+      "paragraph": 21,
+      "quote": "The people of God should be able to meet him, as did our Saviour, with the words, “It is written.”",
+      "claim_text": "According to the Gospel narrative, Jesus responded to Satan's temptations with the words 'It is written.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Matthew 4"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate: in Matthew 4:4, 7, 10 (cf. Luke 4) Jesus answers each temptation with 'It is written.'",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-057",
+      "paragraph": 22,
+      "quote": "Just before us is the “hour of temptation, which shall come upon all the world, to try them that dwell upon the earth.”(994)",
+      "claim_text": "Revelation 3:10 refers to an 'hour of temptation, which shall come upon all the world, to try them that dwell upon the earth.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation 3:10"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV rendering of Revelation 3:10.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-058",
+      "paragraph": 22,
+      "quote": "“Because thou hast kept the word of My patience, I also will keep thee,”(995) is the Saviour’s promise.",
+      "claim_text": "Revelation 3:10 records Christ's promise, 'Because thou hast kept the word of My patience, I also will keep thee.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation 3:10", "Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV rendering of Revelation 3:10 ('Because thou hast kept the word of my patience, I also will keep thee...').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-059",
+      "paragraph": 23,
+      "quote": "“We have made a covenant with death, and with hell are we at agreement; when the overflowing scourge shall pass through, it shall not come unto us: for we have made lies our refuge, and under falsehood have we hid ourselves.”(996)",
+      "claim_text": "Isaiah 28 records a statement attributed to the people, 'We have made a covenant with death, and with hell are we at agreement... for we have made lies our refuge, and under falsehood have we hid ourselves.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah 28"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV rendering of Isaiah 28:15.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-060",
+      "paragraph": 24,
+      "quote": "Marvelous beyond expression is the blindness of the people of this generation.",
+      "claim_text": "The people of the current generation display a marvelous blindness regarding spiritual deception.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Rhetorical/evaluative claim about the spiritual state of a generation; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-061",
+      "paragraph": 25,
+      "quote": "The foundation of his work was laid by the assurance given to Eve in Eden, “Ye shall not surely die.” “In the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil.”(997)",
+      "claim_text": "According to Genesis 3, the serpent told Eve in Eden, 'Ye shall not surely die... In the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Genesis 3", "Eve", "serpent"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV rendering of Genesis 3:4-5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-062",
+      "paragraph": 25,
+      "quote": "Says the prophet: “I saw three unclean spirits like frogs; ... they are the spirits of devils, working miracles, which go forth unto the kings of the earth and of the whole world, to gather them to the battle of that great day of God Almighty.”(998)",
+      "claim_text": "The book of Revelation describes John seeing 'three unclean spirits like frogs... the spirits of devils, working miracles, which go forth unto the kings of the earth and of the whole world, to gather them to the battle of that great day of God Almighty.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation 16", "John"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV rendering of Revelation 16:13-14 (with the ellipsis compressing v.13's list of sources of the frogs).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-34-063",
+      "paragraph": 26,
+      "quote": "Saith the Lord God: “Judgment also will I lay to the line, and righteousness to the plummet: and the hail shall sweep away the refuge of lies, and the waters shall overflow the hiding-place. And your covenant with death shall be disannulled, and your agreement with hell shall not stand; when the overflowing scourge shall pass through, then ye shall be trodden down by it.”(999)",
+      "claim_text": "Isaiah 28 records God's declaration, 'Judgment also will I lay to the line, and righteousness to the plummet... your covenant with death shall be disannulled, and your agreement with hell shall not stand.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah 28"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV rendering of Isaiah 28:17-18.",
+        "sources": []
+      }
+    }
+  ]
+}
