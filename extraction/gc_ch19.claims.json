@@ -1,0 +1,708 @@
+{
+  "chapter": 19,
+  "chapter_title": "Light Through Darkness",
+  "stage": "extraction",
+  "generated_at": "2026-07-05",
+  "notes": "Chapter is predominantly homiletic/theological, contrasting the disciples' misunderstanding of Christ's first advent with the Millerite movement's misapprehension of the 2300-day prophecy. Historical core (William Miller, sanctuary doctrine, Great Disappointment) is in paragraphs 22-27. Many embedded Bible quotations are given without inline chapter-and-verse attribution (only footnote markers referencing the 1911 appendix, not available to the extractor); likely source references are noted in extractor_note as probable identifications, not asserted as fact. Scripture-content claims that amount to theological/prophetic interpretation (e.g., typology of the sanctuary, meaning of Daniel 9) are classified theological/interpretive per CLAUDE.md Rule 5, even where they reference a checkable text, because their substance is doctrinal argument rather than an empirical historical proposition.",
+  "claims": [
+    {
+      "id": "GC-19-001",
+      "paragraph": 1,
+      "quote": "The work of God in the earth presents, from age to age, a striking similarity in every great reformation or religious movement.",
+      "claim_text": "Every great reformation or religious movement in history exhibits a striking similarity in how God's work in the earth is carried forward.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-19-002",
+      "paragraph": 1,
+      "quote": "The important movements of the present have their parallel in those of the past, and the experience of the church in former ages has lessons of great value for our own time.",
+      "claim_text": "Important religious movements of the present have parallels in movements of the past, and the church's past experience holds lessons for the present.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-19-003",
+      "paragraph": 2,
+      "quote": "No truth is more clearly taught in the Bible than that God by His Holy Spirit especially directs His servants on earth in the great movements for the carrying forward of the work of salvation.",
+      "claim_text": "God, by His Holy Spirit, especially directs His servants on earth in the great movements that carry forward the work of salvation.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-19-004",
+      "paragraph": 2,
+      "quote": "Men are instruments in the hand of God, employed by Him to accomplish His purposes of grace and mercy.",
+      "claim_text": "Men are instruments in the hand of God, employed by Him to accomplish His purposes of grace and mercy.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-19-005",
+      "paragraph": 2,
+      "quote": "But no man, however honored of Heaven, has ever attained to a full understanding of the great plan of redemption, or even to a perfect appreciation of the divine purpose in the work for his own time.",
+      "claim_text": "No man, however honored by Heaven, has ever attained a full understanding of the plan of redemption or a perfect appreciation of the divine purpose for his own time.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-19-006",
+      "paragraph": 3,
+      "quote": "“Canst thou by searching find out God? canst thou find out the Almighty unto perfection?”",
+      "claim_text": "The Bible contains the rhetorical question, 'Canst thou by searching find out God? canst thou find out the Almighty unto perfection?'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "extractor_note": "No inline attribution given in the chapter text beyond a footnote marker (572) referencing the 1911 appendix; likely Job 11:7."
+    },
+    {
+      "id": "GC-19-007",
+      "paragraph": 3,
+      "quote": "“My thoughts are not your thoughts, neither are your ways My ways, saith the Lord. For as the heavens are higher than the earth, so are My ways higher than your ways, and My thoughts than your thoughts.”",
+      "claim_text": "The Bible records the Lord declaring, 'My thoughts are not your thoughts, neither are your ways My ways... For as the heavens are higher than the earth, so are My ways higher than your ways, and My thoughts than your thoughts.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "extractor_note": "Likely Isaiah 55:8-9; attribution inferred, not stated inline."
+    },
+    {
+      "id": "GC-19-008",
+      "paragraph": 3,
+      "quote": "“I am God, and there is none like Me, declaring the end from the beginning, and from ancient times the things that are not yet done.”",
+      "claim_text": "The Bible records God declaring, 'I am God, and there is none like Me, declaring the end from the beginning, and from ancient times the things that are not yet done.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "extractor_note": "Likely Isaiah 46:9-10; attribution inferred, not stated inline."
+    },
+    {
+      "id": "GC-19-009",
+      "paragraph": 4,
+      "quote": "Even the prophets who were favored with the special illumination of the Spirit, did not fully comprehend the import of the revelations committed to them.",
+      "claim_text": "Even biblical prophets favored with special illumination of the Spirit did not fully comprehend the import of the revelations committed to them.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-19-010",
+      "paragraph": 5,
+      "quote": "Of this salvation “the prophets have inquired and searched diligently, who prophesied of the grace that should come unto you: searching _what_, or _what manner of time_ the Spirit of Christ which was in them did signify, when it testified beforehand the sufferings of Christ, and the glory that should follow. Unto whom it was revealed, that not unto _themselves_, but unto _us_ they did minister.”",
+      "claim_text": "The apostle Peter wrote that the Old Testament prophets inquired and searched diligently concerning the salvation and grace to come, seeking to know what time the Spirit of Christ within them signified, and that it was revealed to them that they ministered these things not to themselves but to later believers.",
+      "claim_type": "attributed_quote",
+      "entities": ["Peter", "Bible"],
+      "needs_verification": true,
+      "extractor_note": "Text explicitly attributes this to Peter's writing; likely 1 Peter 1:10-12."
+    },
+    {
+      "id": "GC-19-011",
+      "paragraph": 6,
+      "quote": "What a rebuke to the ease-loving, world-loving indifference which is content to declare that the prophecies cannot be understood.",
+      "claim_text": "Indifference that declares Bible prophecies cannot be understood deserves rebuke, by contrast with the prophets' diligent searching.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-19-012",
+      "paragraph": 7,
+      "quote": "Their minds had become imbued with the popular conception of the Messiah as a temporal prince, who was to exalt Israel to the throne of universal empire, and they could not understand the meaning of His words foretelling His sufferings and death.",
+      "claim_text": "The disciples of Christ held the popular conception of the Messiah as a temporal prince who would exalt Israel to universal earthly empire, and consequently could not understand Christ's words foretelling His sufferings and death.",
+      "claim_type": "biographical",
+      "entities": ["disciples of Jesus", "Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-013",
+      "paragraph": 8,
+      "quote": "Christ Himself had sent them forth with the message, “The time is fulfilled, and the kingdom of God is at hand: repent ye, and believe the gospel.”",
+      "claim_text": "Jesus Christ sent His disciples forth with the message, 'The time is fulfilled, and the kingdom of God is at hand: repent ye, and believe the gospel.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "disciples of Jesus"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Mark 1:15."
+    },
+    {
+      "id": "GC-19-014",
+      "paragraph": 8,
+      "quote": "That message was based on the prophecy of Daniel 9.",
+      "claim_text": "The disciples' message that 'the time is fulfilled, and the kingdom of God is at hand' was based on the prophecy of Daniel chapter 9.",
+      "claim_type": "causal",
+      "entities": ["Book of Daniel", "disciples of Jesus"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-015",
+      "paragraph": 8,
+      "quote": "The sixty-nine weeks were declared by the angel to extend to “the Messiah the Prince,”",
+      "claim_text": "According to the prophecy of Daniel 9, an angel declared that sixty-nine weeks would extend to 'the Messiah the Prince.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Daniel"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Daniel 9:25."
+    },
+    {
+      "id": "GC-19-016",
+      "paragraph": 8,
+      "quote": "with high hopes and joyful anticipations the disciples looked forward to the establishment of Messiah’s kingdom at Jerusalem, to rule over the whole earth.",
+      "claim_text": "The disciples of Christ anticipated with high hopes the establishment of the Messiah's kingdom at Jerusalem, to rule over the whole earth.",
+      "claim_type": "biographical",
+      "entities": ["disciples of Jesus", "Jerusalem"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-017",
+      "paragraph": 9,
+      "quote": "They preached the message which Christ had committed to them, though they themselves misapprehended its meaning.",
+      "claim_text": "The disciples preached the message Christ had committed to them even though they themselves misapprehended its meaning.",
+      "claim_type": "event",
+      "entities": ["disciples of Jesus", "Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-018",
+      "paragraph": 9,
+      "quote": "While their announcement was founded on Dan. 9:25, they did not see, in the next verse of the same chapter, that Messiah was to be cut off.",
+      "claim_text": "The disciples' announcement was founded on Daniel 9:25, but they did not perceive that the following verse of the same chapter foretold that the Messiah would be cut off.",
+      "claim_type": "theological",
+      "entities": ["disciples of Jesus", "Book of Daniel"],
+      "needs_verification": false,
+      "extractor_note": "Borderline case: the claim concerns the content of a specific biblical verse (Daniel 9:26), which is in principle checkable by reading the text, but the assertion functions within the chapter's prophetic-interpretation argument. Classified theological/interpretive per project Rule 5; flagged here in case the verifier wants to spot-check the textual point."
+    },
+    {
+      "id": "GC-19-019",
+      "paragraph": 9,
+      "quote": "From their very birth their hearts had been set upon the anticipated glory of an earthly empire, and this blinded their understanding alike to the specifications of the prophecy and to the words of Christ.",
+      "claim_text": "The disciples' lifelong hope for the glory of an earthly empire blinded their understanding of both the prophecy's specifications and Christ's own words.",
+      "claim_type": "interpretive",
+      "entities": ["disciples of Jesus"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-19-020",
+      "paragraph": 10,
+      "quote": "at the very time when they expected to see their Lord ascend the throne of David, they beheld Him seized as a malefactor, scourged, derided, and condemned, and lifted up on the cross of Calvary.",
+      "claim_text": "Jesus Christ was seized as a malefactor, scourged, derided, condemned, and crucified at Calvary, at a time when His disciples expected Him to ascend the throne of David.",
+      "claim_type": "event",
+      "entities": ["Jesus Christ", "disciples of Jesus", "Calvary"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-021",
+      "paragraph": 11,
+      "quote": "Christ had come at the exact time and in the manner foretold by prophecy.",
+      "claim_text": "Christ came at the exact time and in the manner foretold by biblical prophecy.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-19-022",
+      "paragraph": 11,
+      "quote": "He had preached the message of salvation, and “His word was with power.”",
+      "claim_text": "Jesus preached the message of salvation, and 'His word was with power.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Luke 4:32."
+    },
+    {
+      "id": "GC-19-023",
+      "paragraph": 12,
+      "quote": "In their anguish they did not then recall the words of Christ pointing forward to His suffering and death.",
+      "claim_text": "In their anguish after Christ's death, the disciples did not recall His words pointing forward to His suffering and death.",
+      "claim_type": "biographical",
+      "entities": ["disciples of Jesus", "Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-024",
+      "paragraph": 12,
+      "quote": "This was the question that tortured their souls while the Saviour lay in His sepulcher during the hopeless hours of that Sabbath which intervened between His death and His resurrection.",
+      "claim_text": "A Sabbath day intervened between the death of Jesus Christ and His resurrection, during which His body lay in the sepulcher.",
+      "claim_type": "event",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-025",
+      "paragraph": 13,
+      "quote": "“When I sit in darkness, the Lord shall be a light unto me.... He will bring me forth to the light, and I shall behold His righteousness.”",
+      "claim_text": "The Bible contains the statement, 'When I sit in darkness, the Lord shall be a light unto me.... He will bring me forth to the light, and I shall behold His righteousness.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "extractor_note": "Likely Micah 7:8-9; attribution inferred, not stated inline."
+    },
+    {
+      "id": "GC-19-026",
+      "paragraph": 13,
+      "quote": "“Yea, the darkness hideth not from Thee; but the night shineth as the day: the darkness and the light are both alike to Thee.”",
+      "claim_text": "The Bible contains the statement, 'Yea, the darkness hideth not from Thee; but the night shineth as the day: the darkness and the light are both alike to Thee.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "extractor_note": "Likely Psalm 139:12; attribution inferred, not stated inline."
+    },
+    {
+      "id": "GC-19-027",
+      "paragraph": 13,
+      "quote": "“Unto the upright there ariseth light in the darkness.”",
+      "claim_text": "The Bible contains the statement, 'Unto the upright there ariseth light in the darkness.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "extractor_note": "Likely Psalm 112:4; attribution inferred, not stated inline."
+    },
+    {
+      "id": "GC-19-028",
+      "paragraph": 13,
+      "quote": "“I will bring the blind by a way that they knew not; I will lead them in paths that they have not known: I will make darkness light before them, and crooked things straight. These things will I do unto them, and not forsake them.”",
+      "claim_text": "The Bible records God declaring, 'I will bring the blind by a way that they knew not; I will lead them in paths that they have not known: I will make darkness light before them, and crooked things straight. These things will I do unto them, and not forsake them.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "extractor_note": "Likely Isaiah 42:16; attribution inferred, not stated inline."
+    },
+    {
+      "id": "GC-19-029",
+      "paragraph": 14,
+      "quote": "At the expiration of “the time”—the sixty-nine weeks of Daniel 9, which were to extend to the Messiah, “the Anointed One”—Christ had received the anointing of the Spirit, after His baptism by John in Jordan.",
+      "claim_text": "Christ received the anointing of the Spirit after His baptism by John in the Jordan, at the expiration of the sixty-nine weeks of the prophecy of Daniel 9.",
+      "claim_type": "event",
+      "entities": ["Jesus Christ", "John the Baptist", "Jordan River"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-030",
+      "paragraph": 14,
+      "quote": "the “kingdom of God” which they had declared to be at hand, was established by the death of Christ.",
+      "claim_text": "The 'kingdom of God' which the disciples declared to be at hand was established by the death of Christ.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-19-031",
+      "paragraph": 14,
+      "quote": "that everlasting kingdom, in which “all dominions shall serve and obey Him.”",
+      "claim_text": "The Bible refers to an everlasting kingdom in which 'all dominions shall serve and obey Him.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "extractor_note": "Likely Daniel 7:27."
+    },
+    {
+      "id": "GC-19-032",
+      "paragraph": 14,
+      "quote": "The kingdom of grace is brought to view by Paul in the Epistle to the Hebrews.",
+      "claim_text": "The Apostle Paul is the author of the Epistle to the Hebrews, in which the kingdom of grace is brought to view.",
+      "claim_type": "biographical",
+      "entities": ["Paul", "Epistle to the Hebrews"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-033",
+      "paragraph": 14,
+      "quote": "After pointing to Christ, the compassionate intercessor who is “touched with the feeling of our infirmities,” the apostle says, “Let us therefore come boldly unto _the throne of grace_, that we may obtain mercy, and find grace.”",
+      "claim_text": "Paul, in the Epistle to the Hebrews, describes Christ as the compassionate intercessor 'touched with the feeling of our infirmities' and writes, 'Let us therefore come boldly unto the throne of grace, that we may obtain mercy, and find grace.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul", "Epistle to the Hebrews"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Hebrews 4:15-16."
+    },
+    {
+      "id": "GC-19-034",
+      "paragraph": 15,
+      "quote": "this kingdom is referred to in the Saviour’s words, “When the Son of man shall come in His glory, and all the holy angels with Him, then shall He sit upon the throne of His glory: and before Him shall be gathered all nations.”",
+      "claim_text": "Jesus Christ said, 'When the Son of man shall come in His glory, and all the holy angels with Him, then shall He sit upon the throne of His glory: and before Him shall be gathered all nations.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Matthew 25:31-32."
+    },
+    {
+      "id": "GC-19-035",
+      "paragraph": 15,
+      "quote": "This kingdom is yet future. It is not to be set up until the second advent of Christ.",
+      "claim_text": "The kingdom of glory is yet future and will not be set up until the second advent of Christ.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-19-036",
+      "paragraph": 16,
+      "quote": "The kingdom of grace was instituted immediately after the fall of man, when a plan was devised for the redemption of the guilty race.",
+      "claim_text": "The kingdom of grace was instituted immediately after the fall of man, when a plan was devised for the redemption of the human race.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-19-037",
+      "paragraph": 16,
+      "quote": "In Gethsemane the cup of woe trembled in His hand.",
+      "claim_text": "Jesus Christ experienced an agony of decision in Gethsemane before His crucifixion.",
+      "claim_type": "event",
+      "entities": ["Jesus Christ", "Gethsemane"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-038",
+      "paragraph": 16,
+      "quote": "when the Saviour yielded up His life, and with His expiring breath cried out, “It is finished,” then the fulfilment of the plan of redemption was assured.",
+      "claim_text": "Jesus Christ cried out 'It is finished' with His expiring breath at the moment of His death.",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to John 19:30."
+    },
+    {
+      "id": "GC-19-039",
+      "paragraph": 17,
+      "quote": "Thus the death of Christ—the very event which the disciples had looked upon as the final destruction of their hope—was that which made it forever sure.",
+      "claim_text": "The death of Christ, which the disciples viewed as the destruction of their hope, was in fact the event that made their hope forever sure.",
+      "claim_type": "interpretive",
+      "entities": ["Jesus Christ", "disciples of Jesus"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-19-040",
+      "paragraph": 18,
+      "quote": "Even in the Passover chamber, at that solemn hour when their Master was already entering the shadow of Gethsemane, there was “a strife among them, which of them should be accounted the greatest.”",
+      "claim_text": "During the Passover meal, shortly before Jesus entered Gethsemane, a dispute arose among the disciples over which of them should be accounted the greatest.",
+      "claim_type": "event",
+      "entities": ["disciples of Jesus", "Jesus Christ"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Luke 22:24."
+    },
+    {
+      "id": "GC-19-041",
+      "paragraph": 18,
+      "quote": "It was their pride of heart, their thirst for worldly glory, that had led them to cling so tenaciously to the false teaching of their time, and to pass unheeded the Saviour’s words showing the true nature of His kingdom, and pointing forward to His agony and death.",
+      "claim_text": "The disciples' pride of heart and thirst for worldly glory led them to cling to the popular expectation of an earthly kingdom and to disregard Christ's own words about the true nature of His kingdom and His coming suffering.",
+      "claim_type": "interpretive",
+      "entities": ["disciples of Jesus"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-19-042",
+      "paragraph": 19,
+      "quote": "After His resurrection, Jesus appeared to His disciples on the way to Emmaus, and “beginning at Moses and all the prophets, He expounded unto them in all the Scriptures the things concerning Himself.”",
+      "claim_text": "After His resurrection, Jesus appeared to His disciples on the road to Emmaus and, beginning at Moses and all the prophets, expounded to them the Scriptures concerning Himself.",
+      "claim_type": "event",
+      "entities": ["Jesus Christ", "disciples of Jesus", "Emmaus"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Luke 24:13-27."
+    },
+    {
+      "id": "GC-19-043",
+      "paragraph": 19,
+      "quote": "They were “begotten again unto a lively hope,” even before Jesus revealed Himself to them.",
+      "claim_text": "The disciples on the road to Emmaus were 'begotten again unto a lively hope' even before Jesus revealed Himself to them.",
+      "claim_type": "attributed_quote",
+      "entities": ["disciples of Jesus"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to 1 Peter 1:3."
+    },
+    {
+      "id": "GC-19-044",
+      "paragraph": 20,
+      "quote": "What a change was wrought in the hearts of the disciples, as they looked once more on the loved countenance of their Master!",
+      "claim_text": "A great change was wrought in the hearts of the disciples when they saw Jesus again after His resurrection.",
+      "claim_type": "interpretive",
+      "entities": ["disciples of Jesus", "Jesus Christ"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-19-045",
+      "paragraph": 20,
+      "quote": "In a more complete and perfect sense than ever before, they had “found Him, of whom Moses in the law, and the prophets, did write.”",
+      "claim_text": "The disciples came to feel they had, in a more complete sense than before, 'found Him, of whom Moses in the law, and the prophets, did write.'",
+      "claim_type": "attributed_quote",
+      "entities": ["disciples of Jesus"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to John 1:45."
+    },
+    {
+      "id": "GC-19-046",
+      "paragraph": 20,
+      "quote": "What marvel that after His ascension they “were continually in the temple, praising and blessing God.”",
+      "claim_text": "After Jesus' ascension, His disciples were continually in the temple, praising and blessing God.",
+      "claim_type": "event",
+      "entities": ["disciples of Jesus", "Jerusalem Temple"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Luke 24:53."
+    },
+    {
+      "id": "GC-19-047",
+      "paragraph": 20,
+      "quote": "In the keenest sorrow they had “strong consolation,” a hope which was as “an anchor of the soul, both sure and steadfast.”",
+      "claim_text": "The Bible describes believers' hope as 'strong consolation' and 'an anchor of the soul, both sure and steadfast.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Hebrews 6:18-19."
+    },
+    {
+      "id": "GC-19-048",
+      "paragraph": 20,
+      "quote": "they were “persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come, nor height, nor depth, nor any other creature,” would be able to separate them from “the love of God, which is in Christ Jesus our Lord.” “In all these things,” they said, “we are more than conquerors through Him that loved us.”",
+      "claim_text": "The disciples were persuaded that nothing in creation could separate them from the love of God in Christ Jesus, and declared themselves 'more than conquerors through Him that loved us.'",
+      "claim_type": "attributed_quote",
+      "entities": ["disciples of Jesus", "Paul"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Romans 8:37-39."
+    },
+    {
+      "id": "GC-19-049",
+      "paragraph": 20,
+      "quote": "“The word of the Lord endureth forever.”",
+      "claim_text": "The Bible states, 'The word of the Lord endureth forever.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to 1 Peter 1:25."
+    },
+    {
+      "id": "GC-19-050",
+      "paragraph": 20,
+      "quote": "“who is he that condemneth? It is Christ that died, yea rather, that is _risen again_, who is even at the right hand of God, who also maketh intercession for us.”",
+      "claim_text": "The Bible states, 'who is he that condemneth? It is Christ that died, yea rather, that is risen again, who is even at the right hand of God, who also maketh intercession for us.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Paul"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Romans 8:34."
+    },
+    {
+      "id": "GC-19-051",
+      "paragraph": 21,
+      "quote": "Saith the Lord: “My people shall never be ashamed.”",
+      "claim_text": "The Bible records the Lord saying, 'My people shall never be ashamed.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "extractor_note": "Likely Joel 2:26."
+    },
+    {
+      "id": "GC-19-052",
+      "paragraph": 21,
+      "quote": "“Weeping may endure for a night, but joy cometh in the morning.”",
+      "claim_text": "The Bible states, 'Weeping may endure for a night, but joy cometh in the morning.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Psalm 30:5."
+    },
+    {
+      "id": "GC-19-053",
+      "paragraph": 21,
+      "quote": "before His ascension, Jesus led them out as far as Bethany, and lifting up His hands in blessing, bade them, “Go ye into all the world, and preach the gospel,” adding, “Lo, I am with you alway;”",
+      "claim_text": "Before His ascension, Jesus led His disciples out as far as Bethany and, lifting up His hands in blessing, commanded them, 'Go ye into all the world, and preach the gospel,' adding, 'Lo, I am with you alway.'",
+      "claim_type": "event",
+      "entities": ["Jesus Christ", "disciples of Jesus", "Bethany"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Luke 24:50, Mark 16:15, Matthew 28:20."
+    },
+    {
+      "id": "GC-19-054",
+      "paragraph": 21,
+      "quote": "when on the day of Pentecost the promised Comforter descended, and the power from on high was given, and the souls of the believers thrilled with the conscious presence of their ascended Lord",
+      "claim_text": "On the day of Pentecost, the promised Comforter (the Holy Spirit) descended upon the believers and power from on high was given.",
+      "claim_type": "event",
+      "entities": ["Holy Spirit", "disciples of Jesus", "Pentecost"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Acts 2."
+    },
+    {
+      "id": "GC-19-055",
+      "paragraph": 21,
+      "quote": "joy unspeakable, “an eternal weight of glory,” to which, says Paul, “our light affliction, which is but for a moment,” is “not worthy to be compared.”",
+      "claim_text": "The apostle Paul wrote that present light affliction, which is but for a moment, is not worthy to be compared with an eternal weight of glory.",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to 2 Corinthians 4:17; the text explicitly attributes the statement to Paul."
+    },
+    {
+      "id": "GC-19-056",
+      "paragraph": 22,
+      "quote": "so Miller and his associates proclaimed that the longest and last prophetic period brought to view in the Bible was about to expire, that the judgment was at hand, and the everlasting kingdom was to be ushered in.",
+      "claim_text": "William Miller and his associates proclaimed that the longest and last prophetic period in the Bible was about to expire, that the judgment was at hand, and that the everlasting kingdom was about to be ushered in.",
+      "claim_type": "biographical",
+      "entities": ["William Miller"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-057",
+      "paragraph": 22,
+      "quote": "The preaching of the disciples in regard to time was based on the seventy weeks of Daniel 9.",
+      "claim_text": "The disciples' preaching regarding the timing of the Messiah's coming was based on the seventy weeks of Daniel 9.",
+      "claim_type": "causal",
+      "entities": ["disciples of Jesus", "Book of Daniel"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-058",
+      "paragraph": 22,
+      "quote": "The message given by Miller and his associates announced the termination of the 2300 days of Dan. 8:14, of which the seventy weeks form a part.",
+      "claim_text": "William Miller and his associates preached a message announcing the termination of the 2300 days of Daniel 8:14, of which the seventy weeks of Daniel 9 form a part.",
+      "claim_type": "biographical",
+      "entities": ["William Miller", "Book of Daniel"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-059",
+      "paragraph": 23,
+      "quote": "Like the first disciples, William Miller and his associates did not, themselves, fully comprehend the import of the message which they bore.",
+      "claim_text": "William Miller and his associates did not fully comprehend the import of the prophetic message they proclaimed, in a manner parallel to the first disciples.",
+      "claim_type": "theological",
+      "entities": ["William Miller"],
+      "needs_verification": false,
+      "extractor_note": "Has a biographical component (a claim about Miller's state of understanding) but is framed as a theological judgment parallel to the disciples; classified theological per Rule 5."
+    },
+    {
+      "id": "GC-19-060",
+      "paragraph": 23,
+      "quote": "Errors that had been long established in the church prevented them from arriving at a correct interpretation of an important point in the prophecy.",
+      "claim_text": "Errors long established in the Christian church prevented William Miller and his associates from arriving at a correct interpretation of an important point in the prophecy of Daniel 8:14.",
+      "claim_type": "causal",
+      "entities": ["William Miller"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-061",
+      "paragraph": 23,
+      "quote": "Therefore, though they proclaimed the message which God had committed to them to be given to the world, yet through a misapprehension of its meaning, they suffered disappointment.",
+      "claim_text": "William Miller and his associates suffered disappointment as a result of misapprehending the meaning of the prophetic message they proclaimed.",
+      "claim_type": "event",
+      "entities": ["William Miller"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-062",
+      "paragraph": 24,
+      "quote": "Miller, as has been stated, adopted the generally received view that the earth is the sanctuary, and he believed that the cleansing of the sanctuary represented the purification of the earth by fire at the coming of the Lord.",
+      "claim_text": "William Miller adopted the generally received view that the earth is the sanctuary referred to in Daniel 8:14, and believed the cleansing of the sanctuary represented the purification of the earth by fire at the second coming of Christ.",
+      "claim_type": "biographical",
+      "entities": ["William Miller"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-063",
+      "paragraph": 24,
+      "quote": "When, therefore, he found that the close of the 2300 days was definitely foretold, he concluded that this revealed the time of the second advent.",
+      "claim_text": "William Miller concluded that the foretold close of the 2300 days of Daniel 8:14 revealed the time of the second advent of Christ.",
+      "claim_type": "biographical",
+      "entities": ["William Miller"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-064",
+      "paragraph": 24,
+      "quote": "His error resulted from accepting the popular view as to what constitutes the sanctuary.",
+      "claim_text": "William Miller's error in dating the second advent resulted from his accepting the popular view of what constitutes the sanctuary of Daniel 8:14.",
+      "claim_type": "causal",
+      "entities": ["William Miller"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-065",
+      "paragraph": 25,
+      "quote": "In the typical system, which was a shadow of the sacrifice and priesthood of Christ, the cleansing of the sanctuary was the last service performed by the high priest in the yearly round of ministration.",
+      "claim_text": "In the Old Testament typical sanctuary system, the cleansing of the sanctuary was the last service performed by the high priest in the yearly round of ministration, prefiguring Christ's heavenly priesthood.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-19-066",
+      "paragraph": 25,
+      "quote": "Says Jesus, “My reward is with Me, to give every man according as his work shall be.”",
+      "claim_text": "Jesus said, 'My reward is with Me, to give every man according as his work shall be.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to Revelation 22:12."
+    },
+    {
+      "id": "GC-19-067",
+      "paragraph": 25,
+      "quote": "It is this work of judgment, immediately preceding the second advent, that is announced in the first angel’s message of Rev. 14:7, “Fear God, and give glory to Him; for the hour of His judgment is come.”",
+      "claim_text": "The first angel's message of Revelation 14:7 states, 'Fear God, and give glory to Him; for the hour of His judgment is come.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-068",
+      "paragraph": 25,
+      "quote": "It is this work of judgment, immediately preceding the second advent, that is announced in the first angel’s message of Rev. 14:7",
+      "claim_text": "The work of judgment announced in the first angel's message of Revelation 14:7 is an investigative judgment in heaven that immediately precedes the second advent of Christ.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-19-069",
+      "paragraph": 26,
+      "quote": "so Miller and his associates preached the message based on Dan. 8:14 and Rev. 14:7, and failed to see that there were still other messages brought to view in Revelation 14, which were also to be given before the advent of the Lord.",
+      "claim_text": "William Miller and his associates preached a message based on Daniel 8:14 and Revelation 14:7 but did not recognize that other messages in Revelation 14 were also to be proclaimed before the advent of the Lord.",
+      "claim_type": "biographical",
+      "entities": ["William Miller"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-070",
+      "paragraph": 26,
+      "quote": "As the disciples were mistaken in regard to the kingdom to be set up at the end of the seventy weeks, so Adventists were mistaken in regard to the event to take place at the expiration of the 2300 days.",
+      "claim_text": "Adventists led by William Miller were mistaken about the event that was to take place at the expiration of the 2300 days of Daniel 8:14.",
+      "claim_type": "event",
+      "entities": ["William Miller", "Adventists"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-19-071",
+      "paragraph": 27,
+      "quote": "The great day was at hand, and in His providence the people were brought to the test of a definite time, in order to reveal to them what was in their hearts.",
+      "claim_text": "God, in His providence, brought the Millerite believers to the test of a definite time in order to reveal what was in their hearts.",
+      "claim_type": "theological",
+      "entities": ["William Miller", "Adventists"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-19-072",
+      "paragraph": 28,
+      "quote": "The disappointment also, though the result of their own misapprehension of the message which they gave, was to be overruled for good.",
+      "claim_text": "The Millerite disappointment, though the result of their own misapprehension of the message they gave, was overruled by God for good.",
+      "claim_type": "theological",
+      "entities": ["William Miller", "Adventists"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-19-073",
+      "paragraph": 29,
+      "quote": "It would teach them, as only such an experience could, the danger of accepting the theories and interpretations of men, instead of making the Bible its own interpreter.",
+      "claim_text": "The Millerite disappointment taught believers the danger of accepting the theories and interpretations of men instead of making the Bible its own interpreter.",
+      "claim_type": "interpretive",
+      "entities": ["William Miller", "Adventists"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-19-074",
+      "paragraph": 30,
+      "quote": "They would learn by a blessed experience that He is “very pitiful, and of tender mercy;” that all His paths “are mercy and truth unto such as keep His covenant and His testimonies.”",
+      "claim_text": "The Bible describes God as 'very pitiful, and of tender mercy' and states that all His paths 'are mercy and truth unto such as keep His covenant and His testimonies.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "extractor_note": "Corresponds to James 5:11 and Psalm 25:10."
+    }
+  ]
+}
