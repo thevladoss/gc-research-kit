@@ -2804,7 +2804,25 @@
         "claims": 3,
         "load_bearing": 0,
         "academic_floor": false,
-        "status": "pending"
+        "status": "done",
+        "ruling_file": "adjudication/D08_immortality-genealogy.ruling.json",
+        "rulings_as_written": {
+          "improbable": 3
+        },
+        "rulings_weakened": {
+          "well-supported": 2,
+          "probable": 1
+        },
+        "framing_gaps": {
+          "3": 2,
+          "2": 1
+        },
+        "failing_component_kind_accusatory": {
+          "fact": 3
+        },
+        "gap_notes": [],
+        "searches": "searches: ~7 (7 shared, 0 stragglers)",
+        "updated_at": "2026-07-05T17:46:21Z"
       },
       "D09": {
         "slug": "luther-narrative-layer",

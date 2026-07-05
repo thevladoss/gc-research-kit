@@ -1,0 +1,169 @@
+{
+  "dossier": "D08",
+  "slug": "immortality-genealogy",
+  "stage": "adjudication",
+  "charter_version": "1.1-frozen",
+  "generated_at": "2026-07-05",
+  "notes": "searches: ~7 (7 shared, 0 stragglers). Local scholarship used at zero budget: scholarship/anf01-ante-nicene-fathers-vol1.txt (Justin Martyr, Dialogue with Trypho chs. 5-6 at lines 17498-17544, denying the soul's natural immortality; First Apology eternal-punishment/eternal-fire passages, e.g. lines 16629-16917; Irenaeus eternal-fire passages). Phase-1 defense stage was a pass-through for all three claims (gc_ch33/gc_ch36 defended.json: disputed skips defense), so no defender argument exists to answer beyond the verifier rationales, which are engaged below. Symmetry check (charter section 7): all three as-written rulings moved against the book, but the component-level and weakened rulings moved strongly toward it (the pagan-origin core is vindicated as well-supported); the dossier is not one-directional once decomposed.",
+  "evidence_review": "The dossier turns on two genealogical questions: where the doctrine of the soul's natural immortality entered Christian theology, and where the doctrine of eternal torment did; and specifically whether 'Rome' (in GC's idiom, the Roman/papal church) is the agent of either transmission. (1) Natural immortality. The classic modern statement is Oscar Cullmann's Immortality of the Soul or Resurrection of the Dead? (1956): the naturally immortal soul is a Greek (Platonic) conception alien to the New Testament's resurrection hope. Recent peer-reviewed work ('Plato's Shadow: The Encroaching Doctrine of the Soul's Immortality in the Early Church', Humanities 13(3):77, MDPI 2024) and the specialist monograph of D. Rankin (The Early Church and the Afterlife, Routledge 2017) trace the actual entry: Justin Martyr (Dialogue 5-6, c. 155-160, local ANF text) still denies that the soul is immortal by nature; Athenagoras of Athens (c. 177) is per Froom's own count the first Father to use 'immortal soul' as a Christian category; Tertullian of Carthage (De Anima, c. 210) systematizes it with explicit appeal to Plato; Origen of Alexandria and then Augustine (per SEP, holding the soul's immateriality and immortality 'axiomatically' within a Neoplatonist frame) complete the assimilation. Every one of these agents worked before the medieval papacy existed and none was an organ of the Roman church; Eastern Christendom holds the same anthropology with no papal mediation. Rome's documented doctrinal acts are late and ratifying, not originating: Benedict XII's Benedictus Deus (1336) on the immediate fate of souls, and Leo X's Fifth Lateran decree Apostolici Regiminis (1513), which dogmatized the soul's immortality against Pomponazzi's Aristotelian mortalism (E. A. Constant, Sixteenth Century Journal 33/2, 2002) - a defense of a doctrine already universal for a millennium. The 'borrowed from paganism' core has a named nuance flank: James Barr (The Garden of Eden and the Hope of Immortality, 1992) and John W. Cooper (Body, Soul, and Life Everlasting) argue the Hebraic-vs-Greek dichotomy is overdrawn and that Second Temple Judaism (Wisdom of Solomon, Philo, the Pharisees per Josephus) already carried soul-survival beliefs; but neither claims the specifically philosophical thesis of the soul's immortality BY NATURE is biblical rather than Platonic in lineage. (2) Eternal torment. Eternal-punishment language is attested from the 2nd century across the Mediterranean (Justin's First Apology, Irenaeus - both in the local ANF volume; Athenagoras; Tertullian), i.e. centuries pre-papal and geographically pan-Christian. The early picture was diverse: Ilaria Ramelli (The Christian Doctrine of Apokatastasis, Brill 2013) documents broad early universalist currents (Origen, Gregory of Nyssa) and argues apokatastasis was biblically, not philosophically, derived; Michael McClymond (The Devil's Redemption, Baker Academic 2018) contests her prevalence claims. On either side of that live debate, the consolidation of eternal torment runs through Augustine (North Africa) and the anti-Origenist condemnations under Justinian (Constantinople, 543/553) - not through papal initiative - and Eastern Orthodoxy affirms eternal torment without ever having 'received' it from Rome. Protestants did inherit both doctrines proximately through the medieval Latin church (the Reformers' confessions, e.g. Augsburg XVII, retain eternal punishment), which is the true kernel of GC's transmission language. (3) Even the claim-side tradition concedes the timing: L. E. Froom's Conditionalist Faith of Our Fathers, the flagship SDA historiography that systematized White's framing, itself names Athenagoras and Tertullian as the point of entry - patristic, not papal. No published scholarship, confessional or independent, attributes the origination of either doctrine to the Roman church. (4) Spiritualism (for GC-36-044): Ann Braude (Radical Spirits, 1989/Indiana UP 2001) documents that the movement's appeal rested on offering 'empirical proof' of the soul's immortality to Protestant audiences, supporting a receptivity mechanism; Janet Oppenheim (The Other World, Cambridge UP 1985) and Georgina Byrne document that non-conditionalist churches nonetheless mounted active defenses (biblical necromancy prohibitions, a revived demonological reading, fraud exposure), which defeats any historical reading of 'the only defense'. What changed since the 19th century: White's framing matched the conditionalist historiography of her milieu (Andrews-parallel, later Froom); 20th-21st-century scholarship has vindicated the Greek-influence core of that historiography while decisively relocating the agency and timing away from 'Rome' into the pre-papal patristic era.",
+  "narrative_ru": "Досье проверяет родословную двух учений: вечных мук и природного бессмертия души. Историки догмы и сами адвентистские авторы (Фрум) сходятся в том, что концепция бессмертной по природе души вошла в христианское богословие из греческой философии. Книга, однако, приписывает это заимствование Риму, тогда как усвоение произошло у отцов II-V веков (Афинагор, Тертуллиан, Ориген, Августин), за столетия до средневекового папства, и восточные церкви держатся тех же учений без римского посредничества. Все три утверждения в авторской формулировке получили оценку improbable, а их ослабленные версии (наследование протестантами этих доктрин через средневековую латинскую церковь, позднейшая догматизация Римом в 1336 и 1513 годах, уязвимость протестантов перед спиритизмом) устояли на уровне well-supported и probable. Картину изменили бы документы, показывающие специфически римский канал внедрения этих доктрин в раннее христианство.",
+  "rulings": [
+    {
+      "id": "GC-33-034",
+      "dossier": "D08",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "Proximate transmission: 19th-century Protestant ministers' doctrine of eternal torment came to them through the medieval Latin ('Roman') church rather than being derived independently.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Trivially true as chain of custody: the magisterial Reformation retained the medieval church's eschatology (Augsburg Confession XVII explicitly affirms eternal punishment; [common_knowledge]-level fact of Reformation doctrinal history), exactly as it retained the canon, the creeds, and Sunday observance through the same channel."
+        },
+        {
+          "component": "Origination: the doctrine of eternal torment is a Roman contribution - something the Roman church introduced into Christianity, rather than an early, pan-Christian development. This is the sentence's rhetorical force, given the paragraph's 'wine of Babylon' frame and the explicit parallel to the Sunday genealogy.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Eternal-punishment language is attested in the 2nd century across the Mediterranean (Justin's First Apology and Irenaeus in the local ANF text; Athenagoras; Tertullian per Rankin 2017), centuries before a papal 'Rome' existed; Eastern Orthodoxy affirms the doctrine without Roman mediation; its consolidation ran through Augustine (North Africa) and Justinian's Constantinople (543/553), not papal initiative. No published scholarship, including the conditionalist tradition itself (Froom; Fudge traces the doctrine to intertestamental texts and Greek anthropology via the fathers), locates the origination in the Roman church. Not discredited, because a weakened conduit-plus-consolidation version survives (see weakened_version) and the failure is misattributed agency rather than a defeated quantifier."
+        },
+        {
+          "component": "Analogy frame: the transmission pattern is the same as that of Sunday observance ('as they received the false sabbath') - i.e., both are Roman corruptions passed to Protestantism.",
+          "kind": "frame",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "The analogy is descriptively apt in a sense the sentence does not intend: both eternal torment and Sunday observance are 2nd-century, pre-papal developments that reached Protestants through the medieval church. As an assertion that both share a Roman-corruption origin, it fails on the same evidence as the origination component (and the pipeline's D02 work locates Sunday observance in the 2nd century as well)."
+        },
+        {
+          "component": "The characterization of the doctrine as 'heresy' and 'wine of Babylon', and of Sunday as 'the false sabbath' (their theological falseness).",
+          "kind": "hermeneutic",
+          "in_scope": false,
+          "ruling": null,
+          "rationale": "Theological evaluation of doctrine; out of scope per charter section 9. The ruling is conditional on no position about which eschatology or day of worship is true."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "tied_kinds": ["fact", "frame"],
+      "weakened_version": "Protestant ministers inherited the doctrine of eternal torment through the medieval Latin (Roman) church, where it had been consolidated since Augustine, just as they inherited Sunday observance through the same channel.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "medium",
+      "minority_engagement": "The strongest position for the claim as written is the conditionalist historiography (Froom, Conditionalist Faith of Our Fathers; modern evangelical conditionalism, e.g. Fudge, The Fire That Consumes), which reads eternal torment as a post-apostolic corruption built on the Platonic immortal-soul premise and enforced by medieval Rome; Ramelli's Brill monograph adds academic weight to the corruption-and-consolidation narrative by documenting broad early universalist currents that a later 'infernalist' consensus displaced. Engaged: none of these positions places the ORIGINATION in Rome. Froom names Athenagoras and Tertullian; Fudge names intertestamental texts and the fathers; Ramelli's consolidation agents are Augustine and Justinian, and McClymond (The Devil's Redemption) contests her prevalence claims from the other side without helping the Rome attribution either. The defensible content of the tradition is exactly the weakened version, which is ruled well-supported; the as-written Roman-origination force fails on the 2nd-century and Eastern evidence. Confidence is medium rather than high because the as-written ruling depends on reading the sentence's force as origination rather than mere conduit; the paragraph's Babylon frame and the Sunday parallel support that reading, but a defender pressing the literal conduit reading gets the weakened ruling instead.",
+      "source_quality": "academic-full",
+      "sources": [
+        {"ref": "Justin Martyr, First Apology (eternal punishment/eternal fire passages) and Irenaeus, Against Heresies (eternal fire passages), ANF vol. 1, local: scholarship/anf01-ante-nicene-fathers-vol1.txt (e.g. lines 16629-16917, 34332, 43337)", "tier": "primary-in-context", "independence_note": "2nd-century primary texts in the standard ANF translation; independent of both conditionalist and Catholic historiography"},
+        {"ref": "D. Rankin, The Early Church and the Afterlife: Post-death Existence in Athenagoras, Tertullian, Origen and the Letter to Rheginos (Routledge, 2017)", "tier": "academic", "independence_note": "specialist monograph on the 2nd-3rd-century trajectory; independent of encyclopedic digests and of Froom"},
+        {"ref": "I. Ramelli, The Christian Doctrine of Apokatastasis (Brill, 2013), with M. McClymond, The Devil's Redemption (Baker Academic, 2018) as the named academic counter-position", "tier": "academic", "independence_note": "two genealogically independent academic works on opposite sides of the early-prevalence debate; both locate consolidation agents outside papal Rome"},
+        {"ref": "O. Cullmann, Immortality of the Soul or Resurrection of the Dead? (1956), full text jbburnett.com/resources/cullmann_immort-res.pdf", "tier": "academic", "independence_note": "classic statement of the Greek-anthropology premise beneath eternal torment; upstream of much conditionalist argument, so not independent of works quoting it"},
+        {"ref": "L. E. Froom, The Conditionalist Faith of Our Fathers (1965), vol. 1 (entry via Athenagoras/Tertullian)", "tier": "position", "independence_note": "SDA confessional historiography; cited as the claim-side tradition's own concession on patristic (non-papal) entry"}
+      ],
+      "would_change_this": "Documentary evidence that eternal torment was absent from churches outside Rome's sphere until Roman propagation (e.g. early Eastern sources rejecting it until documented Roman influence), or a peer-reviewed demonstration that Protestant eternal-torment teaching derived from distinctively papal formulations rather than the shared patristic-Augustinian heritage, would move the as-written ruling up.",
+      "gap_note": null,
+      "notes": "Phase-1: verifier ruled disputed (academic-full) noting the pagan-roots premise is endorsed but the Rome attribution is conditionalist-polemical framing; defense stage skipped (pass-through). This adjudication decomposes the verifier's tension: the empirical core is vindicated (component 1 well-supported), the Rome-origination layer fails, and the conditionalist-vs-mainstream disagreement that motivated 'disputed' turns out to live in the out-of-scope theological layer, not in the testable genealogy."
+    },
+    {
+      "id": "GC-33-099",
+      "dossier": "D08",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "Pagan origin: the theory of the soul's natural immortality, as it entered Christian theology, derives from pagan (Greek/Platonic) philosophy.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Mainstream position of the history of doctrine: Cullmann's classic statement; the 2024 peer-reviewed 'Plato's Shadow' study tracing the encroachment through the 2nd-3rd-century fathers; SEP on Augustine's axiomatic Neoplatonist commitment; Rankin's Routledge monograph on Athenagoras/Tertullian/Origen; and the primary record itself, in which Justin (Dialogue 5-6, local ANF) still rejects natural immortality c. 155 while Athenagoras (c. 177, per Froom the first Father to use 'immortal soul') and Tertullian (appealing to Plato) adopt it. The Barr/Cooper flank nuances the Hebraic-vs-Greek dichotomy (Second Temple soul-survival beliefs) but does not claim the philosophical thesis of immortality BY NATURE is other than Platonic in lineage."
+        },
+        {
+          "component": "Roman agency: Rome (the Roman church) is the actor that did the borrowing and the incorporating into the religion of Christendom.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "The incorporation was accomplished by 2nd-5th-century fathers working in Athens, Alexandria, Carthage, and Hippo, centuries before a papal 'Rome' existed and not as agents of the Roman see; Eastern Christendom holds the same anthropology without Roman mediation. Rome's documented doctrinal acts are late ratifications of an already-universal doctrine (Benedictus Deus 1336; Apostolici Regiminis 1513 against Pomponazzi, per Constant SCJ 2002), which is dogmatization, not incorporation. Even Froom, the flagship of the claim's own tradition, names Athenagoras and Tertullian as the point of entry. Capped at improbable rather than discredited because the sentence's other half is true, and a loose reading of 'Rome' as the apostatizing imperial-era church shades toward the weakened version rather than being flatly indefensible."
+        },
+        {
+          "component": "The characterization of the theory as a 'false doctrine'.",
+          "kind": "hermeneutic",
+          "in_scope": false,
+          "ruling": null,
+          "rationale": "Theological evaluation of the doctrine's truth; out of scope per charter section 9."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "The theory of the soul's natural immortality entered Christian theology from Greek (pagan) philosophy during the patristic centuries and was carried into medieval Christendom, where the Roman church eventually embedded and dogmatized it (Benedictus Deus 1336; Fifth Lateran Council 1513).",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "high",
+      "minority_engagement": "Two flanks engaged. (1) For the claim as written: the conditionalist tradition (Froom; the Andrews-parallel historiography White followed) defends the pagan-import reading but itself locates the entry with Athenagoras and Tertullian, i.e. concedes the pre-papal timing; a defense reading 'Rome' as the whole apostatizing church of the Roman Empire dissolves the term into 'early Christendom' and thereby changes the subject rather than saving the agency claim - the actual incorporators were Greek apologists and African theologians, and the church of Rome itself was theologically unoriginal in that period. (2) Against the pagan-origin core: Barr (Garden of Eden and the Hope of Immortality) and Cooper (Body, Soul, and Life Everlasting) argue soul-survival belief has biblical and Second Temple Jewish roots and that 'borrowing' understates transformation (similarly Ratzinger's line that the church transformed rather than imported the Greek concept). Engaged: these positions target the sharp dichotomy and the intermediate state, not the lineage of NATURAL immortality as a philosophical thesis, which they too trace to Plato; they keep the core component nuanced but well-supported.",
+      "source_quality": "academic-full",
+      "sources": [
+        {"ref": "Justin Martyr, Dialogue with Trypho chs. 5-6, ANF vol. 1, local: scholarship/anf01-ante-nicene-fathers-vol1.txt lines 17498-17544 ('The soul is not in its own nature immortal')", "tier": "primary-in-context", "independence_note": "2nd-century primary text; documents that natural immortality was contested, not native, in mid-2nd-century Christianity"},
+        {"ref": "'Plato's Shadow: The Encroaching Doctrine of the Soul's Immortality in the Early Church', Humanities 13(3):77 (MDPI, 2024), https://www.mdpi.com/2076-0787/13/3/77", "tier": "academic", "independence_note": "peer-reviewed OA; traces entry via the patristic fathers; genealogically independent of Froom and of SEP"},
+        {"ref": "Stanford Encyclopedia of Philosophy, 'Saint Augustine'", "tier": "academic", "independence_note": "standard scholarly reference for Augustine's Neoplatonist anthropology; independent of the MDPI study"},
+        {"ref": "D. Rankin, The Early Church and the Afterlife (Routledge, 2017)", "tier": "academic", "independence_note": "specialist monograph, Athenagoras/Tertullian/Origen; independent of the above"},
+        {"ref": "E. A. Constant, 'A Reinterpretation of the Fifth Lateran Council Decree Apostolici regiminis (1513)', Sixteenth Century Journal 33/2 (2002)", "tier": "academic", "independence_note": "documents Rome's actual doctrinal act as late ratification against Pomponazzi; independent of patristic scholarship"},
+        {"ref": "O. Cullmann, Immortality of the Soul or Resurrection of the Dead? (1956)", "tier": "academic", "independence_note": "classic academic statement of the Greek-origin thesis"},
+        {"ref": "J. Barr, The Garden of Eden and the Hope of Immortality (1992); J. W. Cooper, Body, Soul, and Life Everlasting (Eerdmans)", "tier": "academic", "independence_note": "named nuance/minority flank against the sharp dichotomy; independent of Cullmann's school"},
+        {"ref": "L. E. Froom, The Conditionalist Faith of Our Fathers (1965), vol. 1", "tier": "position", "independence_note": "SDA confessional historiography conceding patristic entry"}
+      ],
+      "would_change_this": "Evidence of a specifically Roman-ecclesiastical channel of incorporation (early papal decrees introducing soul-immortality where it was previously absent, or scholarship showing the patristic adopters acted under Roman direction) would rehabilitate the as-written agency claim; conversely, a peer-reviewed demonstration that natural immortality was mainstream apostolic doctrine independent of Greek philosophy would undermine the pagan-borrowing core and lower the weakened ruling.",
+      "gap_note": null,
+      "notes": "Phase-1: verifier ruled disputed (academic-full), explicitly splitting the claim into a supported pagan-origin half and a contested Rome-agency half; defense stage skipped (pass-through). The adjudication confirms the split and resolves it: the halves receive opposite rulings, and the conjunction as printed takes the weaker one."
+    },
+    {
+      "id": "GC-36-044",
+      "dossier": "D08",
+      "quantifier_audit": ["the only defense"],
+      "components": [
+        {
+          "component": "Genealogy label: natural immortality and consciousness in death constitute a 'papal error' - a doctrine that is Roman/papal in origin and ownership, which Protestants retain as Roman inheritance rather than biblical teaching.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Same evidence base as GC-33-099 component 2: the doctrine entered Christian theology through 2nd-5th-century fathers under Greek-philosophical influence, centuries before the papacy; it is held by Eastern churches with no papal mediation and has Second Temple Jewish antecedents; the papacy's documented role is late dogmatization (1336, 1513), not origination. 'Papal' misattributes what is pan-Christian and pre-papal. A fair partial defense reads 'papal error' as possession ('that error of popery' in 19th-century polemical idiom) rather than origination; the possession reading is real but still misleadingly narrow, since the doctrine is no more papal than Trinitarian dogma, and it shades into the weakened version."
+        },
+        {
+          "component": "Receptivity frame: belief in natural immortality and man's consciousness in death made Protestant churches doctrinally receptive to Spiritualism's central claim (communication with conscious dead).",
+          "kind": "frame",
+          "in_scope": true,
+          "ruling": "probable",
+          "rationale": "Historians of American Spiritualism support the mechanism: Braude documents that the movement's appeal rested on offering 'empirical proof' of the soul's immortality and that it recruited among Protestants seeking such evidence; for a conditionalist the mediums' claims are a non-starter, for a believer in conscious souls they are an open empirical question. Scholarly inference about a causal-cultural mechanism, not a documented quantified finding: probable, not well-supported."
+        },
+        {
+          "component": "Exclusivity, historical layer: conditionalism was the ONLY defense available - Protestants holding natural immortality had no other means of resisting Spiritualism.",
+          "kind": "frame",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Documented counterexamples defeat the exclusive as history: non-conditionalist churches mounted active and heavily used defenses without touching their anthropology - the biblical prohibitions on necromancy (Deut 18 etc.), a revived demonological reading of the phenomena (Oppenheim on Victorian England; Byrne on the Church of England's anti-Spiritualist demonology), and fraud exposure; mainline Protestantism did not capitulate to Spiritualism en masse. The exclusive 'only' fails on this record."
+        },
+        {
+          "component": "Efficacy claim, theological layer: conditionalism is the only spiritually sound protection against the 'delusions' of Spiritualism, understood as Satanic deception.",
+          "kind": "hermeneutic",
+          "in_scope": false,
+          "ruling": null,
+          "rationale": "Presupposes supernatural agency (Satanic delusion) and ranks doctrines by spiritual efficacy; out of scope per charter section 9. The in-scope exclusivity ruling above deliberately covers only the historical reading."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "tied_kinds": ["fact", "frame"],
+      "weakened_version": "Protestant churches' inherited belief in natural immortality and consciousness in death, a doctrine of patristic-medieval rather than Reformation pedigree, made Spiritualism's claims prima facie credible to many Protestants and deprived them of the conditionalist rebuttal to those claims.",
+      "ruling_weakened": "probable",
+      "framing_gap": 2,
+      "confidence": "medium",
+      "minority_engagement": "The strongest position for the claim is the SDA/conditionalist argument (Froom; White's own logic here): whoever grants that the dead are conscious cannot rule out in principle that the dead communicate, so only conditionalism closes the door. Engaged: as logic about doctrinal fit the point is fair and is credited in the receptivity component (probable, with Braude); as a historical claim about available defenses the exclusive fails, because Oppenheim and Byrne document non-conditionalist churches resisting Spiritualism through necromancy prohibitions and demonological framing, defenses that require no denial of consciousness in death; and as a genealogical label 'papal error' fails on the same patristic evidence as GC-33-099, a failure conceded in effect by Froom's own location of the doctrine's entry with Athenagoras and Tertullian.",
+      "source_quality": "academic-full",
+      "sources": [
+        {"ref": "'Plato's Shadow', Humanities 13(3):77 (MDPI, 2024); Stanford Encyclopedia of Philosophy, 'Saint Augustine'; Justin Martyr, Dialogue 5-6 (local ANF, lines 17498-17544)", "tier": "academic", "independence_note": "the pre-papal genealogy base shared with GC-33-099; peer-reviewed, standard-reference, and primary tiers, mutually independent"},
+        {"ref": "E. A. Constant, 'A Reinterpretation of the Fifth Lateran Council Decree Apostolici regiminis (1513)', Sixteenth Century Journal 33/2 (2002)", "tier": "academic", "independence_note": "Rome's actual doctrinal act as late ratifier; independent of patristic scholarship"},
+        {"ref": "A. Braude, Radical Spirits: Spiritualism and Women's Rights in Nineteenth-Century America (1989; 2nd ed. Indiana UP 2001)", "tier": "academic", "independence_note": "standard academic history of American Spiritualism; documents the proof-of-immortality appeal; independent of doctrine-history sources"},
+        {"ref": "J. Oppenheim, The Other World: Spiritualism and Psychical Research in England, 1850-1914 (Cambridge UP, 1985); G. Byrne on the Church of England's anti-Spiritualist demonology", "tier": "academic", "independence_note": "documents non-conditionalist church defenses; UK-focused, genealogically independent of Braude's US-focused work"},
+        {"ref": "L. E. Froom, The Conditionalist Faith of Our Fathers (1965)", "tier": "position", "independence_note": "the claim-side confessional position, engaged not dismissed"}
+      ],
+      "would_change_this": "For the genealogy label: the same evidence class as GC-33-099 (a documented Roman channel of incorporation). For the causal frame: a comparative study showing conditionalist bodies penetrated by Spiritualism at rates equal to non-conditionalist ones would weaken the receptivity component; archival evidence that non-conditionalist churches in practice lacked functioning anti-Spiritualist defenses would strengthen the exclusivity component and raise the as-written ruling.",
+      "gap_note": null,
+      "notes": "Phase-1: verifier ruled disputed, splitting genealogy (imprecise 'papal') from the 'only defense' claim (called theological/unverifiable); defense stage skipped (pass-through). This adjudication keeps the verifier's split, rules the genealogy label improbable on the shared dossier evidence, credits the receptivity mechanism as probable, and rules the historical layer of 'only' improbable while leaving the efficacy layer out of scope."
+    }
+  ]
+}
