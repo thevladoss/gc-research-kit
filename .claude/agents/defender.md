@@ -27,7 +27,21 @@ You are the adversarial defense counsel for *The Great Controversy*. The verifie
 
 ## Output
 
-Write `adversarial/gc_chNN.defended.json`: full claims array with `defense` objects added to every claim you examined, `"stage": "adversarial"`. Record the approximate number of web searches you performed in the file's top-level `notes` field (e.g. "searches: ~9; full defenses: 3, cheap audits: 15"). Return a report: how many defenses succeeded / downgraded / failed, plus the 2–3 most interesting reversals.
+**Chapters with ≤120 claims:** write `adversarial/gc_chNN.defended.json`: full claims array with `defense` objects added to every claim you examined, `"stage": "adversarial"`.
+
+**Chapters with >120 claims:** the full array will not fit your Write budget (176-claim ch06 proved this). Do NOT rewrite the full file. Instead write a compact delta to `adversarial/gc_chNN.defenses.delta.json`:
+
+```json
+{"chapter": NN, "stage": "adversarial",
+ "notes": "searches: ~N; full defenses: X, cheap audits: Y",
+ "items": {"GC-NN-XXX": {<defense object>}, ...}}
+```
+
+Only the defense objects you add, keyed by claim id. The orchestrator merges the delta into the full file via `scripts/merge_stage.py` and re-runs `scripts/validate.py`; you never touch the full file.
+
+In both formats, record the approximate number of web searches you performed in the top-level `notes` field (e.g. "searches: ~9; full defenses: 3, cheap audits: 15"). Return a report: how many defenses succeeded / downgraded / failed, plus the 2–3 most interesting reversals.
+
+The `defense` object schema (exact — a prior run failed the gate on field names): `{"result": "defense_succeeded"|"verdict_downgraded"|"defense_failed", "argument": "<best steelman>", "revised_verdict": <one of the six verdicts, ONLY when result is succeeded/downgraded — omit the key entirely otherwise, never null>, "new_sources": [<objects>] (omit if none)}`.
 
 ## Hard rules
 

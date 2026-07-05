@@ -15,4 +15,13 @@ Steps (strictly sequential, each via the corresponding subagent with a fresh con
 7. After each stage: update `manifest.json` (stage → done, timestamp, claim/verdict counts).
 8. Final message to user (in Russian): краткая сводка по главе — сколько утверждений, вердикты, сколько защит успешно, топ-3 несоответствия по impact_score, есть ли load-bearing проблемы.
 
+Delta merging: on long chapters the subagents write compact delta files instead of full arrays (verifier: chapters over ~8k words → `verification/gc_chNN.verified.delta.json`; defender and impact-assessor: chapters with >120 claims → `adversarial/gc_chNN.defenses.delta.json` / `impact/gc_chNN.impact.delta.json`). When a stage returns a delta, merge it yourself:
+
+```
+python3 scripts/merge_stage.py <prev_full.json> <delta.json> <out_full.json> \
+    --stage verification|adversarial|impact --key verification|defense|impact --notes-from-delta
+```
+
+(prev_full = the previous stage's full file, e.g. extraction → verified, verified → defended, defended → impact). ALWAYS run `python3 scripts/validate.py <out_full.json>` after every merge — the merged file, not the delta, is what the schema gate applies to.
+
 Rules: never run two stages of one chapter in parallel; do not modify frozen fields; if any subagent report signals anomalies (zero-claim paragraphs, schema drift, low-confidence pileup), surface them to the user instead of silently continuing.

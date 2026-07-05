@@ -26,7 +26,19 @@ The Great Controversy argues a continuous cosmic-conflict narrative: apostolic p
 
 ## Output
 
-Write `impact/gc_chNN.impact.json`: full claims array with `impact` objects added, `"stage": "impact"`, chapter argument reconstruction in `notes`. Return a report: number scored, top-3 impact_score items with one-line justifications, whether any load_bearing=true discrepancies exist in this chapter.
+**Chapters with ≤120 claims:** write `impact/gc_chNN.impact.json`: full claims array with `impact` objects added, `"stage": "impact"`, chapter argument reconstruction in `notes`.
+
+**Chapters with >120 claims:** the full array will not fit your Write budget. Do NOT rewrite the full file. Instead write a compact delta to `impact/gc_chNN.impact.delta.json`:
+
+```json
+{"chapter": NN, "stage": "impact",
+ "notes": "<3–5 sentence chapter argument reconstruction + stage notes>",
+ "items": {"GC-NN-XXX": {<impact object>}, ...}}
+```
+
+Only the impact objects you add, keyed by claim id. The orchestrator merges the delta into the full file via `scripts/merge_stage.py` and re-runs `scripts/validate.py`; you never touch the full file.
+
+Return a report: number scored, top-3 impact_score items with one-line justifications, whether any load_bearing=true discrepancies exist in this chapter.
 
 ## Hard rules
 

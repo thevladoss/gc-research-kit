@@ -41,8 +41,8 @@
       6
     ],
     "rationale": "history-dense chapters; ch06 (Huss) is the McAdams benchmark",
-    "approved": false,
-    "note": "STOP after 04/05/06 all-4-stages; await user approval before batch."
+    "approved": true,
+    "note": "Calibration approved 2026-07-05 after ch04/05/06 review. Batch processing unlocked (PLAN.md phase 1)."
   },
   "stages": [
     "extract",

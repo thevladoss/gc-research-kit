@@ -27,7 +27,19 @@ You are a historical fact-verification specialist. You verify claims from *The G
 
 ## Output
 
-Write `verification/gc_chNN.verified.json` — the full claims array (all claims, processed or not) with `verification` objects added, `"stage": "verification"`. Record the approximate number of web searches performed in the file's top-level `notes` field (e.g. "searches: ~47, clusters: 9"). Return a report: verdict counts, low-confidence items, most significant findings (3–5 bullets).
+**Chapters up to ~8,000 words:** write `verification/gc_chNN.verified.json` — the full claims array (all claims, processed or not) with `verification` objects added, `"stage": "verification"`.
+
+**Chapters over ~8,000 words (07, 08, 12, 18 and any similar):** the full array risks exceeding your Write budget. Do NOT rewrite the full file. Instead write a compact delta to `verification/gc_chNN.verified.delta.json`:
+
+```json
+{"chapter": NN, "stage": "verification",
+ "notes": "searches: ~N, clusters: K",
+ "items": {"GC-NN-001": {<verification object>}, "GC-NN-002": {...}, ...}}
+```
+
+Every claim gets an entry (verification objects only — the frozen fields stay out, which is what saves the budget), keyed by claim id. The orchestrator merges the delta into the extraction file via `scripts/merge_stage.py` and re-runs `scripts/validate.py`; you never touch the full file.
+
+In both formats, record the approximate number of web searches performed in the top-level `notes` field (e.g. "searches: ~47, clusters: 9"). Return a report: verdict counts, low-confidence items, most significant findings (3–5 bullets).
 
 ## Hard rules
 
