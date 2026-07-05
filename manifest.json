@@ -1694,7 +1694,7 @@
         "extract": "done",
         "verify": "done",
         "defend": "done",
-        "impact": "pending"
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -1728,9 +1728,27 @@
           "verdict_downgraded": 0,
           "defense_failed": 1,
           "searches": 0
+        },
+        "impact": {
+          "scored": 4,
+          "load_bearing": 2,
+          "top_impact": [
+            {
+              "id": "GC-26-032",
+              "score": 15
+            },
+            {
+              "id": "GC-26-069",
+              "score": 15
+            },
+            {
+              "id": "GC-26-014",
+              "score": 15
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-05T12:15:21Z"
+      "updated_at": "2026-07-05T12:23:08Z"
     },
     "27": {
       "title": "Modern Revivals",

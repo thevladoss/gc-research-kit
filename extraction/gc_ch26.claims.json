@@ -1,0 +1,936 @@
+{
+  "chapter": 26,
+  "chapter_title": "A Work Of Reform",
+  "stage": "extraction",
+  "generated_at": "2026-07-05",
+  "notes": "Extraction pass for chapter 26. Chapter is dense with biblical citations (largely Isaiah, plus Ezekiel, Revelation, Thessalonians, Hebrews, John) interwoven with theological application to Sabbatarian Adventist history (post-1844 sanctuary/law message, Millerite date-setting, the Great Disappointment). Attributed biblical quotations are logged as needs_verification: true (checkable against the cited books) even though their theological application is separately tagged theological/interpretive. A few claims paraphrase composite/generic arguments attributed to unnamed opponents (\"Said they\", \"many... urged\") rather than a named individual; these are flagged with extractor_note. No paragraph produced zero claims.",
+  "claims": [
+    {
+      "id": "GC-26-001",
+      "paragraph": 1,
+      "quote": "The work of Sabbath reform to be accomplished in the last days is foretold in the prophecy of Isaiah",
+      "claim_text": "A future work of Sabbath reform to be accomplished in the last days is foretold in the book of Isaiah.",
+      "claim_type": "theological",
+      "entities": ["Isaiah"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-002",
+      "paragraph": 1,
+      "quote": "“Thus saith the Lord, Keep ye judgment, and do justice: for My salvation is near to come, and My righteousness to be revealed. Blessed is the man that doeth this, and the son of man that layeth hold on it; that keepeth the Sabbath from polluting it, and keepeth his hand from doing any evil.”",
+      "claim_text": "The book of Isaiah contains the passage beginning \"Thus saith the Lord, Keep ye judgment, and do justice... that keepeth the Sabbath from polluting it, and keepeth his hand from doing any evil\" (cf. Isaiah 56:1-2).",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-003",
+      "paragraph": 1,
+      "quote": "“The sons of the stranger, that join themselves to the Lord, to serve Him, and to love the name of the Lord, to be His servants, every one that keepeth the Sabbath from polluting it, and taketh hold of My covenant; even them will I bring to My holy mountain, and make them joyful in My house of prayer.”",
+      "claim_text": "The book of Isaiah contains the passage \"The sons of the stranger, that join themselves to the Lord... even them will I bring to My holy mountain, and make them joyful in My house of prayer\" (cf. Isaiah 56:6-7).",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-004",
+      "paragraph": 2,
+      "quote": "These words apply in the Christian age, as shown by the context",
+      "claim_text": "The Isaiah 56 Sabbath passage applies specifically to the Christian age.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-005",
+      "paragraph": 2,
+      "quote": "“The Lord God which gathereth the outcasts of Israel saith, Yet will I gather others to him, beside those that are gathered unto him.”",
+      "claim_text": "The book of Isaiah contains the statement \"The Lord God which gathereth the outcasts of Israel saith, Yet will I gather others to him, beside those that are gathered unto him\" (cf. Isaiah 56:8).",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-006",
+      "paragraph": 2,
+      "quote": "Here is foreshadowed the gathering in of the Gentiles by the gospel.",
+      "claim_text": "Isaiah 56:8 foreshadows the gathering in of the Gentiles by the gospel.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-007",
+      "paragraph": 2,
+      "quote": "And upon those who then honor the Sabbath, a blessing is pronounced.",
+      "claim_text": "A blessing is pronounced in Isaiah upon those who honor the Sabbath during the Christian age.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-008",
+      "paragraph": 2,
+      "quote": "Thus the obligation of the fourth commandment extends past the crucifixion, resurrection, and ascension of Christ, to the time when His servants should preach to all nations the message of glad tidings.",
+      "claim_text": "The obligation of the fourth commandment (the Sabbath) extends past the crucifixion, resurrection, and ascension of Christ into the era of gospel proclamation to all nations.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-009",
+      "paragraph": 3,
+      "quote": "The Lord commands by the same prophet, “Bind up the testimony, seal the law among My disciples.”",
+      "claim_text": "The book of Isaiah contains the command \"Bind up the testimony, seal the law among My disciples\" (cf. Isaiah 8:16).",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-010",
+      "paragraph": 3,
+      "quote": "The seal of God’s law is found in the fourth commandment.",
+      "claim_text": "The \"seal\" of God's law referenced in Isaiah 8:16 is found specifically in the fourth commandment.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-011",
+      "paragraph": 3,
+      "quote": "This only, of all the ten, brings to view both the name and the title of the Lawgiver.",
+      "claim_text": "Of the Ten Commandments, only the fourth commandment names both the identity and the title of the Lawgiver (God).",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "extractor_note": "Borderline: this is a claim about the textual content of the Decalogue (checkable by reading Exodus 20), but is presented here as a theological/doctrinal argument about the Sabbath's function as a 'seal.' Logged as interpretive per instructions for sweeping doctrinal argument; flagging for possible reclassification."
+    },
+    {
+      "id": "GC-26-012",
+      "paragraph": 3,
+      "quote": "It declares Him to be the Creator of the heavens and the earth, and thus shows His claim to reverence and worship above all others.",
+      "claim_text": "The fourth commandment declares God to be the Creator of the heavens and the earth, showing His claim to reverence above all others.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-013",
+      "paragraph": 3,
+      "quote": "Aside from this precept, there is nothing in the decalogue to show by whose authority the law is given.",
+      "claim_text": "Aside from the fourth commandment, nothing else in the Ten Commandments identifies by whose authority the law is given.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-014",
+      "paragraph": 3,
+      "quote": "When the Sabbath was changed by the papal power, the seal was taken from the law.",
+      "claim_text": "The papacy changed the Sabbath (from the seventh day to Sunday), thereby removing the 'seal' from God's law.",
+      "claim_type": "causal",
+      "entities": ["Papacy"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-015",
+      "paragraph": 3,
+      "quote": "The disciples of Jesus are called upon to restore it, by exalting the Sabbath of the fourth commandment to its rightful position as the Creator’s memorial and the sign of His authority.",
+      "claim_text": "Christ's disciples are called to restore the 'seal' of God's law by exalting the seventh-day Sabbath to its rightful position.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-016",
+      "paragraph": 4,
+      "quote": "“To the law and to the testimony.”",
+      "claim_text": "The book of Isaiah contains the phrase \"To the law and to the testimony\" (cf. Isaiah 8:20).",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-017",
+      "paragraph": 4,
+      "quote": "While conflicting doctrines and theories abound, the law of God is the one unerring rule by which all opinions, doctrines, and theories are to be tested.",
+      "claim_text": "The law of God is the one unerring rule by which all opinions, doctrines, and theories are to be tested.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-018",
+      "paragraph": 4,
+      "quote": "Says the prophet, “If they speak not according to this word, it is because there is no light in them.”",
+      "claim_text": "The book of Isaiah contains the statement \"If they speak not according to this word, it is because there is no light in them\" (cf. Isaiah 8:20).",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-019",
+      "paragraph": 5,
+      "quote": "Again, the command is given, “Cry aloud, spare not, lift up thy voice like a trumpet, and show My people their transgression, and the house of Jacob their sins.”",
+      "claim_text": "The book of Isaiah contains the command \"Cry aloud, spare not, lift up thy voice like a trumpet, and show My people their transgression, and the house of Jacob their sins\" (cf. Isaiah 58:1).",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-020",
+      "paragraph": 5,
+      "quote": "It is not the wicked world, but those whom the Lord designates as “My people,” that are to be reproved for their transgressions.",
+      "claim_text": "The rebuke in Isaiah 58:1 is directed not at the wicked world in general but at those God designates as \"My people.\"",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-021",
+      "paragraph": 5,
+      "quote": "He declares further, “Yet they seek Me daily, and delight to know My ways, as a nation that did righteousness, and forsook not the ordinance of their God.”",
+      "claim_text": "The book of Isaiah contains the statement \"Yet they seek Me daily, and delight to know My ways, as a nation that did righteousness, and forsook not the ordinance of their God\" (cf. Isaiah 58:2).",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-022",
+      "paragraph": 5,
+      "quote": "Here is brought to view a class who think themselves righteous, and appear to manifest great interest in the service of God; but the stern and solemn rebuke of the Searcher of hearts proves them to be trampling upon the divine precepts.",
+      "claim_text": "Isaiah 58:1-2 describes a class of people who consider themselves righteous but are, per the Searcher of hearts, trampling upon the divine precepts.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-023",
+      "paragraph": 6,
+      "quote": "“Thou shalt raise up the foundations of many generations; and thou shalt be called, The repairer of the breach, The restorer of paths to dwell in. If thou turn away thy foot from the Sabbath, from doing thy pleasure on My holy day; and call the Sabbath a delight, the holy of the Lord, honorable; and shalt honor Him, not doing thine own ways, nor finding thine own pleasure, nor speaking thine own words: then shalt thou delight thyself in the Lord.”",
+      "claim_text": "The book of Isaiah contains the passage \"Thou shalt raise up the foundations of many generations... then shalt thou delight thyself in the Lord\" (cf. Isaiah 58:12-14).",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-024",
+      "paragraph": 6,
+      "quote": "This prophecy also applies in our time.",
+      "claim_text": "The Isaiah 58:12-14 prophecy of repairing the breach applies to the present (late 19th/early 20th century) time.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-025",
+      "paragraph": 6,
+      "quote": "The breach was made in the law of God when the Sabbath was changed by the Roman power.",
+      "claim_text": "The Roman power changed the Sabbath, thereby making a 'breach' in the law of God.",
+      "claim_type": "causal",
+      "entities": ["Papacy"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-026",
+      "paragraph": 6,
+      "quote": "But the time has come for that divine institution to be restored. The breach is to be repaired, and the foundation of many generations to be raised up.",
+      "claim_text": "The time has come for the seventh-day Sabbath to be restored and the 'breach' in God's law to be repaired.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-027",
+      "paragraph": 7,
+      "quote": "Hallowed by the Creator’s rest and blessing, the Sabbath was kept by Adam in his innocence in holy Eden; by Adam, fallen yet repentant, when he was driven from his happy estate.",
+      "claim_text": "The Sabbath, hallowed by the Creator's rest and blessing, was kept by Adam both in Eden before the Fall and after his expulsion.",
+      "claim_type": "theological",
+      "entities": ["Adam"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-028",
+      "paragraph": 7,
+      "quote": "It was kept by all the patriarchs, from Abel to righteous Noah, to Abraham, to Jacob.",
+      "claim_text": "The Sabbath was kept by all the patriarchs, including Abel, Noah, Abraham, and Jacob.",
+      "claim_type": "theological",
+      "entities": ["Abel", "Noah", "Abraham", "Jacob"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-029",
+      "paragraph": 7,
+      "quote": "When the chosen people were in bondage in Egypt, many, in the midst of prevailing idolatry, lost their knowledge of God’s law",
+      "claim_text": "During Israel's bondage in Egypt, many of the chosen people lost their knowledge of God's law amid prevailing idolatry.",
+      "claim_type": "theological",
+      "entities": ["Israelites", "Egypt"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-030",
+      "paragraph": 7,
+      "quote": "but when the Lord delivered Israel, He proclaimed His law in awful grandeur to the assembled multitude, that they might know His will, and fear and obey Him forever.",
+      "claim_text": "When the Lord delivered Israel from Egypt, He proclaimed His law in grandeur to the assembled multitude so they would know, fear, and obey Him.",
+      "claim_type": "theological",
+      "entities": ["Israelites"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-031",
+      "paragraph": 8,
+      "quote": "From that day to the present, the knowledge of God’s law has been preserved in the earth, and the Sabbath of the fourth commandment has been kept.",
+      "claim_text": "From the time of the Exodus to the present, knowledge of God's law has been continuously preserved on earth and the seventh-day Sabbath has been continuously kept by some.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-032",
+      "paragraph": 8,
+      "quote": "Though the “man of sin” succeeded in trampling under foot God’s holy day, yet even in the period of his supremacy there were, hidden in secret places, faithful souls who paid it honor.",
+      "claim_text": "During the period of papal ('man of sin') supremacy, faithful souls hidden in secret places continued to honor the seventh-day Sabbath.",
+      "claim_type": "event",
+      "entities": ["Papacy"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-033",
+      "paragraph": 8,
+      "quote": "Since the Reformation, there have been some in every generation to maintain its observance.",
+      "claim_text": "Since the Protestant Reformation, some people in every generation have maintained observance of the seventh-day Sabbath.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-034",
+      "paragraph": 8,
+      "quote": "Though often in the midst of reproach and persecution, a constant testimony has been borne to the perpetuity of the law of God, and the sacred obligation of the creation Sabbath.",
+      "claim_text": "Seventh-day Sabbath observers, often amid reproach and persecution, have continuously testified to the perpetuity of God's law and the obligation of the creation Sabbath.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Overlaps content of GC-26-033; kept separate since it adds the specific claim of persecution."
+    },
+    {
+      "id": "GC-26-035",
+      "paragraph": 9,
+      "quote": "These truths, as presented in Revelation 14 in connection with the “everlasting gospel,” will distinguish the church of Christ at the time of His appearing.",
+      "claim_text": "The truths of the sanctuary and God's law, as presented in Revelation 14 with the 'everlasting gospel,' will distinguish the church of Christ at the time of His appearing.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-036",
+      "paragraph": 9,
+      "quote": "For as the result of the threefold message it is announced, “Here are they that keep the commandments of God, and the faith of Jesus.”",
+      "claim_text": "The book of Revelation contains the statement \"Here are they that keep the commandments of God, and the faith of Jesus\" (cf. Revelation 14:12).",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-037",
+      "paragraph": 9,
+      "quote": "And this message is the last to be given before the coming of the Lord.",
+      "claim_text": "The three angels' message of Revelation 14 is the last message to be given before the second coming of Christ.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-038",
+      "paragraph": 9,
+      "quote": "Immediately following its proclamation, the Son of man is seen by the prophet, coming in glory to reap the harvest of the earth.",
+      "claim_text": "Immediately following the proclamation of the three angels' message, Revelation depicts the Son of man coming in glory to reap the harvest of the earth.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-039",
+      "paragraph": 10,
+      "quote": "Those who received the light concerning the sanctuary and the immutability of the law of God, were filled with joy and wonder, as they saw the beauty and harmony of the system of truth that opened to their understanding.",
+      "claim_text": "Early Sabbatarian Adventists who accepted the sanctuary doctrine and the immutability of God's law were filled with joy and wonder at the perceived harmony of this system of belief.",
+      "claim_type": "event",
+      "entities": ["Seventh-day Adventists"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-040",
+      "paragraph": 10,
+      "quote": "They desired that the light which appeared to them so precious might be imparted to all Christians; and they could not but believe that it would be joyfully accepted.",
+      "claim_text": "Early Sabbatarian Adventists desired to share their sanctuary and Sabbath doctrine with all Christians, believing it would be joyfully accepted.",
+      "claim_type": "event",
+      "entities": ["Seventh-day Adventists"],
+      "needs_verification": true,
+      "extractor_note": "Borderline: describes subjective beliefs/expectations of a historical group; included per completeness rule."
+    },
+    {
+      "id": "GC-26-041",
+      "paragraph": 10,
+      "quote": "But truths that would place them at variance with the world were not welcome to many who claimed to be followers of Christ.",
+      "claim_text": "Doctrines that placed believers at variance with the world were unwelcome to many who claimed to be Christians.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-042",
+      "paragraph": 10,
+      "quote": "Obedience to the fourth commandment required a sacrifice from which the majority drew back.",
+      "claim_text": "The majority of Adventists who encountered the Sabbath (fourth commandment) doctrine drew back from the sacrifice its observance required.",
+      "claim_type": "event",
+      "entities": ["Seventh-day Adventists"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-043",
+      "paragraph": 11,
+      "quote": "As the claims of the Sabbath were presented, many reasoned from the worldling’s standpoint.",
+      "claim_text": "When the seventh-day Sabbath doctrine was presented to Adventists, many responded by reasoning from a worldly standpoint.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-044",
+      "paragraph": 11,
+      "quote": "“We have always kept Sunday, our fathers kept it, and many good and pious men have died happy while keeping it. If they were right, so are we. The keeping of this new Sabbath would throw us out of harmony with the world, and we would have no influence over them. What can a little company keeping the seventh day hope to accomplish against all the world who are keeping Sunday?”",
+      "claim_text": "Opponents of the seventh-day Sabbath doctrine among 19th-century Adventists argued that Sunday-keeping was traditional, that pious forebears had died content keeping Sunday, and that adopting seventh-day observance would isolate believers from the wider world.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "This is a composite/representative quotation attributed generically to unnamed opponents (\"Said they\"), not a specific named individual or document. Flag for verification as characterization of period arguments rather than a locatable quote."
+    },
+    {
+      "id": "GC-26-045",
+      "paragraph": 11,
+      "quote": "It was by similar arguments that the Jews endeavored to justify their rejection of Christ.",
+      "claim_text": "Jews used arguments similar to the 'our fathers always did it this way' reasoning to justify their rejection of Christ.",
+      "claim_type": "causal",
+      "entities": ["Jews", "Jesus Christ"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-046",
+      "paragraph": 11,
+      "quote": "So, in the time of Luther, papists reasoned that true Christians had died in the Catholic faith, and therefore that religion was sufficient for salvation.",
+      "claim_text": "In Martin Luther's time, Catholic (papist) opponents of the Reformation argued that since true Christians had died in the Catholic faith, that faith was sufficient for salvation.",
+      "claim_type": "event",
+      "entities": ["Martin Luther", "Catholic Church"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-047",
+      "paragraph": 12,
+      "quote": "Many urged that Sunday-keeping had been an established doctrine and a wide-spread custom of the church for many centuries.",
+      "claim_text": "Opponents of the seventh-day Sabbath doctrine argued that Sunday-keeping had been an established doctrine and widespread church custom for many centuries.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-048",
+      "paragraph": 12,
+      "quote": "Against this argument it was shown that the Sabbath and its observance were more ancient and widespread, even as old as the world itself, and bearing the sanction both of angels and of God.",
+      "claim_text": "Seventh-day Sabbatarian Adventists argued in response that Sabbath observance predates Sunday-keeping, being as old as the world and sanctioned by both angels and God.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-049",
+      "paragraph": 12,
+      "quote": "When the foundations of the earth were laid, when the morning stars sang together, and all the sons of God shouted for joy, then was laid the foundation of the Sabbath.",
+      "claim_text": "The Sabbath's foundation was laid at the creation of the earth, alluding to the biblical description of the morning stars singing and the sons of God shouting for joy (cf. Job 38:4-7).",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "extractor_note": "Source footnote (767) apparently references Job 38:7."
+    },
+    {
+      "id": "GC-26-050",
+      "paragraph": 12,
+      "quote": "Well may this institution demand our reverence: it was ordained by no human authority, and rests upon no human traditions; it was established by the Ancient of days, and commanded by His eternal word.",
+      "claim_text": "The Sabbath institution was ordained by God (the 'Ancient of days') rather than by human authority or tradition.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-051",
+      "paragraph": 13,
+      "quote": "As the attention of the people was called to the subject of Sabbath reform, popular ministers perverted the word of God, placing such interpretations upon its testimony as would best quiet inquiring minds.",
+      "claim_text": "When Sabbath reform was preached, popular ministers offered interpretations of scripture intended to quiet inquiring minds rather than to accurately interpret the biblical text.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Identity of the 'popular ministers' is unspecified; general historical claim about clergy response to Sabbatarian preaching."
+    },
+    {
+      "id": "GC-26-052",
+      "paragraph": 13,
+      "quote": "And those who did not search the Scriptures for themselves were content to accept conclusions that were in accordance with their desires.",
+      "claim_text": "People who did not personally examine scripture were content to accept clergy conclusions matching their own preferences.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-053",
+      "paragraph": 13,
+      "quote": "By argument, sophistry, the traditions of the Fathers, and the authority of the church, many endeavored to overthrow the truth.",
+      "claim_text": "Opponents of the Sabbatarian Adventist message used argument, sophistry, patristic tradition, and church authority to try to overturn its claims.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-054",
+      "paragraph": 13,
+      "quote": "Its advocates were driven to their Bibles to defend the validity of the fourth commandment.",
+      "claim_text": "Advocates of the seventh-day Sabbath doctrine relied on scripture alone to defend the validity of the fourth commandment.",
+      "claim_type": "event",
+      "entities": ["Seventh-day Adventists"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-055",
+      "paragraph": 13,
+      "quote": "Humble men, armed with the Word of truth alone, withstood the attacks of men of learning, who, with surprise and anger, found their eloquent sophistry powerless against the simple, straightforward reasoning of men who were versed in the Scriptures rather than in the subtleties of the schools.",
+      "claim_text": "Unlearned advocates of the Sabbatarian Adventist message, using scripture alone, successfully withstood the arguments of formally educated opponents.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Identities of both groups are unspecified; general historical/biographical claim about early Sabbatarian Adventist controversialists."
+    },
+    {
+      "id": "GC-26-056",
+      "paragraph": 14,
+      "quote": "“Why do not our great men understand this Sabbath question? But few believe as you do. It cannot be that you are right, and that all the men of learning in the world are wrong.”",
+      "claim_text": "Opponents of the seventh-day Sabbath doctrine argued that since few people and few learned men accepted it, it could not be correct.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Composite/representative quotation attributed generically to unnamed opponents (\"many... urged\"), not a specific named individual or document."
+    },
+    {
+      "id": "GC-26-057",
+      "paragraph": 15,
+      "quote": "The reason why He does not oftener choose men of learning and high position to lead out in reform movements, is that they trust to their creeds, theories, and theological systems, and feel no need to be taught of God.",
+      "claim_text": "God does not usually choose learned and high-position men to lead reform movements because such men trust their own creeds and theological systems rather than seeking to be taught of God.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-058",
+      "paragraph": 15,
+      "quote": "Only those who have a personal connection with the Source of wisdom are able to understand or explain the Scriptures.",
+      "claim_text": "Only those with a personal connection to God are able to properly understand or explain scripture.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-059",
+      "paragraph": 16,
+      "quote": "The majority of Adventists rejected the truths concerning the sanctuary and the law of God, and many also renounced their faith in the Advent Movement, and adopted unsound and conflicting views of the prophecies which applied to that work.",
+      "claim_text": "After the Great Disappointment, the majority of Adventists rejected the sanctuary doctrine and the seventh-day law message, and many renounced their faith in the Advent Movement altogether, adopting varied and conflicting prophetic interpretations.",
+      "claim_type": "event",
+      "entities": ["Adventists", "Advent Movement"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-060",
+      "paragraph": 16,
+      "quote": "Some were led into the error of repeatedly fixing upon a definite time for the coming of Christ.",
+      "claim_text": "Some Adventists, after 1844, repeatedly set new definite dates for the second coming of Christ.",
+      "claim_type": "event",
+      "entities": ["Adventists"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-061",
+      "paragraph": 16,
+      "quote": "The light which was now shining on the subject of the sanctuary would have shown them that no prophetic period extends to the second advent; that the exact time of this event is not foretold.",
+      "claim_text": "The sanctuary doctrine, properly understood, shows that no prophetic period extends to the second advent and that its exact time is not foretold in scripture.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-062",
+      "paragraph": 16,
+      "quote": "But, turning from the light, they continued to set time after time for the Lord to come, and as often they were disappointed.",
+      "claim_text": "Certain Adventists continued repeatedly to set new dates for Christ's return after 1844, and were repeatedly disappointed.",
+      "claim_type": "event",
+      "entities": ["Adventists"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-063",
+      "paragraph": 17,
+      "quote": "When the Thessalonian church received erroneous views concerning the coming of Christ, the apostle Paul counseled them to test their hopes and anticipations carefully by the word of God.",
+      "claim_text": "The apostle Paul counseled the church at Thessalonica, which had adopted erroneous views about the timing of Christ's coming, to test their expectations by scripture.",
+      "claim_type": "biographical",
+      "entities": ["Paul", "Thessalonica"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-064",
+      "paragraph": 17,
+      "quote": "He cited them to prophecies revealing the events to take place before Christ should come, and showed that they had no ground to expect Him in their day.",
+      "claim_text": "Paul cited the Thessalonians to prophecies of events that must occur before Christ's coming, showing they had no scriptural ground to expect Him in their own lifetime.",
+      "claim_type": "biographical",
+      "entities": ["Paul", "Thessalonica"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-065",
+      "paragraph": 17,
+      "quote": "“Let no man deceive you by any means,”",
+      "claim_text": "The apostle Paul wrote \"Let no man deceive you by any means\" in warning the Thessalonians about the timing of Christ's coming (cf. 2 Thessalonians 2:3).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-066",
+      "paragraph": 17,
+      "quote": "Many Adventists have felt that unless they could fix their faith upon a definite time for the Lord’s coming, they could not be zealous and diligent in the work of preparation.",
+      "claim_text": "Many Adventists believed that fixing a definite date for Christ's return was necessary in order to remain zealous and diligent in preparation.",
+      "claim_type": "event",
+      "entities": ["Adventists"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-067",
+      "paragraph": 17,
+      "quote": "But as their hopes are again and again excited, only to be destroyed, their faith receives such a shock that it becomes well-nigh impossible for them to be impressed by the great truths of prophecy.",
+      "claim_text": "Repeated raising and dashing of date-setting expectations among Adventists caused a shock to their faith that made them resistant to prophetic teaching thereafter.",
+      "claim_type": "causal",
+      "entities": ["Adventists"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-068",
+      "paragraph": 18,
+      "quote": "The preaching of a definite time for the judgment, in the giving of the first message, was ordered of God.",
+      "claim_text": "The preaching of a definite time for the judgment in the first angel's message (Millerite movement) was ordered by God.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-069",
+      "paragraph": 18,
+      "quote": "The computation of the prophetic periods on which that message was based, placing the close of the 2300 days in the autumn of 1844, stands without impeachment.",
+      "claim_text": "The Millerite computation of prophetic periods, placing the close of the 2300-day prophecy in the autumn of 1844, is accurate and unrefuted.",
+      "claim_type": "date",
+      "entities": ["Millerites", "William Miller"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-070",
+      "paragraph": 18,
+      "quote": "The repeated efforts to find new dates for the beginning and close of the prophetic periods, and the unsound reasoning necessary to sustain these positions, not only lead minds away from the present truth, but throw contempt upon all efforts to explain the prophecies.",
+      "claim_text": "Repeated post-1844 efforts by Adventists to set new prophetic dates, and the unsound reasoning required to sustain them, led minds away from the sanctuary message and brought contempt on prophetic interpretation generally.",
+      "claim_type": "causal",
+      "entities": ["Adventists"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-071",
+      "paragraph": 18,
+      "quote": "The more frequently a definite time is set for the second advent, and the more widely it is taught, the better it suits the purposes of Satan.",
+      "claim_text": "Frequent, widely taught date-setting for the second advent serves Satan's purposes.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-072",
+      "paragraph": 18,
+      "quote": "After the time has passed, he excites ridicule and contempt of its advocates, and thus casts reproach upon the great Advent Movement of 1843 and 1844.",
+      "claim_text": "The Advent Movement spanned 1843 and 1844, and subsequent failed date-setting brought ridicule and reproach upon it.",
+      "claim_type": "date",
+      "entities": ["Advent Movement", "William Miller"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-073",
+      "paragraph": 18,
+      "quote": "Those who persist in this error will at last fix upon a date too far in the future for the coming of Christ. Thus they will be led to rest in a false security, and many will not be undeceived until it is too late.",
+      "claim_text": "Those who persist in setting dates for Christ's second coming will eventually fix on a date so far in the future that it produces false security, undeceiving many too late.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-074",
+      "paragraph": 19,
+      "quote": "The history of ancient Israel is a striking illustration of the past experience of the Adventist body.",
+      "claim_text": "The history of ancient Israel is a striking illustration of the Adventist movement's past experience.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-075",
+      "paragraph": 19,
+      "quote": "God led His people in the Advent Movement, even as He led the children of Israel from Egypt.",
+      "claim_text": "God led His people in the Advent Movement in the same manner He led the children of Israel out of Egypt.",
+      "claim_type": "theological",
+      "entities": ["Advent Movement", "Israelites"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-076",
+      "paragraph": 19,
+      "quote": "In the great disappointment their faith was tested as was that of the Hebrews at the Red Sea.",
+      "claim_text": "The faith of Adventists in the 1844 Great Disappointment was tested in a manner parallel to the Hebrews' test of faith at the Red Sea.",
+      "claim_type": "event",
+      "entities": ["Millerites"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-077",
+      "paragraph": 19,
+      "quote": "If all who had labored unitedly in the work in 1844, had received the third angel’s message and proclaimed it in the power of the Holy Spirit, the Lord would have wrought mightily with their efforts.",
+      "claim_text": "Had all who labored unitedly in the 1844 Advent movement accepted and proclaimed the third angel's message in the Holy Spirit's power, God would have worked mightily with their efforts.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-078",
+      "paragraph": 19,
+      "quote": "A flood of light would have been shed upon the world. Years ago the inhabitants of the earth would have been warned, the closing work completed, and Christ would have come for the redemption of His people.",
+      "claim_text": "Had the 1844 Adventists proclaimed the third angel's message unitedly, the world would already have been warned, the closing work completed, and Christ would already have come.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-079",
+      "paragraph": 20,
+      "quote": "It was not the will of God that Israel should wander forty years in the wilderness",
+      "claim_text": "The Israelites wandered forty years in the wilderness after the Exodus.",
+      "claim_type": "date",
+      "entities": ["Israelites"],
+      "needs_verification": true,
+      "extractor_note": "Underlying biblical chronological claim (cf. Numbers 14:33-34), embedded in a statement about divine will."
+    },
+    {
+      "id": "GC-26-080",
+      "paragraph": 20,
+      "quote": "It was not the will of God that Israel should wander forty years in the wilderness; He desired to lead them directly to the land of Canaan, and establish them there, a holy, happy people.",
+      "claim_text": "It was not God's original will that Israel wander forty years in the wilderness; He intended to lead them directly to Canaan.",
+      "claim_type": "theological",
+      "entities": ["Israelites"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-081",
+      "paragraph": 20,
+      "quote": "But “they could not enter in because of unbelief.”",
+      "claim_text": "The book of Hebrews states of the wilderness generation of Israel, \"they could not enter in because of unbelief\" (cf. Hebrews 3:19).",
+      "claim_type": "attributed_quote",
+      "entities": ["Israelites"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-082",
+      "paragraph": 20,
+      "quote": "Because of their backsliding and apostasy, they perished in the desert, and others were raised up to enter the promised land.",
+      "claim_text": "Because of backsliding and apostasy, the Exodus generation of Israel perished in the wilderness, and a subsequent generation was raised up to enter the promised land.",
+      "claim_type": "event",
+      "entities": ["Israelites"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-083",
+      "paragraph": 20,
+      "quote": "In like manner, it was not the will of God that the coming of Christ should be so long delayed, and His people should remain so many years in this world of sin and sorrow.",
+      "claim_text": "It was not God's original will that Christ's second coming be delayed so long past 1844, keeping His people in this world of sin and sorrow.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-084",
+      "paragraph": 20,
+      "quote": "But unbelief separated them from God. As they refused to do the work which He had appointed them, others were raised up to proclaim the message.",
+      "claim_text": "Unbelief among post-1844 Adventists separated them from God, and because they refused to do the appointed work, others were raised up to proclaim the message.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-085",
+      "paragraph": 20,
+      "quote": "In mercy to the world, Jesus delays His coming, that sinners may have an opportunity to hear the warning, and find in Him a shelter before the wrath of God shall be poured out.",
+      "claim_text": "Jesus delays His second coming in mercy so that sinners may have opportunity to hear the warning message and find shelter before God's wrath is poured out.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-086",
+      "paragraph": 21,
+      "quote": "Now, as in former ages, the presentation of a truth that reproves the sins and errors of the times, will excite opposition.",
+      "claim_text": "The presentation of truth that reproves the sins and errors of the age excites opposition, now as in former ages.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-087",
+      "paragraph": 21,
+      "quote": "“Every one that doeth evil hateth the light, neither cometh to the light, lest his deeds should be reproved.”",
+      "claim_text": "The Gospel of John contains the statement \"Every one that doeth evil hateth the light, neither cometh to the light, lest his deeds should be reproved\" (cf. John 3:20).",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-088",
+      "paragraph": 21,
+      "quote": "Elijah was declared to be a troubler in Israel",
+      "claim_text": "The prophet Elijah was declared to be a 'troubler in Israel' (cf. 1 Kings 18:17).",
+      "claim_type": "biographical",
+      "entities": ["Elijah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-089",
+      "paragraph": 21,
+      "quote": "Jeremiah a traitor",
+      "claim_text": "The prophet Jeremiah was declared to be a traitor (cf. Jeremiah 37-38).",
+      "claim_type": "biographical",
+      "entities": ["Jeremiah"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-090",
+      "paragraph": 21,
+      "quote": "Paul a polluter of the temple.",
+      "claim_text": "The apostle Paul was accused of being a polluter of the temple (cf. Acts 21:28).",
+      "claim_type": "biographical",
+      "entities": ["Paul"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-091",
+      "paragraph": 21,
+      "quote": "From that day to this, those who would be loyal to truth have been denounced as seditious, heretical, or schismatic.",
+      "claim_text": "Those loyal to truth have historically been denounced as seditious, heretical, or schismatic.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-092",
+      "paragraph": 21,
+      "quote": "This spirit will increase more and more.",
+      "claim_text": "The spirit of opposition to reproof of popular sins will increase more and more in the future.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-093",
+      "paragraph": 21,
+      "quote": "And the Bible plainly teaches that a time is approaching when the laws of the state will so conflict with the law of God that whosoever would obey all the divine precepts must brave reproach and punishment as an evil-doer.",
+      "claim_text": "The Bible teaches that a future time is approaching when state law will conflict with God's law such that obeying divine precepts will bring reproach and punishment.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-094",
+      "paragraph": 22,
+      "quote": "The confession of faith made by saints and martyrs was recorded for the benefit of succeeding generations.",
+      "claim_text": "The confessions of faith made by saints and martyrs were recorded for the benefit of succeeding generations.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-095",
+      "paragraph": 23,
+      "quote": "Anciently the Lord declared to one who spoke in His name, “The house of Israel will not hearken unto thee; for they will not hearken unto Me.”",
+      "claim_text": "The book of Ezekiel contains the Lord's declaration to Ezekiel, \"The house of Israel will not hearken unto thee; for they will not hearken unto Me\" (cf. Ezekiel 3:7).",
+      "claim_type": "attributed_quote",
+      "entities": ["Ezekiel"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-096",
+      "paragraph": 23,
+      "quote": "Nevertheless He said, “Thou shalt speak My words unto them, whether they will hear, or whether they will forbear.”",
+      "claim_text": "The book of Ezekiel contains the Lord's instruction, \"Thou shalt speak My words unto them, whether they will hear, or whether they will forbear\" (cf. Ezekiel 2:7).",
+      "claim_type": "attributed_quote",
+      "entities": ["Ezekiel"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-097",
+      "paragraph": 24,
+      "quote": "“Son of man, I have set thee a watchman unto the house of Israel; therefore thou shalt hear the word at My mouth, and warn them from Me. When I say unto the wicked, O wicked man, thou shalt surely die; if thou dost not speak to warn the wicked from his way, that wicked man shall die in his iniquity; but his blood will I require at thine hand. Nevertheless, if thou warn the wicked of his way to turn from it; if he do not turn from his way, he shall die in his iniquity; but thou hast delivered thy soul.”",
+      "claim_text": "The book of Ezekiel records God appointing Ezekiel as a 'watchman' to the house of Israel, charged to warn the wicked or bear responsibility for their blood (cf. Ezekiel 33:7-9).",
+      "claim_type": "attributed_quote",
+      "entities": ["Ezekiel"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-098",
+      "paragraph": 25,
+      "quote": "The great obstacle both to the acceptance and to the promulgation of truth, is the fact that it involves inconvenience and reproach.",
+      "claim_text": "The greatest obstacle to accepting and spreading truth is that it involves inconvenience and reproach.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-099",
+      "paragraph": 25,
+      "quote": "with the apostle Paul counting that “our light affliction, which is but for a moment, worketh for us a far more exceeding and eternal weight of glory;”",
+      "claim_text": "The apostle Paul wrote that \"our light affliction, which is but for a moment, worketh for us a far more exceeding and eternal weight of glory\" (cf. 2 Corinthians 4:17).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-100",
+      "paragraph": 25,
+      "quote": "with one of old, “esteeming the reproach of Christ greater riches than the treasures in Egypt.”",
+      "claim_text": "The book of Hebrews describes Moses as \"esteeming the reproach of Christ greater riches than the treasures in Egypt\" (cf. Hebrews 11:26).",
+      "claim_type": "attributed_quote",
+      "entities": ["Moses"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-26-101",
+      "paragraph": 26,
+      "quote": "To men of principle, faith, and daring, the world is indebted for its great reforms.",
+      "claim_text": "The world's great reforms are owed to men of principle, faith, and daring.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-26-102",
+      "paragraph": 27,
+      "quote": "“Hearken unto Me, ye that know righteousness, the people in whose heart is My law; fear ye not the reproach of men, neither be ye afraid of their revilings. For the moth shall eat them up like a garment, and the worm shall eat them like wool: but My righteousness shall be forever, and My salvation from generation to generation.”",
+      "claim_text": "The book of Isaiah contains the passage \"Hearken unto Me, ye that know righteousness... but My righteousness shall be forever, and My salvation from generation to generation\" (cf. Isaiah 51:7-8).",
+      "claim_type": "attributed_quote",
+      "entities": ["Isaiah"],
+      "needs_verification": true
+    }
+  ]
+}
