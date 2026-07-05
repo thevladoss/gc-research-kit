@@ -1,0 +1,91 @@
+{
+  "dossier": "D23",
+  "slug": "wycliffe-predecessors",
+  "stage": "adjudication",
+  "charter_version": "1.1-frozen",
+  "generated_at": "2026-07-05",
+  "notes": "searches: ~7 (6 shared, 1 straggler). Singleton dossier, no academic_floor flag; sources nonetheless academic-full. Period-baseline check ran against local texts (Wylie vols 1-2, D'Aubigne 1849, Deanesly 1920) at no budget cost. Phase-1 trajectory: verifier `anachronistic` -> defender `verdict_downgraded` to `disputed` on a semantic point; this adjudication accepts the semantic point as real but locates it in the as-written/weakened split rather than leaving the claim open. Direction check (charter 7.1): the two rulings of this single claim move in opposite directions (as-written against the letter, weakened for the substance), so no one-way drift.",
+  "evidence_review": "The claim is one sentence of GC ch. 5 par. 45: 'There were none who went before him from whose work he could shape his system of reform.' Context: the surrounding paragraph frames Wycliffe as emerging 'from the obscurity of the Dark Ages,' 'raised up like John the Baptist,' 'the herald of a new era,' with a system whose 'unity and completeness' later Reformers 'did not exceed.' STATE OF THE QUESTION. (1) Against the sentence's natural force, Wycliffe's intellectual genealogy is among the best-documented facts of his biography. His dominion theory, the doctrinal engine of his whole reform program (disendowment of a delinquent church, lordship founded in grace, the Crown's right to correct the clergy), was shaped directly from Richard FitzRalph's De pauperie Salvatoris: the dependence is so close that R. L. Poole's Wyclif Society critical edition (1890) prints the first four books of FitzRalph's treatise as an appendix to Wyclif's De dominio divino, and the standard analytic literature (M. Wilks, 'Predestination, Property, and Power: Wyclif's Theory of Dominion and Grace', Studies in Church History; S. E. Lahey, John Wyclif, Oxford UP 2009, and his Stanford Encyclopedia entries) treats FitzRalph as the proximate source, behind whom stands Augustine, whom Wyclif himself credits with 'the outline of the theory.' J. A. Robson (Wyclif and the Oxford Schools, Cambridge UP 1961) names Bradwardine and FitzRalph 'the two great influences on Wyclif'; Bradwardine's De causa Dei fed his Augustinian predestinarianism. Robert Grosseteste held a singular authority for fourteenth-century Oxford thinkers, and Wyclif invoked his writings constantly and held him in the highest regard (SEP 'Robert Grosseteste'; Robson; Levy ed., A Companion to John Wyclif, Brill 2011). Marsilius of Padua's Defensor Pacis (1324) and Ockham's polemics had already drawn more radical antipapal conclusions two generations earlier; how directly Wyclif used Marsilius is contested (some scholarship is criticized for overstating it), so Marsilius functions here as available tradition, not as a documented source. (2) For the sentence's substance, an equally solid body of scholarship holds that no organized reform movement or predecessor reformer's program existed in England for Wycliffe to adapt: England was remarkably free of popular heresy before the late fourteenth century (I. Forrest, The Detection of Heresy in Late Medieval England, Oxford 2005; J. H. Arnold; the Cambridge Companion to Christian Heresy ch. 17), Lollardy was the first and only flourishing medieval English heresy (M. Aston, 'Lollardy: the English heresy?'), and Anne Hudson's The Premature Reformation (Clarendon 1988) canonized the judgment that Wycliffism was a reformation avant la lettre, an original welding of academic critique into a comprehensive reform program with scriptural authority and vernacular Scripture at its center. (3) Period baseline: White's sentence follows the 19th-century morning-star trope (D'Aubigne, Wylie), but the letter of her absolute outruns even that tradition. Wylie himself names Claudius of Turin and Berengarius as 'morning stars' who 'appeared while as yet all was dark' before Wycliffe's 'dawn' (local text, wylie-history-of-protestantism-vol1.txt lines 17782-17807) and devotes pages to FitzRalph's anti-mendicant campaign as prologue to Wycliffe (lines 8794-8829). Deanesly (The Lollard Bible, Cambridge UP 1920, local text lines 9403-9414) documents pre-Wycliffite vernacular scriptures in Anglo-Norman. (4) What changed since 1911: the Wyclif Society editions and the line Workman (1926), Robson (1961), Leff, Hudson (1988), Lahey (2009), Levy (2011) re-embedded Wyclif in his Oxford scholastic context, dissolving the solitary-genius picture while simultaneously confirming his originality as a synthesizer and the absence of any prior English reform movement. The adjudication question therefore reduces to semantics: read as 'no predecessor's work contributed the materials of his system,' the sentence is defeated by documented counterexamples; read as 'no predecessor reformer's system of reform existed for him to adapt,' it is essentially what modern scholarship affirms.",
+  "narrative_ru": "Досье проверяет фразу из пятой главы: у Уиклифа не было предшественников, по чьим трудам он мог бы построить свою систему реформы. В буквальном прочтении это опровергнуто документально: учение о владычестве, стержень его программы, Уиклиф взял из трактата Фицральфа «De pauperie Salvatoris», а Гроссетеста и Брадвардина постоянно цитировал как своих учителей. Поэтому утверждение как написано получило оценку «маловероятно». Ослабленная версия судьбы иной: в Англии до Уиклифа не существовало ни организованного реформного движения, ни готовой программы реформы, и его синтез с Писанием на народном языке в центре наука признаёт первым в своём роде, так что эта версия оценена как «хорошо подтверждена». Картину изменило бы доказательство, что теорию владычества Уиклиф разработал независимо от Фицральфа, либо находка организованного английского реформного движения до него.",
+  "rulings": [
+    {
+      "id": "GC-05-107",
+      "dossier": "D23",
+      "quantifier_audit": ["none who went before him"],
+      "components": [
+        {
+          "component": "No predecessor produced work from which Wycliffe shaped, or could have shaped, his system of reform (the sentence's natural force: his reform system owed its materials to no earlier thinker).",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Under the natural reading the universal negative is defeated by well-provenanced counterexamples: Wyclif's dominion doctrine, the theological ground of his disendowment program, was shaped directly from FitzRalph's De pauperie Salvatoris (Poole's Wyclif Society edition prints FitzRalph's books 1-4 as an appendix to De dominio divino precisely because the dependence is textual; Wilks; Lahey); Robson names Bradwardine and FitzRalph 'the two great influences on Wyclif'; Wyclif invoked Grosseteste as a standing authority. Per charter 6.3 multiple independent counterexamples would normally yield discredited, but their defeating force depends on resolving a genuine semantic bifurcation: if 'system of reform' denotes a predecessor reformer's program-template, then FitzRalph, Grosseteste, and Bradwardine, none of whom was a reformer with a system, are not counterexamples at all, and no such template existed. Because that reading is live in the sentence's own context (GC ch. 5 par. 4 credits Wycliffe's scholastic education, so the author cannot mean zero intellectual debt), the component rests at improbable per charter 1: clear preponderance against the claim's rhetorical force, with a surviving weakened version."
+        },
+        {
+          "component": "Wycliffe as originator: herald of a new era whose reform system, taken as a system, had no antecedent he could adapt.",
+          "kind": "frame",
+          "in_scope": true,
+          "ruling": "probable",
+          "rationale": "Matches the standard modern judgment: England was remarkably free of heresy before the late fourteenth century (Forrest, Arnold, Aston), Lollardy was the first English reform movement, and Hudson's 'premature reformation' framing treats Wyclif's synthesis as original and unprecedented as a program. Held at probable rather than well-supported because, as printed, the frame effaces the documented Oxford genealogy (FitzRalph, Bradwardine, Grosseteste) and the prior continental antipapal tradition (Marsilius, Ockham) from which the system's components demonstrably or plausibly came."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "Wycliffe was the first to weld existing materials (FitzRalph's dominion doctrine, anti-mendicant and antipapal polemic, Oxford Augustinian theology) into a comprehensive program of church reform with scriptural authority and vernacular Scripture at its center; no organized reform movement or predecessor reformer's program existed in England for him to adapt.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "medium",
+      "minority_engagement": "The strongest case for the sentence as written is the Phase-1 defender's contextual reading, continuous with the 19th-century morning-star historiography (D'Aubigne, Wylie) White followed: par. 45 contrasts Wycliffe with later Reformers, and 'from whose work he could shape his system of reform' means no prior Reformer supplied a ready-made program, not that Wycliffe had no teachers, which GC ch. 5 par. 4 itself concedes. Answer: the reading is semantically live and this adjudication incorporates it, but it rescues the sentence only by converting it into the weakened version; as a statement of intellectual history in the sense a reader of par. 45 ('obscurity of the Dark Ages', 'herald of a new era') would take it, it fails against Wyclif's own citation practice (FitzRalph as 'Armachanus', Grosseteste as 'Lincolniensis') and against the consensus line from Robson through Lahey and Levy. Even the period sources undercut the letter of the absolute: Wylie names Claudius and Berengarius as pre-Wycliffe 'morning stars' and narrates FitzRalph's anti-mendicant campaign as Wycliffe's prologue. The defender's point is conceded exactly to the extent that it blocks 'discredited': the semantic dispute is real, and what the defensible reading asserts is what the weakened ruling vindicates as well-supported. No current published scholarship defends the no-predecessors picture in the broad sense; its home is superseded 19th-century narrative, weighed here as period baseline, not as live minority.",
+      "source_quality": "academic-full",
+      "sources": [
+        {
+          "ref": "J. A. Robson, Wyclif and the Oxford Schools (Cambridge UP, 1961); Bradwardine and FitzRalph as 'the two great influences on Wyclif'",
+          "tier": "academic",
+          "independence_note": "University-press monograph on Wyclif's scholastic formation; genealogically independent of the SEP/Lahey line the Phase-1 verifier used."
+        },
+        {
+          "ref": "R. L. Poole (ed.), Iohannis Wycliffe De dominio divino libri tres, to which are added the first four books of the treatise De pauperie Salvatoris (Wyclif Society, 1890)",
+          "tier": "primary-in-context",
+          "independence_note": "Critical edition; the editorial coupling of Wyclif's text with FitzRalph's treatise documents the textual dependence independently of later secondary synthesis."
+        },
+        {
+          "ref": "S. E. Lahey, John Wyclif (Oxford UP, 2009), ch. 'The Oxford Context of Wyclif's Thought'; Lahey, 'John Wyclif's Political Philosophy' (Stanford Encyclopedia of Philosophy)",
+          "tier": "academic",
+          "independence_note": "Same genealogy as the Phase-1 verifier's sole source (Lahey authored the SEP entry); counted as one line alongside the independent Robson and Poole lines."
+        },
+        {
+          "ref": "I. C. Levy (ed.), A Companion to John Wyclif: Late Medieval Theologian (Brill, 2011)",
+          "tier": "academic",
+          "independence_note": "Multi-author state-of-the-question companion; partially overlaps Lahey (contributor) but carries independent chapters on Wyclif's sources."
+        },
+        {
+          "ref": "M. Wilks, 'Predestination, Property, and Power: Wyclif's Theory of Dominion and Grace', Studies in Church History (Cambridge Core)",
+          "tier": "academic",
+          "independence_note": "Classic analytic study of the dominion doctrine's derivation; independent of Robson and of the Lahey/SEP line."
+        },
+        {
+          "ref": "SEP, 'Robert Grosseteste' (Wyclif invoked Grosseteste's writings; Grosseteste as authoritative figure for 14th-century Oxford)",
+          "tier": "academic",
+          "independence_note": "Different author and subject entry from Lahey's Wyclif entries; used only for the Grosseteste-authority point."
+        },
+        {
+          "ref": "A. Hudson, The Premature Reformation: Wycliffite Texts and Lollard History (Clarendon, 1988); M. Aston, 'Lollardy: the English heresy?' (Studies in Church History); I. Forrest, The Detection of Heresy in Late Medieval England (Oxford, 2005); Cambridge Companion to Christian Heresy, ch. 17",
+          "tier": "academic",
+          "independence_note": "The favorable evidence base for the weakened version (no prior English heresy or reform movement; Wycliffism as original synthesis); independent of the dominion-genealogy literature."
+        },
+        {
+          "ref": "Local: J. A. Wylie, History of Protestantism vol. 1 (scholarship/wylie-history-of-protestantism-vol1.txt, lines 8794-8829 on FitzRalph's anti-mendicant campaign; lines 17782-17807 on Claudius and Berengarius as pre-Wycliffe 'morning stars')",
+          "tier": "position",
+          "independence_note": "Period baseline (19th-century confessional history in White's own source tradition); shows the letter of the GC absolute exceeds even its period sources."
+        },
+        {
+          "ref": "Local: M. Deanesly, The Lollard Bible (Cambridge UP, 1920) (scholarship/deanesly-lollard-bible-1920.txt, lines 9403-9414: pre-Wycliffite Anglo-Norman vernacular scriptures; Grosseteste and FitzRalph discussions)",
+          "tier": "academic",
+          "independence_note": "Older but standard monograph; used for context on the pre-Wycliffite vernacular landscape, not load-bearing for the ruling."
+        }
+      ],
+      "would_change_this": "As written: a scholarly demonstration that Wyclif's dominion framework was formed before and independently of his reading of FitzRalph (for example a redating of De civili dominio's sources), combined with evidence that 'system of reform' in the sentence's source tradition denoted only a reformer's program-template, would move the ruling toward genuinely-open. Weakened: documentation of an organized pre-Wycliffite English reform movement with a comparable program (a datable pre-1370 English heretical or reform corpus) would pull the weakened ruling down from well-supported.",
+      "gap_note": null,
+      "notes": "Phase-1 path: verifier `anachronistic` (medium), defender downgraded to `disputed` on the semantic bifurcation of 'system of reform'; this ruling incorporates the defender's argument as the reason improbable is not discredited and as the substance of the weakened version. Period-standard remark for synthesis: the sentence follows the morning-star trope of D'Aubigne/Wylie, but its absolute letter exceeds even Wylie, who names forerunners (Claudius, Berengarius) and details FitzRalph; the anachronism defense is therefore only partial. No motive or hermeneutic components; no tie at the claim minimum."
+    }
+  ]
+}

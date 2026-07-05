@@ -3161,7 +3161,23 @@
         "claims": 1,
         "load_bearing": 0,
         "academic_floor": false,
-        "status": "pending"
+        "status": "done",
+        "ruling_file": "adjudication/D23_wycliffe-predecessors.ruling.json",
+        "rulings_as_written": {
+          "improbable": 1
+        },
+        "rulings_weakened": {
+          "well-supported": 1
+        },
+        "framing_gaps": {
+          "3": 1
+        },
+        "failing_component_kind_accusatory": {
+          "fact": 1
+        },
+        "gap_notes": [],
+        "searches": "searches: ~7 (6 shared, 1 straggler)",
+        "updated_at": "2026-07-05T20:00:58Z"
       }
     }
   }
