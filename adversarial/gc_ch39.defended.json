@@ -1,0 +1,2021 @@
+{
+  "chapter": 39,
+  "chapter_title": "The Time Of Trouble",
+  "stage": "adversarial",
+  "generated_at": "2026-07-05",
+  "notes": "Extraction pass done in a single read-through (chapter length manageable, 58 paragraphs / ~7.7k words). Chapter is heavily interlaced with direct Scripture quotations (KJV, referenced by footnotes 1053-1090 in the original edition, not reproduced here since footnote text was not visible in the plain-text source). Each Scripture quotation is logged as claim_type attributed_quote with needs_verification true (checkable: does the quoted text accurately render the cited Bible passage). Purely eschatological/prophetic assertions about future events (close of probation, plagues, false christ, angelic activity) are logged as theological with needs_verification false per pipeline rules. Several paragraphs retell biblical narratives (Jacob/Esau, Noah, Lot, Joseph, Elijah, Jeremiah, the three worthies, Daniel, Simon Magus, Paul and Silas, Abraham) which are logged as event/biographical/geographical claims checkable against the biblical text and, where relevant, secular history (e.g., Piedmont Waldensians).\n\nsearches: ~0, clusters: 0. Delta output used (not full file): 125 claims with several long verbatim KJV blocks make full reproduction a token/frozen-field risk; parent authorized delta fallback. All checkable claims resolved via common-knowledge fast-path: (a) 46 KJV Scripture quotations checked for fidelity against the standard KJV text (all faithful; GC-39-077 and GC-39-121 render 'Jehovah'/'Lord Jehovah' for KJV 'the LORD', a translation variant with meaning unchanged, still supported); (b) ~25 event/biographical claims are faithful retellings of named biblical passages (faithful-retelling convention); (c) GC-39-068 Piedmont Waldenses mountain refuge = textbook history, consistent with earlier chapters' corpus; GC-39-019 arithmetic (~AD 31 -> 1911 rounds to 'eighteen hundred years'); GC-39-009 Jerusalem AD 70 benchmark = textbook history. Theological/eschatological claims marked unverifiable per epistemic rule 5. No doctrinally-central escalation cluster is engaged in a checkable way (GC-39-062 Sabbath/Sunday is a predictive/theological statement, not a checkable historical assertion). Control sample (3 false-flagged): GC-39-016, GC-39-062, GC-39-118 - all confirmed genuinely theological, no smuggled fact.\n\nPass-through: verification produced 0 contradicted, 0 misquotation, 0 anachronistic, 0 disputed (75 supported, 50 unverifiable). Nothing in scope for the defender. examined: 0, full defenses: 0, cheap audits: 0, searches: ~0.",
+  "claims": [
+    {
+      "id": "GC-39-001",
+      "paragraph": 1,
+      "quote": "“At that time shall Michael stand up, the great prince which standeth for the children of thy people: and there shall be a time of trouble, such as never was since there was a nation even to that same time: and at that time thy people shall be delivered, every one that shall be found written in the book.”",
+      "claim_text": "The book of Daniel (12:1) states that Michael, the great prince, shall stand up, that there will be a time of trouble such as never was since there was a nation, and that at that time God's people shall be delivered, everyone found written in the book.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Michael",
+        "Book of Daniel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Daniel 12:1; wording matches the standard text (opening 'And' dropped, meaning unchanged).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-002",
+      "paragraph": 1,
+      "quote": "“At that time shall Michael stand up, the great prince which standeth for the children of thy people: and there shall be a time of trouble, such as never was since there was a nation even to that same time: and at that time thy people shall be delivered, every one that shall be found written in the book.”",
+      "claim_text": "Daniel 12:1 is presented as a prophecy of a future, unprecedented time of trouble followed by the deliverance of God's people.",
+      "claim_type": "theological",
+      "entities": [
+        "Michael",
+        "Book of Daniel"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Prophetic/theological interpretation of Daniel 12:1 as a future time of trouble; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-003",
+      "paragraph": 2,
+      "quote": "When the third angel’s message closes, mercy no longer pleads for the guilty inhabitants of the earth.",
+      "claim_text": "When the proclamation of the third angel's message (Revelation 14) closes, mercy ceases to plead for the unrepentant inhabitants of the earth.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological assertion about the close of the third angel's message and cessation of mercy; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-004",
+      "paragraph": 2,
+      "quote": "They have received “the latter rain,” “the refreshing from the presence of the Lord,” and they are prepared for the trying hour before them.",
+      "claim_text": "Before the final crisis, the people of God receive the 'latter rain' and 'refreshing from the presence of the Lord,' preparing them for the trying hour ahead.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about the 'latter rain' preparation of God's people; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-005",
+      "paragraph": 2,
+      "quote": "He lifts His hands, and with a loud voice says, “It is done;”",
+      "claim_text": "At the close of His heavenly intercession, Christ is described as lifting His hands and saying with a loud voice, 'It is done' (echoing Revelation 16:17).",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ",
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The quoted words 'It is done' faithfully render KJV Revelation 16:17; the surrounding narration is authorial framing.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-006",
+      "paragraph": 2,
+      "quote": "“He that is unjust, let him be unjust still: and he which is filthy, let him be filthy still: and he that is righteous, let him be righteous still: and he that is holy, let him be holy still.”",
+      "claim_text": "The declaration 'He that is unjust, let him be unjust still ... he that is holy, let him be holy still' is quoted from Revelation 22:11.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim rendering of KJV Revelation 22:11.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-007",
+      "paragraph": 2,
+      "quote": "Every case has been decided for life or death. Christ has made the atonement for His people, and blotted out their sins.",
+      "claim_text": "At the close of Christ's heavenly intercession, every human case is decided for life or death, and Christ completes the atonement for His people and blots out their sins.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about the close of Christ's intercession and blotting out of sins; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-008",
+      "paragraph": 3,
+      "quote": "The restraint which has been upon the wicked is removed, and Satan has entire control of the finally impenitent.",
+      "claim_text": "After Christ leaves the heavenly sanctuary, the restraint on the wicked is removed and Satan gains entire control over the finally impenitent.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about removal of restraint and Satan's control of the impenitent; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-009",
+      "paragraph": 3,
+      "quote": "The whole world will be involved in ruin more terrible than that which came upon Jerusalem of old.",
+      "claim_text": "The future final tribulation will bring ruin upon the whole world more terrible than the destruction that came upon ancient Jerusalem.",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem"
+      ],
+      "needs_verification": true,
+      "extractor_note": "The future portion is an unverifiable prediction, but the claim uses the historical destruction of Jerusalem as a comparative benchmark of severity, which is itself a checkable historical claim (cf. GC ch.4 on the fall of Jerusalem, AD 70).",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The comparative benchmark - the historical destruction of Jerusalem (AD 70) as a catastrophe of exceptional severity - is textbook history (cf. GC ch.1/ch.4). The future-ruin portion is an unverifiable prediction, but the historical anchor used is sound.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-010",
+      "paragraph": 4,
+      "quote": "A single angel destroyed all the first-born of the Egyptians, and filled the land with mourning.",
+      "claim_text": "According to the biblical narrative (Exodus 12), a single angel destroyed all the firstborn of the Egyptians, filling the land with mourning.",
+      "claim_type": "event",
+      "entities": [
+        "Egypt",
+        "Book of Exodus"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful retelling of Exodus 12 (death of the firstborn); the 'destroying angel' framing follows Exodus 12:23 ('the destroyer'), a standard reading.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-011",
+      "paragraph": 4,
+      "quote": "When David offended against God by numbering the people, one angel caused that terrible destruction by which his sin was punished.",
+      "claim_text": "According to the biblical narrative (2 Samuel 24 / 1 Chronicles 21), when King David sinned by taking a census of the people, one angel caused a terrible destruction as punishment for his sin.",
+      "claim_type": "event",
+      "entities": [
+        "David"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful retelling of 2 Samuel 24 / 1 Chronicles 21 (David's census, the plague/angel, ~70,000 dead).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-012",
+      "paragraph": 4,
+      "quote": "The same destructive power exercised by holy angels when God commands, will be exercised by evil angels when He permits.",
+      "claim_text": "The same destructive power exercised by holy angels when God commands will be exercised by evil angels when God permits, in the future time of trouble.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about destructive power exercised by evil angels when God permits; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-013",
+      "paragraph": 5,
+      "quote": "Those who honor the law of God have been accused of bringing judgments upon the world, and they will be regarded as the cause of the fearful convulsions of nature and the strife and bloodshed among men that are filling the earth with woe.",
+      "claim_text": "Those who honor the law of God will be blamed for causing natural disasters and human violence in the end times.",
+      "claim_type": "interpretive",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/eschatological assertion that law-keepers will be blamed for end-time disasters; a future-conditional prediction, not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-014",
+      "paragraph": 5,
+      "quote": "The power attending the last warning has enraged the wicked; their anger is kindled against all who have received the message, and Satan will excite to still greater intensity the spirit of hatred and persecution.",
+      "claim_text": "The power attending the final warning message enrages the wicked, and Satan will further intensify the spirit of hatred and persecution against those who receive it.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about Satan intensifying persecution; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-015",
+      "paragraph": 6,
+      "quote": "The ministration in the temple continued; sacrifices were offered upon its polluted altars, and daily the divine blessing was invoked upon a people guilty of the blood of God’s dear Son, and seeking to slay His ministers and apostles.",
+      "claim_text": "After the crucifixion of Jesus, temple worship and sacrifices continued in the Jerusalem temple, conducted by a priesthood and people described as guilty of Christ's blood and persecuting his apostles.",
+      "claim_type": "event",
+      "entities": [
+        "Jerusalem Temple",
+        "Jewish priesthood"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Historically sound: temple sacrificial worship continued in Jerusalem after the crucifixion until the temple's destruction in AD 70; the characterization of priesthood/people echoes the Acts narrative. Textbook history.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-016",
+      "paragraph": 6,
+      "quote": "When God’s presence was finally withdrawn from the Jewish nation, priests and people knew it not.",
+      "claim_text": "God's presence was, at some point, finally withdrawn from the Jewish nation without priests or people perceiving it.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample recheck (false-flagged). Confirmed genuinely theological: assertion that God's presence was 'finally withdrawn' from the Jewish nation is a divine-agency claim, not a checkable historical fact. No smuggled empirical assertion. Not checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-017",
+      "paragraph": 6,
+      "quote": "So when the irrevocable decision of the sanctuary has been pronounced, and the destiny of the world has been forever fixed, the inhabitants of the earth will know it not.",
+      "claim_text": "In the future, when the final judgment decision in the heavenly sanctuary is pronounced and the world's destiny fixed, the earth's inhabitants will not perceive it.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological assertion about the unperceived pronouncement of final judgment; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-018",
+      "paragraph": 7,
+      "quote": "As the Sabbath has become the special point of controversy throughout Christendom, and religious and secular authorities have combined to enforce the observance of the Sunday, the persistent refusal of a small minority to yield to the popular demand, will make them objects of universal execration.",
+      "claim_text": "In the future, the Sabbath will become the special point of controversy throughout Christendom, religious and secular authorities will combine to enforce Sunday observance, and a small minority refusing to comply will become objects of universal execration.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Predictive/theological assertion about a future Sabbath-Sunday enforcement crisis; a future-conditional prophecy, not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-019",
+      "paragraph": 7,
+      "quote": "The same argument eighteen hundred years ago was brought against Christ by the “rulers of the people.”",
+      "claim_text": "The argument that one man should die for the people to prevent national ruin was brought against Jesus Christ by Jewish religious rulers approximately eighteen hundred years before the time of writing (i.e., in the first century AD).",
+      "claim_type": "date",
+      "entities": [
+        "Jesus Christ",
+        "Sanhedrin"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Simple arithmetic from the 1888/1911 writing: the trial of Christ (~AD 31-33) is roughly eighteen hundred years before the time of writing; 'eighteen hundred years ago' is accurate to the century.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-020",
+      "paragraph": 7,
+      "quote": "“It is expedient for us,” said the wily Caiaphas, “that one man should die for the people, and that the whole nation perish not.”",
+      "claim_text": "Caiaphas is quoted (John 11:50) as saying it was expedient that one man should die for the people so the whole nation would not perish.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Caiaphas"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders Caiaphas's words in KJV John 11:50 ('it is expedient for us, that one man should die for the people, and that the whole nation perish not').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-021",
+      "paragraph": 7,
+      "quote": "a decree will finally be issued against those who hallow the Sabbath of the fourth commandment, denouncing them as deserving of the severest punishment, and giving the people liberty, after a certain time, to put them to death.",
+      "claim_text": "In the future, a decree will be issued denouncing Sabbath-keepers as deserving severe punishment and eventually giving license to put them to death.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Predictive/theological assertion about a future death decree against Sabbath-keepers; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-022",
+      "paragraph": 7,
+      "quote": "Romanism in the Old World, and apostate Protestantism in the New, will pursue a similar course toward those who honor all the divine precepts.",
+      "claim_text": "Romanism in the Old World and apostate Protestantism in the New World will pursue a similar persecuting course toward Sabbath-keepers.",
+      "claim_type": "interpretive",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/predictive assertion about future conduct of 'Romanism' and 'apostate Protestantism'; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-023",
+      "paragraph": 8,
+      "quote": "“Thus saith the Lord: We have heard a voice of trembling, of fear, and not of peace.... All faces are turned into paleness. Alas! for that day is great, so that none is like it: it is even the time of Jacob’s trouble; but he shall be saved out of it.”",
+      "claim_text": "The prophet Jeremiah (Jer. 30:5-7) is quoted describing 'the time of Jacob's trouble,' a day of unequaled distress from which God's people would be saved.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jeremiah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Jeremiah 30:5-7 (with an ellipsis); 'time of Jacob's trouble' wording matches.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-024",
+      "paragraph": 9,
+      "quote": "Because of the deception practised to secure his father’s blessing, intended for Esau, Jacob had fled for his life, alarmed by his brother’s deadly threats.",
+      "claim_text": "According to Genesis 27, Jacob obtained his father Isaac's blessing, intended for Esau, through deception, and then fled for his life because of Esau's threats.",
+      "claim_type": "event",
+      "entities": [
+        "Jacob",
+        "Esau",
+        "Isaac"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful retelling of Genesis 27 (Jacob obtains Isaac's blessing by deception and flees Esau's threats).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-025",
+      "paragraph": 9,
+      "quote": "After remaining for many years an exile, he had set out, at God’s command, to return with his wives and children, his flocks and herds, to his native country.",
+      "claim_text": "According to Genesis 31-32, after many years in exile, Jacob set out at God's command to return with his wives, children, flocks, and herds to his native country.",
+      "claim_type": "event",
+      "entities": [
+        "Jacob"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful retelling of Genesis 31-32 (Jacob returns at God's command with family and flocks after years of exile).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-026",
+      "paragraph": 9,
+      "quote": "On reaching the borders of the land, he was filled with terror by the tidings of Esau’s approach at the head of a band of warriors, doubtless bent upon revenge.",
+      "claim_text": "According to Genesis 32, upon reaching the borders of his native land, Jacob was filled with terror upon learning that Esau was approaching with a band of armed men.",
+      "claim_type": "event",
+      "entities": [
+        "Jacob",
+        "Esau"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful retelling of Genesis 32 (Jacob alarmed by news of Esau approaching with a band of men).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-027",
+      "paragraph": 10,
+      "quote": "Having sent his family away, that they may not witness his distress, Jacob remains alone to intercede with God.",
+      "claim_text": "According to Genesis 32:22-24, Jacob sent his family across the ford and remained alone to pray to God.",
+      "claim_type": "event",
+      "entities": [
+        "Jacob"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful retelling of Genesis 32:22-24 (Jacob sends family over the ford and remains alone).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-028",
+      "paragraph": 10,
+      "quote": "Suddenly a hand is laid upon his shoulder. He thinks that an enemy is seeking his life, and with all the energy of despair he wrestles with his assailant.",
+      "claim_text": "According to Genesis 32:24-25, Jacob wrestled through the night with a mysterious assailant, later identified as the Angel of the Covenant.",
+      "claim_type": "event",
+      "entities": [
+        "Jacob"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful retelling of Genesis 32:24-25 (Jacob wrestles through the night with a mysterious assailant).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-029",
+      "paragraph": 10,
+      "quote": "The Angel urges, “Let Me go; for the day breaketh;”",
+      "claim_text": "In Genesis 32:26, the Angel wrestling with Jacob says, 'Let Me go, for the day breaketh.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jacob"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim rendering of KJV Genesis 32:26 ('Let me go, for the day breaketh').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-030",
+      "paragraph": 10,
+      "quote": "but the patriarch exclaims, “I will not let Thee go, except Thou bless me.”",
+      "claim_text": "In Genesis 32:26, Jacob responds to the Angel, 'I will not let Thee go, except Thou bless me.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jacob"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim rendering of KJV Genesis 32:26 ('I will not let thee go, except thou bless me').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-031",
+      "paragraph": 11,
+      "quote": "“He had power over the Angel, and prevailed.”",
+      "claim_text": "Hosea 12:4 states that Jacob had power over the Angel and prevailed.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jacob",
+        "Hosea"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Hosea 12:4 ('he had power over the angel, and prevailed').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-032",
+      "paragraph": 11,
+      "quote": "As an evidence of his triumph, and an encouragement to others to imitate his example, his name was changed from one which was a reminder of his sin, to one that commemorated his victory.",
+      "claim_text": "According to Genesis 32:28, Jacob's name was changed (to Israel) as a sign of his triumph, from a name recalling his past sin to one commemorating his victory.",
+      "claim_type": "biographical",
+      "entities": [
+        "Jacob",
+        "Israel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful retelling of Genesis 32:28 (name changed from Jacob to Israel as a mark of his prevailing).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-033",
+      "paragraph": 12,
+      "quote": "Satan had accused Jacob before the angels of God, claiming the right to destroy him because of his sin; he had moved upon Esau to march against him; and during the patriarch’s long night of wrestling, Satan endeavored to force upon him a sense of his guilt, in order to discourage him, and break his hold upon God.",
+      "claim_text": "Satan is described as having accused Jacob before the angels of God, incited Esau to march against him, and tried to break his hold upon God during his night of wrestling.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about Satan accusing Jacob before the angels; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-034",
+      "paragraph": 13,
+      "quote": "As Satan influenced Esau to march against Jacob, so he will stir up the wicked to destroy God’s people in the time of trouble.",
+      "claim_text": "As Satan influenced Esau to march against Jacob, Satan will stir up the wicked to destroy God's people in the future time of trouble.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological typology (Satan stirring the wicked in the time of trouble); not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-035",
+      "paragraph": 13,
+      "quote": "he does not know that their cases have been decided in the sanctuary above.",
+      "claim_text": "Satan does not know that the cases of God's people have already been decided in the heavenly sanctuary.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about Satan's ignorance of decisions in the heavenly sanctuary; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-036",
+      "paragraph": 14,
+      "quote": "As Satan accuses the people of God on account of their sins, the Lord permits him to try them to the uttermost.",
+      "claim_text": "As Satan accuses the people of God on account of their sins, the Lord permits him to try them to the uttermost in the time of trouble.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about God permitting Satan to try His people; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-037",
+      "paragraph": 15,
+      "quote": "the fulfilment of the Saviour’s promise, “I will keep thee from the hour of temptation, which shall come upon all the world.”",
+      "claim_text": "Revelation 3:10 records the Saviour's promise, 'I will keep thee from the hour of temptation, which shall come upon all the world.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ",
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders the promise of KJV Revelation 3:10 ('I will keep thee from the hour of temptation, which shall come upon all the world'); excerpted, meaning unchanged.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-038",
+      "paragraph": 15,
+      "quote": "Though God’s people will be surrounded by enemies who are bent upon their destruction, yet the anguish which they suffer is not a dread of persecution for the truth’s sake; they fear that every sin has not been repented of.",
+      "claim_text": "In the time of trouble, God's people's anguish will stem not from fear of persecution but from fear that they have unconfessed sin.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about the nature of the saints' anguish in the time of trouble; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-039",
+      "paragraph": 16,
+      "quote": "On every hand they hear the plottings of treason, and see the active working of rebellion; and there is aroused within them an intense desire, an earnest yearning of soul, that this great apostasy may be terminated, and the wickedness of the wicked may come to an end.",
+      "claim_text": "In the time of trouble, God's people will hear plots of treason on every hand and yearn for the apostasy and wickedness to be terminated.",
+      "claim_type": "interpretive",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/eschatological assertion about the yearnings of God's people amid apostasy; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-040",
+      "paragraph": 17,
+      "quote": "pleading the Saviour’s promise, “Let him take hold of My strength, that he may make peace with Me; and he shall make peace with Me.”",
+      "claim_text": "Isaiah 27:5 records the promise, 'Let him take hold of My strength, that he may make peace with Me; and he shall make peace with Me.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Isaiah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Isaiah 27:5 ('let him take hold of my strength, that he may make peace with me; and he shall make peace with me').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-041",
+      "paragraph": 18,
+      "quote": "Had not Jacob previously repented of his sin in obtaining the birthright by fraud, God would not have heard his prayer and mercifully preserved his life.",
+      "claim_text": "Jacob's prior repentance of his sin in obtaining the birthright by fraud is presented as the necessary condition for God hearing his prayer and preserving his life.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion conditioning God's hearing on Jacob's prior repentance; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-042",
+      "paragraph": 19,
+      "quote": "Those who delay a preparation for the day of God cannot obtain it in the time of trouble, or at any subsequent time. The case of all such is hopeless.",
+      "claim_text": "Those who delay preparing for the day of God cannot obtain that preparation during the time of trouble or afterward; their case is hopeless.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about the hopeless case of those who delay preparation; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-043",
+      "paragraph": 20,
+      "quote": "These confessions are of the same character as was that of Esau or of Judas.",
+      "claim_text": "The remorseful confessions of unprepared professed Christians are compared in character to those of Esau (Genesis 27:34) and of Judas Iscariot (Matthew 27:3-4), who lamented the consequences of their actions rather than showing true repentance.",
+      "claim_type": "biographical",
+      "entities": [
+        "Esau",
+        "Judas Iscariot"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful biblical reference: Esau's remorse (Genesis 27:34) and Judas's remorse (Matthew 27:3-4) are accurately characterized as regret over consequences rather than saving repentance - a standard reading.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-044",
+      "paragraph": 20,
+      "quote": "like Pharaoh of old, they would return to their defiance of Heaven, should the judgments be removed.",
+      "claim_text": "The Pharaoh of the Exodus narrative repeatedly acknowledged sin under the pressure of divine judgments (the plagues) but returned to defiance of God whenever the judgments were removed.",
+      "claim_type": "event",
+      "entities": [
+        "Pharaoh"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful retelling of the Exodus plague narrative: Pharaoh repeatedly acknowledged sin under judgment and hardened again when the plagues were removed (Exodus 8-10).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-045",
+      "paragraph": 21,
+      "quote": "Jacob’s history is also an assurance that God will not cast off those who have been deceived, and tempted, and betrayed into sin, but who have returned unto Him with true repentance.",
+      "claim_text": "Jacob's history is presented as assurance that God will not cast off those deceived and betrayed into sin who return to Him with true repentance.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assurance drawn from Jacob's history about God not casting off the repentant; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-046",
+      "paragraph": 21,
+      "quote": "While Satan seeks to destroy this class, God will send His angels to comfort and protect them in the time of peril.",
+      "claim_text": "While Satan seeks to destroy the repentant, God will send angels to comfort and protect them in the time of peril.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about God sending angels to protect the repentant; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-047",
+      "paragraph": 22,
+      "quote": "Jacob prevailed because he was persevering and determined. His victory is an evidence of the power of importunate prayer.",
+      "claim_text": "Jacob's victory in wrestling with the Angel is presented as evidence of the power of persevering, importunate prayer.",
+      "claim_type": "interpretive",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/devotional lesson drawn from Jacob's perseverance; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-048",
+      "paragraph": 23,
+      "quote": "Those who exercise but little faith now, are in the greatest danger of falling under the power of satanic delusions and the decree to compel the conscience.",
+      "claim_text": "Those who exercise little faith now are in the greatest danger of falling under satanic delusions and a future decree compelling conscience.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological assertion about the danger to those of little faith; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-049",
+      "paragraph": 24,
+      "quote": "Angels record every prayer that is earnest and sincere.",
+      "claim_text": "Angels record every prayer that is earnest and sincere.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about angels recording prayers; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-050",
+      "paragraph": 25,
+      "quote": "they would find many places where they could say, “I have seen God face to face, and my life is preserved.”",
+      "claim_text": "Genesis 32:30 records Jacob saying, 'I have seen God face to face, and my life is preserved.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jacob"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Genesis 32:30 ('I have seen God face to face, and my life is preserved').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-051",
+      "paragraph": 25,
+      "quote": "The young would not be seduced into sin if they would refuse to enter any path save that upon which they could ask God’s blessing.",
+      "claim_text": "The young would not be seduced into sin if they refused to enter any path except one on which they could ask God's blessing.",
+      "claim_type": "interpretive",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/moral counsel about the young; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-052",
+      "paragraph": 26,
+      "quote": "“Though Noah, Daniel, and Job” were in the land, “as I live, saith the Lord God, they shall deliver neither son nor daughter; they shall but deliver their own souls by their righteousness.”",
+      "claim_text": "Ezekiel 14:14,20 is quoted stating that even Noah, Daniel, and Job, if present, would deliver only their own souls by their righteousness, not their sons or daughters.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Noah",
+        "Daniel",
+        "Job",
+        "Book of Ezekiel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Ezekiel 14:20 ('Though Noah, Daniel, and Job... they shall deliver neither son nor daughter; they shall but deliver their own souls by their righteousness'), cf. 14:14.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-053",
+      "paragraph": 26,
+      "quote": "The “time of trouble such as never was,” is soon to open upon us; and we shall need an experience which we do not now possess, and which many are too indolent to obtain.",
+      "claim_text": "The 'time of trouble such as never was' is soon to open, requiring an experience many have not yet obtained.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological exhortation about the coming time of trouble; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-054",
+      "paragraph": 27,
+      "quote": "But Christ declared of Himself, “The prince of this world cometh, and hath nothing in Me.”",
+      "claim_text": "John 14:30 records Christ declaring, 'The prince of this world cometh, and hath nothing in Me.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV John 14:30 ('the prince of this world cometh, and hath nothing in me').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-055",
+      "paragraph": 27,
+      "quote": "He had kept His Father’s commandments, and there was no sin in Him that Satan could use to his advantage.",
+      "claim_text": "Christ perfectly kept His Father's commandments, and there was no sin in Him that Satan could use to his advantage.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about Christ's sinlessness; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-056",
+      "paragraph": 28,
+      "quote": "It is in this life that we are to separate sin from us, through faith in the atoning blood of Christ.",
+      "claim_text": "It is in this present life that believers are to separate sin from themselves through faith in the atoning blood of Christ.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about separating sin through faith in Christ's blood; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-057",
+      "paragraph": 29,
+      "quote": "The apostle John in vision heard a loud voice in heaven exclaiming, “Woe to the inhabiters of the earth and of the sea! for the devil is come down unto you, having great wrath, because he knoweth that he hath but a short time.”",
+      "claim_text": "According to Revelation 12:12, the apostle John in vision heard a loud voice in heaven proclaiming woe to the inhabiters of the earth and sea because the devil had come down with great wrath, knowing his time was short.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John (apostle)",
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Revelation 12:12 ('Woe to the inhabiters of the earth and of the sea!...').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-058",
+      "paragraph": 30,
+      "quote": "Fearful sights of a supernatural character will soon be revealed in the heavens, in token of the power of miracle-working demons.",
+      "claim_text": "In the future, fearful supernatural sights will be revealed in the heavens as tokens of the power of miracle-working demons.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Predictive/theological assertion about supernatural signs of miracle-working demons; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-059",
+      "paragraph": 30,
+      "quote": "Persons will arise pretending to be Christ Himself, and claiming the title and worship which belong to the world’s Redeemer. They will perform wonderful miracles of healing, and will profess to have revelations from heaven contradicting the testimony of the Scriptures.",
+      "claim_text": "In the future, persons will arise pretending to be Christ Himself, performing miracles of healing and professing revelations contradicting Scripture.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Predictive/theological assertion about future false christs performing miracles; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-060",
+      "paragraph": 31,
+      "quote": "As the crowning act in the great drama of deception, Satan himself will personate Christ.",
+      "claim_text": "As the crowning act of deception, Satan himself will personate Christ.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Predictive/theological assertion that Satan will personate Christ; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-061",
+      "paragraph": 31,
+      "quote": "In different parts of the earth, Satan will manifest himself among men as a majestic being of dazzling brightness, resembling the description of the Son of God given by John in the Revelation.",
+      "claim_text": "In different parts of the earth, Satan will manifest himself as a majestic being of dazzling brightness resembling John's description of the Son of God in Revelation.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Predictive/theological assertion about Satan's manifestation as a being of brightness; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-062",
+      "paragraph": 31,
+      "quote": "he claims to have changed the Sabbath to Sunday, and commands all to hallow the day which he has blessed.",
+      "claim_text": "Satan, impersonating Christ, will claim to have changed the Sabbath to Sunday and will command all to hallow that day.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample recheck (false-flagged). Confirmed genuinely theological: a prediction that Satan-impersonating-Christ will claim to have changed the Sabbath to Sunday. Framed as a future deceptive act, not as a checkable historical assertion about the origin of Sunday observance, so it does not engage the Sabbath/Sunday escalation cluster. No smuggled empirical fact. Not checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-063",
+      "paragraph": 31,
+      "quote": "Like the Samaritans who were deceived by Simon Magus, the multitudes, from the least to the greatest, give heed to these sorceries, saying, This is “the great power of God.”",
+      "claim_text": "According to Acts 8:9-11, the Samaritans were deceived by Simon Magus and called him 'the great power of God.'",
+      "claim_type": "event",
+      "entities": [
+        "Simon Magus",
+        "Samaritans"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful retelling of Acts 8:9-11 (Samaritans deceived by Simon Magus, calling him 'the great power of God').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-064",
+      "paragraph": 32,
+      "quote": "His blessing is pronounced upon the worshipers of the beast and his image, the very class upon whom the Bible declares that God’s unmingled wrath shall be poured out.",
+      "claim_text": "The false christ's blessing is pronounced upon the worshipers of the beast and his image, the class upon whom the Bible declares God's unmingled wrath shall be poured out.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion tying the false christ's blessing to the worshipers of the beast; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-065",
+      "paragraph": 33,
+      "quote": "“There shall arise false christs, and false prophets, and shall show great signs and wonders; insomuch that, if it were possible, they shall deceive the very elect.... Wherefore if they shall say unto you, Behold, He is in the desert; go not forth: behold, He is in the secret chambers; believe it not. For as the lightning cometh out of the east, and shineth even unto the west; so shall also the coming of the Son of man be.”",
+      "claim_text": "Matthew 24:24,26-27 records Christ's warning that false christs and false prophets would arise showing great signs, and that His actual second coming would be as visible and universal as lightning from east to west.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Matthew 24:24,26-27 (false christs; coming as lightning from east to west), with ellipses; meaning unchanged.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-066",
+      "paragraph": 34,
+      "quote": "Only those who have been diligent students of the Scriptures, and who have received the love of the truth, will be shielded from the powerful delusion that takes the world captive.",
+      "claim_text": "Only diligent students of Scripture who have received the love of the truth will be shielded from the powerful end-time delusion.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about who will be shielded from end-time delusion; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-067",
+      "paragraph": 35,
+      "quote": "As the decree issued by the various rulers of Christendom against commandment-keepers shall withdraw the protection of government, and abandon them to those who desire their destruction, the people of God will flee from the cities and villages and associate together in companies, dwelling in the most desolate and solitary places.",
+      "claim_text": "In the future, after a decree withdraws government protection from commandment-keepers, God's people will flee cities and villages to dwell in desolate, solitary places.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Predictive/theological assertion about God's people fleeing to desolate places; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-068",
+      "paragraph": 35,
+      "quote": "Like the Christians of the Piedmont valleys, they will make the high places of the earth their sanctuaries, and will thank God for the “munitions of rocks.”",
+      "claim_text": "The Waldensian Christians of the Piedmont valleys historically used the high mountain places as sanctuaries and places of refuge.",
+      "claim_type": "geographical",
+      "entities": [
+        "Waldensians",
+        "Piedmont"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Historically sound: the Waldensian Christians of the Piedmont valleys used the high alpine places as refuges and worship sanctuaries during persecution - a well-documented commonplace, consistent with earlier chapters' Waldensian corpus. The 'munitions of rocks' phrase echoes Isaiah 33:16.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-069",
+      "paragraph": 35,
+      "quote": "But many of all nations, and of all classes, high and low, rich and poor, black and white, will be cast into the most unjust and cruel bondage.",
+      "claim_text": "In the future time of trouble, many people of all nations and classes will be cast into unjust and cruel bondage.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Predictive/theological assertion about many being cast into bondage in the time of trouble; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-070",
+      "paragraph": 36,
+      "quote": "Did He forget faithful Noah when judgments were visited upon the antediluvian world?",
+      "claim_text": "According to Genesis 6-8, God did not forget Noah when He brought the Flood judgment upon the antediluvian world.",
+      "claim_type": "event",
+      "entities": [
+        "Noah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reference to Genesis 6-8 (Noah preserved through the Flood judgment).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-071",
+      "paragraph": 36,
+      "quote": "Did He forget Lot when the fire came down from heaven to consume the cities of the plain?",
+      "claim_text": "According to Genesis 19, God did not forget Lot when fire and brimstone came down from heaven to destroy Sodom and Gomorrah, the cities of the plain.",
+      "claim_type": "event",
+      "entities": [
+        "Lot",
+        "Sodom",
+        "Gomorrah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reference to Genesis 19 (Lot delivered when fire fell on the cities of the plain, Sodom and Gomorrah).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-072",
+      "paragraph": 36,
+      "quote": "Did He forget Joseph surrounded by idolaters in Egypt?",
+      "claim_text": "According to Genesis 39-41, God did not forget Joseph while he was surrounded by idolaters in Egypt.",
+      "claim_type": "event",
+      "entities": [
+        "Joseph",
+        "Egypt"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reference to Genesis 39-41 (Joseph preserved in Egypt among idolaters).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-073",
+      "paragraph": 36,
+      "quote": "Did He forget Elijah when the oath of Jezebel threatened him with the fate of the prophets of Baal?",
+      "claim_text": "According to 1 Kings 19, God did not forget Elijah when Queen Jezebel threatened his life after he had slain the prophets of Baal.",
+      "claim_type": "event",
+      "entities": [
+        "Elijah",
+        "Jezebel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reference to 1 Kings 19 (Elijah threatened by Jezebel after slaying the prophets of Baal, 1 Kings 18-19).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-074",
+      "paragraph": 36,
+      "quote": "Did He forget Jeremiah in the dark and dismal pit of his prison-house?",
+      "claim_text": "According to Jeremiah 38, God did not forget the prophet Jeremiah when he was cast into a dark prison pit.",
+      "claim_type": "event",
+      "entities": [
+        "Jeremiah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reference to Jeremiah 38 (Jeremiah cast into the pit/dungeon).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-075",
+      "paragraph": 36,
+      "quote": "Did He forget the three worthies in the fiery furnace?",
+      "claim_text": "According to Daniel 3, God did not forget Shadrach, Meshach, and Abednego (the three worthies) when they were cast into the fiery furnace.",
+      "claim_type": "event",
+      "entities": [
+        "Shadrach",
+        "Meshach",
+        "Abednego"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reference to Daniel 3 (Shadrach, Meshach, and Abednego in the fiery furnace).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-076",
+      "paragraph": 36,
+      "quote": "or Daniel in the den of lions?",
+      "claim_text": "According to Daniel 6, God did not forget Daniel when he was cast into the den of lions.",
+      "claim_type": "event",
+      "entities": [
+        "Daniel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reference to Daniel 6 (Daniel in the den of lions).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-077",
+      "paragraph": 37,
+      "quote": "“Zion said, Jehovah hath forsaken me, and my Lord hath forgotten me. Can a woman forget her sucking child, that she should not have compassion on the son of her womb? yea, they may forget, yet will I not forget thee. Behold, I have graven thee upon the palms of My hands.”",
+      "claim_text": "Isaiah 49:14-16 records God's answer to Zion's complaint of being forsaken, comparing His remembrance of His people to a mother's love and stating He has engraved them on the palms of His hands.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Isaiah",
+        "Zion"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders Isaiah 49:14-16; substance matches KJV. Renders 'Jehovah' where KJV has 'the LORD' (a translation variant, meaning unchanged).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-078",
+      "paragraph": 37,
+      "quote": "The Lord of hosts has said, “He that toucheth you, toucheth the apple of His eye.”",
+      "claim_text": "Zechariah 2:8 records the Lord of hosts saying, 'He that toucheth you, toucheth the apple of His eye.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Zechariah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Zechariah 2:8 ('he that toucheth you toucheth the apple of his eye').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-079",
+      "paragraph": 38,
+      "quote": "as when Paul and Silas prayed and sung praises at midnight in the Philippian dungeon.",
+      "claim_text": "According to Acts 16:25, Paul and Silas prayed and sang praises at midnight while imprisoned in the dungeon at Philippi.",
+      "claim_type": "event",
+      "entities": [
+        "Paul",
+        "Silas",
+        "Philippi"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reference to Acts 16:25 (Paul and Silas praying and singing at midnight in the Philippian prison).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-080",
+      "paragraph": 39,
+      "quote": "“The Lord shall rise up as in Mount Perazim, He shall be wroth as in the valley of Gibeon, that He may do His work, His strange work; and bring to pass His act, His strange act.”",
+      "claim_text": "Isaiah 28:21 describes the Lord rising up as at Mount Perazim and being wroth as in the valley of Gibeon to perform His 'strange work.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Isaiah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Isaiah 28:21 ('rise up as in mount Perazim... wroth as in the valley of Gibeon... his strange work... his strange act').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-081",
+      "paragraph": 39,
+      "quote": "“As I live, saith the Lord God, I have no pleasure in the death of the wicked.”",
+      "claim_text": "Ezekiel 33:11 records God declaring He has no pleasure in the death of the wicked.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Ezekiel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Ezekiel 33:11 ('I have no pleasure in the death of the wicked').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-082",
+      "paragraph": 39,
+      "quote": "The Lord is “merciful and gracious, long-suffering, and abundant in goodness and truth, ... forgiving iniquity and transgression and sin.” Yet He will “by no means clear the guilty.”",
+      "claim_text": "Exodus 34:6-7 describes the Lord as merciful, gracious, long-suffering, forgiving iniquity, transgression and sin, yet states He will by no means clear the guilty.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Exodus"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Exodus 34:6-7 (merciful, gracious, longsuffering... forgiving iniquity... by no means clear the guilty), condensed with ellipsis; meaning unchanged.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-083",
+      "paragraph": 39,
+      "quote": "“The Lord is slow to anger, and great in power, and will not at all acquit the wicked.”",
+      "claim_text": "Nahum 1:3 states that the Lord is slow to anger, great in power, and will not at all acquit the wicked.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Nahum"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Nahum 1:3 ('The LORD is slow to anger, and great in power, and will not at all acquit the wicked').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-084",
+      "paragraph": 40,
+      "quote": "When Christ ceases His intercession in the sanctuary, the unmingled wrath threatened against those who worship the beast and his image and receive his mark, will be poured out.",
+      "claim_text": "When Christ ceases His intercession in the heavenly sanctuary, unmingled wrath will be poured out on those who worship the beast and his image and receive his mark.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological assertion about the pouring out of unmingled wrath; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-085",
+      "paragraph": 40,
+      "quote": "The plagues upon Egypt when God was about to deliver Israel, were similar in character to those more terrible and extensive judgments which are to fall upon the world just before the final deliverance of God’s people.",
+      "claim_text": "The biblical plagues upon Egypt at the time of the Exodus (when God was about to deliver Israel) were similar in character to plagues predicted to fall upon the world before the final deliverance of God's people.",
+      "claim_type": "event",
+      "entities": [
+        "Egypt",
+        "Israel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The historical basis - the plagues on Egypt at the time of the Exodus (Exodus 7-12) - is faithfully referenced; the comparison to future plagues is an interpretive/eschatological overlay, but the biblical anchor is sound.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-086",
+      "paragraph": 40,
+      "quote": "“There fell a noisome and grievous sore upon the men which had the mark of the beast, and upon them which worshiped his image.”",
+      "claim_text": "Revelation 16:2 describes a noisome and grievous sore falling upon those who had the mark of the beast and worshiped his image.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Revelation 16:2 ('a noisome and grievous sore upon the men which had the mark of the beast').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-087",
+      "paragraph": 40,
+      "quote": "The sea “became as the blood of a dead man: and every living soul died in the sea.”",
+      "claim_text": "Revelation 16:3 describes the sea becoming as the blood of a dead man, with every living soul in the sea dying.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Revelation 16:3 ('became as the blood of a dead man: and every living soul died in the sea').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-088",
+      "paragraph": 40,
+      "quote": "And “the rivers and fountains of waters ... became blood.”",
+      "claim_text": "Revelation 16:4 describes the rivers and fountains of waters becoming blood.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Revelation 16:4 ('the rivers and fountains of waters... became blood').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-089",
+      "paragraph": 40,
+      "quote": "The angel of God declares: “Thou are righteous, O Lord, ... because Thou hast judged thus. For they have shed the blood of saints and prophets, and Thou hast given them blood to drink; for they are worthy.”",
+      "claim_text": "Revelation 16:5-6 records the angel of the waters declaring God's judgment righteous because the wicked shed the blood of saints and prophets and were given blood to drink.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Revelation 16:5-6 ('Thou art righteous, O Lord... they have shed the blood of saints and prophets, and thou hast given them blood to drink; for they are worthy'), with ellipsis.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-090",
+      "paragraph": 40,
+      "quote": "In like manner Christ declared the Jews of His time guilty of all the blood of holy men which had been shed since the days of Abel; for they possessed the same spirit, and were seeking to do the same work, with these murderers of the prophets.",
+      "claim_text": "Christ (Matthew 23:35) declared the Jewish religious leaders of His time guilty of all the righteous blood shed since Abel, because they shared the same spirit as the historical murderers of the prophets.",
+      "claim_type": "causal",
+      "entities": [
+        "Jesus Christ",
+        "Abel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurately represents Matthew 23:35 (Christ charging His contemporaries with the righteous blood shed since Abel); the added 'same spirit / same work' rationale is an interpretive gloss consistent with the passage.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-091",
+      "paragraph": 41,
+      "quote": "In the plague that follows, power is given to the sun “to scorch men with fire. And men were scorched with great heat.”",
+      "claim_text": "Revelation 16:8-9 describes a plague in which power is given to the sun to scorch men with fire, and men are scorched with great heat.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Revelation 16:8-9 ('power was given unto him to scorch men with fire. And men were scorched with great heat').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-092",
+      "paragraph": 41,
+      "quote": "“The land mourneth; ... because the harvest of the field is perished.”",
+      "claim_text": "Joel 1:10 describes the land mourning because the harvest of the field is perished.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Joel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Joel 1:10 ('because the harvest of the field is perished').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-093",
+      "paragraph": 41,
+      "quote": "“All the trees of the field are withered: because joy is withered away from the sons of men.”",
+      "claim_text": "Joel 1:12 states that all the trees of the field are withered and joy has withered away from the sons of men.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Joel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Joel 1:12 ('all the trees of the field are withered: because joy is withered away from the sons of men').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-094",
+      "paragraph": 41,
+      "quote": "“The seed is rotten under their clods, the garners are laid desolate.”",
+      "claim_text": "Joel 1:17 describes the seed as rotten under the clods and the garners laid desolate.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Joel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Joel 1:17 ('The seed is rotten under their clods, the garners are laid desolate').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-095",
+      "paragraph": 41,
+      "quote": "“How do the beasts groan! the herds of cattle are perplexed, because they have no pasture.... The rivers of waters are dried up, and the fire hath devoured the pastures of the wilderness.”",
+      "claim_text": "Joel 1:18-20 describes beasts groaning and herds of cattle perplexed for lack of pasture, and rivers of water dried up with fire devouring the pastures of the wilderness.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Joel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Joel 1:18,20 ('How do the beasts groan!... The rivers of waters are dried up, and the fire hath devoured the pastures of the wilderness'), with ellipsis.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-096",
+      "paragraph": 41,
+      "quote": "“The songs of the temple shall be howlings in that day, saith the Lord God: there shall be many dead bodies in every place; they shall cast them forth with silence.”",
+      "claim_text": "Amos 8:3 states that in that day the songs of the temple shall become howlings, with many dead bodies cast forth in silence.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Amos"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Amos 8:3 ('the songs of the temple shall be howlings... many dead bodies in every place; they shall cast them forth with silence').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-097",
+      "paragraph": 42,
+      "quote": "These plagues are not universal, or the inhabitants of the earth would be wholly cut off.",
+      "claim_text": "The final plagues are not universal in scope, since otherwise the inhabitants of the earth would be wholly cut off.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological assertion that the final plagues are not universal; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-098",
+      "paragraph": 42,
+      "quote": "but in the final judgment, wrath is poured out unmixed with mercy.",
+      "claim_text": "In the final judgment, unlike all prior judgments upon men, wrath is poured out unmixed with mercy.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about wrath poured out unmixed with mercy in the final judgment; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-099",
+      "paragraph": 43,
+      "quote": "“Behold, the days come, saith the Lord God, that I will send a famine in the land, not a famine of bread, nor a thirst for water, but of hearing the words of the Lord: and they shall wander from sea to sea, and from the north even to the east, they shall run to and fro to seek the word of the Lord, and shall not find it.”",
+      "claim_text": "Amos 8:11-12 describes a coming famine, not of bread or water, but of hearing the words of the Lord, during which people will wander seeking the word of the Lord and not find it.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Amos"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Amos 8:11-12 (a famine of hearing the words of the Lord).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-100",
+      "paragraph": 44,
+      "quote": "The people of God will not be free from suffering; but while persecuted and distressed, while they endure privation, and suffer for want of food, they will not be left to perish.",
+      "claim_text": "In the time of trouble, God's people will suffer persecution, distress, and privation but will not be left to perish for lack of care.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Predictive/theological assertion about the suffering yet preservation of God's people; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-101",
+      "paragraph": 44,
+      "quote": "To him that “walketh righteously” is the promise, “Bread shall be given him; his waters shall be sure.”",
+      "claim_text": "Isaiah 33:15-16 promises that to him who walks righteously, bread shall be given and his waters shall be sure.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Isaiah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Isaiah 33:16 ('bread shall be given him; his waters shall be sure'), applied to 'he that walketh righteously' (33:15).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-102",
+      "paragraph": 44,
+      "quote": "“When the poor and needy seek water, and there is none, and their tongue faileth for thirst, I the Lord will hear them, I the God of Israel will not forsake them.”",
+      "claim_text": "Isaiah 41:17 records God's promise that when the poor and needy seek water and their tongue fails for thirst, He will hear them and not forsake them.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Isaiah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Isaiah 41:17 ('When the poor and needy seek water... I the Lord will hear them, I the God of Israel will not forsake them').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-103",
+      "paragraph": 45,
+      "quote": "“Although the fig-tree shall not blossom, neither shall fruit be in the vines; the labor of the olive shall fail, and the fields shall yield no meat; the flock shall be cut off from the fold, and there shall be no herd in the stalls:”",
+      "claim_text": "Habakkuk 3:17 describes agricultural failure: the fig tree not blossoming, no fruit in the vines, failure of olive labor, no food from the fields, and loss of flocks and herds.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Habakkuk"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Habakkuk 3:17 (fig tree not blossoming, no fruit in the vines, olive labor failing, no herd in the stalls).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-104",
+      "paragraph": 46,
+      "quote": "“The Lord is thy keeper: the Lord is thy shade upon thy right hand. The sun shall not smite thee by day, nor the moon by night. The Lord shall preserve thee from all evil: He shall preserve thy soul.”",
+      "claim_text": "Psalm 121:5-7 states that the Lord is the believer's keeper and shade, protecting from sun by day and moon by night, and preserving from all evil.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Psalms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Psalm 121:5-7 ('The Lord is thy keeper... The sun shall not smite thee by day, nor the moon by night').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-105",
+      "paragraph": 46,
+      "quote": "“He shall deliver thee from the snare of the fowler, and from the noisome pestilence. He shall cover thee with His feathers, and under His wings shalt thou trust: His truth shall be thy shield and buckler. Thou shalt not be afraid for the terror by night; nor for the arrow that flieth by day; nor for the pestilence that walketh in darkness; nor for the destruction that wasteth at noonday. A thousand shall fall at thy side, and ten thousand at thy right hand; but it shall not come nigh thee. Only with thine eyes shalt thou behold and see the reward of the wicked. Because thou hast made the Lord, which is my refuge, even the Most High, thy habitation; there shall no evil befall thee, neither shall any plague come nigh thy dwelling.”",
+      "claim_text": "Psalm 91:3-10 promises deliverance from the snare of the fowler, pestilence, terror by night, and destruction at noonday to one who makes the Lord his refuge and habitation.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Psalms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Psalm 91:3-10 (snare of the fowler; a thousand shall fall at thy side... but it shall not come nigh thee).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-106",
+      "paragraph": 47,
+      "quote": "Yet to human sight it will appear that the people of God must soon seal their testimony with their blood, as did the martyrs before them.",
+      "claim_text": "In the future time of trouble, it will appear to human sight that God's people must soon seal their testimony with their blood, as martyrs did before them.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Predictive/theological assertion that the saints will seem about to be martyred; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-107",
+      "paragraph": 47,
+      "quote": "the chief priests and rulers shouting in mockery, “He saved others; Himself He cannot save. If He be the King of Israel, let Him now come down from the cross, and we will believe Him.”",
+      "claim_text": "According to Matthew 27:42, the chief priests and rulers mocked Jesus at the crucifixion, saying, 'He saved others; Himself He cannot save. If He be the King of Israel, let Him now come down from the cross, and we will believe Him.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ",
+        "chief priests"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Matthew 27:42 (chief priests' mockery: 'He saved others; himself he cannot save...').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-108",
+      "paragraph": 48,
+      "quote": "“Shall not God avenge His own elect, which cry day and night unto Him?... I tell you that He will avenge them speedily.”",
+      "claim_text": "Luke 18:7-8 records Christ's statement that God will avenge His own elect who cry day and night unto Him, and that He will avenge them speedily.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Luke 18:7-8 ('Shall not God avenge his own elect... I tell you that he will avenge them speedily').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-109",
+      "paragraph": 48,
+      "quote": "Yet for the elect’s sake, the time of trouble will be shortened.",
+      "claim_text": "For the sake of the elect, the future time of trouble will be shortened.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological assertion (echoing Matthew 24:22) that the time of trouble will be shortened for the elect; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-110",
+      "paragraph": 49,
+      "quote": "Though a general decree has fixed the time when commandment-keepers may be put to death, their enemies will in some cases anticipate the decree, and before the time specified, will endeavor to take their lives.",
+      "claim_text": "Although a future general decree will fix a time when commandment-keepers may be put to death, some enemies will anticipate the decree and try to take their lives beforehand.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Predictive/theological assertion about enemies anticipating the death decree; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-111",
+      "paragraph": 50,
+      "quote": "They have rested, as if weary, under the oaks at noon.",
+      "claim_text": "According to Genesis 18, angels appeared in human form and rested, as if weary, under the oaks at noon, in the account of Abraham's visitors at Mamre.",
+      "claim_type": "event",
+      "entities": [
+        "Abraham"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reference to Genesis 18 (angels in human form at Mamre resting/refreshing under the trees in the heat of the day; Gen 18:1-4).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-112",
+      "paragraph": 50,
+      "quote": "They have opened prison doors, and set free the servants of the Lord.",
+      "claim_text": "According to Acts 5:19 and Acts 12:7-10, angels opened prison doors and set free the apostles of the Lord.",
+      "claim_type": "event",
+      "entities": [
+        "Peter",
+        "Acts of the Apostles"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reference to Acts 5:19 and Acts 12:7-10 (angels opening prison doors to free the apostles/Peter).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-113",
+      "paragraph": 50,
+      "quote": "Clothed with the panoply of heaven, they came to roll away the stone from the Saviour’s tomb.",
+      "claim_text": "According to Matthew 28:2, an angel came and rolled away the stone from Jesus' tomb.",
+      "claim_type": "event",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reference to Matthew 28:2 (an angel rolled away the stone from Jesus' tomb).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-114",
+      "paragraph": 51,
+      "quote": "In the form of men, angels are often in the assemblies of the righteous, and they visit the assemblies of the wicked, as they went to Sodom, to make a record of their deeds, to determine whether they have passed the boundary of God’s forbearance.",
+      "claim_text": "According to Genesis 19, angels in human form visited Sodom to investigate the conduct of its inhabitants.",
+      "claim_type": "event",
+      "entities": [
+        "Sodom"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful reference to Genesis 19 (angels in human form visiting Sodom); the surrounding assertion about angels visiting assemblies is theological framing.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-115",
+      "paragraph": 52,
+      "quote": "Though the rulers of this world know it not, yet often in their councils angels have been spokesmen.",
+      "claim_text": "Angels have often been spokesmen in the councils of the rulers of this world, though the rulers do not know it.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about angels as unseen spokesmen in rulers' councils; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-116",
+      "paragraph": 52,
+      "quote": "In the hour of peril and distress, “the angel of the Lord encampeth round about them that fear Him, and delivereth them.”",
+      "claim_text": "Psalm 34:7 states that the angel of the Lord encamps round about those who fear Him and delivers them.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Psalms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Psalm 34:7 ('The angel of the Lord encampeth round about them that fear him, and delivereth them').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-117",
+      "paragraph": 53,
+      "quote": "the answer is given unfalteringly, “ ‘The morning cometh, and also the night.’",
+      "claim_text": "Isaiah 21:12 records the watchman's answer, 'The morning cometh, and also the night.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Isaiah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Isaiah 21:12 ('The morning cometh, and also the night').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-118",
+      "paragraph": 54,
+      "quote": "Christ, the almighty victor, holds out to His weary soldiers a crown of immortal glory; and His voice comes from the gates ajar: “Lo, I am with you. Be not afraid. I am acquainted with all your sorrows; I have borne your griefs.",
+      "claim_text": "Christ is depicted offering His weary soldiers a crown of immortal glory and speaking words of comfort from the gates of heaven.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control-sample recheck (false-flagged). Confirmed genuinely theological/devotional: Christ depicted offering a crown and speaking comfort from heaven. The quoted words are not attributed to a specific Scripture and are authorial. No smuggled empirical fact. Not checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-119",
+      "paragraph": 55,
+      "quote": "The Lord permits conflicts, to prepare the soul for peace.",
+      "claim_text": "The Lord permits conflicts in believers' lives in order to prepare the soul for peace.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about God permitting conflicts to prepare the soul; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-120",
+      "paragraph": 56,
+      "quote": "“The redeemed of the Lord shall return, and come with singing unto Zion; and everlasting joy shall be upon their head: they shall obtain gladness and joy; and sorrow and mourning shall flee away.",
+      "claim_text": "Isaiah 51:11 (and following verses) describes the redeemed of the Lord returning to Zion with singing and everlasting joy, sorrow and mourning fleeing away.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Isaiah",
+        "Zion"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Isaiah 51:11 ('The redeemed of the Lord shall return, and come with singing unto Zion...').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-121",
+      "paragraph": 57,
+      "quote": "“Therefore hear now this, thou afflicted, and drunken, but not with wine: Thus saith thy Lord Jehovah, and thy God that pleadeth the cause of His people, Behold, I have taken out of thine hand the cup of trembling, even the dregs of the cup of My fury; thou shalt no more drink it again: but I will put it into the hand of them that afflict thee; which have said to thy soul, Bow down, that we may go over: and thou hast laid thy body as the ground, and as the street, to them that went over.”",
+      "claim_text": "Isaiah 51:21-23 records God's promise to remove the cup of trembling from His afflicted people and give it instead to their oppressors.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Isaiah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders Isaiah 51:21-23; substance matches KJV. Renders 'Lord Jehovah' where KJV has 'thy Lord the LORD' (a translation variant, meaning unchanged).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-122",
+      "paragraph": 58,
+      "quote": "“They shall be Mine, saith the Lord of hosts, in that day when I make up My jewels; and I will spare them, as a man spareth his own son that serveth him.”",
+      "claim_text": "Malachi 3:17 records the Lord of hosts declaring that His people shall be His jewels, and He will spare them as a man spares his own son.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Malachi"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Malachi 3:17 ('They shall be mine... in that day when I make up my jewels; and I will spare them, as a man spareth his own son that serveth him').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-123",
+      "paragraph": 58,
+      "quote": "Says the psalmist, “In the time of trouble He shall hide me in His pavilion: in the secret of His tabernacle shall He hide me.”",
+      "claim_text": "Psalm 27:5 records the psalmist stating that in the time of trouble God shall hide him in His pavilion and in the secret of His tabernacle.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Psalms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Psalm 27:5 ('In the time of trouble he shall hide me in his pavilion: in the secret of his tabernacle shall he hide me').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-124",
+      "paragraph": 58,
+      "quote": "Christ has spoken: “Come, My people, enter thou into thy chambers, and shut thy doors about thee: hide thyself as it were for a little moment, until the indignation be overpast. For, behold, the Lord cometh out of His place to punish the inhabitants of the earth for their iniquity.”",
+      "claim_text": "Isaiah 26:20-21 records God's invitation to His people to enter their chambers and hide until His indignation against the earth's inhabitants is past.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Isaiah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithfully renders KJV Isaiah 26:20-21 ('Come, my people, enter thou into thy chambers... until the indignation be overpast').",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-39-125",
+      "paragraph": 58,
+      "quote": "Glorious will be the deliverance of those who have patiently waited for His coming, and whose names are written in the book of life.",
+      "claim_text": "The deliverance of those who have patiently waited for Christ's coming and whose names are written in the book of life will be glorious.",
+      "claim_type": "theological",
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological assertion about the glorious deliverance of those written in the book of life; not empirically checkable (rule 5).",
+        "sources": []
+      }
+    }
+  ]
+}

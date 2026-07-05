@@ -2364,7 +2364,7 @@
       "paragraphs": 24,
       "stages": {
         "extract": "done",
-        "verify": "pending",
+        "verify": "done",
         "defend": "pending",
         "impact": "pending"
       },
@@ -2382,9 +2382,20 @@
             "causal": 1
           },
           "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 22,
+          "anachronistic": 0,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 47,
+          "low_confidence": 4,
+          "searches": 4,
+          "clusters": 3
         }
       },
-      "updated_at": "2026-07-05T13:37:46Z"
+      "updated_at": "2026-07-05T14:32:05Z"
     },
     "39": {
       "title": "“The Time Of Trouble.”",
@@ -2393,8 +2404,8 @@
       "stages": {
         "extract": "done",
         "verify": "done",
-        "defend": "pending",
-        "impact": "pending"
+        "defend": "done",
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -2422,9 +2433,21 @@
           "low_confidence": 0,
           "searches": 0,
           "clusters": 0
+        },
+        "defend": {
+          "examined": 0,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 0,
+          "searches": 0
+        },
+        "impact": {
+          "scored": 0,
+          "load_bearing": 0,
+          "top_impact": []
         }
       },
-      "updated_at": "2026-07-05T14:31:51Z"
+      "updated_at": "2026-07-05T14:33:58Z"
     },
     "40": {
       "title": "God’s People Delivered",
@@ -2432,7 +2455,7 @@
       "paragraphs": 44,
       "stages": {
         "extract": "done",
-        "verify": "pending",
+        "verify": "done",
         "defend": "pending",
         "impact": "pending"
       },
@@ -2449,9 +2472,20 @@
             "statistic": 1
           },
           "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 72,
+          "anachronistic": 0,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 33,
+          "low_confidence": 0,
+          "searches": 4,
+          "clusters": 3
         }
       },
-      "updated_at": "2026-07-05T13:39:15Z"
+      "updated_at": "2026-07-05T14:32:06Z"
     },
     "41": {
       "title": "Desolation Of The Earth",
@@ -2495,7 +2529,7 @@
       "paragraphs": 49,
       "stages": {
         "extract": "done",
-        "verify": "pending",
+        "verify": "done",
         "defend": "pending",
         "impact": "pending"
       },
@@ -2513,9 +2547,20 @@
             "date": 1
           },
           "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 54,
+          "anachronistic": 1,
+          "disputed": 1,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 45,
+          "low_confidence": 0,
+          "searches": 4,
+          "clusters": 4
         }
       },
-      "updated_at": "2026-07-05T13:39:46Z"
+      "updated_at": "2026-07-05T14:32:06Z"
     }
   }
 }
