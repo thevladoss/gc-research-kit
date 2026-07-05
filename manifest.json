@@ -1806,65 +1806,211 @@
       "words": 4415,
       "paragraphs": 36,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
-        "impact": "pending"
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
+        "impact": "done"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 135,
+          "needs_verification": 53,
+          "by_type": {
+            "theological": 78,
+            "attributed_quote": 51,
+            "interpretive": 4,
+            "date": 1,
+            "event": 1
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 55,
+          "anachronistic": 0,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 80,
+          "low_confidence": 0,
+          "searches": 0,
+          "clusters": 3
+        },
+        "defend": {
+          "examined": 0,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 0,
+          "searches": 0
+        },
+        "impact": {
+          "scored": 0,
+          "load_bearing": 0,
+          "top_impact": []
+        }
+      },
+      "updated_at": "2026-07-05T12:41:31Z"
     },
     "29": {
       "title": "The Origin Of Evil",
       "words": 4370,
       "paragraphs": 33,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 78,
+          "needs_verification": 21,
+          "by_type": {
+            "theological": 56,
+            "attributed_quote": 21,
+            "interpretive": 1
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 18,
+          "anachronistic": 0,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 60,
+          "low_confidence": 0,
+          "searches": 0,
+          "clusters": 2
+        },
+        "defend": {
+          "examined": 0,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 0,
+          "searches": 0
+        }
+      },
+      "updated_at": "2026-07-05T12:39:05Z"
     },
     "30": {
       "title": "Enmity Between Man And Satan",
       "words": 1977,
       "paragraphs": 17,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
-        "defend": "pending",
+        "extract": "done",
+        "verify": "done",
+        "defend": "done",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 73,
+          "needs_verification": 15,
+          "by_type": {
+            "theological": 45,
+            "interpretive": 13,
+            "attributed_quote": 8,
+            "event": 3,
+            "biographical": 3,
+            "causal": 1
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 12,
+          "anachronistic": 0,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 61,
+          "low_confidence": 2,
+          "searches": 2,
+          "clusters": 3
+        },
+        "defend": {
+          "examined": 0,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 0,
+          "searches": 0
+        }
+      },
+      "updated_at": "2026-07-05T12:39:56Z"
     },
     "31": {
       "title": "Agency Of Evil Spirits",
       "words": 2221,
       "paragraphs": 18,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
+        "extract": "done",
+        "verify": "done",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 72,
+          "needs_verification": 23,
+          "by_type": {
+            "theological": 47,
+            "attributed_quote": 20,
+            "interpretive": 2,
+            "statistic": 2,
+            "biographical": 1
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 23,
+          "anachronistic": 0,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 49,
+          "low_confidence": 0,
+          "searches": 2,
+          "clusters": 3
+        }
+      },
+      "updated_at": "2026-07-05T12:37:24Z"
     },
     "32": {
       "title": "Snares Of Satan",
       "words": 4331,
       "paragraphs": 39,
       "stages": {
-        "extract": "pending",
-        "verify": "pending",
+        "extract": "done",
+        "verify": "done",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 64,
+          "needs_verification": 27,
+          "by_type": {
+            "theological": 25,
+            "attributed_quote": 17,
+            "interpretive": 12,
+            "event": 6,
+            "causal": 3,
+            "biographical": 1
+          },
+          "zero_claim_paras": []
+        },
+        "verify": {
+          "supported": 24,
+          "anachronistic": 2,
+          "disputed": 0,
+          "contradicted": 0,
+          "misquotation": 0,
+          "unverifiable": 38,
+          "low_confidence": 2,
+          "searches": 3,
+          "clusters": 3
+        }
+      },
+      "updated_at": "2026-07-05T12:37:55Z"
     },
     "33": {
       "title": "The First Great Deception",

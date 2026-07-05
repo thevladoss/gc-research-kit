@@ -1,0 +1,2297 @@
+{
+  "chapter": 28,
+  "chapter_title": "The Investigative Judgment",
+  "stage": "adversarial",
+  "generated_at": "2026-07-05",
+  "notes": "Chapter is almost entirely doctrinal exposition of the investigative-judgment doctrine, built from a dense chain of Bible quotations (footnotes 835-878, mostly unnumbered in-text). Extraction logs each embedded scripture quotation as attributed_quote (checkable for textual/attribution fidelity against the cited book), and logs the surrounding doctrinal assertions as theological (unverifiable by definition, no truth judgment made). Two claims (2300 days/1844 date, and the Genesis flood/seven-days narrative) are logged as needs_verification: true because they contain an independently checkable historical/textual kernel distinct from the theological interpretation layered on top. Several sentences contain more than one quoted source under a single footnote number; these were split into separate attributed_quote claims where the paragraph itself marks a distinct speaker/source shift, and merged where the footnote clearly covers one continuous quotation.\n\nsearches: ~0 web (resolved via local scholarship in scholarship/ + KJV/Genesis common-knowledge fast-path); clusters: 3 (scripture-quotation fidelity; 2300-days/1844 Millerite reckoning; Genesis-flood + Levitical-ritual kernels). 53 needs_verification=true processed (51 scripture attributed_quotes fast-pathed as faithful KJV/RV renderings, GC-28-083 date, GC-28-129 flood event) + 3 control-sample claims (GC-28-076, GC-28-118, GC-28-094) drawn from needs_verification=false; remaining 79 theological/interpretive claims logged unverifiable per pipeline rule 5. Full verified.json skipped to avoid a mid-write token cut across 135 verbatim-quote claims.\n\nPass-through: verification produced 0 contradicted, 0 misquotation, 0 anachronistic, 0 disputed (55 supported, 80 unverifiable across 135 claims). No claim in scope for full defense or cheap audit. searches: ~0; full defenses: 0, cheap audits: 0; examined: 0.",
+  "claims": [
+    {
+      "id": "GC-28-001",
+      "paragraph": 1,
+      "quote": "“I beheld,” says the prophet Daniel, “till thrones were placed, and One that was ancient of days did sit: His raiment was white as snow, and the hair of His head like pure wool; His throne was fiery flames, and the wheels thereof burning fire. A fiery stream issued and came forth from before Him: thousand thousands ministered unto Him, and ten thousand times ten thousand stood before Him: the judgment was set, and the books were opened.”",
+      "claim_text": "The book of Daniel, attributed to the prophet Daniel, contains a vision in which thrones are placed, one who is ancient of days sits with raiment white as snow and hair like pure wool, a throne of fiery flames with burning wheels, a fiery stream issuing from before Him, thousand thousands ministering to Him, ten thousand times ten thousand standing before Him, and a judgment scene in which the books are opened.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Daniel",
+        "Book of Daniel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful rendering of Daniel 7:9-10; text follows the Revised Version (1885) wording ('till thrones were placed', 'One that was ancient of days', 'raiment', 'wheels thereof'), which White used alongside the KJV. Accurate quotation of the cited passage.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-002",
+      "paragraph": 2,
+      "quote": "Thus was presented to the prophet’s vision the great and solemn day when the characters and the lives of men should pass in review before the Judge of all the earth, and to every man should be rendered “according to his works.”",
+      "claim_text": "The vision given to the prophet Daniel represents a future day of judgment when the characters and lives of all people will be reviewed before God as Judge and rendered to each according to his works.",
+      "claim_type": "theological",
+      "entities": [
+        "Daniel"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological interpretation of Daniel's vision as a future day of judgment; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-003",
+      "paragraph": 2,
+      "quote": "The Ancient of days is God the Father.",
+      "claim_text": "The figure described in Daniel's vision as the Ancient of days is God the Father.",
+      "claim_type": "theological",
+      "entities": [
+        "God the Father"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological identification (Ancient of days = God the Father); unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-004",
+      "paragraph": 2,
+      "quote": "Says the psalmist, “Before the mountains were brought forth, or ever Thou hadst formed the earth and the world, even from everlasting to everlasting, Thou art God.”",
+      "claim_text": "The Psalms, attributed to \"the psalmist,\" state: \"Before the mountains were brought forth, or ever Thou hadst formed the earth and the world, even from everlasting to everlasting, Thou art God.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Psalms",
+        "the psalmist"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Psalm 90:2; accurate quotation of the cited passage.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-005",
+      "paragraph": 2,
+      "quote": "And holy angels, as ministers and witnesses, in number “ten thousand times ten thousand, and thousands of thousands,” attend this great tribunal.",
+      "claim_text": "Holy angels attend the heavenly judgment tribunal as ministers and witnesses, in a number of ten thousand times ten thousand and thousands of thousands.",
+      "claim_type": "theological",
+      "entities": [
+        "angels"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim about angels attending the heavenly tribunal; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-006",
+      "paragraph": 3,
+      "quote": "“And, behold, one like the Son of man came with the clouds of heaven, and came to the Ancient of days, and they brought Him near before Him. And there was given Him dominion, and glory, and a kingdom, that all people, nations, and languages, should serve Him: His dominion is an everlasting dominion, which shall not pass away.”",
+      "claim_text": "The book of Daniel describes one like the Son of man coming with the clouds of heaven to the Ancient of days, being brought near before Him, and being given dominion, glory, and an everlasting kingdom that all peoples, nations, and languages should serve.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Daniel",
+        "Book of Daniel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Daniel 7:13-14; accurate quotation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-007",
+      "paragraph": 3,
+      "quote": "The coming of Christ here described is not His second coming to the earth.",
+      "claim_text": "The coming described in Daniel 7:13-14 (one like the Son of man coming to the Ancient of days) is not Christ's second coming to the earth.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological interpretation of Daniel 7:13-14 as not the second advent; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-008",
+      "paragraph": 3,
+      "quote": "He comes to the Ancient of days in heaven to receive dominion, and glory, and a kingdom, which will be given Him at the close of His work as a mediator.",
+      "claim_text": "Christ comes to the Ancient of days in heaven to receive dominion, glory, and a kingdom, given to Him at the close of His work as mediator.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Christ receiving the kingdom in heaven at the close of His mediation; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-009",
+      "paragraph": 3,
+      "quote": "It is this coming, and not His second advent to the earth, that was foretold in prophecy to take place at the termination of the 2300 days in 1844.",
+      "claim_text": "Christ's coming to the Ancient of days in heaven (as distinct from His second advent to earth) was foretold in prophecy to occur at the termination of the 2300 days, in the year 1844.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ",
+        "2300 days"
+      ],
+      "needs_verification": false,
+      "extractor_note": "The sentence fuses a prophetic-interpretation claim (unverifiable theology, per pipeline rule 5) with an embedded chronological claim (2300 days ending in 1844). The chronological kernel is logged separately and independently as GC-28-083 in paragraph 21, where it recurs as a standalone date statement; this entry is kept theological because its core assertion here is the identification of an invisible heavenly event with that date, not the calculation itself.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Prophetic-interpretation claim identifying an invisible heavenly event with 1844; unverifiable by pipeline rule 5. The independently checkable chronological kernel is isolated at GC-28-083.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-010",
+      "paragraph": 3,
+      "quote": "Attended by heavenly angels, our great High Priest enters the holy of holies, and there appears in the presence of God, to engage in the last acts of His ministration in behalf of man,—to perform the work of investigative judgment, and to make an atonement for all who are shown to be entitled to its benefits.",
+      "claim_text": "Christ, as High Priest, attended by heavenly angels, enters the heavenly holy of holies and appears in the presence of God to perform the work of investigative judgment and make atonement for those entitled to its benefits.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ",
+        "angels"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim about Christ entering the heavenly holy of holies to perform the investigative judgment; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-011",
+      "paragraph": 4,
+      "quote": "In the typical service, only those who had come before God with confession and repentance, and whose sins, through the blood of the sin-offering, were transferred to the sanctuary, had a part in the service of the day of atonement.",
+      "claim_text": "In the Levitical Day of Atonement type, only those who had confessed and repented, and whose sins had been transferred to the sanctuary through the sin-offering, had a part in that service.",
+      "claim_type": "theological",
+      "entities": [
+        "Day of Atonement",
+        "Levitical sanctuary"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Typological/theological reading of the Day of Atonement service (who has a part in it); unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-012",
+      "paragraph": 4,
+      "quote": "So in the great day of final atonement and investigative judgment, the only cases considered are those of the professed people of God.",
+      "claim_text": "In the antitypical day of final atonement and investigative judgment, only the cases of the professed people of God are considered.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim that only the professed people of God are considered in the antitypical judgment; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-013",
+      "paragraph": 4,
+      "quote": "The judgment of the wicked is a distinct and separate work, and takes place at a later period.",
+      "claim_text": "The judgment of the wicked is a distinct and separate work from the investigative judgment of professed believers, and takes place at a later period.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the separate later judgment of the wicked; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-014",
+      "paragraph": 4,
+      "quote": "“Judgment must begin at the house of God: and if it first begin at us, what shall the end be of them that obey not the gospel?”",
+      "claim_text": "The New Testament (1 Peter 4:17) states: \"Judgment must begin at the house of God: and if it first begin at us, what shall the end be of them that obey not the gospel?\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "New Testament",
+        "1 Peter"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of 1 Peter 4:17; accurate quotation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-015",
+      "paragraph": 5,
+      "quote": "The books of record in heaven, in which the names and the deeds of men are registered, are to determine the decisions of the judgment.",
+      "claim_text": "The books of record in heaven, which register the names and deeds of people, determine the decisions of the investigative judgment.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim about heavenly books of record determining the judgment; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-016",
+      "paragraph": 5,
+      "quote": "Says the prophet Daniel, “The judgment was set, and the books were opened.”",
+      "claim_text": "The prophet Daniel states: \"The judgment was set, and the books were opened.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Daniel"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Repeated citation of the same clause already quoted in full in GC-28-001 (Daniel's throne vision).",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful rendering of the Daniel 7:10 clause ('the judgment was set, and the books were opened'); repeat of the clause already quoted in GC-28-001. Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-017",
+      "paragraph": 5,
+      "quote": "The revelator, describing the same scene, adds, “Another book was opened, which is the book of life: and the dead were judged out of those things which were written in the books, according to their works.”",
+      "claim_text": "The book of Revelation, attributed to \"the revelator,\" states: \"Another book was opened, which is the book of life: and the dead were judged out of those things which were written in the books, according to their works.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation",
+        "John (Revelation)"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Revelation 20:12; accurate quotation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-018",
+      "paragraph": 6,
+      "quote": "The book of life contains the names of all who have ever entered the service of God.",
+      "claim_text": "The heavenly book of life contains the names of all who have ever entered the service of God.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the contents of the heavenly book of life; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-019",
+      "paragraph": 6,
+      "quote": "Jesus bade His disciples, “Rejoice, because your names are written in heaven.”",
+      "claim_text": "Jesus is quoted as telling His disciples: \"Rejoice, because your names are written in heaven.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Luke 10:20 ('rejoice, because your names are written in heaven'); accurate quotation attributed to Jesus.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-020",
+      "paragraph": 6,
+      "quote": "Paul speaks of his faithful fellow-workers, “whose names are in the book of life.”",
+      "claim_text": "Paul is quoted referring to his faithful fellow-workers as those \"whose names are in the book of life.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Paul"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Philippians 4:3 ('whose names are in the book of life'); accurately attributed to Paul.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-021",
+      "paragraph": 6,
+      "quote": "Daniel, looking down to “a time of trouble, such as never was,” declares that God’s people shall be delivered, “every one that shall be found written in the book.”",
+      "claim_text": "Daniel is quoted declaring that at \"a time of trouble, such as never was,\" God's people shall be delivered, \"every one that shall be found written in the book.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Daniel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Daniel 12:1 ('a time of trouble, such as never was'; 'every one that shall be found written in the book'); accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-022",
+      "paragraph": 6,
+      "quote": "And the revelator says that those only shall enter the city of God whose names “are written in the Lamb’s book of life.”",
+      "claim_text": "The book of Revelation states that only those whose names \"are written in the Lamb's book of life\" shall enter the city of God.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation",
+        "John (Revelation)"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Revelation 21:27 ('written in the Lamb's book of life'); accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-023",
+      "paragraph": 7,
+      "quote": "“A book of remembrance” is written before God, in which are recorded the good deeds of “them that feared the Lord, and that thought upon His name.”",
+      "claim_text": "Scripture states that \"a book of remembrance\" is written before God, recording the good deeds of \"them that feared the Lord, and that thought upon His name.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Malachi"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Malachi 3:16 ('a book of remembrance'; 'them that feared the Lord, and that thought upon His name'); accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-024",
+      "paragraph": 7,
+      "quote": "Nehemiah refers to this when he says, “Remember me, O my God, ... and wipe not out my good deeds that I have done for the house of my God.”",
+      "claim_text": "Nehemiah is quoted saying: \"Remember me, O my God, ... and wipe not out my good deeds that I have done for the house of my God.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Nehemiah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Nehemiah 13:14 ('Remember me, O my God ... wipe not out my good deeds'); accurately attributed to Nehemiah.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-025",
+      "paragraph": 7,
+      "quote": "In the book of God’s remembrance every deed of righteousness is immortalized.",
+      "claim_text": "Every deed of righteousness is immortalized in the heavenly book of God's remembrance.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the heavenly book of remembrance immortalizing righteous deeds; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-026",
+      "paragraph": 7,
+      "quote": "There every temptation resisted, every evil overcome, every word of tender pity expressed, is faithfully chronicled. And every act of sacrifice, every suffering and sorrow endured for Christ’s sake, is recorded.",
+      "claim_text": "The book of God's remembrance faithfully chronicles every temptation resisted, every evil overcome, every word of tender pity, and every act of sacrifice or suffering endured for Christ's sake.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about what the book of remembrance chronicles; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-027",
+      "paragraph": 7,
+      "quote": "Says the psalmist, “Thou tellest my wanderings: put Thou my tears into Thy bottle: are they not in Thy book?”",
+      "claim_text": "The Psalms, attributed to \"the psalmist,\" state: \"Thou tellest my wanderings: put Thou my tears into Thy bottle: are they not in Thy book?\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Psalms",
+        "the psalmist"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Psalm 56:8; accurate quotation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-028",
+      "paragraph": 8,
+      "quote": "“For God shall bring every work into judgment, with every secret thing, whether it be good, or whether it be evil.”",
+      "claim_text": "Scripture (Ecclesiastes) states: \"For God shall bring every work into judgment, with every secret thing, whether it be good, or whether it be evil.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Ecclesiastes"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Ecclesiastes 12:14; accurate quotation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-029",
+      "paragraph": 8,
+      "quote": "“Every idle word that men shall speak, they shall give account thereof in the day of judgment.”",
+      "claim_text": "Scripture states: \"Every idle word that men shall speak, they shall give account thereof in the day of judgment.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Gospel of Matthew"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Matthew 12:36; accurate quotation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-030",
+      "paragraph": 8,
+      "quote": "Said the Saviour: “By thy words thou shalt be justified, and by thy words thou shalt be condemned.”",
+      "claim_text": "Jesus (\"the Saviour\") is quoted saying: \"By thy words thou shalt be justified, and by thy words thou shalt be condemned.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Matthew 12:37; accurately attributed to Jesus.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-031",
+      "paragraph": 8,
+      "quote": "The secret purposes and motives appear in the unerring register; for God “will bring to light the hidden things of darkness, and will make manifest the counsels of the hearts.”",
+      "claim_text": "Scripture states that God \"will bring to light the hidden things of darkness, and will make manifest the counsels of the hearts.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "1 Corinthians"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of 1 Corinthians 4:5 ('bring to light the hidden things of darkness ... make manifest the counsels of the hearts'); accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-032",
+      "paragraph": 8,
+      "quote": "“Behold, it is written before Me, ... your iniquities, and the iniquities of your fathers together, saith the Lord.”",
+      "claim_text": "Scripture (attributed to \"the Lord\") states: \"Behold, it is written before Me, ... your iniquities, and the iniquities of your fathers together, saith the Lord.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Isaiah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Isaiah 65:6-7 (with mid-quote ellipsis); accurate quotation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-033",
+      "paragraph": 9,
+      "quote": "Every man’s work passes in review before God, and is registered for faithfulness or unfaithfulness.",
+      "claim_text": "Every person's work passes in review before God and is registered for faithfulness or unfaithfulness.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim that every person's work is registered before God; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-034",
+      "paragraph": 9,
+      "quote": "Opposite each name in the books of heaven is entered, with terrible exactness, every wrong word, every selfish act, every unfulfilled duty, and every secret sin, with every artful dissembling.",
+      "claim_text": "Every wrong word, selfish act, unfulfilled duty, secret sin, and artful dissembling is entered with exactness opposite each name in the books of heaven.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim about sins entered in the books of heaven; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-035",
+      "paragraph": 9,
+      "quote": "Heaven-sent warnings or reproofs neglected, wasted moments, unimproved opportunities, the influence exerted for good or for evil, with its far-reaching results, all are chronicled by the recording angel.",
+      "claim_text": "A recording angel chronicles neglected heaven-sent warnings, wasted moments, unimproved opportunities, and the influence exerted for good or evil.",
+      "claim_type": "theological",
+      "entities": [
+        "recording angel"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim about a recording angel chronicling deeds; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-036",
+      "paragraph": 10,
+      "quote": "The law of God is the standard by which the characters and the lives of men will be tested in the judgment.",
+      "claim_text": "The law of God is the standard by which the characters and lives of people will be tested in the investigative judgment.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim that God's law is the standard of judgment; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-037",
+      "paragraph": 10,
+      "quote": "Says the wise man: “Fear God, and keep His commandments: for this is the whole duty of man. For God shall bring every work into judgment.”",
+      "claim_text": "Scripture, attributed to \"the wise man,\" states: \"Fear God, and keep His commandments: for this is the whole duty of man. For God shall bring every work into judgment.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Ecclesiastes",
+        "Solomon"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Ecclesiastes 12:13-14; accurate quotation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-038",
+      "paragraph": 10,
+      "quote": "The apostle James admonishes his brethren, “So speak ye, and so do, as they that shall be judged by the law of liberty.”",
+      "claim_text": "The apostle James is quoted admonishing his brethren: \"So speak ye, and so do, as they that shall be judged by the law of liberty.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "James (apostle)"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of James 2:12 ('judged by the law of liberty'); accurately attributed to James.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-039",
+      "paragraph": 11,
+      "quote": "Those who in the judgment are “accounted worthy,” will have a part in the resurrection of the just.",
+      "claim_text": "Those accounted worthy in the investigative judgment will have a part in the resurrection of the just.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about those accounted worthy sharing in the resurrection of the just; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-040",
+      "paragraph": 11,
+      "quote": "Jesus said, “They which shall be accounted worthy to obtain that world, and the resurrection from the dead, ... are equal unto the angels; and are the children of God, being the children of the resurrection.”",
+      "claim_text": "Jesus is quoted saying: \"They which shall be accounted worthy to obtain that world, and the resurrection from the dead, ... are equal unto the angels; and are the children of God, being the children of the resurrection.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Luke 20:35-36 (with ellipsis); accurately attributed to Jesus.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-041",
+      "paragraph": 11,
+      "quote": "And again He declares that “they that have done good” shall come forth “unto the resurrection of life.”",
+      "claim_text": "Jesus is quoted declaring that \"they that have done good\" shall come forth \"unto the resurrection of life.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of John 5:29 ('they that have done good ... resurrection of life'); accurately attributed to Jesus.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-042",
+      "paragraph": 11,
+      "quote": "The righteous dead will not be raised until after the judgment at which they are accounted worthy of “the resurrection of life.” Hence they will not be present in person at the tribunal when their records are examined and their cases decided.",
+      "claim_text": "The righteous dead will not be resurrected until after the investigative judgment, and therefore will not be personally present at the heavenly tribunal when their records are examined and their cases decided.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the timing of the resurrection of the righteous relative to the judgment; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-043",
+      "paragraph": 12,
+      "quote": "Jesus will appear as their advocate, to plead in their behalf before God.",
+      "claim_text": "Jesus appears as advocate, pleading on behalf of believers before God in the investigative judgment.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Jesus as advocate pleading before God; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-044",
+      "paragraph": 12,
+      "quote": "“If any man sin, we have an advocate with the Father, Jesus Christ the righteous.”",
+      "claim_text": "Scripture (1 John) states: \"If any man sin, we have an advocate with the Father, Jesus Christ the righteous.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "1 John",
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of 1 John 2:1; accurate quotation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-045",
+      "paragraph": 12,
+      "quote": "“For Christ is not entered into the holy places made with hands, which are the figures of the true; but into heaven itself, now to appear in the presence of God for us.”",
+      "claim_text": "Scripture (Hebrews) states: \"For Christ is not entered into the holy places made with hands, which are the figures of the true; but into heaven itself, now to appear in the presence of God for us.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Epistle to the Hebrews",
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Hebrews 9:24; accurate quotation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-046",
+      "paragraph": 12,
+      "quote": "“Wherefore He is able also to save them to the uttermost that come unto God by Him, seeing He ever liveth to make intercession for them.”",
+      "claim_text": "Scripture (Hebrews) states: \"Wherefore He is able also to save them to the uttermost that come unto God by Him, seeing He ever liveth to make intercession for them.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Epistle to the Hebrews"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Hebrews 7:25; accurate quotation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-047",
+      "paragraph": 13,
+      "quote": "As the books of record are opened in the judgment, the lives of all who have believed on Jesus come in review before God.",
+      "claim_text": "The lives of all who have believed on Jesus come in review before God as the heavenly books of record are opened in the judgment.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim about lives reviewed as the heavenly books open; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-048",
+      "paragraph": 13,
+      "quote": "Beginning with those who first lived upon the earth, our Advocate presents the cases of each successive generation, and closes with the living.",
+      "claim_text": "In the investigative judgment, Christ as Advocate presents the cases of each generation of believers in chronological order, beginning with the earliest and closing with the living.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the chronological order of cases in the investigative judgment; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-049",
+      "paragraph": 13,
+      "quote": "Every name is mentioned, every case closely investigated. Names are accepted, names rejected.",
+      "claim_text": "In the investigative judgment, every name is mentioned and every case is closely investigated, with some names accepted and others rejected.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about names accepted or rejected in the judgment; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-050",
+      "paragraph": 13,
+      "quote": "When any have sins remaining upon the books of record, unrepented of and unforgiven, their names will be blotted out of the book of life, and the record of their good deeds will be erased from the book of God’s remembrance.",
+      "claim_text": "Anyone with unrepented and unforgiven sins remaining on the heavenly books of record will have their name blotted out of the book of life and their good deeds erased from the book of God's remembrance.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about blotting out of the book of life for unrepented sins; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-051",
+      "paragraph": 13,
+      "quote": "The Lord declared to Moses, “Whosoever hath sinned against Me, him will I blot out of My book.”",
+      "claim_text": "Scripture states that the Lord declared to Moses: \"Whosoever hath sinned against Me, him will I blot out of My book.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Moses",
+        "Book of Exodus"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Exodus 32:33 ('Whosoever hath sinned against Me, him will I blot out of My book'); accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-052",
+      "paragraph": 13,
+      "quote": "And says the prophet Ezekiel, “When the righteous turneth away from his righteousness, and committeth iniquity, ... all his righteousness that he hath done shall not be mentioned.”",
+      "claim_text": "The prophet Ezekiel is quoted: \"When the righteous turneth away from his righteousness, and committeth iniquity, ... all his righteousness that he hath done shall not be mentioned.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Ezekiel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Ezekiel 18:24 (with ellipsis); accurately attributed to Ezekiel.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-053",
+      "paragraph": 14,
+      "quote": "All who have truly repented of sin, and by faith claimed the blood of Christ as their atoning sacrifice, have had pardon entered against their names in the books of heaven; as they have become partakers of the righteousness of Christ, and their characters are found to be in harmony with the law of God, their sins will be blotted out, and they themselves will be accounted worthy of eternal life.",
+      "claim_text": "Those who have truly repented and claimed Christ's blood by faith have pardon entered against their names in heaven's books, and, being found in harmony with God's law through Christ's righteousness, will have their sins blotted out and be accounted worthy of eternal life.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about pardon, imputed righteousness, and eternal life for the repentant; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-054",
+      "paragraph": 14,
+      "quote": "The Lord declares, by the prophet Isaiah, “I, even I, am He that blotteth out thy transgressions for Mine own sake, and will not remember thy sins.”",
+      "claim_text": "Scripture, through the prophet Isaiah, quotes the Lord declaring: \"I, even I, am He that blotteth out thy transgressions for Mine own sake, and will not remember thy sins.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Isaiah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Isaiah 43:25; accurately attributed to Isaiah.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-055",
+      "paragraph": 14,
+      "quote": "Said Jesus: “He that overcometh, the same shall be clothed in white raiment; and I will not blot out his name out of the book of life, but I will confess his name before My Father, and before His angels.”",
+      "claim_text": "Jesus is quoted: \"He that overcometh, the same shall be clothed in white raiment; and I will not blot out his name out of the book of life, but I will confess his name before My Father, and before His angels.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Revelation 3:5; accurately attributed to Jesus.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-056",
+      "paragraph": 14,
+      "quote": "“Whosoever therefore shall confess Me before men, him will I confess also before My Father which is in heaven. But whosoever shall deny Me before men, him will I also deny before My Father which is in heaven.”",
+      "claim_text": "Jesus is quoted: \"Whosoever therefore shall confess Me before men, him will I confess also before My Father which is in heaven. But whosoever shall deny Me before men, him will I also deny before My Father which is in heaven.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Matthew 10:32-33; accurately attributed to Jesus.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-057",
+      "paragraph": 15,
+      "quote": "The deepest interest manifested among men in the decisions of earthly tribunals but faintly represents the interest evinced in the heavenly courts when the names entered in the book of life come up in review before the Judge of all the earth.",
+      "claim_text": "The deepest human interest in earthly court decisions only faintly represents the interest shown in heaven when the names in the book of life come up for review before God.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/homiletical comparison of earthly and heavenly interest in the judgment; no independent checkable historical kernel.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-058",
+      "paragraph": 15,
+      "quote": "The divine Intercessor presents the plea that all who have overcome through faith in His blood be forgiven their transgressions, that they be restored to their Eden home, and crowned as joint-heirs with Himself to the “first dominion.”",
+      "claim_text": "Christ, as divine Intercessor, pleads that all who have overcome through faith in His blood be forgiven, restored to their Eden home, and crowned as joint-heirs with Him to the \"first dominion.\"",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the divine Intercessor's plea and restoration to Eden; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-059",
+      "paragraph": 15,
+      "quote": "Satan, in his efforts to deceive and tempt our race, had thought to frustrate the divine plan in man’s creation; but Christ now asks that this plan be carried into effect, as if man had never fallen.",
+      "claim_text": "Satan attempted, through deception and temptation, to frustrate the divine plan in humanity's creation, but Christ asks that this plan be carried out as if humanity had never fallen.",
+      "claim_type": "theological",
+      "entities": [
+        "Satan",
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim about Satan's attempt to frustrate the divine plan; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-060",
+      "paragraph": 15,
+      "quote": "He asks for His people not only pardon and justification, full and complete, but a share in His glory and a seat upon His throne.",
+      "claim_text": "Christ asks for His people not only full pardon and justification but also a share in His glory and a seat upon His throne.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Christ asking a share in His glory for His people; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-061",
+      "paragraph": 16,
+      "quote": "While Jesus is pleading for the subjects of His grace, Satan accuses them before God as transgressors.",
+      "claim_text": "While Jesus pleads for believers, Satan accuses them before God as transgressors.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ",
+        "Satan"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim about Satan accusing believers while Jesus pleads; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-062",
+      "paragraph": 16,
+      "quote": "The great deceiver has sought to lead them into skepticism, to cause them to lose confidence in God, to separate themselves from His love, and to break His law.",
+      "claim_text": "Satan (\"the great deceiver\") has sought to lead believers into skepticism, loss of confidence in God, separation from His love, and violation of His law.",
+      "claim_type": "theological",
+      "entities": [
+        "Satan"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim about Satan's designs against believers; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-063",
+      "paragraph": 16,
+      "quote": "Now he points to the record of their lives, to the defects of character, the unlikeness to Christ, which has dishonored their Redeemer, to all the sins that he has tempted them to commit, and because of these he claims them as his subjects.",
+      "claim_text": "Satan points to believers' character defects and the sins he tempted them to commit, and on that basis claims them as his subjects.",
+      "claim_type": "theological",
+      "entities": [
+        "Satan"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim about Satan claiming sinners as his subjects; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-064",
+      "paragraph": 17,
+      "quote": "Jesus does not excuse their sins, but shows their penitence and faith, and, claiming for them forgiveness, He lifts His wounded hands before the Father and the holy angels, saying, “I know them by name. I have graven them on the palms of My hands. ‘The sacrifices of God are a broken spirit: a broken and a contrite heart, O God, Thou wilt not despise.’ ”",
+      "claim_text": "Jesus, rather than excusing believers' sins, shows their penitence and faith, lifts His wounded hands before the Father and angels, and is quoted saying: \"I know them by name. I have graven them on the palms of My hands,\" and quoting further, \"The sacrifices of God are a broken spirit: a broken and a contrite heart, O God, Thou wilt not despise.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Composed devotional passage placing scripture on Christ's lips: 'I have graven them on the palms of My hands' adapts Isaiah 49:16 ('I have graven thee upon the palms of my hands'), and 'The sacrifices of God are a broken spirit ...' is a faithful KJV quotation of Psalm 51:17. The embedded scriptural phrases are accurate; 'I know them by name' is White's narrative framing, not a claimed verbatim biblical quote. Not a misattribution of an existing text.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-065",
+      "paragraph": 17,
+      "quote": "And to the accuser of His people He declares, “The Lord rebuke thee, O Satan; even the Lord that hath chosen Jerusalem rebuke thee: is not this a brand plucked out of the fire?”",
+      "claim_text": "Jesus is quoted declaring to Satan (\"the accuser of His people\"): \"The Lord rebuke thee, O Satan; even the Lord that hath chosen Jerusalem rebuke thee: is not this a brand plucked out of the fire?\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ",
+        "Satan"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Zechariah 3:2 ('The Lord rebuke thee, O Satan ...'); the quotation is accurate. White places the words on Christ's lips, which is a theological (typological) framing of 'the angel of the LORD', not an alteration of the quoted text.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-066",
+      "paragraph": 17,
+      "quote": "Christ will clothe His faithful ones with His own righteousness, that He may present them to His Father “a glorious church, not having spot, or wrinkle, or any such thing.”",
+      "claim_text": "Christ will clothe His faithful ones with His own righteousness, presenting them to the Father as a glorious church without spot, wrinkle, or blemish.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Christ clothing the faithful with His righteousness; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-067",
+      "paragraph": 17,
+      "quote": "“a glorious church, not having spot, or wrinkle, or any such thing.”",
+      "claim_text": "Scripture (Ephesians) describes a \"glorious church, not having spot, or wrinkle, or any such thing.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Epistle to the Ephesians"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Ephesians 5:27 ('a glorious church, not having spot, or wrinkle'); accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-068",
+      "paragraph": 17,
+      "quote": "Their names stand enrolled in the book of life, and concerning them it is written, “They shall walk with Me in white: for they are worthy.”",
+      "claim_text": "Scripture (Revelation) states of the faithful: \"They shall walk with Me in white: for they are worthy.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful rendering of Revelation 3:4 ('They shall walk with Me in white: for they are worthy'; RV wording); accurate quotation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-069",
+      "paragraph": 18,
+      "quote": "Thus will be realized the complete fulfilment of the new-covenant promise, “I will forgive their iniquity, and I will remember their sin no more.”",
+      "claim_text": "Scripture (Jeremiah) contains a new-covenant promise: \"I will forgive their iniquity, and I will remember their sin no more.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Jeremiah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of the new-covenant promise (Jeremiah 31:34, quoted in Hebrews 8:12: 'I will forgive their iniquity, and I will remember their sin no more'); accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-070",
+      "paragraph": 18,
+      "quote": "“In those days, and in that time, saith the Lord, the iniquity of Israel shall be sought for, and there shall be none; and the sins of Judah, and they shall not be found.”",
+      "claim_text": "Scripture (Jeremiah) states: \"In those days, and in that time, saith the Lord, the iniquity of Israel shall be sought for, and there shall be none; and the sins of Judah, and they shall not be found.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Jeremiah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Jeremiah 50:20; accurate quotation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-071",
+      "paragraph": 18,
+      "quote": "“In that day shall the branch of the Lord be beautiful and glorious, and the fruit of the earth shall be excellent and comely for them that are escaped of Israel. And it shall come to pass, that he that is left in Zion, and he that remaineth in Jerusalem, shall be called holy, even every one that is written among the living in Jerusalem.”",
+      "claim_text": "Scripture (Isaiah) states: \"In that day shall the branch of the Lord be beautiful and glorious, and the fruit of the earth shall be excellent and comely for them that are escaped of Israel. And it shall come to pass, that he that is left in Zion, and he that remaineth in Jerusalem, shall be called holy, even every one that is written among the living in Jerusalem.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Isaiah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Isaiah 4:2-3; accurate quotation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-072",
+      "paragraph": 19,
+      "quote": "The work of the investigative judgment and the blotting out of sins is to be accomplished before the second advent of the Lord.",
+      "claim_text": "The work of the investigative judgment and the blotting out of sins is to be accomplished before Christ's second advent.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the timing of the investigative judgment before the second advent; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-073",
+      "paragraph": 19,
+      "quote": "Since the dead are to be judged out of the things written in the books, it is impossible that the sins of men should be blotted out until after the judgment at which their cases are to be investigated.",
+      "claim_text": "Because the dead are judged out of the books of record, it is impossible for sins to be blotted out until after the judgment investigating each case.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological argument about the sequence of judgment and blotting out of sins; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-074",
+      "paragraph": 19,
+      "quote": "But the apostle Peter distinctly states that the sins of believers will be blotted out “when the times of refreshing shall come from the presence of the Lord; and He shall send Jesus Christ.”",
+      "claim_text": "The apostle Peter is quoted stating that believers' sins will be blotted out \"when the times of refreshing shall come from the presence of the Lord; and He shall send Jesus Christ.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Peter (apostle)"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Acts 3:19-20 ('when the times of refreshing shall come from the presence of the Lord; and He shall send Jesus Christ'); accurately attributed to Peter.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-075",
+      "paragraph": 19,
+      "quote": "When the investigative judgment closes, Christ will come, and His reward will be with Him to give to every man as his work shall be.",
+      "claim_text": "When the investigative judgment closes, Christ will come with His reward, to give to every person according to their work.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological claim about Christ coming with His reward at the close of the judgment; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-076",
+      "paragraph": 20,
+      "quote": "In the typical service the high priest, having made the atonement for Israel, came forth and blessed the congregation.",
+      "claim_text": "In the Levitical type, the high priest, after making atonement for Israel, came forth and blessed the congregation.",
+      "claim_type": "theological",
+      "entities": [
+        "Levitical sanctuary"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Control sample (extractor flagged needs_verification=false). The typological claim carries a checkable Mosaic-ritual kernel: the high priest coming forth and blessing the congregation after making atonement. Supported by Leviticus 9:22-23 (Aaron 'lifted up his hand toward the people, and blessed them' after the sin/burnt offerings) and reflected in Second-Temple description (Sirach 50:20-21, the high priest's blessing on the Day of Atonement). No smuggled factual error; the ritual detail is accurate.",
+        "sources": [
+          {
+            "title": "Leviticus 9:22-23 (KJV)",
+            "url": "file://source/reference/bible-kjv",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-28-077",
+      "paragraph": 20,
+      "quote": "So Christ, at the close of His work as mediator, will appear, “without sin unto salvation,”(867) to bless His waiting people with eternal life.",
+      "claim_text": "At the close of His work as mediator, Christ will appear \"without sin unto salvation\" to bless His waiting people with eternal life.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "extractor_note": "Footnote marker (867) retained here only to disambiguate the embedded quotation source; the embedded phrase is separately logged as GC-28-078.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/typological claim about Christ appearing to bless His people at the close of mediation; unverifiable by pipeline rule 5. Embedded phrase separately logged at GC-28-078.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-078",
+      "paragraph": 20,
+      "quote": "“without sin unto salvation,”",
+      "claim_text": "Scripture (Hebrews) describes Christ appearing \"without sin unto salvation.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Epistle to the Hebrews"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of the phrase 'without sin unto salvation' (Hebrews 9:28); accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-079",
+      "paragraph": 20,
+      "quote": "As the priest, in removing the sins from the sanctuary, confessed them upon the head of the scapegoat, so Christ will place all these sins upon Satan, the originator and instigator of sin.",
+      "claim_text": "As the Levitical priest confessed the sins removed from the sanctuary upon the head of the scapegoat, Christ will place all those sins upon Satan, described as the originator and instigator of sin.",
+      "claim_type": "theological",
+      "entities": [
+        "Satan",
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/typological claim about Christ placing sins on Satan (scapegoat antitype); unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-080",
+      "paragraph": 20,
+      "quote": "The scapegoat, bearing the sins of Israel, was sent away “unto a land not inhabited;”(868) so Satan, bearing the guilt of all the sins which he has caused God’s people to commit, will be for a thousand years confined to the earth, which will then be desolate, without inhabitant, and he will at last suffer the full penalty of sin in the fires that shall destroy all the wicked.",
+      "claim_text": "As the scapegoat bearing Israel's sins was sent to \"a land not inhabited,\" Satan, bearing the guilt of the sins he caused God's people to commit, will be confined for a thousand years to a desolate, uninhabited earth, and will finally suffer the full penalty of sin in the fires that destroy the wicked.",
+      "claim_type": "theological",
+      "entities": [
+        "Satan"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological claim about Satan's thousand-year confinement and final destruction; unverifiable by pipeline rule 5. Embedded phrase separately logged at GC-28-081.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-081",
+      "paragraph": 20,
+      "quote": "“unto a land not inhabited;”",
+      "claim_text": "Scripture (Leviticus) describes the scapegoat being sent \"unto a land not inhabited.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Leviticus"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of the phrase 'unto a land not inhabited' (Leviticus 16:22); accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-082",
+      "paragraph": 20,
+      "quote": "Thus the great plan of redemption will reach its accomplishment in the final eradication of sin, and the deliverance of all who have been willing to renounce evil.",
+      "claim_text": "The plan of redemption will be completed in the final eradication of sin and the deliverance of all who renounce evil.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the plan of redemption reaching its accomplishment; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-083",
+      "paragraph": 21,
+      "quote": "At the time appointed for the judgment—the close of the 2300 days, in 1844—began the work of investigation and blotting out of sins.",
+      "claim_text": "The 2300 days of Daniel 8:14 came to their close in the year 1844, per Millerite/Adventist chronological calculation.",
+      "claim_type": "date",
+      "entities": [
+        "2300 days",
+        "Daniel 8:14"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Distinct from GC-28-084: this entry isolates the checkable chronological/calculation claim (2300 days ending 1844); the doctrinal claim about what began at that date is logged separately as theological.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The claim as restated reports the Millerite/Adventist chronological calculation, and that calculation does arithmetically yield the autumn of 1844 (2300 years reckoned by the day-year principle from the autumn-457-BC going-forth of Artaxerxes' decree, Ezra 7). Accurately reported as the reckoning. The underlying premises (the 457-BC anchor and applying the day-year principle to Daniel 8:14's 2300 evenings-mornings) are contested by mainstream scholarship, which generally reads the 2300 evenings-mornings against the desecration of the temple under Antiochus IV (2nd c. BC). Consistent with the GC-22-040 verdict pattern (arithmetic reckoning = supported; the 457 anchor itself = disputed at GC-22-039). source_quality: academic-partial (primary insider biography + AUSS historiographical survey).",
+        "modern_consensus": "The 457-to-1844 calculation is arithmetically valid on its own premises and is accurately reported as the Millerite conclusion; those premises are separately contested and rest on a minority (largely SDA) reading of Daniel 8:14.",
+        "period_historiography": "Bliss (Memoirs of William Miller, 1853) presents the 2300 days as dated by 'the best chronologers' from B.C. 457 (Artaxerxes' seventh year), terminating in 1844 — the standard reckoning in White's own sources.",
+        "sources": [
+          {
+            "title": "S. Bliss, Memoirs of William Miller (1853), on the 2300 days / 457 BC reckoning to 1844",
+            "url": "file://scholarship/bliss-memoirs-of-william-miller-1853.txt",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "insider primary; reports the reckoning that yields 1844"
+          },
+          {
+            "title": "G. Land, 'The Historians and the Millerites', AUSS 32/3 (1994)",
+            "url": "file://scholarship/land-historians-and-millerites-auss-1994.pdf",
+            "source_class": "academic",
+            "supports_verdict": true,
+            "note": "academic historiographical survey treating the 1844 reckoning as the movement's chronological conclusion"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-28-084",
+      "paragraph": 21,
+      "quote": "At the time appointed for the judgment—the close of the 2300 days, in 1844—began the work of investigation and blotting out of sins.",
+      "claim_text": "The work of investigation and blotting out of sins (the investigative judgment) began in 1844, at the close of the 2300 days.",
+      "claim_type": "theological",
+      "entities": [
+        "2300 days"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim that the investigative judgment began in 1844; the doctrinal assertion is unverifiable by pipeline rule 5. The checkable chronological kernel (2300 days closing 1844) is isolated at GC-28-083.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-085",
+      "paragraph": 21,
+      "quote": "All who have ever taken upon themselves the name of Christ must pass its searching scrutiny.",
+      "claim_text": "All who have ever professed the name of Christ must pass the searching scrutiny of the investigative judgment.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim that all professed Christians must pass the judgment's scrutiny; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-086",
+      "paragraph": 21,
+      "quote": "Both the living and the dead are to be judged “out of those things which were written in the books, according to their works.”",
+      "claim_text": "Both the living and the dead are to be judged \"out of those things which were written in the books, according to their works.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Repeated citation of the same Revelation 20:12 clause already quoted in GC-28-017.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of the Revelation 20:12 clause ('out of those things which were written in the books, according to their works'); repeat of the clause in GC-28-017. Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-087",
+      "paragraph": 22,
+      "quote": "Sins that have not been repented of and forsaken will not be pardoned, and blotted out of the books of record, but will stand to witness against the sinner in the day of God.",
+      "claim_text": "Unrepented and unforsaken sins will not be pardoned or blotted from the books of record, but will stand as witness against the sinner in the day of judgment.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about unrepented sins witnessing against the sinner; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-088",
+      "paragraph": 22,
+      "quote": "Angels of God witnessed each sin, and registered it in the unerring records.",
+      "claim_text": "Angels of God witnessed each sin committed by humans and registered it in unerring heavenly records.",
+      "claim_type": "theological",
+      "entities": [
+        "angels"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim about angels witnessing and registering sins; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-089",
+      "paragraph": 22,
+      "quote": "God has an exact record of every unjust account and every unfair dealing.",
+      "claim_text": "God keeps an exact record of every unjust account and unfair dealing committed by people.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about God's exact record of every injustice; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-090",
+      "paragraph": 22,
+      "quote": "He is not deceived by appearances of piety. He makes no mistakes in His estimation of character.",
+      "claim_text": "God is not deceived by outward appearances of piety and makes no mistakes in His estimation of a person's character.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about God's infallible estimation of character; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-091",
+      "paragraph": 23,
+      "quote": "Day after day, passing into eternity, bears its burden of records for the books of heaven.",
+      "claim_text": "Each day, as it passes into eternity, contributes its burden of records to the books of heaven.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about each day contributing records to the heavenly books; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-092",
+      "paragraph": 23,
+      "quote": "Angels have registered both the good and the evil.",
+      "claim_text": "Angels have registered both good and evil deeds of humanity.",
+      "claim_type": "theological",
+      "entities": [
+        "angels"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim about angels registering good and evil; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-093",
+      "paragraph": 23,
+      "quote": "Our acts, our words, even our most secret motives, all have their weight in deciding our destiny for weal or woe.",
+      "claim_text": "A person's acts, words, and secret motives all have weight in deciding their eternal destiny.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about acts, words, and motives deciding eternal destiny; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-094",
+      "paragraph": 24,
+      "quote": "As the features of the countenance are reproduced with unerring accuracy on the polished plate of the artist, so the character is faithfully delineated in the books above.",
+      "claim_text": "Just as facial features are reproduced with unerring accuracy on a photographic plate, a person's character is faithfully delineated in the heavenly books.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "extractor_note": "Simile referencing 19th-century photographic technology (\"the polished plate of the artist\"); logged as interpretive analogy rather than a separate technological claim, since it functions as illustrative comparison rather than an assertion about photography itself.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Control sample (extractor flagged needs_verification=false, interpretive). The 'polished plate of the artist' simile is an illustrative daguerreotype/photographic analogy for how character is delineated in the heavenly books, not a historical assertion. Its reference to 19th-century photography (a plate reproducing features 'with unerring accuracy') is period-accurate and contains no smuggled factual error. Extractor classification confirmed; nothing checkable to adjudicate true/false.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-095",
+      "paragraph": 24,
+      "quote": "Could the veil which separates the visible from the invisible world be swept back, and the children of men behold an angel recording every word and deed, which they must meet again in the judgment, how many words that are daily uttered would remain unspoken; how many deeds would remain undone.",
+      "claim_text": "An angel records every word and deed of every person, which they will meet again in the judgment.",
+      "claim_type": "theological",
+      "entities": [
+        "angels"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim about an angel recording every word and deed; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-096",
+      "paragraph": 25,
+      "quote": "In the judgment, the use made of every talent will be scrutinized.",
+      "claim_text": "In the investigative judgment, the use each person made of every talent given them will be scrutinized.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about scrutiny of every talent in the judgment; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-097",
+      "paragraph": 25,
+      "quote": "No value is attached to a mere profession of faith in Christ; only the love which is shown by works is counted genuine.",
+      "claim_text": "In God's judgment, a mere profession of faith in Christ has no value; only love demonstrated through works is counted genuine.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim that only love shown by works is counted genuine; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-098",
+      "paragraph": 25,
+      "quote": "Yet it is love alone which in the sight of Heaven makes any act of value. Whatever is done from love, however small it may appear in the estimation of men, is accepted and rewarded of God.",
+      "claim_text": "Love alone makes any act of value in the sight of Heaven, and whatever is done from love, however small it appears to people, is accepted and rewarded by God.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim that love alone gives an act value before Heaven; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-099",
+      "paragraph": 26,
+      "quote": "The hidden selfishness of men stands revealed in the books of heaven.",
+      "claim_text": "The hidden selfishness of people stands revealed in the books of heaven.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about hidden selfishness revealed in heaven's books; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-100",
+      "paragraph": 26,
+      "quote": "There is the record of unfulfilled duties to their fellow-men, of forgetfulness of the Saviour’s claims.",
+      "claim_text": "The heavenly books contain a record of unfulfilled duties to fellow humans and forgetfulness of the Saviour's claims.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the record of unfulfilled duties; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-101",
+      "paragraph": 26,
+      "quote": "Intelligent beings, professed followers of Christ, are absorbed in the acquirement of worldly possessions or the enjoyment of earthly pleasures. Money, time, and strength are sacrificed for display and self-indulgence; but few are the moments devoted to prayer, to the searching of the Scriptures, to humiliation of soul and confession of sin.",
+      "claim_text": "Professed followers of Christ, in general, are absorbed in acquiring worldly possessions and earthly pleasures, sacrificing money, time, and strength for display and self-indulgence, while devoting few moments to prayer, Bible study, or confession of sin.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/homiletical generalization about professed Christians' worldliness; a rhetorical characterization, not an independently checkable historical assertion.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-102",
+      "paragraph": 27,
+      "quote": "Satan invents unnumbered schemes to occupy our minds, that they may not dwell upon the very work with which we ought to be best acquainted.",
+      "claim_text": "Satan invents countless schemes to occupy people's minds so they do not dwell on the work of the investigative judgment.",
+      "claim_type": "theological",
+      "entities": [
+        "Satan"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim about Satan's schemes distracting minds; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-103",
+      "paragraph": 27,
+      "quote": "The arch-deceiver hates the great truths that bring to view an atoning sacrifice and an all-powerful Mediator.",
+      "claim_text": "Satan (\"the arch-deceiver\") hates the truths concerning the atoning sacrifice and the all-powerful Mediator.",
+      "claim_type": "theological",
+      "entities": [
+        "Satan"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim about Satan hating the atonement and Mediator truths; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-104",
+      "paragraph": 27,
+      "quote": "He knows that with him everything depends on his diverting minds from Jesus and His truth.",
+      "claim_text": "Satan knows that his success depends on diverting people's minds from Jesus and His truth.",
+      "claim_type": "theological",
+      "entities": [
+        "Satan",
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim about Satan's strategy of diverting minds from Jesus; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-105",
+      "paragraph": 28,
+      "quote": "Every individual has a soul to save or to lose. Each has a case pending at the bar of God. Each must meet the great Judge face to face.",
+      "claim_text": "Every individual has a soul to save or lose, has a case pending at the bar of God, and must meet the great Judge face to face.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about every soul's case pending before God; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-106",
+      "paragraph": 29,
+      "quote": "The sanctuary in heaven is the very center of Christ’s work in behalf of men.",
+      "claim_text": "The heavenly sanctuary is the very center of Christ's work on behalf of humanity.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the heavenly sanctuary as the center of Christ's work; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-107",
+      "paragraph": 29,
+      "quote": "It opens to view the plan of redemption, bringing us down to the very close of time, and revealing the triumphant issue of the contest between righteousness and sin.",
+      "claim_text": "The doctrine of the heavenly sanctuary opens to view the plan of redemption, extending to the close of time and revealing the triumphant outcome of the contest between righteousness and sin.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the sanctuary doctrine revealing the plan of redemption; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-108",
+      "paragraph": 30,
+      "quote": "The intercession of Christ in man’s behalf in the sanctuary above is as essential to the plan of salvation as was His death upon the cross.",
+      "claim_text": "Christ's intercession on humanity's behalf in the heavenly sanctuary is as essential to the plan of salvation as His death on the cross.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim equating Christ's heavenly intercession with His death in essentiality; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-109",
+      "paragraph": 30,
+      "quote": "By His death He began that work which after His resurrection He ascended to complete in heaven.",
+      "claim_text": "Christ began the work of intercession by His death, ascending after His resurrection to complete it in heaven.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Christ beginning intercession at His death and completing it in heaven; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-110",
+      "paragraph": 30,
+      "quote": "We must by faith enter within the veil, “whither the Forerunner is for us entered.”",
+      "claim_text": "Scripture (Hebrews) describes Christ as the \"Forerunner\" who has entered within the veil for believers.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Epistle to the Hebrews",
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of the phrase from Hebrews 6:20 ('whither the Forerunner is for us entered'); accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-111",
+      "paragraph": 30,
+      "quote": "The salvation of man is accomplished at an infinite expense to heaven; the sacrifice made is equal to the broadest demands of the broken law of God.",
+      "claim_text": "The salvation of humanity is accomplished at infinite expense to heaven, with a sacrifice equal to the broadest demands of God's broken law.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about salvation's infinite cost matching the demands of the law; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-112",
+      "paragraph": 31,
+      "quote": "“He that covereth his sins shall not prosper: but whoso confesseth and forsaketh them shall have mercy.”",
+      "claim_text": "Scripture (Proverbs) states: \"He that covereth his sins shall not prosper: but whoso confesseth and forsaketh them shall have mercy.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Proverbs"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Proverbs 28:13; accurate quotation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-113",
+      "paragraph": 31,
+      "quote": "If those who hide and excuse their faults could see how Satan exults over them, how he taunts Christ and holy angels with their course, they would make haste to confess their sins and to put them away.",
+      "claim_text": "Satan exults over and taunts Christ and holy angels regarding people who hide and excuse their faults.",
+      "claim_type": "theological",
+      "entities": [
+        "Satan",
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim about Satan exulting over hidden faults; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-114",
+      "paragraph": 31,
+      "quote": "Through defects in the character, Satan works to gain control of the whole mind, and he knows that if these defects are cherished, he will succeed.",
+      "claim_text": "Satan works through character defects to gain control of a person's whole mind, and knows that cherished defects lead to his success.",
+      "claim_type": "theological",
+      "entities": [
+        "Satan"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim about Satan working through character defects; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-115",
+      "paragraph": 31,
+      "quote": "But Jesus pleads in their behalf His wounded hands, His bruised body; and He declares to all who would follow Him, “My grace is sufficient for thee.”",
+      "claim_text": "Jesus is quoted declaring to His followers: \"My grace is sufficient for thee.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of 2 Corinthians 12:9 ('My grace is sufficient for thee'); accurately attributed to Christ (the Lord's answer to Paul).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-116",
+      "paragraph": 31,
+      "quote": "“Take My yoke upon you, and learn of Me; for I am meek and lowly in heart: and ye shall find rest unto your souls. For My yoke is easy, and My burden is light.”",
+      "claim_text": "Jesus is quoted: \"Take My yoke upon you, and learn of Me; for I am meek and lowly in heart: and ye shall find rest unto your souls. For My yoke is easy, and My burden is light.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Matthew 11:29-30; accurately attributed to Jesus.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-117",
+      "paragraph": 32,
+      "quote": "We are now living in the great day of atonement.",
+      "claim_text": "The present era (at the time of writing) is the antitypical \"great day of atonement.\"",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim that the present era is the antitypical day of atonement; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-118",
+      "paragraph": 32,
+      "quote": "In the typical service, while the high priest was making the atonement for Israel, all were required to afflict their souls by repentance of sin and humiliation before the Lord, lest they be cut off from among the people.",
+      "claim_text": "In the Levitical Day of Atonement service, all Israelites were required to afflict their souls through repentance and humiliation before the Lord while the high priest made atonement, on pain of being cut off from the people.",
+      "claim_type": "theological",
+      "entities": [
+        "Day of Atonement",
+        "Levitical sanctuary"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Control sample (extractor flagged needs_verification=false, typed theological). The interpretation smuggles a checkable Mosaic-law assertion: on the Day of Atonement every Israelite was required to 'afflict their souls' on pain of being 'cut off from among the people.' Supported nearly verbatim by Leviticus 23:29 ('whatsoever soul it be that shall not be afflicted in that same day, he shall be cut off from among his people'; cf. Lev 16:29-31, 23:27-32). Accurate; noting per sampling gate that this 'theological' claim contains a verifiable historical-legal kernel the extractor did not flag.",
+        "sources": [
+          {
+            "title": "Leviticus 23:29 (KJV); cf. Lev 16:29-31, 23:27-32",
+            "url": "file://source/reference/bible-kjv",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-28-119",
+      "paragraph": 32,
+      "quote": "The work of preparation is an individual work. We are not saved in groups. The purity and devotion of one will not offset the want of these qualities in another.",
+      "claim_text": "Spiritual preparation for the judgment is an individual work; people are not saved in groups, and one person's purity cannot offset another's lack of it.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim that preparation is individual and not corporate; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-120",
+      "paragraph": 32,
+      "quote": "Though all nations are to pass in judgment before God, yet He will examine the case of each individual with as close and searching scrutiny as if there were not another being upon the earth.",
+      "claim_text": "Though all nations will pass in judgment before God, He will examine each individual case with as close scrutiny as if no other person existed.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about God's individual scrutiny of each case; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-121",
+      "paragraph": 33,
+      "quote": "The judgment is now passing in the sanctuary above. For many years this work has been in progress.",
+      "claim_text": "The investigative judgment was, at the time of writing, currently in progress in the heavenly sanctuary, and had been in progress for many years.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "extractor_note": "Ties back to the 1844 date claim (GC-28-083/084): asserts the investigative judgment had been ongoing since 1844 through the time of the book's writing (1888/1911).",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim that the judgment has been in progress in heaven for many years; unverifiable by pipeline rule 5 (depends on the 1844 doctrine tied to GC-28-083).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-122",
+      "paragraph": 33,
+      "quote": "Soon—none know how soon—it will pass to the cases of the living.",
+      "claim_text": "The investigative judgment will soon, at an unknown time, move to the cases of the living.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological claim about the judgment soon passing to the living; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-123",
+      "paragraph": 33,
+      "quote": "At this time above all others it behooves every soul to heed the Saviour’s admonition, “Watch and pray: for ye know not when the time is.”",
+      "claim_text": "Jesus (\"the Saviour\") is quoted admonishing: \"Watch and pray: for ye know not when the time is.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Mark 13:33 ('Watch and pray: for ye know not when the time is'); accurately attributed to Jesus.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-124",
+      "paragraph": 33,
+      "quote": "“If therefore thou shalt not watch, I will come on thee as a thief, and thou shalt not know what hour I will come upon thee.”",
+      "claim_text": "Scripture (Revelation) quotes Christ: \"If therefore thou shalt not watch, I will come on thee as a thief, and thou shalt not know what hour I will come upon thee.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ",
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Revelation 3:3; accurately attributed to Christ.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-125",
+      "paragraph": 34,
+      "quote": "When the work of the investigative judgment closes, the destiny of all will have been decided for life or death.",
+      "claim_text": "When the investigative judgment closes, the eternal destiny of every person will have been decided, for life or death.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological claim about destinies decided at the close of the judgment; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-126",
+      "paragraph": 34,
+      "quote": "Probation is ended a short time before the appearing of the Lord in the clouds of heaven.",
+      "claim_text": "Human probation ends a short time before Christ's appearing in the clouds of heaven.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological claim about probation ending before the second advent; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-127",
+      "paragraph": 34,
+      "quote": "Christ in the Revelation looking forward to that time, declares: “He that is unjust, let him be unjust still: and he which is filthy, let him be filthy still: and he that is righteous, let him be righteous still: and he that is holy, let him be holy still. And, behold, I come quickly; and My reward is with Me, to give every man according as his work shall be.”",
+      "claim_text": "The book of Revelation quotes Christ declaring: \"He that is unjust, let him be unjust still: and he which is filthy, let him be filthy still: and he that is righteous, let him be righteous still: and he that is holy, let him be holy still. And, behold, I come quickly; and My reward is with Me, to give every man according as his work shall be.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ",
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Revelation 22:11-12; accurately attributed to Christ in Revelation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-128",
+      "paragraph": 35,
+      "quote": "The righteous and the wicked will still be living upon the earth in their mortal state,—men will be planting and building, eating and drinking, all unconscious that the final, irrevocable decision has been pronounced in the sanctuary above.",
+      "claim_text": "At the close of probation, the righteous and wicked will still be living on earth in mortal state, engaged in ordinary life, unaware that the final decision has been pronounced in the heavenly sanctuary.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological claim about people living unaware of the close of probation; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-129",
+      "paragraph": 35,
+      "quote": "Before the flood, after Noah entered the ark, God shut him in, and shut the ungodly out; but for seven days the people, knowing not that their doom was fixed, continued their careless, pleasure-loving life, and mocked the warnings of impending judgment.",
+      "claim_text": "According to the Genesis flood narrative, after Noah entered the ark, God shut him in and shut the ungodly out, and for seven days afterward the people, unaware their doom was fixed, continued their careless, pleasure-loving life and mocked the warnings of the coming flood.",
+      "claim_type": "event",
+      "entities": [
+        "Noah",
+        "Genesis flood narrative"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Retelling of the Genesis flood account (cf. Genesis 7:1-16). The seven-day interval between the shutting of the ark and the onset of the flood, and the detail that people continued careless/mocking behavior during that interval, are elaborations worth checking for fidelity against the Genesis text itself, independent of the narrative's historicity.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Faithful retelling of Genesis 7. The seven-day interval before the flood is textual: Genesis 7:4 ('For yet seven days, and I will cause it to rain') and 7:10 ('after seven days the waters of the flood were upon the earth'). The LORD shutting Noah in (and the ungodly out) is Genesis 7:16 ('and the LORD shut him in'). The added detail that the people continued their 'careless, pleasure-loving life' and 'mocked the warnings' during the interval is a homiletical elaboration not stated verbatim in Genesis, but it harmonizes with Jesus' characterization of the pre-flood generation in Matthew 24:38-39 (eating, drinking, and 'knew not until the flood came'). The core narrative facts are accurate to the Genesis text.",
+        "sources": [
+          {
+            "title": "Genesis 7:4, 7:10, 7:16 (KJV)",
+            "url": "file://source/reference/bible-kjv",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "seven-day interval and shutting-in are textual"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-28-130",
+      "paragraph": 35,
+      "quote": "“So,” says the Saviour, “shall also the coming of the Son of man be.”",
+      "claim_text": "Jesus (\"the Saviour\") is quoted saying: \"So shall also the coming of the Son of man be,\" comparing His coming to the days of Noah.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Matthew 24:39 ('So shall also the coming of the Son of man be'; cf. Luke 17:26); accurately attributed to Jesus.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-131",
+      "paragraph": 35,
+      "quote": "Silently, unnoticed as the midnight thief, will come the decisive hour which marks the fixing of every man’s destiny, the final withdrawal of mercy’s offer to guilty men.",
+      "claim_text": "The decisive hour marking the fixing of every person's destiny and the final withdrawal of mercy's offer will come silently and unnoticed, like a midnight thief.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological claim about the silent coming of the decisive hour; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-132",
+      "paragraph": 36,
+      "quote": "“Watch ye therefore: ... lest coming suddenly He find you sleeping.”",
+      "claim_text": "Scripture (Mark) quotes Jesus: \"Watch ye therefore: ... lest coming suddenly He find you sleeping.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ",
+        "Gospel of Mark"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Mark 13:35-36 (with ellipsis: 'Watch ye therefore ... lest coming suddenly He find you sleeping'); accurately attributed to Jesus.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-133",
+      "paragraph": 36,
+      "quote": "Perilous is the condition of those who, growing weary of their watch, turn to the attractions of the world.",
+      "claim_text": "The spiritual condition of those who grow weary of watching and turn to worldly attractions is perilous.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/homiletical warning about the peril of the weary watcher; no independent checkable historical kernel.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-134",
+      "paragraph": 36,
+      "quote": "While the man of business is absorbed in the pursuit of gain, while the pleasure-lover is seeking indulgence, while the daughter of fashion is arranging her adornments,—it may be in that hour the Judge of all the earth will pronounce the sentence, “Thou art weighed in the balances, and art found wanting.”",
+      "claim_text": "While people are absorbed in business, pleasure, or fashion, God may in that very hour pronounce final judgment upon them.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological claim about God pronouncing judgment amid ordinary life; unverifiable by pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-28-135",
+      "paragraph": 36,
+      "quote": "“Thou art weighed in the balances, and art found wanting.”",
+      "claim_text": "Scripture (Daniel, the writing on the wall at Belshazzar's feast) records the judgment sentence: \"Thou art weighed in the balances, and art found wanting.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Daniel",
+        "Belshazzar"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Daniel 5:27 ('Thou art weighed in the balances, and art found wanting'), the writing at Belshazzar's feast; accurate.",
+        "sources": []
+      }
+    }
+  ]
+}
