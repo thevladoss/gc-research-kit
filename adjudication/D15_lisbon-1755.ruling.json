@@ -1,0 +1,141 @@
+{
+  "dossier": "D15",
+  "slug": "lisbon-1755",
+  "stage": "adjudication",
+  "charter_version": "1.1-frozen",
+  "generated_at": "2026-07-05",
+  "notes": "searches: ~8 (6 shared, 2 stragglers for GC-17-044); 2 targeted WebFetches (Araujo/Storicamente full article; Wikipedia death-toll section for the current digest of Pereira). No local scholarship/ item covers Lisbon 1755 (INDEX.md checked). No Phase-1 defense objects exist for these three claims: ch17 disputed items (042, 044, 049) skipped the defense stage per policy; the chapter's two successful defenses (GC-17-036, GC-17-040) concern adjacent Lyell material (felt area, mountain effects) and were read as context per charter §7.4 — their finding that White transmits her period sources faithfully carries over to this dossier and is incorporated below. All three claims are period_standard candidates for synthesis tagging: the figures match the standard compendia of 1830-1911 (GC footnotes 480-482 name Lyell, Principles of Geology p. 495, and Encyclopaedia Americana ed. 1831, art. Lisbon).",
+  "evidence_review": "STATE OF THE QUESTION. (1) Provenance of GC's figures. Chapter 17's Lisbon paragraphs are explicit quotations: footnote 481/482 = Encyclopaedia Americana (1831), art. 'Lisbon' note; footnote 480 = Lyell, Principles of Geology p. 495. The wording 'In the course of about six minutes, sixty thousand persons perished' and the marble-quay passage appear verbatim in the Lyell/Encyclopaedia Americana tradition, which descends from the 18th-century account literature (John Michell's 1760 Philosophical Transactions memoir already carried the 60,000 figure). This is one genealogical transmission line, not independent corroboration (§4.4). The 90,000 sentence is White's own summarizing voice, hedged attributively ('It has been estimated'); estimates of 90,000-100,000 did circulate in period letters and 19th-century compendia. (2) Modern casualty scholarship. Alvaro S. Pereira ('The Opportunity of a Disaster', Journal of Economic History 69/2, 2009) estimates 30,000-40,000 deaths in Lisbon (population ~200,000) and 40,000-50,000 total for Portugal, Spain and Morocco from earthquake, tsunami and fire combined; he also notes contemporary reports are vague and partly conflated with the 18-19 November Morocco earthquakes. D. K. Chester ('The 1755 Lisbon earthquake', Progress in Physical Geography 25/3, 2001) records the published range for Lisbon alone as 10,000-100,000 and highlights the Pombaline parish-inquiry archive (Torre do Tombo) as the value-free evidence base. A. C. Araujo (Storicamente, U. Coimbra) surveys contemporary estimates: Pombal gave 6,000-8,000, Father Antony of the Sacrament ~18,000, the apostolic nuncio ~40,000; the city of ~250,000 'would have lost 10% of its population' (~25,000). Modern preponderance therefore sits at roughly 20,000-40,000 for Lisbon; no modern specialist working from the archival record defends 60,000 for the city, let alone 90,000 for the day. (3) Timing. Contemporary reports put the shaking at three shocks over ~9-10 minutes, with violent ground motion lasting 3.5-6 minutes; Moreira de Mendonca (1758) says the earth trembled 'from six to seven minutes'. So 'about six minutes' is a faithful period datum for the DURATION of shaking; the period formula's flaw is welding the whole day's toll (shaking + tsunami ~40 minutes later + three or more days of fire) into that window. (4) Cais de Pedra. The new stone quay at the Terreiro do Paco waterfront was real, recently built at great expense, and was destroyed during the catastrophe; modern geophysics treats its disappearance as ground-failure — liquefaction and lateral spreading of unstable alluvial mud, possibly with an associated waterfront landslide explaining reported whirlpools and vanished boats (2003 'Lisbon 1755: A Case of Triggered Onshore Rupture?' discussion; the 2021 Quaternary International ESI-07 paper documents severe liquefaction and ~5 m fissures). Period letters (the Braddock/Davy account tradition) attest that refugees crowded the quay and perished, and modern narrative histories repeat that hundreds died there. The dramatic layer — the quay swallowed whole 'with all the people on it', 'not one of the dead bodies ever floated', water afterwards unfathomably deep — is the embellished version: no abyss exists at the site, the mechanism was subsidence into shallow mud plus tsunami inundation, and disaster historians note that accounts and images of 1755 grow more exaggerated with distance and time. The core event stands; the total-engulfment absolutes do not. (5) Net. All three claims reproduce period-standard scholarship accurately (White's transmission is faithful; her sources are what aged), and each has a weakened form that modern scholarship sustains.",
+  "narrative_ru": "Глава 17 описывает лиссабонское землетрясение 1755 года цифрами из справочников девятнадцатого века: 60 тысяч погибших за шесть минут, 90 тысяч за день и мраморная набережная, ушедшая под воду со всеми людьми. Современные исследования (Перейра, Честер, Араужо) насчитывают в Лиссабоне 30-40 тысяч жертв, а по всему региону 40-50 тысяч, поэтому оба числа книги завышены примерно вдвое. Рассказ о набережной Каиш-де-Педра имеет реальное ядро: причал действительно осел из-за разжижения грунта и укрывшиеся на нём люди погибли, но слой «все до единого, ни одно тело не всплыло» историки относят к преувеличениям очевидцев. В ослабленных формулировках («десятки тысяч погибших», «набережная разрушилась, погибло много людей») все три утверждения подтверждаются. Уайт при этом точно цитирует свои источники (Лайель и Encyclopaedia Americana 1831 года); устарели сами источники, а не её пересказ. Картину изменило бы демографическое исследование приходских книг, которое подтвердило бы потери, близкие к 90 тысячам.",
+  "rulings": [
+    {
+      "id": "GC-17-042",
+      "dossier": "D15",
+      "quantifier_audit": ["sixty thousand persons (precise figure)", "in the course of about six minutes (hedged window applied to the whole toll)"],
+      "components": [
+        {
+          "component": "About 60,000 people perished at Lisbon in the 1755 disaster",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Modern archival-demographic scholarship converges far lower: Pereira (JEH 2009) 30,000-40,000 for Lisbon; Araujo ~10% of a population of ~250,000, with contemporary estimates topping out at the nuncio's 40,000; Chester (2001) records 10,000-100,000 only as the historical range of published figures. 60,000 for the city has no modern archival defender; it is the Michell-Lyell transmission figure."
+        },
+        {
+          "component": "Those deaths occurred within the ~6-minute course of the shaking",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "The day's toll accumulated across the shaking, the tsunami ~40 minutes later, and fires burning for days. Even period-internally, the formula compresses the whole toll into the first shocks. No modern reconstruction assigns anything like the full toll to the shaking window alone."
+        },
+        {
+          "component": "The violent shaking lasted about six minutes",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Contemporary reports give 3.5-6 minutes of violent motion in three shocks over ~9-10 minutes; Moreira de Mendonca (1758) says six to seven minutes. As a duration datum, 'about six minutes' is period-accurate and consistent with modern reconstruction."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "Within a few minutes of violent shaking, collapsing buildings killed tens of thousands in Lisbon, part of a disaster that claimed on the order of 30,000-40,000 lives in the city.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "medium",
+      "minority_engagement": "The strongest case for the claim is the traditional historiography itself: Michell (1760) and two centuries of repetition, including Lyell and the compendia White cites, carried 60,000 as the standard figure, grounded in the density of the city and the crowded All Saints' Day churches. It fails per charter §5.4 (head-counting vs weighing): the repetitions are one genealogical chain from impressionistic period letters, while the specialists who examined the Pombaline parish-inquiry archive and demographic data (Pereira 2009; the Portuguese scholarship surveyed by Araujo and Chester) converge on 20,000-40,000 for Lisbon. Even the highest contemporary official estimate (the nuncio's 40,000) falls short of the claim. No Phase-1 defense object exists (disputed claims skipped the stage); the adjacent successful defenses of GC-17-036/040 established that White quotes Lyell-tradition material faithfully, which this ruling incorporates: the failure lies in the period figure, not in her transmission of it.",
+      "source_quality": "academic-full",
+      "sources": [
+        {"ref": "A. S. Pereira, 'The Opportunity of a Disaster: The Economic Impact of the 1755 Lisbon Earthquake', Journal of Economic History 69/2 (2009); Lisbon 30,000-40,000, total 40,000-50,000", "tier": "academic", "independence_note": "Modern economic-history reconstruction from Portuguese archival data; independent of the Michell-Lyell transmission chain."},
+        {"ref": "D. K. Chester, 'The 1755 Lisbon earthquake', Progress in Physical Geography 25/3 (2001) 363-383", "tier": "academic", "independence_note": "Geography/seismology state-of-question survey using the Torre do Tombo parish-inquiry archive; independent of Pereira in discipline and method."},
+        {"ref": "A. C. Araujo, 'The 1755 Lisbon earthquake: the catastrophe and the reconstruction', Storicamente (storicamente.org/araujo_1755_lisbon_earthquake); contemporary estimates 6,000-40,000, city lost ~10% of ~250,000", "tier": "academic", "independence_note": "Coimbra historian working from contemporary Portuguese testimony; third independent line."},
+        {"ref": "Lyell, Principles of Geology (1830) p. 495 / Encyclopaedia Americana (1831) art. Lisbon note / Michell, Phil. Trans. (1760) — the '60,000 in six minutes' formula (GC footnotes 480-481)", "tier": "primary-in-context", "independence_note": "One genealogical line; establishes the claim's pedigree and White's faithful transmission, not its accuracy."},
+        {"ref": "Wikipedia '1755 Lisbon earthquake' (duration 3.5-6 minutes; toll digest 30,000-40,000)", "tier": "encyclopedic", "independence_note": "Digests Pereira for tolls — genealogically dependent on source 1; used only for the duration datum and orientation."}
+      ],
+      "would_change_this": "A peer-reviewed demographic study of Lisbon parish burial registers and the Pombaline inquiry yielding city deaths near 60,000, or archival evidence that contemporary official counts systematically undercounted by a factor above 1.5.",
+      "gap_note": null,
+      "notes": "period_standard candidate: the figure is verbatim from the sources GC footnotes (Lyell / Encyclopaedia Americana 1831); Phase-1 vocabulary would have called this near-anachronistic. The claim sits inside quotation marks in GC — White asserts it by adoption, as credible history."
+    },
+    {
+      "id": "GC-17-049",
+      "dossier": "D15",
+      "quantifier_audit": ["ninety thousand persons (precise figure)", "on that fatal day (single-day scope)"],
+      "components": [
+        {
+          "component": "Estimates of ~90,000 deaths for the day circulated (attributive layer: 'It has been estimated')",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "True as a report of estimates: period letters and 19th-century compendia carried figures of 90,000-100,000; Chester records the published range for Lisbon reaching 100,000. The sentence honestly flags itself as an estimate."
+        },
+        {
+          "component": "About 90,000 people actually lost their lives on 1 November 1755 (the operative assertion the paragraph deploys)",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Roughly double the top of modern scholarship: Pereira's TOTAL for Portugal, Spain and Morocco across earthquake, tsunami and days of fire is 40,000-50,000, and the same-day toll is lower still (fire deaths accrued over days; part of the Morocco toll belongs to the separate 18-19 November earthquakes). No modern archival estimate approaches 90,000 for the day."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "Contemporary estimates of the death toll ran as high as 90,000, though tens of thousands — on modern reckoning 30,000-40,000 in Lisbon and up to ~50,000 overall — lost their lives in the catastrophe.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "high",
+      "minority_engagement": "The best defense is the sentence's own hedge: 'It has been estimated' is literally true, since 90,000-100,000 figures did circulate, and White's era compendia treated them as sober history. The hedge is credited in component 1 and in the weakened ruling; it does not rescue the sentence as written because its rhetorical function in the paragraph is assertive — the figure serves as the climactic measure of the disaster ('on that fatal day'), not as historiographical caution. On substance, no qualified modern position defends ~90,000 same-day deaths: the highest contemporary official estimate was 40,000 (the nuncio, per Araujo), and Pereira's maximal modern total including Morocco and the fires is 50,000. No Phase-1 defense object exists; the verifier's own rationale (90,000 as a high period estimate) is incorporated.",
+      "source_quality": "academic-full",
+      "sources": [
+        {"ref": "A. S. Pereira, JEH 69/2 (2009): total Portugal+Spain+Morocco 40,000-50,000; notes conflation with the 18-19 November Morocco earthquakes", "tier": "academic", "independence_note": "Modern archival reconstruction; independent of the period transmission chain."},
+        {"ref": "A. C. Araujo, Storicamente: contemporary estimates 6,000-8,000 (Pombal), ~18,000 (Father Antony of the Sacrament), ~40,000 (apostolic nuncio); city lost ~10% of ~250,000", "tier": "academic", "independence_note": "Independent line from Portuguese contemporary testimony; shows even period officialdom never reached 90,000."},
+        {"ref": "D. K. Chester, Progress in Physical Geography 25/3 (2001): published range 10,000-100,000 for Lisbon; parish-inquiry evidence base", "tier": "academic", "independence_note": "Third discipline (physical geography); documents both the legacy range and the archival corrective."},
+        {"ref": "Period estimate tradition (letters and 19th-century compendia carrying 90,000-100,000), unfootnoted in GC but standard in White's reference literature", "tier": "primary-in-context", "independence_note": "Establishes the attributive layer's truth; genealogically one chain with the 60,000 formula."}
+      ],
+      "would_change_this": "A modern peer-reviewed demographic reconstruction from burial registers and the Pombaline inquiry supporting on the order of 90,000 same-day deaths across the affected region.",
+      "gap_note": null,
+      "notes": "This sentence is White's own voice, outside the quotation marks and unfootnoted. period_standard candidate: 90,000 was a live figure in 19th-century reference works."
+    },
+    {
+      "id": "GC-17-044",
+      "dossier": "D15",
+      "quantifier_audit": ["with ALL the people on it", "NOT ONE of the dead bodies EVER floated to the surface"],
+      "components": [
+        {
+          "component": "A new quay of stone/marble, recently built at great expense, subsided/was destroyed at Lisbon during the catastrophe",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "The Cais de Pedra at the Terreiro do Paco waterfront was real and disappeared during the disaster; modern geophysics explains it as liquefaction/lateral spreading of unstable alluvial ground, consistent with the severe liquefaction and ~5 m fissures documented for 1755 (2021 Quaternary International ESI-07 study; 2003 'triggered onshore rupture' discussion)."
+        },
+        {
+          "component": "A crowd that had taken refuge on the quay perished when it went down / was overwhelmed",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "probable",
+          "rationale": "Attested by contemporary letters (the Braddock/Davy account tradition) and repeated in modern narrative histories ('hundreds of people who had sought refuge'); survivors demonstrably fled to the open waterfront. Testimony-based and not independently countable, but no qualified position denies mass casualties at the quayside."
+        },
+        {
+          "component": "The quay sank with ALL the people on it and NOT ONE body EVER floated to the surface (total-engulfment layer)",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "The absolute layer belongs to the embellished version of the story (period letters even claimed unfathomable depths where the quay stood). No abyss exists at the site: the mechanism was subsidence into shallow tidal mud plus tsunami inundation, and the ground there was later rebuilt as the Praca do Comercio waterfront. Disaster historians note that 1755 accounts and images grow more exaggerated with distance and time; 'not one body ever floated' is unverifiable in principle by any eyewitness and carries the burden of its own absolutes (§6)."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "The newly built stone quay subsided into the Tagus during the catastrophe, and many of the people who had taken refuge on it perished in the waters.",
+      "ruling_weakened": "probable",
+      "framing_gap": 2,
+      "confidence": "medium",
+      "minority_engagement": "The strongest case for the literal account: contemporary eyewitness letters assert the quay went down with people and boats and that nothing resurfaced, and modern seismologists take the sinking itself seriously — the 2003 geophysics discussion treats the 'widely debated sinking of the Lisbon quay' as probably real liquefaction-driven ground failure, possibly a waterfront landslide explaining reported whirlpools. That position is engaged and largely CONCEDED for the core event (components 1-2 ruled well-supported/probable). It does not sustain the absolutes: no eyewitness could verify that not one body ever surfaced; the associated unfathomable-depth detail was falsified by the site's actual shallow bathymetry and later rebuilding; and the account genre ('extraordinary events RELATED to have occurred', as GC's own quoted source hedges) marks it as second-hand marvel literature. White again transmits her cited source (Encyclopaedia Americana 1831) faithfully — the embellishment is the period source's, not hers. No Phase-1 defense object exists; the verifier's 'embellished legend vs real ground failure' framing is incorporated and sharpened into the component split.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "'Lisbon 1755: A Case of Triggered Onshore Rupture?' (2003, geophysics literature): quay sinking and whirlpools as ground liquefaction / waterfront landslide", "tier": "academic", "independence_note": "Seismological line; supports the core event, undercuts the bottomless-abyss version."},
+        {"ref": "'The AD 1755 Lisbon Earthquake-Tsunami: seismic source modelling from ESI-07 environmental data', Quaternary International (2021): documented liquefaction, ~5 m fissures, tsunami inundation ~250-350 m at Terreiro do Paco", "tier": "academic", "independence_note": "Independent environmental-effects study; same physical picture from a different team and dataset."},
+        {"ref": "Modern Lisbon urban-history reconstructions (lisbonquake.com project; getLISBON): Cais de Pedra 'probably sunk in the unstable mud, with the multitude of people who had taken refuge'", "tier": "encyclopedic", "independence_note": "Popular digests of Portuguese scholarship; corroborate the crowd-deaths core, not the absolutes."},
+        {"ref": "Braddock/Davy contemporary account tradition via Encyclopaedia Americana (1831) art. Lisbon note (GC footnote 481); T. D. Kendrick, The Lisbon Earthquake (1956) as the standard historical treatment of the account literature", "tier": "primary-in-context", "independence_note": "The claim's own genealogy: period marvel-literature layer; one transmission line into the 19th-century compendia."}
+      ],
+      "would_change_this": "Harbor archaeology or geotechnical coring at the Terreiro do Paco waterfront documenting a deep collapse structure with quay masonry and human remains would support the literal account; conversely, published body-recovery records from the Tagus shore would finish off the 'not one body' absolute.",
+      "gap_note": null,
+      "notes": "period_standard candidate. GC's quoted source itself hedges the story ('related to have occurred'); the as-written ruling targets the substantive account the paragraph deploys, and the attributive reading is credited in the minority engagement."
+    }
+  ]
+}

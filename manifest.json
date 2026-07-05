@@ -2969,7 +2969,25 @@
         "claims": 3,
         "load_bearing": 0,
         "academic_floor": false,
-        "status": "pending"
+        "status": "done",
+        "ruling_file": "adjudication/D15_lisbon-1755.ruling.json",
+        "rulings_as_written": {
+          "improbable": 3
+        },
+        "rulings_weakened": {
+          "well-supported": 2,
+          "probable": 1
+        },
+        "framing_gaps": {
+          "3": 2,
+          "2": 1
+        },
+        "failing_component_kind_accusatory": {
+          "fact": 3
+        },
+        "gap_notes": [],
+        "searches": "searches: ~8 (6 shared, 2 stragglers for GC-17-044)",
+        "updated_at": "2026-07-05T19:32:07Z"
       },
       "D16": {
         "slug": "titus-and-the-temple",
