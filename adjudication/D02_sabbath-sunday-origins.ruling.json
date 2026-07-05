@@ -1,0 +1,321 @@
+{
+  "dossier": "D02",
+  "slug": "sabbath-sunday-origins",
+  "stage": "adjudication",
+  "charter_version": "1.1-frozen",
+  "generated_at": "2026-07-05",
+  "notes": "searches: ~13 (12 shared, 1 straggler for GC-35-103); 3 WebFetch attempts, 1 substantive (NASSCAL e-Clavis on the Sunday Letter). Local scholarship replaced several searches at zero budget cost: Bacchiocchi From Sabbath to Sunday ch. 6 full text (his thesis verbatim), ANF vol. 1 (Justin 1 Apol. 67 at line 16410, Dial. 10 at line 17727; Barnabas 15 at line 13071; Ignatius Magn. 9 short recension line 5806, long recension line 5832), NPNF2-01 (Eusebius, Vita Constantini 4.18, lines 62365-62388), Ayer Source Book (CJ 3.12.2 Sunday law text, lines 13263-13273), Andrews 1873 (Eustace of Flay episode and Matthew Paris chain, lines 17686-17953), Ministry 1977 (position). Symmetry check per charter §7.1 performed: 7 of 8 as-written rulings moved against the claims, 1 stayed open; all 8 weakened rulings landed probable or well-supported. This asymmetry was re-examined and is explained by dossier composition: Phase-1 verification already ruled the factual-substrate sentences of these same chapters supported (GC-03-033, GC-03-040, GC-03-051, GC-35-077), leaving precisely the agency/origin/motive attributions in the disputed bucket. The framing-gap distribution (2 to 4 across all claims) is the dossier's principal finding. GC-26-014 and GC-26-025 share one evidential anchor and constitute one independent failure point, not two (chain-inherited, flagged in per-claim notes for synthesis). Schema-gate fix 2026-07-05: GC-26-025 sources array expanded from one bundled entry to four discrete entries (same evidence base as researched); no ruling changed.",
+  "evidence_review": "THE QUESTION. Every claim in this dossier turns on when, where, and by whose agency Sunday displaced or coexisted with the seventh-day Sabbath. The primary record, read in scholarly context, runs as follows. Three New Testament texts are commonly cited for first-day observance (Acts 20:7; 1 Cor 16:2; Rev 1:10 'Lord's day'); each is individually ambiguous and their force is debated in peer-reviewed venues (Llewelyn, Novum Testamentum 43 (2001), arguing they do attest Sunday meetings; N. H. Young's response, Novum Testamentum 45 (2003), arguing they do not). By the early-to-mid 2nd century, unambiguous witnesses to Christian first-day observance and to non-observance of the Sabbath appear in geographically dispersed centers: Epistle of Barnabas 15 (Alexandria milieu, c. 130: 'we keep the eighth day with joyfulness'), Ignatius, Magnesians 9 (Asia Minor/Antioch, c. 110: 'no longer observing the Sabbath, but living in the observance of the Lord's Day' in the short recension; the 4th-century long recension, notably, prescribes keeping BOTH days), Justin Martyr in Rome (1 Apology 67, c. 155: the whole community assembles 'on the day called Sunday'; Dialogue 10, where Trypho tells Christians 'you observe no festivals or sabbaths' and Justin does not contest the description). Simultaneously, Sabbath observance persisted massively, above all in the East: Socrates Scholasticus (HE 5.22) and Sozomen (HE 7.19) report in the 5th century that 'almost all churches throughout the world celebrate the sacred mysteries on the sabbath of every week, yet the Christians of Alexandria and at Rome, on account of some ancient tradition, have ceased to do this.' Rome's distinctive anti-Sabbath instruments are documented: the Roman Saturday fast (Tertullian, On Fasting 14; Augustine, Ep. 36 limiting it to 'the Roman Christians and hitherto a few Western communities'; Pope Innocent I's decretal Ad Decentium, PL 20,555, prescribing it), and the absence of Sabbath eucharist in Rome/Alexandria. The Eastern church degraded the Sabbath by its own route: canon 29 of Laodicea (Phrygia, 4th c.) orders that Christians 'should not Judaize and should not be idle on the Sabbath.' The first civil enforcement of Sunday rest is Constantine's law of 7 March 321 (CJ 3.12.2, text in Ayer, Source Book, pp. 284-285): 'All judges and city people and the craftsmen shall rest upon the venerable Day of the Sun,' with agricultural labor exempted; the law names no ecclesiastical instigator, and Eusebius (Vita Constantini 4.18) attributes the ordinance to Constantine himself, adding that the emperor's 'earnest desire' was 'gradually to lead all mankind to the worship of God.' No ancient source documents bishops urging the law. POSITIONS. (1) Mainstream: W. Rordorf, Der Sonntag (1962; Eng. Sunday, 1968) traces Sunday worship to the apostolic era and holds that rest from work was added only from Constantine onward. R. Bauckham and colleagues in D. A. Carson (ed.), From Sabbath to Lord's Day (1982) date the origin to Judea in the mid-1st century, universal by the early 2nd century 'with no hint of controversy,' and conclude the NT nowhere transfers Sabbath obligation to Sunday, i.e. the Lord's Day is not a Christian Sabbath and rests on no explicit biblical command. C. S. Mosna, Storia della domenica (Gregorian UP, 1969) concedes 'perhaps in this [disappearance of Sabbath veneration] the example of Rome... must have been influential.' (2) Peer-located minority: S. Bacchiocchi, From Sabbath to Sunday (Pontifical Gregorian UP, 1977; Adventist author, Catholic university imprint) argues Sunday observance arose in Rome in the early 2nd century under Hadrian, driven by anti-Judaism and sun-cult attraction, with the Roman church's emerging primacy the necessary enforcement mechanism. His own conclusion is hedged: the Church of Rome 'appears to have played a leading role in inducing the adoption of Sunday observance'; Rome is 'the most logical place for the origin of Sunday.' Reception: his documentation of anti-Judaism is widely valued, but the Rome-origination core is rejected by mainstream reviewers (Bauckham: Bacchiocchi 'has not demonstrated the second-century origins of the Christian Lord's Day... Sunday worship did not originate as the Christian replacement for the Jewish Sabbath... it was already normal Christian practice at the beginning of the second century') and criticized even from within Adventist scholarship (K. A. Strand, AUSS 1979, against the sun-worship factor and the Easter-Sunday reconstruction). The strongest structural argument against a Roman origin is the Quartodeciman contrast: when Rome demonstrably did try to impose a Sunday-based calendar practice (Victor on Easter, c. 190), the attempt left a loud documentary trail of resistance (Eusebius HE 5.23-24); weekly Sunday observance shows no trace of any such controversy anywhere. (3) Independent methodological caution: P. Bradshaw, The Search for the Origins of Christian Worship (Oxford UP, 2002) warns that evidence for uniform early liturgical practice, weekly Sunday eucharist included, is thinner and more variegated than older reconstructions assumed. CONSTANTINE'S MOTIVE is a live scholarly debate between K. M. Girardet (ZAC 2007, De Gruyter: the dies solis law was Christian in substance) and M. Wallraff and others (Constantine's persistent solar devotion; the law's deliberately neutral solar language); both sides treat the law as Constantine's own act. THE MEDIEVAL POLEMIC LAYER. That Catholic spokesmen claimed the change of day as an exercise and proof of church authority is documented: Gaspare [Ricciulli] del Fosso, archbishop of Reggio, at Trent on 18 January 1562 (Acts of the council; independently transmitted via Sarpi's History of the Council of Trent) argued that the church 'changed the sabbath ordained by God into Sunday... not by the preaching of Christ, but by the authority of the Church'; 19th-century catechisms (Keenan's Doctrinal Catechism; Tuberville's Abridgment) used the change as proof of the church's power; the Catholic Mirror (Baltimore archdiocesan organ) editorials of September 1893 (facsimiles in Adventist archives) pressed exactly this argument against Protestants. Historiography, however, describes the displacement of the Sabbath as a gradual, multi-causal, regionally uneven process across the 2nd-6th centuries (dual observance for centuries; imperial law; Eastern canons; Roman practice), not the act of a 'papal power' that did not yet institutionally exist when the process began. THE SUNDAY LETTER (GC-35-076). The 'Letter from Heaven' on Sunday observance is an apocryphon attested from the 6th century (condemned by Licinianus of Cartagena, c. 584), circulating in Greek, Latin, Irish and Old English recensions as history's oldest known chain letter; standard scholarship is R. Priebsch, Letter from Heaven (Oxford, 1936), C. Lees, Anglo-Saxon England 14 (1985), D. Haines, Sunday Observance and the Sunday Letter in Anglo-Saxon England (Brewer, 2010); NASSCAL e-Clavis catalogues the tradition. No scholarship attributes its origin to the papal curia; the pope figures inside the legend's own framing narrative in some recensions. The papacy is in fact documented condemning a heaven-letter: the Roman synod of 25 October 745 under Pope Zachary anathematized Aldebert and ordered his 'letter of Jesus fallen from heaven' burned (Boniface correspondence). Eustace of Flay's English campaign of 1200-1201 is reported by the contemporary Roger of Howden (who heard him at York) without any papal commission; the chain 'Jerusalem patriarch sent the letter to the Roman pontiff, who ordained preachers, among whom Eustace' appears in the later Matthew Paris tradition (Historia Major, p. 201) and is the sole basis of Andrews's 1873 inference ('we therefore trace the responsibility for this roll directly to the pope of Rome'), which GC repeats in strengthened form. WHAT CHANGED SINCE THE 19TH CENTURY. Andrews's universal-early-Sabbath narrative and his papal-forgery inference are superseded; the 20th century added the Rordorf/Bauckham apostolic-origin case, Bacchiocchi's peer-located counter-case, the philology of the Sunday Letter, and the Girardet-Wallraff debate on 321. What remains solid in the book's direction: massive continued Eastern Sabbath observance into the 5th century, Rome's documented anti-Sabbath instruments, the absence of any explicit scriptural command for Sunday (conceded across the spectrum, including by the Carson volume), and documented Catholic appeals to the change as proof of church authority.",
+  "narrative_ru": "Досье проверяло восемь утверждений книги о том, когда, где и чьей волей воскресенье вытеснило субботу в раннем христианстве. В авторских формулировках почти все они не устояли: приписывание перемены «папской власти», происхождение воскресенья «от Рима» и папский дворец как источник подложного «небесного свитка» противоречат датировкам и географии источников, а тезис «субботу соблюдали все христиане» опровергают Иустин и Послание Варнавы уже во II веке. Ослабленные версии тех же тезисов оказались прочными: римская церковь документированно принижала субботу (субботний пост, декреталия Иннокентия I), католические авторы от Тридентского собора до катехизисов XIX века сами называли перемену дня делом власти церкви, и прямой библейской заповеди о воскресенье нет, что признают и его защитники. Вопрос, восходит ли воскресное богослужение к апостолам или сложилось после них, остаётся открытым и среди специалистов без конфессиональной привязки. Картину изменили бы находки уровня римского декрета II века о дне собраний, документов канцелярии о свитке 1201 года или свидетельств того, что епископы побуждали Константина к закону 321 года.",
+  "rulings": [
+    {
+      "id": "GC-35-057",
+      "dossier": "D02",
+      "quantifier_audit": ["originated with Rome", "the sign of her authority"],
+      "components": [
+        {
+          "component": "Sunday observance as a religious custom originated with Rome (the Roman church).",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Earliest unambiguous witnesses to Christian first-day observance are geographically dispersed and independent of Rome: Barnabas 15 (Alexandria milieu, c. 130), Ignatius Magn. 9 (Asia Minor/Antioch, c. 110), Didache 14 (Syria), plus debated NT texts, before Justin's Roman evidence (c. 155). No ancient source attributes weekly Sunday to a Roman initiative, and the Quartodeciman contrast shows Roman calendar impositions left documentary resistance trails that weekly Sunday entirely lacks. The one peer-located counter-case (Bacchiocchi, Gregorian UP 1977) is engaged below and fails on these evidential grounds; his own formulation is hedged ('appears to have played a leading role')."
+        },
+        {
+          "component": "Rome claims Sunday/the change of the day as the sign of her authority.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "probable",
+          "rationale": "Documented in representative Catholic voices: del Fosso at Trent (18 Jan 1562, church authority proven by the change of the Sabbath, transmitted in the Acts and via Sarpi), Keenan's and Tuberville's catechisms, the Catholic Mirror editorials of Sept 1893 (archdiocesan organ, facsimiles extant). 'Probable' rather than 'well-supported' as printed, because these are catechetical and polemical statements, not a magisterial definition of Sunday as 'the sign' of Roman authority; the definite-article generalization outruns the documents slightly."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "The Church of Rome played a leading role in the early demotion of the Sabbath and the promotion of Sunday, and Catholic spokesmen have claimed the change of the day as proof of the Church's authority.",
+      "ruling_weakened": "probable",
+      "framing_gap": 2,
+      "confidence": "high",
+      "minority_engagement": "The strongest published defense of the as-written claim is Samuele Bacchiocchi, From Sabbath to Sunday (Pontifical Gregorian UP, 1977; note the double location per charter §4.1: Adventist author, Catholic-university imprint with peer examination). His actual argument: (1) the Church of Rome already exercised effective primacy in the 2nd century (Clement's letter to Corinth, Ignatius' deference, Irenaeus' 'potentior principalitas', Victor's excommunication of the Asian churches); (2) Hadrianic anti-Judaism (post-135) made distancing from the Sabbath urgent, earliest and strongest in Rome, whose members were 'mostly of pagan extraction'; (3) Rome demonstrably pioneered anti-Sabbath instruments (Saturday fast, no Sabbath eucharist) and Easter-Sunday, whose 'close nexus' with weekly Sunday points to a common Roman origin. Why it fails on evidence, not confession: first-day observance is attested earlier than or independently of any Roman initiative in Alexandria, Syria and Asia Minor; his re-readings of Didache 14, Magn. 9 and Barnabas 15 have not persuaded specialists; the Quartodeciman affair shows a Roman liturgical imposition generating precisely the documented resistance that weekly Sunday nowhere shows (Bauckham in Carson ed. 1982: Bacchiocchi 'has not demonstrated the second-century origins of the Christian Lord's Day'); and even the sympathetic Adventist reviewer K. A. Strand (AUSS 1979) rejected the sun-worship factor and the Easter reconstruction. Bacchiocchi's genuinely durable contribution, Rome's documented role in DEMOTING the Sabbath, is what the weakened version preserves.",
+      "source_quality": "academic-full",
+      "sources": [
+        {"ref": "R. Bauckham, 'Sabbath and Sunday in the Post-Apostolic Church', in D. A. Carson (ed.), From Sabbath to Lord's Day (Zondervan, 1982); conclusions quoted in AUSS review literature and full text on archive.org", "tier": "academic", "independence_note": "Evangelical academic volume written explicitly to test both Rordorf and Bacchiocchi against the primary sources; not genealogically downstream of either."},
+        {"ref": "S. Bacchiocchi, From Sabbath to Sunday, ch. 6 (Pontifical Gregorian UP, 1977), local: scholarship/bacchiocchi-from-sabbath-to-sunday-ch6.txt, lines 95-123", "tier": "academic", "independence_note": "The peer-located minority position itself; Adventist author, Gregorian imprint; independent of the Rordorf lineage."},
+        {"ref": "W. Rordorf, Sunday (1962/1968), position summarized in Lord's Day survey literature", "tier": "academic", "independence_note": "The standard pre-Bacchiocchi monograph; upstream of much later work, cited here for the apostolic-origin dating."},
+        {"ref": "Justin, 1 Apology 67; Barnabas 15; Ignatius, Magnesians 9 (ANF vol. 1, local: scholarship/anf01-ante-nicene-fathers-vol1.txt, lines 16410, 13071, 5806)", "tier": "primary-in-context", "independence_note": "2nd-century primary texts in a standard scholarly edition; independent of all modern positions."},
+        {"ref": "Gaspare del Fosso, Trent speech 18 Jan 1562 (Acts of Trent; independently transmitted via Sarpi, History of the Council of Trent); Catholic Mirror editorials Sept 1893 (facsimile, adventistarchives.org RLT1893-107)", "tier": "primary-in-context", "independence_note": "Documents for component 2; most online reproductions descend from Adventist compilations, but Sarpi's transmission and the Mirror facsimiles are genealogically independent of that channel."}
+      ],
+      "would_change_this": "A 1st/2nd-century source attributing weekly Sunday observance to a Roman decision, or documented 2nd-century resistance to Sunday as a Roman imposition (a parallel to the Quartodeciman correspondence), would move component 1 toward the claim; a demonstration that Didache 14, Magn. 9 and Barnabas 15 do not refer to first-day observance would strengthen Bacchiocchi's late-and-Roman dating.",
+      "gap_note": null,
+      "notes": "LOAD-BEARING. The claim-level ruling is set by the origin component; the authority-claim component survives at probable and is preserved in the weakened version."
+    },
+    {
+      "id": "GC-26-014",
+      "dossier": "D02",
+      "quantifier_audit": ["the Sabbath was changed by the papal power", "the seal was taken from the law"],
+      "components": [
+        {
+          "component": "The papacy, as an institution ('the papal power'), changed the Sabbath to Sunday.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "The displacement was a gradual, multi-causal, regionally uneven process across the 2nd-6th centuries: dual Sabbath/Sunday observance persisted for centuries (Socrates HE 5.22; Sozomen HE 7.19), the first rest-enforcement was imperial (CJ 3.12.2, 321), and the East degraded the Sabbath by its own conciliar route (Laodicea canon 29), all before or apart from a developed papacy. No papal act changed the day. Even Bacchiocchi, the strongest Roman-agency scholar, locates the initiative in the 2nd-century Church of Rome, not in 'papal power' as an institution, and describes a leading role rather than a discrete act of change."
+        },
+        {
+          "component": "Thereby the 'seal' was removed from God's law.",
+          "kind": "hermeneutic",
+          "in_scope": false,
+          "rationale": "Conditional on the theological identification of the fourth commandment as the seal of the law; this adjudication does not evaluate the theological status of the Sabbath (§9)."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "The Roman church was a leading documented agent in the historical displacement of the Sabbath (Saturday fast, suppression of Sabbath assemblies, later canonical enforcement of Sunday), and later claimed the change of the day as her own act.",
+      "ruling_weakened": "probable",
+      "framing_gap": 2,
+      "confidence": "medium",
+      "minority_engagement": "Two positions defend Roman agency. (1) Bacchiocchi (Gregorian UP, 1977): the Church of Rome pioneered the anti-Sabbath instruments (Saturday fast, attested for Rome by Tertullian, On Fasting 14, Augustine Ep. 36, and Innocent I's decretal Ad Decentium; no Sabbath eucharist per Socrates/Sozomen) and had the only authority capable of propagating a new day. This supports the weakened claim's 'leading role' but not the as-written institutional-papal agency, which he does not assert. (2) The traditional Catholic self-claim ('the Church changed the day by her authority': del Fosso at Trent 1562; Keenan's catechism) is a confessional position about authority, not a historiographical finding about mechanism, and modern scholarship on both sides describes gradual multi-causal displacement instead. The Eastern evidence (Laodicea 29, an anti-Sabbath canon with no Roman agency) is the concrete counterexample to a solely Roman-papal mechanism.",
+      "source_quality": "academic-full",
+      "sources": [
+        {"ref": "S. Bacchiocchi, From Sabbath to Sunday, ch. 6 with fnn. 76, 88, 91, 95 (Innocent I, Ad Decentium, PL 20,555; Laodicea canon 29; Mosna, Storia della domenica 330, 354), local: scholarship/bacchiocchi-from-sabbath-to-sunday-ch6.txt", "tier": "academic", "independence_note": "Minority position whose footnotes carry the primary documents; Mosna (Gregorian, Catholic) is genealogically independent of Bacchiocchi and of the Adventist tradition."},
+        {"ref": "Socrates Scholasticus, HE 5.22; Sozomen, HE 7.19 (NPNF2-02, confirmed via newadvent.org/fathers/26015.htm)", "tier": "primary-in-context", "independence_note": "5th-century primary testimony to centuries-long dual observance; independent of all modern positions."},
+        {"ref": "R. Bauckham et al., in Carson (ed.), From Sabbath to Lord's Day (1982): gradual, non-decreed development; no NT transfer of Sabbath obligation", "tier": "academic", "independence_note": "Independent evangelical-academic examination; not derived from Catholic or Adventist historiography."},
+        {"ref": "Constantine's law, CJ 3.12.2 (Ayer, Source Book, 1913, pp. 284-285, local: scholarship/ayer-source-book-ancient-church-history-1913.txt, lines 13263-13273)", "tier": "primary-in-context", "independence_note": "Documents the first rest-enforcement as imperial, not papal."}
+      ],
+      "would_change_this": "A documented pre-Constantinian Roman episcopal decree on the day of worship, or evidence that Laodicea canon 29 and the Eastern anti-Sabbath measures were enacted at Roman direction, would move the as-written ruling toward the claim.",
+      "gap_note": null,
+      "notes": "Chain-shared evidential anchor with GC-26-025: for synthesis, the two constitute one independent failure point (charter §11 synthesis notes)."
+    },
+    {
+      "id": "GC-26-025",
+      "dossier": "D02",
+      "quantifier_audit": ["The breach was made in the law of God", "the Sabbath was changed by the Roman power"],
+      "components": [
+        {
+          "component": "The Roman power changed the Sabbath.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Parallel to GC-26-014, with a marginally wider referent ('Roman power' can embrace the Roman church and the empire, whose 321 law is documented). Even on the widest reading, single-agency attribution fails: the displacement was pan-Christian, gradual, and partly Eastern (Laodicea canon 29), with weekly Sunday observance attested across Alexandria, Syria and Asia Minor before any documented Roman measure. The imperial law of 321 enforced rest on an already-existing Christian observance; it did not change the day."
+        },
+        {
+          "component": "This constituted a 'breach' in the law of God.",
+          "kind": "hermeneutic",
+          "in_scope": false,
+          "rationale": "Conditional on the continuing normativity of the fourth commandment; out of scope per §9."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "Roman authority, ecclesiastical and imperial, played a central documented role in displacing Sabbath observance and institutionalizing Sunday (the Roman Saturday fast and liturgical policy, Constantine's rest law of 321, later canonical enforcement).",
+      "ruling_weakened": "probable",
+      "framing_gap": 2,
+      "confidence": "medium",
+      "minority_engagement": "Same defense pool as GC-26-014: Bacchiocchi's leading-role thesis and the Catholic authority-claim tradition. Both support Roman centrality in the displacement (the weakened version) and neither establishes the as-written single-agency 'was changed by the Roman power': Bacchiocchi's conclusion is expressly probabilistic ('appears to have played a leading role'), and the documented Eastern anti-Sabbath route (Laodicea 29) plus the pre-Roman geographic spread of first-day observance keep the preponderance against the printed formulation.",
+      "source_quality": "academic-full",
+      "sources": [
+        {"ref": "S. Bacchiocchi, From Sabbath to Sunday, ch. 6 with fnn. 88, 91, 95 (Laodicea canon 29 text; Innocent I, Ad Decentium, PL 20,555; Mosna, Storia della domenica 330, 354), local: scholarship/bacchiocchi-from-sabbath-to-sunday-ch6.txt", "tier": "academic", "independence_note": "The strongest Roman-agency scholar, cited against interest for the as-written ruling: he asserts a hedged 2nd-century leading role of the Church of Rome, not a completed act of 'the Roman power'; his footnotes carry the primary documents. Chain-shared anchor with GC-26-014."},
+        {"ref": "Socrates Scholasticus, HE 5.22; Sozomen, HE 7.19 (NPNF2-02, confirmed via newadvent.org/fathers/26015.htm)", "tier": "primary-in-context", "independence_note": "5th-century primary testimony that dual Sabbath/Sunday observance persisted for centuries across 'almost all churches', defeating a completed single-agency change; genealogically independent of all modern positions and of Bacchiocchi."},
+        {"ref": "R. Bauckham et al., in Carson (ed.), From Sabbath to Lord's Day (1982): the displacement as gradual, non-decreed development, with first-day observance attested across Alexandria, Syria and Asia Minor before any documented Roman measure", "tier": "academic", "independence_note": "Independent evangelical-academic examination; not derived from Catholic, Adventist, or Bacchiocchi lineages."},
+        {"ref": "Constantine's law, CJ 3.12.2 (Ayer, Source Book, 1913, pp. 284-285, local: scholarship/ayer-source-book-ancient-church-history-1913.txt, lines 13263-13273)", "tier": "primary-in-context", "independence_note": "The one documented 'Roman power' act: an imperial rest law of 321 enforcing an already-existing observance; supports the weakened version, not the as-written change of the day."}
+      ],
+      "would_change_this": "Same as GC-26-014: a documented pre-Constantinian Roman decree changing the day, or evidence of Roman direction behind the Eastern anti-Sabbath canons.",
+      "gap_note": null,
+      "notes": "Chain-inherited from the GC-26-014 anchor; one independent failure point across the pair."
+    },
+    {
+      "id": "GC-35-103",
+      "dossier": "D02",
+      "quantifier_audit": ["the same claim of divine authority", "the same lack of scriptural evidence"],
+      "components": [
+        {
+          "component": "Protestant teachers (c. 1911) claim divine authority for Sunday-keeping.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "[common_knowledge for the confessional layer] Westminster Confession 21.7 declares the first day divinely appointed as the Christian Sabbath; the contemporary Sunday-law movement (National Reform Association, American Sabbath Union, W. F. Crafts; the Blair Sunday-Rest Bill of 1888 designating Sunday 'as a day of religious worship') is documented in academic literature (Seton Hall Law Journal study) and period records."
+        },
+        {
+          "component": "Sunday-keeping lacks an explicit scriptural command ('the same lack of scriptural evidence').",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Conceded across the scholarly spectrum, including by the Sunday-defending Carson volume (no NT text transfers Sabbath obligation to Sunday; the Lord's Day rests on practice and inference, not command) and presupposed by the Catholic catechetical argument itself (Keenan: 'a change for which there is no Scriptural authority')."
+        },
+        {
+          "component": "The equivalence frame: Protestant Sunday advocacy is 'the same' as the medieval advocacy in claiming divine authority without a divine command.",
+          "kind": "frame",
+          "in_scope": true,
+          "ruling": "probable",
+          "rationale": "The tertium comparationis (divine-authority claim without explicit command) is documented on both sides; the frame is rhetorically tendentious in flattening the difference between inferential scriptural argument and miracle propaganda, but as a characterization of the shared evidentiary gap it is defensible."
+        },
+        {
+          "component": "'Papal leaders... fabricated miracles to supply the place of a command from God' (the anaphoric assertion that papal leaders manufactured the medieval Sunday miracles).",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "The fabrication of the miracle tales (the 1201 roll's wonders, the plow-iron story) by 'papal leaders' is undocumented. The contemporary chronicler Roger of Howden reports Eustace of Flay's campaign and its reported wonders without papal commission; the papal frame enters only in the later Matthew Paris tradition, itself part of the apocryphon's legend; and the papacy is documented condemning a heaven-letter (Roman synod of 745 under Zachary, against Aldebert). The rival account, popular-apocryphal circulation exploited by a preaching abbot, has documentary support, so the attribution caps below open."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "Protestant Sunday-law advocates, like medieval Sunday promoters before them, claimed divine authority for Sunday observance despite the absence of an explicit biblical command.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "medium",
+      "minority_engagement": "The strongest case for the failing component is Andrews's (1873) reading of Matthew Paris: the Jerusalem patriarch and clergy sent the heaven-letter 'to the judgment of the Roman pontiff,' who 'ordained heralds... among whom the abbot of Flay, Eustachius' (Historia Major, p. 201), a genuine 13th-century chronicle placing the pope behind the roll's promulgation. It fails as evidence of papal FABRICATION: Paris wrote a generation later and transmits the campaign's own legendary frame (the pope appears inside the apocryphon's framing narrative in several recensions, per NASSCAL); the contemporary Howden lacks the papal chain; and Sunday Letter philology (Priebsch 1936; Haines 2010) shows the document predates the episode by six centuries with no curial connection. At most the chronicle sustains 'churchmen exploited a forged letter,' which the weakened version keeps.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "D. A. Carson (ed.), From Sabbath to Lord's Day (1982), conclusions on the absence of a NT Sunday command", "tier": "academic", "independence_note": "Sunday-keeping scholars conceding the no-command point against interest; independent of Sabbatarian polemic."},
+        {"ref": "Seton Hall Law Journal, 'The Sunday Rest Bill and the Battle to Keep the Civil Sabbath' (scholarship.shu.edu)", "tier": "academic", "independence_note": "Legal-historical study of the 1888 Blair bill and the religious framing of the Sunday-law movement; independent of confessional literature."},
+        {"ref": "Matthew Paris, Historia Major p. 201, and Roger of Howden, Annals (Riley tr.), quoted via Andrews 1873, local: scholarship/andrews-history-of-the-sabbath-1873.txt, lines 17686-17953", "tier": "primary-in-context", "independence_note": "Medieval chronicles read through Andrews's quotation; Andrews is White's conduit and a position, but his verbatim excerpts of Paris and Howden are checkable primary text."},
+        {"ref": "NASSCAL e-Clavis, 'Epistle of Christ from Heaven'; R. Priebsch (Oxford 1936) and D. Haines (Brewer 2010) via scholarly metadata", "tier": "academic", "independence_note": "Apocrypha philology, genealogically independent of both Adventist and Catholic polemical traditions."},
+        {"ref": "Westminster Confession 21.7", "tier": "primary-in-context", "independence_note": "[common_knowledge] confessional standard, favorable-direction anchor for component 1."}
+      ],
+      "would_change_this": "Curial records or a manuscript tying the production of the 1201 roll or its miracle propaganda to papal officials would rehabilitate the failing component; discovery of an explicit early command text for Sunday would defeat component 2.",
+      "gap_note": null,
+      "notes": "The claim's substrate components (1-2) are well-supported; the printed sentence fails on the papal-fabrication anaphora it embeds."
+    },
+    {
+      "id": "GC-03-032",
+      "dossier": "D02",
+      "quantifier_audit": ["all Christians", "In the first centuries", "the true Sabbath"],
+      "components": [
+        {
+          "component": "Through the first centuries of Christianity the seventh-day Sabbath was kept by all Christians.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "discredited",
+          "rationale": "Multiple independent, well-provenanced counterexamples inside 'the first centuries' (plural): Justin in Rome, c. 155, describes the community's assembly 'on the day called Sunday' (1 Apol. 67) and lets stand Trypho's description 'you observe no festivals or sabbaths' (Dial. 10); the Epistle of Barnabas 15 (c. 130) celebrates 'the eighth day' while disparaging the Sabbaths; Ignatius, Magn. 9 (c. 110), 'no longer observing the Sabbath' (translation debated, but at minimum devaluing sabbatizing). Even the strongest Sabbatarian scholar, Bacchiocchi, dates Sabbath abandonment in Rome and Alexandria to the early 2nd century, so no published position sustains the universal quantifier. Per charter §6.3, multiple independent counterexamples yield discredited as written."
+        }
+      ],
+      "ruling_as_written": "discredited",
+      "failing_component_kind": "fact",
+      "weakened_version": "For several centuries large parts of the Christian world, above all the East, continued to keep the seventh-day Sabbath alongside the rising observance of Sunday.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 4,
+      "confidence": "high",
+      "minority_engagement": "The Phase-1 defender (adversarial/gc_ch03.defended.json, verdict_downgraded) made two moves that must be answered. (1) Over-literalization: 'kept' need not mean 'kept exclusively,' since Sabbath and Sunday coexisted. Answer: the counterexamples are communities that did not keep the Sabbath at all (Justin's Gentile congregations, 'you observe no festivals or sabbaths'; Barnabas's circle), so even a non-exclusive reading of 'kept by all' fails. (2) Socrates (HE 5.22) and Sozomen (HE 7.19) attest near-universal Sabbath assembly into the 5th century. Answer: this is the strongest evidence FOR the weakened version and is adopted for it, but Socrates's own sentence excepts 'the Christians of Alexandria and at Rome... on account of some ancient tradition'; the exception clause itself defeats 'all Christians,' and 'ancient tradition' pushes the Roman/Alexandrian non-observance back centuries. Bacchiocchi's monograph, cited by the defender as keeping the debate live, in fact concedes 2nd-century Sunday-only practice in the two named centers. The defense therefore succeeds for the weakened claim and fails for the printed absolute.",
+      "source_quality": "academic-full",
+      "sources": [
+        {"ref": "Justin, 1 Apology 67 and Dialogue 10 (ANF vol. 1, local, lines 16410 and 17727); Barnabas 15 (local, line 13071); Ignatius, Magn. 9 short and long recensions (local, lines 5806, 5832)", "tier": "primary-in-context", "independence_note": "Independent 2nd-century witnesses from Rome, Alexandria-milieu and Asia Minor; standard scholarly edition."},
+        {"ref": "Socrates Scholasticus HE 5.22; Sozomen HE 7.19 (NPNF2-02; newadvent.org/fathers/26015.htm)", "tier": "primary-in-context", "independence_note": "Carries the weakened version; genealogically independent of the 2nd-century witnesses."},
+        {"ref": "S. Bacchiocchi, From Sabbath to Sunday ch. 6 (local): 2nd-century Roman/Alexandrian abandonment of Sabbath", "tier": "academic", "independence_note": "Sabbatarian minority scholar conceding the counterexample against interest."},
+        {"ref": "R. Bauckham in Carson (ed.) 1982: Sunday observance 'already normal Christian practice at the beginning of the second century' with no record of non-observing groups except one Ebionite faction", "tier": "academic", "independence_note": "Mainstream synthesis independent of both confessional poles."}
+      ],
+      "would_change_this": "A re-dating of Barnabas and Justin's evidence to a later period, or new documentary evidence that the Gentile churches of Rome and Alexandria kept the seventh-day Sabbath through the 2nd century, would reopen the as-written ruling.",
+      "gap_note": null,
+      "notes": "Originally anachronistic (it does match Andrews's 1873 narrative); for synthesis this improbable-family ruling qualifies for the period_standard tag. Largest framing gap in the dossier (1 to 5)."
+    },
+    {
+      "id": "GC-35-076",
+      "dossier": "D02",
+      "quantifier_audit": ["But in fact", "the source whence it proceeded"],
+      "components": [
+        {
+          "component": "The 1201 Sunday roll actually proceeded from the pontifical palace at Rome.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Asserted as fact ('in fact') on no documentary basis. The roll is a recension of the 'Letter from Heaven' apocryphon attested from the 6th century (condemned by Licinianus of Cartagena, c. 584), circulating across the Greek, Latin, Irish and Old English worlds as a chain letter; its origin is unknown and no scholarship locates it in the papal curia (Priebsch 1936; Lees 1985; Haines 2010; NASSCAL). The contemporary source for Eustace's campaign (Roger of Howden) has no papal provenance; the pope enters only through the later Matthew Paris tradition, which transmits the legend's own framing. The papacy is meanwhile documented condemning a heaven-letter at the Roman synod of 745 (Zachary vs. Aldebert). Not discredited outright, because a negative about a single roll's transmission path cannot be decisively proven and one medieval chronicle does connect the promulgation to papal commission."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "The Sunday roll was a human clerical forgery, a version of the centuries-old 'Letter from Heaven,' deployed by churchmen to enforce Sunday observance rather than a message from heaven.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "medium",
+      "minority_engagement": "The strongest defense is Andrews's inference chain (History of the Sabbath, 1873, pp. 388-390): Matthew Paris reports the epistle was referred 'to the judgment of the Roman pontiff,' who 'ordained heralds' including Eustace, therefore 'we trace the responsibility for this roll directly to the pope of Rome.' Its actual argument is real primary material and is engaged as such. It fails as provenance evidence: Paris wrote decades after 1201 and reproduces the abbot's own promotional narrative; the pope-frame is a recurring internal feature of the apocryphon's recensions (NASSCAL), not external attestation; the contemporary Howden, who personally heard Eustace at York, records no papal chain; and the letter's six-century prehistory excludes 13th-century curial authorship of the text itself. White additionally hardened Andrews's inference ('responsibility... directly to the pope') into a claim of physical origin ('the pontifical palace... was the source whence it proceeded').",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "NASSCAL e-Clavis, 'Epistle of Christ from Heaven' (nasscal.com)", "tier": "academic", "independence_note": "Scholarly apocrypha catalogue; independent of the Sabbath/Sunday polemic entirely."},
+        {"ref": "R. Priebsch, Letter from Heaven on the Observance of the Lord's Day (Oxford, 1936); C. Lees, 'The Sunday Letter and the Sunday Lists', Anglo-Saxon England 14 (1985); D. Haines, Sunday Observance and the Sunday Letter in Anglo-Saxon England (Brewer, 2010)", "tier": "academic", "independence_note": "The standard philological tradition on the letter; consulted via scholarly metadata and Cambridge Core; one genealogical line (Priebsch's successors), counted accordingly."},
+        {"ref": "Roman synod of 745 under Pope Zachary condemning Aldebert's heaven-letter (Boniface correspondence; Catholic Encyclopedia s.v. 'Pope St. Zachary')", "tier": "primary-in-context", "independence_note": "Documented papal condemnation of the genre, independent of the philological line."},
+        {"ref": "Roger of Howden, Annals, and Matthew Paris, Historia Major p. 201, via Andrews 1873 (local, lines 17686-17953)", "tier": "primary-in-context", "independence_note": "The medieval chronicle base, quoted verbatim in Andrews; Andrews's own inference is a position."}
+      ],
+      "would_change_this": "A papal chancery register, letter, or datable manuscript connecting the Eustace roll's production or dispatch to the Roman curia would move the ruling toward the claim; conversely, a critical edition establishing the roll's textual dependence on a non-Roman recension would push toward discredited.",
+      "gap_note": null,
+      "notes": null
+    },
+    {
+      "id": "GC-03-039",
+      "dossier": "D02",
+      "quantifier_audit": ["the bishops of the church (collective definite)", "inspired by ambition and thirst for power"],
+      "components": [
+        {
+          "component": "Bishops urged Constantine to enact the Sunday law of 321.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "No contemporary evidence of episcopal urging exists. The law itself (CJ 3.12.2) names no instigator and uses neutral solar language; Eusebius (VC 4.18), the contemporary episcopal witness, attributes the ordinance to Constantine's own act ('He ordained...'). The modern debate (Girardet vs. Wallraff) is entirely about Constantine's own religiosity, not about episcopal lobbying, which no specialist asserts as documented. The urging cannot be decisively excluded (private counsel leaves no trace; Ossius of Cordoba was at court), which is why the ruling is improbable rather than discredited."
+        },
+        {
+          "component": "The bishops were 'inspired by ambition and thirst for power,' seeking a shared festival to promote nominal pagan acceptance and advance the church's power and glory.",
+          "kind": "motive",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Undocumented motive attribution. Per charter §3 as amended, the cap is improbable only if the rival motive account has documentary support; it does: the law's own 'dies solis' framing is documentary, and Eusebius's contemporary account attributes the unifying-missionary aim to Constantine himself ('his earnest desire being gradually to lead all mankind to the worship of God', VC 4.18). The motive component therefore caps at improbable."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "tied_kinds": ["fact", "motive"],
+      "weakened_version": "Church leaders welcomed and reinforced Constantine's Sunday legislation, which served the church's growth by easing pagans into Christian observance.",
+      "ruling_weakened": "probable",
+      "framing_gap": 2,
+      "confidence": "medium",
+      "minority_engagement": "The strongest position toward the claim is K. M. Girardet ('Vom Sonnen-Tag zum Sonntag', ZAC 2007): the 321 law was Christian in substance, continuous with Constantine's church-favoring legislation of 312/313, which makes Christian input at court (Ossius) historically plausible. Engaged and partially conceded: Girardet strengthens the plausibility of episcopal influence but supplies no document of urging, and himself treats the law as the emperor's measure. On the other flank, sabbatarian-leaning analysts themselves conclude the influence likely ran the other way (Eusebius deriving his Sunday-rest theology from the law). The 'ambition and thirst for power' smear has no documentary basis on any side; White's own period sources carried it as Protestant polemic, not evidence.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "Eusebius, Vita Constantini 4.18 (NPNF2-01, local: scholarship/npnf2-01-eusebius-church-history-life-constantine.txt, lines 62365-62388)", "tier": "primary-in-context", "independence_note": "Contemporary episcopal account attributing act and motive to Constantine; read with its known panegyric bias."},
+        {"ref": "Constantine's law, CJ 3.12.2 (Ayer, Source Book, local, lines 13263-13273)", "tier": "primary-in-context", "independence_note": "The legislative text itself; no ecclesiastical instigator, solar denomination."},
+        {"ref": "K. M. Girardet, 'Vom Sonnen-Tag zum Sonntag', Zeitschrift für Antikes Christentum (De Gruyter, 2007); M. Wallraff, 'Constantine's Devotion to the Sun after 324' (LMU repository); U. Agnati, 'Constantine's Statutes on Sunday Rest', Calumet 1 (2015)", "tier": "academic", "independence_note": "The two poles of the modern motive debate plus a juridical study; mutually independent, none asserts episcopal urging."}
+      ],
+      "would_change_this": "Any contemporary document (council minutes, episcopal correspondence, a court source) showing bishops petitioning Constantine for the 321 law would move the fact component; documentary evidence of episcopal deliberation about attracting pagans via a shared day would move the motive component.",
+      "gap_note": null,
+      "notes": "Fact and motive components tie at the minimum; failing_component_kind takes fact by the §3 priority, tie recorded."
+    },
+    {
+      "id": "GC-03-050",
+      "dossier": "D02",
+      "quantifier_audit": ["had its origin in (exclusive genealogy)"],
+      "components": [
+        {
+          "component": "Sunday observance as a Christian institution rests on no command of Christ or the apostles recorded in Scripture and became an obligatory institution through post-biblical development.",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Agreed across the spectrum: the Carson volume (defending Sunday) concludes the NT nowhere transfers Sabbath obligation to Sunday and knows no Sunday command; Rordorf dates the rest-obligation to Constantine and after; the Catholic catechetical tradition grounds the change in church authority precisely because a scriptural command is absent."
+        },
+        {
+          "component": "Sunday observance did not stem from apostolic practice or sanction, but from a post-apostolic development (the institution as the child of the corrupting process, not of the apostles).",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "genuinely-open",
+          "rationale": "Qualified scholars disagree on comparable evidence. For apostolic-era origin: Rordorf (1962), Bauckham (1982, arguing from early ubiquity without controversy), Llewelyn (Novum Testamentum 2001, reading Acts 20:7, 1 Cor 16:2, Rev 1:10 as evidence of Sunday meetings). Against its demonstrability: N. H. Young's response (Novum Testamentum 2003, Adventist-located but peer-validated venue) arguing the NT texts do not establish Sunday observance; Bacchiocchi's post-apostolic dating; and the independent methodological caution of Bradshaw (Oxford UP 2002) that early uniform-practice reconstructions outrun the evidence. The disagreement does not reduce to confessional alignment (Bradshaw is not a party to the Sabbath question), and the three NT texts genuinely underdetermine the answer."
+        },
+        {
+          "component": "That development was the 'mystery of lawlessness' of 2 Thess 2, i.e. an apostasy/corruption relative to the abiding Sabbath obligation, already at work in Paul's day.",
+          "kind": "hermeneutic",
+          "in_scope": false,
+          "rationale": "A prophetic identification conditional on the theological status of the Sabbath and on the reading of 2 Thess 2; this adjudication does not evaluate it (§9). The claim-level ruling is expressly conditional: it covers the historical genealogy, not the apostasy characterization."
+        }
+      ],
+      "ruling_as_written": "genuinely-open",
+      "failing_component_kind": "fact",
+      "weakened_version": "Sunday observance as an obligatory Christian institution is not commanded in Scripture and developed gradually in the early post-apostolic church.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 2,
+      "confidence": "medium",
+      "minority_engagement": "Both sides documented per §1's requirement for genuinely-open: apostolic-origin case (Rordorf; Bauckham's ubiquity-without-controversy argument; Llewelyn 2001) versus non-demonstrability case (Young 2003 in Novum Testamentum; Bacchiocchi 1977; Bradshaw's Oxford UP methodological caution). Neither side holds decisive primary evidence: the NT texts are individually ambiguous, and the earliest unambiguous witnesses (Barnabas, Ignatius, Justin) postdate the apostles by one to three generations.",
+      "source_quality": "academic-full",
+      "sources": [
+        {"ref": "S. R. Llewelyn, 'The Use of Sunday for Meetings of Believers in the New Testament', Novum Testamentum 43 (2001) 205-223; N. H. Young, 'A Response', Novum Testamentum 45 (2003) (JSTOR 1561012)", "tier": "academic", "independence_note": "A single peer-reviewed exchange carrying both sides; Young's Adventist location noted, venue peer-validated (§4.1)."},
+        {"ref": "P. Bradshaw, The Search for the Origins of Christian Worship (Oxford UP, 2002)", "tier": "academic", "independence_note": "Non-confessional liturgical scholarship; independent of the Sabbatarian debate."},
+        {"ref": "R. Bauckham in Carson (ed.), From Sabbath to Lord's Day (1982); W. Rordorf, Sunday (1968)", "tier": "academic", "independence_note": "The apostolic-origin mainstream; two related but distinct lineages (Bauckham engages Rordorf critically)."}
+      ],
+      "would_change_this": "New early evidence fixing the reference of Acts 20:7 / 1 Cor 16:2 / Rev 1:10 (e.g., a 1st-century papyrus attesting weekly first-day assembly, or conversely early evidence of exclusively Sabbath-based assembly in Pauline churches) would close the open component in either direction.",
+      "gap_note": null,
+      "notes": "Only claim in the dossier whose as-written ruling stays at genuinely-open; the hermeneutic core ('mystery of lawlessness') is out of scope, and the ruling is conditional as stated in the component record."
+    }
+  ]
+}
