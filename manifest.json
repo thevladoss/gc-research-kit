@@ -2797,7 +2797,25 @@
         "claims": 6,
         "load_bearing": 0,
         "academic_floor": true,
-        "status": "pending"
+        "status": "done",
+        "ruling_file": "adjudication/D07_rome-and-the-bible.ruling.json",
+        "rulings_as_written": {
+          "improbable": 5,
+          "discredited": 1
+        },
+        "rulings_weakened": {
+          "well-supported": 6
+        },
+        "framing_gaps": {
+          "3": 5,
+          "4": 1
+        },
+        "failing_component_kind_accusatory": {
+          "fact": 6
+        },
+        "gap_notes": [],
+        "searches": "searches: ~13 (11 shared: 10 WebSearch + 1 WebFetch",
+        "updated_at": "2026-07-05T17:50:25Z"
       },
       "D08": {
         "slug": "immortality-genealogy",
