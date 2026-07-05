@@ -1,0 +1,145 @@
+{
+  "dossier": "D05",
+  "slug": "pella-flight-ad70",
+  "stage": "adjudication",
+  "charter_version": "1.1-frozen",
+  "generated_at": "2026-07-05",
+  "notes": "searches: ~9 (8 shared, 1 straggler for GC-01-079); WebFetch: 4 attempts, 1 substantive (Wikipedia 'Flight to Pella'; Koester PDF, IPFS mirror, preteristarchives blocked/empty). Local scholarship replaced searches on the primary tradition: NPNF II/1 Eusebius HE 3.5.3 with McGiffert's notes 631 and the HE 4.5 apparatus (scholarship/npnf2-01-eusebius-church-history-life-constantine.txt). No Phase-1 defense objects existed for the three claims (disputed skipped the defender stage), so §7.4 engagement targets the verifier rationales, which this file confirms and extends.",
+  "evidence_review": "PRIMARY SOURCES. The flight tradition rests on two late witnesses. Eusebius, Hist. eccl. 3.5.3 (c. 324; local text, NPNF II/1 lines 13569-13576): 'the people of the church in Jerusalem had been commanded by a revelation, vouchsafed to approved men there before the war, to leave the city and to dwell in a certain town of Perea called Pella'; the sequel — 'as if the royal city of the Jews and the whole land of Judea were entirely destitute of holy men, the judgment of God at length overtook' the nation — is theological framing, not a casualty report, and Eusebius places the departure 'before the war', not at any specific military window. Epiphanius (c. 375) attests the move three times (Panarion 29.7.7-8; 30.2.7 'Pella of the Decapolis'; De mensuris et ponderibus 15, angelic warning), possibly dependent on Eusebius or on a shared source sometimes identified as Aristo of Pella (a 2nd-c. Pella author known from HE 4.6; McGiffert n.1013). No source earlier than Eusebius mentions the flight. Josephus supplies the military frame without ever mentioning Christians: BJ 2.18.1, Jewish rebels sack Pella among other Decapolis cities in reprisal for the Caesarea massacre (66); BJ 2.19.7-9, Cestius Gallus's unexplained withdrawal from Jerusalem (Nov 66) and the rout at Beth Horon; BJ 2.20.1, immediately after the retreat 'many of the most eminent of the Jews swam away from the city, as from a ship when it was going to sink' — a real, used departure window. MODERN DEBATE. Until 1951 the Eusebian notice was taken broadly at face value. S. G. F. Brandon (The Fall of Jerusalem and the Christian Church, 1951) rejected it: the Jerusalem Christians sympathized with their compatriots and largely shared the city's fate; Pella, a Gentile city sacked by Jewish forces in 66, is an implausible refuge; the story arose later to explain Christian survival. Gerd Lüdemann ('The Successors of Pre-70 Jerusalem Christianity', 1980) reads the tradition as the origin-legend of the Pella Jewish-Christian community claiming Jerusalem pedigree; Jozef Verheyden (1988; ETL 1990) argues Eusebius composed the notice for his apologetic presentation of the war. Defenders of a historical kernel: Sidney Sowers (TZ 26, 1970 — the flight is plausible precisely in the window after Cestius's withdrawal), Marcel Simon (1972), Craig Koester (CBQ 51, 1989 — Epiphanius and the Pseudo-Clementine Recognitions preserve strands independent of Eusebius, so the tradition more likely recalls first-century events), P. H. R. van Houwelingen ('Fleeing Forward', WTJ 65, 2003), Jonathan Bourgel (in Jaffé ed., Studies in Rabbinic Judaism and Early Christianity, Brill 2010, 107-138 — the move was a pragmatic choice within documented Roman handling of deserters, dated late spring 68, answering Brandon's sack-of-Pella objection via Roman protection/resettlement). The defenders disagree among themselves on the date (66 post-Cestius; 68; 'before the war'), which shows the specific Cestius-window linkage is a harmonization, not source data. Pella excavations (R. H. Smith) produced no unambiguous first-century Christian material; standard surveys describe the historicity question as unresolved, with qualified scholarship on both sides of comparable evidential quality. THE ABSOLUTE'S PEDIGREE. No ancient source asserts that no Christian died in AD 70; Eusebius does not, and Josephus names no Christian victims (he never identifies Christians in the war narrative at all — the silence cuts both ways). The zero-casualty universal enters the literature as a pre-critical homiletic inference: Henry Hammond (1659), Thomas Newton (Dissertations on the Prophecies, 1754: 'we do not read any where that so much as one of them perished' — explicitly an argument from silence), hardened by Adam Clarke (Commentary on Matt 24: 'not a single Christian perished in the destruction of Jerusalem, though there were many there when Cestius Gallus invested the city', with the same Cestius-window harmonization GC uses) and Charles Finney (1852). White's sentence reproduces Clarke's formula nearly verbatim; both the absolute and the Cestius harmonization are period-standard commentary tradition of 1844/1911. No modern scholar defends the zero; even the kernel-defenders claim only a community departure, and the tradition's own reception notes exceptions (the survey literature holds the flight 'probably did not include the Ebionites'). WHAT CHANGED SINCE THE 19TH CENTURY: Brandon ended the face-value reading; the field split into a skeptical school (aetiological legend / Eusebian apologetic) and kernel-defenders (Koester, Bourgel), with the balance still open; the zero-casualty claim, never ancient to begin with, dropped out of scholarship entirely.",
+  "narrative_ru": "Досье разбирает рассказ «Великой борьбы» о судьбе христиан при гибели Иерусалима: ни один христианин не погиб, община бежала в Пеллу за Иорданом, а окно для бегства открыл отход Цестия Галла в 66 году. Отход Цестия и преследование его армии Иосиф Флавий описывает подробно, и знатные жители города в тот момент действительно уходили из него. Сам уход общины в Пеллу засвидетельствован только Евсевием и Епифанием спустя столетия; после книги Брэндона 1951 года историки спорят о его реальности (скептики Людеманн и Верхейден против защитников ядра традиции Кёстера и Бургеля), и спор не решён. Абсолют «ни один не погиб» не встречается ни у одного древнего автора: Евсевий его не утверждает, формула родилась у комментаторов XVII–XIX веков (Хаммонд, Ньютон, Кларк) как довод от молчания и попала в книгу почти дословно из этой традиции. Как написано, утверждение о нулевых потерях получило оценку «improbable»; ослабленные версии (община в основном спаслась; окно для ухода было реальным) стоят от «genuinely-open» до «well-supported». Картину изменили бы находки следов иудео-христианских беженцев I века в Пелле или доевсевиевский источник о судьбе иерусалимской общины.",
+  "rulings": [
+    {
+      "id": "GC-01-079",
+      "dossier": "D05",
+      "quantifier_audit": ["Not one"],
+      "components": [
+        {
+          "component": "The Jerusalem Christian community escaped the destruction by withdrawing from the city before the siege (the Pella-flight substrate the sentence presupposes)",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "genuinely-open",
+          "rationale": "Eusebius HE 3.5.3 (local NPNF text) and Epiphanius attest a commanded withdrawal; historicity contested since Brandon 1951. Skeptics (Brandon; Lüdemann 1980; Verheyden 1988/1990) read the notice as the Pella community's legitimation legend or Eusebian apologetic; defenders (Sowers 1970; Simon 1972; Koester CBQ 1989; van Houwelingen WTJ 2003; Bourgel, Brill 2010) argue partially independent Epiphanian/Pseudo-Clementine strands and a plausible refugee context. Qualified scholarship on both sides, comparable evidential quality, no decisive evidence either way (Pella excavations inconclusive)."
+        },
+        {
+          "component": "Zero Christians, without exception, died in the destruction of Jerusalem (population-level universal statistic)",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "No ancient source asserts this. Eusebius's 'as if the royal city... were entirely destitute of holy men' is theological rhetoric, not a casualty census, and he places the departure 'before the war'. The absolute originates as a 17th-19th-century homiletic argument from silence (Hammond 1659; Newton 1754: 'we do not read any where that so much as one of them perished'; hardened by Clarke into the positive universal White reproduces nearly verbatim; Finney 1852). No modern scholar defends the zero: the kernel-defenders claim only a community departure; the survey literature notes the flight probably did not include all groups (Ebionites); the skeptical school positively argues much of the church remained and perished or was absorbed (Brandon). Charter §6.2: a 'not one' claim requires population-level evidence, which does not exist and, given the sources (Josephus never identifies Christians in the war narrative), cannot exist. Burden unmet plus a live scholarly school asserting the contrary event-structure = clear preponderance against the claim as written. No documented counterexample (no named Christian death) exists either, which blocks 'discredited'."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "The Jerusalem Christian community largely escaped the destruction of the city, having withdrawn — according to a tradition first attested by Eusebius — before the siege of Titus.",
+      "ruling_weakened": "genuinely-open",
+      "framing_gap": 1,
+      "confidence": "medium",
+      "minority_engagement": "The strongest case for the claim as written is the pre-critical commentary tradition (Hammond 1659; Newton 1754; Clarke; Finney 1852): no source records a Christian death in the siege, and Eusebius's notice implies wholesale departure. This fails on evidential quality: it is an argument from silence in sources that never tracked Christians as a category (Josephus names no Christians in the war narrative at all, so his silence about Christian deaths carries no census weight), and Newton's own wording — a statement about the record ('we do not read any where...') — was later hardened into a statement about the event. The strongest modern adjacent defenses (Koester 1989; van Houwelingen 2003; Bourgel 2010) defend only a community departure and never assert zero deaths; the reception itself allows exceptions (Ebionites). Symmetrically, the skeptical school cannot document a single named Christian death either — hence improbable, not discredited, and the evidential asymmetry is acknowledged rather than papered over: 'genuinely-open' is unavailable because no qualified scholar occupies the pro-side of the zero-claim, so there is no documented two-sided disagreement about it. No Phase-1 defense object exists for this claim; the verifier's 'stronger, unverifiable generalization' point is incorporated and sharpened by the pedigree evidence.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "Eusebius, Hist. eccl. 3.5.3, NPNF II/1 with McGiffert n.631 (local: scholarship/npnf2-01-eusebius-church-history-life-constantine.txt, lines 13569-13576, 13643-13647)", "tier": "primary-in-context", "independence_note": "Earliest witness and root of the whole tradition; asserts a commanded departure 'before the war', never a zero-casualty outcome."},
+        {"ref": "C. R. Koester, 'The Origin and Significance of the Flight to Pella Tradition', CBQ 51 (1989) 90-106 (JSTOR 43717832; digitalcommons.luthersem.edu)", "tier": "academic", "independence_note": "Kernel-defending critical study, independent of the homiletic reception line; its maximal claim is a community departure, not a census."},
+        {"ref": "S. G. F. Brandon, The Fall of Jerusalem and the Christian Church (1951); G. Lüdemann, 'The Successors of Pre-70 Jerusalem Christianity' (1980); J. Verheyden (1988/1990) — engaged via search-level summaries and Koester's/Wikipedia's reports of their arguments", "tier": "academic", "independence_note": "Skeptical school, genealogically independent of both the Eusebian reception and the kernel-defenders; positively contradicts the total-escape substrate."},
+        {"ref": "T. Newton, Dissertations on the Prophecies (1754) and A. Clarke, Commentary on Matt 24, public-domain texts via theolivetdiscourse.com / truthaccordingtoscripture.com; Hammond 1659 and Finney 1852 per the survey at adammaarschalk.com (2017)", "tier": "position", "independence_note": "Pedigree evidence: documents the absolute's origin as a homiletic argument from silence, dependent on Eusebius reception; cited as positions/primary texts of the reception, not as arbiters."},
+        {"ref": "Josephus, BJ Bks. 5-6 (siege narrative; no Christian identified among the dead or the survivors)", "tier": "primary-in-context", "independence_note": "Shows the evidence base cannot support population-level claims in either direction; independent of the Christian tradition entirely."}
+      ],
+      "would_change_this": "A datable pre-Eusebian text asserting the whole Jerusalem church escaped, or a peer-reviewed prosopographical study of the community's fate in 66-70, would raise the as-written ruling; one well-provenanced attestation of a named Christian death in the siege would lower it to discredited. Resolution of the Pella-historicity debate (e.g., first-century Jewish-Christian material from the Pella excavations, or consensus acceptance of Verheyden's invention thesis) would move the weakened ruling.",
+      "gap_note": null,
+      "notes": "period_standard candidate for synthesis: the as-written absolute and its wording match the standard 18th-19th-century commentary tradition (Newton, Clarke) available in 1888/1911. Load-bearing: ch.1 ¶48 builds the deliverance typology ('as in the time of Jerusalem's destruction, God's people will be delivered') on this claim; the weakened version supports the typology only in a softened form."
+    },
+    {
+      "id": "GC-01-082",
+      "dossier": "D05",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "Upon Cestius's retreat (Nov 66) the Jews sallied from Jerusalem and pursued his retiring army",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Josephus BJ 2.19.7-9: the unexplained withdrawal and the pursuit ending in the Beth Horon rout (c. 5,300 infantry lost, an eagle taken). Textbook narrative, uncontested."
+        },
+        {
+          "component": "While the forces were engaged, a real window existed to leave the city, and it was used",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Josephus BJ 2.20.1, immediately after the retreat: 'many of the most eminent of the Jews swam away from the city, as from a ship when it was going to sink.' The departure window is documented and documentedly used; if Christians were in the city (their pre-war presence is accepted on all sides of the Pella debate, including Brandon's), the opportunity extended to them."
+        },
+        {
+          "component": "The Jerusalem Christians were then in the city and used precisely this window as the occasion of their escape (the harmonization with the Pella tradition, asserted by the paragraph's narrative sequence)",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "genuinely-open",
+          "rationale": "Presupposes the contested flight and dates it to Nov 66, which no ancient source does: Eusebius says 'before the war', Epiphanius 'when the city was about to be captured'. Modern defenders of the flight split on the date — Sowers (1970) argues precisely the post-Cestius window, Bourgel (2010) argues late spring 68 under Roman resettlement of deserters — while the skeptical school denies the flight altogether. The Cestius-window linkage is an 18th-19th-century commentary harmonization (Clarke uses the identical construction), plausible if the flight is historical, but underdetermined by the sources."
+        }
+      ],
+      "ruling_as_written": "genuinely-open",
+      "failing_component_kind": "fact",
+      "weakened_version": "Cestius's unexplained withdrawal and the Jewish pursuit in November 66 opened a real window in which Jerusalem's inhabitants — Christians among them, if the community was still in the city — could leave; Josephus records many prominent residents departing at exactly this point.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 2,
+      "confidence": "medium",
+      "minority_engagement": "n/a — no accusatory ruling and the weakened well-supported is uncontested (no published position denies Josephus's account of the retreat, the pursuit, or the post-retreat departures). Both relevant minorities are documented in evidence_review: Brandon's school denies any Christian flight; the defenders disagree internally on whether the flight used this window (Sowers) or came later (Bourgel). No Phase-1 defense object exists; the verifier's split verdict (Josephus-half solid, Christian-half contested) is confirmed and refined into components.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "Josephus, BJ 2.19.7-9 (Whiston tr., ccel.org / penelope.uchicago.edu)", "tier": "primary-in-context", "independence_note": "Sole detailed ancient account of the campaign; pro-Flavian bias noted but irrelevant to the bare event sequence."},
+        {"ref": "Josephus, BJ 2.20.1 ('many of the most eminent of the Jews swam away from the city, as from a ship when it was going to sink')", "tier": "primary-in-context", "independence_note": "Same author, but a distinct datum: documents the window's actual use by non-Christians; confirmed via josephus.org campaign chronology and standard translations."},
+        {"ref": "Eusebius, Hist. eccl. 3.5.3 (local NPNF text)", "tier": "primary-in-context", "independence_note": "Independent of Josephus; notably does NOT date the departure to the Cestius window ('before the war')."},
+        {"ref": "S. Sowers, 'The Circumstances and Recollection of the Pella Flight', TZ 26 (1970) 305-320; J. Bourgel, in Jaffé (ed.), Studies in Rabbinic Judaism and Early Christianity (Brill 2010) 107-138", "tier": "academic", "independence_note": "Two flight-defenders with incompatible datings (post-Cestius 66 vs spring 68) — direct evidence that the timing is scholarly reconstruction, not source data."},
+        {"ref": "A. Clarke, Commentary on Matt 24 ('when Cestius Gallus... raised the siege, the Christians took that opportunity to escape')", "tier": "position", "independence_note": "Pedigree of the harmonization: period-standard commentary White's construction mirrors; reception-dependent on Eusebius."}
+      ],
+      "would_change_this": "A critical demonstration that Eusebius's source (possibly Aristo of Pella) dated the community's departure to the aftermath of Cestius's retreat would raise the harmonization component to probable; consensus acceptance of Verheyden's thesis that the flight notice is Eusebian invention would lower the claim toward improbable.",
+      "gap_note": null,
+      "notes": "Read minimally ('an opportunity existed for any Christians present'), the printed sentence would rate probable/well-supported; ruled here in paragraph context, where it narrates the actual escape occasion. The harmonization matches period-standard commentary (Clarke) — relevant to synthesis only if the ruling were accusatory, which it is not."
+    },
+    {
+      "id": "GC-01-084",
+      "dossier": "D05",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "The Jerusalem Christians left the city and settled at Pella (historicity of the Pella flight)",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "genuinely-open",
+          "rationale": "The core debate. Against: Brandon 1951 (Christians shared the city's fate; Pella, sacked by Jewish rebels in 66 per BJ 2.18.1, implausible refuge), Lüdemann 1980 (legitimation legend of the Pella community), Verheyden 1988 (Eusebian apologetic construction). For: Koester CBQ 1989 (Epiphanian/Pseudo-Clementine strands partially independent of Eusebius preserve a first-century recollection), Bourgel Brill 2010 (pragmatic move within documented Roman handling of deserters, answering the sack objection via Roman protection), van Houwelingen WTJ 2003, Sowers 1970, Simon 1972. Comparable evidential quality; no decisive evidence; Pella excavations (R. H. Smith) inconclusive."
+        },
+        {
+          "component": "Pella lay beyond the Jordan, in the land of Perea",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Verbatim Eusebian geography: 'a certain town of Perea called Pella' (HE 3.5.3, local text); McGiffert n.631: 'beyond the Jordan, in the north of Perea', citing Pliny NH 5.18 and Josephus BJ 3.3.3 (Perea's northern frontier at Pella). Epiphanius calls it 'Pella of the Decapolis'; the Perea/Decapolis overlap is a border nuance at worst, not an error."
+        },
+        {
+          "component": "'Without delay they fled to a place of safety' — the flight as prompt escape to a safe refuge",
+          "kind": "frame",
+          "in_scope": true,
+          "ruling": "genuinely-open",
+          "rationale": "Inherits the openness of the flight itself; additionally, the tempo ('without delay') is not in the ancient sources, and Pella's safety is itself a debated point — Brandon's objection that Jewish forces had sacked the city in 66 (BJ 2.18.1) stands against Bourgel's answer that Roman control made trans-Jordan a documented refuge zone for deserters."
+        }
+      ],
+      "ruling_as_written": "genuinely-open",
+      "failing_component_kind": "fact",
+      "tied_kinds": ["fact", "frame"],
+      "weakened_version": "A substantial part of the Jerusalem Christian community left the city during the revolt and settled at Pella beyond the Jordan.",
+      "ruling_weakened": "genuinely-open",
+      "framing_gap": 0,
+      "confidence": "medium",
+      "minority_engagement": "n/a — ruling is genuinely-open, which itself rests on documenting both qualified minorities: the skeptical school (Brandon, Lüdemann, Verheyden — the tradition as legend or apologetic construction, the sack-of-Pella objection) and the kernel-defenders (Koester, Bourgel, van Houwelingen, Sowers, Simon — partially independent attestation strands, plausible refugee context). Neither side commands decisive evidence, and the disagreement does not reduce to confessional alignment. No Phase-1 defense object exists; the verifier's rationale (geography sound, flight contested) is confirmed with the component split made explicit.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "Eusebius, Hist. eccl. 3.5.3 with McGiffert nn.631, 692-693 (local: scholarship/npnf2-01-eusebius-church-history-life-constantine.txt)", "tier": "primary-in-context", "independence_note": "Earliest witness; source of White's exact geographic phrasing."},
+        {"ref": "Epiphanius, Panarion 29.7.7-8; 30.2.7; De mensuris et ponderibus 15 (texts via Wikipedia 'Flight to Pella' and McGiffert's apparatus)", "tier": "primary-in-context", "independence_note": "Second ancient witness; independence from Eusebius is itself contested (common source Aristo of Pella?) — Koester argues partial independence, skeptics dependence; counted cautiously as at most semi-independent."},
+        {"ref": "C. R. Koester, CBQ 51 (1989) 90-106", "tier": "academic", "independence_note": "Kernel defense; independent modern examination of the attestation strands."},
+        {"ref": "J. Bourgel, 'The Jewish Christians' Move from Jerusalem as a Pragmatic Choice', in D. Jaffé (ed.), Studies in Rabbinic Judaism and Early Christianity (Brill, 2010) 107-138", "tier": "academic", "independence_note": "Peer-reviewed venue; defends historicity on grounds (Roman resettlement policy) independent of Koester's source-critical argument."},
+        {"ref": "S. G. F. Brandon (1951); G. Lüdemann (1980); J. Verheyden (1988/1990)", "tier": "academic", "independence_note": "Skeptical school; genealogically independent of the defenders and of the confessional reception."},
+        {"ref": "Josephus, BJ 2.18.1 (Jewish reprisal raids on Decapolis cities incl. Pella, 66)", "tier": "primary-in-context", "independence_note": "Independent of the Christian tradition; supplies Brandon's strongest material objection."}
+      ],
+      "would_change_this": "Unambiguous first-century Jewish-Christian material from the Pella excavations would move the ruling toward probable/well-supported; a demonstration that Epiphanius wholly depends on Eusebius plus consensus acceptance of the invention thesis would move it toward improbable.",
+      "gap_note": null,
+      "notes": "The geography component is verbatim Eusebian and uncontested; only the flight event and its framing keep the claim open."
+    }
+  ]
+}

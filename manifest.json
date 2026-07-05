@@ -2726,7 +2726,27 @@
         "claims": 3,
         "load_bearing": 1,
         "academic_floor": false,
-        "status": "pending"
+        "status": "done",
+        "ruling_file": "adjudication/D05_pella-flight-ad70.ruling.json",
+        "rulings_as_written": {
+          "improbable": 1,
+          "genuinely-open": 2
+        },
+        "rulings_weakened": {
+          "genuinely-open": 2,
+          "well-supported": 1
+        },
+        "framing_gaps": {
+          "1": 1,
+          "2": 1,
+          "0": 1
+        },
+        "failing_component_kind_accusatory": {
+          "fact": 1
+        },
+        "gap_notes": [],
+        "searches": "searches: ~9 (8 shared, 1 straggler for GC-01-079)",
+        "updated_at": "2026-07-05T17:25:00Z"
       },
       "D06": {
         "slug": "eden-sabbath",
