@@ -2875,7 +2875,30 @@
         "claims": 8,
         "load_bearing": 0,
         "academic_floor": true,
-        "status": "pending"
+        "status": "done",
+        "ruling_file": "adjudication/D10_constantinian-fall-and-syncretism.ruling.json",
+        "rulings_as_written": {
+          "discredited": 1,
+          "probable": 2,
+          "improbable": 5
+        },
+        "rulings_weakened": {
+          "well-supported": 7,
+          "probable": 1
+        },
+        "framing_gaps": {
+          "4": 1,
+          "1": 2,
+          "3": 4,
+          "2": 1
+        },
+        "failing_component_kind_accusatory": {
+          "fact": 4,
+          "frame": 2
+        },
+        "gap_notes": [],
+        "searches": "searches: ~11 (10 shared, 1 straggler for GC-02-053)",
+        "updated_at": "2026-07-05T18:10:44Z"
       },
       "D11": {
         "slug": "papal-doctrine-continuity",
