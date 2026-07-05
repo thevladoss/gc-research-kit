@@ -267,7 +267,7 @@
         "extract": "done",
         "verify": "done",
         "defend": "done",
-        "impact": "pending"
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -301,9 +301,27 @@
           "verdict_downgraded": 2,
           "defense_failed": 3,
           "searches": 2
+        },
+        "impact": {
+          "scored": 5,
+          "load_bearing": 0,
+          "top_impact": [
+            {
+              "id": "GC-03-032",
+              "score": 10
+            },
+            {
+              "id": "GC-03-024",
+              "score": 9
+            },
+            {
+              "id": "GC-03-105",
+              "score": 8
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-05T08:29:10Z"
+      "updated_at": "2026-07-05T08:38:39Z"
     },
     "04": {
       "title": "The Waldenses",

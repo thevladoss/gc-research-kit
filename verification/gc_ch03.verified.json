@@ -1,0 +1,1808 @@
+{
+  "chapter": 3,
+  "chapter_title": "The Apostasy",
+  "stage": "verification",
+  "generated_at": "2026-07-05",
+  "notes": "Verification pass. searches: ~15, clusters: 9 (biblical-quote KJV set; Constantinian shift/paganism-into-church; Sabbath-to-Sunday history; papal supremacy rise incl. Justinian 533 & forged decretals; image worship/Second Nicaea & commandment numbering; Canossa/Gregory VII/Henry IV; medieval doctrines: immortality/purgatory/indulgences/mass/Inquisition; Dark Ages & martyr numbers; misc attributed phrases). Biblical KJV attributed_quotes verified against the King James text by common-knowledge fast-path (supported, empty sources). Control sample of 3 needs_verification:false claims re-checked: GC-03-013, GC-03-030, GC-03-108. Mandatory anachronism check applied to Sabbath/Sunday universality (traces to J.N. Andrews), Bible-suppression scope, the 'Dark Ages' stagnation thesis (traces to Wylie), and 'millions of martyrs' (traces to Dowling/Wylie). Extractor notes honored: GC-03-016 judged as doctrinal claim despite 'date' label; theological frames on 030/035/050/069/099/102 verified only on their historical core.",
+  "claims": [
+    {
+      "id": "GC-03-001",
+      "paragraph": 1,
+      "quote": "“except there come a falling away first, and that man of sin be revealed, the son of perdition; who opposeth and exalteth himself above all that is called God, or that is worshiped; so that he as God sitteth in the temple of God, showing himself that he is God.”",
+      "claim_text": "The apostle Paul wrote in his second letter to the Thessalonians that 'there come a falling away first, and that man of sin be revealed, the son of perdition; who opposeth and exalteth himself above all that is called God, or that is worshiped; so that he as God sitteth in the temple of God, showing himself that he is God' (2 Thessalonians 2:3-4).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul", "2 Thessalonians"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The wording matches 2 Thessalonians 2:3-4 in the King James Version verbatim, and Pauline authorship of 2 Thessalonians is the traditional attribution the text invokes. Quotation and attribution are accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-002",
+      "paragraph": 1,
+      "quote": "the mystery of iniquity doth already work.",
+      "claim_text": "Paul wrote to the Thessalonians that 'the mystery of iniquity doth already work' (2 Thessalonians 2:7).",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul", "2 Thessalonians"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Matches 2 Thessalonians 2:7 KJV ('For the mystery of iniquity doth already work'). Quotation accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-003",
+      "paragraph": 1,
+      "quote": "The apostle Paul, in his second letter to the Thessalonians, foretold the great apostasy which would result in the establishment of the papal power.",
+      "claim_text": "Paul's second letter to the Thessalonians foretold the great apostasy that would result in the establishment of the papal power.",
+      "claim_type": "theological",
+      "entities": ["Paul", "papacy"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Prophetic-interpretive claim: whether Paul 'foretold' the papacy is a theological reading of 2 Thessalonians 2, not an empirically checkable historical proposition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-004",
+      "paragraph": 1,
+      "quote": "Even at that early date he saw, creeping into the church, errors that would prepare the way for the development of the papacy.",
+      "claim_text": "In the apostolic era, Paul perceived errors creeping into the church that would prepare the way for the development of the papacy.",
+      "claim_type": "theological",
+      "entities": ["Paul", "papacy"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive claim about Paul's foresight of the papacy; a theological reading rather than a checkable fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-005",
+      "paragraph": 2,
+      "quote": "Almost imperceptibly the customs of heathenism found their way into the Christian church.",
+      "claim_text": "The customs of heathenism gradually and almost imperceptibly found their way into the early Christian church.",
+      "claim_type": "causal",
+      "entities": ["Christian church", "paganism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Scholarship on early Christianity documents gradual syncretism as the church expanded through the Greco-Roman world (adoption of festival dates, solar imagery, philosophical categories, cultic practices). The general characterization is well supported, though 'customs of heathenism' is a polemical frame for a real process.",
+        "sources": [
+          {"title": "Plato's Shadow: The Encroaching Doctrine of the Soul's Immortality in the Early Church (Humanities, MDPI)", "url": "https://www.mdpi.com/2076-0787/13/3/77", "source_class": "academic", "supports_verdict": true, "note": "Documents infiltration of pagan philosophical ideas into early Christian thought."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-006",
+      "paragraph": 2,
+      "quote": "The spirit of compromise and conformity was restrained for a time by the fierce persecutions which the church endured under paganism.",
+      "claim_text": "The spirit of compromise and conformity in the early church was restrained for a time by the persecutions the church endured under pagan Rome.",
+      "claim_type": "causal",
+      "entities": ["Christian church", "paganism", "persecution"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "That pre-Constantinian persecution reinforced Christian distinctiveness and that accommodation increased after toleration is a mainstream reading of the Constantinian shift. The causal claim is a defensible historiographical characterization.",
+        "sources": [
+          {"title": "Sabbath and Sunday in Early Christianity - GCI Archive", "url": "https://archive.gci.org/articles/sabbath-and-sunday-in-early-christianity/", "source_class": "other", "supports_verdict": true, "note": "Describes shifts in Christian practice as the church moved from persecuted minority to imperial favor."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-007",
+      "paragraph": 2,
+      "quote": "But as persecution ceased, and Christianity entered the courts and palaces of kings, she laid aside the humble simplicity of Christ and His apostles for the pomp and pride of pagan priests and rulers; and in place of the requirements of God, she substituted human theories and traditions.",
+      "claim_text": "As persecution of Christians ceased and Christianity entered the courts and palaces of kings, the church abandoned the simplicity of Christ and the apostles for the pomp of pagan priests and rulers, substituting human theories and traditions for the requirements of God.",
+      "claim_type": "causal",
+      "entities": ["Christian church", "Roman Empire"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The post-Constantinian adoption of imperial ceremony, clerical hierarchy and public splendor is documented; the claim's substance (institutional grandeur replacing early simplicity) is a defensible characterization, though 'substituted human theories for God's requirements' carries a Protestant theological judgment.",
+        "sources": [
+          {"title": "Sabbath in Christianity - Wikipedia", "url": "https://en.wikipedia.org/wiki/Sabbath_in_Christianity", "source_class": "encyclopedia", "supports_verdict": true, "note": "Covers the transformation of the church under imperial patronage."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-008",
+      "paragraph": 2,
+      "quote": "The nominal conversion of Constantine, in the early part of the fourth century, caused great rejoicing;",
+      "claim_text": "The nominal conversion of the Roman emperor Constantine occurred in the early part of the fourth century and caused great rejoicing.",
+      "claim_type": "date",
+      "entities": ["Constantine"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Constantine's conversion is conventionally dated to c. 312 (Battle of the Milvian Bridge) with the Edict of Milan in 313 — the early fourth century, as stated. A textbook-level fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-009",
+      "paragraph": 2,
+      "quote": "Paganism, while appearing to be vanquished, became the conqueror. Her spirit controlled the church.",
+      "claim_text": "After Constantine's conversion, paganism, while appearing to be vanquished, in effect became the conqueror, and its spirit came to control the Christian church.",
+      "claim_type": "causal",
+      "entities": ["paganism", "Christian church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "low",
+        "rationale": "The thesis that 'paganism conquered the church' is a Protestant historiographical interpretation. Modern scholarship recognizes real syncretism (borrowed feast dates, solar imagery, philosophical categories) but treats 'the spirit of paganism controlled the church' as an evaluative/polemical judgment rather than a settled historical finding; there is genuine disagreement about the degree and meaning of pagan influence, and no scholarly consensus that paganism 'controlled' Christianity.",
+        "sources": [
+          {"title": "Plato's Shadow (Humanities, MDPI)", "url": "https://www.mdpi.com/2076-0787/13/3/77", "source_class": "academic", "supports_verdict": false, "note": "Documents pagan-philosophical influence but frames it as gradual doctrinal borrowing, not wholesale 'control'."},
+          {"title": "Sabbath and Sunday in Early Christianity - GCI Archive", "url": "https://archive.gci.org/articles/sabbath-and-sunday-in-early-christianity/", "source_class": "other", "supports_verdict": false, "note": "Treats pagan influence on Christian practice as one factor among several, not a takeover of the church."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-010",
+      "paragraph": 2,
+      "quote": "Her doctrines, ceremonies, and superstitions were incorporated into the faith and worship of the professed followers of Christ.",
+      "claim_text": "Pagan doctrines, ceremonies, and superstitions were incorporated into the faith and worship of the professed followers of Christ.",
+      "claim_type": "causal",
+      "entities": ["Christian church", "paganism"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Incorporation of some Greco-Roman elements (festival calendars, veneration practices, philosophical doctrines such as the soul's immortality) into Christian worship is documented. 'Superstitions' is polemical, but the core (borrowing from surrounding religious culture) is supported.",
+        "sources": [
+          {"title": "Plato's Shadow (Humanities, MDPI)", "url": "https://www.mdpi.com/2076-0787/13/3/77", "source_class": "academic", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-011",
+      "paragraph": 3,
+      "quote": "This compromise between paganism and Christianity resulted in the development of the “man of sin” foretold in prophecy as opposing and exalting himself above God.",
+      "claim_text": "The compromise between paganism and Christianity resulted in the development of the 'man of sin' foretold in biblical prophecy.",
+      "claim_type": "theological",
+      "entities": ["papacy", "prophecy"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Prophetic-interpretive identification of the papacy with the 'man of sin'; a theological reading, not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-012",
+      "paragraph": 3,
+      "quote": "That gigantic system of false religion is a masterpiece of Satan’s power,—a monument of his efforts to seat himself upon the throne to rule the earth according to his will.",
+      "claim_text": "The papal system of religion is a masterpiece of Satan's power and a monument to his efforts to rule the earth.",
+      "claim_type": "theological",
+      "entities": ["papacy", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural/theological claim attributing the papacy to Satanic agency; unverifiable by definition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-013",
+      "paragraph": 4,
+      "quote": "He came to the Son of God in the wilderness of temptation, and showing Him all the kingdoms of the world and the glory of them, offered to give all into His hands if He would but acknowledge the supremacy of the prince of darkness.",
+      "claim_text": "Satan came to Christ in the wilderness of temptation, showed Him all the kingdoms of the world and their glory, and offered to give all into His hands if Christ would acknowledge the supremacy of the prince of darkness.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] CONTROL SAMPLE (was needs_verification:false). Although framed theologically, the sentence faithfully summarizes the Gospel temptation narrative (Matthew 4:8-9; Luke 4:5-7), where Satan shows Christ 'all the kingdoms of the world, and the glory of them' and offers them in exchange for worship. As a report of the biblical text it is accurate; no false factual assertion is smuggled in. The reality of the event itself remains a matter of scripture/theology.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-014",
+      "paragraph": 4,
+      "quote": "Christ rebuked the presumptuous tempter, and forced him to depart.",
+      "claim_text": "Christ rebuked Satan's temptation in the wilderness and forced him to depart.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Restatement of the Gospel temptation account as a supernatural event; theological, not independently checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-015",
+      "paragraph": 4,
+      "quote": "To secure worldly gains and honors, the church was led to seek the favor and support of the great men of earth; and having thus rejected Christ, she was induced to yield allegiance to the representative of Satan,—the bishop of Rome.",
+      "claim_text": "The Christian church, to secure worldly gains and honors, sought the favor and support of the great men of earth and, having rejected Christ, yielded allegiance to the bishop of Rome as the representative of Satan.",
+      "claim_type": "theological",
+      "entities": ["bishop of Rome", "Satan", "Christian church"],
+      "needs_verification": false,
+      "extractor_note": "Theological framing dominates ('representative of Satan'); the underlying institutional claim that the church sought secular patronage is not separately extractable as a discrete checkable proposition here.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "The framing ('representative of Satan') is theological; no discrete checkable historical proposition is separable, per the extractor's note.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-016",
+      "paragraph": 5,
+      "quote": "It is one of the leading doctrines of Romanism that the pope is the visible head of the universal church of Christ, invested with supreme authority over bishops and pastors in all parts of the world.",
+      "claim_text": "It is a doctrine of Roman Catholicism that the pope is the visible head of the universal church of Christ, invested with supreme authority over bishops and pastors worldwide.",
+      "claim_type": "date",
+      "entities": ["papacy", "pope", "Roman Catholic Church"],
+      "needs_verification": true,
+      "extractor_note": "Classified as institutional-doctrinal fact rather than a specific date; retained under 'date' category slot only nominally—see note: this is a doctrinal/institutional claim about Catholic teaching, checkable against Catholic doctrinal sources.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Accurate statement of Roman Catholic teaching. Papal primacy of jurisdiction — the pope as visible head of the universal church with full and supreme authority over all pastors and faithful — was defined dogmatically at Vatican I (Pastor Aeternus, 1870) and is standard Catholic doctrine.",
+        "sources": [
+          {"title": "Dictatus papae - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dictatus_papae", "source_class": "encyclopedia", "supports_verdict": true, "note": "Documents the medieval doctrinal claim of the pope as sole universal head; Vatican I later dogmatized primacy of jurisdiction."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-017",
+      "paragraph": 5,
+      "quote": "He has been styled “Lord God the Pope,”",
+      "claim_text": "The pope has been styled 'Lord God the Pope.'",
+      "claim_type": "attributed_quote",
+      "entities": ["pope"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The Latin phrase 'Dominum Deum Nostrum Papam' ('Our Lord God the Pope') demonstrably appears in the gloss to the Extravagantes of John XXII written by the canonist Zenzelinus de Cassanis (d. 1334), printed in editions of the canon law (e.g. Antwerp 1584, col. 153). White's cautious wording — 'has been styled' — is accurate: the phrase exists in a canon-law gloss. Note the qualification, contested by Catholic apologists: it is a canonist's marginal commentary, not an official papal title, and later editions dropped 'Deum.'",
+        "sources": [
+          {"title": "Dominum Deum Nostrum Papam - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dominum_Deum_Nostrum_Papam", "source_class": "encyclopedia", "supports_verdict": true, "note": "Traces the phrase to the Extravagantes gloss of Zenzelinus de Cassanis."},
+          {"title": "Extravagantes - Wikipedia", "url": "https://en.wikipedia.org/wiki/Extravagantes", "source_class": "encyclopedia", "supports_verdict": true, "note": "Confirms the Extravagantes as a canon-law collection whose gloss carries the phrase."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-018",
+      "paragraph": 5,
+      "quote": "and has been declared infallible.",
+      "claim_text": "The pope has been declared infallible.",
+      "claim_type": "event",
+      "entities": ["pope", "papal infallibility"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The First Vatican Council (Pastor Aeternus, 1870) dogmatically defined papal infallibility for ex cathedra pronouncements on faith and morals. A textbook-level fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-019",
+      "paragraph": 6,
+      "quote": "“Thou shalt worship the Lord thy God, and Him only shalt thou serve.”",
+      "claim_text": "Christ answered Satan's temptation in the wilderness with the words, 'Thou shalt worship the Lord thy God, and Him only shalt thou serve.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Satan"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Matches Matthew 4:10 / Luke 4:8 KJV, Christ's reply in the temptation narrative. Quotation and attribution accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-020",
+      "paragraph": 6,
+      "quote": "The doctrine of papal supremacy is directly opposed to the teachings of the Scriptures.",
+      "claim_text": "The doctrine of papal supremacy is directly opposed to the teachings of Scripture.",
+      "claim_type": "theological",
+      "entities": ["papacy", "Scripture"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "A theological/exegetical judgment on whether Scripture sanctions papal supremacy; contested between confessions and not empirically resolvable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-021",
+      "paragraph": 7,
+      "quote": "Romanists have persisted in bringing against Protestants the charge of heresy, and wilful separation from the true church.",
+      "claim_text": "Roman Catholics have persistently brought against Protestants the charge of heresy and willful separation from the true church.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church", "Protestants"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] From the Reformation onward the Roman Catholic Church formally condemned Protestant teaching as heresy and Protestant separation as schism (e.g. the Council of Trent's anathemas). Well-established, textbook-level.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-022",
+      "paragraph": 7,
+      "quote": "“the faith which was once delivered unto the saints.”",
+      "claim_text": "The Epistle of Jude refers to 'the faith which was once delivered unto the saints.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jude", "Epistle of Jude"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Matches Jude 3 KJV ('the faith which was once delivered unto the saints'). Quotation and attribution accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-023",
+      "paragraph": 8,
+      "quote": "At every assault, Christ presented the shield of eternal truth, saying, “It is written.”",
+      "claim_text": "In resisting Satan's temptations, Christ responded to every assault by saying, 'It is written.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Satan"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] In the temptation narrative (Matthew 4:4, 7, 10) Christ answers each temptation with 'It is written.' Accurate summary of the Gospel text.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-024",
+      "paragraph": 8,
+      "quote": "For hundreds of years the circulation of the Bible was prohibited. The people were forbidden to read it or to have it in their houses, and unprincipled priests and prelates interpreted its teachings to sustain their pretensions.",
+      "claim_text": "For hundreds of years, the Roman Church prohibited the circulation of the Bible and forbade people to read it or keep it in their homes, while priests and prelates interpreted its teachings to sustain their own claims.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church", "Bible"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "Modern scholarship holds there was no universal, centuries-long ban on Bible ownership. Restrictions were regional and largely aimed at vernacular translations linked to heretical movements — e.g. the local Council of Toulouse (1229) forbade laity to possess vernacular Old/New Testaments during the Albigensian crisis; similar provincial measures (Tarragona 1234, Oxford 1408) were jurisdiction-specific. The Latin Vulgate was never generally banned, and literacy/manuscript cost limited access more than decree. The blanket assertion matches the Protestant historiography White drew on (Wylie, D'Aubigné) rather than a universal prohibition.",
+        "modern_consensus": "Bible-reading restrictions were regional, targeted at heresy-linked vernacular versions, not a universal ban on possessing or reading Scripture.",
+        "period_historiography": "Nineteenth-century Protestant histories (Wylie's History of Protestantism, D'Aubigné's History of the Reformation) routinely asserted that Rome suppressed the Bible from the people for centuries.",
+        "sources": [
+          {"title": "Council of Toulouse - Wikipedia", "url": "https://en.wikipedia.org/wiki/Council_of_Toulouse", "source_class": "encyclopedia", "supports_verdict": true, "note": "The 1229 prohibition was local and aimed at vernacular Bibles amid the Albigensian crisis."},
+          {"title": "Banning the Bible: Did It Really Happen in the Medieval World? (Beth Allison Barr)", "url": "https://www.bethallisonbarr.com/banning-the-bible-did-it-really-happen-in-the-medieval-world/", "source_class": "academic", "supports_verdict": true, "note": "Medieval historian argues there was no blanket medieval ban on the Bible."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-025",
+      "paragraph": 8,
+      "quote": "Thus the pope came to be almost universally acknowledged as the vicegerent of God on earth, endowed with authority over church and state.",
+      "claim_text": "As a result of Bible suppression, the pope came to be almost universally acknowledged as the vicegerent of God on earth, with authority over both church and state.",
+      "claim_type": "causal",
+      "entities": ["pope", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The medieval papacy did claim to be the vicar of Christ with authority over spiritual and temporal spheres (plenitudo potestatis; Boniface VIII's Unam Sanctam, 1302, asserted temporal power's subjection to the spiritual). The characterization of the pope as 'vicegerent of God' with church-and-state authority is accurate for the high-medieval papacy, though 'almost universally' is a generalization and the causal link to Bible suppression is White's own.",
+        "sources": [
+          {"title": "Dictatus papae - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dictatus_papae", "source_class": "encyclopedia", "supports_verdict": true, "note": "Illustrates papal claims to depose emperors and universal authority."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-026",
+      "paragraph": 9,
+      "quote": "Prophecy had declared that the papacy was to “think to change times and laws.”",
+      "claim_text": "Biblical prophecy (Daniel 7:25) states that a power would 'think to change times and laws,' which is here applied to the papacy.",
+      "claim_type": "attributed_quote",
+      "entities": ["Daniel", "papacy"],
+      "needs_verification": true,
+      "extractor_note": "The quotation's source (Daniel) and wording is checkable; its application to the papacy specifically is a theological/interpretive claim.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The phrase matches Daniel 7:25 KJV ('and think to change times and laws'). The quotation and its Danielic source are accurate; the application to the papacy is a theological interpretation and is not evaluated here.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-027",
+      "paragraph": 9,
+      "quote": "To afford converts from heathenism a substitute for the worship of idols, and thus to promote their nominal acceptance of Christianity, the adoration of images and relics was gradually introduced into the Christian worship.",
+      "claim_text": "The adoration of images and relics was gradually introduced into Christian worship as a substitute for pagan idol worship, in order to promote converts' nominal acceptance of Christianity.",
+      "claim_type": "causal",
+      "entities": ["Christian church", "images", "relics"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "That image and relic veneration developed gradually and drew partly on inherited Greco-Roman devotional habits is broadly accepted. But the specific causal-motive claim — that images were deliberately introduced 'to afford a substitute for idol worship' and thus ease pagan conversion — is a contested Protestant interpretation. Iconophile theology (defended at Nicaea II) framed veneration as honoring prototypes, not idolatry; historians debate the mechanism rather than treating deliberate substitution as established.",
+        "sources": [
+          {"title": "Second Council of Nicaea - Wikipedia", "url": "https://en.wikipedia.org/wiki/Second_Council_of_Nicaea", "source_class": "encyclopedia", "supports_verdict": false, "note": "Presents the theological rationale for veneration, contra deliberate-substitution motive."},
+          {"title": "CATHOLIC ENCYCLOPEDIA: Veneration of Images", "url": "https://www.newadvent.org/cathen/07664a.htm", "source_class": "scholarly_encyclopedia", "supports_verdict": false, "note": "Traces gradual development of image veneration with a distinct theological rationale."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-028",
+      "paragraph": 9,
+      "quote": "The decree of a general council finally established this system of idolatry.",
+      "claim_text": "A decree of a general council established the practice of image veneration in the Christian church.",
+      "claim_type": "event",
+      "entities": ["general council", "image worship"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Second Council of Nicaea (787), an ecumenical/general council, decreed the veneration of images and mandated their placement in churches, ending the first iconoclast period. The factual core — a general council established image veneration — is accurate; 'idolatry' is White's polemical label for what the council called honorary veneration (proskynesis, distinct from latria reserved for God).",
+        "sources": [
+          {"title": "Second Council of Nicaea - Wikipedia", "url": "https://en.wikipedia.org/wiki/Second_Council_of_Nicaea", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "Second Council of Nicaea 787 - Britannica", "url": "https://www.britannica.com/event/Second-Council-of-Nicaea-787", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-029",
+      "paragraph": 9,
+      "quote": "Rome presumed to expunge from the law of God the second commandment, forbidding image worship, and to divide the tenth commandment, in order to preserve the number.",
+      "claim_text": "The Roman Catholic Church removed the second commandment (forbidding image worship) from its presentation of the Ten Commandments and divided the tenth commandment in order to preserve the total count of ten.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church", "Ten Commandments"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The factual core is accurate: Catholic (and Lutheran) catechetical numbering follows Augustine, folding the image prohibition into the first commandment (so it is not listed as a separate 'second commandment') and splitting the prohibition of coveting into the ninth and tenth. Short-form catechisms frequently omit the image-prohibition text, and the coveting split preserves the count of ten. The description of the numbering is correct; the motive ('to preserve the number [so as to enable image worship]') is White's polemical inference, and Catholics defend the scheme as Augustine's traditional division, not an expunging.",
+        "sources": [
+          {"title": "Ten Commandments in Catholic theology - Wikipedia", "url": "https://en.wikipedia.org/wiki/Ten_Commandments_in_Catholic_theology", "source_class": "encyclopedia", "supports_verdict": true, "note": "Confirms the image prohibition is subsumed under the first commandment and coveting is split into ninth and tenth, following Augustine."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-030",
+      "paragraph": 10,
+      "quote": "Satan, working through unconsecrated leaders of the church, tampered with the fourth commandment also, and essayed to set aside the ancient Sabbath, the day which God had blessed and sanctified, and in its stead to exalt the festival observed by the heathen as “the venerable day of the sun.”",
+      "claim_text": "Satan, working through unconsecrated church leaders, tampered with the fourth commandment, seeking to set aside the biblical seventh-day Sabbath and exalt in its place the pagan festival known as 'the venerable day of the sun.'",
+      "claim_type": "theological",
+      "entities": ["Satan", "Sabbath", "Sunday"],
+      "needs_verification": false,
+      "extractor_note": "Theological framing (Satan as agent); the historical substance regarding the Sabbath-to-Sunday shift is extracted separately in surrounding claims (GC-03-031 through 043, 050).",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "CONTROL SAMPLE (was needs_verification:false). The theological agent-claim (Satan working through leaders) is unverifiable, but the extractor's note flags a checkable historical core: the phrase 'the venerable day of the sun' is verifiably the language of Constantine's civil Sunday law of A.D. 321 (Latin 'venerabili die solis'), and Sunday did originate as a day named for and associated with sun-veneration. That embedded factual detail is accurate; no error is smuggled into the historical substance. The framing of the shift as diabolical remains theological.",
+        "sources": [
+          {"title": "Sabbath in Christianity - Wikipedia", "url": "https://en.wikipedia.org/wiki/Sabbath_in_Christianity", "source_class": "encyclopedia", "supports_verdict": true, "note": "Confirms Constantine's 321 law used 'the venerable day of the sun.'"}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-031",
+      "paragraph": 10,
+      "quote": "This change was not at first attempted openly.",
+      "claim_text": "The change from Sabbath to Sunday observance was not attempted openly at first.",
+      "claim_type": "event",
+      "entities": ["Sabbath", "Sunday"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Scholarship describes the rise of Sunday observance as gradual and uneven across the 2nd-4th centuries rather than an abrupt, decreed replacement of the Sabbath. The characterization of a non-abrupt transition is consistent with the historical record.",
+        "sources": [
+          {"title": "Sabbath and Sunday in Early Christianity - GCI Archive", "url": "https://archive.gci.org/articles/sabbath-and-sunday-in-early-christianity/", "source_class": "other", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-032",
+      "paragraph": 10,
+      "quote": "In the first centuries the true Sabbath had been kept by all Christians.",
+      "claim_text": "In the first centuries of Christianity, the seventh-day Sabbath was kept by all Christians.",
+      "claim_type": "event",
+      "entities": ["Sabbath", "Christian church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "Modern scholarship contradicts the claim as stated ('all Christians' through 'the first centuries'). The earliest Jewish Christians kept the seventh-day Sabbath, but by the mid-2nd century Sunday assembly was already established in centers like Rome and Alexandria — Justin Martyr (c. 150) describes the whole community gathering on Sunday. Practice was mixed for centuries (some kept Sabbath, some Sunday, some both), not universal seventh-day observance. The absolute 'kept by all Christians' matches the argument of J.N. Andrews (a source named in GC's references) rather than the modern consensus.",
+        "modern_consensus": "Seventh-day Sabbath observance was universal only among the earliest Jewish Christians; from the 2nd century onward practice was mixed, with Sunday observance rising early in major centers.",
+        "period_historiography": "J.N. Andrews, History of the Sabbath and First Day of the Week, argued that early Christians universally observed the seventh-day Sabbath and that Sunday was a later intrusion.",
+        "sources": [
+          {"title": "Sabbath in Christianity - Wikipedia", "url": "https://en.wikipedia.org/wiki/Sabbath_in_Christianity", "source_class": "encyclopedia", "supports_verdict": true, "note": "Justin Martyr c.150 attests Sunday assembly; Sunday began supplanting the Sabbath in Rome/Alexandria in the 2nd century."},
+          {"title": "Sabbath and Sunday in Early Christianity - GCI Archive", "url": "https://archive.gci.org/articles/sabbath-and-sunday-in-early-christianity/", "source_class": "other", "supports_verdict": true, "note": "States practice varied; almost all Christians observed Sunday in the 2nd-4th centuries."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-033",
+      "paragraph": 10,
+      "quote": "That the attention of the people might be called to the Sunday, it was made a festival in honor of the resurrection of Christ.",
+      "claim_text": "Sunday was made a festival in honor of the resurrection of Christ in order to draw the people's attention to it.",
+      "claim_type": "causal",
+      "entities": ["Sunday", "resurrection of Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Early Christian sources associate Sunday with the resurrection: Justin Martyr (c. 150) explicitly links Sunday worship to the day Christ 'rose from the dead.' That Sunday was honored as the day of resurrection is well documented, though White frames it as a deliberate device.",
+        "sources": [
+          {"title": "Sabbath and Sunday in Early Christianity - GCI Archive", "url": "https://archive.gci.org/articles/sabbath-and-sunday-in-early-christianity/", "source_class": "other", "supports_verdict": true, "note": "Justin Martyr connects Sunday observance with the resurrection."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-034",
+      "paragraph": 10,
+      "quote": "Religious services were held upon it; yet it was regarded as a day of recreation, the Sabbath being still sacredly observed.",
+      "claim_text": "Religious services were held on Sunday, but it was regarded as a day of recreation while the Sabbath was still sacredly observed.",
+      "claim_type": "event",
+      "entities": ["Sunday", "Sabbath"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "For a period, especially in the Eastern churches, both days carried religious significance: worship on Sunday alongside continued observance of the Sabbath is attested (e.g. later noted by Socrates Scholasticus and Sozomen for the 5th century). The claim of dual observance during the transition is historically defensible.",
+        "sources": [
+          {"title": "Sabbath and Sunday in Early Christianity - GCI Archive", "url": "https://archive.gci.org/articles/sabbath-and-sunday-in-early-christianity/", "source_class": "other", "supports_verdict": true, "note": "Documents periods where both Sabbath and Sunday were observed."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-035",
+      "paragraph": 11,
+      "quote": "Satan had led the Jews, before the advent of Christ, to load down the Sabbath with the most rigorous exactions, making its observance a burden.",
+      "claim_text": "Before the advent of Christ, Jewish religious authorities had loaded the Sabbath with rigorous exactions, making its observance burdensome.",
+      "claim_type": "causal",
+      "entities": ["Jews", "Sabbath"],
+      "needs_verification": true,
+      "extractor_note": "Theological framing attributes this development to Satan; the historical substance concerns pre-Christian Pharisaic/rabbinic Sabbath regulation.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Setting aside the Satanic framing, the historical core is supported: Second Temple Pharisaic and later rabbinic tradition elaborated extensive Sabbath prohibitions (the 39 categories of forbidden work, later codified in the Mishnah, tractate Shabbat), and the Gospels depict controversies over burdensome Sabbath restrictions. That pre-Christian Jewish authorities developed detailed, restrictive Sabbath halakha is well attested.",
+        "sources": [
+          {"title": "Sabbath in Christianity - Wikipedia", "url": "https://en.wikipedia.org/wiki/Sabbath_in_Christianity", "source_class": "encyclopedia", "supports_verdict": true, "note": "References the extensive Second Temple/rabbinic Sabbath regulations and Gospel disputes over them."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-036",
+      "paragraph": 11,
+      "quote": "While Christians generally continued to observe the Sunday as a joyous festival, he led them, in order to show their hatred of Judaism, to make the Sabbath a fast, a day of sadness and gloom.",
+      "claim_text": "Some early Christians, in order to show their opposition to Judaism, made the Sabbath a fast day of sadness and gloom while continuing to observe Sunday as a joyous festival.",
+      "claim_type": "causal",
+      "entities": ["Christians", "Sabbath", "Sunday"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The Western (Roman) church did institute a Saturday fast, in contrast to the Eastern churches, and anti-Judaic sentiment was a documented factor in distancing Christian practice from the Sabbath (e.g. the Council of Laodicea, c. 364, anathematized 'Judaizing' by resting on the Sabbath). The historical core — a Sabbath fast and anti-Judaic motivation — is supported, apart from the Satanic framing.",
+        "sources": [
+          {"title": "Sabbath and Sunday in Early Christianity - GCI Archive", "url": "https://archive.gci.org/articles/sabbath-and-sunday-in-early-christianity/", "source_class": "other", "supports_verdict": true, "note": "Anti-Jewish sentiment cited as a factor; Laodicea anathematized Sabbath-resting."},
+          {"title": "Sabbath in Christianity - Wikipedia", "url": "https://en.wikipedia.org/wiki/Sabbath_in_Christianity", "source_class": "encyclopedia", "supports_verdict": true, "note": "Notes the Roman Saturday fast and East-West contrast."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-037",
+      "paragraph": 12,
+      "quote": "In the early part of the fourth century, the emperor Constantine issued a decree making Sunday a public festival throughout the Roman empire.",
+      "claim_text": "In the early part of the fourth century, the Roman emperor Constantine issued a decree making Sunday a public festival throughout the Roman Empire.",
+      "claim_type": "date",
+      "entities": ["Constantine", "Sunday", "Roman Empire"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Constantine issued his civil Sunday-rest law on 7 March 321 ('the venerable day of the sun'), preserved in the Codex Justinianus 3.12.2, requiring judges, city people and craftsmen to rest (with an agricultural exemption). The date ('early part of the fourth century') and substance are accurate. Minor nuance: it was a rest law rather than strictly a 'festival,' and country labor was exempted.",
+        "sources": [
+          {"title": "Sabbath in Christianity - Wikipedia", "url": "https://en.wikipedia.org/wiki/Sabbath_in_Christianity", "source_class": "encyclopedia", "supports_verdict": true, "note": "Constantine's 321 Sunday law."},
+          {"title": "March 7, 321 AD – Constantine's Sunday Law (text, Codex Justinianus 3.12.2)", "url": "https://sabbathsentinel.org/2016/10/13/constantine-march-321-ad/", "source_class": "other", "supports_verdict": true, "note": "Cites the Latin edict and date."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-038",
+      "paragraph": 12,
+      "quote": "The day of the sun was reverenced by his pagan subjects, and was honored by Christians; it was the emperor’s policy to unite the conflicting interests of heathenism and Christianity.",
+      "claim_text": "Constantine's Sunday decree reflected his policy of uniting the conflicting interests of heathenism and Christianity, since the day of the sun was reverenced by pagans and honored by Christians alike.",
+      "claim_type": "causal",
+      "entities": ["Constantine", "Sunday"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Constantine's Sunday law used the pagan solar designation 'dies solis,' and his coinage/imagery long linked him to Sol Invictus; historians widely read the measure as a convergence appealing to both sun-venerating pagans and Christians, consistent with his broader syncretic and unifying religious policy. The claim's substance is well supported.",
+        "sources": [
+          {"title": "Sabbath in Christianity - Wikipedia", "url": "https://en.wikipedia.org/wiki/Sabbath_in_Christianity", "source_class": "encyclopedia", "supports_verdict": true, "note": "The 'day of the sun' appealed to both pagan sun-worship and Christian observance."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-039",
+      "paragraph": 12,
+      "quote": "He was urged to do this by the bishops of the church, who, inspired by ambition and thirst for power, perceived that if the same day was observed by both Christians and heathen, it would promote the nominal acceptance of Christianity by pagans, and thus advance the power and glory of the church.",
+      "claim_text": "Bishops of the church urged Constantine to establish common Sunday observance, perceiving that a shared festival day between Christians and pagans would promote pagans' nominal acceptance of Christianity and advance the church's power.",
+      "claim_type": "causal",
+      "entities": ["bishops", "Constantine", "Sunday"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "low",
+        "rationale": "There is no direct contemporary evidence that bishops, 'inspired by ambition,' engineered Constantine's Sunday law; scholarship more commonly attributes the measure to Constantine's own solar sympathies and unifying political aims. The imputation of ambitious episcopal motive is a causal-motive claim that cannot be established and is contested; it reflects White's period Protestant sources more than documented history.",
+        "sources": [
+          {"title": "Sabbath and Sunday in Early Christianity - GCI Archive", "url": "https://archive.gci.org/articles/sabbath-and-sunday-in-early-christianity/", "source_class": "other", "supports_verdict": false, "note": "Attributes the transition to multiple factors; does not evidence bishops driving Constantine from ambition."},
+          {"title": "Sabbath in Christianity - Wikipedia", "url": "https://en.wikipedia.org/wiki/Sabbath_in_Christianity", "source_class": "encyclopedia", "supports_verdict": false, "note": "Frames Constantine's Sunday law in terms of his own solar/political motives, not episcopal engineering."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-040",
+      "paragraph": 12,
+      "quote": "But while many God-fearing Christians were gradually led to regard Sunday as possessing a degree of sacredness, they still held the true Sabbath as the holy of the Lord, and observed it in obedience to the fourth commandment.",
+      "claim_text": "Many Christians were gradually led to regard Sunday as possessing a degree of sacredness while still observing the seventh-day Sabbath in obedience to the fourth commandment.",
+      "claim_type": "event",
+      "entities": ["Christians", "Sunday", "Sabbath"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Simultaneous regard for both days during the transition is attested, especially in the Eastern churches (5th-century historians Socrates Scholasticus and Sozomen note communities observing both Sabbath and Sunday). The claim of continued seventh-day observance alongside growing Sunday sacredness is historically grounded.",
+        "sources": [
+          {"title": "Sabbath and Sunday in Early Christianity - GCI Archive", "url": "https://archive.gci.org/articles/sabbath-and-sunday-in-early-christianity/", "source_class": "other", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-041",
+      "paragraph": 13,
+      "quote": "Vast councils were held from time to time, in which the dignitaries of the church were convened from all the world.",
+      "claim_text": "Vast church councils were held from time to time, convening church dignitaries from around the world.",
+      "claim_type": "event",
+      "entities": ["church councils"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The ecumenical and regional councils (Nicaea 325, Constantinople 381, Chalcedon 451, etc.) convened bishops from across the Christian world. Textbook-level.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-042",
+      "paragraph": 13,
+      "quote": "In nearly every council the Sabbath which God had instituted was pressed down a little lower, while the Sunday was correspondingly exalted.",
+      "claim_text": "In nearly every church council, the seventh-day Sabbath was progressively downgraded while Sunday observance was correspondingly exalted.",
+      "claim_type": "causal",
+      "entities": ["church councils", "Sabbath", "Sunday"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The overall conciliar trajectory did favor Sunday and discourage Sabbath-keeping (Laodicea c. 364 canon 29 anathematized resting on the Sabbath). 'In nearly every council' is hyperbole — most councils addressed other matters — but the directional claim (Sunday exalted, Sabbath downgraded over time) is supported.",
+        "sources": [
+          {"title": "Sabbath and Sunday in Early Christianity - GCI Archive", "url": "https://archive.gci.org/articles/sabbath-and-sunday-in-early-christianity/", "source_class": "other", "supports_verdict": true, "note": "Council of Laodicea legislated against Sabbath-resting in favor of the Lord's Day."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-043",
+      "paragraph": 13,
+      "quote": "Thus the pagan festival came finally to be honored as a divine institution, while the Bible Sabbath was pronounced a relic of Judaism, and its observers were declared to be accursed.",
+      "claim_text": "The pagan Sunday festival eventually came to be honored as a divine institution, while the biblical Sabbath was pronounced a relic of Judaism and its observers were declared accursed.",
+      "claim_type": "causal",
+      "entities": ["Sabbath", "Sunday"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The Council of Laodicea (c. 364), canon 29, ruled that Christians must not 'Judaize' by resting on the Sabbath and that Sabbath-resting Judaizers should be 'anathema from Christ' — directly supporting 'pronounced a relic of Judaism' and 'observers declared accursed.' Sunday's elevation to divinely-sanctioned status followed. The polemical 'pagan festival' framing aside, the factual core is supported.",
+        "sources": [
+          {"title": "Sabbath and Sunday in Early Christianity - GCI Archive", "url": "https://archive.gci.org/articles/sabbath-and-sunday-in-early-christianity/", "source_class": "other", "supports_verdict": true, "note": "Quotes Laodicea canon 29 anathematizing Sabbath-resting Judaizers."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-044",
+      "paragraph": 14,
+      "quote": "The great apostate had succeeded in exalting himself “above all that is called God, or that is worshiped.”",
+      "claim_text": "The papacy succeeded in exalting itself 'above all that is called God, or that is worshiped,' fulfilling the prophecy of the 'man of sin.'",
+      "claim_type": "theological",
+      "entities": ["papacy", "prophecy"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Prophetic-interpretive identification (papacy as fulfillment of 2 Thess. 2); theological, not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-045",
+      "paragraph": 14,
+      "quote": "He had dared to change the only precept of the divine law that unmistakably points all mankind to the true and living God.",
+      "claim_text": "In changing the Sabbath, the papacy altered the only precept of the divine law that unmistakably points humanity to the true and living God.",
+      "claim_type": "theological",
+      "entities": ["papacy", "Sabbath"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the unique significance of the Sabbath commandment; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-046",
+      "paragraph": 14,
+      "quote": "In the fourth commandment, God is revealed as the Creator of the heavens and the earth, and is thereby distinguished from all false gods. It was as a memorial of the work of creation that the seventh day was sanctified as a rest-day for man.",
+      "claim_text": "The fourth commandment reveals God as Creator, distinguishing Him from false gods, and the seventh day was sanctified as a memorial of creation.",
+      "claim_type": "theological",
+      "entities": ["fourth commandment", "Sabbath", "creation"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological interpretation of the Sabbath commandment's meaning; not an empirically checkable proposition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-047",
+      "paragraph": 14,
+      "quote": "Satan strives to turn men from their allegiance to God, and from rendering obedience to His law; therefore he directs his efforts especially against that commandment which points to God as the Creator.",
+      "claim_text": "Satan directs his efforts especially against the fourth commandment because it points to God as Creator.",
+      "claim_type": "theological",
+      "entities": ["Satan", "fourth commandment"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural/theological claim about Satanic strategy; unverifiable by definition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-048",
+      "paragraph": 15,
+      "quote": "Protestants now urge that the resurrection of Christ on Sunday made it the Christian Sabbath.",
+      "claim_text": "Protestants argue that Christ's resurrection on Sunday made Sunday the Christian Sabbath.",
+      "claim_type": "event",
+      "entities": ["Protestants", "Sunday", "resurrection of Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurately describes the standard Protestant/mainstream-Christian rationale for Sunday observance: the Lord's Day commemorates the resurrection, which occurred on the first day of the week. Uncontested characterization of that position.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-049",
+      "paragraph": 15,
+      "quote": "But Scripture evidence is lacking. No such honor was given to the day by Christ or His apostles.",
+      "claim_text": "No scriptural evidence shows that Christ or the apostles gave Sunday special honor as the Sabbath.",
+      "claim_type": "theological",
+      "entities": ["Sunday", "Scripture"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "An exegetical/theological judgment about the absence of scriptural sanction for Sunday; contested between confessions and not empirically resolvable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-050",
+      "paragraph": 15,
+      "quote": "The observance of Sunday as a Christian institution had its origin in that “mystery of lawlessness” which, even in Paul’s day, had begun its work.",
+      "claim_text": "The observance of Sunday as a Christian institution originated in a corrupting process that had already begun to operate in Paul's day.",
+      "claim_type": "causal",
+      "entities": ["Sunday", "Paul"],
+      "needs_verification": true,
+      "extractor_note": "Framed with the theological label 'mystery of lawlessness,' but asserts a historical-causal claim about the origin and timing of Sunday observance; flagged for verification.",
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "Two claims are bundled. (a) Timing: that Sunday observance has very early (apostolic/sub-apostolic, 1st-2nd century) origins is broadly supported. (b) Character: that Sunday observance 'originated in the mystery of lawlessness' — i.e. as an early apostate corruption rather than a legitimate apostolic development — is precisely the point of long-standing dispute between Sabbatarian and mainstream historiography, with no scholarly consensus. Verdict reflects the genuine, unresolved disagreement over the character of that early origin.",
+        "sources": [
+          {"title": "Sabbath and Sunday in Early Christianity - GCI Archive", "url": "https://archive.gci.org/articles/sabbath-and-sunday-in-early-christianity/", "source_class": "other", "supports_verdict": false, "note": "Places Sunday's rise very early but treats its legitimacy as a matter of ongoing debate."},
+          {"title": "Sabbath in Christianity - Wikipedia", "url": "https://en.wikipedia.org/wiki/Sabbath_in_Christianity", "source_class": "encyclopedia", "supports_verdict": false, "note": "Documents competing scholarly interpretations of the origin of Sunday worship."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-051",
+      "paragraph": 16,
+      "quote": "In the sixth century the papacy had become firmly established. Its seat of power was fixed in the imperial city, and the bishop of Rome was declared to be the head over the entire church.",
+      "claim_text": "By the sixth century, the papacy had become firmly established, with its seat of power fixed in Rome and the bishop of Rome declared head over the entire church.",
+      "claim_type": "date",
+      "entities": ["papacy", "Rome"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "In 533 Emperor Justinian, in a letter incorporated into his Code, recognized the bishop of Rome as 'head of all the holy churches' and first of all the priesthood — an imperial declaration of Roman primacy in the sixth century. The claim's substance is grounded, though modern historians view papal supremacy as a longer, incremental process rather than settled by a single sixth-century act (this passage underlies the SDA 538 dating).",
+        "sources": [
+          {"title": "Justinian's Code, Book I, on the primacy of the See of Rome (533)", "url": "http://moellerhaus.com/studies/JUS533.HTM", "source_class": "primary", "supports_verdict": true, "note": "Justinian's decree naming the pope 'head of all the holy churches.'"},
+          {"title": "Dictatus papae - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dictatus_papae", "source_class": "encyclopedia", "supports_verdict": true, "note": "Context on incremental development of Roman primacy."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-052",
+      "paragraph": 16,
+      "quote": "The dragon had given to the beast “his power, and his seat, and great authority.”",
+      "claim_text": "The book of Revelation states that the dragon gave the beast 'his power, and his seat, and great authority' (Revelation 13:2).",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation", "dragon", "beast"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Matches Revelation 13:2 KJV ('and the dragon gave him his power, and his seat, and great authority'). Quotation and attribution accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-053",
+      "paragraph": 16,
+      "quote": "And now began the 1260 years of papal oppression foretold in the prophecies of Daniel and the Revelation.",
+      "claim_text": "The 1260 years of papal oppression foretold in the prophecies of Daniel and Revelation began in the sixth century.",
+      "claim_type": "theological",
+      "entities": ["Daniel", "Revelation", "papacy"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Prophetic-interpretive claim (the historicist 1260-year/day-year reading applied to papal supremacy); a theological interpretation, not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-054",
+      "paragraph": 16,
+      "quote": "Christians were forced to choose either to yield their integrity and accept the papal ceremonies and worship, or to wear away their lives in dungeons or suffer death by the rack, the fagot, or the heads-man’s axe.",
+      "claim_text": "Christians during the medieval papal era were forced to choose between accepting papal ceremonies and worship or facing imprisonment or execution by the rack, the stake, or beheading.",
+      "claim_type": "causal",
+      "entities": ["Christians", "papacy", "persecution"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The medieval church, through the Inquisition and secular enforcement, imprisoned, tortured and executed (including burning at the stake) those judged heretics who refused to conform. Coercion of dissenters is well documented, though 'forced to choose... or death' is a generalization spanning many contexts.",
+        "sources": [
+          {"title": "Medieval Inquisition - Wikipedia", "url": "https://en.wikipedia.org/wiki/Medieval_Inquisition", "source_class": "encyclopedia", "supports_verdict": true, "note": "Documents imprisonment, torture and execution of heretics."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-055",
+      "paragraph": 16,
+      "quote": "“Ye shall be betrayed both by parents, and brethren, and kins-folks, and friends; and some of you shall they cause to be put to death. And ye shall be hated of all men for My name’s sake.”",
+      "claim_text": "Jesus said, 'Ye shall be betrayed both by parents, and brethren, and kinsfolks, and friends; and some of you shall they cause to be put to death. And ye shall be hated of all men for My name's sake' (Luke 21:16-17).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Luke"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Matches Luke 21:16-17 KJV. Quotation and attribution accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-056",
+      "paragraph": 16,
+      "quote": "Persecution opened upon the faithful with greater fury than ever before, and the world became a vast battle-field.",
+      "claim_text": "Persecution of the faithful during the medieval papal era opened with greater fury than ever before, turning the world into a vast battlefield.",
+      "claim_type": "event",
+      "entities": ["persecution", "Christian church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The historical core — that the medieval church severely persecuted dissenters (crusades against heretics, Inquisition, executions) — is documented and supportable. The comparative superlative ('greater fury than ever before,' exceeding the pagan Roman persecutions) and 'vast battle-field' are rhetorical and not quantifiable; the verdict affirms the underlying fact of intense medieval persecution while flagging the superlative as unmeasured hyperbole.",
+        "sources": [
+          {"title": "Medieval Inquisition - Wikipedia", "url": "https://en.wikipedia.org/wiki/Medieval_Inquisition", "source_class": "encyclopedia", "supports_verdict": true, "note": "Documents widespread persecution of dissenters; does not support the 'greater than ever before' superlative."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-057",
+      "paragraph": 16,
+      "quote": "For hundreds of years the church of Christ found refuge in seclusion and obscurity.",
+      "claim_text": "For hundreds of years during the medieval period, the true church of Christ found refuge in seclusion and obscurity.",
+      "claim_type": "event",
+      "entities": ["Christian church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "medium",
+        "rationale": "The claim rests on the theological premise of a hidden 'true church of Christ' distinct from Rome persisting in obscurity for centuries (the church-in-the-wilderness / Waldensian-continuity thesis). Dissenting and reform-minded Christians certainly existed, but identifying a continuous, secluded 'true church' presupposes a theological definition of the true church rather than an empirically delimited body; the proposition is not verifiable as a historical fact either way.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-058",
+      "paragraph": 16,
+      "quote": "“The woman fled into the wilderness, where she hath a place prepared of God, that they should feed her there a thousand two hundred and threescore days.”",
+      "claim_text": "The book of Revelation states that 'the woman fled into the wilderness, where she hath a place prepared of God, that they should feed her there a thousand two hundred and threescore days' (Revelation 12:6).",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation", "Christian church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Matches Revelation 12:6 KJV. Quotation and attribution accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-059",
+      "paragraph": 17,
+      "quote": "The accession of the Roman Church to power marked the beginning of the Dark Ages. As her power increased, the darkness deepened.",
+      "claim_text": "The accession of the Roman Church to political power marked the beginning of the Dark Ages, and as her power increased, the darkness deepened.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church", "Dark Ages"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "The framework of a church-driven descent into a 'Dark Age' of deepening darkness reflects 19th-century Protestant historiography. Modern historians largely reject 'Dark Ages' as a pejorative and reject the model of uniform, church-caused decline, pointing to continued cultural, legal and technological activity (Carolingian renewal, monastic learning, the 12th-century renaissance). The claim matches White's source Wylie ('the noon of the papacy was the midnight of the world') rather than current scholarship.",
+        "modern_consensus": "Historians avoid 'Dark Ages' as misleading and reject the idea that the church's rise caused a uniform intellectual collapse.",
+        "period_historiography": "J.A. Wylie, History of Protestantism (a GC source), framed the medieval church's ascendancy as the world's 'midnight.'",
+        "sources": [
+          {"title": "Dark Ages (historiography) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dark_Ages_(historiography)", "source_class": "encyclopedia", "supports_verdict": true, "note": "Modern historians reject the pejorative 'Dark Ages' framing."},
+          {"title": "There's No Such Thing as the Dark Ages | Getty News", "url": "https://www.getty.edu/news/no-such-thing-as-the-dark-ages/", "source_class": "other", "supports_verdict": true, "note": "Scholarly rejection of the stagnation narrative."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-060",
+      "paragraph": 17,
+      "quote": "Faith was transferred from Christ, the true foundation, to the pope of Rome. Instead of trusting in the Son of God for forgiveness of sins and for eternal salvation, the people looked to the pope, and to the priests and prelates to whom he delegated authority.",
+      "claim_text": "During the medieval period, religious faith was transferred from Christ to the pope of Rome, with people looking to the pope, priests, and prelates rather than to Christ for forgiveness of sins and eternal salvation.",
+      "claim_type": "causal",
+      "entities": ["papacy", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The historical core — that medieval piety was heavily mediated through the clergy and sacramental system (priestly absolution, penance, the pope as vicar of Christ) — is documented. 'Faith transferred from Christ to the pope' is a Protestant theological characterization of that clerical mediation rather than a claim Catholics would concede, but the underlying practice of sacerdotal mediation is well attested.",
+        "sources": [
+          {"title": "Dictatus papae - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dictatus_papae", "source_class": "encyclopedia", "supports_verdict": true, "note": "Documents the pope-centered authority structure of the medieval church."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-061",
+      "paragraph": 17,
+      "quote": "They were taught that the pope was their earthly mediator, and that none could approach God except through him; and further, that he stood in the place of God to them, and was therefore to be implicitly obeyed.",
+      "claim_text": "The medieval Roman Church taught that the pope was the earthly mediator through whom alone people could approach God, standing in the place of God and requiring implicit obedience.",
+      "claim_type": "event",
+      "entities": ["pope", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "Partly grounded, partly overstated. Boniface VIII's Unam Sanctam (1302) declared that submission to the Roman pontiff is necessary for salvation, and the pope was styled vicar of Christ demanding obedience — supporting 'stood in the place of God' and 'implicitly obeyed.' But 'none could approach God except through him [the pope personally]' overstates Catholic teaching, which located mediation in Christ and the sacramental priesthood generally, not the pope as sole personal mediator. Mixing an accurate element with an exaggeration, the claim is genuinely contestable.",
+        "sources": [
+          {"title": "Dictatus papae - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dictatus_papae", "source_class": "encyclopedia", "supports_verdict": false, "note": "Supports papal supremacy/obedience claims but not the pope as sole personal mediator to God."},
+          {"title": "Dictatus Papae, Gregory VII, 1075 (Cornell text)", "url": "https://courses.cit.cornell.edu/hist1510/DictPP.pdf", "source_class": "primary", "supports_verdict": false, "note": "Papal supremacy propositions concern jurisdiction and obedience, not the pope as exclusive channel to God."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-062",
+      "paragraph": 17,
+      "quote": "A deviation from his requirements was sufficient cause for the severest punishment to be visited upon the bodies and souls of the offenders.",
+      "claim_text": "Under medieval papal authority, deviation from the pope's requirements was sufficient cause for severe punishment of offenders.",
+      "claim_type": "event",
+      "entities": ["pope", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Excommunication, interdict, and — via the Inquisition and secular arm — corporal and capital punishment were used against those who defied church authority or were judged heretics. Severe temporal and spiritual sanctions for nonconformity are documented.",
+        "sources": [
+          {"title": "Medieval Inquisition - Wikipedia", "url": "https://en.wikipedia.org/wiki/Medieval_Inquisition", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-063",
+      "paragraph": 18,
+      "quote": "The gospel was lost sight of, but the forms of religion were multiplied, and the people were burdened with rigorous exactions.",
+      "claim_text": "During this medieval period, the gospel was lost sight of, forms of religion multiplied, and the people were burdened with rigorous religious exactions.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The historical core is grounded: the multiplication of ritual forms, penances, fees and obligations in medieval religion is documented, and reformers within Catholicism criticized such burdens. 'The gospel was lost sight of' is a Protestant theological verdict on the era's soteriology (contested by Catholic historiography), but the checkable substance — proliferation of religious forms and burdensome exactions — is supported.",
+        "sources": [
+          {"title": "Indulgence - Wikipedia", "url": "https://en.wikipedia.org/wiki/Indulgence", "source_class": "encyclopedia", "supports_verdict": true, "note": "Shows multiplication of penitential forms and financial demands."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-064",
+      "paragraph": 19,
+      "quote": "They were taught not only to look to the pope as their mediator, but to trust to works of their own to atone for sin.",
+      "claim_text": "The medieval Roman Church taught believers not only to look to the pope as mediator but also to trust in their own works to atone for sin.",
+      "claim_type": "event",
+      "entities": ["pope", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The medieval penitential system emphasized meritorious works — penance, pilgrimage, almsgiving, satisfaction for sin — as part of the economy of salvation, which is the practice White describes. 'Trust to works to atone' is the Protestant characterization of that satisfaction theology; the practice itself is accurately reported.",
+        "sources": [
+          {"title": "Indulgence - Wikipedia", "url": "https://en.wikipedia.org/wiki/Indulgence", "source_class": "encyclopedia", "supports_verdict": true, "note": "Describes works of satisfaction/penance in medieval sacramental theology."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-065",
+      "paragraph": 19,
+      "quote": "Long pilgrimages, acts of penance, the worship of relics, the erection of churches, shrines, and altars, the payment of large sums to the church,—these and many similar acts were enjoined to appease the wrath of God or to secure His favor",
+      "claim_text": "Long pilgrimages, acts of penance, the worship of relics, the erection of churches and shrines, and payments of money to the church were enjoined on medieval believers as means to appease God's wrath or secure His favor.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church", "pilgrimages", "relics"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Pilgrimage, penance, relic veneration, endowment of churches and shrines, and monetary offerings were all standard medieval devotional/penitential practices tied to satisfaction for sin and securing divine favor. Well documented.",
+        "sources": [
+          {"title": "Indulgence - Wikipedia", "url": "https://en.wikipedia.org/wiki/Indulgence", "source_class": "encyclopedia", "supports_verdict": true, "note": "Confirms pilgrimages, almsgiving/payments and penitential works as means of remission."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-066",
+      "paragraph": 20,
+      "quote": "About the close of the eighth century, papists put forth the claim that in the first ages of the church the bishops of Rome had possessed the same spiritual power which they now assumed.",
+      "claim_text": "About the close of the eighth century, papal advocates claimed that the bishops of Rome had possessed, in the earliest ages of the church, the same spiritual power they currently held.",
+      "claim_type": "date",
+      "entities": ["papacy", "bishops of Rome"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The substance is accurate — forged documents were produced to claim that Rome's later authority had been exercised from the earliest times — but the dating is somewhat early. The Donation of Constantine dates to the eighth century (c. 750-800), while the principal forgery advancing 'universal supremacy from the earliest times,' the Pseudo-Isidorian Decretals, was fabricated in West Francia around 845-850 (mid-ninth century). 'Close of the eighth century' captures the beginning of this forgery movement but predates its main instrument by roughly half a century.",
+        "sources": [
+          {"title": "Pseudo-Isidore - Wikipedia", "url": "https://en.wikipedia.org/wiki/Pseudo-Isidore", "source_class": "encyclopedia", "supports_verdict": true, "note": "Pseudo-Isidorian Decretals forged c. 845-850 to project papal claims into the earliest church."},
+          {"title": "CATHOLIC ENCYCLOPEDIA: False Decretals", "url": "https://www.newadvent.org/cathen/05773a.htm", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Details the forgeries and the earlier Donation of Constantine."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-067",
+      "paragraph": 20,
+      "quote": "Ancient writings were forged by monks. Decrees of councils before unheard of, were discovered, establishing the universal supremacy of the pope from the earliest times. And a church that had rejected the truth, greedily accepted these deceptions.",
+      "claim_text": "Monks forged ancient writings and produced previously unheard-of council decrees purporting to establish the universal supremacy of the pope from the earliest times, which the church readily accepted.",
+      "claim_type": "event",
+      "entities": ["papacy", "forged decretals"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Pseudo-Isidorian Decretals (c. 845-850) — about a hundred fabricated decrees of early popes plus spurious synodal acts — were produced to make papal claims appear ancient, were used from Pope Nicholas I onward, and were accepted as genuine for centuries before being universally recognized as forgeries by Catholic and Protestant scholars alike. White's substance is accurate; only the term 'monks' is loose (clerical forgers in Frankish territory).",
+        "sources": [
+          {"title": "Pseudo-Isidore - Wikipedia", "url": "https://en.wikipedia.org/wiki/Pseudo-Isidore", "source_class": "encyclopedia", "supports_verdict": true},
+          {"title": "CATHOLIC ENCYCLOPEDIA: False Decretals", "url": "https://www.newadvent.org/cathen/05773a.htm", "source_class": "scholarly_encyclopedia", "supports_verdict": true, "note": "Confirms fabricated decretals and their acceptance; now universally deemed fraudulent."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-068",
+      "paragraph": 21,
+      "quote": "“The strength of the bearers of burdens is decayed, and there is much rubbish; so that we are not able to build.”",
+      "claim_text": "The book of Nehemiah records the complaint, 'The strength of the bearers of burdens is decayed, and there is much rubbish; so that we are not able to build' (Nehemiah 4:10).",
+      "claim_type": "attributed_quote",
+      "entities": ["Nehemiah"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Matches Nehemiah 4:10 KJV. Quotation and attribution accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-069",
+      "paragraph": 21,
+      "quote": "Wearied with the constant struggle against persecution, fraud, iniquity, and every other obstacle that Satan could devise to hinder their progress, some who had been faithful builders became disheartened; and for the sake of peace and security for their property and their lives, they turned away from the true foundation.",
+      "claim_text": "Some believers, wearied by persecution, fraud, and other obstacles, became disheartened and abandoned their faith for the sake of peace and security for their property and lives.",
+      "claim_type": "interpretive",
+      "entities": ["Christian believers", "persecution"],
+      "needs_verification": false,
+      "extractor_note": "Heavily figurative/allegorical framing (builders, Satan as deviser of obstacles) drawn from the Nehemiah analogy; included as interpretive rather than a discrete checkable historical proposition.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Allegorical/interpretive passage (the Nehemiah 'builders' analogy with Satan as agent); no discrete checkable historical proposition, per the extractor's note.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-070",
+      "paragraph": 21,
+      "quote": "“Be not ye afraid of them: remember the Lord, which is great and terrible;”",
+      "claim_text": "The book of Nehemiah records the exhortation, 'Be not ye afraid of them: remember the Lord, which is great and terrible' (Nehemiah 4:14).",
+      "claim_type": "attributed_quote",
+      "entities": ["Nehemiah"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Matches Nehemiah 4:14 KJV. Quotation and attribution accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-071",
+      "paragraph": 22,
+      "quote": "“What I say unto you I say unto all, Watch.”",
+      "claim_text": "Christ said, 'What I say unto you I say unto all, Watch' (Mark 13:37).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Mark"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Matches Mark 13:37 KJV ('And what I say unto you I say unto all, Watch'). Quotation and attribution accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-072",
+      "paragraph": 23,
+      "quote": "Image worship became more general. Candles were burned before images, and prayers were offered to them.",
+      "claim_text": "During this medieval period, image worship became more general; candles were burned before images and prayers were offered to them.",
+      "claim_type": "event",
+      "entities": ["images", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Following Nicaea II (787), veneration of images spread and became standard devotional practice, including lighting candles/lamps before images and directing prayers to the saints they depicted. The described practices are accurate; 'worship' is White's polemical rendering of what the church defined as veneration.",
+        "sources": [
+          {"title": "Second Council of Nicaea - Wikipedia", "url": "https://en.wikipedia.org/wiki/Second_Council_of_Nicaea", "source_class": "encyclopedia", "supports_verdict": true, "note": "Sanctioned veneration involving lights and devotion before images."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-073",
+      "paragraph": 23,
+      "quote": "While priests and bishops were themselves pleasure-loving, sensual, and corrupt, it could only be expected that the people who looked to them for guidance would be sunken in ignorance and vice.",
+      "claim_text": "Priests and bishops of this period were themselves pleasure-loving, sensual, and corrupt, contributing to the ignorance and vice of the people who looked to them for guidance.",
+      "claim_type": "causal",
+      "entities": ["priests", "bishops", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Widespread clerical corruption, concubinage, simony and ignorance in parts of the medieval church is documented — and was denounced by Catholic reformers themselves (the Gregorian reform, later conciliar reform decrees). The generalization is broad and polemical but rests on a real, much-attested problem.",
+        "sources": [
+          {"title": "Dictatus papae - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dictatus_papae", "source_class": "encyclopedia", "supports_verdict": true, "note": "The Gregorian reform context responded to clerical abuses (simony, concubinage)."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-074",
+      "paragraph": 24,
+      "quote": "Another step in papal assumption was taken, when, in the eleventh century, Pope Gregory VII. proclaimed the perfection of the Roman Church. Among the propositions which he put forth, was one declaring that the church had never erred, nor would it ever err, according to the Scriptures.",
+      "claim_text": "In the eleventh century, Pope Gregory VII proclaimed the perfection of the Roman Church, putting forth the proposition that the church had never erred and never would err.",
+      "claim_type": "event",
+      "entities": ["Pope Gregory VII", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Dictatus Papae, entered in Gregory VII's register in 1075, includes proposition 22: 'That the Roman church has never erred; nor will it err to all eternity, the Scripture bearing witness.' White's statement matches the document nearly verbatim.",
+        "sources": [
+          {"title": "Dictatus papae - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dictatus_papae", "source_class": "encyclopedia", "supports_verdict": true, "note": "Proposition 22 asserts the Roman church has never erred and never will."},
+          {"title": "Dictatus Papae, Gregory VII, 1075 (Cornell text)", "url": "https://courses.cit.cornell.edu/hist1510/DictPP.pdf", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-075",
+      "paragraph": 24,
+      "quote": "The proud pontiff also claimed the power to depose emperors, and declared that no sentence which he pronounced could be reversed by any one, but that it was his prerogative to reverse the decisions of all others.",
+      "claim_text": "Pope Gregory VII claimed the power to depose emperors and declared that no sentence he pronounced could be reversed by anyone, while it was his prerogative to reverse the decisions of all others.",
+      "claim_type": "event",
+      "entities": ["Pope Gregory VII"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Dictatus Papae asserts 'That it may be permitted to him to depose emperors' (prop. 12) and that his sentence may be retracted by no one while he alone may retract others' — matching White's description of the pope's power to depose emperors and the irreversibility of his judgments.",
+        "sources": [
+          {"title": "Dictatus papae - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dictatus_papae", "source_class": "encyclopedia", "supports_verdict": true, "note": "Propositions on deposing emperors and the irreversibility of papal sentences."},
+          {"title": "Dictatus Papae, Gregory VII, 1075 (Cornell text)", "url": "https://courses.cit.cornell.edu/hist1510/DictPP.pdf", "source_class": "primary", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-076",
+      "paragraph": 25,
+      "quote": "For presuming to disregard the pope’s authority, this monarch was declared to be excommunicated and dethroned.",
+      "claim_text": "Pope Gregory VII declared the German emperor Henry IV excommunicated and dethroned for disregarding papal authority.",
+      "claim_type": "event",
+      "entities": ["Pope Gregory VII", "Henry IV"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "In February 1076, during the Investiture Controversy, Gregory VII excommunicated King Henry IV and declared him deposed, releasing his subjects from their allegiance. Well established.",
+        "sources": [
+          {"title": "Road to Canossa - Wikipedia", "url": "https://en.wikipedia.org/wiki/Road_to_Canossa", "source_class": "encyclopedia", "supports_verdict": true, "note": "Gregory VII's 1076 excommunication and deposition of Henry IV."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-077",
+      "paragraph": 25,
+      "quote": "Terrified by the desertion and threats of his own princes, who were encouraged in rebellion against him by the papal mandate, Henry felt the necessity of making his peace with Rome.",
+      "claim_text": "Henry IV, terrified by the desertion and threats of his own princes who had been encouraged to rebel against him by papal mandate, felt compelled to make peace with Rome.",
+      "claim_type": "causal",
+      "entities": ["Henry IV", "Pope Gregory VII"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "After his deposition, the German princes (assembled at Tribur/Trebur, 1076) turned against Henry and threatened to elect another king unless he obtained absolution within a set time; this political peril drove Henry to seek reconciliation with Gregory. Accurately described.",
+        "sources": [
+          {"title": "Road to Canossa - Wikipedia", "url": "https://en.wikipedia.org/wiki/Road_to_Canossa", "source_class": "encyclopedia", "supports_verdict": true, "note": "Rebellious princes pressured Henry to obtain absolution, prompting his journey to Canossa."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-078",
+      "paragraph": 25,
+      "quote": "In company with his wife and a faithful servant, he crossed the Alps in midwinter, that he might humble himself before the pope.",
+      "claim_text": "Henry IV, accompanied by his wife and a faithful servant, crossed the Alps in midwinter to humble himself before the pope.",
+      "claim_type": "event",
+      "entities": ["Henry IV", "Alps"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Henry crossed the Alps (via Mont Cenis / Burgundy) in the harsh winter of 1076-77 with his family. Chronicles (Lambert of Hersfeld) name his wife Bertha of Savoy and their young son Conrad, plus a small retinue. White's 'wife and a faithful servant' captures the small accompanying party accurately, though she omits the infant son and compresses the retinue to one servant.",
+        "sources": [
+          {"title": "Road to Canossa - Wikipedia", "url": "https://en.wikipedia.org/wiki/Road_to_Canossa", "source_class": "encyclopedia", "supports_verdict": true, "note": "Henry, wife Bertha and son Conrad crossed the Alps at Mont Cenis in midwinter."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-079",
+      "paragraph": 25,
+      "quote": "Upon reaching the castle whither Gregory had withdrawn, he was conducted, without his guards, into an outer court, and there, in the severe cold of winter, with uncovered head and naked feet, and in a miserable dress, he awaited the pope’s permission to come into his presence.",
+      "claim_text": "Upon reaching the castle where Gregory VII had withdrawn (Canossa), Henry IV was conducted without his guards into an outer court and, in severe winter cold, with uncovered head and bare feet, awaited the pope's permission to enter his presence.",
+      "claim_type": "event",
+      "entities": ["Henry IV", "Pope Gregory VII", "Canossa"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The traditional account, resting on Gregory's own letter to the German princes and Lambert of Hersfeld, has Henry at the fortress of Canossa in January 1077, barefoot and in penitential woollen garb, admitted within the outer wall and waiting in the winter cold before the inner gate for the pope's grace. White's description matches this standard account; some modern historians question the more dramatic details, but the barefoot-penitent core is well attested.",
+        "sources": [
+          {"title": "Road to Canossa - Wikipedia", "url": "https://en.wikipedia.org/wiki/Road_to_Canossa", "source_class": "encyclopedia", "supports_verdict": true, "note": "Barefoot, woollen penitent's garb, waiting at the gate of Canossa."},
+          {"title": "Gregory VII's letter on the Penance of Henry IV at Canossa, 1077 (Avalon Project)", "url": "https://avalon.law.yale.edu/medieval/inv08.asp", "source_class": "primary", "supports_verdict": true, "note": "Gregory reports Henry came barefoot, in wretched wool, persisting at the gate."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-080",
+      "paragraph": 25,
+      "quote": "Not until he had continued three days fasting and making confession, did the pontiff condescend to grant him pardon.",
+      "claim_text": "Henry IV fasted and made confession for three days before Pope Gregory VII granted him pardon.",
+      "claim_type": "event",
+      "entities": ["Henry IV", "Pope Gregory VII"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Gregory's own letter and the chronicle tradition state that Henry persisted in penance for three days before the pope, pressed by those around him, granted absolution (28 January 1077). The three-day penance is the standard account.",
+        "sources": [
+          {"title": "Gregory VII's letter on the Penance of Henry IV at Canossa, 1077 (Avalon Project)", "url": "https://avalon.law.yale.edu/medieval/inv08.asp", "source_class": "primary", "supports_verdict": true, "note": "Henry persisted three days until Gregory relented and absolved him."},
+          {"title": "Road to Canossa - Wikipedia", "url": "https://en.wikipedia.org/wiki/Road_to_Canossa", "source_class": "encyclopedia", "supports_verdict": true, "note": "Three days of penance before absolution."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-081",
+      "paragraph": 25,
+      "quote": "Even then it was only upon condition that the emperor should await the sanction of the pope before resuming the insignia or exercising the power of royalty.",
+      "claim_text": "Gregory VII's pardon of Henry IV was conditioned on the emperor awaiting papal sanction before resuming the insignia or exercising royal power.",
+      "claim_type": "event",
+      "entities": ["Henry IV", "Pope Gregory VII"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The absolution at Canossa lifted the excommunication but left the political/kingship question unresolved; Henry swore an oath to submit to Gregory's arbitration of the dispute with the princes, and his restoration to royal authority remained subject to that judgment. White's characterization of a conditional pardon is consistent with the terms recorded in Gregory's letter.",
+        "sources": [
+          {"title": "Gregory VII's letter on the Penance of Henry IV at Canossa, 1077 (Avalon Project)", "url": "https://avalon.law.yale.edu/medieval/inv08.asp", "source_class": "primary", "supports_verdict": true, "note": "Records the oath and conditions attached to Henry's absolution."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-082",
+      "paragraph": 25,
+      "quote": "And Gregory, elated with his triumph, boasted that it was his duty to pull down the pride of kings.",
+      "claim_text": "Pope Gregory VII, elated with his triumph over Henry IV, boasted that it was his duty to pull down the pride of kings.",
+      "claim_type": "attributed_quote",
+      "entities": ["Pope Gregory VII"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "This is a paraphrase (not a direct quotation) of Gregory VII's documented stance. In his Letter to Bishop Hermann of Metz (1081) he wrote of kings and emperors 'swollen by worldly glory' and of the papal duty to 'provide weapons of humility' for them and to humble their pride. White's paraphrase fairly represents Gregory's own articulated view that it was his office to humble the pride of secular rulers; no exact wording is claimed.",
+        "sources": [
+          {"title": "Letter of Gregory VII to Bishop Hermann of Metz, 1081 (Avalon Project)", "url": "https://avalon.law.yale.edu/medieval/inv14.asp", "source_class": "primary", "supports_verdict": true, "note": "Gregory frames the papal duty as humbling the pride of kings and emperors."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-083",
+      "paragraph": 26,
+      "quote": "Whosoever will be chief among you, let him be your servant.”",
+      "claim_text": "Christ taught His disciples, 'Whosoever will be chief among you, let him be your servant.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Matches Matthew 20:27 KJV ('And whosoever will be chief among you, let him be your servant'; cf. Mark 10:44). Quotation and attribution accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-084",
+      "paragraph": 27,
+      "quote": "Even before the establishment of the papacy, the teachings of heathen philosophers had received attention and exerted an influence in the church.",
+      "claim_text": "Even before the establishment of the papacy, the teachings of heathen philosophers received attention and exerted influence within the Christian church.",
+      "claim_type": "causal",
+      "entities": ["Christian church", "pagan philosophy"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Greek philosophy — especially Platonism and Stoicism — demonstrably influenced early Christian theology through figures such as Justin Martyr, Clement of Alexandria, and Origen well before the medieval papacy. The claim is well supported.",
+        "sources": [
+          {"title": "Plato's Shadow: The Encroaching Doctrine of the Soul's Immortality in the Early Church (Humanities, MDPI)", "url": "https://www.mdpi.com/2076-0787/13/3/77", "source_class": "academic", "supports_verdict": true, "note": "Origen and other Fathers incorporated Platonic ideas into theology."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-085",
+      "paragraph": 27,
+      "quote": "Many who professed conversion still clung to the tenets of their pagan philosophy, and not only continued its study themselves, but urged it upon others as a means of extending their influence among the heathen.",
+      "claim_text": "Many professed converts to Christianity continued to hold to and study pagan philosophy and urged it upon others as a means of extending their influence among the heathen.",
+      "claim_type": "causal",
+      "entities": ["Christian church", "pagan philosophy"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Educated converts retained and deployed their philosophical training — the apologists and Alexandrian theologians consciously used Greek philosophy as a bridge to reach pagan intellectuals (e.g. Justin's 'seeds of the Logos,' Clement's use of philosophy as a 'schoolmaster'). The claim's substance is grounded, apart from its polemical tone.",
+        "sources": [
+          {"title": "Plato's Shadow (Humanities, MDPI)", "url": "https://www.mdpi.com/2076-0787/13/3/77", "source_class": "academic", "supports_verdict": true, "note": "Documents continued engagement with Platonic philosophy by Christian teachers."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-086",
+      "paragraph": 27,
+      "quote": "Prominent among these was the belief in man’s natural immortality and his consciousness in death. This doctrine laid the foundation upon which Rome established the invocation of saints and the adoration of the Virgin Mary.",
+      "claim_text": "The belief in the natural immortality of the soul and consciousness in death, introduced from pagan philosophy, laid the foundation on which Rome established the invocation of saints and the adoration of the Virgin Mary.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church", "immortality of the soul", "Virgin Mary"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The first element — that the doctrine of the soul's natural immortality/consciousness after death entered Christian thought substantially under Greek (Platonic) influence — is a recognized scholarly position (e.g. Cullmann; recent studies of Platonic influence on the Fathers). The causal link to invocation of saints and Marian devotion is a reasonable connection (belief in conscious departed souls underlies praying to them) and is defensible, though the strict claim that immortality 'laid the foundation' for those devotions is partly a theological inference rather than a purely documented historical sequence.",
+        "sources": [
+          {"title": "Plato's Shadow: The Encroaching Doctrine of the Soul's Immortality in the Early Church (Humanities, MDPI)", "url": "https://www.mdpi.com/2076-0787/13/3/77", "source_class": "academic", "supports_verdict": true, "note": "Documents Platonic influence on the Christian doctrine of the immortal soul."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-087",
+      "paragraph": 27,
+      "quote": "From this sprung also the heresy of eternal torment for the finally impenitent, which was early incorporated into the papal faith.",
+      "claim_text": "The doctrine of eternal torment for the finally impenitent sprang from the belief in natural immortality and was incorporated early into papal doctrine.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church", "eternal torment"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "medium",
+        "rationale": "The claim bundles a genealogical assertion with a theological verdict. That eternal conscious torment became established Catholic teaching is not in dispute; but the causal genealogy — that it 'sprang from' pagan immortality-belief rather than from the New Testament and early Christian eschatology — is a contested doctrinal-origin question intertwined with the theological label 'heresy' (the conditionalist-vs-traditionalist debate). Whether the doctrine 'sprang from' the immortality premise as a corruption is not empirically resolvable and turns on theological premises; logged as unverifiable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-088",
+      "paragraph": 28,
+      "quote": "Then the way was prepared for the introduction of still another invention of paganism, which Rome named purgatory, and employed to terrify the credulous and superstitious multitudes.",
+      "claim_text": "Rome introduced the doctrine of purgatory, described as a pagan invention, and employed it to terrify credulous and superstitious believers.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church", "purgatory"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "That Rome developed and used the doctrine of purgatory is true. But the characterization of it as strictly 'an invention of paganism' is contested. Modern scholarship (notably Jacques Le Goff, The Birth of Purgatory) treats purgatory as a medieval Christian doctrinal development crystallizing around the 12th century, drawing on earlier Jewish and patristic ideas of postmortem purification as well as Greco-Roman notions — not a simple pagan import. The 'pagan invention' framing is a Protestant polemical reduction of a more complex development.",
+        "sources": [
+          {"title": "Plato's Shadow (Humanities, MDPI)", "url": "https://www.mdpi.com/2076-0787/13/3/77", "source_class": "academic", "supports_verdict": false, "note": "Platonic dualism contributed to later purgatory doctrine, but as a Christian development, not a direct pagan invention."},
+          {"title": "Indulgence - Wikipedia", "url": "https://en.wikipedia.org/wiki/Indulgence", "source_class": "encyclopedia", "supports_verdict": false, "note": "Treats purgatory as a Catholic doctrinal development linked to the penitential/indulgence system, not a pagan import."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-089",
+      "paragraph": 28,
+      "quote": "By this heresy is affirmed the existence of a place of torment, in which the souls of such as have not merited eternal damnation are to suffer punishment for their sins, and from which, when freed from impurity, they are admitted to heaven.",
+      "claim_text": "The Roman Catholic doctrine of purgatory affirms the existence of a place of torment where souls not meriting eternal damnation suffer punishment for their sins until, freed from impurity, they are admitted to heaven.",
+      "claim_type": "event",
+      "entities": ["purgatory", "Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "This accurately describes the Catholic doctrine of purgatory: a state/place of purifying punishment for those who die in grace but with unexpiated venial sin or temporal debt, from which the purified souls pass to heaven. The description of the doctrine's content is correct ('heresy' is White's evaluative label).",
+        "sources": [
+          {"title": "Indulgence - Wikipedia", "url": "https://en.wikipedia.org/wiki/Indulgence", "source_class": "encyclopedia", "supports_verdict": true, "note": "Describes purgatory as temporal purification before heaven, linked to indulgences."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-090",
+      "paragraph": 29,
+      "quote": "This was supplied by the doctrine of indulgences. Full remission of sins, past, present, and future, and release from all the pains and penalties incurred, were promised to all who would enlist in the pontiff’s wars to extend his temporal dominion, to punish his enemies, or to exterminate those who dared deny his spiritual supremacy.",
+      "claim_text": "The Roman Catholic doctrine of indulgences promised full remission of past, present, and future sins to those who enlisted in the pontiff's wars to extend his temporal dominion, punish his enemies, or exterminate those who denied his spiritual supremacy.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church", "indulgences"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Plenary (crusade) indulgences originated with Urban II's grant at Clermont (1095) remitting penance for crusaders, and indulgences were later extended to those who fought or funded papal wars, including crusades against heretics (e.g. the Albigensian Crusade) and papal enemies. The substance is accurate; 'full remission of sins past, present, and future' is a Protestant sharpening of the technical claim (remission of temporal penalty), and the motive-language ('extend his dominion,' 'exterminate') is polemical but corresponds to real uses of political/anti-heretical crusade indulgences.",
+        "sources": [
+          {"title": "Indulgence - Wikipedia", "url": "https://en.wikipedia.org/wiki/Indulgence", "source_class": "encyclopedia", "supports_verdict": true, "note": "Crusade indulgences from Urban II 1095; extension to supporters and to political/anti-heretical crusades."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-091",
+      "paragraph": 29,
+      "quote": "The people were also taught that by the payment of money to the church they might free themselves from sin, and also release the souls of their deceased friends who were confined in the tormenting flames.",
+      "claim_text": "The Roman Catholic Church taught that by paying money to the church, people could free themselves from sin and release the souls of deceased friends confined in purgatory.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church", "indulgences", "purgatory"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Indulgences could be obtained through almsgiving/monetary contributions, and from 1476 (Sixtus IV) indulgences were applied to souls in purgatory — the practice notoriously marketed by preachers such as Tetzel. Official theology framed this as remission of temporal punishment via works of charity, not literal purchase of forgiveness; White's rendering ('free themselves from sin' by 'payment of money') reflects the popular abuse the Reformation attacked, which was real. Supported with that nuance.",
+        "sources": [
+          {"title": "Indulgence - Wikipedia", "url": "https://en.wikipedia.org/wiki/Indulgence", "source_class": "encyclopedia", "supports_verdict": true, "note": "Indulgences for the dead (Sixtus IV, 1476); monetary abuses that provoked the Reformation."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-092",
+      "paragraph": 29,
+      "quote": "By such means did Rome fill her coffers, and sustain the magnificence, luxury, and vice of the pretended representatives of Him who had not where to lay His head.",
+      "claim_text": "By selling indulgences, Rome filled its treasury and sustained the magnificence, luxury, and vice of its clergy.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church", "indulgences"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Indulgence revenue was a significant source of church income (e.g. the St. Peter's Basilica indulgence campaign under Leo X that triggered Luther's protest), and clerical/papal wealth and worldliness are well documented. The causal claim (indulgence money funding ecclesiastical magnificence) is historically grounded; 'luxury and vice' is polemical generalization.",
+        "sources": [
+          {"title": "Indulgence - Wikipedia", "url": "https://en.wikipedia.org/wiki/Indulgence", "source_class": "encyclopedia", "supports_verdict": true, "note": "Indulgence sales funded projects such as St. Peter's Basilica."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-093",
+      "paragraph": 30,
+      "quote": "The scriptural ordinance of the Lord’s supper had been supplanted by the idolatrous sacrifice of the mass.",
+      "claim_text": "The scriptural ordinance of the Lord's Supper was supplanted by the Roman Catholic sacrifice of the mass.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church", "mass", "Lord's Supper"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The eucharist did develop into the Mass understood as a propitiatory sacrifice, doctrinally elaborated in the medieval period (transubstantiation defined 1215). That the simple commemorative Lord's Supper was reconceived as the sacrifice of the Mass is a defensible historical description; 'supplanted' and 'idolatrous' are Protestant evaluative terms for the doctrinal development.",
+        "sources": [
+          {"title": "Transubstantiation - Wikipedia", "url": "https://en.wikipedia.org/wiki/Transubstantiation", "source_class": "encyclopedia", "supports_verdict": true, "note": "Development of eucharistic doctrine into the sacrifice of the Mass."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-094",
+      "paragraph": 30,
+      "quote": "Papal priests pretended, by their senseless mummery, to convert the simple bread and wine into the actual “body and blood of Christ.”",
+      "claim_text": "Roman Catholic priests claimed, through the ritual of the mass, the power to convert bread and wine into the actual body and blood of Christ.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church", "transubstantiation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The doctrine of transubstantiation — that at the priest's consecration the substance of bread and wine becomes the actual body and blood of Christ — was formally affirmed at the Fourth Lateran Council (1215) and remains Catholic teaching. The factual claim about what priests are held to do is accurate; 'senseless mummery' is polemical.",
+        "sources": [
+          {"title": "Fourth Lateran Council - Britannica", "url": "https://www.britannica.com/event/Lateran-Council-Fourth-1215", "source_class": "encyclopedia", "supports_verdict": true, "note": "Sanctioned the term transubstantiation."},
+          {"title": "Transubstantiation - Wikipedia", "url": "https://en.wikipedia.org/wiki/Transubstantiation", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-095",
+      "paragraph": 30,
+      "quote": "Christians were required, on pain of death, to avow their faith in this horrible, Heaven-insulting heresy. Multitudes who refused were given to the flames.",
+      "claim_text": "Christians were required, on pain of death, to avow their faith in the doctrine of transubstantiation, and multitudes who refused were burned at the stake.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church", "transubstantiation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Denial of transubstantiation/the real presence was treated as heresy and could bring execution by burning — e.g. Lollards, Hussites, and later Reformation-era martyrs were condemned partly for rejecting the doctrine (English heresy statute De heretico comburendo, 1401). 'Multitudes' is a broad quantification, but people were indeed burned for denying the doctrine. Supported with that scope caveat.",
+        "sources": [
+          {"title": "Medieval Inquisition - Wikipedia", "url": "https://en.wikipedia.org/wiki/Medieval_Inquisition", "source_class": "encyclopedia", "supports_verdict": true, "note": "Heresy including eucharistic denial punishable by burning."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-096",
+      "paragraph": 31,
+      "quote": "In the thirteenth century was established that most terrible of all the engines of the papacy,—the Inquisition.",
+      "claim_text": "The Inquisition was established in the thirteenth century.",
+      "claim_type": "date",
+      "entities": ["Inquisition"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The papal (medieval) Inquisition was formally instituted by Pope Gregory IX around 1231 (bull Excommunicamus), appointing Dominican and Franciscan inquisitors — the thirteenth century, as stated. (An episcopal inquisition had been ordered by Lucius III in 1184.)",
+        "sources": [
+          {"title": "Medieval Inquisition - Wikipedia", "url": "https://en.wikipedia.org/wiki/Medieval_Inquisition", "source_class": "encyclopedia", "supports_verdict": true, "note": "Gregory IX established papal inquisitors in 1231."},
+          {"title": "Gregory IX - Britannica", "url": "https://www.britannica.com/biography/Gregory-IX", "source_class": "encyclopedia", "supports_verdict": true}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-097",
+      "paragraph": 31,
+      "quote": "In their secret councils, Satan and his angels controlled the minds of evil men, while unseen in the midst stood an angel of God, taking the fearful record of their iniquitous decrees, and writing the history of deeds too horrible to appear to human eyes.",
+      "claim_text": "In the secret councils of the papal hierarchy, Satan and his angels controlled the minds of evil men while an unseen angel of God recorded their iniquitous decrees.",
+      "claim_type": "theological",
+      "entities": ["Inquisition", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural/theological claim about angelic and demonic activity in Inquisition councils; unverifiable by definition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-098",
+      "paragraph": 31,
+      "quote": "“Babylon the great” was “drunken with the blood of the saints.”",
+      "claim_text": "The book of Revelation describes 'Babylon the great' as 'drunken with the blood of the saints' (Revelation 17:5-6).",
+      "claim_type": "attributed_quote",
+      "entities": ["Revelation", "Babylon"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] 'Babylon the Great' is the title in Revelation 17:5, and 17:6 describes the woman as 'drunken with the blood of the saints.' Quotation and attribution accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-099",
+      "paragraph": 31,
+      "quote": "The mangled forms of millions of martyrs cried to God for vengeance upon that apostate power.",
+      "claim_text": "Millions of martyrs were killed under the apostate papal power.",
+      "claim_type": "statistic",
+      "entities": ["Inquisition", "martyrs"],
+      "needs_verification": true,
+      "extractor_note": "The numeric claim ('millions') is embedded in theological framing ('cried to God for vengeance'); the quantitative/historical component is separated out here and flagged for verification.",
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "The figure of 'millions' of martyrs killed by the papacy reflects 19th-century Protestant martyrology (e.g. John Dowling's History of Romanism, 1847, popularized figures around 'fifty million' killed for heresy) that White's sources carried. Modern historians regard such totals as grossly exaggerated: documented Inquisition executions number in the thousands to low tens of thousands, and even broad tallies of all religious-persecution deaths over the whole medieval-early-modern span fall far short of 'millions' attributable to the papacy specifically. The claim matches period sources but not modern demographic scholarship.",
+        "modern_consensus": "Executions by the Inquisitions numbered a few thousand to low tens of thousands; 'millions' is considered a large exaggeration.",
+        "period_historiography": "John Dowling, History of Romanism (1847), and popular Protestant histories cited figures up to ~50 million killed for heresy over the centuries.",
+        "sources": [
+          {"title": "Were 50 Million People Really Killed in the Inquisition? (National Catholic Register)", "url": "https://www.ncregister.com/blog/were-50-million-people-really-killed-in-the-inquisition", "source_class": "apologetic", "supports_verdict": true, "note": "Position: traces the inflated figure to Dowling (1847) and reports the scholarly estimate of a few thousand executions."},
+          {"title": "Catholic Inquisition Murdered '50-68 Million'? (Patheos / D. Armstrong)", "url": "https://www.patheos.com/blogs/davearmstrong/2017/05/catholic-inquisition-murdered-50-68-million.html", "source_class": "apologetic", "supports_verdict": true, "note": "Position: argues the multi-million figures are mathematically implausible against medieval European population; cites historians' far lower counts."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-100",
+      "paragraph": 32,
+      "quote": "Popery had become the world’s despot. Kings and emperors bowed to the decrees of the Roman pontiff. The destinies of men, both for time and for eternity, seemed under his control.",
+      "claim_text": "By this period, the medieval papacy had become the world's despot, with kings and emperors bowing to the decrees of the Roman pontiff, whose control seemed to extend over the destinies of men both for time and eternity.",
+      "claim_type": "causal",
+      "entities": ["papacy", "kings", "emperors"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "At the height of medieval papal power (notably under Innocent III, r. 1198-1216) the papacy did assert supremacy over secular rulers, humbling kings and emperors (Canossa; John of England's submission; interdicts against kingdoms). The characterization of the papacy dominating temporal and spiritual affairs at its zenith is historically grounded, though 'the world's despot' is rhetorical.",
+        "sources": [
+          {"title": "Dictatus papae - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dictatus_papae", "source_class": "encyclopedia", "supports_verdict": true, "note": "Papal claims to depose rulers; medieval papal ascendancy over secular power."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-101",
+      "paragraph": 32,
+      "quote": "For hundreds of years the doctrines of Rome had been extensively and implicitly received, its rites reverently performed, its festivals generally observed. Its clergy were honored and liberally sustained.",
+      "claim_text": "For hundreds of years, the doctrines of Rome were extensively and implicitly received, its rites reverently performed, its festivals generally observed, and its clergy honored and liberally sustained.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church", "clergy"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Western Christendom for centuries was overwhelmingly Roman Catholic in doctrine, ritual, calendar and clerical support before the Reformation. An uncontested general characterization.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-102",
+      "paragraph": 32,
+      "quote": "Never since has the Roman Church attained to greater dignity, magnificence, or power.",
+      "claim_text": "The medieval papacy attained greater dignity, magnificence, and power at this period than at any time since.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church", "papacy"],
+      "needs_verification": true,
+      "extractor_note": "A sweeping comparative-historical claim; included as causal/checkable rather than purely interpretive since it makes a testable comparison across historical periods.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The comparative judgment that the high-medieval papacy (12th-13th centuries, its temporal-power zenith) surpassed all later periods in political dominance over Europe is a widely held historical assessment; papal temporal supremacy declined after the 13th century (Avignon captivity, Western Schism, Reformation). The claim is defensible, though 'never since... greater magnificence' could be debated for the Renaissance papacy's splendor.",
+        "sources": [
+          {"title": "Dictatus papae - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dictatus_papae", "source_class": "encyclopedia", "supports_verdict": true, "note": "Context for the high-medieval peak of papal power."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-103",
+      "paragraph": 33,
+      "quote": "But “the noon of the papacy was the midnight of the world.”",
+      "claim_text": "It has been said that 'the noon of the papacy was the midnight of the world.'",
+      "claim_type": "attributed_quote",
+      "entities": ["papacy"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The quotation is genuine and correctly presented as a saying White is citing. It comes from J.A. Wylie's The History of Protestantism (vol. 1, p. 16, 1878) — one of the historical sources named in GC's references. As an accurately reproduced attributed saying, the quotation is verified (its truth-as-historical-judgment is a separate, evaluative matter, cf. GC-03-059/105).",
+        "sources": [
+          {"title": "J.A. Wylie, History of Protestantism, vol. 1, p. 16 ('the noon of the Papacy was the midnight of the world')", "url": "https://thisishellandicanseeyoufromhere.wordpress.com/2016/11/26/the-noonday-of-the-papacy-was-the-midnight-of-the-world/", "source_class": "other", "supports_verdict": true, "note": "Locates the phrase in Wylie's History of Protestantism."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-104",
+      "paragraph": 33,
+      "quote": "The Holy Scriptures were almost unknown, not only to the people, but to the priests.",
+      "claim_text": "During this period, the Holy Scriptures were almost unknown, not only to the laity but to the priests themselves.",
+      "claim_type": "event",
+      "entities": ["Roman Catholic Church", "Scripture"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Low biblical literacy — including among many parish clergy — during parts of the early and central Middle Ages is documented; reform councils repeatedly complained of clerical ignorance, and vernacular access was limited. 'Almost unknown' is an overstatement (monastic and scholastic scholarship preserved and studied Scripture intensively), but the general claim about widespread ignorance of Scripture among ordinary clergy and laity is grounded.",
+        "sources": [
+          {"title": "Council of Toulouse - Wikipedia", "url": "https://en.wikipedia.org/wiki/Council_of_Toulouse", "source_class": "encyclopedia", "supports_verdict": true, "note": "Restricted lay access to Scripture; context of limited biblical availability."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-105",
+      "paragraph": 33,
+      "quote": "For centuries Europe had made no progress in learning, arts, or civilization. A moral and intellectual paralysis had fallen upon Christendom.",
+      "claim_text": "For centuries under papal dominance, Europe made no progress in learning, arts, or civilization, and a moral and intellectual paralysis fell upon Christendom.",
+      "claim_type": "causal",
+      "entities": ["Europe", "Dark Ages"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "The claim of centuries of total stagnation in learning, arts and civilization is the classic 'Dark Ages' thesis that modern historians reject. Scholarship documents substantial medieval developments — the Carolingian renewal, monastic preservation and copying of texts, the rise of universities, scholasticism, the 12th-century renaissance, Gothic architecture, agricultural and mechanical innovation. The sweeping 'no progress for centuries' matches 19th-century Protestant historiography (Wylie) rather than current scholarship.",
+        "modern_consensus": "The Middle Ages saw significant intellectual, artistic and technological development; the notion of centuries of uniform stagnation is rejected.",
+        "period_historiography": "J.A. Wylie's History of Protestantism and similar 19th-century works portrayed the medieval papal centuries as an era of intellectual darkness ('the midnight of the world').",
+        "sources": [
+          {"title": "Dark Ages (historiography) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dark_Ages_(historiography)", "source_class": "encyclopedia", "supports_verdict": true, "note": "Historians reject the stagnation model implied by 'Dark Ages.'"},
+          {"title": "What the 'Dark Ages' Myth Gets Wrong About Medieval Science (TIME)", "url": "https://time.com/5911003/middle-ages-myths/", "source_class": "other", "supports_verdict": true, "note": "Documents medieval innovation, contradicting 'no progress for centuries.'"}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-106",
+      "paragraph": 33,
+      "quote": "Some of the reigning pontiffs were guilty of crimes so revolting that secular rulers endeavored to depose these dignitaries of the church as monsters too vile to be tolerated.",
+      "claim_text": "Some reigning popes of this period were guilty of crimes so revolting that secular rulers attempted to depose them as monsters too vile to be tolerated.",
+      "claim_type": "event",
+      "entities": ["popes", "secular rulers"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The 10th-century 'pornocracy'/nadir of the papacy produced notoriously corrupt and violent popes (e.g. John XII, Benedict IX), and secular rulers did intervene to depose scandalous popes — Emperor Otto I deposed John XII (963), and Henry III deposed rival popes at Sutri (1046). The claim about revolting papal crimes and secular deposition is historically grounded.",
+        "sources": [
+          {"title": "Dictatus papae - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dictatus_papae", "source_class": "encyclopedia", "supports_verdict": true, "note": "Reform context following the corrupt 10th-11th century papacy and imperial depositions."}
+        ]
+      }
+    },
+    {
+      "id": "GC-03-107",
+      "paragraph": 34,
+      "quote": "“My people are destroyed for lack of knowledge: because thou hast rejected knowledge, I will also reject thee:... seeing thou hast forgotten the law of thy God, I will also forget thy children.” “There is no truth, nor mercy, nor knowledge of God in the land. By swearing, and lying, and killing, and stealing, and committing adultery, they break out, and blood toucheth blood.”",
+      "claim_text": "The prophet Hosea wrote: 'My people are destroyed for lack of knowledge...' and 'There is no truth, nor mercy, nor knowledge of God in the land. By swearing, and lying, and killing, and stealing, and committing adultery, they break out, and blood toucheth blood' (Hosea 4:1-2, 6).",
+      "claim_type": "attributed_quote",
+      "entities": ["Hosea"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Both quotations match the KJV: Hosea 4:6 ('My people are destroyed for lack of knowledge...') and Hosea 4:1-2 ('There is no truth, nor mercy, nor knowledge of God in the land...blood toucheth blood'). Quotations and attribution to Hosea accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-03-108",
+      "paragraph": 34,
+      "quote": "The condition of the world under the Romish power presented a fearful and striking fulfilment of the words of the prophet Hosea",
+      "claim_text": "The condition of the world under Roman Catholic power presented a fulfillment of the prophet Hosea's words about a people destroyed for lack of knowledge.",
+      "claim_type": "theological",
+      "entities": ["Hosea", "Roman Catholic Church"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "CONTROL SAMPLE (was needs_verification:false). The overall assertion — that medieval conditions 'fulfilled' Hosea — is a prophetic-interpretive/theological claim, not empirically checkable. Control note: the one embedded checkable element, the attribution of the quoted words to Hosea, is accurate (verified at GC-03-107); no false factual assertion is smuggled into the framing. The 'fulfillment' judgment itself remains theological.",
+        "sources": []
+      }
+    }
+  ]
+}
