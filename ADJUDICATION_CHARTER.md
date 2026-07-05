@@ -1,7 +1,7 @@
 # ADJUDICATION CHARTER — GCHAR Phase 2
 
-**Version:** 0.1-draft (pre-registered, awaiting user approval)
-**Status:** No adjudication may begin until the user approves this charter. On approval the charter is frozen; see §12 for the amendment procedure.
+**Version:** 1.0-frozen (approved by the user 2026-07-05 with four pre-freeze amendments; see §12)
+**Status:** Frozen. Amendments only via §12. The D01 calibration gate (§10.5) stands: the first dossier is adjudicated alone and presented for user approval before any further dossier opens.
 **Scope of application:** the 97 claims carrying final (defense-adjusted) verdict `disputed`, enumerated and grouped in `ADJUDICATION_DOSSIERS.md`. That enumeration is frozen together with this charter.
 
 ---
@@ -58,7 +58,9 @@ Bundled claims are split before ruling. A bundle is any claim that welds togethe
 - **motive** — an attribution of intent to historical actors ("in order to promote nominal acceptance", "perceiving that a shared festival would advance the church's power");
 - **hermeneutic** — a prophetic-interpretive premise (year-day principle, identification of a prophetic symbol), which is out of scope (§9).
 
-Each component receives its own component-level ruling. The claim-level `ruling_as_written` for a conjunction is the **minimum** (weakest link) across its in-scope components, because the sentence as printed asserts the conjunction. Motive components require direct documentary evidence of intent (letters, decrees, minutes, contemporary testimony); scholarly inference about likely motives supports at most `probable`, and absence of any documentary basis combined with a competing mainstream account caps the motive component at `improbable`.
+Each component receives its own component-level ruling. The claim-level `ruling_as_written` for a conjunction is the **minimum** (weakest link) across its in-scope components, because the sentence as printed asserts the conjunction. The kind of the weakest in-scope component that set this minimum is recorded per claim as `failing_component_kind` (`fact` / `frame` / `motive`); downstream reporting segments accusatory results by this field (§11).
+
+Motive components require direct documentary evidence of intent (letters, decrees, minutes, contemporary testimony); scholarly inference about likely motives supports at most `probable`. Absence of any documentary basis caps the motive component at `improbable` **only when the competing mainstream account of the motive itself has documentary support**. Where the competing account is likewise scholarly inference without documents, the motive component caps at `genuinely-open` instead — the burden rule must not apply to the book's motive claims while exempting rival motive claims (consistent with §5.3).
 
 Where a component is hermeneutic, it is marked `in_scope: false` and excluded from the minimum; the ruling then explicitly states its conditionality (e.g., "conditional on the year-day premise, which this adjudication does not evaluate").
 
@@ -134,7 +136,7 @@ Operationally: these enter rulings only as `hermeneutic` components under §3, m
 
 1. **Order of work:** dossiers are processed in the order of `ADJUDICATION_DOSSIERS.md` (load-bearing weight first). Within a dossier: shared evidence review first, then per-claim rulings.
 2. **Dossier evidence review:** one document per dossier establishing the state of the question — the key positions, key primary sources, and what has changed since the 19th century. All per-claim rulings in the dossier cite into this review plus any claim-specific evidence.
-3. **Research budget:** 6–12 web searches per dossier scaled by claim count and stakes (load-bearing and academic-floor dossiers at the high end), plus up to 2 claim-specific searches for stragglers the shared pool does not cover. WebFetch only when a ruling turns on details absent from snippets, with a token limit. Approximate counts recorded in each output file's `notes`.
+3. **Research budget:** 6–12 web searches per dossier scaled by claim count and stakes (load-bearing and academic-floor dossiers at the high end), plus up to 2 claim-specific searches for stragglers the shared pool does not cover. Dossiers containing **8 or more load-bearing claims** (at minimum D01) run on an elevated budget of **18–20 searches**, plus the same stragglers allowance; the elevated budget is noted in `ADJUDICATION_DOSSIERS.md`. WebFetch only when a ruling turns on details absent from snippets, with a token limit. Approximate counts recorded in each output file's `notes`.
 4. **Exhausted budget** → `gap_note` and back to the queue (§1); never a forced ruling.
 5. **Calibration gate:** after the first dossier (D01) is fully adjudicated, STOP and present results to the user for approval before processing further dossiers — mirroring the Phase-1 calibration gate.
 6. **Fresh context per dossier:** each dossier is adjudicated by a fresh subagent context to prevent cross-dossier verdict momentum.
@@ -143,7 +145,7 @@ Operationally: these enter rulings only as `hermeneutic` components under §3, m
 
 ## 11. Outputs
 
-Per dossier: `adjudication/DNN_<slug>.ruling.json` with the evidence review in a top-level `evidence_review` field and one record per claim:
+Per dossier: `adjudication/DNN_<slug>.ruling.json` with two mandatory top-level fields — `evidence_review` (the dossier evidence review, §10.2) and `narrative_ru` (defined below) — and one record per claim:
 
 ```json
 {
@@ -155,6 +157,7 @@ Per dossier: `adjudication/DNN_<slug>.ruling.json` with the evidence review in a
      "ruling": "improbable", "rationale": "..."}
   ],
   "ruling_as_written": "improbable",
+  "failing_component_kind": "fact|frame|motive",
   "weakened_version": "one-sentence steelman rewrite",
   "ruling_weakened": "genuinely-open",
   "framing_gap": 1,
@@ -168,9 +171,11 @@ Per dossier: `adjudication/DNN_<slug>.ruling.json` with the evidence review in a
 }
 ```
 
+**`narrative_ru`** (mandatory, top-level): 3–6 sentences in Russian for a lay reader — the dossier's question, how the claims fared as written and in their weakened versions, and what evidence would change the picture. It follows the tone rules of the synthesis documents: no prosecutorial and no apologetic drift. The report site renders it directly.
+
 Downstream mapping (pre-registered so the report cannot be gerrymandered later):
 
-- `discredited` and `improbable` (as written) → enter the discrepancy analysis; each gets an impact re-score by the impact-assessor before inclusion.
+- `discredited` and `improbable` (as written) → enter the discrepancy analysis; each gets an impact re-score by the impact-assessor before inclusion. The impact re-score, the synthesis stage, and the final report MUST segment these results by `failing_component_kind`: a claim failing on an undocumented motive attribution is a distinct reported class from a claim failing on fact, and the classes are never aggregated into one headline number. The website renders the classes differently.
 - `well-supported` and `probable` → leave the disputed bucket; reported as vindicated under adjudication.
 - `genuinely-open` → remains the honest residue; reported as such, with the framing-gap distribution alongside.
 - All Phase-1 files remain untouched; the report reads Phase-2 rulings as the final word on these 97 claims and says so explicitly.
@@ -183,4 +188,9 @@ Amendments to this charter require explicit user approval and are logged here wi
 
 | Date | Version | Change | Approved by |
 |---|---|---|---|
-| 2026-07-05 | 0.1-draft | Initial pre-registration draft | — (pending) |
+| 2026-07-05 | 0.1-draft | Initial pre-registration draft | — |
+| 2026-07-05 | 1.0 | §3+§11: `failing_component_kind` recorded per claim; impact re-score, synthesis, and report segment `improbable`/`discredited` by it — motive-failures never aggregated with fact-failures into one headline number. Rationale: pre-freeze user amendments. | user |
+| 2026-07-05 | 1.0 | §3: motive-cap symmetry — undocumented motive attribution caps at `improbable` only when the rival motive account has documentary support; otherwise `genuinely-open` (consistent with §5.3). Rationale: pre-freeze user amendments. | user |
+| 2026-07-05 | 1.0 | §10.3: dossiers with ≥8 load-bearing claims (at minimum D01) run 18–20 searches plus the standard stragglers allowance. Rationale: pre-freeze user amendments. | user |
+| 2026-07-05 | 1.0 | §11: mandatory top-level `narrative_ru` (3–6 Russian sentences for a lay reader, synthesis-document tone rules) in every ruling file. Rationale: pre-freeze user amendments. | user |
+| 2026-07-05 | 1.0-frozen | Charter approved and frozen with the four amendments above | user |

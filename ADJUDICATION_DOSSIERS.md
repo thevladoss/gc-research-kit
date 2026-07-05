@@ -1,6 +1,6 @@
 # ADJUDICATION DOSSIERS — GCHAR Phase 2
 
-**Version:** 0.1-draft, frozen together with `ADJUDICATION_CHARTER.md` on user approval.
+**Version:** 1.0-frozen (2026-07-05), frozen together with `ADJUDICATION_CHARTER.md` v1.0-frozen.
 **Universe:** the 97 claims whose final (defense-adjusted) verdict is `disputed`.
 
 ## Method note
@@ -47,6 +47,8 @@ Two deliberate deviations from `aggregate.json` cluster assignments, both for ev
 ## D01 — chronology-1844 (16 claims, 15 LB, impact 238) `academic_floor: yes`
 
 Shared evidence pool: Persian regnal-year reckoning for Artaxerxes I (Parker & Dubberstein vs the fall-to-fall accession defense), Ezra 7 dating; Tiberius's 15th year and the baptism date; crucifixion-year scholarship (AD 30/31/33, astronomical calendar data); Acts chronology around AD 34; Daniel 8:14 scholarship (Antiochus IV mainstream reading). The chain is one arithmetic construction: decomposition (§3) must separate calendar-arithmetic components (in scope) from the year-day hermeneutic (out of scope), and rulings on individual anchors must state their dependence on the 457 anchor.
+
+**Research budget: elevated per charter §10.3 — 18–20 searches plus the standard per-claim stragglers allowance (15 of 16 claims are load-bearing).**
 
 | Claim | LB | Impact | Topic |
 |---|---|---|---|
