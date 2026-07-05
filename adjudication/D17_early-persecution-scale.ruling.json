@@ -1,0 +1,215 @@
+{
+  "dossier": "D17",
+  "slug": "early-persecution-scale",
+  "stage": "adjudication",
+  "charter_version": "1.1-frozen",
+  "generated_at": "2026-07-05",
+  "notes": "searches: ~9 (7 shared, 2 stragglers for GC-02-054) + 1 WebFetch (Origen, Contra Celsum 3.8 text check). Local scholarship replaced further searches: scholarship/pliny-letters-melmoth-gutenberg.txt (Ep. 10.96-97, lines 8838-8906) and scholarship/npnf2-01-eusebius-church-history-life-constantine.txt (HE 4.15 Polycarp manhunt, lines 21205-21229; HE 6.40 frumentarius hunting Dionysius, line 35362; HE 8.2/8.6 Diocletianic edicts, lines 41317-41323; HE 8.9.3 Thebaid eyewitness executions, lines 42082-42086). Phase-1 defense existed only for GC-02-022 (verdict_downgraded) and its evidence-mate GC-02-020; it is answered in the GC-02-022 record. All five failing components are of kind fact; GC-02-004 carries tied_kinds [fact, frame, motive]. Period-standard flags for synthesis: GC-02-022 (catacomb-refuge legend standard in 19th-century historiography; original verdict anachronistic) and GC-02-018 (continuous-manhunt picture standard in the Foxe/Wylie martyrological tradition).",
+  "evidence_review": "State of the question. (1) Mechanics: since G. E. M. de Ste. Croix ('Why Were the Early Christians Persecuted?', Past & Present 26, 1963; repr. Christian Persecution, Martyrdom, and Orthodoxy, OUP 2006), the consensus holds that pre-Decian persecution was sporadic, local, and accusatory rather than inquisitorial: Trajan's rescript to Pliny (Ep. 10.97, read locally in the Melmoth edition) rules 'Do not go out of your way to look for them' (conquirendi non sunt) and bans anonymous accusations; Pliny's own letter (10.96) shows a reactive tribunal process. James Corke-Webster ('By Whom Were Early Christians Persecuted?', Past & Present 261, 2023, open access) pushes further, locating agency in local accusers and governors even in the empire-wide phases. Against this baseline stand three documented episodes of active state pursuit: the Decian order of 250 (Dionysius of Alexandria hunted by a frumentarius who searched 'roads, rivers, and fields', Eusebius HE 6.40, local text), Valerian's edicts of 257-258 (clergy executed, Christians banned from entering the coemeteria; Sixtus II seized by soldiers inside a catacomb during worship on 6 August 258, Cyprian Ep. 80), and the Diocletianic edicts of 303-304 (churches razed, scriptures burned, 'all the rulers of the churches in every place' imprisoned, HE 8.2/8.6, local text). A pre-Decian local manhunt is also documented: Polycarp's pursuers 'pushed the search with vigor' and tortured a servant to learn his hiding place (HE 4.15.11, local text). Between these phases lie long stretches of de facto toleration, including the Long Peace of 260-303. (2) Scale: the primary evidence itself spreads from Origen c. 248 (Contra Celsum 3.8: martyrs are 'some, on special occasions, and these individuals who can be easily numbered', verified verbatim) to Eusebius's eyewitness Thebaid report (HE 8.9.3: ten to a hundred killed in a day 'for a long series of years'). Modern estimates: Rodney Stark under 1,000 total (criticized as 'impossibly low' by T. D. Barnes); W. H. C. Frend 3,000-3,500 dead in the Great Persecution alone; Min Seok Shin (The Great Persecution: A Historical Re-examination, reviewed BMCR 2020.08.21) over 23,500 under Diocletian. Candida Moss (The Myth of Persecution, 2013) argues the 'Age of Martyrs' is a later construction; her named critics (Paul L. Maier, Michael Heiser) counter that she understates real, well-attested persecution; even Moss concedes the Decian-Valerianic and Diocletianic episodes. Net: totals of at least several thousand are the floor of serious specialist estimates; the legendary vast-multitude picture is rejected. (3) Catacombs: specialist archaeology (Vincenzo Fiocchi Nicolai, Pontifical Institute of Christian Archaeology; Leonard V. Rutgers, Utrecht; two genealogically independent lines) holds the catacombs were legally registered communal cemeteries and memorial sites, known to the authorities, unfit for habitation; the hiding-place picture is a romantic legend. The documented kernel: Valerian's ban on entering the cemeteries and Sixtus II's arrest there presuppose clandestine assembly during proscription, and even debunking scholarship concedes catacombs were 'only infrequently places of hiding during persecution' (SBTS journal piece cited by the Phase-1 defender). (4) Motives: the documented motive record for early persecution is Nero's scapegoating (Tacitus, Ann. 15.44), punishment of contumacia and rejection of the gods (Pliny-Trajan), and pax deorum anxiety (Ste. Croix). Pliny 10.96 does attest pagan concern over 'almost deserted' temples and a collapsed market for sacrificial victims; for the Great Persecution there is direct documentary evidence of a cult-restoration motive (Galerius's 311 edict; Maximinus Daia's rescripts to Tyre and to Lycia-Pamphylia answering petitions to expel Christians; Porphyry and Hierocles as ideologues; Diocletian's traditionalism). What has no documentary basis is a unified 'Paganism' acting from foresight of Christianity's eventual triumph across the whole era. (5) Religious freedom: Robert Louis Wilken (Liberty in the Things of God, Yale UP 2019) documents that Tertullian coined libertas religionis (Apol. 24; Ad Scapulam 2) and Lactantius argued religion cannot be coerced, unsettling the pure-anachronism objection; but neither was condemned for it, and Lactantius's argument fed the 313 Milan settlement. After establishment, the documented mechanism runs the other way: the Edict of Thessalonica (380) and Codex Theodosianus 16.5 proscribe some 65 named heresies with penalties up to death, dissenting assembly is criminalized, and Augustine's anti-Donatist theory justifies coercion against dissenters' pleas for freedom of conscience; no late-antique or early-medieval text is known that brands toleration doctrine itself 'heresy'. Formal condemnations of the toleration principle come only much later (Exsurge Domine art. 33 in 1520; Mirari Vos 1832; Syllabus 1864), outside this chapter's era.",
+  "narrative_ru": "Досье проверяло пять утверждений главы 2 о размахе и механике гонений на ранних христиан. Современная наука видит спорадические местные преследования с несколькими короткими общеимперскими кампаниями третьего и начала четвёртого века, поэтому образ непрерывной охоты «где бы они ни искали убежища» опровергается рескриптом Траяна, прямо запретившим разыскивать христиан, а объяснение гонений тем, что язычество «предвидело торжество евангелия», остаётся недокументированным. Утверждение о «великом множестве» мучеников, напротив, скорее устояло: серьёзные современные оценки дают от нескольких тысяч казнённых и выше, хотя ревизионистская линия Кандиды Мосс оспаривает традиционный размах. Катакомбы служили кладбищами и местами тайных собраний в периоды запретов, но «домом» для скрывающихся, вопреки романтической легенде девятнадцатого века, не были. В ослабленных формулировках, привязанных к реально задокументированным кампаниям гонений, все пять утверждений получают оценку от вероятного до хорошо подтверждённого; картину изменили бы новые документальные находки, например доимперский эдикт о повсеместном розыске христиан.",
+  "rulings": [
+    {
+      "id": "GC-02-008",
+      "dossier": "D17",
+      "quantifier_audit": ["great numbers"],
+      "components": [
+        {
+          "component": "Early Christians were martyred for their faith under Roman persecution",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Undisputed across the whole spectrum, from Tacitus (Ann. 15.44) and Pliny 10.96 through the martyr acta to Moss herself, who denies the scale narrative, not the fact of martyrdoms."
+        },
+        {
+          "component": "The martyrs numbered 'great numbers'",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "probable",
+          "rationale": "The primary spread runs from Origen c. 248 ('individuals who can be easily numbered', Contra Celsum 3.8, verified verbatim; written before the Decian, Valerianic, and Diocletianic persecutions, so it caps only the pre-250 period) to Eusebius's eyewitness Thebaid account (HE 8.9.3: ten to a hundred a day 'for a long series of years'). Modern estimates: Frend 3,000-3,500 for the Great Persecution alone; Shin over 23,500 under Diocletian; only Stark goes below 1,000, and T. D. Barnes called that figure impossibly low. Per charter 5.4 this is weighed, not head-counted: the specialists who worked through the documentary base (Frend, Shin, Barnes) converge on totals of thousands and more, which satisfies a natural reading of 'great numbers'; the maximalist legendary picture is simultaneously rejected, which keeps this at probable rather than well-supported."
+        }
+      ],
+      "ruling_as_written": "probable",
+      "failing_component_kind": "fact",
+      "weakened_version": "Thousands of Christians were executed in the Roman persecutions, above all under Decius, Valerian, and Diocletian, though far fewer than later legend claimed.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 1,
+      "confidence": "medium",
+      "minority_engagement": "The strongest published minority against 'great numbers' is the Stark-Moss line: Stark (The Rise of Christianity) put total martyrs under 1,000, and Moss (The Myth of Persecution, 2013) argues the 'Age of Martyrs' was constructed retrospectively, largely by Eusebius. The argument's real force is against continuity and intentionality, not against the aggregate: Moss concedes genuine persecution in 250-260 and 303-313, and Stark's sub-1,000 figure was rejected as 'impossibly low' by T. D. Barnes, a leading specialist on the tetrarchic period, while Moss's scale claims drew academic pushback from Paul L. Maier and others. Origen's 'easily numbered' predates the three biggest persecutions and cannot govern them. The minority keeps the upper bound honest but does not defeat a loose 'great numbers'. No Phase-1 defense entry existed for this claim (disputed skipped the defense stage).",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "Origen, Contra Celsum 3.8 (ANF IV text via newadvent.org, wording verified by fetch)", "tier": "primary-in-context", "independence_note": "Pre-Decian primary witness, independent of Eusebius's apologetic tradition."},
+        {"ref": "Eusebius, HE 8.9.3, local scholarship/npnf2-01-eusebius-church-history-life-constantine.txt line 42083 (eyewitness Thebaid executions)", "tier": "primary-in-context", "independence_note": "Eyewitness stratum of Eusebius, read in the annotated NPNF edition; apologetic aims noted by the edition itself."},
+        {"ref": "W. H. C. Frend, Martyrdom and Persecution in the Early Church (estimate 3,000-3,500 for the Great Persecution; transmitted via encyclopedic digest)", "tier": "academic", "independence_note": "Independent of the Shin and Stark estimates; classic maximalist-leaning specialist."},
+        {"ref": "Min Seok Shin, The Great Persecution: A Historical Re-examination (Brepols), via BMCR 2020.08.21 review (23,500+ under Diocletian)", "tier": "academic", "independence_note": "Recent monograph, methodologically independent of Frend; known via independent academic review."},
+        {"ref": "T. D. Barnes contra Stark ('impossibly low'), transmitted via roger-pearse.com", "tier": "position", "independence_note": "Academic author, blog transmission; genealogically independent of Frend/Shin."},
+        {"ref": "Candida Moss, The Myth of Persecution (2013) + critics Maier (CRI review) and Heiser", "tier": "position", "independence_note": "Moss builds on Ste. Croix's sporadic-persecution picture; counted in that genealogy for mechanics, separate for the scale polemic."}
+      ],
+      "would_change_this": "A peer-reviewed prosopographical census of documented martyrdoms that pushed defensible totals decisively below about a thousand would move the as-written ruling to genuinely-open; new documentary finds of unrecorded mass executions would push it to well-supported.",
+      "gap_note": null,
+      "notes": "Direction: moved toward the claim relative to Phase-1 'disputed'."
+    },
+    {
+      "id": "GC-02-022",
+      "dossier": "D17",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "Christians buried their dead in the Roman catacombs",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Undisputed consensus of catacomb archaeology; the catacombs were communal Christian cemeteries."
+        },
+        {
+          "component": "When suspected and proscribed, Christians 'found a home' (refuge, dwelling) in the catacombs",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Specialist archaeology (Fiocchi Nicolai; Rutgers) holds the catacombs were legally registered cemeteries whose locations the authorities knew, without ventilation, water, or habitation traces; Rutgers: researchers have long debunked the hiding-place myth. The chapter's own context confirms the dwelling reading ('making their home in the dark but friendly bosom of the earth', paragraph 5), which is what fails. The documented kernel is narrower: clandestine assembly during proscription (Valerian's 257 ban on entering the coemeteria; Sixtus II seized by soldiers during worship in a catacomb, 258) and infrequent short-term concealment conceded even by debunking scholarship. Sixtus's arrest cuts against the refuge picture: the authorities walked in and took him."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "Christians buried their dead in the catacombs and, during acute persecution, also gathered there clandestinely for worship and occasionally for short-term concealment.",
+      "ruling_weakened": "probable",
+      "framing_gap": 2,
+      "confidence": "high",
+      "minority_engagement": "The Phase-1 defender (verdict_downgraded to disputed) argued that 'found a home' is conditioned on episodes of proscription and that Valerian's 257 edict, by banning entry to the burial places, presupposes Christians gathered there during proscription; it also cited the SBTS journal concession that catacombs were 'only infrequently places of hiding during persecution'. Answer: incorporated for the weakened version, which is why it earns probable; but the edict and Sixtus II's arrest document assembly under ban, not dwelling, and the arrest itself shows the galleries gave no protection from the authorities. The defender's own text conceded that the strong 'home' reading 'remains rejected by consensus'. Against the as-written dwelling assertion, two genealogically independent specialist lines (Fiocchi Nicolai, Pontifical Institute of Christian Archaeology; Rutgers, Utrecht) converge with the legal registration of cemeteries; the as-written ruling is therefore improbable, not genuinely-open.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "Vincenzo Fiocchi Nicolai (rector, Pontifical Institute of Christian Archaeology), quoted rejecting refuge claims (web digest of specialist interviews)", "tier": "academic", "independence_note": "Catholic institutional archaeology; independent of Protestant and secular lines."},
+        {"ref": "Leonard V. Rutgers on the debunked hiding-place myth (web digest; cf. his Subterranean Rome)", "tier": "academic", "independence_note": "Utrecht-based specialist, genealogically independent of Fiocchi Nicolai."},
+        {"ref": "'Christian Refugees in Catacombs of Rome: Fact or Fiction' (academia.edu paper, used by Phase-1)", "tier": "position", "independence_note": "Same conclusion as the two specialist lines; not independently peer-validated, weighed as supporting position."},
+        {"ref": "Cyprian, Ep. 80 + Valerian's 257 rescript (Sixtus II arrested in a catacomb, 6 August 258; via New Advent Catholic Encyclopedia transmission)", "tier": "primary-in-context", "independence_note": "Documentary anchor for the assembly-under-proscription kernel; independent of the archaeological argument."},
+        {"ref": "'The Maltreatment of Early Christians: Refinement and Response' (SBTS journal; concedes infrequent hiding)", "tier": "position", "independence_note": "Confessional academic venue; cited as the defender's strongest concession source."}
+      ],
+      "would_change_this": "Archaeological evidence of habitation in pre-Constantinian catacomb levels (hearths, domestic refuse, water storage) or a contemporary documentary attestation of sustained hiding would raise the refuge clause toward probable.",
+      "gap_note": null,
+      "notes": "Original Phase-1 verdict anachronistic; period_standard candidate: the refuge legend was standard in 19th-century historiography and devotional literature (Wylie-type sources), as Phase-1 documented."
+    },
+    {
+      "id": "GC-02-004",
+      "dossier": "D17",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "'Paganism' acted as a unified agent waging a coordinated defensive war on Christianity across the era",
+          "kind": "frame",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Greco-Roman paganism had no central agency or coordinating institution; the consensus from Ste. Croix (1963) to Corke-Webster (Past & Present, 2023) locates persecution in local accusers, governors, and, only from 250, imperial edicts. The personified single-agent picture is a 19th-century providentialist frame."
+        },
+        {
+          "component": "Pagan forces were mobilized to destroy Christianity (as the origin of the persecutions from Nero onward)",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "True only for the late empire-wide campaigns: Valerian 257-258 and above all the Diocletianic edicts of 303-304 aiming at eradication (churches razed, scriptures burned, all clergy imprisoned; Eusebius HE 8.2/8.6, local text). For the first two centuries, which this sentence introduces (paragraph 3: 'beginning under Nero'), persecution was sporadic, reactive, and locally triggered; Trajan's rescript forbade seeking Christians out. As an account of the persecutions' origin the mobilization picture fails; as an account of 250-313 it succeeds."
+        },
+        {
+          "component": "The persecutors' motive was foresight that the gospel's triumph would sweep away temples and altars",
+          "kind": "motive",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Charter 3 motive rule: the rival mainstream account of motive has direct documentary support (Tacitus on Nero's scapegoating; Pliny-Trajan on punishing contumacia and rejection of the gods; the accusatory process itself), while 'foresight of Christian triumph' as the operative cause of the persecutions overall is undocumented, so the cap is improbable. Partial documentary support exists for a cult-defense motive in specific settings: Pliny 10.96 notes temples 'almost deserted' and a collapsed market for sacrificial victims; Galerius's 311 edict states the aim of returning Christians to ancestral religion; Maximinus Daia's rescripts answer civic petitions to expel Christians for the gods' favor; Porphyry and Hierocles supplied the ideology. These lift the weakened version, not the as-written universal cause."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "tied_kinds": ["fact", "frame", "motive"],
+      "weakened_version": "Pagan authorities and elites, who saw Christianity's spread as a threat to the traditional cults, at times mounted deliberate campaigns to destroy it, most systematically under Valerian and in the Great Persecution.",
+      "ruling_weakened": "probable",
+      "framing_gap": 2,
+      "confidence": "high",
+      "minority_engagement": "The strongest case for the claim is the anti-minimalist line (Frend; Shin; the critics of Moss) plus the documentary record of pagan ideological mobilization in 250-313: Porphyry's Against the Christians, Hierocles, Maximinus Daia's pagan-church project and rescripts, Diocletian's restorationism, and Pliny's temple-desertion remark as early evidence that Christian growth measurably hurt cult economics. This is engaged and partly incorporated: it documents real, motivated anti-Christian campaigns and carries the weakened version to probable. It does not restore the as-written claim, because Frend himself, with the rest of the field, holds the first two centuries sporadic and local, and no document attributes the persecutions as a whole to foresight of Christianity's triumph. No Phase-1 defense entry existed for this claim.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "G. E. M. de Ste. Croix, 'Why Were the Early Christians Persecuted?', Past & Present 26 (1963); repr. OUP 2006", "tier": "academic", "independence_note": "Foundational statement of the sporadic-local consensus; Moss's mechanics descend from it (one genealogical line)."},
+        {"ref": "James Corke-Webster, 'By Whom Were Early Christians Persecuted?', Past & Present 261 (2023), open access", "tier": "academic", "independence_note": "Recent, methodologically distinct reinforcement of local-agency mechanics."},
+        {"ref": "Pliny, Ep. 10.96-97, local scholarship/pliny-letters-melmoth-gutenberg.txt lines 8838-8906", "tier": "primary-in-context", "independence_note": "Primary documentary base for both the reactive procedure and the temple-desertion remark; independent of modern syntheses."},
+        {"ref": "Eusebius HE 8.2/8.6 (Diocletianic edicts) and HE 9.7 context (Maximinus's Tyre rescript), local NPNF text + Judaism-and-Rome / encyclopedic digests of Maximinus's rescripts", "tier": "primary-in-context", "independence_note": "Documentary anchors for the late cult-defense motive; transmitted through Christian apologetic historiography, noted."},
+        {"ref": "Diocletianic Persecution and Maximinus Daza digests (Wikipedia) for Porphyry/Hierocles and the petitions", "tier": "encyclopedic", "independence_note": "Digest of academic literature (Barnes, Mitchell); used for orientation, not as arbiter."}
+      ],
+      "would_change_this": "A documented pre-Decian imperial or provincial program ordering suppression of Christianity as such (an edict, senatus consultum, or governor's mandate) would raise the fact and frame components; a document attributing persecution to anticipated Christian victory would raise the motive component.",
+      "gap_note": null,
+      "notes": "Tie at the claim minimum across fact, frame, and motive; fixed priority fact > frame > motive applied per charter 3. The motive component is the rhetorical heart of the sentence; tied_kinds preserves this for impact re-scoring."
+    },
+    {
+      "id": "GC-02-018",
+      "dossier": "D17",
+      "quantifier_audit": ["Wherever"],
+      "components": [
+        {
+          "component": "During active persecutions, Christian fugitives were at times hunted down in their refuges",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Documented across the era's persecution episodes: Polycarp's pursuers 'pushed the search with vigor' and tortured a servant to learn his hiding place, c. 155 (Eusebius HE 4.15.11, local text); Dionysius of Alexandria hunted by a frumentarius who searched 'roads, rivers, and fields' under Decius (HE 6.40, local text); the second Diocletianic edict ordered 'all the rulers of the churches in every place' seized (HE 8.2/8.6, local text); Eusebius's Martyrs of Palestine records searches and arrests."
+        },
+        {
+          "component": "This happened 'wherever' they sought refuge, era-wide and without remission",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "discredited",
+          "rationale": "Defeated by decisive, undisputed primary evidence and multiple independent counterexamples. Trajan's rescript (Ep. 10.97, local text: 'Do not go out of your way to look for them'; anonymous accusations inadmissible) made non-pursuit official policy for the pre-Decian era, reaffirmed by Hadrian's rescript to Minucius Fundanus (HE 4.9). Refuge frequently succeeded even during the fiercest campaigns: Cyprian directed his church by letter from hiding through the Decian persecution; Dionysius, once rescued, lived unmolested in the Libyan desert; flight was so routinely viable that Tertullian wrote De Fuga in Persecutione to argue Christians should not use it. The Long Peace of 260-303 adds four decades with no hunting at all. Per charter 6.3, multiple independent counterexamples plus one decisive one (Trajan) yield discredited for the universal."
+        }
+      ],
+      "ruling_as_written": "discredited",
+      "failing_component_kind": "fact",
+      "weakened_version": "During active persecutions, Christian fugitives were at times relentlessly pursued: searched for, betrayed, and seized even in hiding.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 4,
+      "confidence": "high",
+      "minority_engagement": "No modern scholar defends universal, continuous pursuit. The strongest available opposing position is the anti-minimalist camp (Maier and others contra Moss; Shin on the Great Persecution's severity; Barnes contra Stark), which rightly insists that active hunting did occur in the Decian, Valerianic, and Diocletianic campaigns and even in local pre-Decian episodes like Polycarp's. That case is fully incorporated in the first component and the weakened ruling. It cannot save 'wherever': every scholar in that camp accepts Trajan's rescript and the sporadic pattern as the pre-250 framework. The continuous-manhunt picture is the Foxe/Wylie martyrological tradition that White's era treated as standard; it is superseded on this specific point. No Phase-1 defense entry existed for this claim.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "Pliny-Trajan correspondence, Ep. 10.96-97, local scholarship/pliny-letters-melmoth-gutenberg.txt lines 8896-8906", "tier": "primary-in-context", "independence_note": "Decisive primary counter-evidence; wholly independent of Christian transmission."},
+        {"ref": "Eusebius HE 4.15 (Polycarp), 6.40 (Dionysius/frumentarius), 8.2/8.6 (Diocletianic edicts), local NPNF annotated text", "tier": "primary-in-context", "independence_note": "Christian transmission, apologetic aims flagged by the edition; supplies both the hunting episodes and the successful-evasion counterexamples."},
+        {"ref": "G. E. M. de Ste. Croix, 'Why Were the Early Christians Persecuted?' (Past & Present 1963 / OUP 2006)", "tier": "academic", "independence_note": "Carries the sporadic-reactive consensus; genealogical parent of the modern mechanics literature."},
+        {"ref": "James Corke-Webster, 'By Whom Were Early Christians Persecuted?', Past & Present 261 (2023)", "tier": "academic", "independence_note": "Independent recent confirmation that pursuit was episodic and locally driven."},
+        {"ref": "Cyprian's Decian-era concealment (his own epistolary corpus; textbook-level datum)", "tier": "primary-in-context", "independence_note": "North African documentary line, independent of Eusebius and of Pliny."}
+      ],
+      "would_change_this": "Discovery of pre-Decian imperial orders mandating empire-wide searches for Christians, or documentary evidence that the Long Peace involved covert systematic pursuit, would overturn the counterexample structure; nothing realistic restores the universal 'wherever'.",
+      "gap_note": null,
+      "notes": "Largest framing gap in the dossier (4): the rhetoric fails while the weakened substance is fully documented, partly from White's own era-accessible sources. Period_standard candidate for synthesis tagging."
+    },
+    {
+      "id": "GC-02-054",
+      "dossier": "D17",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "A doctrine of religious freedom existed with identifiable upholders in the era described",
+          "kind": "frame",
+          "in_scope": true,
+          "ruling": "probable",
+          "rationale": "The pure-anachronism objection (Phase-1 verifier) is weakened by Wilken (Liberty in the Things of God, Yale UP 2019): Tertullian coined libertas religionis (Apol. 24; Ad Scapulam 2) and Lactantius argued religion cannot be coerced, arguments that fed the 313 Milan settlement. The concept is ancient, though after establishment it survived mainly in dissenters' situational pleas rather than as a standing doctrine with a party of 'upholders'."
+        },
+        {
+          "component": "That doctrine was itself 'termed heresy' and its upholders 'hated and proscribed' in this period",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "No documented late-antique or early-medieval instance labels toleration doctrine 'heresy'. Its known ancient advocates were not condemned for it: Tertullian's later heterodoxy was Montanist, and Lactantius tutored Constantine's son. The documented mechanism inverts the claim: the Edict of Thessalonica (380) and Codex Theodosianus 16.5 proscribed some 65 named heresies with penalties up to death, criminalized dissenting assembly, and Augustine's anti-Donatist theory justified coercion against dissenters' appeals to freedom of conscience; those dissenters were proscribed for their doctrines and assemblies, their liberty pleas rejected but not anathematized as such. Formal condemnations of the toleration principle itself appear only centuries later (Exsurge Domine art. 33 in 1520; Mirari Vos 1832; Syllabus 1864), outside the era this chapter narrates."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "Under the established imperial church, those who defended freedom of worship for dissenters met hostility, and dissent itself was branded heresy and legally proscribed.",
+      "ruling_weakened": "well-supported",
+      "framing_gap": 3,
+      "confidence": "medium",
+      "minority_engagement": "The strongest defense of the sentence combines Wilken (religious liberty is a genuinely ancient Christian doctrine, so no anachronism) with the observation that the Roman church did eventually condemn precisely this doctrine in formal documents: Exsurge Domine (1520) condemned the proposition that burning heretics is against the will of the Spirit, and Mirari Vos (1832) called liberty of conscience a 'deliramentum'. Answer: the first half is conceded and raises the frame component to probable; the second half describes events 700 to 1300 years after the era paragraph 17 narrates (the pre-separation apostasy of the early church), and within that era the documented pattern is proscription of dissent as heresy, not condemnation of toleration doctrine as heresy. The compressed long-run reading is exactly what the weakened version captures, hence its well-supported ruling. No Phase-1 defense entry existed for this claim; the Phase-1 verifier's anachronism rationale is partly answered by Wilken and partly sustained.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {"ref": "Robert Louis Wilken, Liberty in the Things of God: The Christian Origins of Religious Freedom (Yale UP 2019), via Reading Religion / Themelios / Law&Liberty reviews", "tier": "academic", "independence_note": "University-press monograph known through multiple independent reviews; revisionist against the Enlightenment-origins account."},
+        {"ref": "Codex Theodosianus book 16 heresy legislation and Edict of Thessalonica (380), via scholarly digests and 'Some Observations on the anti-Donatist Legislation' (academia.edu)", "tier": "academic", "independence_note": "Legal-historical line, genealogically independent of Wilken."},
+        {"ref": "Augustine's anti-Donatist coercion theory (standard scholarship digest)", "tier": "academic", "independence_note": "Documents rejection of dissenters' freedom-of-conscience pleas without heresy-labeling the pleas themselves."},
+        {"ref": "Tertullian, Apol. 24 and Ad Scapulam 2 (libertas religionis); Lactantius, Div. Inst. on non-coercion", "tier": "primary-in-context", "independence_note": "Primary base for the frame component, read through Wilken's scholarly discussion."}
+      ],
+      "would_change_this": "A documented late-antique or early-medieval text (imperial law, conciliar canon, patristic condemnation) explicitly branding advocacy of religious toleration as heresy would move the fact component sharply upward; conversely, a scholarly refutation of Wilken's reading of Tertullian would lower the frame component.",
+      "gap_note": null,
+      "notes": "Undated claim; ruled against the era paragraph 17 depicts (the pre-separation apostasy narrative), with the trans-era defense recorded in minority_engagement."
+    }
+  ]
+}

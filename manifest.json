@@ -3035,7 +3035,29 @@
         "claims": 5,
         "load_bearing": 0,
         "academic_floor": false,
-        "status": "pending"
+        "status": "done",
+        "ruling_file": "adjudication/D17_early-persecution-scale.ruling.json",
+        "rulings_as_written": {
+          "probable": 1,
+          "improbable": 3,
+          "discredited": 1
+        },
+        "rulings_weakened": {
+          "well-supported": 3,
+          "probable": 2
+        },
+        "framing_gaps": {
+          "1": 1,
+          "2": 2,
+          "4": 1,
+          "3": 1
+        },
+        "failing_component_kind_accusatory": {
+          "fact": 4
+        },
+        "gap_notes": [],
+        "searches": "searches: ~9 (7 shared, 2 stragglers for GC-02-054) + 1 WebFetch (Origen, Contra Celsum 3",
+        "updated_at": "2026-07-05T19:39:24Z"
       },
       "D18": {
         "slug": "martyr-tolls-apostate-power",
