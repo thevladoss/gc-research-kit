@@ -2962,7 +2962,23 @@
         "claims": 1,
         "load_bearing": 0,
         "academic_floor": true,
-        "status": "pending"
+        "status": "done",
+        "ruling_file": "adjudication/D14_medieval-sabbatarian-residue.ruling.json",
+        "rulings_as_written": {
+          "improbable": 1
+        },
+        "rulings_weakened": {
+          "genuinely-open": 1
+        },
+        "framing_gaps": {
+          "1": 1
+        },
+        "failing_component_kind_accusatory": {
+          "fact": 1
+        },
+        "gap_notes": [],
+        "searches": "searches: ~10 (8 shared, 2 stragglers)",
+        "updated_at": "2026-07-05T19:37:56Z"
       },
       "D15": {
         "slug": "lisbon-1755",

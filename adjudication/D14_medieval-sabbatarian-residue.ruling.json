@@ -1,0 +1,98 @@
+{
+  "dossier": "D14",
+  "slug": "medieval-sabbatarian-residue",
+  "stage": "adjudication",
+  "charter_version": "1.1-frozen",
+  "generated_at": "2026-07-05",
+  "notes": "searches: ~10 (8 shared, 2 stragglers). WebFetch x5: digitalcommons.andrews.edu and encyclopedia.adventist.org returned 403 (WAF, as INDEX.md warned); AUSS 54/2 full-issue PDF retrieved from andrews.edu library mirror but unreadable locally (no poppler); narkive thread fetched OK; archive.org full text of Doellinger Beitraege II truncated before p. 662, so the document heading and group identification rest on Damsteegt's citation chain and are flagged as unverified in the ruling. One WebSearch call failed on a transient classifier outage and was retried; counted once. Session was interrupted by a limit and resumed; no rulings were altered across the break.",
+  "evidence_review": "GC 35:46 welds two assertions: (1) Rome long and bloodily persecuted the Waldenses, and (2) 'some of whom were observers of the Sabbath' (seventh day). Assertion (1) is uncontested across the whole historiography, from H. C. Lea (1888, local text) to Gabriel Audisio (The Waldensian Dissent, Cambridge UP 1999) and Euan Cameron (Waldenses, Blackwell 2000): inquisitorial campaigns from the 1230s, Innocent VIII's crusade bull of 1487, Merindol 1545, Piedmont 1655. Assertion (2) is the hedged residue of a 19th-century identification whose broader forms (GC-04-046, GC-26-032: 'Waldenses kept the Sabbath through the Dark Ages') were confirmed anachronistic in Phase 1 and are not re-opened here. White's conduit is J. N. Andrews, History of the Sabbath (2nd ed. 1873, local file, pp. 407-418): Andrews builds on Robert Robinson's Ecclesiastical Researches, on Goldast's 17th-century gloss ('Insabbatati... non quod circumciderentur... sed quod in Sabbato judaizarent'), on Ussher's report that 'many' so read the name, and on Robinson's speculation that the Passagini were 'that portion of the Waldenses who lived in the passes of the mountains'; the GC sentence itself carries no source reference in the 1911 apparatus (footnote 1015 covers only the Abyssinian edict; see source/gc_footnotes_1911.txt line 2031). All three legs of the identification have moved against it since the 19th century. Leg 1, etymology: the names sabatati/insabbatati/zabatati/xabatenses/ensabatatz are explained by 12th-13th-century witnesses from the preachers' distinctive cut-open sandals, the badge of apostolic poverty; Lea vol. 1 (local, lines 3232-3235) already rendered Insabbatati 'the Shoed'; the current specialist study is Adam L. Hoose, 'The Sabatati: The Significance of Early Waldensian Shoes, c. 1184-1260,' Speculum 91/2 (2016), which treats the footwear as a contested symbol of Waldensian claims to apostolic authority. The sabbath reading descends from glosses five centuries late (Goldast on Frederick II's 1220 constitution; the inquisition editor Pena), and inferring practice from a hostile nickname is circular. Even confessional Adventist reference scholarship concedes this leg: the SDA source-book note explains that post-Reformation translators rendered 'dies dominicalis' (Lord's day) of the Latin sources as 'Sabbath', and Bacchiocchi accepted the sandal etymology. Leg 2, conflation: the documented seventh-day observers of Latin Christendom in the Waldensian era are the Passagini of Lombardy (Mosaic law incl. circumcision and Saturday; Summa contra haereticos ascribed to Praepositinus; Bonacursus), condemned in Ad abolendam (1184) as a group listed separately from the Poor of Lyons; Lea (local, lines 3561-3564) classes them as 'Judaizing Christians' distinct from the Waldenses. Robinson's guess that Passagini were mountain-pass Waldenses is the root of the conflation Andrews transmitted into GC. Moneta of Cremona's chapter 'De Sabbato, et de die Dominico' (Adversus Catharos et Valdenses, c. 1241) shows the Sabbath argued in exactly this Lombard polemical space, but reading it as proof of Waldensian Saturday rest is an inference no independent specialist draws. Leg 3, direct attestation: the one concrete document is the line published by Doellinger (Beitraege zur Sektengeschichte des Mittelalters II, 1890, p. 662) from a 15th-century Bohemian error catalog: the group keeps no feasts of Mary and the apostles 'nisi diem dominicam' (except the Lord's day), while 'Nonnulli vero cum Judaeis sabbatum celebrant' (but some celebrate the sabbath with the Jews). At face value this attests a judaizing margin ('nonnulli') within or beside a Sunday-keeping festival-rejecting community, in a region whose judaizing currents later surfaced openly in the Moravian Sabbatarians of the 1520s; its heading and group identification could not be independently verified within budget. Against assertion (2) stands the entire direct record of Waldensian practice: inquisition depositions and manuals (Bernard Gui's Practica, the Passau Anonymous catalog for the Austrian-Bohemian communities, the Alpine and Languedoc records underlying Cameron and Audisio) describe Sunday-observing communities that rejected the church's festival calendar, never Saturday rest; B. W. Ball's standard history (The Seventh-Day Men, Clarendon 1994 / James Clarke 2009) finds no traceable seventh-day observance before the Lollard era (first 'modern' sabbatarian c. 1402) and treats organized sabbatarianism as a 17th-century English phenomenon. The published minority case is P. Gerard Damsteegt, 'Decoding Ancient Waldensian Names: New Discoveries,' AUSS 54/2 (2016) 237-258 (popularized in Ministry 2017 and Adventist Review): insabbatati covered both festival-rejecting Sunday keepers and a second class who also kept the seventh day; his evidence is Goldast/Pena, Moneta, the Council of Tarragona (1242) usage, Bernard Gui's 'Ensavates' naming, and Doellinger II 662. The etymological and Moneta legs fail on dating, circularity, and the Passagini alternative; the Doellinger line supports at most a late Bohemian margin. The evidence-weight picture: independent academic scholarship (Hoose in Speculum; Ball at Clarendon; Lea; the Cameron/Audisio/Biller consensus) versus a confessional peer-reviewed position (Damsteegt in AUSS) plus sabbatarian apologetic sites (cogwriter, friendsofsabbath) that all descend from the same Andrews-Goldast-Doellinger chain and count genealogically as one line.",
+  "narrative_ru": "Досье проверяло одну оговорку из главы 35: среди гонимых Римом вальденсов «некоторые соблюдали субботу». Сами гонения подтверждены полностью, но субботство вальденсов современная медиевистика отвергает: их прозвище insabbatati происходит от особых сандалий проповедников, а богатые протоколы инквизиции описывают общину, чтившую воскресенье и отвергавшую церковные праздники. Аргументы в пользу утверждения восходят к глоссам семнадцатого века и к смешению вальденсов с ломбардской сектой пассагиев, действительно соблюдавшей субботу; слабость этих аргументов признают и адвентистские справочники. Единственный прямой документ, враждебный каталог заблуждений пятнадцатого века из Богемии со словами «некоторые празднуют субботу с иудеями», оставляет открытым лишь сильно ослабленный вариант о поздней богемской периферии движения. Как написано, утверждение получило оценку «маловероятно»; ослабленная версия остаётся открытым вопросом, пока специалисты не изучат богемский документ.",
+  "rulings": [
+    {
+      "id": "GC-35-086",
+      "dossier": "D14",
+      "quantifier_audit": [],
+      "components": [
+        {
+          "component": "Rome conducted a long and bloody persecution of the Waldenses",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "Uncontested across all historiography: inquisitorial campaigns from the 1230s, Innocent VIII's 1487 crusade bull, Merindol 1545, Piedmont 1655. Lea (local), Audisio (Cambridge UP 1999) and Cameron (Blackwell 2000) converge; the Phase-1 verifier likewise treated this half as fact."
+        },
+        {
+          "component": "Some of the persecuted medieval Waldenses observed the seventh-day Sabbath",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "The existential hedge lowers the burden (charter section 6 in reverse: instances would suffice), but the instances are not there. The insabbatati etymology is settled by specialist scholarship as footwear (Hoose, Speculum 2016; Lea; contemporary 12th-13th-century witnesses); the documented medieval seventh-day keepers in the relevant time and place were the Passagini, a distinct sect whose conflation with the Waldenses (Robinson via Andrews) is the genealogical root of the GC claim; the abundant direct record of Waldensian practice (Bernard Gui's Practica, the Passau Anonymous, Alpine and Languedoc records) shows Sunday observance with festival rejection and never Saturday rest; Ball's standard history finds no traceable seventh-day observance before c. 1402. The one direct attestation (Doellinger II 662, 15th-century Bohemian error catalog, 'Nonnulli vero cum Judaeis sabbatum celebrant') is late, hostile in genre, attributes the practice to an unnamed margin of a community it otherwise describes as classic Sunday-keeping festival rejecters, and has no independent specialist endorsement. Clear preponderance against, without a decisive refutation of the existential."
+        },
+        {
+          "component": "The persecution is 'a striking illustration of Rome's policy toward those who disagree with her'",
+          "kind": "frame",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "The Waldensian case is a standard historiographical exemplar of the medieval church's coercive policy toward dissent (Ad abolendam 1184 onward); as a frame for the persecution component it is accurate. Its rhetorical function in the chapter (implying persecution FOR sabbath-keeping) belongs to the failing fact component, not to this frame."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "A few late-medieval dissenters within the Bohemian Waldensian milieu observed the seventh-day Sabbath as a marginal judaizing deviation, not as a Waldensian practice.",
+      "ruling_weakened": "genuinely-open",
+      "framing_gap": 1,
+      "confidence": "medium",
+      "minority_engagement": "The strongest published defense is P. Gerard Damsteegt, 'Decoding Ancient Waldensian Names: New Discoveries,' AUSS 54/2 (2016) 237-258: the label insabbatati covered both Waldenses who rejected Catholic feast-days ('sabbata') while keeping Sunday, and a second class who also kept the seventh day; his evidence is Goldast's and Pena's early-modern glosses, Moneta of Cremona's chapter 'De Sabbato, et de die Dominico' (c. 1241), the Council of Tarragona (1242) usage of 'insabbatati' for Waldenses, Bernard Gui's 'Ensavates' naming, and the Doellinger II 662 line. This fails for the claim as written on evidential quality, not on the author's confession: (1) the sabbath glosses date from the 17th century, five hundred years after the name arose, while 12th-13th-century witnesses explain it from the sandals, and the specialist study (Hoose, Speculum 2016) settles the etymology; inferring practice from a polemical nickname is circular; (2) Moneta's sabbath chapter belongs to Lombard anti-heretical polemic in the exact region and generation of the Passagini judaizers, and Moneta frames it as defending the church against the charge of transgressing the Sabbath commandment, so attributing Saturday rest to Waldenses from it is an unforced inference no independent specialist draws; (3) name usage at Tarragona and in Gui establishes what Waldenses were called, not what they practiced; (4) Doellinger II 662 attests at most a 15th-century Bohemian margin ('nonnulli') inside a hostile error catalog whose preceding clause describes classic Sunday-keeping festival rejection. Conceded: point (4) is a genuine primary document that mainstream Waldensian scholarship has not engaged, and it keeps the weakened Bohemian-margin version genuinely open. The Phase-1 verifier's framing (Goldast/Pena vs Comba/Spini/Audisio) is incorporated and sharpened: since 2016 the etymology has a dedicated Speculum study, and the defense case reduces to the single unexamined Bohemian document. No Phase-1 defense object exists for this claim (disputed claims skipped the defense stage), so there is no defender argument to answer beyond the verifier's own steelman.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {
+          "ref": "Adam L. Hoose, 'The Sabatati: The Significance of Early Waldensian Shoes, c. 1184-1260,' Speculum 91/2 (2016); accessed via academia.edu abstract and Troy University faculty page",
+          "tier": "academic",
+          "independence_note": "Flagship university-press medieval-studies journal; works directly from 12th-13th-century primary sources; independent of the Andrews-Robinson-Goldast chain and of Lea."
+        },
+        {
+          "ref": "H. C. Lea, A History of the Inquisition of the Middle Ages, vol. 1 (1888), local file lines 3232-3235 (Insabbatati = 'the Shoed', from the apostolic sandal) and 3561-3564 (Passagii = 'Judaizing Christians', a sect distinct from the Waldenses)",
+          "tier": "academic",
+          "independence_note": "Classic academic treatment from primary editions; genealogically independent of Andrews's conduit chain and predates the confessional debate."
+        },
+        {
+          "ref": "B. W. Ball, The Seventh-Day Men: Sabbatarians and Sabbatarianism in England and Wales, 1600-1800 (Clarendon 1994; 2nd ed. James Clarke 2009); via publisher description and the Church History review already cited in Phase 1",
+          "tier": "academic",
+          "independence_note": "Standard monograph on documented sabbatarianism; traces antecedents through Lollards, first 'modern' sabbatarian c. 1402; independent of both Lea and Hoose."
+        },
+        {
+          "ref": "P. Gerard Damsteegt, 'Decoding Ancient Waldensian Names: New Discoveries,' AUSS 54/2 (2016) 237-258; PDF blocked (403), argument reconstructed from search digests, Ministry (2017) and Adventist Review popularizations",
+          "tier": "position",
+          "independence_note": "Peer-reviewed within a confessional (Adventist seminary) venue; the modern form of the Andrews position; the apologetic sites citing it (cogwriter, friendsofsabbath) descend from it and count as the same genealogical line."
+        },
+        {
+          "ref": "J. J. I. von Doellinger, Beitraege zur Sektengeschichte des Mittelalters II (1890), p. 662: 15th-century Bohemian error catalog, '...nisi diem dominicam. Nonnulli vero cum Judaeis sabbatum celebrant'",
+          "tier": "primary-in-context",
+          "independence_note": "Scholarly document collection by an independent (Old Catholic) church historian; the page itself could not be read within budget (archive.org fetch truncated), so wording and group attribution rest on Damsteegt's citation chain; flagged as partially verified."
+        },
+        {
+          "ref": "J. N. Andrews, History of the Sabbath, 2nd ed. (1873), local file pp. 407-418 (lines 18740-19270): the Robinson-Goldast-Ussher etymology argument and the Passagini-as-Waldenses conflation",
+          "tier": "position",
+          "independence_note": "The 19th-century conduit behind the GC sentence; documents the claim's genealogy from inside; period position, not evidence for the practice."
+        },
+        {
+          "ref": "SDA reference note on 'The Sabbath among the Waldenses' (via narkive archive): Latin sources say 'dies dominicalis' (Lord's day); post-Reformation translation practice rendered it 'Sabbath'",
+          "tier": "position",
+          "independence_note": "Confessional concession against interest from the claim's own tradition; same conclusion as the independent scholarship but genealogically distinct from it."
+        },
+        {
+          "ref": "Pasagians: Summa contra haereticos ascribed to Praepositinus of Cremona and Bonacursus, via Wikipedia digest and Lea",
+          "tier": "encyclopedic",
+          "independence_note": "Encyclopedic digest used only to corroborate the Passagini's distinctness, which Lea (academic, local) independently establishes."
+        },
+        {
+          "ref": "GC 1911 apparatus: source/gc_footnotes_1911.txt line 2031 (footnote 1015 = Geddes, Church History of Ethiopia) — the Waldensian-Sabbath clause itself carries no reference",
+          "tier": "primary-in-context",
+          "independence_note": "Local source text; establishes that the 1911 edition offers no source for the clause."
+        }
+      ],
+      "would_change_this": "A scholarly edition or specialist study of the Doellinger II 662 catalog identifying its group as genuinely Waldensian, or any medieval trial record (Patschovsky's Bohemian corpus, the Fournier register, the Alpine registers) showing Waldensian communities at Saturday rest, would move the as-written ruling toward the claim; conversely, a specialist demonstration that the Bohemian 'nonnulli' were non-Waldensian judaizers would push the weakened ruling to improbable and the as-written toward discredited.",
+      "gap_note": null,
+      "notes": "Quantifier audit is empty because the claim contains no universal or exclusive terms; the operative quantifier is the existential hedge 'some of whom', which reverses the section 6 burden (instances suffice, but must be well-provenanced Waldensian instances). Evidence-mates GC-04-046 and GC-26-032 (population-level 'Waldenses kept the Sabbath') remain confirmed anachronistic from Phase 1 and were cited only as context. The weakened ruling of genuinely-open rests on positive documentation on both sides: Damsteegt's published reading of a real 15th-century document FOR, the Cameron/Audisio/Ball record and the Hoose etymology AGAINST; it is not a budget euphemism, since the budget sufficed to locate and weigh the decisive document class."
+    }
+  ]
+}
