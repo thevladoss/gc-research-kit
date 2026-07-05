@@ -2912,7 +2912,27 @@
         "claims": 7,
         "load_bearing": 0,
         "academic_floor": false,
-        "status": "pending"
+        "status": "done",
+        "ruling_file": "adjudication/D12_waldensian-albigensian-character.ruling.json",
+        "rulings_as_written": {
+          "improbable": 6,
+          "genuinely-open": 1
+        },
+        "rulings_weakened": {
+          "probable": 3,
+          "well-supported": 4
+        },
+        "framing_gaps": {
+          "2": 2,
+          "3": 4,
+          "1": 1
+        },
+        "failing_component_kind_accusatory": {
+          "fact": 6
+        },
+        "gap_notes": [],
+        "searches": "searches: ~12 (11 shared, 1 straggler for GC-04-070)",
+        "updated_at": "2026-07-05T18:11:01Z"
       },
       "D13": {
         "slug": "biblical-composition-frame",
