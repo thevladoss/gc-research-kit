@@ -1,0 +1,81 @@
+{
+  "dossier": "D19",
+  "slug": "wesley-membership",
+  "stage": "adjudication",
+  "charter_version": "1.1-frozen",
+  "generated_at": "2026-07-05",
+  "notes": "searches: ~8 (6 shared, 2 stragglers: pedigree of the half-million phrase in 19th-century literature); +2 WebFetch (Field JEH 2012 open-access PDF unreadable by tooling; brin.ac.uk summary by the same author used instead). No Phase-1 defense object exists for GC-14-156 (disputed skipped the defender stage; adversarial/gc_ch14.defended.json copies the verification entry verbatim), so §7.4 is satisfied by answering the verifier's rationale directly. Candidate for period_standard: true in synthesis aggregation — the half-million-adherents figure was a commonplace of 19th-century Methodist homiletic historiography (the hearers-multiplier tradition), and White's sentence reproduces it; the exact upstream text was not located within budget (ancillary, not ruling-blocking).",
+  "evidence_review": "The dossier turns on one number: how many followers John Wesley had at his death on 2 March 1791. The documentary base is unusually good, because Methodism counted itself. The Conference Minutes for 1791 record 294 preachers and 71,668 society members in Great Britain, 19 missionaries and 5,300 members on mission stations, and 198 preachers with 43,265 members in America — roughly 120,000 enrolled members, or ~135,000–150,000 on the commonly cited totals that add Ireland and use fuller American returns (the '135,000 members and 541 itinerant preachers' summary reproduced across standard histories). Britannica's rounding is 79,000 in England and 40,000 in America. Modern biographical scholarship works from these rolls: Richard Heitzenrater (Duke; Wesley and the People Called Methodists) puts the movement at Wesley's death at 'nearly 80,000 adherents' in Britain, and Henry Rack (Reasonable Enthusiast) uses the same Minutes series. Membership, however, was a strict category — class tickets, quarterly renewal — and every side of the literature agrees the penumbra of regular hearers was much larger. The scholarly attempts to size that penumbra are estimates, not counts: Clive Field's peer-reviewed reconstruction (Journal of Ecclesiastical History 63, 2012, 'Counting Religion in England and Wales: The Long Eighteenth Century') puts 'Arminian Methodist' affiliation at 3.2% of the England-and-Wales population in 1800 (~285,000 people) — nine years and substantial growth after Wesley's death, implying a British affiliation community of roughly 200,000–230,000 in 1791; adding Ireland and America on comparable ratios yields a transatlantic constituency plausibly around 350,000–450,000. The Currie/Gilbert/Horsley tradition (Churches and Churchgoers, 1977) and American scholarship use members-to-community multipliers of about 3, sometimes stretched to 4–5 for hearers; only at the extreme of that band (135,000–150,000 × 4–5) does the figure clear 500,000. The half-million-at-Wesley's-death claim itself lives in 19th-century homiletic historiography (the Victorian hearers-multiplier tradition; cf. the same tradition's 'by 1820 ... total under direct Methodist influence not far below one million'), not in modern scholarship: no current specialist defends ≥500,000 for 1791. The decisive semantic point is White's own adjective 'avowed': the only historically documented form of avowed adherence — society enrollment — totaled ~120,000–150,000; unenrolled hearers, the population the multiplier counts, were precisely those who had not avowed adherence. What changed since the 19th century: denominational eulogy figures gave way to critical use of the Minutes series and to population-share estimation (Field), which caps even the loose reading below the book's threshold for 1791.",
+  "narrative_ru": "Досье проверяет одну цифру из главы 14: к концу жизни Уэсли его «открытых приверженцев» насчитывалось более полумиллиона. Документированные списки методистских обществ на 1791 год дают около 120–150 тысяч членов в Британии и Америке, а академические оценки более широкого круга регулярных слушателей (Филд, стандартные биографии Рэка и Хайценрейтера) выводят на 350–450 тысяч. Полмиллиона достигается только при самом растянутом множителе и при подмене «открыто заявивших о себе» на неоформленных слушателей, поэтому формулировка книги получила вердикт «маловероятно». Ослабленная версия, где приверженцы вместе со слушателями исчисляются сотнями тысяч, признана вероятной; сама цифра при этом повторяет ходовое утверждение методистской литературы девятнадцатого века. Картину изменил бы рецензируемый подсчёт или современный событиям документ, фиксирующий не менее полумиллиона заявленных методистов на 1791 год.",
+  "rulings": [
+    {
+      "id": "GC-14-156",
+      "dossier": "D19",
+      "quantifier_audit": [
+        "more than half a million souls (numeric lower bound asserted as fact)",
+        "avowed (scope-fixing qualifier: openly professed adherence, which raises the burden — it excludes the unenrolled hearers on whom any half-million reading depends)"
+      ],
+      "components": [
+        {
+          "component": "Wesley's life lasted more than fourscore (80) years",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "[common_knowledge] Born June 1703, died 2 March 1791, aged 87. Textbook-level; safe-direction fast-path."
+        },
+        {
+          "component": "Above half a century of that life was spent in itinerant ministry",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "well-supported",
+          "rationale": "[common_knowledge] Wesley's field/itinerant ministry ran from 1739 to 1791 — about 52 years. Standard in every biography (Rack, Heitzenrater); safe-direction fast-path."
+        },
+        {
+          "component": "At his death Wesley's avowed adherents numbered more than half a million",
+          "kind": "fact",
+          "in_scope": true,
+          "ruling": "improbable",
+          "rationale": "Documented avowed adherence — Methodist society membership, the only form of open profession the sources record — totaled roughly 120,000–150,000 transatlantic per the 1791 Conference Minutes (71,668 GB + 5,300 missions + 43,265 America, plus Ireland). The half-million threshold is reachable only by counting unenrolled hearers, who by definition had not avowed adherence; and even for that loose community, the best academic estimate (Field, JEH 2012: Arminian Methodist affiliation 3.2% of England-and-Wales population in 1800 ≈ 285,000, after nine further years of growth) implies a 1791 transatlantic constituency of roughly 350,000–450,000. Only the extreme 4–5× multiplier band of the Victorian hearers tradition clears 500,000, and no modern specialist defends that figure for 1791. Clear preponderance against the sentence as printed; the multiplier defense is engaged below and fails on scope."
+        }
+      ],
+      "ruling_as_written": "improbable",
+      "failing_component_kind": "fact",
+      "weakened_version": "At the close of Wesley's long life his followers — about 135,000 enrolled society members in Britain and America, with the wider circle of adherents and regular hearers plausibly numbering several hundred thousand — formed one of the largest religious movements of the age.",
+      "ruling_weakened": "probable",
+      "framing_gap": 2,
+      "confidence": "medium",
+      "minority_engagement": "The strongest case for the sentence as written is the adherents-not-members defense, anticipated by the Phase-1 verifier (no defender object exists for this claim: disputed skipped the defense stage) and rooted in 19th-century Methodist historiography: society membership was deliberately strict, the penumbra of regular hearers was several times larger, and Victorian writers (the Stevens-era eulogy tradition) used hearers-to-members multipliers of about five, under which 135,000–150,000 members yield 675,000+ 'adherents'. The argument is real and explains where the figure comes from, but it fails twice on evidence. First, on scope: White's sentence says 'avowed adherents', and the only documented act of avowal was society enrollment (~120,000–150,000); the multiplier population — unenrolled attendants — is precisely the set that had made no avowal, so the defense holds only by silently deleting the sentence's own qualifier. Second, on magnitude: the peer-reviewed estimate of the loose affiliation community (Field, JEH 2012: ~285,000 in England and Wales in 1800, nine growth-years after Wesley's death) back-projects to a 1791 transatlantic constituency of roughly 350,000–450,000, short of the stated threshold; the 4–5× band survives only in the Victorian homiletic tradition and in later-period American data, not in any current specialist's figure for 1791. The defense is confessionally located (denominational eulogy literature) but is dismissed here on scope and superseded data, not on confession.",
+      "source_quality": "academic-partial",
+      "sources": [
+        {
+          "ref": "Minutes of the Methodist Conferences, 1791 returns (294 preachers / 71,668 members GB; 19 missionaries / 5,300 mission stations; 198 preachers / 43,265 America), as reproduced in standard references incl. Wikipedia 'John Wesley' and Britannica 'John Wesley' (79,000 England + 40,000 America rounding)",
+          "tier": "primary-in-context",
+          "independence_note": "Single documentary root (the connexional Minutes series) reproduced across encyclopedic and academic literature; counted once. It is the count Methodism made of itself, contemporaneous and against interest for a deflationary use."
+        },
+        {
+          "ref": "C. D. Field, 'Counting Religion in England and Wales: The Long Eighteenth Century, c.1680–c.1840', Journal of Ecclesiastical History 63/4 (2012); summary tables via the author's brin.ac.uk page (Arminian Methodists = 3.2% of E+W population in 1800)",
+          "tier": "academic",
+          "independence_note": "Methodologically distinct from raw Minutes: population-share affiliation estimation synthesizing multiple source classes; genealogically only partially dependent on the membership series, so it counts as a second independent leg for the accusatory ruling."
+        },
+        {
+          "ref": "R. P. Heitzenrater (Duke), figure of 'nearly 80,000 adherents' in Britain at Wesley's death, reported from his 2016 Chautauqua lecture (chqdaily.com); standard biography: Wesley and the People Called Methodists (2nd ed. 2013); H. D. Rack, Reasonable Enthusiast (3rd ed. 2002) works from the same Minutes series",
+          "tier": "academic",
+          "independence_note": "Biographical scholarship accessed at second hand (lecture report; monographs not directly consulted this session) — reason the ruling's confidence stays at medium and source_quality at academic-partial. Genealogically leans on the Minutes."
+        },
+        {
+          "ref": "Victorian hearers-multiplier tradition (Methodist eulogy historiography; cf. victorianweb.org citing the '1820: ~200,000 members, total under direct Methodist influence not far below one million' estimate) — the pedigree of the half-million figure GC reproduces",
+          "tier": "position",
+          "independence_note": "Cited as a position and as pedigree evidence only, never as arbiter; genealogically the likely upstream of White's sentence."
+        },
+        {
+          "ref": "R. Currie, A. Gilbert, L. Horsley, Churches and Churchgoers: Patterns of Church Growth in the British Isles since 1700 (1977), members-vs-community framework (via brin.ac.uk and JEH citations)",
+          "tier": "academic",
+          "independence_note": "Framework consulted via secondary description, not the volume itself; supports the legitimacy of a ~3× community multiplier, i.e. it partly helps the defense — noted for symmetry."
+        }
+      ],
+      "would_change_this": "A contemporaneous document class actually enumerating professed Methodist followers beyond society rolls (for example, circuit-level returns of regular hearers from 1790–1791) totaling at or above 500,000 transatlantic, or a peer-reviewed quantitative study defending a ≥500,000 constituency of professed adherents at Wesley's death, would move the as-written ruling toward genuinely-open or probable. Conversely, a modern specialist study capping the 1791 community below ~250,000 would push the weakened ruling down.",
+      "gap_note": null,
+      "notes": "The first two components are decorative biography and pass on the safe-direction fast-path; the claim fails solely on the statistic. The figure matched the period-standard homiletic literature White drew on (exact upstream text not located within budget) — flag for period_standard: true in synthesis, bridging the Phase-1 anachronistic vocabulary."
+    }
+  ]
+}

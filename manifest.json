@@ -3071,7 +3071,23 @@
         "claims": 1,
         "load_bearing": 0,
         "academic_floor": false,
-        "status": "pending"
+        "status": "done",
+        "ruling_file": "adjudication/D19_wesley-membership.ruling.json",
+        "rulings_as_written": {
+          "improbable": 1
+        },
+        "rulings_weakened": {
+          "probable": 1
+        },
+        "framing_gaps": {
+          "2": 1
+        },
+        "failing_component_kind_accusatory": {
+          "fact": 1
+        },
+        "gap_notes": [],
+        "searches": "searches: ~8 (6 shared, 2 stragglers: pedigree of the half-million phrase in 19th-century literature)",
+        "updated_at": "2026-07-05T19:48:20Z"
       },
       "D20": {
         "slug": "st-bartholomew-extension",
