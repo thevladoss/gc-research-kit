@@ -1216,13 +1216,30 @@
       "words": 8799,
       "paragraphs": 68,
       "stages": {
-        "extract": "pending",
+        "extract": "done",
         "verify": "pending",
         "defend": "pending",
         "impact": "pending"
       },
-      "counts": {},
-      "updated_at": null
+      "counts": {
+        "extract": {
+          "total": 149,
+          "needs_verification": 133,
+          "by_type": {
+            "attributed_quote": 44,
+            "date": 28,
+            "biographical": 24,
+            "event": 21,
+            "theological": 12,
+            "causal": 10,
+            "interpretive": 5,
+            "statistic": 4,
+            "geographical": 1
+          },
+          "zero_claim_paras": []
+        }
+      },
+      "updated_at": "2026-07-05T11:33:24Z"
     },
     "19": {
       "title": "Light Through Darkness",
@@ -1346,9 +1363,9 @@
       "paragraphs": 42,
       "stages": {
         "extract": "done",
-        "verify": "pending",
-        "defend": "pending",
-        "impact": "pending"
+        "verify": "done",
+        "defend": "done",
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -1369,16 +1386,33 @@
         "verify": {
           "supported": 51,
           "anachronistic": 0,
-          "disputed": 3,
+          "disputed": 1,
           "contradicted": 0,
           "misquotation": 0,
-          "unverifiable": 33,
-          "low_confidence": 13,
+          "unverifiable": 36,
+          "low_confidence": 14,
           "searches": 18,
           "clusters": 9
+        },
+        "defend": {
+          "examined": 0,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 0,
+          "defense_failed": 0,
+          "searches": 0
+        },
+        "impact": {
+          "scored": 1,
+          "load_bearing": 0,
+          "top_impact": [
+            {
+              "id": "GC-21-082",
+              "score": 12
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-05T11:13:29Z"
+      "updated_at": "2026-07-05T11:43:11Z"
     },
     "22": {
       "title": "Prophecies Fulfilled",

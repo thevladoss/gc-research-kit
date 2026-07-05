@@ -1,0 +1,826 @@
+{
+  "chapter": 21,
+  "chapter_title": "A Warning Rejected",
+  "stage": "extraction",
+  "generated_at": "2026-07-05",
+  "notes": "Extraction pass, single pass (chapter processed in full, 42 paragraphs). Etymology claim (GC-21-042) has no exact enum fit; assigned claim_type 'event' with extractor_note. Several sentences blend theological/prophetic interpretation with an embedded historical-causal assertion (e.g., GC-21-024, GC-21-039); judgment calls documented in extractor_note where relevant. Paragraph 33 quotes appear without a visible footnote marker in the supplied chapter text; flagged via extractor_note.",
+  "claims": [
+    {
+      "id": "GC-21-001",
+      "paragraph": 1,
+      "quote": "In preaching the doctrine of the second advent, William Miller and his associates had labored with the sole purpose of arousing men to a preparation for the judgment.",
+      "claim_text": "William Miller and his fellow Millerite preachers preached the doctrine of Christ's imminent second advent with the sole stated purpose of arousing people to prepare for the judgment.",
+      "claim_type": "event",
+      "entities": ["William Miller"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-002",
+      "paragraph": 1,
+      "quote": "They had sought to awaken professors of religion to the true hope of the church, and to their need of a deeper Christian experience; and they labored also to awaken the unconverted to the duty of immediate repentance and conversion to God.",
+      "claim_text": "Miller and his associates sought to awaken religious professors to a deeper Christian experience and to awaken the unconverted to the duty of immediate repentance and conversion to God.",
+      "claim_type": "event",
+      "entities": ["William Miller"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-003",
+      "paragraph": 1,
+      "quote": "“They made no attempt to convert men to a sect or party in religion. Hence they labored among all parties and sects, without interfering with their organization or discipline.”(618)",
+      "claim_text": "A source cited in footnote 618 states that the Millerites made no attempt to convert people to a separate sect or party in religion, and labored among all parties and sects without interfering with their organization or discipline.",
+      "claim_type": "attributed_quote",
+      "entities": ["William Miller", "Millerites"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-004",
+      "paragraph": 2,
+      "quote": "“In all my labors,” said Miller, “I never had the desire or thought to establish any separate interest from that of existing denominations, or to benefit one at the expense of another. I thought to benefit all.",
+      "claim_text": "William Miller stated that in all his labors he never desired or intended to establish a separate religious interest apart from existing denominations, and sought to benefit all of them.",
+      "claim_type": "attributed_quote",
+      "entities": ["William Miller"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-005",
+      "paragraph": 2,
+      "quote": "My whole object was a desire to convert souls to God, to notify the world of a coming judgment, and to induce my fellow-men to make that preparation of heart which will enable them to meet their God in peace.",
+      "claim_text": "William Miller stated that his whole object was to convert souls to God, notify the world of a coming judgment, and induce people to prepare their hearts to meet God in peace.",
+      "claim_type": "attributed_quote",
+      "entities": ["William Miller"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-006",
+      "paragraph": 2,
+      "quote": "The great majority of those who were converted under my labors united with the various existing churches.”(619)",
+      "claim_text": "William Miller stated that the great majority of those converted under his preaching united with existing churches rather than forming a separate denomination.",
+      "claim_type": "attributed_quote",
+      "entities": ["William Miller"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-007",
+      "paragraph": 3,
+      "quote": "As his work tended to build up the churches, it was for a time regarded with favor.",
+      "claim_text": "Miller's preaching was for a time regarded with favor by churches because it tended to build up their membership.",
+      "claim_type": "causal",
+      "entities": ["William Miller"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-008",
+      "paragraph": 3,
+      "quote": "But as ministers and religious leaders decided against the advent doctrine, and desired to suppress all agitation of the subject, they not only opposed it from the pulpit, but denied their members the privilege of attending preaching upon the second advent, or even of speaking of their hope in the social meetings of the church.",
+      "claim_text": "Ministers and religious leaders who decided against the second-advent doctrine opposed it from the pulpit and denied their members the privilege of attending advent preaching or discussing their hope in church social meetings.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-009",
+      "paragraph": 3,
+      "quote": "In the summer of 1844 about fifty thousand withdrew from the churches.",
+      "claim_text": "About fifty thousand believers in the second-advent doctrine withdrew from their churches in the summer of 1844.",
+      "claim_type": "statistic",
+      "entities": ["Millerites"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-010",
+      "paragraph": 4,
+      "quote": "About this time a marked change was apparent in most of the churches throughout the United States.",
+      "claim_text": "Around 1844 a marked change was apparent in most of the churches throughout the United States.",
+      "claim_type": "event",
+      "entities": ["United States"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-011",
+      "paragraph": 4,
+      "quote": "There had been for many years a gradual but steadily increasing conformity to worldly practices and customs, and a corresponding decline in real spiritual life; but in that year there were evidences of a sudden and marked declension in nearly all the churches of the land.",
+      "claim_text": "There had been a gradual, years-long increase in worldly conformity and decline in spiritual life in American churches, but in 1844 there was evidence of a sudden and marked declension in nearly all the churches of the land.",
+      "claim_type": "event",
+      "entities": ["United States"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-012",
+      "paragraph": 4,
+      "quote": "While none seemed able to suggest the cause, the fact itself was widely noted and commented upon, by both the press and the pulpit.",
+      "claim_text": "The 1844 decline in American church spiritual life was widely noted and commented upon by both the press and the pulpit, though none could suggest its cause.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-013",
+      "paragraph": 5,
+      "quote": "At a meeting of the presbytery of Philadelphia, Mr. Barnes, author of a commentary widely used, and pastor of one of the leading churches in that city,",
+      "claim_text": "Mr. Barnes was the author of a widely used biblical commentary and pastor of one of the leading churches in Philadelphia.",
+      "claim_type": "biographical",
+      "entities": ["Albert Barnes", "Philadelphia"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-014",
+      "paragraph": 5,
+      "quote": "At a meeting of the presbytery of Philadelphia, Mr. Barnes... “stated that he had been in the ministry for twenty years,",
+      "claim_text": "Mr. Barnes made a statement about the state of the churches at a meeting of the presbytery of Philadelphia.",
+      "claim_type": "event",
+      "entities": ["Albert Barnes", "Philadelphia"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-015",
+      "paragraph": 5,
+      "quote": "“stated that he had been in the ministry for twenty years, and never, till the last communion, had he administered the ordinance without receiving more or less into the church. But now there are _no awakenings, no conversions_, not much apparent growth in grace in professors, and none come to his study to converse about the salvation of their souls. With the increase of business, and the brightening prospects of commerce and manufacture, there is an increase of worldly-mindedness. _Thus it is with all the denominations._”(620)",
+      "claim_text": "Albert Barnes stated at a meeting of the Philadelphia presbytery that after twenty years in the ministry, for the first time following a communion there had been no awakenings or conversions, and attributed this and similar conditions across all denominations to increasing worldly-mindedness accompanying business prosperity.",
+      "claim_type": "attributed_quote",
+      "entities": ["Albert Barnes"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-016",
+      "paragraph": 6,
+      "quote": "In the month of February of the same year, Professor Finney, of Oberlin College, said:",
+      "claim_text": "Professor Finney was affiliated with Oberlin College.",
+      "claim_type": "biographical",
+      "entities": ["Charles Finney", "Oberlin College"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-017",
+      "paragraph": 6,
+      "quote": "In the month of February of the same year, Professor Finney, of Oberlin College, said:",
+      "claim_text": "Charles Finney made a public statement about the spiritual state of American Protestant churches in February 1844.",
+      "claim_type": "date",
+      "entities": ["Charles Finney"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-018",
+      "paragraph": 6,
+      "quote": "“We have had the fact before our minds, that, in general, the Protestant churches of our country, as such, were either apathetic or hostile to nearly all the moral reforms of the age... Suffice it that the evidence thickens and rolls heavily upon us, to show that the _churches generally are becoming sadly degenerate_. They have gone very far from the Lord, and He has withdrawn Himself from them.”",
+      "claim_text": "Charles Finney stated in February 1844 that American Protestant churches were generally apathetic or hostile to moral reforms, showed an almost universal absence of revival influence, and were becoming sadly degenerate.",
+      "claim_type": "attributed_quote",
+      "entities": ["Charles Finney"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-019",
+      "paragraph": 7,
+      "quote": "And a writer in the _Religious Telescope_ testified: “We have never witnessed such a general declension of religion as at the present. Truly, the church should awake, and search into the cause of this affliction;",
+      "claim_text": "A writer in the Religious Telescope publication testified that they had never witnessed such a general decline of religion as at that time.",
+      "claim_type": "attributed_quote",
+      "entities": ["Religious Telescope"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-020",
+      "paragraph": 8,
+      "quote": "The spiritual darkness which falls upon nations, upon churches and individuals, is due, not to an arbitrary withdrawal of the succors of divine grace on the part of God, but to neglect or rejection of divine light on the part of men.",
+      "claim_text": "Spiritual darkness that falls upon nations, churches, and individuals results from human neglect or rejection of divine light rather than an arbitrary withdrawal of grace by God.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-021",
+      "paragraph": 8,
+      "quote": "By their devotion to the world and forgetfulness of God and His word, their understanding had become darkened, their hearts earthly and sensual. Thus they were in ignorance concerning Messiah’s advent, and in their pride and unbelief they rejected the Redeemer.",
+      "claim_text": "The Jewish people's devotion to the world and forgetfulness of God darkened their understanding, leaving them ignorant of the Messiah's advent, so that in pride and unbelief they rejected Jesus as the Redeemer.",
+      "claim_type": "theological",
+      "entities": ["Jewish people", "Jesus Christ"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-022",
+      "paragraph": 8,
+      "quote": "God did not even then cut off the Jewish nation from a knowledge of, or a participation in, the blessings of salvation. But those who rejected the truth lost all desire for the gift of Heaven.",
+      "claim_text": "God did not cut off the Jewish nation from knowledge of or participation in salvation after their rejection of Jesus, but those who rejected the truth lost all desire for the gift of Heaven.",
+      "claim_type": "theological",
+      "entities": ["Jewish nation"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-023",
+      "paragraph": 9,
+      "quote": "It suits the policy of Satan, that men should retain the forms of religion, if but the spirit of vital godliness is lacking.",
+      "claim_text": "It suits Satan's policy for people to retain the outward forms of religion while lacking the spirit of vital godliness.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-024",
+      "paragraph": 9,
+      "quote": "After their rejection of the gospel, the Jews continued zealously to maintain their ancient rites, they rigorously preserved their national exclusiveness, while they themselves could not but admit that the presence of God was no longer manifest among them.",
+      "claim_text": "After rejecting the gospel, the Jews continued to zealously maintain their ancient religious rites and preserve their national exclusiveness, while admitting that the manifest presence of God was no longer among them.",
+      "claim_type": "event",
+      "entities": ["Jews"],
+      "needs_verification": true,
+      "extractor_note": "Framed within a theological argument, but asserts a checkable historical claim about post-Temple Jewish religious practice and self-perception."
+    },
+    {
+      "id": "GC-21-025",
+      "paragraph": 9,
+      "quote": "The prophecy of Daniel pointed so unmistakably to the time of Messiah’s coming, and so directly foretold His death, that they discouraged its study,",
+      "claim_text": "Daniel's prophecy pointed so unmistakably to the time of the Messiah's coming and so directly foretold his death that Jewish leaders discouraged its study.",
+      "claim_type": "interpretive",
+      "entities": ["Book of Daniel"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-026",
+      "paragraph": 9,
+      "quote": "and finally the rabbis pronounced a curse on all who should attempt a computation of the time.",
+      "claim_text": "Jewish rabbis pronounced a curse on anyone who attempted to compute the time (of the Messiah's coming) from Daniel's prophecy.",
+      "claim_type": "event",
+      "entities": ["rabbis"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-027",
+      "paragraph": 9,
+      "quote": "In blindness and impenitence, the people of Israel for eighteen hundred years have stood, indifferent to the gracious offers of salvation, unmindful of the blessings of the gospel, a solemn and fearful warning of the danger of rejecting light from heaven.",
+      "claim_text": "For roughly eighteen hundred years since the time of Christ, the people of Israel have stood in blindness and impenitence, indifferent to the offers of salvation.",
+      "claim_type": "theological",
+      "entities": ["people of Israel"],
+      "needs_verification": false,
+      "extractor_note": "Theological framing; contains an implicit ~1800-year duration claim measured from the time of Christ to the book's writing."
+    },
+    {
+      "id": "GC-21-028",
+      "paragraph": 10,
+      "quote": "He who deliberately stifles his convictions of duty because it interferes with his inclinations, will finally lose the power to distinguish between truth and error. The understanding becomes darkened, the conscience callous, the heart hardened, and the soul is separated from God. Where the message of divine truth is spurned or slighted, there the church will be enshrouded in darkness; faith and love grow cold, and estrangement and dissension enter.",
+      "claim_text": "A person who deliberately stifles convictions of duty because they interfere with personal inclinations will lose the power to distinguish truth from error, and a church that spurns divine truth will fall into spiritual darkness, coldness, estrangement, and dissension.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-029",
+      "paragraph": 11,
+      "quote": "The first angel’s message of Revelation 14, announcing the hour of God’s judgment, and calling upon men to fear and worship Him, was designed to separate the professed people of God from the corrupting influences of the world, and to arouse them to see their true condition of worldliness and backsliding.",
+      "claim_text": "The first angel's message of Revelation 14 was designed to separate the professed people of God from corrupting worldly influences and arouse them to recognize their worldliness and backsliding.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-030",
+      "paragraph": 11,
+      "quote": "The church would again have reached that blessed state of unity, faith, and love, which existed in apostolic days, when the believers “were of one heart and of one soul,” and “spake the word of God with boldness,” when “the Lord added to the church daily such as should be saved.”(621)",
+      "claim_text": "Had the first angel's message been accepted, the church would have reached the state of unity, faith, and love that existed in apostolic days.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-031",
+      "paragraph": 12,
+      "quote": "“There is,” he says, “_one_ body, and _one_ Spirit, even as ye are called in _one_ hope of your calling; one Lord, one faith, one baptism.”(622)",
+      "claim_text": "The apostle Paul taught that there is one body, one Spirit, one hope, one Lord, one faith, and one baptism.",
+      "claim_type": "theological",
+      "entities": ["Paul"],
+      "needs_verification": false,
+      "extractor_note": "Scriptural (Pauline, Ephesians) citation used within the chapter's theological argument."
+    },
+    {
+      "id": "GC-21-032",
+      "paragraph": 13,
+      "quote": "Such were the blessed results experienced by those who accepted the advent message. They came from different denominations, and their denominational barriers were hurled to the ground; conflicting creeds were shivered to atoms; the unscriptural hope of a temporal millennium was abandoned, false views of the second advent were corrected, pride and conformity to the world were swept away; wrongs were made right; hearts were united in the sweetest fellowship, and love and joy reigned supreme.",
+      "claim_text": "Those who accepted the Millerite advent message, coming from different denominations, experienced the dissolution of denominational barriers and creedal conflicts, abandonment of the idea of a temporal millennium, correction of false second-advent views, and united fellowship.",
+      "claim_type": "event",
+      "entities": ["Millerites"],
+      "needs_verification": true,
+      "extractor_note": "Sweeping historical/social claim about the effects of accepting the Millerite message on its adherents; checkable in principle against Millerite-era historiography, though rhetorically framed."
+    },
+    {
+      "id": "GC-21-033",
+      "paragraph": 13,
+      "quote": "If this doctrine did this for the few who did receive it, it would have done the same for all, if all had received it.",
+      "claim_text": "Had all people received the advent doctrine, it would have produced the same unifying results in all of them as it did in the few who accepted it.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-034",
+      "paragraph": 14,
+      "quote": "But the churches generally did not accept the warning.",
+      "claim_text": "The churches generally did not accept the Millerite advent warning.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-035",
+      "paragraph": 14,
+      "quote": "Their ministers, who, as “watchmen unto the house of Israel,” should have been the first to discern the tokens of Jesus’ coming, had failed to learn the truth, either from the testimony of the prophets or from the signs of the times.",
+      "claim_text": "The ministers of the churches, who should have been the first to discern the tokens of Jesus' coming, failed to learn the truth from the prophets or the signs of the times.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-036",
+      "paragraph": 14,
+      "quote": "The fact that the message was, to a great extent, preached by laymen, was urged as an argument against it.",
+      "claim_text": "Opponents of the Millerite advent message argued against it partly on the grounds that it was preached largely by laymen rather than clergy.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-037",
+      "paragraph": 14,
+      "quote": "And finding how difficult a task it was to refute the arguments drawn from the prophetic periods, many discouraged the study of the prophecies, teaching that the prophetic books were sealed, and were not to be understood.",
+      "claim_text": "Because they found it difficult to refute arguments drawn from prophetic time periods, many clergy discouraged the study of prophecy and taught that the prophetic books were sealed and not to be understood.",
+      "claim_type": "causal",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-038",
+      "paragraph": 14,
+      "quote": "Multitudes, trusting implicitly to their pastors, refused to listen to the warning; and others, though convinced of the truth, dared not confess it, lest they should be “put out of the synagogue.”",
+      "claim_text": "Multitudes who trusted their pastors refused to listen to the Millerite advent warning, and others who were convinced of its truth dared not confess it for fear of being expelled from their churches.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-039",
+      "paragraph": 15,
+      "quote": "Here was the cause of that fearful condition of worldliness, backsliding, and spiritual death which existed in the churches in 1844.",
+      "claim_text": "The rejection of the first angel's warning was the cause of a condition of worldliness, backsliding, and spiritual death that existed in the churches in 1844.",
+      "claim_type": "causal",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Causal-historical claim about the state of American churches in 1844, embedded in theological framing."
+    },
+    {
+      "id": "GC-21-040",
+      "paragraph": 15,
+      "quote": "In refusing the warning of the first angel, they rejected the means which Heaven had provided for their restoration.",
+      "claim_text": "By refusing the first angel's warning, the churches rejected the means Heaven had provided for their spiritual restoration.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-041",
+      "paragraph": 16,
+      "quote": "In Revelation 14, the first angel is followed by a second, proclaiming, “Babylon is fallen, is fallen, that great city, because she made all nations drink of the wine of the wrath of her fornication.”(623)",
+      "claim_text": "The second angel of Revelation 14 proclaims the fall of Babylon, the great city, because she made all nations drink of the wine of the wrath of her fornication.",
+      "claim_type": "theological",
+      "entities": ["Babylon"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-042",
+      "paragraph": 16,
+      "quote": "The term “Babylon” is derived from “Babel,” and signifies confusion.",
+      "claim_text": "The term \"Babylon\" is derived from \"Babel\" and signifies confusion.",
+      "claim_type": "event",
+      "entities": ["Babylon", "Babel"],
+      "needs_verification": true,
+      "extractor_note": "Etymological claim; no exact enum category fits, assigned 'event' as the closest checkable-fact type."
+    },
+    {
+      "id": "GC-21-043",
+      "paragraph": 16,
+      "quote": "In Revelation 17, Babylon is represented as a woman,—a figure which is used in the Bible as the symbol of a church, a virtuous woman representing a pure church, a vile woman an apostate church.",
+      "claim_text": "In Revelation 17 Babylon is represented as a woman, a biblical figure used to symbolize a church, with a virtuous woman representing a pure church and a vile woman an apostate church.",
+      "claim_type": "theological",
+      "entities": ["Babylon"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-044",
+      "paragraph": 17,
+      "quote": "He declares, “I will betroth thee unto Me forever; yea, I will betroth thee unto Me in righteousness, and in judgment, and in loving-kindness, and in mercies.”(624) And again, “I am married unto you.”(625) And Paul employs the same figure in the New Testament when he says, “I have espoused you to one husband, that I may present you as a chaste virgin to Christ.”(626)",
+      "claim_text": "The Bible represents the relationship between Christ and the church using the figure of marriage, citing God's covenant with Israel and Paul's description of the church as espoused to one husband, Christ.",
+      "claim_type": "theological",
+      "entities": ["Paul"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-045",
+      "paragraph": 18,
+      "quote": "The sin of Israel in departing from the Lord is presented under this figure; and the wonderful love of God which they thus despised is touchingly portrayed: “I sware unto thee, and entered into a covenant with thee, saith the Lord God, and thou becamest Mine.”",
+      "claim_text": "Scripture presents Israel's departure from the Lord under the figure of marital unfaithfulness, portraying God's covenant love which Israel despised.",
+      "claim_type": "theological",
+      "entities": ["Israel"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-046",
+      "paragraph": 19,
+      "quote": "Says the apostle James: “Ye adulterers and adulteresses, know ye not that the friendship of the world is enmity with God? whosoever therefore will be a friend of the world is the enemy of God.”",
+      "claim_text": "The apostle James taught that friendship with the world is enmity with God, and whoever seeks to be a friend of the world becomes an enemy of God.",
+      "claim_type": "theological",
+      "entities": ["James (apostle)"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-047",
+      "paragraph": 20,
+      "quote": "The woman (Babylon) of Revelation 17, is described as “arrayed in purple and scarlet color, and decked with gold and precious stones and pearls, having a golden cup in her hand full of abominations and filthiness: ... and upon her forehead was a name written, Mystery, Babylon the Great, the mother of harlots.” Says the prophet, “I saw the woman drunken with the blood of the saints, and with the blood of the martyrs of Jesus.”",
+      "claim_text": "Revelation 17 describes the woman Babylon as arrayed in purple and scarlet, decked with gold and jewels, bearing the name \"Mystery, Babylon the Great, the mother of harlots,\" and drunken with the blood of the saints and martyrs of Jesus.",
+      "claim_type": "theological",
+      "entities": ["Babylon"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-048",
+      "paragraph": 20,
+      "quote": "The power that for so many centuries maintained despotic sway over the monarchs of Christendom, is Rome. The purple and scarlet color, the gold and precious stones and pearls, vividly picture the magnificence and more than kingly pomp affected by the haughty see of Rome.",
+      "claim_text": "The power identified in the chapter as having maintained despotic sway over the monarchs of Christendom for centuries, symbolized by Revelation 17's imagery of purple, scarlet, gold, and jewels, is Rome.",
+      "claim_type": "interpretive",
+      "entities": ["Rome"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-049",
+      "paragraph": 20,
+      "quote": "And no other power could be so truly declared “drunken with the blood of the saints” as that church which has so cruelly persecuted the followers of Christ.",
+      "claim_text": "No other power could be so truly declared \"drunken with the blood of the saints\" as the (Roman Catholic) church, identified as having cruelly persecuted the followers of Christ.",
+      "claim_type": "interpretive",
+      "entities": ["Rome"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-050",
+      "paragraph": 20,
+      "quote": "It was by departure from the Lord, and alliance with the heathen, that the Jewish church became a harlot; and Rome, corrupting herself in like manner by seeking the support of worldly powers, receives a like condemnation.",
+      "claim_text": "Just as the Jewish church became a \"harlot\" by departing from the Lord and allying with the heathen, Rome corrupted herself in like manner by seeking the support of worldly powers.",
+      "claim_type": "interpretive",
+      "entities": ["Jewish church", "Rome"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-051",
+      "paragraph": 21,
+      "quote": "The message of Revelation 14, announcing the _fall_ of Babylon, must apply to religious bodies that were once pure and have become corrupt. Since this message follows the warning of the judgment, it must be given in the last days; therefore it cannot refer to the Roman Church alone, for that church has been in a fallen condition for many centuries. Furthermore, in the eighteenth chapter of the Revelation, the people of God are called upon to come out of Babylon. According to this scripture, many of God’s people must still be in Babylon. And in what religious bodies are the greater part of the followers of Christ now to be found? Without doubt, in the various churches professing the Protestant faith.",
+      "claim_text": "The Revelation 14 message of Babylon's fall must apply to religious bodies once pure that became corrupt in the last days, cannot refer to the Roman Church alone (fallen for centuries), and since Revelation 18 calls God's people out of Babylon, the greater part of Christ's followers today are found in Protestant churches.",
+      "claim_type": "interpretive",
+      "entities": ["Roman Church", "Protestant churches"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-052",
+      "paragraph": 21,
+      "quote": "At the time of their rise, these churches took a noble stand for God and the truth, and His blessing was with them. Even the unbelieving world was constrained to acknowledge the beneficent results that followed an acceptance of the principles of the gospel... But they fell by the same desire which was the curse and ruin of Israel,—the desire of imitating the practices and courting the friendship of the ungodly.",
+      "claim_text": "At their rise, Protestant churches took a noble stand for God and truth with God's blessing and gained the unbelieving world's acknowledgment of the gospel's beneficent results, but later fell through the same desire that ruined Israel: imitating worldly practices and courting the friendship of the ungodly.",
+      "claim_type": "interpretive",
+      "entities": ["Protestant churches"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-053",
+      "paragraph": 22,
+      "quote": "Many of the Protestant churches are following Rome’s example of iniquitous connection with “the kings of the earth”—the state churches, by their relation to secular governments; and other denominations, by seeking the favor of the world. And the term “Babylon”—confusion—may be appropriately applied to these bodies, all professing to derive their doctrines from the Bible, yet divided into almost innumerable sects, with widely conflicting creeds and theories.",
+      "claim_text": "Many Protestant churches follow Rome's example of unlawful connection with secular power, whether through state-church relationships or seeking worldly favor, and the term \"Babylon\" (confusion) applies to them because, though professing Bible-derived doctrine, they are divided into innumerable sects with conflicting creeds.",
+      "claim_type": "interpretive",
+      "entities": ["Rome", "Protestant churches"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-054",
+      "paragraph": 23,
+      "quote": "A Roman Catholic work argues that “if the Church of Rome were ever guilty of idolatry in relation to the saints, her daughter, the Church of England, stands guilty of the same, which has ten churches dedicated to Mary for one dedicated to Christ.”(631)",
+      "claim_text": "A cited Roman Catholic work argues that if the Church of Rome were guilty of idolatry regarding the saints, the Church of England is equally guilty, having ten churches dedicated to Mary for every one dedicated to Christ.",
+      "claim_type": "attributed_quote",
+      "entities": ["Church of Rome", "Church of England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-055",
+      "paragraph": 24,
+      "quote": "And Dr. Hopkins, in “A Treatise on the Millennium,” declares:",
+      "claim_text": "Dr. Hopkins authored a work titled \"A Treatise on the Millennium.\"",
+      "claim_type": "biographical",
+      "entities": ["Dr. Hopkins"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-056",
+      "paragraph": 24,
+      "quote": "“There is no reason to consider the antichristian spirit and practices to be confined to that which is now called the Church of Rome. The Protestant churches have much of antichrist in them, and are far from being wholly reformed from ... corruptions and wickedness.”(632)",
+      "claim_text": "Dr. Hopkins wrote that the antichristian spirit and practices are not confined to the Church of Rome, and that Protestant churches have much of antichrist in them and are far from wholly reformed from corruption.",
+      "claim_type": "attributed_quote",
+      "entities": ["Dr. Hopkins", "Church of Rome", "Protestant churches"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-057",
+      "paragraph": 25,
+      "quote": "Concerning the separation of the Presbyterian Church from Rome, Dr. Guthrie writes: “Three hundred years ago, our church, with an open Bible on her banner, and this motto, ‘Search the Scriptures,’ on her scroll, marched out from the gates of Rome.”",
+      "claim_text": "Dr. Guthrie wrote that the Presbyterian Church, with an open Bible and the motto \"Search the Scriptures,\" separated from Rome three hundred years before his writing.",
+      "claim_type": "attributed_quote",
+      "entities": ["Dr. Guthrie", "Presbyterian Church", "Rome"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-058",
+      "paragraph": 25,
+      "quote": "Then he asks the significant question, “Did they come _clean_ out of Babylon?”(633)",
+      "claim_text": "Dr. Guthrie asked whether the Presbyterian Church came entirely clean out of \"Babylon\" when it separated from Rome.",
+      "claim_type": "attributed_quote",
+      "entities": ["Dr. Guthrie"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-059",
+      "paragraph": 26,
+      "quote": "“The Church of England,” says Spurgeon, “seems to be eaten through and through with sacramentarianism; but non-conformity appears to be almost as badly riddled with philosophical infidelity. Those of whom we thought better things are turning aside one by one from the fundamentals of the faith. Through and through, I believe, the very heart of England is honeycombed with a damnable infidelity which dares still go into the pulpit and call itself Christian.”",
+      "claim_text": "Spurgeon stated that the Church of England was eaten through with sacramentarianism, non-conformity was badly riddled with philosophical infidelity, and the heart of England was honeycombed with infidelity that still called itself Christian from the pulpit.",
+      "claim_type": "attributed_quote",
+      "entities": ["Charles Spurgeon", "Church of England"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-060",
+      "paragraph": 27,
+      "quote": "What was the origin of the great apostasy? How did the church first depart from the simplicity of the gospel? By conforming to the practices of paganism, to facilitate the acceptance of Christianity by the heathen.",
+      "claim_text": "The Christian church first departed from the simplicity of the gospel by conforming to pagan practices in order to facilitate the acceptance of Christianity by the heathen.",
+      "claim_type": "causal",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-061",
+      "paragraph": 27,
+      "quote": "The apostle Paul declared, even in his day, “The mystery of iniquity doth already work.”(634)",
+      "claim_text": "The apostle Paul declared, in his own lifetime, that \"the mystery of iniquity doth already work.\"",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-062",
+      "paragraph": 27,
+      "quote": "During the lives of the apostles the church remained comparatively pure.",
+      "claim_text": "The Christian church remained comparatively pure during the lifetimes of the apostles.",
+      "claim_type": "event",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-063",
+      "paragraph": 27,
+      "quote": "But “toward the latter end of the second century most of the churches assumed a new form; the first simplicity disappeared, and insensibly, as the old disciples retired to their graves, their children, along with new converts, ... came forward and new-modeled the cause.”(635)",
+      "claim_text": "A cited source (footnote 635) states that toward the latter end of the second century most churches assumed a new form as the original simplicity disappeared, and as the old disciples died, their children and new converts remodeled the cause.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-064",
+      "paragraph": 27,
+      "quote": "To secure converts, the exalted standard of the Christian faith was lowered, and as the result “a pagan flood, flowing into the church, carried with it its customs, practices, and idols.”(636)",
+      "claim_text": "To secure converts, the standard of the Christian faith was lowered, resulting in a \"pagan flood\" into the church that carried with it pagan customs, practices, and idols.",
+      "claim_type": "causal",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-065",
+      "paragraph": 27,
+      "quote": "As the Christian religion secured the favor and support of secular rulers, it was nominally accepted by multitudes; but while in appearance Christians, many “remained in substance pagans, especially worshiping in secret their idols.”(637)",
+      "claim_text": "As Christianity secured the favor and support of secular rulers, it was nominally accepted by multitudes who, while appearing Christian, remained in substance pagan, secretly worshiping their idols.",
+      "claim_type": "causal",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-066",
+      "paragraph": 28,
+      "quote": "Has not the same process been repeated in nearly every church calling itself Protestant?",
+      "claim_text": "The same process of departure from original simplicity, as founders die off and descendants remodel the cause, has been repeated in nearly every church calling itself Protestant.",
+      "claim_type": "interpretive",
+      "entities": ["Protestant churches"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-067",
+      "paragraph": 29,
+      "quote": "How widely have the popular churches throughout Christendom departed from the Bible standard of humility, self-denial, simplicity, and godliness!",
+      "claim_text": "The popular churches throughout Christendom have widely departed from the Bible standard of humility, self-denial, simplicity, and godliness.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-068",
+      "paragraph": 29,
+      "quote": "Said John Wesley, in speaking of the right use of money:",
+      "claim_text": "John Wesley spoke and wrote about the right use of money.",
+      "claim_type": "biographical",
+      "entities": ["John Wesley"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-069",
+      "paragraph": 29,
+      "quote": "“Do not waste any part of so precious a talent, merely in gratifying the desire of the eye, by superfluous or expensive apparel, or by needless ornaments. Waste no part of it in curiously adorning your houses; in superfluous or expensive furniture; in costly pictures, painting, gilding.... Lay out nothing to gratify the pride of life, to gain the admiration or praise of men.... ‘So long as thou doest well unto thyself, men will speak good of thee.’ So long as thou art ‘clothed in purple and fine linen, and farest sumptuously every day,’ no doubt many will applaud thy elegance of taste, thy generosity and hospitality. But do not buy their applause so dear. Rather be content with the honor that cometh from God.”(638)",
+      "claim_text": "John Wesley taught that money should not be wasted on superfluous apparel, ornaments, furniture, or fine possessions to gain the admiration of others, and that one should instead be content with the honor that comes from God.",
+      "claim_type": "attributed_quote",
+      "entities": ["John Wesley"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-070",
+      "paragraph": 30,
+      "quote": "A profession of religion has become popular with the world. Rulers, politicians, lawyers, doctors, merchants, join the church as a means of securing the respect and confidence of society, and advancing their own worldly interests.",
+      "claim_text": "A profession of religion has become popular with the world, with rulers, politicians, lawyers, doctors, and merchants joining the church to secure social respect and advance their worldly interests.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-071",
+      "paragraph": 30,
+      "quote": "Splendid churches, embellished in the most extravagant manner, are erected on popular avenues. The worshipers array themselves in costly and fashionable attire. A high salary is paid for a talented minister to entertain and attract the people. His sermons must not touch popular sins, but be made smooth and pleasing for fashionable ears.",
+      "claim_text": "Splendid, extravagantly embellished churches are erected on popular avenues, worshipers dress in costly fashionable attire, and highly paid ministers are expected to entertain congregations with sermons that avoid touching popular sins.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-072",
+      "paragraph": 31,
+      "quote": "Commenting on the present attitude of professed Christians toward the world, a leading secular journal says: “Insensibly the church has yielded to the spirit of the age, and adapted its forms of worship to modern wants.” “All things, indeed, that help to make religion attractive, the church now employs as its instruments.”",
+      "claim_text": "A leading secular journal stated that the church had insensibly yielded to the spirit of the age, adapting its forms of worship to modern wants and employing all attractive things as instruments.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-073",
+      "paragraph": 31,
+      "quote": "And a writer in the New York _Independent_ speaks thus concerning Methodism as it is: “The line of separation between the godly and the irreligious fades out into a kind of penumbra, and zealous men on both sides are toiling to obliterate all difference between their modes of action and enjoyment.” “The popularity of religion tends vastly to increase the number of those who would secure its benefits without squarely meeting its duties.”",
+      "claim_text": "A writer in the New York Independent wrote that within Methodism the line between the godly and the irreligious was fading, and that the popularity of religion was increasing the number of people seeking its benefits without meeting its duties.",
+      "claim_type": "attributed_quote",
+      "entities": ["New York Independent", "Methodism"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-074",
+      "paragraph": 32,
+      "quote": "Says Howard Crosby: “It is a matter of deep concern that we find Christ’s church so little fulfilling the designs of its Lord. Just as the ancient Jews let a familiar intercourse with the idolatrous nations steal away their hearts from God, ... so the church of Jesus now is, by its false partnerships with an unbelieving world, giving up the divine methods of its true life, and yielding itself to the pernicious, though often plausible, habits of a Christless society, using the arguments and reaching the conclusions which are foreign to the revelation of God, and directly antagonistic to all growth in grace.”(639)",
+      "claim_text": "Howard Crosby stated that Christ's church was fulfilling the designs of its Lord too little, comparing its false partnerships with an unbelieving world to the ancient Jews' familiar intercourse with idolatrous nations that stole away their hearts from God.",
+      "claim_type": "attributed_quote",
+      "entities": ["Howard Crosby"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-075",
+      "paragraph": 33,
+      "quote": "“Some of the men and women now in active life in our churches were educated, when children, to make sacrifices in order to be able to give or do something for Christ.” But “if funds are wanted now, ... nobody must be called on to give. Oh, no! have a fair, tableaux, mock trial, antiquarian supper, or something to eat—anything to amuse the people.”",
+      "claim_text": "A cited source states that some churchgoers were raised as children to make sacrifices to give to Christ's work, but that in current practice, when funds are needed, no one is asked to give directly; instead fairs, tableaux, and similar entertainments are used to raise money.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "No footnote marker or named attribution is visible in the supplied chapter text for this quotation, unlike most other quotes in the chapter; flagged for verification of source and attribution."
+    },
+    {
+      "id": "GC-21-076",
+      "paragraph": 34,
+      "quote": "Governor Washburn, of Wisconsin, in his annual message, Jan. 9, 1873, declared:",
+      "claim_text": "Washburn served as Governor of Wisconsin.",
+      "claim_type": "biographical",
+      "entities": ["Governor Washburn", "Wisconsin"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-077",
+      "paragraph": 34,
+      "quote": "Governor Washburn, of Wisconsin, in his annual message, Jan. 9, 1873, declared:",
+      "claim_text": "Governor Washburn of Wisconsin delivered his annual message on January 9, 1873.",
+      "claim_type": "date",
+      "entities": ["Governor Washburn", "Wisconsin"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-078",
+      "paragraph": 34,
+      "quote": "“Some law seems to be required to break up the schools where gamblers are made. These are everywhere. Even the church (unwittingly, no doubt) is sometimes found doing the work of the devil. Gift concerts, gift enterprises and raffles, sometimes in aid of religious or charitable objects, but often for less worthy purposes, lotteries, prize packages, etc., are all devices to obtain money without value received.”",
+      "claim_text": "Governor Washburn of Wisconsin stated in his January 9, 1873 annual message that churches were sometimes found unwittingly aiding gambling-like practices such as gift concerts, gift enterprises, raffles, and lotteries.",
+      "claim_type": "attributed_quote",
+      "entities": ["Governor Washburn", "Wisconsin"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-079",
+      "paragraph": 35,
+      "quote": "Robert Atkins, in a sermon preached in London, draws a dark picture of the spiritual declension that prevails in England:",
+      "claim_text": "Robert Atkins preached a sermon in London describing spiritual declension in England.",
+      "claim_type": "event",
+      "entities": ["Robert Atkins", "London"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-080",
+      "paragraph": 35,
+      "quote": "“The truly righteous are diminished from the earth, and no man layeth it to heart. The professors of religion of the present day, in every church, are lovers of the world, conformers to the world, lovers of creature comfort, and aspirers after respectability. They are called to suffer with Christ, but they shrink from even reproach.... _apostasy, apostasy, apostasy_, is engraven on the very front of every church; and did they know it, and did they feel it, there might be hope; but, alas! they cry, ‘We are rich, and increased in goods, and stand in need of nothing.’ ”(640)",
+      "claim_text": "Robert Atkins preached that professors of religion in every English church of his day were lovers of the world and aspirers after respectability, and declared that apostasy was engraved on the front of every church.",
+      "claim_type": "attributed_quote",
+      "entities": ["Robert Atkins"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-081",
+      "paragraph": 36,
+      "quote": "The great sin charged against Babylon is, that she “made all nations drink of the wine of the wrath of her fornication.” This cup of intoxication which she presents to the world, represents the false doctrines that she has accepted as the result of her unlawful connection with the great ones of the earth.",
+      "claim_text": "The great sin charged against Babylon is making all nations drink her cup of intoxication, symbolizing false doctrines she accepted through unlawful connection with the powerful of the earth.",
+      "claim_type": "theological",
+      "entities": ["Babylon"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-082",
+      "paragraph": 37,
+      "quote": "Rome withheld the Bible from the people, and required all men to accept her teachings in its place. It was the work of the Reformation to restore to men the word of God;",
+      "claim_text": "Rome withheld the Bible from the people and required all to accept her teachings in its place, and it was the work of the Reformation to restore the word of God to the people.",
+      "claim_type": "event",
+      "entities": ["Rome", "the Reformation"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-083",
+      "paragraph": 37,
+      "quote": "Said Charles Beecher, speaking of the Protestant churches: “They shrink from any rude word against creeds with the same sensitiveness with which those holy fathers would have shrunk from a rude word against the rising veneration of saints and martyrs which they were fostering.... The Protestant evangelical denominations have so tied up one another’s hands, and their own, that, between them all, a man cannot become a preacher at all, anywhere, without accepting some book besides the Bible.... There is nothing imaginary in the statement that the creed power is now beginning to prohibit the Bible as really as Rome did, though in a subtler way.”(641)",
+      "claim_text": "Charles Beecher stated that Protestant evangelical denominations had tied up one another's hands so that no one could become a preacher anywhere without accepting a book besides the Bible, and that creed power was beginning to prohibit the Bible as Rome had, though more subtly.",
+      "claim_type": "attributed_quote",
+      "entities": ["Charles Beecher"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-084",
+      "paragraph": 38,
+      "quote": "When faithful teachers expound the word of God, there arise men of learning, ministers professing to understand the Scriptures, who denounce sound doctrine as heresy, and thus turn away inquirers after truth... The sin of the world’s impenitence lies at the door of the church.",
+      "claim_text": "When faithful teachers expound God's word, learned ministers denounce sound doctrine as heresy and turn away inquirers, so the sin of the world's impenitence lies at the door of the church.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-085",
+      "paragraph": 39,
+      "quote": "The second angel’s message of Revelation 14 was first preached in the summer of 1844, and it then had a more direct application to the churches of the United States, where the warning of the judgment had been most widely proclaimed and most generally rejected, and where the declension in the churches had been most rapid.",
+      "claim_text": "The second angel's message of Revelation 14 was first preached in the summer of 1844, applying most directly to the churches of the United States, where the judgment warning had been most widely proclaimed and rejected and church declension had been most rapid.",
+      "claim_type": "date",
+      "entities": ["United States"],
+      "needs_verification": true
+    },
+    {
+      "id": "GC-21-086",
+      "paragraph": 39,
+      "quote": "But the message of the second angel did not reach its complete fulfilment in 1844. The churches then experienced a moral fall, in consequence of their refusal of the light of the advent message; but that fall was not complete... Not yet, however, can it be said that “Babylon is fallen, ... because she made _all nations_ drink of the wine of the wrath of her fornication.” She has not yet made all nations do this.",
+      "claim_text": "The second angel's message did not reach complete fulfillment in 1844; the churches experienced only a partial moral fall from refusing the advent message's light, and Babylon has not yet made all nations drink the wine of her fornication.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-087",
+      "paragraph": 40,
+      "quote": "The Bible declares that before the coming of the Lord, Satan will work “with _all_ power and signs and lying wonders, and with all deceivableness of unrighteousness;” and they that “received not the love of the truth, that they might be saved,” will be left to receive “strong delusion, that they should believe a lie.”(642)",
+      "claim_text": "Before Christ's coming, Satan will work with all power, signs, and lying wonders, and those who did not receive the love of the truth will be left to believe a lie.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-088",
+      "paragraph": 40,
+      "quote": "Not until this condition shall be reached, and the union of the church with the world shall be fully accomplished throughout Christendom, will the fall of Babylon be complete. The change is a progressive one, and the perfect fulfilment of Rev. 14:8 is yet future.",
+      "claim_text": "The fall of Babylon will not be complete until the union of church and world is fully accomplished throughout Christendom, a progressive change whose complete fulfillment of Revelation 14:8 remains future.",
+      "claim_type": "theological",
+      "entities": ["Babylon"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-089",
+      "paragraph": 41,
+      "quote": "Notwithstanding the spiritual darkness and alienation from God that exist in the churches which constitute Babylon, the great body of Christ’s true followers are still to be found in their communion.",
+      "claim_text": "Despite the spiritual darkness in the churches constituting Babylon, the great body of Christ's true followers are still found within their communion.",
+      "claim_type": "theological",
+      "entities": ["Babylon"],
+      "needs_verification": false
+    },
+    {
+      "id": "GC-21-090",
+      "paragraph": 42,
+      "quote": "Revelation 18 points to the time when, as the result of rejecting the threefold warning of Rev. 14:6-12, the church will have fully reached the condition foretold by the second angel, and the people of God still in Babylon will be called upon to separate from her communion. This message is the last that will ever be given to the world; and it will accomplish its work.",
+      "claim_text": "Revelation 18 points to a future time when, as a result of rejecting the threefold warning of Revelation 14:6-12, the church will fully reach the condition foretold by the second angel, and God's people still in Babylon will be called to separate from her, this being the last message ever given to the world.",
+      "claim_type": "theological",
+      "entities": ["Babylon"],
+      "needs_verification": false
+    }
+  ]
+}
