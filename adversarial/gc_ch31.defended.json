@@ -1,0 +1,1134 @@
+{
+  "chapter": 31,
+  "chapter_title": "Agency Of Evil Spirits",
+  "stage": "adversarial",
+  "generated_at": "2026-07-05",
+  "notes": "searches: 0; full defenses: 0, cheap audits: 0. Pass-through: verification produced 0 contradicted, 0 misquotation, 0 anachronistic, 0 disputed. Nothing in defender scope (only contradicted/misquotation get full defense; anachronistic gets cheap audit; disputed is skipped). All 72 claims carried forward unchanged (23 supported, 49 unverifiable).",
+  "claims": [
+    {
+      "id": "GC-31-001",
+      "paragraph": 1,
+      "quote": "There is a growing tendency to disbelief in the existence of evil spirits, while the holy angels that “minister for them who shall be heirs of salvation,”(897) are regarded by many as the spirits of the dead.",
+      "claim_text": "By the time of writing (early 20th century), there was a growing societal tendency to disbelieve in the existence of evil spirits, while many people regarded angels as the spirits of deceased human beings.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "extractor_note": "Sweeping sociological/interpretive claim about contemporary religious opinion (plausibly referencing 19th-century Spiritualism); logged as interpretive per pipeline rules, not for fact-checking.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Sweeping sociological generalization about c.1911 religious opinion. Logged interpretive per pipeline rules; not a discrete checkable proposition. The general direction (19th-century rise of Spiritualism and liberal-theological disbelief in a personal devil) is broadly documented but the claim as stated is a diffuse mood-assessment, not fact-checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-002",
+      "paragraph": 1,
+      "quote": "the holy angels that “minister for them who shall be heirs of salvation,”(897)",
+      "claim_text": "Scripture (per the footnote marker 897, commonly identified with Hebrews 1:14) describes angels as those who 'minister for them who shall be heirs of salvation.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Epistle to the Hebrews (inferred)"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (897) not resolved to book/chapter/verse in this chapter file; verifier should confirm exact citation via the 1911 Appendix.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quote is verbatim from Hebrews 1:14 KJV ('...sent forth to minister for them who shall be heirs of salvation?'). Extractor's attribution confirmed correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-003",
+      "paragraph": 1,
+      "quote": "But the Scriptures not only teach the existence of angels, both good and evil, but present unquestionable proof that these are not the disembodied spirits of dead men.",
+      "claim_text": "The Scriptures teach the existence of both good and evil angels and provide proof that these angels are not the disembodied spirits of dead people.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about the nature of angels and doctrine of the dead. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-004",
+      "paragraph": 2,
+      "quote": "Before the creation of man, angels were in existence; for when the foundations of the earth were laid, “the morning stars sang together, and all the sons of God shouted for joy.”(898)",
+      "claim_text": "Angels existed before the creation of man, as evidenced by angels singing and shouting for joy when the foundations of the earth were laid.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about angelic pre-existence, resting on scriptural interpretation. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-005",
+      "paragraph": 2,
+      "quote": "“the morning stars sang together, and all the sons of God shouted for joy.”(898)",
+      "claim_text": "Scripture (footnote 898, commonly identified with Job 38:7) states that at the laying of the earth's foundations 'the morning stars sang together, and all the sons of God shouted for joy.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Job (inferred)"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (898) not resolved to book/chapter/verse in this chapter file; verifier should confirm exact citation via the 1911 Appendix.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quote is verbatim from Job 38:7 KJV. Extractor's attribution confirmed correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-006",
+      "paragraph": 2,
+      "quote": "After the fall of man, angels were sent to guard the tree of life, and this before a human being had died.",
+      "claim_text": "After the fall of man, angels were sent to guard the tree of life, and this occurred before any human being had died.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological narrative (Genesis 3:24 cherubim guarding the tree of life) used to argue angels are not spirits of the dead. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-007",
+      "paragraph": 2,
+      "quote": "Angels are in nature superior to men; for the psalmist says that man was made “a little lower than the angels.”(899)",
+      "claim_text": "The Psalms (footnote 899, commonly identified with Psalm 8:5) state that man was made 'a little lower than the angels,' indicating angels are by nature superior to men.",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Psalms (inferred)"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (899) not resolved to book/chapter/verse in this chapter file; verifier should confirm exact citation via the 1911 Appendix.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Phrase 'a little lower than the angels' is verbatim from Psalm 8:5 KJV (the Hebrew 'elohim' rendered 'angels' following the Septuagint/KJV). Attribution to 'the psalmist' confirmed correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-008",
+      "paragraph": 3,
+      "quote": "“The Lord hath prepared His throne in the heavens; and His kingdom ruleth over all.”",
+      "claim_text": "Scripture (commonly identified with Psalm 103:19) states 'The Lord hath prepared His throne in the heavens; and His kingdom ruleth over all.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Psalms (inferred)"],
+      "needs_verification": true,
+      "extractor_note": "No footnote marker attached in source to this specific quote; verifier should confirm exact citation.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quote is verbatim from Psalm 103:19 KJV. Extractor's attribution confirmed correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-009",
+      "paragraph": 3,
+      "quote": "And, says the prophet, “I heard the voice of many angels round about the throne.”",
+      "claim_text": "A biblical prophet (commonly identified as John in Revelation 5:11) is quoted as saying 'I heard the voice of many angels round about the throne.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Revelation (inferred)", "John (Revelation author, inferred)"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quote is verbatim from Revelation 5:11 KJV ('...I heard the voice of many angels round about the throne...'). Attribution to 'the prophet' (John of Revelation) confirmed correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-010",
+      "paragraph": 3,
+      "quote": "In the presence-chamber of the King of kings they wait—“angels, that excel in strength,” “ministers of His, that do His pleasure,” “hearkening unto the voice of His word.”(900)",
+      "claim_text": "Scripture (footnote 900, commonly identified with Psalm 103:20) describes angels in God's presence-chamber as those who 'excel in strength,' are 'ministers of His, that do His pleasure,' and are 'hearkening unto the voice of His word.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Psalms (inferred)"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (900) not resolved to book/chapter/verse in this chapter file; verifier should confirm exact citation via the 1911 Appendix.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The three quoted phrases are verbatim from Psalm 103:20-21 KJV: 'his angels, that excel in strength... hearkening unto the voice of his word' (v20) and 'ye ministers of his, that do his pleasure' (v21). Attribution correct; footnote 900 = Psalm 103:20-21.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-011",
+      "paragraph": 3,
+      "quote": "Ten thousand times ten thousand and thousands of thousands, were the heavenly messengers beheld by the prophet Daniel.",
+      "claim_text": "The prophet Daniel is recorded as having beheld 'ten thousand times ten thousand and thousands of thousands' heavenly messengers (commonly identified with Daniel 7:10).",
+      "claim_type": "attributed_quote",
+      "entities": ["Daniel", "Book of Daniel (inferred)"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Not a marked direct quotation but a paraphrase of Daniel 7:10 KJV, which contains both figures: 'thousand thousands ministered unto him, and ten thousand times ten thousand stood before him.' White's phrasing accurately combines the two numbers; attribution to Daniel confirmed correct. (The same combined phrase also appears in Revelation 5:11, but Daniel 7:10 fully supports the attribution.)",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-012",
+      "paragraph": 3,
+      "quote": "The apostle Paul declared them “an innumerable company.”(901)",
+      "claim_text": "The apostle Paul is quoted (footnote 901, commonly identified with Hebrews 12:22) as describing angels as 'an innumerable company.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Paul", "Epistle to the Hebrews (inferred)"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (901) not resolved to book/chapter/verse in this chapter file; verifier should confirm exact citation via the 1911 Appendix.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Phrase 'an innumerable company of angels' is verbatim from Hebrews 12:22 KJV. Attribution correct. Note: ascribing Hebrews to Paul follows the traditional/KJV heading ('The Epistle of Paul the Apostle to the Hebrews') standard in 1911; modern scholarship treats Hebrews as anonymous, but this does not affect the quote's fidelity, which is the checkable proposition here.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-013",
+      "paragraph": 3,
+      "quote": "As God’s messengers they go forth, like “the appearance of a flash of lightning,”(902) so dazzling their glory, and so swift their flight.",
+      "claim_text": "Scripture (footnote 902, commonly identified with Ezekiel 1:14) describes angels going forth 'like the appearance of a flash of lightning.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Ezekiel (inferred)"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (902) not resolved to book/chapter/verse in this chapter file; verifier should confirm exact citation via the 1911 Appendix.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Phrase 'the appearance of a flash of lightning' is verbatim from Ezekiel 1:14 KJV. Attribution confirmed. (In Ezekiel the phrase describes the living creatures; White applies it to angels, but the quoted words are reproduced accurately.)",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-014",
+      "paragraph": 3,
+      "quote": "The angel that appeared at the Saviour’s tomb, his countenance “like lightning, and his raiment white as snow,” caused the keepers for fear of him to quake, and they “became as dead men.”(903)",
+      "claim_text": "An angel appeared at Jesus's tomb with a countenance 'like lightning' and raiment 'white as snow', causing the guards to quake with fear and 'become as dead men' (commonly identified with Matthew 28:2-4).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Matthew 28 (inferred)"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (903) not resolved to book/chapter/verse in this chapter file; verifier should confirm exact citation via the 1911 Appendix.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quoted phrases are verbatim from Matthew 28:3-4 KJV: 'His countenance was like lightning, and his raiment white as snow: And for fear of him the keepers did shake, and became as dead men.' Attribution confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-015",
+      "paragraph": 3,
+      "quote": "When Sennacherib, the haughty Assyrian, reproached and blasphemed God, and threatened Israel with destruction, “it came to pass that night, that the angel of the Lord went out, and smote in the camp of the Assyrians an hundred fourscore and five thousand.”",
+      "claim_text": "According to the biblical account (2 Kings 19 / Isaiah 37), after Sennacherib of Assyria reproached and blasphemed God and threatened Israel with destruction, the angel of the Lord killed 185,000 men in the camp of the Assyrians in a single night.",
+      "claim_type": "statistic",
+      "entities": ["Sennacherib", "Assyria", "Israel"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Claim reports what the biblical text states, and the quote is verbatim from 2 Kings 19:35 KJV (= Isaiah 37:36): 'an hundred fourscore and five thousand' = 185,000. Fidelity to the scriptural account confirmed. (This is a claim about the content of the biblical narrative, not a historical assertion that the event occurred; verified as such.)",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-016",
+      "paragraph": 3,
+      "quote": "There were “cut off all the mighty men of valor, and the leaders and captains,” from the army of Sennacherib.",
+      "claim_text": "According to the biblical account, all the mighty men of valor, leaders, and captains were cut off from the army of Sennacherib of Assyria.",
+      "claim_type": "attributed_quote",
+      "entities": ["Sennacherib", "Assyria"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quoted phrase is verbatim from 2 Chronicles 32:21 KJV: 'which cut off all the mighty men of valour, and the leaders and captains in the camp of the king of Assyria.' Fidelity confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-017",
+      "paragraph": 3,
+      "quote": "“So he returned with shame of face to his own land.”(904)",
+      "claim_text": "According to the biblical account (footnote 904, commonly identified with 2 Chronicles 32:21), Sennacherib returned in shame to his own land following the destruction of his army.",
+      "claim_type": "attributed_quote",
+      "entities": ["Sennacherib", "Assyria"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (904) not resolved to book/chapter/verse in this chapter file; verifier should confirm exact citation via the 1911 Appendix.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quote is verbatim from 2 Chronicles 32:21 KJV: 'So he returned with shame of face to his own land.' Attribution confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-018",
+      "paragraph": 4,
+      "quote": "Angels are sent on missions of mercy to the children of God. To Abraham, with promises of blessing; to the gates of Sodom, to rescue righteous Lot from its fiery doom; to Elijah, as he was about to perish from weariness and hunger in the desert; to Elisha, with chariots and horses of fire surrounding the little town where he was shut in by his foes; to Daniel, while seeking divine wisdom in the court of a heathen king, or abandoned to become the lions’ prey; to Peter, doomed to death in Herod’s dungeon; to the prisoners at Philippi; to Paul and his companions in the night of tempest on the sea; to open the mind of Cornelius to receive the gospel; to dispatch Peter with the message of salvation to the Gentile stranger,—thus holy angels have, in all ages, ministered to God’s people.",
+      "claim_text": "According to biblical narrative, holy angels have ministered to God's people throughout history in specific episodes involving Abraham, Lot at Sodom, Elijah in the desert, Elisha at a town besieged by enemies, Daniel in a heathen king's court and in the lions' den, Peter in Herod's dungeon, prisoners at Philippi, Paul during a sea storm, Cornelius, and Peter's mission to Cornelius.",
+      "claim_type": "theological",
+      "entities": ["Abraham", "Lot", "Sodom", "Elijah", "Elisha", "Daniel", "Peter", "Herod", "Philippi", "Paul", "Cornelius"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological catalogue of angelic ministrations. Each item corresponds to an identifiable biblical narrative (Gen 18; Gen 19; 1 Kings 19; 2 Kings 6; Dan 2/6; Acts 12; Acts 16; Acts 27; Acts 10), so the enumeration accurately references scripture, but the claim of angelic agency is supernatural and not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-019",
+      "paragraph": 5,
+      "quote": "A guardian angel is appointed to every follower of Christ.",
+      "claim_text": "A guardian angel is appointed to every follower of Christ.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological doctrine of guardian angels. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-020",
+      "paragraph": 5,
+      "quote": "These heavenly watchers shield the righteous from the power of the wicked one.",
+      "claim_text": "Guardian angels shield righteous people from the power of Satan.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural theological assertion about angelic protection. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-021",
+      "paragraph": 5,
+      "quote": "This Satan himself recognized when he said, “Doth Job fear God for naught? Hast not Thou made a hedge about him, and about his house, and about all that he hath on every side?”(905)",
+      "claim_text": "Satan is quoted in Scripture (footnote 905, commonly identified with Job 1:9-10) as saying of Job, 'Doth Job fear God for naught? Hast not Thou made a hedge about him, and about his house, and about all that he hath on every side?'",
+      "claim_type": "attributed_quote",
+      "entities": ["Satan", "Job", "Book of Job (inferred)"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (905) not resolved to book/chapter/verse in this chapter file; verifier should confirm exact citation via the 1911 Appendix.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quote matches Job 1:9-10 KJV ('Doth Job fear God for nought? Hast not thou made an hedge about him, and about his house, and about all that he hath on every side?'). Only trivial orthographic differences ('naught'/'nought', 'a hedge'/'an hedge'); meaning identical. Attribution confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-022",
+      "paragraph": 5,
+      "quote": "The agency by which God protects His people is presented in the words of the psalmist, “The angel of the Lord encampeth round about them that fear Him, and delivereth them.”(906)",
+      "claim_text": "The Psalms (footnote 906, commonly identified with Psalm 34:7) state 'The angel of the Lord encampeth round about them that fear Him, and delivereth them.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Book of Psalms (inferred)"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (906) not resolved to book/chapter/verse in this chapter file; verifier should confirm exact citation via the 1911 Appendix.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quote is verbatim from Psalm 34:7 KJV. Attribution to 'the psalmist' confirmed correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-023",
+      "paragraph": 5,
+      "quote": "Said the Saviour, speaking of those that believe in Him, “Take heed that ye despise not one of these little ones; for I say unto you, That in heaven their angels do always behold the face of My Father.”(907)",
+      "claim_text": "Jesus is quoted (footnote 907, commonly identified with Matthew 18:10) as saying of believers, 'Take heed that ye despise not one of these little ones; for I say unto you, That in heaven their angels do always behold the face of My Father.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Gospel of Matthew (inferred)"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (907) not resolved to book/chapter/verse in this chapter file; verifier should confirm exact citation via the 1911 Appendix.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quote is verbatim from Matthew 18:10 KJV (truncated before the concluding 'which is in heaven'; quoted portion exact). Attribution to Jesus confirmed correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-024",
+      "paragraph": 5,
+      "quote": "The angels appointed to minister to the children of God have at all times access to His presence.",
+      "claim_text": "Angels appointed to minister to God's children have at all times access to God's presence.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about angelic access to the divine presence. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-025",
+      "paragraph": 6,
+      "quote": "Thus God’s people, exposed to the deceptive power and unsleeping malice of the prince of darkness, and in conflict with all the forces of evil, are assured of the unceasing guardianship of heavenly angels.",
+      "claim_text": "God's people, though exposed to the deceptive power and unsleeping malice of Satan and in conflict with all forces of evil, are assured of the unceasing guardianship of heavenly angels.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assurance of angelic guardianship against Satanic power. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-026",
+      "paragraph": 6,
+      "quote": "If God has granted to His children promise of grace and protection, it is because there are mighty agencies of evil to be met,—agencies numerous, determined, and untiring, of whose malignity and power none can safely be ignorant or unheeding.",
+      "claim_text": "God's promise of grace and protection to His children exists because there are numerous, determined, and untiring evil agencies to be met, whose malignity and power no one can safely ignore.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/causal claim about the existence and character of evil agencies. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-027",
+      "paragraph": 7,
+      "quote": "Evil spirits, in the beginning created sinless, were equal in nature, power, and glory with the holy beings that are now God’s messengers.",
+      "claim_text": "Evil spirits were originally created sinless and equal in nature, power, and glory to the holy angels that are now God's messengers.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the original created state of fallen angels. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-028",
+      "paragraph": 7,
+      "quote": "United with Satan in his rebellion, and with him cast out from heaven, they have, through all succeeding ages, co-operated with him in his warfare against the divine authority.",
+      "claim_text": "Evil spirits united with Satan in his rebellion, were cast out of heaven with him, and have cooperated with him in warfare against divine authority throughout all subsequent ages.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological narrative of the angelic rebellion and expulsion. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-029",
+      "paragraph": 8,
+      "quote": "Old Testament history presents occasional mentions of their existence and agency; but it was during the time when Christ was upon the earth that evil spirits manifested their power in the most striking manner.",
+      "claim_text": "Old Testament history contains only occasional mentions of evil spirits' existence and activity, whereas evil spirits manifested their power most strikingly during the time Christ was on earth.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive-theological claim about the distribution of demonic activity across biblical history. Its factual shell (fewer explicit demon-possession accounts in the OT than in the Gospels) reflects the text-internal contents of scripture, but the underlying assertion about actual demonic 'manifestation' is supernatural and not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-030",
+      "paragraph": 8,
+      "quote": "He had succeeded in establishing idolatry in every part of the earth except the land of Palestine.",
+      "claim_text": "By the time of Christ, Satan had succeeded in establishing idolatry in every part of the earth except the land of Palestine.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Palestine"],
+      "needs_verification": false,
+      "extractor_note": "Causal claim attributing global idolatry to Satan's agency, framed theologically; also contains an underlying historical premise (near-universal idolatry outside Palestine in antiquity) that a reader might separately fact-check, but the claim as stated is supernatural-causal and logged as theological per pipeline rules.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "CONTROL-SAMPLE claim (was needs_verification:false). The stated proposition is supernatural-causal (Satan establishing idolatry) and remains unverifiable. Control note: it smuggles an empirical generalization — that in the 1st century monotheism was confined to Palestine while the rest of the earth was idolatrous. As a broad generalization this is roughly consistent with the historical picture (organized monotheism was centered in Judaism/Judea), but 'every part of the earth except Palestine' is hyperbole: it ignores the large Jewish diaspora and pockets of philosophical/quasi-monotheistic thought. Flagged for the impact stage as an overstated but not sharply false historical premise; not issued an accusatory verdict since the claim as written is theological.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-031",
+      "paragraph": 8,
+      "quote": "Satan raged like a chained lion, and defiantly exhibited his power over the bodies as well as the souls of men.",
+      "claim_text": "During Christ's earthly ministry, Satan raged like a chained lion and defiantly exhibited his power over both the bodies and souls of men.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural-theological characterization of Satan's activity. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-032",
+      "paragraph": 9,
+      "quote": "The fact that men have been possessed with demons, is clearly stated in the New Testament.",
+      "claim_text": "The New Testament clearly states that men have been possessed with demons.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Claim about NT content is textually accurate (the Gospels repeatedly narrate demon possession), but the proposition is framed around the reality of demonic possession, a supernatural matter logged unverifiable per pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-033",
+      "paragraph": 9,
+      "quote": "The persons thus afflicted were not merely suffering with disease from natural causes.",
+      "claim_text": "Persons afflicted with demon possession, as recorded in the New Testament, were not merely suffering from disease due to natural causes.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural claim distinguishing demonic affliction from natural disease. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-034",
+      "paragraph": 9,
+      "quote": "Christ had perfect understanding of that with which He was dealing, and He recognized the direct presence and agency of evil spirits.",
+      "claim_text": "Christ had perfect understanding of demon possession and recognized the direct presence and agency of evil spirits in those he treated.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Christ's understanding and the reality of demonic agency. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-035",
+      "paragraph": 10,
+      "quote": "A striking example of their number, power, and malignity, and also of the power and mercy of Christ, is given in the Scripture account of the healing of the demoniacs at Gadara.",
+      "claim_text": "The Scripture account of the healing of the demoniacs at Gadara is a striking example of the number, power, and malignity of demons, and also of the power and mercy of Christ.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Gadara"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological interpretation of the Gadarene exorcism narrative (Mark 5 / Luke 8 / Matt 8). The episode is genuinely biblical, but the reading is supernatural and not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-036",
+      "paragraph": 10,
+      "quote": "One of the demons controlling the sufferers declared, “My name is Legion: for we are many.”(908)",
+      "claim_text": "A demon controlling the Gadarene demoniacs is quoted in Scripture (footnote 908, commonly identified with Mark 5:9 / Luke 8:30) as declaring 'My name is Legion: for we are many.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Gadara"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (908) not resolved to book/chapter/verse in this chapter file; verifier should confirm exact citation via the 1911 Appendix.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quote is verbatim from Mark 5:9 KJV: 'And he answered, saying, My name is Legion: for we are many.' (Parallel Luke 8:30 also uses 'Legion.') Attribution confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-037",
+      "paragraph": 10,
+      "quote": "In the Roman army a legion consisted of from three to five thousand men.",
+      "claim_text": "In the Roman army, a legion consisted of from three thousand to five thousand men.",
+      "claim_type": "statistic",
+      "entities": ["Roman army"],
+      "needs_verification": true,
+      "extractor_note": "Genuinely independent historical/military claim about Roman legion strength, checkable against classical military history scholarship regardless of the surrounding theological framing.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The range 'three to five thousand' falls squarely within the historically attested strength of a Roman legion. Republican legions ran ~4,200 (raised to ~5,000-5,200 in emergencies); imperial legions had a nominal paper strength of ~6,000 but were routinely under strength, actual field strength commonly ~5,000-5,300, and campaign legions frequently far lower (Caesar's Gallic legions often ~3,500). A range of 3,000-5,000 is a defensible, if conservative, summary figure standard in reference works. The upper bound could be stated higher (~6,000 nominal), but nothing in the claim is contradicted.",
+        "modern_consensus": "Legion strength varied by era: Republican ~4,200-5,200; imperial nominal ~5,300-6,000 but often under strength; campaign figures sometimes ~3,000-3,500.",
+        "sources": [
+          {
+            "title": "Roman legion — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Roman_legion",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Republican legion ~4,200-5,200; imperial ~5,280 plus auxiliaries; nominal 6,000 but usually under strength."
+          },
+          {
+            "title": "Size of the Roman army — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Size_of_the_Roman_army",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Actual field strength routinely below nominal; Caesar's campaign legions often ~3,500 men."
+          },
+          {
+            "title": "Legion — Britannica",
+            "url": "https://www.britannica.com/topic/legion",
+            "source_class": "encyclopedia",
+            "supports_verdict": true,
+            "note": "Legion numbered in the low thousands, evolving from ~3,000 in early Republic to ~5,000+ under the Empire."
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-31-038",
+      "paragraph": 10,
+      "quote": "Satan’s hosts also are marshaled in companies, and the single company to which these demons belonged numbered no less than a legion.",
+      "claim_text": "Satan's hosts of evil spirits are organized into companies, and the specific company of demons possessing the Gadarene demoniacs numbered no less than a Roman legion (three to five thousand).",
+      "claim_type": "theological",
+      "entities": ["Satan", "Gadara"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological inference from the demon's self-designation 'Legion' to the organization and numbering of demonic hosts. Supernatural; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-039",
+      "paragraph": 11,
+      "quote": "At the command of Jesus, the evil spirits departed from their victims, leaving them calmly sitting at the Saviour’s feet, subdued, intelligent, and gentle.",
+      "claim_text": "At Jesus's command, the evil spirits departed from the Gadarene demoniacs, leaving them calmly sitting at Jesus's feet, subdued, intelligent, and gentle.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Gadara"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Retelling of the Gadarene exorcism as a supernatural event. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-040",
+      "paragraph": 11,
+      "quote": "But the demons were permitted to sweep a herd of swine into the sea; and to the dwellers of Gadara the loss of these outweighed the blessings which Christ had bestowed, and the divine Healer was entreated to depart.",
+      "claim_text": "The demons cast out of the Gadarene demoniacs were permitted to sweep a herd of swine into the sea, and the residents of Gadara, valuing the loss of the swine over the healing Christ had performed, asked Jesus to leave.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Gadara"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Retelling of the Gadarene swine narrative as a supernatural event. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-041",
+      "paragraph": 11,
+      "quote": "This was the result which Satan designed to secure. By casting the blame of their loss upon Jesus, he aroused the selfish fears of the people, and prevented them from listening to His words.",
+      "claim_text": "Satan designed the outcome at Gadara so that, by casting blame for the loss of the swine on Jesus, he would arouse the people's selfish fears and prevent them from listening to Jesus's words.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Jesus Christ", "Gadara"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim imputing design and motive to Satan. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-042",
+      "paragraph": 11,
+      "quote": "Satan is constantly accusing Christians as the cause of loss, misfortune, and suffering, instead of allowing the reproach to fall where it belongs,—upon himself and his agents.",
+      "claim_text": "Satan constantly accuses Christians as the cause of loss, misfortune, and suffering, rather than allowing the reproach to fall on himself and his agents where it belongs.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan's ongoing accusatory activity. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-043",
+      "paragraph": 12,
+      "quote": "He allowed the evil spirits to destroy the herd of swine as a rebuke to those Jews who were raising these unclean beasts for the sake of gain.",
+      "claim_text": "Christ allowed the evil spirits to destroy the herd of swine at Gadara as a rebuke to the Jews who were raising swine, an unclean animal under Jewish law, for financial gain.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Gadara"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "CONTROL-SAMPLE claim (was needs_verification:false). The stated proposition is theological (Christ's purpose in permitting the swine's destruction) and remains unverifiable. Two embedded factual premises noted for transparency: (1) swine were unclean under Mosaic law and forbidden to Jews — correct (Leviticus 11:7-8; Deuteronomy 14:8); (2) that the Gadarene swineherds/owners were Jews — historically debatable, since Gadara was a Hellenistic Decapolis city with a predominantly Gentile population, so the herders may well have been Gentiles rather than Jews. Flagged for the impact stage as a questionable but interpretive premise; no accusatory verdict issued because the claim as written is theological and the region's population was mixed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-044",
+      "paragraph": 12,
+      "quote": "Had not Christ restrained the demons, they would have plunged into the sea, not only the swine, but also their keepers and owners.",
+      "claim_text": "Had Christ not restrained the demons at Gadara, the demons would have plunged into the sea not only the swine but also their keepers and owners.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Gadara"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Counterfactual theological claim about demonic intent. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-045",
+      "paragraph": 12,
+      "quote": "The preservation of both the keepers and the owners was due alone to His power, mercifully exercised for their deliverance.",
+      "claim_text": "The preservation of the swine's keepers and owners at Gadara was due solely to Christ's power, mercifully exercised for their deliverance.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Gadara"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about divine preservation. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-046",
+      "paragraph": 12,
+      "quote": "Furthermore, this event was permitted to take place that the disciples might witness the cruel power of Satan upon both man and beast.",
+      "claim_text": "The Gadarene swine incident was permitted to occur so that Christ's disciples might witness Satan's cruel power over both man and beast.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Gadara"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about divine purpose. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-047",
+      "paragraph": 12,
+      "quote": "The Saviour desired His followers to have a knowledge of the foe whom they were to meet, that they might not be deceived and overcome by his devices.",
+      "claim_text": "Jesus desired his followers to have knowledge of Satan as the foe they were to meet, so that they would not be deceived and overcome by his devices.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Christ's intent for his followers. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-048",
+      "paragraph": 12,
+      "quote": "It was also His will that the people of that region should behold His power to break the bondage of Satan and release his captives.",
+      "claim_text": "It was Christ's will that the people of the Gadara region should witness his power to break Satan's bondage and release his captives.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Satan", "Gadara"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about divine will. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-049",
+      "paragraph": 12,
+      "quote": "And though Jesus Himself departed, the men so marvelously delivered, remained to declare the mercy of their Benefactor.",
+      "claim_text": "Although Jesus departed from the Gadara region after being asked to leave, the men who had been delivered from demon possession remained to declare the mercy of Christ, their benefactor.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Gadara"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Retelling of the aftermath of the Gadarene exorcism (cf. Mark 5:18-20) framed theologically. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-050",
+      "paragraph": 13,
+      "quote": "The daughter of the Syro-Phenician woman was grievously vexed with a devil, whom Jesus cast out by His word.(909)",
+      "claim_text": "According to the New Testament (footnote 909, commonly identified with Matthew 15:21-28 / Mark 7:24-30), the daughter of a Syro-Phoenician woman was grievously afflicted by a demon, which Jesus cast out by his word.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Syro-Phenician woman"],
+      "needs_verification": false,
+      "extractor_note": "Narrates a specific named biblical episode involving demon possession; kept theological per pipeline rules on supernatural claims, though it also names a specific (unnamed-by-name but identifiable) biblical figure.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "CONTROL-SAMPLE claim (was needs_verification:false). The episode is accurately identified: Mark 7:24-30 (with Matthew 15:21-28) narrates the Syro-Phoenician woman whose daughter had an unclean spirit cast out by Jesus at a distance. Control finding: no smuggled factual error; the biblical reference is correct. Verdict remains unverifiable because the substance (demon possession and exorcism) is supernatural per pipeline rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-051",
+      "paragraph": 13,
+      "quote": "One “possessed with a devil, blind, and dumb;”(910)",
+      "claim_text": "The New Testament (footnote 910, commonly identified with Matthew 12:22) records a person 'possessed with a devil, blind, and dumb' who was healed by Jesus.",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (910) not resolved to book/chapter/verse in this chapter file; verifier should confirm exact citation via the 1911 Appendix.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Phrase 'possessed with a devil, blind, and dumb' is verbatim from Matthew 12:22 KJV ('Then was brought unto him one possessed with a devil, blind, and dumb: and he healed him'). Attribution confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-052",
+      "paragraph": 13,
+      "quote": "a youth who had a dumb spirit, that ofttimes “cast him into the fire, and into the waters, to destroy him;”(911)",
+      "claim_text": "The New Testament (footnote 911, commonly identified with Mark 9:22) records a youth possessed by a 'dumb spirit' that often cast him into fire and water to destroy him, who was healed by Jesus.",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (911) not resolved to book/chapter/verse in this chapter file; verifier should confirm exact citation via the 1911 Appendix.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quoted phrase is verbatim from Mark 9:22 KJV ('And ofttimes it hath cast him into the fire, and into the waters, to destroy him'); 'dumb spirit' from Mark 9:17. Attribution confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-053",
+      "paragraph": 13,
+      "quote": "the maniac who, tormented by “a spirit of an unclean devil,”(912) disturbed the Sabbath quiet of the synagogue at Capernaum,—all were healed by the compassionate Saviour.",
+      "claim_text": "The New Testament (footnote 912, commonly identified with Luke 4:33) records a maniac tormented by 'a spirit of an unclean devil' who disturbed the Sabbath quiet of the synagogue at Capernaum, and who was healed by Jesus.",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Capernaum"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (912) not resolved to book/chapter/verse in this chapter file; verifier should confirm exact citation via the 1911 Appendix.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Phrase 'a spirit of an unclean devil' is verbatim from Luke 4:33 KJV ('a man, which had a spirit of an unclean devil'). The episode is set in the Capernaum synagogue (Luke 4:31-33) on the Sabbath. Attribution and setting confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-054",
+      "paragraph": 13,
+      "quote": "In nearly every instance, Christ addressed the demon as an intelligent entity, commanding him to come out of his victim and to torment him no more.",
+      "claim_text": "In nearly every recorded instance of exorcism, Christ addressed the demon as an intelligent entity, commanding it to come out of its victim and torment him no more.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Generalization about the Gospel exorcism accounts framed around the reality of demons as intelligent entities. Supernatural; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-055",
+      "paragraph": 13,
+      "quote": "The worshipers at Capernaum, beholding His mighty power, “were all amazed, and spake among themselves, saying, ‘What a word is this! for with authority and power He commandeth the unclean spirits, and they come out.’ ”(913)",
+      "claim_text": "The New Testament (footnote 913, commonly identified with Luke 4:36) records that the worshipers at Capernaum, upon beholding Christ's power to cast out unclean spirits, were amazed and said among themselves, 'What a word is this! for with authority and power He commandeth the unclean spirits, and they come out.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Capernaum"],
+      "needs_verification": true,
+      "extractor_note": "Footnote (913) not resolved to book/chapter/verse in this chapter file; verifier should confirm exact citation via the 1911 Appendix.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quote is verbatim from Luke 4:36 KJV ('And they were all amazed, and spake among themselves, saying, What a word is this! for with authority and power he commandeth the unclean spirits, and they come out'). Attribution and Capernaum setting confirmed.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-056",
+      "paragraph": 14,
+      "quote": "Those possessed with devils are usually represented as being in a condition of great suffering; yet there were exceptions to this rule.",
+      "claim_text": "Those possessed with demons in Scripture are usually represented as being in a condition of great suffering, though there were exceptions to this pattern.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Generalization about scriptural portrayals of demon possession, framed around the supernatural. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-057",
+      "paragraph": 14,
+      "quote": "For the sake of obtaining supernatural power, some welcomed the satanic influence. These of course had no conflict with the demons.",
+      "claim_text": "Some individuals welcomed satanic influence for the sake of obtaining supernatural power and therefore had no conflict with the demons possessing them.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about willing collaboration with demonic power. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-058",
+      "paragraph": 14,
+      "quote": "Of this class were those who possessed the spirit of divination,—Simon Magus, Elymas the sorcerer, and the damsel who followed Paul and Silas at Philippi.",
+      "claim_text": "Simon Magus, Elymas the sorcerer, and the slave girl who followed Paul and Silas at Philippi are biblical figures identified as having possessed a 'spirit of divination' and welcomed rather than resisted this influence.",
+      "claim_type": "biographical",
+      "entities": ["Simon Magus", "Elymas", "Paul", "Silas", "Philippi"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] All three are correctly identified NT figures associated with occult/divinatory power: Simon Magus, who 'used sorcery' in Samaria (Acts 8:9-24); Elymas (Bar-Jesus), 'a sorcerer, a false prophet' opposing Paul on Cyprus (Acts 13:6-11); and the slave girl at Philippi explicitly 'possessed with a spirit of divination' who followed Paul and Silas (Acts 16:16-18). White's grouping of them as those who welcomed occult power is an interpretation, but the biographical identifications are accurate to Acts. Only the Philippi damsel is verbatim called 'spirit of divination' in scripture; the other two are described as sorcerers, which the phrase reasonably subsumes.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-059",
+      "paragraph": 15,
+      "quote": "None are in greater danger from the influence of evil spirits than those who, notwithstanding the direct and ample testimony of the Scriptures, deny the existence and agency of the devil and his angels.",
+      "claim_text": "Those who deny the existence and agency of the devil and his angels, despite the direct and ample testimony of Scripture, are in greater danger from the influence of evil spirits than anyone else.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological warning about spiritual danger to disbelievers. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-060",
+      "paragraph": 15,
+      "quote": "So long as we are ignorant of their wiles, they have almost inconceivable advantage; many give heed to their suggestions while they suppose themselves to be following the dictates of their own wisdom.",
+      "claim_text": "As long as people remain ignorant of the wiles of evil spirits, the spirits have an almost inconceivable advantage, and many people follow the spirits' suggestions while believing they are following their own wisdom.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about hidden demonic influence over human thought. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-061",
+      "paragraph": 15,
+      "quote": "This is why, as we approach the close of time, when Satan is to work with greatest power to deceive and destroy, he spreads everywhere the belief that he does not exist.",
+      "claim_text": "As the end of time approaches and Satan is to work with the greatest power to deceive and destroy, Satan spreads everywhere the belief that he does not exist.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological-theological claim about Satan's end-time strategy. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-062",
+      "paragraph": 15,
+      "quote": "It is his policy to conceal himself and his manner of working.",
+      "claim_text": "It is Satan's policy to conceal himself and his manner of working.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan's strategy. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-063",
+      "paragraph": 16,
+      "quote": "There is nothing that the great deceiver fears so much as that we shall become acquainted with his devices.",
+      "claim_text": "Satan, the great deceiver, fears nothing so much as that people should become acquainted with his devices.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan's fears. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-064",
+      "paragraph": 16,
+      "quote": "The better to disguise his real character and purposes, he has caused himself to be so represented as to excite no stronger emotion than ridicule or contempt. He is well pleased to be painted as a ludicrous or loathsome object, misshapen, half animal and half human.",
+      "claim_text": "Satan, to disguise his real character and purposes, has caused himself to be represented in ways that excite no stronger emotion than ridicule or contempt, and is pleased to be depicted as a ludicrous or loathsome object, misshapen, half animal and half human.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan's agency behind popular caricatures of the devil. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-065",
+      "paragraph": 16,
+      "quote": "He is pleased to hear his name used in sport and mockery by those who think themselves intelligent and well informed.",
+      "claim_text": "Satan is pleased to hear his name used in sport and mockery by people who consider themselves intelligent and well informed.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan's disposition. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-066",
+      "paragraph": 17,
+      "quote": "It is because he has masked himself with consummate skill that the question is so widely asked, “Does such a being really exist?”",
+      "claim_text": "Because Satan has masked himself with consummate skill, the question 'Does such a being really exist?' is widely asked.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological-causal claim attributing widespread skepticism to Satan's concealment. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-067",
+      "paragraph": 17,
+      "quote": "It is an evidence of his success that theories giving the lie to the plainest testimony of the Scriptures are so generally received in the religious world.",
+      "claim_text": "By the time of writing, theories contradicting the plainest testimony of Scripture regarding Satan's existence were generally received in the religious world, which the text interprets as evidence of Satan's success.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "extractor_note": "Sweeping sociological/interpretive claim about the state of religious opinion c. 1911; logged as interpretive per pipeline rules, not for fact-checking.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Sweeping interpretive claim about c.1911 religious opinion, plus a theological reading (evidence of Satan's success). Logged interpretive per pipeline rules; not a discrete checkable proposition.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-068",
+      "paragraph": 17,
+      "quote": "And it is because Satan can most readily control the minds of those who are unconscious of his influence, that the word of God gives us so many examples of his malignant work, unveiling before us his secret forces, and thus placing us on our guard against his assaults.",
+      "claim_text": "Because Satan can most readily control the minds of those unconscious of his influence, the word of God gives many examples of his malignant work in order to unveil his secret forces and place people on guard against his assaults.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the purpose of scriptural warnings against Satan. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-069",
+      "paragraph": 18,
+      "quote": "The power and malice of Satan and his host might justly alarm us, were it not that we may find shelter and deliverance in the superior power of our Redeemer.",
+      "claim_text": "The power and malice of Satan and his host would justly alarm believers, were it not for shelter and deliverance available in the superior power of Christ the Redeemer.",
+      "claim_type": "theological",
+      "entities": ["Satan", "Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assurance of deliverance in Christ. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-070",
+      "paragraph": 18,
+      "quote": "If permitted, they can distract our minds, disorder and torment our bodies, destroy our possessions and our lives.",
+      "claim_text": "Evil angels, if permitted, can distract human minds, disorder and torment human bodies, and destroy human possessions and lives.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural claim about the capacities of evil spirits. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-071",
+      "paragraph": 18,
+      "quote": "Fearful is the condition of those who resist the divine claims, and yield to Satan’s temptations, until God gives them up to the control of evil spirits.",
+      "claim_text": "The condition of those who resist divine claims and yield to Satan's temptations is fearful, since God eventually gives them up to the control of evil spirits.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about divine judgment and demonic control. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-31-072",
+      "paragraph": 18,
+      "quote": "But those who follow Christ are ever safe under His watchcare. Angels that excel in strength are sent from heaven to protect them. The wicked one cannot break through the guard which God has stationed about His people.",
+      "claim_text": "Those who follow Christ are always safe under his watchcare; angels that excel in strength are sent from heaven to protect them, and Satan cannot break through the guard God has stationed around his people.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assurance of angelic protection for believers. Not empirically checkable.",
+        "sources": []
+      }
+    }
+  ]
+}

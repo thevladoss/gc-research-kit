@@ -1955,7 +1955,7 @@
         "extract": "done",
         "verify": "done",
         "defend": "done",
-        "impact": "pending"
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -1987,9 +1987,14 @@
           "verdict_downgraded": 0,
           "defense_failed": 0,
           "searches": 0
+        },
+        "impact": {
+          "scored": 0,
+          "load_bearing": 0,
+          "top_impact": []
         }
       },
-      "updated_at": "2026-07-05T12:42:04Z"
+      "updated_at": "2026-07-05T12:46:18Z"
     },
     "32": {
       "title": "Snares Of Satan",
@@ -1998,7 +2003,7 @@
       "stages": {
         "extract": "done",
         "verify": "done",
-        "defend": "pending",
+        "defend": "done",
         "impact": "pending"
       },
       "counts": {
@@ -2025,9 +2030,16 @@
           "low_confidence": 2,
           "searches": 3,
           "clusters": 3
+        },
+        "defend": {
+          "examined": 2,
+          "defense_succeeded": 0,
+          "verdict_downgraded": 2,
+          "defense_failed": 0,
+          "searches": 0
         }
       },
-      "updated_at": "2026-07-05T12:37:55Z"
+      "updated_at": "2026-07-05T12:45:39Z"
     },
     "33": {
       "title": "The First Great Deception",
