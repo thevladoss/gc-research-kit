@@ -1611,7 +1611,7 @@
         "extract": "done",
         "verify": "done",
         "defend": "done",
-        "impact": "pending"
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -1646,9 +1646,27 @@
           "verdict_downgraded": 0,
           "defense_failed": 3,
           "searches": 0
+        },
+        "impact": {
+          "scored": 4,
+          "load_bearing": 1,
+          "top_impact": [
+            {
+              "id": "GC-25-070",
+              "score": 15
+            },
+            {
+              "id": "GC-25-126",
+              "score": 15
+            },
+            {
+              "id": "GC-25-131",
+              "score": 15
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-05T12:14:06Z"
+      "updated_at": "2026-07-05T12:17:01Z"
     },
     "26": {
       "title": "A Work Of Reform",

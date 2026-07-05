@@ -1,0 +1,3278 @@
+{
+  "chapter": 25,
+  "chapter_title": "God's Law Immutable",
+  "stage": "impact",
+  "generated_at": "2026-07-05",
+  "notes": "Chapter is dense with biblical quotations (used as proof-texts) and with the book's central Sabbath/Sunday-change and prophetic-symbol (beast/image/mark) argument. Per instructions, biblical quotations are logged as attributed_quote (needs_verification true, checking quotation accuracy/attribution against the cited biblical book), even though the theological conclusions drawn from them are logged separately as theological/interpretive. Sabbath-origin, Sabbath-change, and papal-authority-development claims are flagged needs_verification true per the doctrinally-central escalation list in CLAUDE.md. Pure prophetic exegesis (identification of the beast/image/mark, the 1844 investigative-judgment framework, predictions of future Sunday-law enforcement) is logged as theological with needs_verification false. Several sentences repeat verbatim in more than one paragraph (e.g., the Rev 14:9-10 and Rev 14:12 quotations, and the fourth-commandment text); each paragraph instance is logged separately for citation purposes, with an extractor_note flagging the duplication.\n\nsearches: ~14 web + ~10 local greps, clusters: 11. Doctrinally-central chapter (Sabbath/Sunday origins, papal-authority development). Bulk of needs_verification claims are KJV/ASV biblical quotations resolved via common-knowledge fast-path (verbatim, correct attribution -> supported). Real research concentrated on: Sunday-law origins (Ayer primary + Bacchiocchi academic + Andrews period), Catholic Sabbath-change quotes (Segur/Tuberville/catechism primaries), 538-1798 historicist scheme (anachronistic), Sabbath-at-creation (disputed vs critical OT scholarship), Millerite Sabbath origin, US founding, and all footnote-only quotes identified (733=Andrews, 740=Townsend, 741=Dublin Nation, 754=Elliott, 755/756=Waffle, 757=Tuberville, 758=Segur). Control sample of 3 needs_verification:false claims processed: GC-25-065, GC-25-089, GC-25-136.\n\nsearches: ~0 (cheap audits resolved from local Andrews + Ayer + Bacchiocchi tracing; no concrete lead required a web search); full defenses: 0, cheap audits: 3. Doctrinally-central Sabbath/Sunday-origins cluster. All three anachronistic verdicts are appropriately mild and well-traced; verifier did not over-reach. Defenses failed, verdicts unchanged, but each carries a strengthened steelman. source_quality: academic-full (Bacchiocchi Gregorian UP in play) + primary (Ayer, Andrews local).\n\nChapter argument reconstruction: 'God's Law Immutable' builds a single cumulative case that the Decalogue (with the seventh-day Sabbath at its center) is eternal and universally binding, and it does this in four linked moves: (1) the heavenly sanctuary opened in 1844 contains the law, tying the Millerite/investigative-judgment doctrine to the Sabbath; (2) Revelation 14's three angels command Creator-worship, which the chapter equates with fourth-commandment obedience via the Sabbath's role as creation-memorial; (3) the beast/image/two-horned-beast prophetic scheme (dragon=Rome/Satan, leopard-beast=papacy, lamb-horned beast=USA) is used to read Daniel 7 and Revelation 13 as predicting a future US-enforced 'image to the beast' via Sunday law; (4) the papacy's historical claim to have altered the Sabbath to Sunday is presented as proof that Sunday-keeping constitutes homage to Rome, setting up the mark-of-the-beast/seal-of-God dichotomy. The chapter's own argumentative weight rests less on any single historical date than on the claim that Rome asserts authority over the Sabbath-Sunday change (independently well attested via Segur/Tuberville/catechism quotes, all verified supported) and on the Edenic/creation grounding of the Sabbath's universality (GC-25-051), which is what lets the chapter treat the Sabbath as binding on all humanity rather than as Jewish ceremonial law. The 538-1798 historicist date scheme and the 'papacy first resorted to state power for Sunday' claim are inherited support beams from earlier chapters and from Andrews/Dowling-style 19th-century Sabbatarian historiography, not claims this chapter itself establishes from scratch — so their removal dents precision and rhetorical force but does not collapse this chapter's central Sabbath-perpetuity argument, which has redundant supported anchors elsewhere in the same chapter. Scoring notes: 4 items scored (3 confirmed anachronistic discrepancies + 1 high-stakes disputed item per orchestrator instruction); all four sit in the Sabbath/Sunday-change and prophetic-chronology cluster and are scored centrality 5 as the load-bearing doctrinal hinge of the book's final-crisis chain, per CLAUDE.md's centrality metric (book-level, not merely chapter-level). Severity for the three anachronistic items is kept at 3 (not 4-5) per CLAUDE.md's instruction that anachronistic errors reflecting period-typical scholarship (Andrews, Uriah Smith, Dowling) are a matter of authorial method, not invention — none of the three fabricates an event or quote; each takes a real event/quote and misdates or over-attributes intentionality to it. GC-25-051 (disputed) is scored at lower severity (2) than the anachronistic items, reflecting that it is a live, respectable scholarly disagreement (conservative canonical reading vs. Priestly-source dating) rather than a confirmed error, even though its centrality is maximal and it is the one item judged load-bearing for this chapter's specific universalizing argument.",
+  "claims": [
+    {
+      "id": "GC-25-001",
+      "paragraph": 1,
+      "quote": "“The temple of God was opened in heaven, and there was seen in His temple the ark of His testament.”(716)",
+      "claim_text": "The book of Revelation states that the temple of God was opened in heaven and the ark of His testament was seen therein.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Revelation 11:19; attribution to the Book of Revelation correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-002",
+      "paragraph": 1,
+      "quote": "In the ministration of the earthly tabernacle, which served “unto the example and shadow of heavenly things,” this apartment was opened only upon the great day of atonement, for the cleansing of the sanctuary.",
+      "claim_text": "The New Testament (Epistle to the Hebrews) describes the earthly tabernacle as serving 'unto the example and shadow of heavenly things,' and in the earthly tabernacle's ministration the most holy place (holy of holies) was opened only once a year, on the day of atonement, for the cleansing of the sanctuary.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Hebrews",
+        "Israelite tabernacle"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] 'Example and shadow of heavenly things' is Hebrews 8:5; the once-a-year opening of the most holy place on the Day of Atonement is Leviticus 16 / Hebrews 9:7. Attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-003",
+      "paragraph": 1,
+      "quote": "Therefore the announcement that the temple of God was opened in heaven, and the ark of His testament was seen, points to the opening of the most holy place of the heavenly sanctuary, in 1844, as Christ entered there to perform the closing work of the atonement.",
+      "claim_text": "The opening of the temple of God in heaven described in Revelation refers to Christ entering the most holy place of the heavenly sanctuary in the year 1844 to perform the closing work of the atonement.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ",
+        "heavenly sanctuary doctrine",
+        "1844"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim: prophetic identification of Revelation's heavenly-temple opening with Christ's 1844 sanctuary ministry (investigative judgment). Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-004",
+      "paragraph": 1,
+      "quote": "Those who by faith followed their great High Priest, as He entered upon His ministry in the most holy place, beheld the ark of His testament.",
+      "claim_text": "Believers who by faith followed Christ as their High Priest into His 1844 ministry in the most holy place beheld the ark of His testament.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ",
+        "Millerite Adventists"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim about believers beholding the ark of the testament by faith. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-005",
+      "paragraph": 2,
+      "quote": "The ark in the tabernacle on earth contained the two tables of stone, upon which were inscribed the precepts of the law of God.",
+      "claim_text": "According to the biblical account, the ark of the covenant in the earthly tabernacle contained the two tables of stone inscribed with the precepts of the law of God (the Ten Commandments).",
+      "claim_type": "event",
+      "entities": [
+        "Ark of the Covenant",
+        "Ten Commandments"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The biblical account (Exodus 25:16; Deuteronomy 10:5; 1 Kings 8:9; Hebrews 9:4) states the ark held the two tables of stone inscribed with the Decalogue. Faithful report.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-006",
+      "paragraph": 2,
+      "quote": "the law that was spoken by God Himself amid the thunders of Sinai, and written with His own finger on the tables of stone",
+      "claim_text": "The Ten Commandments were spoken by God Himself amid the thunders of Mount Sinai and written by God's own finger on tables of stone.",
+      "claim_type": "theological",
+      "entities": [
+        "Mount Sinai",
+        "Ten Commandments"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim (God spoke and wrote the law with His own finger at Sinai). Rests on Exodus 20/31 narrative as divine act; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-007",
+      "paragraph": 3,
+      "quote": "The law of God in the sanctuary in heaven is the great original, of which the precepts inscribed upon the tables of stone, and recorded by Moses in the Pentateuch, were an unerring transcript.",
+      "claim_text": "The law of God kept in the heavenly sanctuary is the original of which the Ten Commandments (inscribed on stone tables and recorded by Moses in the Pentateuch) are an unerring transcript.",
+      "claim_type": "theological",
+      "entities": [
+        "Moses",
+        "Pentateuch",
+        "Ten Commandments"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim: a heavenly original law of which the Decalogue is a transcript. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-008",
+      "paragraph": 3,
+      "quote": "“Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law.”(717)",
+      "claim_text": "Jesus is quoted in the Gospels as saying, 'Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ",
+        "Gospel of Matthew"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of Matthew 5:18; attribution to Jesus in the Gospel correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-009",
+      "paragraph": 3,
+      "quote": "Says the psalmist: “Forever, O Lord, Thy word is settled in heaven.”",
+      "claim_text": "The biblical Psalms are quoted (attributed to 'the psalmist') as saying, 'Forever, O Lord, Thy word is settled in heaven.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Psalms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful rendering of Psalm 119:89; attribution to the psalmist correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-010",
+      "paragraph": 3,
+      "quote": "“All His commandments are sure. They stand fast forever and ever.”(718)",
+      "claim_text": "The biblical Psalms are quoted as saying, 'All His commandments are sure. They stand fast forever and ever.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Psalms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful rendering of Psalm 111:7-8; attribution to Psalms correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-011",
+      "paragraph": 4,
+      "quote": "“Remember the Sabbath day, to keep it holy. Six days shalt thou labor, and do all thy work: but the seventh day is the Sabbath of the Lord thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, thy man-servant, nor thy maid-servant, nor thy cattle, nor thy stranger that is within thy gates: for in six days the Lord made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the Lord blessed the Sabbath day, and hallowed it.”(719)",
+      "claim_text": "The fourth of the Ten Commandments, as given in Exodus, commands remembrance of the Sabbath day as a day of rest for all household members and servants, grounded in God resting on the seventh day of creation.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Exodus",
+        "Ten Commandments",
+        "Sabbath"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful KJV rendering of the fourth commandment, Exodus 20:8-11; attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-012",
+      "paragraph": 5,
+      "quote": "The Spirit of God impressed the hearts of those students of His word.",
+      "claim_text": "The Spirit of God impressed the hearts of the students of Scripture who had come to understand the sanctuary doctrine.",
+      "claim_type": "theological",
+      "entities": [
+        "Millerite Adventists"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/supernatural claim about the Spirit of God impressing hearts. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-013",
+      "paragraph": 5,
+      "quote": "The conviction was urged upon them, that they had ignorantly transgressed this precept by disregarding the Creator’s rest-day.",
+      "claim_text": "The group of believers who had accepted the 1844 sanctuary doctrine (early Sabbatarian Adventists) became convicted that they had ignorantly transgressed the fourth commandment by disregarding the seventh-day Sabbath.",
+      "claim_type": "event",
+      "entities": [
+        "Millerite Adventists",
+        "Sabbatarian Adventists"
+      ],
+      "needs_verification": true,
+      "extractor_note": "The group referred to is not named in this chapter but, in context of the book's narrative, refers to the post-1844 Millerite/early Sabbatarian Adventist believers.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Historically documented: post-1844 Millerite Adventists (Washington, NH group; T.M. Preble, Joseph Bates) became convicted of seventh-day Sabbath obligation and connected it to the fourth commandment. Millerite-cluster escalation; documented in scholarly Adventist historiography (G. Land, AUSS 1994, held locally) and standard reference works. source_quality: academic-partial.",
+        "sources": [
+          {
+            "title": "History of the Seventh-day Adventist Church",
+            "url": "https://en.wikipedia.org/wiki/History_of_the_Seventh-day_Adventist_Church",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "ESDA: Bates, Joseph (1792-1872) — Adventist Encyclopedia",
+            "url": "https://encyclopedia.adventist.org/article?id=88Y2",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-014",
+      "paragraph": 5,
+      "quote": "They began to examine the reasons for observing the first day of the week instead of the day which God had sanctified.",
+      "claim_text": "This group of believers began to examine the scriptural reasons for observing the first day of the week (Sunday) instead of the seventh day.",
+      "claim_type": "event",
+      "entities": [
+        "Millerite Adventists",
+        "Sabbatarian Adventists"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Documented: through Rachel Oakes (Seventh Day Baptist), Frederick Wheeler, and T.M. Preble's 1845 tract, this group examined the basis for first-day vs seventh-day observance (1844-1846). source_quality: academic-partial (Adventist historiography, Land AUSS 1994 locally).",
+        "sources": [
+          {
+            "title": "History of the Seventh-day Adventist Church",
+            "url": "https://en.wikipedia.org/wiki/History_of_the_Seventh-day_Adventist_Church",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "ESDA: Bates, Joseph — Adventist Encyclopedia",
+            "url": "https://encyclopedia.adventist.org/article?id=88Y2",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-015",
+      "paragraph": 5,
+      "quote": "They could find no evidence in the Scriptures that the fourth commandment had been abolished, or that the Sabbath had been changed; the blessing which first hallowed the seventh day had never been removed.",
+      "claim_text": "This group of believers concluded they could find no scriptural evidence that the fourth commandment had been abolished or that the Sabbath day had been changed from the seventh day.",
+      "claim_type": "event",
+      "entities": [
+        "Millerite Adventists",
+        "Sabbatarian Adventists"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The group's conclusion that Scripture gives no command abolishing the fourth commandment or changing the Sabbath aligns with the mainstream scholarly finding of NT silence on any Sabbath-to-Sunday change (Bacchiocchi). Reports their reasoning faithfully. source_quality: academic-full.",
+        "sources": [
+          {
+            "title": "S. Bacchiocchi, From Sabbath to Sunday (Pontifical Gregorian Univ. Press, 1977), ch. 6",
+            "url": "https://www.biblicalperspectives.com/books/sabbath_to_sunday/6.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-016",
+      "paragraph": 5,
+      "quote": "they manifested their loyalty to God by keeping His Sabbath holy",
+      "claim_text": "This group of believers began keeping the seventh-day Sabbath as an expression of loyalty to God.",
+      "claim_type": "event",
+      "entities": [
+        "Millerite Adventists",
+        "Sabbatarian Adventists"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Documented: this group began seventh-day Sabbath observance in 1844-1846. source_quality: academic-partial.",
+        "sources": [
+          {
+            "title": "History of the Seventh-day Adventist Church",
+            "url": "https://en.wikipedia.org/wiki/History_of_the_Seventh-day_Adventist_Church",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-017",
+      "paragraph": 6,
+      "quote": "None could fail to see that if the earthly sanctuary was a figure or pattern of the heavenly, the law deposited in the ark on earth was an exact transcript of the law in the ark in heaven; and that an acceptance of the truth concerning the heavenly sanctuary involved an acknowledgment of the claims of God’s law, and the obligation of the Sabbath of the fourth commandment.",
+      "claim_text": "Acceptance of the heavenly-sanctuary doctrine logically entails acknowledging the claims of God's law and the obligation of the seventh-day Sabbath of the fourth commandment.",
+      "claim_type": "theological",
+      "entities": [
+        "heavenly sanctuary doctrine",
+        "Sabbath"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological argument that accepting the heavenly-sanctuary doctrine entails Sabbath obligation. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-018",
+      "paragraph": 6,
+      "quote": "Here was the secret of the bitter and determined opposition to the harmonious exposition of the Scriptures that revealed the ministration of Christ in the heavenly sanctuary.",
+      "claim_text": "The link between the sanctuary doctrine and the Sabbath obligation was the underlying cause of bitter and determined opposition to this exposition of Scripture.",
+      "claim_type": "interpretive",
+      "entities": [
+        "heavenly sanctuary doctrine"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/theological claim about the hidden cause of opposition to the sanctuary exposition. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-019",
+      "paragraph": 6,
+      "quote": "Men sought to close the door which God had opened, and to open the door which He had closed.",
+      "claim_text": "Opponents of this doctrine sought to close the door (ministration) that God had opened in 1844 and to reopen the door that He had closed.",
+      "claim_type": "theological",
+      "entities": [
+        "heavenly sanctuary doctrine"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological metaphor (opening/shutting doors of divine ministration). Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-020",
+      "paragraph": 6,
+      "quote": "But “He that openeth, and no man shutteth; and shutteth, and no man openeth,” had declared,",
+      "claim_text": "The book of Revelation attributes to Christ the description 'He that openeth, and no man shutteth; and shutteth, and no man openeth.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ",
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful rendering of Revelation 3:7; attribution to Christ in Revelation correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-021",
+      "paragraph": 6,
+      "quote": "“Behold, I have set before thee an open door, and no man can shut it.”(720)",
+      "claim_text": "The book of Revelation quotes Christ declaring, 'Behold, I have set before thee an open door, and no man can shut it.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ",
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful rendering of Revelation 3:8; attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-022",
+      "paragraph": 7,
+      "quote": "Those who had accepted the light concerning the mediation of Christ and the perpetuity of the law of God, found that these were the truths presented in Revelation 14.",
+      "claim_text": "The believers who had accepted the doctrines of Christ's mediation and the perpetuity of God's law found these same truths presented in Revelation chapter 14.",
+      "claim_type": "theological",
+      "entities": [
+        "Book of Revelation",
+        "Millerite Adventists"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim identifying the believers' doctrines with the content of Revelation 14. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-023",
+      "paragraph": 7,
+      "quote": "The messages of this chapter constitute a threefold warning,(721) which is to prepare the inhabitants of the earth for the Lord’s second coming.",
+      "claim_text": "The messages of Revelation 14 constitute a threefold warning (the three angels' messages) intended to prepare the earth's inhabitants for the second coming of Christ.",
+      "claim_type": "theological",
+      "entities": [
+        "Book of Revelation",
+        "three angels' messages"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological interpretation (three angels' messages as end-time warning). Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-024",
+      "paragraph": 7,
+      "quote": "The announcement, “The hour of His judgment is come,” points to the closing work of Christ’s ministration for the salvation of men.",
+      "claim_text": "Revelation 14 contains the announcement 'The hour of His judgment is come.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] 'The hour of His judgment is come' is Revelation 14:7; attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-025",
+      "paragraph": 7,
+      "quote": "It heralds a truth which must be proclaimed until the Saviour’s intercession shall cease, and He shall return to the earth to take His people to Himself.",
+      "claim_text": "The judgment-hour message must be proclaimed until Christ's intercession ceases and He returns to earth to take His people to Himself.",
+      "claim_type": "theological",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the duration of Christ's intercession. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-026",
+      "paragraph": 7,
+      "quote": "The work of judgment which began in 1844, must continue until the cases of all are decided, both of the living and the dead; hence it will extend to the close of human probation.",
+      "claim_text": "The heavenly work of judgment began in the year 1844 and will continue, deciding the cases of both the living and the dead, until the close of human probation.",
+      "claim_type": "theological",
+      "entities": [
+        "1844",
+        "investigative judgment doctrine"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim: investigative-judgment doctrine (judgment beginning 1844). Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-027",
+      "paragraph": 7,
+      "quote": "the message commands them to “fear God, and give glory to Him,” “and worship Him that made heaven, and earth, and the sea, and the fountains of waters.”",
+      "claim_text": "Revelation 14 commands 'fear God, and give glory to Him' and 'worship Him that made heaven, and earth, and the sea, and the fountains of waters.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful rendering of Revelation 14:7; attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-028",
+      "paragraph": 7,
+      "quote": "The result of an acceptance of these messages is given in the words, “Here are they that keep the commandments of God, and the faith of Jesus.”",
+      "claim_text": "Revelation 14 states, as the result of accepting the threefold message, 'Here are they that keep the commandments of God, and the faith of Jesus.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful rendering of Revelation 14:12; attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-029",
+      "paragraph": 7,
+      "quote": "In order to be prepared for the judgment, it is necessary that men should keep the law of God. That law will be the standard of character in the judgment.",
+      "claim_text": "Keeping the law of God is necessary to be prepared for the judgment, since God's law will be the standard of character in the judgment.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim (law as standard of character in the judgment). Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-030",
+      "paragraph": 7,
+      "quote": "The apostle Paul declares, “As many as have sinned in the law shall be judged by the law, ... in the day when God shall judge the secrets of men by Jesus Christ.”",
+      "claim_text": "The apostle Paul is quoted (in the Epistle to the Romans) as declaring, 'As many as have sinned in the law shall be judged by the law ... in the day when God shall judge the secrets of men by Jesus Christ.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Apostle Paul",
+        "Epistle to the Romans"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Composite of Romans 2:12 and 2:16; correctly attributed to Paul in Romans.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-031",
+      "paragraph": 7,
+      "quote": "And he says that “the doers of the law shall be justified.”(722)",
+      "claim_text": "The apostle Paul is quoted as saying 'the doers of the law shall be justified.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Apostle Paul",
+        "Epistle to the Romans"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] 'The doers of the law shall be justified' is Romans 2:13; attribution to Paul correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-032",
+      "paragraph": 7,
+      "quote": "Faith is essential in order to the keeping of the law of God; for “without faith it is impossible to please Him.”",
+      "claim_text": "The Epistle to the Hebrews is quoted as saying 'without faith it is impossible to please Him.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Hebrews"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] 'Without faith it is impossible to please Him' is Hebrews 11:6; attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-033",
+      "paragraph": 7,
+      "quote": "And “whatsoever is not of faith is sin.”(723)",
+      "claim_text": "The Epistle to the Romans is quoted as saying 'whatsoever is not of faith is sin.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Epistle to the Romans"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] 'Whatsoever is not of faith is sin' is Romans 14:23; attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-034",
+      "paragraph": 8,
+      "quote": "By the first angel, men are called upon to “fear God, and give glory to Him,” and to worship Him as the Creator of the heavens and the earth. In order to do this, they must obey His law.",
+      "claim_text": "Obeying God's law is presented as a necessary condition for worshiping Him as Creator, per the first angel's message of Revelation 14.",
+      "claim_type": "theological",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological interpretation of the first angel's message requiring law-obedience. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-035",
+      "paragraph": 8,
+      "quote": "Says the wise man, “Fear God, and keep His commandments: for this is the whole duty of man.”(724)",
+      "claim_text": "The book of Ecclesiastes (attributed to 'the wise man') is quoted as saying 'Fear God, and keep His commandments: for this is the whole duty of man.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Ecclesiastes"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Ecclesiastes 12:13; 'the wise man' (Solomon/Preacher) is the conventional attribution. Correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-036",
+      "paragraph": 8,
+      "quote": "Without obedience to His commandments, no worship can be pleasing to God.",
+      "claim_text": "Without obedience to God's commandments, no worship can be pleasing to God.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim (worship unacceptable without obedience). Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-037",
+      "paragraph": 8,
+      "quote": "“This is the love of God, that we keep His commandments.”",
+      "claim_text": "The first Epistle of John is quoted as saying 'This is the love of God, that we keep His commandments.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "First Epistle of John"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] 'This is the love of God, that we keep His commandments' is 1 John 5:3; attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-038",
+      "paragraph": 8,
+      "quote": "“He that turneth away his ear from hearing the law, even his prayer shall be abomination.”(725)",
+      "claim_text": "The book of Proverbs is quoted as saying 'He that turneth away his ear from hearing the law, even his prayer shall be abomination.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Proverbs"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Proverbs 28:9; attribution to Proverbs correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-039",
+      "paragraph": 9,
+      "quote": "The duty to worship God is based upon the fact that He is the Creator, and that to Him all other beings owe their existence.",
+      "claim_text": "The duty to worship God is grounded in His role as Creator, to whom all other beings owe their existence.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim grounding worship in creatorship. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-040",
+      "paragraph": 9,
+      "quote": "“All the gods of the nations are idols: but the Lord made the heavens.”(726)",
+      "claim_text": "The book of Psalms is quoted as saying 'All the gods of the nations are idols: but the Lord made the heavens.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Psalms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Psalm 96:5; attribution to Psalms correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-041",
+      "paragraph": 9,
+      "quote": "“To whom then will ye liken Me, or shall I be equal? saith the Holy One. Lift up your eyes on high, and behold who hath created these things.”",
+      "claim_text": "The book of Isaiah is quoted with God asking 'To whom then will ye liken Me, or shall I be equal? ... Lift up your eyes on high, and behold who hath created these things.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Isaiah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Isaiah 40:25-26; attribution to Isaiah correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-042",
+      "paragraph": 9,
+      "quote": "“Thus saith the Lord that created the heavens; God Himself that formed the earth and made it:... I am Jehovah; and there is none else.”(727)",
+      "claim_text": "The book of Isaiah is quoted as saying 'Thus saith the Lord that created the heavens; God Himself that formed the earth and made it ... I am Jehovah; and there is none else.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Isaiah"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Isaiah 45:18 (ASV/RV rendering with 'Jehovah'); attribution to Isaiah correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-043",
+      "paragraph": 9,
+      "quote": "Says the psalmist, “Know ye that Jehovah, He is God: it is He that hath made us, and not we ourselves.”",
+      "claim_text": "The book of Psalms is quoted as saying 'Know ye that Jehovah, He is God: it is He that hath made us, and not we ourselves.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Psalms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Psalm 100:3 (ASV rendering with 'Jehovah'); attribution to the psalmist correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-044",
+      "paragraph": 9,
+      "quote": "“O come, let us worship and bow down: let us kneel before the Lord our Maker.”(728)",
+      "claim_text": "The book of Psalms is quoted as saying 'O come, let us worship and bow down: let us kneel before the Lord our Maker.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Psalms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Psalm 95:6; attribution to Psalms correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-045",
+      "paragraph": 9,
+      "quote": "And the holy beings who worship God in heaven state, as the reason why their homage is due to Him, “Thou art worthy, O Lord, to receive glory and honor and power: for Thou hast created all things.”(729)",
+      "claim_text": "The book of Revelation quotes heavenly beings worshiping God saying 'Thou art worthy, O Lord, to receive glory and honor and power: for Thou hast created all things.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Revelation 4:11; attribution to the heavenly worshipers in Revelation correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-046",
+      "paragraph": 10,
+      "quote": "In Revelation 14, men are called upon to worship the Creator; and the prophecy brings to view a class that, as the result of the threefold message, are keeping the commandments of God. One of these commandments points directly to God as the creator.",
+      "claim_text": "Revelation 14 calls people to worship the Creator, and depicts a class who, as a result of the threefold message, keep the commandments of God, one of which points directly to God as Creator.",
+      "claim_type": "theological",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological interpretation of Revelation 14 as commanding Creator-worship and commandment-keeping. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-047",
+      "paragraph": 10,
+      "quote": "The fourth precept declares: “The seventh day is the Sabbath of the Lord thy God: ... for in six days the Lord made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the Lord blessed the Sabbath day, and hallowed it.”(730)",
+      "claim_text": "The fourth of the Ten Commandments (Exodus 20) declares the seventh day to be the Sabbath of the Lord, grounded in God resting on the seventh day of creation.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Exodus",
+        "Ten Commandments",
+        "Sabbath"
+      ],
+      "needs_verification": true,
+      "extractor_note": "This is a repeated instance of the fourth-commandment text also quoted in ¶4 (GC-25-011).",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful rendering of the fourth commandment, Exodus 20:10-11 (repeat of GC-25-011); attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-048",
+      "paragraph": 10,
+      "quote": "Concerning the Sabbath, the Lord says, further, that it is “a sign, ... that ye may know that I am the Lord your God.”(731)",
+      "claim_text": "The book of Ezekiel quotes God calling the Sabbath 'a sign, ... that ye may know that I am the Lord your God.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Ezekiel",
+        "Sabbath"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Sabbath as 'a sign ... that ye may know that I am the Lord your God' is Ezekiel 20:20; attribution to Ezekiel correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-049",
+      "paragraph": 10,
+      "quote": "And the reason given is, “For in six days the Lord made heaven and earth, and on the seventh day He rested, and was refreshed.”(732)",
+      "claim_text": "The book of Exodus (31:17) is quoted giving as the reason for the Sabbath, 'For in six days the Lord made heaven and earth, and on the seventh day He rested, and was refreshed.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Exodus",
+        "Sabbath"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Exodus 31:17; attribution to Exodus correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-050",
+      "paragraph": 11,
+      "quote": "“The importance of the Sabbath as a memorial of creation is that it keeps ever present the true reason why worship is due to God,”—because He is the Creator, and we are His creatures. “The Sabbath, therefore, lies at the very foundation of divine worship; for it teaches this great truth in the most impressive manner, and no other institution does this. The true ground of divine worship, not of that on the seventh day merely, but of all worship, is found in the distinction between the Creator and His creatures. This great fact can never become obsolete, and must never be forgotten.”(733)",
+      "claim_text": "An unnamed cited author (footnote 733) is quoted arguing that the Sabbath, as a memorial of creation, is the foundation of divine worship because it teaches the distinction between the Creator and His creatures.",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Source of footnote 733 not identified within the chapter text; needs identification at verification stage (likely a 19th-century Sabbatarian writer such as J. N. Andrews).",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Footnote-733 quote identified and confirmed verbatim in J.N. Andrews, History of the Sabbath (1873), ch. 27, held locally (lines ~23637-23646): 'The Sabbath therefore lies at the very foundation of divine worship ... the distinction between the Creator and his creatures.' Accurate quotation. source_quality: academic-partial (period Sabbatarian monograph, primary to the citation).",
+        "sources": [
+          {
+            "title": "J.N. Andrews, History of the Sabbath (1873), ch. 27 — local file, verbatim match",
+            "url": "https://archive.org/details/historyofsabbath00andr",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-051",
+      "paragraph": 11,
+      "quote": "It was to keep this truth ever before the minds of men, that God instituted the Sabbath in Eden;",
+      "claim_text": "God instituted the Sabbath in the Garden of Eden, at creation, in order to keep the truth of His creatorship ever before the minds of men.",
+      "claim_type": "event",
+      "entities": [
+        "Sabbath",
+        "Garden of Eden",
+        "creation account"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "Genuine historiographical disagreement. Conservative reading takes Genesis 2:2-3 as instituting the Sabbath as a creation ordinance in Eden; critical OT scholarship (documentary hypothesis) assigns Genesis 1:1-2:3 to the Priestly source (6th c. BC) and dates the weekly Sabbath as an Israelite (Mosaic/exilic) institution, treating the creation-rest framing as etiological rather than evidence of Edenic observance. Doctrinally-central Sabbath-origin cluster. source_quality: academic-partial.",
+        "sources": [
+          {
+            "title": "'Tracing the Origin of the Sabbatical Calendar in the Priestly Narrative' (Genesis 1 to Joshua 5)",
+            "url": "https://www.researchgate.net/publication/267403828",
+            "source_class": "academic",
+            "supports_verdict": true
+          },
+          {
+            "title": "'The Sabbath: mark of distinction', Themelios (The Gospel Coalition)",
+            "url": "https://www.thegospelcoalition.org/themelios/article/the-sabbath-mark-of-distinction/",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      },
+      "impact": {
+        "severity": 2,
+        "centrality": 5,
+        "load_bearing": true,
+        "impact_score": 10,
+        "narrative_arc": "doctrinal",
+        "reasoning": "Paragraph 11 explicitly grounds the Sabbath's status as a universal, eternal 'memorial of creation' in its institution 'in Eden' at creation, not at Sinai; this is precisely what lets the chapter later treat Sabbath-keeping as binding on all mankind (Gentile and Jew alike) rather than as a piece of the Mosaic covenant that ended with it. Critical OT scholarship dates the Genesis 1 creation-Sabbath framing to the Priestly source (post-exilic) and treats it as an etiology for the Mosaic/Israelite institution rather than evidence of Edenic observance, which would (if correct) reduce the Sabbath to a covenant-specific sign rather than a creation ordinance for all humanity. Counterfactual: delete this claim and the chapter still has other rhetorical resources (the 'Sabbath is a sign' argument, Christ's 'Son of man is Lord of the Sabbath'), but it loses its most direct textual basis for universalizing the fourth commandment beyond Israel, weakening — without destroying — the leap from 'Sabbath as Israel's sign' to 'Sabbath as the end-time test for all nations.' Scored as disputed, not contradicted, since this is genuine, ongoing historiographical disagreement rather than a settled academic refutation."
+      }
+    },
+    {
+      "id": "GC-25-052",
+      "paragraph": 11,
+      "quote": "and so long as the fact that He is our Creator continues to be a reason why we should worship Him, so long the Sabbath will continue as its sign and memorial.",
+      "claim_text": "The Sabbath continues to serve as a sign and memorial of God's role as Creator for as long as that fact remains a reason for worshiping Him.",
+      "claim_type": "theological",
+      "entities": [
+        "Sabbath"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the Sabbath's enduring role as sign of creatorship. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-053",
+      "paragraph": 11,
+      "quote": "Had the Sabbath been universally kept, man’s thoughts and affections would have been led to the Creator as the object of reverence and worship, and there would never have been an idolater, an atheist, or an infidel.",
+      "claim_text": "If the Sabbath had been universally kept throughout history, idolatry, atheism, and infidelity would never have arisen.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Sabbath"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Counterfactual/interpretive theological claim (universal Sabbath-keeping would have prevented idolatry, atheism, infidelity). Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-054",
+      "paragraph": 11,
+      "quote": "The keeping of the Sabbath is a sign of loyalty to the true God, “Him that made heaven, and earth, and the sea, and the fountains of waters.”",
+      "claim_text": "Keeping the Sabbath is a sign of loyalty to the true God as Creator.",
+      "claim_type": "theological",
+      "entities": [
+        "Sabbath"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim (Sabbath as sign of loyalty). Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-055",
+      "paragraph": 11,
+      "quote": "It follows that the message which commands men to worship God and keep His commandments, will especially call upon them to keep the fourth commandment.",
+      "claim_text": "The Revelation 14 message commanding worship of God and keeping of His commandments especially calls for keeping the fourth commandment (the Sabbath).",
+      "claim_type": "interpretive",
+      "entities": [
+        "Book of Revelation",
+        "Sabbath"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/theological inference about the Revelation 14 message. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-056",
+      "paragraph": 12,
+      "quote": "“If any man worship the beast and his image, and receive his mark in his forehead, or in his hand, the same shall drink of the wine of the wrath of God.”(734)",
+      "claim_text": "The book of Revelation (14:9-10) is quoted warning that whoever worships the beast and his image and receives his mark will drink of the wine of the wrath of God.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful rendering of Revelation 14:9-10; attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-057",
+      "paragraph": 13,
+      "quote": "The line of prophecy in which these symbols are found, begins with Revelation 12, with the dragon that sought to destroy Christ at His birth.",
+      "claim_text": "The book of Revelation (chapter 12) depicts a dragon that sought to destroy Christ at His birth.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Revelation 12 does depict a dragon poised to devour the woman's child at its birth (12:4); accurate textual report of the Book of Revelation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-058",
+      "paragraph": 13,
+      "quote": "The dragon is said to be Satan;(735) he it was that moved upon Herod to put the Saviour to death.",
+      "claim_text": "The dragon of Revelation 12 is identified as Satan, who is said to have moved upon King Herod to have the infant Jesus put to death.",
+      "claim_type": "theological",
+      "entities": [
+        "Satan",
+        "King Herod",
+        "Jesus Christ"
+      ],
+      "needs_verification": false,
+      "extractor_note": "Embeds an underlying historical/biographical claim that Herod sought to kill the infant Jesus, a claim from the Matthew 2 nativity/Massacre-of-the-Innocents narrative; logged separately at GC-25-059.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological identification (dragon = Satan, who moved Herod). The dragon-Satan identification is prophetic exegesis; the underlying Herod historical claim is logged separately at GC-25-059.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-059",
+      "paragraph": 13,
+      "quote": "the dragon that sought to destroy Christ at His birth",
+      "claim_text": "According to the Gospel of Matthew's infancy narrative, King Herod the Great sought to have the infant Jesus killed at or shortly after His birth.",
+      "claim_type": "biographical",
+      "entities": [
+        "King Herod",
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Underlying historical claim implicit in the prophetic reading of Revelation 12; the historicity of the Massacre of the Innocents/Herod's attempt is itself a matter for verification.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The claim faithfully reports the Gospel of Matthew's infancy narrative (Matthew 2:13-18), in which Herod the Great seeks to kill the infant Jesus (Massacre of the Innocents). Textual attribution is accurate. Modern historians debate the event's historicity (uncorroborated outside Matthew, absent from Josephus), but the claim as framed reports what Matthew states, which is correct.",
+        "sources": [
+          {
+            "title": "Massacre of the Innocents — historicity discussion",
+            "url": "https://en.wikipedia.org/wiki/Massacre_of_the_Innocents",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-060",
+      "paragraph": 13,
+      "quote": "But the chief agent of Satan in making war upon Christ and His people during the first centuries of the Christian era, was the Roman empire, in which paganism was the prevailing religion.",
+      "claim_text": "During the first centuries of the Christian era, the Roman Empire, whose prevailing religion was paganism, made war upon Christ's followers.",
+      "claim_type": "causal",
+      "entities": [
+        "Roman Empire",
+        "early Christians",
+        "paganism"
+      ],
+      "needs_verification": true,
+      "extractor_note": "The framing of the Roman Empire as 'the chief agent of Satan' is a theological characterization layered on top of the historical claim of Roman persecution of early Christians and Roman state paganism, which is the checkable component.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The Roman Empire's prevailing state religion in the first Christian centuries was pagan, and Rome periodically persecuted Christians (Nero, Decius, Diocletian). Well-established general history; the 'chief agent of Satan' framing is theological overlay, not the checkable core.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-061",
+      "paragraph": 13,
+      "quote": "Thus while the dragon, primarily, represents Satan, it is, in a secondary sense, a symbol of pagan Rome.",
+      "claim_text": "The dragon of Revelation 12 primarily represents Satan and secondarily symbolizes pagan Rome.",
+      "claim_type": "theological",
+      "entities": [
+        "Roman Empire"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/interpretive identification of the Revelation 12 dragon with Satan (primary) and pagan Rome (secondary). Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-062",
+      "paragraph": 14,
+      "quote": "In chapter 13(736) is described another beast, “like unto a leopard,” to which the dragon gave “his power, and his seat, and great authority.”",
+      "claim_text": "Revelation chapter 13 describes a beast 'like unto a leopard' to which the dragon gave 'his power, and his seat, and great authority.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Revelation 13:2; faithful rendering, attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-063",
+      "paragraph": 14,
+      "quote": "This symbol, as most Protestants have believed, represents the papacy, which succeeded to the power and seat and authority once held by the ancient Roman empire.",
+      "claim_text": "Most Protestants have historically believed that the leopard-like beast of Revelation 13 represents the papacy, which succeeded to the power, seat, and authority once held by the ancient Roman Empire.",
+      "claim_type": "event",
+      "entities": [
+        "papacy",
+        "Roman Empire",
+        "Protestant historicist interpretation"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Checkable component is the historiographical claim about the prevalence of this identification among Protestant interpreters (the historicist school), separate from the interpretation's own theological validity.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Historiographically accurate: from the Reformation through the 19th century most Protestant interpreters (the historicist school) identified the leopard-like beast of Revelation 13 / little horn of Daniel 7 with the papacy. Well documented in the history of biblical interpretation. The claim reports the prevalence of the view, not its validity.",
+        "sources": [
+          {
+            "title": "Historicism (Christian eschatology) — Protestant identification of the papacy",
+            "url": "https://en.wikipedia.org/wiki/Historicism_(Christianity)",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Antichrist — Protestant Reformation identification with the papacy",
+            "url": "https://en.wikipedia.org/wiki/Antichrist",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-064",
+      "paragraph": 14,
+      "quote": "“There was given unto him a mouth speaking great things and blasphemies.... And he opened his mouth in blasphemy against God, to blaspheme His name, and His tabernacle, and them that dwell in heaven. And it was given unto him to make war with the saints, and to overcome them: and power was given him over all kindreds, and tongues, and nations.”",
+      "claim_text": "The book of Revelation (13:5-7) is quoted describing the leopard-like beast as speaking blasphemies against God and making war with the saints, with power given over all peoples and nations.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful rendering of Revelation 13:5-7; attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-065",
+      "paragraph": 14,
+      "quote": "This prophecy, which is nearly identical with the description of the little horn of Daniel 7, unquestionably points to the papacy.",
+      "claim_text": "The Revelation 13 description of the leopard-like beast is nearly identical with the description of the 'little horn' of Daniel chapter 7.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Book of Daniel",
+        "Book of Revelation",
+        "papacy"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[control sample; extractor flagged needs_verification:false] Checkable textual observation: the Revelation 13 beast description (blasphemy, war on the saints, a defined time-period of dominion) closely parallels the Daniel 7 'little horn' (Dan 7:8,20-25). The parallel is a real feature of the texts; the further identification with the papacy is separate exegesis. No smuggled false fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-066",
+      "paragraph": 15,
+      "quote": "“Power was given unto him to continue forty and two months.”",
+      "claim_text": "The book of Revelation (13:5) is quoted stating that power was given to the beast to continue forty-two months.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Revelation 13:5; faithful rendering, attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-067",
+      "paragraph": 15,
+      "quote": "And, says the prophet, “I saw one of his heads as it were wounded to death.”",
+      "claim_text": "The book of Revelation (13:3) is quoted as saying 'I saw one of his heads as it were wounded to death.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Revelation 13:3; faithful rendering, attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-068",
+      "paragraph": 15,
+      "quote": "“He that leadeth into captivity shall go into captivity: he that killeth with the sword must be killed with the sword.”",
+      "claim_text": "The book of Revelation (13:10) is quoted saying 'He that leadeth into captivity shall go into captivity: he that killeth with the sword must be killed with the sword.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Revelation 13:10; faithful rendering, attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-069",
+      "paragraph": 15,
+      "quote": "The forty and two months are the same as the “time and times and the dividing of time,” three years and a half, or 1260 days, of Daniel 7,—the time during which the papal power was to oppress God’s people.",
+      "claim_text": "The forty-two months of Revelation 13 are identified with the 'time, times, and dividing of time' (three and a half years, or 1260 days) of Daniel 7, representing the period of papal oppression of God's people.",
+      "claim_type": "theological",
+      "entities": [
+        "Book of Daniel",
+        "Book of Revelation",
+        "papacy"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological interpretation equating Revelation's 42 months with Daniel 7's 'time, times and dividing of time' = 1260 prophetic days/years of papal oppression. Prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-070",
+      "paragraph": 15,
+      "quote": "This period, as stated in preceding chapters, began with the supremacy of the papacy, A.D. 538, and terminated in 1798.",
+      "claim_text": "The 1260-year period of papal supremacy began in A.D. 538 and terminated in 1798.",
+      "claim_type": "date",
+      "entities": [
+        "papacy",
+        "538",
+        "1798"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "The 538-1798 span for the 1260-year period of papal supremacy is a historicist-school construction, not a datum of mainstream historiography. The end anchor (1798, capture of Pius VI) is a real event, but 538 is chosen to fit the 1260-year scheme (linked to Justinian/Belisarius and the Ostrogothic withdrawal); historians and even Adventist critics note it marked a nadir, not the zenith, of papal power and is not an independently attested start of 'papal supremacy.' Consistent with the interpretive scheme in White's sources (Andrews, Uriah Smith) and with the anachronistic/disputed pattern recorded for chapters 15/18/22.",
+        "modern_consensus": "No mainstream historian dates a 1260-year 'papal supremacy' from A.D. 538; the date is a historicist calculation working backward from 1798.",
+        "period_historiography": "The 538-1798 = 1260-year scheme was standard in 19th-century Adventist/Millerite historicism (Andrews, Uriah Smith) built on earlier Protestant year-day interpretation.",
+        "sources": [
+          {
+            "title": "1798: Pope captured and taken from Rome; historicist 538/1260 framework",
+            "url": "https://history.info/on-this-day/1798-pope-captured-rome/",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "'Case by Casebolt: The 1260 Year Prophecy Problem', Spectrum",
+            "url": "https://spectrummagazine.org/views/case-by-casebolt-the-1260-year-prophecy-problem/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      },
+      "defense": {
+        "result": "defense_failed",
+        "argument": "Steelman: the claim is presented explicitly as an interpretive prophetic scheme ('This period ... began with the supremacy of the papacy'), and its two anchors are not symmetrical. The terminus, 1798, is a real, well-documented event (Berthier's French army took Pius VI captive; verified supported at GC-25-071). The 538 anchor is not arbitrary either: it traces to datable events — Justinian's decree/letter honoring the Roman bishop and Belisarius' lifting of the Ostrogothic siege of Rome — which 19th-century historicists read as the moment the papacy could freely exercise authority. The scheme is internally coherent and applied consistently by White across chs. 15/18/22, drawn from her own sources (Andrews, Uriah Smith). Why it still fails: no independent modern historiography dates a '1260-year papal supremacy' from 538; the date is a backward calculation from the year-day scheme, and even Adventist critics (Casebolt, cited by verifier) note 538 marked a nadir, not a zenith, of papal power. The verdict stays anachronistic — the honest, mild category (not contradicted), matching CLAUDE.md rule 4. No downgrade to supported/disputed is available: the doctrinally-central escalation would require an academic source affirming 538 as a genuine start of papal supremacy, and none exists. source_quality: encyclopedic-only on the verifier's cited sources, but the anachronism call itself is sound; the verdict does not need academic backing since it is not accusatory beyond 'period-typical.'"
+      },
+      "impact": {
+        "severity": 3,
+        "centrality": 5,
+        "load_bearing": false,
+        "impact_score": 15,
+        "narrative_arc": "doctrinal",
+        "reasoning": "The 538-1798 = 1260-year 'papal supremacy' span is a 19th-century historicist calculation (Andrews, Uriah Smith) working backward from 1798, not an independently attested modern-historiographical dating; 538 marks a low point, not the onset, of papal power by mainstream accounts. In THIS chapter the scheme is invoked ('as stated in preceding chapters') to synchronize Daniel 7's 'time, times, and dividing of time' with Revelation 13's forty-two months and then to anchor the identification of the lamb-horned beast (USA) as 'coming up' in 1798 — but the chapter's own beast=USA argument leans on 1798 as a real, independently verified event (Pius VI's capture, GC-25-071, supported) and on the US's real rise to prominence that year (GC-25-077, supported), not on the 538 start-date specifically. Counterfactual: delete this claim and the chapter's US-identification argument and Sabbath-immutability argument both survive on their own independently supported anchors; what is lost is the precise chronological scaffolding connecting this chapter's prophecy back to the book's earlier Reformation-era chapters, which is a real loss for the book's overall interlocking chronology (hence centrality 5) but not a collapse of this chapter's argument (hence load_bearing false here, contrasted with ch. 15 where the scheme is directly argued and defended)."
+      }
+    },
+    {
+      "id": "GC-25-071",
+      "paragraph": 15,
+      "quote": "At that time, the pope was made captive by the French army, the papal power received its deadly wound, and the prediction was fulfilled, “He that leadeth into captivity shall go into captivity.”",
+      "claim_text": "In 1798 the pope was made captive by the French army, an event the book presents as the papal power's deadly wound and fulfillment of the Revelation 13:10 prediction.",
+      "claim_type": "event",
+      "entities": [
+        "Pope Pius VI",
+        "France",
+        "1798"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Historically accurate core: in February 1798 General Berthier's French army entered Rome, proclaimed a republic, and took Pope Pius VI prisoner (he died in French captivity at Valence in 1799). The 'deadly wound'/prophecy-fulfillment framing is theological overlay; the event itself is well documented.",
+        "sources": [
+          {
+            "title": "Pope Pius VI — capture by French forces, 1798 (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Pope_Pius_VI",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "History Skills — Berthier and the Pope, 1798",
+            "url": "https://www.historyskills.com/classroom/modern-history/berthier-and-the-pope/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-072",
+      "paragraph": 16,
+      "quote": "Says the prophet, “I beheld another beast coming up out of the earth; and he had two horns like a lamb.”(737)",
+      "claim_text": "The book of Revelation (13:11) is quoted as saying 'I beheld another beast coming up out of the earth; and he had two horns like a lamb.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Revelation 13:11; faithful rendering, attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-073",
+      "paragraph": 16,
+      "quote": "The great kingdoms that have ruled the world were presented to the prophet Daniel as beasts of prey, rising when the “four winds of the heaven strove upon the great sea.”(738)",
+      "claim_text": "The book of Daniel (chapter 7) presents the great kingdoms that have ruled the world as beasts of prey rising when 'the four winds of the heaven strove upon the great sea.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Daniel"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Daniel 7:2-3; faithful rendering, attribution to Daniel correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-074",
+      "paragraph": 16,
+      "quote": "In Revelation 17, an angel explained that waters represent “peoples, and multitudes, and nations, and tongues.”(739)",
+      "claim_text": "The book of Revelation (17:15) is quoted as recording an angel explaining that 'waters' in the prophetic symbolism represent 'peoples, and multitudes, and nations, and tongues.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Revelation 17:15; faithful rendering, attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-075",
+      "paragraph": 16,
+      "quote": "Winds are a symbol of strife. The four winds of heaven striving upon the great sea, represent the terrible scenes of conquest and revolution by which kingdoms have attained to power.",
+      "claim_text": "In the book's prophetic-symbol scheme, winds symbolize strife, and the 'four winds striving upon the great sea' represent scenes of conquest and revolution by which kingdoms attain power.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive symbol-scheme (winds = strife; four winds on the sea = conquest/revolution). Prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-076",
+      "paragraph": 17,
+      "quote": "Instead of overthrowing other powers to establish itself, the nation thus represented must arise in territory previously unoccupied, and grow up gradually and peacefully. It could not, then, arise among the crowded and struggling nationalities of the Old World,—that turbulent sea of “peoples, and multitudes, and nations, and tongues.” It must be sought in the Western Continent.",
+      "claim_text": "The nation represented by the lamb-horned beast of Revelation 13 must, by the logic of the symbol, arise gradually and peacefully in previously unoccupied territory rather than by conquest, and therefore must be sought in the Western Hemisphere rather than the Old World.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Western Hemisphere"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive inference deriving a geographic location (Western Hemisphere) from the prophetic symbol. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-077",
+      "paragraph": 18,
+      "quote": "What nation of the New World was in 1798 rising into power, giving promise of strength and greatness, and attracting the attention of the world?",
+      "claim_text": "In 1798, a nation of the New World was rising into power, giving promise of strength and greatness, and attracting the attention of the world.",
+      "claim_type": "date",
+      "entities": [
+        "United States",
+        "1798"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "In 1798 the United States was a young nation rising in strength and drawing international attention (the Quasi-War with France and the XYZ Affair placed it prominently before the world that very year). The identification of it as the prophesied nation is separate interpretation; the historical characterization of a rising New World power in 1798 is defensible.",
+        "sources": [
+          {
+            "title": "Quasi-War / XYZ Affair, 1798 — U.S. Dept. of State, Office of the Historian",
+            "url": "https://history.state.gov/milestones/1784-1800/xyz",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-078",
+      "paragraph": 18,
+      "quote": "One nation, and only one, meets the specifications of this prophecy; it points unmistakably to the United States of America.",
+      "claim_text": "The prophecy of the lamb-horned beast in Revelation 13 points unmistakably and exclusively to the United States of America.",
+      "claim_type": "interpretive",
+      "entities": [
+        "United States"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive claim that the prophecy points exclusively to the United States. Prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-079",
+      "paragraph": 18,
+      "quote": "Again and again the thought, almost the exact words, of the sacred writer have been unconsciously employed by the orator and the historian in describing the rise and growth of this nation.",
+      "claim_text": "Orators and historians describing the rise and growth of the United States have repeatedly and unconsciously used language closely paralleling that of the Revelation 13 prophecy.",
+      "claim_type": "interpretive",
+      "entities": [
+        "United States"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive claim that orators/historians unconsciously echoed the prophecy's language. Rhetorical/interpretive; not empirically checkable as stated.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-080",
+      "paragraph": 18,
+      "quote": "and according to the translators, the word here rendered “coming up” literally signifies “to grow or spring up as a plant.”",
+      "claim_text": "The Greek word rendered 'coming up' in Revelation 13:11 literally signifies 'to grow or spring up as a plant.'",
+      "claim_type": "event",
+      "entities": [
+        "Book of Revelation",
+        "Greek language"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The Greek verb behind 'coming up' in Revelation 13:11 is anabaino, which lexica (Liddell-Scott) attest is used of plants shooting up/springing up (cf. Matthew 13:7, thorns that 'grew up' = anabaino). The claim that translators note it can signify to grow/spring up as a plant has lexical support.",
+        "sources": [
+          {
+            "title": "anabaino (G305) — lexical usage incl. plants springing up",
+            "url": "https://biblehub.com/greek/305.htm",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-081",
+      "paragraph": 18,
+      "quote": "A prominent writer, describing the rise of the United States, speaks of “_the mystery of her coming forth from vacancy_,”(740) and says, “Like a _silent seed_ we grew into empire.”",
+      "claim_text": "An unnamed 'prominent writer' is quoted describing the rise of the United States with the phrases 'the mystery of her coming forth from vacancy' and 'Like a silent seed we grew into empire.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "United States"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Author not named in the chapter text (footnote 740); identity and exact wording require verification.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Footnote-740 'prominent writer' identified as George Alfred Townsend, The New World Compared with the Old (1869), a real work by a real author. Exact wording ('mystery of her coming forth from vacancy'; 'Like a silent seed we grew into empire') is the standard attribution reproduced in the GC appendix; snippet search confirmed author/title but did not surface the verbatim lines, hence medium confidence.",
+        "sources": [
+          {
+            "title": "G.A. Townsend, The New World Compared with the Old (1869) — Internet Archive",
+            "url": "https://archive.org/details/newworldcompare00town",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-082",
+      "paragraph": 18,
+      "quote": "A European journal in 1850 spoke of the United States as a wonderful empire, which was “emerging,” and “_amid the silence of the earth_ daily adding to its power and pride.”(741)",
+      "claim_text": "An unnamed European journal in the year 1850 described the United States as a wonderful empire that was 'emerging' and 'amid the silence of the earth daily adding to its power and pride.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "United States",
+        "1850"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Journal not named in the chapter text (footnote 741); identity and exact wording require verification.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Footnote-741 'European journal in 1850' is identified in the GC appendix as The Dublin Nation (1850). The quotation is the standard attribution; unable to surface the verbatim 1850 issue in snippet search, hence medium confidence. No evidence of misquotation.",
+        "sources": [
+          {
+            "title": "GC 1911 Appendix — 'The United States in Prophecy' source notes",
+            "url": "https://ccel.org/ccel/white/controversy/controversy.xxviii.html",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-083",
+      "paragraph": 18,
+      "quote": "Edward Everett, in an oration on the Pilgrim founders of this nation, said: “Did they look for a retired spot, inoffensive for its obscurity, and safe in its remoteness, where the little church of Leyden might enjoy the freedom of conscience? Behold the _mighty regions_ over which, in _peaceful conquest_, ... they have borne the banners of the cross!”(742)",
+      "claim_text": "Edward Everett, in an oration on the Pilgrim founders of the United States, is quoted describing the Pilgrims (the 'little church of Leyden') seeking a retired, obscure spot for freedom of conscience and then, in 'peaceful conquest,' extending over 'mighty regions.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Edward Everett",
+        "Pilgrims",
+        "Leyden"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Edward Everett delivered an oration at Plymouth on 22 December 1824 on the Pilgrim founders; the quoted phrases ('the little church of Leyden', 'peaceful conquest ... they have borne the banners of the cross') appear in the published oration (Making of America / Univ. of Michigan). Accurate attribution and quotation.",
+        "sources": [
+          {
+            "title": "Edward Everett, oration at Plymouth (1824), Making of America — Univ. of Michigan Library",
+            "url": "https://quod.lib.umich.edu/m/moa/ACL8286.0003.001",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-084",
+      "paragraph": 19,
+      "quote": "The lamb-like horns indicate youth, innocence, and gentleness, fitly representing the character of the United States when presented to the prophet as “coming up” in 1798.",
+      "claim_text": "The lamb-like horns of the Revelation 13 beast are interpreted as fitly representing the youthful, innocent, gentle character of the United States as it was rising in 1798.",
+      "claim_type": "interpretive",
+      "entities": [
+        "United States",
+        "1798"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive claim reading the lamb-like horns as symbolizing US youth/innocence/gentleness in 1798. Prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-085",
+      "paragraph": 19,
+      "quote": "Among the Christian exiles who first fled to America, and sought an asylum from royal oppression and priestly intolerance, were many who determined to establish a government upon the broad foundation of civil and religious liberty.",
+      "claim_text": "Among the Christian exiles who first fled to America seeking asylum from royal oppression and priestly intolerance were many who determined to establish a government founded on civil and religious liberty.",
+      "claim_type": "biographical",
+      "entities": [
+        "American colonists"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Among early Christian settlers in America were groups fleeing royal oppression and religious intolerance who sought to found governments on civil and religious liberty (Pilgrims/Puritans, Roger Williams in Rhode Island, William Penn's Pennsylvania, Lord Baltimore's Maryland). Standard general history.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-086",
+      "paragraph": 19,
+      "quote": "Their view found place in the Declaration of Independence, which sets forth the great truth that “all men are created equal,” and endowed with the inalienable right to “life, liberty, and the pursuit of happiness.”",
+      "claim_text": "The Declaration of Independence sets forth that 'all men are created equal' and are endowed with the inalienable right to 'life, liberty, and the pursuit of happiness.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Declaration of Independence"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim from the Declaration of Independence (1776): 'all men are created equal ... life, Liberty and the pursuit of Happiness.' Attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-087",
+      "paragraph": 19,
+      "quote": "And the Constitution guarantees to the people the right of self-government, providing that representatives elected by the popular vote shall enact and administer the laws.",
+      "claim_text": "The United States Constitution guarantees the people the right of self-government, providing that popularly elected representatives shall enact and administer the laws.",
+      "claim_type": "event",
+      "entities": [
+        "United States Constitution"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The U.S. Constitution establishes representative self-government (Article I: laws made by elected representatives). Accurate characterization.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-088",
+      "paragraph": 19,
+      "quote": "Freedom of religious faith was also granted, every man being permitted to worship God according to the dictates of his conscience.",
+      "claim_text": "The United States founding framework granted freedom of religious faith, permitting every man to worship God according to the dictates of his own conscience.",
+      "claim_type": "event",
+      "entities": [
+        "United States Constitution"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The First Amendment (1791) guarantees free exercise of religion; the founding framework granted religious liberty. Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-089",
+      "paragraph": 19,
+      "quote": "Republicanism and Protestantism became the fundamental principles of the nation.",
+      "claim_text": "Republicanism and Protestantism became the fundamental principles of the United States.",
+      "claim_type": "interpretive",
+      "entities": [
+        "United States"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "[control sample; extractor flagged needs_verification:false] Largely interpretive, but carries a defensible factual core: the early United States was overwhelmingly Protestant in religious composition and republican in government, and these were widely regarded (then and by many historians since) as formative national principles. Characterization is defensible; not a smuggled false fact. Causal claim about their being 'the secret of' national power is opinion (see GC-25-090).",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-090",
+      "paragraph": 19,
+      "quote": "These principles are the secret of its power and prosperity.",
+      "claim_text": "Republicanism and Protestantism are the cause of the United States' power and prosperity.",
+      "claim_type": "interpretive",
+      "entities": [
+        "United States"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/causal opinion (republicanism + Protestantism = the cause of US power and prosperity). A value judgment, not empirically decidable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-091",
+      "paragraph": 19,
+      "quote": "The oppressed and down-trodden throughout Christendom have turned to this land with interest and hope. Millions have sought its shores, and the United States has risen to a place among the most powerful nations of the earth.",
+      "claim_text": "Millions of oppressed people throughout Christendom have emigrated to the United States, which has risen to a place among the most powerful nations of the earth.",
+      "claim_type": "statistic",
+      "entities": [
+        "United States",
+        "immigration"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Millions of immigrants, many fleeing oppression, emigrated to the United States through the 19th century, and the US rose to become one of the world's most powerful nations. Standard demographic/historical fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-092",
+      "paragraph": 20,
+      "quote": "But the beast with lamb-like horns “spake as a dragon. And he exerciseth all the power of the first beast before him, and causeth the earth and them which dwell therein to worship the first beast, whose deadly wound was healed; and ... saying to them that dwell on the earth, that they should make an image to the beast, which had the wound by a sword and did live.”(743)",
+      "claim_text": "The book of Revelation (13:11-14) is quoted describing the lamb-horned beast as speaking 'as a dragon,' exercising all the power of the first beast, and causing the earth's inhabitants to make an image to the first beast.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful rendering of Revelation 13:11-14; attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-093",
+      "paragraph": 21,
+      "quote": "The prediction that it will speak “as a dragon,” and exercise “all the power of the first beast,” plainly foretells a development of the spirit of intolerance and persecution that was manifested by the nations represented by the dragon and the leopard-like beast.",
+      "claim_text": "The Revelation 13 prediction that the lamb-horned beast will 'speak as a dragon' foretells a future development, in the nation it represents, of the spirit of intolerance and persecution earlier manifested by pagan Rome and the papacy.",
+      "claim_type": "theological",
+      "entities": [
+        "United States"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological prediction of a future development of intolerance/persecution in the US. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-094",
+      "paragraph": 21,
+      "quote": "And the statement that the beast with two horns “causeth the earth and them which dwell therein to worship the first beast,” indicates that the authority of this nation is to be exercised in enforcing some observance which shall be an act of homage to the papacy.",
+      "claim_text": "The Revelation 13 statement that the two-horned beast causes the earth to worship the first beast indicates that the United States' governmental authority will in the future be exercised to enforce an observance that constitutes homage to the papacy.",
+      "claim_type": "theological",
+      "entities": [
+        "United States",
+        "papacy"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological prediction that US authority will enforce homage to the papacy. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-095",
+      "paragraph": 22,
+      "quote": "The Constitution provides that “Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof,” and that “no religious test shall ever be required as a qualification to any office of public trust under the United States.”",
+      "claim_text": "The United States Constitution provides that 'Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof,' and that 'no religious test shall ever be required as a qualification to any office of public trust under the United States.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "United States Constitution",
+        "First Amendment"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] First clause is the First Amendment establishment/free-exercise clause; second is Article VI, clause 3 ('no religious Test shall ever be required as a Qualification to any Office or public Trust under the United States'). Both verbatim; attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-096",
+      "paragraph": 22,
+      "quote": "The founders of the nation wisely sought to guard against the employment of secular power on the part of the church, with its inevitable result—intolerance and persecution.",
+      "claim_text": "The founders of the United States deliberately sought to guard against the church's employment of secular power, understood as inevitably resulting in intolerance and persecution.",
+      "claim_type": "causal",
+      "entities": [
+        "Founding Fathers",
+        "United States"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The framers deliberately separated church and state (establishment clause, no-religious-test clause) to prevent state-enforced religion; the historical intent to guard against church use of secular coercion is well documented. The 'inevitable result' phrasing is interpretive.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-097",
+      "paragraph": 23,
+      "quote": "Here is clearly presented a form of government in which the legislative power rests with the people; a most striking evidence that the United States is the nation denoted in the prophecy.",
+      "claim_text": "The Revelation 13 depiction of the two-horned beast presents a form of government in which legislative power rests with the people, which the book takes as striking evidence that the United States is the nation denoted in the prophecy.",
+      "claim_type": "interpretive",
+      "entities": [
+        "United States"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive claim reading the two-horned beast as evidence the US is the prophesied nation. Prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-098",
+      "paragraph": 24,
+      "quote": "Then to learn what the image is like, and how it is to be formed, we must study the characteristics of the beast itself,—the papacy.",
+      "claim_text": "To understand the prophesied 'image to the beast,' one must study the characteristics of the first beast, identified as the papacy.",
+      "claim_type": "interpretive",
+      "entities": [
+        "papacy"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive instruction to study the papacy to understand the 'image.' Prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-099",
+      "paragraph": 25,
+      "quote": "When the early church became corrupted by departing from the simplicity of the gospel and accepting heathen rites and customs, she lost the Spirit and power of God; and in order to control the consciences of the people, she sought the support of the secular power.",
+      "claim_text": "The early Christian church became corrupted by departing from the simplicity of the gospel and adopting heathen rites and customs, lost the Spirit and power of God, and, in order to control the consciences of the people, sought the support of secular political power.",
+      "claim_type": "causal",
+      "entities": [
+        "early church",
+        "Roman Empire"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Doctrinally-central (papal-authority development). The checkable core — that the post-Constantinian church allied with imperial power and, absorbing surrounding cultural forms, increasingly used state support to control belief — is broadly supported by mainstream church history (Constantine 313, Theodosius' 380 Edict of Thessalonica making Nicene Christianity the state religion). The polemical framing ('lost the Spirit and power of God', 'heathen rites') is Protestant historiography, not the checkable component. source_quality: academic-partial.",
+        "sources": [
+          {
+            "title": "S. Bacchiocchi, From Sabbath to Sunday (Pontifical Gregorian Univ. Press, 1977), ch. 6 — church-state relations and Roman influence",
+            "url": "https://www.biblicalperspectives.com/books/sabbath_to_sunday/6.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          },
+          {
+            "title": "Edict of Thessalonica (380) — state establishment of Nicene Christianity",
+            "url": "https://en.wikipedia.org/wiki/Edict_of_Thessalonica",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-100",
+      "paragraph": 25,
+      "quote": "The result was the papacy, a church that controlled the power of the state, and employed it to further her own ends, especially for the punishment of “heresy.”",
+      "claim_text": "The result of the early church's alliance with secular power was the papacy, a church that controlled the power of the state and employed it especially for the punishment of heresy.",
+      "claim_type": "causal",
+      "entities": [
+        "papacy"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The church's alliance with imperial power and use of the state to punish heresy is historically attested (e.g., the execution of Priscillian in 385, the first Christian put to death by Christian authority for heresy; later imperial anti-heresy legislation). 'The papacy' as the singular product is a compressed, teleological framing typical of Protestant historiography, but the church-state-coercion core is supported. source_quality: academic-partial.",
+        "sources": [
+          {
+            "title": "Priscillian — first execution for heresy under Christian authority (385)",
+            "url": "https://en.wikipedia.org/wiki/Priscillian",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "S. Bacchiocchi, From Sabbath to Sunday (1977), ch. 6",
+            "url": "https://www.biblicalperspectives.com/books/sabbath_to_sunday/6.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-101",
+      "paragraph": 25,
+      "quote": "In order for the United States to form an image of the beast, the religious power must so control the civil government that the authority of the state will also be employed by the church to accomplish her own ends.",
+      "claim_text": "For the United States to form an 'image of the beast,' religious power must come to control the civil government such that state authority is employed by the church to accomplish its own ends.",
+      "claim_type": "theological",
+      "entities": [
+        "United States"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/conditional claim defining what would constitute the US forming an 'image of the beast.' Prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-102",
+      "paragraph": 26,
+      "quote": "Whenever the church has obtained secular power, she has employed it to punish dissent from her doctrines.",
+      "claim_text": "Whenever a church has obtained secular power, it has employed that power to punish dissent from its doctrines.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Sweeping interpretive generalization ('whenever the church has obtained secular power, she has punished dissent'). A rhetorical universal, not a discrete checkable fact.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-103",
+      "paragraph": 26,
+      "quote": "Protestant churches that have followed in the steps of Rome by forming alliance with worldly powers, have manifested a similar desire to restrict liberty of conscience.",
+      "claim_text": "Protestant churches that formed alliances with worldly political powers, following Rome's example, have manifested a similar desire to restrict liberty of conscience.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Protestant churches"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive generalization about Protestant churches allied with worldly powers. Not a discrete checkable fact as stated.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-104",
+      "paragraph": 26,
+      "quote": "An example of this is given in the long-continued persecution of dissenters by the Church of England.",
+      "claim_text": "The Church of England carried out a long-continued persecution of religious dissenters.",
+      "claim_type": "event",
+      "entities": [
+        "Church of England"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Church of England conducted long-continued persecution of dissenters (Puritans, Separatists, Nonconformists, Quakers) via the Act of Uniformity, the Clarendon Code (Conventicle Act, Five Mile Act), and earlier Elizabethan/Jacobean measures. Well documented.",
+        "sources": [
+          {
+            "title": "Great Ejection (1662) and the Clarendon Code — persecution of Nonconformists",
+            "url": "https://en.wikipedia.org/wiki/Great_Ejection",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Act of Uniformity 1662",
+            "url": "https://en.wikipedia.org/wiki/Act_of_Uniformity_1662",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-105",
+      "paragraph": 26,
+      "quote": "During the sixteenth and seventeenth centuries, thousands of non-conformist ministers were forced to leave their churches, and many, both of pastors and people, were subjected to fine, imprisonment, torture, and martyrdom.",
+      "claim_text": "During the sixteenth and seventeenth centuries, thousands of non-conformist ministers in England were forced to leave their churches, and many pastors and laypeople were subjected to fines, imprisonment, torture, and martyrdom.",
+      "claim_type": "statistic",
+      "entities": [
+        "Church of England",
+        "England",
+        "non-conformist ministers"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Documented: the Great Ejection of 1662 forced roughly 2,000-2,500 Nonconformist ministers from their livings, and under the Clarendon Code many pastors and laypeople suffered fines, imprisonment, and worse across the 16th-17th centuries. 'Thousands ... torture and martyrdom' is broadly accurate for the era (including earlier Marian and Elizabethan persecutions), with the ejection figures well attested.",
+        "sources": [
+          {
+            "title": "Great Ejection — c. 2,000-2,500 ministers ejected 1662; subsequent persecution",
+            "url": "https://en.wikipedia.org/wiki/Great_Ejection",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "The Great Ejection — Nonconformists and 1662, Evangelical Times",
+            "url": "https://www.evangelical-times.org/the-great-ejection-nonconformists-and-1662/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-106",
+      "paragraph": 27,
+      "quote": "Said Paul, “There” shall “come a falling away, ... and that man of sin be revealed.”(744)",
+      "claim_text": "The apostle Paul is quoted (2 Thessalonians 2:3) as prophesying that 'there shall come a falling away, ... and that man of sin be revealed.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Apostle Paul",
+        "Second Epistle to the Thessalonians"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] 2 Thessalonians 2:3 ('a falling away ... that man of sin be revealed'); attribution to Paul correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-107",
+      "paragraph": 27,
+      "quote": "It was apostasy that led the early church to seek the aid of the civil government, and this prepared the way for the development of the papacy,—the beast.",
+      "claim_text": "Apostasy within the early church led it to seek the aid of civil government, which prepared the way for the development of the papacy.",
+      "claim_type": "causal",
+      "entities": [
+        "early church",
+        "papacy"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The checkable core — that early-church accommodation and pursuit of civil support preceded and enabled the medieval papal power — aligns with mainstream church history on the Constantinian church-state settlement. 'Apostasy' is a theological label for the same development. source_quality: academic-partial.",
+        "sources": [
+          {
+            "title": "Edict of Thessalonica (380) and Constantinian church-state development",
+            "url": "https://en.wikipedia.org/wiki/Edict_of_Thessalonica",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "S. Bacchiocchi, From Sabbath to Sunday (1977), ch. 6",
+            "url": "https://www.biblicalperspectives.com/books/sabbath_to_sunday/6.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-108",
+      "paragraph": 27,
+      "quote": "So apostasy in the church will prepare the way for the image to the beast.",
+      "claim_text": "A future apostasy in the church will similarly prepare the way for the 'image to the beast.'",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological prediction that future apostasy will prepare the 'image to the beast.' Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-109",
+      "paragraph": 28,
+      "quote": "“In the last days perilous times shall come. For men shall be _lovers of their own selves,_ covetous, boasters, proud, blasphemers, disobedient to parents, unthankful, unholy, without natural affection, truce-breakers, false accusers, incontinent, fierce, _despisers of those that are good_, traitors, heady, high-minded, _lovers of pleasures more than lovers of God; having a form of godliness_, but denying the power thereof.”(745)",
+      "claim_text": "The apostle Paul is quoted (2 Timothy 3:1-5) prophesying that in the last days perilous times will come, marked by widespread selfishness, pride, and a form of godliness denying its power.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Apostle Paul",
+        "Second Epistle to Timothy"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful rendering of 2 Timothy 3:1-5; attribution to Paul correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-110",
+      "paragraph": 28,
+      "quote": "“Now the Spirit speaketh expressly, that in the latter times some shall depart from the faith, giving heed to seducing spirits, and doctrines of devils.”(746)",
+      "claim_text": "The First Epistle to Timothy (4:1) is quoted saying 'Now the Spirit speaketh expressly, that in the latter times some shall depart from the faith, giving heed to seducing spirits, and doctrines of devils.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "First Epistle to Timothy"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] 1 Timothy 4:1; faithful rendering, attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-111",
+      "paragraph": 28,
+      "quote": "Satan will work “with all power and signs and lying wonders, and with all deceivableness of unrighteousness.” And all that “received not the love of the truth, that they might be saved,” will be left to accept “strong delusion, that they should believe a lie.”(747)",
+      "claim_text": "The Second Epistle to the Thessalonians (2:9-11) is quoted describing Satan working 'with all power and signs and lying wonders' and those who reject the truth being given over to 'strong delusion, that they should believe a lie.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Second Epistle to the Thessalonians",
+        "Satan"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Composite of 2 Thessalonians 2:9-11; faithful rendering, attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-112",
+      "paragraph": 28,
+      "quote": "The Bible declares that before the coming of the Lord there will exist a state of religious declension similar to that in the first centuries. ... When this state of ungodliness shall be reached, the same results will follow as in the first centuries.",
+      "claim_text": "Before the second coming of Christ there will exist a state of religious declension similar to that of the first Christian centuries, producing the same results (apostasy leading to persecuting power).",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about end-time religious declension mirroring the early centuries. Prophetic interpretation; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-113",
+      "paragraph": 29,
+      "quote": "But there has been for years, in churches of the Protestant faith, a strong and growing sentiment in favor of a union based upon common points of doctrine.",
+      "claim_text": "For years there had been, in Protestant churches, a strong and growing sentiment favoring union based on common points of doctrine.",
+      "claim_type": "event",
+      "entities": [
+        "Protestant churches",
+        "ecumenical movement"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "There was a real and growing 19th-century Protestant movement toward union on shared doctrine (the Evangelical Alliance, founded London 1846, an early ecumenical body organized around common evangelical points). Accurate.",
+        "sources": [
+          {
+            "title": "Evangelical Alliance (1846) — Britannica",
+            "url": "https://www.britannica.com/topic/Evangelical-Alliance",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-114",
+      "paragraph": 29,
+      "quote": "To secure such a union, the discussion of subjects upon which all were not agreed—however important they might be from a Bible standpoint—must necessarily be waived.",
+      "claim_text": "Securing doctrinal union among Protestant churches would necessarily require setting aside discussion of subjects on which they disagreed.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Protestant churches"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive inference that doctrinal union requires waiving disputed subjects. Opinion; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-115",
+      "paragraph": 30,
+      "quote": "Charles Beecher, in a sermon in the year 1846, declared that the ministry of “the evangelical Protestant denominations” is “not only formed all the way up under a tremendous pressure of merely human fear, but they live, and move, and breathe in a state of things radically corrupt, and appealing every hour to every baser element of their nature to hush up the truth, and bow the knee to the power of apostasy. Was not this the way things went with Rome? Are we not living her life over again? And what do we see just ahead? Another general council! A world’s convention! Evangelical alliance, and universal creed!”(748)",
+      "claim_text": "Charles Beecher, in a sermon delivered in 1846, is quoted declaring that the ministry of the evangelical Protestant denominations was formed under human fear, lived in a state of corruption, and was heading toward 'another general council,' 'a world's convention,' and a 'universal creed,' comparing this trajectory to Rome's history.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Charles Beecher",
+        "1846"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Charles Beecher preached 'The Bible a Sufficient Creed' in 1846 (dedication of his church, Feb. 22, 1846; later published in Boston), an anti-creedal sermon warning that substituting creeds is 'a step in apostasy' and drawing the Rome parallel; the year, author, and thrust match. Verbatim confirmation of the full quoted passage ('another general council ... universal creed') not surfaced independently, hence medium confidence, but no sign of misquotation.",
+        "sources": [
+          {
+            "title": "'The First Step in Apostasy: The Anti-Creedalism of Charles Beecher', Spectrum Magazine",
+            "url": "https://spectrummagazine.org/post-archives/first-step-apostasy-anti-creedalism-charles-beecher/",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "'The Bible a Sufficient Creed' (Charles Beecher, 1846) — discussion, Fulcrum7",
+            "url": "https://www.fulcrum7.com/blog/2025/4/4/the-bible-a-sufficient-creed",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-116",
+      "paragraph": 30,
+      "quote": "When this shall be gained, then, in the effort to secure complete uniformity, it will be only a step to the resort to force.",
+      "claim_text": "Once doctrinal union among Protestant denominations is achieved, the effort to secure complete uniformity would lead, as a further step, to the resort to force.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological prediction that uniformity efforts will lead to force. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-117",
+      "paragraph": 31,
+      "quote": "When the leading churches of the United States, uniting upon such points of doctrine as are held by them in common, shall influence the state to enforce their decrees and to sustain their institutions, then Protestant America will have formed an image of the Roman hierarchy, and the infliction of civil penalties upon dissenters will inevitably result.",
+      "claim_text": "When the leading churches of the United States unite on common points of doctrine and influence the state to enforce their decrees, Protestant America will have formed an image of the Roman hierarchy, inevitably resulting in civil penalties upon dissenters.",
+      "claim_type": "theological",
+      "entities": [
+        "United States",
+        "Protestant churches",
+        "papacy"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/conditional prediction about US churches forming an 'image of the Roman hierarchy.' Prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-118",
+      "paragraph": 32,
+      "quote": "The beast with two horns “causeth [commands] all, both small and great, rich and poor, free and bond, to receive a mark in their right hand, or in their foreheads: and that no man might buy or sell, save he that had the mark, or the name of the beast, or the number of his name.”(749)",
+      "claim_text": "The book of Revelation (13:16-17) is quoted describing the two-horned beast as commanding all people, small and great, rich and poor, free and bond, to receive a mark, without which none could buy or sell.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful rendering of Revelation 13:16-17; attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-119",
+      "paragraph": 32,
+      "quote": "The third angel’s warning is, “If any man worship the beast and his image, and receive his mark in his forehead, or in his hand, the same shall drink of the wine of the wrath of God.”",
+      "claim_text": "Revelation 14 contains the third angel's warning against worshiping the beast and his image and receiving his mark.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Duplicate instance of the quotation also given in ¶12 (GC-25-056); logged separately as it recurs in this paragraph.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Revelation 14:9 (third angel's warning; repeat of GC-25-056); faithful rendering, attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-120",
+      "paragraph": 32,
+      "quote": "The “image to the beast” represents that form of apostate Protestantism which will be developed when the Protestant churches shall seek the aid of the civil power for the enforcement of their dogmas.",
+      "claim_text": "The 'image to the beast' of Revelation 13 represents a future form of apostate Protestantism that will develop when Protestant churches seek civil power to enforce their dogmas.",
+      "claim_type": "theological",
+      "entities": [
+        "Protestant churches"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological interpretation of the 'image to the beast' as future apostate Protestantism. Prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-121",
+      "paragraph": 33,
+      "quote": "the prophecy declares, “Here are they that keep the commandments of God, and the faith of Jesus.”",
+      "claim_text": "Revelation 14:12 declares 'Here are they that keep the commandments of God, and the faith of Jesus.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Duplicate instance of the quotation also given in ¶7 (GC-25-028).",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Revelation 14:12 (repeat of GC-25-028); faithful rendering, attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-122",
+      "paragraph": 33,
+      "quote": "Since those who keep God’s commandments are thus placed in contrast with those that worship the beast and his image and receive his mark, it follows that the keeping of God’s law, on the one hand, and its violation, on the other, will make the distinction between the worshipers of God and the worshipers of the beast.",
+      "claim_text": "The keeping of God's law versus its violation will constitute the distinguishing mark between the worshipers of God and the worshipers of the beast.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim that law-keeping vs violation marks the two classes. Prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-123",
+      "paragraph": 34,
+      "quote": "Says Daniel, of the little horn, the papacy, “He shall think to change the times and the law.”(750)",
+      "claim_text": "The book of Daniel (7:25) is quoted as saying of the 'little horn' that 'he shall think to change the times and the law.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Daniel",
+        "papacy"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Daniel 7:25 ('think to change the times and the law'; KJV: 'think to change times and laws'); faithful rendering, attribution to Daniel correct. The application to the papacy is separate interpretation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-124",
+      "paragraph": 34,
+      "quote": "And Paul styled the same power the “man of sin,” who was to exalt himself above God.",
+      "claim_text": "The apostle Paul is quoted (2 Thessalonians 2:3-4) styling the same power (identified with the papacy) the 'man of sin,' who was to exalt himself above God.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Apostle Paul",
+        "papacy"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Paul styles the power 'man of sin ... who exalteth himself above ... God' in 2 Thessalonians 2:3-4; attribution correct. The papal identification is separate interpretation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-125",
+      "paragraph": 34,
+      "quote": "Only by changing God’s law could the papacy exalt itself above God; whoever should understandingly keep the law as thus changed would be giving supreme honor to that power by which the change was made.",
+      "claim_text": "The papacy could only exalt itself above God by changing God's law, and whoever knowingly keeps the law as thus changed gives supreme honor to the power that made the change.",
+      "claim_type": "theological",
+      "entities": [
+        "papacy"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim (papacy exalts itself by changing God's law; keeping the changed law honors that power). Prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-126",
+      "paragraph": 35,
+      "quote": "The papacy has attempted to change the law of God. The second commandment, forbidding image worship, has been dropped from the law, and the fourth commandment has been so changed as to authorize the observance of the first instead of the seventh day as the Sabbath.",
+      "claim_text": "The papacy has attempted to change the law of God by dropping the second commandment (forbidding image worship) and altering the fourth commandment to authorize observance of the first day (Sunday) instead of the seventh day as the Sabbath.",
+      "claim_type": "causal",
+      "entities": [
+        "papacy",
+        "Ten Commandments",
+        "Sabbath",
+        "Sunday"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "Doctrinally-central. Two checkable pieces: (a) Catholic catechisms omit the images clause as a separate commandment — factually they follow the Augustinian enumeration that folds the images prohibition into the first commandment and splits coveting into the ninth/tenth; this is a numbering tradition (Augustine), not a papal deletion of the text from Scripture. (b) The seventh-to-first-day shift was a gradual development of the early centuries, not a decreed papal act. The polemical framing 'the papacy has attempted to change the law of God' matches White's sources (Andrews, Dowling) rather than modern historiography. source_quality: academic-full.",
+        "modern_consensus": "The Decalogue numbering is Augustinian (adopted by Catholics and Lutherans), not a papal suppression; the Sunday transition was a gradual early-church development, not a papal legislative change to the fourth commandment.",
+        "period_historiography": "19th-century Sabbatarian works (J.N. Andrews, History of the Sabbath; Dowling, History of Romanism) presented the papacy as deliberately altering the Decalogue.",
+        "sources": [
+          {
+            "title": "S. Bacchiocchi, From Sabbath to Sunday (Pontifical Gregorian Univ. Press, 1977) — gradual development of Sunday, not a papal decree",
+            "url": "https://www.biblicalperspectives.com/books/sabbath_to_sunday/6.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          },
+          {
+            "title": "J.N. Andrews, History of the Sabbath (1873) — period source asserting papal change",
+            "url": "https://archive.org/details/historyofsabbath00andr",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      },
+      "defense": {
+        "result": "defense_failed",
+        "argument": "Strong steelman: the two concrete, checkable sub-claims are true at face value. (a) Catholic catechisms do present the Decalogue without the images prohibition as a separately numbered commandment — this is the Augustinian enumeration (adopted by Catholics and Lutherans), a factual feature of Catholic catechetical texts, not a fabrication. (b) Catholic practice does observe Sunday rather than the seventh day and grounds this in the Church's own authority — and here GC is partly echoing the Catholic Church's OWN self-claim: standard Catholic catechisms and apologetics (e.g. Geiermann's Convert's Catechism) affirm that the Church changed the day of worship by its authority. So the sentence's factual kernel overlaps with what Rome itself asserts. What fails to reach 'supported': the intentionalist causal framing — that 'the papacy has attempted to change the law of God' as a deliberate legislative corruption of Scripture. Modern historiography (Bacchiocchi, Gregorian UP, academic-full) holds the Sunday transition was a gradual early-church development, not a decreed papal act, and the numbering is an inherited Augustinian tradition rather than a papal deletion of the biblical text. That polemical framing follows White's period sources (Andrews, Dowling — 'arrogant bishop of Rome' phrasing confirmed in local Andrews at line 12889). Anachronistic is the correct umbrella. No downgrade to disputed: the one academic source in play (Bacchiocchi) supports gradual development, cutting against the deliberate-papal-act reading, so escalation grounds for a downgrade are absent. source_quality: academic-full."
+      },
+      "impact": {
+        "severity": 3,
+        "centrality": 5,
+        "load_bearing": false,
+        "impact_score": 15,
+        "narrative_arc": "doctrinal",
+        "reasoning": "The claim conflates two different things: the Augustinian numbering tradition (which folds the images-prohibition into the first commandment, a numbering convention shared by Catholics and Lutherans, not a 'dropping' of scriptural text) and a genuinely attested Catholic claim of ecclesiastical authority over the Sunday-Sabbath change (which Catholic catechisms and apologetics — Segur, Tuberville — do affirm in their own words, verified supported at GC-25-142/143/149). The 'papacy has attempted to change the law of God' framing as a deliberate corrupting act is period Sabbatarian polemic (Andrews, Dowling) rather than how mainstream church history frames the numbering tradition or the gradual, centuries-long shift to Sunday (Bacchiocchi, academic-full). Counterfactual: delete this claim and the chapter's mark-of-the-beast argument is undamaged, because paragraphs 40-43 independently quote the Catholic Church's own self-description of having 'substituted Sunday for Saturday' by its own authority — the intentionalist 'dropped the second commandment' framing is rhetorically vivid but redundant with material that survives verification untouched. Centrality is maximal because this sentence sits at the exact hinge connecting Daniel 7:25 ('think to change the times and the law') to the Sabbath-Sunday identification that powers the entire end-time mark-of-the-beast doctrine across chs. 34-42."
+      }
+    },
+    {
+      "id": "GC-25-127",
+      "paragraph": 35,
+      "quote": "But papists urge, as a reason for omitting the second commandment, that it is unnecessary, being included in the first, and that they are giving the law exactly as God designed it to be understood.",
+      "claim_text": "Catholic apologists ('papists') argue that the omission of the second commandment from catechetical presentations of the Decalogue is justified because it is unnecessary, being included in the first commandment.",
+      "claim_type": "biographical",
+      "entities": [
+        "Roman Catholic Church"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Accurate description of Catholic catechetical practice: the tradition following Augustine's enumeration treats the prohibition of images as included within the first commandment (against false worship), which is exactly the rationale Catholic apologists give. The claim reports their argument, which they do make.",
+        "sources": [
+          {
+            "title": "Ten Commandments — differing enumeration (Augustinian/Catholic vs others)",
+            "url": "https://en.wikipedia.org/wiki/Ten_Commandments#Numbering",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          },
+          {
+            "title": "Catechism of the Catholic Church — treatment of the first commandment and images",
+            "url": "https://www.vatican.va/archive/ccc_css/archive/catechism/p3s2c1a1.htm",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-128",
+      "paragraph": 35,
+      "quote": "An intentional, deliberate change is presented: “He shall _think_ to change the times and the law.” The change in the fourth commandment exactly fulfils the prophecy.",
+      "claim_text": "The Daniel 7:25 prophecy of an intentional, deliberate change to 'the times and the law' is exactly fulfilled by the change made to the fourth commandment (the Sabbath).",
+      "claim_type": "theological",
+      "entities": [
+        "papacy",
+        "Sabbath"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim that the Daniel 7:25 prophecy is 'exactly fulfilled' by the Sabbath change. Prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-129",
+      "paragraph": 35,
+      "quote": "For this the only authority claimed is that of the church. Here the papal power openly sets itself above God.",
+      "claim_text": "The only authority claimed for the change of the Sabbath to Sunday is that of the church itself, which the book characterizes as the papal power openly setting itself above God.",
+      "claim_type": "theological",
+      "entities": [
+        "papacy"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim that only church authority is cited for Sunday, and that this sets the papacy above God. Prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-130",
+      "paragraph": 36,
+      "quote": "While the worshipers of God will be especially distinguished by their regard for the fourth commandment,—since this is the sign of His creative power, and the witness to His claim upon man’s reverence and homage,—the worshipers of the beast will be distinguished by their efforts to tear down the Creator’s memorial, to exalt the institution of Rome.",
+      "claim_text": "In the future, worshipers of God will be distinguished by their regard for the fourth commandment (the Sabbath) while worshipers of the beast will be distinguished by efforts to tear down the Sabbath in favor of the institution of Rome (Sunday).",
+      "claim_type": "theological",
+      "entities": [
+        "Sabbath",
+        "papacy"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological prediction distinguishing worshipers of God vs the beast by Sabbath vs Sunday. Prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-131",
+      "paragraph": 36,
+      "quote": "It was in behalf of the Sunday that popery first asserted its arrogant claims;(751) and its first resort to the power of the state was to compel the observance of Sunday as “the Lord’s day.”",
+      "claim_text": "The papacy's first assertion of its authority claims was made on behalf of Sunday observance, and its first resort to state power was to compel observance of Sunday as 'the Lord's day.'",
+      "claim_type": "causal",
+      "entities": [
+        "papacy",
+        "Sunday",
+        "state enforcement of religion"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "medium",
+        "rationale": "Doctrinally-central Sunday-law-origins cluster. Academic scholarship (Bacchiocchi) credits the church of Rome with a leading role in the adoption of Sunday, so the claim that Rome championed Sunday has support. But 'popery first asserted its arrogant claims' on behalf of Sunday and that 'its first resort to the power of the state was to compel the observance of Sunday' conflates papal authority with Constantine's civil Sunday edict of A.D. 321 (a pagan/imperial law, printed in Ayer's Source Book) and the Council of Laodicea (c. 360) — neither an exercise of papal state power. The framing traces to J.N. Andrews' History of the Sabbath (footnote 751). source_quality: academic-full.",
+        "modern_consensus": "The first Sunday legislation was Constantine's civil edict of 321, not a papal act; the church of Rome influenced Sunday's rise, but 'papal' state enforcement of Sunday is a later, retrojected framing.",
+        "period_historiography": "J.N. Andrews, History of the Sabbath (1873), presents Rome/'popery' as the first to demand Sunday observance and to invoke state power for it — the source behind this sentence (GC footnote 751).",
+        "sources": [
+          {
+            "title": "J.C. Ayer, A Source Book for Ancient Church History (1913) — Constantine's Sunday law of 321 ('venerable Day of the Sun'), local file",
+            "url": "https://archive.org/details/asourcebookhist00ayeruoft",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "S. Bacchiocchi, From Sabbath to Sunday (Pontifical Gregorian Univ. Press, 1977), ch. 6 — role of the church of Rome",
+            "url": "https://www.biblicalperspectives.com/books/sabbath_to_sunday/6.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          },
+          {
+            "title": "J.N. Andrews, History of the Sabbath (1873) — period source, local file",
+            "url": "https://archive.org/details/historyofsabbath00andr",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      },
+      "defense": {
+        "result": "defense_failed",
+        "argument": "Steelman splits the sentence in two. First clause — 'It was in behalf of the Sunday that popery first asserted its arrogant claims' — has genuine academic support: Bacchiocchi (From Sabbath to Sunday, Gregorian UP, ch. 6, academic-full) credits the church of Rome with a leading, pioneering role in promoting Sunday over the Sabbath (anti-Judaic motive; influence of the Roman bishop). The 'arrogant' framing traces directly to Andrews, who calls the bishop of Rome 'arrogant' in the same context (local Andrews line 12889, footnote 751), so the tracing is confirmed. Second clause — 'its first resort to the power of the state was to compel the observance of Sunday' — is where the claim over-reaches: the first state Sunday legislation was Constantine's civil edict of A.D. 321, framed in pagan terms ('the venerable Day of the Sun'), which the local Ayer Source Book prints as Codex Justinianus III.12.3, an imperial decree in the section on 'Repression of Heathenism' — not a papal act or an exercise of papal state power. The Council of Laodicea (c. 360) was a church council, not state enforcement. So the compound claim conflates the church of Rome's championing of Sunday with imperial civil legislation. Because the two halves diverge — one academically defensible, one anachronistic — the umbrella anachronistic verdict is the honest call. No downgrade to disputed: no academic dates 'papal' state enforcement of Sunday as its first act; Constantine's civil law precedes any such enforcement. Defense fails; verdict stands. source_quality: academic-full (Bacchiocchi) + primary (Ayer, Andrews local).",
+        "new_sources": [
+          {
+            "title": "J.C. Ayer, A Source Book for Ancient Church History (1913), p. 284 — Constantine's Sunday law of 321 as Codex Justinianus III.12.3, civil imperial edict, 'the venerable Day of the Sun' (local file, line 13271)",
+            "url": "https://archive.org/details/asourcebookhist00ayeruoft",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Confirms the first Sunday law was imperial/civil, not papal — corroborates the anachronistic verdict; located directly in local grep, no web search used."
+          },
+          {
+            "title": "J.N. Andrews, History of the Sabbath (1873) — 'arrogant bishop of Rome' framing (local file, line 12889)",
+            "url": "https://archive.org/details/historyofsabbath00andr",
+            "source_class": "primary",
+            "supports_verdict": true,
+            "note": "Confirms the tracing of GC's 'popery first asserted its arrogant claims' to Andrews (footnote 751)."
+          }
+        ]
+      },
+      "impact": {
+        "severity": 3,
+        "centrality": 5,
+        "load_bearing": false,
+        "impact_score": 15,
+        "narrative_arc": "doctrinal",
+        "reasoning": "The sentence's first half (Rome championed Sunday observance) has genuine academic support (Bacchiocchi); its second half ('its first resort to the power of the state was to compel the observance of Sunday') misattributes to papal action what modern scholarship credits to Constantine's civil edict of 321 (a pagan-imperial law, not an act of papal state power) and to a church council (Laodicea, c. 360). The sentence's function in the chapter is to draw a rhetorical parallel between the papacy's alleged historical precedent of using state coercion for Sunday and the predicted future US enforcement of Sunday law (paragraphs 148-155). Counterfactual: delete this claim and the parallel-drawing loses one supporting example, but the predictive argument does not depend on papal priority in state enforcement — it depends on Rome's claimed authority over the Sabbath-Sunday change (independently supported) and on the contemporary 1880s Sunday-law movement (Blair Bill, verified supported at GC-25-148), both of which stand untouched. Centrality is maximal because the sentence belongs to the same Sabbath/Sunday-change hinge as GC-25-126, load-bearing for the book's overall final-crisis chain even though not for this chapter's specific paragraph-level argument."
+      }
+    },
+    {
+      "id": "GC-25-132",
+      "paragraph": 36,
+      "quote": "Said Christ, “The Son of man is Lord also of the Sabbath.”",
+      "claim_text": "Christ is quoted in the Gospels as saying, 'The Son of man is Lord also of the Sabbath.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] 'The Son of man is Lord also of the sabbath' — Mark 2:28 / Luke 6:5; attribution to Christ correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-133",
+      "paragraph": 36,
+      "quote": "The fourth commandment declares, “The seventh day is the Sabbath of the Lord.”",
+      "claim_text": "The fourth commandment (Exodus 20:10) declares 'The seventh day is the Sabbath of the Lord.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Exodus",
+        "Sabbath"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Repeated instance of the fourth-commandment text also quoted in ¶4 (GC-25-011) and ¶10 (GC-25-047).",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Exodus 20:10 (repeat of the fourth-commandment text); faithful rendering, attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-134",
+      "paragraph": 36,
+      "quote": "And by the prophet Isaiah the Lord designates it, “My holy day.”(752)",
+      "claim_text": "The book of Isaiah (58:13) is quoted as recording the Lord designating the Sabbath 'My holy day.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Isaiah",
+        "Sabbath"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Isaiah 58:13 designates the Sabbath 'my holy day'; attribution to Isaiah correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-135",
+      "paragraph": 37,
+      "quote": "In His sermon on the mount He said: “Think not that I am come to destroy the law, or the prophets: I am not come to destroy, but to fulfil. For verily I say unto you, Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fulfilled. Whosoever therefore shall break one of these least commandments, and shall teach men so, he shall be called the least in the kingdom of heaven: but whosoever shall do and teach them, the same shall be called great in the kingdom of heaven.”(753)",
+      "claim_text": "Christ, in the Sermon on the Mount (Matthew 5:17-19), is quoted saying He came not to destroy the law but to fulfill it, and that not one jot or tittle would pass from the law.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Jesus Christ",
+        "Gospel of Matthew",
+        "Sermon on the Mount"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful rendering of Matthew 5:17-19 (Sermon on the Mount); attribution to Christ correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-136",
+      "paragraph": 37,
+      "quote": "The claim so often put forth, that Christ changed the Sabbath, is disproved by His own words.",
+      "claim_text": "The claim that Christ changed the Sabbath is disproved by His own recorded words in the Sermon on the Mount.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Jesus Christ",
+        "Sabbath"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "[control sample; extractor flagged needs_verification:false] Theological/interpretive argument that Christ's words (Matthew 5:17-19, already verified) disprove the claim that He changed the Sabbath. No smuggled checkable fact beyond the scripture citation itself; verdict stands as unverifiable interpretation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-137",
+      "paragraph": 38,
+      "quote": "It is a fact generally admitted by Protestants, that the Scriptures give no authority for the change of the Sabbath.",
+      "claim_text": "It is a fact generally admitted by Protestants that the Christian Scriptures give no authority for the change of the Sabbath from the seventh day to the first day.",
+      "claim_type": "event",
+      "entities": [
+        "Protestant churches",
+        "Sabbath"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "It is indeed widely acknowledged, including by Protestant scholars and confirmed by mainstream academic study, that the New Testament contains no explicit command transferring the Sabbath from the seventh to the first day; the change is generally recognized as a post-apostolic development. source_quality: academic-full.",
+        "sources": [
+          {
+            "title": "S. Bacchiocchi, From Sabbath to Sunday (Pontifical Gregorian Univ. Press, 1977), ch. 6 — no NT authority for the change",
+            "url": "https://www.biblicalperspectives.com/books/sabbath_to_sunday/6.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          },
+          {
+            "title": "George Elliott, The Abiding Sabbath (ATS prize essay) — acknowledges NT silence",
+            "url": "https://ccel.org/ccel/white/controversy/controversy.xxviii.html",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-138",
+      "paragraph": 38,
+      "quote": "This is plainly stated in publications issued by the American Tract Society and the American Sunday-school Union.",
+      "claim_text": "Publications issued by the American Tract Society and the American Sunday-school Union plainly state that Scripture provides no explicit authority for the change of the Sabbath.",
+      "claim_type": "biographical",
+      "entities": [
+        "American Tract Society",
+        "American Sunday-school Union"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The two works are identified (GC 1911 Appendix): George Elliott, The Abiding Sabbath (an American Tract Society prize essay) and A.E. Waffle, The Lord's Day (American Sunday-school Union). Both concede the absence of explicit NT authority for the day-change, as quoted at GC-25-139/140/141. Attribution to ATS and ASU publications is correct.",
+        "sources": [
+          {
+            "title": "GC 1911 Appendix source notes — Elliott (ATS) and Waffle (ASU)",
+            "url": "https://ccel.org/ccel/white/controversy/controversy.xxviii.html",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-139",
+      "paragraph": 38,
+      "quote": "One of these works acknowledges “the complete silence of the New Testament so far as any explicit command for the Sabbath [Sunday, the first day of the week] or definite rules for its observance are concerned.”(754)",
+      "claim_text": "A publication of the American Tract Society or American Sunday-school Union is quoted (footnote 754) acknowledging 'the complete silence of the New Testament so far as any explicit command for the Sabbath [Sunday] or definite rules for its observance are concerned.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "American Tract Society",
+        "American Sunday-school Union"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Footnote-754 quote identified: George Elliott, The Abiding Sabbath, p. 184 ('the complete silence of the New Testament so far as any explicit command for the Sabbath [Sunday] ... are concerned'). Accurate quotation of a real ATS prize-essay.",
+        "sources": [
+          {
+            "title": "George Elliott, The Abiding Sabbath, p. 184 (via GC 1911 Appendix)",
+            "url": "https://ccel.org/ccel/white/controversy/controversy.xxviii.html",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "The Abiding Sabbath — George Elliott (Google Books record)",
+            "url": "https://books.google.com/books/about/The_Abiding_Sabbath.html?id=CDknSAAACAAJ",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-140",
+      "paragraph": 39,
+      "quote": "Another says: “Up to the time of Christ’s death, no change had been made in the day;”(755)",
+      "claim_text": "A cited Protestant publication (footnote 755) is quoted stating 'Up to the time of Christ's death, no change had been made in the day.'",
+      "claim_type": "attributed_quote",
+      "entities": [],
+      "needs_verification": true,
+      "extractor_note": "Source not named in the chapter text; identity requires verification via footnote 755.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Footnote-755 quote identified: A.E. Waffle, The Lord's Day, pp. 186-188 ('Up to the time of Christ's death, no change had been made in the day'). Accurate quotation of a real ASU work.",
+        "sources": [
+          {
+            "title": "A.E. Waffle, The Lord's Day, pp. 186-188 (via GC 1911 Appendix)",
+            "url": "https://ccel.org/ccel/white/controversy/controversy.xxviii.html",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "The 'Abiding Sabbath' and the 'Lord's Day' — quotation confirmation",
+            "url": "https://ellenwhite.info/lords-day-controversy-8.htm",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-141",
+      "paragraph": 39,
+      "quote": "and, “so far as the record shows, they [the apostles] did not ... give any explicit command enjoining the abandonment of the seventh-day Sabbath, and its observance on the first day of the week.”(756)",
+      "claim_text": "A cited Protestant publication (footnote 756) is quoted stating that, so far as the biblical record shows, the apostles did not give any explicit command enjoining abandonment of the seventh-day Sabbath in favor of first-day observance.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Apostles"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Source not named in the chapter text; identity requires verification via footnote 756.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Footnote-756 quote identified: A.E. Waffle, The Lord's Day, pp. 186-188 ('so far as the record shows, they [the apostles] did not ... give any explicit command enjoining the abandonment of the seventh-day Sabbath ...'). Accurate quotation.",
+        "sources": [
+          {
+            "title": "A.E. Waffle, The Lord's Day, pp. 186-188 (via GC 1911 Appendix)",
+            "url": "https://ccel.org/ccel/white/controversy/controversy.xxviii.html",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "The 'Abiding Sabbath' and the 'Lord's Day' — quotation confirmation",
+            "url": "https://ellenwhite.info/lords-day-controversy-8.htm",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-142",
+      "paragraph": 40,
+      "quote": "Roman Catholics acknowledge that the change of the Sabbath was made by their church, and declare that Protestants, by observing the Sunday, are recognizing her power.",
+      "claim_text": "Roman Catholic sources acknowledge that the change of the Sabbath from Saturday to Sunday was made by the Catholic Church, and assert that Protestants, by observing Sunday, recognize the church's authority.",
+      "claim_type": "event",
+      "entities": [
+        "Roman Catholic Church",
+        "Sabbath",
+        "Sunday"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Doctrinally-central. Roman Catholic catechetical and apologetic literature does explicitly claim the Church transferred solemnity from Saturday to Sunday and cites Protestant Sunday-keeping as tacit recognition of that authority (Segur; Tuberville; the Catechism of Trent tradition). Academic scholarship (Bacchiocchi) confirms the church of Rome's leading role in the change historically. source_quality: academic-partial.",
+        "sources": [
+          {
+            "title": "L.G. de Segur, Plain Talk about the Protestantism of To-day (1868), p. 213",
+            "url": "https://books.google.com/books/about/Plain_talk_about_the_Protestantism_of_to.html?id=YOQCAAAAQAAJ",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "S. Bacchiocchi, From Sabbath to Sunday (1977), ch. 6 — Rome's role in the change",
+            "url": "https://www.biblicalperspectives.com/books/sabbath_to_sunday/6.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-143",
+      "paragraph": 40,
+      "quote": "In the “Catholic Catechism of Christian Religion,” in answer to a question as to the day to be observed in obedience to the fourth commandment, this statement is made: “During the old law, Saturday was the day sanctified; but _the church_, instructed by Jesus Christ, and directed by the Spirit of God, has substituted Sunday for Saturday; so now we sanctify the first, not the seventh day. Sunday means, and now is, the day of the Lord.”",
+      "claim_text": "A work titled 'Catholic Catechism of Christian Religion' is quoted stating that the church, instructed by Jesus Christ and directed by the Spirit of God, substituted Sunday for Saturday, so that Sunday, not the seventh day, is now sanctified.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Roman Catholic Church",
+        "Catholic Catechism of Christian Religion"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Doctrinally-central attributed quote. The passage ('During the old law, Saturday was the day sanctified; but the church, instructed by Jesus Christ ... has substituted Sunday for Saturday ...') is widely and consistently reproduced as from a 'Catholic Catechism of Christian Religion' and matches the authentic Catholic catechetical position (the Church claims authority to have transferred the day). The specific catechism is obscure and could not be located as a verbatim primary within budget, so medium confidence; the substance is a genuine, well-attested Catholic position, not a fabrication. source_quality: academic-partial.",
+        "sources": [
+          {
+            "title": "L.G. de Segur, Plain Talk about the Protestantism of To-day — parallel Catholic authority claim",
+            "url": "https://books.google.com/books/about/Plain_talk_about_the_Protestantism_of_to.html?id=YOQCAAAAQAAJ",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "S. Bacchiocchi, From Sabbath to Sunday (1977), ch. 6",
+            "url": "https://www.biblicalperspectives.com/books/sabbath_to_sunday/6.html",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-144",
+      "paragraph": 41,
+      "quote": "As the sign of the authority of the Catholic Church, papist writers cite “the very act of changing the Sabbath into Sunday, which Protestants allow of; ... because by keeping Sunday, they acknowledge the church’s power to ordain feasts, and to command them under sin.”(757)",
+      "claim_text": "Catholic apologetic writers are quoted (footnote 757) citing the change of the Sabbath into Sunday, which Protestants observe, as a sign of the Catholic Church's authority, since by keeping Sunday Protestants acknowledge the church's power to ordain feasts.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Roman Catholic Church"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Footnote-757 quote identified and confirmed: Henry Tuberville, An Abridgment of the Christian Doctrine, p. 58 ('By the very act of changing the Sabbath into Sunday, which Protestants allow of ... because by keeping Sunday, they acknowledge the church's power to ordain feasts, and to command them under sin'). Accurate quotation of a real Catholic catechetical work.",
+        "sources": [
+          {
+            "title": "H. Tuberville, An Abridgment of the Christian Doctrine, p. 58 — quoted passage",
+            "url": "https://www.libertymagazine.org/article/who-really-changed-the-sabbath",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "Catholic Sabbath-change statements — Tuberville quotation",
+            "url": "https://www.godssabbathtruth.com/catholicchurchchangedsabbathsunday.html",
+            "source_class": "apologetic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-145",
+      "paragraph": 42,
+      "quote": "The Roman Church has not relinquished her claim to supremacy; and when the world and the Protestant churches accept a sabbath of her creating, while they reject the Bible Sabbath, they virtually admit this assumption.",
+      "claim_text": "The Roman Catholic Church has not relinquished its claim to supremacy, and when the world and Protestant churches accept a Sabbath (Sunday) of the church's creating while rejecting the biblical Sabbath, they virtually admit that claim.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Roman Catholic Church"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/theological claim that Sunday-keeping tacitly concedes Rome's supremacy. Opinion/prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-146",
+      "paragraph": 42,
+      "quote": "they ignore the very principle which separates them from Rome,—that “the Bible, and the Bible only, is the religion of Protestants.”",
+      "claim_text": "The formula 'the Bible, and the Bible only, is the religion of Protestants' is cited as the principle separating Protestants from Rome.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Protestant churches"
+      ],
+      "needs_verification": true,
+      "extractor_note": "No individual author named in the chapter text; the phrase is historically associated with William Chillingworth. Attribution requires verification.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The formula 'The Bible, and the Bible only, is the religion of Protestants' is the famous epigram of William Chillingworth, The Religion of Protestants a Safe Way to Salvation (1637): 'The BIBLE, I say, the Bible only, is the religion of Protestants.' Genuine and correctly used as the sola-scriptura principle separating Protestants from Rome.",
+        "sources": [
+          {
+            "title": "William Chillingworth, The Religion of Protestants (1637) — Internet Archive",
+            "url": "https://archive.org/details/religionofprotes00chil",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "William Chillingworth — Wikipedia (the epigram)",
+            "url": "https://en.wikipedia.org/wiki/William_Chillingworth",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-147",
+      "paragraph": 42,
+      "quote": "The papist can see that they are deceiving themselves, willingly closing their eyes to the facts in the case.",
+      "claim_text": "The book asserts that Catholic observers can see that Protestants who observe Sunday while claiming Scripture alone as their rule are deceiving themselves.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive claim about how Catholics perceive Protestant self-deception. Opinion; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-148",
+      "paragraph": 42,
+      "quote": "As the movement for Sunday enforcement gains favor, he rejoices, feeling assured that it will eventually bring the whole Protestant world under the banner of Rome.",
+      "claim_text": "At the time of writing, a movement for civil enforcement of Sunday observance was gaining favor in the United States.",
+      "claim_type": "event",
+      "entities": [
+        "Sunday enforcement movement",
+        "United States"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Refers to the contemporaneous (late 19th-century) American Sunday-law/Sabbath-reform movement (e.g., the Blair Sunday Rest Bill agitation); the theological prediction of its outcome is separate from the historical claim that such a movement existed and was gaining favor.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "At the time of writing (late 1880s), a movement for civil enforcement of Sunday observance was indeed gaining ground in the US: the Blair Sunday-Rest Bill (introduced May 1888) and the National Reform Association / W.F. Crafts campaign, backed by petitions claiming millions of signatures. Accurate historical claim; the predicted outcome is separate theology.",
+        "sources": [
+          {
+            "title": "The Blair Sunday-Rest Bill (1888) and the national Sunday-law campaign — Liberty Magazine",
+            "url": "https://www.libertymagazine.org/article/a-clash-of-millennialisms-on-capitol-hill",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "'The Sunday Rest Bill and the Battle to Keep the Civil Sabbath' (Seton Hall Law scholarship)",
+            "url": "https://scholarship.shu.edu/cgi/viewcontent.cgi?article=1084&context=shlj",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-149",
+      "paragraph": 43,
+      "quote": "Romanists declare that “the observance of Sunday by the Protestants is an homage they pay, in spite of themselves, to the authority of the [Catholic] Church.”(758)",
+      "claim_text": "Catholic writers ('Romanists') are quoted (footnote 758) declaring that Protestant observance of Sunday is an homage paid, in spite of themselves, to the authority of the Catholic Church.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Roman Catholic Church"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Footnote-758 quote identified: Mgr L.G. de Segur, Plain Talk about the Protestantism of To-day (1868), p. 213 ('The observance of Sunday by the Protestants is an homage they pay, in spite of themselves, to the authority of the [Catholic] church'). Accurate quotation of a real Catholic work.",
+        "sources": [
+          {
+            "title": "L.G. de Segur, Plain Talk about the Protestantism of To-day (1868), p. 213",
+            "url": "https://books.google.com/books/about/Plain_talk_about_the_Protestantism_of_to.html?id=YOQCAAAAQAAJ",
+            "source_class": "primary",
+            "supports_verdict": true
+          },
+          {
+            "title": "Segur quotation reproduced in Catholic/Protestant Sunday-statement compilations",
+            "url": "https://www.bible-sabbath.com/Sabbath-Sunday/CATHOLICISM%20SPEAKS.pdf",
+            "source_class": "apologetic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-25-150",
+      "paragraph": 43,
+      "quote": "Those who, understanding the claims of the fourth commandment, choose to observe the false instead of the true Sabbath, are thereby paying homage to that power by which alone it is commanded.",
+      "claim_text": "Those who understand the claims of the fourth commandment yet choose to observe Sunday instead of the seventh-day Sabbath thereby pay homage to the church power that alone commands Sunday observance.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim that knowing Sunday-keepers pay homage to the commanding power. Prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-151",
+      "paragraph": 43,
+      "quote": "But in the very act of enforcing a religious duty by secular power, the churches would themselves form an image to the beast; hence the enforcement of Sunday-keeping in the United States would be an enforcement of the worship of the beast and his image.",
+      "claim_text": "If churches in the United States were to enforce Sunday-keeping by secular power, they would themselves form an image to the beast, so that such enforcement would constitute enforcement of the worship of the beast and his image.",
+      "claim_type": "theological",
+      "entities": [
+        "United States"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/conditional claim that enforcing Sunday would form an 'image to the beast' = enforcing beast-worship. Prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-152",
+      "paragraph": 44,
+      "quote": "But Christians of past generations observed the Sunday, supposing that in so doing they were keeping the Bible Sabbath;",
+      "claim_text": "Christians of past generations observed Sunday, believing that in doing so they were keeping the biblical Sabbath.",
+      "claim_type": "event",
+      "entities": [
+        "Christianity"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Christians of past generations did observe Sunday sincerely believing it the Christian Sabbath / Lord's Day. Uncontroversial historical characterization of ordinary Christian belief.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-153",
+      "paragraph": 44,
+      "quote": "and there are now true Christians in every church, not excepting the Roman Catholic communion, who honestly believe that Sunday is the Sabbath of divine appointment. God accepts their sincerity of purpose and their integrity before Him.",
+      "claim_text": "There are true Christians in every church, including the Roman Catholic communion, who honestly believe Sunday is the divinely appointed Sabbath, and God accepts their sincerity and integrity.",
+      "claim_type": "theological",
+      "entities": [
+        "Roman Catholic Church"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about sincere Sunday-keepers' standing before God. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-154",
+      "paragraph": 44,
+      "quote": "But when Sunday observance shall be enforced by law, and the world shall be enlightened concerning the obligation of the true Sabbath, then whoever shall transgress the command of God, to obey a precept which has no higher authority than that of Rome, will thereby honor popery above God.",
+      "claim_text": "In a future scenario in which Sunday observance is enforced by law and the world is enlightened about the seventh-day Sabbath's obligation, anyone who then transgresses God's command to obey the Rome-derived Sunday precept will thereby honor popery above God.",
+      "claim_type": "theological",
+      "entities": [
+        "papacy",
+        "Sunday enforcement"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological prediction about a future enforced-Sunday scenario and its moral consequences. Prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-155",
+      "paragraph": 44,
+      "quote": "As men then reject the institution which God has declared to be the sign of His authority, and honor in its stead that which Rome has chosen as the token of her supremacy, they will thereby accept the sign of allegiance to Rome—“the mark of the beast.”",
+      "claim_text": "Those who, in this future scenario, reject the divinely appointed Sabbath and honor the Rome-chosen Sunday will thereby accept 'the mark of the beast' as a sign of allegiance to Rome.",
+      "claim_type": "theological",
+      "entities": [
+        "papacy"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim that rejecting the Sabbath for Rome's Sunday = accepting the 'mark of the beast.' Prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-156",
+      "paragraph": 45,
+      "quote": "Prophecy declares that the first angel would make his announcement to “every nation, and kindred, and tongue, and people.”",
+      "claim_text": "The book of Revelation (14:6) is quoted stating that the first angel's message would be proclaimed to 'every nation, and kindred, and tongue, and people.'",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Revelation 14:6 ('every nation, and kindred, and tongue, and people'); faithful rendering, attribution correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-157",
+      "paragraph": 45,
+      "quote": "The most fearful threatening ever addressed to mortals is contained in the third angel’s message.",
+      "claim_text": "The third angel's message of Revelation 14 contains the most fearful threatening ever addressed to mortals.",
+      "claim_type": "theological",
+      "entities": [
+        "Book of Revelation"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/rhetorical claim ranking the third angel's message as the most fearful threatening ever addressed to mortals. Not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-158",
+      "paragraph": 45,
+      "quote": "Men are not to be left in darkness concerning this important matter; the warning against this sin is to be given to the world before the visitation of God’s judgments, that all may know why they are to be inflicted, and have opportunity to escape them.",
+      "claim_text": "The warning against this sin (worship of the beast and reception of his mark) is to be given to the whole world before God's judgments are visited, so all may know the reason and have opportunity to escape.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the warning being given before God's judgments. Prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-159",
+      "paragraph": 46,
+      "quote": "Although church and state will unite their power to compel “all, both small and great, rich and poor, free and bond,” to receive “the mark of the beast,”(759) yet the people of God will not receive it.",
+      "claim_text": "In the future, church and state will unite their power to compel all people, of every social class, to receive the mark of the beast, but the people of God will not receive it.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological prediction (church-state union compelling the mark; God's people refusing). Prophetic exegesis; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-25-160",
+      "paragraph": 46,
+      "quote": "The prophet of Patmos beholds “them that had gotten the victory over the beast, and over his image, and over his mark, and over the number of his name, stand on the sea of glass, having the harps of God,” and singing the song of Moses and the Lamb.(760)",
+      "claim_text": "The book of Revelation (15:2-3), attributed to 'the prophet of Patmos' (John), is quoted describing those who have gotten victory over the beast, his image, and his mark standing on a sea of glass with harps of God, singing the song of Moses and the Lamb.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Book of Revelation",
+        "John of Patmos"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful rendering of Revelation 15:2-3; 'the prophet of Patmos' (John) is the conventional attribution for Revelation. Correct.",
+        "sources": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "chapter": 25,
+  "stage": "adversarial",
+  "notes": "searches: ~0 (cheap audits resolved from local Andrews + Ayer + Bacchiocchi tracing; no concrete lead required a web search); full defenses: 0, cheap audits: 3. Doctrinally-central Sabbath/Sunday-origins cluster. All three anachronistic verdicts are appropriately mild and well-traced; verifier did not over-reach. Defenses failed, verdicts unchanged, but each carries a strengthened steelman. source_quality: academic-full (Bacchiocchi Gregorian UP in play) + primary (Ayer, Andrews local).",
+  "items": {
+    "GC-25-070": {
+      "result": "defense_failed",
+      "argument": "Steelman: the claim is presented explicitly as an interpretive prophetic scheme ('This period ... began with the supremacy of the papacy'), and its two anchors are not symmetrical. The terminus, 1798, is a real, well-documented event (Berthier's French army took Pius VI captive; verified supported at GC-25-071). The 538 anchor is not arbitrary either: it traces to datable events — Justinian's decree/letter honoring the Roman bishop and Belisarius' lifting of the Ostrogothic siege of Rome — which 19th-century historicists read as the moment the papacy could freely exercise authority. The scheme is internally coherent and applied consistently by White across chs. 15/18/22, drawn from her own sources (Andrews, Uriah Smith). Why it still fails: no independent modern historiography dates a '1260-year papal supremacy' from 538; the date is a backward calculation from the year-day scheme, and even Adventist critics (Casebolt, cited by verifier) note 538 marked a nadir, not a zenith, of papal power. The verdict stays anachronistic — the honest, mild category (not contradicted), matching CLAUDE.md rule 4. No downgrade to supported/disputed is available: the doctrinally-central escalation would require an academic source affirming 538 as a genuine start of papal supremacy, and none exists. source_quality: encyclopedic-only on the verifier's cited sources, but the anachronism call itself is sound; the verdict does not need academic backing since it is not accusatory beyond 'period-typical.'"
+    },
+    "GC-25-126": {
+      "result": "defense_failed",
+      "argument": "Strong steelman: the two concrete, checkable sub-claims are true at face value. (a) Catholic catechisms do present the Decalogue without the images prohibition as a separately numbered commandment — this is the Augustinian enumeration (adopted by Catholics and Lutherans), a factual feature of Catholic catechetical texts, not a fabrication. (b) Catholic practice does observe Sunday rather than the seventh day and grounds this in the Church's own authority — and here GC is partly echoing the Catholic Church's OWN self-claim: standard Catholic catechisms and apologetics (e.g. Geiermann's Convert's Catechism) affirm that the Church changed the day of worship by its authority. So the sentence's factual kernel overlaps with what Rome itself asserts. What fails to reach 'supported': the intentionalist causal framing — that 'the papacy has attempted to change the law of God' as a deliberate legislative corruption of Scripture. Modern historiography (Bacchiocchi, Gregorian UP, academic-full) holds the Sunday transition was a gradual early-church development, not a decreed papal act, and the numbering is an inherited Augustinian tradition rather than a papal deletion of the biblical text. That polemical framing follows White's period sources (Andrews, Dowling — 'arrogant bishop of Rome' phrasing confirmed in local Andrews at line 12889). Anachronistic is the correct umbrella. No downgrade to disputed: the one academic source in play (Bacchiocchi) supports gradual development, cutting against the deliberate-papal-act reading, so escalation grounds for a downgrade are absent. source_quality: academic-full."
+    },
+    "GC-25-131": {
+      "result": "defense_failed",
+      "argument": "Steelman splits the sentence in two. First clause — 'It was in behalf of the Sunday that popery first asserted its arrogant claims' — has genuine academic support: Bacchiocchi (From Sabbath to Sunday, Gregorian UP, ch. 6, academic-full) credits the church of Rome with a leading, pioneering role in promoting Sunday over the Sabbath (anti-Judaic motive; influence of the Roman bishop). The 'arrogant' framing traces directly to Andrews, who calls the bishop of Rome 'arrogant' in the same context (local Andrews line 12889, footnote 751), so the tracing is confirmed. Second clause — 'its first resort to the power of the state was to compel the observance of Sunday' — is where the claim over-reaches: the first state Sunday legislation was Constantine's civil edict of A.D. 321, framed in pagan terms ('the venerable Day of the Sun'), which the local Ayer Source Book prints as Codex Justinianus III.12.3, an imperial decree in the section on 'Repression of Heathenism' — not a papal act or an exercise of papal state power. The Council of Laodicea (c. 360) was a church council, not state enforcement. So the compound claim conflates the church of Rome's championing of Sunday with imperial civil legislation. Because the two halves diverge — one academically defensible, one anachronistic — the umbrella anachronistic verdict is the honest call. No downgrade to disputed: no academic dates 'papal' state enforcement of Sunday as its first act; Constantine's civil law precedes any such enforcement. Defense fails; verdict stands. source_quality: academic-full (Bacchiocchi) + primary (Ayer, Andrews local).",
+      "new_sources": [
+        {
+          "title": "J.C. Ayer, A Source Book for Ancient Church History (1913), p. 284 — Constantine's Sunday law of 321 as Codex Justinianus III.12.3, civil imperial edict, 'the venerable Day of the Sun' (local file, line 13271)",
+          "url": "https://archive.org/details/asourcebookhist00ayeruoft",
+          "source_class": "primary",
+          "supports_verdict": true,
+          "note": "Confirms the first Sunday law was imperial/civil, not papal — corroborates the anachronistic verdict; located directly in local grep, no web search used."
+        },
+        {
+          "title": "J.N. Andrews, History of the Sabbath (1873) — 'arrogant bishop of Rome' framing (local file, line 12889)",
+          "url": "https://archive.org/details/historyofsabbath00andr",
+          "source_class": "primary",
+          "supports_verdict": true,
+          "note": "Confirms the tracing of GC's 'popery first asserted its arrogant claims' to Andrews (footnote 751)."
+        }
+      ]
+    }
+  }
+}
