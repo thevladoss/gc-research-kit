@@ -3268,11 +3268,11 @@
           "score": 25
         },
         {
-          "id": "GC-35-057",
+          "id": "GC-02-053",
           "score": 20
         },
         {
-          "id": "GC-26-069",
+          "id": "GC-03-032",
           "score": 20
         },
         {
@@ -3280,7 +3280,11 @@
           "score": 20
         },
         {
-          "id": "GC-03-032",
+          "id": "GC-26-069",
+          "score": 20
+        },
+        {
+          "id": "GC-35-057",
           "score": 20
         }
       ],
@@ -3311,6 +3315,35 @@
         "37"
       ],
       "updated_at": "2026-07-05T20:56:12Z"
+    },
+    "synthesis_phase2b": {
+      "status": "done",
+      "agent": "synthesizer (claude-fable-5), single run (resumed once after a 64k output-token cap on the first attempt; no files had been written before the resume)",
+      "outputs": [
+        "synthesis/aggregate.json",
+        "synthesis/clusters.md",
+        "synthesis/central_thesis_analysis.md"
+      ],
+      "aggregate_new_sections": [
+        "adjudication_layer",
+        "thesis_chain_status"
+      ],
+      "thesis_chain_status": {
+        "1": "повреждено",
+        "2": "повреждено",
+        "3": "цело",
+        "4": "повреждено",
+        "5": "условная посылка",
+        "6": "повреждено",
+        "7": "вне проверки"
+      },
+      "period_standard": {
+        "total": 40,
+        "period-scholarship": 34,
+        "expositor-tradition": 6,
+        "note": "29 from dossier top-level notes + 11 flagged in per-claim notes (flag_source in aggregate); GC-01-101 and GC-05-107 excluded per their dossiers' own caveats"
+      },
+      "updated_at": "2026-07-05T22:17:02Z"
     }
   }
 }

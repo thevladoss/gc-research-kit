@@ -1,9 +1,10 @@
 {
   "project": "GCHAR",
   "stage": "synthesis",
-  "generated_at": "2026-07-05",
+  "generated_at": "2026-07-06",
+  "revision": "phase-2b",
   "language": "en",
-  "method_notes": "Built from impact/gc_ch00..42.impact.json (43 files, complete). Final verdicts are defense-adjusted: original verification verdict overridden by defense.revised_verdict where defense result was defense_succeeded or verdict_downgraded. Corpus verdict totals derive from manifest.json per-chapter verify counts plus the 34 defense adjustments observed in the impact files; manifest bookkeeping carries a small internal variance (extract total 4443 vs verify-sum 4440, chapters 21 and 34), flagged here rather than silently patched. Impact metrics copied verbatim from impact files.",
+  "method_notes": "Phase-1 base built from impact/gc_ch00..42.impact.json (43 files, complete); final verdicts are defense-adjusted. PHASE-2 UPDATE: the 97 claims with final verdict 'disputed' were adjudicated under ADJUDICATION_CHARTER.md v1.1-frozen (23 dossiers, adjudication/D01..D23.ruling.json); the 81 accusatory as-written rulings plus 1 conditional premise were re-scored by the impact stage into impact_adjudicated objects (24 chapters). Per charter section 11, Phase-2 rulings are THE FINAL WORD on these 97 claims and this file says so explicitly (see adjudication_layer.status). LAYER RULE: Phase-1 confirmed discrepancies (65, mostly anachronistic) and Phase-2 as-written failures (81) are distinct layers with distinct epistemics and are NEVER summed into one headline number. Within the 81, failing-component classes fact/frame/motive are reported separately and never aggregated. Phase-1 keys are preserved below unchanged as the historical layer; keys fully superseded carry a superseded_by pointer.",
   "corpus_totals": {
     "chapters": 43,
     "claims_extracted": 4443,
@@ -34,7 +35,8 @@
       "disputed": 97,
       "contradicted": 2,
       "misquotation": 0,
-      "unverifiable": 1346
+      "unverifiable": 1346,
+      "note": "Verification-stage vocabulary. The 97 'disputed' were re-opened and resolved by Phase-2 adjudication; see adjudication_layer for their final graded rulings."
     },
     "claim_type_distribution_manifest": {
       "note": "sums of manifest.json by_type; total 4456 vs 4443 extracted, manifest-internal variance ~0.3%",
@@ -50,6 +52,7 @@
     }
   },
   "key_metrics": {
+    "note": "Phase-1 layer metrics, preserved. The disputed-bucket entries are superseded by adjudication_layer.",
     "empirically_checkable_final": 3094,
     "supported_share_of_checkable": 0.948,
     "confirmed_discrepancies_total": 65,
@@ -91,6 +94,7 @@
     { "id": "GC-26-069", "verdict": "disputed", "impact_score": 15, "arc": "millerite", "topic": "1844 computation 'stands without impeachment' (overstates a contested calculation)" },
     { "id": "GC-35-057", "verdict": "disputed", "impact_score": 15, "arc": "eschatological", "topic": "Sunday observance originated with Rome (Bacchiocchi minority vs Rordorf/Carson mainstream)" }
   ],
+  "load_bearing_claims_note": "Phase-1 list (verdicts and scores as of Phase 1). For every entry with verdict 'disputed', the final ruling and re-scored impact live in adjudication_layer.claims.",
   "confirmed_discrepancies": [
     { "id": "GC-01-048", "final_verdict": "anachronistic", "severity": 2, "centrality": 1, "load_bearing": false, "impact_score": 2, "arc": "frame", "topic": "white marble from Rome in Herod's temple" },
     { "id": "GC-01-088", "final_verdict": "anachronistic", "severity": 3, "centrality": 2, "load_bearing": false, "impact_score": 6, "arc": "frame", "topic": "millions of Jews in Jerusalem at Passover siege (Josephus-derived)" },
@@ -158,74 +162,11 @@
     { "id": "GC-36-040", "final_verdict": "anachronistic", "severity": 3, "centrality": 4, "load_bearing": false, "impact_score": 12, "arc": "pre-reformation", "topic": "darkness under Rome the inevitable result of Scripture suppression" },
     { "id": "GC-42-064", "final_verdict": "anachronistic", "severity": 2, "centrality": 1, "load_bearing": false, "impact_score": 2, "arc": "eschatological", "topic": "six thousand years of Satan's work on earth (Ussher chronology)" }
   ],
-  "disputed_scored": [
-    { "id": "GC-00-005", "impact_score": 4, "load_bearing": false, "arc": "frame", "topic": "no written revelation for the first 2500 years (Ussher-frame)" },
-    { "id": "GC-00-007", "impact_score": 4, "load_bearing": false, "arc": "frame", "topic": "written word began with Moses (Mosaic authorship debate)" },
-    { "id": "GC-00-008", "impact_score": 4, "load_bearing": false, "arc": "frame", "topic": "Bible composed over 1600 years, Moses to John" },
-    { "id": "GC-01-079", "impact_score": 9, "load_bearing": true, "arc": "frame", "topic": "not one Christian perished in AD 70 (Pella tradition contested)" },
-    { "id": "GC-01-084", "impact_score": 4, "load_bearing": false, "arc": "frame", "topic": "flight to Pella in Perea" },
-    { "id": "GC-01-097", "impact_score": 2, "load_bearing": false, "arc": "frame", "topic": "Deuteronomy warning dated 14 centuries before AD 70", "original_verdict": "anachronistic" },
-    { "id": "GC-01-101", "impact_score": 9, "load_bearing": false, "arc": "frame", "topic": "Titus horrified, ordered temple spared (vs Josephus-debate on Titus's council)" },
-    { "id": "GC-02-008", "impact_score": 6, "load_bearing": false, "arc": "pre-reformation", "topic": "great numbers of early martyrs (scale debated, Moss et al.)" },
-    { "id": "GC-02-022", "impact_score": 2, "load_bearing": false, "arc": "pre-reformation", "topic": "catacombs as refuge (function debated)", "original_verdict": "anachronistic" },
-    { "id": "GC-02-050", "impact_score": 10, "load_bearing": false, "arc": "pre-reformation", "topic": "church pure under persecution, corrupted by ease (Constantinian-fall schema)" },
-    { "id": "GC-02-053", "impact_score": 12, "load_bearing": false, "arc": "pre-reformation", "topic": "Bible not accepted as standard of faith in this period" },
-    { "id": "GC-03-032", "impact_score": 10, "load_bearing": false, "arc": "doctrinal", "topic": "true Sabbath kept by all Christians in the first centuries", "original_verdict": "anachronistic" },
-    { "id": "GC-03-099", "impact_score": 4, "load_bearing": false, "arc": "pre-reformation", "topic": "millions of martyrs under the apostate power", "original_verdict": "anachronistic" },
-    { "id": "GC-04-082", "impact_score": 6, "load_bearing": false, "arc": "pre-reformation", "topic": "Waldensian soteriology as proto-Protestant", "original_verdict": "anachronistic" },
-    { "id": "GC-04-113", "impact_score": 8, "load_bearing": false, "arc": "pre-reformation", "topic": "Waldenses planted the seeds of the Reformation", "original_verdict": "anachronistic" },
-    { "id": "GC-07-036", "impact_score": 6, "load_bearing": false, "arc": "reformation", "topic": "Scala Sancta voice episode (1544 recollection layer)", "original_verdict": "anachronistic" },
-    { "id": "GC-08-088", "impact_score": 8, "load_bearing": false, "arc": "reformation", "topic": "wording of Luther's final answer at Worms ('Here I stand' layer)", "original_verdict": "anachronistic" },
-    { "id": "GC-10-054", "impact_score": 4, "load_bearing": false, "arc": "reformation", "topic": "Muenzer's motives as personal ambition", "original_verdict": "anachronistic" },
-    { "id": "GC-10-066", "impact_score": 6, "load_bearing": false, "arc": "reformation", "topic": "charge against Luther re Peasants' War 'without the slightest foundation'", "original_verdict": "anachronistic" },
-    { "id": "GC-14-156", "impact_score": 4, "load_bearing": false, "arc": "reformation", "topic": "Wesley's adherents more than half a million at his death (high-end figure)" },
-    { "id": "GC-15-028", "impact_score": 12, "load_bearing": false, "arc": "doctrinal", "topic": "Rome's policy to keep the Bible locked in an unknown tongue" },
-    { "id": "GC-15-043", "impact_score": 6, "load_bearing": false, "arc": "pre-reformation", "topic": "Albigenses as doctrinal brethren of the Waldenses", "original_verdict": "anachronistic" },
-    { "id": "GC-15-058", "impact_score": 4, "load_bearing": false, "arc": "reformation", "topic": "royal order extended St. Bartholomew massacre to the provinces" },
-    { "id": "GC-15-069", "impact_score": 12, "load_bearing": false, "arc": "frame", "topic": "'Crush the Wretch' meaning Christ (Voltaire's ecrasez l'infame aimed at the church/fanaticism)" },
-    { "id": "GC-15-113", "impact_score": 2, "load_bearing": false, "arc": "frame", "topic": "'After me, the deluge' attribution to Louis XV" },
-    { "id": "GC-15-142", "impact_score": 15, "load_bearing": true, "arc": "eschatological", "topic": "toleration restored 3.5 years after 1793 decrees (Rev 11 match; law of 21 Feb 1795 intervenes)" },
-    { "id": "GC-17-042", "impact_score": 4, "load_bearing": false, "arc": "millerite", "topic": "60,000 dead in six minutes at Lisbon 1755" },
-    { "id": "GC-17-044", "impact_score": 3, "load_bearing": false, "arc": "millerite", "topic": "marble quay sank with all people, no bodies surfaced" },
-    { "id": "GC-17-049", "impact_score": 4, "load_bearing": false, "arc": "millerite", "topic": "90,000 total dead at Lisbon (modern estimates lower)" },
-    { "id": "GC-17-066", "impact_score": 4, "load_bearing": false, "arc": "millerite", "topic": "Joel written 2500 years before 1780 (dating of Joel debated)" },
-    { "id": "GC-18-058", "impact_score": 15, "load_bearing": true, "arc": "millerite", "topic": "70 weeks subset of 2300 days" },
-    { "id": "GC-18-060", "impact_score": 15, "load_bearing": true, "arc": "millerite", "topic": "Artaxerxes decree 457 BC" },
-    { "id": "GC-18-062", "impact_score": 15, "load_bearing": true, "arc": "millerite", "topic": "three decrees jointly start the 2300 years" },
-    { "id": "GC-18-063", "impact_score": 15, "load_bearing": true, "arc": "millerite", "topic": "decree effective autumn 457 BC" },
-    { "id": "GC-18-065", "impact_score": 15, "load_bearing": true, "arc": "millerite", "topic": "baptism autumn AD 27" },
-    { "id": "GC-18-069", "impact_score": 8, "load_bearing": false, "arc": "millerite", "topic": "AD 27-34 gospel especially to the Jews" },
-    { "id": "GC-18-071", "impact_score": 15, "load_bearing": true, "arc": "millerite", "topic": "crucifixion AD 31" },
-    { "id": "GC-18-073", "impact_score": 15, "load_bearing": true, "arc": "millerite", "topic": "70 weeks ended AD 34" },
-    { "id": "GC-18-078", "impact_score": 15, "load_bearing": true, "arc": "millerite", "topic": "457 BC - AD 34 'fixed beyond question'" },
-    { "id": "GC-18-081", "impact_score": 20, "load_bearing": true, "arc": "millerite", "topic": "2300 days terminate in 1844" },
-    { "id": "GC-18-119", "impact_score": 12, "load_bearing": false, "arc": "millerite", "topic": "Litch's 391-years calculation to 11 Aug 1840" },
-    { "id": "GC-18-120", "impact_score": 12, "load_bearing": false, "arc": "millerite", "topic": "Ottoman 'fall' on the predicted date (interpretation of 1840 events)" },
-    { "id": "GC-20-016", "impact_score": 12, "load_bearing": true, "arc": "millerite", "topic": "independent, Scripture-only rise of advent belief in many lands" },
-    { "id": "GC-21-082", "impact_score": 12, "load_bearing": false, "arc": "reformation", "topic": "Rome withheld the Bible; Reformation restored it" },
-    { "id": "GC-22-039", "impact_score": 15, "load_bearing": true, "arc": "millerite", "topic": "autumn 457 BC as start of the 2300 days" },
-    { "id": "GC-23-008", "impact_score": 15, "load_bearing": true, "arc": "millerite", "topic": "2300 days begin autumn 457 BC" },
-    { "id": "GC-23-009", "impact_score": 15, "load_bearing": true, "arc": "millerite", "topic": "483 years to AD 27 'exactly fulfilled'" },
-    { "id": "GC-23-010", "impact_score": 15, "load_bearing": true, "arc": "millerite", "topic": "crucifixion spring AD 31" },
-    { "id": "GC-23-012", "impact_score": 15, "load_bearing": true, "arc": "millerite", "topic": "AD 34 turn to the Gentiles" },
-    { "id": "GC-25-051", "impact_score": 10, "load_bearing": true, "arc": "doctrinal", "topic": "Sabbath instituted in Eden" },
-    { "id": "GC-26-014", "impact_score": 15, "load_bearing": false, "arc": "doctrinal", "topic": "papal power changed the Sabbath, removing the seal from the law" },
-    { "id": "GC-26-025", "impact_score": 15, "load_bearing": false, "arc": "doctrinal", "topic": "Roman power made the breach in God's law by changing the Sabbath" },
-    { "id": "GC-26-069", "impact_score": 15, "load_bearing": true, "arc": "millerite", "topic": "1844 computation 'stands without impeachment'" },
-    { "id": "GC-32-017", "impact_score": 12, "load_bearing": false, "arc": "doctrinal", "topic": "papal leaders denied people the privilege of Bible study", "original_verdict": "anachronistic" },
-    { "id": "GC-33-034", "impact_score": 12, "load_bearing": false, "arc": "doctrinal", "topic": "eternal-torment doctrine received from Rome like the 'false sabbath'" },
-    { "id": "GC-33-099", "impact_score": 12, "load_bearing": false, "arc": "doctrinal", "topic": "natural immortality borrowed by Rome from paganism" },
-    { "id": "GC-35-017", "impact_score": 12, "load_bearing": false, "arc": "doctrinal", "topic": "Catholic laity not allowed access to the Bible (early 20th c. framing)" },
-    { "id": "GC-35-049", "impact_score": 9, "load_bearing": false, "arc": "doctrinal", "topic": "'faith ought not to be kept with heretics' as standing Catholic doctrine" },
-    { "id": "GC-35-057", "impact_score": 15, "load_bearing": true, "arc": "eschatological", "topic": "Sunday observance originated with Rome" },
-    { "id": "GC-35-076", "impact_score": 4, "load_bearing": false, "arc": "eschatological", "topic": "forged Sunday letter originated from the papal palace" },
-    { "id": "GC-35-086", "impact_score": 12, "load_bearing": false, "arc": "eschatological", "topic": "persecuted Waldenses, 'some of whom' Sabbath observers" },
-    { "id": "GC-35-103", "impact_score": 12, "load_bearing": false, "arc": "eschatological", "topic": "Protestant Sunday claims equated with papal fabrications" },
-    { "id": "GC-35-110", "impact_score": 12, "load_bearing": false, "arc": "doctrinal", "topic": "principles of Gregory VII and Innocent III still Rome's principles" },
-    { "id": "GC-36-044", "impact_score": 12, "load_bearing": false, "arc": "doctrinal", "topic": "natural immortality as 'papal error' opening door to spiritualism" },
-    { "id": "GC-37-029", "impact_score": 12, "load_bearing": false, "arc": "doctrinal", "topic": "Rome withholds the Bible from the common people (present tense, 1911)" },
-    { "id": "GC-42-032", "impact_score": 2, "load_bearing": false, "arc": "eschatological", "topic": "Massacre of the Innocents as historical event (historicity debated)" }
-  ],
+  "disputed_scored": {
+    "superseded_by": "adjudication_layer",
+    "note": "Phase-1 impact scores for 66 high-stakes disputed claims. Superseded: all 97 disputed claims received final graded rulings in Phase 2, and the 81 accusatory outcomes were re-scored (impact_adjudicated). Full Phase-1 objects remain in git history and in the impact files under the untouched 'impact' key.",
+    "ids": ["GC-00-005", "GC-00-007", "GC-00-008", "GC-01-079", "GC-01-084", "GC-01-097", "GC-01-101", "GC-02-008", "GC-02-022", "GC-02-050", "GC-02-053", "GC-03-032", "GC-03-099", "GC-04-082", "GC-04-113", "GC-07-036", "GC-08-088", "GC-10-054", "GC-10-066", "GC-14-156", "GC-15-028", "GC-15-043", "GC-15-058", "GC-15-069", "GC-15-113", "GC-15-142", "GC-17-042", "GC-17-044", "GC-17-049", "GC-17-066", "GC-18-058", "GC-18-060", "GC-18-062", "GC-18-063", "GC-18-065", "GC-18-069", "GC-18-071", "GC-18-073", "GC-18-078", "GC-18-081", "GC-18-119", "GC-18-120", "GC-20-016", "GC-21-082", "GC-22-039", "GC-23-008", "GC-23-009", "GC-23-010", "GC-23-012", "GC-25-051", "GC-26-014", "GC-26-025", "GC-26-069", "GC-32-017", "GC-33-034", "GC-33-099", "GC-35-017", "GC-35-049", "GC-35-057", "GC-35-076", "GC-35-086", "GC-35-103", "GC-35-110", "GC-36-044", "GC-37-029", "GC-42-032"]
+  },
   "per_chapter": [
     { "ch": 0, "title": "Introduction", "claims": 66, "scored": 3, "confirmed": 0, "disputed_scored": 3, "load_bearing": 0, "impact_sum": 12, "dominant_arc": "frame" },
     { "ch": 1, "title": "The Destruction Of Jerusalem", "claims": 127, "scored": 7, "confirmed": 3, "disputed_scored": 4, "load_bearing": 1, "impact_sum": 41, "dominant_arc": "frame" },
@@ -272,6 +213,7 @@
     { "ch": 42, "title": "The Controversy Ended", "claims": 101, "scored": 2, "confirmed": 1, "disputed_scored": 1, "load_bearing": 0, "impact_sum": 4, "dominant_arc": "eschatological" }
   ],
   "by_arc": {
+    "note": "Phase-1 layer. Adjudication-layer per-arc aggregation lives in adjudication_layer.rescore.by_arc.",
     "frame": { "scored": 15, "impact_sum": 79, "load_bearing": 1, "confirmed": 6 },
     "pre-reformation": { "scored": 45, "impact_sum": 449, "load_bearing": 3, "confirmed": 37 },
     "reformation": { "scored": 18, "impact_sum": 138, "load_bearing": 0, "confirmed": 11 },
@@ -282,105 +224,105 @@
   "clusters": [
     {
       "name": "sabbath_continuity_successionism",
-      "description": "Unbroken chain of seventh-day Sabbath keepers from apostles through the Middle Ages (Waldenses, Culdees, Armenians, hidden remnant). Traced to J.N. Andrews, History of the Sabbath (1873), ch. 'Traces of the Sabbath During the Dark Ages', and Wylie/Muston. Rejected by modern scholarship incl. Ball, The Seventh-Day Men (Clarendon 1994).",
+      "description": "Unbroken chain of seventh-day Sabbath keepers from apostles through the Middle Ages (Waldenses, Culdees, Armenians, hidden remnant). Traced to J.N. Andrews, History of the Sabbath (1873), ch. 'Traces of the Sabbath During the Dark Ages', and Wylie/Muston. Rejected by modern scholarship incl. Ball, The Seventh-Day Men (Clarendon 1994). PHASE-2: GC-03-032 discredited as written / well-supported weakened (gap 4); GC-35-086 improbable with weakened version only genuinely-open (Bohemian margin).",
       "dominant_verdict": "anachronistic",
       "source_lineage": ["J.N. Andrews", "J.A. Wylie", "A. Muston"],
       "ids": ["GC-04-001", "GC-04-016", "GC-04-027", "GC-04-034", "GC-04-036", "GC-04-046", "GC-03-032", "GC-26-032", "GC-35-086"]
     },
     {
       "name": "sunday_change_by_rome",
-      "description": "Rome as originator of Sunday observance and author of the Sabbath-to-Sunday change. Live scholarly dispute (Bacchiocchi vs Rordorf/Carson); papal-decree framing anachronistic.",
-      "dominant_verdict": "disputed",
+      "description": "Rome as originator of Sunday observance and author of the Sabbath-to-Sunday change. PHASE-2 (D02): single-agency origination improbable as written; weakened 'leading documented role in demoting the Sabbath' probable; 'no scriptural command for Sunday' well-supported across the spectrum; apostolic-vs-post-apostolic origin genuinely open (GC-03-050).",
+      "dominant_verdict": "improbable as written / probable-well-supported weakened (Phase-2)",
       "source_lineage": ["J.N. Andrews", "Protestant polemical tradition"],
       "ids": ["GC-25-126", "GC-25-131", "GC-26-014", "GC-26-025", "GC-35-057", "GC-33-034"]
     },
     {
       "name": "rome_and_the_bible",
-      "description": "Blanket claims that Rome prohibited/withheld the Bible from the people for centuries (and still does, in 1911 present tense). Modern scholarship documents restricted vernacular-translation policy after 1229/Trent, not a total ban; anachronistic or disputed depending on formulation.",
-      "dominant_verdict": "mixed (anachronistic/disputed)",
+      "description": "Blanket claims that Rome prohibited/withheld the Bible from the people for centuries (and still does, in 1911 present tense). PHASE-2 (D07): all six adjudicated claims improbable/discredited as written, all six weakened versions well-supported (documented regional restriction, post-Tridentine Italian/Spanish ban per Fragnito, magisterial interpretation monopoly); GC-35-017 discredited against the 1897-1911 approved-version regime.",
+      "dominant_verdict": "improbable/discredited as written / well-supported weakened (Phase-2)",
       "source_lineage": ["Protestant historiography (Wylie, D'Aubigne)"],
-      "ids": ["GC-02-053", "GC-03-024", "GC-05-003", "GC-15-028", "GC-21-082", "GC-32-017", "GC-35-017", "GC-36-040", "GC-37-029"]
+      "ids": ["GC-02-053", "GC-03-024", "GC-05-003", "GC-15-028", "GC-21-082", "GC-32-017", "GC-35-017", "GC-36-040", "GC-37-029", "GC-04-005"]
     },
     {
       "name": "chronology_1844",
-      "description": "The 457 BC / AD 27 / AD 31 / AD 34 / 1844 chain. Historically accurate as a report of Millerite reckoning; as objective chronology it rests on the contested 457-vs-458 BC anchor (Parker & Dubberstein: 458) and on the year-day principle rejected by mainstream Daniel scholarship (Antiochus IV reading).",
-      "dominant_verdict": "disputed",
-      "source_lineage": ["Miller/Bliss", "S. Bliss, Memoirs of William Miller"],
+      "description": "The 457 BC / AD 27 / AD 31 / AD 34 / 1844 chain. PHASE-2 (D01): one out-of-scope conditional premise (GC-18-058), one probable (GC-18-062), 12 improbable, 2 discredited epistemic absolutes (GC-18-078, GC-26-069). Ten accusatory rulings inherit the single 457 BC anchor (GC-18-060); independent failure points besides the anchor: GC-18-071 (astronomy excludes AD 31), GC-18-078 and GC-26-069 (frame absolutes). Arithmetic itself verified correct; weakened versions probable/well-supported throughout.",
+      "dominant_verdict": "improbable as written, one-chain inheritance (Phase-2)",
+      "source_lineage": ["Miller/Bliss", "S. Bliss, Memoirs of William Miller", "Ussher/KJV-margin chronology"],
       "ids": ["GC-18-058", "GC-18-060", "GC-18-062", "GC-18-063", "GC-18-065", "GC-18-069", "GC-18-071", "GC-18-073", "GC-18-078", "GC-18-081", "GC-22-039", "GC-23-008", "GC-23-009", "GC-23-010", "GC-23-012", "GC-26-069"]
     },
     {
       "name": "scheme_538_1798",
-      "description": "1260-year papal supremacy dated AD 538-1798. Historicist construct (Uriah Smith lineage); only the 1798 terminus (capture of Pius VI) is an independently anchored event.",
+      "description": "1260-year papal supremacy dated AD 538-1798. Historicist construct (Uriah Smith lineage); only the 1798 terminus (capture of Pius VI) is an independently anchored event. Phase-1 layer; not part of the disputed pool, unchanged by Phase 2.",
       "dominant_verdict": "anachronistic",
       "source_lineage": ["Uriah Smith", "Protestant historicism"],
       "ids": ["GC-15-011", "GC-25-070"]
     },
     {
       "name": "waldensian_antiquity_and_mission",
-      "description": "Waldensian apostolic antiquity, thousand-year Alpine continuity, missionary-school idealizations, and the Netherlands/Bohemia continuity bridges. Wylie/Muston/Perrin tradition built on misdated documents (Nobla Leyczon); modern dating starts with Waldo c.1173.",
-      "dominant_verdict": "anachronistic",
+      "description": "Waldensian apostolic antiquity, thousand-year Alpine continuity, missionary-school idealizations, continuity bridges. Phase-1 anachronistic core (Wylie/Muston/Perrin on misdated documents). PHASE-2 (D12): university-education, sewn-garment, untraceability, sola-fide and Reformation-seeding claims improbable as written; weakened kernels (clandestine barbes, memorized Scripture, machinery-of-merit rejection, Bohemian channel) probable/well-supported.",
+      "dominant_verdict": "anachronistic (Phase-1) + improbable-as-written (Phase-2)",
       "source_lineage": ["J.A. Wylie", "A. Muston", "Perrin/Morland/Allix (via 19th-c. authors)"],
-      "ids": ["GC-04-023", "GC-04-030", "GC-04-031", "GC-04-032", "GC-04-034", "GC-04-049", "GC-04-072", "GC-04-113", "GC-06-005", "GC-13-002", "GC-13-003", "GC-13-004", "GC-13-005", "GC-13-006", "GC-13-008", "GC-13-017", "GC-15-043"]
+      "ids": ["GC-04-023", "GC-04-030", "GC-04-031", "GC-04-032", "GC-04-034", "GC-04-049", "GC-04-072", "GC-04-069", "GC-04-070", "GC-04-071", "GC-04-082", "GC-04-113", "GC-06-005", "GC-13-002", "GC-13-003", "GC-13-004", "GC-13-005", "GC-13-006", "GC-13-008", "GC-13-017", "GC-15-043"]
     },
     {
       "name": "celtic_church_romanticism",
-      "description": "Iona/Culdee narrative: early British Christianity independent of Rome, Sabbath-keeping, destroyed by papal aggression; Columba's Scotland lineage. 19th-century Protestant romanticism.",
+      "description": "Iona/Culdee narrative: early British Christianity independent of Rome, Sabbath-keeping, destroyed by papal aggression; Columba's Scotland lineage. 19th-century Protestant romanticism. Phase-1 layer, unchanged.",
       "dominant_verdict": "anachronistic",
       "ids": ["GC-04-011", "GC-04-016", "GC-04-017", "GC-04-021", "GC-04-023", "GC-14-050", "GC-14-051"]
     },
     {
       "name": "reformation_embellishments",
-      "description": "Dramatized episodes and hero/villain sharpening inherited from D'Aubigne and Wylie: Scala Sancta voice, Tetzel's crimes and sayings, Muenzer's motives, Coburg hymn, dramatic execution of Louis XVI, Briconnet's stake choice, Anne of Bohemia, half-of-England Lollardy, Hussite century-prophecy. Event cores usually solid; the coloring is period-inherited.",
-      "dominant_verdict": "anachronistic",
-      "source_lineage": ["J.H. Merle D'Aubigne", "J.A. Wylie"],
-      "ids": ["GC-07-036", "GC-07-037", "GC-07-047", "GC-07-050", "GC-07-056", "GC-08-088", "GC-10-054", "GC-10-066", "GC-11-076", "GC-12-035", "GC-12-114", "GC-05-082", "GC-05-120", "GC-06-025", "GC-06-034", "GC-06-174"]
+      "description": "Dramatized episodes and hero/villain sharpening inherited from D'Aubigne and Wylie. Event cores usually solid; the coloring is period-inherited. PHASE-2 additions (D09, D22, D23): Scala Sancta thunder-voice improbable (kernel genuinely-open); Muntzer ambition-motive improbable (motive class); 'not the slightest foundation' Peasants'-War absolute improbable; Wycliffe no-predecessors absolute improbable; Hus Bohemian prologue (Comenius legend layer) improbable as written with documented substrates; 'Here I stand' genuinely open (GC-08-088).",
+      "dominant_verdict": "anachronistic (Phase-1) + improbable-as-written (Phase-2)",
+      "source_lineage": ["J.H. Merle D'Aubigne", "J.A. Wylie", "Comenius 1648 (via Wylie/Bonnechose)"],
+      "ids": ["GC-07-036", "GC-07-037", "GC-07-047", "GC-07-050", "GC-07-056", "GC-08-088", "GC-10-054", "GC-10-066", "GC-11-076", "GC-12-035", "GC-12-114", "GC-05-082", "GC-05-120", "GC-06-025", "GC-06-034", "GC-06-174", "GC-05-107", "GC-06-009", "GC-06-013", "GC-06-015", "GC-06-027", "GC-06-028", "GC-06-029", "GC-06-030", "GC-06-031", "GC-06-032"]
     },
     {
       "name": "surviving_contradicted",
-      "description": "The only two accusatory verdicts of the 'contradicted' class that survived the defense pass. Both are isolated slips, neither load-bearing.",
+      "description": "The only two accusatory verdicts of the Phase-1 'contradicted' class that survived the defense pass. Both are isolated slips, neither load-bearing. Unchanged by Phase 2.",
       "dominant_verdict": "contradicted",
       "ids": ["GC-11-095", "GC-20-063"]
     },
     {
       "name": "inflated_statistics",
-      "description": "Casualty and scale figures taken from period sources at their high end: Josephus's million at Jerusalem, 70,000 St. Bartholomew, Lisbon 60k/90k, 'millions of martyrs', Wesley's half-million.",
-      "dominant_verdict": "mixed (anachronistic/disputed)",
-      "ids": ["GC-01-088", "GC-01-115", "GC-02-008", "GC-03-099", "GC-15-061", "GC-17-042", "GC-17-049", "GC-14-156"]
+      "description": "Casualty and scale figures taken from period sources at their high end. PHASE-2 (D15, D17, D18, D19): Lisbon 60k/90k improbable vs modern 30-40k (Pereira); 'millions of martyrs' improbable vs archival tens of thousands judicial + hundreds of thousands massacre-inclusive (Monter, Contreras-Henningsen); Wesley half-million improbable vs ~135k members / 350-450k community (Field); 'great numbers' of early martyrs vindicated as probable (GC-02-008).",
+      "dominant_verdict": "improbable as written / well-supported weakened (Phase-2)",
+      "ids": ["GC-01-088", "GC-01-115", "GC-02-008", "GC-03-099", "GC-15-061", "GC-17-042", "GC-17-044", "GC-17-049", "GC-14-156"]
     },
     {
       "name": "ussher_chronology_frame",
-      "description": "Ussher-style biblical chronology as narrative frame: 6000 years, 2500 years without written revelation, 1600 years of Bible composition, 4000-year sacrificial system, Joel 2500 years before 1780.",
-      "dominant_verdict": "mixed (disputed/anachronistic, low impact)",
+      "description": "Ussher-style biblical chronology as narrative frame. PHASE-2 (D13): 'first 2500 years of human history' discredited as world history (gap 4); Mosaic composition anchor improbable (GC-00-007, inherited by GC-00-008 and GC-01-097); Joel dating genuinely open (GC-17-066).",
+      "dominant_verdict": "improbable/discredited as written, low impact (Phase-2)",
       "ids": ["GC-00-005", "GC-00-007", "GC-00-008", "GC-01-097", "GC-17-066", "GC-18-072", "GC-34-014", "GC-42-064"]
     },
     {
       "name": "immortality_of_soul_genealogy",
-      "description": "Natural immortality as pagan doctrine channelled through Rome into Christendom; linked to spiritualism vulnerability. Simplified genealogy of a complex patristic development; genuine scholarly debate on 'conditionalism' history.",
-      "dominant_verdict": "disputed",
+      "description": "Natural immortality and eternal torment as pagan doctrine channelled through Rome. PHASE-2 (D08): pagan-origin core of natural immortality vindicated as well-supported (Cullmann line); Rome-as-agent attribution improbable (patristic, pre-papal entry: Athenagoras, Tertullian, Augustine); 'only defense' exclusive improbable; receptivity-to-spiritualism mechanism probable (Braude).",
+      "dominant_verdict": "improbable as written / well-supported-probable weakened (Phase-2)",
       "ids": ["GC-33-034", "GC-33-099", "GC-36-044"]
     },
     {
       "name": "hebrews_pauline_authorship",
-      "description": "Paul named as author of Hebrews; standard 19th-century attribution, abandoned by modern scholarship.",
+      "description": "Paul named as author of Hebrews; standard 19th-century attribution, abandoned by modern scholarship. Phase-1 layer, unchanged.",
       "dominant_verdict": "anachronistic",
       "ids": ["GC-19-032", "GC-23-018"]
     },
     {
       "name": "jerusalem_ad70",
-      "description": "AD 70 narrative details: zero Christian casualties (Pella tradition), Titus's horror and order to spare the temple, Passover millions. Rests on Eusebius/Josephus read through Milman's History of the Jews.",
-      "dominant_verdict": "mixed (disputed/anachronistic)",
-      "ids": ["GC-01-048", "GC-01-079", "GC-01-084", "GC-01-088", "GC-01-101", "GC-01-115"]
+      "description": "AD 70 narrative details. PHASE-2 (D05, D16): 'not one Christian perished' improbable with weakened version only genuinely-open (pedigree: Newton/Clarke argument from silence); Pella flight itself genuinely open (Brandon vs Koester/Bourgel); Titus's Olivet 'not one stone' order improbable (contradicted by BJ 6.228); Titus's intent scenes genuinely open (Josephus vs Sulpicius/Tacitus standoff).",
+      "dominant_verdict": "genuinely-open core + improbable absolutes (Phase-2)",
+      "ids": ["GC-01-048", "GC-01-079", "GC-01-082", "GC-01-084", "GC-01-088", "GC-01-101", "GC-01-104", "GC-01-106", "GC-01-108", "GC-01-115"]
     },
     {
       "name": "french_revolution_rev11",
-      "description": "French Revolution as fulfilment of Revelation 11: 3.5-year suppression/restoration interval engineered to match prophecy; 'Crush the Wretch' aimed at Christ; Voltaire quotes. The 1793-1797 'exact fulfilment' claim conflicts with the law of 21 Feb 1795.",
-      "dominant_verdict": "disputed",
+      "description": "French Revolution as fulfilment of Revelation 11. PHASE-2 (D04): the 3.5-year construction discredited as written ('the same body' structurally unsatisfiable: Convention dissolved Oct 1795; law of 21 Feb 1795 breaks the interval; 1911 revisers themselves found no decrees); 'Crush the Wretch = Christ' gloss improbable vs Voltaire scholarship; Louis XV deluge quote improbable (Pompadour attribution). All three weakened versions well-supported. Construction was expositor-tradition standard (Croly 1827, U. Smith), NOT period academic historiography (Thiers/Mignet/Alison already described the staged 1794-95 restoration).",
+      "dominant_verdict": "discredited/improbable as written / well-supported weakened (Phase-2)",
       "ids": ["GC-15-069", "GC-15-113", "GC-15-142", "GC-15-152", "GC-15-155"]
     },
     {
       "name": "millerite_movement_framing",
-      "description": "The awakening as simultaneous independent discovery ('solely by the study of the Scriptures'), Litch's 1840 Ottoman prediction, Lisbon/dark-day signs. Individual events real; the independence/sign framing is the contested layer.",
-      "dominant_verdict": "disputed",
+      "description": "The awakening as simultaneous independent discovery; Litch's 1840 prediction; Lisbon signs. PHASE-2 (D03, D15): Litch quotation vindicated well-supported as written (GC-18-119, reversal in the book's favor); the 11-Aug-1840 'exact fulfilment' improbable (Convention of London 15 July; ultimatum 16-19 Aug); 'isolated bodies... solely by the study of the Scriptures' improbable vs documented networks (Albury, Irving's Lacunza translation), weakened convergence probable.",
+      "dominant_verdict": "mixed: 1 vindicated, rest improbable as written (Phase-2)",
       "ids": ["GC-20-016", "GC-20-063", "GC-18-119", "GC-18-120", "GC-17-042", "GC-17-044", "GC-17-049", "GC-17-066"]
     }
   ],
@@ -396,5 +338,320 @@
       { "id": "GC-20-063", "note": "defense honestly tested the anachronism excuse and rejected it: period sources (Wellcome 1874, Irving 1827) spell 'Ben-Ezra' correctly, so the slip is White's own" }
     ],
     "systemic_observation": "The defense pass moved every misquotation off the books (4 -> 0) and reduced contradicted from 4 to 2; 96.9% of surviving accusatory verdicts are anachronistic, i.e. inherited from the era's historiography rather than invented."
-  }
+  },
+  "adjudication_layer": {
+    "status": "FINAL. Per ADJUDICATION_CHARTER.md section 11, Phase-2 rulings are the final word on the 97 formerly-disputed claims; the report and all downstream consumers read them as such. Phase-1 files remain untouched; impact re-scores live under the new impact_adjudicated key beside the preserved Phase-1 impact objects.",
+    "charter": "ADJUDICATION_CHARTER.md v1.1-frozen",
+    "dossiers": 23,
+    "claims_adjudicated": 97,
+    "layer_separation_rule": "Phase-1 confirmed discrepancies (65: anachronistic 63, contradicted 2) and Phase-2 as-written accusatory rulings (81: improbable 72, discredited 9) are separate layers with different epistemics (inherited-source errors vs graded evidence rulings on formerly-open questions). They are never summed. Within the 81, failing-component classes are reported separately: fact 75, frame 4, motive 2 - never one headline number.",
+    "rulings_as_written": {
+      "well-supported": 1,
+      "probable": 4,
+      "genuinely-open": 10,
+      "improbable": 72,
+      "discredited": 9,
+      "out-of-scope": 1
+    },
+    "rulings_weakened": {
+      "well-supported": 63,
+      "probable": 21,
+      "genuinely-open": 11,
+      "n/a": 2
+    },
+    "framing_gap_distribution_97": { "0": 5, "1": 13, "2": 23, "3": 45, "4": 9, "null": 2 },
+    "framing_gap_distribution_81_accusatory": { "1": 7, "2": 19, "3": 45, "4": 9, "null": 1 },
+    "framing_gap_headline": "First-class result: 73 of 81 accusatory as-written rulings (90%) have weakened versions ruled probable or well-supported. Every discredited ruling (9) carries the maximum gap of 4. The corpus pattern - low as-written, high weakened - indicts the book's rhetoric (universals, exclusives, motive attributions, epistemic absolutes) more than its factual substance. Exceptions (8 of 81) where the weakened version does NOT recover to probable/well-supported: GC-00-007 (Mosaic composition, weakened genuinely-open), GC-01-079 (zero AD-70 deaths, weakened genuinely-open), GC-01-101 (Olivet 'not one stone' order, weakened genuinely-open), GC-06-013 and GC-06-015 (Hus's mother scenes, weakened genuinely-open), GC-06-031 (English strangers' flight, weakened n/a - nothing survives softening), GC-07-036 (Scala Sancta thunder-voice, weakened genuinely-open), GC-35-086 (Waldensian Sabbath-keepers, weakened genuinely-open). In these eight the substance itself is unresolved or absent, not merely over-asserted.",
+    "failing_component_kind_81": {
+      "fact": 75,
+      "frame": 4,
+      "motive": 2,
+      "frame_ids": ["GC-02-041", "GC-03-009", "GC-18-078", "GC-26-069"],
+      "motive_ids": ["GC-06-013", "GC-10-054"],
+      "note": "Charter section 11: classes are distinct reported categories. The two frame discredits (GC-18-078 'fixed beyond question', GC-26-069 'stands without impeachment') are epistemic-absolute failures, not date errors; the two motive failures are undocumented intent attributions (Hus's mother's valuation, Muntzer's ambition)."
+    },
+    "chains": {
+      "chain_inherited": 13,
+      "independent_failure_points": 68,
+      "rule": "Both numbers are always reported together; the inherited count is never headlined alone (charter section 11).",
+      "chain_map": {
+        "GC-18-060": ["GC-18-063", "GC-18-065", "GC-18-069", "GC-18-073", "GC-18-081", "GC-22-039", "GC-23-008", "GC-23-009", "GC-23-010", "GC-23-012"],
+        "GC-26-014": ["GC-26-025"],
+        "GC-00-007": ["GC-00-008", "GC-01-097"]
+      },
+      "d01_note": "Within the 1844-chronology dossier the 14 accusatory rulings reduce to 4 independent failure points: the 457 BC anchor itself (GC-18-060), the astronomical exclusion of AD 31 (GC-18-071), and the two epistemic-absolute frames (GC-18-078, GC-26-069)."
+    },
+    "direction_distribution": {
+      "accusatory_as_written": 81,
+      "genuinely_open": 10,
+      "favorable_as_written": 5,
+      "out_of_scope_conditional_premise": 1,
+      "favorable_ids": {
+        "well-supported": ["GC-18-119"],
+        "probable": ["GC-18-062", "GC-02-050", "GC-02-038", "GC-02-008"]
+      },
+      "genuinely_open_ids": ["GC-01-082", "GC-01-084", "GC-01-104", "GC-01-106", "GC-01-108", "GC-03-050", "GC-04-081", "GC-08-088", "GC-17-066", "GC-42-032"],
+      "verifier_reversals_in_favor_of_book": [
+        {
+          "id": "GC-18-119",
+          "dossier": "D03",
+          "note": "disputed -> well-supported as written: Litch's 11-Aug-1840 calculation is quoted accurately, with his own hedges preserved and the 1838-vs-1840 refinement sequence correctly stated; Phase-1 'disputed' had conflated attribution accuracy with fulfilment validity."
+        },
+        {
+          "id": "GC-06-009",
+          "dossier": "D22",
+          "note": "adjudication overturned the Phase-1 verifier UPWARD on the persecution core: pre-Hus Bohemian Waldensian persecution is documented in Patschovsky's 14th-century inquisition records (Gallus of Neuhaus; ~15 executions in the surviving fragment, extrapolations to ~200 burned), which Phase 1 missed. The as-written absolute (forest worship, blanket burn-decree) remains improbable; the weakened version is well-supported."
+        }
+      ]
+    },
+    "conditional_premise": {
+      "ids": ["GC-18-058"],
+      "category_note": "Fourth downstream category (charter v1.1 amendment): neither vindicated, nor discrepancy, nor open residue. GC-18-058 (the 70 weeks as subset of the 2300 days, common starting point) decomposes as entirely hermeneutic - a prophetic-structural synchronism historiography does not evaluate. It is load-bearing (centrality 5) for the sanctuary link of the thesis chain and is counted in NO impact column; downstream reporting presents it as a hermeneutic premise on which the empirical chain is conditional."
+    },
+    "period_standard": {
+      "definition": "Tag for accusatory as-written rulings whose claim matched the standard sources of 1844/1911 (charter section 11), bridging Phase-1 'anachronistic' vocabulary. Two variants: 'period-scholarship' = matched the respectable historiography/reference scholarship of the era (Wylie, D'Aubigne, Milman, Lyell, Encyclopaedia Americana, Ussher/KJV-margin chronology, Comenius via Wylie); 'expositor-tradition' = matched only the confessional expositor/homiletic tradition (Croly 1827, Uriah Smith, Clarke/Newton commentary absolutes, denominational eulogy figures), which the era's own academic scholarship did NOT share.",
+      "d04_distinction": "Key case (D04): the 3.5-year Rev-11 construction (GC-15-142) was standard in historicist EXPOSITION (Croly 1827; Uriah Smith) but not in period academic historiography - Thiers, Mignet and Alison already narrated the staged 1794-1795 restoration, and the 1911 revision team's own search failed to find the decrees. Hence variant 'expositor-tradition', not 'period-scholarship'.",
+      "counts": { "total_tagged": 40, "period-scholarship": 34, "expositor-tradition": 6, "of_81_share": 0.494, "core_from_dossier_notes": 29, "additional_from_ruling_notes": 11 },
+      "entries": [
+        { "id": "GC-25-051", "dossier": "D06", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "creation-ordinance view standard in 19th-c. conservative Protestant scholarship; Andrews 1873 quoted in the same GC paragraph" },
+        { "id": "GC-04-069", "dossier": "D12", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "matches Wylie (seminaries of Lombardy / Sorbonne motif from Perrin/Gilles/Leger)" },
+        { "id": "GC-04-070", "dossier": "D12", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "romantic staging matches Wylie/Muston layer" },
+        { "id": "GC-04-071", "dossier": "D12", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "underlying scenario matches Wylie; 'entire school' escalation is GC's own" },
+        { "id": "GC-04-082", "dossier": "D12", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "sola-fide Waldensian portrait matches Wylie and 19th-c. Protestant historiography" },
+        { "id": "GC-04-113", "dossier": "D12", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "Wylie/Muston/D'Aubigne seeds-of-Reformation narrative" },
+        { "id": "GC-15-043", "dossier": "D12", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "Wylie treats Albigenses as evangelical 'fellow-labourers' of the Waldenses" },
+        { "id": "GC-00-005", "dossier": "D13", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "Ussher frame in KJV margins and throughout White's milieu" },
+        { "id": "GC-00-008", "dossier": "D13", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "1,600-year span standard in 19th-c. conservative Bible handbooks" },
+        { "id": "GC-01-097", "dossier": "D13", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "Mosaic dating standard in White's milieu and named sources (de Wette's 7th-c. dating had not penetrated them)" },
+        { "id": "GC-17-042", "dossier": "D15", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "verbatim from Lyell / Encyclopaedia Americana 1831 (GC footnotes 480-481)" },
+        { "id": "GC-17-044", "dossier": "D15", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "quay account from Encyclopaedia Americana 1831; embellishment is the period source's" },
+        { "id": "GC-17-049", "dossier": "D15", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "90,000 a live figure in 19th-c. reference works" },
+        { "id": "GC-02-022", "dossier": "D17", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "catacomb-refuge legend standard in 19th-c. historiography and devotional literature" },
+        { "id": "GC-02-018", "dossier": "D17", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "continuous-manhunt picture standard in the Foxe/Wylie martyrological tradition" },
+        { "id": "GC-14-156", "dossier": "D19", "variant": "expositor-tradition", "flag_source": "dossier-notes", "basis": "half-million figure a commonplace of Victorian Methodist homiletic/eulogy literature (hearers-multiplier); the era's own membership records gave ~135k" },
+        { "id": "GC-15-058", "dossier": "D20", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "tracks Wylie nearly verbatim; royal-order reading standard across period sources, Protestant (Wylie, Dowling) and Catholic (Maimbourg) alike; note the premeditation consensus had turned by 1911 (Britannica)" },
+        { "id": "GC-06-009", "dossier": "D22", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "Wylie b.3 ch.1 nearly verbatim (Comenius 1648 conduit)" },
+        { "id": "GC-06-013", "dossier": "D22", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "Comenius p.25 via Wylie" },
+        { "id": "GC-06-015", "dossier": "D22", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "printed as sober fact in Wylie/Bonnechose" },
+        { "id": "GC-06-027", "dossier": "D22", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "two-Englishmen episode from Comenius via Wylie/Krasinski" },
+        { "id": "GC-06-028", "dossier": "D22", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "same Comenius/Wylie line" },
+        { "id": "GC-06-029", "dossier": "D22", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "same line; GC amplifies Wylie's 'corridor' to 'place open to the public'" },
+        { "id": "GC-06-030", "dossier": "D22", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "same line ('Many came to gaze' - Wylie)" },
+        { "id": "GC-06-031", "dossier": "D22", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "narrative closure of the Comenius legend as carried by Wylie" },
+        { "id": "GC-06-032", "dossier": "D22", "variant": "period-scholarship", "flag_source": "dossier-notes", "basis": "Wylie asserts Hus among the gazers" },
+        { "id": "GC-15-142", "dossier": "D04", "variant": "expositor-tradition", "flag_source": "dossier-notes", "basis": "3.5-year construction standard in historicist exposition (Croly 1827, U. Smith), NOT in period academic historiography (Thiers/Mignet/Alison)" },
+        { "id": "GC-15-069", "dossier": "D04", "variant": "expositor-tradition", "flag_source": "dossier-notes", "basis": "'l'infame = Christ' gloss circulated in 19th-c. Anglo-Protestant homiletics, not in Voltaire scholarship of any era" },
+        { "id": "GC-15-113", "dossier": "D04", "variant": "expositor-tradition", "flag_source": "dossier-notes", "basis": "royal attribution carried by 19th-c. retellings; earliest source (du Hausset 1824) gives it to Pompadour" },
+        { "id": "GC-18-060", "dossier": "D01", "variant": "period-scholarship", "flag_source": "ruling-notes", "basis": "457 was the KJV-margin (Ussher) date at Ezra 7 into the 1910s; Bliss quotes 'the best chronologers'" },
+        { "id": "GC-18-065", "dossier": "D01", "variant": "period-scholarship", "flag_source": "ruling-notes", "basis": "AD 26/27 the received reading of 19th-c. scholarship (co-regency reckoning of Tiberius)" },
+        { "id": "GC-03-032", "dossier": "D02", "variant": "expositor-tradition", "flag_source": "ruling-notes", "basis": "matches Andrews 1873 (confessional Sabbath historiography); the era's academic church history knew Justin and Barnabas" },
+        { "id": "GC-01-079", "dossier": "D05", "variant": "expositor-tradition", "flag_source": "ruling-notes", "basis": "zero-casualty absolute from the 18th-19th-c. commentary tradition (Newton 1754, Clarke), an argument from silence hardened into a universal" },
+        { "id": "GC-10-054", "dossier": "D09", "variant": "period-scholarship", "flag_source": "ruling-notes", "basis": "ambition frame renders D'Aubigne ('dissatisfied with the inferior part he was playing')" },
+        { "id": "GC-10-066", "dossier": "D09", "variant": "period-scholarship", "flag_source": "ruling-notes", "basis": "D'Aubigne's flat exoneration is the claim's source layer" },
+        { "id": "GC-02-041", "dossier": "D10", "variant": "period-scholarship", "flag_source": "ruling-notes", "basis": "'union' formulation standard in Wylie/D'Aubigne/Dowling" },
+        { "id": "GC-03-009", "dossier": "D10", "variant": "period-scholarship", "flag_source": "ruling-notes", "basis": "'vanquished became the conqueror' paradox from 19th-c. Protestant historiography (Dowling)" },
+        { "id": "GC-03-088", "dossier": "D10", "variant": "period-scholarship", "flag_source": "ruling-notes", "basis": "pagan-purgatory genealogy standard in White's cited period sources (Dowling 1845; Elliott/Hagenbach per 1911 appendix)" },
+        { "id": "GC-03-099", "dossier": "D18", "variant": "period-scholarship", "flag_source": "ruling-notes", "basis": "matches (and understates) Dowling's 50-million martyrology arithmetic of 1845" },
+        { "id": "GC-21-082", "dossier": "D07", "variant": "period-scholarship", "flag_source": "ruling-notes", "basis": "Wylie vol. 1 asserts exactly this claim ('The Bible began to be hidden from the people')" }
+      ],
+      "excluded_note": "GC-01-101 (D16) remains untagged: the ruling makes the tag conditional on verbatim confirmation of Milman's wording, which was blocked in-session. GC-05-107 (D23) untagged: its absolute exceeds even Wylie, who names Wycliffe's forerunners."
+    },
+    "rescore": {
+      "claims_rescored": 81,
+      "conditional_premise_not_counted": ["GC-18-058"],
+      "load_bearing": 18,
+      "impact_score_sum": 835,
+      "impact_score_mean": 10.31,
+      "top_impact": [
+        { "id": "GC-15-142", "score": 25 },
+        { "id": "GC-02-053", "score": 20 },
+        { "id": "GC-03-032", "score": 20 },
+        { "id": "GC-18-078", "score": 20 },
+        { "id": "GC-26-069", "score": 20 },
+        { "id": "GC-35-057", "score": 20 },
+        { "id": "GC-01-079", "score": 16 },
+        { "id": "GC-06-032", "score": 16 },
+        { "id": "GC-02-041", "score": 15 },
+        { "id": "GC-18-060", "score": 15 },
+        { "id": "GC-18-063", "score": 15 },
+        { "id": "GC-18-071", "score": 15 },
+        { "id": "GC-18-081", "score": 15 },
+        { "id": "GC-22-039", "score": 15 },
+        { "id": "GC-23-009", "score": 15 },
+        { "id": "GC-23-012", "score": 15 },
+        { "id": "GC-25-051", "score": 15 },
+        { "id": "GC-26-014", "score": 15 },
+        { "id": "GC-26-025", "score": 15 }
+      ],
+      "by_arc": {
+        "frame": { "claims": 10, "impact_sum": 69, "load_bearing": 1 },
+        "pre-reformation": { "claims": 27, "impact_sum": 237, "load_bearing": 0 },
+        "reformation": { "claims": 6, "impact_sum": 46, "load_bearing": 0 },
+        "doctrinal": { "claims": 14, "impact_sum": 182, "load_bearing": 1 },
+        "millerite": { "claims": 19, "impact_sum": 232, "load_bearing": 14 },
+        "eschatological": { "claims": 5, "impact_sum": 69, "load_bearing": 2 }
+      },
+      "per_chapter": [
+        { "ch": 0, "rescored": 3, "load_bearing": 0, "impact_sum": 18 },
+        { "ch": 1, "rescored": 3, "load_bearing": 1, "impact_sum": 32 },
+        { "ch": 2, "rescored": 7, "load_bearing": 0, "impact_sum": 72 },
+        { "ch": 3, "rescored": 7, "load_bearing": 0, "impact_sum": 74 },
+        { "ch": 4, "rescored": 6, "load_bearing": 0, "impact_sum": 41 },
+        { "ch": 5, "rescored": 1, "load_bearing": 0, "impact_sum": 9 },
+        { "ch": 6, "rescored": 9, "load_bearing": 0, "impact_sum": 72 },
+        { "ch": 7, "rescored": 1, "load_bearing": 0, "impact_sum": 9 },
+        { "ch": 10, "rescored": 2, "load_bearing": 0, "impact_sum": 13 },
+        { "ch": 14, "rescored": 1, "load_bearing": 0, "impact_sum": 6 },
+        { "ch": 15, "rescored": 6, "load_bearing": 1, "impact_sum": 63 },
+        { "ch": 17, "rescored": 3, "load_bearing": 0, "impact_sum": 15 },
+        { "ch": 18, "rescored": 9, "load_bearing": 7, "impact_sum": 120, "note": "plus GC-18-058 conditional premise (load-bearing, uncounted)" },
+        { "ch": 20, "rescored": 1, "load_bearing": 1, "impact_sum": 12 },
+        { "ch": 21, "rescored": 1, "load_bearing": 0, "impact_sum": 12 },
+        { "ch": 22, "rescored": 1, "load_bearing": 1, "impact_sum": 15 },
+        { "ch": 23, "rescored": 4, "load_bearing": 4, "impact_sum": 50 },
+        { "ch": 25, "rescored": 1, "load_bearing": 1, "impact_sum": 15 },
+        { "ch": 26, "rescored": 3, "load_bearing": 1, "impact_sum": 50 },
+        { "ch": 32, "rescored": 1, "load_bearing": 0, "impact_sum": 12 },
+        { "ch": 33, "rescored": 2, "load_bearing": 0, "impact_sum": 24 },
+        { "ch": 35, "rescored": 7, "load_bearing": 1, "impact_sum": 77 },
+        { "ch": 36, "rescored": 1, "load_bearing": 0, "impact_sum": 12 },
+        { "ch": 37, "rescored": 1, "load_bearing": 0, "impact_sum": 12 }
+      ]
+    },
+    "claims": [
+      { "id": "GC-00-005", "dossier": "D13", "ruling_as_written": "discredited", "ruling_weakened": "well-supported", "framing_gap": 4, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 4, "centrality": 2, "load_bearing": false, "impact_score": 8, "narrative_arc": "frame", "period_standard": "period-scholarship" },
+      { "id": "GC-00-007", "dossier": "D13", "ruling_as_written": "improbable", "ruling_weakened": "genuinely-open", "framing_gap": 1, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 2, "load_bearing": false, "impact_score": 6, "narrative_arc": "frame", "period_standard": null },
+      { "id": "GC-00-008", "dossier": "D13", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": true, "independent_failure_point": "GC-00-007", "severity": 2, "centrality": 2, "load_bearing": false, "impact_score": 4, "narrative_arc": "frame", "period_standard": "period-scholarship" },
+      { "id": "GC-01-079", "dossier": "D05", "ruling_as_written": "improbable", "ruling_weakened": "genuinely-open", "framing_gap": 1, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 4, "centrality": 4, "load_bearing": true, "impact_score": 16, "narrative_arc": "frame", "period_standard": "expositor-tradition" },
+      { "id": "GC-01-097", "dossier": "D13", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": true, "independent_failure_point": "GC-00-007", "severity": 2, "centrality": 2, "load_bearing": false, "impact_score": 4, "narrative_arc": "frame", "period_standard": "period-scholarship" },
+      { "id": "GC-01-101", "dossier": "D16", "ruling_as_written": "improbable", "ruling_weakened": "genuinely-open", "framing_gap": 1, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 4, "centrality": 3, "load_bearing": false, "impact_score": 12, "narrative_arc": "frame", "period_standard": null },
+      { "id": "GC-02-004", "dossier": "D17", "ruling_as_written": "improbable", "ruling_weakened": "probable", "framing_gap": 2, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 2, "load_bearing": false, "impact_score": 6, "narrative_arc": "pre-reformation", "period_standard": null, "tied_kinds": ["fact", "frame", "motive"] },
+      { "id": "GC-02-018", "dossier": "D17", "ruling_as_written": "discredited", "ruling_weakened": "well-supported", "framing_gap": 4, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 2, "load_bearing": false, "impact_score": 6, "narrative_arc": "pre-reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-02-022", "dossier": "D17", "ruling_as_written": "improbable", "ruling_weakened": "probable", "framing_gap": 2, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 2, "centrality": 2, "load_bearing": false, "impact_score": 4, "narrative_arc": "pre-reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-02-041", "dossier": "D10", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "frame", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 5, "load_bearing": false, "impact_score": 15, "narrative_arc": "pre-reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-02-042", "dossier": "D10", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 4, "load_bearing": false, "impact_score": 12, "narrative_arc": "pre-reformation", "period_standard": null, "tied_kinds": ["fact", "frame"] },
+      { "id": "GC-02-053", "dossier": "D10", "ruling_as_written": "discredited", "ruling_weakened": "well-supported", "framing_gap": 4, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 4, "centrality": 5, "load_bearing": false, "impact_score": 20, "narrative_arc": "pre-reformation", "period_standard": null },
+      { "id": "GC-02-054", "dossier": "D17", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 3, "load_bearing": false, "impact_score": 9, "narrative_arc": "pre-reformation", "period_standard": null },
+      { "id": "GC-03-009", "dossier": "D10", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "frame", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 3, "load_bearing": false, "impact_score": 9, "narrative_arc": "pre-reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-03-027", "dossier": "D10", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 3, "load_bearing": false, "impact_score": 9, "narrative_arc": "pre-reformation", "period_standard": null, "tied_kinds": ["fact", "motive"] },
+      { "id": "GC-03-032", "dossier": "D02", "ruling_as_written": "discredited", "ruling_weakened": "well-supported", "framing_gap": 4, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 4, "centrality": 5, "load_bearing": false, "impact_score": 20, "narrative_arc": "doctrinal", "period_standard": "expositor-tradition" },
+      { "id": "GC-03-039", "dossier": "D02", "ruling_as_written": "improbable", "ruling_weakened": "probable", "framing_gap": 2, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 4, "load_bearing": false, "impact_score": 12, "narrative_arc": "doctrinal", "period_standard": null, "tied_kinds": ["fact", "motive"] },
+      { "id": "GC-03-061", "dossier": "D11", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 3, "load_bearing": false, "impact_score": 9, "narrative_arc": "pre-reformation", "period_standard": null },
+      { "id": "GC-03-088", "dossier": "D10", "ruling_as_written": "improbable", "ruling_weakened": "probable", "framing_gap": 2, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 3, "load_bearing": false, "impact_score": 9, "narrative_arc": "pre-reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-03-099", "dossier": "D18", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 2, "load_bearing": false, "impact_score": 6, "narrative_arc": "pre-reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-04-005", "dossier": "D07", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 2, "load_bearing": false, "impact_score": 6, "narrative_arc": "pre-reformation", "period_standard": null, "tied_kinds": ["fact", "motive"] },
+      { "id": "GC-04-069", "dossier": "D12", "ruling_as_written": "improbable", "ruling_weakened": "probable", "framing_gap": 2, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 2, "load_bearing": false, "impact_score": 6, "narrative_arc": "pre-reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-04-070", "dossier": "D12", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 2, "centrality": 1, "load_bearing": false, "impact_score": 2, "narrative_arc": "pre-reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-04-071", "dossier": "D12", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 2, "load_bearing": false, "impact_score": 6, "narrative_arc": "pre-reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-04-082", "dossier": "D12", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 3, "load_bearing": false, "impact_score": 9, "narrative_arc": "pre-reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-04-113", "dossier": "D12", "ruling_as_written": "improbable", "ruling_weakened": "probable", "framing_gap": 2, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 4, "load_bearing": false, "impact_score": 12, "narrative_arc": "pre-reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-05-107", "dossier": "D23", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 3, "load_bearing": false, "impact_score": 9, "narrative_arc": "pre-reformation", "period_standard": null },
+      { "id": "GC-06-009", "dossier": "D22", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 3, "load_bearing": false, "impact_score": 9, "narrative_arc": "pre-reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-06-013", "dossier": "D22", "ruling_as_written": "improbable", "ruling_weakened": "genuinely-open", "framing_gap": 1, "failing_component_kind": "motive", "chain_inherited": false, "independent_failure_point": null, "severity": 2, "centrality": 1, "load_bearing": false, "impact_score": 2, "narrative_arc": "frame", "period_standard": "period-scholarship" },
+      { "id": "GC-06-015", "dossier": "D22", "ruling_as_written": "improbable", "ruling_weakened": "genuinely-open", "framing_gap": 1, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 1, "load_bearing": false, "impact_score": 3, "narrative_arc": "frame", "period_standard": "period-scholarship" },
+      { "id": "GC-06-027", "dossier": "D22", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 4, "centrality": 3, "load_bearing": false, "impact_score": 12, "narrative_arc": "pre-reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-06-028", "dossier": "D22", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 3, "load_bearing": false, "impact_score": 9, "narrative_arc": "pre-reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-06-029", "dossier": "D22", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 3, "load_bearing": false, "impact_score": 9, "narrative_arc": "pre-reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-06-030", "dossier": "D22", "ruling_as_written": "improbable", "ruling_weakened": "probable", "framing_gap": 2, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 2, "centrality": 2, "load_bearing": false, "impact_score": 4, "narrative_arc": "pre-reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-06-031", "dossier": "D22", "ruling_as_written": "improbable", "ruling_weakened": "n/a", "framing_gap": null, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 4, "centrality": 2, "load_bearing": false, "impact_score": 8, "narrative_arc": "pre-reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-06-032", "dossier": "D22", "ruling_as_written": "improbable", "ruling_weakened": "probable", "framing_gap": 2, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 4, "centrality": 4, "load_bearing": false, "impact_score": 16, "narrative_arc": "pre-reformation", "period_standard": "period-scholarship", "tied_kinds": ["fact", "frame"] },
+      { "id": "GC-07-036", "dossier": "D09", "ruling_as_written": "improbable", "ruling_weakened": "genuinely-open", "framing_gap": 1, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 3, "load_bearing": false, "impact_score": 9, "narrative_arc": "reformation", "period_standard": null },
+      { "id": "GC-10-054", "dossier": "D09", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "motive", "chain_inherited": false, "independent_failure_point": null, "severity": 2, "centrality": 2, "load_bearing": false, "impact_score": 4, "narrative_arc": "reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-10-066", "dossier": "D09", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 3, "load_bearing": false, "impact_score": 9, "narrative_arc": "reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-14-156", "dossier": "D19", "ruling_as_written": "improbable", "ruling_weakened": "probable", "framing_gap": 2, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 2, "load_bearing": false, "impact_score": 6, "narrative_arc": "reformation", "period_standard": "expositor-tradition" },
+      { "id": "GC-15-028", "dossier": "D07", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 4, "load_bearing": false, "impact_score": 12, "narrative_arc": "doctrinal", "period_standard": null },
+      { "id": "GC-15-043", "dossier": "D12", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 2, "centrality": 3, "load_bearing": false, "impact_score": 6, "narrative_arc": "pre-reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-15-058", "dossier": "D20", "ruling_as_written": "discredited", "ruling_weakened": "well-supported", "framing_gap": 4, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 2, "load_bearing": false, "impact_score": 6, "narrative_arc": "reformation", "period_standard": "period-scholarship" },
+      { "id": "GC-15-069", "dossier": "D04", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 4, "load_bearing": false, "impact_score": 12, "narrative_arc": "frame", "period_standard": "expositor-tradition" },
+      { "id": "GC-15-113", "dossier": "D04", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 2, "centrality": 1, "load_bearing": false, "impact_score": 2, "narrative_arc": "frame", "period_standard": "expositor-tradition", "tied_kinds": ["fact", "frame"] },
+      { "id": "GC-15-142", "dossier": "D04", "ruling_as_written": "discredited", "ruling_weakened": "well-supported", "framing_gap": 4, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 5, "centrality": 5, "load_bearing": true, "impact_score": 25, "narrative_arc": "eschatological", "period_standard": "expositor-tradition" },
+      { "id": "GC-17-042", "dossier": "D15", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 2, "load_bearing": false, "impact_score": 6, "narrative_arc": "millerite", "period_standard": "period-scholarship" },
+      { "id": "GC-17-044", "dossier": "D15", "ruling_as_written": "improbable", "ruling_weakened": "probable", "framing_gap": 2, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 1, "load_bearing": false, "impact_score": 3, "narrative_arc": "millerite", "period_standard": "period-scholarship" },
+      { "id": "GC-17-049", "dossier": "D15", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 2, "load_bearing": false, "impact_score": 6, "narrative_arc": "millerite", "period_standard": "period-scholarship" },
+      { "id": "GC-18-058", "dossier": "D01", "category": "conditional_premise", "ruling_as_written": "out-of-scope", "ruling_weakened": "n/a", "framing_gap": null, "failing_component_kind": null, "chain_inherited": false, "independent_failure_point": null, "severity": null, "centrality": 5, "load_bearing": true, "impact_score": null, "narrative_arc": "millerite", "period_standard": null },
+      { "id": "GC-18-060", "dossier": "D01", "ruling_as_written": "improbable", "ruling_weakened": "probable", "framing_gap": 2, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 5, "load_bearing": true, "impact_score": 15, "narrative_arc": "millerite", "period_standard": "period-scholarship" },
+      { "id": "GC-18-063", "dossier": "D01", "ruling_as_written": "improbable", "ruling_weakened": "probable", "framing_gap": 2, "failing_component_kind": "fact", "chain_inherited": true, "independent_failure_point": "GC-18-060", "severity": 3, "centrality": 5, "load_bearing": true, "impact_score": 15, "narrative_arc": "millerite", "period_standard": null },
+      { "id": "GC-18-065", "dossier": "D01", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": true, "independent_failure_point": "GC-18-060", "severity": 2, "centrality": 5, "load_bearing": true, "impact_score": 10, "narrative_arc": "millerite", "period_standard": "period-scholarship" },
+      { "id": "GC-18-069", "dossier": "D01", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": true, "independent_failure_point": "GC-18-060", "severity": 2, "centrality": 4, "load_bearing": false, "impact_score": 8, "narrative_arc": "millerite", "period_standard": null },
+      { "id": "GC-18-071", "dossier": "D01", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 5, "load_bearing": true, "impact_score": 15, "narrative_arc": "millerite", "period_standard": null },
+      { "id": "GC-18-073", "dossier": "D01", "ruling_as_written": "improbable", "ruling_weakened": "probable", "framing_gap": 2, "failing_component_kind": "fact", "chain_inherited": true, "independent_failure_point": "GC-18-060", "severity": 2, "centrality": 5, "load_bearing": true, "impact_score": 10, "narrative_arc": "millerite", "period_standard": null },
+      { "id": "GC-18-078", "dossier": "D01", "ruling_as_written": "discredited", "ruling_weakened": "well-supported", "framing_gap": 4, "failing_component_kind": "frame", "chain_inherited": false, "independent_failure_point": null, "severity": 4, "centrality": 5, "load_bearing": true, "impact_score": 20, "narrative_arc": "millerite", "period_standard": null },
+      { "id": "GC-18-081", "dossier": "D01", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": true, "independent_failure_point": "GC-18-060", "severity": 3, "centrality": 5, "load_bearing": true, "impact_score": 15, "narrative_arc": "millerite", "period_standard": null },
+      { "id": "GC-18-120", "dossier": "D03", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 4, "load_bearing": false, "impact_score": 12, "narrative_arc": "millerite", "period_standard": null, "tied_kinds": ["fact", "frame"] },
+      { "id": "GC-20-016", "dossier": "D03", "ruling_as_written": "improbable", "ruling_weakened": "probable", "framing_gap": 2, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 4, "load_bearing": true, "impact_score": 12, "narrative_arc": "millerite", "period_standard": null },
+      { "id": "GC-21-082", "dossier": "D07", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 4, "load_bearing": false, "impact_score": 12, "narrative_arc": "reformation", "period_standard": "period-scholarship", "tied_kinds": ["fact", "frame"] },
+      { "id": "GC-22-039", "dossier": "D01", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": true, "independent_failure_point": "GC-18-060", "severity": 3, "centrality": 5, "load_bearing": true, "impact_score": 15, "narrative_arc": "millerite", "period_standard": null },
+      { "id": "GC-23-008", "dossier": "D01", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": true, "independent_failure_point": "GC-18-060", "severity": 2, "centrality": 5, "load_bearing": true, "impact_score": 10, "narrative_arc": "millerite", "period_standard": null },
+      { "id": "GC-23-009", "dossier": "D01", "ruling_as_written": "improbable", "ruling_weakened": "probable", "framing_gap": 2, "failing_component_kind": "fact", "chain_inherited": true, "independent_failure_point": "GC-18-060", "severity": 3, "centrality": 5, "load_bearing": true, "impact_score": 15, "narrative_arc": "millerite", "period_standard": null },
+      { "id": "GC-23-010", "dossier": "D01", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": true, "independent_failure_point": "GC-18-060", "severity": 2, "centrality": 5, "load_bearing": true, "impact_score": 10, "narrative_arc": "millerite", "period_standard": null },
+      { "id": "GC-23-012", "dossier": "D01", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": true, "independent_failure_point": "GC-18-060", "severity": 3, "centrality": 5, "load_bearing": true, "impact_score": 15, "narrative_arc": "millerite", "period_standard": null },
+      { "id": "GC-25-051", "dossier": "D06", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 5, "load_bearing": true, "impact_score": 15, "narrative_arc": "doctrinal", "period_standard": "period-scholarship" },
+      { "id": "GC-26-014", "dossier": "D02", "ruling_as_written": "improbable", "ruling_weakened": "probable", "framing_gap": 2, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 5, "load_bearing": false, "impact_score": 15, "narrative_arc": "doctrinal", "period_standard": null },
+      { "id": "GC-26-025", "dossier": "D02", "ruling_as_written": "improbable", "ruling_weakened": "probable", "framing_gap": 2, "failing_component_kind": "fact", "chain_inherited": true, "independent_failure_point": "GC-26-014", "severity": 3, "centrality": 5, "load_bearing": false, "impact_score": 15, "narrative_arc": "doctrinal", "period_standard": null },
+      { "id": "GC-26-069", "dossier": "D01", "ruling_as_written": "discredited", "ruling_weakened": "well-supported", "framing_gap": 4, "failing_component_kind": "frame", "chain_inherited": false, "independent_failure_point": null, "severity": 4, "centrality": 5, "load_bearing": true, "impact_score": 20, "narrative_arc": "millerite", "period_standard": null },
+      { "id": "GC-32-017", "dossier": "D07", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 4, "load_bearing": false, "impact_score": 12, "narrative_arc": "doctrinal", "period_standard": null, "tied_kinds": ["fact", "motive"] },
+      { "id": "GC-33-034", "dossier": "D08", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 4, "load_bearing": false, "impact_score": 12, "narrative_arc": "doctrinal", "period_standard": null, "tied_kinds": ["fact", "frame"] },
+      { "id": "GC-33-099", "dossier": "D08", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 4, "load_bearing": false, "impact_score": 12, "narrative_arc": "doctrinal", "period_standard": null },
+      { "id": "GC-35-017", "dossier": "D07", "ruling_as_written": "discredited", "ruling_weakened": "well-supported", "framing_gap": 4, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 4, "centrality": 3, "load_bearing": false, "impact_score": 12, "narrative_arc": "doctrinal", "period_standard": null },
+      { "id": "GC-35-049", "dossier": "D11", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 3, "load_bearing": false, "impact_score": 9, "narrative_arc": "doctrinal", "period_standard": null },
+      { "id": "GC-35-057", "dossier": "D02", "ruling_as_written": "improbable", "ruling_weakened": "probable", "framing_gap": 2, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 4, "centrality": 5, "load_bearing": true, "impact_score": 20, "narrative_arc": "eschatological", "period_standard": null },
+      { "id": "GC-35-076", "dossier": "D02", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 2, "centrality": 2, "load_bearing": false, "impact_score": 4, "narrative_arc": "eschatological", "period_standard": null },
+      { "id": "GC-35-086", "dossier": "D14", "ruling_as_written": "improbable", "ruling_weakened": "genuinely-open", "framing_gap": 1, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 4, "load_bearing": false, "impact_score": 12, "narrative_arc": "eschatological", "period_standard": null },
+      { "id": "GC-35-103", "dossier": "D02", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 2, "centrality": 4, "load_bearing": false, "impact_score": 8, "narrative_arc": "eschatological", "period_standard": null },
+      { "id": "GC-35-110", "dossier": "D11", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 4, "load_bearing": false, "impact_score": 12, "narrative_arc": "doctrinal", "period_standard": null, "tied_kinds": ["fact", "frame"] },
+      { "id": "GC-36-044", "dossier": "D08", "ruling_as_written": "improbable", "ruling_weakened": "probable", "framing_gap": 2, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 4, "load_bearing": false, "impact_score": 12, "narrative_arc": "doctrinal", "period_standard": null, "tied_kinds": ["fact", "frame"] },
+      { "id": "GC-37-029", "dossier": "D07", "ruling_as_written": "improbable", "ruling_weakened": "well-supported", "framing_gap": 3, "failing_component_kind": "fact", "chain_inherited": false, "independent_failure_point": null, "severity": 3, "centrality": 4, "load_bearing": false, "impact_score": 12, "narrative_arc": "doctrinal", "period_standard": null }
+    ]
+  },
+  "thesis_chain_status": [
+    {
+      "link": 1,
+      "title_ru": "Иерусалим и ранняя церковь (гл. 1–3)",
+      "status": "повреждено",
+      "basis": ["GC-01-079", "GC-01-101", "GC-02-018", "GC-02-041", "GC-02-053", "GC-03-032", "GC-02-050", "GC-02-038", "GC-02-008", "GC-01-084"],
+      "commentary_ru": "Абсолюты звена пали: «ни один христианин не погиб» (GC-01-079, improbable, load-bearing; ослабленная версия лишь genuinely-open), «Библию не признавали мерилом веры» (GC-02-053, discredited) и «субботу соблюдали все» (GC-03-032, discredited). Событийная основа — гонения, массовый приток номинальных обращённых, само бегство в Пеллу — стоит либо подтверждённой (GC-02-050, GC-02-038, GC-02-008 оправданы как probable), либо честно открытой (GC-01-084)."
+    },
+    {
+      "link": 2,
+      "title_ru": "Остаток и вальденсы (гл. 4, 13)",
+      "status": "повреждено",
+      "basis": ["GC-04-001", "GC-04-034", "GC-04-046", "GC-26-032", "GC-04-069", "GC-04-082", "GC-04-113", "GC-35-086", "GC-15-043"],
+      "commentary_ru": "Самое повреждённое звено: апостольская древность и субботство вальденсов разрушены ещё в Фазе 1 (GC-04-001/034/046, GC-26-032, anachronistic, load-bearing), а адъюдикация добавила отказ протопротестантскому портрету (GC-04-082, GC-04-113 improbable) и субботнему остатку (GC-35-086, ослабленная версия лишь genuinely-open). Документированное ядро — тайные барбы, заученное Писание, гонения — подтверждается."
+    },
+    {
+      "link": 3,
+      "title_ru": "Реформация (гл. 5–16)",
+      "status": "цело",
+      "basis": ["GC-05-107", "GC-07-036", "GC-08-088", "GC-10-054", "GC-10-066", "GC-14-156", "GC-15-058", "GC-06-027", "GC-11-095"],
+      "commentary_ru": "Ни одного load-bearing повреждения на 13 глав; адъюдикация сняла только орнаментальный слой (легенда о двух англичанах в Праге GC-06-027…032, Scala Sancta GC-07-036, абсолюты GC-05-107 и GC-10-066), а «На сём стою» осталось честно открытым (GC-08-088). Событийные ядра и цитатный слой звена подтверждены."
+    },
+    {
+      "link": 4,
+      "title_ru": "Миллеритское движение и 1844 (гл. 17–22)",
+      "status": "повреждено",
+      "basis": ["GC-18-060", "GC-18-071", "GC-18-078", "GC-26-069", "GC-18-081", "GC-22-039", "GC-20-016", "GC-18-119", "GC-18-062"],
+      "commentary_ru": "Как напечатано, хронология 457→1844 пала: якорь 457 г. до н.э. improbable (GC-18-060), 31 год исключён астрономией (GC-18-071), формулы «вне всякого сомнения» и «без опровержения» discredited (GC-18-078, GC-26-069); при этом десять звеньев наследуют один якорь, а не падают порознь, и framing_gap высок — на посылках эпохи вычисление внутренне точно (weakened well-supported). История самого движения почти вся подтверждена, включая реверс в пользу книги по цитате Литча (GC-18-119)."
+    },
+    {
+      "link": 5,
+      "title_ru": "Святилище и следственный суд (гл. 23–24, 28)",
+      "status": "условная посылка",
+      "basis": ["GC-18-058", "GC-23-008", "GC-23-009", "GC-23-010", "GC-23-012"],
+      "commentary_ru": "Единственный эмпирический вход звена — та же хронология, повторённая в гл. 23 (GC-23-008…012, все chain-inherited от GC-18-060), а его стержень GC-18-058 (70 седмин как часть 2300 дней) при декомпозиции оказался целиком герменевтическим и получил out-of-scope: это условная посылка, которую историография не оценивает. Само небесное святилище и суд — богословие вне проверки."
+    },
+    {
+      "link": 6,
+      "title_ru": "Суббота против воскресенья (гл. 25–26, 33, 35–36)",
+      "status": "повреждено",
+      "basis": ["GC-03-032", "GC-26-014", "GC-26-025", "GC-35-057", "GC-25-051", "GC-25-126", "GC-25-131", "GC-26-032", "GC-03-050", "GC-35-103"],
+      "commentary_ru": "Генеалогические абсолюты пали: «суббота у всех христиан» discredited (GC-03-032), «субботу изменила папская власть» и «воскресенье возникло от Рима» improbable (GC-26-014/025, GC-35-057), Эдемское установление как история improbable (GC-25-051). Выживают ослабленные версии: документированная роль Рима в принижении субботы (probable), отсутствие библейской заповеди о воскресенье (well-supported, GC-35-103) и открытый вопрос об апостольском происхождении воскресенья (GC-03-050); богословский статус субботы — вне проверки."
+    },
+    {
+      "link": 7,
+      "title_ru": "Финальный кризис и развязка (гл. 36–42)",
+      "status": "вне проверки",
+      "basis": ["GC-42-032", "GC-36-044", "GC-37-029"],
+      "commentary_ru": "Звено почти целиком состоит из будущего времени и богословия; из проверяемого адъюдикация оставила лишь периферию (избиение младенцев genuinely-open GC-42-032, «papal error» improbable GC-36-044, «withheld from the common people» improbable GC-37-029). Убедительность звена производна от звеньев 4–6, самостоятельной эмпирической опоры у него нет."
+    }
+  ]
 }
