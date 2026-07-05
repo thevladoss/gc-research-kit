@@ -598,7 +598,7 @@
         "extract": "done",
         "verify": "done",
         "defend": "done",
-        "impact": "pending"
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -641,9 +641,19 @@
           "verdict_downgraded": 1,
           "defense_failed": 0,
           "searches": 1
+        },
+        "impact": {
+          "scored": 1,
+          "load_bearing": 0,
+          "top_impact": [
+            {
+              "id": "GC-08-088",
+              "score": 8
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-05T09:09:57Z"
+      "updated_at": "2026-07-05T09:11:45Z"
     },
     "09": {
       "title": "The Swiss Reformer",

@@ -1,0 +1,15 @@
+{
+  "chapter": 8,
+  "stage": "impact",
+  "notes": "Chapter argument reconstruction: the chapter builds a single sustained set-piece -- Luther's summons, journey, and two appearances before the Diet of Worms -- to establish that the Reformation's authority claim rests on conscience bound to Scripture against pope and council, and that this stand, sustained by providence, marked the moment Rome's institutional security began visibly to crack ('never from that day would Rome stand as secure'). The load-bearing claims are the documented sequence of events (summons, safe-conduct debate, the two hearings, the refusal to retract) and Luther's substantive answer; the surrounding devotional/providential framing (angels present, 'voice of One greater than Luther') is explicitly theological and unverifiable, functioning as interpretive scaffolding rather than argumentative support. Duke George's denunciation of papal abuses and the 101 grievances serve a secondary purpose: showing that even Rome's own princes indicted her corruption, reinforcing the chapter's institutional-decline thesis independent of Luther's personal heroism. Impact-stage scope: of 134 claims, effective verdicts are entirely supported/unverifiable except GC-08-088, whose 'anachronistic' verifier verdict was downgraded on defense to 'disputed' (genuine historiographical split over the closing sentence's verbatim authenticity, not a settled modern correction). Scored only this one item as a high-stakes disputed candidate per instructions; no contradicted/misquotation/anachronistic items remain in the chapter after defense.",
+  "items": {
+    "GC-08-088": {
+      "severity": 2,
+      "centrality": 4,
+      "load_bearing": false,
+      "impact_score": 8,
+      "narrative_arc": "reformation",
+      "reasoning": "This is a disputed authenticity question, not a confirmed error: the closing sentence 'Here I stand, I can do no other' appears in the earliest printed 1521 edition but not in the notaries' transcript, and modern Luther scholarship remains genuinely split rather than settled against it. Centrality is high because the line is the chapter's rhetorical climax and among the most famous sentences in Protestant historiography, symbolically anchoring the book's conscience-bound-to-Scripture theme that recurs through the Reformation-to-Sabbath thesis chain. Severity is kept low (2, not higher) because every source agrees on the substance surrounding the disputed clause -- refusal to retract without scriptural proof, conscience captive to God's word, closing with 'God help me. Amen' -- so at most a decorative closing flourish, not the argument's substance, is in question. Counterfactual: delete the disputed clause entirely and the chapter's case for Luther's principled stand is untouched, since the undisputed surrounding text already carries that weight -- hence load_bearing is false."
+    }
+  }
+}

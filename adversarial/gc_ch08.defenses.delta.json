@@ -1,0 +1,26 @@
+{
+  "chapter": 8,
+  "stage": "adversarial",
+  "notes": "searches: ~1; full defenses: 0, cheap audits: 1",
+  "items": {
+    "GC-08-088": {
+      "result": "verdict_downgraded",
+      "argument": "Source audit first: footnote 221 resolves to 'D'Aubigne, b. 7, ch. 8', and D'Aubigne's narrative does render the full closing line 'Here I stand, I can do no other; may God help me. Amen.' So White faithfully transmits her cited source; there is no misquotation of D'Aubigne. The verifier's own sources (luther.de 'legend', Wikipedia 'apocryphal') are accurate as far as they go, but they overstate the settledness. The line is NOT a 19th-century embellishment invented by D'Aubigne nor a modern fabrication: 'Hier stehe ich, ich kann nicht anders' appears in the EARLIEST PRINTED edition of Luther's speech, published within weeks in 1521 -- a contemporaneous primary source. The doubt arises solely because that contemporaneous print conflicts with the imperial notaries' on-the-spot transcript, which ends at 'God help me. Amen.' A disagreement between two contemporaneous sources is the textbook shape of a genuine historiographical dispute, not of an error corrected by modern scholarship. Modern Luther scholars remain divided: the majority lean 'probably not spoken,' but all concede 'it is possible they are genuine,' and a real minority defends authenticity (the phrase may have been spoken but the recorders were too moved to capture it verbatim; Bainton's standard biography is titled 'Here I Stand'). Because the substantive answer around the line ('I cannot submit my faith to pope or councils... my conscience is captive to the word of God... God help me. Amen') is universally accepted as authentic, and the disputed clause rests on a contemporaneous 1521 printing rather than on White's chain of transmission, the accurate characterization is 'genuine ongoing disagreement,' not 'wrong by modern standards.' The 'anachronistic' label wrongly implies modern historiography has settled that Luther did not say it; it has not. Downgrade to 'disputed.'",
+      "revised_verdict": "disputed",
+      "new_sources": [
+        {
+          "title": "What Luther Said — Christianity Today (most scholars: probably not spoken, but 'it is possible they are genuine')",
+          "url": "https://www.christianitytoday.com/2008/08/what-luther-said/",
+          "source_class": "other",
+          "supports_verdict": true
+        },
+        {
+          "title": "Luther's Speech at the Diet of Worms — World History Encyclopedia (closing line in earliest print, absent from official transcript; authenticity debated)",
+          "url": "https://www.worldhistory.org/article/1900/luthers-speech-at-the-diet-of-worms/",
+          "source_class": "scholarly_encyclopedia",
+          "supports_verdict": true
+        }
+      ]
+    }
+  }
+}

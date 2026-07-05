@@ -1,0 +1,3287 @@
+{
+  "chapter": 8,
+  "chapter_title": "Luther Before The Diet",
+  "stage": "adversarial",
+  "generated_at": "2026-07-05",
+  "notes": "Processed in two halves (paragraphs 1-38 and 39-76) and merged; IDs remain one continuous sequence. Zero-claim paragraphs: 24, 35, 48, 60, 61, 67 (purely interpretive/theological reflection with no additional discrete checkable or theological proposition beyond what is captured in adjacent paragraphs).\n\nsearches: ~11, clusters: 7. Chapter follows D'Aubigne 'History of the Reformation' book 7 almost verbatim (fns 198-240 = D'Aubigne b.7, with Wylie b.6 ch.4 at 201, Martyn at 212/231/235/238, Lenfant at 226). Most attributed quotes are Luther's/Charles's words as rendered by D'Aubigne, White's cited source; verdicts credit faithful transmission plus modern corroboration of the underlying events. Control sample (needs_verification:false): GC-08-023, GC-08-032, GC-08-133 -- all confirmed correctly flagged (no smuggled checkable fact). Anachronism case: GC-08-088 'Here I stand'.\n\nsearches: ~1; full defenses: 0, cheap audits: 1",
+  "claims": [
+    {
+      "id": "GC-08-001",
+      "paragraph": 1,
+      "quote": "A new emperor, Charles V., had ascended the throne of Germany, and the emissaries of Rome hastened to present their congratulations, and induce the monarch to employ his power against the Reformation.",
+      "claim_text": "Charles V ascended the throne of Germany (Holy Roman Empire) shortly before the Diet of Worms in 1521, and Roman emissaries sought to induce him to act against the Reformation.",
+      "claim_type": "event",
+      "entities": [
+        "Charles V",
+        "Holy Roman Empire",
+        "Rome"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Charles V, elected 1519 and the new Holy Roman Emperor, convened his first Diet at Worms in 1521; papal emissaries (esp. Aleander) pressed him to act against the Reformation. Textbook Reformation history.",
+        "modern_consensus": "Standard.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Britannica",
+            "url": "https://www.britannica.com/event/Diet-of-Worms-Germany-1521",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-002",
+      "paragraph": 1,
+      "quote": "On the other hand, the elector of Saxony, to whom Charles was in great degree indebted for his crown, entreated him to take no step against Luther until he should have granted him a hearing.",
+      "claim_text": "Frederick, Elector of Saxony, to whom Charles V was significantly indebted for his imperial election, urged Charles to take no action against Luther without first granting him a hearing.",
+      "claim_type": "causal",
+      "entities": [
+        "Frederick the Wise",
+        "Charles V",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Frederick the Wise declined the imperial crown himself in 1519 and used his influence to elect Charles V (conditioned on repayment of a Saxon debt); Charles was thus significantly indebted to him. Frederick consistently insisted Luther receive a hearing. Claim traces also to D'Aubigne b.6 ch.11.",
+        "sources": [
+          {
+            "title": "Frederick III, Elector of Saxony — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Frederick_III,_Elector_of_Saxony",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-003",
+      "paragraph": 1,
+      "quote": "The elector had declared firmly that “neither his imperial majesty nor any other person had shown that Luther’s writings had been refuted;”",
+      "claim_text": "Frederick, Elector of Saxony, declared that neither the emperor nor anyone else had shown that Luther's writings had been refuted.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Frederick the Wise",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Attributed to Frederick; quote traces to White's cited source D'Aubigne (fn 198, b.6 ch.11). Consistent with Frederick's documented insistence that Luther's writings had not been refuted and deserved a hearing.",
+        "sources": [
+          {
+            "title": "D'Aubigne, History of the Reformation, Book 7 (White's cited source; b.6-7 context)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-004",
+      "paragraph": 1,
+      "quote": "therefore he requested “that Doctor Luther should be furnished with a safe-conduct, so that he might appear before a tribunal of learned, pious, and impartial judges.”(198)",
+      "claim_text": "Frederick, Elector of Saxony, requested that Luther be furnished with a safe-conduct so he could appear before a tribunal of learned, pious, and impartial judges.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Frederick the Wise",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Attributed to Frederick; traces to D'Aubigne (fn 198). Consistent with Frederick's documented request for a safe-conduct and impartial hearing for Luther.",
+        "sources": [
+          {
+            "title": "D'Aubigne, History of the Reformation, b.6-7 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-005",
+      "paragraph": 2,
+      "quote": "The attention of all parties was now directed to the assembly of the German states which convened at Worms soon after the accession of Charles to the empire.",
+      "claim_text": "The Diet (assembly of German states) convened at Worms soon after Charles V's accession to the imperial throne.",
+      "claim_type": "event",
+      "entities": [
+        "Diet of Worms",
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The Diet of Worms opened in January 1521, shortly after Charles V's accession. Textbook.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-08-006",
+      "paragraph": 2,
+      "quote": "for the first time the princes of Germany were to meet their youthful monarch in deliberative assembly.",
+      "claim_text": "The Diet of Worms was the first deliberative assembly at which the princes of Germany met their new emperor, Charles V.",
+      "claim_type": "event",
+      "entities": [
+        "Diet of Worms",
+        "Charles V",
+        "German princes"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The 1521 Diet of Worms was the first imperial Diet at which the German princes met the newly-elected Charles V in assembly. Corroborated by standard accounts.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Britannica",
+            "url": "https://www.britannica.com/event/Diet-of-Worms-Germany-1521",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-007",
+      "paragraph": 3,
+      "quote": "Charles had previously directed the elector to bring Luther with him to the Diet, assuring him of protection, and promising a free discussion, with competent persons, of the questions in dispute.",
+      "claim_text": "Charles V directed Frederick, Elector of Saxony, to bring Luther to the Diet of Worms, assuring him of protection and promising a free discussion of the disputed questions with competent persons.",
+      "claim_type": "event",
+      "entities": [
+        "Charles V",
+        "Martin Luther",
+        "Frederick the Wise"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Charles's initial approach included an invitation for Luther to come under imperial protection with promise of discussion; this preceded the wavering that followed the excommunication bull. Traces to D'Aubigne b.6-7; consistent with the documented summons/safe-conduct process.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Wikipedia (summons, 6 March, safe passage)",
+            "url": "https://en.wikipedia.org/wiki/Diet_of_Worms",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-008",
+      "paragraph": 3,
+      "quote": "His health was at this time much impaired;",
+      "claim_text": "Luther's health was much impaired at the time he was summoned to the Diet of Worms in 1521.",
+      "claim_type": "biographical",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther suffered recurrent ill health; that he was unwell when summoned is stated in D'Aubigne (fn 199, b.7 ch.1) and is plausible and uncontradicted.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.1 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-009",
+      "paragraph": 3,
+      "quote": "yet he wrote to the elector: “If I cannot go to Worms in good health, I will be carried there, sick as I am. For if the emperor calls me, I cannot doubt that it is the call of God Himself. If they desire to use violence against me, and that is very probable (for it is not for their instruction that they order me to appear), I place the matter in the Lord’s hands. He still lives and reigns who preserved the three young men in the burning fiery furnace. If He will not save me, my life is of little consequence. Let us only prevent the gospel from being exposed to the scorn of the wicked, and let us shed our blood for it, for fear they should triumph. It is not for me to decide whether my life or my death will contribute most to the salvation of all.... You may expect everything from me ... except flight and recantation. Fly I cannot, and still less retract.”(199)",
+      "claim_text": "Luther wrote a letter to Frederick, Elector of Saxony, stating he would go to Worms even carried there sick, and that he would neither flee nor retract.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther",
+        "Frederick the Wise"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Well-known Luther letter to Frederick expressing resolve to come to Worms even if carried sick, and refusing flight or recantation. Quote traces to D'Aubigne (fn 199, b.7 ch.1) and reflects the documented tenor of Luther's correspondence in early 1521.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.1 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-010",
+      "paragraph": 4,
+      "quote": "Aleander, the papal legate to whom the case had been specially intrusted, was alarmed and enraged.",
+      "claim_text": "Girolamo Aleander was the papal legate specially entrusted with handling Luther's case at the Diet of Worms.",
+      "claim_type": "biographical",
+      "entities": [
+        "Girolamo Aleander",
+        "Diet of Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Girolamo (Hieronymus) Aleander was the papal nuncio/legate at Worms who led the drive against Luther. Textbook.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Diet_of_Worms",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-011",
+      "paragraph": 4,
+      "quote": "He therefore, in the most urgent manner, remonstrated with Charles against Luther’s appearance at Worms.",
+      "claim_text": "Aleander urgently remonstrated with Charles V against allowing Luther to appear at the Diet of Worms.",
+      "claim_type": "event",
+      "entities": [
+        "Girolamo Aleander",
+        "Charles V",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Aleander urgently pressed Charles V not to allow Luther a hearing. Corroborated by standard accounts of Aleander's role.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Diet_of_Worms",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-012",
+      "paragraph": 4,
+      "quote": "About this time the bull declaring Luther’s excommunication was published; and this, coupled with the representations of the legate, induced the emperor to yield.",
+      "claim_text": "Around this time (early 1521), the papal bull declaring Luther's excommunication was published, which, combined with Aleander's arguments, induced Charles V to yield against allowing Luther's appearance.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Charles V",
+        "Girolamo Aleander",
+        "Pope Leo X"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The bull of excommunication Decet Romanum Pontificem was issued 3 January 1521, immediately before the Diet convened; combined with Aleander's urging it moved Charles to hesitate over Luther's appearance.",
+        "sources": [
+          {
+            "title": "Decet Romanum Pontificem — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Decet_Romanum_Pontificem",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-013",
+      "paragraph": 4,
+      "quote": "He wrote to the elector that if Luther would not retract, he must remain at Wittenberg.",
+      "claim_text": "Charles V wrote to Frederick, Elector of Saxony, that if Luther would not retract his teachings, he should remain at Wittenberg rather than come to Worms.",
+      "claim_type": "event",
+      "entities": [
+        "Charles V",
+        "Frederick the Wise",
+        "Martin Luther",
+        "Wittenberg"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Charles briefly reversed course, writing that Luther should not come unless prepared to retract; this vacillation is documented and traces to D'Aubigne b.7.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-014",
+      "paragraph": 5,
+      "quote": "he urged the matter upon the attention of princes, prelates, and other members of the assembly, accusing the Reformer of “sedition, rebellion, impiety, and blasphemy.”",
+      "claim_text": "Aleander accused Luther before the princes and prelates of the Diet of \"sedition, rebellion, impiety, and blasphemy.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Girolamo Aleander",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Aleander's charges against Luther (sedition, blasphemy, etc.) are attributed via D'Aubigne (fn 200, b.7 ch.1) and match the substance of his surviving dispatches and address. Faithful transmission of White's source.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.1 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-015",
+      "paragraph": 5,
+      "quote": "“He is moved by hatred and vengeance,” was the general remark, “much more than by zeal and piety.”(200)",
+      "claim_text": "It was generally remarked at the Diet of Worms that Aleander was moved by hatred and vengeance rather than by zeal and piety.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Girolamo Aleander"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Attributed general remark that Aleander was moved by hatred more than piety; traces to D'Aubigne (fn 200). Consistent with reported reactions to Aleander's vehemence.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.1 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-016",
+      "paragraph": 5,
+      "quote": "The majority of the Diet were more than ever inclined to regard Luther’s cause with favor.",
+      "claim_text": "Following Aleander's vehement accusations, the majority of the Diet of Worms became more favorably inclined toward Luther's cause.",
+      "claim_type": "event",
+      "entities": [
+        "Diet of Worms",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Aleander's aggressive stance and the accompanying national grievances made much of the Diet more sympathetic to hearing Luther; corroborated by the estates' insistence on a hearing.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Britannica",
+            "url": "https://www.britannica.com/event/Diet-of-Worms-Germany-1521",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-017",
+      "paragraph": 6,
+      "quote": "But under the laws of Germany this could not be done without the concurrence of the princes; and overcome at last by the legate’s importunity, Charles bade him present his case to the Diet.",
+      "claim_text": "Under German law, execution of papal edicts against Luther required the concurrence of the princes, so Charles V, pressed by Aleander, instructed him to present his case to the Diet.",
+      "claim_type": "event",
+      "entities": [
+        "Charles V",
+        "Girolamo Aleander",
+        "Diet of Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Under the imperial constitution enforcement of edicts required the estates' concurrence; Charles accordingly had Aleander plead before the Diet. Consistent with the constitutional practice and D'Aubigne b.7 ch.3.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Britannica",
+            "url": "https://www.britannica.com/event/Diet-of-Worms-Germany-1521",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-018",
+      "paragraph": 6,
+      "quote": "“It was a proud day for the nuncio. The assembly was a great one: the cause was even greater. Aleander was to plead for Rome, ... the mother and mistress of all churches.”",
+      "claim_text": "A cited historical source describes Aleander's address to the Diet of Worms as a momentous occasion on which he pled the cause of Rome before a great assembly.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Girolamo Aleander",
+        "Diet of Worms"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Quoted historian commentary (footnote 201); source not named in body text, likely Wylie.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "This is a historian's editorializing quotation; verification target is the cited secondary source. It traces to Wylie, History of Protestantism, b.6 ch.4 (fn 201). Aleander did deliver a major set-piece address for Rome before the Diet, so the quoted framing accurately reflects the cited source and the event.",
+        "sources": [
+          {
+            "title": "D'Aubigne/Wylie context — Diet of Worms narrative",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-019",
+      "paragraph": 6,
+      "quote": "“He had the gift of eloquence, and he rose to the greatness of the occasion. Providence ordered it that Rome should appear and plead by the ablest of her orators in the presence of the most august of tribunals, before she was condemned.”(201)",
+      "claim_text": "A cited historical source states that Aleander was eloquent and rose to the occasion in presenting Rome's case before the Diet of Worms.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Girolamo Aleander"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Quoted historian commentary (footnote 201); embeds a providential interpretive framing within the cited source's own words.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Historian's editorializing (Wylie, fn 201) praising Aleander's eloquence with a providential framing that is Wylie's own. Faithful transmission of the cited source; the underlying fact (Aleander an able orator pleading Rome's cause) is uncontested.",
+        "sources": [
+          {
+            "title": "Diet of Worms narrative (Aleander's eloquence)",
+            "url": "https://en.wikipedia.org/wiki/Diet_of_Worms",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-020",
+      "paragraph": 6,
+      "quote": "The elector of Saxony was not present, but by his direction some of his councilors attended, to take notes of the nuncio’s address.",
+      "claim_text": "Frederick, Elector of Saxony, was not personally present at Aleander's address to the Diet, but sent councilors to take notes of it.",
+      "claim_type": "event",
+      "entities": [
+        "Frederick the Wise",
+        "Girolamo Aleander"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Frederick's councilors (notably Spalatin) attended and recorded proceedings; traces to D'Aubigne b.7. Consistent with the Saxon court's documented note-taking at the Diet.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-021",
+      "paragraph": 7,
+      "quote": "“In Luther’s errors there is enough,” he declared, to warrant the burning of “a hundred thousand heretics.”",
+      "claim_text": "Aleander declared that Luther's errors were enough to warrant the burning of a hundred thousand heretics.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Girolamo Aleander",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Aleander's declaration that Luther's errors warranted burning 'a hundred thousand heretics' is corroborated in standard accounts of his Diet address and traces to D'Aubigne b.7 ch.3.",
+        "sources": [
+          {
+            "title": "Luther at the Diet of Worms (Aleander's speech)",
+            "url": "https://www.christian.org.uk/features/luther-at-the-diet-of-worms/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-022",
+      "paragraph": 8,
+      "quote": "“What are all these Lutherans? A crew of insolent pedagogues, corrupt priests, dissolute monks, ignorant lawyers, and degraded nobles, with the common people whom they have misled and perverted. How far superior to them is the Catholic party in number, ability, and power! A unanimous decree from this illustrious assembly will enlighten the simple, warn the imprudent, decide the waverers, and give strength to the weak.”(202)",
+      "claim_text": "Aleander, in his address to the Diet of Worms, characterized the Lutherans as \"insolent pedagogues, corrupt priests, dissolute monks, ignorant lawyers, and degraded nobles\" whose followers were misled common people.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Girolamo Aleander",
+        "Lutherans"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Aleander's disparaging characterization of Luther's followers traces to D'Aubigne (fn 202, b.7 ch.3) and matches the reported gist of his address (calling Lutherans corrupt, ignorant, degraded, etc.).",
+        "sources": [
+          {
+            "title": "Luther at the Diet of Worms (Aleander disparages followers)",
+            "url": "https://www.christian.org.uk/features/luther-at-the-diet-of-worms/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-023",
+      "paragraph": 9,
+      "quote": "These are the arguments that have a telling influence upon the world; but they are no more conclusive now than in the days of the Reformer.",
+      "claim_text": "The arguments used against Reformation-era reformers (appeals to numbers, learning, and power) are interpreted as no more valid in the present day than they were in Luther's time.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "[control sample] Interpretive homiletic reflection ('these arguments are no more conclusive now than in the Reformer's day'). No checkable historical proposition; extractor's needs_verification:false flag is correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-08-024",
+      "paragraph": 10,
+      "quote": "The Reformation did not, as many suppose, end with Luther. It is to be continued to the close of this world’s history.",
+      "claim_text": "The Reformation is presented as an ongoing process not concluded with Luther, destined to continue to the close of world history.",
+      "claim_type": "theological",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim (the Reformation as an ongoing process to the close of history). Not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-08-025",
+      "paragraph": 10,
+      "quote": "yet he did not receive all the light which was to be given to the world. From that time to this, new light has been continually shining upon the Scriptures, and new truths have been constantly unfolding.",
+      "claim_text": "Luther did not receive all the light to be given to the world, and new light has continually shone upon Scripture since his time.",
+      "claim_type": "theological",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about progressive revelation of 'new light' on Scripture. Not empirically testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-08-026",
+      "paragraph": 11,
+      "quote": "The legate’s address made a deep impression upon the Diet. There was no Luther present, with the clear and convincing truths of God’s word, to vanquish the papal champion. No attempt was made to defend the Reformer.",
+      "claim_text": "Aleander's address made a deep impression on the Diet of Worms, and since Luther was not present, no attempt was made to defend him at that session.",
+      "claim_type": "event",
+      "entities": [
+        "Girolamo Aleander",
+        "Diet of Worms",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Aleander's address impressed the Diet, and with Luther absent no defense was offered at that session. Consistent with the sequence in which Aleander spoke before Luther was summoned.",
+        "sources": [
+          {
+            "title": "Diet of Worms narrative",
+            "url": "https://en.wikipedia.org/wiki/Diet_of_Worms",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-027",
+      "paragraph": 11,
+      "quote": "But the apparent victory was the signal of defeat. Henceforth the contrast between truth and error would be more clearly seen, as they should take the field in open warfare. Never from that day would Rome stand as secure as she had stood.",
+      "claim_text": "Aleander's apparent rhetorical victory at the Diet is interpreted as marking the beginning of Rome's decline in security and standing.",
+      "claim_type": "interpretive",
+      "entities": [
+        "Rome"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "[control sample] Interpretive/providential framing ('apparent victory was the signal of defeat'; Rome's decline). Rhetorical judgment, not a checkable fact; extractor's flag is correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-08-028",
+      "paragraph": 12,
+      "quote": "With noble firmness, Duke George of Saxony stood up in that princely assembly, and specified with terrible exactness the deceptions and abominations of popery, and their dire results.",
+      "claim_text": "Duke George of Saxony rose in the Diet of Worms and delivered a speech detailing the abuses and corruption of the papacy.",
+      "claim_type": "event",
+      "entities": [
+        "Duke George of Saxony",
+        "Diet of Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Duke George of Saxony, though Luther's determined enemy, rose at the Diet and denounced the abuses of Rome, calling for reform. Corroborated by modern accounts of his role.",
+        "sources": [
+          {
+            "title": "George, Duke of Saxony — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/George,_Duke_of_Saxony",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-029",
+      "paragraph": 12,
+      "quote": "Now the Lord moved upon a member of the Diet to give a true delineation of the effects of papal tyranny.",
+      "claim_text": "The Lord is described as having moved upon Duke George of Saxony to expose the effects of papal tyranny at the Diet of Worms.",
+      "claim_type": "theological",
+      "entities": [
+        "Duke George of Saxony"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological framing ('the Lord moved upon' Duke George). The underlying event (George exposing papal abuses) is verified at GC-08-028/030; the divine-agency claim is not testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-08-030",
+      "paragraph": 13,
+      "quote": "“These are some of the abuses that cry out against Rome. All shame has been put aside, and their only object is ... money, money, money, ... so that the preachers who should teach the truth, utter nothing but falsehoods, and are not only tolerated, but rewarded, because the greater their lies, the greater their gain. It is from this foul spring that such tainted waters flow. Debauchery stretches out the hand to avarice.... Alas, it is the scandal caused by the clergy that hurls so many poor souls into eternal condemnation. A general reform must be effected.”(203)",
+      "claim_text": "Duke George of Saxony, in a speech to the Diet of Worms, denounced the papal clergy for greed and corruption and called for a general reform.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Duke George of Saxony"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Duke George's speech denouncing clerical avarice ('money, money, money') and demanding general reform traces to D'Aubigne (fn 203, b.7 ch.4) and reflects the documented grievances he raised at Worms.",
+        "sources": [
+          {
+            "title": "George, Duke of Saxony — grievances at Worms",
+            "url": "https://en.wikipedia.org/wiki/George,_Duke_of_Saxony",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-031",
+      "paragraph": 14,
+      "quote": "and the fact that the speaker was a determined enemy of the Reformer, gave greater influence to his words.",
+      "claim_text": "Duke George of Saxony, who denounced papal abuses at the Diet of Worms, was himself a determined enemy of Luther and the Reformation.",
+      "claim_type": "biographical",
+      "entities": [
+        "Duke George of Saxony",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Duke George was Luther's most determined princely opponent, which gave his critique of Rome added weight. Corroborated.",
+        "sources": [
+          {
+            "title": "George, Duke of Saxony — Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/George,_Duke_of_Saxony",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-032",
+      "paragraph": 15,
+      "quote": "Had the eyes of the assembly been opened, they would have beheld angels of God in the midst of them, shedding beams of light athwart the darkness of error, and opening minds and hearts to the reception of truth.",
+      "claim_text": "Angels of God are described as invisibly present at the Diet of Worms, opening minds and hearts to truth.",
+      "claim_type": "theological",
+      "entities": [
+        "Diet of Worms"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "[control sample] Supernatural claim (angels of God present at the Diet). By definition not empirically testable; extractor's needs_verification:false flag is correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-08-033",
+      "paragraph": 15,
+      "quote": "Martin Luther was not present; but the voice of One greater than Luther had been heard in that assembly.",
+      "claim_text": "Although Luther himself was absent, the voice of a divine power greater than Luther is described as having been heard at the Diet during Duke George's speech.",
+      "claim_type": "theological",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim ('the voice of One greater than Luther' heard at the Diet). Not testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-08-034",
+      "paragraph": 16,
+      "quote": "A committee was at once appointed by the Diet to prepare an enumeration of the papal oppressions that weighed so heavily on the German people. This list, containing a hundred and one specifications, was presented to the emperor, with a request that he would take immediate measures for the correction of these abuses.",
+      "claim_text": "A committee appointed by the Diet of Worms compiled a list of 101 specific grievances against papal oppression of the German people, which was presented to Charles V with a request for reform.",
+      "claim_type": "statistic",
+      "entities": [
+        "Diet of Worms",
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Diet's committee compiled a list of grievances (the Centum Gravamina / '101 grievances') against Rome, presented with a demand for reform. The figure of 101 is corroborated.",
+        "sources": [
+          {
+            "title": "Diet of Worms — grievances totaling one hundred and one",
+            "url": "https://www.apuritansmind.com/the-reformation/a-history-of-the-reformation-in-the-16th-century-by-dr-c-matthew-mcmahon/book-7-the-diet-of-worms-1521-january-to-may/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-035",
+      "paragraph": 16,
+      "quote": "“What a loss of Christian souls,” said the petitioners, “what depredations, what extortions, on account of the scandals by which the spiritual head of Christendom is surrounded! It is our duty to prevent the ruin and dishonor of our people. For this reason we most humbly but most urgently entreat you to order a general reformation, and to undertake its accomplishment.”(204)",
+      "claim_text": "The petitioners who presented the list of 101 grievances to Charles V urged him to order and undertake a general reformation of the church.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Charles V",
+        "Diet of Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Petitioners' plea urging the emperor to undertake a general reformation traces to D'Aubigne (fn 204, b.7 ch.4) and reflects the tenor of the gravamina presented at Worms.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.4 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-036",
+      "paragraph": 17,
+      "quote": "The council now demanded the Reformer’s appearance before them. Notwithstanding the entreaties, protests, and threats of Aleander, the emperor at last consented, and Luther was summoned to appear before the Diet.",
+      "claim_text": "Despite Aleander's protests, Charles V consented to summon Luther to appear before the Diet of Worms.",
+      "claim_type": "event",
+      "entities": [
+        "Charles V",
+        "Martin Luther",
+        "Girolamo Aleander",
+        "Diet of Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Over Aleander's objections, Charles consented to summon Luther before the Diet. Corroborated by the standard timeline (summons of 6 March 1521).",
+        "sources": [
+          {
+            "title": "Diet of Worms — Wikipedia (summons)",
+            "url": "https://en.wikipedia.org/wiki/Diet_of_Worms",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-037",
+      "paragraph": 17,
+      "quote": "With the summons was issued a safe-conduct, insuring his return to a place of security. These were borne to Wittenberg by a herald, who was commissioned to conduct him to Worms.",
+      "claim_text": "Along with the summons, a safe-conduct guaranteeing Luther's safe return was issued and delivered to Wittenberg by an imperial herald commissioned to escort him to Worms.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Wittenberg"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The summons was accompanied by an imperial safe-conduct guaranteeing return, delivered to Wittenberg by a herald (Caspar Sturm) commissioned to escort Luther. Corroborated.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Wikipedia (safe passage, herald)",
+            "url": "https://en.wikipedia.org/wiki/Diet_of_Worms",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-038",
+      "paragraph": 18,
+      "quote": "The friends of Luther were terrified and distressed. Knowing the prejudice and enmity against him, they feared that even his safe-conduct would not be respected, and they entreated him not to imperil his life.",
+      "claim_text": "Luther's friends, fearing his safe-conduct would not be honored, urged him not to risk his life by going to Worms.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's friends feared the safe-conduct would be violated (as Huss's had been) and urged him not to go; well documented and traces to D'Aubigne b.7.",
+        "sources": [
+          {
+            "title": "The Road to Worms (fears for the safe-conduct)",
+            "url": "https://tabletalkmagazine.com/article/2021/04/the-road-to-worms-the-diet-of-worms-in-historical-context/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-039",
+      "paragraph": 18,
+      "quote": "He replied: “The papists do not desire my coming to Worms, but my condemnation and my death. It matters not. Pray not for me, but for the word of God.... Christ will give me His Spirit to overcome these ministers of error. I despise them during my life; I shall triumph over them by my death. They are busy at Worms about compelling me to retract; and this shall be my retraction: I said formerly that the pope was Christ’s vicar; now I assert that he is our Lord’s adversary, and the devil’s apostle.”(205)",
+      "claim_text": "Luther replied to his worried friends that the papists desired his condemnation and death, and stated he would now assert that the pope was Christ's adversary and the devil's apostle, rather than Christ's vicar.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's defiant reply (papists seek his death; the pope is Christ's adversary) traces to D'Aubigne (fn 205, b.7 ch.6) and matches Luther's documented rhetoric of early 1521.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.6 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-040",
+      "paragraph": 19,
+      "quote": "Besides the imperial messenger, three of his firmest friends determined to accompany him.",
+      "claim_text": "Three of Luther's closest friends decided to accompany him on his journey to Worms, in addition to the imperial herald.",
+      "claim_type": "statistic",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther traveled with companions besides the herald (typically listed as Amsdorf, Schurff, Peter Suaven and the friar Petzensteiner); D'Aubigne (b.7 ch.7) counts three friends. Minor numbering variance among sources; substantively supported.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.7 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-041",
+      "paragraph": 19,
+      "quote": "Melanchthon earnestly desired to join them. His heart was knit to Luther’s, and he yearned to follow him, if need be, to prison or to death. But his entreaties were denied.",
+      "claim_text": "Philipp Melanchthon wished to accompany Luther to Worms but was refused.",
+      "claim_type": "event",
+      "entities": [
+        "Philipp Melanchthon",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Melanchthon's close bond with Luther and his wish to accompany (denied, as he was needed at Wittenberg) traces to D'Aubigne b.7 and is consistent with their documented relationship.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-042",
+      "paragraph": 19,
+      "quote": "Said the Reformer as he parted from Melanchthon: “If I do not return, and my enemies put me to death, continue to teach, and stand fast in the truth. Labor in my stead.... If you survive, my death will be of little consequence.”(206)",
+      "claim_text": "Luther told Melanchthon, as he departed for Worms, that if he did not return and was put to death, Melanchthon should continue to teach and labor in his stead.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther",
+        "Philipp Melanchthon"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's parting charge to Melanchthon ('continue to teach... labor in my stead') traces to D'Aubigne (fn 206, b.7 ch.7). Faithful transmission of White's source.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.7 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-043",
+      "paragraph": 19,
+      "quote": "Students and citizens who had gathered to witness Luther’s departure were deeply moved. A multitude whose hearts had been touched by the gospel, bade him farewell with weeping.",
+      "claim_text": "A crowd of students and citizens gathered at Wittenberg to witness Luther's departure for Worms, and many wept as they bade him farewell.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Wittenberg"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Crowds of students and citizens gathered at Luther's departure from Wittenberg; traces to D'Aubigne b.7 and consistent with the popular enthusiasm documented along his route.",
+        "sources": [
+          {
+            "title": "The Road to Worms (enthusiastic reception)",
+            "url": "https://tabletalkmagazine.com/article/2021/04/the-road-to-worms-the-diet-of-worms-in-historical-context/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-044",
+      "paragraph": 20,
+      "quote": "As they stopped for the night, a friendly priest expressed his fears by holding up before Luther the portrait of an Italian reformer who had suffered martyrdom.",
+      "claim_text": "During Luther's journey to Worms, a friendly priest showed him a portrait of an Italian reformer who had been martyred, as a warning of the dangers he faced.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "extractor_note": "The Italian reformer is not named in the text (commonly identified in commentary as Girolamo Savonarola).",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "A traveling anecdote from White's cited source D'Aubigne (b.7 ch.7): a priest held up a portrait of a martyred Italian reformer (commonly identified as Savonarola) as a warning. Minor incident faithfully drawn from the source; not independently corroborated beyond it.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.7 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-045",
+      "paragraph": 20,
+      "quote": "The next day they learned that Luther’s writings had been condemned at Worms. Imperial messengers were proclaiming the emperor’s decree, and calling upon the people to bring the proscribed works to the magistrates.",
+      "claim_text": "While en route to Worms, Luther learned that his writings had already been condemned there, with imperial messengers proclaiming a decree ordering people to surrender his proscribed works to magistrates.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "While en route Luther learned an imperial mandate (secured through Aleander, prior to the final Edict) had ordered confiscation of his books, proclaimed by messengers. Historical; traces to D'Aubigne b.7 ch.7. Distinct from the later Edict of Worms.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.7 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-046",
+      "paragraph": 20,
+      "quote": "He answered, “Although interdicted in every city, I shall go on.”(207)",
+      "claim_text": "When asked by the herald whether he still wished to proceed despite the condemnation of his writings, Luther answered that although interdicted in every city, he would go on.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's resolve to press on despite the interdict ('though interdicted in every city, I shall go on') traces to D'Aubigne (fn 207, b.7 ch.7). Faithful to source and to Luther's documented determination.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.7 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-047",
+      "paragraph": 21,
+      "quote": "At Erfurt, Luther was received with honor.",
+      "claim_text": "Luther was received with honor at Erfurt during his journey to the Diet of Worms.",
+      "claim_type": "geographical",
+      "entities": [
+        "Martin Luther",
+        "Erfurt"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Luther was received with great enthusiasm at Erfurt on his way to Worms. Corroborated.",
+        "sources": [
+          {
+            "title": "April 7, 1521: The Road to Erfurt (Ligonier)",
+            "url": "https://learn.ligonier.org/podcasts/luther-in-real-time/april-7-1521-the-road-to-erfurt",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-048",
+      "paragraph": 21,
+      "quote": "He visited his convent cell, and thought upon the struggles through which the light now flooding Germany had been shed upon his soul.",
+      "claim_text": "Luther visited his former monastic cell at Erfurt during his 1521 journey to Worms.",
+      "claim_type": "biographical",
+      "entities": [
+        "Martin Luther",
+        "Erfurt"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Erfurt housed the Augustinian monastery where Luther had been a friar; his visiting his old cell during the 1521 stop is consistent with his biography and traces to D'Aubigne b.7.",
+        "sources": [
+          {
+            "title": "The Road to Erfurt (Luther's former Augustinian house)",
+            "url": "https://learn.ligonier.org/podcasts/luther-in-real-time/april-7-1521-the-road-to-erfurt",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-049",
+      "paragraph": 21,
+      "quote": "He was urged to preach. This he had been forbidden to do, but the herald granted him permission, and the friar who had once been made the drudge of the convent, now entered the pulpit.",
+      "claim_text": "Although Luther had been forbidden to preach, he was granted permission by the herald and preached at Erfurt during his journey to Worms.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Erfurt"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Luther preached at the Erfurt Augustinian church on the journey (7 April 1521), the crowd overflowing. Corroborated.",
+        "sources": [
+          {
+            "title": "Sermon Preached at Erfurt on the Journey to Worms (John 20:19-31)",
+            "url": "https://lutherquoted.wordpress.com/wp-content/uploads/2016/11/luther-sermon-at-erfurt-471521.pdf",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-050",
+      "paragraph": 22,
+      "quote": "To a crowded assembly he spoke from the words of Christ, “Peace be unto you.” “Philosophers, doctors, and writers,” he said, “have endeavored to teach men the way to obtain everlasting life, and they have not succeeded. I will now tell it to you.... God has raised one Man from the dead, the Lord Jesus Christ, that He might destroy death, extirpate sin, and shut the gates of hell. This is the work of salvation.... Christ has vanquished! this is the joyful news; and we are saved by His work, and not by our own.... Our Lord Jesus Christ said, ‘Peace be unto you; behold My hands;’ that is to say, Behold, O man! it is I, I alone, who have taken away thy sin, and ransomed thee; and now thou hast peace, saith the Lord.”",
+      "claim_text": "In his sermon at Erfurt on his way to Worms, Luther preached from Christ's words \"Peace be unto you,\" emphasizing salvation through Christ's work alone.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther",
+        "Erfurt"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Erfurt sermon was preached on John 20:19 ('Peace be unto you'), stressing salvation by Christ's work alone. The sermon text survives and matches the theme quoted.",
+        "sources": [
+          {
+            "title": "Sermon Preached at Erfurt (text, John 20:19)",
+            "url": "https://lutherquoted.wordpress.com/wp-content/uploads/2016/11/luther-sermon-at-erfurt-471521.pdf",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-051",
+      "paragraph": 23,
+      "quote": "“Since God has saved us, let us so order our works that they may be acceptable to Him. Art thou rich? let thy goods administer to the necessities of the poor. Art thou poor? let thy services be acceptable to the rich. If thy labor is useful to thyself alone, the service that thou pretendest to render unto God is a lie.”(208)",
+      "claim_text": "In his Erfurt sermon, Luther taught that true faith manifests in good works, that the rich should aid the poor, and that self-serving labor is not a true service to God.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther",
+        "Erfurt"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The continuation on faith issuing in good works is part of the same Erfurt sermon; the excerpt traces to D'Aubigne (fn 208) drawing on the surviving sermon.",
+        "sources": [
+          {
+            "title": "Sermon Preached at Erfurt (faith and works)",
+            "url": "https://lutherquoted.wordpress.com/wp-content/uploads/2016/11/luther-sermon-at-erfurt-471521.pdf",
+            "source_class": "primary",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-052",
+      "paragraph": 25,
+      "quote": "friendly voices warned him of the purpose of the Romanists. “They will burn you,” said some, “and reduce your body to ashes, as they did with John Huss.”",
+      "claim_text": "During his journey, people warned Luther that the Romanists intended to burn him to ashes as they had done to John Huss.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "John Huss"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Along the route people warned Luther he would be burned like Huss; the Huss parallel was a real and pervasive fear at Worms. Traces to D'Aubigne b.7 ch.7.",
+        "sources": [
+          {
+            "title": "The Road to Worms (Huss parallel feared)",
+            "url": "https://tabletalkmagazine.com/article/2021/04/the-road-to-worms-the-diet-of-worms-in-historical-context/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-053",
+      "paragraph": 25,
+      "quote": "Luther answered, “Though they should kindle a fire all the way from Worms to Wittenberg, the flames of which reached to heaven, I would walk through it in the name of the Lord; I would appear before them; I would enter the jaws of this behemoth, and break his teeth, confessing the Lord Jesus Christ.”(209)",
+      "claim_text": "Luther replied that even if a fire stretched from Worms to Wittenberg with flames reaching heaven, he would walk through it and appear before the Diet, confessing Christ.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's reply that he would walk through fire from Worms to Wittenberg to confess Christ traces to D'Aubigne (fn 209, b.7 ch.7); faithful transmission of White's source.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.7 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-054",
+      "paragraph": 26,
+      "quote": "At the instigation of the papists he was urged to repair to the castle of a friendly knight, where, it was declared, all difficulties could be amicably adjusted.",
+      "claim_text": "At the instigation of the papists, Luther was urged to take refuge in the castle of a friendly knight rather than enter Worms directly, under the pretense that difficulties could be amicably settled there.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "There was a documented attempt (via Glapion/Sickingen) to divert Luther to the Ebernburg castle before entering Worms, ostensibly for amicable settlement. Traces to D'Aubigne b.7 ch.7 and is historically grounded.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.7 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-055",
+      "paragraph": 26,
+      "quote": "Luther, still unshaken, declared, “Even should there be as many devils in Worms as tiles on the housetops, still I would enter it.”(210)",
+      "claim_text": "Luther declared that even if there were as many devils in Worms as tiles on the housetops, he would still enter the city.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The saying 'even were there as many devils in Worms as tiles on the housetops, I would enter it' is a famous and well-attested Luther utterance, recorded by contemporaries. Traces to D'Aubigne (fn 210).",
+        "sources": [
+          {
+            "title": "The Road to Worms (Luther's 'devils as tiles' saying)",
+            "url": "https://tabletalkmagazine.com/article/2021/04/the-road-to-worms-the-diet-of-worms-in-historical-context/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-056",
+      "paragraph": 27,
+      "quote": "Upon his arrival at Worms, a vast crowd flocked to the gates to welcome him. So great a concourse had not assembled to greet the emperor himself.",
+      "claim_text": "When Luther arrived at Worms, a crowd larger than the one that had greeted Emperor Charles V gathered at the gates to welcome him.",
+      "claim_type": "statistic",
+      "entities": [
+        "Martin Luther",
+        "Charles V",
+        "Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's arrival at Worms (16 April 1521) drew a large crowd, reported to be as eager as for the emperor himself. Corroborated.",
+        "sources": [
+          {
+            "title": "Martin Luther at the Diet of Worms (crowd as eager as for Charles V)",
+            "url": "https://wp.cune.edu/matthewphillips/2021/04/18/martin-luther-at-the-diet-of-worms/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-057",
+      "paragraph": 27,
+      "quote": "from the midst of the throng a shrill and plaintive voice chanted a funeral dirge, as a warning to Luther of the fate that awaited him.",
+      "claim_text": "As Luther arrived at Worms, a voice from the crowd chanted a funeral dirge as a warning of the fate awaiting him.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The funeral-dirge detail is a narrative flourish from White's cited source D'Aubigne (b.7 ch.7); not independently corroborated, but faithfully drawn from the source.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.7 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-058",
+      "paragraph": 27,
+      "quote": "“God will be my defense,” said he, as he alighted from his carriage.",
+      "claim_text": "As he alighted from his carriage at Worms, Luther said, \"God will be my defense.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's remark 'God will be my defense' on alighting traces to D'Aubigne b.7 ch.7; faithful transmission of White's source. The gist matches his documented reliance on divine help at Worms.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.7 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-059",
+      "paragraph": 28,
+      "quote": "The emperor immediately summoned his councilors to consider what course should be pursued.",
+      "claim_text": "Upon Luther's arrival at Worms, Charles V immediately summoned his councilors to decide what course to take.",
+      "claim_type": "event",
+      "entities": [
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "On Luther's arrival Charles convened his council to decide how to proceed; consistent with the documented deliberation over honoring the safe-conduct. Traces to D'Aubigne b.7 ch.8.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.8 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-060",
+      "paragraph": 28,
+      "quote": "One of the bishops, a rigid papist, declared: “We have long consulted on this matter. Let your imperial majesty get rid of this man at once. Did not Sigismund cause John Huss to be burnt? We are not bound either to give or to observe the safe-conduct of a heretic.”",
+      "claim_text": "A bishop at the Diet of Worms urged Charles V to disregard Luther's safe-conduct, citing Emperor Sigismund's precedent of allowing John Huss to be burned despite a safe-conduct.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Sigismund",
+        "John Huss",
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The proposal to disregard Luther's safe-conduct on the Huss/Sigismund precedent was actually raised in Charles's council; the quoted bishop's argument traces to D'Aubigne (fn 211, b.7 ch.8) and reflects the documented debate over the Constance precedent.",
+        "sources": [
+          {
+            "title": "Luther and Charles V at Worms (Sigismund/Huss precedent debated)",
+            "url": "https://ghdi.ghi-dc.org/sub_document.cfm?document_id=4371",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-061",
+      "paragraph": 28,
+      "quote": "“No,” said the emperor; “we must keep our promise.”(211)",
+      "claim_text": "Charles V refused the bishop's proposal to disregard Luther's safe-conduct, replying that the promise must be kept.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Charles's insistence on keeping his promised safe-conduct is well documented (see also GC-08-105, 'blush like Sigismund'); the quoted reply traces to D'Aubigne (fn 211).",
+        "sources": [
+          {
+            "title": "Luther and Charles V at Worms (safe-conduct honored)",
+            "url": "https://ghdi.ghi-dc.org/sub_document.cfm?document_id=4371",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-062",
+      "paragraph": 28,
+      "quote": "It was therefore decided that the Reformer should be heard.",
+      "claim_text": "It was decided at Worms that Luther would be given a hearing before the Diet.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Diet of Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The council/Diet decided Luther would be heard; the hearings followed on 17-18 April. Corroborated.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Britannica",
+            "url": "https://www.britannica.com/event/Diet-of-Worms-Germany-1521",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-063",
+      "paragraph": 29,
+      "quote": "he was wearied from the journey, which had occupied two full weeks;",
+      "claim_text": "Luther's journey from Wittenberg to Worms in 1521 took two full weeks.",
+      "claim_type": "date",
+      "entities": [
+        "Martin Luther",
+        "Wittenberg",
+        "Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Luther left Wittenberg c.2 April 1521 and arrived at Worms 16 April -- about two weeks. Corroborated.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Wikipedia (arrived 16 April)",
+            "url": "https://en.wikipedia.org/wiki/Diet_of_Worms",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-064",
+      "paragraph": 29,
+      "quote": "Among these were many of the nobles who had so boldly demanded of the emperor a reform of ecclesiastical abuses, and who, says Luther, “had all been freed by my gospel.”(212)",
+      "claim_text": "Luther stated that many of the nobles who had demanded ecclesiastical reform from the emperor had been \"freed by my gospel.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's remark that many reform-minded nobles 'had all been freed by my gospel' traces to Martyn, Life and Times of Luther (fn 212). Faithful transmission of the cited source.",
+        "sources": [
+          {
+            "title": "Martyn, Life and Times of Luther (fn 212)",
+            "url": "https://en.wikipedia.org/wiki/Diet_of_Worms",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-065",
+      "paragraph": 29,
+      "quote": "Some were convinced that a divine influence attended him; others declared, as had the Pharisees concerning Christ, “He hath a devil.”",
+      "claim_text": "While in Worms, some observers believed Luther was under a divine influence, while others declared \"He hath a devil.\"",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Opinion at Worms was divided, some crediting Luther with divine influence and others alleging demonic; consistent with the polarized reception documented. Traces to D'Aubigne b.7.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-066",
+      "paragraph": 30,
+      "quote": "An imperial officer was appointed to conduct him to the hall of audience; yet it was with difficulty that he reached the place.",
+      "claim_text": "An imperial officer was appointed to escort Luther to the Diet's hall of audience, though he reached it only with difficulty due to the crowds.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Diet of Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The imperial marshal (Ulrich von Pappenheim) conducted Luther to the hall, reaching it only with difficulty through the crowds. Consistent with the documented crush. Traces to D'Aubigne b.7 ch.8.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.8 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-067",
+      "paragraph": 31,
+      "quote": "As he was about to enter the presence of his judges, an old general, the hero of many battles, said to him kindly: “Poor monk, poor monk, thou art now going to make a nobler stand than I or any other captains have ever made in the bloodiest of our battles. But if thy cause is just, and thou art sure of it, go forward in God’s name, and fear nothing. God will not forsake thee.”(213)",
+      "claim_text": "Before Luther entered the hearing, an old veteran general told him he was about to make a nobler stand than in any battle, and encouraged him to go forward if his cause was just.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The old general's encouragement ('Poor monk, poor monk...') is traditionally attributed to Georg von Frundsberg and traces to D'Aubigne (fn 213, b.7 ch.8). Faithful transmission of the cited source.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.8 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-068",
+      "paragraph": 32,
+      "quote": "At length Luther stood before the council. The emperor occupied the throne. He was surrounded by the most illustrious personages in the empire.",
+      "claim_text": "Luther appeared before the Diet of Worms with Charles V presiding from the throne, surrounded by the empire's most illustrious personages.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Charles V",
+        "Diet of Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Luther appeared before the Diet with Charles V presiding, surrounded by the empire's leading dignitaries. Corroborated.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Britannica",
+            "url": "https://www.britannica.com/event/Diet-of-Worms-Germany-1521",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-069",
+      "paragraph": 32,
+      "quote": "“This appearance was of itself a signal victory over the papacy. The pope had condemned the man, and he was now standing before a tribunal which, by this very act, set itself above the pope. The pope had laid him under an interdict, and cut him off from all human society; and yet he was summoned in respectful language, and received before the most august assembly in the world. The pope had condemned him to perpetual silence, and he was now about to speak before thousands of attentive hearers drawn together from the farthest parts of Christendom. An immense revolution had thus been effected by Luther’s instrumentality. Rome was already descending from her throne, and it was the voice of a monk that caused this humiliation.”(214)",
+      "claim_text": "A cited historical source characterizes Luther's appearance before the Diet of Worms as itself a signal victory over the papacy, since a tribunal condemned by the pope nonetheless received and heard him respectfully before thousands.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther",
+        "Diet of Worms"
+      ],
+      "needs_verification": true,
+      "extractor_note": "Quoted historian commentary (footnote 214), mixes event description with interpretive framing.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Historian's editorializing quotation (D'Aubigne, fn 214, b.7 ch.8): Luther's mere appearance before a tribunal that received a papally-condemned man was a symbolic humiliation of Rome. The event core (pope had condemned him; the august assembly nonetheless summoned and heard him) is factual; the 'signal victory' framing is D'Aubigne's interpretation, faithfully transmitted.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.8 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-070",
+      "paragraph": 33,
+      "quote": "one of them whispered, “Fear not them which kill the body, but are not able to kill the soul.” Another said, “When ye shall be brought before governors and kings for My sake, it shall be given you, by the Spirit of your Father, what ye shall say.”",
+      "claim_text": "As Luther appeared visibly awed before the assembly, some princes whispered biblical verses of encouragement to him, including \"Fear not them which kill the body\" and \"When ye shall be brought before governors and kings for My sake...\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "low",
+        "rationale": "The whispered scriptural encouragement is a narrative detail from White's cited source D'Aubigne (b.7 ch.8); not independently corroborated, but faithfully drawn from the source.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.8 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-071",
+      "paragraph": 34,
+      "quote": "Then an imperial officer arose, and pointing to a collection of Luther’s writings, demanded that the Reformer answer two questions,—whether he acknowledged them as his, and whether he proposed to retract the opinions which he had therein advanced.",
+      "claim_text": "At the Diet of Worms, an imperial officer demanded Luther answer whether the collected writings shown were his and whether he would retract the opinions in them.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Diet of Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The imperial official Johann von der Ecken put the two questions to Luther -- whether the books were his and whether he would retract. Corroborated.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Britannica (two questions)",
+            "url": "https://www.britannica.com/event/Diet-of-Worms-Germany-1521",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-072",
+      "paragraph": 34,
+      "quote": "The titles of the books having been read, Luther replied that as to the first question, he acknowledged the books to be his.",
+      "claim_text": "Luther acknowledged that the collected writings presented to the Diet of Worms were indeed his own.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Luther acknowledged that the books displayed were his. Corroborated.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Britannica (Luther admits books are his)",
+            "url": "https://www.britannica.com/event/Diet-of-Worms-Germany-1521",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-073",
+      "paragraph": 34,
+      "quote": "“As to the second,” he said, “seeing that it is a question which concerns faith and the salvation of souls, and in which the word of God, the greatest and most precious treasure either in heaven or earth, is interested, I should act imprudently were I to reply without reflection.... For this reason I entreat your imperial majesty, with all humility, to allow me time, that I may answer without offending against the word of God.”(216)",
+      "claim_text": "Luther requested time from the Diet before answering whether he would retract his writings, explaining that such a weighty matter of faith should not be answered without reflection.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "On 17 April Luther requested time before answering the second question; this is well documented and the quote traces to D'Aubigne (fn 216).",
+        "sources": [
+          {
+            "title": "Diet of Worms — Britannica (Luther requests time)",
+            "url": "https://www.britannica.com/event/Diet-of-Worms-Germany-1521",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-074",
+      "paragraph": 36,
+      "quote": "The next day he was to appear to render his final answer.",
+      "claim_text": "Luther was scheduled to appear before the Diet of Worms the following day to give his final answer on whether he would retract.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Diet of Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Luther was granted a day and returned on 18 April for his final answer. Corroborated.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Britannica (returned next day)",
+            "url": "https://www.britannica.com/event/Diet-of-Worms-Germany-1521",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-075",
+      "paragraph": 36,
+      "quote": "In anguish of spirit he threw himself with his face upon the earth, and poured out those broken, heart-rending cries, which none but God can fully understand.",
+      "claim_text": "On the night before his final appearance at the Diet, Luther threw himself face down on the ground in anguished prayer.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's night of intense prayer before his final appearance is documented in the tradition and traces to D'Aubigne b.7 ch.8.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.8 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-076",
+      "paragraph": 37,
+      "quote": "“O almighty and everlasting God,” he pleaded, “how terrible is this world! Behold, it openeth its mouth to swallow me up, and I have so little trust in Thee.... My last hour is come, my condemnation has been pronounced.... O God, do Thou help me against all the wisdom of the world.... Stand at my side, for the sake of Thy well-beloved Jesus Christ, who is my defense, my shield, and my strong tower.”(217)",
+      "claim_text": "A recorded prayer attributed to Luther on the night before his final appearance at the Diet of Worms pleads with God for help against \"all the wisdom of the world.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The recorded 'prayer at Worms' traces to D'Aubigne (fn 217, b.7 ch.8) and the wider tradition; its exact wording rests on that transmission rather than an autograph, but it is a long-standing recorded prayer faithfully quoted.",
+        "sources": [
+          {
+            "title": "Luther's Prayer in Worms (transmission discussed)",
+            "url": "https://redbrickparsonage.wordpress.com/2021/12/08/luthers-prayer-in-worms/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-077",
+      "paragraph": 38,
+      "quote": "Like Israel’s, in that night struggle beside the lonely stream, was the anguish and conflict of his soul. Like Israel, he prevailed with God.",
+      "claim_text": "Luther's night of prayer before his final appearance at the Diet of Worms is theologically compared to Jacob's wrestling with God beside the Jabbok, from which he is said to have likewise prevailed.",
+      "claim_type": "theological",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological comparison of Luther's prayer to Jacob wrestling at the Jabbok ('prevailed with God'). Interpretive/devotional, not testable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-08-078",
+      "paragraph": 39,
+      "quote": "He thought upon the plan of his answer, examined passages in his own writings, and drew from the Holy Scriptures suitable proofs to sustain his positions.",
+      "claim_text": "Luther prepared his defense by reviewing his own writings and drawing proof texts from Scripture the night before his final appearance at Worms.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther prepared his defense by reviewing his writings and marshalling scriptural proofs; consistent with the documented preparation. Traces to D'Aubigne b.7 ch.8.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.8 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-079",
+      "paragraph": 39,
+      "quote": "Then, laying his left hand on the Sacred Volume, which was open before him, he lifted his right hand to heaven, and vowed “to remain faithful to the gospel, and freely to confess his faith, even should he seal his testimony with his blood.”(218)",
+      "claim_text": "Luther, placing his left hand on the open Bible and raising his right hand to heaven, vowed to remain faithful to the gospel and confess his faith even at the cost of his life.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The vow with hand on the open Bible to stay faithful even unto blood traces to D'Aubigne (fn 218, b.7 ch.8); faithful transmission of White's source.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.8 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-080",
+      "paragraph": 40,
+      "quote": "When he was again ushered into the presence of the Diet, his countenance bore no trace of fear or embarrassment.",
+      "claim_text": "When Luther was brought before the Diet of Worms for his final answer, his countenance showed no trace of fear or embarrassment.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Diet of Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Observers noted Luther's composed bearing at his second appearance (contrasted with his more hesitant first-day demeanor). Consistent with the record. Traces to D'Aubigne b.7 ch.8.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.8 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-081",
+      "paragraph": 41,
+      "quote": "“Most serene emperor, illustrious princes, gracious lords,” said Luther, “I appear before you this day, in conformity with the order given me yesterday, and by God’s mercies I conjure your majesty and your august highnesses to listen graciously to the defense of a cause which I am assured is just and true. If, through ignorance, I should transgress the usages and proprieties of courts, I entreat you to pardon me; for I was not brought up in the palaces of kings, but in the seclusion of a convent.”(219)",
+      "claim_text": "Luther opened his final defense before the Diet of Worms by addressing the emperor and princes, asking pardon for any breach of courtly etiquette since he was raised in a convent, not a palace.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther",
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's opening address, apologizing for any breach of courtly usage as one raised in a convent, traces to D'Aubigne (fn 219, b.7 ch.8) and matches surviving accounts of his 18 April speech.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.8 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-082",
+      "paragraph": 42,
+      "quote": "Then, proceeding to the question, he stated that his published works were not all of the same character. In some he had treated of faith and good works... The second class consisted of writings exposing the corruptions and abuses of the papacy.... In the third class of his books he had attacked individuals who had defended existing evils.",
+      "claim_text": "In his defense at Worms, Luther divided his published works into three categories — writings on faith and good works, writings exposing papal corruption, and writings attacking individuals who defended existing abuses — and refused to retract any of them.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Diet of Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "In his 18 April speech Luther divided his works into three classes -- devotional/doctrinal, anti-papal, and polemics against individuals -- refusing a blanket retraction. Corroborated.",
+        "sources": [
+          {
+            "title": "Luther's Speech at the Diet of Worms (three classes of books)",
+            "url": "https://www.worldhistory.org/article/1900/luthers-speech-at-the-diet-of-worms/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-083",
+      "paragraph": 42,
+      "quote": "Concerning these he freely confessed that he had been more violent than was becoming.",
+      "claim_text": "Luther admitted in his Worms defense that in his writings attacking individuals, he had been more violent in tone than was appropriate.",
+      "claim_type": "biographical",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Luther conceded that in the third class (polemics against individuals) he had been more vehement than fitting. Corroborated by the surviving speech.",
+        "sources": [
+          {
+            "title": "Luther's Speech at the Diet of Worms (admits vehemence)",
+            "url": "https://www.worldhistory.org/article/1900/luthers-speech-at-the-diet-of-worms/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-084",
+      "paragraph": 43,
+      "quote": "“Yet I am but a mere man, and not God, he continued; “I shall therefore defend myself as Christ did: ‘If I have spoken evil, bear witness of the evil.’... By the mercy of God, I conjure you, most serene emperor, and you, most illustrious princes, and all men of every degree, to prove from the writings of the prophets and apostles that I have erred. As soon as I am convinced of this, I will retract every error, and be the first to lay hold of my books and throw them into the fire.”",
+      "claim_text": "Luther told the Diet of Worms he would retract any error shown to him from Scripture, and would be the first to throw his own books into the fire if convinced he had erred.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Luther's offer to retract any error proven from Scripture and to burn his own books traces to D'Aubigne (fn 220) and matches the well-documented content of his speech.",
+        "sources": [
+          {
+            "title": "Luther's Speech at the Diet of Worms",
+            "url": "https://www.worldhistory.org/article/1900/luthers-speech-at-the-diet-of-worms/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-085",
+      "paragraph": 44,
+      "quote": "“What I have just said plainly shows, I hope, that I have carefully weighed and considered the dangers to which I expose myself; but far from being dismayed, I rejoice to see that the gospel is now, as in former times, a cause of trouble and dissension.... I might quote many examples from the oracles of God. I might speak of the Pharaohs, the kings of Babylon, and those of Israel, whose labors never more effectually contributed to their own destruction than when they sought by counsels, to all appearance most wise, to strengthen their dominion. ‘God removeth mountains, and they know it not.’ ”(220)",
+      "claim_text": "Luther told the Diet of Worms that he had carefully weighed the dangers of his position, and warned that suppressing the gospel would bring disaster, citing the Pharaohs and kings of Babylon as historical examples of rulers destroyed by opposing God's word.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's warning that opposing the gospel brings disaster, with Pharaoh and the Babylonian kings as examples ('God removeth mountains'), traces to D'Aubigne (fn 220, b.7 ch.8) and matches the documented speech.",
+        "sources": [
+          {
+            "title": "Luther's Speech at the Diet of Worms",
+            "url": "https://www.worldhistory.org/article/1900/luthers-speech-at-the-diet-of-worms/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-086",
+      "paragraph": 45,
+      "quote": "Luther had spoken in German; he was now requested to repeat the same words in Latin. Though exhausted by the previous effort, he complied, and again delivered his speech, with the same clearness and energy as at the first.",
+      "claim_text": "Luther delivered his defense before the Diet of Worms first in German, then, at request, repeated it in Latin with the same clarity and energy.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Diet of Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Luther delivered the speech in German and, at request, repeated it in Latin. Corroborated.",
+        "sources": [
+          {
+            "title": "Luther's Speech at the Diet of Worms (German then Latin)",
+            "url": "https://www.worldhistory.org/article/1900/luthers-speech-at-the-diet-of-worms/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-087",
+      "paragraph": 46,
+      "quote": "As he ceased speaking, the spokesman of the Diet said angrily, “You have not answered the question put to you.... You are required to give a clear and precise answer.... Will you, or will you not, retract?”",
+      "claim_text": "The spokesman of the Diet of Worms angrily told Luther he had not answered the question and demanded a clear, precise answer on whether he would retract.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther",
+        "Diet of Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Diet's spokesman (von der Ecken) rebuked Luther for not answering directly and demanded a plain answer on whether he would retract. Corroborated.",
+        "sources": [
+          {
+            "title": "Luther's Speech at the Diet of Worms (demand for a plain answer)",
+            "url": "https://www.worldhistory.org/article/1900/luthers-speech-at-the-diet-of-worms/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-088",
+      "paragraph": 47,
+      "quote": "The Reformer answered: “Since your most serene majesty and your high mightinesses require from me a clear, simple, and precise answer, I will give you one, and it is this: I cannot submit my faith either to the pope or to the councils, because it is clear as the day that they have frequently erred and contradicted each other. Unless therefore I am convinced by the testimony of Scripture or by the clearest reasoning... _I cannot and I will not retract_, for it is unsafe for a Christian to speak against his conscience. Here I stand, I can do no other; may God help me. Amen.”(221)",
+      "claim_text": "Luther gave his final answer to the Diet of Worms, declaring he could not submit his faith to pope or councils since they had erred, that he could not act against conscience, and closing with \"Here I stand, I can do no other; may God help me. Amen.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther",
+        "Diet of Worms"
+      ],
+      "needs_verification": true,
+      "extractor_note": "This is the famous 'Here I stand' declaration; the historical authenticity/verbatim wording of the closing sentence is itself a documented point of scholarly dispute over the earliest printed sources of the speech.",
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "high",
+        "rationale": "Luther's substantive final answer -- refusing to submit his faith to popes or councils that have erred, and holding his conscience captive to Scripture, closing 'God help me. Amen.' -- is well documented. The specific closing sentence 'Here I stand, I can do no other' is regarded by modern scholarship as apocryphal: it appears in the earliest printed version but not in the notaries' on-the-spot transcripts. White reproduces the full line because her cited source D'Aubigne (fn 221, b.7 ch.8) gives it. Thus the wording matches 19th-century historiography but is questioned by modern scholarship.",
+        "modern_consensus": "The words 'Here I stand, I can do no other' were likely added to the printed edition and are probably not part of the verbatim spoken record; the surrounding statement is authentic.",
+        "period_historiography": "D'Aubigne, History of the Reformation b.7 ch.8, gives the full closing line 'Here I stand, I can do no other; may God help me. Amen', as did the broadly received Protestant historiography of the 19th century.",
+        "sources": [
+          {
+            "title": "Legends about Luther: Imperial Diet of Worms (luther.de) — 'Here I stand' a legend added later",
+            "url": "https://www.luther.de/en/ws.html",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "Diet of Worms — Wikipedia (closing line apocryphal, absent from earliest records)",
+            "url": "https://en.wikipedia.org/wiki/Diet_of_Worms",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      },
+      "defense": {
+        "result": "verdict_downgraded",
+        "argument": "Source audit first: footnote 221 resolves to 'D'Aubigne, b. 7, ch. 8', and D'Aubigne's narrative does render the full closing line 'Here I stand, I can do no other; may God help me. Amen.' So White faithfully transmits her cited source; there is no misquotation of D'Aubigne. The verifier's own sources (luther.de 'legend', Wikipedia 'apocryphal') are accurate as far as they go, but they overstate the settledness. The line is NOT a 19th-century embellishment invented by D'Aubigne nor a modern fabrication: 'Hier stehe ich, ich kann nicht anders' appears in the EARLIEST PRINTED edition of Luther's speech, published within weeks in 1521 -- a contemporaneous primary source. The doubt arises solely because that contemporaneous print conflicts with the imperial notaries' on-the-spot transcript, which ends at 'God help me. Amen.' A disagreement between two contemporaneous sources is the textbook shape of a genuine historiographical dispute, not of an error corrected by modern scholarship. Modern Luther scholars remain divided: the majority lean 'probably not spoken,' but all concede 'it is possible they are genuine,' and a real minority defends authenticity (the phrase may have been spoken but the recorders were too moved to capture it verbatim; Bainton's standard biography is titled 'Here I Stand'). Because the substantive answer around the line ('I cannot submit my faith to pope or councils... my conscience is captive to the word of God... God help me. Amen') is universally accepted as authentic, and the disputed clause rests on a contemporaneous 1521 printing rather than on White's chain of transmission, the accurate characterization is 'genuine ongoing disagreement,' not 'wrong by modern standards.' The 'anachronistic' label wrongly implies modern historiography has settled that Luther did not say it; it has not. Downgrade to 'disputed.'",
+        "revised_verdict": "disputed",
+        "new_sources": [
+          {
+            "title": "What Luther Said — Christianity Today (most scholars: probably not spoken, but 'it is possible they are genuine')",
+            "url": "https://www.christianitytoday.com/2008/08/what-luther-said/",
+            "source_class": "other",
+            "supports_verdict": true
+          },
+          {
+            "title": "Luther's Speech at the Diet of Worms — World History Encyclopedia (closing line in earliest print, absent from official transcript; authenticity debated)",
+            "url": "https://www.worldhistory.org/article/1900/luthers-speech-at-the-diet-of-worms/",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-089",
+      "paragraph": 49,
+      "quote": "The whole assembly were for a time speechless with amazement.",
+      "claim_text": "The Diet of Worms was left speechless with amazement after Luther's final answer.",
+      "claim_type": "event",
+      "entities": [
+        "Diet of Worms",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Accounts describe the assembly momentarily stunned after Luther's answer; a narrative characterization consistent with the dramatic moment. Traces to D'Aubigne b.7 ch.8.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.8 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-090",
+      "paragraph": 49,
+      "quote": "Charles himself, noting, half contemptuously, the monk’s worn frame, his plain attire, and the simplicity of his address, had declared, “This monk will never make a heretic of me.”",
+      "claim_text": "Charles V, observing Luther's worn appearance and plain address, had remarked, \"This monk will never make a heretic of me.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Charles V",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Charles V's dismissive remark ('This monk will never make a heretic of me') is a traditionally reported reaction traced to D'Aubigne b.7 ch.8; faithful transmission of White's source.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.8 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-091",
+      "paragraph": 49,
+      "quote": "The emperor, moved to admiration, exclaimed, “This monk speaks with an intrepid heart and unshaken courage.”",
+      "claim_text": "Charles V, moved to admiration by Luther's firmness, exclaimed, \"This monk speaks with an intrepid heart and unshaken courage.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Charles V",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The admiring remark on Luther's courage attributed to Charles traces to D'Aubigne b.7 ch.8; faithful transmission of the cited source.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.8 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-092",
+      "paragraph": 50,
+      "quote": "Said the spokesman of the Diet, “If you do not retract, the emperor and the states of the empire will consult what course to adopt against an incorrigible heretic.”",
+      "claim_text": "The spokesman of the Diet warned Luther that if he did not retract, the emperor and states would consult on how to deal with an \"incorrigible heretic.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther",
+        "Diet of Worms",
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The spokesman's warning that the emperor and estates would decide how to deal with 'an incorrigible heretic' traces to D'Aubigne b.7 ch.8 and matches the documented exchange after Luther's answer.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.8 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-093",
+      "paragraph": 51,
+      "quote": "but the doctor himself said calmly, “May God be my helper, for I can retract nothing.”(222)",
+      "claim_text": "Luther calmly replied, \"May God be my helper, for I can retract nothing.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's calm reiteration ('May God be my helper, for I can retract nothing') traces to D'Aubigne (fn 222, b.7 ch.8); faithful transmission.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.8 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-094",
+      "paragraph": 52,
+      "quote": "He was directed to withdraw from the Diet, while the princes consulted together.... For the last time he was brought into the assembly.",
+      "claim_text": "Luther was directed to withdraw from the assembly while the princes consulted, then was brought back one final time to be asked again whether he would recant.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Diet of Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther was made to withdraw while the estates deliberated, then recalled; consistent with the documented procedure. Traces to D'Aubigne b.7 ch.8.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.8 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-095",
+      "paragraph": 52,
+      "quote": "Again the question was put, whether he would renounce his doctrines. “I have no other reply to make,” he said, “than that which I have already made.”",
+      "claim_text": "When asked once more whether he would renounce his doctrines, Luther replied he had no other answer than what he had already given.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Asked again to recant, Luther gave no new answer; consistent with the record. Quote traces to D'Aubigne b.7 ch.8.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.8 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-096",
+      "paragraph": 53,
+      "quote": "Several of the princes boldly acknowledged the justice of Luther’s cause.",
+      "claim_text": "Several princes at the Diet of Worms openly acknowledged the justice of Luther's cause.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Diet of Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Several princes were impressed and sympathetic to Luther's stand; consistent with the divided response documented at Worms.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Britannica",
+            "url": "https://www.britannica.com/event/Diet-of-Worms-Germany-1521",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-097",
+      "paragraph": 54,
+      "quote": "The elector Frederick had looked forward anxiously to Luther’s appearance before the Diet, and with deep emotion he listened to his speech. With joy and pride he witnessed the doctor’s courage, firmness, and self-possession, and determined to stand more firmly in his defense.",
+      "claim_text": "Frederick, Elector of Saxony, listened with deep emotion to Luther's defense before the Diet and resolved to support him more firmly afterward.",
+      "claim_type": "event",
+      "entities": [
+        "Frederick the Wise",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Frederick the Wise was pleased with Luther's performance (reportedly remarking the 'Father Doctor' spoke well) and grew firmer in protecting him. Consistent with his subsequent actions (the Wartburg). Traces to D'Aubigne b.7.",
+        "sources": [
+          {
+            "title": "Frederick III, Elector of Saxony — Wikipedia (protection of Luther)",
+            "url": "https://en.wikipedia.org/wiki/Frederick_III,_Elector_of_Saxony",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-098",
+      "paragraph": 55,
+      "quote": "As the legate perceived the effect produced by Luther’s speech, he feared, as never before, for the security of the Romish power, and resolved to employ every means at his command to effect the Reformer’s overthrow.",
+      "claim_text": "After Luther's speech, Aleander, fearing for the security of Roman power, resolved to use every means to bring about Luther's downfall.",
+      "claim_type": "event",
+      "entities": [
+        "Girolamo Aleander",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Aleander, alarmed by the effect of Luther's speech, redoubled efforts to secure his condemnation (drafting the Edict). Consistent with his documented role. Traces to D'Aubigne b.7 ch.9.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Wikipedia (Aleander drafts the Edict)",
+            "url": "https://en.wikipedia.org/wiki/Diet_of_Worms",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-099",
+      "paragraph": 56,
+      "quote": "On the day following Luther’s answer, Charles caused a message to be presented to the Diet, announcing his determination to carry out the policy of his predecessors to maintain and protect the Catholic religion.",
+      "claim_text": "On the day following Luther's final answer, Charles V presented a message to the Diet declaring his intention to maintain and protect the Catholic religion against Luther and his teachings.",
+      "claim_type": "event",
+      "entities": [
+        "Charles V",
+        "Diet of Worms",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "On 19 April, the day after Luther's answer, Charles presented a written declaration to the Diet affirming his resolve to uphold the Catholic faith of his ancestors against Luther. Corroborated.",
+        "sources": [
+          {
+            "title": "Luther and Charles V at Worms (Charles's declaration)",
+            "url": "https://ghdi.ghi-dc.org/sub_document.cfm?document_id=4371",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-100",
+      "paragraph": 56,
+      "quote": "“A single monk, misled by his own folly, has risen against the faith of Christendom. To stay such impiety, I will sacrifice my kingdoms, my treasures, my friends, my body, my blood, my soul, and my life. I am about to dismiss the Augustine Luther, forbidding him to cause the least disorder among the people; I shall then proceed against him and his adherents as contumacious heretics, by excommunication, by interdict, and by every means calculated to destroy them. I call on the members of the states to behave like faithful Christians.”(223)",
+      "claim_text": "In his message to the Diet, Charles V declared he would sacrifice his kingdoms, treasures, and life to stay the \"impiety\" of Luther, and would proceed against him and his adherents as heretics.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Charles V",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Charles's declaration -- a single monk set against all Christendom, and his vow to stake kingdoms, treasures and life to end the impiety and proceed against Luther -- is a well-documented text (his handwritten profession of faith). Quote traces to D'Aubigne (fn 223).",
+        "sources": [
+          {
+            "title": "Luther and Charles V at Worms (Charles's 'single monk' declaration)",
+            "url": "https://ghdi.ghi-dc.org/sub_document.cfm?document_id=4371",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-101",
+      "paragraph": 56,
+      "quote": "Nevertheless the emperor declared that Luther’s safe-conduct must be respected, and that before proceedings against him could be instituted, he must be allowed to reach his home in safety.",
+      "claim_text": "Despite his condemnation of Luther, Charles V declared that Luther's safe-conduct must be honored and that he must be allowed to return home safely before any proceedings against him began.",
+      "claim_type": "event",
+      "entities": [
+        "Charles V",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Despite condemning Luther, Charles insisted the safe-conduct be honored and that Luther reach home safely before proceedings. Corroborated.",
+        "sources": [
+          {
+            "title": "Luther and Charles V at Worms (safe-conduct honored)",
+            "url": "https://ghdi.ghi-dc.org/sub_document.cfm?document_id=4371",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-102",
+      "paragraph": 57,
+      "quote": "The emissaries and representatives of the pope again demanded that the Reformer’s safe-conduct should be disregarded. “The Rhine,” they said, “should receive his ashes, as it had received those of John Huss a century ago.”(224)",
+      "claim_text": "Papal representatives at Worms demanded that Luther's safe-conduct be disregarded, arguing that the Rhine should receive his ashes just as it had received John Huss's ashes about a century earlier.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "John Huss",
+        "Martin Luther",
+        "Rhine"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Papal representatives urged violating the safe-conduct, invoking Huss, whose ashes had been cast into the Rhine at Constance (c.1415, roughly a century earlier). The Constance/Rhine detail is historically accurate; quote traces to D'Aubigne (fn 224).",
+        "sources": [
+          {
+            "title": "Luther and Charles V at Worms (Huss/Constance precedent)",
+            "url": "https://ghdi.ghi-dc.org/sub_document.cfm?document_id=4371",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-103",
+      "paragraph": 57,
+      "quote": "But princes of Germany, though themselves papists and avowed enemies to Luther, protested against such a breach of public faith, as a stain upon the honor of the nation. They pointed to the calamities which had followed the death of Huss, and declared that they dared not call down upon Germany, and upon the head of their youthful emperor, a repetition of those terrible evils.",
+      "claim_text": "German princes, though themselves Catholic and opposed to Luther, protested against violating his safe-conduct, citing the calamities that had followed John Huss's death as a warning.",
+      "claim_type": "event",
+      "entities": [
+        "German princes",
+        "John Huss",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "German princes, though Catholic, opposed breaking the safe-conduct, citing the calamities after Huss's death (the Hussite wars). Consistent with the documented reluctance to repeat Constance. Traces to D'Aubigne b.7 ch.9.",
+        "sources": [
+          {
+            "title": "Luther and Charles V at Worms (princes oppose breaking safe-conduct)",
+            "url": "https://ghdi.ghi-dc.org/sub_document.cfm?document_id=4371",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-104",
+      "paragraph": 58,
+      "quote": "Charles himself, in answer to the base proposal, said, “Though honor and faith should be banished from all the world, they ought to find a refuge in the hearts of princes.”(225)",
+      "claim_text": "Charles V responded to the proposal to disregard Luther's safe-conduct by saying that honor and faith should find refuge in the hearts of princes even if banished from the rest of the world.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Charles's reply that honor and faith should find refuge in the hearts of princes traces to D'Aubigne (fn 225, b.7 ch.9); faithful transmission of the cited source and consistent with his insistence on the safe-conduct.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.9 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-105",
+      "paragraph": 58,
+      "quote": "but recalling the scene when Huss in public assembly had pointed to his chains and reminded the monarch of his plighted faith, Charles V. declared, “I should not like to blush like Sigismund.”(226)",
+      "claim_text": "John Huss, at a public assembly, had pointed to his chains and reminded Emperor Sigismund of his broken pledge of safe-conduct; recalling this, Charles V declared he would not want to \"blush like Sigismund.\"",
+      "claim_type": "event",
+      "entities": [
+        "John Huss",
+        "Sigismund",
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Charles V's remark 'I should not like to blush like Sigismund' -- alluding to Sigismund's betrayal of Huss's safe-conduct at Constance -- is well attested. The scene of Huss appealing to his safe-conduct before Sigismund traces to Lenfant (fn 226).",
+        "sources": [
+          {
+            "title": "The Road to Worms (Charles: 'I should not like to blush like Sigismund')",
+            "url": "https://tabletalkmagazine.com/article/2021/04/the-road-to-worms-the-diet-of-worms-in-historical-context/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-106",
+      "paragraph": 59,
+      "quote": "“I am firmly resolved to imitate the example of my ancestors,”(227) wrote the monarch.",
+      "claim_text": "Charles V wrote that he was firmly resolved to imitate the example of his ancestors regarding the papacy.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Charles's resolve to imitate the example of his (Catholic) ancestors is part of his 19 April declaration. Quote traces to D'Aubigne (fn 227).",
+        "sources": [
+          {
+            "title": "Luther and Charles V at Worms (imitating his ancestors)",
+            "url": "https://ghdi.ghi-dc.org/sub_document.cfm?document_id=4371",
+            "source_class": "academic",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-107",
+      "paragraph": 62,
+      "quote": "Hundreds of nobles pledged themselves to protect him.",
+      "claim_text": "Hundreds of German nobles pledged themselves to protect Luther after Charles V's message against him.",
+      "claim_type": "statistic",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "A large body of German knights/nobles (reportedly some hundreds, led by figures like Sickingen) pledged to protect Luther. Consistent with the documented knightly sympathy. Traces to D'Aubigne b.7.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-108",
+      "paragraph": 62,
+      "quote": "On the gates of houses and in public places, placards were posted, some condemning and others sustaining Luther. On one of these were written merely the significant words of the wise man, “Woe to thee, O land, when thy king is a child.”(230)",
+      "claim_text": "Placards were posted in Worms both condemning and supporting Luther, with one bearing only the words \"Woe to thee, O land, when thy king is a child.\"",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Worms"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Placards for and against Luther appeared at Worms; the reported placard bearing Ecclesiastes 10:16 ('Woe to thee, O land, when thy king is a child') traces to D'Aubigne (fn 230, b.7). Faithful transmission of the cited source.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-109",
+      "paragraph": 63,
+      "quote": "Frederick of Saxony maintained a studied reserve, carefully concealing his real feelings toward the Reformer, while at the same time he guarded him with tireless vigilance, watching all his movements and all those of his enemies.",
+      "claim_text": "Frederick, Elector of Saxony, publicly concealed his feelings toward Luther while privately keeping vigilant watch over him and his enemies.",
+      "claim_type": "event",
+      "entities": [
+        "Frederick the Wise",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Frederick the Wise kept a deliberately cautious public posture toward Luther while privately protecting him -- consistent with his well-documented strategy of plausible deniability (culminating in the Wartburg).",
+        "sources": [
+          {
+            "title": "Frederick III, Elector of Saxony — Wikipedia (cautious protection)",
+            "url": "https://en.wikipedia.org/wiki/Frederick_III,_Elector_of_Saxony",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-110",
+      "paragraph": 63,
+      "quote": "“The doctor’s little room,” wrote Spalatin, “could not contain all the visitors who presented themselves.”(231)",
+      "claim_text": "Georg Spalatin wrote that Luther's small room at Worms could not contain all the visitors who came to see him.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Georg Spalatin",
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Spalatin's remark that Luther's small room could not hold all his visitors traces to Martyn (fn 231). Faithful transmission of the cited source; consistent with the throng of visitors documented at Worms.",
+        "sources": [
+          {
+            "title": "Martyn, Life and Times of Luther (fn 231)",
+            "url": "https://en.wikipedia.org/wiki/Diet_of_Worms",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-111",
+      "paragraph": 64,
+      "quote": "Earnest efforts were made to obtain Luther’s consent to a compromise with Rome.",
+      "claim_text": "After his final answer, earnest efforts were made by nobles and princes to persuade Luther to accept a compromise with Rome.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "A conciliation committee (under the Archbishop of Trier) made earnest efforts to obtain a compromise from Luther after his hearing. Corroborated.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Britannica (conciliation attempts)",
+            "url": "https://www.britannica.com/event/Diet-of-Worms-Germany-1521",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-112",
+      "paragraph": 64,
+      "quote": "To this appeal Luther answered: “The gospel of Christ cannot be preached without offense.... Why then should the fear or apprehension of danger separate me from the Lord, and from that divine word which alone is truth? No; I would rather give up my body, my blood, and my life.”(232)",
+      "claim_text": "Luther refused a compromise, replying that the gospel of Christ cannot be preached without offense and that he would rather give up his body, blood, and life than abandon it.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's refusal ('the gospel cannot be preached without offense... I would rather give up my body, blood and life') traces to D'Aubigne (fn 232, b.7 ch.10); faithful transmission.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.10 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-113",
+      "paragraph": 65,
+      "quote": "“I consent,” said he in reply, “with all my heart, that the emperor, the princes, and even the meanest Christian, should examine and judge my works; but on one condition, that they take the word of God for their standard. Men have nothing to do but to obey it. Do not offer violence to my conscience, which is bound and chained up with the Holy Scriptures.”(233)",
+      "claim_text": "Luther replied he would consent to have the emperor, princes, or any Christian judge his works, on condition they use the word of God as their standard.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's condition -- judgment only by the standard of God's word -- traces to D'Aubigne (fn 233, b.7 ch.10) and matches his sola-scriptura stance at the conciliation talks.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.10 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-114",
+      "paragraph": 66,
+      "quote": "To another appeal he said, “I consent to renounce my safe-conduct. I place my person and my life in the emperor’s hands, but the word of God—never!”(234)",
+      "claim_text": "Luther told another appeal that he would consent to renounce his safe-conduct and place his life in the emperor's hands, but never abandon the word of God.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther",
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's offer to surrender his safe-conduct and his life but never the word of God traces to D'Aubigne (fn 234, b.7 ch.10); faithful transmission.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.10 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-115",
+      "paragraph": 66,
+      "quote": "In what concerns the word of God and the faith,” he added, “every Christian is as good a judge as the pope, though supported by a million councils, can be for him.”(235)",
+      "claim_text": "Luther stated that in matters concerning the word of God and faith, every Christian is as good a judge as the pope, even one backed by a million councils.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's claim that every Christian is as competent a judge of faith as the pope traces to Martyn (fn 235) and matches his documented views. Faithful transmission of the cited source.",
+        "sources": [
+          {
+            "title": "Martyn, Life and Times of Luther (fn 235)",
+            "url": "https://en.wikipedia.org/wiki/Diet_of_Worms",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-116",
+      "paragraph": 68,
+      "quote": "Luther was soon commanded by the authority of the emperor to return home, and he knew that this notice would be speedily followed by his condemnation.",
+      "claim_text": "Luther was ordered by imperial authority to return home from Worms, understanding that his formal condemnation would soon follow.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Luther was ordered to leave Worms (departing 26 April 1521), knowing condemnation would follow. Corroborated.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Wikipedia (departure 26 April)",
+            "url": "https://en.wikipedia.org/wiki/Diet_of_Worms",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-117",
+      "paragraph": 68,
+      "quote": "“The devil himself,” said he, “guarded the pope’s citadel; but Christ has made a wide breach in it, and Satan was constrained to confess that the Lord is mightier than he.”(236)",
+      "claim_text": "As he left Worms, Luther said the devil had guarded the pope's citadel, but Christ had made a wide breach in it.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's parting saying about breaching the pope's citadel traces to D'Aubigne (fn 236, b.7 ch.11); faithful transmission of the cited source.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.11 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-118",
+      "paragraph": 69,
+      "quote": "After his departure, still desirous that his firmness should not be mistaken for rebellion, Luther wrote to the emperor.",
+      "claim_text": "After leaving Worms, Luther wrote a letter to Charles V to clarify that his firmness should not be mistaken for rebellion.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "After departing, Luther wrote to Charles to clarify that his firmness was not rebellion; documented and traces to D'Aubigne b.7 ch.11.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.11 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-119",
+      "paragraph": 69,
+      "quote": "“God, who is the searcher of hearts, is my witness,” he said, “that I am ready most earnestly to obey your majesty, in honor or in dishonor, in life or in death, and with no exception save the word of God, by which man lives.... For such submission in spiritual matters is a real worship, and ought to be rendered solely to the Creator.”(237)",
+      "claim_text": "In his letter to Charles V after leaving Worms, Luther affirmed his readiness to obey the emperor in all matters except where the word of God was concerned.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther",
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's letter professing readiness to obey the emperor in all but the word of God traces to D'Aubigne (fn 237, b.7 ch.11); faithful transmission.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 ch.11 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-120",
+      "paragraph": 70,
+      "quote": "On the journey from Worms, Luther’s reception was even more flattering than during his progress thither. Princely ecclesiastics welcomed the excommunicated monk, and civil rulers honored the man whom the emperor had denounced.",
+      "claim_text": "On his return journey from Worms, Luther was received even more favorably than on his way there, welcomed by princely ecclesiastics and civil rulers despite his excommunication.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's return journey drew honorable receptions from ecclesiastics and civil rulers despite his excommunication; consistent with the popular enthusiasm documented. Traces to Martyn (fn 231 context).",
+        "sources": [
+          {
+            "title": "The Road to Worms (enthusiastic reception on the road)",
+            "url": "https://tabletalkmagazine.com/article/2021/04/the-road-to-worms-the-diet-of-worms-in-historical-context/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-121",
+      "paragraph": 70,
+      "quote": "He was urged to preach, and notwithstanding the imperial prohibition, he again entered the pulpit.",
+      "claim_text": "Despite the imperial prohibition, Luther preached again during his journey home from Worms.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther preached on the return journey despite the prohibition (e.g., at Eisenach); documented and traces to D'Aubigne/Martyn.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.7 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-122",
+      "paragraph": 70,
+      "quote": "“I never pledged myself to chain up the word of God,” he said, “nor will I.”(238)",
+      "claim_text": "Luther said he had never pledged to chain up the word of God, nor would he.",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's remark that he never pledged to chain the word of God traces to Martyn (fn 238); faithful transmission of the cited source.",
+        "sources": [
+          {
+            "title": "Martyn, Life and Times of Luther (fn 238)",
+            "url": "https://en.wikipedia.org/wiki/Diet_of_Worms",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-123",
+      "paragraph": 71,
+      "quote": "He had not been long absent from Worms, when the papists prevailed upon the emperor to issue an edict against him.",
+      "claim_text": "Shortly after Luther left Worms, the papists persuaded Charles V to issue an edict against him (the Edict of Worms).",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Shortly after Luther left, the emperor issued the Edict of Worms against him at the urging of the papal party (Aleander drafting it). Corroborated.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Wikipedia (Edict of Worms)",
+            "url": "https://en.wikipedia.org/wiki/Diet_of_Worms",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-124",
+      "paragraph": 71,
+      "quote": "In this decree Luther was denounced as “Satan himself under the form of a man and dressed in a monk’s frock.”(239)",
+      "claim_text": "The imperial edict against Luther denounced him as \"Satan himself under the form of a man and dressed in a monk's frock.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther",
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The Edict's extreme language denouncing Luther (as a devil in a monk's habit) traces to Martyn (fn 239) and matches the vituperative tone of the actual edict, which Aleander drafted.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Wikipedia (Edict's hostile characterization)",
+            "url": "https://en.wikipedia.org/wiki/Diet_of_Worms",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-125",
+      "paragraph": 71,
+      "quote": "All persons were forbidden to harbor him, to give him food or drink, or by word or act, in public or private, to aid or abet him. He was to be seized wherever he might be, and delivered to the authorities. His adherents also were to be imprisoned, and their property confiscated. His writings were to be destroyed",
+      "claim_text": "The Edict of Worms forbade anyone from harboring or aiding Luther, ordered his seizure, and mandated imprisonment of his adherents, confiscation of their property, and destruction of his writings.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The Edict of Worms outlawed Luther, forbade harboring or aiding him, ordered his arrest and delivery, and mandated destruction of his writings (and penalties for his adherents). Corroborated.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Britannica (provisions of the Edict)",
+            "url": "https://www.britannica.com/event/Diet-of-Worms-Germany-1521",
+            "source_class": "scholarly_encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-126",
+      "paragraph": 71,
+      "quote": "The elector of Saxony, and the princes most friendly to Luther, had left Worms soon after his departure, and the emperor’s decree received the sanction of the Diet.",
+      "claim_text": "Frederick, Elector of Saxony, and other princes friendly to Luther had left Worms before the Edict of Worms was issued, and the Diet gave the edict its sanction.",
+      "claim_type": "event",
+      "entities": [
+        "Frederick the Wise",
+        "Diet of Worms",
+        "Charles V"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Frederick and other Luther-friendly princes had left Worms before the Edict was formally passed (25/26 May) by a reduced Diet. Corroborated.",
+        "sources": [
+          {
+            "title": "Diet of Worms — Wikipedia (Edict passed after many left)",
+            "url": "https://en.wikipedia.org/wiki/Diet_of_Worms",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-127",
+      "paragraph": 72,
+      "quote": "God gave wisdom to Frederick of Saxony to devise a plan for the Reformer’s preservation.... Upon his homeward journey, he was seized, separated from his attendants, and hurriedly conveyed through the forest to the castle of Wartburg, an isolated mountain fortress.",
+      "claim_text": "Frederick, Elector of Saxony, arranged for Luther to be seized on his homeward journey, separated from his attendants, and secretly taken to Wartburg Castle for protection.",
+      "claim_type": "event",
+      "entities": [
+        "Frederick the Wise",
+        "Martin Luther",
+        "Wartburg Castle"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Frederick the Wise arranged a staged 'abduction' on Luther's homeward road, spiriting him to Wartburg Castle for protection. Corroborated.",
+        "sources": [
+          {
+            "title": "Luther's Time at the Wartburg (staged kidnapping by Frederick)",
+            "url": "https://lutheranreformation.org/history/luthers-time-wartburg/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-128",
+      "paragraph": 72,
+      "quote": "Both his seizure and his concealment were so involved in mystery that even Frederick himself for a long time knew not whither he had been conducted.",
+      "claim_text": "Luther's seizure and concealment at Wartburg were arranged so secretly that even Frederick himself did not know his location for a long time.",
+      "claim_type": "event",
+      "entities": [
+        "Frederick the Wise",
+        "Martin Luther",
+        "Wartburg Castle"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The seizure was made deliberately secret; Frederick kept himself ignorant of Luther's exact whereabouts for a time so he could truthfully deny knowledge. Consistent with the standard account.",
+        "sources": [
+          {
+            "title": "Luther's Time at the Wartburg (companions and even Frederick kept in the dark)",
+            "url": "https://lutheranreformation.org/history/luthers-time-wartburg/",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-129",
+      "paragraph": 73,
+      "quote": "Spring, summer, and autumn passed, and winter came, and Luther still remained a prisoner.",
+      "claim_text": "Luther remained in seclusion at Wartburg Castle from spring through the following winter (roughly May 1521 into early 1522).",
+      "claim_type": "date",
+      "entities": [
+        "Martin Luther",
+        "Wartburg Castle"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Luther remained secluded at the Wartburg from May 1521 into the following winter (until March 1522) -- through spring, summer, autumn and winter. Corroborated.",
+        "sources": [
+          {
+            "title": "Luther Bible / Wartburg (4 May 1521 – 3 March 1522)",
+            "url": "https://en.wikipedia.org/wiki/Luther_Bible",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-130",
+      "paragraph": 74,
+      "quote": "he cried in despair, “Alas! there is no one in this latter day of His anger, to stand like a wall before the Lord, and save Israel!”(240)",
+      "claim_text": "While at Wartburg, Luther cried out in despair that there was no one to \"stand like a wall before the Lord, and save Israel.\"",
+      "claim_type": "attributed_quote",
+      "entities": [
+        "Martin Luther",
+        "Wartburg Castle"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "Luther's despairing cry ('no one to stand like a wall... and save Israel') traces to D'Aubigne (fn 240, b.9 ch.2); faithful transmission of the cited source and consistent with his documented Wartburg distress.",
+        "sources": [
+          {
+            "title": "D'Aubigne, b.9 ch.2 (White's cited source)",
+            "url": "https://4eange.org/anglais/LIV/OTH/HRSC/HRSC07/TheDietOfWorms.pdf",
+            "source_class": "other",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-131",
+      "paragraph": 74,
+      "quote": "He also performed a most important service for his countrymen by translating the New Testament into the German tongue.",
+      "claim_text": "While in seclusion at Wartburg Castle, Luther translated the New Testament into German.",
+      "claim_type": "event",
+      "entities": [
+        "Martin Luther",
+        "Wartburg Castle"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "At the Wartburg Luther translated the New Testament into German (the 'September Testament', published 1522). Textbook.",
+        "sources": [
+          {
+            "title": "Luther Bible — Wikipedia (NT translated at the Wartburg)",
+            "url": "https://en.wikipedia.org/wiki/Luther_Bible",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-132",
+      "paragraph": 74,
+      "quote": "From his rocky Patmos he continued for nearly a whole year to proclaim the gospel, and rebuke the sins and errors of the times.",
+      "claim_text": "Luther remained at Wartburg Castle for nearly a whole year, during which he continued to write and proclaim the gospel.",
+      "claim_type": "date",
+      "entities": [
+        "Martin Luther",
+        "Wartburg Castle"
+      ],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Luther stayed at the Wartburg about ten months (4 May 1521 – 3 March 1522), 'nearly a whole year', continuing to write and publish. Corroborated.",
+        "sources": [
+          {
+            "title": "Wartburg / Luther Bible (ten-month seclusion)",
+            "url": "https://en.wikipedia.org/wiki/Wartburg",
+            "source_class": "encyclopedia",
+            "supports_verdict": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "GC-08-133",
+      "paragraph": 75,
+      "quote": "But it was not merely to preserve Luther from the wrath of his enemies, nor even to afford him a season of quiet for these important labors, that God had withdrawn His servant from the stage of public life.",
+      "claim_text": "God is described as having withdrawn Luther to Wartburg for a deeper providential purpose beyond mere protection or quiet for his labors.",
+      "claim_type": "theological",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "[control sample] Theological claim of a divine purpose behind Luther's withdrawal to the Wartburg beyond protection/quiet. Not empirically testable; extractor's needs_verification:false flag is correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-08-134",
+      "paragraph": 76,
+      "quote": "Satan seeks to divert men’s thoughts and affections from God, and to fix them upon human agencies; he leads them to honor the mere instrument, and to ignore the Hand that directs all the events of providence.",
+      "claim_text": "Satan is described as seeking to divert people's honor from God to human reform leaders, a danger from which God protected the Reformation by removing Luther from public view.",
+      "claim_type": "theological",
+      "entities": [
+        "Martin Luther"
+      ],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan diverting honor from God to human agents. Not testable.",
+        "sources": []
+      }
+    }
+  ]
+}
