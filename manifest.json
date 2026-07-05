@@ -2567,7 +2567,7 @@
         "extract": "done",
         "verify": "done",
         "defend": "done",
-        "impact": "pending"
+        "impact": "done"
       },
       "counts": {
         "extract": {
@@ -2601,9 +2601,23 @@
           "verdict_downgraded": 0,
           "defense_failed": 1,
           "searches": 0
+        },
+        "impact": {
+          "scored": 2,
+          "load_bearing": 0,
+          "top_impact": [
+            {
+              "id": "GC-42-064",
+              "score": 2
+            },
+            {
+              "id": "GC-42-032",
+              "score": 2
+            }
+          ]
         }
       },
-      "updated_at": "2026-07-05T14:39:40Z"
+      "updated_at": "2026-07-05T14:45:40Z"
     }
   }
 }

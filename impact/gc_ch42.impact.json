@@ -1,0 +1,1569 @@
+{
+  "chapter": 42,
+  "chapter_title": "The Controversy Ended",
+  "stage": "impact",
+  "generated_at": "2026-07-05",
+  "notes": "Impact pass. Chapter argument reconstruction: Ch. 42 is the book's capstone eschatological vision, not a historical argument in the ordinary sense. It narrates Christ's post-millennial return, the resurrection and final rebellion of the wicked under Satan, a universal judgment scene that reviews Christ's Passion and a roll-call of history's persecutors (Herod, Herodias, Nero, Agrippina, Inquisition-era prelates) to demonstrate that God's justice is vindicated, Satan's final destruction, and the restoration of the earth as the eternal home of the redeemed. The chapter's persuasive weight rests almost entirely on prophetic/theological narration explicitly outside empirical checkability (CLAUDE.md rule 5): 92 of 101 claims are theological or direct/paraphrased scripture quotations logged as unverifiable or supported. The handful of 'historical' claims (canonical Passion details, the persecutor roll-call) function as illustrative furniture inside the vision -- they dramatize the theme that history's wrongs will be righted, but the chapter's argument does not depend on any single name in that catalogue being historically airtight. As the frame/capstone of the whole book, this chapter's real argumentative freight was already carried by earlier chapters (Reformation, sanctuary/investigative judgment, Sabbath); nothing here is load-bearing for the central thesis chain on its own terms. Only 2 of 101 claims required impact scoring: GC-42-064 (anachronistic, defense_failed, 'six thousand years' Ussherian chronology) and GC-42-032 (disputed, Massacre of the Innocents, carried through per orchestrator scope). All other claims are unverifiable theology or supported scripture/history and receive no impact object per pipeline rules. Scored count: 2. Load-bearing count: 0.",
+  "claims": [
+    {
+      "id": "GC-42-001",
+      "paragraph": 1,
+      "quote": "At the close of the thousand years, Christ again returns to the earth.",
+      "claim_text": "Christ returns to earth a second time at the close of the millennium (the thousand years), per White's eschatology.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological/prophetic-interpretation claim about a future post-millennial return of Christ; not empirically checkable. Logged for centrality analysis per CLAUDE.md rule 5.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-002",
+      "paragraph": 1,
+      "quote": "He is accompanied by the host of the redeemed, and attended by a retinue of angels.",
+      "claim_text": "At His post-millennial return, Christ is accompanied by the redeemed and a retinue of angels.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "angels"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural/eschatological claim (angelic retinue, resurrected redeemed); not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-003",
+      "paragraph": 1,
+      "quote": "As He descends in terrific majesty, He bids the wicked dead arise to receive their doom. They come forth, a mighty host, numberless as the sands of the sea.",
+      "claim_text": "At Christ's post-millennial return, the wicked dead are resurrected in a vast, numberless host to receive judgment (the second resurrection).",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Prophetic/supernatural claim about a future second resurrection; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-004",
+      "paragraph": 1,
+      "quote": "The righteous were clothed with immortal youth and beauty. The wicked bear the traces of disease and death.",
+      "claim_text": "In the resurrection scenario described, the righteous appear clothed with immortal youth and beauty, while the resurrected wicked bear the marks of disease and death.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural/eschatological description of resurrected bodies; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-005",
+      "paragraph": 2,
+      "quote": "With one voice the wicked hosts exclaim, “Blessed is He that cometh in the name of the Lord!”",
+      "claim_text": "The resurrected wicked are depicted exclaiming in unison 'Blessed is He that cometh in the name of the Lord,' a phrase echoing scripture (cf. Psalm 118:26, Matthew 21:9, 23:39).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible"],
+      "needs_verification": true,
+      "extractor_note": "Verify verbatim wording against KJV Ps 118:26 / Matt 23:39; the speaker attribution ('the wicked hosts') is White's narrative framing, not the original biblical speaker.",
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quotation is verbatim KJV (Psalm 118:26; Matthew 21:9; 23:39: 'Blessed is he that cometh in the name of the Lord'). Quote fidelity is accurate. The speaker attribution ('the wicked hosts exclaim') is White's narrative/eschatological framing, not a claim about the original biblical speaker, and is theological rather than checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-006",
+      "paragraph": 2,
+      "quote": "It is not love to Jesus that inspires this utterance. The force of truth urges the words from unwilling lips.",
+      "claim_text": "White interprets the wicked's acclamation of Christ as compelled by the force of truth rather than by love for Him.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/theological reading of an imagined future event; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-007",
+      "paragraph": 2,
+      "quote": "They are to have no new probation, in which to remedy the defects of their past lives.",
+      "claim_text": "According to White's theology, the resurrected wicked are given no second probation to amend their past lives.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Doctrinal/theological assertion about post-resurrection probation; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-008",
+      "paragraph": 3,
+      "quote": "Christ descends upon the Mount of Olives, whence, after His resurrection, He ascended, and where angels repeated the promise of His return.",
+      "claim_text": "Jesus Christ ascended to heaven from the Mount of Olives after His resurrection, and angels there promised His return (cf. Acts 1:9-12).",
+      "claim_type": "biographical",
+      "entities": ["Jesus Christ", "Mount of Olives"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The claim faithfully relays the New Testament account: Acts 1:9-12 places the Ascension at the Mount of Olives (a sabbath day's journey from Jerusalem) with two men/angels promising Christ's return in like manner. The future descent of Christ upon the Mount of Olives is theological framing (drawn from Zech 14:4); the historical/scriptural element (NT locates the Ascension there) is textbook-level and accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-009",
+      "paragraph": 3,
+      "quote": "Says the prophet: “The Lord my God shall come, and all the saints with Thee.” “And His feet shall stand in that day upon the Mount of Olives, which is before Jerusalem on the east, and the Mount of Olives shall cleave in the midst thereof, ... and there shall be a very great valley.” “And the Lord shall be king over all the earth: in that day shall there be one Lord, and His name one.”(1157)",
+      "claim_text": "Zechariah is quoted (footnote 1157) prophesying that God will come with the saints, that His feet will stand on the Mount of Olives east of Jerusalem causing it to cleave and form a valley, and that the Lord will be king over all the earth (cf. Zechariah 14:4-9).",
+      "claim_type": "attributed_quote",
+      "entities": ["Zechariah", "Bible", "Mount of Olives", "Jerusalem"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Quotation accurately stitches KJV Zechariah 14:5 ('and the LORD my God shall come, and all the saints with thee'), 14:4 (feet on the Mount of Olives east of Jerusalem, cleaving to form a very great valley), and 14:9 ('the LORD shall be king over all the earth: in that day shall there be one LORD, and his name one'), with an ellipsis marking the omission. Attribution to 'the prophet' (Zechariah) is correct; wording faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-010",
+      "paragraph": 3,
+      "quote": "As the New Jerusalem, in its dazzling splendor, comes down out of heaven, it rests upon the place purified and made ready to receive it, and Christ, with His people and the angels, enters the holy city.",
+      "claim_text": "The New Jerusalem descends from heaven and rests on the purified earth, whereupon Christ, His people, and the angels enter the holy city.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "New Jerusalem"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological vision (descent of the New Jerusalem, Rev 21); not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-011",
+      "paragraph": 4,
+      "quote": "Now Satan prepares for a last mighty struggle for the supremacy.",
+      "claim_text": "After the resurrection of the wicked, Satan prepares for a final struggle for supremacy over the earth, per White's narrative.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural/eschatological claim about Satan's future action; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-012",
+      "paragraph": 4,
+      "quote": "He will marshal all the armies of the lost under his banner, and through them endeavor to execute his plans.",
+      "claim_text": "Satan marshals the armies of the resurrected wicked under his banner to execute his final plans.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural/eschatological claim; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-013",
+      "paragraph": 4,
+      "quote": "He claims to be the prince who is the rightful owner of the world, and whose inheritance has been unlawfully wrested from him. He represents himself to his deluded subjects as a redeemer, assuring them that his power has brought them forth from their graves, and that he is about to rescue them from the most cruel tyranny.",
+      "claim_text": "In White's narrative, Satan falsely claims to be the rightful owner of the world and a redeemer who resurrected the wicked and will rescue them from tyranny.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural narrative attributing speech/claims to Satan; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-014",
+      "paragraph": 5,
+      "quote": "In that vast throng are multitudes of the long-lived race that existed before the flood; men of lofty stature and giant intellect, who, yielding to the control of fallen angels, devoted all their skill and knowledge to the exaltation of themselves",
+      "claim_text": "Among the resurrected wicked are the antediluvian 'long-lived race' of great stature and intellect, who came under the control of fallen angels before the Flood.",
+      "claim_type": "theological",
+      "entities": ["antediluvians", "fallen angels"],
+      "needs_verification": false,
+      "extractor_note": "Contains an embedded historical claim about pre-Flood humans (longevity, giant stature) but is framed entirely as part of the eschatological vision; logged as theological per instructions rather than as an independently asserted historical/biographical fact.",
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "CONTROL SAMPLE (re-checked despite needs_verification:false). The claim is framed within the eschatological vision and is properly theological (fallen-angel control, resurrection). However, per the control mandate it does smuggle an embedded factual assertion: that a pre-Flood human race of great longevity and 'lofty stature/giant intellect' existed and was destroyed by a global flood. That embedded proposition is a Genesis-literalist reading (Gen 6:1-4 Nephilim; long antediluvian lifespans) that modern anthropology, genetics, and geology do not support; asserted as standalone history it would be anachronistic (matching 19th-century biblical literalism White's sources shared). Because White presents it inside the vision frame rather than as an independent historical claim, the extractor's theological/false flag is defensible under CLAUDE.md rule 5. Flagged here for transparency.",
+        "modern_consensus": "No evidence for a distinct long-lived, giant-statured antediluvian human race or for a global flood; anatomically modern human history extends well beyond a literal 6000 years.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-015",
+      "paragraph": 5,
+      "quote": "There are kings and generals who conquered nations, valiant men who never lost a battle, proud, ambitious warriors whose approach made kingdoms tremble.",
+      "claim_text": "Among the resurrected wicked are historical kings, generals, and warriors renowned for conquest.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological description of the resurrected wicked; the generic reference to historical conquerors is decorative and not an independently checkable proposition. Logged as theological.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-016",
+      "paragraph": 6,
+      "quote": "Satan consults with his angels, and then with these kings and conquerors and mighty men.",
+      "claim_text": "Satan consults with his angels and with the resurrected kings and conquerors to plan an assault on the New Jerusalem.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Supernatural/eschatological narrative; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-017",
+      "paragraph": 6,
+      "quote": "All immediately begin to prepare for battle. Skilful artisans construct implements of war. Military leaders, famed for their success, marshal the throngs of warlike men into companies and divisions.",
+      "claim_text": "The resurrected wicked and Satan's forces prepare for battle, constructing weapons of war and organizing into military divisions.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological vision of the final assault; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-018",
+      "paragraph": 7,
+      "quote": "At last the order to advance is given, and the countless host moves on,—an army such as was never summoned by earthly conquerors, such as the combined forces of all ages since war began on earth could never equal.",
+      "claim_text": "Satan leads a resurrected army described as larger than the combined armies of all human history, advancing on the New Jerusalem.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological hyperbole about a future resurrected army; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-019",
+      "paragraph": 7,
+      "quote": "By command of Jesus, the gates of the New Jerusalem are closed, and the armies of Satan surround the city, and make ready for the onset.",
+      "claim_text": "By Christ's command, the gates of the New Jerusalem are closed and Satan's armies surround the city preparing for attack.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Satan", "New Jerusalem"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological vision (cf. Rev 20:9); not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-020",
+      "paragraph": 8,
+      "quote": "Far above the city, upon a foundation of burnished gold, is a throne, high and lifted up. Upon this throne sits the Son of God, and around Him are the subjects of His kingdom.",
+      "claim_text": "Christ appears enthroned above the city of God, visible to His enemies, at the final judgment scene.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological/supernatural vision; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-021",
+      "paragraph": 9,
+      "quote": "the “great multitude, which no man could number, of all nations, and kindreds, and people, and tongues, ... before the throne, and before the Lamb, clothed with white robes, and palms in their hands.”(1158)",
+      "claim_text": "Revelation is quoted (footnote 1158) describing a great multitude of all nations before the throne and the Lamb, clothed in white robes with palms in their hands (cf. Revelation 7:9).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Revelation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Revelation 7:9 with an ellipsis for the omitted clause ('stood before the throne'). Quote fidelity and attribution accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-022",
+      "paragraph": 9,
+      "quote": "Nearest the throne are those who were once zealous in the cause of Satan, but who, plucked as brands from the burning, have followed their Saviour with deep, intense devotion.",
+      "claim_text": "In White's vision, those positioned nearest Christ's throne include former zealous followers of Satan who were converted, along with the persecuted righteous and martyrs of all ages.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological/theological description; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-023",
+      "paragraph": 10,
+      "quote": "The redeemed raise a song of praise that echoes and re-echoes through the vaults of heaven, “Salvation to our God which sitteth upon the throne, and unto the Lamb.”",
+      "claim_text": "The redeemed are depicted singing 'Salvation to our God which sitteth upon the throne, and unto the Lamb,' echoing Revelation 7:10.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Revelation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Revelation 7:10 ('Salvation to our God which sitteth upon the throne, and unto the Lamb'). Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-024",
+      "paragraph": 10,
+      "quote": "In all that shining throng there are none to ascribe salvation to themselves, as if they had prevailed by their own power and goodness.",
+      "claim_text": "According to White, none among the redeemed multitude claim credit for their own salvation.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological assertion about the redeemed; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-025",
+      "paragraph": 11,
+      "quote": "In the presence of the assembled inhabitants of earth and heaven the final coronation of the Son of God takes place.",
+      "claim_text": "The final coronation of Christ takes place in the presence of the assembled inhabitants of earth and heaven, per White's eschatology.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological/theological claim; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-026",
+      "paragraph": 11,
+      "quote": "Says the prophet of God: “I saw a great white throne, and Him that sat on it, from whose face the earth and the heaven fled away; and there was found no place for them. And I saw the dead, small and great, stand before God; and the books were opened: and another book was opened, which is the book of life: and the dead were judged out of those things which were written in the books, according to their works.”(1159)",
+      "claim_text": "Revelation is quoted (footnote 1159, attributed to 'the prophet of God') describing a great white throne judgment where the dead are judged from opened books, including the book of life, according to their works (cf. Revelation 20:11-12).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Revelation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Revelation 20:11-12. Attribution to 'the prophet of God' (John of Patmos) is White's designation; quote fidelity accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-027",
+      "paragraph": 12,
+      "quote": "As soon as the books of record are opened, and the eye of Jesus looks upon the wicked, they are conscious of every sin which they have ever committed.",
+      "claim_text": "At judgment, the wicked become conscious of every sin they have committed once the books of record are opened, per White's theology.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological assertion; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-028",
+      "paragraph": 13,
+      "quote": "The Saviour’s lowly birth; His early life of simplicity and obedience; His baptism in Jordan; the fast and temptation in the wilderness",
+      "claim_text": "Jesus Christ was born in humble circumstances, lived a life of simplicity and obedience, was baptized in the Jordan River, and subsequently fasted and was tempted in the wilderness.",
+      "claim_type": "biographical",
+      "entities": ["Jesus Christ", "Jordan River"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Textbook-level relay of the canonical Gospel account: humble birth (Luke 2), baptism in the Jordan by John (Mark 1:9), and the 40-day fast and temptation in the wilderness (Matt 4:1-11; Luke 4:1-13). Standard across all reference works.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-029",
+      "paragraph": 13,
+      "quote": "the awful, mysterious agony in Gethsemane, beneath the crushing weight of the sins of the whole world; His betrayal into the hands of the murderous mob; the fearful events of that night of horror,—the unresisting prisoner, forsaken by His best-loved disciples, rudely hurried through the streets of Jerusalem",
+      "claim_text": "Jesus Christ suffered agony in Gethsemane, was betrayed, and was seized and hurried through the streets of Jerusalem, forsaken by His disciples.",
+      "claim_type": "biographical",
+      "entities": ["Jesus Christ", "Gethsemane", "Jerusalem"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful relay of the canonical Passion narrative: agony in Gethsemane (Matt 26:36-46), betrayal by Judas and arrest (Matt 26:47-56), disciples forsaking Him and fleeing (Matt 26:56). Textbook-level.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-030",
+      "paragraph": 13,
+      "quote": "the Son of God exultingly displayed before Annas, arraigned in the high priest’s palace, in the judgment-hall of Pilate, before the cowardly and cruel Herod, mocked, insulted, tortured, and condemned to die",
+      "claim_text": "Jesus Christ was arraigned before Annas, tried in the high priest's palace, brought before Pontius Pilate in his judgment hall, and sent before Herod, where He was mocked, insulted, and condemned to death.",
+      "claim_type": "biographical",
+      "entities": ["Jesus Christ", "Annas", "Pontius Pilate", "Herod Antipas"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] The trial sequence matches the canonical Gospels: Jesus taken first to Annas (John 18:13), then the high priest Caiaphas's palace (Matt 26:57), then Pilate's judgment hall (John 18:28), then to Herod Antipas (Luke 23:6-12, where Herod and his men mock Him), and condemnation to crucifixion. Standard harmonized Passion account.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-031",
+      "paragraph": 14,
+      "quote": "the patient Sufferer treading the path to Calvary; the Prince of heaven hanging upon the cross; the haughty priests and the jeering rabble deriding His expiring agony; the supernatural darkness; the heaving earth, the rent rocks, the open graves, marking the moment when the world’s Redeemer yielded up His life.",
+      "claim_text": "Jesus Christ was crucified at Calvary amid mocking by priests and onlookers, and His death was accompanied by darkness, an earthquake, split rocks, and opened graves.",
+      "claim_type": "event",
+      "entities": ["Jesus Christ", "Calvary"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful relay of the canonical crucifixion account: Golgotha/Calvary (Luke 23:33), mocking by priests and passersby (Matt 27:39-43), darkness over the land (Matt 27:45; Luke 23:44), and the earthquake, rent rocks, and opened graves at His death (Matt 27:51-52). These are reports of the Gospel narrative, not independent historical assertions beyond it.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-032",
+      "paragraph": 15,
+      "quote": "Herod, who slew the innocent children of Bethlehem that he might destroy the King of Israel",
+      "claim_text": "Herod ordered the killing of the innocent children of Bethlehem in an attempt to destroy the infant King of Israel (the Massacre of the Innocents).",
+      "claim_type": "event",
+      "entities": ["Herod the Great", "Bethlehem"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "disputed",
+        "confidence": "medium",
+        "rationale": "The Massacre of the Innocents is attested only in Matthew 2:16-18. Modern scholarship is genuinely divided: a majority regards it as non-historical (Josephus, who catalogs Herod's atrocities in detail, is silent; first-century Bethlehem was a hamlet with at most a handful of male infants; the episode closely mirrors the Exodus/Pharaoh infanticide as a literary template). A minority of scholars defends its plausibility, noting it is consistent with Herod the Great's documented cruelty (he executed several of his own sons and his wife) and that a small-scale killing would not merit separate notice by Josephus. White relays the traditional Matthean account as historical, which was the near-universal 19th-century view. Genuine ongoing historiographical disagreement -> disputed.",
+        "modern_consensus": "Most critical scholars doubt the historicity of the specific Bethlehem massacre; a minority defend it as consistent with Herod's known character. Herod's general cruelty is not in dispute.",
+        "period_historiography": "19th-century Protestant historiography and harmonies of the Gospels (the milieu of White's sources) treated the Massacre of the Innocents as straightforward history.",
+        "sources": [
+          {"title": "Massacre of the Innocents - Wikipedia", "url": "https://en.wikipedia.org/wiki/Massacre_of_the_Innocents", "source_class": "encyclopedia", "supports_verdict": true, "note": "Summarizes majority scholarly skepticism (Josephus silent; Exodus literary template)."},
+          {"title": "Massacre of the Innocents: History vs Myth - Bart Ehrman", "url": "https://www.bartehrman.com/massacre-of-the-innocents/", "source_class": "other", "supports_verdict": true, "note": "Critical scholar arguing the episode is not historical."},
+          {"title": "The Slaughter of the Innocents: Historical Fact or Legendary Fiction? - Associates for Biblical Research", "url": "https://biblearchaeology.org/research/new-testament-era/2411-the-slaughter-of-the-innocents-historical-fact-or-legendary-fiction", "source_class": "other", "supports_verdict": true, "note": "Represents the minority position defending historicity via Herod's documented cruelty; establishes the dispute."}
+        ]
+      },
+      "impact": {
+        "severity": 2,
+        "centrality": 1,
+        "load_bearing": false,
+        "impact_score": 2,
+        "narrative_arc": "eschatological",
+        "reasoning": "The claim is one name in a roll-call of historical persecutors (Herod, Herodias, Nero, Agrippina, medieval prelates) paraded past in the judgment vision to dramatize that history's wrongs are finally exposed and righted; it carries no independent argumentative freight beyond that decorative-illustrative function. Severity is modest (2) because White relays the traditional Matthean account exactly as 19th-century harmonists did, and the modern dispute is genuine rather than a case of clear fabrication -- a defensible minority of scholars still argues for historicity given Herod's documented cruelty. Counterfactual: delete this single name from the catalogue and the vision scene, the judgment theme, and the chapter's argument are completely unaffected; nothing about the final-judgment tableau or the book's central thesis chain depends on this one item's historicity."
+      }
+    },
+    {
+      "id": "GC-42-033",
+      "paragraph": 15,
+      "quote": "the base Herodias, upon whose guilty soul rests the blood of John the Baptist",
+      "claim_text": "Herodias bears responsibility for the death of John the Baptist.",
+      "claim_type": "biographical",
+      "entities": ["Herodias", "John the Baptist"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "[common_knowledge] The execution of John the Baptist by Herod Antipas is historically attested by Josephus (Antiquities 18.5.2) as well as the Gospels. The Gospels (Mark 6:17-28; Matt 14:3-11) specifically assign the instigating role to Herodias, who nursed a grudge and prompted her daughter's request for John's head. White follows this Gospel attribution. Note: Josephus gives a political motive (fear of John's influence) and does not name Herodias as instigator, so her specific culpability rests on the Gospel account rather than Josephus; the claim is nonetheless a faithful relay of the canonical tradition and John's death at Antipas's court is not in dispute.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-034",
+      "paragraph": 15,
+      "quote": "the priests and rulers and the maddened throng who cried, “His blood be on us, and on our children!”",
+      "claim_text": "The priests, rulers, and crowd at Jesus' trial are described as having cried 'His blood be on us, and on our children,' echoing Matthew 27:25.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Gospel of Matthew"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Matthew 27:25 ('His blood be on us, and on our children'). White relays the Gospel account of the crowd before Pilate; quote fidelity accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-035",
+      "paragraph": 16,
+      "quote": "Amid the ransomed throng are the apostles of Christ, the heroic Paul, the ardent Peter, the loved and loving John, and their true-hearted brethren",
+      "claim_text": "Paul, Peter, and John were apostles of Christ.",
+      "claim_type": "biographical",
+      "entities": ["Paul the Apostle", "Peter the Apostle", "John the Apostle"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Peter and John were members of the Twelve; Paul is called an apostle throughout the NT (e.g., Rom 1:1). Textbook-level.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-036",
+      "paragraph": 16,
+      "quote": "There is Nero, that monster of cruelty and vice, beholding the joy and exaltation of those whom he once tortured, and in whose extremest anguish he found satanic delight.",
+      "claim_text": "The Roman emperor Nero tortured and persecuted people (including Christians among his victims) and took delight in their suffering.",
+      "claim_type": "biographical",
+      "entities": ["Nero"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Nero's persecution of Christians after the Great Fire of Rome (AD 64) is attested by Tacitus (Annals 15.44), who describes Christians subjected to cruel deaths (crucifixion, burning as torches, exposure to beasts). Nero's reputation for cruelty is standard in the classical sources and reference works. The characterization is period- and evidence-consistent.",
+        "sources": [
+          {"title": "Who was Nero? - British Museum", "url": "https://www.britishmuseum.org/blog/who-was-nero", "source_class": "other", "supports_verdict": true, "note": "Overview of Nero and the ancient hostile source tradition (Tacitus, Suetonius)."}
+        ]
+      }
+    },
+    {
+      "id": "GC-42-037",
+      "paragraph": 16,
+      "quote": "His mother is there to witness the result of her own work; to see how the evil stamp of character transmitted to her son, the passions encouraged and developed by her influence and example, have borne fruit in crimes that caused the world to shudder.",
+      "claim_text": "Nero's mother's character and influence contributed to shaping the cruel character for which Nero became known.",
+      "claim_type": "causal",
+      "entities": ["Nero", "Agrippina the Younger"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "medium",
+        "rationale": "The claim reflects the ancient literary tradition: Tacitus (Annals) and Suetonius portray Agrippina the Younger as ruthless and ambitious (she is depicted poisoning Claudius and engineering Nero's accession) and as the dominant influence over the young Nero. A moralizing causal reading that her example shaped his character is consistent with that tradition and with 19th-century historiography. Modern scholars caution that the surviving sources are hostile and were shaped by Flavian-era interests in blackening the Julio-Claudians, so the psychological causation is not securely established; but nothing in the modern literature contradicts the general picture of Agrippina's strong, ruthless influence. Not accusatory; supported with medium confidence.",
+        "modern_consensus": "Agrippina exercised exceptional influence over Nero early in his reign; the ancient portrayal of her ruthlessness is widely regarded as colored by hostile sources, but her formative influence is generally accepted.",
+        "sources": [
+          {"title": "Agrippina the Younger - Wikipedia", "url": "https://en.wikipedia.org/wiki/Agrippina_the_Younger", "source_class": "encyclopedia", "supports_verdict": true, "note": "Documents Agrippina's dominant influence over the young Nero per Tacitus/Suetonius."},
+          {"title": "Agrippina the Younger: Tacitus' Unicum Exemplum (academic)", "url": "https://www.academia.edu/44488812/Agrippina_the_Younger_Tacitus_Unicum_Exemplum", "source_class": "academic", "supports_verdict": true, "note": "Scholarly treatment of Tacitus' hostile characterization of Agrippina; notes source bias while confirming the tradition of her influence."}
+        ]
+      }
+    },
+    {
+      "id": "GC-42-038",
+      "paragraph": 17,
+      "quote": "There are papist priests and prelates, who claimed to be Christ’s ambassadors, yet employed the rack, the dungeon, and the stake to control the consciences of His people.",
+      "claim_text": "Catholic priests and prelates who claimed to represent Christ used torture (the rack), imprisonment, and burning at the stake to control people's religious consciences.",
+      "claim_type": "causal",
+      "entities": ["Roman Catholic Church"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "source_quality: academic-full. The general claim is well documented: the medieval and Spanish Inquisitions, staffed by clergy and prelates, employed judicial torture (including the rack), imprisonment ('the dungeon'), and death by burning at the stake against those deemed heretics. H. C. Lea's standard scholarly monograph 'A History of the Inquisition of the Middle Ages' (1888) documents the judicial use of torture and the torture-chamber/rack throughout (e.g., the introduction of judicial torture in the 12th-13th centuries; the torture-chamber where the accused were placed on the rack) and the relaxation of the impenitent to the secular arm for burning. The claim contains no numerical superlative or death-toll figure (which would be anachronism-prone per the corpus pattern); as a general characterization of Inquisitorial method it is accurate to modern scholarship.",
+        "modern_consensus": "The Inquisition used judicial torture, imprisonment, and burning at the stake; this is uncontested in modern scholarship, which debates scale/frequency rather than the fact of these methods.",
+        "sources": [
+          {"title": "H. C. Lea, A History of the Inquisition of the Middle Ages, vol. 1 (1888)", "url": "file:///Users/thevladoss/devs/research/gc-research-kit/scholarship/lea-inquisition-middle-ages-vol1-1888.txt", "source_class": "academic", "supports_verdict": true, "note": "Documents judicial use of torture and the rack (lines ~7955, ~14399-14430) and the Inquisition's procedures; 156 passages on torture/rack/stake."}
+        ]
+      }
+    },
+    {
+      "id": "GC-42-039",
+      "paragraph": 17,
+      "quote": "There are the proud pontiffs who exalted themselves above God, and presumed to change the law of the Most High.",
+      "claim_text": "Sweeping interpretive characterization: Catholic popes exalted themselves above God and presumed to alter the law of God.",
+      "claim_type": "interpretive",
+      "entities": ["Papacy"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Polemical/theological interpretation (the papacy 'changing the law of the Most High' is White's Sabbath-vs-Sunday thesis expressed as judgment); not an empirically checkable proposition in this decorative form. The underlying Sabbath/Sunday-change claim is verified in doctrinally central chapters, not here.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-040",
+      "paragraph": 17,
+      "quote": "they feel the force of His own words, “Inasmuch as ye have done it unto one of the least of these My brethren, ye have done it unto Me.”(1160)",
+      "claim_text": "Christ is quoted (footnote 1160) as having said, 'Inasmuch as ye have done it unto one of the least of these My brethren, ye have done it unto Me' (cf. Matthew 25:40).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Bible"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Matthew 25:40 ('Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me'). Accurate quote and attribution.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-041",
+      "paragraph": 18,
+      "quote": "The whole wicked world stand arraigned at the bar of God, on the charge of high treason against the government of heaven.",
+      "claim_text": "According to White's theology, the whole wicked world is judged and condemned for treason against the government of heaven.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological metaphor of final judgment; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-042",
+      "paragraph": 19,
+      "quote": "By their lives they have declared, “We will not have this Jesus to reign over us.”",
+      "claim_text": "The wicked's lives are characterized as declaring 'We will not have this Jesus to reign over us,' echoing Luke 19:14.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Gospel of Luke"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "Allusion (not a footnoted citation) to the parable of the pounds, Luke 19:14 KJV: 'We will not have this man to reign over us.' White substitutes 'this Jesus' for 'this man' within her narrative prose ('By their lives they have declared...'), making explicit the referent the parable applies to Christ. The substitution is an interpretive application, not a claimed exact citation, and does not alter the meaning; not a misquotation.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-043",
+      "paragraph": 19,
+      "quote": "All see that their exclusion from heaven is just.",
+      "claim_text": "According to White, it becomes evident to all present that the wicked's exclusion from heaven is just.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological assertion; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-044",
+      "paragraph": 20,
+      "quote": "all with one voice exclaim, “Great and marvelous are Thy works, Lord God Almighty; just and true are Thy ways, Thou King of saints;”(1161)",
+      "claim_text": "Revelation is quoted (footnote 1161): 'Great and marvelous are Thy works, Lord God Almighty; just and true are Thy ways, Thou King of saints' (cf. Revelation 15:3).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Revelation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Revelation 15:3 ('Great and marvellous are thy works, Lord God Almighty; just and true are thy ways, thou King of saints'). Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-045",
+      "paragraph": 21,
+      "quote": "He who was once a covering cherub remembers whence he has fallen. A shining seraph, “son of the morning;” how changed, how degraded!",
+      "claim_text": "According to White's theology, Satan was originally 'a covering cherub' and a shining seraph called 'son of the morning' before his fall.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan's pre-fall origin (drawing on Ezek 28 and Isa 14:12); not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-046",
+      "paragraph": 22,
+      "quote": "Memory recalls the home of his innocence and purity, the peace and content that were his until he indulged in murmuring against God, and envy of Christ.",
+      "claim_text": "According to White's theology, Satan's rebellion originated in murmuring against God and envy of Christ.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological account of the origin of Satan's rebellion; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-047",
+      "paragraph": 22,
+      "quote": "He reviews his work among men and its results,—the enmity of man toward his fellow-man, the terrible destruction of life, the rise and fall of kingdoms, the overturning of thrones, the long succession of tumults, conflicts, and revolutions.",
+      "claim_text": "White attributes to Satan's influence the enmity among humans, destruction of life, and the historical rise and fall of kingdoms, thrones, and revolutions.",
+      "claim_type": "causal",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "CONTROL SAMPLE (re-checked despite needs_verification:false). The passage lists real historical phenomena (wars, the rise and fall of kingdoms, revolutions) but the operative assertion is a supernatural causal attribution of these to Satan's agency. The historical phenomena themselves are trivially true and uncontested; the causal claim is theological and not empirically checkable. No smuggled independently-checkable factual proposition beyond the trivially-true generalities. Extractor's false/theological flag is correct.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-048",
+      "paragraph": 23,
+      "quote": "He has worked deliberately and systematically, and with marvelous success, leading vast multitudes to accept his version of the great controversy which has been so long in progress. For thousands of years this chief of conspiracy has palmed off falsehood for truth.",
+      "claim_text": "According to White, for thousands of years Satan has deliberately worked to lead multitudes to accept a false account of the great controversy between good and evil.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about Satan's centuries-long deception; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-049",
+      "paragraph": 24,
+      "quote": "And now Satan bows down, and confesses the justice of his sentence.",
+      "claim_text": "In White's narrative, Satan ultimately bows down and confesses the justice of God's sentence against him.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological/supernatural narrative; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-050",
+      "paragraph": 25,
+      "quote": "“Who shall not fear Thee, O Lord, and glorify Thy name? for Thou only art holy: for all nations shall come and worship before Thee; for Thy judgments are made manifest.”(1162)",
+      "claim_text": "Revelation is quoted (footnote 1162): 'Who shall not fear Thee, O Lord, and glorify Thy name? for Thou only art holy: for all nations shall come and worship before Thee; for Thy judgments are made manifest' (cf. Revelation 15:4).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Revelation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Revelation 15:4. Accurate quote and attribution.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-051",
+      "paragraph": 25,
+      "quote": "“All Thy works shall praise Thee, O Lord; and Thy saints shall bless Thee.”(1163)",
+      "claim_text": "Psalms is quoted (footnote 1163): 'All Thy works shall praise Thee, O Lord; and Thy saints shall bless Thee' (cf. Psalm 145:10).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Psalms"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Psalm 145:10 ('All thy works shall praise thee, O LORD; and thy saints shall bless thee'). Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-052",
+      "paragraph": 25,
+      "quote": "God’s wisdom, His justice, and His goodness stand fully vindicated.",
+      "claim_text": "According to White, at the close of the great controversy God's wisdom, justice, and goodness are fully vindicated before the universe.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim (theodicy/vindication); not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-053",
+      "paragraph": 26,
+      "quote": "the song of praise ascends from the white-robed ones about the throne, “Worthy is the Lamb that was slain to receive power, and riches, and wisdom, and strength, and honor, and glory, and blessing.”(1164)",
+      "claim_text": "Revelation is quoted (footnote 1164): 'Worthy is the Lamb that was slain to receive power, and riches, and wisdom, and strength, and honor, and glory, and blessing' (cf. Revelation 5:12).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Revelation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Revelation 5:12. Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-054",
+      "paragraph": 27,
+      "quote": "Notwithstanding that Satan has been constrained to acknowledge God’s justice, and to bow to the supremacy of Christ, his character remains unchanged.",
+      "claim_text": "According to White, despite acknowledging God's justice, Satan's character remains unchanged and he attempts one final rebellion.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological narrative; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-055",
+      "paragraph": 27,
+      "quote": "Their rage is kindled against Satan and those who have been his agents in deception, and with the fury of demons they turn upon them.",
+      "claim_text": "In White's final scene, the wicked turn in rage against Satan and his agents rather than continuing to follow him.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological vision; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-056",
+      "paragraph": 28,
+      "quote": "Saith the Lord: “Because thou hast set thine heart as the heart of God; behold, therefore I will bring strangers upon thee, the terrible of the nations: and they shall draw their swords against the beauty of thy wisdom, and they shall defile thy brightness. They shall bring thee down to the pit.” “I will destroy thee, O covering cherub, from the midst of the stones of fire.... I will cast thee to the ground, I will lay thee before kings, that they may behold thee.... I will bring thee to ashes upon the earth in the sight of all them that behold thee.... Thou shalt be a terror, and never shalt thou be any more.”(1165)",
+      "claim_text": "Ezekiel is quoted (footnote 1165, attributed to 'the Lord') pronouncing judgment on the 'covering cherub,' declaring destruction and reduction to ashes 'never to be any more' (cf. Ezekiel 28:2-19).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Ezekiel", "Satan"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV excerpts from Ezekiel 28: verse 6-8 ('Because thou hast set thine heart as the heart of God... I will bring strangers upon thee, the terrible of the nations... they shall draw their swords against the beauty of thy wisdom, and they shall defile thy brightness. They shall bring thee down to the pit'), and verses 16-19 ('I will destroy thee, O covering cherub, from the midst of the stones of fire... cast thee to the ground... lay thee before kings... bring thee to ashes upon the earth... thou shalt be a terror, and never shalt thou be any more'), joined with ellipses. Quotation faithful to KJV; the application to Satan reflects White's theology.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-057",
+      "paragraph": 29,
+      "quote": "“Every battle of the warrior is with confused noise, and garments rolled in blood; but this shall be with burning and fuel of fire.” “The indignation of the Lord is upon all nations, and His fury upon all their armies: He hath utterly destroyed them, He hath delivered them to the slaughter.” “Upon the wicked He shall rain quick burning coals, fire and brimstone, and a horrible tempest: this shall be the portion of their cup.”(1166)",
+      "claim_text": "Scripture is quoted (footnote 1166, cf. Isaiah 9:5, Isaiah 34:2, Psalm 11:6) describing the final destruction of the wicked by fire and brimstone.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Isaiah", "Book of Psalms"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Three accurate KJV excerpts: Isaiah 9:5 ('every battle of the warrior is with confused noise, and garments rolled in blood; but this shall be with burning and fuel of fire'), Isaiah 34:2 ('the indignation of the LORD is upon all nations, and his fury upon all their armies: he hath utterly destroyed them, he hath delivered them to the slaughter'), and Psalm 11:6 ('Upon the wicked he shall rain snares, fire and brimstone...'; White follows the KJV margin/alternate reading 'quick burning coals' for 'snares', a recognized rendering of the Hebrew pachim). Faithful.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-058",
+      "paragraph": 29,
+      "quote": "The elements melt with fervent heat, the earth also, and the works that are therein are burned up.(1167)",
+      "claim_text": "The text (footnote 1167) echoes 2 Peter 3:10 in describing the elements and earth melting with fervent heat and being burned up.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "2 Peter"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Faithful echo of KJV 2 Peter 3:10 ('the elements shall melt with fervent heat, the earth also and the works that are therein shall be burned up'), rendered in the present tense to fit the narrative. Meaning and wording preserved.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-059",
+      "paragraph": 29,
+      "quote": "It is the time of the judgment and perdition of ungodly men,—“the day of the Lord’s vengeance, and the year of recompenses for the controversy of Zion.”(1168)",
+      "claim_text": "Isaiah is quoted (footnote 1168): 'the day of the Lord's vengeance, and the year of recompenses for the controversy of Zion' (cf. Isaiah 34:8).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Isaiah"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Isaiah 34:8 ('For it is the day of the LORD's vengeance, and the year of recompences for the controversy of Zion'). Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-060",
+      "paragraph": 29,
+      "quote": "Fire comes down from God out of heaven. The earth is broken up. The weapons concealed in its depths are drawn forth. Devouring flames burst from every yawning chasm. The very rocks are on fire.",
+      "claim_text": "In White's final judgment scene, fire descends from heaven, the earth's crust is broken up, and devouring flames burst forth destroying the wicked.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological vision (cf. Rev 20:9); not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-061",
+      "paragraph": 30,
+      "quote": "They “shall be stubble: and the day that cometh shall burn them up, saith the Lord of hosts.”(1170)",
+      "claim_text": "Malachi is quoted (footnote 1170): 'they shall be stubble: and the day that cometh shall burn them up, saith the Lord of hosts' (cf. Malachi 4:1).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Malachi"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Malachi 4:1 ('...shall be stubble: and the day that cometh shall burn them up, saith the LORD of hosts'). Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-062",
+      "paragraph": 30,
+      "quote": "Some are destroyed as in a moment, while others suffer many days. All are punished “according to their deeds.”",
+      "claim_text": "According to White, the wicked's final destruction varies in duration — some perish instantly, others suffer over many days — with punishment proportioned to their deeds.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological claim about the nature of final punishment (conditionalist/annihilationist framework); not empirically checkable. Embedded phrase 'according to their deeds' echoes Rev 20:13.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-063",
+      "paragraph": 30,
+      "quote": "The sins of the righteous having been transferred to Satan, he is made to suffer not only for his own rebellion, but for all the sins which he has caused God’s people to commit. His punishment is to be far greater than that of those whom he has deceived.",
+      "claim_text": "According to White's theology, Satan's final punishment exceeds that of the deceived wicked because the sins of the righteous, transferred to him, are added to his own rebellion.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Distinctive SDA theological doctrine (scapegoat/Azazel typology applied to Satan); not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-064",
+      "paragraph": 31,
+      "quote": "For six thousand years he has wrought his will, filling the earth with woe, and causing grief throughout the universe.",
+      "claim_text": "Satan worked his will on earth for six thousand years, filling it with woe, prior to his final destruction.",
+      "claim_type": "date",
+      "entities": ["Satan"],
+      "needs_verification": true,
+      "extractor_note": "Chronological claim reflecting a young-earth biblical chronology (roughly 6,000 years from creation/the Fall to the eschaton); flagged as a checkable date/statistic claim per extraction rules even though it appears within theological narrative.",
+      "verification": {
+        "verdict": "anachronistic",
+        "confidence": "high",
+        "rationale": "The '6000 years' reflects the Ussherian biblical chronology (creation c. 4004 BC) that was standard in the 19th-century Protestant milieu White wrote in and printed in the margins of most contemporary Bibles. Modern geology, paleontology, and archaeology date the earth to c. 4.5 billion years and anatomically modern human history well beyond 6000 years, so the figure is wrong by modern standards; but it matches White's period sources rather than being an idiosyncratic error. Follows the established corpus pattern for GC-18-072 and GC-34-014 (Ussherian young-earth chronology).",
+        "modern_consensus": "Human and geological history vastly exceeds 6000 years; the ~4004 BC creation date is not accepted by modern science.",
+        "period_historiography": "Ussher's chronology (Annales, 1650) placing creation at 4004 BC was the dominant Protestant timeframe in the 18th-19th centuries, printed in KJV margins; a ~6000-year span from creation to the present was the standard assumption of White's contemporaries.",
+        "sources": []
+      },
+      "defense": {
+        "result": "defense_failed",
+        "argument": "Best steelman, along two lines. (1) Genre / over-literalization: the figure sits inside an avowedly theological sentence whose subject is Satan's supernatural agency — 'he has wrought his will, filling the earth with woe, and causing grief throughout the universe.' Read as scene-setting rhetoric for an unverifiable cosmic narration, the '6000 years' functions as a conventional span-marker for 'the whole of human history since the Fall' rather than a stand-alone geological or anthropological datum. On that reading the clause as a whole is unverifiable theology. (2) Anachronism is already the correct, charitable verdict: the figure faithfully reproduces the Ussherian chronology (creation c. 4004 BC) printed in the margins of 19th-century KJV Bibles and assumed without controversy across the conservative Protestant scholarship White used; it is period-standard background, not an idiosyncratic error of her making. Why the defense fails: the extractor rightly isolated a checkable chronological proposition — Satan's *earthly* working (i.e., human history since the Fall) has run six thousand years — which entails a young-earth human chronology of roughly six millennia. That entailment is flatly contradicted by modern science (anatomically modern humans c. 300,000 years; earth c. 4.54 billion years). Note this instance is even weaker for the defense than its sibling GC-34-014: there the number was softened by 'nearly six thousand years,' whereas here White states a flat 'six thousand years,' giving the figure a more definite, falsifiable edge. There is no basis to downgrade to 'unverifiable' (the number is a concrete, falsifiable chronological datum embedded in the theological prose, not pure theology) nor to 'supported' (it is false by modern historiography). The verifier's rationale and period_historiography are accurate common knowledge (Ussher 1650; 4004 BC; KJV margins); no cited source overreaches, and the Read-only audit surfaced no lead warranting a search. The anachronistic verdict stands, consistent with the identical treatment of GC-18-072 and GC-34-014. source_quality: encyclopedic-only (common-knowledge Ussher datum; no doctrinally central source dispute engaged)."
+      },
+      "impact": {
+        "severity": 2,
+        "centrality": 1,
+        "load_bearing": false,
+        "impact_score": 2,
+        "narrative_arc": "eschatological",
+        "reasoning": "Severity 2: this is a period-typical chronological aside (Ussherian ~4004 BC creation, printed in 19th-century KJV margins) rather than an invented figure -- it reflects the era's mainstream biblical scholarship, not authorial fabrication, and the flat wording ('six thousand years' vs. the hedged 'nearly six thousand years' in sibling claims GC-18-072/GC-34-014) is a stylistic variant of the same period-standard datum, not a more severe error. Centrality 1: the figure is a passing rhetorical marker for 'the whole span of Satan's activity on earth' inside a single sentence of the closing vision; no argument in this chapter, nor the book's Reformation-to-Sabbath thesis chain, depends on the earth's age or human chronology. Counterfactual: delete 'six thousand years' or replace it with 'ages' and the sentence, the paragraph, and the chapter's entire judgment-and-restoration argument are untouched -- confirming load_bearing false. Scored consistently with the sibling instances per orchestrator instruction, with a note (per CLAUDE.md rule 4) that this is a case of authorial method (relaying period-standard Ussherian chronology) rather than authorial invention."
+      }
+    },
+    {
+      "id": "GC-42-065",
+      "paragraph": 31,
+      "quote": "“The whole earth is at rest, and is quiet: they [the righteous] break forth into singing.”(1171)",
+      "claim_text": "Isaiah is quoted (footnote 1171): 'The whole earth is at rest, and is quiet: they break forth into singing' (cf. Isaiah 14:7).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Isaiah"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Isaiah 14:7 ('The whole earth is at rest, and is quiet: they break forth into singing'). The bracketed '[the righteous]' is White's editorial gloss on the antecedent, clearly marked as an insertion. Faithful.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-066",
+      "paragraph": 31,
+      "quote": "“The voice of a great multitude,” “as the voice of many waters, and as the voice of mighty thunderings,” is heard, saying, “Alleluia; for the Lord God omnipotent reigneth.”",
+      "claim_text": "Revelation is quoted describing 'the voice of a great multitude...as the voice of many waters, and as the voice of mighty thunderings' proclaiming 'Alleluia; for the Lord God omnipotent reigneth' (cf. Revelation 19:6).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Revelation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV phrases from Revelation 19:6 ('as it were the voice of a great multitude, and as the voice of many waters, and as the voice of mighty thunderings, saying, Alleluia: for the Lord God omnipotent reigneth'). Faithful.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-067",
+      "paragraph": 32,
+      "quote": "While the earth was wrapped in the fire of destruction, the righteous abode safely in the holy city. Upon those that had part in the first resurrection, the second death has no power.",
+      "claim_text": "According to White's theology, the righteous, having taken part in the first resurrection, remain safe in the holy city while the earth burns, and the second death has no power over them.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Eschatological doctrine (first resurrection / second death, cf. Rev 20:6); not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-068",
+      "paragraph": 33,
+      "quote": "“I saw a new heaven and a new earth: for the first heaven and the first earth were passed away.”(1173)",
+      "claim_text": "Revelation is quoted (footnote 1173): 'I saw a new heaven and a new earth: for the first heaven and the first earth were passed away' (cf. Revelation 21:1).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Revelation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Revelation 21:1 (opening clauses). Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-069",
+      "paragraph": 33,
+      "quote": "No eternally burning hell will keep before the ransomed the fearful consequences of sin.",
+      "claim_text": "According to White's theology, no eternally burning hell exists to perpetually remind the redeemed of sin's consequences.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Distinctive doctrinal position (conditional immortality / no eternal hell); theological, not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-070",
+      "paragraph": 34,
+      "quote": "One reminder alone remains: our Redeemer will ever bear the marks of His crucifixion. Upon His wounded head, upon His side, His hands and feet, are the only traces of the cruel work that sin has wrought.",
+      "claim_text": "According to White's theology, Christ will eternally bear the wound marks of His crucifixion (head, side, hands, feet) as the sole remaining reminder of sin.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological claim about the glorified Christ; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-071",
+      "paragraph": 34,
+      "quote": "Says the prophet, beholding Christ in His glory, “He had bright beams coming out of His side: and there was the hiding of His power.”(1174)",
+      "claim_text": "The prophet Habakkuk is quoted (footnote 1174) describing Christ: 'He had bright beams coming out of His side: and there was the hiding of His power' (cf. Habakkuk 3:4).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Habakkuk"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "The KJV MAIN text of Habakkuk 3:4 reads 'he had horns coming out of his hand: and there was the hiding of his power,' which at first appears to differ from White's wording. However, the KJV MARGINAL note supplies the alternate rendering 'or, bright beams out of his side' (the Hebrew qarnayim can mean rays/beams; yad can be rendered 'side'). White quotes the authorized marginal reading verbatim, and the margin itself was traditionally applied to Christ's radiant glory. This is a faithful quotation of the KJV margin, not an alteration or misquotation. Initial memory-based suspicion of a misquotation was overturned by the sources.",
+        "modern_consensus": "Habakkuk 3:4 Hebrew is ambiguous; modern versions render 'rays flashing from his hand' (NIV/NASB/NKJV). The KJV printed 'horns... hand' in the text with 'bright beams... side' in the margin.",
+        "sources": [
+          {"title": "Habakkuk 3:4 - Compare/marginal readings (Bible Study Tools)", "url": "https://www.biblestudytools.com/kjv/habakkuk/3-4.html", "source_class": "other", "supports_verdict": true, "note": "Confirms KJV text 'horns coming out of his hand' and translation range (rays/beams)."},
+          {"title": "Habakkuk 3:4 - King James marginal reading", "url": "https://www.kingjamesbibleonline.org/Habakkuk-3-4_meaning/", "source_class": "other", "supports_verdict": true, "note": "Documents the KJV marginal alternate 'bright beams out of his side' applied to Christ."}
+        ]
+      }
+    },
+    {
+      "id": "GC-42-072",
+      "paragraph": 35,
+      "quote": "“O tower of the flock, the stronghold of the daughter of Zion, unto thee shall it come, even the first dominion.”(1175)",
+      "claim_text": "Micah is quoted (footnote 1175): 'O tower of the flock, the stronghold of the daughter of Zion, unto thee shall it come, even the first dominion' (cf. Micah 4:8).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Micah"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Micah 4:8 ('And thou, O tower of the flock, the strong hold of the daughter of Zion, unto thee shall it come, even the first dominion'). Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-073",
+      "paragraph": 35,
+      "quote": "the time for “the redemption of the purchased possession.”(1176)",
+      "claim_text": "The text quotes (footnote 1176) 'the redemption of the purchased possession,' echoing Ephesians 1:14.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Epistle to the Ephesians"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV phrase from Ephesians 1:14 ('until the redemption of the purchased possession'). Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-074",
+      "paragraph": 35,
+      "quote": "“Thus saith the Lord ... that formed the earth and made it; He hath established it, He created it not in vain, He formed it to be inhabited.”(1177)",
+      "claim_text": "Isaiah is quoted (footnote 1177): 'Thus saith the Lord...that formed the earth and made it; He hath established it, He created it not in vain, He formed it to be inhabited' (cf. Isaiah 45:18).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Isaiah"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV Isaiah 45:18 with an ellipsis omitting intervening words ('For thus saith the LORD that created the heavens; God himself that formed the earth and made it; he hath established it, he created it not in vain, he formed it to be inhabited'). Faithful.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-075",
+      "paragraph": 35,
+      "quote": "“The righteous shall inherit the land, and dwell therein forever.”(1178)",
+      "claim_text": "Psalms is quoted (footnote 1178): 'The righteous shall inherit the land, and dwell therein forever' (cf. Psalm 37:29).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Psalms"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Psalm 37:29 ('The righteous shall inherit the land, and dwell therein for ever'). Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-076",
+      "paragraph": 35,
+      "quote": "The earth originally given to man as his kingdom, betrayed by him into the hands of Satan, and so long held by the mighty foe, has been brought back by the great plan of redemption. All that was lost by sin has been restored.",
+      "claim_text": "According to White's theology, the earth, originally given to man but forfeited to Satan through sin, is restored to the redeemed through the plan of redemption.",
+      "claim_type": "theological",
+      "entities": ["Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological narrative of dominion lost and restored; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-077",
+      "paragraph": 36,
+      "quote": "Christ assured His disciples that He went to prepare mansions for them in the Father’s house.",
+      "claim_text": "Jesus Christ told His disciples that He was going to prepare mansions (dwelling places) for them in His Father's house (cf. John 14:2).",
+      "claim_type": "attributed_quote",
+      "entities": ["Jesus Christ", "Bible", "Gospel of John"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate paraphrase of KJV John 14:2 ('In my Father's house are many mansions... I go to prepare a place for you'). Faithful to the text.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-078",
+      "paragraph": 36,
+      "quote": "“eye hath not seen, nor ear heard, neither have entered into the heart of man, the things which God hath prepared for them that love Him.”(1179)",
+      "claim_text": "Paul is quoted (footnote 1179, cf. 1 Corinthians 2:9): 'eye hath not seen, nor ear heard, neither have entered into the heart of man, the things which God hath prepared for them that love Him.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "1 Corinthians", "Paul the Apostle"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV 1 Corinthians 2:9 ('Eye hath not seen, nor ear heard, neither have entered into the heart of man, the things which God hath prepared for them that love him'). Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-079",
+      "paragraph": 37,
+      "quote": "In the Bible the inheritance of the saved is called a country.(1180)",
+      "claim_text": "The Bible refers to the inheritance of the saved as 'a country' (footnote 1180, cf. Hebrews 11:14-16).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Epistle to the Hebrews"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate: KJV Hebrews 11:14-16 uses 'country' repeatedly for the saints' inheritance ('they seek a country... they desire a better country, that is, an heavenly'). White's summary is faithful.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-080",
+      "paragraph": 37,
+      "quote": "The tree of life yields its fruit every month, and the leaves of the tree are for the service of the nations.",
+      "claim_text": "According to White's description of the new earth (echoing Revelation 22:2), the tree of life yields fruit monthly and its leaves serve the nations.",
+      "claim_type": "theological",
+      "entities": ["Bible", "Book of Revelation"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "CONTROL SAMPLE (re-checked despite needs_verification:false). This is a theological description of the new earth and is properly logged unverifiable. It does contain an embedded scriptural echo: the paraphrase closely tracks KJV Revelation 22:2 ('the tree of life... yielded her fruit every month: and the leaves of the tree were for the healing of the nations'). White renders 'healing' as 'the service of the nations' - a loose paraphrase, not a marked quotation (no quote marks or footnote), and the substitution is minor. The extractor's false/theological flag is defensible; the embedded echo is a faithful paraphrase, so no smuggled inaccurate factual assertion.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-081",
+      "paragraph": 38,
+      "quote": "“My people shall dwell in a peaceful habitation, and in sure dwellings, and in quiet resting-places.” “Violence shall no more be heard in thy land, wasting nor destruction within thy borders; but thou shalt call thy walls Salvation, and thy gates Praise.” “They shall build houses, and inhabit them; and they shall plant vineyards, and eat the fruit of them, They shall not build, and another inhabit; they shalt not plant, and another eat:... Mine elect shall long enjoy the work of their hands.”(1181)",
+      "claim_text": "Isaiah is quoted (footnote 1181, cf. Isaiah 32:18, 60:18, 65:21-22) describing the redeemed dwelling securely and building houses and planting vineyards which they themselves enjoy.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Isaiah"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV excerpts: Isaiah 32:18 ('my people shall dwell in a peaceable habitation, and in sure dwellings, and in quiet resting places'), Isaiah 60:18 ('Violence shall no more be heard in thy land, wasting nor destruction within thy borders; but thou shalt call thy walls Salvation, and thy gates Praise'), and Isaiah 65:21-22 (building houses and planting vineyards, 'they shall not build, and another inhabit... mine elect shall long enjoy the work of their hands'). Minor spelling normalization; faithful to KJV.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-082",
+      "paragraph": 39,
+      "quote": "“the wilderness and the solitary place shall be glad for them; and the desert shall rejoice, and blossom as the rose.” “Instead of the thorn shall come up the fir-tree, and instead of the brier shall come up the myrtle-tree.”(1182)",
+      "claim_text": "Isaiah is quoted (footnote 1182, cf. Isaiah 35:1, 55:13) describing the wilderness blossoming and thorns replaced by fir and myrtle trees in the new earth.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Isaiah"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV Isaiah 35:1 ('The wilderness and the solitary place shall be glad for them; and the desert shall rejoice, and blossom as the rose') and Isaiah 55:13 ('Instead of the thorn shall come up the fir tree, and instead of the brier shall come up the myrtle tree'). Faithful.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-083",
+      "paragraph": 39,
+      "quote": "“The wolf also shall dwell with the lamb, and the leopard shall lie down with the kid; ... and a little child shall lead them.” “They shall not hurt nor destroy in all My holy mountain,”(1183)",
+      "claim_text": "Isaiah is quoted (footnote 1183, cf. Isaiah 11:6, 9) describing the wolf dwelling with the lamb and a little child leading them, with no hurt or destruction in God's holy mountain.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Isaiah"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV Isaiah 11:6 ('The wolf also shall dwell with the lamb, and the leopard shall lie down with the kid... and a little child shall lead them') and Isaiah 11:9 ('They shall not hurt nor destroy in all my holy mountain'), joined with ellipsis. Faithful.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-084",
+      "paragraph": 40,
+      "quote": "“There shall be no more death, neither sorrow, nor crying, ... for the former things are passed away.”(1184)",
+      "claim_text": "Revelation is quoted (footnote 1184): 'There shall be no more death, neither sorrow, nor crying...for the former things are passed away' (cf. Revelation 21:4).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Revelation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV Revelation 21:4 with ellipsis ('there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away'). Faithful.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-085",
+      "paragraph": 40,
+      "quote": "“The inhabitant shall not say, I am sick: the people that dwell therein shall be forgiven their iniquity.”(1185)",
+      "claim_text": "Isaiah is quoted (footnote 1185): 'The inhabitant shall not say, I am sick: the people that dwell therein shall be forgiven their iniquity' (cf. Isaiah 33:24).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Isaiah"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Isaiah 33:24 ('And the inhabitant shall not say, I am sick: the people that dwell therein shall be forgiven their iniquity'). Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-086",
+      "paragraph": 41,
+      "quote": "“a crown of glory in the hand of the Lord, and a royal diadem in the hand of thy God.”(1186)",
+      "claim_text": "Isaiah is quoted (footnote 1186) describing the New Jerusalem as 'a crown of glory in the hand of the Lord, and a royal diadem in the hand of thy God' (cf. Isaiah 62:3).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Isaiah"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Isaiah 62:3 ('Thou shalt also be a crown of glory in the hand of the LORD, and a royal diadem in the hand of thy God'). Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-087",
+      "paragraph": 41,
+      "quote": "“Her light was like unto a stone most precious, even like a jasper stone, clear as crystal.” “The nations of them which are saved shall walk in the light of it: and the kings of the earth do bring their glory and honor into it.”(1187)",
+      "claim_text": "Revelation is quoted (footnote 1187, cf. Revelation 21:11, 24) describing the New Jerusalem's light as like a jasper stone, with the saved nations walking in its light.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Revelation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV Revelation 21:11 ('her light was like unto a stone most precious, even like a jasper stone, clear as crystal') and 21:24 ('the nations of them which are saved shall walk in the light of it: and the kings of the earth do bring their glory and honour into it'). Faithful.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-088",
+      "paragraph": 41,
+      "quote": "Saith the Lord, “I will rejoice in Jerusalem, and joy in My people.”(1188)",
+      "claim_text": "Isaiah is quoted (footnote 1188, attributed to 'the Lord'): 'I will rejoice in Jerusalem, and joy in My people' (cf. Isaiah 65:19).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Isaiah"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Isaiah 65:19 ('And I will rejoice in Jerusalem, and joy in my people'). Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-089",
+      "paragraph": 41,
+      "quote": "“The tabernacle of God is with men, and He will dwell with them, and they shall be His people, and God Himself shall be with them, and be their God.”(1189)",
+      "claim_text": "Revelation is quoted (footnote 1189): 'The tabernacle of God is with men, and He will dwell with them, and they shall be His people, and God Himself shall be with them, and be their God' (cf. Revelation 21:3).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Revelation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Revelation 21:3 ('the tabernacle of God is with men, and he will dwell with them, and they shall be his people, and God himself shall be with them, and be their God'). Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-090",
+      "paragraph": 42,
+      "quote": "In the city of God “there shall be no night.”",
+      "claim_text": "Revelation is quoted describing the city of God: 'there shall be no night' (cf. Revelation 21:25, 22:5).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Revelation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV phrase: Revelation 21:25 ('there shall be no night there') and 22:5 ('there shall be no night there'). Faithful.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-091",
+      "paragraph": 42,
+      "quote": "“And they need no candle, neither light of the sun; for the Lord God giveth them light.”(1190)",
+      "claim_text": "Revelation is quoted (footnote 1190): 'they need no candle, neither light of the sun; for the Lord God giveth them light' (cf. Revelation 22:5).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Revelation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Revelation 22:5 ('And they need no candle, neither light of the sun; for the Lord God giveth them light'). Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-092",
+      "paragraph": 43,
+      "quote": "“I saw no temple therein: for the Lord God Almighty and the Lamb are the temple of it.”(1191)",
+      "claim_text": "Revelation is quoted (footnote 1191): 'I saw no temple therein: for the Lord God Almighty and the Lamb are the temple of it' (cf. Revelation 21:22).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Revelation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Revelation 21:22 ('And I saw no temple therein: for the Lord God Almighty and the Lamb are the temple of it'). Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-093",
+      "paragraph": 43,
+      "quote": "“Now we see through a glass, darkly.”(1192)",
+      "claim_text": "Paul is quoted (footnote 1192, cf. 1 Corinthians 13:12): 'Now we see through a glass, darkly.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "1 Corinthians", "Paul the Apostle"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV 1 Corinthians 13:12 ('For now we see through a glass, darkly'). Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-094",
+      "paragraph": 44,
+      "quote": "There the redeemed shall “know, even as also they are known.”",
+      "claim_text": "Paul is quoted (cf. 1 Corinthians 13:12): the redeemed 'shall know, even as also they are known.'",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "1 Corinthians", "Paul the Apostle"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV phrase from 1 Corinthians 13:12 ('then shall I know even as also I am known'), adapted grammatically to third person plural within the sentence. Faithful.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-095",
+      "paragraph": 44,
+      "quote": "the sacred ties that bind together “the whole family in heaven and earth,”(1193)",
+      "claim_text": "The text quotes (footnote 1193) 'the whole family in heaven and earth,' echoing Ephesians 3:15.",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Epistle to the Ephesians"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Accurate KJV phrase from Ephesians 3:15 ('Of whom the whole family in heaven and earth is named'). Faithful.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-096",
+      "paragraph": 45,
+      "quote": "Every faculty will be developed, every capacity increased. The acquirement of knowledge will not weary the mind or exhaust the energies.",
+      "claim_text": "According to White's theology, in the new earth the redeemed will experience continual growth of faculties and capacities without mental fatigue.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological description of the redeemed state; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-097",
+      "paragraph": 46,
+      "quote": "Unfettered by mortality, they wing their tireless flight to worlds afar,—worlds that thrilled with sorrow at the spectacle of human woe, and rang with songs of gladness at the tidings of a ransomed soul.",
+      "claim_text": "According to White's theology, the redeemed will travel unhindered to other worlds in the universe, worlds described as having responded with sorrow and joy to events on earth.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Speculative/theological cosmology (inhabited worlds, redeemed travel); not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-098",
+      "paragraph": 47,
+      "quote": "As Jesus opens before them the riches of redemption, and the amazing achievements in the great controversy with Satan, the hearts of the ransomed thrill with more fervent devotion, and with more rapturous joy they sweep the harps of gold",
+      "claim_text": "According to White's theology, throughout eternity Christ will progressively reveal to the redeemed more of the riches of redemption and the events of the great controversy with Satan.",
+      "claim_type": "theological",
+      "entities": ["Jesus Christ", "Satan"],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Theological/eschatological claim about eternity; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-099",
+      "paragraph": 48,
+      "quote": "“And every creature which is in heaven, and on the earth, and under the earth, and such as are in the sea, and all that are in them, heard I saying, Blessing, and honor, and glory, and power, be unto Him that sitteth upon the throne, and unto the Lamb forever and ever.”(1194)",
+      "claim_text": "Revelation is quoted (footnote 1194): every creature in heaven, on earth, under the earth, and in the sea is heard ascribing blessing, honor, glory, and power to Him on the throne and to the Lamb forever (cf. Revelation 5:13).",
+      "claim_type": "attributed_quote",
+      "entities": ["Bible", "Book of Revelation"],
+      "needs_verification": true,
+      "verification": {
+        "verdict": "supported",
+        "confidence": "high",
+        "rationale": "[common_knowledge] Verbatim KJV Revelation 5:13 ('And every creature which is in heaven, and on the earth, and under the earth, and such as are in the sea, and all that are in them, heard I saying, Blessing, and honour, and glory, and power, be unto him that sitteth upon the throne, and unto the Lamb for ever and ever'). Accurate.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-100",
+      "paragraph": 49,
+      "quote": "The great controversy is ended. Sin and sinners are no more. The entire universe is clean.",
+      "claim_text": "According to White's theology, the great controversy between good and evil ends with sin and sinners eliminated and the entire universe cleansed.",
+      "claim_type": "theological",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Concluding eschatological/theological affirmation; not empirically checkable.",
+        "sources": []
+      }
+    },
+    {
+      "id": "GC-42-101",
+      "paragraph": 49,
+      "quote": "From the minutest atom to the greatest world, all things, animate and inanimate, in their unshadowed beauty and perfect joy, declare that God is love.",
+      "claim_text": "The book's concluding interpretive claim: the harmony of the restored universe, from the smallest to the largest, testifies that God is love.",
+      "claim_type": "interpretive",
+      "entities": [],
+      "needs_verification": false,
+      "verification": {
+        "verdict": "unverifiable",
+        "confidence": "high",
+        "rationale": "Interpretive/theological conclusion (the book's closing thesis, 'God is love'); not empirically checkable.",
+        "sources": []
+      }
+    }
+  ]
+}
