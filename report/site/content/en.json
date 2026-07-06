@@ -618,7 +618,7 @@
     "license": {
       "eyebrow": "License",
       "h2": "Rights and use",
-      "text": "The research data and the site's texts: CC BY 4.0 © 2026 Vladislav Osin — use freely with attribution. The English text of “The Great Controversy”, 1911 edition, is public domain. Russian-edition quotations follow the official translation (© Ellen G. White Estate / Istochnik Zhizni publishing house), quoted for research purposes; the Russian translation text is not part of the downloadable dataset.",
+      "text": "The research data and the site's texts: CC BY 4.0 © 2026 Vladislav Osin — use freely with attribution. The English text of “The Great Controversy”, 1911 edition, is public domain. Russian-edition quotations follow the official translation (© Ellen G. White Estate / Istochnik Zhizni publishing house), quoted for research purposes; the Russian translation text is not part of the downloadable dataset. The ru_quotes.json file (the official translation's quote map) is not covered by the CC BY 4.0 license.",
       "attribution": "Attribution example: Osin V., “A Historical Audit of The Great Controversy”, 2026, [URL]"
     },
     "glossary": {

@@ -270,7 +270,7 @@ const ruPassageTexts = existsSync(ruPassagesPath) ? JSON.parse(readFileSync(ruPa
 if (!Object.keys(ruQuotes).length) {
   console.warn('! content/ru_quotes.json не найден — русская локаль покажет английские цитаты')
 }
-const ruQuoteOf = (id) => ruQuotes[id]?.ru ?? null
+const ruQuoteOf = (id) => (id.startsWith('_') ? null : (ruQuotes[id]?.ru ?? null))
 
 // английская ключевая формулировка для чувствительных утверждений:
 // опровергнутые абсолюты и большие разрывы формулировка↔суть (вердикты выносились
@@ -794,8 +794,9 @@ try {
 }
 
 // карта русских цитат для таблицы утверждений: public/, вне data.zip
-const ruQuotesPublic = {}
+const ruQuotesPublic = { _license: ruQuotes._license ?? null }
 for (const [cid, v] of Object.entries(ruQuotes)) {
+  if (cid.startsWith('_')) continue
   const k = enKeyOf(cid)
   ruQuotesPublic[cid] = k ? { ru: v.ru, k } : { ru: v.ru }
 }

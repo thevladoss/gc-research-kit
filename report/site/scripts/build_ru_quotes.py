@@ -357,15 +357,20 @@ def main() -> None:
     if overrides_path.exists():
         overrides = json.loads(overrides_path.read_text())
         for cid, o in overrides.items():
+            if cid.startswith('_'):
+                continue
             quotes[cid] = {'ru': o['ru'], 'para': o.get('para', quotes.get(cid, {}).get('para')),
                            'sents': [], 'manual': True}
-        flags = [f for f in flags if f['id'] not in overrides]
+        applied = {k for k in overrides if not k.startswith('_')}
+        flags = [f for f in flags if f['id'] not in applied]
         report['stats']['flagged'] = len(flags)
         report['manual_resolved'] = sorted(overrides)
-        print('ручные решения применены:', len(overrides))
+        print('ручные решения применены:', len(applied))
 
+    out_quotes = {'_license': 'Цитаты из официального русского перевода «Великой борьбы» © Ellen G. White Estate / изд. «Источник жизни»; приводятся в исследовательских целях; НЕ покрываются лицензией CC BY 4.0 данного проекта.'}
+    out_quotes.update(quotes)
     (SITE / 'content' / 'ru_quotes.json').write_text(
-        json.dumps(quotes, ensure_ascii=False), encoding='utf-8')
+        json.dumps(out_quotes, ensure_ascii=False), encoding='utf-8')
     (SITE / 'content' / 'ru_passages.json').write_text(
         json.dumps(passages, ensure_ascii=False, indent=1), encoding='utf-8')
     (SCRATCH / 'ru_quotes_report.json').write_text(
