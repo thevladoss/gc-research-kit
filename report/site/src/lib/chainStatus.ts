@@ -1,6 +1,35 @@
 import type { ChainBasis, ChainVoice } from '../data/generated/chainAssessment'
 
 /**
+ * Составной индекс прочности звена для SVG цепи: одно значение из четырёх,
+ * выведенное из двух компонентов по правилу «хуже из двух». Полная
+ * двухкомпонентная правда остаётся в панели и на страницах звеньев.
+ * Кодирование двойное: цвет + целостность кольца (сплошное / сплошное
+ * приглушённое / с видимым разрывом / бледный контур).
+ */
+export type ChainComposite = 'sound' | 'contested' | 'damaged' | 'outside'
+
+export const compositeOfBasis: Record<ChainBasis, ChainComposite> = {
+  intact: 'sound', // зв. 3
+  intactException: 'damaged', // зв. 1: несущее исключение + подача в абсолютах → хуже из двух
+  destroyed: 'damaged', // зв. 2
+  contested: 'contested', // зв. 4
+  mixed: 'damaged', // зв. 6: хуже из двух половин
+  premise: 'outside', // зв. 5 (в панели — «условная посылка»)
+  outside: 'outside', // зв. 7
+}
+
+export const compositeStyle: Record<
+  ChainComposite,
+  { fill: string; ink: string; ring: 'solid' | 'broken' | 'faint'; width: number }
+> = {
+  sound: { fill: 'var(--color-v-supported)', ink: 'var(--color-v-supported-ink)', ring: 'solid', width: 10 },
+  contested: { fill: 'var(--color-v-open)', ink: 'var(--color-v-open-ink)', ring: 'solid', width: 10 },
+  damaged: { fill: 'var(--color-v-improbable)', ink: 'var(--color-v-improbable-ink)', ring: 'broken', width: 10 },
+  outside: { fill: 'var(--color-v-unverifiable)', ink: 'var(--color-v-unverifiable-ink)', ring: 'faint', width: 5 },
+}
+
+/**
  * Единая система цветов вердиктов (DESIGN.md) в применении к двухкомпонентной
  * оценке звеньев: «историческая основа» задаёт цвет и характер контура звена,
  * «подача» — цвет черты под звеном.

@@ -1,15 +1,22 @@
 import { motion, useReducedMotion } from 'framer-motion'
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { thesisChain } from '../data/generated/chain'
 import { chainAssessment, type ChainAssessment } from '../data/generated/chainAssessment'
-import { basisStyle, voiceStyle } from '../lib/chainStatus'
+import {
+  basisStyle,
+  compositeOfBasis,
+  compositeStyle,
+  voiceStyle,
+  type ChainComposite,
+} from '../lib/chainStatus'
 import { useI18n } from '../lib/i18n'
 import { href } from '../lib/router'
 
 /**
  * Подпись сайта: несущая цепь книги — 7 кованых звеньев.
- * Цвет и характер контура кодируют состояние исторической основы,
- * черта под звеном — подачу; цвет нигде не остаётся единственным каналом.
+ * Цепь отвечает на ОДИН вопрос — прочность звена как опоры — составным
+ * индексом из четырёх ступеней; кодирование двойное: цвет + целостность
+ * кольца. Двухкомпонентная оценка (основа/подача) живёт в панели под цепью.
  */
 
 const LINK_W = 170
@@ -19,34 +26,38 @@ const PAD = 6
 const W = PAD * 2 + STRIDE * 6 + LINK_W
 const CY = 62
 
-function strokeProps(kind: 'solid' | 'nicked' | 'fractured' | 'dashed' | 'dotted', seed: number) {
-  switch (kind) {
-    case 'nicked':
-      // один короткий разрыв — «цела, с одним несущим исключением»
-      return { strokeDasharray: '63 4 33 0', strokeDashoffset: 18 }
-    case 'fractured':
-      // два разлома в контуре; сдвиг по индексу, чтобы разломы не совпадали
-      return {
-        strokeDasharray: '20 3.2 40 5 31.8 0',
-        strokeDashoffset: 12 + ((seed * 17) % 38),
-      }
-    case 'dashed':
-      return { strokeDasharray: '4 2.6' }
-    case 'dotted':
-      return { strokeDasharray: '0.4 3.4', strokeLinecap: 'round' as const }
-    default:
-      return {}
+function ringProps(composite: ChainComposite, seed: number) {
+  const s = compositeStyle[composite]
+  if (s.ring === 'broken') {
+    // один видимый разрыв контура; сдвиг по индексу, чтобы разрывы не совпадали
+    return { strokeDasharray: '61 6 33 0', strokeDashoffset: 10 + ((seed * 19) % 42) }
   }
+  return {}
 }
 
 function stadiumRect(x: number) {
-  return {
-    x,
-    y: CY - LINK_H / 2,
-    width: LINK_W,
-    height: LINK_H,
-    rx: LINK_H / 2,
-  }
+  return { x, y: CY - LINK_H / 2, width: LINK_W, height: LINK_H, rx: LINK_H / 2 }
+}
+
+/** Мини-кольцо для легенды. */
+function LegendRing({ composite }: { composite: ChainComposite }) {
+  const s = compositeStyle[composite]
+  return (
+    <svg width="20" height="14" aria-hidden="true">
+      <rect
+        x="2"
+        y="2.5"
+        width="16"
+        height="9"
+        rx="4.5"
+        fill="none"
+        stroke={s.fill}
+        strokeWidth={s.ring === 'faint' ? 1.4 : 2.4}
+        pathLength={100}
+        {...(s.ring === 'broken' ? { strokeDasharray: '58 14 28 0' } : {})}
+      />
+    </svg>
+  )
 }
 
 export function AssessmentChips({ a, detail }: { a: ChainAssessment; detail?: boolean }) {
@@ -97,69 +108,53 @@ function LinkShape({
   index,
   active,
   onActivate,
+  onSelect,
 }: {
   index: number
   active: boolean
   onActivate: () => void
+  onSelect?: (e: React.MouseEvent) => void
 }) {
   const { t } = useI18n()
   const reduced = useReducedMotion()
   const link = thesisChain[index]
-  const a = chainAssessment[index]
-  const b = basisStyle[a.basis]
+  const composite = compositeOfBasis[chainAssessment[index].basis]
+  const s = compositeStyle[composite]
   const rect = stadiumRect(PAD + index * STRIDE)
-  const strokeColor = a.basis === 'mixed' ? `url(#mixed-${link.link})` : b.fill
-  const label = `${t(`home.chain.links.${link.link}.title`)} — ${t('chainAssess.basisLabel')}: ${t(`chainAssess.basis.${a.basis}`)}${a.voice ? `; ${t('chainAssess.voiceLabel')}: ${t(`chainAssess.voice.${a.voice}`)}` : ''}`
+  const label = `${t(`home.chain.links.${link.link}.title`)} — ${t(`chainComposite.${composite}`)}`
   return (
     <a
       href={href.chain(link.link)}
       aria-label={label}
       onMouseEnter={onActivate}
       onFocus={onActivate}
+      onClick={onSelect}
       style={{ outline: 'none' }}
     >
       <motion.g
         style={{ transformOrigin: `${rect.x + LINK_W / 2}px ${CY}px` }}
-        animate={reduced ? undefined : { scale: active ? 1.045 : 1 }}
+        animate={reduced ? undefined : { scale: active ? 1.04 : 1 }}
         transition={{ duration: 0.25, ease: 'easeOut' }}
       >
         {/* невидимая зона наведения по всему звену */}
-        <rect {...rect} y={rect.y - 8} height={rect.height + 26} fill="transparent" stroke="none" />
-        {a.basis === 'mixed' && (
-          <defs>
-            <linearGradient id={`mixed-${link.link}`} x1="0" y1="0" x2="1" y2="0">
-              <stop offset="0.5" stopColor={b.fill} />
-              <stop offset="0.5" stopColor={b.mixedWith} />
-            </linearGradient>
-          </defs>
-        )}
+        <rect {...rect} y={rect.y - 10} height={rect.height + 20} fill="transparent" stroke="none" />
         <rect
           {...rect}
           fill="none"
-          stroke={strokeColor}
-          strokeWidth={active ? 12 : 10}
+          stroke={s.fill}
+          strokeWidth={s.width + (active ? 1.5 : 0)}
+          opacity={s.ring === 'faint' ? 0.85 : 1}
           pathLength={100}
-          filter="url(#chain-shadow)"
-          {...strokeProps(b.stroke, index)}
+          filter={s.ring === 'faint' ? undefined : 'url(#chain-shadow)'}
+          {...ringProps(composite, index)}
         />
-        {/* черта подачи под звеном */}
-        {a.voice && (
-          <rect
-            x={rect.x + LINK_W / 2 - 14}
-            y={rect.y + rect.height + 9}
-            width={28}
-            height={3.5}
-            rx={1.75}
-            fill={voiceStyle[a.voice].fill}
-          />
-        )}
         <text
           x={rect.x + LINK_W / 2}
           y={CY + 7}
           textAnchor="middle"
           fontFamily="var(--font-display)"
           fontSize={26}
-          fill={b.ink}
+          fill={s.ink}
         >
           {link.link}
         </text>
@@ -168,16 +163,42 @@ function LinkShape({
   )
 }
 
-/** Горизонтальная цепь (от md и шире) с панелью итога под ней. */
+const LEGEND: ChainComposite[] = ['sound', 'contested', 'damaged', 'outside']
+
+/** Панель итога активного звена — единственный носитель двухкомпонентной оценки. */
+function DetailPanel({ index }: { index: number }) {
+  const { t } = useI18n()
+  const link = thesisChain[index]
+  const a = chainAssessment[index]
+  return (
+    <div className="mt-6 border border-line bg-paper-deep px-6 py-5">
+      <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
+        <h3 className="font-display text-xl text-ink">{t(`home.chain.links.${link.link}.title`)}</h3>
+        <span className="font-mono text-[0.6875rem] text-ink-soft">
+          {t(`home.chain.links.${link.link}.chapters`)}
+        </span>
+        <AssessmentChips a={a} detail />
+      </div>
+      <p className="measure mt-2 text-[0.9375rem] leading-relaxed text-ink-soft">
+        {t(`home.chain.plain.${link.link}`)}
+      </p>
+      <a
+        href={href.chain(link.link)}
+        className="mt-3 inline-block font-mono text-[0.75rem] text-binding uppercase underline decoration-line underline-offset-4 hover:decoration-binding"
+      >
+        {t('home.chain.openLink')} →
+      </a>
+    </div>
+  )
+}
+
+/** Горизонтальная цепь (от md и шире): ховер выбирает, клик открывает разбор. */
 function ChainWide() {
   const { t } = useI18n()
-  const [active, setActive] = useState<number>(3) // по умолчанию — звено 4 (1844): точка перелома книги
-  const link = thesisChain[active]
-  const a = chainAssessment[active]
+  const [active, setActive] = useState<number>(1) // по умолчанию — звено 2: главная находка проверки
   return (
     <div className="hidden md:block">
-      <div className="mb-2 font-mono text-[0.6875rem] text-ink-soft">{t('chainAssess.svgLegend')}</div>
-      <svg viewBox={`0 0 ${W} 132`} className="w-full" role="list" aria-label={t('home.chain.h2')}>
+      <svg viewBox={`0 0 ${W} 124`} className="w-full" role="list" aria-label={t('home.chain.h2')}>
         <defs>
           <filter id="chain-shadow" x="-20%" y="-20%" width="140%" height="140%">
             <feDropShadow dx="0" dy="1.4" stdDeviation="1.2" floodColor="#262a22" floodOpacity="0.22" />
@@ -212,98 +233,85 @@ function ChainWide() {
           )
         })}
       </div>
-      {/* панель итога активного звена */}
-      <div className="mt-6 border border-line bg-paper-deep px-6 py-5">
-        <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
-          <h3 className="font-display text-xl text-ink">
-            {t(`home.chain.links.${link.link}.title`)}
-          </h3>
-          <span className="font-mono text-[0.6875rem] text-ink-soft">
-            {t(`home.chain.links.${link.link}.chapters`)}
+      {/* легенда составного индекса — одна строка из четырёх пунктов */}
+      <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-1.5">
+        {LEGEND.map((c) => (
+          <span key={c} className="inline-flex items-center gap-1.5 font-mono text-[0.6875rem]" style={{ color: compositeStyle[c].ink }}>
+            <LegendRing composite={c} />
+            {t(`chainComposite.${c}`)}
           </span>
-          <AssessmentChips a={a} detail />
-        </div>
-        <p className="measure mt-2 text-[0.9375rem] leading-relaxed text-ink-soft">
-          {t(`home.chain.plain.${link.link}`)}
-        </p>
-        <a
-          href={href.chain(link.link)}
-          className="mt-3 inline-block font-mono text-[0.75rem] text-binding uppercase underline decoration-line underline-offset-4 hover:decoration-binding"
-        >
-          {t('home.chain.openLink')} →
-        </a>
+        ))}
       </div>
+      <DetailPanel index={active} />
       <p className="mt-3 font-mono text-[0.6875rem] text-ink-soft">{t('home.chain.hint')}</p>
     </div>
   )
 }
 
-/** Вертикальная цепь (мобильные): звено + текст рядом, вся информация видна сразу. */
+/** Вертикальная цепь (мобильные): касание выбирает звено и подводит к панели. */
 function ChainNarrow() {
   const { t } = useI18n()
+  const [active, setActive] = useState<number>(1)
+  const panelRef = useRef<HTMLDivElement>(null)
+  const reduced = useReducedMotion()
+  const select = (i: number) => (e: React.MouseEvent) => {
+    e.preventDefault()
+    setActive(i)
+    panelRef.current?.scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'nearest' })
+  }
   return (
-    <ol className="md:hidden">
-      {thesisChain.map((l, i) => {
-        const a = chainAssessment[i]
-        const b = basisStyle[a.basis]
-        const rect = { x: 10, y: 4, width: 56, height: 118, rx: 28 }
-        const strokeColor = a.basis === 'mixed' ? `url(#mixed-m-${l.link})` : b.fill
-        return (
-          <li key={l.link} className={i === 0 ? '' : '-mt-7'}>
-            <a
-              href={href.chain(l.link)}
-              className="flex items-stretch gap-4 no-underline"
-              aria-label={`${t(`home.chain.links.${l.link}.title`)} — ${t(`chainAssess.basis.${a.basis}`)}`}
-            >
-              <svg viewBox="0 0 76 126" className="w-16 shrink-0" aria-hidden="true">
-                {a.basis === 'mixed' && (
-                  <defs>
-                    <linearGradient id={`mixed-m-${l.link}`} x1="0" y1="0" x2="0" y2="1">
-                      <stop offset="0.5" stopColor={b.fill} />
-                      <stop offset="0.5" stopColor={b.mixedWith} />
-                    </linearGradient>
-                  </defs>
-                )}
-                <rect
-                  {...rect}
-                  fill="none"
-                  stroke={strokeColor}
-                  strokeWidth={9}
-                  pathLength={100}
-                  {...strokeProps(b.stroke, i)}
-                />
-                <text
-                  x={38}
-                  y={70}
-                  textAnchor="middle"
-                  fontFamily="var(--font-display)"
-                  fontSize={24}
-                  fill={b.ink}
+    <div className="md:hidden">
+      <ol className="flex flex-col items-start">
+        {thesisChain.map((l, i) => {
+          const composite = compositeOfBasis[chainAssessment[i].basis]
+          const s = compositeStyle[composite]
+          const rect = { x: 10, y: 4, width: 56, height: 96, rx: 28 }
+          return (
+            <li key={l.link} className={i === 0 ? '' : '-mt-6'}>
+              <a
+                href={href.chain(l.link)}
+                onClick={select(i)}
+                aria-label={`${t(`home.chain.links.${l.link}.title`)} — ${t(`chainComposite.${composite}`)}`}
+                className="flex items-center gap-4 no-underline"
+              >
+                <svg viewBox="0 0 76 104" className="w-14 shrink-0" aria-hidden="true">
+                  <rect
+                    {...rect}
+                    fill="none"
+                    stroke={s.fill}
+                    strokeWidth={s.width * 0.9 + (active === i ? 1.5 : 0)}
+                    opacity={s.ring === 'faint' ? 0.85 : 1}
+                    pathLength={100}
+                    {...ringProps(composite, i)}
+                  />
+                  <text
+                    x={38}
+                    y={60}
+                    textAnchor="middle"
+                    fontFamily="var(--font-display)"
+                    fontSize={22}
+                    fill={s.ink}
+                  >
+                    {l.link}
+                  </text>
+                </svg>
+                <span
+                  className={`pt-4 font-mono text-[0.75rem] leading-snug ${active === i ? 'text-ink' : 'text-ink-soft'}`}
                 >
-                  {l.link}
-                </text>
-              </svg>
-              <div className="min-w-0 pt-6">
-                <div className="flex flex-wrap items-baseline gap-x-3 gap-y-0.5">
-                  <span className="font-display text-base leading-snug text-ink">
-                    {t(`home.chain.links.${l.link}.title`)}
+                  {t(`home.chain.links.${l.link}.title`)}
+                  <span className="mt-0.5 block text-[0.625rem]" style={{ color: compositeStyle[composite].ink }}>
+                    {t(`chainComposite.${composite}`)}
                   </span>
-                  <span className="font-mono text-[0.625rem] text-ink-soft">
-                    {t(`home.chain.links.${l.link}.chapters`)}
-                  </span>
-                </div>
-                <div className="mt-1">
-                  <AssessmentChips a={a} />
-                </div>
-                <p className="mt-1.5 text-[0.875rem] leading-relaxed text-ink-soft">
-                  {t(`home.chain.plain.${l.link}`)}
-                </p>
-              </div>
-            </a>
-          </li>
-        )
-      })}
-    </ol>
+                </span>
+              </a>
+            </li>
+          )
+        })}
+      </ol>
+      <div ref={panelRef}>
+        <DetailPanel index={active} />
+      </div>
+    </div>
   )
 }
 

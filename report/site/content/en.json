@@ -393,14 +393,13 @@
   "chainAssess": {
     "basisLabel": "historical base",
     "voiceLabel": "presentation",
-    "svgLegend": "Ring: the historical base; the bar beneath a link: its presentation.",
     "basis": {
       "intact": "intact",
       "intactException": "intact, with one load-bearing exception",
       "destroyed": "dismantled",
       "contested": "rests on contested ground",
       "mixed": "mixed",
-      "premise": "rests on an untestable premise",
+      "premise": "conditional premise",
       "outside": "beyond historical checking"
     },
     "voice": {
@@ -409,5 +408,11 @@
       "refutedAbsolutes": "refuted in its absolutes"
     },
     "mixedDetail6": "the Sabbath's continuity is dismantled; Sunday's origin is contested"
+  },
+  "chainComposite": {
+    "sound": "sound",
+    "contested": "rests on contested ground",
+    "damaged": "damaged",
+    "outside": "beyond empirical checking"
   }
 }
