@@ -1,5 +1,10 @@
 __pycache__/
 *.pyc
+*.log
 .DS_Store
 *.tmp
+.env
+.env.*
+node_modules/
+dist/
 source/gc_ru_official.pdf
