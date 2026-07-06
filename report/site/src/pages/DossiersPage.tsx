@@ -9,6 +9,7 @@ import {
 } from 'recharts'
 import { DirectionBar } from '../components/DirectionBar'
 import { FiveStepScale } from '../components/FiveStepScale'
+import { QuoteText } from '../components/QuoteText'
 import { Reveal } from '../components/Reveal'
 import { dossierCards, type DossierCard as TDossier, type DossierClaim } from '../data/generated/dossiers'
 import { stats } from '../data/generated/stats'
@@ -120,9 +121,12 @@ function ClaimScaleRow({ claim }: { claim: DossierClaim }) {
           {claim.confidence && <Chip>{t(`dossiersPage.card.confidence.${claim.confidence}`)}</Chip>}
         </span>
       </div>
-      <p lang="en" className="mt-1.5 max-w-3xl font-display text-[0.875rem] leading-relaxed text-ink-soft italic">
-        “{claim.quote}” <span className="not-italic font-mono text-[0.6875rem]">({tp('dossiersPage.card.chapter', { ch: claim.chapter })})</span>
-      </p>
+      <div className="mt-1.5 flex max-w-3xl flex-wrap items-baseline gap-x-2">
+        <QuoteText en={claim.quote} ru={claim.quoteRu} enKey={claim.enKey} className="min-w-0 grow text-[0.875rem]" />
+        <span className="font-mono text-[0.6875rem] text-ink-soft">
+          ({tp('dossiersPage.card.chapter', { ch: claim.chapter })})
+        </span>
+      </div>
     </li>
   )
 }

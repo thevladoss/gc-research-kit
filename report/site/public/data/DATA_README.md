@@ -104,11 +104,16 @@ locale quotes seven short excerpts from the official Russian translation
 (© Ellen G. White Estate); they are quoted for research purposes and are NOT included
 in this archive.
 
-Все прочие русские передачи цитат книги в материалах проекта — рабочие переводы
-самого проекта (версия 1.0); использование официального перевода для них
-планируется. All other Russian renderings of the book's quotations in the project's
-materials are the project's own working translations (v1.0); adopting the
-official translation for them is planned.
+Русская локаль сайта приводит цитаты книги по официальному русскому переводу
+(© Ellen G. White Estate / издательство «Источник жизни»; цитирование
+в исследовательских целях); прежние рабочие переводы проекта заменены официальным
+переводом. Русский текст перевода в настоящий архив НЕ входит: датасет — это
+английский оригинал 1911 года плюс анализ проекта. The site's Russian locale quotes
+the book from the official Russian translation (© Ellen G. White Estate / Istochnik
+Zhizni publishing house; quoted for research purposes); the project's earlier working
+translations have been replaced by the official translation. The Russian translation
+text is NOT included in this archive: the dataset is the 1911 English original plus
+the project's analysis.
 
 ## Авторство, лицензия, контакт / Authorship, license, contact
 

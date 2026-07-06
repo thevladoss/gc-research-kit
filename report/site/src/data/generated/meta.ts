@@ -3,5 +3,5 @@
 export const dataMeta = {
   "version": "1.0",
   "generated_at": "2026-07-06",
-  "zipBytes": 1461998
+  "zipBytes": 1462097
 } as const

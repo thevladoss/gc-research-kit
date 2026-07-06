@@ -1,6 +1,5 @@
 import { motion, useReducedMotion } from 'framer-motion'
 import { useMemo, useState } from 'react'
-import ruPassagesRaw from '../../content/passages.ru.json'
 import type { ChainPassage, PassageSegment } from '../data/generated/chainPassages'
 import { useI18n } from '../lib/i18n'
 import { outcomeStyle, type Outcome } from '../lib/verdicts'
@@ -11,15 +10,6 @@ const outcomeLabelKey: Record<Exclude<Outcome, 'none'>, string> = {
   open: 'chainPage.legend.open',
   conditional: 'chainPage.legend.conditional',
   outside: 'chainPage.legend.outside',
-}
-
-interface RuSegment {
-  text: string
-  id?: string
-}
-const ruPassages = ruPassagesRaw as unknown as {
-  attribution: string
-  passages: Record<string, RuSegment[][]>
 }
 
 function spanStyle(outcome: Exclude<Outcome, 'none'>): React.CSSProperties {
@@ -92,9 +82,9 @@ export function SubtractionPassage({ passage }: { passage: ChainPassage }) {
     return m
   }, [passage])
 
-  const ruParas = locale === 'ru' ? ruPassages.passages[String(passage.link)] : undefined
+  const useRu = locale === 'ru' && passage.paras.every((p) => p.ruSegments)
 
-  const renderSegments = (segments: readonly (PassageSegment | RuSegment)[]) =>
+  const renderSegments = (segments: readonly PassageSegment[]) =>
     segments.map((seg, i) => {
       const outcome = seg.id ? outcomeById.get(seg.id) : undefined
       if (!outcome) return <span key={i}>{seg.text}</span>
@@ -108,6 +98,11 @@ export function SubtractionPassage({ passage }: { passage: ChainPassage }) {
           transition={reduced ? { duration: 0 } : { duration: 0.7, ease: 'easeInOut' }}
         >
           {seg.text}
+          {seg.enKey && (
+            <span lang="en" className="mx-1 font-mono text-[0.65em] whitespace-nowrap text-ink-soft/80 italic">
+              “{seg.enKey}”
+            </span>
+          )}
         </motion.span>
       )
     })
@@ -126,27 +121,21 @@ export function SubtractionPassage({ passage }: { passage: ChainPassage }) {
         </button>
       </div>
       <blockquote
-        lang={ruParas ? 'ru' : 'en'}
+        lang={useRu ? 'ru' : 'en'}
         className="mt-5 border-l-2 border-brass pl-5 font-display text-[1.075rem] leading-[1.75] text-ink"
       >
-        {ruParas
-          ? ruParas.map((segments, i) => (
-              <p key={i} className="mt-4 first:mt-0">
-                {renderSegments(segments)}
-              </p>
-            ))
-          : passage.paras.map((p) => (
-              <p key={p.paragraph} className="mt-4 first:mt-0">
-                {renderSegments(p.segments)}
-              </p>
-            ))}
+        {passage.paras.map((p) => (
+          <p key={p.paragraph} className="mt-4 first:mt-0">
+            {renderSegments(useRu ? p.ruSegments! : p.segments)}
+          </p>
+        ))}
       </blockquote>
       <figcaption className="mt-3 max-w-3xl font-mono text-[0.6875rem] leading-relaxed text-ink-soft">
         {tp('chainPage.passage.note', {
           ch: passage.chapter,
           p: passage.paras.map((x) => x.paragraph).join(', '),
         })}
-        {ruParas && <span className="mt-1 block">{ruPassages.attribution}</span>}
+        {useRu && <span className="mt-1 block">{t('chainPage.passage.attribution')}</span>}
       </figcaption>
     </figure>
   )

@@ -260,6 +260,33 @@ writeFileSync(
 )
 // chapters.ts пишется ниже (нужен labelKeyOf из секции этапа 2)
 
+// ---------- официальный русский перевод цитат ----------
+// content/ru_quotes.json создаёт scripts/build_ru_quotes.py из source/gc_ru_official.pdf
+// (PDF в git не входит; карта цитат — входит, датасет data.zip её НЕ содержит).
+const ruQuotesPath = path.join(SITE, 'content', 'ru_quotes.json')
+const ruQuotes = existsSync(ruQuotesPath) ? JSON.parse(readFileSync(ruQuotesPath, 'utf8')) : {}
+const ruPassagesPath = path.join(SITE, 'content', 'ru_passages.json')
+const ruPassageTexts = existsSync(ruPassagesPath) ? JSON.parse(readFileSync(ruPassagesPath, 'utf8')) : {}
+if (!Object.keys(ruQuotes).length) {
+  console.warn('! content/ru_quotes.json не найден — русская локаль покажет английские цитаты')
+}
+const ruQuoteOf = (id) => ruQuotes[id]?.ru ?? null
+
+// английская ключевая формулировка для чувствительных утверждений:
+// опровергнутые абсолюты и большие разрывы формулировка↔суть (вердикты выносились
+// по напечатанному английскому тексту — перевод мог его смягчить)
+const enKeyOf = (id) => {
+  const adj = rulingByClaim.get(id)
+  if (!adj) return null
+  const r = adj.ruling
+  const accusatory = r.ruling_as_written === 'discredited' || r.ruling_as_written === 'improbable'
+  if (!accusatory || (r.ruling_as_written !== 'discredited' && (r.framing_gap ?? 0) < 3)) return null
+  const audit = r.quantifier_audit?.[0]
+  if (!audit) return null
+  const phrase = audit.split(' (')[0].replace(/^["'«]|["'»]$/g, '').trim()
+  return phrase && phrase.length <= 70 ? phrase : null
+}
+
 // ---------- этап 2: детали звеньев цепи, пассажи вычитания, досье ----------
 
 // итоговый вердикт первого круга: защита могла пересмотреть вердикт верификатора
@@ -328,6 +355,8 @@ const claimBrief = (id) => {
     chapter: c.chapter,
     paragraph: c.paragraph,
     quote: c.quote.length > 230 ? c.quote.slice(0, 227).trimEnd() + '…' : c.quote,
+    quoteRu: ruQuoteOf(id),
+    enKey: enKeyOf(id),
     outcome: outcomeOf(c),
     labelKey: labelKeyOf(c),
     loadBearing: loadBearingOf(c),
@@ -435,6 +464,29 @@ const chapterParas = (ch) => {
   return out
 }
 
+// сегментация абзаца по цитатам утверждений (общая для EN и RU текстов)
+const segmentBy = (text, marks) => {
+  marks.sort((a, b) => a.start - b.start || b.end - a.end)
+  const flat = []
+  let cursor = 0
+  for (const m of marks) {
+    if (m.start < cursor) continue
+    flat.push(m)
+    cursor = m.end
+  }
+  const segments = []
+  let pos = 0
+  for (const m of flat) {
+    if (m.start > pos) segments.push({ text: text.slice(pos, m.start) })
+    const seg = { text: text.slice(m.start, m.end), id: m.id, outcome: m.outcome }
+    if (m.enKey) seg.enKey = m.enKey
+    segments.push(seg)
+    pos = m.end
+  }
+  if (pos < text.length) segments.push({ text: text.slice(pos) })
+  return segments
+}
+
 const chainPassages = Object.entries(CHAIN_PASSAGES).map(([link, cfg]) => {
   const paras = chapterParas(cfg.chapter)
   const passageParas = cfg.paragraphs.map((p) => {
@@ -451,24 +503,26 @@ const chainPassages = Object.entries(CHAIN_PASSAGES).map(([link, cfg]) => {
       }
       marks.push({ start, end: start + q.length, id: c.id, outcome: outcomeOf(c) })
     }
-    marks.sort((a, b) => a.start - b.start || b.end - a.end)
-    // выбрасываем перекрытия (оставляем более раннюю/длинную разметку)
-    const flat = []
-    let cursor = 0
-    for (const m of marks) {
-      if (m.start < cursor) continue
-      flat.push(m)
-      cursor = m.end
+    const segments = segmentBy(text, marks)
+
+    // русский текст того же абзаца по официальному переводу
+    const ruText = ruPassageTexts[String(cfg.chapter)]?.[String(p)] ?? null
+    let ruSegments = null
+    if (ruText) {
+      const ruMarks = []
+      for (const m of marks) {
+        const rq = ruQuoteOf(m.id)
+        if (!rq) continue
+        const start = ruText.indexOf(rq)
+        if (start === -1) {
+          console.warn(`! RU-пассаж зв.${link}: цитата ${m.id} не найдена в русском ¶${p}`)
+          continue
+        }
+        ruMarks.push({ start, end: start + rq.length, id: m.id, outcome: m.outcome, enKey: enKeyOf(m.id) })
+      }
+      ruSegments = segmentBy(ruText, ruMarks)
     }
-    const segments = []
-    let pos = 0
-    for (const m of flat) {
-      if (m.start > pos) segments.push({ text: text.slice(pos, m.start) })
-      segments.push({ text: text.slice(m.start, m.end), id: m.id, outcome: m.outcome })
-      pos = m.end
-    }
-    if (pos < text.length) segments.push({ text: text.slice(pos) })
-    return { paragraph: p, segments }
+    return { paragraph: p, segments, ruSegments }
   })
   return { link: Number(link), chapter: cfg.chapter, paras: passageParas }
 })
@@ -488,6 +542,8 @@ const dossierCards = dossiers.map((d) => {
         id: r.id,
         chapter: c.chapter,
         quote: c.quote.length > 150 ? c.quote.slice(0, 147).trimEnd() + '…' : c.quote,
+        quoteRu: ruQuoteOf(r.id),
+        enKey: enKeyOf(r.id),
         asWritten: r.ruling_as_written,
         weakened: r.ruling_weakened ?? null,
         gap: r.framing_gap ?? null,
@@ -504,21 +560,21 @@ const dossierCards = dossiers.map((d) => {
 writeFileSync(
   path.join(genDir, 'chainDetail.ts'),
   banner +
-    `export interface ClaimBrief { id: string; chapter: number; paragraph: number; quote: string; outcome: 'stands' | 'fallen' | 'open' | 'conditional' | 'outside'; labelKey: string; loadBearing: boolean; adjudicated: { asWritten: string; weakened: string | null; gap: number | null; kind: string | null; confidence: string | null } | null; chainInherited: boolean; period: string | null }\n` +
+    `export interface ClaimBrief { id: string; chapter: number; paragraph: number; quote: string; quoteRu: string | null; enKey: string | null; outcome: 'stands' | 'fallen' | 'open' | 'conditional' | 'outside'; labelKey: string; loadBearing: boolean; adjudicated: { asWritten: string; weakened: string | null; gap: number | null; kind: string | null; confidence: string | null } | null; chainInherited: boolean; period: string | null }\n` +
     `export interface ChainLinkDetail { link: number; stands: ClaimBrief[]; fallen: ClaimBrief[]; open: ClaimBrief[]; conditional: ClaimBrief[] }\n` +
     `export const chainDetail: readonly ChainLinkDetail[] = ${JSON.stringify(chainDetail, null, 2)} as const\n`,
 )
 writeFileSync(
   path.join(genDir, 'chainPassages.ts'),
   banner +
-    `export interface PassageSegment { text: string; id?: string; outcome?: 'stands' | 'fallen' | 'open' | 'conditional' | 'outside' | 'none' }\n` +
-    `export interface ChainPassage { link: number; chapter: number; paras: { paragraph: number; segments: PassageSegment[] }[] }\n` +
+    `export interface PassageSegment { text: string; id?: string; outcome?: 'stands' | 'fallen' | 'open' | 'conditional' | 'outside' | 'none'; enKey?: string }\n` +
+    `export interface ChainPassage { link: number; chapter: number; paras: { paragraph: number; segments: PassageSegment[]; ruSegments: PassageSegment[] | null }[] }\n` +
     `export const chainPassages: readonly ChainPassage[] = ${JSON.stringify(chainPassages, null, 2)} as const\n`,
 )
 writeFileSync(
   path.join(genDir, 'dossiers.ts'),
   banner +
-    `export interface DossierClaim { id: string; chapter: number; quote: string; asWritten: string; weakened: string | null; gap: number | null; kind: string | null; confidence: string | null; loadBearing: boolean; chainInherited: boolean; period: string | null }\n` +
+    `export interface DossierClaim { id: string; chapter: number; quote: string; quoteRu: string | null; enKey: string | null; asWritten: string; weakened: string | null; gap: number | null; kind: string | null; confidence: string | null; loadBearing: boolean; chainInherited: boolean; period: string | null }\n` +
     `export interface DossierCard { dossier: string; slug: string; chapters: number[]; narrative_ru: string; claims: DossierClaim[] }\n` +
     `export const dossierCards: readonly DossierCard[] = ${JSON.stringify(dossierCards, null, 2)} as const\n`,
 )
@@ -688,11 +744,16 @@ locale quotes seven short excerpts from the official Russian translation
 (© Ellen G. White Estate); they are quoted for research purposes and are NOT included
 in this archive.
 
-Все прочие русские передачи цитат книги в материалах проекта — рабочие переводы
-самого проекта (версия ${DATA_VERSION}); использование официального перевода для них
-планируется. All other Russian renderings of the book's quotations in the project's
-materials are the project's own working translations (v${DATA_VERSION}); adopting the
-official translation for them is planned.
+Русская локаль сайта приводит цитаты книги по официальному русскому переводу
+(© Ellen G. White Estate / издательство «Источник жизни»; цитирование
+в исследовательских целях); прежние рабочие переводы проекта заменены официальным
+переводом. Русский текст перевода в настоящий архив НЕ входит: датасет — это
+английский оригинал 1911 года плюс анализ проекта. The site's Russian locale quotes
+the book from the official Russian translation (© Ellen G. White Estate / Istochnik
+Zhizni publishing house; quoted for research purposes); the project's earlier working
+translations have been replaced by the official translation. The Russian translation
+text is NOT included in this archive: the dataset is the 1911 English original plus
+the project's analysis.
 
 ## Авторство, лицензия, контакт / Authorship, license, contact
 
@@ -731,6 +792,14 @@ try {
 } catch {
   console.warn('! zip недоступен — data.zip не собран (установите zip и перезапустите)')
 }
+
+// карта русских цитат для таблицы утверждений: public/, вне data.zip
+const ruQuotesPublic = {}
+for (const [cid, v] of Object.entries(ruQuotes)) {
+  const k = enKeyOf(cid)
+  ruQuotesPublic[cid] = k ? { ru: v.ru, k } : { ru: v.ru }
+}
+writeFileSync(path.join(SITE, 'public', 'ru_quotes.json'), JSON.stringify(ruQuotesPublic))
 
 // метаданные для сайта: версия, дата, размер архива
 const zipPath = path.join(pubDir, 'data.zip')

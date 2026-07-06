@@ -158,7 +158,8 @@
     "license": "CC BY 4.0",
     "data": "Data",
     "source": "Source code",
-    "contact": "Contact"
+    "contact": "Contact",
+    "quoteAttribution": "Russian-edition quotations of “The Great Controversy” follow the official translation (© Ellen G. White Estate / Istochnik Zhizni publishing house); quoted for research purposes."
   },
   "notFound": {
     "title": "No such page",
@@ -170,7 +171,8 @@
       "heading": "What the book claims: one passage up close",
       "note": "A passage from chapter {ch} (paragraph {p}) of the 1911 edition — one telling example, not the whole chapter: claims that stood and claims that fell sit side by side in it. The link's full picture is in the lists below; hover over a highlight to see the record number.",
       "toggleRemove": "Remove what failed the audit",
-      "toggleRestore": "Restore the full text"
+      "toggleRestore": "Restore the full text",
+      "attribution": "The Russian text follows the official translation of “The Great Controversy” (© Ellen G. White Estate); quoted for research purposes."
     },
     "legend": {
       "stands": "confirmed",
@@ -616,7 +618,7 @@
     "license": {
       "eyebrow": "License",
       "h2": "Rights and use",
-      "text": "The research data and the site's texts: CC BY 4.0 © 2026 Vladislav Osin — use freely with attribution. The English text of “The Great Controversy”, 1911 edition, is public domain. The seven excerpts of the official Russian translation on the chain pages are quoted with attribution (© Ellen G. White Estate) and are not part of the dataset.",
+      "text": "The research data and the site's texts: CC BY 4.0 © 2026 Vladislav Osin — use freely with attribution. The English text of “The Great Controversy”, 1911 edition, is public domain. Russian-edition quotations follow the official translation (© Ellen G. White Estate / Istochnik Zhizni publishing house), quoted for research purposes; the Russian translation text is not part of the downloadable dataset.",
       "attribution": "Attribution example: Osin V., “A Historical Audit of The Great Controversy”, 2026, [URL]"
     },
     "glossary": {
@@ -700,5 +702,9 @@
         }
       }
     }
+  },
+  "quotes": {
+    "showOriginal": "original (English, 1911)",
+    "hideOriginal": "hide the original"
   }
 }

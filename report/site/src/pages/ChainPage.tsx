@@ -1,5 +1,6 @@
 import { Reveal } from '../components/Reveal'
 import { FiveStepScale } from '../components/FiveStepScale'
+import { QuoteText } from '../components/QuoteText'
 import { SubtractionPassage } from '../components/SubtractionPassage'
 import { AssessmentChips } from '../components/ThesisChain'
 import { chainAssessment } from '../data/generated/chainAssessment'
@@ -41,9 +42,12 @@ function ClaimRow({ claim }: { claim: ClaimBrief }) {
         {claim.period === 'expositor-tradition' && <Chip>{t('chainPage.item.expositorTradition')}</Chip>}
       </div>
       <p className="measure mt-2 text-[0.9375rem] leading-relaxed text-ink">{note}</p>
-      <p lang="en" className="measure mt-2 font-display text-[0.9375rem] leading-relaxed text-ink-soft italic">
-        “{claim.quote}”
-      </p>
+      <QuoteText
+        en={claim.quote}
+        ru={claim.quoteRu}
+        enKey={claim.enKey}
+        className="measure mt-2 text-[0.9375rem]"
+      />
       <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-2">
         <a
           href={href.explorerWith({ id: claim.id })}

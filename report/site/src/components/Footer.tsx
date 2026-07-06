@@ -36,6 +36,9 @@ export function Footer() {
         <button type="button" onClick={openMail} className={`cursor-pointer ${linkCls}`}>
           {t('footer.contact')}
         </button>
+        <span className="mt-1 block w-full text-[0.6875rem] leading-relaxed text-ink-soft/80">
+          {t('footer.quoteAttribution')}
+        </span>
       </div>
     </footer>
   )

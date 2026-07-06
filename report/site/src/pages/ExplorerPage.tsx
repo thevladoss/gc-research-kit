@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { FiveStepScale } from '../components/FiveStepScale'
+import { QuoteText } from '../components/QuoteText'
 import { chapterMap } from '../data/generated/chapters'
 import {
   arcOf,
@@ -242,8 +243,8 @@ function Timeline({ c }: { c: FullClaim }) {
   )
 }
 
-function Row({ c, expanded, onToggle }: { c: FullClaim; expanded: boolean; onToggle: () => void }) {
-  const { t, tp } = useI18n()
+function Row({ c, ru, expanded, onToggle }: { c: FullClaim; ru: { ru: string; k?: string } | null; expanded: boolean; onToggle: () => void }) {
+  const { t, tp, locale } = useI18n()
   const labelKey = finalLabelKey(c)
   const sev = severityOf(c)
   return (
@@ -256,8 +257,22 @@ function Row({ c, expanded, onToggle }: { c: FullClaim; expanded: boolean; onTog
       >
         <span className="font-mono text-[0.6875rem] text-ink-soft">{c.id}</span>
         <span className="hidden md:inline"><VerdictChip labelKey={labelKey} /></span>
-        <span lang="en" className="col-span-2 font-display text-[0.9rem] leading-snug text-ink italic md:col-span-1">
-          “{c.quote.length > 180 ? c.quote.slice(0, 177).trimEnd() + '…' : c.quote}”
+        <span
+          lang={locale === 'ru' && ru ? 'ru' : 'en'}
+          className={`col-span-2 font-display text-[0.9rem] leading-snug text-ink md:col-span-1 ${locale === 'ru' && ru ? '' : 'italic'}`}
+        >
+          {locale === 'ru' && ru ? (
+            <>
+              «{ru.ru.length > 180 ? ru.ru.slice(0, 177).trimEnd() + '…' : ru.ru}»
+              {ru.k && (
+                <span lang="en" className="ml-2 font-mono text-[0.625rem] whitespace-nowrap text-ink-soft/80 italic">
+                  “{ru.k}”
+                </span>
+              )}
+            </>
+          ) : (
+            <>“{c.quote.length > 180 ? c.quote.slice(0, 177).trimEnd() + '…' : c.quote}”</>
+          )}
         </span>
         <span className="col-span-2 flex flex-wrap items-center gap-1.5 md:col-span-1 md:justify-end">
           <span className="md:hidden"><VerdictChip labelKey={labelKey} /></span>
@@ -268,7 +283,8 @@ function Row({ c, expanded, onToggle }: { c: FullClaim; expanded: boolean; onTog
       </button>
       {expanded && (
         <div className="px-1 pb-5">
-          <p className="max-w-3xl text-[0.875rem] leading-relaxed text-ink">
+          <QuoteText en={c.quote} ru={ru?.ru ?? null} enKey={ru?.k} className="max-w-3xl text-[0.9rem]" />
+          <p className="mt-3 max-w-3xl text-[0.875rem] leading-relaxed text-ink">
             <span className="font-mono text-[0.6875rem] text-ink-soft uppercase">{t('explorerPage.claimText')}: </span>
             <span lang="en">{c.claim_text}</span>
           </p>
@@ -282,6 +298,7 @@ function Row({ c, expanded, onToggle }: { c: FullClaim; expanded: boolean; onTog
 export function ExplorerPage({ initial }: { initial: Record<string, string> }) {
   const { t, tp, fmtInt } = useI18n()
   const [data, setData] = useState<FullClaim[] | null>(null)
+  const [ruMap, setRuMap] = useState<Record<string, { ru: string; k?: string }> | null>(null)
   const [error, setError] = useState(false)
   const [filters, setFilters] = useState<Filters>({ ...EMPTY, ...initial })
   const [limit, setLimit] = useState(PAGE)
@@ -293,6 +310,16 @@ export function ExplorerPage({ initial }: { initial: Record<string, string> }) {
       .then(setData)
       .catch(() => setError(true))
   }, [])
+
+  // официальный русский перевод цитат — только для русской локали
+  const { locale } = useI18n()
+  useEffect(() => {
+    if (locale !== 'ru' || ruMap) return
+    fetch(`${import.meta.env.BASE_URL}ru_quotes.json`)
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+      .then(setRuMap)
+      .catch(() => setRuMap({}))
+  }, [locale, ruMap])
 
   const set = (patch: Partial<Filters>) => {
     const next = { ...filters, ...patch }
@@ -397,6 +424,7 @@ export function ExplorerPage({ initial }: { initial: Record<string, string> }) {
               <Row
                 key={c.id}
                 c={c}
+                ru={ruMap?.[c.id] ?? null}
                 expanded={expanded.has(c.id)}
                 onToggle={() =>
                   setExpanded((prev) => {
