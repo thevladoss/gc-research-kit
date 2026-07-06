@@ -1,0 +1,67 @@
+# Сборка сайта и публикация в GitHub Pages на каждый push в main.
+# Источник Pages в настройках репозитория: Settings → Pages → Source: GitHub Actions.
+# База путей './' и hash-роутинг — 404-конфиг и rewrite-правила не нужны.
+name: Deploy site to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: report/site
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: report/site/package-lock.json
+
+      # zip нужен build-data для сборки public/data/data.zip (в ubuntu-latest предустановлен)
+      - name: Проверка zip
+        run: zip -v | head -1
+
+      - name: Установка зависимостей (точные версии из lock-файла)
+        run: npm ci
+
+      - name: Сборка (build-data → tsc → vite build)
+        run: npm run build
+
+      - name: Контроль артефакта — датасет и карта цитат на месте
+        run: |
+          test -f dist/data/data.zip
+          test -f dist/data/claims_full.json
+          test -f dist/data/DATA_README.md
+          test -f dist/ru_quotes.json
+          echo "OK: data.zip=$(stat -c%s dist/data/data.zip) bytes, ru_quotes=$(stat -c%s dist/ru_quotes.json) bytes"
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: report/site/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
