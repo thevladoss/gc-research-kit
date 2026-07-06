@@ -173,8 +173,8 @@
   "chainPage": {
     "eyebrow": "Link {n} of seven",
     "passage": {
-      "heading": "What the book claims",
-      "note": "A passage from chapter {ch} (paragraph {p}) of the 1911 edition. Highlighting shows how each claim fared in the audit; hover to see the record number.",
+      "heading": "What the book claims: one passage up close",
+      "note": "A passage from chapter {ch} (paragraph {p}) of the 1911 edition — one telling example, not the whole chapter: claims that stood and claims that fell sit side by side in it. The link's full picture is in the lists below; hover over a highlight to see the record number.",
       "toggleRemove": "Remove what failed the audit",
       "toggleRestore": "Restore the full text",
       "renderingSummary": "Russian rendering of the passage"
