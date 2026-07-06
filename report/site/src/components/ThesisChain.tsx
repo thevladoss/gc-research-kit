@@ -199,6 +199,9 @@ function DetailPanel({ index }: { index: number }) {
         </span>
         <AssessmentChips a={a} detail />
       </div>
+      <p className="measure mt-1.5 text-[0.8125rem] leading-snug text-ink-soft">
+        {t(`home.chain.links.${link.link}.topic`)}
+      </p>
       <p className="measure mt-2 text-[0.9375rem] leading-relaxed text-ink-soft">
         {t(`home.chain.plain.${link.link}`)}
       </p>

@@ -19,18 +19,18 @@
     "supported": "confirmed",
     "wellSupported": "solidly confirmed",
     "probable": "more likely true",
-    "open": "genuinely contested",
+    "open": "scholars still disagree",
     "anachronistic": "an error of its era",
     "improbable": "more likely false",
     "discredited": "refuted by documents",
-    "contradicted": "contradicted by the record",
-    "conditional": "rests on an untestable premise",
+    "contradicted": "at odds with the record",
+    "conditional": "history cannot test this",
     "unverifiable": "beyond historical checking"
   },
   "home": {
     "eyebrow": "A historical audit · the 1911 edition",
     "h1": "What is left of “The Great Controversy” once you check every fact in it?",
-    "lede": "We copied out 4,443 claims from Ellen G. White's “The Great Controversy” (every date, event, quotation, and figure) and checked everything open to historical verification against the work of historians. The book's checkable fabric is largely intact: 94.8% of its claims held up, not one forgery turned up among its 1,283 quotations, and the Reformation chapters passed with no damage to any claim their story rests on. What the book bears worst is its own categorical voice: the words “all”, “never”, “not one” rarely survived the documents, though behind most such sentences stands a careful version the documents do support. Nearly every error we found, the book inherited from the historical works of its era, along with their knowledge and their blind spots.",
+    "lede": "Ellen G. White's “The Great Controversy” appeared in 1911, and it still shapes how millions of readers picture church history. So we took it apart fact by fact: we copied out 4,443 claims — every date, event, quotation, and figure — and checked them against what historians actually know. Here is what came out. The book's fabric mostly holds: 94.8% of the checkable claims were confirmed, not one forgery turned up among its 1,283 quotations, and the Reformation chapters — a full third of the book — passed with no damage where the story bears weight. Where the book stumbles is its own certainty: the words “all”, “never”, “not one” almost never survived the documents. But drop that one word, and a careful version usually stands behind it — one the documents do support. And nearly everything the book got wrong, it did not invent: it inherited those errors from the historical works of its time, along with their knowledge and their blind spots.",
     "stats": {
       "claims": "claims copied out of the book: dates, events, quotations, figures",
       "supportedShare": "of the checkable claims were confirmed by historians",
@@ -38,50 +38,94 @@
       "discrepanciesNote": "the book inherited 96.9% of them from the works of its era rather than inventing them",
       "adjudicated": "disputed questions resolved under rules fixed in advance"
     },
+    "hotTopics": {
+      "eyebrow": "Quick start",
+      "h2": "Looking for something specific?",
+      "intro": "Five hot topics, one honest sentence each, and a direct link to the review. None of them is just a list of charges: you see at once both what failed the audit and what held up.",
+      "items": {
+        "sabbath": {
+          "label": "Sabbath and Sunday",
+          "topic": "was the Sabbath really swapped for Sunday, and when",
+          "summary": "The loud claims — “all Christians kept the Sabbath”, “Rome changed the day” — did not pass; but that Rome suppressed the Sabbath for centuries, and that the Bible gives no direct command for Sunday, is confirmed.",
+          "cta": "Open the “Sabbath versus Sunday” link"
+        },
+        "1844": {
+          "label": "1844 and the investigative judgment",
+          "topic": "how the book computes 1844, and whether the math holds",
+          "summary": "The arithmetic is correct, but the starting point is off by a year, and “beyond question” is refuted by the history of the debate itself; for what the 19th century knew, the calculation is honest.",
+          "cta": "Open the 1844 link"
+        },
+        "waldenses": {
+          "label": "The Waldenses and the “church in the wilderness”",
+          "topic": "did the faithful remnant really keep the faith and the Sabbath since the apostles",
+          "summary": "The secret communities, the memorized Scripture, and the persecution were all real; but the Waldenses' apostolic antiquity and their unbroken Sabbath are a 19th-century legend.",
+          "cta": "Open the “Remnant and Waldenses” link"
+        },
+        "romeBible": {
+          "label": "Did Rome hide the Bible",
+          "topic": "did the church really keep Scripture from the people — right into the 20th century",
+          "summary": "There was no single policy to “hide the Bible”, and by 1911 Rome itself encouraged reading approved translations; but that lay access to Scripture was restricted for centuries is documented.",
+          "cta": "Open the “Did Rome hide the Bible” review"
+        },
+        "author": {
+          "label": "Can the author be trusted",
+          "topic": "did White invent facts, or follow her sources in good faith",
+          "summary": "Not one forged quotation and almost no invention: White took 96.9% of her errors from the books of her era. What let her down was her certainty — “all” and “never” — not dishonesty.",
+          "cta": "See the findings on reliability"
+        }
+      }
+    },
     "chain": {
       "eyebrow": "The book's argument chain",
       "h2": "Seven links of one argument",
-      "intro": "The book tells one story in seven steps, from the early church to the end of time. Each step rests on the ones before it. Here is what remains of each after the audit.",
-      "hint": "Hover over a link to read its outcome; click to open the full review.",
+      "intro": "The whole book is one story told in seven steps, from the early church to the end of time. Each step stands on the one before it, like a link in a chain. Let's see what is left of each link after the audit.",
+      "hint": "Hover over a link and we'll show its outcome; click to open the review.",
       "openLink": "Open this link's review",
       "links": {
         "1": {
           "title": "Jerusalem and the early church",
-          "chapters": "ch. 1–3"
+          "chapters": "ch. 1–3",
+          "topic": "did no Christian at all die when Jerusalem fell"
         },
         "2": {
           "title": "The remnant and the Waldenses",
-          "chapters": "ch. 4, 13"
+          "chapters": "ch. 4, 13",
+          "topic": "did the faithful remnant really keep the faith and the Sabbath since the apostles"
         },
         "3": {
           "title": "The Reformation",
-          "chapters": "ch. 5–16"
+          "chapters": "ch. 5–16",
+          "topic": "how accurate is the book's account of Luther, Hus, and Wycliffe"
         },
         "4": {
           "title": "The Millerite movement and 1844",
-          "chapters": "ch. 17–22"
+          "chapters": "ch. 17–22",
+          "topic": "how the book computes 1844 — and whether the math holds"
         },
         "5": {
           "title": "The sanctuary and the investigative judgment",
-          "chapters": "ch. 23–24, 28"
+          "chapters": "ch. 23–24, 28",
+          "topic": "what the sanctuary and the investigative judgment actually rest on"
         },
         "6": {
           "title": "Sabbath versus Sunday",
-          "chapters": "ch. 25–26, 33, 35–36"
+          "chapters": "ch. 25–26, 33, 35–36",
+          "topic": "was the Sabbath really swapped for Sunday, and when"
         },
         "7": {
           "title": "The final crisis and the resolution",
-          "chapters": "ch. 36–42"
+          "chapters": "ch. 36–42",
+          "topic": "what a historian can even check in the story's finale"
         }
       },
       "plain": {
-        "1": "The historical base is intact (the persecution, the sign, the window to leave the city), with one load-bearing exception: “not one Christian perished” has no ancient support. The chapter's categorical wording did not hold up.",
-        "2": "The historical construction is dismantled: the “remnant's” antiquity and its Sabbath find no support, with a millennium-wide gap. The reality of hidden communities, memorized Scripture, and persecution is confirmed.",
-        "3": "The base is intact and the presentation accurate: the account of Luther, Hus, and Wycliffe is confirmed; only scenes added by later biographers did not hold up, and they carry no weight.",
-        "4": "The base rests on contested ground: the calculation's anchor itself is contested, and the claim “beyond question” is refuted by the sources. The movement's arithmetic and its history are told honestly for what its era knew.",
-        "5": "The entire link rests on an interpretation of prophecy, a premise a historian can neither confirm nor refute.",
-        "6": "The base is mixed: an unbroken Sabbath through the centuries is dismantled, Sunday's origin is a live scholarly dispute; Rome's documented role in suppressing the Sabbath is confirmed, and the presentation is overstated.",
-        "7": "Almost entirely about the future and faith: history has nothing to check here, and the link's force depends on the ones before it."
+        "1": "The story itself is intact: the persecution, the sign to flee, the open window to leave the city. One loud line lets it down — “not one Christian perished”: no ancient author says it. The certainty is what this link couldn't carry.",
+        "2": "A serious break here: neither the “faithful remnant's” antiquity nor its Sabbath holds up — a thousand-year gap sits between the apostles and the first Sabbath-keepers. But the hidden communities, the Scripture learned by heart, and the persecution were all real.",
+        "3": "The sturdiest link. The account of Luther, Hus, and Wycliffe passed; only the pretty scenes added by later biographers fell away, and nothing rests on them.",
+        "4": "The link's footing is contested: the calculation's starting point is off by a year, and “beyond question” is refuted by the very history of the dispute. Yet the arithmetic and the story of the movement are honest, for what the 19th century knew.",
+        "5": "The link stands entirely on an interpretation of prophecy. A historian can neither confirm nor refute that premise: it's a matter of faith, not of documents.",
+        "6": "A mixed picture. An unbroken Sabbath through the ages is dismantled; where Sunday came from, scholars still disagree. But that Rome suppressed the Sabbath for centuries is confirmed, even if the book lays it on thick.",
+        "7": "Almost all about the future and faith: history has next to nothing to check here. Whether this link convinces you is decided by the ones before it."
       },
       "basisNote": "this assessment rests on {shown} key claims out of {claims} checked across the link's chapters"
     },
@@ -114,32 +158,32 @@
       "cards": {
         "quotes": {
           "title": "Not one forged quotation",
-          "text": "The book contains 1,283 quotations attributed to historical figures. After every check, not a single confirmed distortion remains; the last contested quotation proved accurate on review.",
+          "text": "The book gives 1,283 quotations from historical figures. We checked every one, and found not a single forgery. Even the last contested quotation proved, on review, to be accurate.",
           "link": "All quotation claims"
         },
         "inherited": {
           "title": "Errors from the library, not the imagination",
-          "text": "96.9% of the confirmed discrepancies repeat the 19th-century historical works the author relied on. The book erred together with its era: the charge of inventing facts held up in only two peripheral cases.",
+          "text": "96.9% of the confirmed errors repeat, word for word, the 19th-century histories White drew on. So the book erred not alone but together with its era. The charge “she invented a fact” held up in only two peripheral cases.",
           "link": "Map of errors by chapter"
         },
         "reformation": {
           "title": "The Reformation chapters stood",
-          "text": "The account of Luther, Hus, and Wycliffe, a third of the book, passed the audit with no damage to any claim the story rests on. Only the ornament failed: legends added by biographers of the 17th–19th centuries.",
+          "text": "The account of Luther, Hus, and Wycliffe fills a third of the book, and passes the audit with no damage where the story bears weight. Only the ornament flakes off: legends added by biographers of the 17th–19th centuries.",
           "link": "The “Reformation” link"
         },
         "waldenses": {
           "title": "Waldensian antiquity did not hold up",
-          "text": "The two pillars of the “faithful remnant” chapter, the Waldenses' apostolic antiquity and an unbroken Sabbath across the centuries, are dismantled by modern research. This is the book's heaviest damage.",
+          "text": "The whole “faithful remnant” chapter rests on two supports: that the Waldenses go back to the apostles, and that they kept the Sabbath without a break. Modern scholarship knocks out both. This is the heaviest damage in the entire book.",
           "link": "The “Remnant and Waldenses” link"
         },
         "absolutes": {
           "title": "The absolutes did not hold up; the era's substance did",
-          "text": "Of the 81 statements that failed the review, 73 recover once the words “all”, “never”, “only” are removed. The book's rhetoric failed the audit more often than its facts.",
+          "text": "81 statements in the review did not hold up. But 73 of them come back to life once you remove the words “all”, “never”, “only”. What sank the claims was the book's tone more than its facts.",
           "link": "All 23 reviews"
         },
         "pella": {
           "title": "Jerusalem, AD 70: a template of certainty",
-          "text": "The book prints that when Jerusalem fell, “not one Christian perished.” No document knows this: whether the Christians left the city at all is still debated. Throughout the book, open questions harden into absolutes this way.",
+          "text": "The book prints it with confidence: when Jerusalem fell, “not one Christian perished.” No ancient document knows this — historians still argue whether the Christians left the city at all. And so it goes across the book: an open question freezes into an absolute.",
           "link": "The “Jerusalem” link"
         }
       }
@@ -147,7 +191,7 @@
     "boundary": {
       "eyebrow": "The method's limit",
       "h2": "The honest boundary",
-      "text": "This study passes no judgment on God, prophecy, or faith. 1,346 of the book's claims (about the heavenly sanctuary, angels, the future) lie beyond historical checking and were counted neither true nor false. Ten historical questions remain open: on each, scholarship holds strong arguments on both sides, and for each we recorded what discovery would tip the scales. The book's theological meaning this audit neither confirms nor refutes: it checks history alone."
+      "text": "This study decides nothing about God, prophecy, or faith. 1,346 of the book's claims — about the heavenly sanctuary, angels, the future — lie outside history, and we counted them neither true nor false. Ten more historical questions stay open: scholars hold strong arguments on both sides, and for each we recorded what discovery would tip the scales. The book's theological meaning this audit neither confirms nor refutes. It checks history alone."
     }
   },
   "stub": {
@@ -171,24 +215,25 @@
     "eyebrow": "Link {n} of seven",
     "passage": {
       "heading": "What the book claims: one passage up close",
-      "note": "A passage from chapter {ch} (paragraph {p}) of the 1911 edition — one telling example, not the whole chapter: claims that stood and claims that fell sit side by side in it. The link's full picture is in the lists below; hover over a highlight to see the record number.",
+      "note": "One passage from chapter {ch} (paragraph {p}), the 1911 edition. It's a telling example, not the whole chapter: claims that stood and claims that fell sit side by side here. The link's full picture is in the lists below. Hover over a highlight to see the record number.",
       "toggleRemove": "Remove what failed the audit",
       "toggleRestore": "Restore the full text",
       "attribution": "The Russian text follows the official translation of “The Great Controversy” (© Ellen G. White Estate); quoted for research purposes."
     },
     "legend": {
-      "stands": "confirmed",
+      "stands": "held up",
       "fallen": "did not hold up",
       "open": "scholars disagree",
-      "conditional": "untestable premise",
+      "conditional": "faith decides this",
       "outside": "beyond historical checking"
     },
+    "groupNav": "In this link:",
     "groups": {
-      "stands": "What stood",
+      "stands": "What held up",
       "fallen": "What did not hold up",
-      "open": "Where scholars honestly disagree",
-      "conditional": "What rests on an untestable premise",
-      "context": "A curated selection: the link's key claims, chosen by their weight for the argument. Across {chapters}, {claims} claims were extracted: {parts}.",
+      "open": "Where scholars still argue",
+      "conditional": "What history can't test — only faith",
+      "context": "These aren't all the link's claims, just the key ones — the claims that carry the argument. Across {chapters} we extracted {claims}: {parts}.",
       "parts": {
         "supported": "{n} confirmed",
         "fallen": "{n} did not hold up",
@@ -221,32 +266,32 @@
   },
   "chainPages": {
     "1": {
-      "intro": "The book opens with the fall of Jerusalem in AD 70: the city that rejected the warning lost everything, while the Christians who heeded it were saved to the last one. The audit split this account in two. The story itself, the siege, the Romans' sudden withdrawal, the window for escape, stands: partly confirmed, partly honestly open. The absolute “not one perished” turned out to be no ancient testimony but an argument of early-modern commentators.",
-      "after": "Take away the absolute and the chapter barely changes: the persecution, the sign, the window for escape, and the tradition of the community's departure all stay in place. Only “not one” becomes “apparently most,” and the flight to Pella itself becomes a question scholars have debated since 1951."
+      "intro": "The book opens with the fall of Jerusalem in AD 70. The city rejected the warning and lost everything; the Christians who heeded it were saved — every one, the book says. The audit cut this account in two. The events themselves — the siege, the Romans' sudden withdrawal, the window for escape — stand: partly confirmed, partly honestly open. But the line “not one perished” turned out to be no ancient testimony; it was an argument of early-modern theologians who reasoned that if the sources are silent about victims, there were none.",
+      "after": "Take away that absolute and the chapter barely changes. The persecution, the sign to flee, the window to leave, the tradition of the community's departure — all stay in place. One word shifts: “not one” becomes “apparently most.” And the flight to Pella itself becomes a question historians have debated since 1951."
     },
     "2": {
-      "intro": "The Waldenses chapter is the book's most damaged place: its whole history of a faithful minority rests on the “faithful remnant's” apostolic antiquity and its Sabbath. The audit separated legend from reality. The secret preachers, the years of memorizing Scripture, the persecution and endurance are documented. The apostolic antiquity, the Sabbath, and the proto-Protestant faith are an inheritance of 19th-century romantic historiography.",
-      "after": "After subtraction the chapter tells a documented story of medieval biblical dissent, persecuted, steadfast, and surviving, but born in the 12th century. The specifically Sabbath-keeping genealogy of the “remnant,” the one the doctrinal chapters rely on, does not recover."
+      "intro": "The Waldenses chapter is the book's most damaged place. Its whole thread about a “faithful remnant” rests on two supports: that these people go back to the apostles, and that they kept the Sabbath without a break. The audit separated legend from truth here. The secret preachers, the years of memorizing Scripture, the persecution, the endurance — all documented. But the apostolic antiquity, the Sabbath, and the “almost Protestant” faith are an inheritance from the romantic historians of the 19th century.",
+      "after": "After subtraction the chapter tells a well-documented story: medieval biblical dissent — persecuted, stubborn, surviving, but born in the 12th century, not with the apostles. The Sabbath-keeping genealogy of the “remnant,” the one the doctrinal chapters lean on, does not recover."
     },
     "3": {
-      "intro": "The only link with no damage to anything its argument rests on. The account of Wycliffe, Hus, and Luther passed the audit in its factual core; only the ornament did not hold up: scenes added by later biographers, and absolutes like “without the slightest foundation.” Two initial conclusions were reversed in the book's favor on review. This link's soundness is as much a first-class result of the audit as its neighbors' damage.",
-      "after": "There is almost nothing to subtract: remove the legendary layer and the reader loses a few vivid scenes and not one joint of the argument. As an account of the Reformation, the book remains a conscientious popularization of its century's Protestant historiography."
+      "intro": "The only link with no damage where its argument bears weight. The account of Wycliffe, Hus, and Luther passed in its factual core. Only the trimmings did not hold up: scenes added by later biographers, and absolutes like “without the slightest foundation.” Two first conclusions were later reversed in the book's favor. That this link stood is as honest a result of the audit as the damage next door.",
+      "after": "There is almost nothing to subtract here. Remove the legendary layer and you lose a few vivid scenes, but not one joint of the argument. As an account of the Reformation, the book stays a conscientious retelling of its century's Protestant history."
     },
     "4": {
-      "intro": "The book's axis: the calculation from the decree of 457 BC to 1844. The audit closed the old dispute in both directions. As printed, the chronology did not hold up: the anchor is off by a year, AD 31 is excluded by astronomy, and the formulas “beyond question” are refuted by the very history of the debate. Yet the movement's arithmetic is internally exact for what its era knew, and the Millerites' own history is told accurately, down to one accusation reversed in the book's favor.",
-      "after": "After subtraction what remains is what was always there: an accurate history of the movement and an internally consistent calculation on a chronology the era's scholarship held true and modern scholarship has shifted. What departs is incontestability: the date remains computable on its premises, but ceases to be “fixed beyond question.”"
+      "intro": "The book's axis: the calculation from the decree of 457 BC to 1844. The audit closed the old dispute in both directions at once. As printed, the chronology did not hold up: the starting point is off by a year, AD 31 is ruled out by astronomy, and “beyond question” is refuted by the very history of this dispute. Yet the movement's arithmetic is exact — for what its era knew — and the Millerites' own history is told accurately, down to one accusation withdrawn in the book's favor.",
+      "after": "After subtraction what remains is what was always there: an accurate history of the movement and a consistent calculation on a chronology the 19th century held true and modern scholarship has shifted. One thing departs: incontestability. The date can still be derived from its premises, but it will no longer be “fixed beyond question.”"
     },
     "5": {
-      "intro": "The sanctuary link rests not on documents but on an interpretation of prophecy. Its core, that the seventy weeks are “cut off” from the 2300 days and begin together, the review found to be entirely interpretive: history can neither confirm nor refute it. Every checkable input of the link is a repetition of the 457→1844 chronology from chapter 18, and every one inherits the same anchor.",
-      "after": "Remove the chronological repetitions and the link does not vanish; it hangs, honestly, on its premise. A reader who accepts the interpretation receives an internally exact calculation on the data of that era; a reader who does not receives nothing from history that would compel acceptance."
+      "intro": "The sanctuary link stands not on documents but on an interpretation of prophecy. Its core — that the seventy weeks are “cut off” from the 2300 days and begin together — the review found to be pure interpretation: history can neither confirm nor refute it. Everything checkable in the link is a repeat of that same 457→1844 chronology from chapter 18, and every piece rests on the same shifted starting point.",
+      "after": "Remove the chronological repeats and the link does not vanish; it hangs, honestly, on its premise. A reader who accepts the interpretation gets an exact calculation on the data of that era. A reader who does not gets nothing from history that would compel acceptance."
     },
     "6": {
-      "intro": "The doctrinal link on Sabbath and Sunday. The genealogical absolutes did not hold up: “all Christians kept the Sabbath,” “changed by the papal power,” “Sunday originated with Rome.” The documented core is confirmed: a gradual, many-caused displacement of the Sabbath with Rome playing an active part, the absence of any direct biblical command for Sunday, and the honestly open question of Sunday's apostolic origin. The Sabbath's theological status the audit does not decide.",
-      "after": "After subtraction the link keeps its historical core and loses its genealogy: the Sabbath really did yield to Sunday gradually and for more than one reason, Rome really did suppress the Sabbath for centuries, and Scripture really contains no direct command for Sunday. The absolutes “all,” “changed by Rome,” and “Eden as an event of history” do not recover."
+      "intro": "The doctrinal link on Sabbath and Sunday. The loud “genealogical” absolutes did not hold up: “all Christians kept the Sabbath,” “changed by the papal power,” “Sunday came from Rome.” But the documented core stood: the Sabbath was displaced gradually and for many reasons, Rome took an active part in it, there is no direct biblical command for Sunday, and whether Sunday goes back to the apostles is honestly open. The Sabbath's theological status the audit does not decide.",
+      "after": "After subtraction the link keeps its historical core — but without the genealogy. The Sabbath really did yield to Sunday gradually and for more than one reason; Rome really did suppress the Sabbath for centuries; Scripture really contains no direct command for Sunday. But the absolutes “all,” “changed by Rome,” and “the Sabbath from Eden as a fact of history” do not recover."
     },
     "7": {
-      "intro": "The final link looks to the future and speaks the language of faith: history has almost nothing to check here. Of its few checkable details, two failed the review and one remains honestly open. The link has no historical footing of its own; its force depends entirely on the links about 1844, the sanctuary, and the Sabbath.",
-      "after": "Subtraction hardly works here: the link's checkable fabric is thin. What remains depends not on this link itself but on what the reader carries out of the links about 1844, the sanctuary, and the Sabbath."
+      "intro": "The final link looks to the future and speaks the language of faith: history has next to nothing to check here. Of its few checkable details, two failed the review and one stays honestly open. The link has no footing of its own: whether it convinces you depends on the links about 1844, the sanctuary, and the Sabbath.",
+      "after": "There is almost nothing to subtract here: the checkable fabric is too thin. What remains depends not on this link itself but on what you carried out of the links about 1844, the sanctuary, and the Sabbath."
     }
   },
   "claimNotes": {
@@ -424,13 +469,13 @@
   },
   "chainComposite": {
     "sound": "sound",
-    "contested": "rests on contested ground",
+    "contested": "stands on contested ground",
     "damaged": "damaged",
-    "outside": "beyond empirical checking"
+    "outside": "beyond historical checking"
   },
   "mapPage": {
     "h1": "Map of the book: 43 chapters",
-    "intro": "Each column is a chapter: its height shows how many claims we copied out of it, the colors show how each claim fared, and the hatching marks what lies beyond historical checking. The asymmetry is visible at once: the Reformation chapters are almost entirely blue, while the warm tones gather over the Waldenses (chapter 4) and the 1844 chronology (chapters 18 and 23).",
+    "intro": "Each column is a chapter. Its height shows how many claims we copied out of it; the color shows how each one fared; the hatching marks what history can't test. The tilt shows at once: the Reformation chapters are almost all blue, while the warm tones gather over the Waldenses (chapter 4) and the 1844 chronology (chapters 18 and 23).",
     "hint": "Hover over a column for the chapter's outcome; click to open all its claims in the table.",
     "chapterOf": "Chapter {n}",
     "claimsCount": "claims: {n}",
@@ -442,7 +487,7 @@
       "anachronistic": "an error of its era",
       "improbable": "more likely false",
       "discredited": "refuted",
-      "conditional": "conditional premise",
+      "conditional": "faith decides this",
       "unverifiable": "beyond historical checking",
       "loadBearing": "has load-bearing claims"
     },
@@ -495,7 +540,7 @@
   },
   "explorerPage": {
     "h1": "All the book's claims",
-    "intro": "The complete table: every extracted claim with its quotation, outcome, and audit history. Expand a row to see the verdict's path — the source check, then the defense, then the review of the dispute — with reasoning and sources at every step. Filters are stored in the page address, so a link can be shared.",
+    "intro": "The complete table: every extracted claim with its quotation, outcome, and full audit history. Expand a row and you'll see the whole path of the verdict — the source check, then the defense, then the review of the dispute — with reasoning and sources at every step. The filters live in the page address, so you can share a link.",
     "searchPlaceholder": "search: text or record number",
     "fChapter": "chapter",
     "fRuling": "outcome",

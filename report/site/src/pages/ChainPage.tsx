@@ -77,28 +77,98 @@ function totalsLine(
   return tp('chainPage.groups.context', { chapters, claims: stats.totals.claims, parts })
 }
 
+// строка-навигация по группам звена: сразу видно, что внутри, и можно прыгнуть
+function GroupNav({
+  groups,
+}: {
+  groups: readonly { key: string; id: string; accent: string; ink: string; count: number }[]
+}) {
+  const { t } = useI18n()
+  if (groups.length < 2) return null
+  const jump = (id: string) => () =>
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  return (
+    <div className="mt-8 flex flex-wrap items-center gap-x-4 gap-y-2 border-y border-line py-3">
+      <span className="font-mono text-[0.6875rem] uppercase text-ink-soft">
+        {t('chainPage.groupNav')}
+      </span>
+      {groups.map((g) => (
+        <button
+          key={g.id}
+          type="button"
+          onClick={jump(g.id)}
+          className="inline-flex cursor-pointer items-center gap-1.5 font-mono text-[0.75rem] text-ink hover:text-binding"
+        >
+          <span
+            aria-hidden="true"
+            className="inline-block h-2.5 w-2.5 rounded-sm"
+            style={{ background: g.accent }}
+          />
+          {t(`chainPage.groups.${g.key}`)}
+          <span className="tabular-nums text-ink-soft">{g.count}</span>
+        </button>
+      ))}
+    </div>
+  )
+}
+
 function Group({
   titleKey,
+  id,
   claims,
   accent,
+  ink,
   context,
+  emphasis = false,
 }: {
   titleKey: string
+  id: string
   claims: readonly ClaimBrief[]
   accent: string
+  ink: string
   context: string
+  emphasis?: boolean
 }) {
   const { t } = useI18n()
   if (!claims.length) return null
   return (
     <Reveal>
-      <section className="mt-12">
-        <h2
-          className="border-t-2 pt-3 font-display text-2xl text-ink"
-          style={{ borderTopColor: accent }}
-        >
-          {t(titleKey)}
-        </h2>
+      <section id={id} className="mt-12 scroll-mt-24">
+        {emphasis ? (
+          // «что не выдержало» — заметный якорь: акцентная полоса слева и счётчик-пилюля
+          <div
+            className="flex flex-wrap items-center gap-x-3 gap-y-1 rounded-sm border-l-4 bg-paper-deep px-3 py-2.5"
+            style={{ borderLeftColor: accent }}
+          >
+            <span
+              aria-hidden="true"
+              className="inline-block h-3.5 w-3.5 rounded-sm"
+              style={{ background: accent }}
+            />
+            <h2 className="font-display text-2xl text-ink">{t(titleKey)}</h2>
+            <span
+              className="rounded-full px-2 py-0.5 font-mono text-[0.6875rem] tabular-nums text-paper"
+              style={{ background: accent }}
+            >
+              {claims.length}
+            </span>
+          </div>
+        ) : (
+          <div
+            className="flex flex-wrap items-center gap-x-3 gap-y-1 border-t-2 pt-3"
+            style={{ borderTopColor: accent }}
+          >
+            <span
+              aria-hidden="true"
+              className="inline-block h-3 w-3 rounded-sm"
+              style={{ background: accent }}
+            />
+            <h2 className="font-display text-2xl text-ink">{t(titleKey)}</h2>
+            <span className="font-mono text-[0.75rem] tabular-nums" style={{ color: ink }}>
+              {claims.length}
+            </span>
+          </div>
+        )}
         <p className="measure mt-1.5 font-mono text-[0.6875rem] leading-relaxed text-ink-soft">
           {context}
         </p>
@@ -123,6 +193,15 @@ export function ChainPage({ link }: { link: number }) {
   const prev = link > 1 ? thesisChain[link - 2] : null
   const next = link < 7 ? thesisChain[link] : null
 
+  // порядок групп: «что не выдержало» первым и заметно, но сразу за ним —
+  // «что устояло» и «где спорят», чтобы результат не читался как обвинительный
+  const groups = [
+    { key: 'fallen', id: 'g-fallen', claims: detail.fallen, accent: outcomeStyle.fallen.fill, ink: outcomeStyle.fallen.ink, emphasis: true },
+    { key: 'stands', id: 'g-stands', claims: detail.stands, accent: outcomeStyle.stands.fill, ink: outcomeStyle.stands.ink, emphasis: false },
+    { key: 'open', id: 'g-open', claims: detail.open, accent: outcomeStyle.open.fill, ink: outcomeStyle.open.ink, emphasis: false },
+    { key: 'conditional', id: 'g-conditional', claims: detail.conditional, accent: outcomeStyle.conditional.fill, ink: outcomeStyle.conditional.ink, emphasis: false },
+  ].filter((g) => g.claims.length > 0)
+
   return (
     <main>
       {/* шапка звена */}
@@ -145,6 +224,9 @@ export function ChainPage({ link }: { link: number }) {
           </span>
           <AssessmentChips a={assessment} detail />
         </div>
+        <p className="measure mt-3 text-[0.9375rem] leading-snug text-ink-soft">
+          {t(`home.chain.links.${link}.topic`)}
+        </p>
         <p className="drop-cap measure mt-5 text-[1rem] leading-relaxed text-ink">
           {t(`chainPages.${link}.intro`)}
         </p>
@@ -165,16 +247,25 @@ export function ChainPage({ link }: { link: number }) {
       </section>
 
       <div className="mx-auto max-w-6xl px-5 pb-14 md:px-8">
-      {/* группы утверждений */}
-      <Group titleKey="chainPage.groups.stands" claims={detail.stands} accent={outcomeStyle.stands.fill} context={context} />
-      <Group titleKey="chainPage.groups.fallen" claims={detail.fallen} accent={outcomeStyle.fallen.fill} context={context} />
-      <Group titleKey="chainPage.groups.open" claims={detail.open} accent={outcomeStyle.open.fill} context={context} />
-      <Group
-        titleKey="chainPage.groups.conditional"
-        claims={detail.conditional}
-        accent={outcomeStyle.conditional.fill}
-        context={context}
-      />
+      {/* группы утверждений: главное («что не выдержало») — первым и с якорем,
+          сразу за ним «что устояло» и «где спорят», чтобы картина осталась полной */}
+      {groups.length > 0 && (
+        <GroupNav
+          groups={groups.map((g) => ({ key: g.key, id: g.id, accent: g.accent, ink: g.ink, count: g.claims.length }))}
+        />
+      )}
+      {groups.map((g) => (
+        <Group
+          key={g.id}
+          id={g.id}
+          titleKey={`chainPage.groups.${g.key}`}
+          claims={g.claims}
+          accent={g.accent}
+          ink={g.ink}
+          context={context}
+          emphasis={g.emphasis}
+        />
+      ))}
 
       {/* вычитание: что остаётся */}
       <div className="mt-16">

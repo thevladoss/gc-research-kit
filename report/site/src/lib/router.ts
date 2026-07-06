@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react'
 export type Route =
   | { page: 'home' }
   | { page: 'chain'; link: number }
-  | { page: 'dossiers' }
+  | { page: 'dossiers'; anchor?: string }
   | { page: 'map' }
   | { page: 'explorer'; params: Record<string, string> }
   | { page: 'method'; anchor?: string }
@@ -23,7 +23,7 @@ export function parseHash(hash: string): Route {
       return { page: 'notFound' }
     }
     case 'dossiers':
-      return { page: 'dossiers' }
+      return { page: 'dossiers', anchor }
     case 'map':
       return { page: 'map' }
     case 'explorer': {
@@ -50,9 +50,11 @@ export function useRoute(): Route {
         window.scrollTo({ top: 0, behavior: 'instant' as ScrollBehavior })
       }
       prevPage.current = next.page
-      if (next.page === 'method' && next.anchor) {
+      const anchor =
+        next.page === 'method' || next.page === 'dossiers' ? next.anchor : undefined
+      if (anchor) {
         requestAnimationFrame(() => {
-          document.getElementById(next.anchor!)?.scrollIntoView({ behavior: 'instant' as ScrollBehavior })
+          document.getElementById(anchor)?.scrollIntoView({ behavior: 'instant' as ScrollBehavior })
         })
       }
     }

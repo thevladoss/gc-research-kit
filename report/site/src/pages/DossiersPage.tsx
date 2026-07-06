@@ -1,5 +1,5 @@
 import { ChevronDown, ChevronUp, CircleHelp, FileText, Frame, History, Ruler, Target } from 'lucide-react'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import {
   Bar,
   BarChart,
@@ -154,7 +154,10 @@ function DossierCardView({ d, index }: { d: TDossier; index: number }) {
   const narrative = locale === 'ru' ? d.narrative_ru : t(`dossiersPage.narratives.${d.dossier}`)
   return (
     <Reveal delay={Math.min(index * 0.03, 0.15)}>
-      <article className="relative overflow-hidden border border-line bg-paper-deep px-6 py-6 md:px-8">
+      <article
+        id={`dossier-${d.dossier}`}
+        className="relative scroll-mt-24 overflow-hidden border border-line bg-paper-deep px-6 py-6 md:px-8"
+      >
         <CornerVignette corner="tl" />
         <CornerVignette corner="br" />
         {d.dossier === 'D01' && (
@@ -205,8 +208,16 @@ function DossierCardView({ d, index }: { d: TDossier; index: number }) {
   )
 }
 
-export function DossiersPage() {
+export function DossiersPage({ anchor }: { anchor?: string }) {
   const { t } = useI18n()
+  // прямой вход по ссылке с якорем (напр. #/dossiers#dossier-D07): доводим до карточки
+  // после того как ленивый чанк смонтировался
+  useEffect(() => {
+    if (!anchor) return
+    requestAnimationFrame(() => {
+      document.getElementById(anchor)?.scrollIntoView({ behavior: 'instant' as ScrollBehavior })
+    })
+  }, [anchor])
   return (
     <main className="mx-auto max-w-6xl px-5 py-14 md:px-8">
       <Reveal>

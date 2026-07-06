@@ -65,6 +65,72 @@ function Hero() {
   )
 }
 
+// прямой вход в горячие темы: каждая ведёт на своё звено/досье и открывается
+// одной честной фразой — и минус, и плюс, — а не списком претензий
+const hotTopics = [
+  { key: 'sabbath', to: href.chain(6) },
+  { key: '1844', to: href.chain(4) },
+  { key: 'waldenses', to: href.chain(2) },
+  { key: 'romeBible', to: `${href.dossiers}#dossier-D07` },
+  { key: 'author', scrollTo: 'findings' },
+] as const
+
+function HotTopics() {
+  const { t } = useI18n()
+  const cardCls =
+    'group flex h-full w-full flex-col border border-line bg-paper-deep px-5 py-4 text-left no-underline transition-colors hover:border-binding'
+  const cardStyle = { borderLeftWidth: 3, borderLeftColor: 'var(--color-binding)' }
+  return (
+    <section className="border-t border-line">
+      <div className="mx-auto max-w-6xl px-5 py-12 md:px-8 md:py-14">
+        <SectionDivider />
+        <div className="h-8" />
+        <Reveal>
+          <SectionHead eyebrow={t('home.hotTopics.eyebrow')} h2={t('home.hotTopics.h2')} />
+          <p className="measure mt-4 text-[0.9375rem] leading-relaxed text-ink-soft">
+            {t('home.hotTopics.intro')}
+          </p>
+        </Reveal>
+        <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          {hotTopics.map((it, i) => {
+            const base = `home.hotTopics.items.${it.key}`
+            const inner = (
+              <>
+                <h3 className="font-display text-lg leading-snug text-ink">{t(`${base}.label`)}</h3>
+                <p className="mt-1 text-[0.8125rem] leading-snug text-ink-soft">{t(`${base}.topic`)}</p>
+                <p className="mt-2 grow text-[0.875rem] leading-relaxed text-ink">{t(`${base}.summary`)}</p>
+                <span className="mt-3 font-mono text-[0.6875rem] uppercase text-binding group-hover:underline">
+                  {t(`${base}.cta`)} →
+                </span>
+              </>
+            )
+            return (
+              <Reveal key={it.key} delay={0.04 * i}>
+                {'scrollTo' in it ? (
+                  <button
+                    type="button"
+                    onClick={() =>
+                      document.getElementById(it.scrollTo)?.scrollIntoView({ behavior: 'smooth' })
+                    }
+                    className={`${cardCls} cursor-pointer`}
+                    style={cardStyle}
+                  >
+                    {inner}
+                  </button>
+                ) : (
+                  <a href={it.to} className={cardCls} style={cardStyle}>
+                    {inner}
+                  </a>
+                )}
+              </Reveal>
+            )
+          })}
+        </div>
+      </div>
+    </section>
+  )
+}
+
 function ChainSection() {
   const { t } = useI18n()
   return (
@@ -140,7 +206,7 @@ const findingCards = [
 function FindingsSection() {
   const { t } = useI18n()
   return (
-    <section className="border-t border-line bg-paper-warm">
+    <section id="findings" className="scroll-mt-20 border-t border-line bg-paper-warm">
       <div className="mx-auto max-w-6xl px-5 py-12 md:px-8 md:py-14">
         <SectionDivider />
         <div className="h-8" />
@@ -198,6 +264,7 @@ export function Home() {
   return (
     <main>
       <Hero />
+      <HotTopics />
       <ChainSection />
       <PipelineSection />
       <FindingsSection />

@@ -46,11 +46,13 @@ export default function App() {
     }
   }, [route, locale, t])
 
-  // якорь при первом открытии страницы метода по прямой ссылке
+  // якорь при первом открытии страницы по прямой ссылке (method / dossiers)
   useEffect(() => {
-    if (route.page === 'method' && route.anchor) {
+    const anchor =
+      route.page === 'method' || route.page === 'dossiers' ? route.anchor : undefined
+    if (anchor) {
       requestAnimationFrame(() => {
-        document.getElementById(route.anchor!)?.scrollIntoView()
+        document.getElementById(anchor)?.scrollIntoView()
       })
     }
     // только при монтировании
@@ -72,7 +74,7 @@ export default function App() {
     case 'dossiers':
       page = (
         <Suspense fallback={fallback}>
-          <DossiersPage />
+          <DossiersPage anchor={route.anchor} />
         </Suspense>
       )
       break
