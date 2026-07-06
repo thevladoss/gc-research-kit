@@ -217,7 +217,15 @@ function ChainWide() {
   const [active, setActive] = useState<number>(1) // по умолчанию — звено 2: главная находка проверки
   return (
     <div className="hidden md:block">
-      <svg viewBox={`0 0 ${W} ${SVG_H}`} className="w-full" role="list" aria-label={t('home.chain.h2')}>
+      <p className="sr-only">
+        {thesisChain
+          .map(
+            (l, i) =>
+              `${l.link}. ${t(`home.chain.links.${l.link}.title`)} — ${t(`chainComposite.${compositeOfBasis[chainAssessment[i].basis]}`)}`,
+          )
+          .join('; ')}
+      </p>
+      <svg viewBox={`0 0 ${W} ${SVG_H}`} className="w-full" aria-label={t('home.chain.h2')}>
         <defs>
           <filter id="chain-shadow" x="-20%" y="-20%" width="140%" height="140%">
             <feDropShadow dx="0" dy="1.4" stdDeviation="1.2" floodColor="#262a22" floodOpacity="0.22" />
@@ -317,7 +325,6 @@ function ChainNarrow() {
         <svg
           viewBox={`0 0 76 ${railH}`}
           className="w-[76px] shrink-0"
-          role="list"
           aria-label={t('home.chain.h2')}
         >
           {thesisChain.map((l, i) => {
@@ -329,7 +336,12 @@ function ChainNarrow() {
                 href={href.chain(l.link)}
                 aria-label={`${t(`home.chain.links.${l.link}.title`)} — ${t(`chainComposite.${composite}`)}`}
                 onClick={select(i)}
-                style={{ outline: 'none' }}
+                onKeyDown={(e) => {
+                  if (e.key === ' ') {
+                    e.preventDefault()
+                    select(i)(e as unknown as React.MouseEvent)
+                  }
+                }}
               >
                 <rect
                   x={0}

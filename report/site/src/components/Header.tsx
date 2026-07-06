@@ -28,7 +28,7 @@ export function Header({ route }: { route: Route }) {
                 key={it.key}
                 href={it.to}
                 aria-current={active ? 'page' : undefined}
-                className={`font-mono text-[0.75rem] tracking-wide uppercase no-underline ${
+                className={`inline-block py-2.5 font-mono text-[0.75rem] tracking-wide uppercase no-underline ${
                   active
                     ? 'text-ink underline decoration-brass underline-offset-8'
                     : 'text-ink-soft hover:text-binding'
@@ -43,7 +43,7 @@ export function Header({ route }: { route: Route }) {
           type="button"
           onClick={() => setLocale(locale === 'ru' ? 'en' : 'ru')}
           aria-label={t('lang.aria')}
-          className="cursor-pointer rounded-sm border border-line px-2 py-0.5 font-mono text-[0.75rem] text-ink-soft uppercase hover:border-binding hover:text-binding"
+          className="min-h-11 cursor-pointer rounded-sm border border-line px-3 py-1 font-mono text-[0.75rem] text-ink-soft uppercase hover:border-binding hover:text-binding"
         >
           {t('lang.toggle')}
         </button>

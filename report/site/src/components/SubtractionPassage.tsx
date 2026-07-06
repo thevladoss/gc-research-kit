@@ -99,7 +99,7 @@ export function SubtractionPassage({ passage }: { passage: ChainPassage }) {
         >
           {seg.text}
           {seg.enKey && (
-            <span lang="en" className="mx-1 font-mono text-[0.65em] whitespace-nowrap text-ink-soft/80 italic">
+            <span lang="en" className="mx-1 font-mono text-[0.65em] whitespace-nowrap text-ink-soft italic">
               “{seg.enKey}”
             </span>
           )}
@@ -115,7 +115,7 @@ export function SubtractionPassage({ passage }: { passage: ChainPassage }) {
           type="button"
           onClick={() => setSubtracted(!subtracted)}
           aria-pressed={subtracted}
-          className="cursor-pointer rounded-sm border border-line bg-paper-deep px-3 py-1.5 font-mono text-[0.6875rem] tracking-wide text-ink uppercase hover:border-binding hover:text-binding"
+          className="min-h-11 cursor-pointer rounded-sm border border-line bg-paper-deep px-3 py-1.5 font-mono text-[0.6875rem] tracking-wide text-ink uppercase hover:border-binding hover:text-binding"
         >
           {subtracted ? t('chainPage.passage.toggleRestore') : t('chainPage.passage.toggleRemove')}
         </button>

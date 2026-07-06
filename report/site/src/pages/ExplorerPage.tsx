@@ -265,7 +265,7 @@ function Row({ c, ru, expanded, onToggle }: { c: FullClaim; ru: { ru: string; k?
             <>
               «{ru.ru.length > 180 ? ru.ru.slice(0, 177).trimEnd() + '…' : ru.ru}»
               {ru.k && (
-                <span lang="en" className="ml-2 font-mono text-[0.625rem] whitespace-nowrap text-ink-soft/80 italic">
+                <span lang="en" className="ml-2 font-mono text-[0.625rem] whitespace-nowrap text-ink-soft italic">
                   “{ru.k}”
                 </span>
               )}
@@ -331,7 +331,7 @@ export function ExplorerPage({ initial }: { initial: Record<string, string> }) {
   const rows = useMemo(() => (data ? data.filter((c) => matches(c, filters)) : []), [data, filters])
 
   const selectCls =
-    'rounded-sm border border-line bg-paper px-2 py-1.5 font-mono text-[0.75rem] text-ink focus:border-binding'
+    'min-h-11 rounded-sm border border-line bg-paper px-2 py-1.5 font-mono text-[0.75rem] text-ink focus:border-binding'
 
   return (
     <main className="mx-auto max-w-6xl px-5 py-14 md:px-8">

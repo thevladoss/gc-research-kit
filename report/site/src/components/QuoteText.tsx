@@ -32,7 +32,7 @@ export function QuoteText({
       <p className="font-display leading-relaxed text-ink-soft">
         «{ru}»
         {enKey && (
-          <span lang="en" className="ml-2 font-mono text-[0.6875rem] whitespace-nowrap text-ink-soft/80 italic">
+          <span lang="en" className="ml-2 font-mono text-[0.6875rem] whitespace-nowrap text-ink-soft italic">
             “{enKey}”
           </span>
         )}

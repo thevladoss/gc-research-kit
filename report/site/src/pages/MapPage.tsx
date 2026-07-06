@@ -56,7 +56,12 @@ function Bar({ ch, index, active, onActivate }: { ch: ChapterMap; index: number;
       aria-label={`${tp('mapPage.chapterOf', { n: ch.chapter })} — ${title}, ${total}`}
       onMouseEnter={onActivate}
       onFocus={onActivate}
-      style={{ outline: 'none' }}
+      onKeyDown={(e) => {
+        if (e.key === ' ') {
+          e.preventDefault()
+          ;(e.currentTarget as unknown as { click(): void }).click()
+        }
+      }}
     >
       {/* зона наведения на всю колонку */}
       <rect x={x - 3} y={4} width={PITCH} height={BASE_Y + 14} fill="transparent" />
@@ -123,9 +128,9 @@ function ChapterPanel({ ch }: { ch: ChapterMap }) {
   return (
     <div className="mt-6 border border-line bg-paper-deep px-6 py-5">
       <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
-        <h3 className="font-display text-xl text-ink">
+        <h2 className="font-display text-xl text-ink">
           {tp('mapPage.chapterOf', { n: ch.chapter })} · {t(`mapPage.chapterTitles.${ch.chapter}`)}
-        </h3>
+        </h2>
         <span className="font-mono text-[0.6875rem] text-ink-soft">
           {tp('mapPage.claimsCount', { n: fmtInt(ch.claims) })}
         </span>
@@ -169,11 +174,11 @@ export function MapPage() {
         <p className="measure mt-5 text-[1rem] leading-relaxed text-ink">{t('mapPage.intro')}</p>
       </Reveal>
       <Reveal>
+        <p className="sr-only">{t('mapPage.srSummary')}</p>
         <div className="mt-10 overflow-x-auto">
           <svg
             viewBox={`0 0 ${W} ${BASE_Y + 18}`}
             className="w-full min-w-[860px]"
-            role="list"
             aria-label={t('mapPage.h1')}
           >
             <defs>
