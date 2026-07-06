@@ -1,3 +1,4 @@
+import { ChevronDown, ChevronUp, CircleHelp, FileText, Frame, History, Ruler, Target } from 'lucide-react'
 import { useState } from 'react'
 import {
   Bar,
@@ -8,6 +9,7 @@ import {
   YAxis,
 } from 'recharts'
 import { DirectionBar } from '../components/DirectionBar'
+import { CornerVignette, SectionDivider } from '../components/Ornament'
 import { FiveStepScale } from '../components/FiveStepScale'
 import { QuoteText } from '../components/QuoteText'
 import { Reveal } from '../components/Reveal'
@@ -111,13 +113,26 @@ function ClaimScaleRow({ claim }: { claim: DossierClaim }) {
         <span className="flex flex-wrap gap-1.5">
           {claim.kind && (claim.asWritten === 'improbable' || claim.asWritten === 'discredited') && (
             <Chip color={`var(--color-v-${claim.kind === 'fact' ? 'improbable' : claim.kind === 'frame' ? 'anach' : 'conditional'}-ink)`}>
+              {claim.kind === 'fact' ? (
+                <FileText size={10} strokeWidth={1.75} aria-hidden="true" className="mr-1 inline-block align-[-1px]" />
+              ) : claim.kind === 'frame' ? (
+                <Frame size={10} strokeWidth={1.75} aria-hidden="true" className="mr-1 inline-block align-[-1px]" />
+              ) : (
+                <Target size={10} strokeWidth={1.75} aria-hidden="true" className="mr-1 inline-block align-[-1px]" />
+              )}
               {t(`dossiersPage.card.kind.${claim.kind}`)}
             </Chip>
           )}
           {claim.loadBearing && <Chip color="var(--color-binding)">{t('chainPage.item.loadBearing')}</Chip>}
           {claim.chainInherited && <Chip>{t('chainPage.item.inherited')}</Chip>}
-          {claim.period === 'period-scholarship' && <Chip>{t('chainPage.item.periodScholarship')}</Chip>}
-          {claim.period === 'expositor-tradition' && <Chip>{t('chainPage.item.expositorTradition')}</Chip>}
+          {claim.period === 'period-scholarship' && <Chip>
+              <History size={10} strokeWidth={1.75} aria-hidden="true" className="mr-1 inline-block align-[-1px]" />
+              {t('chainPage.item.periodScholarship')}
+            </Chip>}
+          {claim.period === 'expositor-tradition' && <Chip>
+              <History size={10} strokeWidth={1.75} aria-hidden="true" className="mr-1 inline-block align-[-1px]" />
+              {t('chainPage.item.expositorTradition')}
+            </Chip>}
           {claim.confidence && <Chip>{t(`dossiersPage.card.confidence.${claim.confidence}`)}</Chip>}
         </span>
       </div>
@@ -140,6 +155,8 @@ function DossierCardView({ d, index }: { d: TDossier; index: number }) {
   return (
     <Reveal delay={Math.min(index * 0.03, 0.15)}>
       <article className="relative overflow-hidden border border-line bg-paper-deep px-6 py-6 md:px-8">
+        <CornerVignette corner="tl" />
+        <CornerVignette corner="br" />
         {d.dossier === 'D01' && (
           <div
             aria-hidden="true"
@@ -154,8 +171,9 @@ function DossierCardView({ d, index }: { d: TDossier; index: number }) {
             {t('dossiersPage.card.chapters')} {d.chapters.join(', ')} · {countClaims(d.claims.length)}
           </span>
         </div>
-        <h3 className="mt-2 max-w-3xl font-display text-[1.35rem] leading-snug text-ink">
-          {t(`dossiersPage.questions.${d.dossier}`)}
+        <h3 className="mt-2 flex max-w-3xl items-start gap-2 font-display text-[1.35rem] leading-snug text-ink">
+          <CircleHelp size={18} strokeWidth={1.75} aria-hidden="true" className="mt-1.5 shrink-0 text-binding" />
+          <span>{t(`dossiersPage.questions.${d.dossier}`)}</span>
         </h3>
         <p className="mt-3 max-w-3xl text-[0.9375rem] leading-relaxed text-ink">{narrative}</p>
         <ul className="mt-5">
@@ -169,9 +187,17 @@ function DossierCardView({ d, index }: { d: TDossier; index: number }) {
             onClick={() => setExpanded(!expanded)}
             className="mt-3 cursor-pointer font-mono text-[0.6875rem] text-binding uppercase underline decoration-line underline-offset-4 hover:decoration-binding"
           >
-            {expanded
-              ? t('dossiersPage.card.collapse')
-              : `${t('dossiersPage.card.showAll')} (${d.claims.length})`}
+            {expanded ? (
+              <>
+                <ChevronUp size={12} strokeWidth={1.75} aria-hidden="true" className="mr-1 inline-block align-[-2px]" />
+                {t('dossiersPage.card.collapse')}
+              </>
+            ) : (
+              <>
+                <ChevronDown size={12} strokeWidth={1.75} aria-hidden="true" className="mr-1 inline-block align-[-2px]" />
+                {`${t('dossiersPage.card.showAll')} (${d.claims.length})`}
+              </>
+            )}
           </button>
         )}
       </article>
@@ -203,6 +229,7 @@ export function DossiersPage() {
       <Reveal>
         <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-2 border-y border-line py-3">
           <span className="font-mono text-[0.6875rem] text-ink uppercase">
+            <Ruler size={12} strokeWidth={1.75} aria-hidden="true" className="mr-1.5 inline-block align-[-2px]" />
             {t('dossiersPage.scale.title')}
           </span>
           <span className="font-mono text-[0.6875rem] text-ink-soft">
@@ -223,6 +250,9 @@ export function DossiersPage() {
         </div>
       </Reveal>
 
+      <div className="mt-10">
+        <SectionDivider />
+      </div>
       <div className="mt-8 space-y-6">
         {dossierCards.map((d, i) => (
           <DossierCardView key={d.dossier} d={d} index={i} />

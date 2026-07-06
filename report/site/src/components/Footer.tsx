@@ -1,3 +1,4 @@
+import { Code2, Database, Mail } from 'lucide-react'
 import { useI18n } from '../lib/i18n'
 import { href } from '../lib/router'
 
@@ -26,14 +27,17 @@ export function Footer() {
         </a>
         {sep}
         <a href={`${href.method}#data`} className={linkCls}>
+          <Database size={12} strokeWidth={1.75} aria-hidden="true" className="mr-1 inline-block align-[-1.5px]" />
           {t('footer.data')}
         </a>
         {sep}
         <a href={REPO} target="_blank" rel="noopener noreferrer" className={linkCls}>
+          <Code2 size={12} strokeWidth={1.75} aria-hidden="true" className="mr-1 inline-block align-[-1.5px]" />
           {t('footer.source')}
         </a>
         {sep}
         <button type="button" onClick={openMail} className={`cursor-pointer ${linkCls}`}>
+          <Mail size={12} strokeWidth={1.75} aria-hidden="true" className="mr-1 inline-block align-[-1.5px]" />
           {t('footer.contact')}
         </button>
         <span className="mt-1 block w-full text-[0.6875rem] leading-relaxed text-ink-soft">

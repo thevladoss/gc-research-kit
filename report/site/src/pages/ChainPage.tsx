@@ -2,6 +2,7 @@ import { Reveal } from '../components/Reveal'
 import { FiveStepScale } from '../components/FiveStepScale'
 import { QuoteText } from '../components/QuoteText'
 import { SubtractionPassage } from '../components/SubtractionPassage'
+import { SectionDivider } from '../components/Ornament'
 import { AssessmentChips } from '../components/ThesisChain'
 import { chainAssessment } from '../data/generated/chainAssessment'
 import { chainDetail, type ClaimBrief } from '../data/generated/chainDetail'
@@ -123,7 +124,7 @@ export function ChainPage({ link }: { link: number }) {
           </span>
           <AssessmentChips a={assessment} detail />
         </div>
-        <p className="measure mt-5 text-[1rem] leading-relaxed text-ink">
+        <p className="drop-cap measure mt-5 text-[1rem] leading-relaxed text-ink">
           {t(`chainPages.${link}.intro`)}
         </p>
       </Reveal>
@@ -154,8 +155,11 @@ export function ChainPage({ link }: { link: number }) {
       />
 
       {/* вычитание: что остаётся */}
+      <div className="mt-16">
+        <SectionDivider />
+      </div>
       <Reveal>
-        <section className="mt-16 border border-line bg-paper-deep px-6 py-8 md:px-10">
+        <section className="mt-8 border border-line bg-paper-deep px-6 py-8 md:px-10">
           <h2 className="font-display text-2xl text-ink">{t('chainPage.subtraction.heading')}</h2>
           <p className="measure mt-4 text-[0.9375rem] leading-relaxed text-ink">
             {t(`chainPages.${link}.after`)}

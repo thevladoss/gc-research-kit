@@ -1,12 +1,13 @@
+import { ChartColumn, FlaskConical, Gavel, Languages, Scale, Table2 } from 'lucide-react'
 import { useI18n } from '../lib/i18n'
 import { href, type Route } from '../lib/router'
 
 const items = [
-  { key: 'nav.home', to: href.home, page: 'home' },
-  { key: 'nav.dossiers', to: href.dossiers, page: 'dossiers' },
-  { key: 'nav.map', to: href.map, page: 'map' },
-  { key: 'nav.explorer', to: href.explorer, page: 'explorer' },
-  { key: 'nav.method', to: href.method, page: 'method' },
+  { key: 'nav.home', to: href.home, page: 'home', Icon: Scale },
+  { key: 'nav.dossiers', to: href.dossiers, page: 'dossiers', Icon: Gavel },
+  { key: 'nav.map', to: href.map, page: 'map', Icon: ChartColumn },
+  { key: 'nav.explorer', to: href.explorer, page: 'explorer', Icon: Table2 },
+  { key: 'nav.method', to: href.method, page: 'method', Icon: FlaskConical },
 ] as const
 
 export function Header({ route }: { route: Route }) {
@@ -34,6 +35,7 @@ export function Header({ route }: { route: Route }) {
                     : 'text-ink-soft hover:text-binding'
                 }`}
               >
+                <it.Icon size={13} strokeWidth={1.75} aria-hidden="true" className="mr-1.5 inline-block align-[-2px]" />
                 {t(it.key)}
               </a>
             )
@@ -45,6 +47,7 @@ export function Header({ route }: { route: Route }) {
           aria-label={t('lang.aria')}
           className="min-h-11 cursor-pointer rounded-sm border border-line px-3 py-1 font-mono text-[0.75rem] text-ink-soft uppercase hover:border-binding hover:text-binding"
         >
+          <Languages size={13} strokeWidth={1.75} aria-hidden="true" className="mr-1.5 inline-block align-[-2px]" />
           {t('lang.toggle')}
         </button>
       </div>

@@ -1,4 +1,5 @@
 import { CorpusField } from '../components/CorpusField'
+import { SectionDivider } from '../components/Ornament'
 import { Counter } from '../components/Counter'
 import { Reveal } from '../components/Reveal'
 import { ThesisChain } from '../components/ThesisChain'
@@ -68,7 +69,9 @@ function ChainSection() {
   const { t } = useI18n()
   return (
     <section className="border-t border-line bg-paper-warm">
-      <div className="mx-auto max-w-6xl px-5 py-16 md:px-8 md:py-20">
+      <div className="mx-auto max-w-6xl px-5 py-12 md:px-8 md:py-14">
+        <SectionDivider />
+        <div className="h-8" />
         <Reveal>
           <SectionHead eyebrow={t('home.chain.eyebrow')} h2={t('home.chain.h2')} />
           <p className="measure mt-4 text-[0.9375rem] leading-relaxed text-ink-soft">
@@ -90,7 +93,9 @@ function PipelineSection() {
   const steps = ['1', '2', '3', '4'] as const
   return (
     <section className="border-t border-line">
-      <div className="mx-auto max-w-6xl px-5 py-16 md:px-8 md:py-20">
+      <div className="mx-auto max-w-6xl px-5 py-12 md:px-8 md:py-14">
+        <SectionDivider />
+        <div className="h-8" />
         <Reveal>
           <SectionHead eyebrow={t('home.pipeline.eyebrow')} h2={t('home.pipeline.h2')} />
         </Reveal>
@@ -136,7 +141,9 @@ function FindingsSection() {
   const { t } = useI18n()
   return (
     <section className="border-t border-line bg-paper-warm">
-      <div className="mx-auto max-w-6xl px-5 py-16 md:px-8 md:py-20">
+      <div className="mx-auto max-w-6xl px-5 py-12 md:px-8 md:py-14">
+        <SectionDivider />
+        <div className="h-8" />
         <Reveal>
           <SectionHead eyebrow={t('home.findings.eyebrow')} h2={t('home.findings.h2')} />
         </Reveal>

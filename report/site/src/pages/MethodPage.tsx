@@ -1,4 +1,6 @@
+import { BookOpenCheck, Code2, Download, Mail, Scale, ScanText, Shield } from 'lucide-react'
 import { DirectionBar } from '../components/DirectionBar'
+import { LinkBullet } from '../components/Ornament'
 import { Reveal } from '../components/Reveal'
 import { dataMeta } from '../data/generated/meta'
 import { stats } from '../data/generated/stats'
@@ -25,16 +27,17 @@ function SectionHead({ id, eyebrow, h2 }: { id?: string; eyebrow: string; h2: st
 function PipelineTimeline() {
   const { t, tp, fmtInt } = useI18n()
   const steps = [
-    { key: '1', stat: tp('methodPage.pipeline.stat1', { n: fmtInt(stats.claims_total) }) },
-    { key: '2', stat: tp('methodPage.pipeline.stat2', { n: fmtInt(stats.checkable_total) }) },
+    { key: '1', Icon: ScanText, stat: tp('methodPage.pipeline.stat1', { n: fmtInt(stats.claims_total) }) },
+    { key: '2', Icon: BookOpenCheck, stat: tp('methodPage.pipeline.stat2', { n: fmtInt(stats.checkable_total) }) },
     {
       key: '3',
+      Icon: Shield,
       stat: tp('methodPage.pipeline.stat3', {
         full: stats.defense.full_reversals,
         down: stats.defense.downgrades,
       }),
     },
-    { key: '4', stat: tp('methodPage.pipeline.stat4', { n: stats.disputed_adjudicated }) },
+    { key: '4', Icon: Scale, stat: tp('methodPage.pipeline.stat4', { n: stats.disputed_adjudicated }) },
   ] as const
   return (
     <ol className="mt-8 space-y-0 border-l-2 border-brass pl-7">
@@ -47,7 +50,10 @@ function PipelineTimeline() {
             >
               {s.key}
             </span>
-            <h3 className="font-display text-xl text-ink">{t(`home.pipeline.steps.${s.key}.title`)}</h3>
+            <h3 className="font-display text-xl text-ink">
+              <s.Icon size={16} strokeWidth={1.75} aria-hidden="true" className="mr-2 inline-block align-[-2px] text-binding" />
+              {t(`home.pipeline.steps.${s.key}.title`)}
+            </h3>
             <p className="measure mt-1.5 text-[0.9075rem] leading-relaxed text-ink-soft">
               {t(`methodPage.pipeline.long${s.key}`)}
             </p>
@@ -151,7 +157,7 @@ export function MethodPage() {
           <ul className="mt-5 max-w-3xl space-y-2.5">
             {['1', '2', '3', '4', '5'].map((i) => (
               <li key={i} className="flex gap-3 text-[0.9075rem] leading-relaxed text-ink-soft">
-                <span aria-hidden="true" className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-brass" />
+                <LinkBullet />
                 {t(`methodPage.charter.rules.${i}`)}
               </li>
             ))}
@@ -175,7 +181,7 @@ export function MethodPage() {
           <ul className="mt-5 max-w-3xl space-y-2">
             {['1', '2', '3', '4'].map((i) => (
               <li key={i} className="flex gap-3 text-[0.875rem] leading-relaxed text-paper/80">
-                <span aria-hidden="true" className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full" style={{ background: '#cbbd96' }} />
+                <LinkBullet color="#cbbd96" />
                 {t(`methodPage.boundary.limits.${i}`)}
               </li>
             ))}
@@ -227,6 +233,7 @@ export function MethodPage() {
               download
               className="inline-block rounded-sm bg-binding px-5 py-2.5 font-mono text-[0.8125rem] tracking-wide text-paper uppercase no-underline hover:opacity-90"
             >
+              <Download size={14} strokeWidth={1.75} aria-hidden="true" className="mr-1.5 inline-block align-[-2px]" />
               {tp('methodPage.data.download', { size: zipMb })}
             </a>
             <a
@@ -235,6 +242,7 @@ export function MethodPage() {
               rel="noopener noreferrer"
               className="font-mono text-[0.8125rem] text-binding uppercase underline decoration-line underline-offset-4 hover:decoration-binding"
             >
+              <Code2 size={13} strokeWidth={1.75} aria-hidden="true" className="mr-1 inline-block align-[-2px]" />
               {t('methodPage.data.source')} ↗
             </a>
           </div>
@@ -254,6 +262,7 @@ export function MethodPage() {
             onClick={openMail}
             className="mt-5 cursor-pointer rounded-sm border border-line bg-paper-deep px-4 py-2 font-mono text-[0.75rem] tracking-wide text-ink uppercase hover:border-binding hover:text-binding"
           >
+            <Mail size={13} strokeWidth={1.75} aria-hidden="true" className="mr-1.5 inline-block align-[-2px]" />
             {t('methodPage.author.contact')}
           </button>
         </Reveal>

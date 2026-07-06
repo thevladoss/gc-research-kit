@@ -1,3 +1,4 @@
+import { ChevronRight, ExternalLink, RotateCcw, Search, SearchCheck } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 import { FiveStepScale } from '../components/FiveStepScale'
 import { QuoteText } from '../components/QuoteText'
@@ -102,6 +103,7 @@ function Sources({ list }: { list: SourceLink[] }) {
               className="text-binding underline decoration-line underline-offset-2 hover:decoration-binding"
             >
               {s.title}
+              <ExternalLink size={10} strokeWidth={1.75} aria-hidden="true" className="ml-1 inline-block align-[-1px]" />
             </a>
           ) : (
             <span className="text-ink-soft">{s.title}</span>
@@ -210,7 +212,10 @@ function Timeline({ c }: { c: FullClaim }) {
           )}
           {a.would_change_this && (
             <p className="mt-2 max-w-3xl text-[0.8125rem] leading-relaxed text-ink-soft">
-              <span className="font-mono text-[0.6875rem] text-ink uppercase">{t('explorerPage.wouldChange')}: </span>
+              <span className="font-mono text-[0.6875rem] text-ink uppercase">
+                <SearchCheck size={11} strokeWidth={1.75} aria-hidden="true" className="mr-1 inline-block align-[-1.5px]" />
+                {t('explorerPage.wouldChange')}:{' '}
+              </span>
               <span lang="en">{a.would_change_this}</span>
             </p>
           )}
@@ -255,7 +260,15 @@ function Row({ c, ru, expanded, onToggle }: { c: FullClaim; ru: { ru: string; k?
         aria-expanded={expanded}
         className="grid w-full cursor-pointer grid-cols-[7rem_1fr] items-baseline gap-x-4 gap-y-1 px-1 py-3 text-left hover:bg-paper-deep md:grid-cols-[7rem_11rem_1fr_auto]"
       >
-        <span className="font-mono text-[0.6875rem] text-ink-soft">{c.id}</span>
+        <span className="font-mono text-[0.6875rem] text-ink-soft">
+          <ChevronRight
+            size={12}
+            strokeWidth={1.75}
+            aria-hidden="true"
+            className={`mr-1 inline-block align-[-2px] transition-transform ${expanded ? 'rotate-90' : ''}`}
+          />
+          {c.id}
+        </span>
         <span className="hidden md:inline"><VerdictChip labelKey={labelKey} /></span>
         <span
           lang={locale === 'ru' && ru ? 'ru' : 'en'}
@@ -341,14 +354,22 @@ export function ExplorerPage({ initial }: { initial: Record<string, string> }) {
 
       {/* фильтры */}
       <div className="mt-8 flex flex-wrap items-center gap-2">
-        <input
-          type="search"
-          value={filters.q}
-          onChange={(e) => set({ q: e.target.value })}
-          placeholder={t('explorerPage.searchPlaceholder')}
-          aria-label={t('explorerPage.searchPlaceholder')}
-          className={`${selectCls} w-56`}
-        />
+        <span className="relative inline-block">
+          <Search
+            size={13}
+            strokeWidth={1.75}
+            aria-hidden="true"
+            className="pointer-events-none absolute top-1/2 left-2.5 -translate-y-1/2 text-ink-soft"
+          />
+          <input
+            type="search"
+            value={filters.q}
+            onChange={(e) => set({ q: e.target.value })}
+            placeholder={t('explorerPage.searchPlaceholder')}
+            aria-label={t('explorerPage.searchPlaceholder')}
+            className={`${selectCls} w-56 pl-8`}
+          />
+        </span>
         <select value={filters.ch} onChange={(e) => set({ ch: e.target.value })} className={selectCls} aria-label={t('explorerPage.fChapter')}>
           <option value="">{t('explorerPage.fChapter')}</option>
           {chapterMap.map((ch) => (
@@ -406,6 +427,7 @@ export function ExplorerPage({ initial }: { initial: Record<string, string> }) {
             onClick={() => set({ ...EMPTY })}
             className="cursor-pointer font-mono text-[0.75rem] text-binding uppercase underline decoration-line underline-offset-4"
           >
+            <RotateCcw size={12} strokeWidth={1.75} aria-hidden="true" className="mr-1 inline-block align-[-2px]" />
             {t('explorerPage.reset')}
           </button>
         )}

@@ -1,3 +1,4 @@
+import { BookOpen } from 'lucide-react'
 import { useState } from 'react'
 import { useI18n } from '../lib/i18n'
 
@@ -43,6 +44,7 @@ export function QuoteText({
         aria-expanded={showOriginal}
         className="mt-1 cursor-pointer font-mono text-[0.625rem] tracking-wide text-ink-soft uppercase underline decoration-line underline-offset-2 hover:text-binding"
       >
+        <BookOpen size={11} strokeWidth={1.75} aria-hidden="true" className="mr-1 inline-block align-[-1.5px]" />
         {showOriginal ? t('quotes.hideOriginal') : t('quotes.showOriginal')}
       </button>
       {showOriginal && (
