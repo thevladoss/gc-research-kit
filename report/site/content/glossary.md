@@ -55,7 +55,7 @@ downloadable dataset.
 | out-of-scope → conditional premise | держится на посылке, которую история не проверяет | rests on a premise history cannot test |
 | ruling as written | оценка формулировки, как она напечатана в книге | how the sentence fares exactly as printed |
 | ruling weakened / weakened version | оценка осторожной версии: то же утверждение без «все», «никогда», «единственно» | how a careful version fares: the same claim without "all", "never", "only" |
-| framing gap | разрыв между формулировкой и сутью: напечатанное пало, осторожная версия выстояла | the gap between wording and substance: the printed absolute fails, the careful version stands |
+| framing gap | разрыв между формулировкой и сутью: напечатанный текст не выдержал, осторожная версия подтверждена | the gap between wording and substance: the printed absolute does not hold up, the careful version is confirmed |
 | quantifier audit | проверка слов «все», «никогда», «ни один», «единственный» | an audit of the words "all", "never", "not one", "only" |
 | minority engagement | разбор сильнейшего довода противоположной стороны | engaging the strongest opposing argument |
 | would_change_this | какая находка изменила бы этот вывод | what discovery would change this conclusion |
@@ -89,3 +89,19 @@ downloadable dataset.
   «гл. 18, утв. 60» с раскрытием полного ID в деталях; в таблице и датасете — полный ID.
 - Приёмочный тест: каждую страницу можно прочитать вслух человеку, никогда не слышавшему
   о проекте; если фраза требует глоссария — переписать фразу.
+
+## Градация формулировок / Wording gradation
+
+Сила глагола обязана соответствовать силе решения; батальные метафоры запрещены.
+
+| Решение | Допустимая формулировка | Plain English |
+|---|---|---|
+| discredited / contradicted | «опровергнуто источниками», «опровергнуто документами» | "refuted by the sources/documents" |
+| improbable | «скорее неверно», «маловероятно в напечатанном виде» | "more likely false", "improbable as printed" |
+| любой обвинительный итог (зонт) | «не подтвердилось», «не выдержало проверки» | "did not hold up" |
+| разрушение конструкции | «разрушена» — ТОЛЬКО там, где данные это заслужили (историческая конструкция звена 2: тысячелетний разрыв) | "dismantled", only where the data earned it |
+
+Запрещены: «пало», «рухнул», «выжил», «устоял» и прочая батальная лексика.
+Исключение: спокойное «Что выстояло» в заголовках секций допустимо.
+Banned: "fell", "collapsed", "survived", battlefield metaphors in general;
+the calm "What stood" in section headers is the one allowed exception.

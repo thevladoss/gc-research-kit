@@ -1,14 +1,15 @@
 import { motion, useReducedMotion } from 'framer-motion'
 import { useState } from 'react'
-import { thesisChain, type ChainLink } from '../data/generated/chain'
-import { chainStatusStyle } from '../lib/chainStatus'
+import { thesisChain } from '../data/generated/chain'
+import { chainAssessment, type ChainAssessment } from '../data/generated/chainAssessment'
+import { basisStyle, voiceStyle } from '../lib/chainStatus'
 import { useI18n } from '../lib/i18n'
 import { href } from '../lib/router'
 
 /**
  * Подпись сайта: несущая цепь книги — 7 кованых звеньев.
- * Статус звена кодируется цветом И характером штриха (разлом, пунктир, точки),
- * чтобы цвет не оставался единственным каналом.
+ * Цвет и характер контура кодируют состояние исторической основы,
+ * черта под звеном — подачу; цвет нигде не остаётся единственным каналом.
  */
 
 const LINK_W = 170
@@ -18,8 +19,11 @@ const PAD = 6
 const W = PAD * 2 + STRIDE * 6 + LINK_W
 const CY = 62
 
-function strokeProps(kind: 'solid' | 'fractured' | 'dashed' | 'dotted', seed: number) {
+function strokeProps(kind: 'solid' | 'nicked' | 'fractured' | 'dashed' | 'dotted', seed: number) {
   switch (kind) {
+    case 'nicked':
+      // один короткий разрыв — «цела, с одним несущим исключением»
+      return { strokeDasharray: '63 4 33 0', strokeDashoffset: 18 }
     case 'fractured':
       // два разлома в контуре; сдвиг по индексу, чтобы разломы не совпадали
       return {
@@ -45,40 +49,67 @@ function stadiumRect(x: number) {
   }
 }
 
-function StatusChip({ status }: { status: ChainLink['status'] }) {
+export function AssessmentChips({ a, detail }: { a: ChainAssessment; detail?: boolean }) {
   const { t } = useI18n()
-  const s = chainStatusStyle[status]
+  const b = basisStyle[a.basis]
   return (
-    <span
-      className="inline-flex items-center gap-1.5 font-mono text-[0.6875rem] tracking-wide uppercase"
-      style={{ color: s.ink }}
-    >
+    <span className="inline-flex flex-wrap items-center gap-x-4 gap-y-1">
       <span
-        aria-hidden="true"
-        className={`inline-block h-2.5 w-2.5 rounded-full ${status === 'вне проверки' ? 'hatch-unverifiable' : ''}`}
-        style={status === 'вне проверки' ? undefined : { background: s.fill }}
-      />
-      {t(`chainStatus.${status}`)}
+        className="inline-flex items-center gap-1.5 font-mono text-[0.6875rem] tracking-wide uppercase"
+        style={{ color: b.ink }}
+      >
+        <span
+          aria-hidden="true"
+          className={`inline-block h-2.5 w-2.5 rounded-full ${a.basis === 'outside' ? 'hatch-unverifiable' : ''}`}
+          style={
+            a.basis === 'outside'
+              ? undefined
+              : a.basis === 'mixed'
+                ? { background: `linear-gradient(90deg, ${b.fill} 50%, ${b.mixedWith} 50%)` }
+                : { background: b.fill }
+          }
+        />
+        {t('chainAssess.basisLabel')}: {t(`chainAssess.basis.${a.basis}`)}
+      </span>
+      {a.voice && (
+        <span
+          className="inline-flex items-center gap-1.5 font-mono text-[0.6875rem] tracking-wide uppercase"
+          style={{ color: voiceStyle[a.voice].ink }}
+        >
+          <span
+            aria-hidden="true"
+            className="inline-block h-[3px] w-4"
+            style={{ background: voiceStyle[a.voice].fill }}
+          />
+          {t('chainAssess.voiceLabel')}: {t(`chainAssess.voice.${a.voice}`)}
+        </span>
+      )}
+      {detail && a.basis === 'mixed' && (
+        <span className="font-mono text-[0.6875rem] text-ink-soft">
+          {t('chainAssess.mixedDetail6')}
+        </span>
+      )}
     </span>
   )
 }
 
 function LinkShape({
-  link,
   index,
   active,
   onActivate,
 }: {
-  link: ChainLink
   index: number
   active: boolean
   onActivate: () => void
 }) {
   const { t } = useI18n()
   const reduced = useReducedMotion()
-  const s = chainStatusStyle[link.status]
+  const link = thesisChain[index]
+  const a = chainAssessment[index]
+  const b = basisStyle[a.basis]
   const rect = stadiumRect(PAD + index * STRIDE)
-  const label = `${t(`home.chain.links.${link.link}.title`)} — ${t(`chainStatus.${link.status}`)}`
+  const strokeColor = a.basis === 'mixed' ? `url(#mixed-${link.link})` : b.fill
+  const label = `${t(`home.chain.links.${link.link}.title`)} — ${t('chainAssess.basisLabel')}: ${t(`chainAssess.basis.${a.basis}`)}${a.voice ? `; ${t('chainAssess.voiceLabel')}: ${t(`chainAssess.voice.${a.voice}`)}` : ''}`
   return (
     <a
       href={href.chain(link.link)}
@@ -93,23 +124,42 @@ function LinkShape({
         transition={{ duration: 0.25, ease: 'easeOut' }}
       >
         {/* невидимая зона наведения по всему звену */}
-        <rect {...rect} fill="transparent" stroke="none" />
+        <rect {...rect} y={rect.y - 8} height={rect.height + 26} fill="transparent" stroke="none" />
+        {a.basis === 'mixed' && (
+          <defs>
+            <linearGradient id={`mixed-${link.link}`} x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0.5" stopColor={b.fill} />
+              <stop offset="0.5" stopColor={b.mixedWith} />
+            </linearGradient>
+          </defs>
+        )}
         <rect
           {...rect}
           fill="none"
-          stroke={s.fill}
+          stroke={strokeColor}
           strokeWidth={active ? 12 : 10}
           pathLength={100}
           filter="url(#chain-shadow)"
-          {...strokeProps(s.stroke, index)}
+          {...strokeProps(b.stroke, index)}
         />
+        {/* черта подачи под звеном */}
+        {a.voice && (
+          <rect
+            x={rect.x + LINK_W / 2 - 14}
+            y={rect.y + rect.height + 9}
+            width={28}
+            height={3.5}
+            rx={1.75}
+            fill={voiceStyle[a.voice].fill}
+          />
+        )}
         <text
           x={rect.x + LINK_W / 2}
           y={CY + 7}
           textAnchor="middle"
           fontFamily="var(--font-display)"
           fontSize={26}
-          fill={s.ink}
+          fill={b.ink}
         >
           {link.link}
         </text>
@@ -123,14 +173,11 @@ function ChainWide() {
   const { t } = useI18n()
   const [active, setActive] = useState<number>(3) // по умолчанию — звено 4 (1844): точка перелома книги
   const link = thesisChain[active]
+  const a = chainAssessment[active]
   return (
     <div className="hidden md:block">
-      <svg
-        viewBox={`0 0 ${W} 124`}
-        className="w-full"
-        role="list"
-        aria-label={t('home.chain.h2')}
-      >
+      <div className="mb-2 font-mono text-[0.6875rem] text-ink-soft">{t('chainAssess.svgLegend')}</div>
+      <svg viewBox={`0 0 ${W} 132`} className="w-full" role="list" aria-label={t('home.chain.h2')}>
         <defs>
           <filter id="chain-shadow" x="-20%" y="-20%" width="140%" height="140%">
             <feDropShadow dx="0" dy="1.4" stdDeviation="1.2" floodColor="#262a22" floodOpacity="0.22" />
@@ -139,12 +186,12 @@ function ChainWide() {
         {/* чётные под, нечётные над — эффект переплетения */}
         {thesisChain.map((l, i) =>
           i % 2 === 0 ? (
-            <LinkShape key={l.link} link={l} index={i} active={active === i} onActivate={() => setActive(i)} />
+            <LinkShape key={l.link} index={i} active={active === i} onActivate={() => setActive(i)} />
           ) : null,
         )}
         {thesisChain.map((l, i) =>
           i % 2 === 1 ? (
-            <LinkShape key={l.link} link={l} index={i} active={active === i} onActivate={() => setActive(i)} />
+            <LinkShape key={l.link} index={i} active={active === i} onActivate={() => setActive(i)} />
           ) : null,
         )}
       </svg>
@@ -174,7 +221,7 @@ function ChainWide() {
           <span className="font-mono text-[0.6875rem] text-ink-soft">
             {t(`home.chain.links.${link.link}.chapters`)}
           </span>
-          <StatusChip status={link.status} />
+          <AssessmentChips a={a} detail />
         </div>
         <p className="measure mt-2 text-[0.9375rem] leading-relaxed text-ink-soft">
           {t(`home.chain.plain.${link.link}`)}
@@ -197,23 +244,33 @@ function ChainNarrow() {
   return (
     <ol className="md:hidden">
       {thesisChain.map((l, i) => {
-        const s = chainStatusStyle[l.status]
+        const a = chainAssessment[i]
+        const b = basisStyle[a.basis]
         const rect = { x: 10, y: 4, width: 56, height: 118, rx: 28 }
+        const strokeColor = a.basis === 'mixed' ? `url(#mixed-m-${l.link})` : b.fill
         return (
           <li key={l.link} className={i === 0 ? '' : '-mt-7'}>
             <a
               href={href.chain(l.link)}
               className="flex items-stretch gap-4 no-underline"
-              aria-label={`${t(`home.chain.links.${l.link}.title`)} — ${t(`chainStatus.${l.status}`)}`}
+              aria-label={`${t(`home.chain.links.${l.link}.title`)} — ${t(`chainAssess.basis.${a.basis}`)}`}
             >
               <svg viewBox="0 0 76 126" className="w-16 shrink-0" aria-hidden="true">
+                {a.basis === 'mixed' && (
+                  <defs>
+                    <linearGradient id={`mixed-m-${l.link}`} x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0.5" stopColor={b.fill} />
+                      <stop offset="0.5" stopColor={b.mixedWith} />
+                    </linearGradient>
+                  </defs>
+                )}
                 <rect
                   {...rect}
                   fill="none"
-                  stroke={s.fill}
+                  stroke={strokeColor}
                   strokeWidth={9}
                   pathLength={100}
-                  {...strokeProps(s.stroke, i)}
+                  {...strokeProps(b.stroke, i)}
                 />
                 <text
                   x={38}
@@ -221,7 +278,7 @@ function ChainNarrow() {
                   textAnchor="middle"
                   fontFamily="var(--font-display)"
                   fontSize={24}
-                  fill={s.ink}
+                  fill={b.ink}
                 >
                   {l.link}
                 </text>
@@ -236,7 +293,7 @@ function ChainNarrow() {
                   </span>
                 </div>
                 <div className="mt-1">
-                  <StatusChip status={l.status} />
+                  <AssessmentChips a={a} />
                 </div>
                 <p className="mt-1.5 text-[0.875rem] leading-relaxed text-ink-soft">
                   {t(`home.chain.plain.${l.link}`)}

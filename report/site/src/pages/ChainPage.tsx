@@ -1,31 +1,14 @@
 import { Reveal } from '../components/Reveal'
 import { FiveStepScale } from '../components/FiveStepScale'
 import { SubtractionPassage } from '../components/SubtractionPassage'
+import { AssessmentChips } from '../components/ThesisChain'
+import { chainAssessment } from '../data/generated/chainAssessment'
 import { chainDetail, type ClaimBrief } from '../data/generated/chainDetail'
 import { chainPassages } from '../data/generated/chainPassages'
 import { thesisChain } from '../data/generated/chain'
-import { chainStatusStyle } from '../lib/chainStatus'
 import { useI18n } from '../lib/i18n'
 import { href } from '../lib/router'
 import { labelKeyColor, outcomeStyle } from '../lib/verdicts'
-
-function StatusChip({ status }: { status: (typeof thesisChain)[number]['status'] }) {
-  const { t } = useI18n()
-  const s = chainStatusStyle[status]
-  return (
-    <span
-      className="inline-flex items-center gap-1.5 font-mono text-[0.6875rem] tracking-wide uppercase"
-      style={{ color: s.ink }}
-    >
-      <span
-        aria-hidden="true"
-        className={`inline-block h-2.5 w-2.5 rounded-full ${status === 'вне проверки' ? 'hatch-unverifiable' : ''}`}
-        style={status === 'вне проверки' ? undefined : { background: s.fill }}
-      />
-      {t(`chainStatus.${status}`)}
-    </span>
-  )
-}
 
 function Chip({ children, color }: { children: React.ReactNode; color?: string }) {
   return (
@@ -107,16 +90,24 @@ function Group({
 }
 
 export function ChainPage({ link }: { link: number }) {
-  const { t, tp, locale } = useI18n()
-  const meta = thesisChain[link - 1]
+  const { t, tp } = useI18n()
+  const assessment = chainAssessment[link - 1]
   const detail = chainDetail[link - 1]
   const passage = chainPassages.find((p) => p.link === link)!
   const prev = link > 1 ? thesisChain[link - 2] : null
   const next = link < 7 ? thesisChain[link] : null
 
   return (
-    <main className="mx-auto max-w-6xl px-5 py-14 md:px-8">
+    <main>
       {/* шапка звена */}
+      <section className="relative overflow-hidden">
+        <div
+          aria-hidden="true"
+          className="decor-numeral top-[-0.08em] right-[2%] hidden text-[22rem] lg:block"
+        >
+          {link}
+        </div>
+        <div className="relative mx-auto max-w-6xl px-5 pt-14 pb-10 md:px-8">
       <Reveal>
         <div className="eyebrow">{tp('chainPage.eyebrow', { n: link })}</div>
         <div className="mt-3 flex flex-wrap items-baseline gap-x-4 gap-y-2">
@@ -126,33 +117,28 @@ export function ChainPage({ link }: { link: number }) {
           <span className="font-mono text-[0.75rem] text-ink-soft">
             {t(`home.chain.links.${link}.chapters`)}
           </span>
-          <StatusChip status={meta.status} />
+          <AssessmentChips a={assessment} detail />
         </div>
         <p className="measure mt-5 text-[1rem] leading-relaxed text-ink">
           {t(`chainPages.${link}.intro`)}
         </p>
       </Reveal>
+        </div>
+      </section>
 
       {/* что утверждает книга: пассаж с режимом вычитания */}
-      <Reveal>
-        <section className="mt-14">
-          <h2 className="font-display text-2xl text-ink">{t('chainPage.passage.heading')}</h2>
-          <div className="mt-5">
-            <SubtractionPassage passage={passage} />
-          </div>
-          {locale === 'ru' && (
-            <details className="mt-4 max-w-3xl">
-              <summary className="cursor-pointer font-mono text-[0.75rem] text-binding uppercase underline decoration-line underline-offset-4">
-                {t('chainPage.passage.renderingSummary')}
-              </summary>
-              <p className="mt-3 border-l-2 border-line pl-5 text-[0.9375rem] leading-relaxed text-ink-soft">
-                {t(`chainPages.${link}.rendering`)}
-              </p>
-            </details>
-          )}
-        </section>
-      </Reveal>
+      <section className="border-y border-line bg-paper-warm">
+        <div className="mx-auto max-w-6xl px-5 py-12 md:px-8">
+          <Reveal>
+            <h2 className="font-display text-2xl text-ink">{t('chainPage.passage.heading')}</h2>
+            <div className="mt-5">
+              <SubtractionPassage passage={passage} />
+            </div>
+          </Reveal>
+        </div>
+      </section>
 
+      <div className="mx-auto max-w-6xl px-5 pb-14 md:px-8">
       {/* группы утверждений */}
       <Group titleKey="chainPage.groups.stands" claims={detail.stands} accent={outcomeStyle.stands.fill} />
       <Group titleKey="chainPage.groups.fallen" claims={detail.fallen} accent={outcomeStyle.fallen.fill} />
@@ -219,6 +205,7 @@ export function ChainPage({ link }: { link: number }) {
           <span />
         )}
       </nav>
+      </div>
     </main>
   )
 }

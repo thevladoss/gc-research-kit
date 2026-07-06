@@ -2,6 +2,7 @@
 
 @theme {
   --color-paper: #f2f1e8;
+  --color-paper-warm: #eeecdd;
   --color-paper-deep: #e9e7da;
   --color-line: #d8d4c4;
   --color-ink: #262a22;
@@ -46,6 +47,17 @@ body {
   font-feature-settings: 'kern';
 }
 
+/* Зерно бумаги: едва заметный шум поверх всего сайта — чувствуется, не видится */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.026;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
 ::selection {
   background: color-mix(in oklab, var(--color-binding) 22%, var(--color-paper));
 }
@@ -63,6 +75,14 @@ body {
 
 @utility measure {
   max-width: 42rem;
+}
+
+/* Фоновая декоративная цифра из дисплейной антиквы */
+@utility decor-numeral {
+  @apply pointer-events-none absolute font-display select-none;
+  color: var(--color-ink);
+  opacity: 0.05;
+  line-height: 1;
 }
 
 /* Штриховка для категории «вне проверки» */

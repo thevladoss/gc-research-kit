@@ -1,6 +1,7 @@
 import { motion, useReducedMotion } from 'framer-motion'
-import { useState } from 'react'
-import type { ChainPassage } from '../data/generated/chainPassages'
+import { useMemo, useState } from 'react'
+import ruPassagesRaw from '../../content/passages.ru.json'
+import type { ChainPassage, PassageSegment } from '../data/generated/chainPassages'
 import { useI18n } from '../lib/i18n'
 import { outcomeStyle, type Outcome } from '../lib/verdicts'
 
@@ -10,6 +11,15 @@ const outcomeLabelKey: Record<Exclude<Outcome, 'none'>, string> = {
   open: 'chainPage.legend.open',
   conditional: 'chainPage.legend.conditional',
   outside: 'chainPage.legend.outside',
+}
+
+interface RuSegment {
+  text: string
+  id?: string
+}
+const ruPassages = ruPassagesRaw as unknown as {
+  attribution: string
+  passages: Record<string, RuSegment[][]>
 }
 
 function spanStyle(outcome: Exclude<Outcome, 'none'>): React.CSSProperties {
@@ -64,12 +74,43 @@ export function PassageLegend() {
 
 /**
  * Подпись страниц цепи: отрывок книги, где каждое проверенное утверждение
- * подсвечено итогом, а переключатель плавно гасит то, что не выдержало проверки.
+ * подсвечено итогом, а переключатель плавно гасит не выдержавшее проверки.
+ * В RU-локали отрывок даётся по официальному русскому переводу (с атрибуцией),
+ * разметка исходов та же — по номерам записей.
  */
 export function SubtractionPassage({ passage }: { passage: ChainPassage }) {
-  const { t, tp } = useI18n()
+  const { t, tp, locale } = useI18n()
   const reduced = useReducedMotion()
   const [subtracted, setSubtracted] = useState(false)
+
+  // итог проверки по номеру записи — из сгенерированной разметки оригинала
+  const outcomeById = useMemo(() => {
+    const m = new Map<string, Exclude<Outcome, 'none'>>()
+    for (const p of passage.paras)
+      for (const s of p.segments)
+        if (s.id && s.outcome && s.outcome !== 'none') m.set(s.id, s.outcome)
+    return m
+  }, [passage])
+
+  const ruParas = locale === 'ru' ? ruPassages.passages[String(passage.link)] : undefined
+
+  const renderSegments = (segments: readonly (PassageSegment | RuSegment)[]) =>
+    segments.map((seg, i) => {
+      const outcome = seg.id ? outcomeById.get(seg.id) : undefined
+      if (!outcome) return <span key={i}>{seg.text}</span>
+      const faded = subtracted && outcome === 'fallen'
+      return (
+        <motion.span
+          key={i}
+          title={`${seg.id} — ${t(outcomeLabelKey[outcome])}`}
+          style={spanStyle(outcome)}
+          animate={{ opacity: faded ? 0.16 : 1 }}
+          transition={reduced ? { duration: 0 } : { duration: 0.7, ease: 'easeInOut' }}
+        >
+          {seg.text}
+        </motion.span>
+      )
+    })
 
   return (
     <figure>
@@ -85,34 +126,27 @@ export function SubtractionPassage({ passage }: { passage: ChainPassage }) {
         </button>
       </div>
       <blockquote
-        lang="en"
+        lang={ruParas ? 'ru' : 'en'}
         className="mt-5 border-l-2 border-brass pl-5 font-display text-[1.075rem] leading-[1.75] text-ink"
       >
-        {passage.paras.map((p) => (
-          <p key={p.paragraph} className="mt-4 first:mt-0">
-            {p.segments.map((seg, i) => {
-              if (!seg.outcome || seg.outcome === 'none') return <span key={i}>{seg.text}</span>
-              const faded = subtracted && seg.outcome === 'fallen'
-              return (
-                <motion.span
-                  key={i}
-                  title={`${seg.id} — ${t(outcomeLabelKey[seg.outcome])}`}
-                  style={spanStyle(seg.outcome)}
-                  animate={{ opacity: faded ? 0.16 : 1 }}
-                  transition={reduced ? { duration: 0 } : { duration: 0.7, ease: 'easeInOut' }}
-                >
-                  {seg.text}
-                </motion.span>
-              )
-            })}
-          </p>
-        ))}
+        {ruParas
+          ? ruParas.map((segments, i) => (
+              <p key={i} className="mt-4 first:mt-0">
+                {renderSegments(segments)}
+              </p>
+            ))
+          : passage.paras.map((p) => (
+              <p key={p.paragraph} className="mt-4 first:mt-0">
+                {renderSegments(p.segments)}
+              </p>
+            ))}
       </blockquote>
-      <figcaption className="mt-3 font-mono text-[0.6875rem] text-ink-soft">
+      <figcaption className="mt-3 max-w-3xl font-mono text-[0.6875rem] leading-relaxed text-ink-soft">
         {tp('chainPage.passage.note', {
           ch: passage.chapter,
           p: passage.paras.map((x) => x.paragraph).join(', '),
         })}
+        {ruParas && <span className="mt-1 block">{ruPassages.attribution}</span>}
       </figcaption>
     </figure>
   )

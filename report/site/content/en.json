@@ -26,12 +26,6 @@
     "conditional": "rests on an untestable premise",
     "unverifiable": "beyond historical checking"
   },
-  "chainStatus": {
-    "цело": "intact",
-    "повреждено": "damaged",
-    "условная посылка": "rests on an untestable premise",
-    "вне проверки": "beyond historical checking"
-  },
   "home": {
     "eyebrow": "A historical audit · the 1911 edition",
     "h1": "What is left of “The Great Controversy” once you check every fact in it?",
@@ -80,12 +74,12 @@
         }
       },
       "plain": {
-        "1": "The loud “all” and “not one” fell, but the story itself (persecution, the influx of nominal converts, the community's flight from the city) stands: partly confirmed, partly honestly open.",
-        "2": "The antiquity of the “faithful remnant” and its Sabbath did not hold up; the reality of hidden communities, memorized Scripture, and persecution did.",
-        "3": "The account of Luther, Hus, and Wycliffe survived whole; only the legends added by later biographers failed the audit.",
-        "4": "The date calculation fell as printed, yet the movement's arithmetic is honest for what its era knew, and the movement's own history is told accurately.",
-        "5": "The entire link rests on an interpretation of prophecy — a premise a historian can neither confirm nor refute.",
-        "6": "Sunday's origin “from Rome” did not hold up; Rome's real role in suppressing the Sabbath did.",
+        "1": "The historical base is intact (the persecution, the sign, the window to leave the city), with one load-bearing exception: “not one Christian perished” has no ancient support. The chapter's categorical wording did not hold up.",
+        "2": "The historical construction is dismantled: the “remnant's” antiquity and its Sabbath find no support, with a millennium-wide gap. The reality of hidden communities, memorized Scripture, and persecution is confirmed.",
+        "3": "The base is intact and the presentation accurate: the account of Luther, Hus, and Wycliffe is confirmed; only scenes added by later biographers did not hold up, and they carry no weight.",
+        "4": "The base rests on contested ground: the calculation's anchor itself is contested, and the claim “beyond question” is refuted by the sources. The movement's arithmetic and its history are told honestly for what its era knew.",
+        "5": "The entire link rests on an interpretation of prophecy, a premise a historian can neither confirm nor refute.",
+        "6": "The base is mixed: an unbroken Sabbath through the centuries is dismantled, Sunday's origin is a live scholarly dispute; Rome's documented role in suppressing the Sabbath is confirmed, and the presentation is overstated.",
         "7": "Almost entirely about the future and faith: history has nothing to check here, and the link's force depends on the ones before it."
       }
     },
@@ -137,7 +131,7 @@
           "link": "The “Remnant and Waldenses” link"
         },
         "absolutes": {
-          "title": "The absolutes fell, the era's substance survived",
+          "title": "The absolutes did not hold up; the era's substance did",
           "text": "Of the 81 statements that failed the review, 73 recover once the words “all”, “never”, “only” are removed. The book's rhetoric failed the audit more often than its facts.",
           "link": "All 23 reviews"
         },
@@ -176,8 +170,7 @@
       "heading": "What the book claims: one passage up close",
       "note": "A passage from chapter {ch} (paragraph {p}) of the 1911 edition — one telling example, not the whole chapter: claims that stood and claims that fell sit side by side in it. The link's full picture is in the lists below; hover over a highlight to see the record number.",
       "toggleRemove": "Remove what failed the audit",
-      "toggleRestore": "Restore the full text",
-      "renderingSummary": "Russian rendering of the passage"
+      "toggleRestore": "Restore the full text"
     },
     "legend": {
       "stands": "confirmed",
@@ -188,7 +181,7 @@
     },
     "groups": {
       "stands": "What stood",
-      "fallen": "What fell",
+      "fallen": "What did not hold up",
       "open": "Where scholars honestly disagree",
       "conditional": "What rests on an untestable premise"
     },
@@ -203,7 +196,7 @@
       "heading": "Remove what failed: what remains",
       "formulaAHead": "The first honest formula",
       "formulaBHead": "The second honest formula",
-      "formulaA": "Not one checkable link of the book's doctrinal chain stood in the form in which it is printed.",
+      "formulaA": "Not one checkable link of the book's doctrinal chain held up in the form in which it is printed.",
       "formulaB": "Nowhere is the doctrinal chain refuted in its careful, internally consistent form; and at its base lies a premise a historian can neither confirm nor refute.",
       "outro": "Both formulas are true at once: that is the result of the subtraction analysis across all the audit's data. The data does not decide for the reader which one to stress."
     },
@@ -216,37 +209,30 @@
   "chainPages": {
     "1": {
       "intro": "The book opens with the fall of Jerusalem in AD 70: the city that rejected the warning lost everything, while the Christians who heeded it were saved to the last one. The audit split this account in two. The story itself, the siege, the Romans' sudden withdrawal, the window for escape, stands: partly confirmed, partly honestly open. The absolute “not one perished” turned out to be no ancient testimony but an argument of early-modern commentators.",
-      "rendering": "Not one Christian perished in the destruction of Jerusalem. Christ had warned His disciples, and those who believed watched for the promised sign. When the Romans under Cestius surrounded the city and then, without apparent reason, abandoned the siege, the waiting Christians received their sign and their chance. Events so fell out that neither Jews nor Romans hindered the flight, and the Christians fled without delay to a place of safety: the city of Pella beyond Jordan.",
       "after": "Take away the absolute and the chapter barely changes: the persecution, the sign, the window for escape, and the tradition of the community's departure all stay in place. Only “not one” becomes “apparently most,” and the flight to Pella itself becomes a question scholars have debated since 1951."
     },
     "2": {
       "intro": "The Waldenses chapter is the book's most damaged place: its whole history of a faithful minority rests on the “faithful remnant's” apostolic antiquity and its Sabbath. The audit separated legend from reality. The secret preachers, the years of memorizing Scripture, the persecution and endurance are documented. The apostolic antiquity, the Sabbath, and the proto-Protestant faith are an inheritance of 19th-century romantic historiography.",
-      "rendering": "Foremost among those who resisted the papal power stood the Waldenses: in Italy itself the churches of Piedmont kept their independence for centuries, until Rome demanded submission. Some yielded; those who refused separated, some carrying “the banner of truth” to foreign lands, others withdrawing to secluded mountain valleys where they preserved their freedom of worship. Their faith, the book writes, was not newly received: it was their inheritance from their fathers, the faith of the apostolic church “once delivered unto the saints,” and the true church of Christ was “the church in the wilderness,” not the proud hierarchy enthroned in the world's great capital.",
       "after": "After subtraction the chapter tells a documented story of medieval biblical dissent, persecuted, steadfast, and surviving, but born in the 12th century. The specifically Sabbath-keeping genealogy of the “remnant,” the one the doctrinal chapters rely on, does not recover."
     },
     "3": {
-      "intro": "The only link with no damage to anything its argument rests on. The account of Wycliffe, Hus, and Luther passed the audit in its factual core; only the ornament fell, scenes added by later biographers, and absolutes like “without the slightest foundation.” Two initial conclusions were reversed in the book's favor on review. This link's soundness is as much a first-class result of the audit as its neighbors' damage.",
-      "rendering": "A papal decretal promised an indulgence to all who would climb “Pilate's staircase” on their knees, the stairs the Saviour was said to have descended, miraculously conveyed from Jerusalem to Rome. Luther was devoutly climbing these steps when a voice like thunder seemed to say, “The just shall live by faith.” He sprang to his feet and fled the place in shame and horror; from that time he saw more clearly the folly of trusting in works and the necessity of faith in Christ's merits. The audit: Luther's climbing of the Scala Santa is documented; the “voice like thunder” is a late family tradition dramatized by a biographer, and the staircase awakening itself remains an open question.",
+      "intro": "The only link with no damage to anything its argument rests on. The account of Wycliffe, Hus, and Luther passed the audit in its factual core; only the ornament did not hold up: scenes added by later biographers, and absolutes like “without the slightest foundation.” Two initial conclusions were reversed in the book's favor on review. This link's soundness is as much a first-class result of the audit as its neighbors' damage.",
       "after": "There is almost nothing to subtract: remove the legendary layer and the reader loses a few vivid scenes and not one joint of the argument. As an account of the Reformation, the book remains a conscientious popularization of its century's Protestant historiography."
     },
     "4": {
-      "intro": "The book's axis: the calculation from the decree of 457 BC to 1844. The audit closed the old dispute in both directions. As printed, the chronology fell: the anchor is off by a year, AD 31 is excluded by astronomy, and the formulas “beyond question” are refuted by the very history of the debate. Yet the movement's arithmetic is internally exact for what its era knew, and the Millerites' own history is told accurately, down to one accusation reversed in the book's favor.",
-      "rendering": "Thus far every specification of the prophecies has strikingly come to pass: the beginning of the seventy weeks is fixed beyond question at 457 BC, their expiration at AD 34. Cutting 490 years off the 2300 leaves 1810: from AD 34 they reach to 1844. Consequently the 2300 days of Daniel 8:14 terminate in 1844, “and then shall the sanctuary be cleansed.” The audit: the arithmetic itself is correct and was correct for the scholarship of the era. What fell were the words “beyond question,” for the calculation was contested by scholars and by the Millerites themselves in 1844, and the anchor dates as printed.",
+      "intro": "The book's axis: the calculation from the decree of 457 BC to 1844. The audit closed the old dispute in both directions. As printed, the chronology did not hold up: the anchor is off by a year, AD 31 is excluded by astronomy, and the formulas “beyond question” are refuted by the very history of the debate. Yet the movement's arithmetic is internally exact for what its era knew, and the Millerites' own history is told accurately, down to one accusation reversed in the book's favor.",
       "after": "After subtraction what remains is what was always there: an accurate history of the movement and an internally consistent calculation on a chronology the era's scholarship held true and modern scholarship has shifted. What departs is incontestability: the date remains computable on its premises, but ceases to be “fixed beyond question.”"
     },
     "5": {
       "intro": "The sanctuary link rests not on documents but on an interpretation of prophecy. Its core, that the seventy weeks are “cut off” from the 2300 days and begin together, the review found to be entirely interpretive: history can neither confirm nor refute it. Every checkable input of the link is a repetition of the 457→1844 chronology from chapter 18, and every one inherits the same anchor.",
-      "rendering": "The 2300 days were found to begin when the decree of Artaxerxes for the restoration of Jerusalem went into effect, in the autumn of 457 BC. Taking that starting point, every foretold event fell into perfect harmony: 483 years to the Messiah, fulfilled exactly by Christ's baptism in AD 27; in the midst of the seventieth week Messiah cut off, the crucifixion in the spring of AD 31; at the end of the 490 years the apostles turning to the Gentiles in AD 34. The remaining 1810 years extend to 1844: “then,” said the angel, “shall the sanctuary be cleansed.” The audit: every date in this chain inherits the contested 457 anchor, and the scheme “the weeks cut off from the 2300” is an interpretation of prophecy that lies beyond historical checking.",
       "after": "Remove the chronological repetitions and the link does not vanish; it hangs, honestly, on its premise. A reader who accepts the interpretation receives an internally exact calculation on the data of that era; a reader who does not receives nothing from history that would compel acceptance."
     },
     "6": {
-      "intro": "The doctrinal link on Sabbath and Sunday. The genealogical absolutes fell: “all Christians kept the Sabbath,” “changed by the papal power,” “Sunday originated with Rome.” What survived is the documented core: a gradual, many-caused displacement of the Sabbath with Rome playing an active part, the absence of any direct biblical command for Sunday, and the honestly open question of Sunday's apostolic origin. The Sabbath's theological status the audit does not decide.",
-      "rendering": "The seal of God's law is found in the fourth commandment: it alone of the ten shows both the name and the title of the Lawgiver, declaring Him Creator of heaven and earth. “When the Sabbath was changed by the papal power, the seal was taken from the law”; the disciples of Jesus are called to restore it by exalting the Sabbath of the fourth commandment as the Creator's memorial. The audit: the Sabbath's displacement was gradual, many-caused, and in large part Eastern; the formula “changed by the papal power” is ruled more likely false as printed, while Rome's documented role in suppressing the Sabbath is real. The theological thesis of the “seal of the law” lies beyond historical checking.",
+      "intro": "The doctrinal link on Sabbath and Sunday. The genealogical absolutes did not hold up: “all Christians kept the Sabbath,” “changed by the papal power,” “Sunday originated with Rome.” The documented core is confirmed: a gradual, many-caused displacement of the Sabbath with Rome playing an active part, the absence of any direct biblical command for Sunday, and the honestly open question of Sunday's apostolic origin. The Sabbath's theological status the audit does not decide.",
       "after": "After subtraction the link keeps its historical core and loses its genealogy: the Sabbath really did yield to Sunday gradually and for more than one reason, Rome really did suppress the Sabbath for centuries, and Scripture really contains no direct command for Sunday. The absolutes “all,” “changed by Rome,” and “Eden as an event of history” do not recover."
     },
     "7": {
       "intro": "The final link looks to the future and speaks the language of faith: history has almost nothing to check here. Of its few checkable details, two failed the review and one remains honestly open. The link has no historical footing of its own; its force depends entirely on the links about 1844, the sanctuary, and the Sabbath.",
-      "rendering": "The iniquity under Rome's supremacy was the inevitable fruit of her suppression of the Scriptures; but whence the unbelief of an age of gospel light and liberty? Satan, no longer able to hold the world by withholding the Bible, destroys faith in it instead. Clinging to “the papal error” of natural immortality, the churches have rejected the only defense against Spiritualism; the doctrine of eternal torment has driven many from the Bible; and when the fourth commandment is urged, popular teachers declare God's law no longer binding. The audit: nearly the whole passage is a theological frame beyond historical checking. Crediting the soul's immortality to a “papal error” is ruled more likely false, for the teaching entered through Greek philosophy in the fathers of the 2nd–5th centuries; “the only defense” is an exclusive that did not hold.",
       "after": "Subtraction hardly works here: the link's checkable fabric is thin. What remains depends not on this link itself but on what the reader carries out of the links about 1844, the sanctuary, and the Sabbath."
     }
   },
@@ -274,7 +260,7 @@
     "GC-07-036": "The “voice like thunder” on Pilate's staircase is a late family tradition dramatized by D'Aubigné. Luther's climb itself is documented; the staircase awakening remains an open question.",
     "GC-08-088": "“Here I stand”: the words appear in the first printing of the 1521 speech but not in the Diet's records; scholars honestly disagree. The substance of Luther's answer at Worms is authentic.",
     "GC-10-054": "“Müntzer was driven by ambition”: the documented motive is his own apocalyptic theology; “ambition” goes back to Melanchthon's polemic. What failed here is an attributed motive.",
-    "GC-10-066": "“Without the slightest foundation”: the absolute fell; the peasants' Twelve Articles speak the language of the gospel. Luther himself did not call for the revolt; the careful version is confirmed.",
+    "GC-10-066": "“Without the slightest foundation”: the absolute did not hold up; the peasants' Twelve Articles speak the language of the gospel. Luther himself did not call for the revolt; the careful version is confirmed.",
     "GC-14-156": "Wesley's “more than half a million avowed adherents”: the society rolls of 1791 give 120,000–150,000; several hundred thousand counting the hearers is more likely true.",
     "GC-15-058": "“By special order of the king… to all the provinces”: Charles IX's letters ordered the protection of Protestants; La Rochelle, Nîmes, and Montauban were untouched. Massacres in a dozen cities amid rumors of the king's will are confirmed.",
     "GC-06-027": "The two Englishmen with their pictures in Prague belong to the layer of Comenius's 1648 martyrology. The antithesis pictures themselves, Christ against the pope, are a documented Hussite motif, but a decade later and with different actors.",
@@ -313,7 +299,7 @@
     "intro": "The first round of checking left 97 of the book's claims with a live scholarly dispute on their hands. We grouped them into 23 questions and reviewed each under rules written down and frozen before the work began. Every claim received two rulings, the text as printed and a careful version without “all” and “never”; for each, the strongest opposing argument was engaged, and what discovery would change the conclusion was recorded. Below is the open tally of rulings and all 23 reviews.",
     "strip": {
       "gapTitle": "The gap between wording and substance",
-      "gapSub": "Across all 97 claims: 0 means the printed text and the careful version fare the same, 4 means the categorical text fell while its substance is solidly confirmed. The peak at 3–4 means the wording failed more often than the facts.",
+      "gapSub": "Across all 97 claims: 0 means the printed text and the careful version fare the same, 4 means the categorical text did not hold up while its substance is solidly confirmed. The peak at 3–4 means the wording failed more often than the facts.",
       "gapNA": "n/a",
       "dirTitle": "Which way the rulings moved",
       "dirSub": "The tally was kept openly and in both directions; any drift would be visible.",
@@ -403,5 +389,25 @@
       "D22": "The nine claims of this dossier retell the Bohemian prologue of the Hus chapter after the Victorian book of Wylie, who himself relied on Comenius's martyrology of 1648. Historians confirm the core of every scene: the 14th-century Inquisition really did execute Bohemian Waldenses, Wycliffite ideas really did travel from England to Prague, and contrasting images of the humble Christ and the pompous pope really were displayed in Hussite Prague, from the walls of Bethlehem Chapel to the tables of Nicholas of Dresden. But the book's specific scenes, including the kneeling mother at the gates of Prague and the two English artists with crowds at their pictures, have not a single medieval witness and are absent from Hus's modern biographers, from Spinka to Fudge. As written, therefore, all nine claims were ruled improbable. In weakened versions four rose to solidly confirmed, two to probable, two remained open, and one cannot be softened at all. A 15th-century chronicle of the English visitors, or any document about Hus's family, would change the picture.",
       "D23": "This dossier examines a sentence from chapter 5: that Wycliffe had no predecessors from whose works he could build his system of reform. Read literally this is refuted by the documents: the doctrine of dominion, the backbone of his program, Wycliffe took from FitzRalph's treatise De pauperie Salvatoris, and he constantly cited Grosseteste and Bradwardine as his teachers. The claim as written was therefore ruled improbable. The weakened version fares differently: before Wycliffe England had neither an organized reform movement nor a ready program of reform, and scholarship recognizes his synthesis centered on Scripture in the vernacular as the first of its kind, so this version is rated well supported. The picture would change with proof that Wycliffe developed the dominion theory independently of FitzRalph, or the discovery of an organized English reform movement before him."
     }
+  },
+  "chainAssess": {
+    "basisLabel": "historical base",
+    "voiceLabel": "presentation",
+    "svgLegend": "Ring: the historical base; the bar beneath a link: its presentation.",
+    "basis": {
+      "intact": "intact",
+      "intactException": "intact, with one load-bearing exception",
+      "destroyed": "dismantled",
+      "contested": "rests on contested ground",
+      "mixed": "mixed",
+      "premise": "rests on an untestable premise",
+      "outside": "beyond historical checking"
+    },
+    "voice": {
+      "accurate": "accurate",
+      "overstated": "overstated",
+      "refutedAbsolutes": "refuted in its absolutes"
+    },
+    "mixedDetail6": "the Sabbath's continuity is dismantled; Sunday's origin is contested"
   }
 }

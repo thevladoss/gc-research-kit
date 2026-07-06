@@ -170,7 +170,15 @@ function DossierCardView({ d, index }: { d: TDossier; index: number }) {
   const narrative = locale === 'ru' ? d.narrative_ru : t(`dossiersPage.narratives.${d.dossier}`)
   return (
     <Reveal delay={Math.min(index * 0.03, 0.15)}>
-      <article className="border border-line bg-paper-deep px-6 py-6 md:px-8">
+      <article className="relative overflow-hidden border border-line bg-paper-deep px-6 py-6 md:px-8">
+        {d.dossier === 'D01' && (
+          <div
+            aria-hidden="true"
+            className="decor-numeral top-[-0.06em] right-[-0.04em] hidden text-[11rem] md:block"
+          >
+            1844
+          </div>
+        )}
         <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
           <span className="font-mono text-[0.75rem] text-binding">{d.dossier}</span>
           <span className="font-mono text-[0.6875rem] text-ink-soft">

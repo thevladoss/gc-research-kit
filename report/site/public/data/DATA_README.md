@@ -96,6 +96,14 @@ every ruling are open.
 Текст книги: The Great Controversy, издание 1911 года (Project Gutenberg #25833),
 общественное достояние / public domain.
 
+Примечание о русских отрывках / note on Russian excerpts: на страницах цепи сайта
+русская локаль приводит семь коротких отрывков по официальному русскому переводу
+«Великой борьбы» (© Ellen G. White Estate); они цитируются в исследовательских целях
+(ст. 1274 ГК РФ) и в настоящий архив НЕ включены. On the site's chain pages the RU
+locale quotes seven short excerpts from the official Russian translation
+(© Ellen G. White Estate); they are quoted for research purposes and are NOT included
+in this archive.
+
 ## Авторство, лицензия, контакт / Authorship, license, contact
 
 Исследование: Владислав Осин / Research: Vladislav Osin.

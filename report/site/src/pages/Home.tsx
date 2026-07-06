@@ -1,3 +1,4 @@
+import { CorpusField } from '../components/CorpusField'
 import { Counter } from '../components/Counter'
 import { Reveal } from '../components/Reveal'
 import { ThesisChain } from '../components/ThesisChain'
@@ -27,7 +28,9 @@ function Hero() {
     { key: 'adjudicated', value: stats.disputed_adjudicated, fmt: (n: number) => fmtInt(Math.round(n)) },
   ] as const
   return (
-    <section className="mx-auto max-w-6xl px-5 pt-16 pb-20 md:px-8 md:pt-24">
+    <section className="relative overflow-hidden">
+      <CorpusField />
+      <div className="relative mx-auto max-w-6xl px-5 pt-16 pb-20 md:px-8 md:pt-24">
       <Reveal>
         <div className="eyebrow">{t('home.eyebrow')}</div>
         <h1 className="mt-4 max-w-3xl font-display text-4xl leading-[1.12] text-ink md:text-[3.4rem]">
@@ -56,6 +59,7 @@ function Hero() {
           ))}
         </dl>
       </Reveal>
+      </div>
     </section>
   )
 }
@@ -63,7 +67,7 @@ function Hero() {
 function ChainSection() {
   const { t } = useI18n()
   return (
-    <section className="border-t border-line bg-paper">
+    <section className="border-t border-line bg-paper-warm">
       <div className="mx-auto max-w-6xl px-5 py-16 md:px-8 md:py-20">
         <Reveal>
           <SectionHead eyebrow={t('home.chain.eyebrow')} h2={t('home.chain.h2')} />
@@ -131,7 +135,7 @@ const findingCards = [
 function FindingsSection() {
   const { t } = useI18n()
   return (
-    <section className="border-t border-line">
+    <section className="border-t border-line bg-paper-warm">
       <div className="mx-auto max-w-6xl px-5 py-16 md:px-8 md:py-20">
         <Reveal>
           <SectionHead eyebrow={t('home.findings.eyebrow')} h2={t('home.findings.h2')} />

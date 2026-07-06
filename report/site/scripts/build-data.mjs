@@ -484,6 +484,47 @@ writeFileSync(
     `export const dossierCards: readonly DossierCard[] = ${JSON.stringify(dossierCards, null, 2)} as const\n`,
 )
 
+// Двухкомпонентная оценка звеньев: «историческая основа» и «подача».
+// Присвоения выведены из адъюдикационного слоя и basis-списков synthesis/aggregate.json;
+// одиночный ярлык «повреждено» смешивал разные диагнозы, здесь они разведены.
+const CHAIN_ASSESSMENT = [
+  // 1. Основа цела с одним несущим исключением: GC-01-079 («ни один не погиб») невосстановим
+  //    даже в осторожной версии; событийная основа подтверждена или честно открыта
+  //    (GC-02-050, GC-02-038, GC-02-008 probable; GC-01-084 genuinely-open).
+  //    Подача опровергнута в абсолютах: GC-02-018, GC-02-053, GC-03-032 — discredited.
+  { link: 1, basis: 'intactException', voice: 'refutedAbsolutes' },
+  // 2. Основа разрушена: GC-04-001/034/046 + GC-26-032 — разрыв в тысячелетие (Ball 1994);
+  //    подача преувеличена: романтический слой GC-04-069/082/113, GC-15-043 — improbable.
+  { link: 2, basis: 'destroyed', voice: 'overstated' },
+  // 3. Основа цела (ни одного несущего повреждения; GC-05-075, GC-12-027, GC-14-032
+  //    оправданы защитой); подача точна: не подтвердился только орнамент без нагрузки
+  //    (GC-06-027…032, GC-07-036, абсолюты GC-05-107, GC-10-066).
+  { link: 3, basis: 'intact', voice: 'accurate' },
+  // 4. Основа держится на спорном: якорь GC-18-060 improbable, GC-18-071 исключён астрономией,
+  //    ослабленный слой цепочки probable/well-supported (GC-18-081 weakened WS).
+  //    Подача опровергнута в абсолютах: GC-18-078, GC-26-069 — оба discredited, класс frame.
+  { link: 4, basis: 'contested', voice: 'refutedAbsolutes' },
+  // 5. Целиком на непроверяемой посылке: GC-18-058 out-of-scope (условная посылка);
+  //    эмпирические входы — повторы якоря (GC-23-008…012, chain-inherited).
+  { link: 5, basis: 'premise', voice: null },
+  // 6. Основа смешанная: субботняя непрерывность разрушена (GC-03-032 discredited,
+  //    GC-26-032 — тысячелетний разрыв), происхождение воскресенья — предмет спора
+  //    (GC-35-057 improbable/probable weakened, GC-03-050 genuinely-open).
+  //    Подача преувеличена: GC-26-014/025, GC-25-051 — improbable при probable/WS weakened.
+  { link: 6, basis: 'mixed', voice: 'overstated' },
+  // 7. Вне исторической проверки: самостоятельной эмпирической опоры нет,
+  //    периферия GC-42-032 genuinely-open, GC-36-044/GC-37-029 improbable.
+  { link: 7, basis: 'outside', voice: null },
+]
+writeFileSync(
+  path.join(genDir, 'chainAssessment.ts'),
+  banner +
+    `export type ChainBasis = 'intact' | 'intactException' | 'destroyed' | 'contested' | 'mixed' | 'premise' | 'outside'\n` +
+    `export type ChainVoice = 'accurate' | 'overstated' | 'refutedAbsolutes' | null\n` +
+    `export interface ChainAssessment { link: number; basis: ChainBasis; voice: ChainVoice }\n` +
+    `export const chainAssessment: readonly ChainAssessment[] = ${JSON.stringify(CHAIN_ASSESSMENT, null, 2)} as const\n`,
+)
+
 // контроль: RU-текст досье в content/ru.json обязан совпадать с данными (единый источник)
 {
   const ruPath = path.join(SITE, 'content', 'ru.json')
@@ -599,6 +640,14 @@ every ruling are open.
 
 Текст книги: The Great Controversy, издание 1911 года (Project Gutenberg #25833),
 общественное достояние / public domain.
+
+Примечание о русских отрывках / note on Russian excerpts: на страницах цепи сайта
+русская локаль приводит семь коротких отрывков по официальному русскому переводу
+«Великой борьбы» (© Ellen G. White Estate); они цитируются в исследовательских целях
+(ст. 1274 ГК РФ) и в настоящий архив НЕ включены. On the site's chain pages the RU
+locale quotes seven short excerpts from the official Russian translation
+(© Ellen G. White Estate); they are quoted for research purposes and are NOT included
+in this archive.
 
 ## Авторство, лицензия, контакт / Authorship, license, contact
 
