@@ -1,5 +1,5 @@
 import { ChevronRight, ExternalLink, RotateCcw, Search, SearchCheck } from 'lucide-react'
-import { useEffect, useMemo, useState } from 'react'
+import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 import { FiveStepScale } from '../components/FiveStepScale'
 import { QuoteText } from '../components/QuoteText'
 import { chapterMap } from '../data/generated/chapters'
@@ -64,6 +64,41 @@ function matches(c: FullClaim, f: Filters): boolean {
       return false
   }
   return true
+}
+
+// перевод аналитических текстов конвейера (RU-локаль): "id|field" → русский текст
+const ReasoningCtx = createContext<{ map: Record<string, string> | null; on: boolean }>({
+  map: null,
+  on: false,
+})
+
+/** Аналитический текст: RU-перевод, если есть; иначе английский оригинал с пометкой «(англ.)». */
+function AnalyticalText({
+  id,
+  field,
+  en,
+  className = '',
+  italic = false,
+}: {
+  id: string
+  field: string
+  en: string
+  className?: string
+  italic?: boolean
+}) {
+  const { map, on } = useContext(ReasoningCtx)
+  const ru = on && map ? map[`${id}|${field}`] : undefined
+  if (ru) return <span lang="ru" className={className}>{ru}</span>
+  return (
+    <span lang="en" className={`${className} ${italic ? 'italic' : ''}`}>
+      {en}
+      {on && (
+        <span className="ml-1 font-mono text-[0.5625rem] whitespace-nowrap text-ink-soft not-italic">
+          (англ.)
+        </span>
+      )}
+    </span>
+  )
 }
 
 function Chip({ children, color }: { children: React.ReactNode; color?: string }) {
@@ -143,7 +178,11 @@ function Timeline({ c }: { c: FullClaim }) {
             />
             {v.confidence && <Chip>{t(`dossiersPage.card.confidence.${v.confidence}`)}</Chip>}
           </div>
-          {v.rationale && <p lang="en" className="mt-1.5 max-w-3xl text-[0.8125rem] leading-relaxed text-ink-soft">{v.rationale}</p>}
+          {v.rationale && (
+            <p className="mt-1.5 max-w-3xl text-[0.8125rem] leading-relaxed text-ink-soft">
+              <AnalyticalText id={c.id} field="rationale" en={v.rationale} />
+            </p>
+          )}
           <Sources list={v.sources} />
         </>
       ),
@@ -171,7 +210,11 @@ function Timeline({ c }: { c: FullClaim }) {
               />
             )}
           </div>
-          {d.argument && <p lang="en" className="mt-1.5 max-w-3xl text-[0.8125rem] leading-relaxed text-ink-soft">{d.argument}</p>}
+          {d.argument && (
+            <p className="mt-1.5 max-w-3xl text-[0.8125rem] leading-relaxed text-ink-soft">
+              <AnalyticalText id={c.id} field="defense" en={d.argument} />
+            </p>
+          )}
           <Sources list={d.new_sources} />
         </>
       ),
@@ -209,7 +252,7 @@ function Timeline({ c }: { c: FullClaim }) {
           {a.weakened_version && (
             <p className="mt-2 max-w-3xl text-[0.8125rem] leading-relaxed text-ink-soft">
               <span className="font-mono text-[0.6875rem] text-ink uppercase">{t('explorerPage.weakenedVersion')}: </span>
-              <span lang="en" className="italic">{a.weakened_version}</span>
+              <AnalyticalText id={c.id} field="weakened" en={a.weakened_version} italic />
             </p>
           )}
           {a.would_change_this && (
@@ -218,7 +261,7 @@ function Timeline({ c }: { c: FullClaim }) {
                 <SearchCheck size={11} strokeWidth={1.75} aria-hidden="true" className="mr-1 inline-block align-[-1.5px]" />
                 {t('explorerPage.wouldChange')}:{' '}
               </span>
-              <span lang="en">{a.would_change_this}</span>
+              <AnalyticalText id={c.id} field="would_change" en={a.would_change_this} />
             </p>
           )}
           {a.sources && a.sources.length > 0 && (
@@ -301,7 +344,7 @@ function Row({ c, ru, expanded, onToggle }: { c: FullClaim; ru: { ru: string; k?
           <QuoteText en={c.quote} ru={ru?.ru ?? null} enKey={ru?.k} className="max-w-3xl text-[0.9rem]" />
           <p className="mt-3 max-w-3xl text-[0.875rem] leading-relaxed text-ink">
             <span className="font-mono text-[0.6875rem] text-ink-soft uppercase">{t('explorerPage.claimText')}: </span>
-            <span lang="en">{c.claim_text}</span>
+            <AnalyticalText id={c.id} field="claim_text" en={c.claim_text} />
           </p>
           <Timeline c={c} />
         </div>
@@ -314,6 +357,7 @@ export function ExplorerPage({ initial }: { initial: Record<string, string> }) {
   const { t, tp, fmtInt } = useI18n()
   const [data, setData] = useState<FullClaim[] | null>(null)
   const [ruMap, setRuMap] = useState<Record<string, { ru: string; k?: string }> | null>(null)
+  const [reasonMap, setReasonMap] = useState<Record<string, string> | null>(null)
   const [error, setError] = useState(false)
   const [filters, setFilters] = useState<Filters>({ ...EMPTY, ...initial })
   const [limit, setLimit] = useState(PAGE)
@@ -326,15 +370,23 @@ export function ExplorerPage({ initial }: { initial: Record<string, string> }) {
       .catch(() => setError(true))
   }, [])
 
-  // официальный русский перевод цитат — только для русской локали
+  // русские переводы цитат и аналитических текстов — только для русской локали
   const { locale } = useI18n()
   useEffect(() => {
-    if (locale !== 'ru' || ruMap) return
-    fetch(`${import.meta.env.BASE_URL}ru_quotes.json`)
-      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
-      .then(setRuMap)
-      .catch(() => setRuMap({}))
-  }, [locale, ruMap])
+    if (locale !== 'ru') return
+    if (!ruMap) {
+      fetch(`${import.meta.env.BASE_URL}ru_quotes.json`)
+        .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+        .then(setRuMap)
+        .catch(() => setRuMap({}))
+    }
+    if (!reasonMap) {
+      fetch(`${import.meta.env.BASE_URL}ru_reasoning.json`)
+        .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+        .then(setReasonMap)
+        .catch(() => setReasonMap({}))
+    }
+  }, [locale, ruMap, reasonMap])
 
   const set = (patch: Partial<Filters>) => {
     const next = { ...filters, ...patch }
@@ -439,7 +491,7 @@ export function ExplorerPage({ initial }: { initial: Record<string, string> }) {
       {error && <p className="mt-8 text-[0.9375rem] text-ink-soft">{t('explorerPage.loadError')}</p>}
       {!data && !error && <p className="mt-8 font-mono text-[0.8125rem] text-ink-soft">{t('explorerPage.loading')}</p>}
       {data && (
-        <>
+        <ReasoningCtx.Provider value={{ map: reasonMap, on: locale === 'ru' }}>
           <p className="mt-6 font-mono text-[0.75rem] text-ink-soft">
             {tp('explorerPage.count', { n: fmtInt(rows.length), total: fmtInt(data.length) })}
           </p>
@@ -470,7 +522,7 @@ export function ExplorerPage({ initial }: { initial: Record<string, string> }) {
               {tp('explorerPage.showMore', { n: fmtInt(Math.min(PAGE, rows.length - limit)) })}
             </button>
           )}
-        </>
+        </ReasoningCtx.Provider>
       )}
     </main>
   )

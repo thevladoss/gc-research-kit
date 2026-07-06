@@ -272,6 +272,15 @@ if (!Object.keys(ruQuotes).length) {
 }
 const ruQuoteOf = (id) => (id.startsWith('_') ? null : (ruQuotes[id]?.ru ?? null))
 
+// content/ru_reasoning.json создаёт scripts/build_ru_reasoning.py: переводы
+// аналитических текстов конвейера (ключ "id|field" → русский текст). Для читаемости;
+// авторитетная версия — английская. В data.zip НЕ входит (public-копия ниже).
+const ruReasoningPath = path.join(SITE, 'content', 'ru_reasoning.json')
+const ruReasoning = existsSync(ruReasoningPath) ? JSON.parse(readFileSync(ruReasoningPath, 'utf8')) : {}
+if (!Object.keys(ruReasoning).filter((k) => !k.startsWith('_')).length) {
+  console.warn('! content/ru_reasoning.json пуст — русская локаль покажет английские обоснования')
+}
+
 // английская ключевая формулировка для чувствительных утверждений:
 // опровергнутые абсолюты и большие разрывы формулировка↔суть (вердикты выносились
 // по напечатанному английскому тексту — перевод мог его смягчить)
@@ -793,6 +802,16 @@ translations have been replaced by the official translation. The Russian transla
 text is NOT included in this archive: the dataset is the 1911 English original plus
 the project's analysis.
 
+Примечание о переводах анализа / note on the analysis translations: русская локаль
+сайта показывает переводы аналитических текстов конвейера (формулировки утверждений,
+обоснования проверки, аргументы защиты, осторожные версии, «что изменило бы вывод»).
+Эти переводы выполнены ДЛЯ ЧИТАЕМОСТИ; авторитетная версия анализа — английская,
+и в датасет входит именно она. Where a translation is missing, the site shows the
+English original marked «(англ.)». The RU locale renders translations of the pipeline's
+analytical texts (claim statements, verification rationales, defense arguments, weakened
+versions, would-change notes) FOR READABILITY; the authoritative version of the analysis
+is the English one, and it is the one included in the dataset.
+
 ## Авторство, лицензия, контакт / Authorship, license, contact
 
 Исследование: Владислав Осин / Research: Vladislav Osin.
@@ -841,6 +860,9 @@ for (const [cid, v] of Object.entries(ruQuotes)) {
   ruQuotesPublic[cid] = k ? { ru: v.ru, k } : { ru: v.ru }
 }
 writeFileSync(path.join(SITE, 'public', 'ru_quotes.json'), JSON.stringify(ruQuotesPublic))
+
+// карта переводов аналитических текстов: public/, вне data.zip (датасет — английский первоисточник)
+writeFileSync(path.join(SITE, 'public', 'ru_reasoning.json'), JSON.stringify(ruReasoning))
 
 // метаданные для сайта: версия, дата, размер архива
 const zipPath = path.join(pubDir, 'data.zip')
