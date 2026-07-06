@@ -413,6 +413,24 @@ writeFileSync(
     `export const chapterMap: readonly ChapterMap[] = ${JSON.stringify(chapterMap, null, 2)} as const\n`,
 )
 
+// статистика звеньев: главы каждого звена (по thesis_chain_status aggregate,
+// «гл. …» в title_ru) и реальные итоги проверки по этим главам — для честных
+// строк-контекстов: списки на страницах звеньев кураторские, не полный реестр.
+const CHAIN_CHAPTERS = {
+  1: [1, 2, 3],
+  2: [4, 13],
+  3: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+  4: [17, 18, 19, 20, 21, 22],
+  5: [23, 24, 28],
+  6: [25, 26, 33, 35, 36],
+  7: [36, 37, 38, 39, 40, 41, 42],
+}
+const GROUP_OF_LABEL = {
+  supported: 'supported', wellSupported: 'supported', probable: 'supported',
+  open: 'open', anachronistic: 'fallen', improbable: 'fallen',
+  discredited: 'fallen', contradicted: 'fallen',
+  conditional: 'conditional', unverifiable: 'unverifiable',
+}
 // детали звеньев: basis-утверждения синтеза, сгруппированные по исходу.
 // Звену 3 (цело) добавлены три утверждения, оправданных защитой в его главах:
 // соответствие целого звена — полноценный результат, «что выстояло» не должно пустовать.
@@ -436,6 +454,20 @@ const chainDetail = aggregate.thesis_chain_status.map((l) => {
     open: group('open'),
     conditional: group('conditional'),
   }
+})
+
+const chainStats = aggregate.thesis_chain_status.map((l, i) => {
+  const chapters = CHAIN_CHAPTERS[l.link]
+  const chSet = new Set(chapters)
+  const totals = { claims: 0, supported: 0, fallen: 0, open: 0, conditional: 0, unverifiable: 0 }
+  for (const c of claimsFull) {
+    if (!chSet.has(c.chapter)) continue
+    totals.claims++
+    totals[GROUP_OF_LABEL[labelKeyOf(c)]]++
+  }
+  const d = chainDetail[i]
+  const shown = d.stands.length + d.fallen.length + d.open.length + d.conditional.length
+  return { link: l.link, chapters, shown, totals }
 })
 
 // пассажи «режима вычитания»: выбранные абзацы, размеченные исходами утверждений
@@ -557,6 +589,12 @@ const dossierCards = dossiers.map((d) => {
   }
 })
 
+writeFileSync(
+  path.join(genDir, 'chainStats.ts'),
+  banner +
+    `export interface ChainLinkStats { link: number; chapters: number[]; shown: number; totals: { claims: number; supported: number; fallen: number; open: number; conditional: number; unverifiable: number } }\n` +
+    `export const chainStats: readonly ChainLinkStats[] = ${JSON.stringify(chainStats, null, 2)} as const\n`,
+)
 writeFileSync(
   path.join(genDir, 'chainDetail.ts'),
   banner +

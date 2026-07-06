@@ -6,6 +6,7 @@ import { SectionDivider } from '../components/Ornament'
 import { AssessmentChips } from '../components/ThesisChain'
 import { chainAssessment } from '../data/generated/chainAssessment'
 import { chainDetail, type ClaimBrief } from '../data/generated/chainDetail'
+import { chainStats, type ChainLinkStats } from '../data/generated/chainStats'
 import { chainPassages } from '../data/generated/chainPassages'
 import { thesisChain } from '../data/generated/chain'
 import { useI18n } from '../lib/i18n'
@@ -64,14 +65,28 @@ function ClaimRow({ claim }: { claim: ClaimBrief }) {
   )
 }
 
+function totalsLine(
+  tp: (p: string, params: Record<string, string | number>) => string,
+  stats: ChainLinkStats,
+  chapters: string,
+) {
+  const parts = (['supported', 'fallen', 'open', 'conditional', 'unverifiable'] as const)
+    .filter((k) => stats.totals[k] > 0)
+    .map((k) => tp(`chainPage.groups.parts.${k}`, { n: stats.totals[k] }))
+    .join(', ')
+  return tp('chainPage.groups.context', { chapters, claims: stats.totals.claims, parts })
+}
+
 function Group({
   titleKey,
   claims,
   accent,
+  context,
 }: {
   titleKey: string
   claims: readonly ClaimBrief[]
   accent: string
+  context: string
 }) {
   const { t } = useI18n()
   if (!claims.length) return null
@@ -84,6 +99,9 @@ function Group({
         >
           {t(titleKey)}
         </h2>
+        <p className="measure mt-1.5 font-mono text-[0.6875rem] leading-relaxed text-ink-soft">
+          {context}
+        </p>
         <ul className="mt-4">
           {claims.map((c) => (
             <ClaimRow key={c.id} claim={c} />
@@ -99,6 +117,9 @@ export function ChainPage({ link }: { link: number }) {
   const assessment = chainAssessment[link - 1]
   const detail = chainDetail[link - 1]
   const passage = chainPassages.find((p) => p.link === link)!
+  const stats = chainStats[link - 1]
+  const chaptersLabel = t(`home.chain.links.${link}.chapters`)
+  const context = totalsLine(tp, stats, chaptersLabel)
   const prev = link > 1 ? thesisChain[link - 2] : null
   const next = link < 7 ? thesisChain[link] : null
 
@@ -145,13 +166,14 @@ export function ChainPage({ link }: { link: number }) {
 
       <div className="mx-auto max-w-6xl px-5 pb-14 md:px-8">
       {/* группы утверждений */}
-      <Group titleKey="chainPage.groups.stands" claims={detail.stands} accent={outcomeStyle.stands.fill} />
-      <Group titleKey="chainPage.groups.fallen" claims={detail.fallen} accent={outcomeStyle.fallen.fill} />
-      <Group titleKey="chainPage.groups.open" claims={detail.open} accent={outcomeStyle.open.fill} />
+      <Group titleKey="chainPage.groups.stands" claims={detail.stands} accent={outcomeStyle.stands.fill} context={context} />
+      <Group titleKey="chainPage.groups.fallen" claims={detail.fallen} accent={outcomeStyle.fallen.fill} context={context} />
+      <Group titleKey="chainPage.groups.open" claims={detail.open} accent={outcomeStyle.open.fill} context={context} />
       <Group
         titleKey="chainPage.groups.conditional"
         claims={detail.conditional}
         accent={outcomeStyle.conditional.fill}
+        context={context}
       />
 
       {/* вычитание: что остаётся */}
@@ -179,6 +201,16 @@ export function ChainPage({ link }: { link: number }) {
           </p>
         </section>
       </Reveal>
+
+      {/* все утверждения этих глав */}
+      <div className="mt-10 text-center">
+        <a
+          href={href.explorerWith({ chs: stats.chapters.join(',') })}
+          className="inline-block rounded-sm bg-binding px-6 py-3 font-mono text-[0.8125rem] tracking-wide text-paper uppercase no-underline hover:opacity-90"
+        >
+          {t('chainPage.allClaimsCta')} →
+        </a>
+      </div>
 
       {/* навигация между звеньями */}
       <nav className="mt-14 flex flex-wrap items-center justify-between gap-4 border-t border-line pt-6">

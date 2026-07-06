@@ -95,7 +95,6 @@ export function I18nProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     document.documentElement.lang = locale
-    document.title = lookup(dicts[locale], 'meta.title') ?? document.title
   }, [locale])
 
   return <I18nContext.Provider value={value}>{children}</I18nContext.Provider>

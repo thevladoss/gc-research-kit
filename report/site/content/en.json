@@ -1,7 +1,8 @@
 {
   "meta": {
     "title": "A Historical Audit of “The Great Controversy”",
-    "description": "4,443 claims from Ellen G. White's book checked against the work of historians. Full data and method are open."
+    "description": "4,443 claims from Ellen G. White's book checked against the work of historians. Full data and method are open.",
+    "titleShort": "The Great Controversy: an audit"
   },
   "nav": {
     "home": "The Verdict",
@@ -81,7 +82,8 @@
         "5": "The entire link rests on an interpretation of prophecy, a premise a historian can neither confirm nor refute.",
         "6": "The base is mixed: an unbroken Sabbath through the centuries is dismantled, Sunday's origin is a live scholarly dispute; Rome's documented role in suppressing the Sabbath is confirmed, and the presentation is overstated.",
         "7": "Almost entirely about the future and faith: history has nothing to check here, and the link's force depends on the ones before it."
-      }
+      },
+      "basisNote": "this assessment rests on {shown} key claims out of {claims} checked across the link's chapters"
     },
     "pipeline": {
       "eyebrow": "Method",
@@ -185,7 +187,15 @@
       "stands": "What stood",
       "fallen": "What did not hold up",
       "open": "Where scholars honestly disagree",
-      "conditional": "What rests on an untestable premise"
+      "conditional": "What rests on an untestable premise",
+      "context": "A curated selection: the link's key claims, chosen by their weight for the argument. Across {chapters}, {claims} claims were extracted: {parts}.",
+      "parts": {
+        "supported": "{n} confirmed",
+        "fallen": "{n} did not hold up",
+        "open": "{n} genuinely contested",
+        "conditional": "{n} on a conditional premise",
+        "unverifiable": "{n} beyond historical checking"
+      }
     },
     "item": {
       "ref": "ch. {ch}, par. {p}",
@@ -206,7 +216,8 @@
       "prev": "Previous link",
       "next": "Next link",
       "all": "The whole chain"
-    }
+    },
+    "allClaimsCta": "All claims of these chapters in the table"
   },
   "chainPages": {
     "1": {
@@ -707,5 +718,9 @@
   "quotes": {
     "showOriginal": "original (English, 1911)",
     "hideOriginal": "hide the original"
+  },
+  "header": {
+    "bookTitle": "The Great Controversy",
+    "subtitle": "a historical audit"
   }
 }

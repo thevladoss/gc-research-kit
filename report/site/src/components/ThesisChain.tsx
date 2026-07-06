@@ -2,6 +2,7 @@ import { useReducedMotion } from 'framer-motion'
 import { useRef, useState } from 'react'
 import { thesisChain } from '../data/generated/chain'
 import { chainAssessment, type ChainAssessment } from '../data/generated/chainAssessment'
+import { chainStats } from '../data/generated/chainStats'
 import {
   basisStyle,
   compositeOfBasis,
@@ -186,7 +187,7 @@ const LEGEND: ChainComposite[] = ['sound', 'contested', 'damaged', 'outside']
 
 /** Панель итога активного звена — единственный носитель двухкомпонентной оценки. */
 function DetailPanel({ index }: { index: number }) {
-  const { t } = useI18n()
+  const { t, tp } = useI18n()
   const link = thesisChain[index]
   const a = chainAssessment[index]
   return (
@@ -200,6 +201,12 @@ function DetailPanel({ index }: { index: number }) {
       </div>
       <p className="measure mt-2 text-[0.9375rem] leading-relaxed text-ink-soft">
         {t(`home.chain.plain.${link.link}`)}
+      </p>
+      <p className="mt-1.5 font-mono text-[0.625rem] text-ink-soft">
+        {tp('home.chain.basisNote', {
+          shown: chainStats[index].shown,
+          claims: chainStats[index].totals.claims,
+        })}
       </p>
       <a
         href={href.chain(link.link)}

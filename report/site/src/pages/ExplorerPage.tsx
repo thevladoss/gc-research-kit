@@ -21,6 +21,7 @@ const PAGE = 120
 interface Filters {
   q: string
   ch: string
+  chs: string
   ruling: string
   arc: string
   kind: string
@@ -30,7 +31,7 @@ interface Filters {
   id: string
 }
 
-const EMPTY: Filters = { q: '', ch: '', ruling: '', arc: '', kind: '', period: '', stage: '', sev: '', id: '' }
+const EMPTY: Filters = { q: '', ch: '', chs: '', ruling: '', arc: '', kind: '', period: '', stage: '', sev: '', id: '' }
 
 const RULING_OPTIONS = ['favorable', 'open', 'anachronistic', 'improbable', 'discredited', 'conditional', 'unverifiable', 'supported']
 const ARC_OPTIONS = ['reformation', 'pre-reformation', 'millerite', 'doctrinal', 'eschatological', 'frame']
@@ -38,6 +39,7 @@ const ARC_OPTIONS = ['reformation', 'pre-reformation', 'millerite', 'doctrinal',
 function matches(c: FullClaim, f: Filters): boolean {
   if (f.id && c.id !== f.id) return false
   if (f.ch !== '' && c.chapter !== Number(f.ch)) return false
+  if (f.chs && !f.chs.split(',').includes(String(c.chapter))) return false
   if (f.ruling) {
     const g = filterGroup(c)
     if (f.ruling === 'supported' ? g !== 'supported' : f.ruling === 'favorable' ? g !== 'favorable' : g !== f.ruling)
@@ -421,7 +423,7 @@ export function ExplorerPage({ initial }: { initial: Record<string, string> }) {
             </option>
           ))}
         </select>
-        {(filters.q || filters.ch || filters.ruling || filters.arc || filters.kind || filters.period || filters.stage || filters.sev || filters.id) && (
+        {(filters.q || filters.ch || filters.chs || filters.ruling || filters.arc || filters.kind || filters.period || filters.stage || filters.sev || filters.id) && (
           <button
             type="button"
             onClick={() => set({ ...EMPTY })}

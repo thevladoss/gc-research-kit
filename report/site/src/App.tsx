@@ -1,6 +1,7 @@
 import { lazy, Suspense, useEffect } from 'react'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
+import { useI18n } from './lib/i18n'
 import { useRoute } from './lib/router'
 import { Home } from './pages/Home'
 import { MapPage } from './pages/MapPage'
@@ -23,8 +24,27 @@ const MethodPage = lazy(() =>
 
 const fallback = <main className="mx-auto max-w-6xl px-5 py-24 md:px-8" />
 
+const PAGE_NAV_KEY: Record<string, string> = {
+  dossiers: 'nav.dossiers',
+  map: 'nav.map',
+  explorer: 'nav.explorer',
+  method: 'nav.method',
+}
+
 export default function App() {
   const route = useRoute()
+  const { t, locale } = useI18n()
+
+  // заголовок вкладки: полный на главной, короткий per-page на остальных
+  useEffect(() => {
+    if (route.page === 'home' || route.page === 'notFound') {
+      document.title = t('meta.title')
+    } else if (route.page === 'chain') {
+      document.title = `${t(`home.chain.links.${route.link}.title`)} — ${t('meta.titleShort')}`
+    } else {
+      document.title = `${t(PAGE_NAV_KEY[route.page])} — ${t('meta.titleShort')}`
+    }
+  }, [route, locale, t])
 
   // якорь при первом открытии страницы метода по прямой ссылке
   useEffect(() => {
