@@ -32,6 +32,10 @@ function ringProps(composite: ChainComposite, seed: number) {
     // один видимый разрыв контура; сдвиг по индексу, чтобы разрывы не совпадали
     return { strokeDasharray: '61 6 33 0', strokeDashoffset: 10 + ((seed * 19) % 42) }
   }
+  if (s.ring === 'dashed') {
+    // «вне эмпирической проверки»: кольцо есть, но не сплошная опора
+    return { strokeDasharray: '3.2 2.6' }
+  }
   return {}
 }
 
@@ -52,9 +56,13 @@ function LegendRing({ composite }: { composite: ChainComposite }) {
         rx="4.5"
         fill="none"
         stroke={s.fill}
-        strokeWidth={s.ring === 'faint' ? 1.4 : 2.4}
+        strokeWidth={s.ring === 'dashed' ? 1.8 : 2.4}
         pathLength={100}
-        {...(s.ring === 'broken' ? { strokeDasharray: '58 14 28 0' } : {})}
+        {...(s.ring === 'broken'
+          ? { strokeDasharray: '58 14 28 0' }
+          : s.ring === 'dashed'
+            ? { strokeDasharray: '8 6' }
+            : {})}
       />
     </svg>
   )
@@ -143,9 +151,9 @@ function LinkShape({
           fill="none"
           stroke={s.fill}
           strokeWidth={s.width + (active ? 1.5 : 0)}
-          opacity={s.ring === 'faint' ? 0.85 : 1}
+          opacity={s.ring === 'dashed' ? 0.9 : 1}
           pathLength={100}
-          filter={s.ring === 'faint' ? undefined : 'url(#chain-shadow)'}
+          filter={s.ring === 'dashed' ? undefined : 'url(#chain-shadow)'}
           {...ringProps(composite, index)}
         />
         <text
@@ -280,7 +288,7 @@ function ChainNarrow() {
                     fill="none"
                     stroke={s.fill}
                     strokeWidth={s.width * 0.9 + (active === i ? 1.5 : 0)}
-                    opacity={s.ring === 'faint' ? 0.85 : 1}
+                    opacity={s.ring === 'dashed' ? 0.9 : 1}
                     pathLength={100}
                     {...ringProps(composite, i)}
                   />

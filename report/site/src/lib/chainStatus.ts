@@ -21,12 +21,12 @@ export const compositeOfBasis: Record<ChainBasis, ChainComposite> = {
 
 export const compositeStyle: Record<
   ChainComposite,
-  { fill: string; ink: string; ring: 'solid' | 'broken' | 'faint'; width: number }
+  { fill: string; ink: string; ring: 'solid' | 'broken' | 'dashed'; width: number }
 > = {
   sound: { fill: 'var(--color-v-supported)', ink: 'var(--color-v-supported-ink)', ring: 'solid', width: 10 },
   contested: { fill: 'var(--color-v-open)', ink: 'var(--color-v-open-ink)', ring: 'solid', width: 10 },
   damaged: { fill: 'var(--color-v-improbable)', ink: 'var(--color-v-improbable-ink)', ring: 'broken', width: 10 },
-  outside: { fill: 'var(--color-v-unverifiable)', ink: 'var(--color-v-unverifiable-ink)', ring: 'faint', width: 5 },
+  outside: { fill: 'var(--color-v-unverifiable)', ink: 'var(--color-v-unverifiable-ink)', ring: 'dashed', width: 7 },
 }
 
 /**
