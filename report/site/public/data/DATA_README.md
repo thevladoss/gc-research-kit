@@ -123,8 +123,8 @@ Research data and site texts: CC BY 4.0 © 2026 Vladislav Osin.
 Текст «Великой борьбы» 1911 г. — общественное достояние / the GC 1911 text is public domain.
 
 Пример атрибуции / attribution example:
-«Осин В., Историческая проверка "Великой борьбы", 2026, [URL]» /
-"Osin V., A Historical Audit of The Great Controversy, 2026, [URL]".
+«Осин В., Историческая проверка "Великой борьбы", 2026, https://thevladoss.github.io/gc-research-kit/» /
+"Osin V., A Historical Audit of The Great Controversy, 2026, https://thevladoss.github.io/gc-research-kit/".
 
 Исходный код / source code: https://github.com/thevladoss/gc-research-kit
 Контакт / contact: osinvladik1 (at) gmail (dot) com
