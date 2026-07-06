@@ -1,439 +1,650 @@
 // СГЕНЕРИРОВАНО scripts/build-data.mjs — не редактировать руками.
 // Источник: synthesis/aggregate.json + adjudication/*.ruling.json (2026-07-06).
-export const chapterSummaries = [
+export interface ChapterMap { chapter: number; title: string; claims: number; outcomes: { supported: number; open: number; anachronistic: number; improbable: number; discredited: number; conditional: number; unverifiable: number }; loadBearing: number }
+export const chapterMap: readonly ChapterMap[] = [
   {
     "chapter": 0,
     "title": "Introduction",
     "claims": 66,
-    "verdicts": {
-      "unverifiable": 38,
+    "outcomes": {
       "supported": 25,
-      "disputed": 3
-    }
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 2,
+      "discredited": 1,
+      "conditional": 0,
+      "unverifiable": 38
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 1,
     "title": "The Destruction Of Jerusalem",
     "claims": 127,
-    "verdicts": {
+    "outcomes": {
       "supported": 99,
-      "unverifiable": 17,
+      "open": 5,
       "anachronistic": 3,
-      "disputed": 8
-    }
+      "improbable": 3,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 17
+    },
+    "loadBearing": 1
   },
   {
     "chapter": 2,
     "title": "Persecution In The First Centuries",
     "claims": 65,
-    "verdicts": {
-      "unverifiable": 22,
-      "disputed": 10,
-      "supported": 32,
-      "anachronistic": 1
-    }
+    "outcomes": {
+      "supported": 35,
+      "open": 0,
+      "anachronistic": 1,
+      "improbable": 5,
+      "discredited": 2,
+      "conditional": 0,
+      "unverifiable": 22
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 3,
     "title": "The Apostasy",
     "claims": 108,
-    "verdicts": {
+    "outcomes": {
       "supported": 79,
-      "unverifiable": 18,
-      "disputed": 8,
-      "anachronistic": 3
-    }
+      "open": 1,
+      "anachronistic": 3,
+      "improbable": 6,
+      "discredited": 1,
+      "conditional": 0,
+      "unverifiable": 18
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 4,
     "title": "The Waldenses",
     "claims": 114,
-    "verdicts": {
-      "anachronistic": 15,
+    "outcomes": {
       "supported": 68,
-      "unverifiable": 24,
-      "disputed": 7
-    }
+      "open": 1,
+      "anachronistic": 15,
+      "improbable": 6,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 24
+    },
+    "loadBearing": 3
   },
   {
     "chapter": 5,
     "title": "John Wycliffe",
     "claims": 132,
-    "verdicts": {
+    "outcomes": {
       "supported": 104,
-      "unverifiable": 22,
+      "open": 0,
       "anachronistic": 5,
-      "disputed": 1
-    }
+      "improbable": 1,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 22
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 6,
     "title": "Huss and Jerome",
     "claims": 176,
-    "verdicts": {
+    "outcomes": {
       "supported": 148,
+      "open": 0,
       "anachronistic": 5,
-      "unverifiable": 14,
-      "disputed": 9
-    }
+      "improbable": 9,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 14
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 7,
     "title": "Luther's Separation From Rome",
     "claims": 130,
-    "verdicts": {
-      "unverifiable": 11,
+    "outcomes": {
       "supported": 114,
-      "disputed": 1,
-      "anachronistic": 4
-    }
+      "open": 0,
+      "anachronistic": 4,
+      "improbable": 1,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 11
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 8,
     "title": "Luther Before The Diet",
     "claims": 134,
-    "verdicts": {
+    "outcomes": {
       "supported": 123,
-      "unverifiable": 10,
-      "disputed": 1
-    }
+      "open": 1,
+      "anachronistic": 0,
+      "improbable": 0,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 10
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 9,
     "title": "The Swiss Reformer",
     "claims": 96,
-    "verdicts": {
+    "outcomes": {
       "supported": 91,
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 0,
+      "discredited": 0,
+      "conditional": 0,
       "unverifiable": 5
-    }
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 10,
     "title": "Progress Of Reform In Germany",
     "claims": 92,
-    "verdicts": {
+    "outcomes": {
       "supported": 79,
-      "unverifiable": 11,
-      "disputed": 2
-    }
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 2,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 11
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 11,
     "title": "Protest Of The Princes",
     "claims": 108,
-    "verdicts": {
+    "outcomes": {
       "supported": 90,
-      "unverifiable": 16,
+      "open": 0,
       "anachronistic": 1,
-      "contradicted": 1
-    }
+      "improbable": 0,
+      "discredited": 1,
+      "conditional": 0,
+      "unverifiable": 16
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 12,
     "title": "The French Reformation",
     "claims": 146,
-    "verdicts": {
+    "outcomes": {
       "supported": 138,
-      "unverifiable": 6,
-      "anachronistic": 2
-    }
+      "open": 0,
+      "anachronistic": 2,
+      "improbable": 0,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 6
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 13,
     "title": "The Netherlands And Scandinavia",
     "claims": 76,
-    "verdicts": {
+    "outcomes": {
       "supported": 68,
+      "open": 0,
       "anachronistic": 7,
+      "improbable": 0,
+      "discredited": 0,
+      "conditional": 0,
       "unverifiable": 1
-    }
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 14,
     "title": "Later English Reformers",
     "claims": 157,
-    "verdicts": {
-      "unverifiable": 23,
+    "outcomes": {
       "supported": 131,
+      "open": 0,
       "anachronistic": 2,
-      "disputed": 1
-    }
+      "improbable": 1,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 23
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 15,
     "title": "The Bible And The French Revolution",
     "claims": 158,
-    "verdicts": {
+    "outcomes": {
       "supported": 109,
-      "unverifiable": 39,
+      "open": 0,
       "anachronistic": 4,
-      "disputed": 6
-    }
+      "improbable": 4,
+      "discredited": 2,
+      "conditional": 0,
+      "unverifiable": 39
+    },
+    "loadBearing": 2
   },
   {
     "chapter": 16,
     "title": "The Pilgrim Fathers",
     "claims": 104,
-    "verdicts": {
+    "outcomes": {
       "supported": 66,
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 0,
+      "discredited": 0,
+      "conditional": 0,
       "unverifiable": 38
-    }
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 17,
     "title": "Heralds Of The Morning",
     "claims": 92,
-    "verdicts": {
+    "outcomes": {
       "supported": 67,
-      "unverifiable": 21,
-      "disputed": 4
-    }
+      "open": 1,
+      "anachronistic": 0,
+      "improbable": 3,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 21
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 18,
     "title": "An American Reformer",
     "claims": 149,
-    "verdicts": {
-      "supported": 122,
-      "unverifiable": 14,
-      "disputed": 12,
-      "anachronistic": 1
-    }
+    "outcomes": {
+      "supported": 124,
+      "open": 0,
+      "anachronistic": 1,
+      "improbable": 8,
+      "discredited": 1,
+      "conditional": 1,
+      "unverifiable": 14
+    },
+    "loadBearing": 9
   },
   {
     "chapter": 19,
     "title": "Light Through Darkness",
     "claims": 74,
-    "verdicts": {
-      "unverifiable": 22,
+    "outcomes": {
       "supported": 51,
-      "anachronistic": 1
-    }
+      "open": 0,
+      "anachronistic": 1,
+      "improbable": 0,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 22
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 20,
     "title": "A Great Religious Awakening",
     "claims": 127,
-    "verdicts": {
-      "unverifiable": 28,
+    "outcomes": {
       "supported": 97,
-      "disputed": 1,
-      "contradicted": 1
-    }
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 1,
+      "discredited": 1,
+      "conditional": 0,
+      "unverifiable": 28
+    },
+    "loadBearing": 1
   },
   {
     "chapter": 21,
     "title": "A Warning Rejected",
     "claims": 90,
-    "verdicts": {
+    "outcomes": {
       "supported": 50,
-      "unverifiable": 39,
-      "disputed": 1
-    }
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 1,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 39
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 22,
     "title": "Prophecies Fulfilled",
     "claims": 92,
-    "verdicts": {
+    "outcomes": {
       "supported": 71,
-      "unverifiable": 20,
-      "disputed": 1
-    }
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 1,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 20
+    },
+    "loadBearing": 1
   },
   {
     "chapter": 23,
     "title": "What Is The Sanctuary?",
     "claims": 89,
-    "verdicts": {
+    "outcomes": {
       "supported": 66,
-      "disputed": 4,
-      "unverifiable": 18,
-      "anachronistic": 1
-    }
+      "open": 0,
+      "anachronistic": 1,
+      "improbable": 4,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 18
+    },
+    "loadBearing": 4
   },
   {
     "chapter": 24,
     "title": "In The Holy Of Holies",
     "claims": 80,
-    "verdicts": {
+    "outcomes": {
       "supported": 52,
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 0,
+      "discredited": 0,
+      "conditional": 0,
       "unverifiable": 28
-    }
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 25,
     "title": "God's Law Immutable",
     "claims": 160,
-    "verdicts": {
+    "outcomes": {
       "supported": 97,
-      "unverifiable": 59,
-      "disputed": 1,
-      "anachronistic": 3
-    }
+      "open": 0,
+      "anachronistic": 3,
+      "improbable": 1,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 59
+    },
+    "loadBearing": 1
   },
   {
     "chapter": 26,
     "title": "A Work Of Reform",
     "claims": 102,
-    "verdicts": {
-      "unverifiable": 46,
+    "outcomes": {
       "supported": 52,
-      "disputed": 3,
-      "anachronistic": 1
-    }
+      "open": 0,
+      "anachronistic": 1,
+      "improbable": 2,
+      "discredited": 1,
+      "conditional": 0,
+      "unverifiable": 46
+    },
+    "loadBearing": 2
   },
   {
     "chapter": 27,
     "title": "Modern Revivals",
     "claims": 85,
-    "verdicts": {
-      "unverifiable": 36,
-      "supported": 49
-    }
+    "outcomes": {
+      "supported": 49,
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 0,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 36
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 28,
     "title": "The Investigative Judgment",
     "claims": 135,
-    "verdicts": {
+    "outcomes": {
       "supported": 55,
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 0,
+      "discredited": 0,
+      "conditional": 0,
       "unverifiable": 80
-    }
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 29,
     "title": "The Origin Of Evil",
     "claims": 78,
-    "verdicts": {
-      "unverifiable": 60,
-      "supported": 18
-    }
+    "outcomes": {
+      "supported": 18,
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 0,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 60
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 30,
     "title": "Enmity Between Man And Satan",
     "claims": 73,
-    "verdicts": {
+    "outcomes": {
       "supported": 14,
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 0,
+      "discredited": 0,
+      "conditional": 0,
       "unverifiable": 59
-    }
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 31,
     "title": "Agency Of Evil Spirits",
     "claims": 72,
-    "verdicts": {
-      "unverifiable": 49,
-      "supported": 23
-    }
+    "outcomes": {
+      "supported": 23,
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 0,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 49
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 32,
     "title": "Snares Of Satan",
     "claims": 64,
-    "verdicts": {
-      "unverifiable": 39,
+    "outcomes": {
       "supported": 24,
-      "disputed": 1
-    }
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 1,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 39
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 33,
     "title": "The First Great Deception",
     "claims": 104,
-    "verdicts": {
-      "unverifiable": 39,
+    "outcomes": {
       "supported": 63,
-      "disputed": 2
-    }
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 2,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 39
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 34,
     "title": "Spiritualism",
     "claims": 63,
-    "verdicts": {
+    "outcomes": {
       "supported": 45,
-      "unverifiable": 17,
-      "anachronistic": 1
-    }
+      "open": 0,
+      "anachronistic": 1,
+      "improbable": 0,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 17
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 35,
     "title": "Aims Of The Papacy",
     "claims": 112,
-    "verdicts": {
-      "unverifiable": 36,
+    "outcomes": {
       "supported": 69,
-      "disputed": 7
-    }
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 6,
+      "discredited": 1,
+      "conditional": 0,
+      "unverifiable": 36
+    },
+    "loadBearing": 1
   },
   {
     "chapter": 36,
     "title": "The Impending Conflict",
     "claims": 98,
-    "verdicts": {
-      "unverifiable": 72,
+    "outcomes": {
       "supported": 23,
+      "open": 0,
       "anachronistic": 2,
-      "disputed": 1
-    }
+      "improbable": 1,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 72
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 37,
     "title": "The Scriptures A Safeguard",
     "claims": 56,
-    "verdicts": {
+    "outcomes": {
       "supported": 24,
-      "unverifiable": 31,
-      "disputed": 1
-    }
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 1,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 31
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 38,
     "title": "The Final Warning",
     "claims": 69,
-    "verdicts": {
+    "outcomes": {
       "supported": 23,
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 0,
+      "discredited": 0,
+      "conditional": 0,
       "unverifiable": 46
-    }
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 39,
     "title": "The Time Of Trouble",
     "claims": 125,
-    "verdicts": {
+    "outcomes": {
       "supported": 75,
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 0,
+      "discredited": 0,
+      "conditional": 0,
       "unverifiable": 50
-    }
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 40,
     "title": "God's People Delivered",
     "claims": 105,
-    "verdicts": {
-      "unverifiable": 33,
-      "supported": 72
-    }
+    "outcomes": {
+      "supported": 72,
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 0,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 33
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 41,
     "title": "Desolation Of The Earth",
     "claims": 59,
-    "verdicts": {
+    "outcomes": {
       "supported": 27,
+      "open": 0,
+      "anachronistic": 0,
+      "improbable": 0,
+      "discredited": 0,
+      "conditional": 0,
       "unverifiable": 32
-    }
+    },
+    "loadBearing": 0
   },
   {
     "chapter": 42,
     "title": "The Controversy Ended",
     "claims": 101,
-    "verdicts": {
-      "unverifiable": 45,
+    "outcomes": {
       "supported": 54,
-      "disputed": 1,
-      "anachronistic": 1
-    }
+      "open": 1,
+      "anachronistic": 1,
+      "improbable": 0,
+      "discredited": 0,
+      "conditional": 0,
+      "unverifiable": 45
+    },
+    "loadBearing": 0
   }
 ] as const

@@ -104,6 +104,12 @@ locale quotes seven short excerpts from the official Russian translation
 (© Ellen G. White Estate); they are quoted for research purposes and are NOT included
 in this archive.
 
+Все прочие русские передачи цитат книги в материалах проекта — рабочие переводы
+самого проекта (версия 1.0); использование официального перевода для них
+планируется. All other Russian renderings of the book's quotations in the project's
+materials are the project's own working translations (v1.0); adopting the
+official translation for them is planned.
+
 ## Авторство, лицензия, контакт / Authorship, license, contact
 
 Исследование: Владислав Осин / Research: Vladislav Osin.

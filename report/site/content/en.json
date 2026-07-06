@@ -414,5 +414,291 @@
     "contested": "rests on contested ground",
     "damaged": "damaged",
     "outside": "beyond empirical checking"
+  },
+  "mapPage": {
+    "h1": "Map of the book: 43 chapters",
+    "intro": "Each column is a chapter: its height shows how many claims we copied out of it, the colors show how each claim fared, and the hatching marks what lies beyond historical checking. The asymmetry is visible at once: the Reformation chapters are almost entirely blue, while the warm tones gather over the Waldenses (chapter 4) and the 1844 chronology (chapters 18 and 23).",
+    "hint": "Hover over a column for the chapter's outcome; click to open all its claims in the table.",
+    "chapterOf": "Chapter {n}",
+    "claimsCount": "claims: {n}",
+    "loadBearingCount": "load-bearing claims: {n}",
+    "openChapter": "Open this chapter in the table",
+    "legend": {
+      "supported": "confirmed or more likely true",
+      "open": "scholars disagree",
+      "anachronistic": "an error of its era",
+      "improbable": "more likely false",
+      "discredited": "refuted",
+      "conditional": "conditional premise",
+      "unverifiable": "beyond historical checking",
+      "loadBearing": "has load-bearing claims"
+    },
+    "chapterTitles": {
+      "0": "Introduction",
+      "1": "The Destruction of Jerusalem",
+      "2": "Persecution in the First Centuries",
+      "3": "The Apostasy",
+      "4": "The Waldenses",
+      "5": "John Wycliffe",
+      "6": "Huss and Jerome",
+      "7": "Luther's Separation from Rome",
+      "8": "Luther Before the Diet",
+      "9": "The Swiss Reformer",
+      "10": "Progress of Reform in Germany",
+      "11": "Protest of the Princes",
+      "12": "The French Reformation",
+      "13": "The Netherlands and Scandinavia",
+      "14": "Later English Reformers",
+      "15": "The Bible and the French Revolution",
+      "16": "The Pilgrim Fathers",
+      "17": "Heralds of the Morning",
+      "18": "An American Reformer",
+      "19": "Light Through Darkness",
+      "20": "A Great Religious Awakening",
+      "21": "A Warning Rejected",
+      "22": "Prophecies Fulfilled",
+      "23": "What Is the Sanctuary?",
+      "24": "In the Holy of Holies",
+      "25": "God's Law Immutable",
+      "26": "A Work of Reform",
+      "27": "Modern Revivals",
+      "28": "The Investigative Judgment",
+      "29": "The Origin of Evil",
+      "30": "Enmity Between Man and Satan",
+      "31": "Agency of Evil Spirits",
+      "32": "Snares of Satan",
+      "33": "The First Great Deception",
+      "34": "Spiritualism",
+      "35": "Aims of the Papacy",
+      "36": "The Impending Conflict",
+      "37": "The Scriptures a Safeguard",
+      "38": "The Final Warning",
+      "39": "The Time of Trouble",
+      "40": "God's People Delivered",
+      "41": "Desolation of the Earth",
+      "42": "The Controversy Ended"
+    }
+  },
+  "explorerPage": {
+    "h1": "All the book's claims",
+    "intro": "The complete table: every extracted claim with its quotation, outcome, and audit history. Expand a row to see the verdict's path — the source check, then the defense, then the review of the dispute — with reasoning and sources at every step. Filters are stored in the page address, so a link can be shared.",
+    "searchPlaceholder": "search: text or record number",
+    "fChapter": "chapter",
+    "fRuling": "outcome",
+    "fArc": "storyline",
+    "fKind": "what failed",
+    "fPeriod": "era's sources",
+    "fStage": "where the verdict changed",
+    "fSeverity": "seriousness",
+    "rulingOptions": {
+      "supported": "confirmed",
+      "favorable": "vindicated on review",
+      "open": "scholars disagree",
+      "anachronistic": "an error of its era",
+      "improbable": "more likely false",
+      "discredited": "refuted",
+      "conditional": "conditional premise",
+      "unverifiable": "beyond checking"
+    },
+    "arcOptions": {
+      "reformation": "the Reformation",
+      "pre-reformation": "before the Reformation",
+      "millerite": "the Millerites and 1844",
+      "doctrinal": "doctrines",
+      "eschatological": "the end of history",
+      "frame": "the book's frame"
+    },
+    "stageOptions": {
+      "defense": "changed by the defense",
+      "adjudicated": "went through the review",
+      "adjudicatedFavorable": "review ruled for the book"
+    },
+    "sevOption": "seriousness ≥ {n}",
+    "sevChip": "seriousness {n}",
+    "reset": "reset",
+    "count": "Found {n} of {total}",
+    "showMore": "Show {n} more",
+    "loading": "Loading the data…",
+    "loadError": "The data failed to load. Refresh the page.",
+    "claimText": "the claim",
+    "stageVerify": "Source check",
+    "stageDefense": "Defense",
+    "stageAdjudication": "Review of the dispute",
+    "defenseFailed": "the defense did not persuade; the conclusion stood",
+    "defenseSucceeded": "the accusation was withdrawn entirely",
+    "defenseDowngraded": "the conclusion was softened",
+    "weakenedVersion": "careful version",
+    "wouldChange": "what would change this conclusion"
+  },
+  "methodPage": {
+    "h1": "How the book was checked",
+    "intro": "Here is the whole method: the four-stage pipeline, the built-in safeguards against bias, the rules frozen before the review, the method's limits, the tools, and the open data. The study was carried out with AI under the author's methodology; everything needed to re-check it is open.",
+    "pipeline": {
+      "eyebrow": "Pipeline",
+      "h2": "Four stages of checking",
+      "long1": "Every checkable claim was copied out of each of the 43 chapters: dates, events, quotations, figures, causal links. Nothing is judged at this stage — just a complete, neutral list, each record with its exact quotation and address: chapter and paragraph.",
+      "stat1": "{n} claims extracted",
+      "long2": "Each checkable claim was compared against the work of modern historians — and separately against the books available to the author in her own time, because an error of the era and an invention are different things. An accusatory conclusion had to rest on at least two independent sources, and on academic works for the central topics.",
+      "stat2": "{n} claims were open to checking",
+      "long3": "A separate pass served as the book's defense attorney: it tried to overturn every accusation with its own research — looking for a stronger reading and checking whether the verifier had erred. No accusatory conclusion enters the results without surviving the defense.",
+      "stat3": "{full} accusations withdrawn entirely, {down} softened",
+      "long4": "Questions on which scholars genuinely disagree went to a separate review under rules written down and frozen before it began. Every claim received two rulings — as printed and in a careful version; the other side's strongest argument was engaged in writing; and for every conclusion it was recorded what discovery would change it.",
+      "stat4": "{n} disputed questions resolved on the dual scale"
+    },
+    "objectivity": {
+      "eyebrow": "Impartiality",
+      "h2": "Safeguards against drift",
+      "text": "A study carried out with AI cannot just promise honesty — it has to build honesty into the procedure and publish the tally. The two main safeguards: a mandatory defense of every accusation, and an open distribution of the review's rulings.",
+      "defenseTitle": "The defense worked",
+      "defenseText": "The defense withdrew {full} accusations entirely — including the story of the Bishop of Durham buying up Tyndale's Bibles and Wycliffe's first English Bible — and softened {down} more. After it, not one confirmed misquotation remained in the book.",
+      "directionTitle": "Which way the review's rulings moved",
+      "directionText": "The tally was kept openly and in both directions; there were no quotas, only rules."
+    },
+    "charter": {
+      "eyebrow": "Rules",
+      "h2": "Rules frozen in advance",
+      "text": "The 97 disputed questions were reviewed not at discretion but under a charter — a document written, agreed, and frozen before the review began, so it could not be bent toward a desired result. Its full text is in the open data. The main rules:",
+      "rules": {
+        "1": "Every claim receives two rulings: the text as printed, and a careful version without “all”, “never”, “only”. The gap between them is a finding in its own right.",
+        "2": "The more categorical the sentence, the stricter the demand: one well-documented exception refutes “all” and “not one”.",
+        "3": "The strongest argument of the opposing side is engaged in writing and on the merits; the confession of the argument's author is not an argument.",
+        "4": "Every conclusion ends with a record of “what would change this conclusion”: what find — a document, a manuscript, a study — would tip the scales.",
+        "5": "Interpretations of prophecy are never put on the scales: a claim that is theological through and through receives the category “conditional premise” — neither true nor false."
+      },
+      "chains": "One more rule of honest arithmetic: repetitions of one error are not counted as new errors. The 81 rulings against the printed text amount to 68 independent errors; the other 13 repeat one shared root (for example, ten dates inherit the single 457 BC anchor) and are published only together with that number."
+    },
+    "boundary": {
+      "eyebrow": "Limits",
+      "h2": "What the study does not decide",
+      "text": "The audit passes no judgment on God, prophecy, or faith: 1,346 of the book's theological claims were counted neither true nor false, and ten historical questions remain honestly open — for each, what discovery would tip the scales is on record. The method also has limits worth stating plainly:",
+      "limits": {
+        "1": "The search budget per question was capped; where sources ran short, the record says “scholars disagree”, not a guess.",
+        "2": "English-language scholarship took priority; some works are covered through surveys and reviews of them.",
+        "3": "The executors are language models, and they can err. That is why every conclusion carries its sources and full history: the route to re-checking is open to anyone.",
+        "4": "What was checked is the historical fabric of one book in its 1911 edition — not Adventist theology and not the author's person."
+      }
+    },
+    "faq": {
+      "eyebrow": "Questions",
+      "h2": "Three frequent questions",
+      "q1": "Who made this?",
+      "a1": "The methodology and the verification pipeline were designed by the author, Vladislav Osin (see “From the author” below); the execution was carried out by Claude models. This is one person's study with AI executors; no organization stands behind it.",
+      "q2": "Can a study carried out by AI be trusted?",
+      "a2": "Trust belongs not to the executor but to checkability. The rules were frozen before the work began; every accusation survived an adversarial defense; the tally of rulings is published in both directions; and every conclusion records what discovery would change it. All primary materials are open — an error can be found and pointed out, which is stronger than any promise.",
+      "q3": "Where is the data?",
+      "a3": "The data.zip archive on this page: the full history of all 4,443 claims, all 23 reviews, the frozen rules, and a bilingual description of the data schema. The site's and pipeline's code is on GitHub."
+    },
+    "tools": {
+      "eyebrow": "Tools",
+      "h2": "What did the work",
+      "sonnetName": "Claude Sonnet 4.6",
+      "sonnetRole": "extracting claims from the chapters and scoring the weight of errors",
+      "opusName": "Claude Opus 4.8",
+      "opusRole": "checking against sources and the adversarial defense",
+      "fableName": "Claude Fable 5",
+      "fableRole": "the review of disputed questions, the synthesis, and this website",
+      "designed": "The author designed the methodology and the verification pipeline; the models worked under his rules."
+    },
+    "data": {
+      "eyebrow": "Data",
+      "h2": "The study's data",
+      "text": "Everything this site stands on can be downloaded and re-checked: the full history of each of the 4,443 claims, all 23 reviews, the frozen rules, and a bilingual description of the data schema. The dataset is assembled by the same script that produces the site's numbers, so they cannot diverge.",
+      "download": "Download data.zip ({size} MB)",
+      "source": "Source code",
+      "provenance": "Data version {version}, {date} · research data: CC BY 4.0 · the 1911 English text of the book is public domain"
+    },
+    "author": {
+      "eyebrow": "Author",
+      "h2": "From the author",
+      "text": "My name is Vladislav Osin. I am a master's student in machine learning, and I have spent three years engineering neural-network solutions. I am a Christian, a Seventh-day Adventist; for many years I have studied the Bible, church history, and its sources. This study grew out of a desire to answer one question honestly: does the historical fabric of one of the most influential Adventist books withstand checking against modern sources — is there room in it for conjecture, was history bent to fit a desired meaning, or did the author follow the knowledge of her era in good faith? I designed the methodology and the verification pipeline; the execution was carried out by Claude models (listed below); the data, the adjudication charter, and all conclusions are open for verification.",
+      "contact": "Write to the author"
+    },
+    "license": {
+      "eyebrow": "License",
+      "h2": "Rights and use",
+      "text": "The research data and the site's texts: CC BY 4.0 © 2026 Vladislav Osin — use freely with attribution. The English text of “The Great Controversy”, 1911 edition, is public domain. The seven excerpts of the official Russian translation on the chain pages are quoted with attribution (© Ellen G. White Estate) and are not part of the dataset.",
+      "attribution": "Attribution example: Osin V., “A Historical Audit of The Great Controversy”, 2026, [URL]"
+    },
+    "glossary": {
+      "eyebrow": "Glossary",
+      "h2": "The study's terms",
+      "intro": "The site's pages speak plain language; here are the internal pipeline terms you will meet in the downloadable dataset.",
+      "colTerm": "data term",
+      "colPlain": "what it means",
+      "rows": {
+        "0": {
+          "term": "supported",
+          "plain": "confirmed by modern historians"
+        },
+        "1": {
+          "term": "contradicted",
+          "plain": "contradicted by the historical record (two remained after the defense)"
+        },
+        "2": {
+          "term": "anachronistic",
+          "plain": "an error of its era: repeats 19th-century sources that scholarship has since revised"
+        },
+        "3": {
+          "term": "disputed",
+          "plain": "scholars disagree; the question went to the review under frozen rules"
+        },
+        "4": {
+          "term": "misquotation",
+          "plain": "a distorted quotation (none left after the defense)"
+        },
+        "5": {
+          "term": "unverifiable",
+          "plain": "beyond historical checking: theology, the supernatural, the future"
+        },
+        "6": {
+          "term": "well-supported",
+          "plain": "solidly confirmed (the review's scale)"
+        },
+        "7": {
+          "term": "probable",
+          "plain": "more likely true"
+        },
+        "8": {
+          "term": "genuinely-open",
+          "plain": "scholars genuinely disagree: strong arguments on both sides"
+        },
+        "9": {
+          "term": "improbable",
+          "plain": "more likely false"
+        },
+        "10": {
+          "term": "discredited",
+          "plain": "refuted by the sources"
+        },
+        "11": {
+          "term": "out-of-scope / conditional premise",
+          "plain": "a conditional premise: rests on an interpretation of prophecy that history cannot test"
+        },
+        "12": {
+          "term": "as written / weakened",
+          "plain": "the dual ruling: the text as printed, and a careful version without “all” and “never”"
+        },
+        "13": {
+          "term": "framing gap",
+          "plain": "the gap between wording and substance, from 0 to 4"
+        },
+        "14": {
+          "term": "fact / frame / motive",
+          "plain": "what failed: the fact, the framing, or an attributed motive"
+        },
+        "15": {
+          "term": "load-bearing",
+          "plain": "a load-bearing claim: the chapter's or the book's argument rests on it"
+        },
+        "16": {
+          "term": "chain-inherited",
+          "plain": "a repeat of one root: counted as one error together with its anchor"
+        },
+        "17": {
+          "term": "period_standard",
+          "plain": "what the era's sources said: its scholarship (period-scholarship) or only the expositor tradition (expositor-tradition)"
+        }
+      }
+    }
   }
 }

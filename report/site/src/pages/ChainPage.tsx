@@ -46,7 +46,7 @@ function ClaimRow({ claim }: { claim: ClaimBrief }) {
       </p>
       <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-2">
         <a
-          href={href.explorer}
+          href={href.explorerWith({ id: claim.id })}
           className="font-mono text-[0.6875rem] text-ink-soft underline decoration-line underline-offset-4 hover:text-binding"
         >
           {tp('chainPage.item.ref', { ch: claim.chapter, p: claim.paragraph })} · {claim.id}

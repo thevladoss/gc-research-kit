@@ -7,6 +7,7 @@ import {
   XAxis,
   YAxis,
 } from 'recharts'
+import { DirectionBar } from '../components/DirectionBar'
 import { FiveStepScale } from '../components/FiveStepScale'
 import { Reveal } from '../components/Reveal'
 import { dossierCards, type DossierCard as TDossier, type DossierClaim } from '../data/generated/dossiers'
@@ -81,51 +82,15 @@ function GapChart() {
   )
 }
 
-function DirectionBar() {
-  const { t, fmtInt } = useI18n()
-  const d = stats.direction
-  const total = d.accusatory + d.genuinely_open + d.favorable + d.conditional_premise
-  const parts = [
-    { key: 'dirAccusatory', value: d.accusatory, fill: 'var(--color-v-improbable)', ink: 'var(--color-v-improbable-ink)' },
-    { key: 'dirOpen', value: d.genuinely_open, fill: 'var(--color-v-open)', ink: 'var(--color-v-open-ink)' },
-    { key: 'dirFavorable', value: d.favorable, fill: 'var(--color-v-supported)', ink: 'var(--color-v-supported-ink)' },
-    { key: 'dirConditional', value: d.conditional_premise, fill: 'var(--color-v-conditional)', ink: 'var(--color-v-conditional-ink)' },
-  ]
+function DirectionBlock() {
+  const { t } = useI18n()
   return (
     <div>
       <h3 className="font-display text-lg text-ink">{t('dossiersPage.strip.dirTitle')}</h3>
-      <p className="mt-1 text-[0.8125rem] leading-snug text-ink-soft">
+      <p className="mt-1 mb-4 text-[0.8125rem] leading-snug text-ink-soft">
         {t('dossiersPage.strip.dirSub')}
       </p>
-      <div
-        className="mt-4 flex h-9 w-full overflow-hidden rounded-sm"
-        role="img"
-        aria-label={parts.map((p) => `${t(`dossiersPage.strip.${p.key}`)}: ${p.value}`).join('; ')}
-      >
-        {parts.map((p) => (
-          <div
-            key={p.key}
-            style={{ width: `${(p.value / total) * 100}%`, background: p.fill }}
-            className="border-r-2 border-paper last:border-r-0"
-            title={`${t(`dossiersPage.strip.${p.key}`)}: ${p.value}`}
-          />
-        ))}
-      </div>
-      <ul className="mt-3 space-y-1">
-        {parts.map((p) => (
-          <li key={p.key} className="flex items-baseline gap-2 font-mono text-[0.75rem]">
-            <span aria-hidden="true" className="inline-block h-2.5 w-2.5 shrink-0 rounded-full" style={{ background: p.fill }} />
-            <span className="text-ink tabular-nums">{fmtInt(p.value)}</span>
-            <span className="text-ink-soft">{t(`dossiersPage.strip.${p.key}`)}</span>
-          </li>
-        ))}
-      </ul>
-      <p className="mt-3 text-[0.8125rem] leading-snug text-ink-soft">
-        {t('dossiersPage.strip.chainsNote')}
-      </p>
-      <p className="mt-1.5 text-[0.8125rem] leading-snug" style={{ color: 'var(--color-v-supported-ink)' }}>
-        {t('dossiersPage.strip.reversalsNote')}
-      </p>
+      <DirectionBar />
     </div>
   )
 }
@@ -136,7 +101,7 @@ function ClaimScaleRow({ claim }: { claim: DossierClaim }) {
     <li className="border-t border-line py-3 first:border-t-0">
       <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
         <a
-          href={href.explorer}
+          href={href.explorerWith({ id: claim.id })}
           className="w-28 shrink-0 font-mono text-[0.6875rem] text-ink-soft underline decoration-line underline-offset-4 hover:text-binding"
         >
           {claim.id}
@@ -226,7 +191,7 @@ export function DossiersPage() {
       <Reveal>
         <section className="mt-10 grid gap-8 border border-line bg-paper-deep px-6 py-6 md:grid-cols-2 md:px-8">
           <GapChart />
-          <DirectionBar />
+          <DirectionBlock />
         </section>
       </Reveal>
 

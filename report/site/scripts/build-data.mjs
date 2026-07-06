@@ -126,6 +126,9 @@ for (const f of impactFiles) {
         ? {
             dossier: adj.dossier,
             dossier_slug: adj.slug,
+            // флаги слоя синтеза (chain_map + period_standard из aggregate)
+            chain_inherited: adjClaimById.get(c.id)?.chain_inherited ?? false,
+            period_standard: adjClaimById.get(c.id)?.period_standard ?? null,
             ...adj.ruling,
           }
         : null,
@@ -255,10 +258,7 @@ writeFileSync(
     `export interface ChainLink { link: number; title_ru: string; status: ChainStatus; basis: readonly string[]; commentary_ru: string }\n` +
     `export const thesisChain: readonly ChainLink[] = ${JSON.stringify(chain, null, 2)} as const\n`,
 )
-writeFileSync(
-  path.join(genDir, 'chapters.ts'),
-  banner + `export const chapterSummaries = ${JSON.stringify(chapterSummaries, null, 2)} as const\n`,
-)
+// chapters.ts пишется ниже (нужен labelKeyOf из секции этапа 2)
 
 // ---------- этап 2: детали звеньев цепи, пассажи вычитания, досье ----------
 
@@ -344,6 +344,45 @@ const claimBrief = (id) => {
     period: adjMeta?.period_standard ?? null,
   }
 }
+
+// карта книги: пер-главные счётчики итоговых классов + несущие утверждения.
+// Классы для карты: favorable = supported + оправданные разбором (WS/probable).
+const MAP_CLASS = {
+  supported: 'supported',
+  wellSupported: 'supported',
+  probable: 'supported',
+  open: 'open',
+  anachronistic: 'anachronistic',
+  improbable: 'improbable',
+  discredited: 'discredited',
+  contradicted: 'discredited',
+  conditional: 'conditional',
+  unverifiable: 'unverifiable',
+}
+const chapterMap = chapterSummaries.map((ch) => {
+  const claims = claimsFull.filter((c) => c.chapter === ch.chapter)
+  const outcomes = {
+    supported: 0,
+    open: 0,
+    anachronistic: 0,
+    improbable: 0,
+    discredited: 0,
+    conditional: 0,
+    unverifiable: 0,
+  }
+  let loadBearing = 0
+  for (const c of claims) {
+    outcomes[MAP_CLASS[labelKeyOf(c)]]++
+    if (loadBearingOf(c)) loadBearing++
+  }
+  return { chapter: ch.chapter, title: ch.title, claims: claims.length, outcomes, loadBearing }
+})
+writeFileSync(
+  path.join(genDir, 'chapters.ts'),
+  banner +
+    `export interface ChapterMap { chapter: number; title: string; claims: number; outcomes: { supported: number; open: number; anachronistic: number; improbable: number; discredited: number; conditional: number; unverifiable: number }; loadBearing: number }\n` +
+    `export const chapterMap: readonly ChapterMap[] = ${JSON.stringify(chapterMap, null, 2)} as const\n`,
+)
 
 // детали звеньев: basis-утверждения синтеза, сгруппированные по исходу.
 // Звену 3 (цело) добавлены три утверждения, оправданных защитой в его главах:
@@ -649,6 +688,12 @@ locale quotes seven short excerpts from the official Russian translation
 (© Ellen G. White Estate); they are quoted for research purposes and are NOT included
 in this archive.
 
+Все прочие русские передачи цитат книги в материалах проекта — рабочие переводы
+самого проекта (версия ${DATA_VERSION}); использование официального перевода для них
+планируется. All other Russian renderings of the book's quotations in the project's
+materials are the project's own working translations (v${DATA_VERSION}); adopting the
+official translation for them is planned.
+
 ## Авторство, лицензия, контакт / Authorship, license, contact
 
 Исследование: Владислав Осин / Research: Vladislav Osin.
@@ -686,6 +731,19 @@ try {
 } catch {
   console.warn('! zip недоступен — data.zip не собран (установите zip и перезапустите)')
 }
+
+// метаданные для сайта: версия, дата, размер архива
+const zipPath = path.join(pubDir, 'data.zip')
+const zipBytes = existsSync(zipPath) ? statSync(zipPath).size : 0
+writeFileSync(
+  path.join(genDir, 'meta.ts'),
+  banner +
+    `export const dataMeta = ${JSON.stringify(
+      { version: DATA_VERSION, generated_at: aggregate.generated_at, zipBytes },
+      null,
+      2,
+    )} as const\n`,
+)
 
 // ---------- отчёт ----------
 const sizes = Object.fromEntries(
