@@ -18,8 +18,8 @@ export const chapterSummaries = [
     "verdicts": {
       "supported": 99,
       "unverifiable": 17,
-      "anachronistic": 4,
-      "disputed": 7
+      "anachronistic": 3,
+      "disputed": 8
     }
   },
   {
@@ -28,9 +28,9 @@ export const chapterSummaries = [
     "claims": 65,
     "verdicts": {
       "unverifiable": 22,
-      "disputed": 9,
+      "disputed": 10,
       "supported": 32,
-      "anachronistic": 2
+      "anachronistic": 1
     }
   },
   {
@@ -40,8 +40,8 @@ export const chapterSummaries = [
     "verdicts": {
       "supported": 79,
       "unverifiable": 18,
-      "disputed": 6,
-      "anachronistic": 5
+      "disputed": 8,
+      "anachronistic": 3
     }
   },
   {
@@ -49,12 +49,10 @@ export const chapterSummaries = [
     "title": "The Waldenses",
     "claims": 114,
     "verdicts": {
-      "anachronistic": 17,
-      "supported": 65,
-      "unverifiable": 20,
-      "disputed": 10,
-      "contradicted": 1,
-      "misquotation": 1
+      "anachronistic": 15,
+      "supported": 68,
+      "unverifiable": 24,
+      "disputed": 7
     }
   },
   {
@@ -62,9 +60,10 @@ export const chapterSummaries = [
     "title": "John Wycliffe",
     "claims": 132,
     "verdicts": {
-      "supported": 103,
+      "supported": 104,
       "unverifiable": 22,
-      "anachronistic": 7
+      "anachronistic": 5,
+      "disputed": 1
     }
   },
   {
@@ -73,8 +72,8 @@ export const chapterSummaries = [
     "claims": 176,
     "verdicts": {
       "supported": 148,
-      "anachronistic": 6,
-      "unverifiable": 13,
+      "anachronistic": 5,
+      "unverifiable": 14,
       "disputed": 9
     }
   },
@@ -85,7 +84,8 @@ export const chapterSummaries = [
     "verdicts": {
       "unverifiable": 11,
       "supported": 114,
-      "anachronistic": 5
+      "disputed": 1,
+      "anachronistic": 4
     }
   },
   {
@@ -95,7 +95,7 @@ export const chapterSummaries = [
     "verdicts": {
       "supported": 123,
       "unverifiable": 10,
-      "anachronistic": 1
+      "disputed": 1
     }
   },
   {
@@ -114,7 +114,7 @@ export const chapterSummaries = [
     "verdicts": {
       "supported": 79,
       "unverifiable": 11,
-      "anachronistic": 2
+      "disputed": 2
     }
   },
   {
@@ -133,9 +133,9 @@ export const chapterSummaries = [
     "title": "The French Reformation",
     "claims": 146,
     "verdicts": {
-      "supported": 137,
+      "supported": 138,
       "unverifiable": 6,
-      "anachronistic": 3
+      "anachronistic": 2
     }
   },
   {
@@ -143,8 +143,8 @@ export const chapterSummaries = [
     "title": "The Netherlands And Scandinavia",
     "claims": 76,
     "verdicts": {
-      "anachronistic": 8,
-      "supported": 67,
+      "supported": 68,
+      "anachronistic": 7,
       "unverifiable": 1
     }
   },
@@ -154,8 +154,7 @@ export const chapterSummaries = [
     "claims": 157,
     "verdicts": {
       "unverifiable": 23,
-      "supported": 130,
-      "contradicted": 1,
+      "supported": 131,
       "anachronistic": 2,
       "disputed": 1
     }
@@ -167,9 +166,8 @@ export const chapterSummaries = [
     "verdicts": {
       "supported": 109,
       "unverifiable": 39,
-      "anachronistic": 3,
-      "disputed": 5,
-      "misquotation": 2
+      "anachronistic": 4,
+      "disputed": 6
     }
   },
   {
@@ -186,9 +184,8 @@ export const chapterSummaries = [
     "title": "Heralds Of The Morning",
     "claims": 92,
     "verdicts": {
-      "supported": 65,
+      "supported": 67,
       "unverifiable": 21,
-      "anachronistic": 2,
       "disputed": 4
     }
   },
@@ -336,9 +333,9 @@ export const chapterSummaries = [
     "title": "Snares Of Satan",
     "claims": 64,
     "verdicts": {
-      "unverifiable": 38,
+      "unverifiable": 39,
       "supported": 24,
-      "anachronistic": 2
+      "disputed": 1
     }
   },
   {
@@ -367,9 +364,8 @@ export const chapterSummaries = [
     "claims": 112,
     "verdicts": {
       "unverifiable": 36,
-      "supported": 68,
-      "disputed": 7,
-      "anachronistic": 1
+      "supported": 69,
+      "disputed": 7
     }
   },
   {
@@ -389,8 +385,7 @@ export const chapterSummaries = [
     "claims": 56,
     "verdicts": {
       "supported": 24,
-      "unverifiable": 30,
-      "misquotation": 1,
+      "unverifiable": 31,
       "disputed": 1
     }
   },

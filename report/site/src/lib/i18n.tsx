@@ -12,6 +12,8 @@ interface I18nValue {
   locale: Locale
   setLocale: (l: Locale) => void
   t: (path: string) => string
+  /** t с подстановкой параметров: tp('x.y', {n: 3}) заменяет {n} */
+  tp: (path: string, params: Record<string, string | number>) => string
   fmtInt: (n: number) => string
   fmtPct: (share: number) => string
 }
@@ -79,10 +81,13 @@ export function I18nProvider({ children }: { children: ReactNode }) {
       minimumFractionDigits: 1,
       maximumFractionDigits: 1,
     })
+    const tp = (path: string, params: Record<string, string | number>) =>
+      t(path).replace(/\{(\w+)\}/g, (m, key) => (key in params ? String(params[key]) : m))
     return {
       locale,
       setLocale,
       t,
+      tp,
       fmtInt: (n) => intFmt.format(n),
       fmtPct: (share) => pctFmt.format(share),
     }

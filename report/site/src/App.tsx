@@ -1,8 +1,15 @@
+import { lazy, Suspense } from 'react'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import { useRoute } from './lib/router'
+import { ChainPage } from './pages/ChainPage'
 import { Home } from './pages/Home'
 import { NotFound, Stub } from './pages/Stub'
+
+// recharts и данные досье не грузятся, пока раздел не открыт
+const DossiersPage = lazy(() =>
+  import('./pages/DossiersPage').then((m) => ({ default: m.DossiersPage })),
+)
 
 export default function App() {
   const route = useRoute()
@@ -12,10 +19,14 @@ export default function App() {
       page = <Home />
       break
     case 'chain':
-      page = <Stub titleKey="nav.home" />
+      page = <ChainPage key={route.link} link={route.link} />
       break
     case 'dossiers':
-      page = <Stub titleKey="nav.dossiers" />
+      page = (
+        <Suspense fallback={<main className="mx-auto max-w-6xl px-5 py-24 md:px-8" />}>
+          <DossiersPage />
+        </Suspense>
+      )
       break
     case 'map':
       page = <Stub titleKey="nav.map" />

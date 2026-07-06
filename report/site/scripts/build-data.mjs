@@ -88,10 +88,9 @@ for (const f of impactFiles) {
     const defense = defenseById.get(c.id) ?? null
     const adj = rulingByClaim.get(c.id) ?? null
 
-    // финальный вердикт первого круга: verification.verdict уже отражает
-    // пост-defense состояние в defended/impact файлах
+    // финальный вердикт первого круга: защита могла пересмотреть вердикт верификатора
     const v = c.verification ?? null
-    const finalVerdict = v?.verdict ?? null
+    const finalVerdict = defense?.revised_verdict ?? v?.verdict ?? null
     perVerdict[finalVerdict ?? 'none'] = (perVerdict[finalVerdict ?? 'none'] ?? 0) + 1
 
     const rec = {
@@ -260,6 +259,247 @@ writeFileSync(
   path.join(genDir, 'chapters.ts'),
   banner + `export const chapterSummaries = ${JSON.stringify(chapterSummaries, null, 2)} as const\n`,
 )
+
+// ---------- этап 2: детали звеньев цепи, пассажи вычитания, досье ----------
+
+// итоговый вердикт первого круга: защита могла пересмотреть вердикт верификатора
+const effectiveVerdict = (c) => c.defense?.revised_verdict ?? c.verification?.verdict
+
+// итоговый класс исхода для каждого утверждения (единая логика сайта)
+const outcomeOf = (c) => {
+  const adj = rulingByClaim.get(c.id)
+  if (adj) {
+    return {
+      'well-supported': 'stands',
+      probable: 'stands',
+      'genuinely-open': 'open',
+      improbable: 'fallen',
+      discredited: 'fallen',
+      'out-of-scope': 'conditional',
+    }[adj.ruling.ruling_as_written]
+  }
+  const v = effectiveVerdict(c)
+  return (
+    {
+      supported: 'stands',
+      anachronistic: 'fallen',
+      contradicted: 'fallen',
+      misquotation: 'fallen',
+      disputed: 'open',
+      unverifiable: 'outside',
+    }[v] ?? 'none'
+  )
+}
+
+// ключ подписи вердикта в content/*.json → verdicts.*
+const labelKeyOf = (c) => {
+  const adj = rulingByClaim.get(c.id)
+  if (adj) {
+    return {
+      'well-supported': 'wellSupported',
+      probable: 'probable',
+      'genuinely-open': 'open',
+      improbable: 'improbable',
+      discredited: 'discredited',
+      'out-of-scope': 'conditional',
+    }[adj.ruling.ruling_as_written]
+  }
+  return {
+    supported: 'supported',
+    anachronistic: 'anachronistic',
+    contradicted: 'contradicted',
+    misquotation: 'discredited',
+    disputed: 'open',
+    unverifiable: 'unverifiable',
+  }[effectiveVerdict(c)]
+}
+
+const claimById = new Map(claimsFull.map((c) => [c.id, c]))
+const loadBearingOf = (c) => Boolean(c.impact_adjudicated?.load_bearing ?? c.impact?.load_bearing)
+const impactScoreOf = (c) => c.impact_adjudicated?.impact_score ?? c.impact?.impact_score ?? 0
+
+const claimBrief = (id) => {
+  const c = claimById.get(id)
+  if (!c) throw new Error(`chainDetail: нет утверждения ${id}`)
+  const adjMeta = adjClaimById.get(id)
+  const adj = rulingByClaim.get(id)
+  return {
+    id,
+    chapter: c.chapter,
+    paragraph: c.paragraph,
+    quote: c.quote.length > 230 ? c.quote.slice(0, 227).trimEnd() + '…' : c.quote,
+    outcome: outcomeOf(c),
+    labelKey: labelKeyOf(c),
+    loadBearing: loadBearingOf(c),
+    adjudicated: adj
+      ? {
+          asWritten: adj.ruling.ruling_as_written,
+          weakened: adj.ruling.ruling_weakened ?? null,
+          gap: adj.ruling.framing_gap ?? null,
+          kind: adj.ruling.failing_component_kind ?? null,
+          confidence: adj.ruling.confidence ?? null,
+        }
+      : null,
+    chainInherited: adjMeta?.chain_inherited ?? false,
+    period: adjMeta?.period_standard ?? null,
+  }
+}
+
+// детали звеньев: basis-утверждения синтеза, сгруппированные по исходу.
+// Звену 3 (цело) добавлены три утверждения, оправданных защитой в его главах:
+// соответствие целого звена — полноценный результат, «что выстояло» не должно пустовать.
+const CHAIN_EXTRA_STANDS = { 3: ['GC-05-075', 'GC-12-027', 'GC-14-032'] }
+
+const chainDetail = aggregate.thesis_chain_status.map((l) => {
+  const extra = (CHAIN_EXTRA_STANDS[l.link] ?? []).map(claimBrief)
+  for (const e of extra) {
+    if (e.outcome !== 'stands') throw new Error(`extra-stands ${e.id}: исход ${e.outcome}, не stands`)
+  }
+  const briefs = [...l.basis.map(claimBrief), ...extra]
+  const order = (a, b) =>
+    Number(b.loadBearing) - Number(a.loadBearing) ||
+    impactScoreOf(claimById.get(b.id)) - impactScoreOf(claimById.get(a.id)) ||
+    a.id.localeCompare(b.id)
+  const group = (o) => briefs.filter((x) => x.outcome === o).sort(order)
+  return {
+    link: l.link,
+    stands: group('stands'),
+    fallen: group('fallen'),
+    open: group('open'),
+    conditional: group('conditional'),
+  }
+})
+
+// пассажи «режима вычитания»: выбранные абзацы, размеченные исходами утверждений
+const CHAIN_PASSAGES = {
+  1: { chapter: 1, paragraphs: [34] },
+  2: { chapter: 4, paragraphs: [8, 9] },
+  3: { chapter: 7, paragraphs: [16] },
+  4: { chapter: 18, paragraphs: [29] },
+  5: { chapter: 23, paragraphs: [3] },
+  6: { chapter: 26, paragraphs: [3] },
+  7: { chapter: 36, paragraphs: [11] },
+}
+
+const norm = (s) => s.replace(/\s+/g, ' ').trim()
+// для поиска: унификация апострофов/кавычек (замены той же длины — индексы сохраняются)
+const matchable = (s) => s.replace(/[’‘]/g, "'").replace(/[“”]/g, '"')
+const chapterParas = (ch) => {
+  const txt = readFileSync(
+    path.join(ROOT, 'source', 'chapters', `gc_ch${String(ch).padStart(2, '0')}.txt`),
+    'utf8',
+  )
+  const out = new Map()
+  for (const m of txt.matchAll(/\[¶(\d+)\]\s*([\s\S]*?)(?=\n\[¶|$)/g)) {
+    out.set(Number(m[1]), norm(m[2]))
+  }
+  return out
+}
+
+const chainPassages = Object.entries(CHAIN_PASSAGES).map(([link, cfg]) => {
+  const paras = chapterParas(cfg.chapter)
+  const passageParas = cfg.paragraphs.map((p) => {
+    const text = paras.get(p)
+    if (!text) throw new Error(`пассаж: нет ¶${p} в гл. ${cfg.chapter}`)
+    const marks = []
+    for (const c of claimsFull) {
+      if (c.chapter !== cfg.chapter || c.paragraph !== p) continue
+      const q = norm(c.quote)
+      const start = matchable(text).indexOf(matchable(q))
+      if (start === -1) {
+        console.warn(`! пассаж зв.${link}: цитата ${c.id} не найдена в ¶${p}`)
+        continue
+      }
+      marks.push({ start, end: start + q.length, id: c.id, outcome: outcomeOf(c) })
+    }
+    marks.sort((a, b) => a.start - b.start || b.end - a.end)
+    // выбрасываем перекрытия (оставляем более раннюю/длинную разметку)
+    const flat = []
+    let cursor = 0
+    for (const m of marks) {
+      if (m.start < cursor) continue
+      flat.push(m)
+      cursor = m.end
+    }
+    const segments = []
+    let pos = 0
+    for (const m of flat) {
+      if (m.start > pos) segments.push({ text: text.slice(pos, m.start) })
+      segments.push({ text: text.slice(m.start, m.end), id: m.id, outcome: m.outcome })
+      pos = m.end
+    }
+    if (pos < text.length) segments.push({ text: text.slice(pos) })
+    return { paragraph: p, segments }
+  })
+  return { link: Number(link), chapter: cfg.chapter, paras: passageParas }
+})
+
+// досье для /dossiers
+const dossierCards = dossiers.map((d) => {
+  const chapters = [...new Set(d.rulings.map((r) => Number(r.id.split('-')[1])))].sort((a, b) => a - b)
+  return {
+    dossier: d.dossier,
+    slug: d.slug,
+    chapters,
+    narrative_ru: d.narrative_ru,
+    claims: d.rulings.map((r) => {
+      const c = claimById.get(r.id)
+      const adjMeta = adjClaimById.get(r.id)
+      return {
+        id: r.id,
+        chapter: c.chapter,
+        quote: c.quote.length > 150 ? c.quote.slice(0, 147).trimEnd() + '…' : c.quote,
+        asWritten: r.ruling_as_written,
+        weakened: r.ruling_weakened ?? null,
+        gap: r.framing_gap ?? null,
+        kind: r.failing_component_kind ?? null,
+        confidence: r.confidence ?? null,
+        loadBearing: loadBearingOf(c),
+        chainInherited: adjMeta?.chain_inherited ?? false,
+        period: adjMeta?.period_standard ?? null,
+      }
+    }),
+  }
+})
+
+writeFileSync(
+  path.join(genDir, 'chainDetail.ts'),
+  banner +
+    `export interface ClaimBrief { id: string; chapter: number; paragraph: number; quote: string; outcome: 'stands' | 'fallen' | 'open' | 'conditional' | 'outside'; labelKey: string; loadBearing: boolean; adjudicated: { asWritten: string; weakened: string | null; gap: number | null; kind: string | null; confidence: string | null } | null; chainInherited: boolean; period: string | null }\n` +
+    `export interface ChainLinkDetail { link: number; stands: ClaimBrief[]; fallen: ClaimBrief[]; open: ClaimBrief[]; conditional: ClaimBrief[] }\n` +
+    `export const chainDetail: readonly ChainLinkDetail[] = ${JSON.stringify(chainDetail, null, 2)} as const\n`,
+)
+writeFileSync(
+  path.join(genDir, 'chainPassages.ts'),
+  banner +
+    `export interface PassageSegment { text: string; id?: string; outcome?: 'stands' | 'fallen' | 'open' | 'conditional' | 'outside' | 'none' }\n` +
+    `export interface ChainPassage { link: number; chapter: number; paras: { paragraph: number; segments: PassageSegment[] }[] }\n` +
+    `export const chainPassages: readonly ChainPassage[] = ${JSON.stringify(chainPassages, null, 2)} as const\n`,
+)
+writeFileSync(
+  path.join(genDir, 'dossiers.ts'),
+  banner +
+    `export interface DossierClaim { id: string; chapter: number; quote: string; asWritten: string; weakened: string | null; gap: number | null; kind: string | null; confidence: string | null; loadBearing: boolean; chainInherited: boolean; period: string | null }\n` +
+    `export interface DossierCard { dossier: string; slug: string; chapters: number[]; narrative_ru: string; claims: DossierClaim[] }\n` +
+    `export const dossierCards: readonly DossierCard[] = ${JSON.stringify(dossierCards, null, 2)} as const\n`,
+)
+
+// контроль: RU-текст досье в content/ru.json обязан совпадать с данными (единый источник)
+{
+  const ruPath = path.join(SITE, 'content', 'ru.json')
+  if (existsSync(ruPath)) {
+    const ruContent = JSON.parse(readFileSync(ruPath, 'utf8'))
+    const narratives = ruContent?.dossiersPage?.narratives
+    if (narratives) {
+      for (const d of dossiers) {
+        const inContent = narratives[d.dossier]
+        if (inContent !== undefined && norm(inContent) !== norm(d.narrative_ru)) {
+          throw new Error(`content/ru.json: narrative ${d.dossier} разошёлся с ruling-файлом`)
+        }
+      }
+    }
+  }
+}
 
 // ---------- DATA_README ----------
 const dataReadme = `# GCHAR — открытый датасет / open dataset
