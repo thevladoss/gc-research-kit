@@ -1,0 +1,75 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-paper: #f2f1e8;
+  --color-paper-deep: #e9e7da;
+  --color-line: #d8d4c4;
+  --color-ink: #262a22;
+  --color-ink-soft: #565b4e;
+  --color-binding: #2e4b3f;
+  --color-brass: #8c7349;
+
+  --color-v-supported: #005e96;
+  --color-v-probable: #3f90c4;
+  --color-v-open: #6e6a5e;
+  --color-v-anach: #d9a018;
+  --color-v-improbable: #ae4a0c;
+  --color-v-discredited: #8a3318;
+  --color-v-conditional: #a1568a;
+  --color-v-unverifiable: #a9a395;
+
+  --color-v-supported-ink: #00517f;
+  --color-v-probable-ink: #1a5e88;
+  --color-v-open-ink: #5c5850;
+  --color-v-anach-ink: #7a5a0a;
+  --color-v-improbable-ink: #96400a;
+  --color-v-discredited-ink: #7c2d15;
+  --color-v-conditional-ink: #8a4372;
+  --color-v-unverifiable-ink: #6e6960;
+
+  --font-display: 'Old Standard TT', 'Times New Roman', serif;
+  --font-body: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  @apply bg-paper text-ink font-body antialiased;
+  font-feature-settings: 'kern';
+}
+
+::selection {
+  background: color-mix(in oklab, var(--color-binding) 22%, var(--color-paper));
+}
+
+/* Видимый фокус с клавиатуры — везде одинаковый */
+:focus-visible {
+  outline: 2px solid var(--color-binding);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+@utility eyebrow {
+  @apply font-mono text-[0.6875rem] font-medium uppercase tracking-[0.18em] text-binding;
+}
+
+@utility measure {
+  max-width: 42rem;
+}
+
+/* Штриховка для категории «вне проверки» */
+@utility hatch-unverifiable {
+  background-image: repeating-linear-gradient(
+    135deg,
+    var(--color-v-unverifiable) 0 3px,
+    transparent 3px 6px
+  );
+}

@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "title": "A Historical Audit of “The Great Controversy”",
+    "description": "4,443 claims from Ellen G. White's book checked against the work of historians. Full data and method are open."
+  },
+  "nav": {
+    "home": "The Verdict",
+    "dossiers": "Disputed Questions",
+    "map": "Map of the Book",
+    "explorer": "All Claims",
+    "method": "How We Checked"
+  },
+  "lang": {
+    "toggle": "РУ",
+    "aria": "Переключить на русский"
+  },
+  "verdicts": {
+    "supported": "confirmed",
+    "wellSupported": "solidly confirmed",
+    "probable": "more likely true",
+    "open": "genuinely contested",
+    "anachronistic": "an error of its era",
+    "improbable": "more likely false",
+    "discredited": "refuted by documents",
+    "contradicted": "contradicted by the record",
+    "conditional": "rests on an untestable premise",
+    "unverifiable": "beyond historical checking"
+  },
+  "chainStatus": {
+    "цело": "intact",
+    "повреждено": "damaged",
+    "условная посылка": "rests on an untestable premise",
+    "вне проверки": "beyond historical checking"
+  },
+  "home": {
+    "eyebrow": "A historical audit · the 1911 edition",
+    "h1": "What is left of “The Great Controversy” once you check every fact in it?",
+    "lede": "We copied out 4,443 claims from Ellen G. White's “The Great Controversy” (every date, event, quotation, and figure) and checked everything open to historical verification against the work of historians. The book's checkable fabric is largely intact: 94.8% of its claims held up, not one forgery turned up among its 1,283 quotations, and the Reformation chapters passed with no damage to any claim their story rests on. What the book bears worst is its own categorical voice: the words “all”, “never”, “not one” rarely survived the documents, though behind most such sentences stands a careful version the documents do support. Nearly every error we found, the book inherited from the historical works of its era, along with their knowledge and their blind spots.",
+    "stats": {
+      "claims": "claims copied out of the book: dates, events, quotations, figures",
+      "supportedShare": "of the checkable claims were confirmed by historians",
+      "discrepancies": "confirmed discrepancies with the historical record",
+      "discrepanciesNote": "the book inherited 96.9% of them from the works of its era rather than inventing them",
+      "adjudicated": "disputed questions resolved under rules fixed in advance"
+    },
+    "chain": {
+      "eyebrow": "The book's argument chain",
+      "h2": "Seven links of one argument",
+      "intro": "The book tells one story in seven steps, from the early church to the end of time. Each step rests on the ones before it. Here is what remains of each after the audit.",
+      "hint": "Hover over a link to read its outcome; click to open the full review.",
+      "openLink": "Open this link's review",
+      "links": {
+        "1": { "title": "Jerusalem and the early church", "chapters": "ch. 1–3" },
+        "2": { "title": "The remnant and the Waldenses", "chapters": "ch. 4, 13" },
+        "3": { "title": "The Reformation", "chapters": "ch. 5–16" },
+        "4": { "title": "The Millerite movement and 1844", "chapters": "ch. 17–22" },
+        "5": { "title": "The sanctuary and the investigative judgment", "chapters": "ch. 23–24, 28" },
+        "6": { "title": "Sabbath versus Sunday", "chapters": "ch. 25–26, 33, 35–36" },
+        "7": { "title": "The final crisis and the resolution", "chapters": "ch. 36–42" }
+      },
+      "plain": {
+        "1": "The loud “all” and “not one” fell, but the story itself (persecution, the influx of nominal converts, the community's flight from the city) stands: partly confirmed, partly honestly open.",
+        "2": "The antiquity of the “faithful remnant” and its Sabbath did not hold up; the reality of hidden communities, memorized Scripture, and persecution did.",
+        "3": "The account of Luther, Hus, and Wycliffe survived whole; only the legends added by later biographers failed the audit.",
+        "4": "The date calculation fell as printed, yet the movement's arithmetic is honest for what its era knew, and the movement's own history is told accurately.",
+        "5": "The entire link rests on an interpretation of prophecy — a premise a historian can neither confirm nor refute.",
+        "6": "Sunday's origin “from Rome” did not hold up; Rome's real role in suppressing the Sabbath did.",
+        "7": "Almost entirely about the future and faith: history has nothing to check here, and the link's force depends on the ones before it."
+      }
+    },
+    "pipeline": {
+      "eyebrow": "Method",
+      "h2": "How the audit worked",
+      "steps": {
+        "1": {
+          "title": "Extract",
+          "text": "Every checkable claim was copied out of every chapter: dates, events, quotations, figures. No judgments, just the complete list."
+        },
+        "2": {
+          "title": "Check",
+          "text": "Each claim was checked against the work of modern historians, and separately against the books available to the author in her own time."
+        },
+        "3": {
+          "title": "Hear the defense",
+          "text": "A separate pass served as the book's defense attorney: it tried to overturn every accusation. Fifteen accusations it dismissed entirely."
+        },
+        "4": {
+          "title": "Resolve the disputes",
+          "text": "97 questions on which scholars disagree were resolved under rules written down and frozen before the review began."
+        }
+      },
+      "link": "More about the method"
+    },
+    "findings": {
+      "eyebrow": "Key findings",
+      "h2": "What the audit found",
+      "cards": {
+        "quotes": {
+          "title": "Not one forged quotation",
+          "text": "The book contains 1,283 quotations attributed to historical figures. After every check, not a single confirmed distortion remains; the last contested quotation proved accurate on review.",
+          "link": "All quotation claims"
+        },
+        "inherited": {
+          "title": "Errors from the library, not the imagination",
+          "text": "96.9% of the confirmed discrepancies repeat the 19th-century historical works the author relied on. The book erred together with its era: the charge of inventing facts held up in only two peripheral cases.",
+          "link": "Map of errors by chapter"
+        },
+        "reformation": {
+          "title": "The Reformation chapters stood",
+          "text": "The account of Luther, Hus, and Wycliffe, a third of the book, passed the audit with no damage to any claim the story rests on. Only the ornament failed: legends added by biographers of the 17th–19th centuries.",
+          "link": "The “Reformation” link"
+        },
+        "waldenses": {
+          "title": "Waldensian antiquity did not hold up",
+          "text": "The two pillars of the “faithful remnant” chapter, the Waldenses' apostolic antiquity and an unbroken Sabbath across the centuries, are dismantled by modern research. This is the book's heaviest damage.",
+          "link": "The “Remnant and Waldenses” link"
+        },
+        "absolutes": {
+          "title": "The absolutes fell, the era's substance survived",
+          "text": "Of the 81 statements that failed the review, 73 recover once the words “all”, “never”, “only” are removed. The book's rhetoric failed the audit more often than its facts.",
+          "link": "All 23 reviews"
+        },
+        "pella": {
+          "title": "Jerusalem, AD 70: a template of certainty",
+          "text": "The book prints that when Jerusalem fell, “not one Christian perished.” No document knows this: whether the Christians left the city at all is still debated. Throughout the book, open questions harden into absolutes this way.",
+          "link": "The “Jerusalem” link"
+        }
+      }
+    },
+    "boundary": {
+      "eyebrow": "The method's limit",
+      "h2": "The honest boundary",
+      "text": "This study passes no judgment on God, prophecy, or faith. 1,346 of the book's claims (about the heavenly sanctuary, angels, the future) lie beyond historical checking and were counted neither true nor false. Ten historical questions remain open: on each, scholarship holds strong arguments on both sides, and for each we recorded what discovery would tip the scales. The book's theological meaning this audit neither confirms nor refutes: it checks history alone."
+    }
+  },
+  "stub": {
+    "title": "This page is still being assembled",
+    "text": "The home page is ready; the site's sections open in stages. This section arrives in the next stage.",
+    "back": "Back to home"
+  },
+  "footer": {
+    "research": "Research: Vladislav Osin",
+    "license": "CC BY 4.0",
+    "data": "Data",
+    "source": "Source code",
+    "contact": "Contact"
+  },
+  "notFound": {
+    "title": "No such page",
+    "back": "Back to home"
+  }
+}

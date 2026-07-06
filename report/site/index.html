@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f2f1e8" />
+    <meta
+      name="description"
+      content="Историческая проверка «Великой борьбы» Эллен Уайт: 4443 утверждения книги сверены с работами историков. Полные данные и метод открыты."
+    />
+    <title>Историческая проверка «Великой борьбы»</title>
+    <script>
+      // Заголовок вкладки для сохранённой локали до загрузки приложения
+      try {
+        if (localStorage.getItem('gc-locale') === 'en') {
+          document.title = 'A Historical Audit of “The Great Controversy”'
+          document.documentElement.lang = 'en'
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
